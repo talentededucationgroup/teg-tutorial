@@ -11,7 +11,7 @@
 // Plain variables (optional): GITHUB_REPO (default talentededucationgroup/teg-tutorial),
 //   GITHUB_BRANCH (default tts-audio), DEFAULT_VOICE (default id-ID-GadisNeural)
 
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const MAX_CHARS = 5000;
 
 const TOOLS = [
@@ -133,10 +133,17 @@ async function gh(env, path, init = {}) {
 }
 
 async function ensureBranch(env, repo, branch) {
+  if (!env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN secret is missing in Cloudflare");
   const r = await gh(env, `/repos/${repo}/git/ref/heads/${branch}`);
   if (r.ok) return;
-  const info = await (await gh(env, `/repos/${repo}`)).json();
-  const base = await (await gh(env, `/repos/${repo}/git/ref/heads/${info.default_branch}`)).json();
+  if (r.status === 401) throw new Error("GitHub 401: GITHUB_TOKEN is invalid or expired");
+  if (r.status === 403) throw new Error("GitHub 403: token has no access to " + repo);
+  const ir = await gh(env, `/repos/${repo}`);
+  if (!ir.ok) throw new Error(`GitHub ${ir.status}: cannot read ${repo} (check token repository access)`);
+  const info = await ir.json();
+  const br = await gh(env, `/repos/${repo}/git/ref/heads/${info.default_branch}`);
+  if (!br.ok) throw new Error(`GitHub ${br.status}: cannot read default branch`);
+  const base = await br.json();
   const c = await gh(env, `/repos/${repo}/git/refs`, { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: base.object.sha }) });
   if (!c.ok && c.status !== 422) throw new Error(`GitHub branch error ${c.status}`);
 }
@@ -155,6 +162,7 @@ async function saveToGithub(env, path, bytes, message) {
     const cur = await gh(env, `/repos/${repo}/contents/${path}?ref=${branch}`);
     r = await put(cur.ok ? (await cur.json()).sha : undefined);
   }
+  if (r.status === 403 || r.status === 404) throw new Error(`GitHub ${r.status}: token needs Contents: Read and write on ${repo}`);
   if (!r.ok) throw new Error(`GitHub save error ${r.status}: ${(await r.text()).slice(0, 300)}`);
   const j = await r.json();
   return { repo, branch, path, commit: j.commit && j.commit.sha, raw_url: `https://raw.githubusercontent.com/${repo}/${branch}/${path}` };
@@ -165,7 +173,7 @@ async function generateOne(env, a) {
   if (!text.trim()) throw new Error("text is empty");
   if (text.length > MAX_CHARS) throw new Error(`text longer than ${MAX_CHARS} characters; split it per chapter`);
   const voice = String(a.voice || env.DEFAULT_VOICE || "id-ID-GadisNeural");
-  if (!/^[A-Za-z]{2,3}-[A-Za-z]{2,4}-[A-Za-z0-9:]+$/.test(voice)) throw new Error(`Invalid voice: ${voice}`);
+  if (!/^[A-Za-z]{2,3}-[A-Za-z]{2,4}-[A-Za-z0-9:._-]+$/.test(voice)) throw new Error(`Invalid voice: ${voice}`);
   let filename = safeName(a.filename);
   if (!filename.toLowerCase().endsWith(".mp3")) filename += ".mp3";
   const folder = safeName(a.folder, "audio");

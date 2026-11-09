@@ -1,0 +1,9 @@
+name = "teg-tts"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+GITHUB_REPO = "talentededucationgroup/teg-tutorial"
+GITHUB_BRANCH = "tts-audio"
+DEFAULT_VOICE = "id-ID-GadisNeural"
+# Secrets (jangan ditulis di file ini): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION, GITHUB_TOKEN, MCP_PATH_TOKEN

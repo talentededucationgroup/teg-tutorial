@@ -1,6 +1,6 @@
 {
   "title": "Cara memakai Daftar Harga Biaya Studi TEG",
-  "version": "v2",
+  "version": "v3",
   "released": "2026-11-10",
   "website_data_date": "2026-11-09 14:42:35",
   "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
@@ -8,13 +8,13 @@
     "voice": "id",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 182.4,
+  "duration_seconds": 193.7,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/tutorial.mp4",
-      "bytes": 7693144,
-      "sha256": "ef9e7965bd70f43add58d333970739f19dee591c36a3a92ae02563f7758f1e3d"
+      "bytes": 8267445,
+      "sha256": "d59175ba04bf5c8e7cbe63d65de2b307e7b003196f49dbffd27943a5b70d601a"
     },
     "poster.jpg": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/poster.jpg",
@@ -24,7 +24,7 @@
     "subtitle-en.srt": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/subtitle-en.srt",
       "bytes": 1751,
-      "sha256": "90d123d06a53dad9d5971e75074a2abaae09a4c5f068e3224d07ed91073c320a"
+      "sha256": "64c12bf14ac876175fcf5025d2b9a3a063d232b8fb9b1d990f9b844e906beb38"
     }
   },
   "chapters": [
@@ -98,5 +98,6 @@
     }
   ],
   "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
-  "contact": "linktr.ee/talentededucationgroup"
+  "contact": "linktr.ee/talentededucationgroup",
+  "voice_note": "Suara perempuan Indonesia, versi lebih natural & santai"
 }

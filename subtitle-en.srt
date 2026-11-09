@@ -1,67 +1,67 @@
 1
-00:00:00,300 --> 00:00:09,720
+00:00:00,300 --> 00:00:10,210
 How to use the TEG study cost price list
 
 2
-00:00:10,320 --> 00:00:23,210
+00:00:10,810 --> 00:00:24,580
 Open the price list page. All prices are in AUD; the data date is shown at the top right.
 
 3
-00:00:23,810 --> 00:00:28,390
+00:00:25,180 --> 00:00:29,710
 Still in Indonesia? Choose Offshore.
 
 4
-00:00:28,990 --> 00:00:36,830
+00:00:30,310 --> 00:00:38,310
 Already in Australia? Choose Onshore and read the visa note.
 
 5
-00:00:37,430 --> 00:00:53,030
+00:00:38,910 --> 00:00:55,600
 This box explains what the starting funds include and do not include.
 
 6
-00:00:53,630 --> 00:01:04,980
+00:00:56,200 --> 00:01:08,360
 Search by course or school, then filter by city, field, level and budget.
 
 7
-00:01:05,580 --> 00:01:14,440
+00:01:08,960 --> 00:01:18,770
 Sort by cheapest; the green label marks the cheapest option.
 
 8
-00:01:15,040 --> 00:01:27,920
+00:01:19,370 --> 00:01:32,420
 Click "Rincian biaya" to see the full cost breakdown and total starting funds.
 
 9
-00:01:28,520 --> 00:01:36,510
+00:01:33,020 --> 00:01:41,660
 Read the notes, download a PDF for your parents, or tick "Compare".
 
 10
-00:01:37,110 --> 00:01:45,140
+00:01:42,260 --> 00:01:50,970
 Select two or more courses and click "Compare" to see all costs side by side.
 
 11
-00:01:45,740 --> 00:01:51,980
+00:01:51,570 --> 00:01:58,550
 "Download hasil (PDF)" saves all the results you see.
 
 12
-00:01:52,580 --> 00:01:58,490
+00:01:59,150 --> 00:02:05,450
 The ELICOS tab shows weekly English course fees.
 
 13
-00:01:59,090 --> 00:02:09,350
+00:02:06,050 --> 00:02:16,970
 Pathway packages: VET at one school, then a Bachelor at another.
 
 14
-00:02:09,950 --> 00:02:27,080
+00:02:17,570 --> 00:02:35,620
 VSA English lessons: Basic English from Rp1,100,000/month; PTE Foundation from Rp1,800,000/month.
 
 15
-00:02:27,680 --> 00:02:40,090
+00:02:36,220 --> 00:02:49,300
 IELTS/PTE Preparation: online from Rp2,550,000, offline from Rp3,300,000 (30 hours).
 
 16
-00:02:40,690 --> 00:02:48,120
+00:02:49,900 --> 00:02:58,010
 Free mock test, placement test and consultation – click the chat button or scan the QR.
 
 17
-00:02:48,720 --> 00:03:01,910
+00:02:58,610 --> 00:03:13,340
 All prices are estimates; final amounts follow the school's official offer letter.

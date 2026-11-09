@@ -1,6 +1,6 @@
 {
   "title": "Cara memakai Daftar Harga Biaya Studi TEG",
-  "version": "v3",
+  "version": "v4",
   "released": "2026-11-10",
   "website_data_date": "2026-11-09 14:42:35",
   "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
@@ -8,13 +8,13 @@
     "voice": "id",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 193.7,
+  "duration_seconds": 192.5,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/tutorial.mp4",
-      "bytes": 8267445,
-      "sha256": "d59175ba04bf5c8e7cbe63d65de2b307e7b003196f49dbffd27943a5b70d601a"
+      "bytes": 8679245,
+      "sha256": "b30716fd9473413258d764f717b0875ae3389db93b028869f9925e5f8ce693e1"
     },
     "poster.jpg": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/poster.jpg",
@@ -24,7 +24,12 @@
     "subtitle-en.srt": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/subtitle-en.srt",
       "bytes": 1751,
-      "sha256": "64c12bf14ac876175fcf5025d2b9a3a063d232b8fb9b1d990f9b844e906beb38"
+      "sha256": "425e37733a01aa8ca9a269dc0e1bfeb6944521a174f28c9a44276c93d5712ea3"
+    },
+    "index.html": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/index.html",
+      "bytes": 3623,
+      "sha256": "f0f720643b370fb63bbe175e2a1cb9bb27b97d3dad4810abdd22cf376b6e5057"
     }
   },
   "chapters": [
@@ -33,7 +38,7 @@
       "title": "Cara memakai Daftar Harga Biaya Studi TEG"
     },
     {
-      "start": "00:10",
+      "start": "00:11",
       "title": "Buka halaman"
     },
     {
@@ -49,55 +54,55 @@
       "title": "Isi dana awal"
     },
     {
-      "start": "00:53",
+      "start": "00:54",
       "title": "Cari & filter"
     },
     {
-      "start": "01:05",
+      "start": "01:08",
       "title": "Urutkan hasil"
     },
     {
-      "start": "01:14",
+      "start": "01:18",
       "title": "Rincian biaya"
     },
     {
-      "start": "01:28",
+      "start": "01:33",
       "title": "PDF & bandingkan"
     },
     {
-      "start": "01:36",
+      "start": "01:43",
       "title": "Bandingkan"
     },
     {
-      "start": "01:45",
+      "start": "01:52",
       "title": "Download semua hasil"
     },
     {
-      "start": "01:52",
+      "start": "01:59",
       "title": "Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "01:58",
+      "start": "02:05",
       "title": "Paket Pathway VET + HE"
     },
     {
-      "start": "02:09",
+      "start": "02:16",
       "title": "Les Bahasa (VSA)"
     },
     {
-      "start": "02:27",
+      "start": "02:33",
       "title": "IELTS/PTE Preparation"
     },
     {
-      "start": "02:40",
+      "start": "02:47",
       "title": "Gratis di VSA"
     },
     {
-      "start": "02:48",
+      "start": "02:57",
       "title": "Konsultasi gratis"
     }
   ],
   "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
   "contact": "linktr.ee/talentededucationgroup",
-  "voice_note": "Suara perempuan Indonesia, versi lebih natural & santai"
+  "voice_note": "Microsoft Azure Speech id-ID-Larasati:DragonHDLatestNeural, rate -5%; musik latar lembut buatan sendiri (bebas lisensi)"
 }

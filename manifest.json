@@ -1,0 +1,102 @@
+{
+  "title": "Cara memakai Daftar Harga Biaya Studi TEG",
+  "version": "v2",
+  "released": "2026-11-10",
+  "website_data_date": "2026-11-09 14:42:35",
+  "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
+  "language": {
+    "voice": "id",
+    "subtitles": "en (burned-in) + subtitle-en.srt"
+  },
+  "duration_seconds": 182.4,
+  "resolution": "1920x1080",
+  "files": {
+    "tutorial.mp4": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/tutorial.mp4",
+      "bytes": 7693144,
+      "sha256": "ef9e7965bd70f43add58d333970739f19dee591c36a3a92ae02563f7758f1e3d"
+    },
+    "poster.jpg": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/poster.jpg",
+      "bytes": 123420,
+      "sha256": "cf138f4b4400b30abc4d9c092e20f6d91a97d266a8487dae3274c04431fdd21f"
+    },
+    "subtitle-en.srt": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/subtitle-en.srt",
+      "bytes": 1751,
+      "sha256": "90d123d06a53dad9d5971e75074a2abaae09a4c5f068e3224d07ed91073c320a"
+    }
+  },
+  "chapters": [
+    {
+      "start": "00:00",
+      "title": "Cara memakai Daftar Harga Biaya Studi TEG"
+    },
+    {
+      "start": "00:10",
+      "title": "Buka halaman"
+    },
+    {
+      "start": "00:23",
+      "title": "Offshore"
+    },
+    {
+      "start": "00:28",
+      "title": "Onshore"
+    },
+    {
+      "start": "00:37",
+      "title": "Isi dana awal"
+    },
+    {
+      "start": "00:53",
+      "title": "Cari & filter"
+    },
+    {
+      "start": "01:05",
+      "title": "Urutkan hasil"
+    },
+    {
+      "start": "01:14",
+      "title": "Rincian biaya"
+    },
+    {
+      "start": "01:28",
+      "title": "PDF & bandingkan"
+    },
+    {
+      "start": "01:36",
+      "title": "Bandingkan"
+    },
+    {
+      "start": "01:45",
+      "title": "Download semua hasil"
+    },
+    {
+      "start": "01:52",
+      "title": "Bahasa Inggris (ELICOS)"
+    },
+    {
+      "start": "01:58",
+      "title": "Paket Pathway VET + HE"
+    },
+    {
+      "start": "02:09",
+      "title": "Les Bahasa (VSA)"
+    },
+    {
+      "start": "02:27",
+      "title": "IELTS/PTE Preparation"
+    },
+    {
+      "start": "02:40",
+      "title": "Gratis di VSA"
+    },
+    {
+      "start": "02:48",
+      "title": "Konsultasi gratis"
+    }
+  ],
+  "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
+  "contact": "linktr.ee/talentededucationgroup"
+}

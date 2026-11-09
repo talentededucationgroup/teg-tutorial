@@ -1,0 +1,67 @@
+1
+00:00:00,300 --> 00:00:09,720
+How to use the TEG study cost price list
+
+2
+00:00:10,320 --> 00:00:23,210
+Open the price list page. All prices are in AUD; the data date is shown at the top right.
+
+3
+00:00:23,810 --> 00:00:28,390
+Still in Indonesia? Choose Offshore.
+
+4
+00:00:28,990 --> 00:00:36,830
+Already in Australia? Choose Onshore and read the visa note.
+
+5
+00:00:37,430 --> 00:00:53,030
+This box explains what the starting funds include and do not include.
+
+6
+00:00:53,630 --> 00:01:04,980
+Search by course or school, then filter by city, field, level and budget.
+
+7
+00:01:05,580 --> 00:01:14,440
+Sort by cheapest; the green label marks the cheapest option.
+
+8
+00:01:15,040 --> 00:01:27,920
+Click "Rincian biaya" to see the full cost breakdown and total starting funds.
+
+9
+00:01:28,520 --> 00:01:36,510
+Read the notes, download a PDF for your parents, or tick "Compare".
+
+10
+00:01:37,110 --> 00:01:45,140
+Select two or more courses and click "Compare" to see all costs side by side.
+
+11
+00:01:45,740 --> 00:01:51,980
+"Download hasil (PDF)" saves all the results you see.
+
+12
+00:01:52,580 --> 00:01:58,490
+The ELICOS tab shows weekly English course fees.
+
+13
+00:01:59,090 --> 00:02:09,350
+Pathway packages: VET at one school, then a Bachelor at another.
+
+14
+00:02:09,950 --> 00:02:27,080
+VSA English lessons: Basic English from Rp1,100,000/month; PTE Foundation from Rp1,800,000/month.
+
+15
+00:02:27,680 --> 00:02:40,090
+IELTS/PTE Preparation: online from Rp2,550,000, offline from Rp3,300,000 (30 hours).
+
+16
+00:02:40,690 --> 00:02:48,120
+Free mock test, placement test and consultation – click the chat button or scan the QR.
+
+17
+00:02:48,720 --> 00:03:01,910
+All prices are estimates; final amounts follow the school's official offer letter.

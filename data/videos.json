@@ -1,90 +1,132 @@
 {
- "title": "Video TEG untuk website",
- "updated_at": "2026-11-11T00:40:00+07:00",
- "items": [
-  {
-   "id": "panduan-lengkap",
-   "placement": "Video utama/tombol besar \"Video Tutorial\" di halaman siswa & aplikasi (menggantikan 2 video terpisah; video lama tetap tersedia)",
-   "video": "https://talentededucationgroup.github.io/teg-tutorial/panduan/tutorial.mp4",
-   "poster": "https://talentededucationgroup.github.io/teg-tutorial/panduan/poster.jpg",
-   "subtitles_en": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
-   "manifest": "https://talentededucationgroup.github.io/teg-tutorial/panduan/manifest.json",
-   "duration_seconds": 410.9,
-   "orientation": "landscape",
-   "title": {
-    "id": "Video Tutorial: 2 cara cek harga (aplikasi & browser)",
-    "en": "Video tutorial: 2 ways to check prices (app & browser)",
-    "th": "วิดีโอสอน: 2 วิธีตรวจสอบราคา (แอปและเบราว์เซอร์)",
-    "vi": "Video hướng dẫn: 2 cách xem giá (ứng dụng & trình duyệt)",
-    "zh": "视频教程：查询价格的2种方式（应用和浏览器）",
-    "ja": "動画チュートリアル：料金を確認する2つの方法（アプリとブラウザ）",
-    "ko": "동영상 튜토리얼: 가격 확인 2가지 방법 (앱 & 브라우저)",
-    "km": "វីដេអូណែនាំ៖ វិធី 2 យ៉ាងដើម្បីពិនិត្យតម្លៃ (កម្មវិធី និងកម្មវិធីរុករក)"
-   },
-   "below_text": {
-    "id": "Cek harga lewat browser: pricelist.talentededucationgroup.com/biaya-studi",
-    "en": "Check prices in your browser: pricelist.talentededucationgroup.com/biaya-studi"
-   },
-   "link": "https://pricelist.talentededucationgroup.com/biaya-studi"
-  },
-  {
-   "id": "profil-teg",
-   "placement": "Bagian \"Tentang Talented Education Group\" di halaman siswa utama (di bawah tombol besar Video Tutorial, sebelum Testimoni) + halaman awal aplikasi + footer link \"Tentang kami\"",
-   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg.mp4",
-   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg-poster.jpg",
-   "duration_seconds": 104.1,
-   "orientation": "portrait (768x960)",
-   "source_title": "Video Marketing 3 - Asin",
-   "title": {
-    "id": "Profil Talented Education Group",
-    "en": "About Talented Education Group",
-    "th": "เกี่ยวกับ Talented Education Group",
-    "vi": "Giới thiệu Talented Education Group",
-    "zh": "关于 Talented Education Group",
-    "ja": "Talented Education Group について",
-    "ko": "Talented Education Group 소개",
-    "km": "អំពី Talented Education Group"
-   },
-   "note": "Video profil perusahaan (kantor resmi Sydney & Indonesia, QEAC, misi). Teks di video berbahasa Indonesia."
-  },
-  {
-   "id": "proses-visa",
-   "placement": "Halaman \"Mulai Daftar\", tepat di bawah bagian \"Alur proses\"",
-   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa.mp4",
-   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa-poster.jpg",
-   "duration_seconds": 105.6,
-   "orientation": "landscape",
-   "source_title": "Indo - English Video Langkah Proses visa",
-   "title": {
-    "id": "Video: Langkah proses visa pelajar",
-    "en": "Video: Student visa process step by step",
-    "th": "วิดีโอ: ขั้นตอนการขอวีซ่านักเรียน",
-    "vi": "Video: Các bước xin thị thực du học",
-    "zh": "视频：学生签证办理步骤",
-    "ja": "動画：学生ビザ手続きの流れ",
-    "ko": "동영상: 학생 비자 진행 단계",
-    "km": "វីដេអូ៖ ជំហាននៃដំណើរការទិដ្ឋាការសិស្ស"
-   }
-  },
-  {
-   "id": "testimoni-asin",
-   "placement": "Halaman siswa utama: bagian \"Testimoni / Mereka sudah dapat visa\" dekat tombol Mulai Daftar/konsultasi (di bawah hasil pencarian atau di bawah video tutorial)",
-   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin.mp4",
-   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin-poster.jpg",
-   "duration_seconds": 60.1,
-   "orientation": "portrait (406x512)",
-   "source_title": "Video Marketing 2 - Asin",
-   "title": {
-    "id": "Testimoni: Mereka sudah dapat visa pelajar Australia",
-    "en": "Testimonials: they got their Australian student visa",
-    "th": "คำรับรอง: พวกเขาได้รับวีซ่านักเรียนออสเตรเลียแล้ว",
-    "vi": "Cảm nhận: các bạn đã nhận thị thực du học Úc",
-    "zh": "学员见证：他们已获得澳大利亚学生签证",
-    "ja": "体験談：オーストラリア学生ビザを取得しました",
-    "ko": "후기: 호주 학생 비자를 받았어요",
-    "km": "សក្ខីកម្ម៖ ពួកគេទទួលបានទិដ្ឋាការសិស្សអូស្ត្រាលីហើយ"
-   },
-   "note": "Video testimoni milik TEG (izin tampil dari siswa diurus TEG). Teks di video berbahasa Indonesia."
-  }
- ]
+  "title": "Video TEG untuk website",
+  "updated_at": "2026-11-11T00:40:00+07:00",
+  "items": [
+    {
+      "id": "panduan-lengkap",
+      "placement": "Video utama/tombol besar \"Video Tutorial\" di halaman siswa & aplikasi (menggantikan 2 video terpisah; video lama tetap tersedia)",
+      "video": "https://talentededucationgroup.github.io/teg-tutorial/panduan/tutorial.mp4",
+      "poster": "https://talentededucationgroup.github.io/teg-tutorial/panduan/poster.jpg",
+      "subtitles_en": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "manifest": "https://talentededucationgroup.github.io/teg-tutorial/panduan/manifest.json",
+      "duration_seconds": 410.9,
+      "orientation": "landscape",
+      "title": {
+        "id": "Video Tutorial: 2 cara cek harga (aplikasi & browser)",
+        "en": "Video tutorial: 2 ways to check prices (app & browser)",
+        "th": "วิดีโอสอน: 2 วิธีตรวจสอบราคา (แอปและเบราว์เซอร์)",
+        "vi": "Video hướng dẫn: 2 cách xem giá (ứng dụng & trình duyệt)",
+        "zh": "视频教程：查询价格的2种方式（应用和浏览器）",
+        "ja": "動画チュートリアル：料金を確認する2つの方法（アプリとブラウザ）",
+        "ko": "동영상 튜토리얼: 가격 확인 2가지 방법 (앱 & 브라우저)",
+        "km": "វីដេអូណែនាំ៖ វិធី 2 យ៉ាងដើម្បីពិនិត្យតម្លៃ (កម្មវិធី និងកម្មវិធីរុករក)",
+        "fr": "Tutoriel vidéo : 2 façons de consulter les prix (application et navigateur)",
+        "pt": "Tutorial em vídeo: 2 formas de consultar preços (app e navegador)",
+        "es": "Video tutorial: 2 formas de consultar precios (app y navegador)",
+        "de": "Video-Tutorial: 2 Möglichkeiten, Preise zu prüfen (App & Browser)",
+        "it": "Video tutorial: 2 modi per controllare i prezzi (app e browser)",
+        "nl": "Videotutorial: 2 manieren om prijzen te controleren (app & browser)",
+        "ru": "Видеоурок: 2 способа узнать цены (приложение и браузер)"
+      },
+      "below_text": {
+        "id": "Cek harga lewat browser: pricelist.talentededucationgroup.com/biaya-studi",
+        "en": "Check prices in your browser: pricelist.talentededucationgroup.com/biaya-studi",
+        "fr": "Consultez les prix dans votre navigateur : pricelist.talentededucationgroup.com/biaya-studi",
+        "pt": "Consulte os preços no seu navegador: pricelist.talentededucationgroup.com/biaya-studi",
+        "es": "Consulta precios en tu navegador: pricelist.talentededucationgroup.com/biaya-studi",
+        "de": "Preise im Browser prüfen: pricelist.talentededucationgroup.com/biaya-studi",
+        "it": "Controlla i prezzi nel browser: pricelist.talentededucationgroup.com/biaya-studi",
+        "nl": "Prijzen controleren in je browser: pricelist.talentededucationgroup.com/biaya-studi",
+        "ru": "Узнайте цены в браузере: pricelist.talentededucationgroup.com/biaya-studi"
+      },
+      "link": "https://pricelist.talentededucationgroup.com/biaya-studi",
+      "subtitles_fr": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_pt": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_es": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_de": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_it": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_nl": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_ru": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt"
+    },
+    {
+      "id": "profil-teg",
+      "placement": "Bagian \"Tentang Talented Education Group\" di halaman siswa utama (di bawah tombol besar Video Tutorial, sebelum Testimoni) + halaman awal aplikasi + footer link \"Tentang kami\"",
+      "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg.mp4",
+      "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg-poster.jpg",
+      "duration_seconds": 104.1,
+      "orientation": "portrait (768x960)",
+      "source_title": "Video Marketing 3 - Asin",
+      "title": {
+        "id": "Profil Talented Education Group",
+        "en": "About Talented Education Group",
+        "th": "เกี่ยวกับ Talented Education Group",
+        "vi": "Giới thiệu Talented Education Group",
+        "zh": "关于 Talented Education Group",
+        "ja": "Talented Education Group について",
+        "ko": "Talented Education Group 소개",
+        "km": "អំពី Talented Education Group",
+        "fr": "À propos de Talented Education Group",
+        "pt": "Sobre o Talented Education Group",
+        "es": "Acerca de Talented Education Group",
+        "de": "Über Talented Education Group",
+        "it": "Chi è Talented Education Group",
+        "nl": "Over Talented Education Group",
+        "ru": "О Talented Education Group"
+      },
+      "note": "Video profil perusahaan (kantor resmi Sydney & Indonesia, QEAC, misi). Teks di video berbahasa Indonesia."
+    },
+    {
+      "id": "proses-visa",
+      "placement": "Halaman \"Mulai Daftar\", tepat di bawah bagian \"Alur proses\"",
+      "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa.mp4",
+      "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa-poster.jpg",
+      "duration_seconds": 105.6,
+      "orientation": "landscape",
+      "source_title": "Indo - English Video Langkah Proses visa",
+      "title": {
+        "id": "Video: Langkah proses visa pelajar",
+        "en": "Video: Student visa process step by step",
+        "th": "วิดีโอ: ขั้นตอนการขอวีซ่านักเรียน",
+        "vi": "Video: Các bước xin thị thực du học",
+        "zh": "视频：学生签证办理步骤",
+        "ja": "動画：学生ビザ手続きの流れ",
+        "ko": "동영상: 학생 비자 진행 단계",
+        "km": "វីដេអូ៖ ជំហាននៃដំណើរការទិដ្ឋាការសិស្ស",
+        "fr": "Vidéo : la procédure de visa étudiant étape par étape",
+        "pt": "Vídeo: processo do visto de estudante passo a passo",
+        "es": "Video: Proceso de la visa de estudiante paso a paso",
+        "de": "Video: Der Studentenvisum-Prozess Schritt für Schritt",
+        "it": "Video: la procedura del visto per studenti passo dopo passo",
+        "nl": "Video: het studentenvisumproces stap voor stap",
+        "ru": "Видео: процесс получения студенческой визы шаг за шагом"
+      }
+    },
+    {
+      "id": "testimoni-asin",
+      "placement": "Halaman siswa utama: bagian \"Testimoni / Mereka sudah dapat visa\" dekat tombol Mulai Daftar/konsultasi (di bawah hasil pencarian atau di bawah video tutorial)",
+      "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin.mp4",
+      "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin-poster.jpg",
+      "duration_seconds": 60.1,
+      "orientation": "portrait (406x512)",
+      "source_title": "Video Marketing 2 - Asin",
+      "title": {
+        "id": "Testimoni: Mereka sudah dapat visa pelajar Australia",
+        "en": "Testimonials: they got their Australian student visa",
+        "th": "คำรับรอง: พวกเขาได้รับวีซ่านักเรียนออสเตรเลียแล้ว",
+        "vi": "Cảm nhận: các bạn đã nhận thị thực du học Úc",
+        "zh": "学员见证：他们已获得澳大利亚学生签证",
+        "ja": "体験談：オーストラリア学生ビザを取得しました",
+        "ko": "후기: 호주 학생 비자를 받았어요",
+        "km": "សក្ខីកម្ម៖ ពួកគេទទួលបានទិដ្ឋាការសិស្សអូស្ត្រាលីហើយ",
+        "fr": "Témoignages : ils ont obtenu leur visa étudiant australien",
+        "pt": "Depoimentos: eles conseguiram o visto de estudante australiano",
+        "es": "Testimonios: obtuvieron su visa de estudiante australiana",
+        "de": "Erfahrungsberichte: Sie haben ihr australisches Studentenvisum erhalten",
+        "it": "Testimonianze: hanno ottenuto il visto per studenti australiano",
+        "nl": "Ervaringen: zij kregen hun Australische studentenvisum",
+        "ru": "Отзывы: они получили студенческую визу в Австралию"
+      },
+      "note": "Video testimoni milik TEG (izin tampil dari siswa diurus TEG). Teks di video berbahasa Indonesia."
+    }
+  ]
 }

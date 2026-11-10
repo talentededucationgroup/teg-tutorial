@@ -39,7 +39,7 @@ SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 't
 DISCLAIMER = ('Lowongan dari sumber eksternal (Jobs by Adzuna), diperiksa otomatis setiap hari. Pemeriksaan mengurangi risiko, '
               'tetapi bukan jaminan keamanan, legalitas, atau ketersediaan. Tidak semua pekerjaan cocok untuk semua pemegang visa '
               'pelajar - cek kondisi visa kamu. Jangan pernah membayar untuk mendapatkan pekerjaan.')
-LANGS = ('en', 'th', 'vi', 'zh', 'ja', 'ko', 'km')
+LANGS = ('en', 'th', 'vi', 'zh', 'ja', 'ko', 'km', 'fr', 'pt', 'es', 'de', 'it', 'nl', 'ru')
 DISCLAIMER_EN = ('Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not '
                  'guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa '
                  'conditions. Never pay to get a job.')

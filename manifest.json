@@ -1,35 +1,35 @@
 {
-  "title": "Cara memakai Daftar Harga Biaya Studi TEG",
-  "version": "v8",
+  "title": "Cara memakai Daftar Harga Biaya Studi TEG + pasang aplikasi Talented",
+  "version": "v9",
   "released": "2026-11-11",
-  "website_data_date": "2026-11-10 (R78)",
+  "website_data_date": "2026-11-11 (R78)",
   "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 279.6,
+  "duration_seconds": 349.2,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/tutorial.mp4",
-      "bytes": 11406616,
-      "sha256": "535b5e9de9b327479c1aeef36a4026c7899ab61b7e27174aed69b4cf45c8468e"
+      "bytes": 13717576,
+      "sha256": "bbf8c2b16a9661c8ccb014674829ba51cc98880488f1fcbf77cdfd2a581e079d"
     },
     "poster.jpg": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/poster.jpg",
-      "bytes": 94882,
-      "sha256": "2e9ec5b2da449558a3ec412334750fd781cc38ec858df3944c1c5f9ce187eb68"
+      "bytes": 96645,
+      "sha256": "19b8dc9f4b9efdbb257aa4cb040bdee8d2bac866ef2e0f2105de1fe13154edd5"
     },
     "subtitle-en.srt": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/subtitle-en.srt",
-      "bytes": 2754,
-      "sha256": "788f91cbe5ebe906161db20cac5ca372c33ef0a44cef5ba1226df2b45edbcef7"
+      "bytes": 3311,
+      "sha256": "12dcaf76deb69a1f6af23523fe83939ab6abd5bebb85dc692f3dcee4133b007b"
     },
     "index.html": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/index.html",
-      "bytes": 3968,
-      "sha256": "d7baec2f4e1182b40b708af86a4398b7f9079f9532a9ed322c82b27e55fac3c7"
+      "bytes": 4286,
+      "sha256": "a6c90f7a640a3354a1e1ca596d3db62d7cc8d4a9a066aee9656ceeb0170bb333"
     }
   },
   "chapters": [
@@ -38,86 +38,107 @@
       "title": "Cara memakai Daftar Harga Biaya Studi TEG"
     },
     {
-      "start": "00:12",
+      "start": "00:14",
       "title": "Buka halaman & pilih bahasa"
     },
     {
-      "start": "00:27",
+      "start": "00:30",
       "title": "Menu utama"
     },
     {
-      "start": "00:39",
+      "start": "00:42",
       "title": "Negara & Offshore / Onshore"
     },
     {
-      "start": "00:51",
+      "start": "00:54",
       "title": "Cari & filter"
     },
     {
-      "start": "01:03",
-      "title": "Asuransi & skor bahasa"
+      "start": "01:06",
+      "title": "Pilih asuransi OSHC"
     },
     {
-      "start": "01:19",
+      "start": "01:14",
       "title": "Urutkan hasil"
     },
     {
-      "start": "01:31",
+      "start": "01:25",
       "title": "Baca kartu program"
     },
     {
-      "start": "01:47",
+      "start": "01:36",
       "title": "Rincian program"
     },
     {
-      "start": "01:59",
+      "start": "01:48",
       "title": "Dana awal, rekening koran & refund"
     },
     {
-      "start": "02:11",
+      "start": "02:00",
       "title": "PDF, WhatsApp & daftar"
     },
     {
-      "start": "02:23",
+      "start": "02:12",
       "title": "Bandingkan"
     },
     {
-      "start": "02:35",
-      "title": "Simpan semua hasil"
+      "start": "02:24",
+      "title": "Simpan hasil"
     },
     {
-      "start": "02:45",
+      "start": "02:38",
       "title": "Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "02:58",
+      "start": "02:51",
       "title": "Paket Pathway VET + HE"
     },
     {
-      "start": "03:08",
+      "start": "03:01",
       "title": "Sekolah lain (CRICOS)"
     },
     {
-      "start": "03:16",
+      "start": "03:08",
       "title": "Les bahasa (VSA)"
     },
     {
-      "start": "03:36",
-      "title": "Kerja & Akomodasi"
+      "start": "03:29",
+      "title": "Kerja"
     },
     {
-      "start": "03:52",
+      "start": "03:50",
+      "title": "Akomodasi"
+    },
+    {
+      "start": "04:08",
       "title": "Mulai Daftar"
     },
     {
-      "start": "04:11",
-      "title": "Aplikasi Talented"
+      "start": "04:28",
+      "title": "Bagian 2 · Pasang aplikasi Talented di HP"
     },
     {
-      "start": "04:24",
+      "start": "04:41",
+      "title": "Ketuk \"Mobile App Talented\""
+    },
+    {
+      "start": "04:49",
+      "title": "Android: pakai Chrome"
+    },
+    {
+      "start": "05:07",
+      "title": "iPhone / iPad: pakai Safari"
+    },
+    {
+      "start": "05:22",
+      "title": "Selesai!"
+    },
+    {
+      "start": "05:34",
       "title": "Konsultasi gratis"
     }
   ],
   "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
-  "contact": "linktr.ee/talentededucationgroup"
+  "contact": "linktr.ee/talentededucationgroup",
+  "includes": "Bagian 1: cara cek biaya studi; Bagian 2: cara pasang aplikasi Talented di HP (sebelumnya video terpisah di /app/)"
 }

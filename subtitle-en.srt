@@ -1,83 +1,103 @@
 1
-00:00:00,300 --> 00:00:12,420
-How to use the TEG study cost price list – Australia & New Zealand
+00:00:00,300 --> 00:00:14,680
+How to use the TEG study cost price list – and install the Talented app on your phone
 
 2
-00:00:13,020 --> 00:00:27,570
+00:00:15,280 --> 00:00:29,830
 Open the price list page and pick your language at the top right – 8 languages are available.
 
 3
-00:00:28,170 --> 00:00:39,450
-The menu: study programmes, English, pathways, other schools, VSA courses, jobs & accommodation, and start your application.
+00:00:30,430 --> 00:00:41,710
+The menu: study programmes, English, pathways, other schools, VSA courses, jobs, accommodation and start your application.
 
 4
-00:00:40,050 --> 00:00:51,600
+00:00:42,310 --> 00:00:53,860
 Choose Australia or New Zealand, then Offshore (still in Indonesia) or Onshore (already there).
 
 5
-00:00:52,200 --> 00:01:03,580
+00:00:54,460 --> 00:01:05,840
 Search by course or school, then filter by city, field, level and maximum upfront cost.
 
 6
-00:01:04,180 --> 00:01:19,520
-Pick your OSHC provider – insurance is recalculated. Enter your IELTS/PTE score to check English requirements.
+00:01:06,440 --> 00:01:13,810
+Pick your OSHC provider – insurance costs are recalculated for every result.
 
 7
-00:01:20,120 --> 00:01:30,950
+00:01:14,410 --> 00:01:25,240
 Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
 
 8
-00:01:31,550 --> 00:01:47,560
+00:01:25,840 --> 00:01:36,640
 Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
 
 9
-00:01:48,160 --> 00:01:58,820
+00:01:37,240 --> 00:01:47,900
 Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
 
 10
-00:01:59,420 --> 00:02:11,380
+00:01:48,500 --> 00:02:00,460
 Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
 
 11
-00:02:11,980 --> 00:02:23,410
-Download a PDF or send it to WhatsApp; Start your application and Ask a TEG consultant are on every card.
+00:02:01,060 --> 00:02:12,490
+Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
 
 12
-00:02:24,010 --> 00:02:35,370
+00:02:13,090 --> 00:02:24,450
 Tick Compare on two or more programmes, then click Compare selected programmes.
 
 13
-00:02:35,970 --> 00:02:44,850
-Save all search results at once as a PDF, or send the list to WhatsApp.
+00:02:25,050 --> 00:02:37,800
+Save all results as a PDF, only your ticked programmes, or send the list to WhatsApp.
 
 14
-00:02:45,450 --> 00:02:58,050
-English (ELICOS) shows weekly course fees; a TEG consultant calculates the upfront cost for your number of weeks.
+00:02:38,400 --> 00:02:50,999
+English (ELICOS) shows weekly course fees; a consultant calculates the upfront cost for your number of weeks.
 
 15
-00:02:58,650 --> 00:03:07,940
+00:02:51,600 --> 00:03:00,890
 Pathway packages: VET at one school, then a Bachelor at another; each school issues its own CoE.
 
 16
-00:03:08,540 --> 00:03:15,720
+00:03:01,490 --> 00:03:08,670
 Other schools links to the official CRICOS directory to check registered schools.
 
 17
-00:03:16,320 --> 00:03:35,810
+00:03:09,270 --> 00:03:28,760
 English courses (VSA): Basic English, PTE Foundation and IELTS/PTE Preparation, online and offline, priced in IDR.
 
 18
-00:03:36,410 --> 00:03:51,850
-Jobs & Accommodation: jobs checked daily, official visa work-hour rules and accommodation providers. Never pay to get a job.
+00:03:29,360 --> 00:03:50,680
+Jobs: listings from Jobs by Adzuna, checked daily, with official visa work-hour rules. Never pay to get a job.
 
 19
-00:03:52,450 --> 00:04:11,200
-Start your application: document checklist, process steps and the Student Information Form (PDF/Excel).
+00:03:51,280 --> 00:04:08,660
+Accommodation: a directory of student housing providers. Never transfer money before an official contract.
 
 20
-00:04:11,800 --> 00:04:24,310
-Install the Talented app on your phone or tablet – see the separate how-to video.
+00:04:09,260 --> 00:04:28,010
+Start your application: document checklist, process steps and the Student Information Form (PDF/Excel).
 
 21
-00:04:24,910 --> 00:04:39,150
+00:04:28,610 --> 00:04:41,240
+Part 2: install the Talented app on your phone – free, no Play Store or App Store needed.
+
+22
+00:04:41,840 --> 00:04:48,950
+Open the price list on your phone and tap "Mobile App Talented" at the top.
+
+23
+00:04:49,550 --> 00:05:07,340
+Android: in Chrome tap Install, or use the three-dot menu → "Install app" / "Add to Home screen".
+
+24
+00:05:07,940 --> 00:05:21,860
+iPhone/iPad: in Safari tap Share → "Add to Home Screen" → "Add".
+
+25
+00:05:22,460 --> 00:05:33,790
+Done! The Talented icon is now on your home screen.
+
+26
+00:05:34,390 --> 00:05:48,630
 All prices are estimates; final amounts follow the school's official offer letter.

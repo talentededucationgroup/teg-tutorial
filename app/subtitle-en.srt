@@ -1,0 +1,35 @@
+1
+00:00:00,300 --> 00:00:12,180
+How to install the Talented app on your phone
+
+2
+00:00:12,780 --> 00:00:21,500
+Open the price list on your phone and tap "Pasang Aplikasi Talented" at the top.
+
+3
+00:00:22,100 --> 00:00:32,180
+Android: in Chrome, open the three-dot menu and choose "Install app" or "Add to Home screen".
+
+4
+00:00:32,780 --> 00:00:43,300
+Option not showing? Make sure the page has fully loaded over HTTPS, then try again.
+
+5
+00:00:43,900 --> 00:00:54,560
+iPhone or iPad: open the page in Safari and tap Share (the box with an up arrow).
+
+6
+00:00:55,160 --> 00:01:03,010
+Then choose "Add to Home Screen". Scroll the Share menu if you can't see it.
+
+7
+00:01:03,610 --> 00:01:13,310
+Keep the name "Talented" and tap Add. If available, turn on "Open as Web App".
+
+8
+00:01:13,910 --> 00:01:26,780
+Done! The Talented icon is now on your home screen. Free, no Play Store or App Store needed.
+
+9
+00:01:27,380 --> 00:01:41,780
+Free consultation: linktr.ee/talentededucationgroup. All prices are estimates; final amounts follow the school's offer letter.

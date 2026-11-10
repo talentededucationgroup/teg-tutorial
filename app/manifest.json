@@ -1,0 +1,73 @@
+{
+  "title": "Cara memasang aplikasi Talented di HP",
+  "version": "v1",
+  "released": "2026-11-10",
+  "website_data_date": "2026-11-09 14:42:35",
+  "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
+  "language": {
+    "voice": "id (Microsoft Azure id-ID-Larasati:DragonHDLatestNeural)",
+    "subtitles": "en (burned-in) + subtitle-en.srt"
+  },
+  "duration_seconds": 102.2,
+  "resolution": "1920x1080",
+  "files": {
+    "tutorial.mp4": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/tutorial.mp4",
+      "bytes": 4185552,
+      "sha256": "4146c1ea87c63a68dbcf065279b88088b5ffb57f6c1bd4b01c69321051632fa0"
+    },
+    "poster.jpg": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/poster.jpg",
+      "bytes": 146951,
+      "sha256": "3a45146d5e366770cc0f521f28397e745ad92d0b3558b84f95507858fabd6363"
+    },
+    "subtitle-en.srt": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/subtitle-en.srt",
+      "bytes": 1059,
+      "sha256": "87f07375af16de53837cbf031441936e6b22f0d0ce165f0582a5a7f9f0cd736e"
+    },
+    "index.html": {
+      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/index.html",
+      "bytes": 3268,
+      "sha256": "55e4c4310a941873bc783a1f4e9cf7a722d99570d3e0ec251a29883f44a431ab"
+    }
+  },
+  "chapters": [
+    {
+      "start": "00:00",
+      "title": "Cara memasang aplikasi Talented di HP"
+    },
+    {
+      "start": "00:12",
+      "title": "Ketuk \"Pasang Aplikasi Talented\""
+    },
+    {
+      "start": "00:21",
+      "title": "Android: pakai Chrome"
+    },
+    {
+      "start": "00:32",
+      "title": "Pilihan belum muncul?"
+    },
+    {
+      "start": "00:43",
+      "title": "iPhone / iPad: pakai Safari"
+    },
+    {
+      "start": "00:54",
+      "title": "Tambahkan ke Layar Utama"
+    },
+    {
+      "start": "01:03",
+      "title": "Ketuk Tambah"
+    },
+    {
+      "start": "01:13",
+      "title": "Selesai!"
+    },
+    {
+      "start": "01:27",
+      "title": "Konsultasi gratis"
+    }
+  ]
+}

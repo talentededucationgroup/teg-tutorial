@@ -33,7 +33,13 @@
      "pte_sebelum": "36"
     }
    ],
-   "source_en": "Home Affairs (via VisaChief summary), checked 2026-11-10 - re-check immi.homeaffairs.gov.au"
+   "source_en": "Home Affairs (via VisaChief summary), checked 2026-11-10 - re-check immi.homeaffairs.gov.au",
+   "source_th": "Home Affairs (ผ่านข้อมูลสรุปของ VisaChief) ตรวจสอบเมื่อ 2026-11-10 - โปรดตรวจสอบอีกครั้งที่ immi.homeaffairs.gov.au",
+   "source_vi": "Home Affairs (qua bản tóm tắt của VisaChief), kiểm tra ngày 2026-11-10 - hãy kiểm tra lại tại immi.homeaffairs.gov.au",
+   "source_zh": "Home Affairs（经 VisaChief 摘要），核查日期 2026-11-10——请重新核查 immi.homeaffairs.gov.au",
+   "source_ja": "Home Affairs（VisaChiefの要約経由）、2026-11-10確認 - immi.homeaffairs.gov.au で再確認してください",
+   "source_ko": "Home Affairs(VisaChief 요약 경유), 2026-11-10 확인 - immi.homeaffairs.gov.au에서 다시 확인하세요",
+   "source_km": "Home Affairs (តាមរយៈសេចក្តីសង្ខេបរបស់ VisaChief) បានពិនិត្យនៅ 2026-11-10 - សូមពិនិត្យម្តងទៀតនៅ immi.homeaffairs.gov.au"
   },
   "new_zealand_nzqa": {
    "source": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via dokumen Whitecliffe 2026)",
@@ -54,7 +60,13 @@
      "pte": "58 (tidak ada band < 50)"
     }
    ],
-   "source_en": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via Whitecliffe 2026 document)"
+   "source_en": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via Whitecliffe 2026 document)",
+   "source_th": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (ผ่านเอกสาร Whitecliffe 2026)",
+   "source_vi": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (qua tài liệu Whitecliffe 2026)",
+   "source_zh": "NZQA Programme Approval, Recognition and Accreditation Rules 2026（经 Whitecliffe 2026 文件）",
+   "source_ja": "NZQA Programme Approval, Recognition and Accreditation Rules 2026（Whitecliffe 2026文書経由）",
+   "source_ko": "NZQA Programme Approval, Recognition and Accreditation Rules 2026(Whitecliffe 2026 문서 경유)",
+   "source_km": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (តាមរយៈឯកសារ Whitecliffe 2026)"
   }
  },
  "items": [
@@ -4630,7 +4642,13 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "AUCKLAND UNIVERSITY OF TECHNOLOGY (AUT)",
@@ -4645,14 +4663,26 @@
      "ielts": "6.0 overall, all bands 5.5+ (Academic)",
      "pte": "50 overall, no score below 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
      "ielts": "6.5 overall, all bands 6.0+ (Academic)",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4673,7 +4703,13 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "ICL GRADUATE BUSINESS SCHOOL",
@@ -4689,7 +4725,13 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "LAURUS EDUCATION NZ",
@@ -4704,7 +4746,13 @@
      "ielts": "IELTS (Academic or General) 5.0, no band lower than 5.0",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4720,7 +4768,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "LE CORDON BLEU NEW ZEALAND",
@@ -4735,7 +4789,13 @@
      "ielts": "Academic or General IELTS 5.5",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4763,7 +4823,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "MANUKAU INSTITUTE OF TECHNOLOGY (MIT)",
@@ -4778,21 +4844,39 @@
      "ielts": "General or Academic IELTS 5.5, no band lower than 5.0",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic IELTS 5.5, no band lower than 5.0",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Bachelor",
      "ielts": "Academic 6.0 overall; writing & speaking >=6.0, reading & listening >=5.5",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     }
    ],
    "specific_courses": [],
@@ -4802,7 +4886,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "MASSEY UNIVERSITY",
@@ -4823,7 +4913,13 @@
      "ielts": "6.5 overall, min 6.0 each band (Academic)",
      "pte": "58 overall, min 50 each communicative skill",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
@@ -4838,7 +4934,13 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "NZMA",
@@ -4853,14 +4955,26 @@
      "ielts": "General or Academic 5.0, no band lower than 5.0",
      "pte": "PTE Academic 36, no band lower than 36",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     }
    ],
    "specific_courses": [],
@@ -4870,7 +4984,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "OTAGO POLYTECHNIC",
@@ -4885,35 +5005,65 @@
      "ielts": "IELTS 5.5 overall",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "IELTS 6 overall",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Bachelor",
      "ielts": "IELTS 6 overall",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "IELTS 6 overall",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
      "ielts": "IELTS 6.5 overall",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "ELICOS / English",
@@ -4929,7 +5079,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "SOUTHERN INSTITUTE OF TECHNOLOGY (SIT)",
@@ -4950,21 +5106,39 @@
      "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
      "pte": "PTE Academic 50 with no band score lower than 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Bachelor",
      "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
      "pte": "PTE Academic 50 with no band score lower than 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "IELTS Academic 5.5 with no band score lower than 5.0",
      "pte": "PTE Academic 42 with no band score lower than 36",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Certificate III/IV",
@@ -5020,7 +5194,13 @@
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Bachelor",
@@ -5033,21 +5213,39 @@
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
      "ielts": "Academic 6.5, no band lower than 6",
      "pte": "PTE Academic 58, no band lower than 50",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Certificate III/IV",
      "ielts": "5.0 (General or Academic), no band lower than 5",
      "pte": "PTE Academic 36, no band lower than 36",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     }
    ],
    "specific_courses": [],
@@ -5057,7 +5255,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "UNIVERSITY OF AUCKLAND",
@@ -5072,7 +5276,13 @@
      "ielts": "6.5 (no band below 6.0)",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
@@ -5088,7 +5298,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "WINTEC - WAIKATO INSTITUTE OF TECHNOLOGY",
@@ -5103,42 +5319,78 @@
      "ielts": "Academic IELTS 5.0 with no band score lower than 5.0, or equivalent",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0, or equivalent",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Bachelor",
      "ielts": "Academic IELTS 6.0 with no band lower than 5.5; or equivalent",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "Academic IELTS 6.0, with no individual band score lower than 5.5, or equivalent",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
      "ielts": "Academic IELTS 6.5, with no individual band score lower than 6.0; or equivalent",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "ELICOS / English",
      "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0",
      "pte": "",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Other",
@@ -5154,7 +5406,13 @@
    "checked_date": "2026-11-10",
    "auto_updated": false,
    "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   },
   {
    "key": "WITT - WESTERN INSTITUTE OF TECHNOLOGY AT TARANAKI",
@@ -5169,14 +5427,26 @@
      "ielts": "IELTS Academic 6.5, no band lower than 6.5",
      "pte": "PTE 58, no band below 58 (2026 agent guide; check Nursing Council acceptance)",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic 5.5, no band below 5.0",
      "pte": "PTE 42, no band below 36 (2026 agent guide)",
      "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
-     "notes_en": "most common requirement for this level at the school; check per program"
+     "notes_en": "most common requirement for this level at the school; check per program",
+     "notes_th": "ข้อกำหนดที่พบบ่อยที่สุดสำหรับระดับนี้ของโรงเรียน; โปรดตรวจสอบแยกตามแต่ละหลักสูตร",
+     "notes_vi": "yêu cầu phổ biến nhất cho cấp học này tại trường; hãy kiểm tra theo từng chương trình",
+     "notes_zh": "该学校此级别最常见的要求；请按具体课程核实",
+     "notes_ja": "その学校のこのレベルで最も一般的な要件です。プログラムごとにご確認ください",
+     "notes_ko": "해당 학교에서 이 레벨에 가장 일반적으로 적용되는 요건입니다. 프로그램별로 확인하세요",
+     "notes_km": "លក្ខខណ្ឌតម្រូវទូទៅបំផុតសម្រាប់កម្រិតនេះនៅសាលា; សូមពិនិត្យតាមកម្មវិធីនីមួយៗ"
     },
     {
      "level": "Master",
@@ -5197,10 +5467,81 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "document_en": "School brochure/fee schedule & official website"
+   "document_en": "School brochure/fee schedule & official website",
+   "document_th": "โบรชัวร์/ตารางค่าเรียนของโรงเรียน และเว็บไซต์ทางการ",
+   "document_vi": "Brochure/bảng học phí của trường & website chính thức",
+   "document_zh": "学校手册/收费表及官方网站",
+   "document_ja": "学校のパンフレット/費用一覧および公式ウェブサイト",
+   "document_ko": "학교 브로슈어/비용표 및 공식 웹사이트",
+   "document_km": "ខិត្តប័ណ្ណ/តារាងថ្លៃសិក្សារបស់សាលា និងគេហទំព័រផ្លូវការ"
   }
  ],
  "title_en": "English Requirements (IELTS/PTE) - TEG Partner Schools",
  "disclaimer_en": "Summary from official school sources. Requirements may differ by campus/intake and may change; the school makes the final decision. Test scores are valid for 2 years for visa purposes.",
- "fallback_text_en": "The school's English requirements are not yet listed - use the general minimum requirements and confirm with a TEG consultant."
+ "fallback_text_en": "The school's English requirements are not yet listed - use the general minimum requirements and confirm with a TEG consultant.",
+ "title_th": "ข้อกำหนดภาษาอังกฤษ (IELTS/PTE) - โรงเรียนพันธมิตรของ TEG",
+ "title_vi": "Yêu cầu tiếng Anh (IELTS/PTE) - Các trường đối tác của TEG",
+ "title_zh": "英语要求（IELTS/PTE）- TEG 合作学校",
+ "title_ja": "英語要件（IELTS/PTE）- TEG提携校",
+ "title_ko": "영어 요건(IELTS/PTE) - TEG 파트너 학교",
+ "title_km": "លក្ខខណ្ឌតម្រូវភាសាអង់គ្លេស (IELTS/PTE) - សាលាដៃគូ TEG",
+ "disclaimer_th": "สรุปจากแหล่งข้อมูลทางการของโรงเรียน ข้อกำหนดอาจแตกต่างกันตามวิทยาเขต/รอบเปิดรับสมัคร และอาจมีการเปลี่ยนแปลง; โรงเรียนเป็นผู้ตัดสินใจขั้นสุดท้าย ผลสอบมีอายุ 2 ปีสำหรับการยื่นวีซ่า",
+ "disclaimer_vi": "Tóm tắt từ nguồn chính thức của trường. Yêu cầu có thể khác nhau tùy cơ sở/kỳ nhập học và có thể thay đổi; trường là bên quyết định cuối cùng. Điểm thi có hiệu lực 2 năm cho mục đích xin visa.",
+ "disclaimer_zh": "摘自学校官方资料。要求可能因校区/入学批次而异，并可能变更；最终由学校决定。用于签证时，考试成绩有效期为 2 年。",
+ "disclaimer_ja": "学校の公式情報に基づく要約です。要件はキャンパス/入学時期によって異なる場合があり、変更されることもあります。最終的な判断は学校が行います。ビザ目的でのテストスコアの有効期間は2年です。",
+ "disclaimer_ko": "학교 공식 자료를 요약한 내용입니다. 요건은 캠퍼스/입학 시기에 따라 다를 수 있고 변경될 수 있으며, 최종 결정은 학교가 내립니다. 비자 목적상 시험 점수는 2년간 유효합니다.",
+ "disclaimer_km": "សេចក្តីសង្ខេបពីប្រភពផ្លូវការរបស់សាលា។ លក្ខខណ្ឌតម្រូវអាចខុសគ្នាតាម campus/intake ហើយអាចផ្លាស់ប្តូរ; សាលាជាអ្នកសម្រេចចុងក្រោយ។ ពិន្ទុតេស្តមានសុពលភាពរយៈពេល 2 ឆ្នាំសម្រាប់គោលបំណងទិដ្ឋាការ។",
+ "fallback_text_th": "ยังไม่มีข้อมูลข้อกำหนดภาษาอังกฤษของโรงเรียนนี้ - ให้ใช้ข้อกำหนดขั้นต่ำทั่วไป และยืนยันกับที่ปรึกษาของ TEG",
+ "fallback_text_vi": "Yêu cầu tiếng Anh của trường chưa được đăng - hãy sử dụng yêu cầu tối thiểu chung và xác nhận với tư vấn viên TEG.",
+ "fallback_text_zh": "该学校的英语要求尚未列出——请参考一般最低要求，并向 TEG 顾问确认。",
+ "fallback_text_ja": "この学校の英語要件はまだ掲載されていません。一般的な最低要件を参考にし、TEGのコンサルタントにご確認ください。",
+ "fallback_text_ko": "해당 학교의 영어 요건이 아직 게시되지 않았습니다. 일반 최소 요건을 참고하시고 TEG 상담사에게 확인하세요.",
+ "fallback_text_km": "លក្ខខណ្ឌតម្រូវភាសាអង់គ្លេសរបស់សាលាមិនទាន់ត្រូវបានរាយបញ្ជីនៅឡើយទេ - សូមប្រើលក្ខខណ្ឌតម្រូវអប្បបរមាទូទៅ ហើយបញ្ជាក់ជាមួយទីប្រឹក្សា TEG។",
+ "status_labels": {
+  "Terverifikasi": {
+   "en": "Verified",
+   "th": "ยืนยันแล้ว",
+   "vi": "Đã xác minh",
+   "zh": "已核实",
+   "ja": "確認済み",
+   "ko": "확인 완료",
+   "km": "បានផ្ទៀងផ្ទាត់"
+  },
+  "Perlu konfirmasi": {
+   "en": "To be confirmed",
+   "th": "รอการยืนยัน",
+   "vi": "Cần xác nhận",
+   "zh": "待确认",
+   "ja": "要確認",
+   "ko": "확인 필요",
+   "km": "ត្រូវបញ្ជាក់"
+  },
+  "Tidak ditemukan": {
+   "en": "Not found",
+   "th": "ไม่พบ",
+   "vi": "Không tìm thấy",
+   "zh": "未找到",
+   "ja": "見つかりません",
+   "ko": "찾을 수 없음",
+   "km": "រកមិនឃើញ"
+  },
+  "Sebagian": {
+   "en": "Partial",
+   "th": "บางส่วน",
+   "vi": "Một phần",
+   "zh": "部分",
+   "ja": "一部",
+   "ko": "일부 확인",
+   "km": "មួយផ្នែក"
+  },
+  "Belum ditemukan": {
+   "en": "Not found yet",
+   "th": "ยังไม่พบ",
+   "vi": "Chưa tìm thấy",
+   "zh": "尚未找到",
+   "ja": "まだ見つかりません",
+   "ko": "아직 찾지 못함",
+   "km": "មិនទាន់រកឃើញ"
+  }
+ }
 }

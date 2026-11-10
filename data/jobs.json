@@ -13,5 +13,166 @@
  "title_en": "Student Jobs - Australia & New Zealand",
  "disclaimer_en": "Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa conditions. Never pay to get a job.",
  "status_en": "waiting for API key - no data yet",
- "schedule_en": "Every day at 05:17 WIB (GitHub Actions) - active once the Adzuna API key is set up"
+ "schedule_en": "Every day at 05:17 WIB (GitHub Actions) - active once the Adzuna API key is set up",
+ "title_th": "งานสำหรับนักเรียน - ออสเตรเลียและนิวซีแลนด์",
+ "title_vi": "Việc làm cho sinh viên - Úc & New Zealand",
+ "title_zh": "学生工作 - 澳大利亚和新西兰",
+ "title_ja": "学生向け求人 - オーストラリア・ニュージーランド",
+ "title_ko": "학생 아르바이트 - 호주 및 뉴질랜드",
+ "title_km": "ការងារសម្រាប់សិស្ស - អូស្ត្រាលី និងនូវែលសេឡង់",
+ "disclaimer_th": "งานจากแหล่งภายนอก (Jobs by Adzuna) ตรวจสอบอัตโนมัติทุกวัน การตรวจสอบช่วยลดความเสี่ยงแต่ไม่รับประกันความปลอดภัย ความถูกต้องตามกฎหมาย หรือการเปิดรับสมัคร งานไม่ได้เหมาะกับผู้ถือวีซ่านักเรียนทุกคน - ตรวจสอบเงื่อนไขวีซ่าของคุณ ห้ามจ่ายเงินเพื่อให้ได้งาน",
+ "disclaimer_vi": "Việc làm từ nguồn bên ngoài (Jobs by Adzuna), được kiểm tra tự động hằng ngày. Việc kiểm tra giúp giảm rủi ro nhưng không đảm bảo tính an toàn, hợp pháp hay việc làm còn tuyển. Không phải công việc nào cũng phù hợp với mọi người có visa du học - hãy kiểm tra điều kiện visa của bạn. Không bao giờ trả tiền để có được việc làm.",
+ "disclaimer_zh": "职位来自外部来源（Jobs by Adzuna），每天自动核查。核查可降低风险，但不能保证安全性、合法性或职位仍然有效。并非每个职位都适合所有学生签证持有人——请查看您的签证条件。切勿为获得工作而付费。",
+ "disclaimer_ja": "外部ソース（Jobs by Adzuna）からの求人で、毎日自動でチェックしています。チェックによりリスクは軽減されますが、安全性、合法性、募集状況を保証するものではありません。すべての求人がすべての学生ビザ保持者に適しているわけではありません。ご自身のビザ条件をご確認ください。仕事を得るためにお金を支払うことは絶対にしないでください。",
+ "disclaimer_ko": "외부 출처(Jobs by Adzuna)의 채용 정보로, 매일 자동으로 확인됩니다. 확인 절차가 위험을 줄여주지만 안전성, 합법성 또는 채용 가능 여부를 보장하지는 않습니다. 모든 일자리가 모든 학생비자 소지자에게 적합한 것은 아니니 비자 조건을 확인하세요. 일자리를 얻기 위해 절대 돈을 지불하지 마세요.",
+ "disclaimer_km": "ការងារពីប្រភពខាងក្រៅ (Jobs by Adzuna) ដែលត្រូវបានពិនិត្យដោយស្វ័យប្រវត្តិរៀងរាល់ថ្ងៃ។ ការពិនិត្យជួយកាត់បន្ថយហានិភ័យ ប៉ុន្តែមិនធានាសុវត្ថិភាព ភាពស្របច្បាប់ ឬភាពទំនេរនៃការងារទេ។ មិនមែនការងារទាំងអស់សមស្របសម្រាប់អ្នកកាន់ទិដ្ឋាការសិស្សគ្រប់រូបទេ - សូមពិនិត្យលក្ខខណ្ឌទិដ្ឋាការរបស់អ្នក។ កុំបង់ប្រាក់ដើម្បីទទួលបានការងារ។",
+ "status_th": "รอ API key - ยังไม่มีข้อมูล",
+ "status_vi": "đang chờ API key - chưa có dữ liệu",
+ "status_zh": "等待 API 密钥——暂无数据",
+ "status_ja": "APIキー待ち - まだデータはありません",
+ "status_ko": "API 키 대기 중 - 아직 데이터 없음",
+ "status_km": "កំពុងរង់ចាំ API key - មិនទាន់មានទិន្នន័យនៅឡើយទេ",
+ "schedule_th": "ทุกวันเวลา 05:17 WIB (GitHub Actions) - เริ่มทำงานเมื่อตั้งค่า Adzuna API key แล้ว",
+ "schedule_vi": "Hằng ngày lúc 05:17 WIB (GitHub Actions) - hoạt động khi Adzuna API key đã được thiết lập",
+ "schedule_zh": "每天 05:17 WIB（GitHub Actions）——设置 Adzuna API 密钥后启用",
+ "schedule_ja": "毎日 05:17 WIB（GitHub Actions）- Adzuna APIキーの設定後に有効になります",
+ "schedule_ko": "매일 05:17 WIB(GitHub Actions) - Adzuna API 키가 설정되면 활성화됩니다",
+ "schedule_km": "រៀងរាល់ថ្ងៃនៅម៉ោង 05:17 WIB (GitHub Actions) - ដំណើរការនៅពេល Adzuna API key ត្រូវបានរៀបចំរួច",
+ "item_text": {
+  "Pemeriksaan otomatis": {
+   "en": "Automated checks",
+   "th": "ตรวจสอบอัตโนมัติ",
+   "vi": "Kiểm tra tự động",
+   "zh": "自动检查",
+   "ja": "自動チェック",
+   "ko": "자동 확인",
+   "km": "ការត្រួតពិនិត្យដោយស្វ័យប្រវត្តិ"
+  },
+  "Belum berhasil diperiksa ulang": {
+   "en": "Re-check not successful yet",
+   "th": "ยังตรวจสอบซ้ำไม่สำเร็จ",
+   "vi": "Chưa kiểm tra lại thành công",
+   "zh": "尚未成功重新检查",
+   "ja": "再確認はまだ完了していません",
+   "ko": "재확인이 아직 완료되지 않았습니다",
+   "km": "មិនទាន់ត្រួតពិនិត្យឡើងវិញបានជោគជ័យ"
+  },
+  "Sumber disetujui admin (Adzuna API resmi)": {
+   "en": "Admin-approved source (official Adzuna API)",
+   "th": "แหล่งข้อมูลที่ผู้ดูแลอนุมัติ (Adzuna API อย่างเป็นทางการ)",
+   "vi": "Nguồn được quản trị viên phê duyệt (Adzuna API chính thức)",
+   "zh": "管理员批准的来源（官方 Adzuna API）",
+   "ja": "管理者承認済みの情報源（公式 Adzuna API）",
+   "ko": "관리자 승인 출처 (공식 Adzuna API)",
+   "km": "ប្រភពដែលអ្នកគ្រប់គ្រងបានអនុម័ត (Adzuna API ផ្លូវការ)"
+  },
+  "Tanggal posting asli dari sumber": {
+   "en": "Original posting date from the source",
+   "th": "วันที่ประกาศจริงจากแหล่งข้อมูล",
+   "vi": "Ngày đăng gốc từ nguồn",
+   "zh": "来源提供的原始发布日期",
+   "ja": "情報源の元の掲載日",
+   "ko": "출처의 원래 게시일",
+   "km": "កាលបរិច្ឆេទផ្សាយដើមពីប្រភព"
+  },
+  "Masih tercantum di sumber pada tanggal cek": {
+   "en": "Still listed at the source on the check date",
+   "th": "ยังแสดงอยู่ที่แหล่งข้อมูล ณ วันที่ตรวจสอบ",
+   "vi": "Vẫn còn đăng tại nguồn vào ngày kiểm tra",
+   "zh": "检查当日仍在来源上发布",
+   "ja": "確認日時点で情報源に掲載中",
+   "ko": "확인일 기준 출처에 계속 게시됨",
+   "km": "នៅតែមាននៅប្រភពនៅថ្ងៃត្រួតពិនិត្យ"
+  },
+  "Tidak ditemukan kata kunci indikasi penipuan": {
+   "en": "No fraud-indicator keywords found",
+   "th": "ไม่พบคำที่บ่งชี้การหลอกลวง",
+   "vi": "Không phát hiện từ khóa dấu hiệu lừa đảo",
+   "zh": "未发现诈骗迹象关键词",
+   "ja": "詐欺の兆候を示すキーワードは見つかりませんでした",
+   "ko": "사기 의심 키워드 없음",
+   "km": "មិនរកឃើញពាក្យគន្លឹះដែលបង្ហាញពីការបោកប្រាស់"
+  },
+  "Cek hak kerja di visa kamu sebelum melamar.": {
+   "en": "Check the work rights on your visa before applying.",
+   "th": "ตรวจสอบสิทธิ์การทำงานในวีซ่าของคุณก่อนสมัคร",
+   "vi": "Hãy kiểm tra quyền làm việc trên thị thực của bạn trước khi ứng tuyển.",
+   "zh": "申请前请确认您签证上的工作权利。",
+   "ja": "応募する前に、ビザの就労条件を確認してください。",
+   "ko": "지원하기 전에 비자의 근로 허용 조건을 확인하세요.",
+   "km": "សូមពិនិត្យសិទ្ធិធ្វើការលើទិដ្ឋាការរបស់អ្នកមុនពេលដាក់ពាក្យ។"
+  },
+  "tidak dicantumkan": {
+   "en": "not stated",
+   "th": "ไม่ระบุ",
+   "vi": "không ghi",
+   "zh": "未注明",
+   "ja": "記載なし",
+   "ko": "명시되지 않음",
+   "km": "មិនបានបញ្ជាក់"
+  },
+  "lihat iklan asli": {
+   "en": "see original ad",
+   "th": "ดูประกาศต้นฉบับ",
+   "vi": "xem tin tuyển dụng gốc",
+   "zh": "见原始广告",
+   "ja": "元の求人広告を参照",
+   "ko": "원본 공고 참조",
+   "km": "មើលការផ្សាយដើម"
+  },
+  "Lamar di situs asli (link)": {
+   "en": "Apply on the original site (link)",
+   "th": "สมัครที่เว็บไซต์ต้นทาง (ลิงก์)",
+   "vi": "Ứng tuyển trên trang gốc (liên kết)",
+   "zh": "在原网站申请（链接）",
+   "ja": "元のサイトで応募（リンク）",
+   "ko": "원본 사이트에서 지원 (링크)",
+   "km": "ដាក់ពាក្យនៅគេហទំព័រដើម (តំណ)"
+  },
+  "(satuan sesuai iklan asli)": {
+   "en": "(unit as in the original ad)",
+   "th": "(หน่วยตามประกาศต้นฉบับ)",
+   "vi": "(đơn vị theo tin gốc)",
+   "zh": "（单位以原始广告为准）",
+   "ja": "（単位は元の求人広告のとおり）",
+   "ko": "(단위는 원본 공고 기준)",
+   "km": "(ឯកតាដូចក្នុងការផ្សាយដើម)"
+  },
+  "Full-time": {
+   "en": "Full-time",
+   "th": "เต็มเวลา",
+   "vi": "Toàn thời gian",
+   "zh": "全职",
+   "ja": "フルタイム",
+   "ko": "풀타임",
+   "km": "ពេញម៉ោង"
+  },
+  "Part-time": {
+   "en": "Part-time",
+   "th": "พาร์ทไทม์",
+   "vi": "Bán thời gian",
+   "zh": "兼职",
+   "ja": "パートタイム",
+   "ko": "파트타임",
+   "km": "ក្រៅម៉ោង"
+  },
+  "Contract/Casual": {
+   "en": "Contract/Casual",
+   "th": "สัญญาจ้าง/ชั่วคราว",
+   "vi": "Hợp đồng/Thời vụ",
+   "zh": "合同/临时",
+   "ja": "契約/臨時",
+   "ko": "계약/임시",
+   "km": "កិច្ចសន្យា/បណ្តោះអាសន្ន"
+  },
+  "Permanent": {
+   "en": "Permanent",
+   "th": "ประจำ",
+   "vi": "Lâu dài",
+   "zh": "长期",
+   "ja": "正社員",
+   "ko": "정규직",
+   "km": "អចិន្ត្រៃយ៍"
+  }
+ }
 }

@@ -21,14 +21,26 @@
      "publisher": "Australian Government - Study Australia",
      "checked": "2026-11-10",
      "note": "Menyatakan 48 jam/fortnight saat in session, tanpa batas saat libur terjadwal, serta pengecualian di atas. Tidak ada tanggal efektif di halaman.",
-     "note_en": "States 48 hours/fortnight while in session, unlimited during scheduled breaks, plus the exceptions above. No effective date on the page."
+     "note_en": "States 48 hours/fortnight while in session, unlimited during scheduled breaks, plus the exceptions above. No effective date on the page.",
+     "note_th": "ระบุ 48 ชั่วโมง/สองสัปดาห์ในช่วงเปิดภาคเรียน ไม่จำกัดในช่วงปิดภาคเรียนตามกำหนด รวมถึงข้อยกเว้นข้างต้น หน้าเว็บไม่ได้ระบุวันที่มีผลบังคับใช้",
+     "note_vi": "Nêu rõ 48 giờ/2 tuần trong thời gian học, không giới hạn trong các kỳ nghỉ theo lịch, cộng với các trường hợp ngoại lệ ở trên. Trang không có ngày hiệu lực.",
+     "note_zh": "注明课程进行期间每两周 48 小时，学校规定假期期间不限时长，另加上述例外情况。页面未注明生效日期。",
+     "note_ja": "授業期間中は2週間あたり48時間、所定の休暇期間中は無制限、さらに上記の例外があると記載されています。ページに施行日の記載はありません。",
+     "note_ko": "학기 중에는 2주(fortnight)당 48시간, 정해진 방학 기간에는 무제한이며, 위의 예외 사항이 추가됩니다. 페이지에 시행일이 없습니다.",
+     "note_km": "បញ្ជាក់ 48 ម៉ោង/ពីរសប្តាហ៍ក្នុងអំឡុងពេលសិក្សា គ្មានដែនកំណត់ក្នុងអំឡុងពេលឈប់សម្រាកតាមកាលវិភាគ បូករួមនឹងករណីលើកលែងខាងលើ។ គ្មានកាលបរិច្ឆេទចូលជាធរមាននៅលើទំព័រទេ។"
     },
     {
      "url": "https://www.studyaustralia.gov.au/en/work-in-australia/work-rights-and-responsibilities/your-work-rights-explained",
      "publisher": "Australian Government - Study Australia",
      "checked": "2026-11-10",
      "note": "Konfirmasi 48 jam/fortnight; merujuk Fair Work Ombudsman untuk upah minimum.",
-     "note_en": "Confirms 48 hours/fortnight; refers to the Fair Work Ombudsman for minimum wages."
+     "note_en": "Confirms 48 hours/fortnight; refers to the Fair Work Ombudsman for minimum wages.",
+     "note_th": "ยืนยัน 48 ชั่วโมง/สองสัปดาห์; อ้างอิง Fair Work Ombudsman สำหรับค่าจ้างขั้นต่ำ",
+     "note_vi": "Xác nhận 48 giờ/2 tuần; tham khảo Fair Work Ombudsman về mức lương tối thiểu.",
+     "note_zh": "确认每两周 48 小时；最低工资请参考 Fair Work Ombudsman。",
+     "note_ja": "2週間あたり48時間であることを確認しています。最低賃金についてはFair Work Ombudsmanを参照しています。",
+     "note_ko": "2주(fortnight)당 48시간을 확인하며, 최저임금은 Fair Work Ombudsman을 참조합니다.",
+     "note_km": "បញ្ជាក់ 48 ម៉ោង/ពីរសប្តាហ៍; ណែនាំទៅ Fair Work Ombudsman សម្រាប់ប្រាក់ឈ្នួលអប្បបរមា។"
     }
    ],
    "perlu_konfirmasi": [
@@ -46,6 +58,78 @@
    "perlu_konfirmasi_en": [
     "The immi.homeaffairs.gov.au page 'Work restrictions for student visa holders' read during the check still showed old COVID-era text (does not mention 48 hours); the condition 8105 page is blocked by robots for automated retrieval. Admin needs to check manually: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
     "Check individual visa conditions: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "summary_th": "สูงสุด 48 ชั่วโมงต่อสองสัปดาห์ (fortnight) ในช่วงที่หลักสูตรเปิดสอน (รวมช่วงสอบ) ไม่จำกัดชั่วโมงในช่วงปิดภาคเรียนอย่างเป็นทางการตามกำหนดของสถาบัน",
+   "summary_vi": "Tối đa 48 giờ mỗi hai tuần (fortnight) trong thời gian khóa học đang diễn ra (bao gồm cả kỳ thi). Không giới hạn trong các kỳ nghỉ chính thức theo lịch của cơ sở đào tạo.",
+   "summary_zh": "课程进行期间（包括考试期间）每两周（fortnight）最多 48 小时。院校官方规定假期期间不限时长。",
+   "summary_ja": "コースの授業期間中（試験期間を含む）は、2週間（fortnight）あたり最大48時間です。教育機関の公式な所定休暇期間中は無制限です。",
+   "summary_ko": "코스 수업 기간 중(시험 기간 포함)에는 2주(fortnight)당 최대 48시간입니다. 교육기관의 공식 방학 기간에는 무제한입니다.",
+   "summary_km": "អតិបរមា 48 ម៉ោងក្នុងរយៈពេលពីរសប្តាហ៍ (fortnight) ក្នុងអំឡុងពេលវគ្គសិក្សារបស់អ្នកកំពុងដំណើរការ (រួមទាំងរយៈពេលប្រឡង)។ គ្មានដែនកំណត់ក្នុងអំឡុងពេលឈប់សម្រាកផ្លូវការតាមកាលវិភាគរបស់ស្ថាប័ន។",
+   "details_th": [
+    "48 ชั่วโมงต่อสองสัปดาห์ในช่วงที่หลักสูตรเปิดสอน (เทอม, ภาคการศึกษา, ช่วงสอบ)",
+    "ไม่จำกัดชั่วโมงในช่วงปิดภาคเรียนตามกำหนดของหลักสูตร",
+    "ไม่จำกัดชั่วโมงเช่นกันสำหรับ: นักศึกษาปริญญาโทแบบวิจัย (master by research) / ปริญญาเอก เมื่อหลักสูตรเริ่มแล้ว; หลังเรียนจบหลักสูตรตาม CoE ขณะที่วีซ่ายังมีอายุอยู่; หลักสูตรถูกเลื่อน/ระงับภายใต้ Standard 9 ของ National Code; การลงทะเบียนเรียนถูกยกเลิกเนื่องจาก provider ผิดสัญญา (provider default) (จนกว่าหลักสูตรใหม่จะเริ่ม)",
+    "เงื่อนไขการทำงานระบุไว้ในวีซ่า (condition 8105); ตรวจสอบได้ใน VEVO"
+   ],
+   "details_vi": [
+    "48 giờ mỗi hai tuần trong thời gian khóa học đang diễn ra (kỳ học, học kỳ, kỳ thi).",
+    "Không giới hạn số giờ trong các kỳ nghỉ theo lịch của khóa học.",
+    "Cũng không giới hạn số giờ đối với: sinh viên thạc sĩ nghiên cứu / tiến sĩ khi khóa học đã bắt đầu; sau khi hoàn thành khóa học ghi trên CoE trong khi visa vẫn còn hiệu lực; khóa học được hoãn/tạm dừng theo Standard 9 của National Code; việc ghi danh bị hủy do nhà cung cấp vi phạm nghĩa vụ (provider default) (cho đến khi khóa học mới bắt đầu).",
+    "Điều kiện làm việc được ghi trên visa (condition 8105); kiểm tra trong VEVO."
+   ],
+   "details_zh": [
+    "课程进行期间（学期、考试期间）每两周 48 小时。",
+    "课程规定假期期间不限时长。",
+    "以下情况同样不限工时：研究型硕士 / 博士学生在课程开始后；完成 CoE 上的课程后签证仍有效期间；根据 National Code 的 Standard 9 延期/暂停课程期间；因 provider 违约导致注册被取消（直至新课程开始）。",
+    "工作条件列于签证上（condition 8105）；请在 VEVO 中查询。"
+   ],
+   "details_ja": [
+    "コースの授業期間中（ターム、セメスター、試験期間）は2週間あたり48時間です。",
+    "コースの所定休暇期間中は時間無制限です。",
+    "次の場合も時間無制限です：研究修士/博士課程の学生（コース開始後）、ビザがまだ有効なうちにCoEに記載のコースを修了した後、National CodeのStandard 9に基づきコースが延期/休止された場合、プロバイダーの債務不履行により在籍が取り消された場合（新しいコースが始まるまで）。",
+    "就労条件はビザに記載されています（condition 8105）。VEVOでご確認ください。"
+   ],
+   "details_ko": [
+    "코스 수업 기간(term, semester, 시험 기간) 중에는 2주(fortnight)당 48시간.",
+    "정해진 코스 방학 기간에는 근무 시간 무제한.",
+    "다음의 경우에도 근무 시간 무제한: 코스가 시작된 연구 석사(master by research) / 박사 과정 학생, 비자가 아직 유효한 상태에서 CoE상의 코스를 이수한 후, National Code의 Standard 9에 따라 코스가 연기/정지된 경우, provider의 귀책(provider default)으로 등록이 취소된 경우(새 코스가 시작될 때까지).",
+    "근무 조건은 비자에 기재되어 있습니다(condition 8105). VEVO에서 확인하세요."
+   ],
+   "details_km": [
+    "48 ម៉ោងក្នុងរយៈពេលពីរសប្តាហ៍ ក្នុងអំឡុងពេលវគ្គសិក្សាកំពុងដំណើរការ (term ឆមាស រយៈពេលប្រឡង)។",
+    "ម៉ោងគ្មានដែនកំណត់ក្នុងអំឡុងពេលឈប់សម្រាកតាមកាលវិភាគនៃវគ្គសិក្សា។",
+    "ម៉ោងគ្មានដែនកំណត់ផងដែរសម្រាប់៖ និស្សិតថ្នាក់អនុបណ្ឌិតតាមការស្រាវជ្រាវ / ថ្នាក់បណ្ឌិត នៅពេលវគ្គសិក្សារបស់ពួកគេបានចាប់ផ្តើម; ក្រោយពេលបញ្ចប់វគ្គសិក្សាដែលមាននៅលើ CoE ខណៈពេលដែលទិដ្ឋាការនៅមានសុពលភាព; វគ្គសិក្សាត្រូវបានពន្យារ/ផ្អាកក្រោម Standard 9 នៃ National Code; ការចុះឈ្មោះចូលរៀនត្រូវបានលុបចោលដោយសារអ្នកផ្តល់សេវាខកខានកាតព្វកិច្ច (provider default) (រហូតដល់វគ្គសិក្សាថ្មីចាប់ផ្តើម)។",
+    "លក្ខខណ្ឌការងារត្រូវបានរាយនៅលើទិដ្ឋាការ (condition 8105); សូមពិនិត្យនៅក្នុង VEVO។"
+   ],
+   "status_th": "ยืนยันแล้ว (แหล่งข้อมูลรัฐบาลออสเตรเลีย: Study Australia / Austrade)",
+   "status_vi": "đã xác minh (nguồn chính phủ Úc: Study Australia / Austrade)",
+   "status_zh": "已核实（澳大利亚政府来源：Study Australia / Austrade）",
+   "status_ja": "確認済み（オーストラリア政府の情報源：Study Australia / Austrade）",
+   "status_ko": "확인 완료(호주 정부 출처: Study Australia / Austrade)",
+   "status_km": "បានផ្ទៀងផ្ទាត់ (ប្រភពរដ្ឋាភិបាលអូស្ត្រាលី៖ Study Australia / Austrade)",
+   "perlu_konfirmasi_th": [
+    "หน้า 'Work restrictions for student visa holders' ของ immi.homeaffairs.gov.au ที่อ่านระหว่างการตรวจสอบยังแสดงข้อความเก่าจากช่วง COVID (ไม่ได้กล่าวถึง 48 ชั่วโมง); หน้า condition 8105 ถูกบล็อกโดย robots ไม่ให้ดึงข้อมูลอัตโนมัติ ผู้ดูแลระบบต้องตรวจสอบด้วยตนเอง: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "ตรวจสอบเงื่อนไขวีซ่าของแต่ละบุคคล: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "perlu_konfirmasi_vi": [
+    "Trang 'Work restrictions for student visa holders' trên immi.homeaffairs.gov.au được đọc trong lần kiểm tra vẫn hiển thị nội dung cũ từ thời COVID (không đề cập 48 giờ); trang condition 8105 bị chặn bởi robots đối với việc truy xuất tự động. Admin cần kiểm tra thủ công: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "Kiểm tra điều kiện visa của từng người: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "perlu_konfirmasi_zh": [
+    "核查时读取的 immi.homeaffairs.gov.au 页面 'Work restrictions for student visa holders' 仍显示新冠疫情时期的旧文字（未提及 48 小时）；condition 8105 页面被 robots 屏蔽，无法自动获取。管理员需手动核查：https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "查询个人签证条件：https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "perlu_konfirmasi_ja": [
+    "確認時に読み込んだimmi.homeaffairs.gov.auのページ「Work restrictions for student visa holders」には、まだCOVID期の古い文言が表示されていました（48時間についての記載なし）。condition 8105のページはrobotsにより自動取得がブロックされています。管理者による手動確認が必要です：https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "個別のビザ条件をご確認ください：https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "perlu_konfirmasi_ko": [
+    "확인 시 읽은 immi.homeaffairs.gov.au의 'Work restrictions for student visa holders' 페이지에는 여전히 COVID 시기의 이전 문구가 표시되어 있었습니다(48시간에 대한 언급 없음). condition 8105 페이지는 robots 설정으로 자동 조회가 차단되어 있습니다. 관리자가 직접 확인해야 합니다: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "개인별 비자 조건 확인: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "perlu_konfirmasi_km": [
+    "ទំព័រ immi.homeaffairs.gov.au 'Work restrictions for student visa holders' ដែលបានអានក្នុងអំឡុងពេលពិនិត្យ នៅតែបង្ហាញអត្ថបទចាស់ពីសម័យ COVID (មិនបានលើកឡើងអំពី 48 ម៉ោងទេ); ទំព័រ condition 8105 ត្រូវបានរារាំងដោយ robots សម្រាប់ការទាញយកដោយស្វ័យប្រវត្តិ។ Admin ត្រូវពិនិត្យដោយដៃ៖ https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "ពិនិត្យលក្ខខណ្ឌទិដ្ឋាការផ្ទាល់ខ្លួន៖ https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
    ]
   },
   {
@@ -69,14 +153,26 @@
      "publisher": "Immigration New Zealand",
      "checked": "2026-11-10",
      "note": "Halaman tidak mencantumkan tanggal efektif/tanggal update. Sebagian teks (durasi minimum kursus tersier) tidak terbaca lengkap.",
-     "note_en": "The page does not show an effective date/update date. Part of the text (minimum duration of tertiary courses) could not be read in full."
+     "note_en": "The page does not show an effective date/update date. Part of the text (minimum duration of tertiary courses) could not be read in full.",
+     "note_th": "หน้าเว็บไม่ได้แสดงวันที่มีผลบังคับใช้/วันที่อัปเดต ข้อความบางส่วน (ระยะเวลาขั้นต่ำของหลักสูตรระดับอุดมศึกษา) ไม่สามารถอ่านได้ครบถ้วน",
+     "note_vi": "Trang không hiển thị ngày hiệu lực/ngày cập nhật. Một phần nội dung (thời lượng tối thiểu của các khóa học bậc đại học/sau phổ thông) không thể đọc đầy đủ.",
+     "note_zh": "页面未显示生效日期/更新日期。部分文字（高等教育课程的最短时长）无法完整读取。",
+     "note_ja": "ページに施行日/更新日の記載はありません。本文の一部（高等教育コースの最低期間）は全文を読み取れませんでした。",
+     "note_ko": "페이지에 시행일/업데이트 날짜가 표시되어 있지 않습니다. 일부 문구(고등교육 코스의 최소 기간)는 전체를 읽을 수 없었습니다.",
+     "note_km": "ទំព័រនេះមិនបង្ហាញកាលបរិច្ឆេទចូលជាធរមាន/កាលបរិច្ឆេទធ្វើបច្ចុប្បន្នភាពទេ។ អត្ថបទមួយផ្នែក (រយៈពេលអប្បបរមានៃវគ្គសិក្សាឧត្តមសិក្សា) មិនអាចអានបានពេញលេញទេ។"
     },
     {
      "url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights",
      "publisher": "Immigration New Zealand",
      "checked": "2026-11-10",
      "note": "Berita perubahan (dari 20 ke 25 jam); hanya ditemukan di hasil pencarian, tidak dibuka.",
-     "note_en": "News of the change (from 20 to 25 hours); found only in search results, not opened."
+     "note_en": "News of the change (from 20 to 25 hours); found only in search results, not opened.",
+     "note_th": "ข่าวการเปลี่ยนแปลง (จาก 20 เป็น 25 ชั่วโมง); พบเพียงในผลการค้นหา ยังไม่ได้เปิดอ่าน",
+     "note_vi": "Tin tức về thay đổi (từ 20 lên 25 giờ); chỉ tìm thấy trong kết quả tìm kiếm, chưa được mở.",
+     "note_zh": "有关变更的消息（从 20 小时增至 25 小时）；仅在搜索结果中找到，未打开页面。",
+     "note_ja": "変更（20時間から25時間へ）に関するニュースです。検索結果でのみ確認し、ページは開いていません。",
+     "note_ko": "변경 소식(20시간에서 25시간으로)은 검색 결과에서만 확인되었으며, 페이지를 열어보지는 않았습니다.",
+     "note_km": "ព័ត៌មានអំពីការផ្លាស់ប្តូរ (ពី 20 ទៅ 25 ម៉ោង); រកឃើញតែក្នុងលទ្ធផលស្វែងរកប៉ុណ្ណោះ មិនបានបើកមើលទេ។"
     }
    ],
    "perlu_konfirmasi": [
@@ -97,6 +193,96 @@
    "perlu_konfirmasi_en": [
     "Details of the minimum tertiary course duration for part-time work rights (page text was cut off).",
     "Work rights for Masters by research are not stated as unlimited on the page."
+   ],
+   "summary_th": "หากเงื่อนไขวีซ่าของคุณอนุญาต: สูงสุด 25 ชั่วโมงต่อสัปดาห์ในช่วงเปิดภาคเรียน; ทำงานเต็มเวลาในช่วงวันหยุดตามกำหนดได้เฉพาะผู้ที่มีคุณสมบัติเท่านั้น ตรวจสอบ eVisa / visa letter ของคุณ",
+   "summary_vi": "Nếu điều kiện visa của bạn cho phép: tối đa 25 giờ mỗi tuần trong thời gian học; làm việc toàn thời gian trong các kỳ nghỉ theo lịch chỉ dành cho những người đủ điều kiện. Kiểm tra eVisa / thư visa của bạn.",
+   "summary_zh": "如您的签证条件允许：学习期间每周最多 25 小时；仅符合条件者可在规定假期期间全职工作。请查看您的 eVisa / 签证信。",
+   "summary_ja": "ビザ条件で認められている場合：学期中は週最大25時間。所定の休暇期間中のフルタイム就労は、対象となる人のみです。eVisa／ビザレターをご確認ください。",
+   "summary_ko": "비자 조건이 허용하는 경우: 학업 기간 중 주당 최대 25시간, 정해진 방학 기간에는 자격이 있는 사람에 한해 풀타임 근무가 가능합니다. eVisa / 비자 서신을 확인하세요.",
+   "summary_km": "ប្រសិនបើលក្ខខណ្ឌទិដ្ឋាការរបស់អ្នកអនុញ្ញាត៖ អតិបរមា 25 ម៉ោងក្នុងមួយសប្តាហ៍ក្នុងអំឡុងពេលសិក្សា; ការងារពេញម៉ោងក្នុងអំឡុងពេលវិស្សមកាលតាមកាលវិភាគ សម្រាប់តែអ្នកដែលមានសិទ្ធិប៉ុណ្ណោះ។ សូមពិនិត្យ eVisa / លិខិតទិដ្ឋាការរបស់អ្នក។",
+   "details_th": [
+    "สูงสุด 25 ชั่วโมงต่อสัปดาห์ในช่วงเปิดภาคเรียน เฉพาะกรณีที่ระบุไว้ในเงื่อนไขวีซ่าของคุณ",
+    "ระดับอุดมศึกษา: เรียนเต็มเวลา และ (a) คุณวุฒิ NZQCF Level 4 ขึ้นไป หรือ (b) หลักสูตรที่ผ่านข้อกำหนดระยะเวลาขั้นต่ำ หรือ (c) เรียนภาษาอังกฤษภายใต้เงื่อนไขบางประการ หรือ (d) โครงการแลกเปลี่ยน/Study Abroad อย่างน้อย 1 ภาคการศึกษา",
+    "ทำงานเต็มเวลาในช่วงวันหยุดตามกำหนด: อย่างน้อย 1 ปีการศึกษา หลักสูตรอย่างน้อย 120 หน่วยกิต อย่างน้อย 2 ภาคการศึกษาในระยะเวลาอย่างน้อย 8 เดือน",
+    "ภาษาอังกฤษ: หลักสูตรอย่างน้อย 24 สัปดาห์ + IELTS overall 5.0 (อายุผลสอบไม่เกิน 2 ปี) หรือหลักสูตรอย่างน้อย 14 สัปดาห์ต่อเนื่องที่มหาวิทยาลัย / provider ที่อยู่ใน NZQA Category 1",
+    "โรงเรียนมัธยม: Year 12/13 อายุ 16 ปีขึ้นไป ได้รับอนุญาตเป็นลายลักษณ์อักษรจากโรงเรียนและผู้ปกครอง; 25 ชั่วโมง/สัปดาห์ ทำงานเต็มเวลาได้ในช่วงวันหยุดคริสต์มาส-ปีใหม่",
+    "ปริญญาเอก (PhD): ไม่จำกัดชั่วโมง ตราบใดที่ยังเรียนเต็มเวลาต่อเนื่อง",
+    "Micro-credentials และโครงการฝึกอบรม (training schemes) ไม่มีสิทธิ์ ไม่อนุญาตให้ประกอบอาชีพอิสระ (self-employment); ต้องมีสัญญาจ้างงาน (employment agreement)"
+   ],
+   "details_vi": [
+    "Tối đa 25 giờ mỗi tuần trong thời gian học, chỉ khi được ghi trong điều kiện visa của bạn.",
+    "Bậc sau phổ thông (tertiary): học toàn thời gian và (a) văn bằng NZQCF Level 4 trở lên, hoặc (b) khóa học đáp ứng yêu cầu thời lượng tối thiểu, hoặc (c) học tiếng Anh theo một số điều kiện nhất định, hoặc (d) chương trình trao đổi/Study Abroad kéo dài ít nhất 1 học kỳ.",
+    "Toàn thời gian trong các kỳ nghỉ theo lịch: ít nhất 1 năm học, khóa học tối thiểu 120 tín chỉ, ít nhất 2 học kỳ trong thời gian ít nhất 8 tháng.",
+    "Tiếng Anh: khóa học ít nhất 24 tuần + IELTS overall 5.0 (không quá 2 năm), HOẶC khóa học ít nhất 14 tuần liên tục tại một trường đại học / nhà cung cấp NZQA Category 1.",
+    "Trung học: Year 12/13, từ 16 tuổi trở lên, có văn bản cho phép của trường và cha mẹ; 25 giờ/tuần, toàn thời gian trong kỳ nghỉ Giáng sinh - Năm mới.",
+    "Tiến sĩ (PhD): không giới hạn số giờ miễn là bạn tiếp tục học toàn thời gian.",
+    "Micro-credentials và các chương trình đào tạo (training schemes) không đủ điều kiện. Không được phép tự kinh doanh; phải có hợp đồng lao động."
+   ],
+   "details_zh": [
+    "学习期间每周最多 25 小时，前提是您的签证条件中有此规定。",
+    "高等教育：全日制学习，并且 (a) 攻读 NZQCF Level 4 或以上的资格，或 (b) 课程满足最短时长要求，或 (c) 在特定条件下学习英语，或 (d) 参加至少 1 个学期的交换/Study Abroad 项目。",
+    "规定假期期间全职工作：至少 1 个学年，课程至少 120 学分，至少 2 个学期且历时至少 8 个月。",
+    "英语课程：课程至少 24 周 + IELTS 总分 5.0（成绩不超过 2 年），或在大学 / NZQA Category 1 provider 就读至少连续 14 周的课程。",
+    "中学：Year 12/13，年满 16 岁，需获得学校和家长的书面许可；每周 25 小时，圣诞-新年假期期间可全职工作。",
+    "博士（PhD）：只要持续全日制学习，工时不限。",
+    "Micro-credentials 和培训计划不符合条件。不允许自雇；必须签订雇佣协议。"
+   ],
+   "details_ja": [
+    "学期中は週25時間まで。ビザ条件に記載がある場合に限ります。",
+    "高等教育：フルタイムで就学し、かつ (a) NZQCFレベル4以上の資格、または (b) 最低期間の要件を満たすコース、または (c) 一定の条件下での英語学習、または (d) 1セメスター以上の交換留学/Study Abroadプログラム。",
+    "所定の休暇期間中のフルタイム就労：1学年以上、120単位以上のコース、8か月以上にわたる2セメスター以上。",
+    "英語学習：24週間以上のコース＋IELTS overall 5.0（取得後最長2年以内）、または大学／NZQA Category 1プロバイダーでの連続14週間以上のコース。",
+    "中等学校：Year 12/13、16歳以上、学校と保護者の書面による許可。週25時間、クリスマス〜年末年始の休暇中はフルタイム。",
+    "博士課程（PhD）：フルタイムでの就学を継続する限り、時間無制限です。",
+    "マイクロクレデンシャルや研修制度は対象外です。自営業は認められていません。雇用契約が必要です。"
+   ],
+   "details_ko": [
+    "학업 기간 중 주당 최대 25시간, 비자 조건에 명시된 경우에만 가능.",
+    "고등교육(Tertiary): 풀타임 학업 및 (a) NZQCF Level 4 이상의 자격 과정, 또는 (b) 최소 기간 요건을 충족하는 코스, 또는 (c) 특정 조건하의 영어 어학 과정, 또는 (d) 최소 1학기의 교환/Study Abroad 프로그램.",
+    "정해진 방학 기간 중 풀타임: 최소 1학년도(academic year), 최소 120학점의 코스, 최소 8개월에 걸친 최소 2학기.",
+    "영어 어학 과정: 최소 24주 코스 + IELTS overall 5.0(최대 2년 이내), 또는 대학 / NZQA Category 1 provider에서 최소 14주 연속 코스.",
+    "중고등학교: Year 12/13, 16세 이상, 학교 및 부모의 서면 허가, 주당 25시간, 크리스마스-새해 방학 기간에는 풀타임.",
+    "박사 과정(PhD): 풀타임 학업을 계속하는 한 근무 시간 무제한.",
+    "마이크로 크리덴셜(micro-credentials) 및 훈련 프로그램(training schemes)은 해당되지 않습니다. 자영업은 허용되지 않으며, 고용 계약(employment agreement)이 있어야 합니다."
+   ],
+   "details_km": [
+    "រហូតដល់ 25 ម៉ោងក្នុងមួយសប្តាហ៍ក្នុងអំឡុងពេលសិក្សា លុះត្រាតែមានចែងក្នុងលក្ខខណ្ឌទិដ្ឋាការរបស់អ្នក។",
+    "ឧត្តមសិក្សា៖ ការសិក្សាពេញម៉ោង និង (a) គុណវុឌ្ឍិ NZQCF Level 4 ឬខ្ពស់ជាងនេះ ឬ (b) វគ្គសិក្សាដែលបំពេញលក្ខខណ្ឌរយៈពេលអប្បបរមា ឬ (c) ការសិក្សាភាសាអង់គ្លេសក្រោមលក្ខខណ្ឌមួយចំនួន ឬ (d) កម្មវិធីផ្លាស់ប្តូរ (exchange)/Study Abroad យ៉ាងហោចណាស់ 1 ឆមាស។",
+    "ពេញម៉ោងក្នុងអំឡុងពេលវិស្សមកាលតាមកាលវិភាគ៖ យ៉ាងហោចណាស់ 1 ឆ្នាំសិក្សា វគ្គសិក្សាយ៉ាងហោចណាស់ 120 ក្រេឌីត យ៉ាងហោចណាស់ 2 ឆមាសក្នុងរយៈពេលយ៉ាងហោចណាស់ 8 ខែ។",
+    "ភាសាអង់គ្លេស៖ វគ្គសិក្សាយ៉ាងហោចណាស់ 24 សប្តាហ៍ + IELTS overall 5.0 (មិនលើសពី 2 ឆ្នាំ) ឬវគ្គសិក្សាយ៉ាងហោចណាស់ 14 សប្តាហ៍ជាប់ៗគ្នានៅសាកលវិទ្យាល័យ / អ្នកផ្តល់សេវា NZQA Category 1។",
+    "វិទ្យាល័យ៖ Year 12/13 អាយុ 16+ ការអនុញ្ញាតជាលាយលក្ខណ៍អក្សរពីសាលា និងឪពុកម្តាយ; 25 ម៉ោង/សប្តាហ៍ ពេញម៉ោងក្នុងអំឡុងពេលវិស្សមកាលបុណ្យណូអែល-ឆ្នាំថ្មី។",
+    "ថ្នាក់បណ្ឌិត (PhD)៖ ម៉ោងគ្មានដែនកំណត់ ដរាបណាអ្នកបន្តការសិក្សាពេញម៉ោង។",
+    "Micro-credentials និងកម្មវិធីបណ្តុះបណ្តាល មិនមានសិទ្ធិទេ។ ការប្រកបអាជីវកម្មខ្លួនឯងមិនត្រូវបានអនុញ្ញាតទេ; ត្រូវតែមានកិច្ចព្រមព្រៀងការងារ។"
+   ],
+   "status_th": "ยืนยันแล้ว (immigration.govt.nz)",
+   "status_vi": "đã xác minh (immigration.govt.nz)",
+   "status_zh": "已核实（immigration.govt.nz）",
+   "status_ja": "確認済み（immigration.govt.nz）",
+   "status_ko": "확인 완료(immigration.govt.nz)",
+   "status_km": "បានផ្ទៀងផ្ទាត់ (immigration.govt.nz)",
+   "perlu_konfirmasi_th": [
+    "รายละเอียดระยะเวลาขั้นต่ำของหลักสูตรระดับอุดมศึกษาสำหรับสิทธิ์ทำงานพาร์ทไทม์ (ข้อความบนหน้าเว็บถูกตัด)",
+    "หน้าเว็บไม่ได้ระบุว่าสิทธิ์การทำงานสำหรับ Masters by research ไม่จำกัดชั่วโมง"
+   ],
+   "perlu_konfirmasi_vi": [
+    "Chi tiết về thời lượng tối thiểu của khóa học bậc sau phổ thông để có quyền làm thêm bán thời gian (nội dung trang bị cắt ngang).",
+    "Trang không nêu quyền làm việc không giới hạn đối với Masters by research."
+   ],
+   "perlu_konfirmasi_zh": [
+    "非全职工作权所需的高等教育课程最短时长详情（页面文字被截断）。",
+    "页面未说明研究型硕士的工作权为不限时长。"
+   ],
+   "perlu_konfirmasi_ja": [
+    "パートタイム就労権のための高等教育コースの最低期間の詳細（ページの本文が途中で切れていました）。",
+    "研究修士（Masters by research）の就労権が無制限であるとは、ページに記載されていません。"
+   ],
+   "perlu_konfirmasi_ko": [
+    "파트타임 근무 권한을 위한 고등교육 코스 최소 기간의 세부 사항(페이지 문구가 잘려 있었음).",
+    "연구 석사(Masters by research)의 근무 권한이 페이지에 무제한으로 명시되어 있지 않습니다."
+   ],
+   "perlu_konfirmasi_km": [
+    "ព័ត៌មានលម្អិតអំពីរយៈពេលអប្បបរមានៃវគ្គសិក្សាឧត្តមសិក្សាសម្រាប់សិទ្ធិធ្វើការក្រៅម៉ោង (អត្ថបទនៅលើទំព័រត្រូវបានកាត់ផ្តាច់)។",
+    "សិទ្ធិធ្វើការសម្រាប់ Masters by research មិនត្រូវបានបញ្ជាក់ថាគ្មានដែនកំណត់នៅលើទំព័រនោះទេ។"
    ]
   }
  ],
@@ -114,7 +300,31 @@
    "max_bond_en": "4 weeks' rent",
    "lodgement_en": "to be confirmed (can be paid via Rental Bonds Online)",
    "other_en": "Holding fee max. 1 week's rent, only after the application is approved.",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "ค่าเช่า 4 สัปดาห์",
+   "max_bond_vi": "4 tuần tiền thuê",
+   "max_bond_zh": "4 周租金",
+   "max_bond_ja": "4週間分の家賃",
+   "max_bond_ko": "4주 치 임대료",
+   "max_bond_km": "ថ្លៃជួល 4 សប្តាហ៍",
+   "lodgement_th": "รอการยืนยัน (ชำระผ่าน Rental Bonds Online ได้)",
+   "lodgement_vi": "cần xác nhận (có thể thanh toán qua Rental Bonds Online)",
+   "lodgement_zh": "待确认（可通过 Rental Bonds Online 支付）",
+   "lodgement_ja": "要確認（Rental Bonds Onlineで支払い可能）",
+   "lodgement_ko": "확인 필요(Rental Bonds Online을 통해 납부 가능)",
+   "lodgement_km": "ត្រូវបញ្ជាក់ (អាចបង់តាមរយៈ Rental Bonds Online)",
+   "other_th": "ค่ามัดจำจองห้อง (holding fee) สูงสุดเท่ากับค่าเช่า 1 สัปดาห์ และเก็บได้หลังใบสมัครได้รับอนุมัติแล้วเท่านั้น",
+   "other_vi": "Phí giữ chỗ (holding fee) tối đa 1 tuần tiền thuê, chỉ sau khi đơn thuê đã được chấp thuận.",
+   "other_zh": "预留费最多 1 周租金，且仅在申请获批后收取。",
+   "other_ja": "ホールディングフィーは最大1週間分の家賃で、申し込みが承認された後に限ります。",
+   "other_ko": "Holding fee는 최대 1주 치 임대료이며, 신청이 승인된 후에만 받을 수 있습니다.",
+   "other_km": "ថ្លៃរក្សាទុក (holding fee) អតិបរមាថ្លៃជួល 1 សប្តាហ៍ លុះត្រាតែពាក្យស្នើសុំត្រូវបានអនុម័តរួច។",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "VIC",
@@ -129,7 +339,31 @@
    "max_bond_en": "Generally max. 1 month's rent (unless rent is > AUD 900/week or set by VCAT)",
    "lodgement_en": "Rental provider must lodge with the RTBA within 14 days (excluding public holidays)",
    "other_en": "Rooming house: 28 days' rent (fixed term) / 14 days (other).",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "โดยทั่วไปสูงสุดเท่ากับค่าเช่า 1 เดือน (เว้นแต่ค่าเช่า > AUD 900/สัปดาห์ หรือกำหนดโดย VCAT)",
+   "max_bond_vi": "Thông thường tối đa 1 tháng tiền thuê (trừ khi tiền thuê > AUD 900/tuần hoặc do VCAT quy định)",
+   "max_bond_zh": "一般最多 1 个月租金（除非租金 > AUD 900/周或由 VCAT 规定）",
+   "max_bond_ja": "原則として最大1か月分の家賃（家賃がAUD 900/週を超える場合、またはVCATが定めた場合を除く）",
+   "max_bond_ko": "일반적으로 최대 1개월 치 임대료(임대료가 주당 AUD 900 초과이거나 VCAT가 정한 경우 제외)",
+   "max_bond_km": "ជាទូទៅអតិបរមាថ្លៃជួល 1 ខែ (លើកលែងតែថ្លៃជួល > AUD 900/សប្តាហ៍ ឬកំណត់ដោយ VCAT)",
+   "lodgement_th": "ผู้ให้เช่า (rental provider) ต้องนำเงินประกันไปฝากกับ RTBA ภายใน 14 วัน (ไม่รวมวันหยุดราชการ)",
+   "lodgement_vi": "Bên cho thuê phải nộp cho RTBA trong vòng 14 ngày (không tính ngày lễ)",
+   "lodgement_zh": "出租方必须在 14 天内（不含公共假日）向 RTBA 登记存放押金",
+   "lodgement_ja": "賃貸提供者は14日以内（祝日を除く）にRTBAへ預託する必要があります",
+   "lodgement_ko": "임대인(rental provider)은 14일 이내(공휴일 제외)에 RTBA에 예치해야 합니다",
+   "lodgement_km": "អ្នកផ្តល់ការជួល (rental provider) ត្រូវដាក់ជាមួយ RTBA ក្នុងរយៈពេល 14 ថ្ងៃ (មិនរាប់បញ្ចូលថ្ងៃឈប់សម្រាកសាធារណៈ)",
+   "other_th": "Rooming house: ค่าเช่า 28 วัน (สัญญาแบบมีกำหนดระยะเวลา) / 14 วัน (กรณีอื่น)",
+   "other_vi": "Rooming house: 28 ngày tiền thuê (thời hạn cố định) / 14 ngày (trường hợp khác).",
+   "other_zh": "Rooming house：28 天租金（固定期限）/ 14 天（其他）。",
+   "other_ja": "Rooming house：28日分の家賃（定期契約）／14日分（その他）。",
+   "other_ko": "Rooming house: 28일 치 임대료(고정 기간) / 14일 치(기타).",
+   "other_km": "Rooming house៖ ថ្លៃជួល 28 ថ្ងៃ (រយៈពេលកំណត់) / 14 ថ្ងៃ (ផ្សេងៗ)។",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "QLD",
@@ -144,7 +378,31 @@
    "max_bond_en": "4 weeks' rent (general tenancy & rooming accommodation), applies to the total of all bonds",
    "lodgement_en": "Must be lodged with the RTA within 10 days",
    "other_en": "Employer-provided accommodation has different rules.",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "ค่าเช่า 4 สัปดาห์ (การเช่าทั่วไปและ rooming accommodation) ใช้กับยอดรวมของเงินประกันทั้งหมด",
+   "max_bond_vi": "4 tuần tiền thuê (thuê nhà thông thường & rooming accommodation), áp dụng cho tổng tất cả các khoản bond",
+   "max_bond_zh": "4 周租金（一般租赁及 rooming accommodation），适用于所有押金的总额",
+   "max_bond_ja": "4週間分の家賃（一般賃貸およびrooming accommodation）。すべてのボンドの合計に適用されます",
+   "max_bond_ko": "4주 치 임대료(일반 임대 및 rooming accommodation), 모든 bond의 합계에 적용",
+   "max_bond_km": "ថ្លៃជួល 4 សប្តាហ៍ (ការជួលទូទៅ និង rooming accommodation) អនុវត្តចំពោះចំនួនសរុបនៃប្រាក់កក់ធានា (bond) ទាំងអស់",
+   "lodgement_th": "ต้องนำไปฝากกับ RTA ภายใน 10 วัน",
+   "lodgement_vi": "Phải nộp cho RTA trong vòng 10 ngày",
+   "lodgement_zh": "必须在 10 天内向 RTA 登记存放",
+   "lodgement_ja": "10日以内にRTAへ預託する必要があります",
+   "lodgement_ko": "10일 이내에 RTA에 예치해야 합니다",
+   "lodgement_km": "ត្រូវដាក់ជាមួយ RTA ក្នុងរយៈពេល 10 ថ្ងៃ",
+   "other_th": "ที่พักที่นายจ้างจัดให้มีกฎที่แตกต่างออกไป",
+   "other_vi": "Chỗ ở do chủ lao động cung cấp có quy định khác.",
+   "other_zh": "雇主提供的住宿适用不同规定。",
+   "other_ja": "雇用主が提供する住居には異なる規則が適用されます。",
+   "other_ko": "고용주가 제공하는 숙소에는 다른 규정이 적용됩니다.",
+   "other_km": "កន្លែងស្នាក់នៅដែលផ្តល់ដោយនិយោជកមានច្បាប់ខុសគ្នា។",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "WA",
@@ -158,7 +416,25 @@
    "status": "terverifikasi",
    "max_bond_en": "4 weeks' rent (unless rent is > AUD 1,200/week); pet bond max. AUD 350",
    "lodgement_en": "Within 14 days of payment",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "ค่าเช่า 4 สัปดาห์ (เว้นแต่ค่าเช่า > AUD 1,200/สัปดาห์); เงินประกันสัตว์เลี้ยง (pet bond) สูงสุด AUD 350",
+   "max_bond_vi": "4 tuần tiền thuê (trừ khi tiền thuê > AUD 1,200/tuần); bond thú cưng tối đa AUD 350",
+   "max_bond_zh": "4 周租金（除非租金 > AUD 1,200/周）；宠物押金最多 AUD 350",
+   "max_bond_ja": "4週間分の家賃（家賃がAUD 1,200/週を超える場合を除く）。ペットボンドは最大AUD 350",
+   "max_bond_ko": "4주 치 임대료(임대료가 주당 AUD 1,200 초과인 경우 제외), 반려동물 bond는 최대 AUD 350",
+   "max_bond_km": "ថ្លៃជួល 4 សប្តាហ៍ (លើកលែងតែថ្លៃជួល > AUD 1,200/សប្តាហ៍); ប្រាក់កក់ធានាសម្រាប់សត្វចិញ្ចឹម (pet bond) អតិបរមា AUD 350",
+   "lodgement_th": "ภายใน 14 วันหลังชำระเงิน",
+   "lodgement_vi": "Trong vòng 14 ngày kể từ khi thanh toán",
+   "lodgement_zh": "付款后 14 天内",
+   "lodgement_ja": "支払いから14日以内",
+   "lodgement_ko": "납부 후 14일 이내",
+   "lodgement_km": "ក្នុងរយៈពេល 14 ថ្ងៃបន្ទាប់ពីការបង់ប្រាក់",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "SA",
@@ -173,7 +449,31 @@
    "max_bond_en": "4 weeks' rent (rent <= AUD 800/week); 6 weeks (rent > AUD 800/week)",
    "lodgement_en": "Lodge with CBS within 2 weeks (registered agents: 4 weeks)",
    "other_en": "Source: Tenant Information Guide (January 2026).",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "ค่าเช่า 4 สัปดาห์ (ค่าเช่า <= AUD 800/สัปดาห์); 6 สัปดาห์ (ค่าเช่า > AUD 800/สัปดาห์)",
+   "max_bond_vi": "4 tuần tiền thuê (tiền thuê <= AUD 800/tuần); 6 tuần (tiền thuê > AUD 800/tuần)",
+   "max_bond_zh": "4 周租金（租金 <= AUD 800/周）；6 周（租金 > AUD 800/周）",
+   "max_bond_ja": "4週間分の家賃（家賃 <= AUD 800/週）。6週間分（家賃 > AUD 800/週）",
+   "max_bond_ko": "4주 치 임대료(임대료 주당 AUD 800 이하), 6주 치(임대료 주당 AUD 800 초과)",
+   "max_bond_km": "ថ្លៃជួល 4 សប្តាហ៍ (ថ្លៃជួល <= AUD 800/សប្តាហ៍); 6 សប្តាហ៍ (ថ្លៃជួល > AUD 800/សប្តាហ៍)",
+   "lodgement_th": "นำไปฝากกับ CBS ภายใน 2 สัปดาห์ (ตัวแทนที่จดทะเบียน: 4 สัปดาห์)",
+   "lodgement_vi": "Nộp cho CBS trong vòng 2 tuần (đại lý đã đăng ký: 4 tuần)",
+   "lodgement_zh": "须在 2 周内向 CBS 登记存放（注册中介：4 周）",
+   "lodgement_ja": "2週間以内にCBSへ預託（登録エージェント：4週間）",
+   "lodgement_ko": "2주 이내에 CBS에 예치(등록된 에이전트: 4주)",
+   "lodgement_km": "ដាក់ជាមួយ CBS ក្នុងរយៈពេល 2 សប្តាហ៍ (ភ្នាក់ងារដែលបានចុះបញ្ជី៖ 4 សប្តាហ៍)",
+   "other_th": "ที่มา: Tenant Information Guide (January 2026)",
+   "other_vi": "Nguồn: Tenant Information Guide (tháng 1 năm 2026).",
+   "other_zh": "来源：Tenant Information Guide（2026 年 1 月）。",
+   "other_ja": "出典：Tenant Information Guide（2026年1月）。",
+   "other_ko": "출처: Tenant Information Guide(2026년 1월).",
+   "other_km": "ប្រភព៖ Tenant Information Guide (January 2026)។",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "TAS",
@@ -187,7 +487,25 @@
    "status": "terverifikasi",
    "max_bond_en": "Max. 4 weeks' rent",
    "lodgement_en": "Agent lodges with the Rental Deposit Authority within 10 working days",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "สูงสุดเท่ากับค่าเช่า 4 สัปดาห์",
+   "max_bond_vi": "Tối đa 4 tuần tiền thuê",
+   "max_bond_zh": "最多 4 周租金",
+   "max_bond_ja": "最大4週間分の家賃",
+   "max_bond_ko": "최대 4주 치 임대료",
+   "max_bond_km": "អតិបរមាថ្លៃជួល 4 សប្តាហ៍",
+   "lodgement_th": "ตัวแทนนำไปฝากกับ Rental Deposit Authority ภายใน 10 วันทำการ",
+   "lodgement_vi": "Đại lý nộp cho Rental Deposit Authority trong vòng 10 ngày làm việc",
+   "lodgement_zh": "中介须在 10 个工作日内向 Rental Deposit Authority 登记存放",
+   "lodgement_ja": "エージェントが10営業日以内にRental Deposit Authorityへ預託します",
+   "lodgement_ko": "에이전트가 영업일 기준 10일 이내에 Rental Deposit Authority에 예치",
+   "lodgement_km": "ភ្នាក់ងារដាក់ជាមួយ Rental Deposit Authority ក្នុងរយៈពេល 10 ថ្ងៃធ្វើការ",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "NT",
@@ -202,7 +520,31 @@
    "max_bond_en": "Max. 4 weeks' rent (security deposit)",
    "lodgement_en": "No central bond authority; held in the agent's/landlord's trust account",
    "other_en": "A receipt is required for cash/cheque/card payments.",
-   "status_en": "verified"
+   "status_en": "verified",
+   "max_bond_th": "สูงสุดเท่ากับค่าเช่า 4 สัปดาห์ (security deposit)",
+   "max_bond_vi": "Tối đa 4 tuần tiền thuê (tiền đặt cọc bảo đảm)",
+   "max_bond_zh": "最多 4 周租金（保证金）",
+   "max_bond_ja": "最大4週間分の家賃（security deposit）",
+   "max_bond_ko": "최대 4주 치 임대료(security deposit)",
+   "max_bond_km": "អតិបរមាថ្លៃជួល 4 សប្តាហ៍ (ប្រាក់កក់សុវត្ថិភាព (security deposit))",
+   "lodgement_th": "ไม่มีหน่วยงานกลางดูแลเงินประกัน; เก็บไว้ในบัญชีทรัสต์ (trust account) ของตัวแทน/เจ้าของที่พัก",
+   "lodgement_vi": "Không có cơ quan quản lý bond tập trung; được giữ trong tài khoản ủy thác (trust account) của đại lý/chủ nhà",
+   "lodgement_zh": "没有统一的押金管理机构；押金存放在中介/房东的信托账户中",
+   "lodgement_ja": "中央のボンド管理機関はありません。エージェント/家主の信託口座で保管されます",
+   "lodgement_ko": "중앙 bond 기관이 없으며, 에이전트/집주인의 신탁 계좌(trust account)에 보관됩니다",
+   "lodgement_km": "គ្មានស្ថាប័នគ្រប់គ្រង bond កណ្តាលទេ; ត្រូវរក្សាទុកក្នុងគណនីទុកចិត្ត (trust account) របស់ភ្នាក់ងារ/ម្ចាស់ផ្ទះ",
+   "other_th": "ต้องมีใบเสร็จสำหรับการชำระด้วยเงินสด/เช็ค/บัตร",
+   "other_vi": "Cần có biên nhận đối với thanh toán bằng tiền mặt/séc/thẻ.",
+   "other_zh": "以现金/支票/银行卡支付时须开具收据。",
+   "other_ja": "現金/小切手/カードでの支払いには領収書が必要です。",
+   "other_ko": "현금/수표/카드로 납부하는 경우 영수증이 필요합니다.",
+   "other_km": "ត្រូវមានបង្កាន់ដៃសម្រាប់ការបង់ជាសាច់ប្រាក់/មូលប្បទានប័ត្រ/កាត។",
+   "status_th": "ยืนยันแล้ว",
+   "status_vi": "đã xác minh",
+   "status_zh": "已核实",
+   "status_ja": "確認済み",
+   "status_ko": "확인 완료",
+   "status_km": "បានផ្ទៀងផ្ទាត់"
   },
   {
    "jurisdiction": "ACT",
@@ -216,7 +558,25 @@
    "status": "terverifikasi (tenggat perlu konfirmasi)",
    "max_bond_en": "Max. 4 weeks' rent",
    "lodgement_en": "Must be lodged with the Rental Bonds Office; deadline to be confirmed",
-   "status_en": "verified (deadline to be confirmed)"
+   "status_en": "verified (deadline to be confirmed)",
+   "max_bond_th": "สูงสุดเท่ากับค่าเช่า 4 สัปดาห์",
+   "max_bond_vi": "Tối đa 4 tuần tiền thuê",
+   "max_bond_zh": "最多 4 周租金",
+   "max_bond_ja": "最大4週間分の家賃",
+   "max_bond_ko": "최대 4주 치 임대료",
+   "max_bond_km": "អតិបរមាថ្លៃជួល 4 សប្តាហ៍",
+   "lodgement_th": "ต้องนำไปฝากกับ Rental Bonds Office; กำหนดเวลารอการยืนยัน",
+   "lodgement_vi": "Phải nộp cho Rental Bonds Office; thời hạn cần xác nhận",
+   "lodgement_zh": "必须向 Rental Bonds Office 登记存放；截止期限待确认",
+   "lodgement_ja": "Rental Bonds Officeへ預託する必要があります。期限は要確認",
+   "lodgement_ko": "Rental Bonds Office에 예치해야 하며, 기한은 확인 필요",
+   "lodgement_km": "ត្រូវដាក់ជាមួយ Rental Bonds Office; ថ្ងៃផុតកំណត់ត្រូវបញ្ជាក់",
+   "status_th": "ยืนยันแล้ว (กำหนดเวลารอการยืนยัน)",
+   "status_vi": "đã xác minh (thời hạn cần xác nhận)",
+   "status_zh": "已核实（截止期限待确认）",
+   "status_ja": "確認済み（期限は要確認）",
+   "status_ko": "확인 완료(기한은 확인 필요)",
+   "status_km": "បានផ្ទៀងផ្ទាត់ (ថ្ងៃផុតកំណត់ត្រូវបញ្ជាក់)"
   },
   {
    "jurisdiction": "NZ",
@@ -231,7 +591,31 @@
    "max_bond_en": "Max. 4 weeks' rent (example: NZD 500/week -> max. NZD 2,000)",
    "lodgement_en": "Landlord must lodge with Tenancy Services (Bond Hub); deadline to be confirmed (generally 23 working days - not yet checked on the page)",
    "other_en": "Bond can only be paid in money.",
-   "status_en": "verified (deadline to be confirmed)"
+   "status_en": "verified (deadline to be confirmed)",
+   "max_bond_th": "สูงสุดเท่ากับค่าเช่า 4 สัปดาห์ (ตัวอย่าง: NZD 500/สัปดาห์ -> สูงสุด NZD 2,000)",
+   "max_bond_vi": "Tối đa 4 tuần tiền thuê (ví dụ: NZD 500/tuần -> tối đa NZD 2,000)",
+   "max_bond_zh": "最多 4 周租金（例如：NZD 500/周 -> 最多 NZD 2,000）",
+   "max_bond_ja": "最大4週間分の家賃（例：NZD 500/週 -> 最大NZD 2,000）",
+   "max_bond_ko": "최대 4주 치 임대료(예: 주당 NZD 500 -> 최대 NZD 2,000)",
+   "max_bond_km": "អតិបរមាថ្លៃជួល 4 សប្តាហ៍ (ឧទាហរណ៍៖ NZD 500/សប្តាហ៍ -> អតិបរមា NZD 2,000)",
+   "lodgement_th": "เจ้าของที่พักต้องนำไปฝากกับ Tenancy Services (Bond Hub); กำหนดเวลารอการยืนยัน (โดยทั่วไป 23 วันทำการ - ยังไม่ได้ตรวจสอบบนหน้าเว็บ)",
+   "lodgement_vi": "Chủ nhà phải nộp cho Tenancy Services (Bond Hub); thời hạn cần xác nhận (thông thường là 23 ngày làm việc - chưa được kiểm tra trên trang)",
+   "lodgement_zh": "房东必须向 Tenancy Services (Bond Hub) 登记存放；截止期限待确认（一般为 23 个工作日——尚未在页面上核实）",
+   "lodgement_ja": "家主はTenancy Services（Bond Hub）へ預託する必要があります。期限は要確認（原則23営業日 - ページ上ではまだ未確認）",
+   "lodgement_ko": "집주인은 Tenancy Services(Bond Hub)에 예치해야 하며, 기한은 확인 필요(일반적으로 영업일 기준 23일 - 페이지에서 아직 확인하지 않음)",
+   "lodgement_km": "ម្ចាស់ផ្ទះត្រូវដាក់ជាមួយ Tenancy Services (Bond Hub); ថ្ងៃផុតកំណត់ត្រូវបញ្ជាក់ (ជាទូទៅ 23 ថ្ងៃធ្វើការ - មិនទាន់បានពិនិត្យនៅលើទំព័រនៅឡើយទេ)",
+   "other_th": "ชำระเงินประกัน (bond) ได้เป็นเงินเท่านั้น",
+   "other_vi": "Bond chỉ có thể được thanh toán bằng tiền.",
+   "other_zh": "押金只能以现金方式支付。",
+   "other_ja": "ボンドは金銭でのみ支払うことができます。",
+   "other_ko": "Bond는 금전으로만 납부할 수 있습니다.",
+   "other_km": "ប្រាក់កក់ធានា (bond) អាចបង់បានតែជាប្រាក់ប៉ុណ្ណោះ។",
+   "status_th": "ยืนยันแล้ว (กำหนดเวลารอการยืนยัน)",
+   "status_vi": "đã xác minh (thời hạn cần xác nhận)",
+   "status_zh": "已核实（截止期限待确认）",
+   "status_ja": "確認済み（期限は要確認）",
+   "status_ko": "확인 완료(기한은 확인 필요)",
+   "status_km": "បានផ្ទៀងផ្ទាត់ (ថ្ងៃផុតកំណត់ត្រូវបញ្ជាក់)"
   }
  ],
  "notes": [
@@ -242,5 +626,35 @@
  "notes_en": [
   "Purpose-built student accommodation (PBSA) and university residences often use a 'licence/occupancy agreement' or rooming accommodation contract, so bond rules may differ from general tenancies - always read the contract and check with the state/territory authority.",
   "Never transfer a bond/deposit before seeing a written contract and verifying the provider's identity."
+ ],
+ "disclaimer_th": "สรุปทั่วไปจากหน้าเว็บทางการของรัฐบาล เงื่อนไขวีซ่าอาจแตกต่างกันในแต่ละนักเรียน: ตรวจสอบเงื่อนไขวีซ่าของคุณเอง (VEVO สำหรับออสเตรเลีย, eVisa/visa letter สำหรับนิวซีแลนด์) ไม่ใช่คำแนะนำทางกฎหมายหรือด้านการย้ายถิ่นฐาน",
+ "disclaimer_vi": "Tóm tắt chung từ các trang chính thức của chính phủ. Điều kiện visa có thể khác nhau đối với từng sinh viên: hãy kiểm tra điều kiện visa của chính bạn (VEVO đối với Úc, eVisa/thư visa đối với New Zealand). Đây không phải là tư vấn pháp lý hay tư vấn di trú.",
+ "disclaimer_zh": "摘自政府官方页面的一般性概述。每位学生的签证条件可能不同：请查看您本人的签证条件（澳大利亚查询 VEVO，新西兰查看 eVisa/签证信）。不构成法律或移民建议。",
+ "disclaimer_ja": "政府の公式ページに基づく一般的な要約です。ビザ条件は学生ごとに異なる場合があります。ご自身のビザ条件を確認してください（オーストラリアはVEVO、ニュージーランドはeVisa/ビザレター）。法的助言や移民に関する助言ではありません。",
+ "disclaimer_ko": "공식 정부 페이지를 바탕으로 한 일반적인 요약입니다. 비자 조건은 학생마다 다를 수 있으니 본인의 비자 조건을 확인하세요(호주는 VEVO, 뉴질랜드는 eVisa/비자 서신). 법률 또는 이민 자문이 아닙니다.",
+ "disclaimer_km": "សេចក្តីសង្ខេបទូទៅពីទំព័រផ្លូវការរបស់រដ្ឋាភិបាល។ លក្ខខណ្ឌទិដ្ឋាការអាចខុសគ្នាសម្រាប់សិស្សម្នាក់ៗ៖ សូមពិនិត្យលក្ខខណ្ឌទិដ្ឋាការផ្ទាល់ខ្លួនរបស់អ្នក (VEVO សម្រាប់អូស្ត្រាលី eVisa/លិខិតទិដ្ឋាការសម្រាប់នូវែលសេឡង់)។ នេះមិនមែនជាដំបូន្មានផ្នែកច្បាប់ ឬអន្តោប្រវេសន៍ទេ។",
+ "notes_th": [
+  "ที่พักนักเรียนที่สร้างขึ้นโดยเฉพาะ (PBSA) และหอพักของมหาวิทยาลัยมักใช้ 'licence/occupancy agreement' หรือสัญญา rooming accommodation ดังนั้นกฎเรื่องเงินประกัน (bond) อาจแตกต่างจากการเช่าทั่วไป - โปรดอ่านสัญญาทุกครั้งและตรวจสอบกับหน่วยงานของรัฐ/เขตปกครอง",
+  "ห้ามโอนเงินประกัน/เงินมัดจำก่อนได้เห็นสัญญาเป็นลายลักษณ์อักษรและตรวจสอบตัวตนของผู้ให้บริการแล้ว"
+ ],
+ "notes_vi": [
+  "Chỗ ở được xây dựng dành riêng cho sinh viên (PBSA) và ký túc xá đại học thường sử dụng 'licence/occupancy agreement' hoặc hợp đồng rooming accommodation, vì vậy quy định về bond có thể khác với thuê nhà thông thường - hãy luôn đọc kỹ hợp đồng và kiểm tra với cơ quan có thẩm quyền của tiểu bang/vùng lãnh thổ.",
+  "Không bao giờ chuyển tiền bond/đặt cọc trước khi xem hợp đồng bằng văn bản và xác minh danh tính của nhà cung cấp."
+ ],
+ "notes_zh": [
+  "专为学生建造的住宿（PBSA）和大学宿舍通常使用 'licence/occupancy agreement' 或 rooming accommodation 合同，因此押金规定可能与一般租赁不同——请务必仔细阅读合同，并向所在州/领地的主管机构核实。",
+  "在看到书面合同并核实提供方身份之前，切勿转账支付押金/订金。"
+ ],
+ "notes_ja": [
+  "学生専用宿泊施設（PBSA）や大学の寮では、「licence/occupancy agreement」やrooming accommodation契約が使われることが多く、ボンドの規則が一般の賃貸と異なる場合があります。必ず契約書を読み、州/準州の当局にご確認ください。",
+  "書面の契約書を確認し、運営会社の身元を確かめる前に、ボンド/デポジットを絶対に送金しないでください。"
+ ],
+ "notes_ko": [
+  "학생 전용 숙소(PBSA)와 대학 기숙사는 'licence/occupancy agreement' 또는 rooming accommodation 계약을 사용하는 경우가 많아, bond 규정이 일반 임대와 다를 수 있습니다. 항상 계약서를 읽고 해당 주/준주 기관에 확인하세요.",
+  "서면 계약서를 확인하고 provider의 신원을 검증하기 전에는 절대 bond/보증금(deposit)을 송금하지 마세요."
+ ],
+ "notes_km": [
+  "កន្លែងស្នាក់នៅសម្រាប់សិស្សដែលសាងសង់ឡើងសម្រាប់គោលបំណងនេះ (PBSA) និងអន្តេវាសិកដ្ឋានសាកលវិទ្យាល័យ ច្រើនតែប្រើ 'licence/occupancy agreement' ឬកិច្ចសន្យា rooming accommodation ដូច្នេះច្បាប់ bond អាចខុសពីការជួលទូទៅ - សូមអានកិច្ចសន្យាជានិច្ច ហើយពិនិត្យជាមួយស្ថាប័នរដ្ឋ/ដែនដី។",
+  "កុំផ្ទេរប្រាក់កក់ធានា (bond)/ប្រាក់កក់ មុនពេលឃើញកិច្ចសន្យាជាលាយលក្ខណ៍អក្សរ និងផ្ទៀងផ្ទាត់អត្តសញ្ញាណរបស់អ្នកផ្តល់សេវា។"
  ]
 }

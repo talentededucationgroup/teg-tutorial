@@ -29,6 +29,7 @@ SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 't
 DISCLAIMER = ('Lowongan dari sumber eksternal (Jobs by Adzuna), diperiksa otomatis setiap hari. Pemeriksaan mengurangi risiko, '
               'tetapi bukan jaminan keamanan, legalitas, atau ketersediaan. Tidak semua pekerjaan cocok untuk semua pemegang visa '
               'pelajar - cek kondisi visa kamu. Jangan pernah membayar untuk mendapatkan pekerjaan.')
+LANGS = ('en', 'th', 'vi', 'zh', 'ja', 'ko', 'km')
 DISCLAIMER_EN = ('Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not '
                  'guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa '
                  'conditions. Never pay to get a job.')
@@ -115,6 +116,8 @@ def main():
     if not app_id or not app_key:
         print('Lewati: secret ADZUNA_APP_ID / ADZUNA_APP_KEY belum diisi (jobs.json tidak diubah)'); sys.exit(0)
     prev = load(OUT, {})
+    # keep multilingual fixed texts (title_xx, disclaimer_xx, schedule_xx, labels_xx, item_text) across runs
+    keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] in ('title', 'disclaimer', 'schedule', 'labels'))}
     prev_items = {i['id']: i for i in prev.get('items', [])}
     items, held, failed, ok_cities, alerts = {}, [], [], set(), []
     for cc, cities in CITIES.items():
@@ -169,6 +172,9 @@ def main():
            'count': len(items),
            'items': sorted(items.values(), key=lambda i: (i['country'], i['city'], i['posted_date']), reverse=False),
            'held_for_review': held}
+    for k, v in keep.items():
+        if k not in ('title_en', 'disclaimer_en', 'schedule_en'):
+            out[k] = v
     tmp = OUT + '.tmp'
     with open(tmp, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

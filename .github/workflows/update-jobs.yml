@@ -1,8 +1,9 @@
-name: Update lowongan kerja (harian)
+name: Update lowongan kerja (2x sehari)
 
 on:
   schedule:
-    - cron: '17 22 * * *'   # 05:17 WIB setiap hari
+    - cron: '17 22 * * *'   # 05:17 WIB
+    - cron: '17 10 * * *'   # 17:17 WIB
   workflow_dispatch: {}      # tombol "Run workflow" = update manual dengan pemeriksaan yang sama
 
 concurrency:
@@ -15,10 +16,12 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    runs-on: ubuntu-24.04   # versi tetap (hindari perubahan otomatis ubuntu-latest)
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'

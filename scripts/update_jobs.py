@@ -1,26 +1,35 @@
 """Update data/jobs.json from the Adzuna API (daily, run by GitHub Actions).
 
-Rules (TEG): only postings whose original date (Adzuna `created`) is within 30 days,
+Rules (TEG): only postings whose original date (Adzuna `created`) is within 6 months (183 days),
 still returned by the source (= still listed), approved source only, short factual
 fields + link (no full descriptions, photos or logos), suspicious postings held.
 Secrets: ADZUNA_APP_ID, ADZUNA_APP_KEY (GitHub repository secrets; never in code).
 """
 import json, os, sys, time, hashlib, datetime, urllib.request, urllib.parse, urllib.error
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jobs_i18n import TITLE, SCHEDULE, DISCLAIMER as DISC_I18N
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'jobs.json')
 LOG = os.path.join(ROOT, 'data', 'jobs-log.json')
 ALERTS = os.path.join(ROOT, 'jobs-alerts.txt')  # read by the workflow, not committed
 WIB = datetime.timezone(datetime.timedelta(hours=7))
 NOW = datetime.datetime.now(datetime.timezone.utc)
-MAX_AGE_DAYS = 30
+MAX_AGE_DAYS = 183  # pemilik TEG: boleh iklan sampai 6 bulan
 STALE_HIDE_DAYS = 3  # hide if not re-verified for this many days (source failures)
 
 CITIES = {
     'au': ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Hobart', 'Darwin', 'Canberra', 'Gold Coast'],
     'nz': ['Auckland', 'Hamilton', 'Wellington', 'Palmerston North', 'Dunedin', 'Invercargill', 'New Plymouth'],
+    'ca': ['Toronto', 'Vancouver', 'Montreal', 'Calgary', 'Ottawa', 'Halifax'],
+    'gb': ['London', 'Manchester', 'Birmingham', 'Leeds', 'Edinburgh', 'Glasgow'],
+    'de': ['Berlin', 'München', 'Hamburg', 'Frankfurt am Main', 'Köln'],
+    'sg': ['Singapore'],
 }
-COUNTRY = {'au': ('Australia', 'AUD'), 'nz': ('New Zealand', 'NZD')}
+COUNTRY = {'au': ('Australia', 'AUD'), 'nz': ('New Zealand', 'NZD'), 'ca': ('Canada', 'CAD'),
+           'gb': ('United Kingdom', 'GBP'), 'de': ('Germany', 'EUR'), 'sg': ('Singapore', 'SGD')}
+# Jepang & Korea Selatan tidak didukung Adzuna API -> website menampilkan direktori portal resmi (data/directory.json)
+QUERY_DE = 'Werkstudent Aushilfe Minijob Teilzeit Kellner Servicekraft Küchenhilfe Barista Verkäufer Lagerhelfer Reinigungskraft Student'
 QUERY = 'casual part-time barista kitchen hand waiter waitress retail cleaner warehouse housekeeping café hospitality crew support worker'
 PER_CITY = 50  # fetched per city; filtered to student-friendly roles below
 STUDENT_KEYWORDS = ['barista', 'kitchen', 'cook', 'chef', 'dishwash', 'waiter', 'waitress', 'waitstaff', 'wait staff', 'food', 'hospitality',
@@ -29,20 +38,17 @@ STUDENT_KEYWORDS = ['barista', 'kitchen', 'cook', 'chef', 'dishwash', 'waiter', 
                     'laundry', 'warehouse', 'picker', 'packer', 'pick pack', 'storeperson', 'labourer', 'process worker',
                     'delivery', 'courier', 'driver', 'support worker', 'aged care', 'disability support', 'personal care',
                     'childcare', 'early childhood', 'educator', 'tutor', 'receptionist', 'admin assistant', 'administration assistant',
-                    'data entry', 'casual', 'part time', 'part-time', 'student']
+                    'data entry', 'casual', 'part time', 'part-time', 'student',
+                    'werkstudent', 'aushilfe', 'minijob', 'teilzeit', 'kellner', 'servicekraft', 'küche', 'kuche', 'verkäufer',
+                    'verkauf', 'kasse', 'lager', 'kommission', 'reinigung', 'fahrer', 'zusteller', 'studentische']
 EXCLUDE_KEYWORDS = ['senior', 'manager', 'director', 'head of', 'lead ', 'principal', 'consultant', 'psychiatrist', 'doctor',
                     'registrar', 'specialist', 'engineer', 'lawyer', 'solicitor', 'accountant', 'planner', 'executive', 'officer',
-                    'registered nurse', 'surgeon', 'physician', 'apprentice', 'therapist', 'teacher', 'locum', 'psycholog', 'citizen', 'pr only', 'permanent resident']
+                    'registered nurse', 'surgeon', 'physician', 'apprentice', 'therapist', 'teacher', 'locum', 'psycholog', 'citizen', 'pr only', 'permanent resident',
+                    'leiter', 'leitung', 'ingenieur', 'arzt', 'singaporean only', 'singapore citizen']
 SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 'training fee', 'deposit required', 'telegram',
               'whatsapp only', 'bitcoin', 'crypto', 'western union', 'gift card', 'processing fee', 'send your passport',
               'bank details to apply', 'cash in hand guaranteed']
-DISCLAIMER = ('Lowongan dari sumber eksternal (Jobs by Adzuna), diperiksa otomatis setiap hari. Pemeriksaan mengurangi risiko, '
-              'tetapi bukan jaminan keamanan, legalitas, atau ketersediaan. Tidak semua pekerjaan cocok untuk semua pemegang visa '
-              'pelajar - cek kondisi visa kamu. Jangan pernah membayar untuk mendapatkan pekerjaan.')
 LANGS = ('en', 'th', 'vi', 'zh', 'ja', 'ko', 'km', 'fr', 'pt', 'es', 'de', 'it', 'nl', 'ru')
-DISCLAIMER_EN = ('Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not '
-                 'guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa '
-                 'conditions. Never pay to get a job.')
 
 
 def get(url, tries=3):
@@ -109,7 +115,7 @@ def transform(r, cc, city):
         'id': hashlib.sha1(('adzuna:' + str(r.get('id'))).encode()).hexdigest()[:16],
         'source_id': 'adzuna', 'source_name': 'Jobs by Adzuna', 'external': True,
         'position': title or 'tidak dicantumkan', 'company': company or 'tidak dicantumkan',
-        'country': country, 'city': city, 'location': ((r.get('location') or {}).get('display_name') or city),
+        'country': country, 'country_code': cc.upper(), 'city': city, 'location': ((r.get('location') or {}).get('display_name') or city),
         'job_type': ', '.join(x for x in (jt, ct) if x), 'hours': 'tidak dicantumkan', 'pay': pay,
         'category': ((r.get('category') or {}).get('label') or ''),
         'requirements': 'lihat iklan asli', 'how_to_apply': 'Lamar di situs asli (link)',
@@ -133,7 +139,7 @@ def transform(r, cc, city):
     if not created:
         reasons.append('tanggal posting asli tidak ada')
     elif (NOW - created).days > MAX_AGE_DAYS:
-        reasons.append('lebih dari 30 hari')
+        reasons.append('lebih dari 6 bulan')
     if not item['link'].startswith('https://'):
         reasons.append('link tidak valid')
     hits = [k for k in SUSPICIOUS if k in desc or k in title.lower()]
@@ -148,13 +154,13 @@ def main():
         print('Lewati: secret ADZUNA_APP_ID / ADZUNA_APP_KEY belum diisi (jobs.json tidak diubah)'); sys.exit(0)
     prev = load(OUT, {})
     # keep multilingual fixed texts (title_xx, disclaimer_xx, schedule_xx, labels_xx, item_text) across runs
-    keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] in ('title', 'disclaimer', 'labels'))}
+    keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] == 'labels')}
     prev_items = {i['id']: i for i in prev.get('items', [])}
     items, held, failed, ok_cities, alerts = {}, [], [], set(), []
     for cc, cities in CITIES.items():
         for city in cities:
             q = urllib.parse.urlencode({'app_id': app_id, 'app_key': app_key, 'results_per_page': PER_CITY, 'where': city,
-                                        'what_or': QUERY, 'max_days_old': MAX_AGE_DAYS, 'sort_by': 'date', 'content-type': 'application/json'})
+                                        'what_or': (QUERY_DE if cc == 'de' else QUERY), 'max_days_old': MAX_AGE_DAYS, 'sort_by': 'date', 'content-type': 'application/json'})
             try:
                 data = get(f'https://api.adzuna.com/v1/api/jobs/{cc}/search/1?{q}')
                 ok_cities.add(city)
@@ -188,7 +194,7 @@ def main():
                     it['fetched_at'] = old.get('fetched_at', it['fetched_at'])
                 items[it['id']] = it
                 kept += 1
-            time.sleep(1)
+            time.sleep(3)  # batas per menit Adzuna
     # cities whose source check failed: keep previous items without refreshing last_verified; hide if stale
     for pid, old in prev_items.items():
         if pid in items or old.get('city') in ok_cities:
@@ -206,19 +212,20 @@ def main():
         write_log({'time': NOW.astimezone(WIB).isoformat(timespec='seconds'), 'result': 'gagal', 'failed': failed})
         with open(ALERTS, 'w', encoding='utf-8') as f: f.write('\n'.join(alerts))
         sys.exit(1)
-    out = {'title': 'Lowongan Kerja untuk Pelajar - Australia & New Zealand', 'source': 'Jobs by Adzuna (https://www.adzuna.com.au)',
-           'attribution': 'Jobs by Adzuna', 'schedule': 'Setiap hari pukul 05:17 WIB (GitHub Actions)',
+    out = {'title': TITLE['id'], 'source': 'Jobs by Adzuna (https://www.adzuna.com)',
+           'attribution': 'Jobs by Adzuna', 'schedule': SCHEDULE['id'],
+           'countries': [v[0] for v in COUNTRY.values()],
            'updated_at': NOW.astimezone(WIB).isoformat(timespec='seconds'), 'posting_window_days': MAX_AGE_DAYS,
-           'disclaimer': DISCLAIMER, 'disclaimer_en': DISCLAIMER_EN,
-           'title_en': 'Student Jobs - Australia & New Zealand', 'schedule_en': 'Every day at 05:17 WIB (GitHub Actions)',
+           'disclaimer': DISC_I18N['id'],
            'labels_en': {'tidak dicantumkan': 'not stated', 'lihat iklan asli': 'see original ad',
                          'Lamar di situs asli (link)': 'Apply on the original site (link)'},
            'count': len(items),
            'items': sorted(items.values(), key=lambda i: (i['country'], i['city'], i['posted_date']), reverse=False),
            'held_for_review': held}
+    for lg in LANGS:
+        out['title_' + lg], out['schedule_' + lg], out['disclaimer_' + lg] = TITLE[lg], SCHEDULE[lg], DISC_I18N[lg]
     for k, v in keep.items():
-        if k not in ('title_en', 'disclaimer_en', 'schedule_en'):
-            out[k] = v
+        out.setdefault(k, v)
     tmp = OUT + '.tmp'
     with open(tmp, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

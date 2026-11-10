@@ -1,6 +1,6 @@
 {
  "title": "Video TEG untuk website",
- "updated_at": "2026-11-11T00:30:00+07:00",
+ "updated_at": "2026-11-11T00:40:00+07:00",
  "items": [
   {
    "id": "panduan-lengkap",
@@ -26,6 +26,26 @@
     "en": "Check prices in your browser: pricelist.talentededucationgroup.com/biaya-studi"
    },
    "link": "https://pricelist.talentededucationgroup.com/biaya-studi"
+  },
+  {
+   "id": "profil-teg",
+   "placement": "Bagian \"Tentang Talented Education Group\" di halaman siswa utama (di bawah tombol besar Video Tutorial, sebelum Testimoni) + halaman awal aplikasi + footer link \"Tentang kami\"",
+   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg.mp4",
+   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/profil-teg-poster.jpg",
+   "duration_seconds": 104.1,
+   "orientation": "portrait (768x960)",
+   "source_title": "Video Marketing 3 - Asin",
+   "title": {
+    "id": "Profil Talented Education Group",
+    "en": "About Talented Education Group",
+    "th": "เกี่ยวกับ Talented Education Group",
+    "vi": "Giới thiệu Talented Education Group",
+    "zh": "关于 Talented Education Group",
+    "ja": "Talented Education Group について",
+    "ko": "Talented Education Group 소개",
+    "km": "អំពី Talented Education Group"
+   },
+   "note": "Video profil perusahaan (kantor resmi Sydney & Indonesia, QEAC, misi). Teks di video berbahasa Indonesia."
   },
   {
    "id": "proses-visa",

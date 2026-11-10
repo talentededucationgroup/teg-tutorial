@@ -21,8 +21,18 @@ CITIES = {
     'nz': ['Auckland', 'Hamilton', 'Wellington', 'Palmerston North', 'Dunedin', 'Invercargill', 'New Plymouth'],
 }
 COUNTRY = {'au': ('Australia', 'AUD'), 'nz': ('New Zealand', 'NZD')}
-QUERY = 'casual part-time barista kitchen hand waiter retail cleaner warehouse housekeeping'
-PER_CITY = 15
+QUERY = 'casual part-time barista kitchen hand waiter waitress retail cleaner warehouse housekeeping café hospitality crew support worker'
+PER_CITY = 50  # fetched per city; filtered to student-friendly roles below
+STUDENT_KEYWORDS = ['barista', 'kitchen', 'cook', 'chef', 'dishwash', 'waiter', 'waitress', 'waitstaff', 'wait staff', 'food', 'hospitality',
+                    'bar attendant', 'bartender', 'cafe', 'café', 'restaurant', 'crew', 'team member', 'retail', 'sales assistant',
+                    'store', 'shop', 'customer service', 'cashier', 'checkout', 'cleaner', 'cleaning', 'housekeep', 'room attendant',
+                    'laundry', 'warehouse', 'picker', 'packer', 'pick pack', 'storeperson', 'labourer', 'process worker',
+                    'delivery', 'courier', 'driver', 'support worker', 'aged care', 'disability support', 'personal care',
+                    'childcare', 'early childhood', 'educator', 'tutor', 'receptionist', 'admin assistant', 'administration assistant',
+                    'data entry', 'casual', 'part time', 'part-time', 'student']
+EXCLUDE_KEYWORDS = ['senior', 'manager', 'director', 'head of', 'lead ', 'principal', 'consultant', 'psychiatrist', 'doctor',
+                    'registrar', 'specialist', 'engineer', 'lawyer', 'solicitor', 'accountant', 'planner', 'executive', 'officer',
+                    'registered nurse', 'surgeon', 'physician', 'apprentice', 'therapist', 'teacher', 'locum', 'psycholog', 'citizen', 'pr only', 'permanent resident']
 SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 'training fee', 'deposit required', 'telegram',
               'whatsapp only', 'bitcoin', 'crypto', 'western union', 'gift card', 'processing fee', 'send your passport',
               'bank details to apply', 'cash in hand guaranteed']
@@ -156,7 +166,13 @@ def main():
                     alerts.append('Kunci API ditolak (401/403): cek secret ADZUNA_APP_ID & ADZUNA_APP_KEY dan status akun Adzuna.')
                     break
                 continue
+            kept = 0
             for r in data.get('results', []):
+                t = (r.get('title') or '').lower()
+                if not any(k in t for k in STUDENT_KEYWORDS) or any(k in t for k in EXCLUDE_KEYWORDS):
+                    continue
+                if kept >= 15:
+                    break
                 it, reasons = transform(r, cc, city)
                 if it['id'] in items:
                     continue
@@ -171,6 +187,7 @@ def main():
                     it['posted_date'] = old['posted_date']  # never refresh the original posting date
                     it['fetched_at'] = old.get('fetched_at', it['fetched_at'])
                 items[it['id']] = it
+                kept += 1
             time.sleep(1)
     # cities whose source check failed: keep previous items without refreshing last_verified; hide if stale
     for pid, old in prev_items.items():

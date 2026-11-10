@@ -104,7 +104,7 @@ def transform(r, cc, city):
 def main():
     app_id, app_key = os.environ.get('ADZUNA_APP_ID'), os.environ.get('ADZUNA_APP_KEY')
     if not app_id or not app_key:
-        print('ERROR: secret ADZUNA_APP_ID / ADZUNA_APP_KEY belum diisi'); sys.exit(2)
+        print('Lewati: secret ADZUNA_APP_ID / ADZUNA_APP_KEY belum diisi (jobs.json tidak diubah)'); sys.exit(0)
     prev = load(OUT, {})
     prev_items = {i['id']: i for i in prev.get('items', [])}
     items, held, failed, ok_cities, alerts = {}, [], [], set(), []

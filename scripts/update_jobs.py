@@ -29,6 +29,9 @@ SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 't
 DISCLAIMER = ('Lowongan dari sumber eksternal (Jobs by Adzuna), diperiksa otomatis setiap hari. Pemeriksaan mengurangi risiko, '
               'tetapi bukan jaminan keamanan, legalitas, atau ketersediaan. Tidak semua pekerjaan cocok untuk semua pemegang visa '
               'pelajar - cek kondisi visa kamu. Jangan pernah membayar untuk mendapatkan pekerjaan.')
+DISCLAIMER_EN = ('Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not '
+                 'guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa '
+                 'conditions. Never pay to get a job.')
 
 
 def get(url, tries=3):
@@ -87,7 +90,13 @@ def transform(r, cc, city):
         'verification_checks': ['Sumber disetujui admin (Adzuna API resmi)', 'Tanggal posting asli dari sumber',
                                 'Masih tercantum di sumber pada tanggal cek', 'Tidak ditemukan kata kunci indikasi penipuan'],
         'visa_note': 'Cek hak kerja di visa kamu sebelum melamar.',
+        'visa_note_en': 'Check the work rights on your visa before applying.',
+        'verification_status_en': 'Automated checks',
+        'verification_checks_en': ['Admin-approved source (official Adzuna API)', 'Original posting date from the source',
+                                   'Still listed at the source on the check date', 'No fraud-indicator keywords found'],
     }
+    if pay == 'tidak dicantumkan': item['pay_en'] = 'not stated'
+    else: item['pay_en'] = pay.replace('(satuan sesuai iklan asli)', '(unit as in the original ad)')
     reasons = []
     if not created:
         reasons.append('tanggal posting asli tidak ada')
@@ -140,6 +149,7 @@ def main():
         lv = parse_date(old.get('last_verified', ''))
         if lv and (NOW - lv).days < STALE_HIDE_DAYS and (NOW.date() - datetime.date.fromisoformat(old['posted_date'])).days <= MAX_AGE_DAYS:
             old['verification_status'] = 'Belum berhasil diperiksa ulang'
+            old['verification_status_en'] = 'Re-check not successful yet'
             items[pid] = old
     if failed:
         alerts.append('Sumber gagal diperiksa untuk kota: ' + ', '.join(f['city'] for f in failed))
@@ -152,7 +162,11 @@ def main():
     out = {'title': 'Lowongan Kerja untuk Pelajar - Australia & New Zealand', 'source': 'Jobs by Adzuna (https://www.adzuna.com.au)',
            'attribution': 'Jobs by Adzuna', 'schedule': 'Setiap hari pukul 05:17 WIB (GitHub Actions)',
            'updated_at': NOW.astimezone(WIB).isoformat(timespec='seconds'), 'posting_window_days': MAX_AGE_DAYS,
-           'disclaimer': DISCLAIMER, 'count': len(items),
+           'disclaimer': DISCLAIMER, 'disclaimer_en': DISCLAIMER_EN,
+           'title_en': 'Student Jobs - Australia & New Zealand', 'schedule_en': 'Every day at 05:17 WIB (GitHub Actions)',
+           'labels_en': {'tidak dicantumkan': 'not stated', 'lihat iklan asli': 'see original ad',
+                         'Lamar di situs asli (link)': 'Apply on the original site (link)'},
+           'count': len(items),
            'items': sorted(items.values(), key=lambda i: (i['country'], i['city'], i['posted_date']), reverse=False),
            'held_for_review': held}
     tmp = OUT + '.tmp'

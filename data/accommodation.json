@@ -34,7 +34,22 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Iglu Brisbane City (situs resmi)"
+   "attribution": "Sumber: Iglu Brisbane City (situs resmi)",
+   "area_en": "65 Mary St, Brisbane CBD (near QUT Gardens Point)",
+   "price_period_en": "per week",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Wi-Fi, weekday breakfast, gym, onsite laundry, 24/7 security",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "Semester 1 2027 applications are open; some room types are waitlisted / have few rooms left; booking via agents is closed.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Iglu Brisbane City (official website)"
   },
   {
    "id": "8059938c3ae2ebe5",
@@ -67,7 +82,28 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Iglu Broadway (situs resmi)"
+   "attribution": "Sumber: Iglu Broadway (situs resmi)",
+   "room_types_en": [
+    "Standard studio (price known)",
+    "Superior/Premium studio",
+    "Single bedroom 4/5/6 share apt (price not shown)"
+   ],
+   "price_range_en": "from 895 (standard studio)",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "To hold a room: 1 week's rent; 4-week bond (lodged with the bond authority) + 2 weeks' rent in advance",
+   "inclusions_en": "Internet, all utilities, common areas, 24/7 support",
+   "minimum_stay_en": "12-month, 6-month, 44-week or 22-week contracts (anything else = short stay)",
+   "availability_note_en": "Booking via agents for this room type is closed; starting Sem 2 2026 / Sem 1 2027.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Iglu Broadway (official website)"
   },
   {
    "id": "d8f495efc036ad1d",
@@ -99,7 +135,28 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: UniLodge Melbourne CBD (situs resmi)"
+   "attribution": "Sumber: UniLodge Melbourne CBD (situs resmi)",
+   "area_en": "17 Wills St, Melbourne CBD (near VU City, RMIT)",
+   "room_types_en": [
+    "Private room",
+    "Shared room"
+   ],
+   "price_range_en": "from 369*",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Study rooms, gym, rooftop (details of what the price includes: to be confirmed)",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "to be confirmed - the page does not state availability; prices marked * without explanation.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: UniLodge Melbourne CBD (official website)"
   },
   {
    "id": "d8f495efc036ad1d",
@@ -131,7 +188,27 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: UniLodge Melbourne Central (situs resmi)"
+   "attribution": "Sumber: UniLodge Melbourne Central (situs resmi)",
+   "room_types_en": [
+    "Private room",
+    "Shared room"
+   ],
+   "price_range_en": "from 415*",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Library, cinema, shared kitchen",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "to be confirmed",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: UniLodge Melbourne Central (official website)"
   },
   {
    "id": "a2cecf5a5ed97a86",
@@ -166,7 +243,24 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: UniLodge @ UC Campus West (situs resmi)"
+   "attribution": "Sumber: UniLodge @ UC Campus West (situs resmi)",
+   "area_en": "University of Canberra campus, Bruce (near Westfield Belconnen)",
+   "price_range_en": "from 211*",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated; parking AUD 13/week",
+   "inclusions_en": "Furnished, unlimited Wi-Fi, security, common areas, Residential Advisors",
+   "minimum_stay_en": "24 - 48 week lease (ends 31 Dec)",
+   "availability_note_en": "to be confirmed - only an Apply/Enquire button.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: UniLodge @ UC Campus West (official website)"
   },
   {
    "id": "40c610227f153678",
@@ -198,7 +292,28 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: UniLodge - akomodasi ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (situs resmi)"
+   "attribution": "Sumber: UniLodge - akomodasi ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (situs resmi)",
+   "area_en": "ANU campus / Acton & surrounding area",
+   "room_types_en": [
+    "Studio",
+    "Shared apartment"
+   ],
+   "price_range_en": "not stated",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Wi-Fi, electricity, water, air conditioning, furnished",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "to be confirmed - check availability online.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (official website)"
   },
   {
    "id": "084b76e5975a18b8",
@@ -231,7 +346,28 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: StudentLiving / UniLodge Darwin (CDU) (situs resmi)"
+   "attribution": "Sumber: StudentLiving / UniLodge Darwin (CDU) (situs resmi)",
+   "room_types_en": [
+    "Studio",
+    "2-bedroom apartment",
+    "4-bedroom apartment"
+   ],
+   "price_range_en": "not stated",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Furnished, utilities, Wi-Fi, air conditioning",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "The reservation page showed 'no stay periods found' when checked - to be confirmed.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: StudentLiving / UniLodge Darwin (CDU) (official website)"
   },
   {
    "id": "34129c0e5ee5acd4",
@@ -266,7 +402,22 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Bond University - On-campus Accommodation (situs resmi)"
+   "attribution": "Sumber: Bond University - On-campus Accommodation (situs resmi)",
+   "area_en": "Bond University campus, Robina",
+   "price_period_en": "per week (paid per semester, AUD 4,290 - 6,220)",
+   "deposit_booking_fee_en": "not stated; cancellation fee = 4 weeks' rent if you do not move in on time",
+   "inclusions_en": "Water, laundry, Wi-Fi, weekly cleaning. Compulsory dining plan from AUD 2,550/semester (not included).",
+   "minimum_stay_en": "Per semester; rooms must be vacated over the Christmas/New Year break",
+   "availability_note_en": "to be confirmed - apply via the StarRez portal.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Bond University - On-campus Accommodation (official website)"
   },
   {
    "id": "7684e7d80be68d5f",
@@ -302,7 +453,21 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: University of Tasmania - Hobart Accommodation (situs resmi)"
+   "attribution": "Sumber: University of Tasmania - Hobart Accommodation (situs resmi)",
+   "price_period_en": "per week",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Utilities, Wi-Fi, bike storage, UniHopper shuttle, laundry",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "Online application; you must reapply every year.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: University of Tasmania - Hobart Accommodation (official website)"
   },
   {
    "id": "71be5688525e6406",
@@ -335,7 +500,27 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (situs resmi)"
+   "attribution": "Sumber: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (situs resmi)",
+   "room_types_en": [
+    "Single room",
+    "Studio",
+    "Family apartment"
+   ],
+   "price_range_en": "330 - 570 (single/studio); 565 - 775 (family apartment)",
+   "price_period_en": "per week (42- or 52-week contract)",
+   "deposit_booking_fee_en": "Residential Services Fee NZD 400 + Administration Fee NZD 450 (one-off); deposit not stated",
+   "inclusions_en": "Electricity, water, gas, Hiwa Recreation Centre membership, Wi-Fi",
+   "minimum_stay_en": "42 or 52 weeks",
+   "availability_note_en": "to be confirmed",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (official website)"
   },
   {
    "id": "0edcaafa48c6f521",
@@ -368,7 +553,24 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: UniLodge Auckland City (situs resmi)"
+   "attribution": "Sumber: UniLodge Auckland City (situs resmi)",
+   "area_en": "Whitaker Place, Auckland CBD (near UoA & AUT)",
+   "price_range_en": "Promo NZD 439/week for UoA students (code YOLO, new bookings 1 May - 31 Dec 2026); standard rate not stated",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "Bond and/or rent in advance as per the Letter of Offer (amount not stated)",
+   "inclusions_en": "Furnished, Wi-Fi, gym, lounge, 24/7 support",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "Subject to availability at the time of booking.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: UniLodge Auckland City (official website)"
   },
   {
    "id": "e6a0f8ca659ccee3",
@@ -401,7 +603,23 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Te Herenga Waka - Victoria University of Wellington Halls (situs resmi)"
+   "attribution": "Sumber: Te Herenga Waka - Victoria University of Wellington Halls (situs resmi)",
+   "price_range_en": "to be confirmed (2027 fee table could not be read automatically)",
+   "price_period_en": "per year / monthly instalments",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "to be confirmed",
+   "minimum_stay_en": "38 - 39 weeks",
+   "availability_note_en": "to be confirmed",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Te Herenga Waka - Victoria University of Wellington Halls (official website)"
   },
   {
    "id": "512666a4ceab8213",
@@ -436,7 +654,23 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: University of Otago - University Flats (situs resmi)"
+   "attribution": "Sumber: University of Otago - University Flats (situs resmi)",
+   "area_en": "Around the Dunedin campus",
+   "price_range_en": "281.50 - 557.50",
+   "price_period_en": "per week",
+   "deposit_booking_fee_en": "One-off fees: placement 200, activities 200, bedding 120 (NZD); bond not stated",
+   "inclusions_en": "Electricity, Wi-Fi, utilities, maintenance, 24/7 pastoral care, furnished",
+   "minimum_stay_en": "Semester (±24 wks) or full year (±49 wks)",
+   "availability_note_en": "not stated",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: University of Otago - University Flats (official website)"
   },
   {
    "id": "567a26989ec1630f",
@@ -467,7 +701,23 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: University of Otago - Residential Colleges (15 college) (situs resmi)"
+   "attribution": "Sumber: University of Otago - Residential Colleges (15 college) (situs resmi)",
+   "area_en": "Dunedin campus",
+   "price_range_en": "19,266 - 21,373 (2024 rates, per year)",
+   "price_period_en": "per year",
+   "deposit_booking_fee_en": "not stated",
+   "inclusions_en": "Meals, weekly linen, laundry, study rooms, activities",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "to be confirmed - the page still shows 2024 rates.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: University of Otago - Residential Colleges (15 colleges) (official website)"
   },
   {
    "id": "50ec2317fb49540a",
@@ -499,7 +749,23 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (situs resmi)"
+   "attribution": "Sumber: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (situs resmi)",
+   "area_en": "Hamilton campus",
+   "price_range_en": "468 - 536 (total 17,716 - 20,232/year)",
+   "price_period_en": "per week",
+   "deposit_booking_fee_en": "One-off fee NZD 400 (purpose not explained)",
+   "inclusions_en": "3 meals/day, 7 days, residential support, mentoring",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "Applications are open (StarRez portal).",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (official website)"
   },
   {
    "id": "026ecbfc23cd6010",
@@ -532,7 +798,23 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Massey University - Manawatū Halls (situs resmi)"
+   "attribution": "Sumber: Massey University - Manawatū Halls (situs resmi)",
+   "area_en": "Manawatū campus",
+   "price_range_en": "11,200 - 18,800 per year (40 weeks)",
+   "price_period_en": "per year (full contract)",
+   "deposit_booking_fee_en": "A deposit applies but the amount is not stated",
+   "inclusions_en": "Furnished, Wi-Fi, electricity & water, gym, meals (catered hall), Bee Card bus card",
+   "minimum_stay_en": "Full year 14 Feb - 21 Nov 2027 (40 wks) / per semester",
+   "availability_note_en": "Applications are open; room vacancies not stated.",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Massey University - Manawatū Halls (official website)"
   },
   {
    "id": "65bfc43f8bdcf4e3",
@@ -565,7 +847,28 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: SIT Apartments (Southern Institute of Technology) (situs resmi)"
+   "attribution": "Sumber: SIT Apartments (Southern Institute of Technology) (situs resmi)",
+   "room_types_en": [
+    "Shared room (2 people per room)",
+    "Couple room",
+    "Family unit"
+   ],
+   "price_range_en": "147 (per person, shared room) - 441 (family unit)",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "NZD 400 deposit + 4 weeks' rent in advance",
+   "inclusions_en": "Furnished, kitchenette, bathroom, Wi-Fi, electricity",
+   "minimum_stay_en": "not stated",
+   "availability_note_en": "to be confirmed - contact accommodation@sit.ac.nz",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: SIT Apartments (Southern Institute of Technology) (official website)"
   },
   {
    "id": "43a80e5d813a931f",
@@ -597,12 +900,33 @@
     "Bukan posting; tidak tunduk aturan 30 hari",
     "Tidak ada foto/logo/deskripsi lengkap yang disalin"
    ],
-   "attribution": "Sumber: Te Henui Lodge (WITT, on campus) (situs resmi)"
+   "attribution": "Sumber: Te Henui Lodge (WITT, on campus) (situs resmi)",
+   "area_en": "WITT campus, New Plymouth",
+   "price_range_en": "280 (single, per person) - 380 (double)",
+   "price_period_en": "per week",
+   "price_year_en": "not stated",
+   "deposit_booking_fee_en": "4-week bond + 1 week's rent in advance",
+   "inclusions_en": "Ensuite, queen bed, fridge, heater, linen; Wi-Fi, meals & laundry not included",
+   "minimum_stay_en": "not stated (48 hours' notice to leave)",
+   "availability_note_en": "Check availability before arriving (contact the manager).",
+   "verification_status_en": "Automated check",
+   "verification_checks_en": [
+    "Official provider/institution domain",
+    "Price & room type data read from the official page on the check date",
+    "Not a posting; not subject to the 30-day rule",
+    "No photos/logos/full descriptions copied"
+   ],
+   "checked_label_en": "checked 2026-11-10",
+   "attribution_en": "Source: Te Henui Lodge (WITT, on campus) (official website)"
   }
  ],
  "postings": [],
  "postings_note": "Belum ada sumber posting akomodasi bertanggal yang diizinkan pada fase 1.",
  "title": "Akomodasi Pelajar - Direktori Penyedia Resmi (Australia & New Zealand)",
  "schedule": "Dicek ulang setiap bulan (tanggal 1) bersama refund & syarat bahasa",
- "count": 18
+ "count": 18,
+ "title_en": "Student Accommodation - Directory of Official Providers (Australia & New Zealand)",
+ "disclaimer_en": "The provider directory lists standing offers (not postings) and shows the date checked. Prices may change; always confirm directly with the provider. Never transfer money before you have an official written contract.",
+ "postings_note_en": "There are no permitted dated accommodation posting sources yet in phase 1.",
+ "schedule_en": "Re-checked every month (on the 1st) together with refund & English requirements"
 }

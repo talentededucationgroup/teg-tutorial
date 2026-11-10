@@ -32,7 +32,8 @@
      "pte_mulai_7_agu_2025": "31",
      "pte_sebelum": "36"
     }
-   ]
+   ],
+   "source_en": "Home Affairs (via VisaChief summary), checked 2026-11-10 - re-check immi.homeaffairs.gov.au"
   },
   "new_zealand_nzqa": {
    "source": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via dokumen Whitecliffe 2026)",
@@ -52,7 +53,8 @@
      "ielts": "6.5 (tidak ada band < 6.0)",
      "pte": "58 (tidak ada band < 50)"
     }
-   ]
+   ],
+   "source_en": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via Whitecliffe 2026 document)"
   }
  },
  "items": [
@@ -4627,7 +4629,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "AUCKLAND UNIVERSITY OF TECHNOLOGY (AUT)",
@@ -4641,13 +4644,15 @@
      "level": "Bachelor",
      "ielts": "6.0 overall, all bands 5.5+ (Academic)",
      "pte": "50 overall, no score below 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
      "ielts": "6.5 overall, all bands 6.0+ (Academic)",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4667,7 +4672,8 @@
    "source_url": "https://www.aut.ac.nz/study/fees-and-scholarships/fees-to-study-at-aut/international-student-fees-at-aut",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "ICL GRADUATE BUSINESS SCHOOL",
@@ -4682,7 +4688,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "LAURUS EDUCATION NZ",
@@ -4696,7 +4703,8 @@
      "level": "Certificate III/IV",
      "ielts": "IELTS (Academic or General) 5.0, no band lower than 5.0",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4711,7 +4719,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "LE CORDON BLEU NEW ZEALAND",
@@ -4725,7 +4734,8 @@
      "level": "Certificate III/IV",
      "ielts": "Academic or General IELTS 5.5",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
@@ -4752,7 +4762,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "MANUKAU INSTITUTE OF TECHNOLOGY (MIT)",
@@ -4766,19 +4777,22 @@
      "level": "Certificate III/IV",
      "ielts": "General or Academic IELTS 5.5, no band lower than 5.0",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic IELTS 5.5, no band lower than 5.0",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Bachelor",
      "ielts": "Academic 6.0 overall; writing & speaking >=6.0, reading & listening >=5.5",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     }
    ],
    "specific_courses": [],
@@ -4787,7 +4801,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "MASSEY UNIVERSITY",
@@ -4807,7 +4822,8 @@
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "6.5 overall, min 6.0 each band (Academic)",
      "pte": "58 overall, min 50 each communicative skill",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
@@ -4821,7 +4837,8 @@
    "source_url": "https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "NZMA",
@@ -4835,13 +4852,15 @@
      "level": "Certificate III/IV",
      "ielts": "General or Academic 5.0, no band lower than 5.0",
      "pte": "PTE Academic 36, no band lower than 36",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     }
    ],
    "specific_courses": [],
@@ -4850,7 +4869,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "OTAGO POLYTECHNIC",
@@ -4864,31 +4884,36 @@
      "level": "Certificate III/IV",
      "ielts": "IELTS 5.5 overall",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "IELTS 6 overall",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Bachelor",
      "ielts": "IELTS 6 overall",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "IELTS 6 overall",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
      "ielts": "IELTS 6.5 overall",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "ELICOS / English",
@@ -4903,7 +4928,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "SOUTHERN INSTITUTE OF TECHNOLOGY (SIT)",
@@ -4923,19 +4949,22 @@
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
      "pte": "PTE Academic 50 with no band score lower than 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Bachelor",
      "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
      "pte": "PTE Academic 50 with no band score lower than 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "IELTS Academic 5.5 with no band score lower than 5.0",
      "pte": "PTE Academic 42 with no band score lower than 36",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Certificate III/IV",
@@ -4990,7 +5019,8 @@
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Bachelor",
@@ -5002,19 +5032,22 @@
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "Academic 6.0, no band lower than 5.5",
      "pte": "PTE Academic 50, no band lower than 42",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
      "ielts": "Academic 6.5, no band lower than 6",
      "pte": "PTE Academic 58, no band lower than 50",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Certificate III/IV",
      "ielts": "5.0 (General or Academic), no band lower than 5",
      "pte": "PTE Academic 36, no band lower than 36",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     }
    ],
    "specific_courses": [],
@@ -5023,7 +5056,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "UNIVERSITY OF AUCKLAND",
@@ -5037,7 +5071,8 @@
      "level": "Bachelor",
      "ielts": "6.5 (no band below 6.0)",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
@@ -5052,7 +5087,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "WINTEC - WAIKATO INSTITUTE OF TECHNOLOGY",
@@ -5066,37 +5102,43 @@
      "level": "Certificate III/IV",
      "ielts": "Academic IELTS 5.0 with no band score lower than 5.0, or equivalent",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0, or equivalent",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Bachelor",
      "ielts": "Academic IELTS 6.0 with no band lower than 5.5; or equivalent",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Graduate Certificate / Graduate Diploma",
      "ielts": "Academic IELTS 6.0, with no individual band score lower than 5.5, or equivalent",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
      "ielts": "Academic IELTS 6.5, with no individual band score lower than 6.0; or equivalent",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "ELICOS / English",
      "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0",
      "pte": "",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Other",
@@ -5111,7 +5153,8 @@
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
    "auto_updated": false,
-   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi",
+   "document_en": "School brochure/fee schedule & official website"
   },
   {
    "key": "WITT - WESTERN INSTITUTE OF TECHNOLOGY AT TARANAKI",
@@ -5125,13 +5168,15 @@
      "level": "Bachelor",
      "ielts": "IELTS Academic 6.5, no band lower than 6.5",
      "pte": "PTE 58, no band below 58 (2026 agent guide; check Nursing Council acceptance)",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Diploma / Advanced Diploma",
      "ielts": "Academic 5.5, no band below 5.0",
      "pte": "PTE 42, no band below 36 (2026 agent guide)",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program",
+     "notes_en": "most common requirement for this level at the school; check per program"
     },
     {
      "level": "Master",
@@ -5151,7 +5196,11 @@
    "source_url": "https://www.witt.ac.nz/assets/WITT-PDF-Documents/WITT-International-Prospectus.pdf",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "document_en": "School brochure/fee schedule & official website"
   }
- ]
+ ],
+ "title_en": "English Requirements (IELTS/PTE) - TEG Partner Schools",
+ "disclaimer_en": "Summary from official school sources. Requirements may differ by campus/intake and may change; the school makes the final decision. Test scores are valid for 2 years for visa purposes.",
+ "fallback_text_en": "The school's English requirements are not yet listed - use the general minimum requirements and confirm with a TEG consultant."
 }

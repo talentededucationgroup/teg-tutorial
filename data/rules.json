@@ -20,18 +20,32 @@
      "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500.html",
      "publisher": "Australian Government - Study Australia",
      "checked": "2026-11-10",
-     "note": "Menyatakan 48 jam/fortnight saat in session, tanpa batas saat libur terjadwal, serta pengecualian di atas. Tidak ada tanggal efektif di halaman."
+     "note": "Menyatakan 48 jam/fortnight saat in session, tanpa batas saat libur terjadwal, serta pengecualian di atas. Tidak ada tanggal efektif di halaman.",
+     "note_en": "States 48 hours/fortnight while in session, unlimited during scheduled breaks, plus the exceptions above. No effective date on the page."
     },
     {
      "url": "https://www.studyaustralia.gov.au/en/work-in-australia/work-rights-and-responsibilities/your-work-rights-explained",
      "publisher": "Australian Government - Study Australia",
      "checked": "2026-11-10",
-     "note": "Konfirmasi 48 jam/fortnight; merujuk Fair Work Ombudsman untuk upah minimum."
+     "note": "Konfirmasi 48 jam/fortnight; merujuk Fair Work Ombudsman untuk upah minimum.",
+     "note_en": "Confirms 48 hours/fortnight; refers to the Fair Work Ombudsman for minimum wages."
     }
    ],
    "perlu_konfirmasi": [
     "Halaman immi.homeaffairs.gov.au 'Work restrictions for student visa holders' yang terbaca saat pengecekan masih menampilkan teks lama era COVID (tidak menyebut 48 jam); halaman kondisi 8105 diblokir robots untuk pengambilan otomatis. Admin perlu cek manual: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
     "Pemeriksaan kondisi visa individual: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ],
+   "summary_en": "Maximum 48 hours per two weeks (fortnight) while your course is in session (including exam periods). Unlimited during the institution's official scheduled breaks.",
+   "details_en": [
+    "48 hours per fortnight while the course is in session (term, semester, exam periods).",
+    "Unlimited hours during scheduled course breaks.",
+    "Unlimited hours also for: master by research / doctoral students once their course has started; after completing the course on the CoE while the visa is still valid; course deferred/suspended under Standard 9 of the National Code; enrolment cancelled due to provider default (until a new course starts).",
+    "Work conditions are listed on the visa (condition 8105); check in VEVO."
+   ],
+   "status_en": "verified (Australian government source: Study Australia / Austrade)",
+   "perlu_konfirmasi_en": [
+    "The immi.homeaffairs.gov.au page 'Work restrictions for student visa holders' read during the check still showed old COVID-era text (does not mention 48 hours); the condition 8105 page is blocked by robots for automated retrieval. Admin needs to check manually: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "Check individual visa conditions: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
    ]
   },
   {
@@ -54,18 +68,35 @@
      "url": "https://www.immigration.govt.nz/study/study-visas/working-on-a-student-visa/",
      "publisher": "Immigration New Zealand",
      "checked": "2026-11-10",
-     "note": "Halaman tidak mencantumkan tanggal efektif/tanggal update. Sebagian teks (durasi minimum kursus tersier) tidak terbaca lengkap."
+     "note": "Halaman tidak mencantumkan tanggal efektif/tanggal update. Sebagian teks (durasi minimum kursus tersier) tidak terbaca lengkap.",
+     "note_en": "The page does not show an effective date/update date. Part of the text (minimum duration of tertiary courses) could not be read in full."
     },
     {
      "url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights",
      "publisher": "Immigration New Zealand",
      "checked": "2026-11-10",
-     "note": "Berita perubahan (dari 20 ke 25 jam); hanya ditemukan di hasil pencarian, tidak dibuka."
+     "note": "Berita perubahan (dari 20 ke 25 jam); hanya ditemukan di hasil pencarian, tidak dibuka.",
+     "note_en": "News of the change (from 20 to 25 hours); found only in search results, not opened."
     }
    ],
    "perlu_konfirmasi": [
     "Detail durasi minimum kursus tersier untuk hak kerja part-time (teks halaman terpotong).",
     "Hak kerja Masters by research tidak dinyatakan tanpa batas di halaman."
+   ],
+   "summary_en": "If your visa conditions allow it: maximum 25 hours per week during study periods; full-time work during scheduled holidays only for those who are eligible. Check your eVisa / visa letter.",
+   "details_en": [
+    "Up to 25 hours per week during study periods, only if stated in your visa conditions.",
+    "Tertiary: full-time study and (a) an NZQCF Level 4 or higher qualification, or (b) a course that meets the minimum duration requirement, or (c) English language study under certain conditions, or (d) an exchange/Study Abroad program of at least 1 semester.",
+    "Full-time during scheduled holidays: at least 1 academic year, a course of at least 120 credits, at least 2 semesters over at least 8 months.",
+    "English language: course of at least 24 weeks + IELTS overall 5.0 (max. 2 years old), OR a course of at least 14 consecutive weeks at a university / NZQA Category 1 provider.",
+    "Secondary school: Year 12/13, aged 16+, written permission from the school and parents; 25 hours/week, full-time during the Christmas-New Year holidays.",
+    "Doctoral (PhD): unlimited hours as long as you continue full-time study.",
+    "Micro-credentials and training schemes are not eligible. Self-employment is not allowed; there must be an employment agreement."
+   ],
+   "status_en": "verified (immigration.govt.nz)",
+   "perlu_konfirmasi_en": [
+    "Details of the minimum tertiary course duration for part-time work rights (page text was cut off).",
+    "Work rights for Masters by research are not stated as unlimited on the page."
    ]
   }
  ],
@@ -79,7 +110,11 @@
    "other": "Holding fee maks. 1 minggu sewa, hanya setelah aplikasi disetujui.",
    "url": "https://www.nsw.gov.au/housing-and-construction/rules/costs-at-start-of-a-residential-tenancy",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "4 weeks' rent",
+   "lodgement_en": "to be confirmed (can be paid via Rental Bonds Online)",
+   "other_en": "Holding fee max. 1 week's rent, only after the application is approved.",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "VIC",
@@ -90,7 +125,11 @@
    "other": "Rooming house: 28 hari sewa (fixed term) / 14 hari (lainnya).",
    "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/bond-amounts-and-paying-a-bond",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "Generally max. 1 month's rent (unless rent is > AUD 900/week or set by VCAT)",
+   "lodgement_en": "Rental provider must lodge with the RTBA within 14 days (excluding public holidays)",
+   "other_en": "Rooming house: 28 days' rent (fixed term) / 14 days (other).",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "QLD",
@@ -101,7 +140,11 @@
    "other": "Akomodasi dari employer punya aturan berbeda.",
    "url": "https://www.rta.qld.gov.au/starting-a-tenancy/rental-bond",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "4 weeks' rent (general tenancy & rooming accommodation), applies to the total of all bonds",
+   "lodgement_en": "Must be lodged with the RTA within 10 days",
+   "other_en": "Employer-provided accommodation has different rules.",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "WA",
@@ -112,7 +155,10 @@
    "other": "",
    "url": "https://www.consumerprotection.wa.gov.au/rental-bonds",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "4 weeks' rent (unless rent is > AUD 1,200/week); pet bond max. AUD 350",
+   "lodgement_en": "Within 14 days of payment",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "SA",
@@ -123,7 +169,11 @@
    "other": "Sumber: Tenant Information Guide (Januari 2026).",
    "url": "https://www.cbs.sa.gov.au/documents/tenancy/guides/Tenant-Information-Guide.pdf",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "4 weeks' rent (rent <= AUD 800/week); 6 weeks (rent > AUD 800/week)",
+   "lodgement_en": "Lodge with CBS within 2 weeks (registered agents: 4 weeks)",
+   "other_en": "Source: Tenant Information Guide (January 2026).",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "TAS",
@@ -134,7 +184,10 @@
    "other": "",
    "url": "https://cbos.tas.gov.au/topics/housing/renting/bonds/bond-lodgement-and-paying-a-bond-contribution",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "Max. 4 weeks' rent",
+   "lodgement_en": "Agent lodges with the Rental Deposit Authority within 10 working days",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "NT",
@@ -145,7 +198,11 @@
    "other": "Kuitansi wajib untuk pembayaran tunai/cek/kartu.",
    "url": "https://nt.gov.au/property/private-renters/find-out-about-rental-costs/security-deposits-bonds",
    "checked": "2026-11-10",
-   "status": "terverifikasi"
+   "status": "terverifikasi",
+   "max_bond_en": "Max. 4 weeks' rent (security deposit)",
+   "lodgement_en": "No central bond authority; held in the agent's/landlord's trust account",
+   "other_en": "A receipt is required for cash/cheque/card payments.",
+   "status_en": "verified"
   },
   {
    "jurisdiction": "ACT",
@@ -156,7 +213,10 @@
    "other": "",
    "url": "https://www.revenue.act.gov.au/rental-bonds/about-rental-bonds",
    "checked": "2026-11-10",
-   "status": "terverifikasi (tenggat perlu konfirmasi)"
+   "status": "terverifikasi (tenggat perlu konfirmasi)",
+   "max_bond_en": "Max. 4 weeks' rent",
+   "lodgement_en": "Must be lodged with the Rental Bonds Office; deadline to be confirmed",
+   "status_en": "verified (deadline to be confirmed)"
   },
   {
    "jurisdiction": "NZ",
@@ -167,11 +227,20 @@
    "other": "Bond hanya boleh berupa uang.",
    "url": "https://www.tenancy.govt.nz/rent-bond-and-bills/bond/charging-a-bond/charging-a-general-bond/",
    "checked": "2026-11-10",
-   "status": "terverifikasi (tenggat perlu konfirmasi)"
+   "status": "terverifikasi (tenggat perlu konfirmasi)",
+   "max_bond_en": "Max. 4 weeks' rent (example: NZD 500/week -> max. NZD 2,000)",
+   "lodgement_en": "Landlord must lodge with Tenancy Services (Bond Hub); deadline to be confirmed (generally 23 working days - not yet checked on the page)",
+   "other_en": "Bond can only be paid in money.",
+   "status_en": "verified (deadline to be confirmed)"
   }
  ],
  "notes": [
   "Akomodasi pelajar purpose-built (PBSA) dan asrama universitas sering memakai kontrak 'licence/occupancy agreement' atau rooming accommodation, sehingga aturan bond bisa berbeda dari sewa umum - selalu baca kontrak dan cek ke otoritas negara bagian.",
   "Jangan pernah transfer bond/deposit sebelum melihat kontrak tertulis dan memastikan identitas penyedia."
+ ],
+ "disclaimer_en": "General summary from official government pages. Visa conditions can differ for each student: check your own visa conditions (VEVO for Australia, eVisa/visa letter for New Zealand). Not legal or migration advice.",
+ "notes_en": [
+  "Purpose-built student accommodation (PBSA) and university residences often use a 'licence/occupancy agreement' or rooming accommodation contract, so bond rules may differ from general tenancies - always read the contract and check with the state/territory authority.",
+  "Never transfer a bond/deposit before seeing a written contract and verifying the provider's identity."
  ]
 }

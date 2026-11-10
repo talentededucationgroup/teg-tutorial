@@ -9,5 +9,9 @@
  "status": "menunggu API key - belum ada data",
  "count": 0,
  "items": [],
- "held_for_review": []
+ "held_for_review": [],
+ "title_en": "Student Jobs - Australia & New Zealand",
+ "disclaimer_en": "Jobs from an external source (Jobs by Adzuna), checked automatically every day. Checks reduce risk but do not guarantee safety, legality or availability. Not every job suits every student visa holder - check your visa conditions. Never pay to get a job.",
+ "status_en": "waiting for API key - no data yet",
+ "schedule_en": "Every day at 05:17 WIB (GitHub Actions) - active once the Adzuna API key is set up"
 }

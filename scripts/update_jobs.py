@@ -148,7 +148,7 @@ def main():
         print('Lewati: secret ADZUNA_APP_ID / ADZUNA_APP_KEY belum diisi (jobs.json tidak diubah)'); sys.exit(0)
     prev = load(OUT, {})
     # keep multilingual fixed texts (title_xx, disclaimer_xx, schedule_xx, labels_xx, item_text) across runs
-    keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] in ('title', 'disclaimer', 'schedule', 'labels'))}
+    keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] in ('title', 'disclaimer', 'labels'))}
     prev_items = {i['id']: i for i in prev.get('items', [])}
     items, held, failed, ok_cities, alerts = {}, [], [], set(), []
     for cc, cities in CITIES.items():

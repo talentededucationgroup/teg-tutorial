@@ -41,10 +41,31 @@ def get(url, tries=3):
             with urllib.request.urlopen(urllib.request.Request(url, headers={'Accept': 'application/json',
                                                                               'User-Agent': 'TEG-student-site/1.0'}), timeout=30) as r:
                 return json.load(r)
+        except urllib.error.HTTPError as e:
+            if 400 <= e.code < 500 and e.code != 429:  # client/auth error: no point retrying
+                raise
+            if i == tries - 1:
+                raise
+            time.sleep(5 * (i + 1))
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
             if i == tries - 1:
                 raise
             time.sleep(5 * (i + 1))
+
+
+def err_info(e):
+    # short, secret-free description of an error (HTTP code + first part of the API's error message)
+    if isinstance(e, urllib.error.HTTPError):
+        msg = ''
+        try:
+            msg = e.read(300).decode('utf-8', 'replace')
+        except Exception:
+            pass
+        for v in (os.environ.get('ADZUNA_APP_ID') or '', os.environ.get('ADZUNA_APP_KEY') or ''):
+            if v:
+                msg = msg.replace(v, '***')
+        return f'HTTP {e.code} {msg[:200]}'.strip()
+    return type(e).__name__
 
 
 def parse_date(s):
@@ -128,7 +149,13 @@ def main():
                 data = get(f'https://api.adzuna.com/v1/api/jobs/{cc}/search/1?{q}')
                 ok_cities.add(city)
             except Exception as e:
-                failed.append({'city': city, 'error': type(e).__name__}); continue
+                info = err_info(e)
+                print(f'Gagal {city}: {info}')
+                failed.append({'city': city, 'error': info})
+                if info.startswith('HTTP 401') or info.startswith('HTTP 403'):
+                    alerts.append('Kunci API ditolak (401/403): cek secret ADZUNA_APP_ID & ADZUNA_APP_KEY dan status akun Adzuna.')
+                    break
+                continue
             for r in data.get('results', []):
                 it, reasons = transform(r, cc, city)
                 if it['id'] in items:
@@ -157,7 +184,7 @@ def main():
     if failed:
         alerts.append('Sumber gagal diperiksa untuk kota: ' + ', '.join(f['city'] for f in failed))
     total_cities = sum(len(v) for v in CITIES.values())
-    if len(failed) == total_cities:
+    if len(failed) == total_cities or (failed and not ok_cities):
         print('ERROR: semua permintaan ke sumber gagal - data lama dipertahankan')
         write_log({'time': NOW.astimezone(WIB).isoformat(timespec='seconds'), 'result': 'gagal', 'failed': failed})
         with open(ALERTS, 'w', encoding='utf-8') as f: f.write('\n'.join(alerts))

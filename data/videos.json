@@ -1,0 +1,70 @@
+{
+ "title": "Video TEG untuk website",
+ "updated_at": "2026-11-11T00:30:00+07:00",
+ "items": [
+  {
+   "id": "panduan-lengkap",
+   "placement": "Video utama/tombol besar \"Video Tutorial\" di halaman siswa & aplikasi (menggantikan 2 video terpisah; video lama tetap tersedia)",
+   "video": "https://talentededucationgroup.github.io/teg-tutorial/panduan/tutorial.mp4",
+   "poster": "https://talentededucationgroup.github.io/teg-tutorial/panduan/poster.jpg",
+   "subtitles_en": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+   "manifest": "https://talentededucationgroup.github.io/teg-tutorial/panduan/manifest.json",
+   "duration_seconds": 410.9,
+   "orientation": "landscape",
+   "title": {
+    "id": "Video Tutorial: 2 cara cek harga (aplikasi & browser)",
+    "en": "Video tutorial: 2 ways to check prices (app & browser)",
+    "th": "วิดีโอสอน: 2 วิธีตรวจสอบราคา (แอปและเบราว์เซอร์)",
+    "vi": "Video hướng dẫn: 2 cách xem giá (ứng dụng & trình duyệt)",
+    "zh": "视频教程：查询价格的2种方式（应用和浏览器）",
+    "ja": "動画チュートリアル：料金を確認する2つの方法（アプリとブラウザ）",
+    "ko": "동영상 튜토리얼: 가격 확인 2가지 방법 (앱 & 브라우저)",
+    "km": "វីដេអូណែនាំ៖ វិធី 2 យ៉ាងដើម្បីពិនិត្យតម្លៃ (កម្មវិធី និងកម្មវិធីរុករក)"
+   },
+   "below_text": {
+    "id": "Cek harga lewat browser: pricelist.talentededucationgroup.com/biaya-studi",
+    "en": "Check prices in your browser: pricelist.talentededucationgroup.com/biaya-studi"
+   },
+   "link": "https://pricelist.talentededucationgroup.com/biaya-studi"
+  },
+  {
+   "id": "proses-visa",
+   "placement": "Halaman \"Mulai Daftar\", tepat di bawah bagian \"Alur proses\"",
+   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa.mp4",
+   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/proses-visa-poster.jpg",
+   "duration_seconds": 105.6,
+   "orientation": "landscape",
+   "source_title": "Indo - English Video Langkah Proses visa",
+   "title": {
+    "id": "Video: Langkah proses visa pelajar",
+    "en": "Video: Student visa process step by step",
+    "th": "วิดีโอ: ขั้นตอนการขอวีซ่านักเรียน",
+    "vi": "Video: Các bước xin thị thực du học",
+    "zh": "视频：学生签证办理步骤",
+    "ja": "動画：学生ビザ手続きの流れ",
+    "ko": "동영상: 학생 비자 진행 단계",
+    "km": "វីដេអូ៖ ជំហាននៃដំណើរការទិដ្ឋាការសិស្ស"
+   }
+  },
+  {
+   "id": "testimoni-asin",
+   "placement": "Halaman siswa utama: bagian \"Testimoni / Mereka sudah dapat visa\" dekat tombol Mulai Daftar/konsultasi (di bawah hasil pencarian atau di bawah video tutorial)",
+   "video": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin.mp4",
+   "poster": "https://talentededucationgroup.github.io/teg-tutorial/videos/testimoni-asin-poster.jpg",
+   "duration_seconds": 60.1,
+   "orientation": "portrait (406x512)",
+   "source_title": "Video Marketing 2 - Asin",
+   "title": {
+    "id": "Testimoni: Mereka sudah dapat visa pelajar Australia",
+    "en": "Testimonials: they got their Australian student visa",
+    "th": "คำรับรอง: พวกเขาได้รับวีซ่านักเรียนออสเตรเลียแล้ว",
+    "vi": "Cảm nhận: các bạn đã nhận thị thực du học Úc",
+    "zh": "学员见证：他们已获得澳大利亚学生签证",
+    "ja": "体験談：オーストラリア学生ビザを取得しました",
+    "ko": "후기: 호주 학생 비자를 받았어요",
+    "km": "សក្ខីកម្ម៖ ពួកគេទទួលបានទិដ្ឋាការសិស្សអូស្ត្រាលីហើយ"
+   },
+   "note": "Video testimoni milik TEG (izin tampil dari siswa diurus TEG). Teks di video berbahasa Indonesia."
+  }
+ ]
+}

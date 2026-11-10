@@ -12,22 +12,22 @@
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/tutorial.mp4",
+      "url": "https://info.talentededucationgroup.com/app/tutorial.mp4",
       "bytes": 4070277,
       "sha256": "1067679cf72158adfccaf24262ff91e9f352038e4a2c8b12f21aeffdafa6d5d0"
     },
     "poster.jpg": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/poster.jpg",
+      "url": "https://info.talentededucationgroup.com/app/poster.jpg",
       "bytes": 146951,
       "sha256": "3a45146d5e366770cc0f521f28397e745ad92d0b3558b84f95507858fabd6363"
     },
     "subtitle-en.srt": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/subtitle-en.srt",
+      "url": "https://info.talentededucationgroup.com/app/subtitle-en.srt",
       "bytes": 1059,
       "sha256": "3774f1a950a54983547e91999268d2821d1722329ebc4f9ac688b81f9fdcc45d"
     },
     "index.html": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/app/index.html",
+      "url": "https://info.talentededucationgroup.com/app/index.html",
       "bytes": 3268,
       "sha256": "b20b51086edd5cd7caee3e09e388db89b28a3d0160e94917977f936efd0fee1c"
     }

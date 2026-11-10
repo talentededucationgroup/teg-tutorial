@@ -14,17 +14,17 @@
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/panduan/tutorial.mp4",
+      "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
       "bytes": 14787019,
       "sha256": "f668f9bd5d375f4ed71556424eb4eedccc36730bda39a03119ee32e3ff0e98a7"
     },
     "poster.jpg": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/panduan/poster.jpg",
+      "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
       "bytes": 92567,
       "sha256": "614856629cc311860d5b86506007f33aad1334034646e9fcad0b73dad3177ae5"
     },
     "subtitle-en.srt": {
-      "url": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "bytes": 3536,
       "sha256": "4b1a7f1b609435ad2008e93e142a89b17bd95fe422b6f0804de29d928b7ba87b"
     }

@@ -57,7 +57,7 @@ plist=[]
 for code,P in sorted(prov.items(), key=lambda x:x[1]['name'].lower()):
     if P['courses']==0: continue
     P['sectors']=sorted(P['sectors']); P['states']=sorted(P['states']); P['cities']=sorted(P['cities'])
-    P['courses_file']=f'https://talentededucationgroup.github.io/teg-tutorial/data/cricos/{code}.json'
+    P['courses_file']=f'https://info.talentededucationgroup.com/data/cricos/{code}.json'
     plist.append(P)
     json.dump({'provider':code,'name':P['name'],'data_date':DATE,'courses':sorted(bycode[code],key=lambda x:(x['sector'],x['level'],x['name']))},
               open(f'{OUT}/cricos/{code}.json','w'),ensure_ascii=False,separators=(',',':'))

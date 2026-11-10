@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T00:40:00+07:00",
+  "updated_at": "2026-11-11T02:40:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -9,7 +9,7 @@
       "poster": "https://talentededucationgroup.github.io/teg-tutorial/panduan/poster.jpg",
       "subtitles_en": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
       "manifest": "https://talentededucationgroup.github.io/teg-tutorial/panduan/manifest.json",
-      "duration_seconds": 410.9,
+      "duration_seconds": 377.1,
       "orientation": "landscape",
       "title": {
         "id": "Video Tutorial: 2 cara cek harga (aplikasi & browser)",
@@ -31,6 +31,12 @@
       "below_text": {
         "id": "Cek harga lewat browser: pricelist.talentededucationgroup.com/biaya-studi",
         "en": "Check prices in your browser: pricelist.talentededucationgroup.com/biaya-studi",
+        "th": "ตรวจสอบราคาในเบราว์เซอร์: pricelist.talentededucationgroup.com/biaya-studi",
+        "vi": "Xem giá trên trình duyệt: pricelist.talentededucationgroup.com/biaya-studi",
+        "zh": "在浏览器中查询价格：pricelist.talentededucationgroup.com/biaya-studi",
+        "ja": "ブラウザで料金を確認：pricelist.talentededucationgroup.com/biaya-studi",
+        "ko": "브라우저에서 가격 확인: pricelist.talentededucationgroup.com/biaya-studi",
+        "km": "ពិនិត្យតម្លៃក្នុងកម្មវិធីរុករក៖ pricelist.talentededucationgroup.com/biaya-studi",
         "fr": "Consultez les prix dans votre navigateur : pricelist.talentededucationgroup.com/biaya-studi",
         "pt": "Consulte os preços no seu navegador: pricelist.talentededucationgroup.com/biaya-studi",
         "es": "Consulta precios en tu navegador: pricelist.talentededucationgroup.com/biaya-studi",
@@ -46,7 +52,14 @@
       "subtitles_de": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
       "subtitles_it": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
       "subtitles_nl": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
-      "subtitles_ru": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt"
+      "subtitles_ru": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "version": "v2",
+      "subtitles_th": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_vi": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_zh": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_ja": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_ko": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt",
+      "subtitles_km": "https://talentededucationgroup.github.io/teg-tutorial/panduan/subtitle-en.srt"
     },
     {
       "id": "profil-teg",

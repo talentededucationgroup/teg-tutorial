@@ -1,0 +1,177 @@
+{
+ "updated_at": "2026-11-10T15:00:00+07:00",
+ "check_date": "2026-11-10",
+ "disclaimer": "Ringkasan umum dari halaman resmi pemerintah. Kondisi visa tiap pelajar bisa berbeda: cek kondisi visa sendiri (VEVO untuk Australia, eVisa/visa letter untuk Selandia Baru). Bukan nasihat hukum atau migrasi.",
+ "work_rights": [
+  {
+   "id": "au-student-500-work",
+   "country": "Australia",
+   "visa": "Student visa (subclass 500)",
+   "summary_id": "Maksimal 48 jam per dua minggu (fortnight) selama periode kuliah berjalan (termasuk masa ujian). Tidak dibatasi selama libur terjadwal resmi dari institusi.",
+   "details": [
+    "48 jam per fortnight saat course in session (term, semester, periode ujian).",
+    "Tanpa batas jam saat scheduled course breaks.",
+    "Tanpa batas jam juga untuk: mahasiswa master by research / doktoral setelah kursus dimulai; setelah menyelesaikan kursus di CoE selama visa masih berlaku; kursus ditunda/ditangguhkan sesuai Standard 9 National Code; enrolment dibatalkan karena provider default (sampai mulai kursus baru).",
+    "Kondisi kerja tercantum di visa (condition 8105); cek di VEVO."
+   ],
+   "status": "terverifikasi (sumber pemerintah Australia: Study Australia / Austrade)",
+   "sources": [
+    {
+     "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500.html",
+     "publisher": "Australian Government - Study Australia",
+     "checked": "2026-11-10",
+     "note": "Menyatakan 48 jam/fortnight saat in session, tanpa batas saat libur terjadwal, serta pengecualian di atas. Tidak ada tanggal efektif di halaman."
+    },
+    {
+     "url": "https://www.studyaustralia.gov.au/en/work-in-australia/work-rights-and-responsibilities/your-work-rights-explained",
+     "publisher": "Australian Government - Study Australia",
+     "checked": "2026-11-10",
+     "note": "Konfirmasi 48 jam/fortnight; merujuk Fair Work Ombudsman untuk upah minimum."
+    }
+   ],
+   "perlu_konfirmasi": [
+    "Halaman immi.homeaffairs.gov.au 'Work restrictions for student visa holders' yang terbaca saat pengecekan masih menampilkan teks lama era COVID (tidak menyebut 48 jam); halaman kondisi 8105 diblokir robots untuk pengambilan otomatis. Admin perlu cek manual: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "Pemeriksaan kondisi visa individual: https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+   ]
+  },
+  {
+   "id": "nz-student-visa-work",
+   "country": "New Zealand",
+   "visa": "Student visa (fee paying)",
+   "summary_id": "Jika kondisi visa mengizinkan: maksimal 25 jam per minggu selama masa kuliah; kerja penuh waktu saat libur terjadwal hanya bagi yang memenuhi syarat. Cek eVisa / visa letter.",
+   "details": [
+    "Hingga 25 jam per minggu saat masa kuliah, hanya jika tercantum di kondisi visa.",
+    "Tersier: studi penuh waktu dan (a) kualifikasi NZQCF Level 4 ke atas, atau (b) kursus memenuhi syarat durasi minimum, atau (c) studi bahasa Inggris dengan syarat tertentu, atau (d) program exchange/Study Abroad min. 1 semester.",
+    "Full-time saat libur terjadwal: min. 1 tahun akademik, kursus min. 120 kredit, min. 2 semester selama min. 8 bulan.",
+    "Bahasa Inggris: kursus min. 24 minggu + IELTS overall 5.0 (maks. 2 tahun), ATAU kursus min. 14 minggu berturut-turut di universitas / provider NZQA Category 1.",
+    "Sekolah menengah: Year 12/13, usia 16+, izin tertulis sekolah dan orang tua; 25 jam/minggu, full-time saat libur Natal-Tahun Baru.",
+    "Doktoral (PhD): tanpa batas jam selama tetap studi penuh waktu.",
+    "Micro-credentials dan training schemes tidak memenuhi syarat. Tidak boleh self-employed; harus ada employment agreement."
+   ],
+   "status": "terverifikasi (immigration.govt.nz)",
+   "sources": [
+    {
+     "url": "https://www.immigration.govt.nz/study/study-visas/working-on-a-student-visa/",
+     "publisher": "Immigration New Zealand",
+     "checked": "2026-11-10",
+     "note": "Halaman tidak mencantumkan tanggal efektif/tanggal update. Sebagian teks (durasi minimum kursus tersier) tidak terbaca lengkap."
+    },
+    {
+     "url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights",
+     "publisher": "Immigration New Zealand",
+     "checked": "2026-11-10",
+     "note": "Berita perubahan (dari 20 ke 25 jam); hanya ditemukan di hasil pencarian, tidak dibuka."
+    }
+   ],
+   "perlu_konfirmasi": [
+    "Detail durasi minimum kursus tersier untuk hak kerja part-time (teks halaman terpotong).",
+    "Hak kerja Masters by research tidak dinyatakan tanpa batas di halaman."
+   ]
+  }
+ ],
+ "tenancy_bond": [
+  {
+   "jurisdiction": "NSW",
+   "country": "Australia",
+   "authority": "NSW Government / NSW Fair Trading",
+   "max_bond": "4 minggu sewa",
+   "lodgement": "perlu konfirmasi (bisa dibayar via Rental Bonds Online)",
+   "other": "Holding fee maks. 1 minggu sewa, hanya setelah aplikasi disetujui.",
+   "url": "https://www.nsw.gov.au/housing-and-construction/rules/costs-at-start-of-a-residential-tenancy",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "VIC",
+   "country": "Australia",
+   "authority": "Consumer Affairs Victoria / RTBA",
+   "max_bond": "Umumnya maks. 1 bulan sewa (kecuali sewa > AUD 900/minggu atau ditetapkan VCAT)",
+   "lodgement": "Rental provider wajib lodge ke RTBA dalam 14 hari (tidak termasuk hari libur umum)",
+   "other": "Rooming house: 28 hari sewa (fixed term) / 14 hari (lainnya).",
+   "url": "https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/bond/bond-amounts-and-paying-a-bond",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "QLD",
+   "country": "Australia",
+   "authority": "Residential Tenancies Authority (RTA)",
+   "max_bond": "4 minggu sewa (general tenancy & rooming accommodation), berlaku untuk total semua bond",
+   "lodgement": "Wajib lodge ke RTA dalam 10 hari",
+   "other": "Akomodasi dari employer punya aturan berbeda.",
+   "url": "https://www.rta.qld.gov.au/starting-a-tenancy/rental-bond",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "WA",
+   "country": "Australia",
+   "authority": "Consumer Protection WA",
+   "max_bond": "4 minggu sewa (kecuali sewa > AUD 1.200/minggu); pet bond maks. AUD 350",
+   "lodgement": "Dalam 14 hari setelah dibayar",
+   "other": "",
+   "url": "https://www.consumerprotection.wa.gov.au/rental-bonds",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "SA",
+   "country": "Australia",
+   "authority": "Consumer and Business Services (CBS)",
+   "max_bond": "4 minggu sewa (sewa <= AUD 800/minggu); 6 minggu (sewa > AUD 800/minggu)",
+   "lodgement": "Lodge ke CBS dalam 2 minggu (agen terdaftar: 4 minggu)",
+   "other": "Sumber: Tenant Information Guide (Januari 2026).",
+   "url": "https://www.cbs.sa.gov.au/documents/tenancy/guides/Tenant-Information-Guide.pdf",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "TAS",
+   "country": "Australia",
+   "authority": "Consumer, Building and Occupational Services (CBOS)",
+   "max_bond": "Maks. 4 minggu sewa",
+   "lodgement": "Agen lodge ke Rental Deposit Authority dalam 10 hari kerja",
+   "other": "",
+   "url": "https://cbos.tas.gov.au/topics/housing/renting/bonds/bond-lodgement-and-paying-a-bond-contribution",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "NT",
+   "country": "Australia",
+   "authority": "NT Government",
+   "max_bond": "Maks. 4 minggu sewa (security deposit)",
+   "lodgement": "Tidak ada otoritas bond terpusat; disimpan di trust account agen/landlord",
+   "other": "Kuitansi wajib untuk pembayaran tunai/cek/kartu.",
+   "url": "https://nt.gov.au/property/private-renters/find-out-about-rental-costs/security-deposits-bonds",
+   "checked": "2026-11-10",
+   "status": "terverifikasi"
+  },
+  {
+   "jurisdiction": "ACT",
+   "country": "Australia",
+   "authority": "ACT Revenue Office (Rental Bonds)",
+   "max_bond": "Maks. 4 minggu sewa",
+   "lodgement": "Wajib lodge ke Rental Bonds Office; tenggat perlu konfirmasi",
+   "other": "",
+   "url": "https://www.revenue.act.gov.au/rental-bonds/about-rental-bonds",
+   "checked": "2026-11-10",
+   "status": "terverifikasi (tenggat perlu konfirmasi)"
+  },
+  {
+   "jurisdiction": "NZ",
+   "country": "New Zealand",
+   "authority": "Tenancy Services (MBIE)",
+   "max_bond": "Maks. 4 minggu sewa (contoh: NZD 500/minggu -> maks. NZD 2.000)",
+   "lodgement": "Landlord wajib lodge ke Tenancy Services (Bond Hub); tenggat perlu konfirmasi (umumnya 23 hari kerja - belum dicek di halaman)",
+   "other": "Bond hanya boleh berupa uang.",
+   "url": "https://www.tenancy.govt.nz/rent-bond-and-bills/bond/charging-a-bond/charging-a-general-bond/",
+   "checked": "2026-11-10",
+   "status": "terverifikasi (tenggat perlu konfirmasi)"
+  }
+ ],
+ "notes": [
+  "Akomodasi pelajar purpose-built (PBSA) dan asrama universitas sering memakai kontrak 'licence/occupancy agreement' atau rooming accommodation, sehingga aturan bond bisa berbeda dari sewa umum - selalu baca kontrak dan cek ke otoritas negara bagian.",
+  "Jangan pernah transfer bond/deposit sebelum melihat kontrak tertulis dan memastikan identitas penyedia."
+ ]
+}

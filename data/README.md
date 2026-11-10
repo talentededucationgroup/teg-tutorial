@@ -5,3 +5,6 @@
 Dipakai oleh https://pricelist.talentededucationgroup.com (dibaca langsung, dengan cache-busting).
 
 - `english.json` — syarat bahasa Inggris (IELTS/PTE) per sekolah partner (Australia & New Zealand) per jenjang + syarat umum visa 500 & NZQA (`general`). Dari sumber resmi sekolah. Diperbarui otomatis setiap bulan bersama refund. Status: Terverifikasi / Sebagian / Belum ditemukan; website memakai syarat umum bila sekolah belum ada.
+- `jobs.json` — lowongan kerja pelajar dari Adzuna API (atribusi wajib "Jobs by Adzuna"), diperbarui setiap hari oleh GitHub Actions (`.github/workflows/update-jobs.yml`, `scripts/update_jobs.py`): hanya tanggal posting asli maks. 30 hari, masih tercantum di sumber, tanpa deskripsi lengkap; indikasi penipuan ditahan (`held_for_review`) dan admin diberi issue GitHub. Log: `jobs-log.json`. Butuh secret repo `ADZUNA_APP_ID` dan `ADZUNA_APP_KEY`.
+- `accommodation.json` — direktori penyedia akomodasi pelajar resmi (ringkasan fakta + link, tanpa foto/logo), dicek ulang bulanan.
+- `rules.json` — hak kerja visa pelajar AU & NZ dan aturan bond sewa per negara bagian/NZ, dari situs pemerintah (dengan tanggal cek).

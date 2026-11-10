@@ -1,11 +1,11 @@
 {
  "title": "Syarat Bahasa Inggris (IELTS/PTE) - Sekolah Partner TEG",
  "version": "2026-11-10",
- "updated_at": "2026-11-10T15:00:00+07:00",
+ "updated_at": "2026-11-10",
  "count": 159,
  "counts": {
-  "Terverifikasi": 82,
-  "Sebagian": 57,
+  "Terverifikasi": 74,
+  "Sebagian": 65,
   "Belum ditemukan": 20
  },
  "disclaimer": "Ringkasan dari sumber resmi sekolah. Syarat bisa berbeda per kampus/intake dan bisa berubah; keputusan akhir mengikuti sekolah. Skor tes berlaku 2 tahun untuk visa.",
@@ -4690,7 +4690,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -4710,7 +4710,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "LE CORDON BLEU NEW ZEALAND",
@@ -4718,7 +4719,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -4750,7 +4751,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "MANUKAU INSTITUTE OF TECHNOLOGY (MIT)",
@@ -4758,7 +4760,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -4784,7 +4786,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "MASSEY UNIVERSITY",
@@ -4826,7 +4829,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -4846,7 +4849,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "OTAGO POLYTECHNIC",
@@ -4854,7 +4858,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -4898,7 +4902,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "SOUTHERN INSTITUTE OF TECHNOLOGY (SIT)",
@@ -4934,15 +4939,36 @@
     },
     {
      "level": "Certificate III/IV",
-     "ielts": "IELTS General or Academic 5.0 in all bands",
-     "pte": "PTE Academic 36 in all bands",
-     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+     "ielts": "IELTS Academic 5.5 with no band score lower than 5.0",
+     "pte": "PTE Academic 42 with no band score lower than 36",
+     "notes": "NZQF Level 4 (mis. NZ Certificate in Business (Small Business), Study and Employment Pathways). Level 3: lihat specific_courses."
     }
    ],
-   "specific_courses": [],
+   "specific_courses": [
+    {
+     "course": "New Zealand Certificate in Mechanical Engineering (Level 3)",
+     "match": [
+      "Mechanical Engineering (NZQF Level 3",
+      "Mechanical Engineering (Level 3"
+     ],
+     "ielts": "IELTS General or Academic 5.0 in all bands",
+     "pte": "PTE Academic 36 in all bands",
+     "notes": "NZQF Level 3"
+    },
+    {
+     "course": "NZ Diploma in Enrolled Nursing / Bachelor of Nursing",
+     "match": [
+      "Enrolled Nursing",
+      "Bachelor of Nursing"
+     ],
+     "ielts": "IELTS Academic 6.5 in all bands (atau OET Grade C+ / 300 di semua sub-tes)",
+     "pte": "",
+     "notes": "Syarat Nursing Council"
+    }
+   ],
    "elicos_pathway": "",
-   "source_url": "",
-   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "source_url": "https://www.sit.ac.nz/International/Subjects-Fees-Scholarships",
+   "document": "SIT International - Subjects, Fees & Scholarships (syarat per programme)",
    "checked_date": "2026-11-10",
    "auto_updated": false
   },
@@ -4952,7 +4978,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Other",
@@ -4996,7 +5022,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "UNIVERSITY OF AUCKLAND",
@@ -5004,7 +5031,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Bachelor",
@@ -5024,7 +5051,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "WINTEC - WAIKATO INSTITUTE OF TECHNOLOGY",
@@ -5032,7 +5060,7 @@
    "official_name": "",
    "cricos_code": "",
    "country": "New Zealand",
-   "status": "Terverifikasi",
+   "status": "Sebagian",
    "levels": [
     {
      "level": "Certificate III/IV",
@@ -5082,7 +5110,8 @@
    "source_url": "",
    "document": "Brosur/fee schedule & situs resmi sekolah",
    "checked_date": "2026-11-10",
-   "auto_updated": false
+   "auto_updated": false,
+   "notes_status": "source_url resmi per program/jenjang belum dilengkapi (audit 10/11/2026) - angka dari brosur/fee schedule master agent; cek ulang ke situs resmi"
   },
   {
    "key": "WITT - WESTERN INSTITUTE OF TECHNOLOGY AT TARANAKI",

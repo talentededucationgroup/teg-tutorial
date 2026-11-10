@@ -1,67 +1,83 @@
 1
-00:00:00,300 --> 00:00:09,710
-How to use the TEG study cost price list
+00:00:00,300 --> 00:00:12,420
+How to use the TEG study cost price list – Australia & New Zealand
 
 2
-00:00:10,310 --> 00:00:25,480
-Open the price list page. All prices are in AUD; the data date is shown at the top right.
+00:00:13,020 --> 00:00:27,570
+Open the price list page and pick your language at the top right – 8 languages are available.
 
 3
-00:00:26,080 --> 00:00:30,090
-Still in Indonesia? Choose Offshore.
+00:00:28,170 --> 00:00:39,450
+The menu: study programmes, English, pathways, other schools, VSA courses, jobs & accommodation, and start your application.
 
 4
-00:00:30,690 --> 00:00:38,830
-Already in Australia? Choose Onshore and read the visa note.
+00:00:40,050 --> 00:00:51,600
+Choose Australia or New Zealand, then Offshore (still in Indonesia) or Onshore (already there).
 
 5
-00:00:39,430 --> 00:00:56,860
-This box explains what the starting funds include and do not include.
+00:00:52,200 --> 00:01:03,580
+Search by course or school, then filter by city, field, level and maximum upfront cost.
 
 6
-00:00:57,460 --> 00:01:10,950
-Search by course or school, then filter by city, field, level and budget.
+00:01:04,180 --> 00:01:18,440
+Pick your OSHC provider – insurance is recalculated. Enter your IELTS/PTE score to check English requirements.
 
 7
-00:01:11,550 --> 00:01:22,280
-Sort by cheapest; the green label marks the cheapest option.
+00:01:19,040 --> 00:01:29,870
+Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
 
 8
-00:01:22,880 --> 00:01:39,180
-Click "Rincian biaya" to see the full cost breakdown and total starting funds.
+00:01:30,470 --> 00:01:46,480
+Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
 
 9
-00:01:39,780 --> 00:01:49,050
-Read the notes, download a PDF for your parents, or tick "Compare".
+00:01:47,080 --> 00:01:57,740
+Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
 
 10
-00:01:49,650 --> 00:01:59,160
-Select two or more courses and click "Compare" to see all costs side by side.
+00:01:58,340 --> 00:02:10,300
+Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
 
 11
-00:01:59,760 --> 00:02:05,980
-"Download hasil (PDF)" saves all the results you see.
+00:02:10,900 --> 00:02:22,400
+Download a PDF or send it to WhatsApp; Start your application and Ask a TEG consultant are on every card.
 
 12
-00:02:06,580 --> 00:02:12,750
-The ELICOS tab shows weekly English course fees.
+00:02:23,000 --> 00:02:34,360
+Tick Compare on two or more programmes, then click Compare selected programmes.
 
 13
-00:02:13,350 --> 00:02:23,940
-Pathway packages: VET at one school, then a Bachelor at another.
+00:02:34,960 --> 00:02:43,840
+Save all search results at once as a PDF, or send the list to WhatsApp.
 
 14
-00:02:24,540 --> 00:02:40,260
-VSA English lessons: Basic English from Rp1,100,000/month; PTE Foundation from Rp1,800,000/month.
+00:02:44,440 --> 00:02:56,440
+English (ELICOS) shows weekly course fees; a TEG consultant calculates the upfront cost for your number of weeks.
 
 15
-00:02:40,860 --> 00:02:53,680
-IELTS/PTE Preparation: online from Rp2,550,000, offline from Rp3,300,000 (30 hours).
+00:02:57,040 --> 00:03:06,330
+Pathway packages: VET at one school, then a Bachelor at another; each school issues its own CoE.
 
 16
-00:02:54,280 --> 00:03:03,120
-Free mock test, placement test and consultation – click the chat button or scan the QR.
+00:03:06,930 --> 00:03:14,110
+Other schools links to the official CRICOS directory to check registered schools.
 
 17
-00:03:03,720 --> 00:03:17,140
+00:03:14,710 --> 00:03:34,970
+English courses (VSA): Basic English, PTE Foundation and IELTS/PTE Preparation, online and offline, priced in IDR.
+
+18
+00:03:35,570 --> 00:03:51,010
+Jobs & Accommodation: jobs checked daily, official visa work-hour rules and accommodation providers. Never pay to get a job.
+
+19
+00:03:51,610 --> 00:04:08,440
+Start your application: document checklist, process steps and the Student Information Form (PDF/Excel).
+
+20
+00:04:09,040 --> 00:04:21,550
+Install the Talented app on your phone or tablet – see the separate how-to video.
+
+21
+00:04:22,150 --> 00:04:36,390
 All prices are estimates; final amounts follow the school's official offer letter.

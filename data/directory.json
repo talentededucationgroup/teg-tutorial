@@ -2035,7 +2035,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "owner list; Yes Education partners"
+   "source": "TEG list; TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2061,7 +2061,7 @@
    "focus_it": "Gestore di residenze studentesche in più città",
    "focus_nl": "Aanbieder van studentenhuisvesting in meerdere steden",
    "focus_ru": "Оператор студенческого жилья в нескольких городах",
-   "source": "owner list; Yes Education partners"
+   "source": "TEG list; TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2087,7 +2087,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "owner list; Yes Education partners"
+   "source": "TEG list; TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2321,7 +2321,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2347,7 +2347,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2373,7 +2373,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2399,7 +2399,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2425,7 +2425,7 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "Australia",
@@ -2451,7 +2451,7 @@
    "focus_it": "Homestay in Australia e Nuova Zelanda",
    "focus_nl": "Gastgezinnen in Australië en Nieuw-Zeeland",
    "focus_ru": "Проживание в семьях в Австралии и Новой Зеландии",
-   "source": "Yes Education partners"
+   "source": "TEG accommodation partner"
   },
   {
    "country": "New Zealand",

@@ -21,7 +21,7 @@ def sector(c):
     return 'Other'
 locs=collections.defaultdict(set)
 for r in cl: locs[r['CRICOS Course Code']].add((r['Location City'].title(), r['Location State']))
-# Yes Education partner flags from research
+# partner flags (internal research list)
 yes=set()
 for f in glob.glob('/home/claude/yes/results/*.json'):
     for r in json.load(open(f)):
@@ -36,7 +36,7 @@ for i in inst:
     if w and not w.startswith('http'): w='https://'+w
     prov[code]={'code':code,'name':i['Institution Name'].strip(),'trading_name':i['Trading Name'].strip(),'type':i['Institution Type'],
                 'website':w,'capacity':i['Institution Capacity'],'courses':0,'sectors':set(),'states':set(),'cities':set(),
-                'yes_partner':code in yes,'min_total':None}
+                'teg_partner':code in yes,'min_total':None}
 bycode=collections.defaultdict(list)
 for c in courses:
     if c['Expired']!='No': continue
@@ -69,7 +69,7 @@ idx={'source':'CRICOS Provider Export (Department of Education, Australian Gover
      'counts':{'providers':len(plist),'courses':sum(p['courses'] for p in plist)},
      'providers':plist}
 json.dump(idx,open(f'{OUT}/cricos.json','w'),ensure_ascii=False,separators=(',',':'))
-print(idx['counts'], 'yes partners flagged', sum(p['yes_partner'] for p in plist), 'idx KB', os.path.getsize(f'{OUT}/cricos.json')//1024)
+print(idx['counts'], 'teg partners flagged', sum(p['teg_partner'] for p in plist), 'idx KB', os.path.getsize(f'{OUT}/cricos.json')//1024)
 L={
 'th':("ราคาทางการจาก CRICOS (โดยประมาณ) - ไม่ใช่ใบเสนอราคาของ TEG; เงินชำระล่วงหน้าและกำหนดการชำระเป็นไปตาม offer letter ติดต่อที่ปรึกษา TEG เพื่อขอใบเสนอราคา","การลงทะเบียน CRICOS เป็นเงื่อนไขพื้นฐานของวีซ่านักเรียน ไม่ใช่การรับประกันวีซ่า"),
 'vi':("Giá chính thức theo CRICOS (tham khảo) - không phải báo giá của TEG; khoản trả trước và lịch thanh toán theo offer letter. Liên hệ tư vấn viên TEG để nhận báo giá.","Đăng ký CRICOS đáp ứng điều kiện cơ bản của visa du học, không phải là bảo đảm visa."),

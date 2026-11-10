@@ -1,0 +1,74 @@
+{
+ "runs": [
+  {
+   "time": "2026-11-10T21:43:57+07:00",
+   "result": "gagal",
+   "failed": [
+    {
+     "city": "Sydney",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Melbourne",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Brisbane",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Perth",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Adelaide",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Hobart",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Darwin",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Canberra",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Gold Coast",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Auckland",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Hamilton",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Wellington",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Palmerston North",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Dunedin",
+     "error": "HTTPError"
+    },
+    {
+     "city": "Invercargill",
+     "error": "HTTPError"
+    },
+    {
+     "city": "New Plymouth",
+     "error": "HTTPError"
+    }
+   ]
+  }
+ ]
+}

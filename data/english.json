@@ -1,0 +1,5128 @@
+{
+ "title": "Syarat Bahasa Inggris (IELTS/PTE) - Sekolah Partner TEG",
+ "version": "2026-11-10",
+ "updated_at": "2026-11-10T15:00:00+07:00",
+ "count": 159,
+ "counts": {
+  "Terverifikasi": 82,
+  "Sebagian": 57,
+  "Belum ditemukan": 20
+ },
+ "disclaimer": "Ringkasan dari sumber resmi sekolah. Syarat bisa berbeda per kampus/intake dan bisa berubah; keputusan akhir mengikuti sekolah. Skor tes berlaku 2 tahun untuk visa.",
+ "fallback_text": "Syarat bahasa Inggris sekolah belum tercantum - pakai syarat minimum umum dan konfirmasi ke konsultan TEG.",
+ "general": {
+  "australia_visa_500": {
+   "source": "Home Affairs (via ringkasan VisaChief), dicek 2026-11-10 - cek ulang immi.homeaffairs.gov.au",
+   "rows": [
+    {
+     "kondisi": "Tanpa ELICOS",
+     "ielts": "6.0",
+     "pte_mulai_7_agu_2025": "47",
+     "pte_sebelum": "50"
+    },
+    {
+     "kondisi": "+ ELICOS minimal 10 minggu",
+     "ielts": "5.5",
+     "pte_mulai_7_agu_2025": "39",
+     "pte_sebelum": "42"
+    },
+    {
+     "kondisi": "+ ELICOS minimal 20 minggu",
+     "ielts": "5.0",
+     "pte_mulai_7_agu_2025": "31",
+     "pte_sebelum": "36"
+    }
+   ]
+  },
+  "new_zealand_nzqa": {
+   "source": "NZQA Programme Approval, Recognition and Accreditation Rules 2026 (via dokumen Whitecliffe 2026)",
+   "rows": [
+    {
+     "level": "Level 4-5",
+     "ielts": "5.5 (tidak ada band < 5.0)",
+     "pte": "42 (tidak ada band < 36)"
+    },
+    {
+     "level": "Level 6-7",
+     "ielts": "6.0 (tidak ada band < 5.5)",
+     "pte": "50 (tidak ada band < 42)"
+    },
+    {
+     "level": "Level 8+",
+     "ielts": "6.5 (tidak ada band < 6.0)",
+     "pte": "58 (tidak ada band < 50)"
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "key": "ABBEY COLLEGE AUSTRALIA",
+   "pricelist_name": "Abbey College Australia",
+   "official_name": "Logic Entity Australia Pty Ltd t/a Abbey College Australia",
+   "cricos_code": "02658G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "Or pass Abbey College entry test (business/IT/marketing); Cert III Painting & Decorating also Upper-Intermediate English level; PTE equivalent not stated in guide (comparison chart image on Essential Information page not readable)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "Or pass Abbey College entry test; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning); or Abbey entry test"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Community Services courses (CHC33021, CHC43121, CHC43015, CHC52025)",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Must demonstrate IELTS 6.0 (no entry-test alternative listed)"
+    },
+    {
+     "course": "PSP60822 Advanced Diploma of Translating / PSP50922 Diploma of Interpreting",
+     "ielts": "6.0",
+     "pte": "",
+     "notes": "Translating: or recognised degree/diploma from English-speaking country"
+    }
+   ],
+   "elicos_pathway": "Guide mentions progression from ELICOS language schools (Alpha English) to vocational courses; no specific weeks/levels stated.",
+   "source_url": "https://abbeycollege.edu.au/wp-content/uploads/2026/03/Abbey-Brochure-version-3.3-Jul.-2025-26-1.pdf",
+   "document": "Abbey College Australia Course Guide 2026-2027 - Version 1.2, March 2026 (file name says version 3.3 Jul 2025-26)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ABM FURTHER EDUCATION",
+   "pricelist_name": "ABM Further Education",
+   "official_name": "ABM Further Education",
+   "cricos_code": "03826M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "51.6 (Listening 48.1, Reading 53.5, Speaking 46.2, Writing 62.2)",
+     "notes": "General rule for all courses; test within 2 years; alternatives: 5 yrs education in English-speaking country, 6 months of Cert IV+ at Australian RTO, or ABM English Placement Test; TOEFL accepted if equivalent (score not stated)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "51.6 (Listening 48.1, Reading 53.5, Speaking 46.2, Writing 62.2)",
+     "notes": "same general rule"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "HLT33115 Certificate III in Health Services Assistance",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "students with IELTS 5.0 or equivalent via ABM EPT enrol with Plus Nursing English"
+    }
+   ],
+   "elicos_pathway": "ELICOS partner exit levels accepted: ELC (EAP2 / GE Advanced C1), ECA/ELSIS (EAP1 Grade A / GE Upper-Int), English Unlimited, Greenwich (EVS Pass/Credit, EAP Pass, B2 First 60%+), ILSC (Intermediate 4), La Lingua (Upper-Int 1), Navitas English (AE3 60%, no skill below 55%), UEC (Advanced cert; AEP2 A; AEP3 B).",
+   "source_url": "https://abm.edu.au/course-entry-requirement",
+   "document": "Entry Requirements for ABM Courses",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ACADEMIA OF TRADE",
+   "pricelist_name": "Academia of Trade",
+   "official_name": "Academia of Trade",
+   "cricos_code": "03940J",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "'or equivalent' - PTE not stated; LLND assessment required"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Per homepage FAQ ('generally'); varies by course"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://academi.edu.au/courses/cpc33020",
+   "document": "CPC33020 course page; homepage FAQ",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ACADEMIES AUSTRALASIA",
+   "pricelist_name": "Academies Australasia (ACA)",
+   "official_name": "Academies Australasia Group Limited (colleges incl. Academies Australasia Institute CRICOS 02398A, Australian College of Technology 02408D, Clarendon Business College 01953J, Supreme Business College 02028E, Skills Training Australasia 03521F, Academies Australasia Hairdressing and Beauty 03319G)",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "39 (tests on/after 06/08/2025); 45 before",
+     "notes": "VET; also TOEFL iBT 51, DET 95, Cambridge 162; or AOE/DE/LLI Upper Intermediate exit; test within 2 years; course brochure states IELTS 5.5 (no band below 5.0)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "39 (on/after 06/08/2025); 45 before",
+     "notes": "Same VET table"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 overall",
+     "pte": "47 (on/after 06/08/2025); 52 before",
+     "notes": "Or AOE/DE/LLI Advanced I / EAP"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 overall",
+     "pte": "55 (on/after 06/08/2025); 58 before",
+     "notes": "Or Advanced II / EAP"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Certificate III / Diploma of Early Childhood Education and Care",
+     "ielts": "5.5 (no band below 5.0) or equivalent",
+     "pte": "",
+     "notes": "Course brochure 'recommended English level'; delivered by Supreme Business College"
+    }
+   ],
+   "elicos_pathway": "If English is insufficient a suitable English course can be organised (ECEC brochure); Academies English exit levels accepted.",
+   "source_url": "https://academies.edu.au/wp-content/uploads/2022/02/ENGLISH-COMPARATIVE-TEST-SCORES.pdf",
+   "document": "English Comparative Overall Test Scores - Last updated May 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ACADEMIS AUSTRALASIA",
+   "pricelist_name": "Academis Australasia",
+   "official_name": "Academies Australasia (group; ELICOS offered by Academy of English)",
+   "cricos_code": "02399M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "ELICOS / English",
+     "ielts": "EAP Upper-Int: Academic IELTS 5.0 (writing 4.5); EAP Advanced: 5.5 (writing 5.0)",
+     "pte": "",
+     "notes": "Academy of English Sydney; General English Intermediate IELTS 4.5, Advanced 5.5; or AOE placement"
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (min 5.0 each band)",
+     "pte": "51 (min 41 each section)",
+     "notes": "page labels 'Vocational'; 6.0 is 'recommended' with minimum 5.0 per band"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (min 5.0 each band)",
+     "pte": "51 (min 41 each section)",
+     "notes": "'Vocational'"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (min 5.5 each band)",
+     "pte": "51 (min 46 each section)",
+     "notes": "except Bachelor of IT"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (min 6.0 each band)",
+     "pte": "58 (min 51 each section)",
+     "notes": ""
+    },
+    {
+     "level": "Other",
+     "ielts": "5.0 (min 4.5 each band)",
+     "pte": "41 (min 30)",
+     "notes": "unlabelled block, likely High School"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Information Technology",
+     "ielts": "6.0 (min 6.0 each band)",
+     "pte": "51 (min 51 each section)",
+     "notes": ""
+    }
+   ],
+   "elicos_pathway": "If English is below the required level, a suitable English course can be arranged",
+   "source_url": "https://academies.edu.au/?p=1329",
+   "document": "How to Enrol - Academies Australasia",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ACADEMY OF INTERACTIVE TECHNOLOGY",
+   "pricelist_name": "Academy of Interactive Technology (AIT)",
+   "official_name": "Academy of Interactive Technology (AIT)",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no subtest below 5.5)",
+     "pte": "50 overall",
+     "notes": "Undergraduate (all courses) per UAC; TOEFL iBT 60; results within 2 years; IELTS/PTE online not accepted. Also applies to International Year 12 applicants"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://uac.edu.au/institutions/academy-of-interactive-technology/english-language-proficiency",
+   "document": "Academy of Interactive Technology - English language proficiency (UAC)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ADELAIDE UNIVERSITY YY",
+   "pricelist_name": "Adelaide University - YY",
+   "official_name": "Adelaide University",
+   "cricos_code": "04249J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "Standard requirement for most programs; PTE band sub-scores not stated on page (equivalency table maps IELTS 6.5 = PTE 64 overall)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "Standard; page does not separate UG/PG; check degree pages"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "Standard"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Language-rich disciplines (Education, Language & Literature, Communication & Media, Philosophy & Religious Studies)",
+     "ielts": "7.0 (no band below 6.5)",
+     "pte": "",
+     "notes": "PTE overall equivalence 72 per table; sub-scores not stated"
+    },
+    {
+     "course": "Nursing and Midwifery (Bachelor and Graduate Entry Master)",
+     "ielts": "7.0 (L,R,S 7.0; W 6.5)",
+     "pte": "66 (L,R,W 66; Speaking 76)",
+     "notes": "test valid 12 months; OET accepted"
+    }
+   ],
+   "elicos_pathway": "English Language Centre offers packaged ELICOS programs for students not meeting requirements",
+   "source_url": "https://adelaide.edu.au/study/international-students/how-to-apply/entry-requirements/english-language-proficiency/",
+   "document": "English language proficiency - Adelaide University - Last modified 2026-09-22",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AIBI HIGHER EDUCATION",
+   "pricelist_name": "AIBI higher Education",
+   "official_name": "Australian Institute of Business Intelligence Pty Ltd t/a AIBI Higher Education",
+   "cricos_code": "03844J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "52 (no band below 50)",
+     "notes": "e.g. Bachelor of Business (CRICOS 0102178)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.0 (Speaking & Writing min 6.0; Reading & Listening min 5.5)",
+     "pte": "",
+     "notes": "MBA (Digital Transformation); PTE accepted as equivalent but score not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://aibi.edu.au/bachelor-of-business/",
+   "document": "Bachelor of Business - AIBI Higher Education",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AISCE",
+   "pricelist_name": "AISCE (Australian International College of Skill & Education)",
+   "official_name": "Australian International College of Skills and Education (AICSE)",
+   "cricos_code": "03985G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50",
+     "notes": "or TOEFL iBT 60, CAE 169, OET C, Duolingo 95, GE Advanced, MOI, Aus Cert III+, 5 yrs English study"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50",
+     "notes": "general handbook requirement, not per course"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://aicse.edu.au/wp-content/uploads/2026/10/AICSE-HANDBOOK-V2.1.pdf",
+   "document": "AICSE Student Handbook 2026-27 (V2.1) - 2026-27 (uploaded Oct 2026)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALBRIGHT INSTITUTE",
+   "pricelist_name": "Albright Institute",
+   "official_name": "ANIT Australia Pty Ltd T/A Albright Institute of Business and Language and Albright Institute of English",
+   "cricos_code": "03553J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.0 (Cert III Carpentry, Wall & Floor Tiling, Commercial Cookery); 5.5 (Cert IV Kitchen Management)",
+     "pte": "36 (Cert III); 42 (Cert IV)",
+     "notes": "or Cambridge 154/162, TOEFL iBT 36/46 or equivalent; or 10 weeks General English Upper-Intermediate within last 3 yrs"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5",
+     "pte": "42",
+     "notes": "or Cambridge 162, TOEFL iBT 46; or 10 weeks GE Upper-Intermediate"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "5.5",
+     "pte": "42",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning)"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "VET courses can be combined with ELICOS; min 10 weeks General English Upper-Intermediate accepted",
+   "source_url": "https://albrightinstitute.edu.au/wp-content/uploads/2026/01/DOC-04-Albright-Institute-VET-Brochure-V10.0.pdf",
+   "document": "DOC-04 Albright Institute VET Brochure V10.0 - V10.0 (uploaded 2026-01)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALBURY COLLEGE",
+   "pricelist_name": "Albury College",
+   "official_name": "Albury College",
+   "cricos_code": "03587K (Study Australia, per prior attempt)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALIANCE COLLEGE AIG",
+   "pricelist_name": "Aliance College - AIG",
+   "official_name": "Alliance College",
+   "cricos_code": "01774A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "'Most courses, except ELICOS' require IELTS 6.0 overall; TOEFL iBT 64, CAE 169, OET B each, Duolingo 105; waiver for Australian senior secondary/AQF4+ study within 2 years"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "Same general rule; Diploma of Business course page lists only LLN Core Skills Profile"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "General FAQ rule; Graduate Diploma of Management (Learning) course page lists only LLN"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Recognised ELICOS equivalents to IELTS 6.0: ILSC Intermediate 4 + 12 wks; International House Sydney EAP1 80%/EAP2 50%/CAE/CPE/GE Advanced; Greenwich College FCE/CAE prep 12 wks, IELTS prep 24 wks, EVS Credit, EAP Pass (completed within 3 years).",
+   "source_url": "https://alliancecollege.edu.au/faqs/",
+   "document": "Alliance College FAQs - English Language Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALICE SPRINGS COLLEGE",
+   "pricelist_name": "ALICE SPRINGS COLLEGE (ASCA)",
+   "official_name": "Alice Springs College of Australia Pty Ltd",
+   "cricos_code": "04021G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "Cert III Carpentry page: 'such as IELTS 6.0 overall or equivalent, where applicable'; PTE equivalent not stated; LLN test and PTR required"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0+ overall",
+     "pte": "",
+     "notes": "Diploma of Hospitality Management page; PTE/TOEFL accepted if equivalent to IELTS 6+ - PTE equivalent not stated; results within 2 years; alternatives: 5 yrs education in English-speaking country or English Placement Test"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://asca.edu.au/courses/diploma-of-hospitality-management",
+   "document": "ASCA course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALLIED INSTITUTE",
+   "pricelist_name": "Allied Institute",
+   "official_name": "Pace Business College Pty Ltd t/a Allied Institute",
+   "cricos_code": "04046J",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "",
+     "notes": "'or its equivalent' within 2 yrs - PTE not stated; ELICOS Upper-Intermediate completion and other exemptions accepted"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "",
+     "notes": "Same for Diploma of Community Services and Diploma of Early Childhood Education and Care"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 + 10 weeks ELICOS, or IELTS 5.0 + 20 weeks ELICOS",
+   "source_url": "https://allied.edu.au/courses/diploma-early-childhood-education-care",
+   "document": "Diploma of Early Childhood Education and Care course page; Allied Course Brochure - Brochure release 06 Jan 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALPHA COLLEGE",
+   "pricelist_name": "Alpha College",
+   "official_name": "Alpha College of Australia",
+   "cricos_code": "03852J",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://alpha.edu.au/wp-content/uploads/2025/08/Student-Enrolment-and-Completion-Policy-v2.0.pdf",
+   "document": "Student Enrolment and Completion Policy v2.0; International Student Application Form V2.3; International Student Handbook v5.1 - Policy updated 01/07/2025; form Dec 2023",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ALTEC COLLEGE",
+   "pricelist_name": "ALTEC College",
+   "official_name": "Pass Global Pty Ltd t/a ALTEC College",
+   "cricos_code": "02926D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 (no sub-score below 5.0)",
+     "pte": "",
+     "notes": "General admission standard (IELTS Academic); PTE not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no sub-score below 5.0)",
+     "pte": "",
+     "notes": "General admission standard"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (5.5 in each band)",
+     "pte": "",
+     "notes": "BSB80320 Graduate Diploma of Strategic Leadership: 'or other equivalent test scores'; or completed AQF 6"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.altec.edu.au/admission-2/",
+   "document": "ALTEC Admission page; BSB80320 course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AMERICAN COLLEGE",
+   "pricelist_name": "American College",
+   "official_name": "International Institute of Management Pty Ltd t/a American College",
+   "cricos_code": "03149K",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent (p.5); IELTS Academic 5.5 (p.13 checklist)",
+     "pte": "43-50 or equivalent (PTE Academic)",
+     "notes": "Handbook internally inconsistent (6.0 vs 5.5); exemptions: 5 yrs education in English-speaking country, 6 months Cert IV at Australian RTO, high school in English, AC English Placement Test; LLN test at enrolment"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent (p.5); IELTS Academic 5.5 (p.13)",
+     "pte": "43-50 or equivalent",
+     "notes": "Same general requirement"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://americancollege.edu.au/wp-content/uploads/2025/05/AC-Student-Handbook-_V1.2-Aug-2024.pdf",
+   "document": "International Student Handbook (AC Student Handbook V1.2) - V1.2, August 2024",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ANALYTICS INTITUTE OF AUSTRALIA",
+   "pricelist_name": "Analytics Intitute of Australia (AIA)",
+   "official_name": "Analytics Institute of Australia Pty Ltd (t/a Analytics Institute of Australia)",
+   "cricos_code": "04059D (TEQSA)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "APEIRO INSTITUTE",
+   "pricelist_name": "Apeiro Institute",
+   "official_name": "Apeiro Institute",
+   "cricos_code": "03703M",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "IELTS Academic 6.0 or equivalent (e.g. AUR40226); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "IELTS Academic 6.0 or equivalent (e.g. BSB50120); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://apeiro.edu.au/courses/business/bsb50120/",
+   "document": "BSB50120 Diploma of Business - Apeiro Institute",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "APIC YY",
+   "pricelist_name": "APIC (Asian Pacific International College) - YY",
+   "official_name": "Asia Pacific International College Pty Ltd (APIC)",
+   "cricos_code": "03048D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 Academic (writing & speaking min 5.0)",
+     "pte": "50 (writing & speaking 42)",
+     "notes": "TOEFL iBT 65; CAE/CPE 169"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 Academic (writing & speaking min 5.5)",
+     "pte": "50 (writing & speaking 42)",
+     "notes": "TOEFL iBT 65; CAE/CPE 169"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "Grad Cert: 6.0 (no band below 5.5); Grad Dip: 6.5 (writing & speaking min 6.0)",
+     "pte": "Grad Cert: 50 (W&S 42); Grad Dip: 58 (W&S 50)",
+     "notes": "Grad Cert also accepts EAP 2 Upper-Intermediate 'A' grade"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 Academic (writing & speaking min 6.0)",
+     "pte": "58 (writing & speaking 50)",
+     "notes": "TOEFL iBT 79"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Conditional offer possible requiring completion of an approved intensive English course before commencement",
+   "source_url": "https://cdn.prod.website-files.com/6a44d370149878dc8cc91c5b/6abf8902a923871162488cc0_QF006-Admission-Policy.pdf",
+   "document": "QF006 Admissions Policy - Version 2.8, approved 20 June 2025",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AROHA COLLEGE",
+   "pricelist_name": "Aroha College",
+   "official_name": "Aroha College Pty Ltd",
+   "cricos_code": "04377A",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 equivalent",
+     "pte": "",
+     "notes": "'Entry Requirements may include': PTE and TOEFL accepted if equivalent to IELTS 6.0; PTE score not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 equivalent",
+     "pte": "",
+     "notes": "Same general statement (Diploma of Community Services)"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.arohacollege.edu.au/eligibility-to-study-in-australia/",
+   "document": "Eligibility to Study in Australia - Aroha College",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ASTRA INSTITUTE OF HIGHER EDUCATION",
+   "pricelist_name": "Astra Institute of Higher Education",
+   "official_name": "Astra Group Australia Pty Ltd t/a Astra Institute of Higher Education",
+   "cricos_code": "04231H",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Business (CRICOS 115321E)",
+     "ielts": "",
+     "pte": "",
+     "notes": "Good Universities Guide shows academic entry (ATAR 65 or equivalent, Cert IV+, GCE A-levels 3 C grades, GAC 65%, IB) but no English score"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN AGRIBUSINESS INSTITUTE",
+   "pricelist_name": "Australian Agribusiness Institute (Leaders Institute)",
+   "official_name": "Leaders Institute Pty Ltd t/a Leaders Institute, Australian Agribusiness Institute, Australian Business Institute",
+   "cricos_code": "03732F",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Diploma of Business; or equivalent, PTE equivalent not stated"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Bachelor of Agribusiness; or equivalent, PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "Graduate Diploma in Agribusiness; or equivalent, PTE equivalent not stated"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "MBA; or equivalent, PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://leaders.edu.au/courses/bachelor-of-agribusiness/",
+   "document": "Bachelor of Agribusiness - Leaders Institute",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN BUSINESS AND CULINARY INSITUTE",
+   "pricelist_name": "Australian Business and Culinary Insitute (ABCI)",
+   "official_name": "Australian Business and Culinary Institute (ABCI)",
+   "cricos_code": "03742D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0",
+     "pte": "52-57",
+     "notes": "or Certificate III in EAL, or ABCI English Level Test (Cert III Commercial Cookery page)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0",
+     "pte": "52-57",
+     "notes": "same wording (Diploma of Hospitality Management page)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0",
+     "pte": "52-57",
+     "notes": "Graduate Diploma of Management (Learning) page"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.abcinstitute.edu.au/diploma-of-hospitality-management/",
+   "document": "Diploma of Hospitality Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN BUSINESS INSTITUTE",
+   "pricelist_name": "Australian Business Institute (Leaders Institute)",
+   "official_name": "Leaders Institute Pty Ltd (trading as Leaders Institute, Australian Business Institute, Australian Agribusiness Institute)",
+   "cricos_code": "03732F",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Diploma of Business / Diploma of Commerce; 'or equivalent', PTE equivalent not stated; test within 2 years"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Bachelor of Accounting; or equivalent, PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Graduate Certificate in Management; PTE equivalent not stated; other grad cert/dip not checked"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "MBA; or equivalent, PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://leaders.edu.au/courses/bachelor-of-accounting/",
+   "document": "Leaders Institute course pages - Admission criteria",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN CATHOLIC UNIVERSITY",
+   "pricelist_name": "Australian Catholic University (ACU)",
+   "official_name": "Australian Catholic University",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "ACU English Language Centre / international pathway programs available if below minimum (ACU English Test grades accepted: C=IELTS 6.0, C+ = 6.0 each band, B=6.5, A=7.0)",
+   "source_url": "https://www.acu.edu.au/study-at-acu/how-to-apply/international-students/english-language-requirements",
+   "document": "English language requirements (ACU concordance table); International Summary Course Guide 2027 - Course guide disclaimer July 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN COLLEGE OF INTERNATIONAL STUDIES",
+   "pricelist_name": "Australian College Of International Studies (ACIS)",
+   "official_name": "Australian College of International Studies (ACIS)",
+   "cricos_code": "03781G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "Cert IV Business: 'IELTS 5.5 or equivalent'; Cert III Individual Support / Cert IV Ageing & Disability: IELTS 5.5 or equivalent direct entry; PTE not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall (Adv Dip L&M: no band below 5.0)",
+     "pte": "",
+     "notes": "BSB50420 'IELTS 5.5 or equivalent'; BSB60420 5.5 (min 5.0); College English Placement Test at Upper-Intermediate accepted"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Certificate IV / Diploma of Marketing and Communication (BSB40820/BSB50620)",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42",
+     "notes": "CAE 162; TOEFL PBT 527 / iBT 78. Not higher, but only courses with PTE stated"
+    }
+   ],
+   "elicos_pathway": "Support services courses: IELTS 5.0 + up to 10 weeks ELICOS, or IELTS 4.5 + up to 20 weeks ELICOS",
+   "source_url": "https://acis.edu.au/wp-content/uploads/2026/04/ACIS-Brochure-2026.pdf",
+   "document": "ACIS Brochure 2026 - Uploaded 2026-04",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN COLLEGE OF PROFESSIONAL CAREERS",
+   "pricelist_name": "Australian College of Professional Careers (ACPC)",
+   "official_name": "Australian College of Professional Careers",
+   "cricos_code": "03834M (third-party; unverified)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN DATA CYBER INSTITUTE",
+   "pricelist_name": "Australian Data & Cyber Institute",
+   "official_name": "Australian Data and Cyber Institute (ADCI)",
+   "cricos_code": "04102F",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "50-57 overall (Listening 47, Reading 48, Writing 51, Speaking 54)",
+     "notes": "Bachelor of Cyber Security, Bachelor of Data Science; TOEFL iBT 64 (17 each); Cambridge C1 L163 R163 W170 S179"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://adci.edu.au/future-students/entry-requirements/",
+   "document": "Entry Requirements - ADCI; Course Prospectus 2026/2027 - Prospectus 2026/2027",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN GLOBAL INSTITUTE",
+   "pricelist_name": "Australian Global institute (AGI)",
+   "official_name": "Australian Global Institute",
+   "cricos_code": "03784E",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "IELTS Academic or General; other recognised tests may be accepted subject to assessment; PTE equivalent not stated; may vary by course"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Same baseline"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Applicants below minimum may complete an English program with an approved ELICOS provider before main course.",
+   "source_url": "https://agi.edu.au/entry-requirements/",
+   "document": "Entry Requirements - Australian Global Institute",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN HARBOUR INTERNATIONAL COLLEGE",
+   "pricelist_name": "Australian Harbour International College (AHIC)",
+   "official_name": "Australian Harbour International College",
+   "cricos_code": "03449J",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall, no band less than 5.0",
+     "pte": "",
+     "notes": "AGGREGATOR ONLY (courses.com.au listing for Advanced Diploma of Information Technology ICT60220): 'IELTS 5.5 overall, no less than 5.0; other tests such as PTE and TOEFL can be accepted' - equivalence to IELTS 5.5 confirmed by college; PTE equivalent not stated. Not verified on official site."
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "AHIC offers General English (116866H) and EAP Levels 1-2 (116867G) per official International Student Handbook V.18.",
+   "source_url": "https://courses.com.au/provider-course/advanced-diploma-of-information-technology-australian-harbour-international-college",
+   "document": "courses.com.au provider-course listing (aggregator, not official) - not stated",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN IDEAL COLLEGE",
+   "pricelist_name": "Australian Ideal College (AIC)",
+   "official_name": "Australian Ideal College (AIC)",
+   "cricos_code": "03053G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50 (test before 6 Aug 2025) / 47 (test after 7 Aug 2025)",
+     "notes": "or equivalent; e.g. BSB30120 Cert III Business; Year 10 or equivalent academic entry"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 (test before 6 Aug 2025) / 47 (test after 7 Aug 2025)",
+     "notes": "or equivalent; e.g. BSB50420 Diploma of Leadership and Management"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 (test before 6 Aug 2025) / 47 (test after 7 Aug 2025)",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning); or successful completion of Certificate IV in Australia, or equivalent"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Not explicitly stated on course pages; VET handbook says applicants without English evidence sit an AIC English test before enrolment and may be referred to EAP at AIC's ELICOS division.",
+   "source_url": "https://aic.edu.au/business-courses/diploma-of-leadership-and-management/",
+   "document": "AIC course pages (Entry Requirements section)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN IINSTITUTE OF ADVANCED TECHNOLOGIES",
+   "pricelist_name": "Australian Iinstitute of Advanced Technologies (AIAT)",
+   "official_name": "SSR Higher Education t/a Australian Institute of Advanced Technologies (AIAT)",
+   "cricos_code": "04191M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "50 (no skill below 42) PTE Academic",
+     "notes": "Bachelor of IT; TOEFL iBT 60 (W 18); CAE 169; or AIAT-approved ELICOS course; or 2+ yrs study in Australia / Australian Year 12; tests within 24 months"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "50 (no skill below 42)",
+     "notes": "Graduate Certificate in Business Administration; AIAT-approved ELICOS course equated to IELTS 6.0"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0) IELTS Academic",
+     "pte": "55 (no skill below 45)",
+     "notes": "Master of Information Technology; TOEFL iBT 79 (W 18); CAE 176; MBA not checked"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of an AIAT-approved English course from a registered ELICOS provider",
+   "source_url": "https://aiat.edu.au/courses/bachelor-of-information-technology/",
+   "document": "AIAT course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN INSTITUTE OF ADVANCED TECHNOLOGIES",
+   "pricelist_name": "Australian Institute Of Advanced Technologies (AIAT)",
+   "official_name": "SSR Higher Education t/a Australian Institute of Advanced Technologies (AIAT)",
+   "cricos_code": "04191M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no skill below 42)",
+     "notes": "Bachelor of IT; also TOEFL iBT 60 (W18), CAE 169; tests within 24 months"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no skill below 42)",
+     "notes": "Graduate Certificate in Business Administration"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "55 (no skill below 45)",
+     "notes": "Master of IT; MBA not checked separately"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of AIAT-approved ELICOS course from registered provider accepted (equivalent to IELTS 6.0 for Grad Cert)",
+   "source_url": "https://aiat.edu.au/courses/bachelor-of-information-technology/",
+   "document": "Bachelor of Information Technology - AIAT",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN INSTITUTE OF DIGITAL TECHNOLOGY",
+   "pricelist_name": "Australian Institute of Digital Technology (AIDT)",
+   "official_name": "Australian Institute of Digital Technology",
+   "cricos_code": "03983J",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'at least IELTS 6.0 or equivalent' + college LLND test (Cookery, Kitchen Mgmt, Carpentry, Painting, Cabinet Making, Building) - PTE not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "IT, Hospitality, Leadership & Management; 'or equivalent'"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning)"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Early Childhood (CHC30121/CHC50121) and Individual/Ageing Support (CHC33021/CHC43015)",
+     "ielts": "",
+     "pte": "",
+     "notes": "No IELTS stated - only college LLND test (Student Guide and course page)"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "https://aidt.edu.au/wp-content/uploads/2026/07/AIDT-StudentGuide22072026.pdf",
+   "document": "AIDT Student Guide - 22 Jul 2026 (from file name)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN INSTITUTE OF HIGHER EDUCATION",
+   "pricelist_name": "Australian Institute Of Higher Education (AIH)",
+   "official_name": "Australian Institute of Higher Education Pty Ltd",
+   "cricos_code": "03147A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no band below 5.0) IELTS Academic",
+     "pte": "42",
+     "notes": "TOEFL iBT 46; PTE mapped by AQF level 5 per policy Appendix 2; test within 2 yrs"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "50",
+     "notes": "Incl. Associate Degree; TOEFL iBT 64; CAE/CPE 169+"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50",
+     "notes": "TOEFL iBT 64"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58",
+     "notes": "TOEFL iBT 79"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Approved EAP program at ELICOS provider under direct entry agreement; conditional offer requires CoE for approved EAP before AIH CoE",
+   "source_url": "https://aih.edu.au/wp-content/uploads/2024/10/ACAHE11-Student-Admission-Policy-and-Procedure-2024.2.pdf",
+   "document": "ACAHE11 Student Admission Policy and Procedure v2024.2; Entry Requirements for International Students - AIH - v2024.2, effective 10 Oct 2024",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN INSTITUTE OF HIGHER EDUCATION AIG",
+   "pricelist_name": "Australian Institute Of Higher Education - AIG (ACHIEVA)",
+   "official_name": "Australian Institute of Higher Education Pty Ltd",
+   "cricos_code": "03147A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 Academic (no band below 5.0)",
+     "pte": "42 (no skill below 36)",
+     "notes": "TOEFL iBT 46, CAE 162, OET C (Appendix 2 AQF5)"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 Academic (no band below 5.5)",
+     "pte": "47 (no skill below 42)",
+     "notes": "incl. Associate Degree; TOEFL iBT 64, CAE 169, OET B"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 Academic (no band below 5.5)",
+     "pte": "47 (no skill below 42)",
+     "notes": "AQF 8 column; Grad Cert in Research: IELTS 6.0 (no band <6.0) / PTE 50 (no skill <50)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 Academic (no band below 6.0)",
+     "pte": "56 (no skill below 47)",
+     "notes": "Appendix 2 AQF9; Master of Research (ICT) clause states PTE 58 (no skill <50)"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Master of Research (ICT)",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no skill below 50)",
+     "notes": "TOEFL iBT 79, CAE 176"
+    }
+   ],
+   "elicos_pathway": "Conditional offer possible; must meet English or provide CoE for approved EAP program before main CoE; approved ELICOS EAP under direct entry agreement accepted",
+   "source_url": "https://aih.edu.au/wp-content/uploads/2026/08/ACAHE11-Student-Admission-Policy-and-Procedure-2026.2.pdf",
+   "document": "ACAHE11 Student Admission Policy and Procedure - Version 2026.2, approved 21 July 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN SKILL MANAGEMENT INSTITUTE",
+   "pricelist_name": "Australian Skill Management Institute (ASMI)",
+   "official_name": "Australian Skills Management Institute (ASMI) / ASMI Training (copyright: Australian Hospitality Skills Recognition Pty Ltd)",
+   "cricos_code": "03442E",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://asmitraining.edu.au/courses/bsb50420-diploma-of-leadership-and-management/",
+   "document": "ASMI course pages - Entry Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN SOVEREIGN COLLEGE",
+   "pricelist_name": "Australian Sovereign College",
+   "official_name": "Australian Sovereign College (AuSC)",
+   "cricos_code": "03907K",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "PTE/TOEFL accepted if equivalent to IELTS 6.0 (PTE score not stated); test no more than 2 years old; alternatives: 5 yrs education in English-speaking country, 6 months Cert IV at Australian RTO, or AuSC English Placement Test"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Same statement on all course pages incl. Graduate Diploma BSB80120; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "VET Graduate Diploma of Management (Learning) BSB80120; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.ausc.edu.au/course/bsb50420",
+   "document": "Diploma of Leadership and Management (BSB50420) | AuSC Australia | Australian Sovereign College",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUSTRALIAN WORKPLACE SKILL INSTITUTE",
+   "pricelist_name": "Australian Workplace Skill Institute (AWS)",
+   "official_name": "AWS Institute Pty Ltd t/a Australian Workplace Skills Institute",
+   "cricos_code": "03924J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "TOEFL/PTE/Cambridge accepted as equivalent (PTE score not stated); alternatives: Australian ELICOS at upper intermediate, AQF 5+ course in English, AWS placement test >=60/100; exempt: US/UK/NZ/Canada/Ireland nationals"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "Same wording on course pages"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "BSB80120 - no new offers; no commencements on/after 5 Oct 2026"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of an Australian ELICOS course at upper intermediate level accepted.",
+   "source_url": "https://www.aws.edu.au/courses/bsb60420/",
+   "document": "AWS course pages - Entry Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "BAXTER INSTITUTE",
+   "pricelist_name": "Baxter Institute",
+   "official_name": "Baxter Institute",
+   "cricos_code": "02233M (third-party listings; not confirmed from official current source)",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Certificate II-IV (excluding ESL). From Baxter Institute's own Course Guide 2013/14 (p.27) - OUTDATED. PTE equivalent not stated."
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Diploma: IELTS 5.5 or equivalent per Course Guide 2013/14 (outdated). PTE equivalent not stated."
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "2013/14 guide: Certificate III ESL (Further Study) pathway for applicants below IELTS 5.5; current General English course listed by third parties.",
+   "source_url": "https://issuu.com/baxterinstitute/docs/courseguide_15_08_13",
+   "document": "Baxter Institute Course Guide 2013/14 ('Embracing Excellence'), published on Baxter Institute's own Issuu account - 2013/14",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "BE QUALIFIED",
+   "pricelist_name": "Be Qualified",
+   "official_name": "ASTAR Training Institute Pty Ltd t/a Be Qualified (BeQualified)",
+   "cricos_code": "03478D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB50420 page: 'IELTS 6.0 or equivalent or undertake an English Language test prior to enrolment' - PTE not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://bequalified.edu.au/bsb50420-diploma-of-leadership-and-management/",
+   "document": "BSB50420 Diploma of Leadership and Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "BERKELEY BUSINESS INSTITUTE",
+   "pricelist_name": "Berkeley Business Institute (Wellington)",
+   "official_name": "Berkeley Business Institute (BBI) - Wellington Education Group",
+   "cricos_code": "03395G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent (or upper intermediate English)",
+     "pte": "",
+     "notes": "Entry requirements page and course booklet; PTE not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent (or upper intermediate English)",
+     "pte": "",
+     "notes": "Same; incl. ECEC Diploma CHC50125"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning) per booklet"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.berkeley.edu.au/pre-enrolment/entry-requirements/",
+   "document": "Berkeley Business Institute - Entry Requirements; BBI Course Booklet - Booklet Version 13, correct as of April 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CAMBRIDGE COLLEGE",
+   "pricelist_name": "Cambridge College",
+   "official_name": "Cambridge College Australia",
+   "cricos_code": "01796F",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "AUR30620 Cert III Light Vehicle page, 'Entry requirements for NESB Students'; PTE equivalent not stated; no band minimums"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall or equivalent",
+     "pte": "",
+     "notes": "SIT50422 Diploma of Hospitality Management page; PTE equivalent not stated; no band minimums"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Applicants without satisfactory score advised to take ELICOS at an approved provider until reaching IELTS 6.0 equivalent",
+   "source_url": "https://cambridgecollege.edu.au/sit50422-diploma-of-hospitality-management/",
+   "document": "Cambridge College Australia course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CANTERBURY INSTITUTE OF MANAGEMENT AIG",
+   "pricelist_name": "Canterbury Institute Of Management - AIG (ACHIEVA)",
+   "official_name": "Australian Campus Management Pty Ltd trading as Canterbury Institute of Management (CIM)",
+   "cricos_code": "03809A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no band below 42)",
+     "notes": "TOEFL iBT 60; Cambridge 169 (no paper below 162)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no band below 50)",
+     "notes": "Graduate Diploma; TOEFL iBT 80; Cambridge 176 (no paper below 169)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no band below 50)",
+     "notes": "Master/MBA; TOEFL iBT 80; Cambridge 176"
+    },
+    {
+     "level": "Other",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "59 overall",
+     "notes": "Research: Master of Business Research (MBRES); TOEFL iBT 90"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "If test result older than 2 years, applicant may sit an English test run by an Australian ELICOS provider; prior study in English (within 5 years) assessed case by case.",
+   "source_url": "https://ciom.edu.au/wp-content/uploads/2026/05/CIM_Brochure_A4_v03_18-December_International_Web-2.pdf",
+   "document": "CIM International Student Brochure (A4 v03) - Copyright 2025 (file uploaded 2026/05)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CAPITAL COLLEGE",
+   "pricelist_name": "CAPITAL COLLEGE",
+   "official_name": "Australian Capital Group Pty Ltd t/a Capital College",
+   "cricos_code": "03537J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42 (no less than 36 in Reading, Writing, Listening and Speaking)",
+     "notes": "Single VET table for all courses; CAE 165 also accepted; Australian studies in English may meet requirement"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42 (no less than 36 in Reading, Writing, Listening and Speaking)",
+     "notes": "Same VET table"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42 (no less than 36 in Reading, Writing, Listening and Speaking)",
+     "notes": "Same VET table (Graduate Diploma of Strategic Leadership / Management (Learning))"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://capital.edu.au/downloads/course-guides/Capital_College_Prospectus.pdf",
+   "document": "International Student Prospectus & Course Guide - November 2022",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CAPSTONE INSTITUTE OF AUSTRALIA",
+   "pricelist_name": "Capstone Institute of Australia (CIA)",
+   "official_name": "The Ballarat Academy Pty Ltd t/a Capstone Institute of Australia",
+   "cricos_code": "04051A",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'Upper Intermediate (IELTS 6.0 or equivalent)' - PTE equivalent not stated (checked Diploma pages; assumed same wording)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'Upper Intermediate (IELTS 6.0 or equivalent)' - PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://capstone.edu.au/sit50422-diploma-of-hospitality-management/",
+   "document": "Capstone course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CHARLES DARWIN UNIVERSITY TAFE",
+   "pricelist_name": "Charles Darwin University (CDU) - TAFE",
+   "official_name": "Charles Darwin University (CDU TAFE)",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42 (no skill below 36)",
+     "notes": "CDU TAFE international minimum; also CAE 165, TOEFL iBT 46 (writing 21)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "42 (no skill below 36)",
+     "notes": "CDU TAFE international minimum (VET)"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "50 (no score below 50)",
+     "notes": "CDU HE undergraduate (page headed domestic but general course requirement)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no score below 50)",
+     "notes": "CDU HE postgraduate"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Nursing & Midwifery (HE, AHPRA-regulated: WNUR02, WNURA1, WNURE1, WMIDW2, SNNPR2)",
+     "ielts": "7.0 (L/R/S 7.0, W 6.5)",
+     "pte": "63 (L58, R59, S76, W60)",
+     "notes": "Tests valid 12 months; two sittings in 12 months accepted"
+    }
+   ],
+   "elicos_pathway": "CDU ELICOS EAP003 meets undergraduate requirement; EAP004 meets postgraduate",
+   "source_url": "https://www.cdu.edu.au/node/23636",
+   "document": "International TAFE packages | Charles Darwin University; English language proficiency",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CHS YY",
+   "pricelist_name": "CHS (College of Health Sciences) - YY",
+   "official_name": "ECA Higher Education Institute Pty Limited t/a ECA College of Health Sciences (PRV14334)",
+   "cricos_code": "03932J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Master",
+     "ielts": "6.5 (writing and speaking min 6.0) IELTS Academic",
+     "pte": "59 (writing min 63, speaking min 47) PTE Academic",
+     "notes": "Master of Health Management; TOEFL iBT 81 (W/S 19); CAE 176 (W/S 169); CPE 180; EAP 2 grade B; applies if prior study not in English"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (writing and speaking min 6.0) IELTS Academic",
+     "pte": "59 (writing min 63, speaking min 47) PTE Academic",
+     "notes": "Checked Graduate Certificate in Health Management; Grad Dip assumed same tier not checked separately"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "EAP 2 (English for Academic Purposes Level 2) grade B or higher accepted",
+   "source_url": "https://chs.edu.au/course/master-of-health-management/",
+   "document": "ECA College of Health Sciences course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "COLLINS ACADEMY",
+   "pricelist_name": "Collins Academy",
+   "official_name": "Collins Academy Pty Ltd (owned by Laurus Education Holdings)",
+   "cricos_code": "03645E",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (Academic or General)",
+     "pte": "47",
+     "notes": "CELPIP 7, LANGUAGECERT 61, MET 53, OET 1210, TOEFL iBT 67; test within 2 yrs; ELICOS Upper-Intermediate within 2 yrs may waive"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 + 10 weeks ELICOS; IELTS 5.0 + 20 weeks ELICOS",
+   "source_url": "https://collinsacademy.edu.au/courses/diploma-of-project-management",
+   "document": "BSB50820 Diploma of Project Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "COLLINS INSTITUTE OF AUSTRALIA",
+   "pricelist_name": "Collins Institute of Australia",
+   "official_name": "Collins Institute of Australia Pty Ltd t/a Collins Institute of Australia",
+   "cricos_code": "03603D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 General Training or equivalent (Handbook); 5.5 or equivalent (How to Enrol page)",
+     "pte": "",
+     "notes": "Contradiction between sources; PTE not mentioned; alternatives: 5 yrs education in English-speaking country, 6 months Certificate course at Australian RTO, high school in English; conditional offer possible"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 General Training or equivalent (Handbook); 5.5 (How to Enrol)",
+     "pte": "",
+     "notes": "Same general requirement"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://collins.edu.au/wp-content/uploads/2026/04/Student-Hand-Book-V2.2-Updated-25Mar2026.pdf",
+   "document": "Student Handbook SC16.1 - V2.2, updated 25 March 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "COLLINS INTERNATIONAL COLLEGE",
+   "pricelist_name": "Collins International College",
+   "official_name": "Career Solutions Group Pty Ltd The Trustee for Career Solutions Trust t/a Collins International College",
+   "cricos_code": "03887J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50-56 equivalent or above (PTE Academic)",
+     "notes": "BSB40520 Cert IV Leadership; TOEFL iBT 64; alternatives: General English Upper Intermediate, 10725NAT Cert III Spoken & Written English, 5 yrs English-speaking education etc.; else placement test"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50-56 equivalent or above (PTE Academic)",
+     "notes": "SIT50422 Diploma of Hospitality Management; same alternatives"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Satisfactory completion of Collins General English at Upper Intermediate level accepted",
+   "source_url": "https://www.collins.vic.edu.au/courses/sit50422-diploma-of-hospitality-management",
+   "document": "Collins International College course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CONCORD INSTITUTE AIG",
+   "pricelist_name": "Concord Institute - AIG",
+   "official_name": "Concord Institute",
+   "cricos_code": "03970C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "Applies to most courses except ELICOS; also OET B each, CAE 169"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "e.g. Diploma of Community Services (CRICOS 116060B)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "Graduate Diploma of Management (Learning) - general rule"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Other providers' ELICOS stating overall IELTS equivalence accepted (no band minimum); Concord ELICOS available",
+   "source_url": "https://concordinstitute.edu.au/faqs/",
+   "document": "FAQs - Course Entry Requirements - Concord Institute",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "CROWN INSTITUTE OF HIGHER EDUCATION",
+   "pricelist_name": "Crown Institute of Higher Education (CIHE)",
+   "official_name": "Crown Institute of Higher Education Pty Ltd (trading as CIHE Australia)",
+   "cricos_code": "03744B",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Bachelor of IT page: 'or equivalent test such as TOEFL or PTE' - PTE score not stated"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "56 (no communicative skill below 50)",
+     "notes": "PTE stated on MBA page; Master of IT page states IELTS only ('equivalent alternative test'); policy QA25 states 6.5/6.0 for all postgraduate"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "Per admissions policy QA25 (postgraduate); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Master of Teaching (Early Childhood)",
+     "ielts": "7.0 (no band below 6.5)",
+     "pte": "65 (no communicative skill below 58)",
+     "notes": "or recognised equivalency"
+    },
+    {
+     "course": "Bachelor of Early Childhood Education (Birth to 5)",
+     "ielts": "",
+     "pte": "",
+     "notes": "Course page states no English score; likely higher (teaching) - not verified"
+    }
+   ],
+   "elicos_pathway": "Students not meeting English requirements may complete ELICOS (via sister company CIBT) before commencing; no scores/weeks stated",
+   "source_url": "https://www.cihe.edu.au/courses/mba/",
+   "document": "CIHE course pages; Student Selection and Admissions Policy and Procedure (QA25) v2.2 - QA25 v2.2 approved 9 Dec 2022",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "DALTON COLLEGE",
+   "pricelist_name": "Dalton College",
+   "official_name": "Dalton College",
+   "cricos_code": "03450E (third-party oneuedu; unverified)",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "ELICOS / English",
+     "ielts": "3.0 (EAL III) / 4.0 (EAL IV)",
+     "pte": "",
+     "notes": "British Council 'who accepts IELTS' listing only - not school's own document; appears outdated (lists EAL III/IV, not current GE/EAP courses)."
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "4.0 (Cert IV Leadership & Mgmt) / 5.0 (Cert IV Marketing & Communication)",
+     "pte": "",
+     "notes": "British Council listing; outdated course list."
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5",
+     "pte": "",
+     "notes": "British Council listing: Diploma Leadership & Mgmt 5.5, Adv Dip Business 5.5, Adv Dip Marketing & Communication 5.5. Aggregator oneuedu shows Diploma of Business (Leadership) 106566C 'IELTS 6.0 no band below 6.0' - source unclear, not used."
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Offers General English I/II and EAP I/II (ELICOS) per third parties.",
+   "source_url": "https://takeielts.britishcouncil.org/what-is-ielts/who-accepts-ielts/organisations-recognise-ielts/dalton-college",
+   "document": "British Council 'Who accepts IELTS' - Dalton College (third-party, not official) - not stated",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ECA COLLEGE AIG",
+   "pricelist_name": "ECA College - AIG (ACHIEVA)",
+   "official_name": "Education Centre of Australia (ECA) t/a ECA College",
+   "cricos_code": "02644C",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "Diploma of Business BSB50120: IELTS 5.5 or equivalent; ELICOS-VET pathway doc: IELTS 5.5, Upper-Intermediate certificate or ELSIS placement test; PTE equivalent not stated"
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "per ELICOS-VET Pathway doc (VET Cert IV/Diploma/Adv Dip)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Graduate Diploma of Strategic Leadership: IELTS 6.0 or equivalent; or EAP Advanced certificate / ELSIS placement test"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "ELSIS (ECA group) ELICOS: Upper-Intermediate certificate accepted for VET; EAP Advanced for Graduate Diploma",
+   "source_url": "https://www.ecacollege.edu.au/courses/diploma-in-business",
+   "document": "Diploma of Business - ECA College; ELICOS VET Pathway (Decoding Pathways and Higher Education) - Pathway doc updated March 2023",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ETON COLLEGE",
+   "pricelist_name": "Eton College",
+   "official_name": "Eton College Pty Ltd",
+   "cricos_code": "03908J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB40920 Cert IV Project Management Practice; 'Upper-Intermediate level or equivalent to IELTS 6.0 (overall)'; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB50820, BSB60720, ICT50220; Upper-Intermediate or equivalent to IELTS 6.0; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB80120 listed in T&Cs as domestic students only"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://eton.edu.au/terms-and-conditions-of-enrolment/",
+   "document": "Terms and Conditions - International Students / Terms and Conditions of Enrolment",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "EVERTHOUGHT COLLEGE OF CONSTRUCTION",
+   "pricelist_name": "Everthought College of Construction",
+   "official_name": "Everthought College of Construction Pty Ltd",
+   "cricos_code": "02898C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "47 overall",
+     "notes": "TOEFL iBT 67, CELPIP 7, LanguageCert 61, MET 53, OET 1210; ELICOS Upper-Intermediate completion accepted; LLND test required"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "47 overall",
+     "notes": "Same as Certificate courses"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 + 10 weeks ELICOS, or IELTS 5.0 + 20 weeks ELICOS",
+   "source_url": "https://ecoc.edu.au/courses/cpc30326-certificate-iii-in-carpentry",
+   "document": "CPC30326 Certificate III in Carpentry course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "EVOLUTION HOSPITALITY INSTITUTE",
+   "pricelist_name": "Evolution Hospitality Institute",
+   "official_name": "Evolution Hospitality Institute / Evolution English Language Centre",
+   "cricos_code": "02869G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "SIT60322 Advanced Diploma of Hospitality Management (CRICOS 110385G): 'IELTS 5.5 or equivalent' - PTE equivalent not stated; LLN assessed at orientation"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://evolution.edu.au/courses/advanced-diploma-of-hospitality-management-2/",
+   "document": "Advanced Diploma of Hospitality Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "FEDERATION ACADEMY",
+   "pricelist_name": "Federation Academy",
+   "official_name": "Federation Academy Australia Pty Ltd (Federation Academy)",
+   "cricos_code": "03980A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0",
+     "pte": "43-50 (range as printed)",
+     "notes": "Single framework for all VET courses; TOEFL iBT 46-59 (range as printed); results within 2 years; alternatives: 5 yrs study in English in listed countries, Australian senior secondary within 2 yrs, Cert IV or higher"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0",
+     "pte": "43-50 (range as printed)",
+     "notes": "Same framework as above"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Prospectus lists ELICOS (up to 10 weeks / up to 20 weeks) before main VET course, wording unclear (appears to mirror Home Affairs packaged-ELICOS rules).",
+   "source_url": "https://federationacademy.edu.au/wp-content/uploads/2026/04/FA_International_Prospectus_V2025.3-Online-Only.pdf",
+   "document": "Federation Academy International Prospectus - V2025.2 footer (file V2025.3, uploaded 2026/04)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "FOCUS ACADEMY OF LEARNING",
+   "pricelist_name": "FOCUS Academy of Learning",
+   "official_name": "Focus Academy of Learning Pty Ltd",
+   "cricos_code": "03876A (third-party oneuedu)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "GEORGE BROWN COLLEGE",
+   "pricelist_name": "George Brown College",
+   "official_name": "Captain Cook Institute Pty Ltd t/a George Brown College",
+   "cricos_code": "03208D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "Cert II/III: 5.5 overall; Cert IV: 6.0 overall",
+     "pte": "",
+     "notes": "Cert II/III Intermediate level (IELTS 5.5 or equivalent); Cert IV and above Upper Intermediate (IELTS 6.0 or equivalent); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'Certificate IV and above' rule - Upper Intermediate (IELTS 6.0 or equivalent)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'Certificate IV and above' rule"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://georgebrown.nsw.edu.au/wp-content/uploads/2025/08/Student-Handbook-V-25-23.06.2026-1.pdf",
+   "document": "Student (VET) Handbook, s.26.6 English Entry Requirements - Updated V. 23.06.2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "GLOBAL COLLEGE AUSTRALASIA",
+   "pricelist_name": "Global College Australasia",
+   "official_name": "Global College Australasia",
+   "cricos_code": "03564F",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "'IELTS 5.5 or equivalent' - PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "'IELTS 5.5 or equivalent' - PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning); 'or equivalent'"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.globalcollege.edu.au/wp-content/uploads/2024/04/2.-COURSE-FEES-AND-ENTRY-REQUIREMENTS-VERSION-5_M.pdf",
+   "document": "Course Fees and Entry Requirements (file name Version 5; header shows VERSION4.1) - Uploaded 2024-04",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "GLOBAL COLLEGE OF MANAGEMENT",
+   "pricelist_name": "Global College of Management",
+   "official_name": "Management Institute of Australia Pty Ltd t/a Global College of Management",
+   "cricos_code": "04144G (Study Australia provider page for Management Institute of Australia Pty Ltd)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "GREENWICH COLLEGE",
+   "pricelist_name": "Greenwich College",
+   "official_name": "Greenwich College Pty Ltd (RTO 91153)",
+   "cricos_code": "02672K",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.0 overall or equivalent",
+     "pte": "",
+     "notes": "CHC33021 Cert III Individual Support page; or Greenwich English course at appropriate level / Greenwich placement test; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall or equivalent",
+     "pte": "",
+     "notes": "BSB50120 Diploma of Business and Diploma of Early Childhood Education & Care pages; or Greenwich English course at appropriate level / placement test; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Greenwich English course at appropriate level or Greenwich placement test accepted; also accepts min. 8 weeks General English (Upper Intermediate-Advanced) at recognised ELICOS provider with exit IELTS 5.5 equivalent",
+   "source_url": "https://greenwichcollege.edu.au/management-it/diploma-of-business?hsLang=en-au",
+   "document": "Greenwich College course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "HARBOURSIDE INSTITUTE OF TECHNOLOGY",
+   "pricelist_name": "Harbourside Institute of Technology (HIA)",
+   "official_name": "Harbourside Institute of Australia Pty Ltd",
+   "cricos_code": "03670D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 equivalent",
+     "pte": "",
+     "notes": "'English proficiency level equivalent to IELTS 6.0 or Complete and Pass HIA English Assessment' (Diploma of Leadership & Mgmt page); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://harbourside.nsw.edu.au/diploma-of-leadership-and-management-bsb50420-cricos-course-code-105846c/",
+   "document": "BSB50420 Diploma of Leadership and Management course page; Student Handbook VET 2026-2027 - Handbook Oct 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "HELI YY",
+   "pricelist_name": "HELI (Higher Education Leadership Institute) - YY",
+   "official_name": "Higher Education Leadership Institute (HELI)",
+   "cricos_code": "03845H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "Academic 6.5 (no band below 6.0)",
+     "pte": "58 (writing and speaking minimum 50)",
+     "notes": "Applies to all HELI postgraduate courses (Grad Cert HE Academic Practice, eLearning, Research Methods; Grad Dip eLearning)"
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic 6.5 (no band below 6.0)",
+     "pte": "58 (writing and speaking minimum 50)",
+     "notes": "Master of Research, Master of eLearning"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.eca.edu.au/wp-content/uploads/2023/04/HELI_Courses_and_Special_Prices_2023_April-Update.pdf",
+   "document": "HELI Courses and Special Prices 2023 (April Update) - Information correct as at 14 November 2022",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "HOSPITALITY TRAINING ACADEMY",
+   "pricelist_name": "Hospitality Training Academy (HTA)",
+   "official_name": "Hospitality Training Academy (RTO 45275)",
+   "cricos_code": "03960E",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0",
+     "pte": "50",
+     "notes": "SIT40521 Cert IV Kitchen Management; tests within 3 years; IELTS 5.5/PTE 42 + 10 wks ELICOS; IELTS 5.0/PTE 36 + 20 wks ELICOS; OET B each; band minimums not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0",
+     "pte": "50",
+     "notes": "SIT50422 Diploma of Hospitality Management; same table; band minimums not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 / PTE 42 + 10 weeks ELICOS; IELTS 5.0 / PTE 36 + 20 weeks ELICOS",
+   "source_url": "https://hta.edu.au/course/sit50422-diploma-of-hospitality-management/",
+   "document": "HTA course pages; Overseas Student Handbook V2.0 - Handbook V2.0 (2025/2026)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "IIBT",
+   "pricelist_name": "IIBT (International Institute of Business & Technology Australia)",
+   "official_name": "The International Institute of Business & Technology (Australia) Pty. Ltd.",
+   "cricos_code": "03345F",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Other",
+     "ielts": "6.0 (writing and speaking 5.5)",
+     "pte": "",
+     "notes": "Postgraduate Qualifying Program; 'or equivalent' - PTE equivalent not stated"
+    },
+    {
+     "level": "ELICOS / English",
+     "ielts": "EAP 1: 5.0; EAP 2: 5.5; EAP 3: 6.0 (or equivalent)",
+     "pte": "",
+     "notes": "EAP exit: L1 = IELTS 5.5, L2 = 6.0, L3 = 6.5 equivalent; General English no stated requirement; placement test accepted"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Candidates without formal assessment interviewed and take IIBT internal test; General English articulates into EAP",
+   "source_url": "https://www.iibt.edu.au/entry-requirements/",
+   "document": "IIBT Entry Requirements page; EAP course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "IMPERIAL INSTITUTE OF SYDNEY",
+   "pricelist_name": "Imperial Institute Of Sydney (IIS)",
+   "official_name": "Imperial Institute of Sydney",
+   "cricos_code": "03944E",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "PTE/TOEFL accepted if equivalent to IELTS 6.0 - PTE score not stated; or 5 yrs English-medium education / Cert IV in Australian RTO within 2 yrs"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Same wording"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management; same wording"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://iis.edu.au/sit50422-diploma-of-hospitality-management/",
+   "document": "IIS course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "INSTITUTE OF VISION AND BUSINESS TECHNOLOGY",
+   "pricelist_name": "Institute Of Vision And Business & Technology (IVBT)",
+   "official_name": "The Institute of Vision and Business & Technology (IVBT Pty Ltd)",
+   "cricos_code": "04239M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "Cert IV in Leadership and Management; 'or equivalent PTE/TOEFL' - PTE score not stated; or 5 yrs education in English-speaking country or English Placement Test; results max 2 yrs old"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "Same general requirement; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://ivbt.edu.au/admissions",
+   "document": "IVBT Admissions",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "INUS ZOI",
+   "pricelist_name": "INUS / ZOI (Nuture Education Group)",
+   "official_name": "INUS Australia Pty Ltd t/a INUS English (ZOI Education Pty Ltd - separate provider)",
+   "cricos_code": "03341K",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "INUS EAP completion offers pathways to industry partners (unnamed)",
+   "source_url": "https://www.inus.edu.au/courses",
+   "document": "Courses - INUS English Australia",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "KAPLAN BUSINESS SCHOOL",
+   "pricelist_name": "Kaplan Business School",
+   "official_name": "Kaplan Business School (KBS)",
+   "cricos_code": "02426B",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "ELICOS / English",
+     "ielts": "EAP 1: 5.0 (Writing 5.0); EAP 2: 5.5 (Writing 5.0)",
+     "pte": "EAP 1: 41; EAP 2: 46",
+     "notes": "KBS EAP CRICOS 105225K"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (Writing 5.0)",
+     "pte": "46",
+     "notes": "Diploma of Business, Diploma of IT; or KBS EAP1 at 65%; approved ELICOS direct entry"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (Speaking 6.0, Writing 6.0, Listening 5.5, Reading 5.5)",
+     "pte": "50",
+     "notes": "or KBS EAP2 at 65%; one-skill retake accepted for IELTS"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (Speaking 6.0, Writing 6.0, Listening 5.5, Reading 5.5)",
+     "pte": "50",
+     "notes": "all postgraduate programs same as Bachelor"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.0 (Speaking 6.0, Writing 6.0, Listening 5.5, Reading 5.5)",
+     "pte": "50",
+     "notes": "all postgraduate programs same as Bachelor"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "KBS EAP (EAP1 65% -> Diploma/EAP2; EAP2 65% -> Bachelor/PG); approved ELICOS direct-entry providers (Browns, Discover English, ELC, Greenwich, ILSC, Language Links, Lexis, UEC) and university EAP; Foundation Studies with English pass.",
+   "source_url": "https://kbs.edu.au/admissions/entry-requirements/english-entry-requirements",
+   "document": "English Entry Requirements - Kaplan Business School - Copyright 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "KENT INSTITUTE AUSTRALIA",
+   "pricelist_name": "KENT Institute Australia",
+   "official_name": "Kent Institute Australia Pty. Ltd.",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no communicative skill below 42)",
+     "notes": "VET; TOEFL iBT 67-80 (L16 R16 W19 S19); Cambridge 169; tests <2 years old"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no communicative skill below 42)",
+     "notes": "VET"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no communicative skill below 42)",
+     "notes": "TOEFL iBT 67-80; Cambridge 169; MET 53; LanguageCert 61"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no communicative skill below 50)",
+     "notes": "Postgraduate; TOEFL iBT 80; Cambridge 176 (no component below 169)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no communicative skill below 50)",
+     "notes": "Postgraduate column (assumed to cover grad cert/dip; not separately named)"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Direct admission without test for completion of approved English courses at partner English schools (English Pathway Partner Provider Register).",
+   "source_url": "https://kent.edu.au/kent3/wp-content/uploads/2017/09/DOC-English-Language-Proficiency-Requirements.pdf",
+   "document": "English Language Proficiency Requirements - Version 10, 2 Dec 2025 (approved Academic Board 15 Dec 2025)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "KEYSTONE COLLEGE OF BUSINESS TECHNOLOGY",
+   "pricelist_name": "Keystone College of Business & Technology (KCBT)",
+   "official_name": "Keystone College of Business and Technology (KCBT)",
+   "cricos_code": "03425F",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.0 or equivalent",
+     "pte": "",
+     "notes": "Cert III: Year 10; Cert IV: Year 11; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Year 12 or equivalent; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://kcbt.edu.au/wp-content/uploads/2026/10/VET-Student-Handbook_V11.1_-Sep-2026.pdf",
+   "document": "Student Handbook (VET Student Handbook) V11.1 - September 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "KINGS SCHOOL OF CULINARY ARTS",
+   "pricelist_name": "King's School Of Culinary Arts",
+   "official_name": "King's School of Culinary Arts (RTO 45369)",
+   "cricos_code": "03994F",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "SIT30821, SIT40521 (SIT40721 Patisserie not listed); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "SIT50422, SIT60322; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://kings.nsw.edu.au/entry-requirements/",
+   "document": "Entry Requirements - King's School of Culinary Arts",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "KINGSTON INTERNATIONAL COLLEGE",
+   "pricelist_name": "Kingston International College",
+   "official_name": "Kingston International College",
+   "cricos_code": "02543G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "47",
+     "notes": "or KIC LLND test at IELTS 6.0 level; TOEFL iBT 67, C1 Adv 161, OET 1210, CELPIP 7, LANGUAGECERT 61, MET 53"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "47",
+     "notes": "Diploma of Hospitality page states 6.0 no band <5.5; PTE from English test requirements page (Main course only)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0",
+     "pte": "47",
+     "notes": "Graduate Diploma of Strategic Leadership; general table assumed, course page not checked"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 / PTE 39 + 10 weeks ELICOS; IELTS 5.0 / PTE 31 + 20 weeks ELICOS (tests on/after 7 Aug 2025)",
+   "source_url": "https://kingstoncollege.wa.edu.au/english-language-test-requirements/",
+   "document": "English Language Test Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LAURUS HIGHER EDUCATION",
+   "pricelist_name": "Laurus Higher Education",
+   "official_name": "Laurus Higher Education Pty Ltd",
+   "cricos_code": "04375C (third-party oneuedu; unverified)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Community Services (CRICOS 118295M)",
+     "ielts": "",
+     "pte": "",
+     "notes": "Good Universities Guide lists academic entry (18+, Year 12 equiv., AQF5/Cert III+, STAT, foundation) but no English requirement"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LE CORDON BLEU AUSTRALIA",
+   "pricelist_name": "Le Cordon Bleu Australia",
+   "official_name": "Le Cordon Bleu Australia Pty Limited",
+   "cricos_code": "02380M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 General IELTS (no band below 5.5)",
+     "pte": "",
+     "notes": "Grand Diplome (Cert III Commercial Cookery + Cert III Patisserie) page; PTE not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 General IELTS (no band below 5.5)",
+     "pte": "",
+     "notes": "Advanced Diploma of Hospitality Management; 'or equivalent recognised English test'; PTE equivalent not stated"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 Academic IELTS (no band below 5.5)",
+     "pte": "",
+     "notes": "Bachelor of Business (International Hotel Management); PTE not stated"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 Academic IELTS (no band below 6.0)",
+     "pte": "",
+     "notes": "Master of International Hospitality Management; PTE not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Recommendation letters accepted from partner English colleges (Kaplan, ILSC, Greenwich, Navitas, Hawthorn, Langports, Browns) confirming LCBA English entry met; packaged offers with TAFE NSW ELC and UEC.",
+   "source_url": "https://www.cordonbleu.edu/adelaide/bachelor-business-international-hotel-management/en",
+   "document": "Le Cordon Bleu Australia course pages (Key Information)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LE CULINAIRE",
+   "pricelist_name": "Le Culinaire",
+   "official_name": "Le'Culinaire Hospitality Institute",
+   "cricos_code": "03667K",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Applies to all vocational courses; PTE/TOEFL accepted but scores not stated; alternatives: Year 12 English pass, Australian Cert IV+, approved ELICOS, English-medium study, study in UK/USA/CAN/NZ/SA/IRL"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Same general requirement; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of intensive English course at Institute-approved ELICOS provider in Australia accepted (level not stated)",
+   "source_url": "https://www.leculinaire.edu.au/general-5",
+   "document": "Admission Requirements - Le Culinaire",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LE PONT INTERNATIONAL COLLEGE",
+   "pricelist_name": "Le Pont International College",
+   "official_name": "Le Pont International College",
+   "cricos_code": "03992H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall equivalent",
+     "pte": "",
+     "notes": "Cert III Wall & Floor Tiling page; or approved English pathways; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall or equivalent approved evidence",
+     "pte": "",
+     "notes": "Diploma of Hospitality Management; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Approved English study pathways mentioned, not specified",
+   "source_url": "https://www.lepont.edu.au/courses/diploma-of-hospitality-management/",
+   "document": "Le Pont International College course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LE ROSEY",
+   "pricelist_name": "Le Rosey (Wellington)",
+   "official_name": "Le Rosey Hospitality Institute (LRHI), Wellington Education Group",
+   "cricos_code": "04183M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (website) / 5.5 (pre-enrolment PDF)",
+     "pte": "",
+     "notes": "Website: 'upper intermediate proficiency in English or an IELTS score of at least 6.0 (or equivalent)'; PDF: 'IELTS 5.5 (or equivalent)'; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (website) / 5.5 (pre-enrolment PDF)",
+     "pte": "",
+     "notes": "Hospitality, Project/Program Management, Leadership & Management; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://lerosey.edu.au/pre-enrolment/",
+   "document": "Le Rosey Pre-Enrolment page; LRHI Student Pre-Enrolment Information V1.0 - PDF footer Aug 2024 (file uploaded 2026/10)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LEGEND INSTITUTE",
+   "pricelist_name": "Legend Institute",
+   "official_name": "LEGEND INSTITUTE",
+   "cricos_code": "04002K (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LESUISSE ACADEMY",
+   "pricelist_name": "Lesuisse Academy",
+   "official_name": "Le Suisse Academy Pty Ltd (formerly Hilton Academy)",
+   "cricos_code": "03796A (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MAGIL COLLEGE SYDNEY",
+   "pricelist_name": "Magil College Sydney",
+   "official_name": "Magill College Pty Ltd t/a Magill College Sydney (RTO 91367)",
+   "cricos_code": "01994M",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Per ELICOS brochure articulation (vocational courses with IELTS 6.0 requirement); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Per ELICOS brochure; older 2019 BSB50215 course info (v2.3) stated IELTS 5.5 / TOEFL iBT 46 - outdated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of General English Upper-Intermediate gives direct entry to vocational courses requiring IELTS 6.0 (Cert IV/Dip/Adv Dip Marketing & Communication; Project/Program Management)",
+   "source_url": "https://magillblobstorage.blob.core.windows.net/wordpress-website/2024/12/ELICOS-brochure.pdf",
+   "document": "Magill College Sydney ELICOS brochure; General English Course Information v1.2 - 2024 (brochure Dec 2024; GE info v1.2 Sep 2024)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MATIC INTERNATIONAL COLLEGE",
+   "pricelist_name": "Matic International College",
+   "official_name": "A2 Education Pty Ltd t/a Matic International College",
+   "cricos_code": "04269E (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MELBOURNE METRO COLLEGE",
+   "pricelist_name": "Melbourne Metro College",
+   "official_name": "iLearn Oz Pty Ltd t/a Melbourne Metro College",
+   "cricos_code": "03831C",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall (IELTS Academic) - Diploma of ECEC",
+     "pte": "46",
+     "notes": "Stated only on CHC50125 Diploma of Early Childhood Education & Care page; BSB50420 Diploma of Leadership page says only 'sufficient English as specified by MMC' plus ACSF LLN levels"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "CHC50125 Diploma of Early Childhood Education and Care",
+     "ielts": "6.0 overall (Academic)",
+     "pte": "46",
+     "notes": "or equivalent; only course page found with explicit scores"
+    }
+   ],
+   "elicos_pathway": "Students not meeting English/LLN may be advised to enrol in language and literacy course such as ELICOS (not a formal entry pathway)",
+   "source_url": "https://melmc.edu.au/chc50125-diploma-of-early-childhood-education-and-care/",
+   "document": "Melbourne Metro College course pages; Entry Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MENZIES INSTITUTE OF TECHNOLOGY",
+   "pricelist_name": "Menzies Institute of Technology",
+   "official_name": "Menzies Institute of Technology",
+   "cricos_code": "02815M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall (General or Academic)",
+     "pte": "50 overall (PTE Academic)",
+     "notes": "Also TOEFL 64, Cambridge C1 Advanced 169, OET B each; ELICOS Upper Intermediate completion; or 5 yrs English-medium study in listed countries, or Australian foundation/senior secondary/Cert IV+ within 2 years; results max 2 years old"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50 overall",
+     "notes": "Same table on Diploma of Community Services page (non-nursing diplomas)"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "HLT54121 Diploma of Nursing",
+     "ielts": "IELTS Academic 7.0 overall; L/R/S 7.0, W 6.5",
+     "pte": "Tests before 22/04/2026: 66 overall, L/R/S 66, W 56. Tests after 23/04/2026: 63 overall, L 58, R 59, W 60, S 76",
+     "notes": "NMBA standard; OET/TOEFL/Cambridge also listed; or 3.5 yrs FTE continuous English-medium education in recognised country; 2-sitting rules apply"
+    }
+   ],
+   "elicos_pathway": "ELICOS Upper Intermediate level completion accepted (non-nursing courses).",
+   "source_url": "https://menzies.vic.edu.au/chc52025-diploma-of-community-services/",
+   "document": "CHC52025 Diploma of Community Services - Menzies Institute of Technology (course page)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MID CITY COLLEGE",
+   "pricelist_name": "Mid City College",
+   "official_name": "Mid City Education Pty Ltd T/A Mid City College",
+   "cricos_code": "03627G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50",
+     "notes": "or TOEFL iBT 60 / CAE 52 or equivalent; results <2 yrs old; alternatives: 5 yrs study in English-speaking country, placement test, ELICOS Upper-Intermediate, AQF4+ in Australia (50% English)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50",
+     "notes": "same wording on Diploma of Business page; ELICOS Upper-Intermediate completion accepted"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of recognised ELICOS program at upper-intermediate level accepted as evidence",
+   "source_url": "https://midcity.edu.au/bsb50120-diploma-of-business/",
+   "document": "BSB50120 Diploma of Business course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MILLION BROWNS COLLEGE MBC",
+   "pricelist_name": "Million Brown's College (MBC",
+   "official_name": "Million Brown's College",
+   "cricos_code": "04290H",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall, no band less than 5.0",
+     "pte": "",
+     "notes": "Certificate IV in Kitchen Management (SIT40521). PTE/TOEFL 'may be accepted' - MBC confirms equivalency to IELTS 6.0; PTE equivalent not stated. Results no more than 2 years old."
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall, no band less than 5.0",
+     "pte": "",
+     "notes": "Advanced Diploma of Leadership and Management (BSB60420) course information PDF; same wording. PTE equivalent not stated. Diploma of Hospitality Mgmt / Diploma of Leadership & Mgmt PDFs not individually checked but the course information template appears uniform."
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "SIT40521 Certificate IV in Kitchen Management",
+     "ielts": "6.0 (no band <5.0)",
+     "pte": "",
+     "notes": "PTE equivalent not stated"
+    },
+    {
+     "course": "BSB60420 Advanced Diploma of Leadership and Management",
+     "ielts": "6.0 (no band <5.0)",
+     "pte": "",
+     "notes": "Also requires completed BSB Diploma/Adv Dip or 2 years relevant workplace experience"
+    }
+   ],
+   "elicos_pathway": "Alternative evidence accepted: completion of ELICOS Upper-Intermediate level; 6 months of Cert IV+ or a Cert III+ full-time in Australia; LLN placement assessment.",
+   "source_url": "https://millionbrownscollege.com.au/wp-content/uploads/2026/05/SIT40521-Certificate-IV-in-Kitchen-Management-Course-Information-3.pdf",
+   "document": "SIT40521 Certificate IV in Kitchen Management - Course Information; BSB60420 Advanced Diploma of Leadership and Management - Course Information - Uploaded 2026/05 (review dates 7 May 2027 / 11 May 2027)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MILLION BROWNS COLLEGE",
+   "pricelist_name": "Million Brown's College (MBC)",
+   "official_name": "Million Brown's College",
+   "cricos_code": "04290H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.0)",
+     "pte": "",
+     "notes": "PTE/TOEFL 'may be accepted' at IELTS 6.0 equivalency - PTE score not stated; or 6 months Cert IV+ / Cert III+ full-time study in Australia"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of ELICOS Upper-Intermediate level accepted",
+   "source_url": "https://millionbrownscollege.com.au/wp-content/uploads/2026/05/BSB50420-Diploma-of-Leadership-and-Management-Course-Information-1.pdf",
+   "document": "BSB50420 Diploma of Leadership and Management - Course Information - Review date 11 May 2027",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NAPS",
+   "pricelist_name": "NAPS (National Academy of Proffesional Study)",
+   "official_name": "National Academy of Professional Studies (NAPS) (TEQSA PRV14303)",
+   "cricos_code": "04009C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 6.0) IELTS Academic",
+     "pte": "47 (L47 R48 S54 W51)",
+     "notes": "Diploma of Early Childhood Education (Birth to 5) - only diploma listed; scores as stated"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "47 (L40 R42 S39 W41)",
+     "notes": "Bachelor of IT; Bachelor of Business (Accounting / Islamic Business); tests within 2 yrs"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "55 (L47 R48 S54 W51)",
+     "notes": "GD of IT, GD of Management, GD of Business Administration"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "55 (L47 R48 S54 W51)",
+     "notes": "MIT, Master of Professional Accounting, MBA"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Social Work",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "63 (L58 R59 S76 W69)",
+     "notes": "As stated in document"
+    },
+    {
+     "course": "Bachelor of Early Childhood Education (Birth to 5)",
+     "ielts": "ACECQA: 7.0 in reading & writing, 8.0 in speaking & listening",
+     "pte": "",
+     "notes": "Course admission score not stated; ACECQA early childhood teacher requirement (or ISLPR 4 all skills)"
+    },
+    {
+     "course": "Diploma of Early Childhood Education (Birth to 5)",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "47 (L47 R48 S54 W51)",
+     "notes": "ACECQA diploma educator: IELTS min 5.0 all skills"
+    }
+   ],
+   "elicos_pathway": "Applicants below minimum may be admitted after completing an Academy-approved English for Academic Purposes program",
+   "source_url": "https://naps.edu.au/uploads/naps-resources/08444f34db1244d_260601044902.pdf",
+   "document": "NAPS course/admission information PDF (untitled) - file id suggests 2026-06-01",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NEW CAMBRIDGE COLLEGE SYDNEY",
+   "pricelist_name": "New Cambridge College Sydney (NCCS)",
+   "official_name": "New Cambridge College Sydney Inc.",
+   "cricos_code": "03015B",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "'minimum IELTS 5.5 or equivalent' (<2 yrs), or Australian Cert IV+, or NCCS English Placement Test; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://nccs.nsw.edu.au/accounting/fns50222-diploma-of-accounting-cricos-code-111625k/",
+   "document": "FNS50222 Diploma of Accounting course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NEW ERA INSTITUTE",
+   "pricelist_name": "New Era Institute",
+   "official_name": "New Era Institute Pty Ltd",
+   "cricos_code": "03509B",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Handbook: 'Verified evidence of IELTS Level 6.0 or equivalent' for all international students; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "same general statement"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "same general statement"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "ELICOS mentioned as alternative if enrolment LLN assessment unfavourable (no scores)",
+   "source_url": "https://newerainstitute.edu.au/wp-content/uploads/2026/02/International-Student-Handbook-July-2025.pdf",
+   "document": "International Student Handbook - V9.0, July 2025",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NOVUS COLLEGE",
+   "pricelist_name": "Novus College",
+   "official_name": "Novus College / Novus Education (RTO 45082)",
+   "cricos_code": "03966K",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 or 6.0 overall (brochure contradictory)",
+     "pte": "",
+     "notes": "BSB40120 2024 brochure states IELTS 5.5 in one section and 6.0 in another; PTE/TOEFL accepted if assessed equivalent - PTE equivalent not stated; alternatives: 5 yrs education in English-speaking country, English Placement Test, AQF4+ in Australia within 2 yrs"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Test results within 2 years; PTE/TOEFL accepted if equivalent to IELTS 6.0 - PTE equivalent not stated; alternatives: 5 yrs education in English-speaking country, English Placement Test, AQF4+ in Australia within 2 yrs"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://novus.edu.au/bsb50120-diploma-of-business",
+   "document": "BSB50120 Diploma of Business course page; BSB40120 Certificate IV in Business brochure (2024) - 2024 (Cert IV brochure)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NTCA",
+   "pricelist_name": "NTCA (National Training College of Australia)",
+   "official_name": "National Training Centre of Australia Pty Ltd t/a National Training College of Australia",
+   "cricos_code": "03399C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Other",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "General entry requirement on NTCA's international online enrolment form for all courses: 'Minimum IELTS score of 6 or equivalent in line with the Department of Education and DHA requirements.' Form accepts IELTS, TOEFL, PTE, CAE or other; PTE equivalent not stated (equivalence per NTCA Student Enrolment policy). Applies to its Cert III/IV, Diploma, Advanced Diploma and Graduate Diploma courses."
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "In the absence of formal English evidence NTCA may offer an English Placement Test ($20 per attempt, non-refundable); all students also complete an LLND test.",
+   "source_url": "https://form.jotform.com/Media509/ntca-online-enrolment-form",
+   "document": "NTCA Online Enrolment Form (international students; NTCA's official form hosted on Jotform) - not stated",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NURSE TRAINING AUSTRALIA",
+   "pricelist_name": "Nurse Training Australia (NTA)",
+   "official_name": "Care Plus Training Pty Ltd T/A Nurse Training Australia",
+   "cricos_code": "03575C",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 Academic (no band below 5.5)",
+     "pte": "",
+     "notes": "or approved equivalent; PTE score not stated; or Upper-Intermediate/EAP outcome from approved ELICOS, or Aus Cert IV+"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 Academic (no band below 5.5)",
+     "pte": "",
+     "notes": "CHC82015 Grad Cert; 'approved equivalent including PTE Academic, TOEFL iBT, Cambridge, OET or approved EAP' - no PTE score"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Upper Intermediate or EAP outcome from an approved ELICOS/ESL centre accepted",
+   "source_url": "https://www.nta.edu.au/international-students/chc33021-certificate-iii-in-individual-support/",
+   "document": "CHC33021 Certificate III in Individual Support (international) course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NVR EDUCATION AUSTRALIA",
+   "pricelist_name": "NVR Education Australia",
+   "official_name": "NVR Education Australia (RTO 45529)",
+   "cricos_code": "03794C",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "CPC30620 Cert III Painting & Decorating; results within 2 yrs; or Australian Cert III+ qualification, or NVR English Placement Test; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "BSB50420 Diploma of Leadership & Management; or Australian Cert IV+, or NVR English Placement Test; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.nvr.edu.au/courses/bsb50420-diploma-of-leadership-and-management/",
+   "document": "NVR Education Australia course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "OCEANIA COLLEGE OF TECHNOLOGY",
+   "pricelist_name": "Oceania College Of Technology",
+   "official_name": "Global Training Innovations Pty Ltd T/A Oceania College of Technology",
+   "cricos_code": "03413K",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50",
+     "notes": "TOEFL iBT 64, CAE 169, OET B; test within 2 yrs; plus OCT ACSF LLN assessment"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 / PTE 42 + 10 weeks ELICOS (or Foundation/Pathway); IELTS 5.0 / PTE 36 + 20 weeks ELICOS",
+   "source_url": "https://oct.edu.au/course/certificate-iii-in-light-vehicle-mechanical-technology/",
+   "document": "AUR30620 Certificate III in Light Vehicle Mechanical Technology course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "OPULENCE COLLEGE",
+   "pricelist_name": "Opulence College",
+   "official_name": "Opulence College Pty Ltd (RTO 45644)",
+   "cricos_code": "03878K",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "50 (no skill below 42) PTE Academic",
+     "notes": "Checked SIT30821 Cert III Commercial Cookery; or other test deemed equivalent; PTR and LLND also required"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "50 (no skill below 42) PTE Academic",
+     "notes": "Checked BSB50120 Diploma of Business and CHC52025 Diploma of Community Services; or other test deemed equivalent"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://opc.edu.au/courses/bsb50120-diploma-of-business/",
+   "document": "Opulence College course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "OZFORD AIG",
+   "pricelist_name": "OZFORD - AIG (ACHIEVA)",
+   "official_name": "Ozford Institute of Higher Education Pty Ltd (ACN 165 694 351)",
+   "cricos_code": "03429B",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5) IELTS Academic",
+     "pte": "",
+     "notes": "Bachelor of Cyber Security, Information Systems, Business, Business (Accounting); PTE not stated; ELICOS can be packaged (stated for B Information Systems)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "",
+     "notes": "GC/GD IT and Management; or EAP min 10 weeks equivalent to IELTS 6.0; PTE not stated"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "MIT, MBA, Master of Professional Accounting; or EAP min 20 weeks equivalent to IELTS 6.5; PTE not stated"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Master of Teaching (Early Childhood)",
+     "ielts": "7.0 (no band below 6.5) or equivalent",
+     "pte": "",
+     "notes": ""
+    },
+    {
+     "course": "Graduate Diploma in Early Childhood Education",
+     "ielts": "6.5 (no band below 6.0) or equivalent",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "elicos_pathway": "EAP min 10 weeks (=IELTS 6.0) for Grad Cert/Dip; EAP min 20 weeks (=IELTS 6.5) for Masters; ELICOS can be packaged for Bachelor",
+   "source_url": "https://ozford.edu.au/admissions/entry-requirements/higher-education/",
+   "document": "Higher Education Entry Requirements - Ozford Institute of Higher Education",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "PARAGON POLYTECHNIC",
+   "pricelist_name": "Paragon Polytechnic",
+   "official_name": "Gateway College of Technology Pty Ltd t/a Paragon Polytechnic (RTO 41028)",
+   "cricos_code": "03435D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "47 overall (PTE Academic)",
+     "notes": "AUR30620 Cert III Light Vehicle; within 2 yrs; also TOEFL iBT 67, CELPIP 7, LanguageCert 61, MET 53, OET 1210"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall (Academic or General)",
+     "pte": "",
+     "notes": "AUR50216 Diploma of Automotive Technology page lists IELTS only; PTE not stated there (Cert III page lists PTE 47)"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "IELTS 5.5 + 10 weeks ELICOS; IELTS 5.0 + 20 weeks ELICOS",
+   "source_url": "https://paragon.edu.au/courses/certificate-iii-in-light-vehicle-mechanical",
+   "document": "Paragon Polytechnic course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "PAX INSTITUTE OF EDUCATION",
+   "pricelist_name": "PAX Institute of Education",
+   "official_name": "PAX Institute of Education Pty Ltd",
+   "cricos_code": "03152D (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ROSEHILL COLLEGE",
+   "pricelist_name": "Rosehill College",
+   "official_name": "AISL Pty Ltd t/a Rosehill College",
+   "cricos_code": "03622A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no skill below 42)",
+     "notes": "International students page; TOEFL iBT 60 (min 18 writing), Cambridge English also accepted; UEE30820 page: IELTS 6.0 or PTE 50"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no skill below 42)",
+     "notes": "UEE62122 Adv Dip Engineering Technology page: IELTS 6.0 or PTE Academic 50"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://rosehillcollege.edu.au/international-students",
+   "document": "Rosehill College International Students page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ROSEWOOD INTERNATIONAL COLLEGE",
+   "pricelist_name": "Rosewood International College",
+   "official_name": "Rosewood International College (RIC)",
+   "cricos_code": "04083D (third-party listing; unverified)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SACRED HEART INTERNATIONAL COLLEGE",
+   "pricelist_name": "Sacred Heart International College (SHIC)",
+   "official_name": "Angel Investments Group Pty Ltd t/a Sacred Heart International College",
+   "cricos_code": "03606A",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "50-57 (as stated: 'PTE Academic band score equivalent or 50-57')",
+     "notes": "TOEFL iBT 60-78; General English Upper-Intermediate completion; 10725NAT Cert III Spoken & Written English; college placement test if doubt"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50-57 (as stated)",
+     "notes": "Assumed same template as Cert IV / Grad Dip outlines (BSB50420 outline failed to load)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "50-57 (as stated)",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning) outline; AQF Diploma+ in Australia also accepted"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Satisfactory completion of General English Upper-Intermediate level accepted",
+   "source_url": "https://www.shic.vic.edu.au/src/img/library/2026/BSB40120_Certificate-IV-in-Business_Course-Outline-V1.6-May,-26.pdf",
+   "document": "Course Outline - BSB40120 Certificate IV in Business V1.6 - May 2026 (Grad Dip outline V1.8/1.9 Sep 2026)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SERIDAN COLLEGE",
+   "pricelist_name": "Seridan College",
+   "official_name": "Sheridan Institute of Higher Education (TEQSA PRV14012)",
+   "cricos_code": "03391M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 6.0) IELTS Academic",
+     "pte": "52 (Writing min 54, no other band below 50)",
+     "notes": "Undergraduate requirement (applies to Diploma/Bachelor); TOEFL iBT 85 (no band below 20)"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 6.0) IELTS Academic",
+     "pte": "52 (Writing min 54, no other band below 50)",
+     "notes": "Undergraduate tier on page; not separately listed for Diploma - confirm on course page"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (Reading and Writing min 6.5, no other band below 6.0)",
+     "pte": "58 (Speaking and Writing min 58, Listening and Reading min 54)",
+     "notes": "Postgraduate requirement; TOEFL iBT 86 (no band below 20)"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (Reading and Writing min 6.5, no other band below 6.0)",
+     "pte": "58 (Speaking and Writing min 58, Listening and Reading min 54)",
+     "notes": "Postgraduate tier; not separately listed - confirm on course page"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Master of Education / Graduate Certificate of Education",
+     "ielts": "",
+     "pte": "",
+     "notes": "Page says additional admissions info in separate documents (not read)"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "https://sheridan.edu.au/index.php/apply/international-application",
+   "document": "International Application - Sheridan Institute of Higher Education",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SHAFSTON",
+   "pricelist_name": "SHAFSTON",
+   "official_name": "Shafston International College",
+   "cricos_code": "03917H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.0 overall",
+     "pte": "",
+     "notes": "Cert III/IV Business, Cert IV IT: IELTS 5 or equivalent; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "Diplomas & Advanced Diploma of Business: IELTS 5.5 or equivalent; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Certificate III in Early Childhood Education and Care (CHC30121)",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "or equivalent; PTE not stated"
+    },
+    {
+     "course": "Certificate III in Individual Support (CHC33015)",
+     "ielts": "5.5 overall (Academic)",
+     "pte": "",
+     "notes": "or equivalent"
+    },
+    {
+     "course": "Certificate III/IV Kitchen Management (SIT40521)",
+     "ielts": "5.5 overall (Academic)",
+     "pte": "",
+     "notes": "or equivalent"
+    }
+   ],
+   "elicos_pathway": "Shafston is also an ELICOS school; no specific package rules stated",
+   "source_url": "https://shafston.edu/wp-content/uploads/2023/06/2025Shafston-International-VET-Brochure_JAN2025.pdf",
+   "document": "2025 Vocational Prospectus - Shafston International College - JAN2025 (per filename)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SHEA",
+   "pricelist_name": "SHEA (Skyline Higher Education Australia)",
+   "official_name": "Skyline Higher Education Australia",
+   "cricos_code": "04214J (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SIGNET INSTITUTE OF AUSTRALIA",
+   "pricelist_name": "Signet Institute of Australia",
+   "official_name": "Signet Institute of Australia Pty Ltd",
+   "cricos_code": "03377J",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "Offers General English (Elementary to Advanced) (CRICOS 0100288 per third party).",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SKILLS INSTITUTE OF AUSTRALIA",
+   "pricelist_name": "Skills Institute of Australia",
+   "official_name": "Skilled Services Australia Pty Ltd T/A Skills Institute Australia",
+   "cricos_code": "03328G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "'IELTS 5.5 or equivalent' (AUR30620 Cert III page); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall",
+     "pte": "",
+     "notes": "'IELTS 5.5 or equivalent' (Diploma of Hospitality Mgmt page); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://skills.qld.edu.au/study/sit50422/",
+   "document": "SIT50422 Diploma of Hospitality Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "STATES COLLEGE",
+   "pricelist_name": "STATES College",
+   "official_name": "States College Australia Pty Ltd",
+   "cricos_code": "04106B",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 Academic (no sub-score below 5.0)",
+     "pte": "",
+     "notes": "general admission requirement; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 Academic (no sub-score below 5.0)",
+     "pte": "",
+     "notes": "general; course-specific requirements may apply"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://states.edu.au/admission/",
+   "document": "Admission - STATES College",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY CITY COLLEGE OF MANAGEMENT AIG",
+   "pricelist_name": "Sydney City College Of Management - AIG (ACHIEVA)",
+   "official_name": "Sydney City College of Management Pty Ltd (SCCM)",
+   "cricos_code": "03620C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Policy applies to all international students; PTE/TOEFL accepted if equivalent to IELTS 6.0 (PTE score not stated); alternatives: 5 yrs education in English-speaking country, 6 months Cert IV+ at Australian RTO, or SCCM-approved placement test; LLND assessment for all"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Same; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "VET Graduate Diploma BSB80120; same general policy"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://sccm.edu.au/wp-content/uploads/2025/11/PP2.2-Student-Enrolment-Policy-and-Associated-Procedure-V1.0.pdf",
+   "document": "PP2.2 Student Enrolment Policy and Associated Procedures - Version 1.0, July 2025",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY COLLEGE OF PROFESSIONAL EDUCATION",
+   "pricelist_name": "Sydney College of Professional Education (SCPE)",
+   "official_name": "Sydney College of Professional Education Pty Ltd (SCPE College)",
+   "cricos_code": "04135H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 overall (equivalence)",
+     "pte": "",
+     "notes": "PTE/TOEFL accepted if equivalent to IELTS 5.5 - PTE score not stated; or 5 yrs English-speaking education, 6 months Cert IV in Australian RTO, or English Placement Test"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall (equivalence)",
+     "pte": "",
+     "notes": "Same wording on BSB50420 page"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "5.5 overall (equivalence)",
+     "pte": "",
+     "notes": "BSB80120 page - same wording"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.scpe.edu.au/bsb50420-diploma-of-leadership-and-management/",
+   "document": "SCPE course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY GLOBAL COLLEGE",
+   "pricelist_name": "Sydney Global College",
+   "official_name": "Sydney Global College",
+   "cricos_code": "03697D (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "Study Australia lists only one current course: English Language Programs for International Students (Elementary to Upper Intermediate) (4-54 weeks), NSW.",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY INSTITUTE OF HIGHER EDUCATION",
+   "pricelist_name": "Sydney Institute of Higher Education (SIHE)",
+   "official_name": "Sydney Institute of Higher Education Pty Ltd",
+   "cricos_code": "03866C",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no component below 5.5)",
+     "pte": "47 (no component below 39) for tests on/after 7 Aug 2025; 50 (min 42) before",
+     "notes": "C1 Advanced 169; online/home tests not accepted"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.0 (no component below 6.0)",
+     "pte": "47 (no component below 47) for tests on/after 7 Aug 2025; 50 (min 50) before",
+     "notes": "C1 Advanced 176"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no component below 6.0)",
+     "pte": "47 (no component below 47) on/after 7 Aug 2025",
+     "notes": "Assumed postgraduate (PG) category - page does not explicitly assign GC/GD"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Completion of English language course at an Australian institution (Country Education Profiles) accepted; ELICOS not explicitly named",
+   "source_url": "https://sydneyinstitute.edu.au/english-language-requirements/",
+   "document": "SIHE English Language Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY METRO COLLEGE",
+   "pricelist_name": "Sydney Metro College (SMC)",
+   "official_name": "Sydney Metro College Pty. Ltd.",
+   "cricos_code": "03427D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 Academic (minimum)",
+     "pte": "",
+     "notes": "'or equivalent test such as PTE or TOEFL' within 2 yrs - PTE score not stated; alternatives: 5 yrs English-country study, Aus Cert III+ / foundation / senior secondary within 2 yrs, English Placement Test"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "CHC50125 Diploma of Early Childhood Education and Care",
+     "ielts": "6.0 Academic (minimum)",
+     "pte": "",
+     "notes": "same as general; results must be shown equivalent to IELTS 6; prerequisite Cert III ECEC"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "https://sydneymetrocollege.edu.au/course/sit50422-diploma-of-hospitality-management/",
+   "document": "SIT50422 Diploma of Hospitality Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SYDNEY METROPOLITAN INSTERNATIONAL COLLEGE",
+   "pricelist_name": "Sydney Metropolitan Insternational College",
+   "official_name": "Sydney Metropolitan International College (SMIC)",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5) or equivalent",
+     "pte": "",
+     "notes": "From BSB60120 Advanced Diploma of Business page (smic.pages.dev mirror, canonical smic.edu.au); PTE not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://smic.pages.dev/courses/advanced-diploma-business",
+   "document": "Advanced Diploma of Business | SMIC",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TAFE INTERNATIONAL WESTERN AUSTRALIA",
+   "pricelist_name": "TAFE International Western Australia (TIWA)",
+   "official_name": "TAFE International Western Australia (Department of Training and Workforce Development)",
+   "cricos_code": "00020G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 Academic (no band below 5.0)",
+     "pte": "",
+     "notes": "'Most courses' requirement, or equivalent; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 Academic (no band below 5.0)",
+     "pte": "",
+     "notes": "'Most courses'; PTE equivalent not stated"
+    },
+    {
+     "level": "ELICOS / English",
+     "ielts": "5.0 Academic equivalent to start packaged ELICOS",
+     "pte": "",
+     "notes": "via partner ELICOS colleges"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Nursing (Diploma of Nursing)",
+     "ielts": "7.0 Academic (no band below 7.0, writing min 6.5)",
+     "pte": "",
+     "notes": "PTE equivalent not stated"
+    },
+    {
+     "course": "Early Childhood Education and Care",
+     "ielts": "6.0 Academic (no band below 6.0)",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "elicos_pathway": "Minimum Academic IELTS 5.0 equivalent to package ELICOS with partner college; approx 10-20 weeks to go from IELTS 5.0 to 6.0",
+   "source_url": "https://agents.tafeinternational.wa.edu.au/entry-requirements",
+   "document": "Entry requirements (TIWA agent portal) - Updated 16 Dec 2025",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TAFE NSW",
+   "pricelist_name": "TAFE NSW",
+   "official_name": "TAFE NSW",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic 6.0 (no band below 5.5) or equivalent",
+     "pte": "",
+     "notes": "Higher-education Diploma of Information Technology (HE20626); VET diploma levels not verified; PTE not stated"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "Academic 6.5 (no band below 6.0) or equivalent",
+     "pte": "",
+     "notes": "Bachelor of Interior Design (HE20501); PTE not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "TAFE NSW General English and EAP can be studied to meet course English requirements (details in TAFE International English Language Requirements PDF).",
+   "source_url": "https://www.tafensw.edu.au/international/enrol/how-to-apply/entry-requirements/english-requirements",
+   "document": "TAFE NSW International - English requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TAFE SA INTERNATIONAL YY",
+   "pricelist_name": "TAFE SA International - YY",
+   "official_name": "TAFE SA (RTO 41026, PRV14002)",
+   "cricos_code": "00092B",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (min 5.0 all bands) Academic - most courses",
+     "pte": "47 (L33 R36 W29 S24)",
+     "notes": "General 'most TAFE SA courses'; individual courses may be 5.5/5.0 (PTE 39), 6.0/5.5 (PTE 47: L40 R42 W41 S39) or higher - check course page"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (min 5.0 all bands) Academic - most courses",
+     "pte": "47 (L33 R36 W29 S24)",
+     "notes": "Higher tiers: 6.5/6.0 = PTE 55 (L47 R48 W51 S54); 7.0 (S/L/R 7.0, W 6.5) = PTE 63 (L58 R59 W60 S76) as stated"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Diploma of Nursing",
+     "ielts": "per NMBA English standard",
+     "pte": "per NMBA English standard",
+     "notes": "Not eligible for TAFE SA ELICOS pathway; waiver/combination limits apply; scores not given on entry page"
+    },
+    {
+     "course": "Advanced Diploma of Oral Health (Dental Hygiene)",
+     "ielts": "",
+     "pte": "",
+     "notes": "Not eligible for IELTS waivers or ELICOS pathway; course page not checked"
+    }
+   ],
+   "elicos_pathway": "TAFE SA English Language Centre: IELTS 5.0 -> EAP 20 (20 wks) to reach 6.0; IELTS 5.5 -> EAP Advanced Part 1 (10 wks); 5.5->6.5 EAP Advanced 1+2 (20 wks); 6.0->6.5 EAP Advanced Part 2 (10 wks); not for Nursing/Dental Hygiene",
+   "source_url": "https://tafesa.edu.au/int-entry-reqs",
+   "document": "TAFE SA International - Entry Requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "THE CENTRE OF EXCELLENCE",
+   "pricelist_name": "The Centre Of Excellence",
+   "official_name": "The Centre of Excellence",
+   "cricos_code": "03512G (Study Australia)",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "Offers Essential English (ELICOS, CRICOS course 098029K per third party).",
+   "source_url": "http://www.coe.vic.edu.au",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "THE INSTITUTE OF INTERNATIONAL STUDIES",
+   "pricelist_name": "The Institute Of International Studies (TIIS)",
+   "official_name": "TIIS - The Institute of International Studies",
+   "cricos_code": "03705J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no score below 42)",
+     "notes": "TOEFL may be considered"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "50 (no score below 50)",
+     "notes": ""
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no score below 50)",
+     "notes": "English-taught degree or Aus Year 12 English may be accepted"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://tiis.edu.au/admission-criteria.html",
+   "document": "Admission Criteria - TIIS",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TIMES ACADEMY",
+   "pricelist_name": "Times Academy",
+   "official_name": "Times Academy (Times Education Group)",
+   "cricos_code": "03457J",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "ELICOS / English",
+     "ielts": "EAP: 5.0 (Academic) or Intermediate",
+     "pte": "",
+     "notes": "General English all levels with placement test; EAP1 ~ IELTS 5.5, EAP2 ~ 6.0, EAP3 ~ 6.5; IELTS prep Intermediate"
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0",
+     "pte": "",
+     "notes": "'IELTS 6.0 or equivalent'; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0",
+     "pte": "",
+     "notes": "incl. Diploma of Early Childhood, Community Services, HRM"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0",
+     "pte": "",
+     "notes": "BSB80120"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.times.nsw.edu.au/wp-content/uploads/2024/10/TA-Course-Guide-2025_compressed.pdf",
+   "document": "Times Academy Course Guide 2025 - Sep 2024 version 1",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TORRENS UNIVERSITY AUSTRALIA",
+   "pricelist_name": "Torrens University Australia",
+   "official_name": "Torrens University Australia",
+   "cricos_code": "03389E",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no skill below 42) [UAC]",
+     "notes": "Official course page (Bachelor of Business) states IELTS 'or equivalent' only; PTE figure from UAC Torrens English proficiency page; Health bachelor degrees IELTS 6.5 (min 5.5) / PTE 58 (min 43) per UAC"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "43 (min 35 in each skill) [UAC]",
+     "notes": "Torrens Business, Design and Hospitality diplomas per UAC; Health and Business diplomas 5.5 (min 5.5) / PTE 43 (min 43). Not verified on official site"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no skill below 50) [UAC]",
+     "notes": "Official MBA page: IELTS 6.5 (no band <6.0) 'or equivalent'; PTE from UAC"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no skill below 50) [UAC]",
+     "notes": "Per UAC; GradCert Business Administration & M International Hotel Mgmt 6.0 (min 5.5) / PTE 50 (min 42)"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Nursing",
+     "ielts": "7.0 in each of the four components",
+     "pte": "63 minimum",
+     "notes": "Official course page; OET 350 L/W, 360 R/S; TOEFL iBT 91. UAC lists PTE 65 (min 65 each) - contradiction"
+    }
+   ],
+   "elicos_pathway": "English pathway via partner ELICOS providers (e.g. ILSC Language Schools); no scores stated",
+   "source_url": "https://www.torrens.edu.au/courses/business/bachelor-of-business",
+   "document": "Torrens University course pages (Entry details); UAC Torrens English language proficiency",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TR4INRIGHT",
+   "pricelist_name": "TR4INRIGHT",
+   "official_name": "Pan Bird Pty Ltd t/a Tr4in Right",
+   "cricos_code": "03618G",
+   "country": "Australia",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "Offers General English (097896G) and English for Academic Purposes Levels 1 and 2 (116805K) per third-party listing.",
+   "source_url": "",
+   "document": "",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "TRAINING FOR KNOWLEDGE AND LIVELIHOOD",
+   "pricelist_name": "Training for Knowledge and Livelihood (TKL)",
+   "official_name": "Training for Knowledge & Livelihood t/a TKL College",
+   "cricos_code": "03770M",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "General admission requirement 'or equivalent' - PTE not stated; or Cert IV at Australian RTO within 2 yrs, or TKL English Placement Test"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Same general requirement"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Same general requirement (Graduate Diploma of Management (Learning))"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Upper Intermediate level or above from an approved ELICOS provider accepted",
+   "source_url": "https://trainingforknowledgeandlivelihood.s3.ap-southeast-2.amazonaws.com/378/TKL-Prospectus_V1.1-web-version-nov2025.pdf",
+   "document": "TKL Prospectus V1.1 - updated 05 Nov 2025",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNISC ADELAIDE",
+   "pricelist_name": "UniSC Adelaide",
+   "official_name": "University of the Sunshine Coast (UniSC Adelaide campus, operated by Education Centre of Australia under service agreement)",
+   "cricos_code": "01595D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no subtest below 5.5)",
+     "pte": "50 (no subscore below 50)",
+     "notes": "University-wide undergraduate standard; Adelaide offers B ICT and B Education Studies (Early Childhood)"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no subtest below 6.0)",
+     "pte": "58 (no subscore below 54)",
+     "notes": "Postgraduate coursework standard; Adelaide offers M ICT, M Cyber Security and Forensics, MBA/Business Intelligence and Analytics"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Successful completion of UniSC EAP 2 with minimum overall 70% accepted (undergraduate); Tertiary Preparation Pathway / Postgraduate Qualifying Pathway exist",
+   "source_url": "https://www.unisc.edu.au/study/how-to-apply/english-language-requirements",
+   "document": "UniSC English language requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNISC ADELAIDE YY",
+   "pricelist_name": "UniSC Adelaide - YY",
+   "official_name": "University of the Sunshine Coast (UniSC Adelaide, operated by Education Centre of Australia)",
+   "cricos_code": "01595D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 Academic (min 5.5 each subtest)",
+     "pte": "50 (no subscore below 50)",
+     "notes": "Undergraduate; page says 'Pearson Test of English (PTE)'"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 Academic (min 6.0 each subtest)",
+     "pte": "58 (no subscore below 54)",
+     "notes": "Postgraduate coursework"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Education (Early Childhood/Primary/Secondary) and Master of Teaching",
+     "ielts": "7.5 (S&L 8.0, R&W 7.0)",
+     "pte": "",
+     "notes": "Table 2, IELTS-type criteria only; unclear whether Bachelor of Education Studies (Early Childhood) offered at Adelaide falls under this"
+    },
+    {
+     "course": "Nursing (Bachelor of Nursing Science)",
+     "ielts": "7.0 (L,R,S 7.0; W 6.5)",
+     "pte": "",
+     "notes": "Table 2; not offered at Adelaide"
+    },
+    {
+     "course": "Social Work",
+     "ielts": "7.0 (7.0 each)",
+     "pte": "",
+     "notes": "Table 2; not offered at Adelaide"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "https://www.unisc.edu.au/international/international-students/english-language-requirements",
+   "document": "English language requirements - UniSC (international)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNIVERSITY OF NEW CASTLE",
+   "pricelist_name": "University of New Castle (Hunter Education Group)",
+   "official_name": "Hunter Education Group (Hunter Education Group Pty Ltd per refund policy hint)",
+   "cricos_code": "04215H",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 (min 5.0 each band)",
+     "pte": "",
+     "notes": "'IELTS 5.5 or equivalent'; Cert IV Entrepreneurship page; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (min 5.0 each band)",
+     "pte": "",
+     "notes": "Diploma of Business page; PTE equivalent not stated"
+    },
+    {
+     "level": "ELICOS / English",
+     "ielts": "5.0 (min 4.5 each band)",
+     "pte": "",
+     "notes": "EAP entry; exits at IELTS 5.5 equivalency"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Hunter EAP (entry IELTS 5.0, min 4.5) exits at IELTS 5.5 equivalency, described as 'direct, no additional IELTS entry' into Hunter Business/Hospitality Academy Diplomas",
+   "source_url": "https://hunter.edu.au/course/diploma-of-business/",
+   "document": "Diploma of Business course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNIVERSITY OF TASMANIA",
+   "pricelist_name": "University of Tasmania (UTAS)",
+   "official_name": "University of Tasmania",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Other",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "43 (no score below 36)",
+     "notes": "Foundation programs"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 (no band below 5.0)",
+     "pte": "43 (no score below 36)",
+     "notes": "Advanced Diploma in Applied Science (Marine Engineering / Nautical Science); other diplomas follow undergraduate standard"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "50 (no score below 42)",
+     "notes": "Undergraduate standard"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "50 (no score below 50)",
+     "notes": "Postgraduate coursework standard"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.0 (no band below 6.0)",
+     "pte": "50 (no score below 50)",
+     "notes": "Postgraduate coursework standard"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Psychological Science (incl. Honours)",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no score below 50)",
+     "notes": ""
+    },
+    {
+     "course": "Ageing Studies and Services; Dementia Care",
+     "ielts": "6.5 (no band below 6.5)",
+     "pte": "58 (no score below 58)",
+     "notes": ""
+    },
+    {
+     "course": "Advanced Practice; Business Administration (Global); Environmental Geospatial Analysis; Public Health and others listed",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no score below 50)",
+     "notes": ""
+    },
+    {
+     "course": "Counselling",
+     "ielts": "6.5 (no band below 6.5)",
+     "pte": "",
+     "notes": "PTE not listed"
+    },
+    {
+     "course": "Health Protection",
+     "ielts": "7.0 (no band below 6.5)",
+     "pte": "65 (no score below 58)",
+     "notes": ""
+    },
+    {
+     "course": "Social Work",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (no score below 65)",
+     "notes": ""
+    },
+    {
+     "course": "Exercise and Sport Science; Medical Science and Medicine; Clinical Pharmacy",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (no score below 65)",
+     "notes": ""
+    },
+    {
+     "course": "Occupational Therapy; Physiotherapy; Speech Pathology",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "",
+     "notes": "PTE not listed"
+    },
+    {
+     "course": "Graduate Certificate in Nursing",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (no score below 65)",
+     "notes": "or OET B in each component"
+    },
+    {
+     "course": "Nursing (Bachelor etc.)",
+     "ielts": "7.0 in reading, listening, speaking; 6.5 writing (overall 7.0)",
+     "pte": "63 overall with section minimums",
+     "notes": "AHPRA standard; or OET"
+    },
+    {
+     "course": "Professional Psychology; Psychology (Clinical)",
+     "ielts": "7.0 in reading, listening, speaking; 6.5 writing",
+     "pte": "66 overall with section minimums",
+     "notes": "or OET"
+    },
+    {
+     "course": "Education; Teaching",
+     "ielts": "7.5 (listening & speaking 8.0; reading & writing 7.0)",
+     "pte": "",
+     "notes": "PTE not listed"
+    }
+   ],
+   "elicos_pathway": "UTAS English Language Centre EAP: 10-week EAP 1 grade B (=IELTS 5.5) / grade A (=6.0); EAP 2 grade B (=6.5) / grade A (=7.0); Academic English Level 2 min 55% for undergraduate entry",
+   "source_url": "https://www.utas.edu.au/study/apply/admission-requirements/english-language-requirements",
+   "document": "English language requirements - University of Tasmania",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "VIA EDUCATION",
+   "pricelist_name": "VIA Education",
+   "official_name": "Cachet Training Pty Ltd t/a VIA Education and VIA Hospitality Institute",
+   "cricos_code": "03562G",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "All overseas students: Upper Intermediate (IELTS 6.0 or equivalent); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "same general rule; e.g. BSB50420"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning) - general rule"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://via.edu.au/why-choose-via/read-me-first/",
+   "document": "Read Me First (Pre-enrolment Information) - VIA Education",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "VICTORY INSTITUTE",
+   "pricelist_name": "Victory Institute",
+   "official_name": "Victory Institute of Vocational Education Pty Ltd t/a Victory Institute (RTO 91161)",
+   "cricos_code": "02678D",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 equivalent",
+     "pte": "",
+     "notes": "BSB40120 Cert IV in Business page: 'equivalent to an IELTS 6.0'; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 equivalent",
+     "pte": "",
+     "notes": "BSB50120 Diploma of Business page; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.victory.nsw.edu.au/courses/diploma-of-business-bsb50215/",
+   "document": "Victory Institute course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "VIGIL INTERNATIONAL COLLEGE",
+   "pricelist_name": "Vigil International College",
+   "official_name": "Vigil International College",
+   "cricos_code": "04044M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Cert III Carpentry page; lists PTE/CAE/iBT as equivalents but no scores; alt: 5 yrs English-country education, GE Upper-Intermediate placement test, Vigil LLND assessment"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "52",
+     "notes": "Diploma of Hospitality page: PTE 52, TOEFL iBT 60, CAE 169, Duolingo 105; test within 2 yrs"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://vigilinternationalcollege.edu.au/course/sit50422-diploma-of-hospitality-management/",
+   "document": "SIT50422 Diploma of Hospitality Management course page",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WARWICK INSTITUTE OF AUSTRALIA",
+   "pricelist_name": "Warwick Institute of Australia",
+   "official_name": "Warwick Institute of Australia (WIA)",
+   "cricos_code": "02800G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Handbook general minimum; institute may conduct an entry test; students below level must defer; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Confirmed on Diploma of IT course page"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "Graduate Diploma of Management (Learning); handbook general minimum"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.warwick.edu.au/wp-content/uploads/2026/02/WIA-Student-Handbook-May-2024-V16.pdf",
+   "document": "WIA Student Handbook - Combined Version 16, May 2024",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WATTLE COLLEGE",
+   "pricelist_name": "Wattle College",
+   "official_name": "Prime Education Group Pty Ltd t/a Wattle College",
+   "cricos_code": "",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 or equivalent",
+     "pte": "",
+     "notes": "THIRD PARTY ONLY (courses.com.au, superseded Diploma of Hospitality Management listing); or LLN assessment at ACSF Level 4; not verified on official site"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://courses.com.au/provider-course/diploma-of-hospitality-management-wattle-college",
+   "document": "courses.com.au - Diploma of Hospitality Management - Wattle College (third party)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WELLINGTON BERKELEY BUSINESS INSTITUTE",
+   "pricelist_name": "Wellington - Berkeley Business Institute",
+   "official_name": "Berkeley Business Institute (BBI), part of Wellington Education Group Pty Ltd",
+   "cricos_code": "03395G",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "'upper intermediate proficiency in English or IELTS 6.0 (or equivalent)'; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "same for all courses incl. Early Childhood; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "BSB80120 listed in course guide"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.berkeley.edu.au/pre-enrolment/entry-requirements/",
+   "document": "BBI Entry Requirements; BBI Course Guide Version 13 - Apr 2026, Version 13",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WELLINGTON LE ROSEY",
+   "pricelist_name": "Wellington - Le Rosey",
+   "official_name": "Le Rosey Hospitality Institute (LRHI), operated by Wellington Education Group Pty Ltd",
+   "cricos_code": "04183M",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "International students: IELTS 6.0 or equivalent (e.g. Cert III Commercial Cookery CRICOS 114800J); PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "e.g. SIT50422 Diploma of Hospitality Management (CRICOS 114802G); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://lerosey.edu.au/diploma-of-hospitality-management-2/",
+   "document": "Diploma of Hospitality Management - Le Rosey Hospitality Institute",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WELLINGTON YORK BUSINESS INSTITUTE",
+   "pricelist_name": "Wellington - York Business Institute",
+   "official_name": "York Business Institute (Wellington Education Group; also York English College)",
+   "cricos_code": "03549E",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (or equivalent) or upper intermediate English",
+     "pte": "",
+     "notes": "General requirement on pre-enrolment page; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (or equivalent) or upper intermediate English",
+     "pte": "",
+     "notes": "Same"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (or equivalent)",
+     "pte": "",
+     "notes": "BSB80120 featured; same general requirement assumed by page (not course-specific)"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Applicants not meeting English requirement may take an additional English course at York English College (General English).",
+   "source_url": "https://york.edu.au/pre-enrolment/",
+   "document": "York Business Institute - Pre-Enrolment (Entry Requirements)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WESTERN SYDNEY COLLEGE",
+   "pricelist_name": "Western Sydney College (WSC)",
+   "official_name": "International College of Australia Pty Ltd T/A Western Sydney College",
+   "cricos_code": "03690M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Cert IV (FNS40222, SIT40521); 'or equivalent', PTE not stated; alternatives: Advanced level ELICOS from approved provider, Cert IV at Australian RTO within 2 yrs, or WSC English Placement Test"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "Same rule for all 13 courses; PTE equivalent not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning); PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "English proficiency at Advanced level from an approved ELICOS provider accepted.",
+   "source_url": "https://westernsydneycollege.s3.ap-southeast-2.amazonaws.com/213/WSC_Prospectus_2026-V1.0_May2026.pdf",
+   "document": "WSC Prospectus 2026 V1.0 - updated 25 May 2026",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WESTERN SYDNEY UNIVERSITY",
+   "pricelist_name": "Western Sydney University",
+   "official_name": "Western Sydney University",
+   "cricos_code": "00917K",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no communicative skill below 50)",
+     "notes": "standard band for all UG, PG and research programs except those listed; tests within 2 years; IELTS One Skill Retake accepted; PTE Online/IELTS Online not accepted"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no communicative skill below 50)",
+     "notes": "standard band"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "58 (no communicative skill below 50)",
+     "notes": "standard band; research programs same"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Bachelor of Nursing / B Nursing (Advanced) / Master of Nursing Practice (Preregistration)",
+     "ielts": "7.0 overall in each sitting, 7.0 in each component (max two sittings in 6 months, no component below 6.5)",
+     "pte": "65 overall in each sitting, 65 each skill (max two sittings in 6 months, no skill below 58)",
+     "notes": ""
+    },
+    {
+     "course": "B Occupational Therapy, B Paramedicine, B Physiotherapy, B Speech Pathology, B Health Science (Sport & Exercise Science)",
+     "ielts": "7.0 overall (Reading & Writing 6.5; Speaking & Listening 7.0)",
+     "pte": "65 overall (Reading & Writing 58; Listening & Speaking 65)",
+     "notes": ""
+    },
+    {
+     "course": "B Clinical Science (Medicine)/Doctor of Medicine; B Podiatric Medicine",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (65 in each skill, one sitting)",
+     "notes": ""
+    },
+    {
+     "course": "Bachelor of Education (Primary); Master of Teaching",
+     "ielts": "7.5 overall (Reading & Writing 7.0; Speaking & Listening 8.0)",
+     "pte": "78 overall (Speaking & Listening 79; Reading & Writing 65)",
+     "notes": ""
+    },
+    {
+     "course": "Bachelor of Social Work; B Criminal and Community Justice/B Social Work; Master of Social Work (Qualifying)",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (65 in each skill, one sitting)",
+     "notes": ""
+    },
+    {
+     "course": "Master of Professional Psychology; Master of Clinical Psychology",
+     "ielts": "7.0 (no band below 7.0)",
+     "pte": "65 (65 in each skill, one sitting)",
+     "notes": ""
+    }
+   ],
+   "elicos_pathway": "Western Sydney University English programs (The College) offer pathways; details page could not be retrieved.",
+   "source_url": "https://www.westernsydney.edu.au/international/studying/entry-requirements",
+   "document": "International entry requirements - Western Sydney University",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WHITE HOUSE INTERNATIONAL COLLEGE",
+   "pricelist_name": "White House International College",
+   "official_name": "Whitehouse International College (WHIC)",
+   "cricos_code": "04067D",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "CHC33021 Cert III Individual Support brochure: 'IELTS 6.0 overall (or equivalent)'; PTE equivalent not stated; plus LLN/digital literacy screening and interview"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "CHC52021 Diploma of Community Services; PTE and TOEFL accepted if equivalent to IELTS 6.0 but PTE score not stated"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 (no band below 5.5)",
+     "pte": "",
+     "notes": "BSB80120 Graduate Diploma of Management (Learning); PTE/TOEFL accepted as equivalent, score not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://whitehousecollege.edu.au/diploma-of-community-services/",
+   "document": "WHIC course pages; CHC33021 course brochure",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WIC",
+   "pricelist_name": "WIC (Wells International College)",
+   "official_name": "Wells International College Pty Ltd",
+   "cricos_code": "01856K",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Cert IV IT / Leadership & Management: IELTS 6.0 or equivalent; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "IT and Leadership & Management diplomas/advanced diplomas"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.0 overall",
+     "pte": "",
+     "notes": "Graduate Diploma of Management (Learning)"
+    }
+   ],
+   "specific_courses": [
+    {
+     "course": "Certificate III in Commercial Cookery; Certificate IV in Kitchen Management",
+     "ielts": "",
+     "pte": "",
+     "notes": "'Suitable English language skills' + Year 12; no score stated"
+    },
+    {
+     "course": "Hospitality (Cert III/IV, Diploma, Advanced Diploma)",
+     "ielts": "",
+     "pte": "",
+     "notes": "English requirement not stated in guide"
+    }
+   ],
+   "elicos_pathway": "",
+   "source_url": "https://www.wic.edu.au/wp-content/uploads/2025_WIC_Course_Guide_V1.1.pdf",
+   "document": "Wells International College International Course Guide - V1.1 July 2025 (info correct as of Feb 2025)",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WILLIAM ANGLISS INSTITUTE TAFE",
+   "pricelist_name": "William Angliss Institute - TAFE",
+   "official_name": "William Angliss Institute",
+   "cricos_code": "01505M",
+   "country": "Australia",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "Academic 6.0 (no band less than 5.0)",
+     "pte": "47 (PTE Academic)",
+     "notes": "Certificate/Diploma/Adv Diploma column; also CAE 161, TOEFL iBT 67"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic 6.0 (no band less than 5.0)",
+     "pte": "47",
+     "notes": "Same column"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "Academic 6.0 (no band less than 5.5)",
+     "pte": "47",
+     "notes": "CAE 161, TOEFL iBT 67"
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic 6.5 (no band less than 6.0)",
+     "pte": "58",
+     "notes": "CAE 176 (no component below 169), TOEFL iBT 79"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "Students below requirement must study ELICOS at an approved centre (Browns, Discover English, ELC, Hawthorn-Melbourne, ILSC, Impact, Navitas English, UEC) to exit at equivalent level; EAP strongly recommended.",
+   "source_url": "https://angliss.edu.au/international/how-to-apply/language-requirements",
+   "document": "William Angliss Institute - International - Language requirements",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "YORK BUSINESS INSTITUTE",
+   "pricelist_name": "York Business Institute (Wellington)",
+   "official_name": "York Business Institute (Wellington Education Group; RTO 45033, ABN 50 606 511 353)",
+   "cricos_code": "03549E",
+   "country": "Australia",
+   "status": "Sebagian",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Cert IV in Business page; PTE equivalent not stated"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "6.0 or equivalent",
+     "pte": "",
+     "notes": "Diploma of Business; Diploma of Interpreting same; PTE equivalent not stated"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://york.edu.au/all-courses-2/diploma-of-business/",
+   "document": "York Business Institute course pages",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUCKLAND INSTITUTE OF STUDIES (AIS)",
+   "pricelist_name": "Auckland Institute of Studies (AIS)",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "AUCKLAND UNIVERSITY OF TECHNOLOGY (AUT)",
+   "pricelist_name": "Auckland University of Technology (AUT)",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 overall, all bands 5.5+ (Academic)",
+     "pte": "50 overall, no score below 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 overall, all bands 6.0+ (Academic)",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "5.5 overall, all bands 5.0+ (Academic)",
+     "pte": "",
+     "notes": ""
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 overall, all bands 6.0+ (Academic)",
+     "pte": "58 overall, no score below 50",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.aut.ac.nz/study/fees-and-scholarships/fees-to-study-at-aut/international-student-fees-at-aut",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "ICL GRADUATE BUSINESS SCHOOL",
+   "pricelist_name": "ICL Graduate Business School",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Belum ditemukan",
+   "levels": [],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LAURUS EDUCATION NZ",
+   "pricelist_name": "Laurus Education NZ",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "IELTS (Academic or General) 5.0, no band lower than 5.0",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "IELTS 6.0 Academic",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "LE CORDON BLEU NEW ZEALAND",
+   "pricelist_name": "Le Cordon Bleu New Zealand",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "Academic or General IELTS 5.5",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "IELTS 5.5 Academic",
+     "pte": "",
+     "notes": ""
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "IELTS 6.0 Academic",
+     "pte": "",
+     "notes": ""
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic IELTS 6.5",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MANUKAU INSTITUTE OF TECHNOLOGY (MIT)",
+   "pricelist_name": "Manukau Institute of Technology (MIT)",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "General or Academic IELTS 5.5, no band lower than 5.0",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic IELTS 5.5, no band lower than 5.0",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "Academic 6.0 overall; writing & speaking >=6.0, reading & listening >=5.5",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "MASSEY UNIVERSITY",
+   "pricelist_name": "Massey University",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.0 overall, min 5.5 each band (Academic)",
+     "pte": "50 overall, min 42 each communicative skill",
+     "notes": ""
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "6.5 overall, min 6.0 each band (Academic)",
+     "pte": "58 overall, min 50 each communicative skill",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 overall, min 6.0 each band (Academic)",
+     "pte": "58 overall, min 50 each communicative skill",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "NZMA",
+   "pricelist_name": "NZMA",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "General or Academic 5.0, no band lower than 5.0",
+     "pte": "PTE Academic 36, no band lower than 36",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic 6.0, no band lower than 5.5",
+     "pte": "PTE Academic 50, no band lower than 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "OTAGO POLYTECHNIC",
+   "pricelist_name": "Otago Polytechnic",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "IELTS 5.5 overall",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "IELTS 6 overall",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "IELTS 6 overall",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "IELTS 6 overall",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "IELTS 6.5 overall",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "ELICOS / English",
+     "ielts": "IELTS 5.5 overall",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "SOUTHERN INSTITUTE OF TECHNOLOGY (SIT)",
+   "pricelist_name": "Southern Institute of Technology (SIT)",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Master",
+     "ielts": "IELTS Academic 6.5 with no band score lower than 6",
+     "pte": "PTE Academic 58 with no band score lower than 50",
+     "notes": ""
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
+     "pte": "PTE Academic 50 with no band score lower than 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "IELTS Academic 6.0 with no band score lower than 5.5",
+     "pte": "PTE Academic 50 with no band score lower than 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "IELTS Academic 5.5 with no band score lower than 5.0",
+     "pte": "PTE Academic 42 with no band score lower than 36",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "IELTS General or Academic 5.0 in all bands",
+     "pte": "PTE Academic 36 in all bands",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNITEC",
+   "pricelist_name": "Unitec",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Other",
+     "ielts": "5.5 (General or Academic), no band lower than 5",
+     "pte": "PTE Academic 42, no band lower than 36",
+     "notes": ""
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic 6.0, no band lower than 5.5",
+     "pte": "PTE Academic 50, no band lower than 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "Academic 6.0, no band lower than 5.5",
+     "pte": "PTE Academic 50, no band lower than 42",
+     "notes": ""
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "Academic 6.0, no band lower than 5.5",
+     "pte": "PTE Academic 50, no band lower than 42",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic 6.5, no band lower than 6",
+     "pte": "PTE Academic 58, no band lower than 50",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Certificate III/IV",
+     "ielts": "5.0 (General or Academic), no band lower than 5",
+     "pte": "PTE Academic 36, no band lower than 36",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "UNIVERSITY OF AUCKLAND",
+   "pricelist_name": "University of Auckland",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "6.5 (no band below 6.0)",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "6.5 overall, no band below 6.0 (Academic)",
+     "pte": "58 overall, no communicative score below 50",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WINTEC - WAIKATO INSTITUTE OF TECHNOLOGY",
+   "pricelist_name": "Wintec - Waikato Institute of Technology",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Certificate III/IV",
+     "ielts": "Academic IELTS 5.0 with no band score lower than 5.0, or equivalent",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0, or equivalent",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Bachelor",
+     "ielts": "Academic IELTS 6.0 with no band lower than 5.5; or equivalent",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "Academic IELTS 6.0, with no individual band score lower than 5.5, or equivalent",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic IELTS 6.5, with no individual band score lower than 6.0; or equivalent",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "ELICOS / English",
+     "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0",
+     "pte": "",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Other",
+     "ielts": "Academic IELTS 5.5, with no individual band score lower than 5.0; or equivalent",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  },
+  {
+   "key": "WITT - WESTERN INSTITUTE OF TECHNOLOGY AT TARANAKI",
+   "pricelist_name": "WITT - Western Institute of Technology at Taranaki",
+   "official_name": "",
+   "cricos_code": "",
+   "country": "New Zealand",
+   "status": "Terverifikasi",
+   "levels": [
+    {
+     "level": "Bachelor",
+     "ielts": "IELTS Academic 6.5, no band lower than 6.5",
+     "pte": "PTE 58, no band below 58 (2026 agent guide; check Nursing Council acceptance)",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Diploma / Advanced Diploma",
+     "ielts": "Academic 5.5, no band below 5.0",
+     "pte": "PTE 42, no band below 36 (2026 agent guide)",
+     "notes": "syarat paling umum untuk jenjang ini di sekolah; cek per program"
+    },
+    {
+     "level": "Master",
+     "ielts": "Academic 6.5, no band below 6.0",
+     "pte": "",
+     "notes": ""
+    },
+    {
+     "level": "Graduate Certificate / Graduate Diploma",
+     "ielts": "Academic 6.0, no band below 5.5",
+     "pte": "",
+     "notes": ""
+    }
+   ],
+   "specific_courses": [],
+   "elicos_pathway": "",
+   "source_url": "https://www.witt.ac.nz/assets/WITT-PDF-Documents/WITT-International-Prospectus.pdf",
+   "document": "Brosur/fee schedule & situs resmi sekolah",
+   "checked_date": "2026-11-10",
+   "auto_updated": false
+  }
+ ]
+}

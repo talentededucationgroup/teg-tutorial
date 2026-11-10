@@ -1,6 +1,6 @@
 {
   "title": "Cara memakai Daftar Harga Biaya Studi TEG",
-  "version": "v6",
+  "version": "v7",
   "released": "2026-11-10",
   "website_data_date": "2026-11-10 (R78)",
   "source_page": "https://pricelist.talentededucationgroup.com/biaya-studi",
@@ -8,13 +8,13 @@
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 276.9,
+  "duration_seconds": 277.2,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/tutorial.mp4",
-      "bytes": 11326223,
-      "sha256": "8cf4c7e8d3beb58ead966afb3748424828f2d923f6295a00073f27b8a502db6c"
+      "bytes": 11352350,
+      "sha256": "3a9821a62bd6c71b084f1d41afe6603cadab15911efbdbe8506c907835ac3eb5"
     },
     "poster.jpg": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/poster.jpg",
@@ -24,12 +24,12 @@
     "subtitle-en.srt": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/subtitle-en.srt",
       "bytes": 2754,
-      "sha256": "8e76833b0c402d0ae8470a84df5a339da8801f7b31452a2a28d19ee8b09ba076"
+      "sha256": "3ec75226d4c1602794c6305673fd7d7024613546064206d303a9392d28b85904"
     },
     "index.html": {
       "url": "https://talentededucationgroup.github.io/teg-tutorial/index.html",
       "bytes": 3968,
-      "sha256": "10e0e0b9e63e6fda56fb1b1cbabc23dee4d279a7edfafa7ec1111324747f24cb"
+      "sha256": "517e28b75413541f4732e74b91610d5eaabcf382b617e44fda52264517248c0f"
     }
   },
   "chapters": [
@@ -58,47 +58,47 @@
       "title": "Asuransi & skor bahasa"
     },
     {
-      "start": "01:18",
+      "start": "01:19",
       "title": "Urutkan hasil"
     },
     {
-      "start": "01:30",
+      "start": "01:31",
       "title": "Baca kartu program"
     },
     {
-      "start": "01:46",
+      "start": "01:47",
       "title": "Rincian program"
     },
     {
-      "start": "01:58",
+      "start": "01:59",
       "title": "Dana awal, rekening koran & refund"
     },
     {
-      "start": "02:10",
+      "start": "02:11",
       "title": "PDF, WhatsApp & daftar"
     },
     {
-      "start": "02:22",
+      "start": "02:23",
       "title": "Bandingkan"
     },
     {
-      "start": "02:34",
+      "start": "02:35",
       "title": "Simpan semua hasil"
     },
     {
-      "start": "02:44",
+      "start": "02:45",
       "title": "Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "02:56",
+      "start": "02:57",
       "title": "Paket Pathway VET + HE"
     },
     {
-      "start": "03:06",
+      "start": "03:07",
       "title": "Sekolah lain (CRICOS)"
     },
     {
-      "start": "03:14",
+      "start": "03:15",
       "title": "Les bahasa (VSA)"
     },
     {
@@ -110,11 +110,11 @@
       "title": "Mulai Daftar"
     },
     {
-      "start": "04:08",
+      "start": "04:09",
       "title": "Aplikasi Talented"
     },
     {
-      "start": "04:21",
+      "start": "04:22",
       "title": "Konsultasi gratis"
     }
   ],

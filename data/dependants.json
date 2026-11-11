@@ -1,6 +1,6 @@
 {
- "version": "2026-11-11T21:50:00+07:00",
- "updated_at": "2026-11-11T21:50:00+07:00",
+ "version": "2026-11-11T21:55:00+07:00",
+ "updated_at": "2026-11-11T21:55:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -69,7 +69,8 @@
    "de": "Davon im Schulalter",
    "it": "Di cui in età scolare",
    "nl": "Waarvan schoolgaand",
-   "ru": "Из них школьного возраста"
+   "ru": "Из них школьного возраста",
+   "_deprecated": "Diganti q_child_age (11/11/2026) - jangan ditampilkan lagi"
   },
   "result_note": {
    "id": "Tambahan untuk keluarga sudah dihitung ke Dana awal dan Saran saldo rekening koran.",
@@ -206,6 +207,40 @@
    "it": "⚠️ Porti la famiglia ma hai scelto l'OSHC Single (solo lo studente). Dovresti scegliere la polizza adatta: {jenis}.",
    "nl": "⚠️ Je neemt je gezin mee maar koos OSHC Single (alleen de student). Kies de passende polis: {jenis}.",
    "ru": "⚠️ Вы едете с семьёй, но выбрали OSHC Single (только студент). Нужно выбрать подходящий полис: {jenis}."
+  },
+  "q_child_age": {
+   "id": "Umur anak ke-{n} (tahun)",
+   "en": "Age of child {n} (years)",
+   "th": "อายุบุตรคนที่ {n} (ปี)",
+   "vi": "Tuổi của con thứ {n} (năm)",
+   "zh": "第 {n} 个孩子的年龄（岁）",
+   "ja": "{n} 人目の子どもの年齢（歳）",
+   "ko": "{n}번째 자녀 나이(세)",
+   "km": "អាយុកូនទី {n} (ឆ្នាំ)",
+   "fr": "Âge de l’enfant {n} (ans)",
+   "pt": "Idade do filho {n} (anos)",
+   "es": "Edad del hijo {n} (años)",
+   "de": "Alter von Kind {n} (Jahre)",
+   "it": "Età del figlio {n} (anni)",
+   "nl": "Leeftijd kind {n} (jaar)",
+   "ru": "Возраст ребёнка {n} (лет)"
+  },
+  "q_child_age_hint": {
+   "id": "Umur saat tiba di negara tujuan. Usia sekolah dan tarif visa dihitung otomatis dari umur.",
+   "en": "Age on arrival. School age and visa charges are worked out automatically from the age.",
+   "th": "อายุเมื่อเดินทางถึง ระบบคำนวณวัยเรียนและค่าวีซ่าให้อัตโนมัติ",
+   "vi": "Tuổi khi đến nơi. Độ tuổi đi học và phí visa được tính tự động.",
+   "zh": "抵达时的年龄。学龄与签证费按年龄自动计算。",
+   "ja": "到着時の年齢。就学年齢とビザ料金は年齢から自動計算されます。",
+   "ko": "도착 시 나이. 학령기와 비자 수수료는 나이로 자동 계산됩니다.",
+   "km": "អាយុពេលមកដល់។ អាយុសិក្សា និងថ្លៃទិដ្ឋាការគណនាដោយស្វ័យប្រវត្តិ។",
+   "fr": "Âge à l’arrivée. L’âge scolaire et les frais de visa sont calculés automatiquement.",
+   "pt": "Idade na chegada. Idade escolar e taxas de visto são calculadas automaticamente.",
+   "es": "Edad al llegar. La edad escolar y las tasas de visa se calculan automáticamente.",
+   "de": "Alter bei Ankunft. Schulalter und Visumgebühren werden automatisch berechnet.",
+   "it": "Età all’arrivo. Età scolare e costi del visto calcolati automaticamente.",
+   "nl": "Leeftijd bij aankomst. Schoolleeftijd en visumkosten worden automatisch berekend.",
+   "ru": "Возраст по прибытии. Школьный возраст и визовые сборы рассчитываются автоматически."
   }
  },
  "labels": {
@@ -495,7 +530,7 @@
  "calculation": {
   "AU": {
    "dana_awal_tambahan": "visa tambahan sesuai paspor (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + selisih OSHC keluarga vs Single x bulan + Talented service fee tanggungan AUD 150 x jumlah anggota keluarga ikut (Offshore)",
-   "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x anak usia sekolah + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
+   "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x jumlah anak umur 5-17 + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
    "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
    "contoh": {
     "kasus": "Paspor Indonesia, Bachelor, partner + 1 anak usia sekolah (<18), perjalanan AUD 2.000/orang",
@@ -517,6 +552,22 @@
   },
   "US": {
    "rekening_koran_minimum": "Form I-20"
+  }
+ },
+ "child_age_rules": {
+  "input": "Satu kolom umur (angka 0-25, tahun penuh saat tiba) per anak; jumlah kolom = q_children. Tidak ada pertanyaan \"anak usia sekolah\" lagi.",
+  "AU": {
+   "visa": "umur < 18 -> visa_charge.*.additional_under_18 (Indonesia 410); umur >= 18 -> additional_18_plus (Indonesia 1.255)",
+   "school_cost": "dikenakan bila 5 <= umur <= 17 (usia sekolah Australia, LIN 19/198 school costs untuk anak usia sekolah)",
+   "living_cost": "living_cost child untuk setiap anak (semua umur)",
+   "oshc": "cover Family bila ada anak (Single parent bila tanpa partner)"
+  },
+  "NZ": {
+   "school_cost": "dikenakan bila 5 <= umur <= 18 (anak usia sekolah non-domestik, NZD 17.000/tahun)",
+   "note": "aturan lain mengikuti countries.NZ"
+  },
+  "OTHER": {
+   "note": "Negara lain: umur dipakai untuk menandai usia sekolah 5-17; biaya mengikuti nz/uk/ca/us_note bila ada"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
- "version": "2026-11-11",
- "updated_at": "2026-11-11T21:40:00+07:00",
+ "version": "2026-11-11T21:50:00+07:00",
+ "updated_at": "2026-11-11T21:50:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -327,6 +327,23 @@
    "it": "Assicurazione sanitaria famiglia (differenza da Single)",
    "nl": "Gezinszorgverzekering (verschil met Single)",
    "ru": "Семейная медстраховка (разница с Single)"
+  },
+  "teg_service_fee_dependant": {
+   "id": "Talented service fee (per tanggungan)",
+   "en": "Talented service fee (per dependant)",
+   "th": "ค่าบริการ Talented (ต่อผู้ติดตาม)",
+   "vi": "Phí dịch vụ Talented (mỗi người phụ thuộc)",
+   "zh": "Talented 服务费（每位随行家属）",
+   "ja": "Talented サービス料（帯同家族1人あたり）",
+   "ko": "Talented 서비스 수수료(동반 가족 1인당)",
+   "km": "ថ្លៃសេវា Talented (ក្នុងម្នាក់អ្នកនៅក្នុងបន្ទុក)",
+   "fr": "Frais de service Talented (par personne à charge)",
+   "pt": "Taxa de serviço Talented (por dependente)",
+   "es": "Tarifa de servicio Talented (por dependiente)",
+   "de": "Talented-Servicegebühr (pro Angehörigem)",
+   "it": "Commissione di servizio Talented (per familiare)",
+   "nl": "Talented servicekosten (per gezinslid)",
+   "ru": "Сервисный сбор Talented (за члена семьи)"
   }
  },
  "countries": {
@@ -387,7 +404,14 @@
    "family_rules_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
    "family_rules_effective": "2026-10-02",
    "checked": "2026-11-11",
-   "child_age_note": "Anak berusia 18 tahun ke atas saat aplikasi umumnya tidak bisa diberi visa tanggungan (secondary Student visa) - kalkulator hanya menghitung anak < 18; partner memakai tarif additional_18_plus"
+   "child_age_note": "Anak berusia 18 tahun ke atas saat aplikasi umumnya tidak bisa diberi visa tanggungan (secondary Student visa) - kalkulator hanya menghitung anak < 18; partner memakai tarif additional_18_plus",
+   "teg_service_fee_dependant": {
+    "amount": 150,
+    "currency": "AUD",
+    "per": "dependant (partner atau anak)",
+    "applies": "offshore (sama seperti Prof. Adm / Talented service fee pemohon utama)",
+    "source": "Keputusan pemilik TEG 11/11/2026"
+   }
   },
   "NZ": {
    "currency": "NZD",
@@ -409,7 +433,14 @@
      "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/"
     ]
    },
-   "checked": "2026-11-11"
+   "checked": "2026-11-11",
+   "teg_service_fee_dependant": {
+    "amount": 150,
+    "currency": "NZD",
+    "per": "dependant (partner atau anak)",
+    "applies": "offshore (sama seperti Prof. Adm / Talented service fee pemohon utama)",
+    "source": "Keputusan pemilik TEG 11/11/2026"
+   }
   },
   "GB": {
    "currency": "GBP",
@@ -463,19 +494,20 @@
  },
  "calculation": {
   "AU": {
-   "dana_awal_tambahan": "visa tambahan sesuai paspor (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + selisih OSHC keluarga vs Single x bulan",
+   "dana_awal_tambahan": "visa tambahan sesuai paspor (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + selisih OSHC keluarga vs Single x bulan + Talented service fee tanggungan AUD 150 x jumlah anggota keluarga ikut (Offshore)",
    "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x anak usia sekolah + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
    "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
    "contoh": {
     "kasus": "Paspor Indonesia, Bachelor, partner + 1 anak usia sekolah (<18), perjalanan AUD 2.000/orang",
     "visa_tambahan": "1.255 + 410 = 1.665",
     "rekening_koran_tambahan": "10.394 + 4.449 + 13.502 + 2 x 2.000 = 32.345",
-    "saran_saldo_tambahan": "32.345 + 1.665 + selisih OSHC keluarga"
+    "saran_saldo_tambahan": "32.345 + 1.665 + selisih OSHC keluarga",
+    "service_fee_tanggungan": "2 x 150 = 300"
    }
   },
   "NZ": {
    "rekening_koran_minimum_tambahan": "partner: NZD 4.200 (bila eligible work visa); anak usia sekolah non-domestik: NZD 17.000/tahun + biaya sekolah internasional (konfirmasi sekolah)",
-   "dana_awal_tambahan": "visa partner (from NZD 1.630) + visa anak (cek INZ) + asuransi keluarga"
+   "dana_awal_tambahan": "visa partner (from NZD 1.630) + visa anak (cek INZ) + asuransi keluarga + Talented service fee tanggungan NZD 150 x jumlah anggota keluarga ikut (Offshore)"
   },
   "GB": {
    "rekening_koran_minimum_tambahan": "per anggota: 845 (London) / 680 x min(bulan kursus, 9)"

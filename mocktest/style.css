@@ -119,3 +119,23 @@ footer{margin-top:24px;color:var(--muted);font-size:.92rem}.hist{padding-left:1.
 .btn{box-shadow:0 1px 2px rgba(0,0,0,.18)}.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media print{.acts{display:none!important}}
 @media(max-width:600px){.rp-band{flex-wrap:wrap}.rp-bt{flex:1 1 0;min-width:0}.rp-code{flex-basis:100%;text-align:left}}
+/* ===== Save & continue / .tegmock files / teacher mode (T1) ===== */
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;opacity:0}
+.filebtn{position:relative;cursor:pointer}.filebtn:focus-within{outline:3px solid var(--gold);outline-offset:2px}
+.flash{background:var(--ok);border:1px solid var(--green);border-radius:10px;padding:10px 12px;font-weight:700;margin:0 0 12px}
+.savecard{border:2px solid var(--green)}.sbtns{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.runbar{flex-wrap:wrap}.rbtns{display:flex;gap:6px;align-items:center}
+.toolrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px;padding-top:12px;border-top:1px dashed var(--line)}.toolrow small{flex-basis:100%;color:var(--muted);font-size:.82rem}
+.modal .box.err{border:2px solid #b3261e}.modal .box p{margin:0 0 12px;word-break:break-word}
+.tm-badge{background:#8a5a00;color:#fff;font-weight:700;font-size:.85rem;padding:6px 16px;letter-spacing:.02em}
+.report .tmk{color:#8a5a00;font-size:.6em;margin-left:1px}
+.tm-block{margin:0 16px}.tmr{border-left:4px solid #8a5a00;background:#fbf6ea;border-radius:6px;padding:6px 10px;margin:6px 0}.tmr p{margin:.2em 0}.tmc{white-space:pre-wrap}.tmm{font-weight:600}
+.if-ctext{white-space:pre-wrap;font-size:.8rem;margin-top:4px}
+.tf{display:grid;gap:4px;margin:10px 0}.tf input,.tf textarea{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px;width:100%}
+h3.th{font-size:1rem;margin:14px 0 6px;color:var(--green)}
+.rub{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0}.rub input[type=number]{width:90px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;margin:8px 0}.rgrid label{display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1px dashed var(--line);padding:4px 0}
+.tans{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;margin:6px 0;max-height:420px;overflow:auto}
+.rv.na{background:var(--bg)}
+@media print{.toolrow,.savecard,.flash,#msgbox{display:none!important}
+ body.tprint #app>*:not(#tBody),body.tprint #tBody>*:not(#tPrevBox){display:none!important}}

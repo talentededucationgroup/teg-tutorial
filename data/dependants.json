@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11T21:55:00+07:00",
- "updated_at": "2026-11-11T21:55:00+07:00",
+ "updated_at": "2026-11-11T22:30:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -431,7 +431,7 @@
     "note": "Instrumen hukum mewajibkan travel expenses tanpa angka tetap; pakai angka panduan Home Affairs di Excel untuk setiap anggota keluarga"
    },
    "oshc": {
-    "rule": "Jenis polis: Single (siswa saja), Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua opsi bebas dipilih (keputusan pemilik 11/11/2026); default mengikuti pilihan keluarga. HANYA bila siswa membawa partner/anak DAN memilih Single: tampilkan peringatan ui.oshc_single_warning ({jenis} = Couple / Single Parent Family / Family sesuai pilihan keluarga), tidak memblokir, angka tetap mengikuti pilihan.",
+    "rule": "Jenis polis: Single, Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua bebas dipilih; default mengikuti pilihan keluarga. Bila membawa keluarga DAN memilih Single: OSHC = tarif Single per bulan x bulan x JUMLAH APPLICANT (siswa + partner + anak) - keputusan pemilik 11/11/2026 - dan tampilkan peringatan ui.oshc_single_warning (tidak memblokir).",
     "use": "Tarif Couple / Single Parent Family / Family per provider dari Excel 'Aturan & Tarif'; bulan = durasi kursus + 2; tampilkan total polis keluarga dan selisihnya terhadap Single",
     "source": "https://www.health.gov.au/sites/default/files/documents/2020/06/overseas-student-health-cover-oshc-explanatory-guidelines-for-consumers-oshc-explanatory-guidelines-for-consumers_0.pdf",
     "checked": "2026-11-11"
@@ -538,7 +538,8 @@
     "rekening_koran_tambahan": "10.394 + 4.449 + 13.502 + 2 x 2.000 = 32.345",
     "saran_saldo_tambahan": "32.345 + 1.665 + selisih OSHC keluarga",
     "service_fee_tanggungan": "2 x 150 = 300"
-   }
+   },
+   "oshc_single_with_family": "tarif Single/bulan x (durasi + 2 bulan) x jumlah applicant; contoh 56,78 x 14 x 3 = 2.384,76"
   },
   "NZ": {
    "rekening_koran_minimum_tambahan": "partner: NZD 4.200 (bila eligible work visa); anak usia sekolah non-domestik: NZD 17.000/tahun + biaya sekolah internasional (konfirmasi sekolah)",

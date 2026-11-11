@@ -64,8 +64,8 @@ function startSection(i,exam){
   try{history.pushState({mock:'run'},'')}catch(e){}
   const sec=BANK.sections[i]; const parts=[]; const ids=[];
   (sec.slots||[]).forEach(sl=>{const got=pick(BANK.id,sl,sl.count||1);got.forEach(g=>{ids.push(g.id);parts.push(Object.assign({slot:sl.id,slotTitle:sl.title},JSON.parse(JSON.stringify(g))))})});
-  let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
-  RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{}};
+  let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n;q.kind=q.kind||p.slot;q._tr=p.transcript||'';q._pass=p.passage||''; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
+  RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{},speech:{}};
   window.onbeforeunload=()=>RUN&&!RUN.done?true:null;
   renderRun(); tick();
 }
@@ -99,7 +99,7 @@ function renderRun(){
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><button class="btn" id="submit">${esc(t('submit'))}</button></div>
   <nav class="tabs">${tabs}</nav>
-  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${p.instructions?`<p class="ins">${p.instructions}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
+  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${p.instructions?`<p class="ins">${p.instructions}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
   <div class="navbtns">${RUN.cur>0?`<button class="btn ghost" data-go="-1">← ${esc(t('prev'))}</button>`:''}${RUN.cur<RUN.parts.length-1?`<button class="btn" data-go="1">${esc(t('next'))} →</button>`:`<button class="btn" id="submit2">${esc(t('submit'))}</button>`}</div></div></div>
   <div id="confirm" class="modal" hidden><div class="box"><p>${esc(t('confirm_submit'))}</p><p id="unans" class="small"></p><button class="btn" id="yes">${esc(t('submit'))}</button> <button class="btn ghost" id="no">${esc(t('back'))}</button></div></div>`;
   bindRun(); tickOnce();
@@ -126,11 +126,24 @@ function bindRun(){
 }
 function countQ(){return RUN.parts.reduce((s,p)=>s+(p.questions||[]).length,0)}
 let mediaRec=null;
-async function record(b){const box=b.parentNode;const st=$('.recst',box);
+let recog=null,recTimer=null;
+async function record(b){const box=b.parentNode;const st=$('.recst',box);const n=+box.dataset.n;const q=RUN.parts.flatMap(p=>p.questions||[]).find(x=>x.n===n);
   if(mediaRec&&mediaRec.state==='recording'){mediaRec.stop();return}
   try{const s=await navigator.mediaDevices.getUserMedia({audio:true});const ch=[];mediaRec=new MediaRecorder(s);mediaRec.ondataavailable=e=>ch.push(e.data);
-    mediaRec.onstop=()=>{s.getTracks().forEach(x=>x.stop());const url=URL.createObjectURL(new Blob(ch));st.innerHTML=`<audio controls src="${url}"></audio> <small>${esc(t('rec_local'))}</small>`;b.textContent=t('record_again')};
-    mediaRec.start();b.textContent='■ '+t('stop');st.textContent=t('recording')}catch(e){st.textContent=t('mic_denied')}}
+    const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!SR&&!!BANK.ai};let finals=[],confs=[],lastEnd=Date.now();
+    if(SR&&BANK.ai){try{recog=new SR();recog.lang='en-AU';recog.continuous=true;recog.interimResults=false;recog.maxAlternatives=1;
+      recog.onresult=e=>{for(let k=e.resultIndex;k<e.results.length;k++){const r=e.results[k];if(r.isFinal){finals.push(r[0].transcript);if(r[0].confidence)confs.push(r[0].confidence);const now=Date.now();if(now-lastEnd>3000&&finals.length>1)sp.pauses++;lastEnd=now;sp.lastAt=now}}
+        RUN.answers[n]=finals.join(' ').trim();sp.conf=confs.length?confs.reduce((x,y)=>x+y,0)/confs.length:0};
+      recog.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed'||ev.error==='audio-capture')sp.unsupported=true};
+      recog.onend=()=>{if(mediaRec&&mediaRec.state==='recording'){try{recog.start()}catch(_){}}};
+      recog.start()}catch(_){sp.unsupported=true}}
+    mediaRec.onstop=()=>{clearTimeout(recTimer);sp.secs=(Date.now()-sp.t0)/1000;s.getTracks().forEach(x=>x.stop());const rr=recog;recog=null;if(rr){try{rr.stop()}catch(_){}}
+      const url=URL.createObjectURL(new Blob(ch));
+      setTimeout(()=>{const heard=RUN.answers[n];st.innerHTML=`<audio controls src="${url}"></audio> <small>${esc(t('rec_local'))}</small>${BANK.ai?`<br><small>${sp.unsupported?esc(t('speech_unsupported')):`${esc(t('ai_heard'))}: <i>${esc(heard||'—')}</i>`}</small>`:''}`},700);
+      b.textContent=t('record_again')};
+    mediaRec.start();b.textContent='■ '+t('stop');st.textContent=t('recording');
+    if(q&&q.speak){clearTimeout(recTimer);recTimer=setTimeout(()=>{if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()},q.speak*1000)}
+  }catch(e){st.textContent=t('mic_denied')}}
 // ---------- scoring ----------
 function scoreQ(q){const a=RUN.answers[q.n];
   switch(q.type){
@@ -141,6 +154,7 @@ function scoreQ(q){const a=RUN.answers[q.n];
     case 'order': {const ans=q.answer||q.items.map((_,k)=>k);let g=0;for(let i=0;i<ans.length-1;i++){const aa=a||[];const x=aa.indexOf(ans[i]);if(x>=0&&aa[x+1]===ans[i+1])g++}return {got:g,max:ans.length-1}}
     case 'dictation': {const want=norm(q.answer).split(' ');const have=norm(a).split(' ');const pool=have.slice();let g=0;want.forEach(w=>{const i=pool.indexOf(w);if(i>=0){g++;pool.splice(i,1)}});return {got:g,max:want.length}}
     case 'highlight': {const sel=a||[];const r=sel.filter(k=>q.answer.includes(k)).length;return {got:Math.max(0,r-(sel.length-r)),max:q.answer.length}}
+    case 'speak': case 'essay': if(BANK.ai) return aiScore(q,a); break;
     case 'cloze': {let g=0,m=0;Object.entries(q.blanks).forEach(([id,b])=>{m++;const v=(a||{})[id];if(v&&[].concat(b.answer).map(norm).includes(norm(v)))g++});return {got:g,max:m}}
   }
   return {got:0,max:0};
@@ -153,14 +167,51 @@ function conv(sec,raw,max){const sc=sec.score;if(!sc)return '';
 function newRid(){return 'TEG-'+BANK.id.toUpperCase()+'-'+new Date().toISOString().slice(2,10).replace(/-/g,'')+'-'+(Date.now().toString(36).slice(-3)+rnd(1296).toString(36)).toUpperCase()}
 function fullsOf(){return BANK.fulls||[{id:'full',title:{id:'Full mock test '+BANK.title,en:'Full mock test '+BANK.title},sections:BANK.sections.map((_,i)=>i)}]}
 function fullForSec(i){return fullsOf().find(f=>f.sections.includes(i))||fullsOf()[0]}
+// ---------- automatic estimate for PTE speaking & writing (in-browser, simplified - not Pearson's algorithm) ----------
+const STOP=new Set('the a an and or but of to in on at for with by from is are was were be been being it its this that these those as than then so very can will would should could may might must have has had do does did not no yes you your we our they their he she his her i me my there here what which who whom when where why how about into over after before also more most less many much some such each other only just one two three'.split(' '));
+const strip=h=>String(h||'').replace(/<[^>]+>/g,' ').replace(/&[a-z]+;/g,' ');
+const toks=x=>norm(strip(x)).split(' ').filter(Boolean);
+function keyw(x,lim){const c={};toks(x).forEach(w=>{if((w.length>3&&!STOP.has(w))||/^\d/.test(w))c[w]=(c[w]||0)+1});return Object.keys(c).sort((a,b)=>c[b]-c[a]).slice(0,lim||20)}
+function lcs(a,b){const m=a.length,n=b.length;if(!m||!n)return 0;let prev=new Array(n+1).fill(0);for(let i=1;i<=m;i++){const cur=new Array(n+1).fill(0);for(let j=1;j<=n;j++)cur[j]=a[i-1]===b[j-1]?prev[j-1]+1:Math.max(prev[j],cur[j-1]);prev=cur}return prev[n]}
+function cover(words,keys){if(!keys.length)return 0;const set=new Set(words);return keys.filter(k=>set.has(k)).length/keys.length}
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));const r1=x=>Math.round(x*10)/10;
+function aiScore(q,a){const txt=String(a||'').trim();const w=toks(txt);
+  if(q.type==='speak'){const sp=RUN.speech[q.n]||{};const max=q.kind==='asq'?1:5;
+    if(!w.length)return sp.unsupported?{got:0,max:0,ai:1,fb:t('speech_unsupported')}:{got:0,max,ai:1,fb:t('ai_nothing')};
+    if(q.kind==='asq'){const ok=[].concat(q.model||[]).some(m=>norm(txt).includes(norm(m)));return {got:ok?1:0,max,ai:1,fb:ok?t('ai_ok'):t('ai_asq_no')}}
+    let content;const ref=q.kind==='ra'?toks(q.prompt):q.kind==='rs'?toks(q.model):null;
+    if(ref){content=2*lcs(ref,w)/ref.length}else{const keys=keyw(q.kind==='rl'?q._tr:q.prompt,20);content=2*clamp(cover(w,keys)/0.45,0,1)*clamp(w.length/35,0,1)}
+    const secs=Math.max(1,sp.secs||q.speak||30);const ss=clamp(sp.lastAt?(sp.lastAt-sp.t0)/1000:secs,1,secs);const pen=clamp(1-(sp.pauses||0)*0.15,0.3,1);
+    const amt=ref?clamp(1.25*lcs(ref,w)/ref.length,0,1):clamp(w.length/30,0,1);
+    const flu=1.5*pen*amt*(ref?clamp((ref.length/2.3)/ss,0,1):(()=>{const wps=w.length/ss;return wps<=3.6?clamp(wps/1.6,0,1):clamp(1-(wps-3.6)/2,0,1)})());
+    const conf=sp.conf>0?sp.conf:0.75;const pron=1.5*clamp(ref?(0.5*conf+0.5*lcs(ref,w)/w.length):conf,0,1)*(0.4+0.6*amt);
+    const got=r1(clamp(content,0,2)+flu+pron);return {got,max,ai:1,fb:`${t('ai_content')} ${r1(clamp(content,0,2))}/2 · ${t('ai_fluency')} ${r1(flu)}/1.5 · ${t('ai_pron')} ${r1(pron)}/1.5`}}
+  // writing
+  const sents=txt.split(/[.!?]+(\s|$)/).filter(x=>x&&x.trim().length>1).length;const n=w.length;
+  const src=q.kind==='swt'?q._pass:q.kind==='sst'?q._tr:q.prompt;const keys=keyw(src,q.kind==='es'?10:15);
+  const cov=cover(w,keys);const ttr=n?new Set(w).size/n:0;
+  const capOk=/^[A-Z]/.test(txt)?1:0,endOk=/[.!?]$/.test(txt)?1:0;
+  let form,maxF,lo,hi;if(q.kind==='swt'){lo=5;hi=75;maxF=1;form=(n>=lo&&n<=hi&&sents<=1)?1:0}else if(q.kind==='sst'){lo=50;hi=70;maxF=2;form=n>=lo&&n<=hi?2:(n>=40&&n<=100?1:0)}else{lo=200;hi=300;maxF=2;form=n>=lo&&n<=hi?2:(n>=120&&n<=380?1:0)}
+  if(!n)return {got:0,max:q.kind==='swt'?7:q.kind==='sst'?8:13,ai:1,fb:t('ai_nothing')};
+  if(form===0&&q.kind!=='es'){/* PTE: wrong form = 0 for content-dependent traits */}
+  const content=2*clamp(cov/(q.kind==='es'?0.35:0.25),0,1)*(form?1:0.3);
+  const gram=2*(0.5*capOk+0.5*endOk)*clamp(n/lo,0,1)*clamp(q.kind==='swt'?1:sents/(q.kind==='sst'?2:8),0.3,1);
+  const vocab=2*clamp((ttr-0.35)/0.3,0,1)*clamp(n/lo,0,1);
+  let got=form+content+gram+vocab,max=maxF+6;
+  if(q.kind==='es'){const paras=txt.split(/\n\s*\n|\n/).filter(x=>x.trim().length>20).length;const link=(norm(txt).match(/\b(however|moreover|furthermore|therefore|in addition|for example|for instance|on the other hand|in conclusion|although|whereas|firstly|secondly|finally)\b/g)||[]).length;
+    const dev=2*clamp(paras/4,0,1)*0.6+2*clamp(link/5,0,1)*0.4;const range=2*clamp((n?w.filter(x=>x.length>=7).length/n:0)/0.18,0,1);got+=dev+range;max+=4;
+    if(form===0){got=r1(got*0.5)}}
+  else if(form===0){got=r1(gram*0.5)}
+  return {got:r1(got),max,ai:1,fb:`${t('ai_form')} ${r1(form)}/${maxF} · ${t('ai_content')} ${r1(content)}/2 · ${t('ai_grammar')} ${r1(gram)}/2 · ${t('ai_vocab')} ${r1(vocab)}/2 · ${n} ${t('words')} (${lo}-${hi})`}}
 function repOf(f){return Object.assign({},BANK.report||{},f.report||{})}
 function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;window.onbeforeunload=null;if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();
   const sec=RUN.sec;let raw=0,max=0;const rows=[];
   RUN.parts.forEach(p=>(p.questions||[]).forEach(q=>{if(!sec.auto){rows.push({q,p});return}const s=scoreQ(q);raw+=s.got;max+=s.max;rows.push({q,p,s})}));
   markSeen(BANK.id,RUN.ids);
   const est=sec.auto?conv(sec,raw,max):'';
+  let skillEst=null;if(sec.auto&&sec.skill_by_type){skillEst={};const agg={};rows.forEach(x=>{if(!x.s||!x.s.max)return;const k=sec.skill_by_type[x.q.type];if(!k)return;agg[k]=agg[k]||[0,0];agg[k][0]+=x.s.got;agg[k][1]+=x.s.max});Object.entries(agg).forEach(([k,v])=>skillEst[k]=conv(sec,v[0],v[1]))}
   const used=Math.min(RUN.limit,(Date.now()-RUN.start)/1000);
-  const res={secIdx:RUN.secIdx,sec,raw,max,est,used,timeout,rows,parts:RUN.parts,answers:RUN.answers};
+  raw=r1(raw);const res={secIdx:RUN.secIdx,sec,raw,max,est,skillEst,used,timeout,rows,parts:RUN.parts,answers:RUN.answers};
   if(sec.auto){const h=store.get('hist:'+BANK.id,[]);h.push({at:Date.now(),sec:L(sec.title),score:`${raw}/${max}${est!==''?' · '+(sec.score.label||'')+' '+est:''}`});store.set('hist:'+BANK.id,h.slice(-30))}
   if(FULL){FULL.results.push(res);FULL.pos++;if(FULL.pos<FULL.def.sections.length){interstitial(res);return}const f=FULL;FULL=null;showReport(f.results,f.def,true,f.rid);return}
   showReport([res],fullForSec(RUN.secIdx),false,RUN.rid);
@@ -177,6 +228,7 @@ function skillValues(results,rep){
   const lay=rep.layout||'generic';const sk=(rep.skills||[]).map(x=>Object.assign({},x,{v:null,raw:0,max:0,teacher:false,taken:false}));
   results.forEach(r=>{const ids=[].concat(r.sec.skill||r.sec.skills||[]);ids.forEach(id=>{const o=sk.find(x=>x.id===id);if(!o)return;o.taken=true;
     if(!r.sec.auto){o.teacher=true;return}
+    if(r.skillEst){if(r.skillEst[id]!=null)o.v=+r.skillEst[id];return}
     if(lay==='pte'||lay==='ielts'){o.v=(typeof r.est==='number'?r.est:parseFloat(r.est))}else{o.raw+=r.raw;o.max+=r.max}})});
   if(!(lay==='pte'||lay==='ielts'))sk.forEach(o=>{if(o.max)o.v=Math.round(o.raw/o.max*(o.full||100))});
   return sk}
@@ -286,7 +338,7 @@ function yours(q,ans){const a=(ans||RUN.answers)[q.n];if(a==null||a===''||(Array
   switch(q.type){case 'mcq':return String.fromCharCode(65+a);case 'multi':return a.map(k=>String.fromCharCode(65+k)).join(', ');case 'order':return a.map(k=>q.items[k]).join(' → ');case 'highlight':return a.map(k=>q.text.split(' ')[k]).join(', ');case 'cloze':return Object.values(a).join(' / ');case 'essay':return (a.trim().split(/\s+/).length)+' '+t('words');default:return a}}
 function reviewRow(q,s,ans){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')):'na';
   return `<div class="rv ${ok}"><div class="qn">${q.n}</div><div>${q.prompt?`<div class="qp">${q.prompt.replace('___','____')}</div>`:''}
-  ${q.type==='essay'||q.type==='speak'?`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
+  ${q.type==='essay'||q.type==='speak'?`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${s&&s.ai?`<p class="aifb"><b>🤖 ${esc(t('ai_score'))}: ${s.got}/${s.max}</b><br><small>${esc(s.fb||'')}</small></p>`:''}${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${q.explain}</p>`:''}</div></div>`}
 // ---------- boot ----------
 window.addEventListener('popstate',()=>{if(!BANK)return;

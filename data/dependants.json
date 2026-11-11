@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11",
- "updated_at": "2026-11-11T21:10:00+07:00",
+ "updated_at": "2026-11-11T21:20:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -362,12 +362,15 @@
     "note": "Instrumen hukum mewajibkan travel expenses tanpa angka tetap; pakai angka panduan Home Affairs di Excel untuk setiap anggota keluarga"
    },
    "oshc": {
-    "use": "Tarif OSHC Couple / Single parent / Family per provider dari Excel 'Aturan & Tarif'",
-    "rule": "partner saja = Couple; anak saja = Single parent (bila ada) atau Family; partner + anak = Family; bulan = durasi kursus + 2 bulan; tampilkan selisih terhadap Single"
+    "rule": "OSHC Single HANYA menanggung siswa (pemegang visa utama). Bila membawa keluarga wajib polis: partner saja = Couple; anak saja (<18) = Single Parent Family; partner + anak = Family. Bukti OSHC untuk tanggungan harus mencakup seluruh masa visa.",
+    "use": "Tarif Couple / Single Parent Family / Family per provider dari Excel 'Aturan & Tarif'; bulan = durasi kursus + 2; tampilkan total polis keluarga dan selisihnya terhadap Single",
+    "source": "https://www.health.gov.au/sites/default/files/documents/2020/06/overseas-student-health-cover-oshc-explanatory-guidelines-for-consumers-oshc-explanatory-guidelines-for-consumers_0.pdf",
+    "checked": "2026-11-11"
    },
    "family_rules_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
    "family_rules_effective": "2026-10-02",
-   "checked": "2026-11-11"
+   "checked": "2026-11-11",
+   "child_age_note": "Anak berusia 18 tahun ke atas saat aplikasi umumnya tidak bisa diberi visa tanggungan (secondary Student visa) - kalkulator hanya menghitung anak < 18; partner memakai tarif additional_18_plus"
   },
   "NZ": {
    "currency": "NZD",

@@ -1,15 +1,15 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T17:35:00+07:00",
+  "updated_at": "2026-11-11T18:55:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
       "placement": "Video utama/tombol besar \"Video Tutorial\" di halaman siswa & aplikasi (menggantikan 2 video terpisah; video lama tetap tersedia)",
-      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v3.2",
-      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v3.2",
-      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v3.2",
+      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v4",
+      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v4",
+      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v4",
       "manifest": "https://info.talentededucationgroup.com/panduan/manifest.json",
-      "duration_seconds": 439.5,
+      "duration_seconds": 459.1,
       "orientation": "landscape",
       "title": {
         "id": "Video Tutorial: 2 cara cek harga (aplikasi & browser)",
@@ -53,7 +53,7 @@
       "subtitles_it": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_nl": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_ru": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "version": "v3.2",
+      "version": "v4",
       "subtitles_th": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_vi": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_zh": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",

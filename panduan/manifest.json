@@ -1,22 +1,22 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v3.2",
+  "version": "v4",
   "released": "2026-11-11",
   "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 17:15)"
+    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 18:45)"
   },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\".",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa).",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 439.5,
+  "duration_seconds": 459.1,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 17660684,
-      "sha256": "b48b5a6281720d515b7dd2120a64e88465652aa764105b6e2feb8f3658db2695"
+      "bytes": 18421320,
+      "sha256": "9b1463b2c83fb7dc8b62c5792813c106bfcb82b7f08be459925320d1b1be1044"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +25,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 4114,
-      "sha256": "14b5a3262c1e715edf406897c30398e4e935e0819130a8c067646d0c30819136"
+      "bytes": 4271,
+      "sha256": "68ff162561f62b232460e15cbe04300c15956b7bec33a301781678b208585611"
     }
   },
   "chapters": [
@@ -40,122 +40,122 @@
     },
     {
       "start": "00:25",
-      "title": "Aplikasi: Ketuk \"Mobile App Talented\""
+      "title": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\""
     },
     {
-      "start": "00:33",
+      "start": "00:34",
       "title": "Aplikasi: Android: pakai Chrome"
     },
     {
-      "start": "00:52",
+      "start": "00:53",
       "title": "Aplikasi: iPhone / iPad: pakai Safari"
     },
     {
-      "start": "01:06",
+      "start": "01:07",
       "title": "Aplikasi: Selesai!"
     },
     {
-      "start": "01:17",
+      "start": "01:19",
       "title": "Cara 2 · Lewat browser"
     },
     {
-      "start": "01:32",
+      "start": "01:33",
       "title": "Browser: Buka halaman & pilih bahasa"
     },
     {
-      "start": "01:46",
+      "start": "01:53",
       "title": "Browser: Menu utama"
     },
     {
-      "start": "02:04",
-      "title": "Browser: Video Tutorial & Kegiatan TEG"
+      "start": "02:11",
+      "title": "Browser: Tombol aplikasi & Kegiatan TEG"
     },
     {
-      "start": "02:19",
+      "start": "02:28",
       "title": "Browser: Negara & Offshore / Onshore"
     },
     {
-      "start": "02:37",
+      "start": "02:47",
       "title": "Browser: Cari & filter"
     },
     {
-      "start": "02:47",
+      "start": "02:57",
       "title": "Browser: Pilih asuransi OSHC"
     },
     {
-      "start": "02:56",
+      "start": "03:05",
       "title": "Browser: Urutkan hasil"
     },
     {
-      "start": "03:07",
+      "start": "03:17",
       "title": "Browser: Baca kartu program"
     },
     {
-      "start": "03:18",
+      "start": "03:28",
       "title": "Browser: Rincian program"
     },
     {
-      "start": "03:30",
+      "start": "03:40",
       "title": "Browser: Dana awal, rekening koran & refund"
     },
     {
-      "start": "03:42",
+      "start": "03:52",
       "title": "Browser: Tambah biaya hidup"
     },
     {
-      "start": "03:57",
+      "start": "04:07",
       "title": "Browser: PDF, WhatsApp & daftar"
     },
     {
-      "start": "04:10",
+      "start": "04:19",
       "title": "Browser: Bandingkan"
     },
     {
-      "start": "04:21",
+      "start": "04:31",
       "title": "Browser: Simpan hasil"
     },
     {
-      "start": "04:35",
+      "start": "04:45",
       "title": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "04:50",
+      "start": "05:00",
       "title": "Browser: Paket Pathway VET + HE"
     },
     {
-      "start": "05:09",
+      "start": "05:19",
       "title": "Browser: Sekolah lain (CRICOS)"
     },
     {
-      "start": "05:24",
+      "start": "05:33",
       "title": "Browser: Les persiapan IELTS / PTE"
     },
     {
-      "start": "05:38",
+      "start": "05:48",
       "title": "Browser: Kelas & harga VSA"
     },
     {
-      "start": "05:50",
-      "title": "Browser: Scholarship"
+      "start": "06:00",
+      "title": "Browser: Bea siswa"
     },
     {
-      "start": "06:03",
+      "start": "06:22",
       "title": "Browser: Lowongan Kerja"
     },
     {
-      "start": "06:18",
+      "start": "06:38",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "06:39",
+      "start": "06:59",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "06:49",
+      "start": "07:09",
       "title": "Browser: Kantor & formulir"
     },
     {
-      "start": "07:04",
+      "start": "07:24",
       "title": "Konsultasi gratis"
     }
   ],

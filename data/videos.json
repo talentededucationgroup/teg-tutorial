@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T10:45:00+07:00",
+  "updated_at": "2026-11-11T12:00:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -365,6 +365,49 @@
       },
       "source_title": "Video expo",
       "note": "Video kegiatan milik TEG (expo/seminar). Teks di video berbahasa Indonesia."
+    },
+    {
+      "id": "lagu-sambutan",
+      "placement": "Bagian bawah halaman pricelist (/biaya-studi), tepat di atas footer, di semua tab; juga di halaman awal aplikasi",
+      "order": 1,
+      "video": "https://info.talentededucationgroup.com/videos/lagu-sambutan-en.mp4",
+      "poster": "https://info.talentededucationgroup.com/videos/lagu-sambutan-en-poster.jpg",
+      "duration_seconds": 115.4,
+      "versions": {
+        "id": {
+          "video": "https://info.talentededucationgroup.com/videos/lagu-sambutan-id.mp4",
+          "poster": "https://info.talentededucationgroup.com/videos/lagu-sambutan-id-poster.jpg",
+          "duration_seconds": 172.9,
+          "label": "Versi Bahasa Indonesia"
+        },
+        "en": {
+          "video": "https://info.talentededucationgroup.com/videos/lagu-sambutan-en.mp4",
+          "poster": "https://info.talentededucationgroup.com/videos/lagu-sambutan-en-poster.jpg",
+          "duration_seconds": 115.4,
+          "label": "English version"
+        }
+      },
+      "version_rule": "Bahasa aktif id -> versi id; semua bahasa lain -> versi en; tampilkan tombol kecil untuk berganti versi (Bahasa Indonesia / English)",
+      "orientation": "landscape (848x478)",
+      "title": {
+        "id": "Lagu Sambutan Talented Education Group",
+        "en": "Talented Education Group Welcome Song",
+        "th": "เพลงต้อนรับของ Talented Education Group",
+        "vi": "Bài hát chào mừng của Talented Education Group",
+        "zh": "Talented Education Group 欢迎曲",
+        "ja": "Talented Education Group ウェルカムソング",
+        "ko": "Talented Education Group 환영 노래",
+        "km": "បទចម្រៀងស្វាគមន៍ Talented Education Group",
+        "fr": "Chanson de bienvenue de Talented Education Group",
+        "pt": "Música de boas-vindas da Talented Education Group",
+        "es": "Canción de bienvenida de Talented Education Group",
+        "de": "Willkommenslied der Talented Education Group",
+        "it": "Canzone di benvenuto di Talented Education Group",
+        "nl": "Welkomstlied van Talented Education Group",
+        "ru": "Приветственная песня Talented Education Group"
+      },
+      "source_title": "Enjoy Our Welcome Song - Indonesian Version / English Version (dari pemilik 11/11/2026)",
+      "note": "Lagu sambutan milik TEG. Tidak autoplay; pemutar dimuat saat diklik."
     }
   ]
 }

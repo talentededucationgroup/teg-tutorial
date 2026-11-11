@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11T21:55:00+07:00",
- "updated_at": "2026-11-11T22:45:00+07:00",
+ "updated_at": "2026-11-11T22:50:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -505,7 +505,8 @@
    },
    "child_age_input": {
     "rule": "Umur tiap anak WAJIB diisi (0-17, angka bulat). Kosong/tidak valid: field merah + 'Wajib diisi', banner ui.age_missing_warning di ringkasan & detail, angka diberi label 'BELUM TOTAL', tombol PDF & WhatsApp dinonaktifkan dengan ui.export_blocked. Umur >= 18: tidak bisa sebagai tanggungan (child_age_note).",
-    "decided": "pemilik 11/11/2026"
+    "decided": "pemilik 11/11/2026",
+    "reset": "Tidak disimpan: refresh = kembali default (partner off, anak 0, umur kosong, OSHC Single); tanpa localStorage/cookie/URL param"
    }
   },
   "NZ": {

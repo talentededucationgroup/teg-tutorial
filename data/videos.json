@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T04:40:00+07:00",
+  "updated_at": "2026-11-11T10:45:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -142,7 +142,7 @@
       "note": "Video testimoni milik TEG (izin tampil dari siswa diurus TEG). Teks di video berbahasa Indonesia."
     },
     {
-      "id": "kegiatan-seminar-pontianak",
+      "id": "kegiatan-info-session-singkawang",
       "placement": "Halaman \"Program studi\" (/biaya-studi): strip \"Kegiatan TEG\" di atas filter/hasil pencarian - semua item berawalan \"kegiatan-\", urut field \"order\"",
       "section_title": {
         "id": "Kegiatan TEG",
@@ -162,6 +162,51 @@
         "ru": "Мероприятия TEG"
       },
       "order": 1,
+      "video": "https://info.talentededucationgroup.com/videos/kegiatan-info-session-singkawang.mp4",
+      "poster": "https://info.talentededucationgroup.com/videos/kegiatan-info-session-singkawang-poster.jpg",
+      "duration_seconds": 278.4,
+      "orientation": "landscape (1280x720)",
+      "title": {
+        "id": "Study in Australia Info Session 2026 TEG - Singkawang",
+        "en": "TEG Study in Australia Info Session 2026 - Singkawang",
+        "th": "งานแนะนำการเรียนต่อออสเตรเลีย 2026 ของ TEG - ซิงกาวัง",
+        "vi": "Buổi thông tin du học Úc 2026 của TEG - Singkawang",
+        "zh": "TEG 2026 澳洲留学说明会 - 山口洋",
+        "ja": "TEG オーストラリア留学説明会 2026 - シンカワン",
+        "ko": "TEG 2026 호주 유학 설명회 - 싱카왕",
+        "km": "វគ្គព័ត៌មានការសិក្សានៅអូស្ត្រាលី 2026 របស់ TEG - ស៊ីងកាវ៉ាង",
+        "fr": "Session d'information Study in Australia 2026 de TEG - Singkawang",
+        "pt": "Sessão informativa Study in Australia 2026 da TEG - Singkawang",
+        "es": "Sesión informativa Study in Australia 2026 de TEG - Singkawang",
+        "de": "TEG-Infoveranstaltung Study in Australia 2026 - Singkawang",
+        "it": "Sessione informativa Study in Australia 2026 di TEG - Singkawang",
+        "nl": "TEG-infosessie Study in Australia 2026 - Singkawang",
+        "ru": "Информационная сессия TEG «Учёба в Австралии» 2026 - Сингкаванг"
+      },
+      "source_title": "Singkawang talented education (dari pemilik 11/11/2026)",
+      "note": "Video kegiatan milik TEG (info session Singkawang). Ucapan berbahasa Inggris/Indonesia dengan teks di video."
+    },
+    {
+      "id": "kegiatan-seminar-pontianak",
+      "placement": "Halaman \"Program studi\" (/biaya-studi): strip \"Kegiatan TEG\" di atas filter/hasil pencarian - semua item berawalan \"kegiatan-\", urut field \"order\"",
+      "section_title": {
+        "id": "Kegiatan TEG",
+        "en": "TEG events",
+        "th": "กิจกรรมของ TEG",
+        "vi": "Sự kiện của TEG",
+        "zh": "TEG 活动",
+        "ja": "TEGのイベント",
+        "ko": "TEG 행사",
+        "km": "ព្រឹត្តិការណ៍របស់ TEG",
+        "fr": "Événements TEG",
+        "pt": "Eventos da TEG",
+        "es": "Eventos de TEG",
+        "de": "TEG-Veranstaltungen",
+        "it": "Eventi TEG",
+        "nl": "TEG-evenementen",
+        "ru": "Мероприятия TEG"
+      },
+      "order": 2,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-seminar-pontianak.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-seminar-pontianak-poster.jpg",
       "duration_seconds": 175.2,
@@ -206,7 +251,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 2,
+      "order": 3,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-career-day-immanuel.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-career-day-immanuel-poster.jpg",
       "duration_seconds": 24.9,
@@ -251,7 +296,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 3,
+      "order": 4,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-expo-gembala-baik.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-expo-gembala-baik-poster.jpg",
       "duration_seconds": 30.7,
@@ -296,7 +341,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 4,
+      "order": 5,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-expo-santo-ignasius.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-expo-santo-ignasius-poster.jpg",
       "duration_seconds": 39.7,

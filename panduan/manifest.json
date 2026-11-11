@@ -1,11 +1,11 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v3",
+  "version": "v3.1",
   "released": "2026-11-11",
   "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R88, screenshot 11/11/2026)"
+    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 17:15)"
   },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir).",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, strip Kegiatan TEG dengan video testimoni (urutan 2), screenshot HP terbaru.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
@@ -15,8 +15,8 @@
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 17599851,
-      "sha256": "64f624b6d3fb3dedc67d0e58349be1dda18b64ef1499eb57a214b14e953d32c1"
+      "bytes": 17584869,
+      "sha256": "5b36600706fd9503bd89368723de256e570e6f596eb7c5765566f1dbdd853242"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",

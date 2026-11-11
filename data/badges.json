@@ -1,0 +1,130 @@
+{
+  "title": {
+    "id": "Agen terverifikasi & tersertifikasi",
+    "en": "Verified & certified agency",
+    "th": "เอเจนซีที่ได้รับการยืนยันและรับรอง",
+    "vi": "Đại lý đã xác minh & được chứng nhận",
+    "zh": "已认证的合格代理",
+    "ja": "認証・認定済みエージェント",
+    "ko": "인증된 공인 에이전시",
+    "km": "ភ្នាក់ងារដែលបានផ្ទៀងផ្ទាត់ និងទទួលស្គាល់",
+    "fr": "Agence vérifiée et certifiée",
+    "pt": "Agência verificada e certificada",
+    "es": "Agencia verificada y certificada",
+    "de": "Verifizierte & zertifizierte Agentur",
+    "it": "Agenzia verificata e certificata",
+    "nl": "Geverifieerd & gecertificeerd bureau",
+    "ru": "Проверенное и сертифицированное агентство"
+  },
+  "updated_at": "2026-11-11T12:10:00+07:00",
+  "holder": "Talented Education Group Pty Ltd",
+  "items": [
+    {
+      "id": "pier-qeac",
+      "order": 1,
+      "image": "https://info.talentededucationgroup.com/assets/badges/qeac-10224.png",
+      "alt": "PIER QEAC #10224",
+      "name": "PIER Qualified Education Agent Counsellor (QEAC) #10224",
+      "label": {
+        "id": "Konselor Agen Pendidikan Berkualifikasi (QEAC) #10224",
+        "en": "Qualified Education Agent Counsellor (QEAC) #10224",
+        "th": "ที่ปรึกษาเอเจนต์การศึกษาที่มีคุณสมบัติ (QEAC) #10224",
+        "vi": "Tư vấn viên đại lý giáo dục đủ chuẩn (QEAC) #10224",
+        "zh": "合格教育代理顾问 (QEAC) #10224",
+        "ja": "認定教育エージェントカウンセラー (QEAC) #10224",
+        "ko": "공인 교육 에이전트 상담사 (QEAC) #10224",
+        "km": "អ្នកប្រឹក្សាភ្នាក់ងារអប់រំមានលក្ខណៈសម្បត្តិ (QEAC) #10224",
+        "fr": "Conseiller d'agence éducative qualifié (QEAC) #10224",
+        "pt": "Conselheiro de agência educacional qualificado (QEAC) #10224",
+        "es": "Asesor de agencia educativa cualificado (QEAC) #10224",
+        "de": "Qualifizierter Bildungsagentur-Berater (QEAC) #10224",
+        "it": "Consulente di agenzia educativa qualificato (QEAC) #10224",
+        "nl": "Gekwalificeerd onderwijsagent-adviseur (QEAC) #10224",
+        "ru": "Квалифицированный консультант образовательного агентства (QEAC) #10224"
+      }
+    },
+    {
+      "id": "pier-verified-agency",
+      "order": 2,
+      "image": "https://info.talentededucationgroup.com/assets/badges/pier-verified-agency.png",
+      "alt": "PIER Verified Agency",
+      "name": "PIER Verified Agency",
+      "label": {
+        "id": "Agensi Terverifikasi PIER",
+        "en": "PIER Verified Agency",
+        "th": "เอเจนซีที่ได้รับการยืนยันจาก PIER",
+        "vi": "Đại lý được PIER xác minh",
+        "zh": "PIER 认证机构",
+        "ja": "PIER 認証エージェンシー",
+        "ko": "PIER 인증 에이전시",
+        "km": "ភ្នាក់ងារដែលបានផ្ទៀងផ្ទាត់ដោយ PIER",
+        "fr": "Agence vérifiée PIER",
+        "pt": "Agência verificada PIER",
+        "es": "Agencia verificada por PIER",
+        "de": "Von PIER verifizierte Agentur",
+        "it": "Agenzia verificata PIER",
+        "nl": "Door PIER geverifieerd bureau",
+        "ru": "Агентство, проверенное PIER"
+      }
+    },
+    {
+      "id": "agent-academy-esos",
+      "order": 3,
+      "image": "https://info.talentededucationgroup.com/assets/badges/agent-academy-esos.png",
+      "alt": "Agent Academy - Completed ESOS Act & National Code",
+      "name": "Agent Academy - Completed ESOS Act & National Code",
+      "label": {
+        "id": "Lulus ESOS Act & National Code (Agent Academy)",
+        "en": "Completed ESOS Act & National Code (Agent Academy)",
+        "th": "ผ่านหลักสูตร ESOS Act & National Code (Agent Academy)",
+        "vi": "Hoàn thành ESOS Act & National Code (Agent Academy)",
+        "zh": "已完成 ESOS Act 与 National Code 培训 (Agent Academy)",
+        "ja": "ESOS Act & National Code 修了 (Agent Academy)",
+        "ko": "ESOS Act & National Code 이수 (Agent Academy)",
+        "km": "បានបញ្ចប់ ESOS Act & National Code (Agent Academy)",
+        "fr": "ESOS Act & National Code complétés (Agent Academy)",
+        "pt": "Concluiu ESOS Act & National Code (Agent Academy)",
+        "es": "Completó ESOS Act & National Code (Agent Academy)",
+        "de": "ESOS Act & National Code abgeschlossen (Agent Academy)",
+        "it": "Completato ESOS Act & National Code (Agent Academy)",
+        "nl": "ESOS Act & National Code afgerond (Agent Academy)",
+        "ru": "Пройден курс ESOS Act & National Code (Agent Academy)"
+      }
+    },
+    {
+      "id": "pearson-pte-partner-2026",
+      "order": 4,
+      "image": "https://info.talentededucationgroup.com/assets/badges/pearson-pte-partner-2026.png",
+      "certificate": "https://info.talentededucationgroup.com/assets/badges/pearson-pte-partner-2026-certificate.jpg",
+      "alt": "Pearson PTE Elite Partner Program - Partner 2026",
+      "name": "Pearson PTE Elite Partner Program - Partner 2026 (certificate dated 04 November 2026)",
+      "label": {
+        "id": "Partner PTE Elite Pearson 2026",
+        "en": "Pearson PTE Elite Partner 2026",
+        "th": "พาร์ทเนอร์ PTE Elite ของ Pearson ปี 2026",
+        "vi": "Đối tác PTE Elite của Pearson 2026",
+        "zh": "Pearson PTE 精英合作伙伴 2026",
+        "ja": "Pearson PTE エリートパートナー 2026",
+        "ko": "Pearson PTE 엘리트 파트너 2026",
+        "km": "ដៃគូ PTE Elite របស់ Pearson ឆ្នាំ 2026",
+        "fr": "Partenaire PTE Elite de Pearson 2026",
+        "pt": "Parceiro PTE Elite da Pearson 2026",
+        "es": "Socio PTE Elite de Pearson 2026",
+        "de": "Pearson PTE Elite Partner 2026",
+        "it": "Partner PTE Elite di Pearson 2026",
+        "nl": "Pearson PTE Elite-partner 2026",
+        "ru": "Партнёр Pearson PTE Elite 2026"
+      }
+    }
+  ],
+  "group_brand": {
+    "id": "victory-scholars-academy",
+    "image": "https://info.talentededucationgroup.com/assets/badges/victory-scholars-academy-logo.png",
+    "name": "Victory Scholars Academy",
+    "note": "Lembaga kursus bahasa (VSA) dalam grup Talented - untuk tab Les Bahasa (VSA) & footer, BUKAN badge verifikasi."
+  },
+  "disclaimer": {
+    "id": "Badge menunjukkan kualifikasi/keanggotaan agen, bukan jaminan visa atau penerimaan sekolah.",
+    "en": "Badges show agent qualifications/memberships; they are not a guarantee of a visa or school admission."
+  }
+}

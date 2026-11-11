@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T15:40:00+07:00",
+  "updated_at": "2026-11-11T16:25:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -187,7 +187,7 @@
       "note": "Video kegiatan milik TEG (info session Singkawang). Ucapan berbahasa Inggris/Indonesia dengan teks di video."
     },
     {
-      "id": "kegiatan-seminar-pontianak",
+      "id": "kegiatan-testimoni-asin",
       "placement": "Halaman \"Program studi\" (/biaya-studi): strip \"Kegiatan TEG\" di atas filter/hasil pencarian - semua item berawalan \"kegiatan-\", urut field \"order\"",
       "section_title": {
         "id": "Kegiatan TEG",
@@ -207,6 +207,51 @@
         "ru": "Мероприятия TEG"
       },
       "order": 2,
+      "video": "https://info.talentededucationgroup.com/videos/testimoni-asin.mp4",
+      "poster": "https://info.talentededucationgroup.com/videos/testimoni-asin-poster.jpg",
+      "duration_seconds": 60.1,
+      "orientation": "portrait (406x512)",
+      "title": {
+        "id": "Testimoni: Mereka sudah dapat visa pelajar Australia",
+        "en": "Testimonials: they got their Australian student visa",
+        "th": "คำรับรอง: พวกเขาได้รับวีซ่านักเรียนออสเตรเลียแล้ว",
+        "vi": "Cảm nhận: các bạn đã nhận thị thực du học Úc",
+        "zh": "学员见证：他们已获得澳大利亚学生签证",
+        "ja": "体験談：オーストラリア学生ビザを取得しました",
+        "ko": "후기: 호주 학생 비자를 받았어요",
+        "km": "សក្ខីកម្ម៖ ពួកគេទទួលបានទិដ្ឋាការសិស្សអូស្ត្រាលីហើយ",
+        "fr": "Témoignages : ils ont obtenu leur visa étudiant australien",
+        "pt": "Depoimentos: eles conseguiram o visto de estudante australiano",
+        "es": "Testimonios: obtuvieron su visa de estudiante australiana",
+        "de": "Erfahrungsberichte: Sie haben ihr australisches Studentenvisum erhalten",
+        "it": "Testimonianze: hanno ottenuto il visto per studenti australiano",
+        "nl": "Ervaringen: zij kregen hun Australische studentenvisum",
+        "ru": "Отзывы: они получили студенческую визу в Австралию"
+      },
+      "source_title": "Video Marketing 2 - Asin",
+      "note": "Video yang sama dengan testimoni-asin (file sama, tidak diunggah ulang); juga tampil di strip Kegiatan TEG tab Program studi atas permintaan pemilik 11/11/2026. Teks di video berbahasa Indonesia."
+    },
+    {
+      "id": "kegiatan-seminar-pontianak",
+      "placement": "Halaman \"Program studi\" (/biaya-studi): strip \"Kegiatan TEG\" di atas filter/hasil pencarian - semua item berawalan \"kegiatan-\", urut field \"order\"",
+      "section_title": {
+        "id": "Kegiatan TEG",
+        "en": "TEG events",
+        "th": "กิจกรรมของ TEG",
+        "vi": "Sự kiện của TEG",
+        "zh": "TEG 活动",
+        "ja": "TEGのイベント",
+        "ko": "TEG 행사",
+        "km": "ព្រឹត្តិការណ៍របស់ TEG",
+        "fr": "Événements TEG",
+        "pt": "Eventos da TEG",
+        "es": "Eventos de TEG",
+        "de": "TEG-Veranstaltungen",
+        "it": "Eventi TEG",
+        "nl": "TEG-evenementen",
+        "ru": "Мероприятия TEG"
+      },
+      "order": 3,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-seminar-pontianak.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-seminar-pontianak-poster.jpg",
       "duration_seconds": 175.2,
@@ -251,7 +296,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 3,
+      "order": 4,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-career-day-immanuel.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-career-day-immanuel-poster.jpg",
       "duration_seconds": 24.9,
@@ -296,7 +341,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 4,
+      "order": 5,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-expo-gembala-baik.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-expo-gembala-baik-poster.jpg",
       "duration_seconds": 30.7,
@@ -341,7 +386,7 @@
         "nl": "TEG-evenementen",
         "ru": "Мероприятия TEG"
       },
-      "order": 5,
+      "order": 6,
       "video": "https://info.talentededucationgroup.com/videos/kegiatan-expo-santo-ignasius.mp4",
       "poster": "https://info.talentededucationgroup.com/videos/kegiatan-expo-santo-ignasius-poster.jpg",
       "duration_seconds": 39.7,

@@ -170,7 +170,7 @@ function nextItem(){if(RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;
 function startSpeak(q){const go=()=>{const b=$(`.rec[data-n="${q.n}"] [data-rec]`);if(b&&!(mediaRec&&mediaRec.state==='recording'))record(b,true)};
   if(q.prep)cdown(q.prep,t('prep_left'),()=>{const el=$('#flowst');if(el)el.textContent=t('recording');go()});else go()}
 function autoFlow(p){if(!RUN.exam)return;const au=$('#aud'),pl=$('#play');const sq=(p.questions||[]).find(q=>q.type==='speak');const IT=isItem();
-  if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const bar=$('.runbar');if(bar)bar.insertBefore(el,$('#submit'));
+  if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const sb=$('#submit');if(sb&&sb.parentNode)sb.parentNode.insertBefore(el,sb);
     const upd=()=>{el.textContent=t('item_time')+' '+fmt(s)};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);nextItem()}},1000);FLOW.push(iv)}
   const after=()=>{if(IT&&sq)startSpeak(sq)};
   if(au&&!RUN.audioPlayed[p.id]){cdown(3,t('audio_starts'),()=>{RUN.audioPlayed[p.id]=1;if(pl){pl.disabled=true;pl.textContent=t('playing')}

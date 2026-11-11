@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11T21:55:00+07:00",
- "updated_at": "2026-11-11T23:25:00+07:00",
+ "updated_at": "2026-11-12T00:40:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -674,15 +674,15 @@
   }
  },
  "child_age_rules": {
-  "input": "Satu kolom umur (angka 0-25, tahun penuh saat tiba) per anak; jumlah kolom = q_children. Tidak ada pertanyaan \"anak usia sekolah\" lagi.",
+  "input": "Per anak satu pertanyaan WAJIB Ya/Tidak \"usia sekolah?\" (ui.q_child_school; AU 5-17, NZ 5-18 tahun saat tiba); jumlah pertanyaan = q_children. Kolom umur angka (q_child_age) tidak dipakai lagi. Belum dijawab = school_missing_warning + export_blocked; harga program tetap tampil.",
   "AU": {
-   "visa": "umur < 18 -> visa_charge.*.additional_under_18 (Indonesia 410); umur >= 18 -> additional_18_plus (Indonesia 1.255)",
-   "school_cost": "dikenakan bila 5 <= umur <= 17 (usia sekolah Australia, LIN 19/198 school costs untuk anak usia sekolah)",
+   "visa": "Anak dihitung <18: visa_charge.*.additional_under_18 (Indonesia 410). Anak >=18 ikut sebagai pemohon tambahan dewasa (1.255) - konfirmasi ke konsultan.",
+   "school_cost": "dikenakan bila jawaban usia sekolah = Ya (kisaran 5-17 tahun, LIN 19/198 school costs)",
    "living_cost": "living_cost child untuk setiap anak (semua umur)",
-   "oshc": "cover Family bila ada anak (Single parent bila tanpa partner)"
+   "oshc": "DEFAULT SELALU Single, tanpa autoswitch (lihat countries.AU.oshc.rule); siswa boleh memilih Single Parent Family / Family sendiri"
   },
   "NZ": {
-   "school_cost": "dikenakan bila 5 <= umur <= 18 (anak usia sekolah non-domestik, NZD 17.000/tahun)",
+   "school_cost": "dikenakan bila jawaban usia sekolah = Ya (5-18 tahun, anak non-domestik NZD 17.000/tahun)",
    "note": "aturan lain mengikuti countries.NZ"
   },
   "OTHER": {

@@ -63,7 +63,7 @@ function testPage(){
   bindLang();
   const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}CAND=nm;return true};
   $$('[data-sec]').forEach(b=>b.onclick=()=>{if(!nameOk())return;FULL=null;startSection(+b.dataset.sec,$('#examMode').checked)});
-  $$('[data-full]').forEach(b=>b.onclick=()=>{if(!nameOk())return;const f=fullsOf()[+b.dataset.full];FULL={def:f,pos:0,results:[],rid:newRid(),exam:$('#examMode').checked};startSection(f.sections[0],FULL.exam)});
+  $$('[data-full]').forEach(b=>b.onclick=()=>{if(!nameOk())return;const f=fullsOf()[+b.dataset.full];FULL={def:f,pos:0,results:[],rid:newRid(),exam:true};startSection(f.sections[0],FULL.exam)});
   $$('[data-res]').forEach(b=>b.onclick=()=>{const e=getSaves().find(x=>x.id===b.dataset.res);if(!e){testPage();return}if(!nameOk())return;
     try{restoreState(e.state,e.id)}catch(err){RUN=null;FULL=null;msgBox(fileErr(err),true)}});
   $$('[data-del]').forEach(b=>b.onclick=()=>{if(!confirm(t('del_confirm')))return;dropSave(b.dataset.del);testPage()});
@@ -103,18 +103,19 @@ function qHTML(q,p){
   return '';
 }
 function renderRun(){
-  const p=RUN.parts[RUN.cur]; const sec=RUN.sec;
-  const tabs=RUN.parts.map((x,k)=>`<button class="tab${k===RUN.cur?' on':''}" data-tab="${k}">${esc(L(x.title)||x.slotTitle||('Part '+(k+1)))}</button>`).join('');
+  clearFlow(); if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();
+  const p=RUN.parts[RUN.cur]; const sec=RUN.sec; const IT=isItem();
+  const tabs=IT?'':RUN.parts.map((x,k)=>`<button class="tab${k===RUN.cur?' on':''}" data-tab="${k}">${esc(L(x.title)||x.slotTitle||('Part '+(k+1)))}</button>`).join('');
   const groups=[]; (p.questions||[]).forEach(q=>{const g=q.group||'';if(!groups.length||groups[groups.length-1].g!==g)groups.push({g,qs:[]});groups[groups.length-1].qs.push(q)});
   const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(BASE+p.audio)}" ${RUN.exam?'':'controls'}></audio>${RUN.exam?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(RUN.exam?t('audio_once'):t('audio_practice'))}</small></div>`:'';
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><span class="rbtns"><button class="btn ghost small" id="saveTop" title="${esc(t('save_later'))}" aria-label="${esc(t('save_later'))}">💾</button> <button class="btn" id="submit">${esc(t('submit'))}</button></span></div>
   <nav class="tabs">${tabs}</nav>
   <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${p.instructions?`<p class="ins">${p.instructions}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
-  <div class="navbtns">${RUN.cur>0?`<button class="btn ghost" data-go="-1">← ${esc(t('prev'))}</button>`:''}${RUN.cur<RUN.parts.length-1?`<button class="btn" data-go="1">${esc(t('next'))} →</button>`:`<button class="btn" id="submit2">${esc(t('submit'))}</button>`}</div>
+  <p class="flowst" id="flowst"></p><div class="navbtns">${RUN.cur>0&&!IT?`<button class="btn ghost" data-go="-1">← ${esc(t('prev'))}</button>`:''}${IT?`<span class="small itpos">${esc(t('item'))} ${RUN.cur+1} / ${RUN.parts.length} · ${esc(t('no_back'))}</span>`:''}${RUN.cur<RUN.parts.length-1?`<button class="btn" data-go="1">${esc(t('next'))} →</button>`:`<button class="btn" id="submit2">${esc(t('submit'))}</button>`}</div>
   <div class="toolrow"><button class="btn ghost" id="saveLater">💾 ${esc(t('save_later'))}</button> <button class="btn ghost" id="sendT">📤 ${esc(t('send_teacher'))}</button><small>${esc(t('save_note'))}</small></div></div></div>
   <div id="confirm" class="modal" hidden><div class="box"><p>${esc(t('confirm_submit'))}</p><p id="unans" class="small"></p><button class="btn" id="yes">${esc(t('submit'))}</button> <button class="btn ghost" id="no">${esc(t('back'))}</button></div></div>`;
-  bindRun(); tickOnce();
+  bindRun(); tickOnce(); autoFlow(p);
 }
 function tickOnce(){const left=RUN.limit-(Date.now()-RUN.start)/1000;const el=$('#timer');if(el)el.textContent=fmt(left)}
 function save(e){if(!RUN||RUN.done)return;const el=e.target;const m=(el.name||'').match(/^q(\d+)$/);
@@ -140,7 +141,7 @@ function bindRun(){
 function countQ(){return RUN.parts.reduce((s,p)=>s+(p.questions||[]).length,0)}
 let mediaRec=null;
 let recog=null,recTimer=null;
-async function record(b){const box=b.parentNode;const st=$('.recst',box);const n=+box.dataset.n;const q=RUN.parts.flatMap(p=>p.questions||[]).find(x=>x.n===n);
+async function record(b,auto){const box=b.parentNode;const st=$('.recst',box);const n=+box.dataset.n;const q=RUN.parts.flatMap(p=>p.questions||[]).find(x=>x.n===n);
   if(mediaRec&&mediaRec.state==='recording'){mediaRec.stop();return}
   try{const s=await navigator.mediaDevices.getUserMedia({audio:true});const ch=[];mediaRec=new MediaRecorder(s);mediaRec.ondataavailable=e=>ch.push(e.data);
     const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!SR&&!!BANK.ai};let finals=[],confs=[],lastEnd=Date.now();
@@ -155,8 +156,29 @@ async function record(b){const box=b.parentNode;const st=$('.recst',box);const n
       setTimeout(()=>{const heard=RUN.answers[n];st.innerHTML=`<audio controls src="${url}"></audio> <small>${esc(t('rec_local'))}</small>${BANK.ai?`<br><small>${sp.unsupported?esc(t('speech_unsupported')):`${esc(t('ai_heard'))}: <i>${esc(heard||'—')}</i>`}</small>`:''}`},700);
       b.textContent=t('record_again')};
     mediaRec.start();b.textContent='■ '+t('stop');st.textContent=t('recording');
+    if(isItem()){try{const AC=window.AudioContext||window.webkitAudioContext;const ac=new AC();const o=ac.createOscillator();o.frequency.value=880;o.connect(ac.destination);o.start();o.stop(ac.currentTime+0.25);
+      const an=ac.createAnalyser();an.fftSize=1024;ac.createMediaStreamSource(s).connect(an);const buf=new Float32Array(an.fftSize);let quiet=0,heard=false;
+      const iv=setInterval(()=>{if(!mediaRec||mediaRec.state!=='recording'){clearInterval(iv);try{ac.close()}catch(_){}return}an.getFloatTimeDomainData(buf);let e=0;for(const x of buf)e+=x*x;const rms=Math.sqrt(e/buf.length);
+        if(rms>0.02){heard=true;quiet=0}else{quiet+=200;if(quiet>=3000){st.textContent=t('silence_stop');mediaRec.stop()}}},200);FLOW.push(iv)}catch(_){}}
     if(q&&q.speak){clearTimeout(recTimer);recTimer=setTimeout(()=>{if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()},q.speak*1000)}
   }catch(e){st.textContent=t('mic_denied')}}
+// ---------- official item flow (PTE: one item per screen, no going back, automatic audio/prep/recording, item timers) ----------
+let FLOW=[];function clearFlow(){FLOW.forEach(x=>{clearTimeout(x);clearInterval(x)});FLOW=[];clearTimeout(recTimer)}
+function isItem(){return !!(BANK&&BANK.flow==='item'&&RUN&&RUN.exam)}
+function cdown(secs,label,done){const el=$('#flowst');let s=secs;const upd=()=>{if(el)el.textContent=label+' '+s+' s'};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);done()}},1000);FLOW.push(iv)}
+function nextItem(){if(RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;renderRun();scrollTo(0,0)}else finish(false)}
+function startSpeak(q){const go=()=>{const b=$(`.rec[data-n="${q.n}"] [data-rec]`);if(b&&!(mediaRec&&mediaRec.state==='recording'))record(b,true)};
+  if(q.prep)cdown(q.prep,t('prep_left'),()=>{const el=$('#flowst');if(el)el.textContent=t('recording');go()});else go()}
+function autoFlow(p){if(!RUN.exam)return;const au=$('#aud'),pl=$('#play');const sq=(p.questions||[]).find(q=>q.type==='speak');const IT=isItem();
+  if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const bar=$('.runbar');if(bar)bar.insertBefore(el,$('#submit'));
+    const upd=()=>{el.textContent=t('item_time')+' '+fmt(s)};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);nextItem()}},1000);FLOW.push(iv)}
+  const after=()=>{if(IT&&sq)startSpeak(sq)};
+  if(au&&!RUN.audioPlayed[p.id]){cdown(3,t('audio_starts'),()=>{RUN.audioPlayed[p.id]=1;if(pl){pl.disabled=true;pl.textContent=t('playing')}
+      au.onended=()=>{if(pl)pl.textContent=t('played');const el=$('#flowst');if(el)el.textContent='';after()};
+      au.play().catch(()=>{RUN.audioPlayed[p.id]=0;if(pl){pl.disabled=false;pl.textContent='▶ '+t('play_once')};const el=$('#flowst');if(el)el.textContent=t('tap_play');
+        if(pl)pl.addEventListener('click',()=>{au.onended=()=>{pl.textContent=t('played');after()}},{once:true})})})}
+  else if(!au&&IT&&sq)startSpeak(sq)}
+
 // ---------- scoring ----------
 function scoreQ(q,ans,speech){const a=(ans||RUN.answers)[q.n];
   switch(q.type){
@@ -189,11 +211,11 @@ function lcs(a,b){const m=a.length,n=b.length;if(!m||!n)return 0;let prev=new Ar
 function cover(words,keys){if(!keys.length)return 0;const set=new Set(words);return keys.filter(k=>set.has(k)).length/keys.length}
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));const r1=x=>Math.round(x*10)/10;
 function aiScore(q,a,speech){const txt=String(a||'').trim();const w=toks(txt);
-  if(q.type==='speak'){const sp=(speech||{})[q.n]||{};const max=q.kind==='asq'?1:5;
+  if(q.type==='speak'){if(q.kind==='pi')return {got:0,max:0,ai:1,fb:t('not_scored')};const sp=(speech||{})[q.n]||{};const max=q.kind==='asq'?1:5;
     if(!w.length)return sp.unsupported?{got:0,max:0,ai:1,fb:t('speech_unsupported')}:{got:0,max,ai:1,fb:t('ai_nothing')};
     if(q.kind==='asq'){const ok=[].concat(q.model||[]).some(m=>norm(txt).includes(norm(m)));return {got:ok?1:0,max,ai:1,fb:ok?t('ai_ok'):t('ai_asq_no')}}
     let content;const ref=q.kind==='ra'?toks(q.prompt):q.kind==='rs'?toks(q.model):null;
-    if(ref){content=2*lcs(ref,w)/ref.length}else{const keys=keyw(q.kind==='rl'?q._tr:q.prompt,20);content=2*clamp(cover(w,keys)/0.45,0,1)*clamp(w.length/35,0,1)}
+    if(ref){content=2*lcs(ref,w)/ref.length}else{const keys=keyw(q.kind==='rl'||q.kind==='sgd'||q.kind==='rts'?q._tr:q.prompt,20);const need=q.kind==='sgd'?70:35;content=2*clamp(cover(w,keys)/(q.kind==='rts'?0.35:0.45),0,1)*clamp(w.length/need,0,1);if(q.kind==='rts'&&!/\b(i|i'm|i'd|i'll|my|we)\b/i.test(txt))content*=0.6}
     const secs=Math.max(1,sp.secs||q.speak||30);const ss=clamp(sp.lastAt?(sp.lastAt-sp.t0)/1000:secs,1,secs);const pen=clamp(1-(sp.pauses||0)*0.15,0.3,1);
     const amt=ref?clamp(1.25*lcs(ref,w)/ref.length,0,1):clamp(w.length/30,0,1);
     const flu=1.5*pen*amt*(ref?clamp((ref.length/2.3)/ss,0,1):(()=>{const wps=w.length/ss;return wps<=3.6?clamp(wps/1.6,0,1):clamp(1-(wps-3.6)/2,0,1)})());

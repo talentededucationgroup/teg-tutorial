@@ -3,57 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- Salin file ini ke pricelist.talentededucationgroup.com/mocktest/index.html. Soal, audio & aplikasi dimuat dari info.talentededucationgroup.com/mocktest/ sehingga update otomatis. -->
 <title>Free Mock Test - Talented Education Group</title>
 <meta name="description" content="Free mock test IELTS, PTE, JLPT, TOPIK, HSK: soal acak, timer resmi, nilai otomatis dan pembahasan. Talented Education Group &amp; Victory Scholars Academy.">
 <meta property="og:title" content="Free Mock Test IELTS, PTE, JLPT, TOPIK, HSK - Talented Education Group">
 <meta property="og:description" content="Soal acak, timer sesuai durasi resmi, nilai otomatis dan pembahasan. Gratis.">
 <meta property="og:image" content="https://info.talentededucationgroup.com/assets/share/pricelist-share-v2.jpg">
-<style>
-:root{--bg:#f4f7f5;--card:#fff;--ink:#17231e;--muted:#5b6a63;--green:#1f5f4a;--gold:#c9a13b;--line:#dbe3de;--ok:#e3f4ea;--no:#fbe9e7;--part:#fff6dc}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1714;--card:#17221d;--ink:#e8efeb;--muted:#9fb0a8;--green:#5fbf98;--line:#2a3832;--ok:#173b2a;--no:#3d1f1b;--part:#3a3218}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI","Noto Sans","Noto Sans JP","Noto Sans KR","Noto Sans SC","Noto Sans Khmer",sans-serif}
-#app{max-width:1100px;margin:0 auto;padding:12px 16px 48px}
-a{color:var(--green)}h1{margin:.2em 0;font-size:clamp(1.5rem,4.5vw,2.2rem);line-height:1.15}h2{font-size:1.15rem;margin:.2em 0 .6em}
-.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}.brand{display:flex;gap:8px;align-items:center;font-weight:700;text-decoration:none;color:var(--ink)}.brand img{height:28px}
-select,input,textarea,button{font:inherit;color:inherit}select,input.gap,textarea{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;max-width:100%}
-.hero{margin:12px 0 16px}.eyebrow{margin:0;color:var(--green);font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.sub{color:var(--muted);margin:.2em 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:0 0 14px}
-.card.test{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink)}.card.test b{font-size:1.1rem}.card.test small{color:var(--muted)}.flag{font-size:1.6rem}
-.status{align-self:flex-start;font-size:.78rem;padding:2px 8px;border-radius:99px}.status.ok{background:var(--ok)}.status.soon{background:var(--part)}
-.note{color:var(--muted);font-size:.9rem;margin:16px 0}
-.secs{display:grid;gap:10px}.sec{display:flex;justify-content:space-between;gap:12px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 12px}.sec small{display:block;color:var(--muted)}
-.btn{display:inline-block;background:var(--green);color:#fff;border:0;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer;text-decoration:none;min-height:44px}.btn.ghost{background:transparent;color:var(--green);border:2px solid var(--green)}.btn.small{padding:6px 10px;min-height:36px}.btn:disabled{opacity:.55;cursor:default}.btn.wa{background:#1f8b4c}
-.small{font-size:.86rem;color:var(--muted)}.chk{display:block;margin-top:8px}.lvl{display:block;margin-bottom:10px}
-.runbar{position:sticky;top:0;z-index:5;display:flex;gap:10px;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px;margin-bottom:8px}
-.timer{font:700 1.4rem/1 ui-monospace,monospace;padding:4px 10px;border-radius:8px;background:var(--ok)}.timer.warn{background:var(--no)}
-.tabs{display:flex;gap:6px;overflow-x:auto;margin-bottom:10px}.tab{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 12px;white-space:nowrap;cursor:pointer}.tab.on{background:var(--green);color:#fff;border-color:var(--green)}
-.run.split{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}@media(max-width:820px){.run.split{grid-template-columns:1fr}}
-.passage{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;max-height:calc(100vh - 140px);overflow:auto;position:sticky;top:64px}@media(max-width:820px){.passage{position:static;max-height:none}}
-.passage h3{margin-top:0}.passage p{margin:.5em 0}
-.qs{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.ins{background:var(--bg);border-left:4px solid var(--gold);padding:8px 10px;border-radius:6px;font-size:.95rem}
-.q{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:10px 0;border-bottom:1px dashed var(--line)}.qn{width:28px;height:28px;border-radius:50%;background:var(--green);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.85rem}
-.qp{margin-bottom:4px}.opt{display:flex;gap:8px;padding:4px 0;cursor:pointer}input.gap{width:min(220px,100%)}textarea{width:100%}textarea.essay{min-height:260px}
-.order{padding-left:1.2em}.order li{display:flex;justify-content:space-between;gap:8px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin:4px 0}.ob button{border:1px solid var(--line);background:var(--card);border-radius:6px;min-width:34px;min-height:34px}
-.hl span{cursor:pointer;border-radius:4px;padding:0 1px}.hl span.on{background:var(--gold);color:#000}.cloze select,.cloze input{margin:2px}
-.audio{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 12px}.audio audio{width:100%}
-.navbtns{display:flex;justify-content:space-between;gap:8px;margin-top:14px}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9;padding:16px}.modal[hidden]{display:none}.modal .box{background:var(--card);border-radius:14px;padding:18px;max-width:420px}
-.result .big{display:flex;gap:16px;flex-wrap:wrap}.result .big div{background:var(--bg);border-radius:12px;padding:10px 16px}.result .big b{display:block;font-size:1.6rem}.warn{color:#b3261e;font-weight:700}
-.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0}.share small{flex-basis:100%;color:var(--muted)}
-details{border-top:1px solid var(--line);padding:6px 0}summary{cursor:pointer;font-weight:700}.rv{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:8px;border-radius:8px;margin:6px 0}.rv.ok{background:var(--ok)}.rv.no{background:var(--no)}.rv.part{background:var(--part)}.rv p{margin:.2em 0}
-.trx{white-space:pre-wrap;font-size:.92rem;background:var(--bg);padding:8px;border-radius:8px}.model{white-space:pre-wrap;background:var(--bg);padding:8px;border-radius:8px}
-table.data{border-collapse:collapse;margin:8px 0;font-size:.92rem}table.data td,table.data th{border:1px solid var(--line);padding:4px 8px;text-align:left}
-footer{margin-top:24px;color:var(--muted);font-size:.92rem}.hist{padding-left:1.2em}
-@media print{.runbar,.tabs,.share,footer,.top select,button{display:none!important}details{display:block}body{background:#fff;color:#000}}
-</style>
+<link rel="stylesheet" href="https://info.talentededucationgroup.com/mocktest/style.css?v=3">
 </head>
 <body>
 <main id="app"><p>Loading…</p></main>
 <script>window.MOCK_BASE="https://info.talentededucationgroup.com/mocktest/";</script>
-<script src="https://info.talentededucationgroup.com/mocktest/app.js?v=2"></script>
+<script src="https://info.talentededucationgroup.com/mocktest/app.js?v=3"></script>
 </body>
 </html>

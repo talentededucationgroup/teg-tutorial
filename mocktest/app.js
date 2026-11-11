@@ -4,6 +4,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const Q=new URLSearchParams(location.search);
 const BASE=(window.MOCK_BASE||'');
+const SHARE_URL=(window.MOCK_SHARE_URL||'https://pricelist.talentededucationgroup.com/');
 const LANGS=['id','en','th','vi','zh','ja','ko','km','fr','pt','es','de','it','nl','ru'];
 let LANG=(Q.get('lang')||'').slice(0,2); if(!LANGS.includes(LANG)) LANG='id';
 let UI={}, BANK=null, IDX=null, RUN=null;
@@ -43,20 +44,21 @@ function testPage(){
   app().innerHTML=header(BANK.title,esc(L(BANK.desc)))+`
   <section class="card"><h2>${esc(t('choose_section'))}</h2>
   ${BANK.levels?`<label class="lvl">${esc(t('level'))}: <select id="lvl">${BANK.levels.map(l=>`<option>${esc(l)}</option>`).join('')}</select></label>`:''}
+  <label class="namef"><b>${esc(t('your_name'))}</b><input id="candName" maxlength="60" autocomplete="name" placeholder="${esc(t('name_ph'))}" value="${esc(store.get('name',''))}"><small>${esc(t('name_note'))}</small><span class="warn" id="nameWarn" hidden>${esc(t('name_required'))}</span></label>
   <div class="secs">${secs.map((s,i)=>`<div class="sec"><div><b>${esc(L(s.title))}</b><small>${s.minutes} ${esc(t('minutes'))}${s.review_minutes?` + ${s.review_minutes} ${esc(t('review_min'))}`:''} · ${s.auto?esc(t('auto_marked')):esc(t('practice_only'))}</small><small>${esc(L(s.desc))}</small></div><button class="btn" data-sec="${i}">${esc(t('start'))}</button></div>`).join('')}</div>
   <p class="small">${esc(t('rules'))}</p>
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
   <p><a href="?lang=${LANG}">← ${esc(t('all_tests'))}</a></p>`+footer();
   bindLang();
-  $$('[data-sec]').forEach(b=>b.onclick=()=>startSection(+b.dataset.sec,$('#examMode').checked));
+  $$('[data-sec]').forEach(b=>b.onclick=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return}store.set('name',nm);startSection(+b.dataset.sec,$('#examMode').checked)});
 }
 // ---------- run ----------
 function startSection(i,exam){
   const sec=BANK.sections[i]; const parts=[]; const ids=[];
   (sec.slots||[]).forEach(sl=>{const got=pick(BANK.id,sl,sl.count||1);got.forEach(g=>{ids.push(g.id);parts.push(Object.assign({slot:sl.id,slotTitle:sl.title},JSON.parse(JSON.stringify(g))))})});
   let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
-  RUN={sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{}};
+  RUN={name:store.get('name',''),rid:'TEG-'+BANK.id.toUpperCase()+'-'+new Date().toISOString().slice(2,10).replace(/-/g,'')+'-'+(Date.now().toString(36).slice(-3)+rnd(1296).toString(36)).toUpperCase(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{}};
   window.onbeforeunload=()=>RUN&&!RUN.done?true:null;
   renderRun(); tick();
 }
@@ -129,7 +131,7 @@ function scoreQ(q){const a=RUN.answers[q.n];
     case 'multi': {const sel=(a||[]).map(k=>q._map?q._map[k]:k);const right=sel.filter(k=>q.answer.includes(k)).length;const wrong=sel.length-right;return {got:q.negative?Math.max(0,right-wrong):(sel.length>q.choose?Math.max(0,right-(sel.length-q.choose)):right),max:q.answer.length}}
     case 'tfng': case 'match': return {got:a&&norm(a)===norm(q.answer)?1:0,max:1};
     case 'gap': {const acc=[].concat(q.answer).map(norm);return {got:acc.includes(norm(a))?1:0,max:1}}
-    case 'order': {const ans=q.answer||q.items.map((_,k)=>k);let g=0;for(let i=0;i<ans.length-1;i++){const x=a.indexOf(ans[i]);if(x>=0&&a[x+1]===ans[i+1])g++}return {got:g,max:ans.length-1}}
+    case 'order': {const ans=q.answer||q.items.map((_,k)=>k);let g=0;for(let i=0;i<ans.length-1;i++){const aa=a||[];const x=aa.indexOf(ans[i]);if(x>=0&&aa[x+1]===ans[i+1])g++}return {got:g,max:ans.length-1}}
     case 'dictation': {const want=norm(q.answer).split(' ');const have=norm(a).split(' ');const pool=have.slice();let g=0;want.forEach(w=>{const i=pool.indexOf(w);if(i>=0){g++;pool.splice(i,1)}});return {got:g,max:want.length}}
     case 'highlight': {const sel=a||[];const r=sel.filter(k=>q.answer.includes(k)).length;return {got:Math.max(0,r-(sel.length-r)),max:q.answer.length}}
     case 'cloze': {let g=0,m=0;Object.entries(q.blanks).forEach(([id,b])=>{m++;const v=(a||{})[id];if(v&&[].concat(b.answer).map(norm).includes(norm(v)))g++});return {got:g,max:m}}
@@ -149,7 +151,7 @@ function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;window.onbeforeu
   if(sec.auto){const h=store.get('hist:'+BANK.id,[]);h.push({at:Date.now(),sec:L(sec.title),score:`${raw}/${max}${est!==''?' · '+(sec.score.label||'')+' '+est:''}`});store.set('hist:'+BANK.id,h.slice(-30))}
   const used=Math.min(RUN.limit,(Date.now()-RUN.start)/1000);
   app().innerHTML=header(BANK.title+' · '+L(sec.title),'')+`<section class="card result">${timeout?`<p class="warn">${esc(t('time_up'))}</p>`:''}
-  ${sec.auto?`<div class="big"><div><small>${esc(t('score'))}</small><b>${raw} / ${max}</b></div>${est!==''?`<div><small>${esc(sec.score.label||t('estimate'))}</small><b>${esc(est)}</b></div>`:''}<div><small>${esc(t('time_used'))}</small><b>${fmt(used)}</b></div></div><p class="small">${esc(L(sec.score&&sec.score.note)||t('estimate_note'))}</p>`:`<p>${esc(t('practice_done'))}</p>`}
+  ${reportHTML(sec,raw,max,est,used,rows)}
   <div class="share"><b>${esc(t('send_result'))}</b> <a class="btn wa" id="shWA" target="_blank" rel="noopener">WhatsApp</a> <a class="btn ghost" id="shMail">Email</a> <button class="btn ghost" id="shPrint">PDF / ${esc(t('print'))}</button><small>${esc(t('send_note'))}</small></div>
   <p><button class="btn" id="again">${esc(t('try_again'))}</button> <a class="btn ghost" href="?test=${BANK.id}&lang=${LANG}">${esc(t('other_sections'))}</a> <a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(sec.auto?t('ask_consultant'):t('ask_review'))}</a></p></section>
   <section class="card"><h2>${esc(t('review'))}</h2>${RUN.parts.map(p=>`<details${sec.auto?'':' open'}><summary>${esc(L(p.title)||p.slotTitle)}</summary>${p.transcript?`<details class="tr"><summary>${esc(t('transcript'))}</summary><div class="trx">${p.transcript}</div></details>`:''}
@@ -160,15 +162,29 @@ function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;window.onbeforeu
   $('#shMail').href='mailto:?subject='+encodeURIComponent(t('free_mock')+' - '+BANK.title+' '+L(sec.title))+'&body='+encodeURIComponent(txt);
   $('#shPrint').onclick=()=>{$$('details').forEach(d=>d.open=true);window.print()};
 }
+function partStats(rows){const g=[];rows.forEach(r=>{if(!r.s)return;const k=r.p.slotTitle||L(r.p.title);let o=g.find(x=>x.k===k);if(!o){o={k,got:0,max:0};g.push(o)}o.got+=r.s.got;o.max+=r.s.max});return g}
+function fbKey(p){return p>=0.8?'fb_strong':(p>=0.5?'fb_dev':'fb_focus')}
+function reportHTML(sec,raw,max,est,used,rows){
+  const d=new Date();const ps=sec.auto?partStats(rows):[];
+  const sc=sec.auto?`<div class="rp-score"><div><small>${esc(sec.score&&sec.score.label||t('estimate'))}</small><b>${est!==''?esc(est):'-'}</b></div><div><small>${esc(t('score'))}</small><b>${raw} / ${max}</b></div><div><small>${esc(t('time_used'))}</small><b>${fmt(used)}</b></div></div>`:`<p class="rp-prac">${esc(t('practice_done'))}</p>`;
+  const tb=ps.length?`<h3>${esc(t('breakdown'))}</h3><table class="rp-tb"><tr><th>${esc(t('section'))}</th><th>${esc(t('overall'))}</th><th></th><th>${esc(t('feedback'))}</th></tr>${ps.map(o=>{const p=o.max?o.got/o.max:0;return `<tr><td>${esc(o.k)}</td><td>${o.got}/${o.max}</td><td><span class="bar"><i style="width:${Math.round(p*100)}%"></i></span></td><td>${esc(t(fbKey(p)))}</td></tr>`}).join('')}</table>`:'';
+  return `<div class="report" id="report"><div class="wm" aria-hidden="true"></div>
+  <p class="rp-org">${esc(t('organiser'))}</p>
+  <div class="rp-head"><img src="${BASE}logo.png" alt="Talented Education Group" onerror="this.remove()"><div><b>${esc(t('report_title'))}</b><span>${esc(BANK.title)} · ${esc(L(sec.title))}</span></div><img src="${BASE}vsa-logo.png" alt="Victory Scholars Academy" onerror="this.remove()"></div>
+  <dl class="rp-meta"><div><dt>${esc(t('candidate'))}</dt><dd class="rp-name">${esc(RUN.name||'-')}</dd></div><div><dt>${esc(t('date'))}</dt><dd>${d.toLocaleDateString(LANG,{day:'2-digit',month:'short',year:'numeric'})}</dd></div><div><dt>${esc(t('report_no'))}</dt><dd>${esc(RUN.rid)}</dd></div><div><dt>${esc(t('section'))}</dt><dd>${esc(L(sec.title))}</dd></div></dl>
+  ${sc}${tb}
+  <p class="small">${esc(L(sec.score&&sec.score.note)||t('estimate_note'))}</p>
+  <div class="rp-foot"><img src="${BASE}qr-pricelist.png" alt="QR pricelist.talentededucationgroup.com"><p>${esc(t('try_free'))}<br><a href="${SHARE_URL}" target="_blank" rel="noopener">${esc(SHARE_URL.replace(/^https?:\/\//,'').replace(/\/$/,''))}</a></p></div>
+  <p class="rp-off">${esc(t('not_official'))}</p></div>`}
 function summaryText(sec,raw,max,est,used,rows){
-  const lines=[`${t('free_mock')} - Talented Education Group`,`${BANK.title} · ${L(sec.title)}`,`${t('date')}: ${new Date().toLocaleString()}`];
+  const lines=[`${t('report_title')} - ${BANK.title} · ${L(sec.title)}`,`${t('candidate')}: ${RUN.name||'-'}`,`${t('report_no')}: ${RUN.rid}`,`${t('date')}: ${new Date().toLocaleString()}`,t('organiser')];
   if(sec.auto){lines.push(`${t('score')}: ${raw}/${max}`+(est!==''?` · ${sec.score.label||t('estimate')}: ${est}`:''));lines.push(`${t('time_used')}: ${fmt(used)}`);
-    RUN.parts.forEach(p=>{let g=0,m=0;(p.questions||[]).forEach(q=>{const r=rows.find(x=>x.q===q);if(r&&r.s){g+=r.s.got;m+=r.s.max}});lines.push(`- ${L(p.title)||p.slotTitle}: ${g}/${m}`)});
+    partStats(rows).forEach(o=>lines.push(`- ${o.k}: ${o.got}/${o.max} (${t(fbKey(o.max?o.got/o.max:0))})`));
     const wrong=rows.filter(r=>r.s&&r.s.got<r.s.max).map(r=>`${r.q.n}: ${showAns(r.q)}`.slice(0,60));
     if(wrong.length){lines.push('');lines.push(t('to_review')+':');lines.push(...wrong.slice(0,25));if(wrong.length>25)lines.push('…')}
     lines.push('');lines.push(L(sec.score&&sec.score.note)||t('estimate_note'));
   } else {RUN.parts.forEach(p=>(p.questions||[]).forEach(q=>{const a=RUN.answers[q.n];if(q.type==='essay'){lines.push('');lines.push(`${q.n}. ${(q.prompt||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,160)}`);lines.push(`(${yours(q)})`);if(a)lines.push(a)}}))}
-  lines.push('');lines.push(t('footer_vsa'));lines.push('https://info.talentededucationgroup.com/mocktest/?test='+BANK.id);
+  lines.push('');lines.push(t('not_official'));lines.push('');lines.push(t('try_free'));lines.push(SHARE_URL);
   return lines.join('\n');}
 function showAns(q){switch(q.type){
   case 'mcq': return String.fromCharCode(65+(q._map?q._map.indexOf(q.answer):q.answer))+'. '+q.options[q.answer];
@@ -187,7 +203,7 @@ function reviewRow(q,s){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')):'n
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${q.explain}</p>`:''}</div></div>`}
 // ---------- boot ----------
 (async function(){
-  try{UI=await J(BASE+'banks/ui.json');IDX=await J(BASE+'banks/index.json');window.MOCK_V=IDX.version||'1'}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
+  try{UI=await J(BASE+'banks/ui.json?t='+Math.floor(Date.now()/6e5));IDX=await J(BASE+'banks/index.json');window.MOCK_V=IDX.version||'1'}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
   document.documentElement.lang=LANG;
   const id=Q.get('test');
   if(!id){home();return}

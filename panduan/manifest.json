@@ -1,22 +1,22 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4.2",
+  "version": "v4.3",
   "released": "2026-11-11",
   "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 19:45)"
+    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 20:15)"
   },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru.",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 456.8,
+  "duration_seconds": 468.9,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 18543582,
-      "sha256": "7ebb0fa51c234df643f6ac3c3b269564dbd61629d19b9cbb283cbb25ad003cfb"
+      "bytes": 19148687,
+      "sha256": "a9ad18528c01cdd9113491b0ebe0ef31b91e6b3f5cd3bf15292b4c7592adc3de"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +25,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 4275,
-      "sha256": "31912595f0b5836a0e2079b2118b5a48b2fcff64c4ec1ba12539620c4398d662"
+      "bytes": 4312,
+      "sha256": "da0a3abf687eb9a3b18b26d58bb4ea4b8f50c5855786b3e0bc8ab1a7392f6a52"
     }
   },
   "chapters": [
@@ -71,91 +71,91 @@
       "title": "Browser: Tombol aplikasi & Kegiatan TEG"
     },
     {
-      "start": "02:27",
+      "start": "02:29",
       "title": "Browser: Negara & Offshore / Onshore"
     },
     {
-      "start": "02:45",
+      "start": "02:47",
       "title": "Browser: Cari & filter"
     },
     {
-      "start": "02:55",
+      "start": "02:57",
       "title": "Browser: Pilih asuransi OSHC"
     },
     {
-      "start": "03:04",
+      "start": "03:06",
       "title": "Browser: Urutkan hasil"
     },
     {
-      "start": "03:15",
+      "start": "03:17",
       "title": "Browser: Baca kartu program"
     },
     {
-      "start": "03:27",
+      "start": "03:28",
       "title": "Browser: Rincian program"
     },
     {
-      "start": "03:38",
+      "start": "03:40",
       "title": "Browser: Dana awal, rekening koran & refund"
     },
     {
-      "start": "03:50",
+      "start": "03:52",
       "title": "Browser: Tambah biaya hidup"
     },
     {
-      "start": "04:06",
+      "start": "04:07",
       "title": "Browser: PDF, WhatsApp & daftar"
     },
     {
-      "start": "04:18",
+      "start": "04:20",
       "title": "Browser: Bandingkan"
     },
     {
-      "start": "04:30",
+      "start": "04:31",
       "title": "Browser: Simpan hasil"
     },
     {
-      "start": "04:43",
+      "start": "04:45",
       "title": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "04:58",
+      "start": "05:00",
       "title": "Browser: Paket Pathway VET + HE"
     },
     {
-      "start": "05:17",
+      "start": "05:19",
       "title": "Browser: Sekolah lain (CRICOS)"
     },
     {
-      "start": "05:32",
+      "start": "05:34",
       "title": "Browser: Les persiapan IELTS / PTE"
     },
     {
-      "start": "05:46",
+      "start": "05:48",
       "title": "Browser: Kelas & harga VSA"
     },
     {
-      "start": "05:58",
+      "start": "06:00",
       "title": "Browser: Bea siswa"
     },
     {
-      "start": "06:20",
+      "start": "06:22",
       "title": "Browser: Lowongan Kerja"
     },
     {
-      "start": "06:36",
+      "start": "06:38",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "06:56",
+      "start": "06:58",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "07:07",
+      "start": "07:09",
       "title": "Browser: Kantor & formulir"
     },
     {
-      "start": "07:21",
+      "start": "07:23",
       "title": "Konsultasi gratis"
     }
   ],

@@ -2035,7 +2035,10 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG list; TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2061,7 +2064,10 @@
    "focus_it": "Gestore di residenze studentesche in più città",
    "focus_nl": "Aanbieder van studentenhuisvesting in meerdere steden",
    "focus_ru": "Оператор студенческого жилья в нескольких городах",
-   "source": "TEG list; TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2087,7 +2093,10 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG list; TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2321,7 +2330,10 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2347,7 +2359,10 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2373,7 +2388,10 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
@@ -2399,13 +2417,16 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
    "country_code": "AU",
    "city": "",
-   "name": "Switch Living",
+   "name": "The Switch (Switch Living)",
    "url": "https://www.switchliving.com.au/",
    "url_level": "homepage",
    "type": "operator",
@@ -2425,13 +2446,16 @@
    "focus_it": "Gestore di residenze studentesche",
    "focus_nl": "Aanbieder van studentenhuisvesting",
    "focus_ru": "Оператор студенческого жилья",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "Australia",
    "country_code": "AU",
    "city": "",
-   "name": "Homestay Network",
+   "name": "Australian Homestay Network (AHN)",
    "url": "https://www.homestaynetwork.org/",
    "url_level": "homepage",
    "type": "operator",
@@ -2451,7 +2475,10 @@
    "focus_it": "Homestay in Australia e Nuova Zelanda",
    "focus_nl": "Gastgezinnen in Australië en Nieuw-Zeeland",
    "focus_ru": "Проживание в семьях в Австралии и Новой Зеландии",
-   "source": "TEG accommodation partner"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "New Zealand",
@@ -2555,7 +2582,10 @@
    "focus_it": "Gestore di residenze studentesche; Auckland, Wellington, Christchurch",
    "focus_nl": "Aanbieder van studentenhuisvesting; Auckland, Wellington, Christchurch",
    "focus_ru": "Оператор студенческого жилья; Auckland, Wellington, Christchurch",
-   "source": "owner list"
+   "source": "TEG accommodation partner",
+   "teg_partner": true,
+   "booking_via_teg": true,
+   "booking_url": "https://linktr.ee/talentededucationgroup"
   },
   {
    "country": "New Zealand",
@@ -5295,5 +5325,42 @@
    "focus_nl": "Controleer identiteit en registratie van makelaars",
    "focus_ru": "Проверка личности и регистрации агента"
   }
- ]
+ ],
+ "partner_booking": {
+  "cta": {
+   "id": "Pesan lewat TEG (gratis)",
+   "en": "Book through TEG (free)",
+   "th": "จองผ่าน TEG (ฟรี)",
+   "vi": "Đặt qua TEG (miễn phí)",
+   "zh": "通过 TEG 预订（免费）",
+   "ja": "TEG経由で予約（無料）",
+   "ko": "TEG를 통해 예약 (무료)",
+   "km": "កក់តាម TEG (ឥតគិតថ្លៃ)",
+   "fr": "Réserver via TEG (gratuit)",
+   "pt": "Reservar pela TEG (grátis)",
+   "es": "Reservar a través de TEG (gratis)",
+   "de": "Über TEG buchen (kostenlos)",
+   "it": "Prenota tramite TEG (gratis)",
+   "nl": "Boeken via TEG (gratis)",
+   "ru": "Забронировать через TEG (бесплатно)"
+  },
+  "note": {
+   "id": "Partner akomodasi TEG - konsultan TEG membantu cek kamar, harga terbaru & booking tanpa biaya tambahan.",
+   "en": "TEG accommodation partner - a TEG consultant helps you check rooms, latest prices and booking at no extra cost.",
+   "th": "พาร์ทเนอร์ที่พักของ TEG - ที่ปรึกษา TEG ช่วยตรวจสอบห้อง ราคาล่าสุด และการจองโดยไม่มีค่าใช้จ่ายเพิ่ม",
+   "vi": "Đối tác chỗ ở của TEG - tư vấn viên TEG giúp kiểm tra phòng, giá mới nhất và đặt chỗ không mất thêm phí.",
+   "zh": "TEG 住宿合作伙伴——TEG 顾问免费帮你查询房间、最新价格并办理预订。",
+   "ja": "TEGの宿泊パートナー - TEGコンサルタントが空室・最新料金の確認と予約を追加費用なしでお手伝いします。",
+   "ko": "TEG 숙소 파트너 - TEG 상담사가 객실, 최신 요금 확인 및 예약을 추가 비용 없이 도와드립니다.",
+   "km": "ដៃគូស្នាក់នៅរបស់ TEG - អ្នកប្រឹក្សា TEG ជួយពិនិត្យបន្ទប់ តម្លៃថ្មីៗ និងការកក់ ដោយមិនគិតថ្លៃបន្ថែម។",
+   "fr": "Partenaire hébergement de TEG - un conseiller TEG t'aide à vérifier les chambres, les prix à jour et la réservation sans frais supplémentaires.",
+   "pt": "Parceiro de acomodação da TEG - um consultor TEG ajuda a verificar quartos, preços atualizados e a reserva sem custo extra.",
+   "es": "Socio de alojamiento de TEG - un asesor de TEG te ayuda a revisar habitaciones, precios actualizados y la reserva sin coste adicional.",
+   "de": "Unterkunftspartner von TEG - eine TEG-Beratung hilft dir kostenlos bei Zimmern, aktuellen Preisen und der Buchung.",
+   "it": "Partner alloggi di TEG - un consulente TEG ti aiuta a verificare camere, prezzi aggiornati e prenotazione senza costi aggiuntivi.",
+   "nl": "Huisvestingspartner van TEG - een TEG-consulent helpt je kosteloos met kamers, actuele prijzen en boeken.",
+   "ru": "Партнёр TEG по жилью - консультант TEG бесплатно поможет проверить комнаты, актуальные цены и бронирование."
+  },
+  "url": "https://linktr.ee/talentededucationgroup"
+ }
 }

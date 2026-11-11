@@ -244,7 +244,10 @@
       "attribution_de": "Quelle: Iglu Brisbane City (offizielle Website)",
       "attribution_it": "Fonte: Iglu Brisbane City (sito ufficiale)",
       "attribution_nl": "Bron: Iglu Brisbane City (officiële website)",
-      "attribution_ru": "Источник: Iglu Brisbane City (официальный сайт)"
+      "attribution_ru": "Источник: Iglu Brisbane City (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "8059938c3ae2ebe5",
@@ -571,7 +574,10 @@
       "attribution_de": "Quelle: Iglu Broadway (offizielle Website)",
       "attribution_it": "Fonte: Iglu Broadway (sito ufficiale)",
       "attribution_nl": "Bron: Iglu Broadway (officiële website)",
-      "attribution_ru": "Источник: Iglu Broadway (официальный сайт)"
+      "attribution_ru": "Источник: Iglu Broadway (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "d8f495efc036ad1d",
@@ -897,7 +903,10 @@
       "attribution_de": "Quelle: UniLodge Melbourne CBD (offizielle Website)",
       "attribution_it": "Fonte: UniLodge Melbourne CBD (sito ufficiale)",
       "attribution_nl": "Bron: UniLodge Melbourne CBD (officiële website)",
-      "attribution_ru": "Источник: UniLodge Melbourne CBD (официальный сайт)"
+      "attribution_ru": "Источник: UniLodge Melbourne CBD (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "d8f495efc036ad1d",
@@ -1209,7 +1218,10 @@
       "attribution_de": "Quelle: UniLodge Melbourne Central (offizielle Website)",
       "attribution_it": "Fonte: UniLodge Melbourne Central (sito ufficiale)",
       "attribution_nl": "Bron: UniLodge Melbourne Central (officiële website)",
-      "attribution_ru": "Источник: UniLodge Melbourne Central (официальный сайт)"
+      "attribution_ru": "Источник: UniLodge Melbourne Central (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "a2cecf5a5ed97a86",
@@ -1482,7 +1494,10 @@
       "attribution_de": "Quelle: UniLodge @ UC Campus West (offizielle Website)",
       "attribution_it": "Fonte: UniLodge @ UC Campus West (sito ufficiale)",
       "attribution_nl": "Bron: UniLodge @ UC Campus West (officiële website)",
-      "attribution_ru": "Источник: UniLodge @ UC Campus West (официальный сайт)"
+      "attribution_ru": "Источник: UniLodge @ UC Campus West (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "40c610227f153678",
@@ -1808,7 +1823,10 @@
       "attribution_de": "Quelle: UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (offizielle Website)",
       "attribution_it": "Fonte: UniLodge - alloggi ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (sito ufficiale)",
       "attribution_nl": "Bron: UniLodge - ANU-huisvesting (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (officiële website)",
-      "attribution_ru": "Источник: UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (официальный сайт)"
+      "attribution_ru": "Источник: UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "084b76e5975a18b8",
@@ -2135,7 +2153,10 @@
       "attribution_de": "Quelle: StudentLiving / UniLodge Darwin (CDU) (offizielle Website)",
       "attribution_it": "Fonte: StudentLiving / UniLodge Darwin (CDU) (sito ufficiale)",
       "attribution_nl": "Bron: StudentLiving / UniLodge Darwin (CDU) (officiële website)",
-      "attribution_ru": "Источник: StudentLiving / UniLodge Darwin (CDU) (официальный сайт)"
+      "attribution_ru": "Источник: StudentLiving / UniLodge Darwin (CDU) (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "34129c0e5ee5acd4",
@@ -3196,7 +3217,10 @@
       "attribution_de": "Quelle: UniLodge Auckland City (offizielle Website)",
       "attribution_it": "Fonte: UniLodge Auckland City (sito ufficiale)",
       "attribution_nl": "Bron: UniLodge Auckland City (officiële website)",
-      "attribution_ru": "Источник: UniLodge Auckland City (официальный сайт)"
+      "attribution_ru": "Источник: UniLodge Auckland City (официальный сайт)",
+      "teg_partner": true,
+      "booking_via_teg": true,
+      "booking_url": "https://linktr.ee/talentededucationgroup"
     },
     {
       "id": "e6a0f8ca659ccee3",
@@ -5140,5 +5164,42 @@
   "schedule_de": "Monatliche erneute Prüfung (am 1.) zusammen mit Rückerstattungsrichtlinien & Englischanforderungen",
   "schedule_it": "Ricontrollato ogni mese (il giorno 1) insieme ai requisiti di rimborso e di inglese",
   "schedule_nl": "Elke maand (op de 1e) opnieuw gecontroleerd, samen met terugbetalingsbeleid & Engelse taaleisen",
-  "schedule_ru": "Перепроверяется ежемесячно (1-го числа) вместе с политиками возврата и требованиями к английскому языку"
+  "schedule_ru": "Перепроверяется ежемесячно (1-го числа) вместе с политиками возврата и требованиями к английскому языку",
+  "partner_booking": {
+    "cta": {
+      "id": "Pesan lewat TEG (gratis)",
+      "en": "Book through TEG (free)",
+      "th": "จองผ่าน TEG (ฟรี)",
+      "vi": "Đặt qua TEG (miễn phí)",
+      "zh": "通过 TEG 预订（免费）",
+      "ja": "TEG経由で予約（無料）",
+      "ko": "TEG를 통해 예약 (무료)",
+      "km": "កក់តាម TEG (ឥតគិតថ្លៃ)",
+      "fr": "Réserver via TEG (gratuit)",
+      "pt": "Reservar pela TEG (grátis)",
+      "es": "Reservar a través de TEG (gratis)",
+      "de": "Über TEG buchen (kostenlos)",
+      "it": "Prenota tramite TEG (gratis)",
+      "nl": "Boeken via TEG (gratis)",
+      "ru": "Забронировать через TEG (бесплатно)"
+    },
+    "note": {
+      "id": "Partner akomodasi TEG - konsultan TEG membantu cek kamar, harga terbaru & booking tanpa biaya tambahan.",
+      "en": "TEG accommodation partner - a TEG consultant helps you check rooms, latest prices and booking at no extra cost.",
+      "th": "พาร์ทเนอร์ที่พักของ TEG - ที่ปรึกษา TEG ช่วยตรวจสอบห้อง ราคาล่าสุด และการจองโดยไม่มีค่าใช้จ่ายเพิ่ม",
+      "vi": "Đối tác chỗ ở của TEG - tư vấn viên TEG giúp kiểm tra phòng, giá mới nhất và đặt chỗ không mất thêm phí.",
+      "zh": "TEG 住宿合作伙伴——TEG 顾问免费帮你查询房间、最新价格并办理预订。",
+      "ja": "TEGの宿泊パートナー - TEGコンサルタントが空室・最新料金の確認と予約を追加費用なしでお手伝いします。",
+      "ko": "TEG 숙소 파트너 - TEG 상담사가 객실, 최신 요금 확인 및 예약을 추가 비용 없이 도와드립니다.",
+      "km": "ដៃគូស្នាក់នៅរបស់ TEG - អ្នកប្រឹក្សា TEG ជួយពិនិត្យបន្ទប់ តម្លៃថ្មីៗ និងការកក់ ដោយមិនគិតថ្លៃបន្ថែម។",
+      "fr": "Partenaire hébergement de TEG - un conseiller TEG t'aide à vérifier les chambres, les prix à jour et la réservation sans frais supplémentaires.",
+      "pt": "Parceiro de acomodação da TEG - um consultor TEG ajuda a verificar quartos, preços atualizados e a reserva sem custo extra.",
+      "es": "Socio de alojamiento de TEG - un asesor de TEG te ayuda a revisar habitaciones, precios actualizados y la reserva sin coste adicional.",
+      "de": "Unterkunftspartner von TEG - eine TEG-Beratung hilft dir kostenlos bei Zimmern, aktuellen Preisen und der Buchung.",
+      "it": "Partner alloggi di TEG - un consulente TEG ti aiuta a verificare camere, prezzi aggiornati e prenotazione senza costi aggiuntivi.",
+      "nl": "Huisvestingspartner van TEG - een TEG-consulent helpt je kosteloos met kamers, actuele prijzen en boeken.",
+      "ru": "Партнёр TEG по жилью - консультант TEG бесплатно поможет проверить комнаты, актуальные цены и бронирование."
+    },
+    "url": "https://linktr.ee/talentededucationgroup"
+  }
 }

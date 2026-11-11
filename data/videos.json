@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T13:35:00+07:00",
+  "updated_at": "2026-11-11T13:45:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -545,27 +545,27 @@
         {
           "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-85.jpg",
           "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-85.jpg",
-          "alt": "PTE Academic overall 85 - siswa VSA",
+          "alt": "PTE Academic overall 85 - Siswa VSA",
           "overall": 85,
           "test_date": "2026-06-18"
         },
         {
           "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-79.jpg",
           "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-79.jpg",
-          "alt": "PTE Academic overall 79 - siswa VSA",
+          "alt": "PTE Academic overall 79 - Siswa VSA",
           "overall": 79,
           "test_date": "2026-05-21"
         },
         {
           "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-64.jpg",
           "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-64.jpg",
-          "alt": "PTE Academic overall 64 - siswa VSA",
+          "alt": "PTE Academic overall 64 - Siswa VSA",
           "overall": 64,
           "test_date": "2026-01-17"
         }
       ],
       "orientation": "portrait (1131x1600)",
-      "note": "Poster testimoni resmi VSA (izin tampil dari siswa diurus pemilik). Tampilkan thumbnail, klik = gambar penuh (lightbox)."
+      "note": "Poster testimoni resmi VSA; nama, kode Score Report & ID siswa disensor (11/11/2026). Tampilkan thumbnail, klik = gambar penuh (lightbox)."
     }
   ]
 }

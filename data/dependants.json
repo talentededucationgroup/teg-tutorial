@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11",
- "updated_at": "2026-11-11T20:55:00+07:00",
+ "updated_at": "2026-11-11T21:10:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -318,22 +318,29 @@
    "family_allowed": "exempt_only",
    "eligibility_text_key": "au_eligibility",
    "visa_charge": {
-    "main_applicant": {
-     "all_other_students": 2500,
-     "elicos_or_non_award": 2050
+    "indonesia_asean_passport": {
+     "main_applicant": 2050,
+     "additional_18_plus": 1255,
+     "additional_under_18": 410,
+     "basis": "Migration Regulations Sch 1 item 1222(2)(a)(ib) + subitem 1222(5A) (Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam), berlaku 1 Jul 2026 - DIPAKAI UNTUK SISWA PASPOR INDONESIA (semua sektor)"
     },
-    "additional_18_plus": {
-     "all_other_students": 1530,
-     "elicos_or_non_award": 1255
+    "other_passport_all_other_students": {
+     "main_applicant": 2500,
+     "additional_18_plus": 1530,
+     "additional_under_18": 500
     },
-    "additional_under_18": {
-     "all_other_students": 500,
-     "elicos_or_non_award": 410
+    "other_passport_elicos_or_non_award": {
+     "main_applicant": 2050,
+     "additional_18_plus": 1255,
+     "additional_under_18": 410
     },
-    "postgraduate_research_note": "Postgraduate research sector: main AUD 2,500; tabel resmi tidak mencantumkan additional applicant (N/A) - konfirmasi di Visa Pricing Estimator",
-    "concession_note": "Biaya lebih rendah mungkin berlaku untuk warga negara Pasifik, Timor-Leste atau ASEAN untuk sebagian visa - cek Visa Pricing Estimator",
+    "default_for_website": "indonesia_asean_passport",
     "effective": "2026-07-01",
-    "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+    "sources": [
+     "https://www.legislation.gov.au/F2026L00874/asmade/2026-06-30/text/original/epub/OEBPS/document_1/document_1.html",
+     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing"
+    ],
+    "note": "Tabel harga Home Affairs menampilkan tarif umum (2.500/1.530/500); tarif lebih rendah untuk paspor ASEAN termasuk Indonesia berlaku menurut regulasi - konfirmasi di Visa Pricing Estimator saat lodgement",
     "checked": "2026-11-11"
    },
    "living_cost_per_year": {
@@ -436,14 +443,14 @@
  },
  "calculation": {
   "AU": {
-   "dana_awal_tambahan": "visa additional (18+ per partner/anak >=18, under 18 per anak) + selisih OSHC keluarga vs Single x bulan",
+   "dana_awal_tambahan": "visa tambahan sesuai paspor (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + selisih OSHC keluarga vs Single x bulan",
    "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x anak usia sekolah + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
    "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
    "contoh": {
-    "kasus": "Bachelor 2 tahun, partner + 1 anak usia sekolah, travel AUD 2.000/orang",
-    "visa": "1.530 + 500 = 2.030",
+    "kasus": "Paspor Indonesia, Bachelor, partner + 1 anak usia sekolah (<18), perjalanan AUD 2.000/orang",
+    "visa_tambahan": "1.255 + 410 = 1.665",
     "rekening_koran_tambahan": "10.394 + 4.449 + 13.502 + 2 x 2.000 = 32.345",
-    "saran_saldo_tambahan": "32.345 + 2.030 + selisih OSHC"
+    "saran_saldo_tambahan": "32.345 + 1.665 + selisih OSHC keluarga"
    }
   },
   "NZ": {

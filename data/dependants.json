@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11",
- "updated_at": "2026-11-11T21:30:00+07:00",
+ "updated_at": "2026-11-11T21:35:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -189,6 +189,23 @@
    "it": "Stati Uniti: i fondi per la famiglia (F-2) seguono l'importo del Form I-20 della scuola.",
    "nl": "Verenigde Staten: het benodigde geld voor gezinsleden (F-2) volgt het bedrag op het Form I-20 van de school.",
    "ru": "США: средства для семьи (F-2) определяются суммой в Form I-20 учебного заведения."
+  },
+  "oshc_note": {
+   "id": "Keterangan: OSHC Single menanggung siswa saja; untuk partner/anak tersedia polis Couple, Single Parent Family, atau Family.",
+   "en": "Note: Single OSHC covers the student only; Couple, Single Parent Family or Family policies are available for a partner/children.",
+   "th": "หมายเหตุ: OSHC Single คุ้มครองเฉพาะนักเรียน สำหรับคู่สมรส/บุตรมีกรมธรรม์ Couple, Single Parent Family หรือ Family",
+   "vi": "Ghi chú: OSHC Single chỉ bảo hiểm cho sinh viên; với vợ/chồng/con có các gói Couple, Single Parent Family hoặc Family.",
+   "zh": "说明：OSHC Single 仅保障学生本人；配偶/子女可选 Couple、Single Parent Family 或 Family 保单。",
+   "ja": "注記：OSHC Single は学生本人のみが対象です。配偶者・子どもには Couple、Single Parent Family、Family の保険があります。",
+   "ko": "참고: OSHC Single은 학생 본인만 보장하며, 배우자/자녀는 Couple, Single Parent Family 또는 Family 보험을 이용할 수 있습니다.",
+   "km": "សម្គាល់៖ OSHC Single ធានាតែសិស្ស សម្រាប់ដៃគូ/កូនមានប័ណ្ណ Couple, Single Parent Family ឬ Family។",
+   "fr": "Remarque : l'OSHC Single couvre uniquement l'étudiant ; des polices Couple, Single Parent Family ou Family existent pour le partenaire/les enfants.",
+   "pt": "Observação: o OSHC Single cobre só o estudante; para parceiro/filhos há apólices Couple, Single Parent Family ou Family.",
+   "es": "Nota: el OSHC Single cubre solo al estudiante; para pareja/hijos hay pólizas Couple, Single Parent Family o Family.",
+   "de": "Hinweis: OSHC Single deckt nur dich ab; für Partner/Kinder gibt es Couple-, Single-Parent-Family- oder Family-Policen.",
+   "it": "Nota: l'OSHC Single copre solo lo studente; per partner/figli sono disponibili polizze Couple, Single Parent Family o Family.",
+   "nl": "Opmerking: OSHC Single dekt alleen de student; voor partner/kinderen zijn Couple-, Single Parent Family- of Family-polissen beschikbaar.",
+   "ru": "Примечание: OSHC Single покрывает только студента; для партнёра/детей есть полисы Couple, Single Parent Family или Family."
   }
  },
  "labels": {
@@ -362,7 +379,7 @@
     "note": "Instrumen hukum mewajibkan travel expenses tanpa angka tetap; pakai angka panduan Home Affairs di Excel untuk setiap anggota keluarga"
    },
    "oshc": {
-    "rule": "Jenis polis: Single (siswa saja), Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua opsi termasuk Single bebas dipilih siswa tanpa peringatan (keputusan pemilik 11/11/2026); default mengikuti pilihan keluarga.",
+    "rule": "Jenis polis: Single (siswa saja), Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua opsi termasuk Single bebas dipilih siswa tanpa peringatan (keputusan pemilik 11/11/2026); default mengikuti pilihan keluarga. Tampilkan keterangan netral ui.oshc_note (teks kecil biasa, bukan peringatan) di bawah pilihan OSHC.",
     "use": "Tarif Couple / Single Parent Family / Family per provider dari Excel 'Aturan & Tarif'; bulan = durasi kursus + 2; tampilkan total polis keluarga dan selisihnya terhadap Single",
     "source": "https://www.health.gov.au/sites/default/files/documents/2020/06/overseas-student-health-cover-oshc-explanatory-guidelines-for-consumers-oshc-explanatory-guidelines-for-consumers_0.pdf",
     "checked": "2026-11-11"

@@ -8,7 +8,7 @@ Way 1: the Talented app – free, no Play Store or App Store needed.
 
 3
 00:00:27,170 --> 00:00:34,280
-Open the price list on your phone and tap "Mobile App Talented" at the top.
+Open the price list on your phone and tap "Mobile App Talented" below the Video Tutorial button.
 
 4
 00:00:34,880 --> 00:00:52,670
@@ -27,85 +27,101 @@ Done! The Talented icon is now on your home screen.
 Way 2: your browser – click the link below this video.
 
 8
-00:01:33,760 --> 00:01:48,310
-Open the price list page and pick your language at the top right – 8 languages are available.
+00:01:33,760 --> 00:01:47,640
+Open the price list page and pick your language at the top right – 15 languages are available.
 
 9
-00:01:48,910 --> 00:02:00,190
-The menu: study programmes, English, pathways, other schools, VSA courses, jobs, accommodation and start your application.
+00:01:48,240 --> 00:02:05,640
+The menu: programmes, English, pathways, other schools, IELTS/PTE/Korean/Japanese classes, scholarships, jobs, accommodation and start your application.
 
 10
-00:02:00,790 --> 00:02:12,340
-Choose Australia or New Zealand, then Offshore (still in Indonesia) or Onshore (already there).
+00:02:06,240 --> 00:02:20,260
+The big Video Tutorial button and TEG event videos: info sessions, seminars and school expos.
 
 11
-00:02:12,940 --> 00:02:24,320
-Search by course or school, then filter by city, field, level and maximum upfront cost.
+00:02:20,860 --> 00:02:38,820
+Choose your country – Australia, New Zealand and many more – then Offshore (still in Indonesia) or Onshore (already there).
 
 12
-00:02:24,920 --> 00:02:32,290
-Pick your OSHC provider – insurance costs are recalculated for every result.
+00:02:39,420 --> 00:02:48,640
+Search by course or school, then filter by city, field and level.
 
 13
-00:02:32,890 --> 00:02:43,720
-Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
+00:02:49,240 --> 00:02:56,610
+Pick your OSHC provider – insurance costs are recalculated for every result.
 
 14
-00:02:44,320 --> 00:02:55,120
-Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
+00:02:57,210 --> 00:03:08,040
+Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
 
 15
-00:02:55,720 --> 00:03:06,380
-Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
+00:03:08,640 --> 00:03:19,440
+Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
 
 16
-00:03:06,980 --> 00:03:18,940
-Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
+00:03:20,040 --> 00:03:30,700
+Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
 
 17
-00:03:19,540 --> 00:03:34,140
-Tick “Add estimated living costs” to include living costs for the whole study period in the total.
+00:03:31,300 --> 00:03:43,260
+Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
 
 18
-00:03:34,740 --> 00:03:46,170
-Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
+00:03:43,860 --> 00:03:58,460
+Tick “Add estimated living costs” to include living costs for the whole study period in the total.
 
 19
-00:03:46,770 --> 00:03:58,130
-Tick Compare on two or more programmes, then click Compare selected programmes.
+00:03:59,060 --> 00:04:10,490
+Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
 
 20
-00:03:58,730 --> 00:04:11,480
-Save all results as a PDF, only your ticked programmes, or send the list to WhatsApp.
+00:04:11,090 --> 00:04:22,450
+Tick Compare on two or more programmes, then click Compare selected programmes.
 
 21
-00:04:12,080 --> 00:04:24,680
-English (ELICOS) shows weekly course fees; a consultant calculates the upfront cost for your number of weeks.
+00:04:23,050 --> 00:04:35,800
+Save all results as a PDF, only your ticked programmes, or send the list to WhatsApp.
 
 22
-00:04:25,280 --> 00:04:34,570
-Pathway packages: VET at one school, then a Bachelor at another; each school issues its own CoE.
+00:04:36,400 --> 00:04:51,400
+English (ELICOS): weekly fees with a 10-week simulation of upfront cost, total cost and recommended balance.
 
 23
-00:04:35,170 --> 00:04:42,350
-Other schools links to the official CRICOS directory to check registered schools.
+00:04:52,000 --> 00:05:10,050
+Pathway packages: VET at one school, then a Bachelor at another, with upfront cost, total and recommended balance.
 
 24
-00:04:42,950 --> 00:05:02,440
-English courses (VSA): Basic English, PTE Foundation and IELTS/PTE Preparation, online and offline, priced in IDR.
+00:05:10,650 --> 00:05:24,530
+Other schools: the official CRICOS directory – 1,539 schools with courses and indicative prices.
 
 25
-00:05:03,040 --> 00:05:24,360
-Jobs: listings from Jobs by Adzuna, checked daily, with official visa work-hour rules. Never pay to get a job.
+00:05:25,130 --> 00:05:38,810
+IELTS/PTE preparation with Victory Scholars Academy – TEG is a Pearson PTE Elite Partner 2026.
 
 26
-00:05:24,960 --> 00:05:42,340
-Accommodation: a directory of student housing providers. Never transfer money before an official contract.
+00:05:39,410 --> 00:05:51,030
+Basic English, PTE Foundation, IELTS/PTE Preparation, Japanese and Korean – online and offline, priced in IDR.
 
 27
-00:05:42,940 --> 00:06:01,690
-Start your application: document checklist, process steps and the Student Information Form (PDF/Excel).
+00:05:51,630 --> 00:06:03,560
+Scholarships: find active LPDP, government and campus scholarships – always check the official source.
 
 28
-00:06:02,290 --> 00:06:16,530
+00:06:04,160 --> 00:06:19,360
+Jobs from Jobs by Adzuna, checked twice a day. Never pay to get a job.
+
+29
+00:06:19,960 --> 00:06:40,100
+Accommodation: student housing providers with price ranges. Never transfer money before an official contract.
+
+30
+00:06:40,700 --> 00:06:50,420
+Start your application: document checklist, process steps and a student visa process video.
+
+31
+00:06:51,020 --> 00:07:04,920
+Our offices in Sydney, Pontianak and Singkawang, and the Student Information Form (PDF/Excel).
+
+32
+00:07:05,520 --> 00:07:19,760
 All prices are estimates; final amounts follow the school's official offer letter.

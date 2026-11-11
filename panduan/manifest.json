@@ -1,22 +1,22 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v2",
+  "version": "v3",
   "released": "2026-11-11",
   "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R78, screenshot 11/11/2026)"
+    "website": "pricelist.talentededucationgroup.com/biaya-studi (R88, screenshot 11/11/2026)"
   },
-  "note": "Intro \"2 cara cek harga di Talented Education: lewat aplikasi atau lewat browser dengan klik link di bawah video ini\" + Cara 1 (pasang aplikasi) + Cara 2 (cek harga lewat browser). Menu Chrome/Safari & layar utama HP berupa ilustrasi berlabel.",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir).",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 377.1,
+  "duration_seconds": 440.3,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 14787019,
-      "sha256": "f668f9bd5d375f4ed71556424eb4eedccc36730bda39a03119ee32e3ff0e98a7"
+      "bytes": 17599851,
+      "sha256": "64f624b6d3fb3dedc67d0e58349be1dda18b64ef1499eb57a214b14e953d32c1"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +25,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 3536,
-      "sha256": "4b1a7f1b609435ad2008e93e142a89b17bd95fe422b6f0804de29d928b7ba87b"
+      "bytes": 4108,
+      "sha256": "5039636c43d7fe741a69005ca62c7bb326f7fea382c915bcf8539ca86e4fd440"
     }
   },
   "chapters": [
@@ -63,83 +63,99 @@
       "title": "Browser: Buka halaman & pilih bahasa"
     },
     {
-      "start": "01:48",
+      "start": "01:47",
       "title": "Browser: Menu utama"
     },
     {
-      "start": "02:00",
+      "start": "02:05",
+      "title": "Browser: Video Tutorial & Kegiatan TEG"
+    },
+    {
+      "start": "02:20",
       "title": "Browser: Negara & Offshore / Onshore"
     },
     {
-      "start": "02:12",
+      "start": "02:39",
       "title": "Browser: Cari & filter"
     },
     {
-      "start": "02:24",
+      "start": "02:48",
       "title": "Browser: Pilih asuransi OSHC"
     },
     {
-      "start": "02:32",
+      "start": "02:56",
       "title": "Browser: Urutkan hasil"
     },
     {
-      "start": "02:44",
+      "start": "03:08",
       "title": "Browser: Baca kartu program"
     },
     {
-      "start": "02:55",
+      "start": "03:19",
       "title": "Browser: Rincian program"
     },
     {
-      "start": "03:06",
+      "start": "03:30",
       "title": "Browser: Dana awal, rekening koran & refund"
     },
     {
-      "start": "03:19",
+      "start": "03:43",
       "title": "Browser: Tambah biaya hidup"
     },
     {
-      "start": "03:34",
+      "start": "03:58",
       "title": "Browser: PDF, WhatsApp & daftar"
     },
     {
-      "start": "03:46",
+      "start": "04:10",
       "title": "Browser: Bandingkan"
     },
     {
-      "start": "03:58",
+      "start": "04:22",
       "title": "Browser: Simpan hasil"
     },
     {
-      "start": "04:11",
+      "start": "04:36",
       "title": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "04:24",
+      "start": "04:51",
       "title": "Browser: Paket Pathway VET + HE"
     },
     {
-      "start": "04:34",
+      "start": "05:10",
       "title": "Browser: Sekolah lain (CRICOS)"
     },
     {
-      "start": "04:42",
-      "title": "Browser: Les bahasa (VSA)"
-    },
-    {
-      "start": "05:02",
-      "title": "Browser: Kerja"
-    },
-    {
       "start": "05:24",
+      "title": "Browser: Les persiapan IELTS / PTE"
+    },
+    {
+      "start": "05:39",
+      "title": "Browser: Kelas & harga VSA"
+    },
+    {
+      "start": "05:51",
+      "title": "Browser: Scholarship"
+    },
+    {
+      "start": "06:03",
+      "title": "Browser: Lowongan Kerja"
+    },
+    {
+      "start": "06:19",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "05:42",
+      "start": "06:40",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "06:01",
+      "start": "06:50",
+      "title": "Browser: Kantor & formulir"
+    },
+    {
+      "start": "07:05",
       "title": "Konsultasi gratis"
     }
   ],

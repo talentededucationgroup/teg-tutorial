@@ -1,22 +1,22 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4.1",
+  "version": "v4.2",
   "released": "2026-11-11",
   "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 18:45)"
+    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 19:45)"
   },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data.",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 458.6,
+  "duration_seconds": 456.8,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 18400614,
-      "sha256": "a6506a39b1b5328d067de10bd462df63d2b94a4f2cd7894076ec716f8164ba6f"
+      "bytes": 18543582,
+      "sha256": "7ebb0fa51c234df643f6ac3c3b269564dbd61629d19b9cbb283cbb25ad003cfb"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +25,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 4272,
-      "sha256": "8e1798c0101cd9cadca6560c493f0e62609d1b70cc2d1778ab409e9c27ddb012"
+      "bytes": 4275,
+      "sha256": "31912595f0b5836a0e2079b2118b5a48b2fcff64c4ec1ba12539620c4398d662"
     }
   },
   "chapters": [
@@ -63,99 +63,99 @@
       "title": "Browser: Buka halaman & pilih bahasa"
     },
     {
-      "start": "01:53",
+      "start": "01:52",
       "title": "Browser: Menu utama"
     },
     {
-      "start": "02:11",
+      "start": "02:10",
       "title": "Browser: Tombol aplikasi & Kegiatan TEG"
     },
     {
-      "start": "02:28",
+      "start": "02:27",
       "title": "Browser: Negara & Offshore / Onshore"
     },
     {
-      "start": "02:47",
+      "start": "02:45",
       "title": "Browser: Cari & filter"
     },
     {
-      "start": "02:57",
+      "start": "02:55",
       "title": "Browser: Pilih asuransi OSHC"
     },
     {
-      "start": "03:05",
+      "start": "03:04",
       "title": "Browser: Urutkan hasil"
     },
     {
-      "start": "03:17",
+      "start": "03:15",
       "title": "Browser: Baca kartu program"
     },
     {
-      "start": "03:28",
+      "start": "03:27",
       "title": "Browser: Rincian program"
     },
     {
-      "start": "03:40",
+      "start": "03:38",
       "title": "Browser: Dana awal, rekening koran & refund"
     },
     {
-      "start": "03:52",
+      "start": "03:50",
       "title": "Browser: Tambah biaya hidup"
     },
     {
-      "start": "04:07",
+      "start": "04:06",
       "title": "Browser: PDF, WhatsApp & daftar"
     },
     {
-      "start": "04:19",
+      "start": "04:18",
       "title": "Browser: Bandingkan"
     },
     {
-      "start": "04:31",
+      "start": "04:30",
       "title": "Browser: Simpan hasil"
     },
     {
-      "start": "04:45",
+      "start": "04:43",
       "title": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "05:00",
+      "start": "04:58",
       "title": "Browser: Paket Pathway VET + HE"
     },
     {
-      "start": "05:19",
+      "start": "05:17",
       "title": "Browser: Sekolah lain (CRICOS)"
     },
     {
-      "start": "05:33",
+      "start": "05:32",
       "title": "Browser: Les persiapan IELTS / PTE"
     },
     {
-      "start": "05:48",
+      "start": "05:46",
       "title": "Browser: Kelas & harga VSA"
     },
     {
-      "start": "06:00",
+      "start": "05:58",
       "title": "Browser: Bea siswa"
     },
     {
-      "start": "06:22",
+      "start": "06:20",
       "title": "Browser: Lowongan Kerja"
     },
     {
-      "start": "06:37",
+      "start": "06:36",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "06:58",
+      "start": "06:56",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "07:08",
+      "start": "07:07",
       "title": "Browser: Kantor & formulir"
     },
     {
-      "start": "07:23",
+      "start": "07:21",
       "title": "Konsultasi gratis"
     }
   ],

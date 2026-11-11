@@ -1,22 +1,22 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4",
+  "version": "v4.1",
   "released": "2026-11-11",
   "built_from": {
     "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 18:45)"
   },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa).",
+  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 459.1,
+  "duration_seconds": 458.6,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 18421320,
-      "sha256": "9b1463b2c83fb7dc8b62c5792813c106bfcb82b7f08be459925320d1b1be1044"
+      "bytes": 18400614,
+      "sha256": "a6506a39b1b5328d067de10bd462df63d2b94a4f2cd7894076ec716f8164ba6f"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +25,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 4271,
-      "sha256": "68ff162561f62b232460e15cbe04300c15956b7bec33a301781678b208585611"
+      "bytes": 4272,
+      "sha256": "8e1798c0101cd9cadca6560c493f0e62609d1b70cc2d1778ab409e9c27ddb012"
     }
   },
   "chapters": [
@@ -143,19 +143,19 @@
       "title": "Browser: Lowongan Kerja"
     },
     {
-      "start": "06:38",
+      "start": "06:37",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "06:59",
+      "start": "06:58",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "07:09",
+      "start": "07:08",
       "title": "Browser: Kantor & formulir"
     },
     {
-      "start": "07:24",
+      "start": "07:23",
       "title": "Konsultasi gratis"
     }
   ],

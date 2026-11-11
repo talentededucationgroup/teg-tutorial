@@ -533,7 +533,7 @@
     "note": "Instrumen hukum mewajibkan travel expenses tanpa angka tetap; pakai angka panduan Home Affairs di Excel untuk setiap anggota keluarga"
    },
    "oshc": {
-    "rule": "Jenis polis: Single, Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua bebas dipilih; default mengikuti pilihan keluarga. Bila membawa keluarga DAN memilih Single: OSHC = tarif Single per bulan x bulan x JUMLAH APPLICANT (siswa + partner + anak) - keputusan pemilik 11/11/2026 - dan tampilkan peringatan ui.oshc_single_warning (tidak memblokir).",
+    "rule": "Jenis polis: Single, Couple (siswa + partner), Single Parent Family (siswa + anak <18), Family (siswa + partner + anak). Semua bebas dipilih. DEFAULT SELALU Single dan TIDAK berpindah otomatis saat keluarga diisi (keputusan pemilik 11/11/2026). Bila membawa keluarga DAN memilih Single: OSHC = tarif Single per bulan x bulan x JUMLAH APPLICANT (siswa + partner + anak) dan tampilkan peringatan ui.oshc_single_warning dengan {jenis} = Couple (partner saja) / Single Parent Family (anak saja) / Family (partner + anak); tidak memblokir.",
     "use": "Tarif Couple / Single Parent Family / Family per provider dari Excel 'Aturan & Tarif'; bulan = durasi kursus + 2; tampilkan total polis keluarga dan selisihnya terhadap Single",
     "source": "https://www.health.gov.au/sites/default/files/documents/2020/06/overseas-student-health-cover-oshc-explanatory-guidelines-for-consumers-oshc-explanatory-guidelines-for-consumers_0.pdf",
     "checked": "2026-11-11"

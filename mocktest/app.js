@@ -285,7 +285,7 @@ function reviewRow(q,s,ans){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${q.explain}</p>`:''}</div></div>`}
 // ---------- boot ----------
 (async function(){
-  try{UI=await J(BASE+'banks/ui.json?t='+Math.floor(Date.now()/6e5));IDX=await J(BASE+'banks/index.json');window.MOCK_V=IDX.version||'1';try{const lk=document.createElement('link');lk.rel='stylesheet';lk.href=BASE+'style.css?v='+encodeURIComponent(window.MOCK_V);document.head.appendChild(lk)}catch(_){}}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
+  try{UI=await J(BASE+'banks/ui.json?t='+Math.floor(Date.now()/6e5));IDX=await J(BASE+'banks/index.json?t='+Math.floor(Date.now()/6e4));window.MOCK_V=IDX.version||'1';try{const lk=document.createElement('link');lk.rel='stylesheet';lk.href=BASE+'style.css?v='+encodeURIComponent(window.MOCK_V);document.head.appendChild(lk)}catch(_){}}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
   document.documentElement.lang=LANG;
   const id=Q.get('test');
   if(!id){home();return}

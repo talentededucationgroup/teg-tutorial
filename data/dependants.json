@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11T21:55:00+07:00",
- "updated_at": "2026-11-11T22:35:00+07:00",
+ "updated_at": "2026-11-11T22:45:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -241,6 +241,57 @@
    "it": "Età all’arrivo. Età scolare e costi del visto calcolati automaticamente.",
    "nl": "Leeftijd bij aankomst. Schoolleeftijd en visumkosten worden automatisch berekend.",
    "ru": "Возраст по прибытии. Школьный возраст и визовые сборы рассчитываются автоматически."
+  },
+  "age_required": {
+   "id": "Wajib diisi",
+   "en": "Required",
+   "th": "จำเป็นต้องกรอก",
+   "vi": "Bắt buộc",
+   "zh": "必填",
+   "ja": "必須",
+   "ko": "필수",
+   "km": "ត្រូវបំពេញ",
+   "fr": "Obligatoire",
+   "pt": "Obrigatório",
+   "es": "Obligatorio",
+   "de": "Pflichtfeld",
+   "it": "Obbligatorio",
+   "nl": "Verplicht",
+   "ru": "Обязательно"
+  },
+  "age_missing_warning": {
+   "id": "⚠️ Umur anak ke-{n} belum diisi / tidak valid. Biaya anak ini BELUM termasuk - angka di bawah BELUM TOTAL dan tidak boleh diberikan ke klien.",
+   "en": "⚠️ Age of child {n} is missing/invalid. This child's costs are NOT included - the figures below are NOT the total and must not be given to the client.",
+   "th": "⚠️ ยังไม่ได้กรอกอายุบุตรคนที่ {n} หรือไม่ถูกต้อง ค่าใช้จ่ายของบุตรคนนี้ยังไม่รวม ตัวเลขด้านล่างยังไม่ใช่ยอดรวมและห้ามให้ลูกค้า",
+   "vi": "⚠️ Chưa nhập/không hợp lệ tuổi của con thứ {n}. Chi phí của con này CHƯA được tính - số liệu bên dưới CHƯA phải tổng và không được gửi cho khách.",
+   "zh": "⚠️ 第 {n} 个孩子的年龄未填写/无效。该子女费用尚未计入，下方金额不是总额，不得提供给客户。",
+   "ja": "⚠️ {n} 人目の子どもの年齢が未入力/無効です。この子の費用は含まれていません。以下の金額は合計ではないため、顧客に渡さないでください。",
+   "ko": "⚠️ {n}번째 자녀의 나이가 비어 있거나 올바르지 않습니다. 이 자녀의 비용은 포함되지 않았으며 아래 금액은 합계가 아니므로 고객에게 전달하면 안 됩니다.",
+   "km": "⚠️ អាយុកូនទី {n} មិនទាន់បំពេញ ឬមិនត្រឹមត្រូវ។ ថ្លៃកូននេះមិនទាន់រួមបញ្ចូល - តួលេខខាងក្រោមមិនទាន់ជាសរុប ហើយមិនត្រូវផ្តល់ឱ្យអតិថិជនទេ។",
+   "fr": "⚠️ L'âge de l'enfant {n} est manquant/invalide. Ses frais ne sont PAS inclus : les montants ci-dessous ne sont PAS le total et ne doivent pas être remis au client.",
+   "pt": "⚠️ A idade do filho {n} está vazia/inválida. Os custos desse filho NÃO estão incluídos - os valores abaixo NÃO são o total e não devem ser enviados ao cliente.",
+   "es": "⚠️ Falta la edad del hijo {n} o no es válida. Sus costos NO están incluidos: las cifras de abajo NO son el total y no deben darse al cliente.",
+   "de": "⚠️ Alter von Kind {n} fehlt/ist ungültig. Die Kosten dieses Kindes sind NICHT enthalten - die Beträge unten sind NICHT die Gesamtsumme und dürfen nicht an Kunden gegeben werden.",
+   "it": "⚠️ L'età del figlio {n} manca o non è valida. I suoi costi NON sono inclusi: gli importi sotto NON sono il totale e non vanno dati al cliente.",
+   "nl": "⚠️ Leeftijd van kind {n} ontbreekt/is ongeldig. De kosten van dit kind zijn NIET meegerekend - de bedragen hieronder zijn NIET het totaal en mogen niet aan de klant worden gegeven.",
+   "ru": "⚠️ Возраст ребёнка {n} не указан/неверен. Расходы на этого ребёнка НЕ учтены - суммы ниже НЕ являются итогом и не должны передаваться клиенту."
+  },
+  "export_blocked": {
+   "id": "Isi umur semua anak dulu sebelum Download PDF / Kirim ke WhatsApp.",
+   "en": "Fill in every child's age before Download PDF / Send to WhatsApp.",
+   "th": "กรอกอายุบุตรทุกคนก่อนดาวน์โหลด PDF / ส่ง WhatsApp",
+   "vi": "Hãy nhập tuổi của tất cả các con trước khi Tải PDF / Gửi WhatsApp.",
+   "zh": "请先填写所有子女的年龄，再下载 PDF / 发送 WhatsApp。",
+   "ja": "PDF ダウンロード / WhatsApp 送信の前に、すべての子どもの年齢を入力してください。",
+   "ko": "PDF 다운로드 / WhatsApp 전송 전에 모든 자녀의 나이를 입력하세요.",
+   "km": "សូមបំពេញអាយុកូនទាំងអស់ មុនទាញយក PDF / ផ្ញើ WhatsApp។",
+   "fr": "Renseignez l'âge de chaque enfant avant de télécharger le PDF / envoyer sur WhatsApp.",
+   "pt": "Preencha a idade de todos os filhos antes de baixar o PDF / enviar pelo WhatsApp.",
+   "es": "Completa la edad de todos los hijos antes de descargar el PDF / enviar por WhatsApp.",
+   "de": "Trage das Alter aller Kinder ein, bevor du das PDF lädst / per WhatsApp sendest.",
+   "it": "Inserisci l'età di tutti i figli prima di scaricare il PDF / inviare su WhatsApp.",
+   "nl": "Vul de leeftijd van alle kinderen in voordat je de PDF downloadt / via WhatsApp verstuurt.",
+   "ru": "Укажите возраст всех детей перед скачиванием PDF / отправкой в WhatsApp."
   }
  },
  "labels": {
@@ -451,6 +502,10 @@
     "amount": 150,
     "currency": "AUD",
     "rule": "Talented service fee per tanggungan (partner/anak) - dikonfirmasi pemilik 11/11/2026; mengikuti aturan Prof. Adm (Offshore); sumber utama sel Excel 'Aturan & Tarif'"
+   },
+   "child_age_input": {
+    "rule": "Umur tiap anak WAJIB diisi (0-17, angka bulat). Kosong/tidak valid: field merah + 'Wajib diisi', banner ui.age_missing_warning di ringkasan & detail, angka diberi label 'BELUM TOTAL', tombol PDF & WhatsApp dinonaktifkan dengan ui.export_blocked. Umur >= 18: tidak bisa sebagai tanggungan (child_age_note).",
+    "decided": "pemilik 11/11/2026"
    }
   },
   "NZ": {

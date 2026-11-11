@@ -7,8 +7,9 @@ const BASE=(window.MOCK_BASE||'');
 const SHARE_URL=(window.MOCK_SHARE_URL||'https://pricelist.talentededucationgroup.com/');
 const LANGS=['id','en','th','vi','zh','ja','ko','km','fr','pt','es','de','it','nl','ru'];
 let LANG=(Q.get('lang')||'').slice(0,2); if(!LANGS.includes(LANG)) LANG='id';
-let UI={}, BANK=null, IDX=null, RUN=null, FULL=null;
+let UI={}, BANK=null, IDX=null, RUN=null, FULL=null, CAND='';
 const t=k=>(UI[k]&&(UI[k][LANG]||UI[k].en))||k;
+try{localStorage.removeItem('tegmock:name')}catch(e){}
 const store={get(k,d){try{const v=localStorage.getItem('tegmock:'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('tegmock:'+k,JSON.stringify(v))}catch(e){}}};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function rnd(n){if(window.crypto&&crypto.getRandomValues){const a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]%n}return Math.floor(Math.random()*n)}
@@ -38,6 +39,7 @@ function home(){
 }
 function footer(){return `<footer><p>${esc(t('footer_vsa'))}</p><p><a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(t('ask_consultant'))}</a></p><p class="small">© Talented Education Group · ${esc(t('privacy'))}</p></footer>`}
 function testPage(){
+  try{history.replaceState({mock:'test'},'')}catch(e){}
   document.title=BANK.title+' - '+t('free_mock');
   const secs=BANK.sections;
   const hist=store.get('hist:'+BANK.id,[]);
@@ -45,23 +47,24 @@ function testPage(){
   <section class="card fullcard"><h2>${esc(t('full_test'))}</h2><p class="small">${esc(t('full_desc'))}</p><div class="secs">${fullsOf().map((f,k)=>`<div class="sec"><div><b>${esc(L(f.title))}</b><small>${f.sections.reduce((a,i)=>a+secs[i].minutes+(secs[i].review_minutes||0),0)} ${esc(t('minutes'))} · ${f.sections.length} ${esc(t('sections_n'))}: ${esc(f.sections.map(i=>L(secs[i].title)).join(' → '))}</small></div><button class="btn gold" data-full="${k}">${esc(t('start_full'))}</button></div>`).join('')}</div></section>
   <section class="card"><h2>${esc(t('choose_section'))}</h2>
   ${BANK.levels?`<label class="lvl">${esc(t('level'))}: <select id="lvl">${BANK.levels.map(l=>`<option>${esc(l)}</option>`).join('')}</select></label>`:''}
-  <label class="namef"><b>${esc(t('your_name'))}</b><input id="candName" maxlength="60" autocomplete="name" placeholder="${esc(t('name_ph'))}" value="${esc(store.get('name',''))}"><small>${esc(t('name_note'))}</small><span class="warn" id="nameWarn" hidden>${esc(t('name_required'))}</span></label>
+  <label class="namef"><b>${esc(t('your_name'))}</b><input id="candName" maxlength="60" autocomplete="name" placeholder="${esc(t('name_ph'))}" value="${esc(CAND)}"><small>${esc(t('name_note'))}</small><span class="warn" id="nameWarn" hidden>${esc(t('name_required'))}</span></label>
   <div class="secs">${secs.map((s,i)=>`<div class="sec"><div><b>${esc(L(s.title))}</b><small>${s.minutes} ${esc(t('minutes'))}${s.review_minutes?` + ${s.review_minutes} ${esc(t('review_min'))}`:''} · ${s.auto?esc(t('auto_marked')):esc(t('practice_only'))}</small><small>${esc(L(s.desc))}</small></div><button class="btn" data-sec="${i}">${esc(t('start'))}</button></div>`).join('')}</div>
   <p class="small">${esc(t('rules'))}</p>
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
   <p><a href="?lang=${LANG}">← ${esc(t('all_tests'))}</a></p>`+footer();
   bindLang();
-  const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}store.set('name',nm);return true};
+  const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}CAND=nm;return true};
   $$('[data-sec]').forEach(b=>b.onclick=()=>{if(!nameOk())return;FULL=null;startSection(+b.dataset.sec,$('#examMode').checked)});
   $$('[data-full]').forEach(b=>b.onclick=()=>{if(!nameOk())return;const f=fullsOf()[+b.dataset.full];FULL={def:f,pos:0,results:[],rid:newRid(),exam:$('#examMode').checked};startSection(f.sections[0],FULL.exam)});
 }
 // ---------- run ----------
 function startSection(i,exam){
+  try{history.pushState({mock:'run'},'')}catch(e){}
   const sec=BANK.sections[i]; const parts=[]; const ids=[];
   (sec.slots||[]).forEach(sl=>{const got=pick(BANK.id,sl,sl.count||1);got.forEach(g=>{ids.push(g.id);parts.push(Object.assign({slot:sl.id,slotTitle:sl.title},JSON.parse(JSON.stringify(g))))})});
   let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
-  RUN={name:store.get('name',''),rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{}};
+  RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{}};
   window.onbeforeunload=()=>RUN&&!RUN.done?true:null;
   renderRun(); tick();
 }
@@ -191,7 +194,7 @@ function showReport(results,fdef,isFull,rid){
   app().innerHTML=header(title,'')+`<section class="card result">${anyTimeout?`<p class="warn">${esc(t('time_up'))}</p>`:''}
   ${reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov)}
   <div class="share"><b>${esc(t('send_result'))}</b> <a class="btn wa" id="shWA" target="_blank" rel="noopener">WhatsApp</a> <a class="btn ghost" id="shMail">Email</a> <button class="btn ghost" id="shPrint">PDF / ${esc(t('print'))}</button><small>${esc(t('send_note'))}</small></div>
-  <p><a class="btn" href="?test=${BANK.id}&lang=${LANG}">${esc(t('other_sections'))}</a> <a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(t('ask_consultant'))}</a></p></section>
+  <p><a class="btn ghost" href="?test=${BANK.id}&lang=${LANG}">← ${esc(t('back'))}</a> <a class="btn" href="?test=${BANK.id}&lang=${LANG}">${esc(t('other_sections'))}</a> <a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(t('ask_consultant'))}</a></p></section>
   <section class="card review-wrap"><h2>${esc(t('review'))}</h2>${results.map(r=>`<details${r.sec.auto?'':' open'}><summary>${esc(L(r.sec.title))}${r.sec.auto?` · ${r.raw}/${r.max}`:''}</summary>${r.parts.map(p=>`<div class="rvp"><p class="rvh">${esc(L(p.title)||p.slotTitle)}</p>${p.transcript?`<details class="tr"><summary>${esc(t('transcript'))}</summary><div class="trx">${p.transcript}</div></details>`:''}${(p.questions||[]).map(q=>{const x=r.rows.find(y=>y.q===q);return reviewRow(q,x&&x.s,r.answers)}).join('')}</div>`).join('')}</details>`).join('')}</section>`+footer();
   bindLang();scrollTo(0,0);
   const txt=summaryText(results,title,rid,rep,sk,ov);
@@ -218,7 +221,7 @@ function reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov){
   const ovLabel=L(rep.overall_label)||t('overall');
   return `<div class="report lay-${lay}" id="report"><div class="wm" aria-hidden="true"></div>
   <div class="rp-band"><img src="${BASE}logo.png" alt="Talented Education Group" onerror="this.remove()"><div class="rp-bt"><b>${esc(isFull?L(fdef.title).replace(/\s*-\s*Full mock test$/i,""):BANK.title)}</b><span>${esc(t('report_title'))}</span></div><div class="rp-code"><small>${esc(t('report_no'))}</small><span>${esc(rid)}</span></div></div>
-  <div class="rp-top"><div class="rp-cand"><div class="rp-photo" aria-hidden="true">👤</div><div><div class="rp-name">${esc(RUN&&RUN.name||store.get('name','')||'-')}</div>
+  <div class="rp-top"><div class="rp-cand"><div class="rp-photo" aria-hidden="true">👤</div><div><div class="rp-name">${esc(RUN&&RUN.name||CAND||'-')}</div>
   <dl><div><dt>${esc(t('date'))}</dt><dd>${dstr}</dd></div><div><dt>${esc(t('test_mode'))}</dt><dd>${esc(isFull?t('full_test'):t('section_only')+' · '+L(results[0].sec.title))}</dd></div><div><dt>${esc(t('test_centre'))}</dt><dd>${esc(t('test_centre_v'))}</dd></div><div><dt>${esc(t('time_used'))}</dt><dd>${fmt(used)}</dd></div></dl></div></div>
   <div class="rp-ov"><small>${esc(ovLabel)}</small><b>${esc(String(ov.v))}</b>${ov.max?`<span>/ ${ov.max}</span>`:''}${ov.res?`<em>${esc(ov.res)}</em>`:''}</div></div>
   ${ov.note?`<p class="small rp-note">${esc(ov.note)}</p>`:''}
@@ -227,7 +230,7 @@ function reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov){
   <div class="rp-foot"><img class="qr" src="${BASE}qr-pricelist.png" alt="QR"><div><p class="rp-org">${esc(t('organiser'))}</p><p class="small">${esc(t('try_free'))} <a href="${SHARE_URL}" target="_blank" rel="noopener">${esc(SHARE_URL.replace(/^https?:\/\//,'').replace(/\/$/,''))}</a></p></div><img class="vsa" src="${BASE}vsa-logo.png" alt="Victory Scholars Academy" onerror="this.remove()"></div>
   <p class="rp-off">${esc(t('not_official'))}</p></div>`}
 function reportPTE(results,isFull,rid,rep,sk,ov,dstr,ps){const sc=rep.scale||[10,90];const pc=v=>typeof v==='number'&&!isNaN(v)?Math.max(0,Math.min(100,Math.round((v-sc[0])/(sc[1]-sc[0])*100))):0;
-  const nm=esc((RUN&&RUN.name)||store.get('name','')||'-');
+  const nm=esc((RUN&&RUN.name)||CAND||'-');
   return `<div class="report lay-pte rp-pte" id="report"><div class="wm" aria-hidden="true"></div>
   <div class="pte-head"><img src="${BASE}logo.png" alt="" onerror="this.remove()"><span>Talented Education Group | PTE Academic <b>Mock Test</b> | ${esc(t('report_title'))}</span></div>
   <div class="pte-code">${esc(t('report_code'))}: <b>${esc(rid)}</b></div>
@@ -241,7 +244,7 @@ function reportPTE(results,isFull,rid,rep,sk,ov,dstr,ps){const sc=rep.scale||[10
   <h3 class="pte-h">${esc(t('centre_info'))}</h3><div class="pte-two pte-ci"><dl class="pte-dl"><div><dt>${esc(t('test_centre'))}:</dt><dd>${esc(t('test_centre_v'))}</dd></div><div><dt>${esc(t('organiser_short'))}:</dt><dd>Talented Education Group · Victory Scholars Academy</dd></div></dl><dl class="pte-dl"><div><dt>${esc(t('date'))}:</dt><dd>${dstr}</dd></div><div><dt>${esc(t('valid_until'))}:</dt><dd>${esc(t('not_valid'))}</dd></div></dl></div>
   ${ps.length?breakdownTable(ps):''}
   ${footHTML(rep)}</div>`}
-function reportIELTS(results,isFull,rid,rep,sk,ov,dstr,ps){const nm=esc((RUN&&RUN.name)||store.get('name','')||'-');const box=(lab,v,cls='')=>`<div class="if-f ${cls}"><span>${esc(lab)}</span><b>${v}</b></div>`;
+function reportIELTS(results,isFull,rid,rep,sk,ov,dstr,ps){const nm=esc((RUN&&RUN.name)||CAND||'-');const box=(lab,v,cls='')=>`<div class="if-f ${cls}"><span>${esc(lab)}</span><b>${v}</b></div>`;
   const band=id=>{const o=sk.find(x=>x.id===id);return o?cell(o,'ielts'):'—'};
   return `<div class="report lay-ielts rp-ielts" id="report"><div class="wm" aria-hidden="true"></div>
   <div class="if-top"><div><div class="if-brand">IELTS Academic · <span>Mock Test</span></div><div class="if-title">${esc(t('ielts_form'))}</div></div><div class="if-mod">ACADEMIC</div></div>
@@ -260,7 +263,7 @@ function footHTML(rep){return `<p class="small rp-n2">${esc(L(rep.note)||t('esti
 function cefr(b,map){for(const [min,lab] of map){if(b>=min)return lab}return '-'}
 function summaryText(results,title,rid,rep,sk,ov){
   const lay=rep.layout||'generic';
-  const lines=[`${t('report_title')} - ${title}`,`${t('candidate')}: ${(RUN&&RUN.name)||store.get('name','')||'-'}`,`${t('report_no')}: ${rid}`,`${t('date')}: ${new Date().toLocaleString()}`,t('organiser'),''];
+  const lines=[`${t('report_title')} - ${title}`,`${t('candidate')}: ${(RUN&&RUN.name)||CAND||'-'}`,`${t('report_no')}: ${rid}`,`${t('date')}: ${new Date().toLocaleString()}`,t('organiser'),''];
   sk.forEach(o=>lines.push(`${L(o.label)}: ${o.teacher?t('teacher_marked'):(o.v==null||isNaN(o.v)?'—':(lay==='ielts'?Number(o.v).toFixed(1):o.v)+(lay==='pte'||lay==='ielts'?'':' / '+(o.full||100)))}`));
   lines.push(`${L(rep.overall_label)||t('overall')}: ${ov.v}${ov.max?' / '+ov.max:''}${ov.res?' · '+ov.res:''}`);
   if(ov.note)lines.push(ov.note);
@@ -284,6 +287,9 @@ function reviewRow(q,s,ans){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')
   ${q.type==='essay'||q.type==='speak'?`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${q.explain}</p>`:''}</div></div>`}
 // ---------- boot ----------
+window.addEventListener('popstate',()=>{if(!BANK)return;
+  if(RUN&&!RUN.done){if(!confirm(t('leave_confirm'))){try{history.pushState({mock:'run'},'')}catch(e){}return}RUN.done=true;window.onbeforeunload=null;if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()}
+  FULL=null;RUN=null;testPage();scrollTo(0,0)});
 (async function(){
   try{UI=await J(BASE+'banks/ui.json?t='+Math.floor(Date.now()/6e5));IDX=await J(BASE+'banks/index.json?t='+Math.floor(Date.now()/6e4));window.MOCK_V=IDX.version||'1';try{const lk=document.createElement('link');lk.rel='stylesheet';lk.href=BASE+'style.css?v='+encodeURIComponent(window.MOCK_V);document.head.appendChild(lk)}catch(_){}}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
   document.documentElement.lang=LANG;

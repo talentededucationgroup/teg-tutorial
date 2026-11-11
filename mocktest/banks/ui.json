@@ -1987,5 +1987,22 @@
 "it": "Questo rapporto di pratica non è verificabile dagli enti - non è un risultato ufficiale.",
 "nl": "Dit oefenrapport kan niet door instellingen worden geverifieerd - geen officieel resultaat.",
 "ru": "Этот тренировочный отчёт нельзя проверить в учреждениях - это не официальный результат."
+},
+"leave_confirm": {
+"id": "Keluar dari tes? Jawaban yang belum dikumpulkan akan hilang.",
+"en": "Leave the test? Answers not yet submitted will be lost.",
+"th": "ออกจากการสอบ? คำตอบที่ยังไม่ส่งจะหายไป",
+"vi": "Rời bài thi? Các câu trả lời chưa nộp sẽ mất.",
+"zh": "离开考试？尚未提交的答案将会丢失。",
+"ja": "テストを終了しますか？未提出の解答は消えます。",
+"ko": "시험을 나가시겠습니까? 제출하지 않은 답은 사라집니다.",
+"km": "ចាកចេញពីការប្រឡង? ចម្លើយដែលមិនទាន់ដាក់នឹងបាត់។",
+"fr": "Quitter le test ? Les réponses non envoyées seront perdues.",
+"pt": "Sair do teste? Respostas não enviadas serão perdidas.",
+"es": "¿Salir del examen? Las respuestas no enviadas se perderán.",
+"de": "Test verlassen? Nicht abgegebene Antworten gehen verloren.",
+"it": "Uscire dal test? Le risposte non inviate andranno perse.",
+"nl": "Toets verlaten? Niet ingeleverde antwoorden gaan verloren.",
+"ru": "Выйти из теста? Неотправленные ответы будут потеряны."
 }
 }

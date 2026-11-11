@@ -1,0 +1,7 @@
+{"version":"2026-11-11a","tests":[
+{"id":"ielts","file":"ielts.json","title":"IELTS Academic","icon":"🇬🇧","ready":true,"desc":{"id":"Listening, Reading, Writing, Speaking - format computer-delivered","en":"Listening, Reading, Writing, Speaking - computer-delivered format"}},
+{"id":"pte","file":"pte.json","title":"PTE Academic","icon":"🎧","ready":false,"desc":{"id":"Reading & Listening dinilai otomatis (TEG Pearson PTE Elite Partner 2026)","en":"Auto-marked Reading & Listening"}},
+{"id":"jlpt","file":"jlpt.json","title":"JLPT (Jepang)","icon":"🇯🇵","ready":false,"desc":{"id":"Kosakata, tata bahasa, bacaan, choukai","en":"Vocabulary, grammar, reading, listening"}},
+{"id":"topik","file":"topik.json","title":"TOPIK (Korea)","icon":"🇰🇷","ready":false,"desc":{"id":"TOPIK I: Listening & Reading","en":"TOPIK I: Listening & Reading"}},
+{"id":"hsk","file":"hsk.json","title":"HSK (China)","icon":"🇨🇳","ready":false,"desc":{"id":"Listening, Reading, Writing","en":"Listening, Reading, Writing"}}
+]}

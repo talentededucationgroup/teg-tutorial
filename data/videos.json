@@ -1,6 +1,6 @@
 {
   "title": "Video TEG untuk website",
-  "updated_at": "2026-11-11T12:00:00+07:00",
+  "updated_at": "2026-11-11T13:35:00+07:00",
   "items": [
     {
       "id": "panduan-lengkap",
@@ -408,6 +408,164 @@
       },
       "source_title": "Enjoy Our Welcome Song - Indonesian Version / English Version (dari pemilik 11/11/2026)",
       "note": "Lagu sambutan milik TEG. Tidak autoplay; pemutar dimuat saat diklik."
+    },
+    {
+      "id": "les-prep-promo-pte",
+      "section": "les-preparation",
+      "section_title": {
+        "id": "Persiapan IELTS/PTE bersama Victory Scholars Academy",
+        "en": "IELTS/PTE preparation with Victory Scholars Academy",
+        "th": "เตรียมสอบ IELTS/PTE กับ Victory Scholars Academy",
+        "vi": "Luyện thi IELTS/PTE cùng Victory Scholars Academy",
+        "zh": "与 Victory Scholars Academy 一起备考 IELTS/PTE",
+        "ja": "Victory Scholars Academy で IELTS/PTE 対策",
+        "ko": "Victory Scholars Academy와 함께하는 IELTS/PTE 준비",
+        "km": "ត្រៀមប្រឡង IELTS/PTE ជាមួយ Victory Scholars Academy",
+        "fr": "Préparation IELTS/PTE avec Victory Scholars Academy",
+        "pt": "Preparação para IELTS/PTE com a Victory Scholars Academy",
+        "es": "Preparación IELTS/PTE con Victory Scholars Academy",
+        "de": "IELTS/PTE-Vorbereitung mit der Victory Scholars Academy",
+        "it": "Preparazione IELTS/PTE con Victory Scholars Academy",
+        "nl": "IELTS/PTE-voorbereiding met Victory Scholars Academy",
+        "ru": "Подготовка к IELTS/PTE с Victory Scholars Academy"
+      },
+      "order": 1,
+      "placement": "Tab Les Preparation (Les Bahasa / IELTS-PTE), bagian \"Persiapan IELTS/PTE bersama Victory Scholars Academy\" - di bawah logo VSA & sertifikat Pearson (spek V), urut field order",
+      "video": "https://info.talentededucationgroup.com/videos/les-prep-promo-pte.mp4",
+      "poster": "https://info.talentededucationgroup.com/videos/les-prep-promo-pte-poster.jpg",
+      "duration_seconds": 20.0,
+      "orientation": "portrait (1080x1920, 9:16)",
+      "source_title": "Promo PTE VSA 20s 9x16 (backsound)",
+      "title": {
+        "id": "Kelas Persiapan PTE - private & grup, online/offline + FREE mock test",
+        "en": "PTE preparation class - private & group, online/offline + FREE mock test",
+        "th": "คลาสเตรียมสอบ PTE - ส่วนตัวและกลุ่ม ออนไลน์/ออฟไลน์ + สอบจำลองฟรี",
+        "vi": "Lớp luyện thi PTE - kèm riêng & nhóm, online/offline + thi thử MIỄN PHÍ",
+        "zh": "PTE 备考课程 - 一对一与小组，线上/线下 + 免费模考",
+        "ja": "PTE 対策クラス - 個別・グループ、オンライン/対面 + 無料模試",
+        "ko": "PTE 준비반 - 개인 & 그룹, 온라인/오프라인 + 무료 모의고사",
+        "km": "ថ្នាក់ត្រៀម PTE - ឯកជន និងក្រុម អនឡាញ/ផ្ទាល់ + ការប្រឡងសាកល្បងឥតគិតថ្លៃ",
+        "fr": "Cours de préparation PTE - individuel et en groupe, en ligne/présentiel + examen blanc GRATUIT",
+        "pt": "Aula preparatória para PTE - individual e em grupo, online/presencial + simulado GRÁTIS",
+        "es": "Clase de preparación PTE - privada y en grupo, online/presencial + simulacro GRATIS",
+        "de": "PTE-Vorbereitungskurs - Einzel & Gruppe, online/vor Ort + KOSTENLOSER Probetest",
+        "it": "Corso di preparazione PTE - privato e di gruppo, online/in presenza + simulazione GRATUITA",
+        "nl": "PTE-voorbereidingsles - privé & groep, online/offline + GRATIS proefexamen",
+        "ru": "Курс подготовки к PTE - индивидуально и в группе, онлайн/офлайн + БЕСПЛАТНЫЙ пробный тест"
+      },
+      "note": "Teks di video berbahasa Indonesia. Ada musik latar - tidak autoplay bersuara."
+    },
+    {
+      "id": "les-prep-video-vsa",
+      "section": "les-preparation",
+      "section_title": {
+        "id": "Persiapan IELTS/PTE bersama Victory Scholars Academy",
+        "en": "IELTS/PTE preparation with Victory Scholars Academy",
+        "th": "เตรียมสอบ IELTS/PTE กับ Victory Scholars Academy",
+        "vi": "Luyện thi IELTS/PTE cùng Victory Scholars Academy",
+        "zh": "与 Victory Scholars Academy 一起备考 IELTS/PTE",
+        "ja": "Victory Scholars Academy で IELTS/PTE 対策",
+        "ko": "Victory Scholars Academy와 함께하는 IELTS/PTE 준비",
+        "km": "ត្រៀមប្រឡង IELTS/PTE ជាមួយ Victory Scholars Academy",
+        "fr": "Préparation IELTS/PTE avec Victory Scholars Academy",
+        "pt": "Preparação para IELTS/PTE com a Victory Scholars Academy",
+        "es": "Preparación IELTS/PTE con Victory Scholars Academy",
+        "de": "IELTS/PTE-Vorbereitung mit der Victory Scholars Academy",
+        "it": "Preparazione IELTS/PTE con Victory Scholars Academy",
+        "nl": "IELTS/PTE-voorbereiding met Victory Scholars Academy",
+        "ru": "Подготовка к IELTS/PTE с Victory Scholars Academy"
+      },
+      "order": 2,
+      "placement": "Tab Les Preparation (Les Bahasa / IELTS-PTE), bagian \"Persiapan IELTS/PTE bersama Victory Scholars Academy\" - di bawah logo VSA & sertifikat Pearson (spek V), urut field order",
+      "video": "https://info.talentededucationgroup.com/videos/les-prep-video-vsa.mp4",
+      "poster": "https://info.talentededucationgroup.com/videos/les-prep-video-vsa-poster.jpg",
+      "duration_seconds": 26.2,
+      "orientation": "portrait (576x1024, 9:16)",
+      "source_title": "Video VSA",
+      "title": {
+        "id": "Skor PTE stuck? Pahami format soal & strategi yang tepat",
+        "en": "Stuck on your PTE score? Learn the test format & the right strategy",
+        "th": "คะแนน PTE ไม่ขยับ? เข้าใจรูปแบบข้อสอบและกลยุทธ์ที่ถูกต้อง",
+        "vi": "Điểm PTE dậm chân? Hiểu dạng đề & chiến lược đúng",
+        "zh": "PTE 分数卡住了？掌握题型和正确策略",
+        "ja": "PTE のスコアが伸びない？出題形式と正しい戦略を理解しよう",
+        "ko": "PTE 점수가 정체됐나요? 문제 유형과 올바른 전략을 익히세요",
+        "km": "ពិន្ទុ PTE មិនឡើង? យល់ពីទម្រង់សំណួរ និងយុទ្ធសាស្ត្រត្រឹមត្រូវ",
+        "fr": "Score PTE bloqué ? Comprenez le format et la bonne stratégie",
+        "pt": "Nota do PTE travada? Entenda o formato da prova e a estratégia certa",
+        "es": "¿Puntaje PTE estancado? Entiende el formato y la estrategia correcta",
+        "de": "PTE-Ergebnis stagniert? Prüfungsformat & richtige Strategie verstehen",
+        "it": "Punteggio PTE bloccato? Capisci il formato e la strategia giusta",
+        "nl": "PTE-score blijft hangen? Begrijp het examenformat & de juiste strategie",
+        "ru": "Балл PTE не растёт? Разберитесь в формате и правильной стратегии"
+      },
+      "note": "Teks di video berbahasa Indonesia."
+    },
+    {
+      "id": "les-prep-testimoni-pte",
+      "type": "images",
+      "section": "les-preparation",
+      "section_title": {
+        "id": "Persiapan IELTS/PTE bersama Victory Scholars Academy",
+        "en": "IELTS/PTE preparation with Victory Scholars Academy",
+        "th": "เตรียมสอบ IELTS/PTE กับ Victory Scholars Academy",
+        "vi": "Luyện thi IELTS/PTE cùng Victory Scholars Academy",
+        "zh": "与 Victory Scholars Academy 一起备考 IELTS/PTE",
+        "ja": "Victory Scholars Academy で IELTS/PTE 対策",
+        "ko": "Victory Scholars Academy와 함께하는 IELTS/PTE 준비",
+        "km": "ត្រៀមប្រឡង IELTS/PTE ជាមួយ Victory Scholars Academy",
+        "fr": "Préparation IELTS/PTE avec Victory Scholars Academy",
+        "pt": "Preparação para IELTS/PTE com a Victory Scholars Academy",
+        "es": "Preparación IELTS/PTE con Victory Scholars Academy",
+        "de": "IELTS/PTE-Vorbereitung mit der Victory Scholars Academy",
+        "it": "Preparazione IELTS/PTE con Victory Scholars Academy",
+        "nl": "IELTS/PTE-voorbereiding met Victory Scholars Academy",
+        "ru": "Подготовка к IELTS/PTE с Victory Scholars Academy"
+      },
+      "order": 3,
+      "placement": "Tab Les Preparation (Les Bahasa / IELTS-PTE), bagian \"Persiapan IELTS/PTE bersama Victory Scholars Academy\" - di bawah logo VSA & sertifikat Pearson (spek V), urut field order - galeri foto testimoni di bawah video VSA",
+      "title": {
+        "id": "Hasil PTE Academic siswa Victory Scholars Academy (untuk visa Australia)",
+        "en": "PTE Academic results of Victory Scholars Academy students (for Australian visas)",
+        "th": "ผลสอบ PTE Academic ของนักเรียน Victory Scholars Academy (สำหรับวีซ่าออสเตรเลีย)",
+        "vi": "Kết quả PTE Academic của học viên Victory Scholars Academy (cho visa Úc)",
+        "zh": "Victory Scholars Academy 学员的 PTE Academic 成绩（用于澳大利亚签证）",
+        "ja": "Victory Scholars Academy 受講生の PTE Academic 結果（オーストラリアビザ用）",
+        "ko": "Victory Scholars Academy 수강생 PTE Academic 결과 (호주 비자용)",
+        "km": "លទ្ធផល PTE Academic របស់សិស្ស Victory Scholars Academy (សម្រាប់ទិដ្ឋាការអូស្ត្រាលី)",
+        "fr": "Résultats PTE Academic des élèves de Victory Scholars Academy (pour les visas australiens)",
+        "pt": "Resultados PTE Academic de alunos da Victory Scholars Academy (para visto australiano)",
+        "es": "Resultados PTE Academic de estudiantes de Victory Scholars Academy (para visa australiana)",
+        "de": "PTE-Academic-Ergebnisse von Schülern der Victory Scholars Academy (für australische Visa)",
+        "it": "Risultati PTE Academic degli studenti di Victory Scholars Academy (per il visto australiano)",
+        "nl": "PTE Academic-resultaten van studenten van Victory Scholars Academy (voor Australische visa)",
+        "ru": "Результаты PTE Academic учеников Victory Scholars Academy (для визы в Австралию)"
+      },
+      "images": [
+        {
+          "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-85.jpg",
+          "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-85.jpg",
+          "alt": "PTE Academic overall 85 - siswa VSA",
+          "overall": 85,
+          "test_date": "2026-06-18"
+        },
+        {
+          "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-79.jpg",
+          "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-79.jpg",
+          "alt": "PTE Academic overall 79 - siswa VSA",
+          "overall": 79,
+          "test_date": "2026-05-21"
+        },
+        {
+          "image": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-64.jpg",
+          "thumb": "https://info.talentededucationgroup.com/assets/testimoni-pte/thumb-pte-64.jpg",
+          "alt": "PTE Academic overall 64 - siswa VSA",
+          "overall": 64,
+          "test_date": "2026-01-17"
+        }
+      ],
+      "orientation": "portrait (1131x1600)",
+      "note": "Poster testimoni resmi VSA (izin tampil dari siswa diurus pemilik). Tampilkan thumbnail, klik = gambar penuh (lightbox)."
     }
   ]
 }

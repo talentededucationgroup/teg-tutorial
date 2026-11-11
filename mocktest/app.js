@@ -3,6 +3,7 @@
 'use strict';
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const Q=new URLSearchParams(location.search);
+const BASE=(window.MOCK_BASE||'');
 const LANGS=['id','en','th','vi','zh','ja','ko','km','fr','pt','es','de','it','nl','ru'];
 let LANG=(Q.get('lang')||'').slice(0,2); if(!LANGS.includes(LANG)) LANG='id';
 let UI={}, BANK=null, IDX=null, RUN=null;
@@ -25,7 +26,7 @@ function pick(testId,slot,count){
 function markSeen(testId,ids){const seen=store.get('seen:'+testId,{});const now=Date.now();ids.forEach(i=>seen[i]=now);store.set('seen:'+testId,seen)}
 // ---------- views ----------
 const app=()=>$('#app');
-function header(title,sub){return `<header class="top"><a class="brand" href="?lang=${LANG}"><img src="logo.png" alt="" onerror="this.remove()">Talented Education Group</a><div class="lang"><label>🌐 <select id="langSel">${LANGS.map(l=>`<option value="${l}"${l===LANG?' selected':''}>${UI._langnames?UI._langnames[l]:l}</option>`).join('')}</select></label></div></header>
+function header(title,sub){return `<header class="top"><a class="brand" href="?lang=${LANG}"><img src="${BASE}logo.png" alt="" onerror="this.remove()">Talented Education Group</a><div class="lang"><label>🌐 <select id="langSel">${LANGS.map(l=>`<option value="${l}"${l===LANG?' selected':''}>${UI._langnames?UI._langnames[l]:l}</option>`).join('')}</select></label></div></header>
 <div class="hero"><p class="eyebrow">${esc(t('free_mock'))}</p><h1>${esc(title)}</h1>${sub?`<p class="sub">${sub}</p>`:''}</div>`}
 function bindLang(){const s=$('#langSel');if(s)s.onchange=()=>{Q.set('lang',s.value);location.search=Q.toString()}}
 function home(){
@@ -85,7 +86,7 @@ function renderRun(){
   const p=RUN.parts[RUN.cur]; const sec=RUN.sec;
   const tabs=RUN.parts.map((x,k)=>`<button class="tab${k===RUN.cur?' on':''}" data-tab="${k}">${esc(L(x.title)||x.slotTitle||('Part '+(k+1)))}</button>`).join('');
   const groups=[]; (p.questions||[]).forEach(q=>{const g=q.group||'';if(!groups.length||groups[groups.length-1].g!==g)groups.push({g,qs:[]});groups[groups.length-1].qs.push(q)});
-  const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(p.audio)}" ${RUN.exam?'':'controls'}></audio>${RUN.exam?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(RUN.exam?t('audio_once'):t('audio_practice'))}</small></div>`:'';
+  const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(BASE+p.audio)}" ${RUN.exam?'':'controls'}></audio>${RUN.exam?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(RUN.exam?t('audio_once'):t('audio_practice'))}</small></div>`:'';
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}</b><span id="timer" class="timer">--:--</span><button class="btn" id="submit">${esc(t('submit'))}</button></div>
   <nav class="tabs">${tabs}</nav>
@@ -186,13 +187,13 @@ function reviewRow(q,s){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')):'n
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${q.explain}</p>`:''}</div></div>`}
 // ---------- boot ----------
 (async function(){
-  try{UI=await J('banks/ui.json');IDX=await J('banks/index.json');window.MOCK_V=IDX.version||'1'}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
+  try{UI=await J(BASE+'banks/ui.json');IDX=await J(BASE+'banks/index.json');window.MOCK_V=IDX.version||'1'}catch(e){app().innerHTML='<p>Load error. Please refresh.</p>';return}
   document.documentElement.lang=LANG;
   const id=Q.get('test');
   if(!id){home();return}
   const meta=IDX.tests.find(x=>x.id===id);
   if(!meta||!meta.ready){home();return}
-  try{BANK=await J('banks/'+meta.file)}catch(e){app().innerHTML='<p>Load error.</p>';return}
+  try{BANK=await J(BASE+'banks/'+meta.file)}catch(e){app().innerHTML='<p>Load error.</p>';return}
   testPage();
 })();
 })();

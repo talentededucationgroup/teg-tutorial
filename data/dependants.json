@@ -504,7 +504,7 @@
     "rule": "Talented service fee per tanggungan (partner/anak) - dikonfirmasi pemilik 11/11/2026; mengikuti aturan Prof. Adm (Offshore); sumber utama sel Excel 'Aturan & Tarif'"
    },
    "child_age_input": {
-    "rule": "Umur tiap anak WAJIB diisi (0-17, angka bulat). Kosong/tidak valid: field merah + 'Wajib diisi', banner ui.age_missing_warning di ringkasan & detail, angka diberi label 'BELUM TOTAL', tombol PDF & WhatsApp dinonaktifkan dengan ui.export_blocked. Umur >= 18: tidak bisa sebagai tanggungan (child_age_note).",
+    "rule": "Umur tiap anak WAJIB 1-17 (angka bulat). Kosong atau 0 = belum diisi: field merah + 'Wajib diisi', banner ui.age_missing_warning, label 'BELUM TOTAL', tombol PDF & WhatsApp nonaktif (ui.export_blocked). Bayi < 1 tahun diisi 1. Umur >= 18 tidak bisa sebagai tanggungan.",
     "decided": "pemilik 11/11/2026",
     "reset": "Tidak disimpan: refresh = kembali default (partner off, anak 0, umur kosong, OSHC Single); tanpa localStorage/cookie/URL param"
    }

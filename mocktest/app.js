@@ -204,7 +204,7 @@ function showReport(results,fdef,isFull,rid){
   $('#shPrint').onclick=()=>window.print();
   $('#retry').onclick=()=>{if(isFull){FULL={def:fdef,pos:0,results:[],rid:newRid(),exam:true};startSection(fdef.sections[0],true)}else startSection(results[0].secIdx,true)};
 }
-function partStats(results){const g=[];results.forEach(r=>r.rows.forEach(x=>{if(!x.s)return;const k=x.p.slotTitle||L(x.p.title);let o=g.find(y=>y.k===k);if(!o){o={k,got:0,max:0};g.push(o)}o.got+=x.s.got;o.max+=x.s.max}));return g}
+function partStats(results){const g=[];results.forEach(r=>r.rows.forEach(x=>{if(!x.s)return;const k=x.p.slotTitle||L(x.p.title);let o=g.find(y=>y.k===k);if(!o){o={k,got:0,max:0};g.push(o)}o.got+=x.s.got;o.max+=x.s.max}));return g.filter(o=>o.max>0)}
 function fbKey(p){return p>=0.8?'fb_strong':(p>=0.5?'fb_dev':'fb_focus')}
 function cell(o,lay){if(o.teacher)return `<span class="tm">${esc(t('teacher_marked'))}</span>`;if(!o.taken||o.v==null||isNaN(o.v))return '<span class="na">—</span>';return lay==='ielts'?Number(o.v).toFixed(1):String(o.v)}
 function reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov){

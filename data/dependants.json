@@ -1,6 +1,6 @@
 {
  "version": "2026-11-11T21:55:00+07:00",
- "updated_at": "2026-11-11T22:30:00+07:00",
+ "updated_at": "2026-11-11T22:35:00+07:00",
  "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
  "ui": {
   "title": {
@@ -446,6 +446,11 @@
     "per": "dependant (partner atau anak)",
     "applies": "offshore (sama seperti Prof. Adm / Talented service fee pemohon utama)",
     "source": "Keputusan pemilik TEG 11/11/2026"
+   },
+   "teg_service_fee_per_dependant": {
+    "amount": 150,
+    "currency": "AUD",
+    "rule": "Talented service fee per tanggungan (partner/anak) - dikonfirmasi pemilik 11/11/2026; mengikuti aturan Prof. Adm (Offshore); sumber utama sel Excel 'Aturan & Tarif'"
    }
   },
   "NZ": {
@@ -529,7 +534,7 @@
  },
  "calculation": {
   "AU": {
-   "dana_awal_tambahan": "visa tambahan sesuai paspor (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + selisih OSHC keluarga vs Single x bulan + Talented service fee tanggungan AUD 150 x jumlah anggota keluarga ikut (Offshore)",
+   "dana_awal_tambahan": "visa tambahan (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + OSHC keluarga (atau Single x jumlah applicant bila Single dipilih) - OSHC siswa Single + Talented service fee AUD 150 x jumlah tanggungan",
    "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x jumlah anak umur 5-17 + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
    "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
    "contoh": {

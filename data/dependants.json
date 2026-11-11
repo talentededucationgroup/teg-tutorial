@@ -1,0 +1,463 @@
+{
+ "version": "2026-11-11",
+ "updated_at": "2026-11-11T20:55:00+07:00",
+ "purpose": "Tambahan dana awal & saran saldo rekening koran bila siswa membawa partner/anak (kalkulator website, spek bagian Y). Hanya angka dari sumber resmi pemerintah; diperbarui bulanan.",
+ "ui": {
+  "title": {
+   "id": "Membawa keluarga (partner/anak)",
+   "en": "Bringing family (partner/children)",
+   "th": "พาครอบครัวไปด้วย (คู่สมรส/บุตร)",
+   "vi": "Mang theo gia đình (vợ/chồng/con)",
+   "zh": "携带家属（配偶/子女）",
+   "ja": "家族の帯同（配偶者・子ども）",
+   "ko": "가족 동반 (배우자/자녀)",
+   "km": "នាំគ្រួសារទៅជាមួយ (ដៃគូ/កូន)",
+   "fr": "Venir en famille (partenaire/enfants)",
+   "pt": "Levar a família (parceiro/filhos)",
+   "es": "Ir con familia (pareja/hijos)",
+   "de": "Mit Familie (Partner/Kinder)",
+   "it": "Portare la famiglia (partner/figli)",
+   "nl": "Gezin meenemen (partner/kinderen)",
+   "ru": "С семьёй (партнёр/дети)"
+  },
+  "q_partner": {
+   "id": "Membawa partner (suami/istri/de facto)",
+   "en": "Bringing a partner (spouse/de facto)",
+   "th": "พาคู่สมรส/คู่ชีวิตไปด้วย",
+   "vi": "Mang theo vợ/chồng/bạn đời",
+   "zh": "携带配偶/事实伴侣",
+   "ja": "配偶者（事実婚含む）を帯同",
+   "ko": "배우자(사실혼 포함) 동반",
+   "km": "នាំដៃគូ (ប្តី/ប្រពន្ធ/ដៃគូរួមរស់)",
+   "fr": "Avec un partenaire (conjoint/concubin)",
+   "pt": "Com parceiro(a) (cônjuge/união estável)",
+   "es": "Con pareja (cónyuge/pareja de hecho)",
+   "de": "Mit Partner/in (Ehe-/Lebenspartner)",
+   "it": "Con partner (coniuge/convivente)",
+   "nl": "Met partner (echtgenoot/samenwonend)",
+   "ru": "С партнёром (супруг/гражданский партнёр)"
+  },
+  "q_children": {
+   "id": "Jumlah anak yang ikut",
+   "en": "Number of accompanying children",
+   "th": "จำนวนบุตรที่ไปด้วย",
+   "vi": "Số con đi cùng",
+   "zh": "随行子女人数",
+   "ja": "帯同する子どもの人数",
+   "ko": "동반 자녀 수",
+   "km": "ចំនួនកូនដែលទៅជាមួយ",
+   "fr": "Nombre d'enfants accompagnants",
+   "pt": "Número de filhos acompanhantes",
+   "es": "Número de hijos acompañantes",
+   "de": "Anzahl mitreisender Kinder",
+   "it": "Numero di figli al seguito",
+   "nl": "Aantal meereizende kinderen",
+   "ru": "Количество детей"
+  },
+  "q_school": {
+   "id": "Dari jumlah itu, anak usia sekolah",
+   "en": "Of these, school-age children",
+   "th": "ในจำนวนนี้ บุตรวัยเรียน",
+   "vi": "Trong đó, số con trong độ tuổi đi học",
+   "zh": "其中学龄子女",
+   "ja": "うち就学年齢の子ども",
+   "ko": "그중 학령기 자녀",
+   "km": "ក្នុងនោះ កូនដែលដល់អាយុសិក្សា",
+   "fr": "Dont enfants d'âge scolaire",
+   "pt": "Destes, em idade escolar",
+   "es": "De ellos, en edad escolar",
+   "de": "Davon im Schulalter",
+   "it": "Di cui in età scolare",
+   "nl": "Waarvan schoolgaand",
+   "ru": "Из них школьного возраста"
+  },
+  "result_note": {
+   "id": "Tambahan untuk keluarga sudah dihitung ke Dana awal dan Saran saldo rekening koran.",
+   "en": "Family costs are already added to the Initial funds and Suggested bank balance.",
+   "th": "ค่าใช้จ่ายครอบครัวรวมอยู่ในเงินเริ่มต้นและยอดเงินในบัญชีที่แนะนำแล้ว",
+   "vi": "Chi phí gia đình đã được cộng vào Tiền ban đầu và Số dư tài khoản đề xuất.",
+   "zh": "家属费用已计入初始资金和建议存款余额。",
+   "ja": "家族分の費用は初期資金と推奨残高に含まれています。",
+   "ko": "가족 비용이 초기 자금과 권장 잔고에 이미 포함되었습니다.",
+   "km": "ថ្លៃគ្រួសារត្រូវបានបូកបញ្ចូលក្នុងប្រាក់ដំបូង និងសមតុល្យដែលណែនាំរួចហើយ។",
+   "fr": "Les frais familiaux sont inclus dans les fonds initiaux et le solde bancaire conseillé.",
+   "pt": "Os custos da família já estão somados aos Fundos iniciais e ao Saldo bancário sugerido.",
+   "es": "Los costos familiares ya se suman a los Fondos iniciales y al Saldo bancario sugerido.",
+   "de": "Familienkosten sind im Anfangskapital und im empfohlenen Kontostand bereits enthalten.",
+   "it": "I costi della famiglia sono già inclusi nei Fondi iniziali e nel Saldo consigliato.",
+   "nl": "Gezinskosten zijn al opgeteld bij Startbudget en Aanbevolen saldo.",
+   "ru": "Расходы на семью уже включены в Начальные средства и Рекомендуемый остаток."
+  },
+  "disclaimer": {
+   "id": "Angka dari sumber resmi pemerintah (lihat tanggal cek). Biaya sekolah anak dan asuransi keluarga bisa berbeda - konfirmasi ke konsultan TEG.",
+   "en": "Figures are from official government sources (see check date). Children's school fees and family insurance may differ - confirm with a TEG consultant.",
+   "th": "ตัวเลขจากแหล่งข้อมูลทางการของรัฐ (ดูวันที่ตรวจสอบ) ค่าเรียนบุตรและประกันครอบครัวอาจต่างกัน โปรดยืนยันกับที่ปรึกษา TEG",
+   "vi": "Số liệu từ nguồn chính thức của chính phủ (xem ngày kiểm tra). Học phí của con và bảo hiểm gia đình có thể khác - hãy xác nhận với tư vấn viên TEG.",
+   "zh": "数据来自政府官方来源（见核查日期）。子女学费和家庭保险可能不同，请向 TEG 顾问确认。",
+   "ja": "数値は政府の公式情報に基づきます（確認日参照）。子どもの学費や家族保険は異なる場合があります。TEG のコンサルタントにご確認ください。",
+   "ko": "정부 공식 자료 기준입니다(확인 날짜 참고). 자녀 학비와 가족 보험은 다를 수 있으니 TEG 상담사에게 확인하세요.",
+   "km": "តួលេខពីប្រភពផ្លូវការរបស់រដ្ឋាភិបាល (មើលកាលបរិច្ឆេទពិនិត្យ)។ ថ្លៃសិក្សាកូន និងធានារ៉ាប់រងគ្រួសារអាចខុសគ្នា សូមបញ្ជាក់ជាមួយទីប្រឹក្សា TEG។",
+   "fr": "Chiffres issus de sources gouvernementales officielles (voir date de vérification). Les frais scolaires des enfants et l'assurance familiale peuvent varier : confirmez avec un conseiller TEG.",
+   "pt": "Valores de fontes oficiais do governo (ver data de verificação). Mensalidades escolares dos filhos e seguro familiar podem variar - confirme com um consultor TEG.",
+   "es": "Cifras de fuentes oficiales del gobierno (ver fecha de revisión). Las cuotas escolares y el seguro familiar pueden variar: confirma con un asesor de TEG.",
+   "de": "Zahlen aus offiziellen Regierungsquellen (siehe Prüfdatum). Schulgebühren der Kinder und Familienversicherung können abweichen - bitte mit einer TEG-Beratung klären.",
+   "it": "Dati da fonti governative ufficiali (vedi data di verifica). Rette scolastiche dei figli e assicurazione familiare possono variare: conferma con un consulente TEG.",
+   "nl": "Bedragen uit officiële overheidsbronnen (zie controledatum). Schoolgeld van kinderen en gezinsverzekering kunnen afwijken - controleer bij een TEG-adviseur.",
+   "ru": "Цифры из официальных государственных источников (см. дату проверки). Плата за школу и семейная страховка могут отличаться - уточните у консультанта TEG."
+  },
+  "au_eligibility": {
+   "id": "Sejak 2 Oktober 2026, keluarga hanya bisa diikutkan dalam aplikasi visa pelajar Australia oleh pemohon yang dikecualikan, termasuk pelajar dari negara ASEAN seperti Indonesia (syarat lain tetap berlaku). Keluarga tidak bisa ditambahkan setelah visa terbit, dan semua harus berada di lokasi yang sama saat aplikasi diajukan.",
+   "en": "Since 2 October 2026, family members can only be included in an Australian Student visa application by exempt applicants, including eligible students from ASEAN countries such as Indonesia (other requirements still apply). Family cannot be added after the visa is granted, and everyone must be in the same location when applying.",
+   "th": "ตั้งแต่ 2 ตุลาคม 2026 ผู้สมัครที่ได้รับยกเว้นเท่านั้นจึงพาครอบครัวในใบสมัครวีซ่านักเรียนออสเตรเลียได้ รวมถึงนักเรียนจากประเทศอาเซียน เช่น อินโดนีเซีย (เงื่อนไขอื่นยังใช้) เพิ่มครอบครัวหลังได้วีซ่าไม่ได้ และทุกคนต้องอยู่สถานที่เดียวกันขณะยื่น",
+   "vi": "Từ 2/10/2026, chỉ người nộp đơn được miễn mới có thể đưa gia đình vào hồ sơ visa du học Úc, bao gồm sinh viên đủ điều kiện từ các nước ASEAN như Indonesia (các điều kiện khác vẫn áp dụng). Không thể bổ sung gia đình sau khi visa được cấp, và mọi người phải ở cùng một nơi khi nộp hồ sơ.",
+   "zh": "自 2026 年 10 月 2 日起，只有获豁免的申请人才能在澳大利亚学生签证申请中包含家属，其中包括印尼等东盟国家的合格学生（其他要求仍适用）。签证获批后不能再添加家属，且递交申请时所有人须在同一地点。",
+   "ja": "2026 年 10 月 2 日以降、オーストラリア学生ビザ申請に家族を含められるのは免除対象者のみで、インドネシアなど ASEAN 加盟国の対象学生も含まれます（その他の要件は適用）。ビザ発給後に家族を追加することはできず、申請時は全員が同じ場所にいる必要があります。",
+   "ko": "2026년 10월 2일부터 호주 학생비자 신청에 가족을 포함할 수 있는 것은 면제 대상자뿐이며, 인도네시아 등 ASEAN 국가의 해당 학생도 포함됩니다(기타 요건은 그대로 적용). 비자 발급 후에는 가족을 추가할 수 없고, 신청 시 모두 같은 장소에 있어야 합니다.",
+   "km": "ចាប់ពីថ្ងៃទី 2 ខែតុលា ឆ្នាំ 2026 មានតែអ្នកដាក់ពាក្យដែលត្រូវបានលើកលែងទេ ទើបអាចបញ្ចូលគ្រួសារក្នុងពាក្យទិដ្ឋាការសិស្សអូស្ត្រាលី រួមទាំងសិស្សមកពីប្រទេសអាស៊ាន ដូចជាឥណ្ឌូនេស៊ី (លក្ខខណ្ឌផ្សេងនៅតែអនុវត្ត)។ មិនអាចបន្ថែមគ្រួសារបន្ទាប់ពីទទួលទិដ្ឋាការ ហើយគ្រប់គ្នាត្រូវនៅទីតាំងតែមួយពេលដាក់ពាក្យ។",
+   "fr": "Depuis le 2 octobre 2026, seuls les candidats exemptés peuvent inclure leur famille dans une demande de visa étudiant australien, dont les étudiants éligibles des pays de l'ASEAN comme l'Indonésie (les autres conditions s'appliquent). La famille ne peut pas être ajoutée après l'obtention du visa, et tous doivent se trouver au même endroit lors du dépôt.",
+   "pt": "Desde 2 de outubro de 2026, só candidatos isentos podem incluir a família no pedido de visto de estudante australiano, incluindo estudantes elegíveis de países da ASEAN como a Indonésia (os demais requisitos continuam valendo). A família não pode ser adicionada após a concessão, e todos devem estar no mesmo local ao aplicar.",
+   "es": "Desde el 2 de octubre de 2026, solo los solicitantes exentos pueden incluir a su familia en la solicitud de visa de estudiante australiana, incluidos los estudiantes elegibles de países de la ASEAN como Indonesia (los demás requisitos siguen vigentes). No se puede añadir familia después de concedida la visa y todos deben estar en el mismo lugar al presentar la solicitud.",
+   "de": "Seit 2. Oktober 2026 dürfen nur befreite Antragsteller Familienangehörige in einen australischen Studentenvisumsantrag aufnehmen, darunter berechtigte Studierende aus ASEAN-Staaten wie Indonesien (weitere Voraussetzungen gelten). Familie kann nach der Visumerteilung nicht hinzugefügt werden, und alle müssen sich bei Antragstellung am selben Ort befinden.",
+   "it": "Dal 2 ottobre 2026 solo i richiedenti esentati possono includere la famiglia nella domanda di visto studentesco australiano, tra cui gli studenti idonei dei paesi ASEAN come l'Indonesia (restano gli altri requisiti). La famiglia non può essere aggiunta dopo il rilascio del visto e tutti devono trovarsi nello stesso luogo al momento della domanda.",
+   "nl": "Sinds 2 oktober 2026 kunnen alleen vrijgestelde aanvragers gezinsleden opnemen in een Australische studentenvisumaanvraag, waaronder in aanmerking komende studenten uit ASEAN-landen zoals Indonesië (overige eisen blijven gelden). Gezinsleden kunnen niet worden toegevoegd na toekenning van het visum en iedereen moet zich bij de aanvraag op dezelfde plek bevinden.",
+   "ru": "С 2 октября 2026 года включать семью в заявление на студенческую визу Австралии могут только освобождённые заявители, в том числе студенты из стран АСЕАН, например Индонезии (остальные требования действуют). Добавить семью после выдачи визы нельзя, и при подаче все должны находиться в одном месте."
+  },
+  "nz_note": {
+   "id": "New Zealand: partner bisa mengajukan Partner of a Student Work Visa bila Anda kuliah level 9-10 (atau level 7-8 yang terdaftar Green List/Post Study Work); partner perlu dana minimal NZD 4.200. Anak dihitung siswa domestik (gratis sekolah negeri) hanya bila Anda kuliah PhD, program pertukaran resmi, atau beasiswa MFAT; selain itu anak membayar biaya sekolah internasional dan perlu dana hidup NZD 17.000/tahun.",
+   "en": "New Zealand: your partner can apply for a Partner of a Student Work Visa if you study at level 9-10 (or eligible level 7-8 on the Green List/Post Study Work list); the partner needs at least NZD 4,200. Children count as domestic students (free state school) only if you are a PhD, approved exchange or MFAT scholarship student; otherwise they pay international school fees and need NZD 17,000/year living funds.",
+   "th": "นิวซีแลนด์: คู่สมรสยื่น Partner of a Student Work Visa ได้หากคุณเรียนระดับ 9-10 (หรือระดับ 7-8 ที่อยู่ใน Green List/Post Study Work) คู่สมรสต้องมีเงินอย่างน้อย NZD 4,200 บุตรถือเป็นนักเรียนในประเทศ (เรียนโรงเรียนรัฐฟรี) เฉพาะเมื่อคุณเรียน PhD โครงการแลกเปลี่ยนที่รับรอง หรือทุน MFAT มิฉะนั้นต้องจ่ายค่าเรียนแบบนักเรียนต่างชาติและมีเงินค่าครองชีพ NZD 17,000/ปี",
+   "vi": "New Zealand: vợ/chồng có thể xin Partner of a Student Work Visa nếu bạn học cấp 9-10 (hoặc cấp 7-8 thuộc Green List/Post Study Work); vợ/chồng cần tối thiểu NZD 4.200. Con được coi là học sinh trong nước (miễn học phí trường công) chỉ khi bạn học PhD, chương trình trao đổi chính thức hoặc học bổng MFAT; nếu không, con trả học phí quốc tế và cần NZD 17.000/năm sinh hoạt phí.",
+   "zh": "新西兰：如果您就读 9-10 级（或列入 Green List/Post Study Work 的 7-8 级），配偶可申请 Partner of a Student Work Visa，配偶需至少 NZD 4,200。只有当您是博士生、官方交换生或 MFAT 奖学金生时，子女才算本地学生（公立学校免费）；否则需付国际生学费，并需每年 NZD 17,000 生活费。",
+   "ja": "ニュージーランド：レベル 9-10（または Green List/Post Study Work 対象のレベル 7-8）で学ぶ場合、配偶者は Partner of a Student Work Visa を申請できます（配偶者は最低 NZD 4,200 が必要）。子どもが国内生扱い（公立校無償）になるのは、あなたが PhD・公認交換留学・MFAT 奨学生の場合のみで、それ以外は留学生学費と年 NZD 17,000 の生活費が必要です。",
+   "ko": "뉴질랜드: 레벨 9-10(또는 Green List/Post Study Work 대상 레벨 7-8)을 공부하면 배우자는 Partner of a Student Work Visa를 신청할 수 있으며 최소 NZD 4,200이 필요합니다. 자녀는 본인이 PhD, 공인 교환 프로그램, MFAT 장학생인 경우에만 국내 학생(공립학교 무상)으로 인정되며, 그 외에는 유학생 학비와 연 NZD 17,000 생활비가 필요합니다.",
+   "km": "នូវែលសេឡង់៖ ដៃគូអាចដាក់ពាក្យ Partner of a Student Work Visa បើអ្នកសិក្សាកម្រិត 9-10 (ឬកម្រិត 7-8 ក្នុង Green List/Post Study Work) ដៃគូត្រូវមានយ៉ាងតិច NZD 4,200។ កូនត្រូវរាប់ជាសិស្សក្នុងស្រុក (សាលារដ្ឋឥតគិតថ្លៃ) តែបើអ្នករៀន PhD កម្មវិធីផ្លាស់ប្តូរផ្លូវការ ឬអាហារូបករណ៍ MFAT ប៉ុណ្ណោះ បើមិនដូច្នេះទេ កូនត្រូវបង់ថ្លៃសិក្សាអន្តរជាតិ និងមានថវិការស់នៅ NZD 17,000/ឆ្នាំ។",
+   "fr": "Nouvelle-Zélande : votre partenaire peut demander un Partner of a Student Work Visa si vous étudiez au niveau 9-10 (ou 7-8 éligible Green List/Post Study Work) ; il lui faut au moins NZD 4 200. Les enfants sont élèves nationaux (école publique gratuite) seulement si vous êtes doctorant, en échange agréé ou boursier MFAT ; sinon, frais scolaires internationaux et NZD 17 000/an de fonds de subsistance.",
+   "pt": "Nova Zelândia: seu parceiro pode pedir o Partner of a Student Work Visa se você estudar no nível 9-10 (ou 7-8 elegível na Green List/Post Study Work); o parceiro precisa de pelo menos NZD 4.200. Os filhos contam como alunos domésticos (escola pública gratuita) só se você fizer PhD, intercâmbio aprovado ou bolsa MFAT; caso contrário, pagam taxas internacionais e precisam de NZD 17.000/ano para viver.",
+   "es": "Nueva Zelanda: tu pareja puede pedir el Partner of a Student Work Visa si estudias nivel 9-10 (o nivel 7-8 elegible en Green List/Post Study Work); necesita al menos NZD 4.200. Los hijos cuentan como alumnos nacionales (escuela pública gratuita) solo si haces un PhD, un intercambio aprobado o tienes beca MFAT; si no, pagan cuotas internacionales y necesitan NZD 17.000/año de manutención.",
+   "de": "Neuseeland: Dein Partner kann ein Partner of a Student Work Visa beantragen, wenn du auf Level 9-10 (oder berechtigtem Level 7-8 der Green List/Post Study Work) studierst; er braucht mindestens NZD 4.200. Kinder gelten nur als inländische Schüler (staatliche Schule kostenlos), wenn du PhD-, anerkannter Austausch- oder MFAT-Stipendiat bist; sonst zahlen sie internationale Schulgebühren und brauchen NZD 17.000/Jahr Lebenshaltungsmittel.",
+   "it": "Nuova Zelanda: il partner può richiedere il Partner of a Student Work Visa se studi al livello 9-10 (o 7-8 idoneo in Green List/Post Study Work); servono almeno NZD 4.200. I figli sono studenti nazionali (scuola pubblica gratuita) solo se sei dottorando, in scambio approvato o borsista MFAT; altrimenti pagano rette internazionali e servono NZD 17.000/anno per il mantenimento.",
+   "nl": "Nieuw-Zeeland: je partner kan een Partner of a Student Work Visa aanvragen als je op niveau 9-10 studeert (of een geschikt niveau 7-8 op de Green List/Post Study Work-lijst); de partner heeft minstens NZD 4.200 nodig. Kinderen gelden alleen als binnenlandse leerlingen (gratis openbare school) als je PhD-, erkende uitwisselings- of MFAT-beursstudent bent; anders betalen ze internationaal schoolgeld en is NZD 17.000/jaar levensonderhoud nodig.",
+   "ru": "Новая Зеландия: партнёр может подать на Partner of a Student Work Visa, если вы учитесь на уровне 9-10 (или подходящем уровне 7-8 из Green List/Post Study Work); партнёру нужно не менее NZD 4 200. Дети считаются местными учениками (бесплатная государственная школа) только если вы аспирант PhD, участник одобренного обмена или стипендиат MFAT; иначе они платят за обучение как иностранцы и нужны NZD 17 000 в год на проживание."
+  },
+  "uk_note": {
+   "id": "Inggris: keluarga hanya bisa ikut bila Anda kuliah S3/riset atau penerima beasiswa pemerintah untuk kursus > 6 bulan. Dana tiap anggota keluarga: GBP 845/bulan (London) atau GBP 680/bulan (luar London), maks. 9 bulan.",
+   "en": "United Kingdom: family can only join if you study a doctorate/research degree or are a government-sponsored student on a course over 6 months. Funds per family member: GBP 845/month (London) or GBP 680/month (outside London), up to 9 months.",
+   "th": "สหราชอาณาจักร: ครอบครัวติดตามได้เฉพาะเมื่อคุณเรียนปริญญาเอก/วิจัย หรือได้ทุนรัฐบาลสำหรับหลักสูตรเกิน 6 เดือน เงินต่อสมาชิกครอบครัว: GBP 845/เดือน (ลอนดอน) หรือ GBP 680/เดือน (นอกลอนดอน) สูงสุด 9 เดือน",
+   "vi": "Anh: gia đình chỉ được đi cùng nếu bạn học tiến sĩ/nghiên cứu hoặc là sinh viên được chính phủ tài trợ cho khóa trên 6 tháng. Tiền cho mỗi thành viên: GBP 845/tháng (London) hoặc GBP 680/tháng (ngoài London), tối đa 9 tháng.",
+   "zh": "英国：只有攻读博士/研究型学位或政府资助且课程超过 6 个月的学生才能携带家属。每位家属资金：伦敦每月 GBP 845，伦敦以外每月 GBP 680，最多 9 个月。",
+   "ja": "イギリス：家族を帯同できるのは博士・研究学位、または 6 か月超のコースで政府派遣の場合のみ。家族 1 人あたりの資金：ロンドン月 GBP 845、ロンドン以外月 GBP 680（最大 9 か月）。",
+   "ko": "영국: 박사/연구 학위 과정이거나 6개월 초과 과정의 정부 후원 학생인 경우에만 가족 동반이 가능합니다. 가족 1인당 자금: 런던 월 GBP 845, 런던 외 월 GBP 680, 최대 9개월.",
+   "km": "ចក្រភពអង់គ្លេស៖ គ្រួសារអាចទៅជាមួយបាន តែបើអ្នករៀនបណ្ឌិត/ស្រាវជ្រាវ ឬជាសិស្សទទួលអាហារូបករណ៍រដ្ឋាភិបាលសម្រាប់វគ្គលើស 6 ខែ។ ថវិកាសម្រាប់សមាជិកម្នាក់៖ GBP 845/ខែ (ឡុងដ៍) ឬ GBP 680/ខែ (ក្រៅឡុងដ៍) រហូតដល់ 9 ខែ។",
+   "fr": "Royaume-Uni : la famille ne peut venir que si vous préparez un doctorat/diplôme de recherche ou êtes boursier du gouvernement pour un cours de plus de 6 mois. Fonds par membre : GBP 845/mois (Londres) ou GBP 680/mois (hors Londres), jusqu'à 9 mois.",
+   "pt": "Reino Unido: a família só pode ir se você fizer doutorado/pesquisa ou for bolsista do governo em curso de mais de 6 meses. Fundos por familiar: GBP 845/mês (Londres) ou GBP 680/mês (fora de Londres), até 9 meses.",
+   "es": "Reino Unido: la familia solo puede ir si cursas un doctorado/investigación o eres becario del gobierno en un curso de más de 6 meses. Fondos por familiar: GBP 845/mes (Londres) o GBP 680/mes (fuera de Londres), hasta 9 meses.",
+   "de": "Vereinigtes Königreich: Familie darf nur mitkommen, wenn du promovierst/forschst oder als staatlich geförderter Studierender einen Kurs über 6 Monate belegst. Mittel pro Familienmitglied: GBP 845/Monat (London) oder GBP 680/Monat (außerhalb), bis zu 9 Monate.",
+   "it": "Regno Unito: la famiglia può venire solo se fai un dottorato/ricerca o sei borsista governativo per un corso oltre 6 mesi. Fondi per familiare: GBP 845/mese (Londra) o GBP 680/mese (fuori Londra), fino a 9 mesi.",
+   "nl": "Verenigd Koninkrijk: gezin mag alleen mee bij een promotie/onderzoeksopleiding of als je door de overheid gesponsord bent voor een opleiding langer dan 6 maanden. Geld per gezinslid: GBP 845/maand (Londen) of GBP 680/maand (buiten Londen), tot 9 maanden.",
+   "ru": "Великобритания: семья может приехать, только если вы учитесь в докторантуре/на исследовательской программе или являетесь стипендиатом правительства на курсе дольше 6 месяцев. Средства на члена семьи: GBP 845/мес (Лондон) или GBP 680/мес (вне Лондона), до 9 месяцев."
+  },
+  "ca_note": {
+   "id": "Kanada: dana hidup tahun pertama mengikuti tabel IRCC berdasarkan jumlah anggota keluarga (termasuk Anda), di luar tuition dan tiket.",
+   "en": "Canada: first-year living funds follow the IRCC table by number of family members (including you), excluding tuition and travel.",
+   "th": "แคนาดา: เงินค่าครองชีพปีแรกตามตาราง IRCC ตามจำนวนสมาชิกครอบครัว (รวมคุณ) ไม่รวมค่าเรียนและค่าเดินทาง",
+   "vi": "Canada: tiền sinh hoạt năm đầu theo bảng IRCC dựa trên số thành viên gia đình (gồm bạn), chưa gồm học phí và vé.",
+   "zh": "加拿大：第一年生活费按 IRCC 表格依家庭人数（含本人）计算，不含学费和机票。",
+   "ja": "カナダ：初年度の生活費は IRCC の表に従い家族人数（本人含む）で決まります（学費・渡航費除く）。",
+   "ko": "캐나다: 첫해 생활비는 IRCC 표에 따라 가족 수(본인 포함)로 정해지며 학비·항공료는 제외입니다.",
+   "km": "កាណាដា៖ ថវិការស់នៅឆ្នាំដំបូងតាមតារាង IRCC តាមចំនួនសមាជិកគ្រួសារ (រួមទាំងអ្នក) មិនរួមថ្លៃសិក្សា និងការធ្វើដំណើរ។",
+   "fr": "Canada : les fonds de subsistance de la première année suivent le tableau d'IRCC selon le nombre de membres de la famille (vous compris), hors frais de scolarité et transport.",
+   "pt": "Canadá: os fundos de manutenção do primeiro ano seguem a tabela do IRCC pelo número de membros da família (incluindo você), sem mensalidade e passagem.",
+   "es": "Canadá: los fondos de manutención del primer año siguen la tabla del IRCC según el número de miembros de la familia (incluido tú), sin matrícula ni viaje.",
+   "de": "Kanada: Die Lebenshaltungsmittel für das erste Jahr richten sich nach der IRCC-Tabelle und der Zahl der Familienmitglieder (inkl. dir), ohne Studiengebühren und Reise.",
+   "it": "Canada: i fondi di mantenimento del primo anno seguono la tabella IRCC in base al numero di familiari (te compreso), esclusi tasse e viaggio.",
+   "nl": "Canada: het leefgeld voor het eerste jaar volgt de IRCC-tabel naar aantal gezinsleden (inclusief jij), exclusief collegegeld en reis.",
+   "ru": "Канада: средства на первый год считаются по таблице IRCC в зависимости от числа членов семьи (включая вас), без оплаты обучения и перелёта."
+  },
+  "us_note": {
+   "id": "Amerika Serikat: jumlah dana untuk keluarga (F-2) mengikuti angka di Form I-20 dari sekolah.",
+   "en": "United States: the funds needed for family (F-2) follow the amount on the school's Form I-20.",
+   "th": "สหรัฐอเมริกา: เงินสำหรับครอบครัว (F-2) ตามจำนวนใน Form I-20 ของสถานศึกษา",
+   "vi": "Hoa Kỳ: số tiền cho gia đình (F-2) theo mức ghi trên Form I-20 của trường.",
+   "zh": "美国：家属（F-2）所需资金以学校 Form I-20 上的金额为准。",
+   "ja": "アメリカ：家族（F-2）に必要な資金は学校の Form I-20 の金額に従います。",
+   "ko": "미국: 가족(F-2)에 필요한 자금은 학교의 Form I-20 금액을 따릅니다.",
+   "km": "សហរដ្ឋអាមេរិក៖ ថវិកាសម្រាប់គ្រួសារ (F-2) តាមចំនួនក្នុង Form I-20 របស់សាលា។",
+   "fr": "États-Unis : les fonds pour la famille (F-2) suivent le montant indiqué sur le Form I-20 de l'établissement.",
+   "pt": "Estados Unidos: os fundos para a família (F-2) seguem o valor do Form I-20 da escola.",
+   "es": "Estados Unidos: los fondos para la familia (F-2) siguen el monto del Form I-20 de la escuela.",
+   "de": "USA: Die Mittel für Familienangehörige (F-2) richten sich nach dem Betrag im Form I-20 der Schule.",
+   "it": "Stati Uniti: i fondi per la famiglia (F-2) seguono l'importo del Form I-20 della scuola.",
+   "nl": "Verenigde Staten: het benodigde geld voor gezinsleden (F-2) volgt het bedrag op het Form I-20 van de school.",
+   "ru": "США: средства для семьи (F-2) определяются суммой в Form I-20 учебного заведения."
+  }
+ },
+ "labels": {
+  "visa_partner": {
+   "id": "Visa tambahan partner",
+   "en": "Partner visa charge",
+   "th": "ค่าวีซ่าคู่สมรส",
+   "vi": "Phí visa cho vợ/chồng",
+   "zh": "配偶签证费",
+   "ja": "配偶者のビザ料金",
+   "ko": "배우자 비자 수수료",
+   "km": "ថ្លៃទិដ្ឋាការដៃគូ",
+   "fr": "Frais de visa du partenaire",
+   "pt": "Taxa de visto do parceiro",
+   "es": "Tasa de visa de la pareja",
+   "de": "Visumgebühr Partner",
+   "it": "Costo visto partner",
+   "nl": "Visumkosten partner",
+   "ru": "Визовый сбор за партнёра"
+  },
+  "visa_child": {
+   "id": "Visa tambahan anak",
+   "en": "Child visa charge",
+   "th": "ค่าวีซ่าบุตร",
+   "vi": "Phí visa cho con",
+   "zh": "子女签证费",
+   "ja": "子どものビザ料金",
+   "ko": "자녀 비자 수수료",
+   "km": "ថ្លៃទិដ្ឋាការកូន",
+   "fr": "Frais de visa enfant",
+   "pt": "Taxa de visto do filho",
+   "es": "Tasa de visa del hijo",
+   "de": "Visumgebühr Kind",
+   "it": "Costo visto figlio",
+   "nl": "Visumkosten kind",
+   "ru": "Визовый сбор за ребёнка"
+  },
+  "living_partner": {
+   "id": "Biaya hidup partner (12 bulan)",
+   "en": "Partner living costs (12 months)",
+   "th": "ค่าครองชีพคู่สมรส (12 เดือน)",
+   "vi": "Sinh hoạt phí vợ/chồng (12 tháng)",
+   "zh": "配偶生活费（12 个月）",
+   "ja": "配偶者の生活費（12 か月）",
+   "ko": "배우자 생활비 (12개월)",
+   "km": "ថ្លៃរស់នៅដៃគូ (12 ខែ)",
+   "fr": "Frais de vie du partenaire (12 mois)",
+   "pt": "Custo de vida do parceiro (12 meses)",
+   "es": "Costo de vida de la pareja (12 meses)",
+   "de": "Lebenshaltung Partner (12 Monate)",
+   "it": "Costo della vita partner (12 mesi)",
+   "nl": "Levenskosten partner (12 maanden)",
+   "ru": "Проживание партнёра (12 мес.)"
+  },
+  "living_child": {
+   "id": "Biaya hidup anak (12 bulan)",
+   "en": "Child living costs (12 months)",
+   "th": "ค่าครองชีพบุตร (12 เดือน)",
+   "vi": "Sinh hoạt phí con (12 tháng)",
+   "zh": "子女生活费（12 个月）",
+   "ja": "子どもの生活費（12 か月）",
+   "ko": "자녀 생활비 (12개월)",
+   "km": "ថ្លៃរស់នៅកូន (12 ខែ)",
+   "fr": "Frais de vie enfant (12 mois)",
+   "pt": "Custo de vida do filho (12 meses)",
+   "es": "Costo de vida del hijo (12 meses)",
+   "de": "Lebenshaltung Kind (12 Monate)",
+   "it": "Costo della vita figlio (12 mesi)",
+   "nl": "Levenskosten kind (12 maanden)",
+   "ru": "Проживание ребёнка (12 мес.)"
+  },
+  "school_child": {
+   "id": "Biaya sekolah anak (12 bulan)",
+   "en": "Child school costs (12 months)",
+   "th": "ค่าเรียนบุตร (12 เดือน)",
+   "vi": "Học phí của con (12 tháng)",
+   "zh": "子女学费（12 个月）",
+   "ja": "子どもの学費（12 か月）",
+   "ko": "자녀 학비 (12개월)",
+   "km": "ថ្លៃសិក្សាកូន (12 ខែ)",
+   "fr": "Frais scolaires enfant (12 mois)",
+   "pt": "Custo escolar do filho (12 meses)",
+   "es": "Costo escolar del hijo (12 meses)",
+   "de": "Schulkosten Kind (12 Monate)",
+   "it": "Costo scolastico figlio (12 mesi)",
+   "nl": "Schoolkosten kind (12 maanden)",
+   "ru": "Школа ребёнка (12 мес.)"
+  },
+  "travel_family": {
+   "id": "Biaya perjalanan keluarga",
+   "en": "Family travel costs",
+   "th": "ค่าเดินทางครอบครัว",
+   "vi": "Chi phí đi lại của gia đình",
+   "zh": "家属旅费",
+   "ja": "家族の渡航費",
+   "ko": "가족 여행 경비",
+   "km": "ថ្លៃធ្វើដំណើរគ្រួសារ",
+   "fr": "Frais de voyage de la famille",
+   "pt": "Custos de viagem da família",
+   "es": "Gastos de viaje de la familia",
+   "de": "Reisekosten Familie",
+   "it": "Spese di viaggio famiglia",
+   "nl": "Reiskosten gezin",
+   "ru": "Расходы на перелёт семьи"
+  },
+  "oshc_family": {
+   "id": "Asuransi kesehatan keluarga (selisih dari Single)",
+   "en": "Family health insurance (difference from Single)",
+   "th": "ประกันสุขภาพครอบครัว (ส่วนต่างจาก Single)",
+   "vi": "Bảo hiểm y tế gia đình (chênh lệch so với Single)",
+   "zh": "家庭医疗保险（与 Single 的差额）",
+   "ja": "家族の医療保険（Single との差額）",
+   "ko": "가족 건강보험 (Single 대비 차액)",
+   "km": "ធានារ៉ាប់រងសុខភាពគ្រួសារ (ភាពខុសគ្នាពី Single)",
+   "fr": "Assurance santé famille (différence avec Single)",
+   "pt": "Seguro saúde família (diferença do Single)",
+   "es": "Seguro médico familiar (diferencia con Single)",
+   "de": "Familien-Krankenversicherung (Differenz zu Single)",
+   "it": "Assicurazione sanitaria famiglia (differenza da Single)",
+   "nl": "Gezinszorgverzekering (verschil met Single)",
+   "ru": "Семейная медстраховка (разница с Single)"
+  }
+ },
+ "countries": {
+  "AU": {
+   "currency": "AUD",
+   "family_allowed": "exempt_only",
+   "eligibility_text_key": "au_eligibility",
+   "visa_charge": {
+    "main_applicant": {
+     "all_other_students": 2500,
+     "elicos_or_non_award": 2050
+    },
+    "additional_18_plus": {
+     "all_other_students": 1530,
+     "elicos_or_non_award": 1255
+    },
+    "additional_under_18": {
+     "all_other_students": 500,
+     "elicos_or_non_award": 410
+    },
+    "postgraduate_research_note": "Postgraduate research sector: main AUD 2,500; tabel resmi tidak mencantumkan additional applicant (N/A) - konfirmasi di Visa Pricing Estimator",
+    "concession_note": "Biaya lebih rendah mungkin berlaku untuk warga negara Pasifik, Timor-Leste atau ASEAN untuk sebagian visa - cek Visa Pricing Estimator",
+    "effective": "2026-07-01",
+    "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+    "checked": "2026-11-11"
+   },
+   "living_cost_per_year": {
+    "partner": 10394,
+    "child": 4449
+   },
+   "school_cost_per_year_per_school_age_child": 13502,
+   "school_cost_note": "Nil hanya bila anak di sekolah negeri dengan biaya dibebaskan DAN pemohon utama mahasiswa doktoral / Foreign Affairs / Defence / Commonwealth sponsored",
+   "pro_rata_rule": "tinggal < 12 bulan: jumlah tahunan / 365 x jumlah hari",
+   "income_alternative": {
+    "no_secondary_applicant": 87856,
+    "with_secondary_applicant": 102500,
+    "note": "Pendapatan tahunan pribadi orang tua/pasangan (yang tidak ikut) dalam 12 bulan terakhir, dokumen resmi pemerintah"
+   },
+   "legal_source": "https://www.legislation.gov.au/F2019L01366/latest/text",
+   "legal_source_title": "Migration (LIN 19/198: Evidence of financial capacity - Subclass 500 Visa and Subclass 590 Visa) Instrument 2019, Compilation No. 2 (10 May 2024, berlaku)",
+   "travel_per_person": {
+    "use": "Aturan & Tarif Excel: Biaya perjalanan AU (per orang)",
+    "note": "Instrumen hukum mewajibkan travel expenses tanpa angka tetap; pakai angka panduan Home Affairs di Excel untuk setiap anggota keluarga"
+   },
+   "oshc": {
+    "use": "Tarif OSHC Couple / Single parent / Family per provider dari Excel 'Aturan & Tarif'",
+    "rule": "partner saja = Couple; anak saja = Single parent (bila ada) atau Family; partner + anak = Family; bulan = durasi kursus + 2 bulan; tampilkan selisih terhadap Single"
+   },
+   "family_rules_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
+   "family_rules_effective": "2026-10-02",
+   "checked": "2026-11-11"
+  },
+  "NZ": {
+   "currency": "NZD",
+   "family_allowed": "conditional",
+   "note_key": "nz_note",
+   "partner_work_visa": {
+    "student_level": "NZQCF level 9-10, atau level 7-8 yang terdaftar Green List / Post Study Work (atau LTSSL bila mulai <= 7 Sep 2022)",
+    "partner_funds_min": 4200,
+    "visa_fee_from": 1630,
+    "source": "https://www.immigration.govt.nz/visas/partner-of-a-student-work-visa/"
+   },
+   "children": {
+    "domestic_if": "orang tua pemegang student visa: PhD di universitas NZ, peserta pertukaran resmi pemerintah NZ, atau penerima beasiswa MFAT",
+    "otherwise": "anak = fee-paying international student (biaya sekolah internasional sekolah ybs)",
+    "school_child_living_funds_per_year": 17000,
+    "school_child_living_funds_per_month_if_short": 1417,
+    "source": [
+     "https://www.immigration.govt.nz/opsmanual/42649.htm",
+     "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/"
+    ]
+   },
+   "checked": "2026-11-11"
+  },
+  "GB": {
+   "currency": "GBP",
+   "family_allowed": "doctorate_research_or_gov_sponsored",
+   "note_key": "uk_note",
+   "per_dependant_per_month": {
+    "london": 845,
+    "outside_london": 680
+   },
+   "max_months": 9,
+   "source": "https://www.gov.uk/student-visa/family-members",
+   "checked": "2026-11-11"
+  },
+  "CA": {
+   "currency": "CAD",
+   "family_allowed": "yes",
+   "note_key": "ca_note",
+   "living_funds_first_year_by_family_size": {
+    "from_2026_09_01": {
+     "1": 23448,
+     "2": 29192,
+     "3": 35888,
+     "4": 43572,
+     "5": 49419,
+     "6": 55736,
+     "7": 62054,
+     "each_additional": 6318
+    },
+    "2025_01_01_to_2026_08_31": {
+     "1": 22895,
+     "2": 28502,
+     "3": 35040,
+     "4": 42543,
+     "5": 48252,
+     "6": 54420,
+     "7": 60589,
+     "each_additional": 6170
+    }
+   },
+   "excludes": "tuition & transportation; outside Quebec (Quebec: CAQ/MIFI)",
+   "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+   "checked": "2026-11-11"
+  },
+  "US": {
+   "currency": "USD",
+   "family_allowed": "yes",
+   "note_key": "us_note",
+   "amount": "mengikuti Form I-20 sekolah (F-2)",
+   "checked": "2026-11-11"
+  }
+ },
+ "calculation": {
+  "AU": {
+   "dana_awal_tambahan": "visa additional (18+ per partner/anak >=18, under 18 per anak) + selisih OSHC keluarga vs Single x bulan",
+   "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x anak usia sekolah + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
+   "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
+   "contoh": {
+    "kasus": "Bachelor 2 tahun, partner + 1 anak usia sekolah, travel AUD 2.000/orang",
+    "visa": "1.530 + 500 = 2.030",
+    "rekening_koran_tambahan": "10.394 + 4.449 + 13.502 + 2 x 2.000 = 32.345",
+    "saran_saldo_tambahan": "32.345 + 2.030 + selisih OSHC"
+   }
+  },
+  "NZ": {
+   "rekening_koran_minimum_tambahan": "partner: NZD 4.200 (bila eligible work visa); anak usia sekolah non-domestik: NZD 17.000/tahun + biaya sekolah internasional (konfirmasi sekolah)",
+   "dana_awal_tambahan": "visa partner (from NZD 1.630) + visa anak (cek INZ) + asuransi keluarga"
+  },
+  "GB": {
+   "rekening_koran_minimum_tambahan": "per anggota: 845 (London) / 680 x min(bulan kursus, 9)"
+  },
+  "CA": {
+   "rekening_koran_minimum": "pakai tabel by family size (menggantikan angka hidup student sendiri), + tuition tahun 1 + tiket"
+  },
+  "US": {
+   "rekening_koran_minimum": "Form I-20"
+  }
+ }
+}

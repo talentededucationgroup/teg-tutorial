@@ -507,6 +507,13 @@
     "rule": "Umur tiap anak WAJIB 1-17 (angka bulat). Kosong atau 0 = belum diisi: field merah + 'Wajib diisi', banner ui.age_missing_warning, label 'BELUM TOTAL', tombol PDF & WhatsApp nonaktif (ui.export_blocked). Bayi < 1 tahun diisi 1. Umur >= 18 tidak bisa sebagai tanggungan.",
     "decided": "pemilik 11/11/2026",
     "reset": "Tidak disimpan: refresh = kembali default (partner off, anak 0, umur kosong, OSHC Single); tanpa localStorage/cookie/URL param"
+   },
+   "school_age": {
+    "from_age": 5,
+    "under_age": 18,
+    "rule": "Anak usia sekolah = sudah berumur 5 tahun dan belum 18 (definisi 'school-age dependant', Migration Regulations 1994 reg 1.03). Umur 1-4: hanya biaya hidup anak AUD 4.449, tanpa biaya sekolah AUD 13.502.",
+    "source": "https://www.legislation.gov.au/F1996B03551/2015-10-17/2015-10-17/text/original/epub/OEBPS/document_1/document_1.html",
+    "checked": "2026-11-11"
    }
   },
   "NZ": {

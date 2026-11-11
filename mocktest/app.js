@@ -33,17 +33,18 @@ function header(title,sub){return `<header class="top"><a class="brand" href="?l
 function bindLang(){const s=$('#langSel');if(s)s.onchange=()=>{Q.set('lang',s.value);location.search=Q.toString()}}
 function home(){
   document.title=t('free_mock')+' - Talented Education Group';
-  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="grid">${IDX.tests.map(x=>`<a class="card test" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
+  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${SHARE_URL}" id="backSite">← ${esc(t('back_site'))}</a></div><div class="grid">${IDX.tests.map(x=>`<a class="card test" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
   <section class="note">${esc(t('disclaimer'))}</section>`+footer();
   bindLang();
+  $('#backSite').onclick=e=>{try{if(document.referrer&&new URL(document.referrer).host.includes('talentededucationgroup')&&history.length>1){e.preventDefault();history.back()}}catch(_){}};
 }
-function footer(){return `<footer><p>${esc(t('footer_vsa'))}</p><p><a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(t('ask_consultant'))}</a></p><p class="small">© Talented Education Group · ${esc(t('privacy'))}</p></footer>`}
+function footer(){return `<footer><p>${esc(t('footer_vsa'))}</p><p><a class="btn gold" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">💬 ${esc(t('ask_consultant'))}</a></p><p class="small">© Talented Education Group · ${esc(t('privacy'))}</p></footer>`}
 function testPage(){
   try{history.replaceState({mock:'test'},'')}catch(e){}
   document.title=BANK.title+' - '+t('free_mock');
   const secs=BANK.sections;
   const hist=store.get('hist:'+BANK.id,[]);
-  app().innerHTML=header(BANK.title,esc(L(BANK.desc)))+`
+  app().innerHTML=header(BANK.title,esc(L(BANK.desc)))+`<div class="acts top"><a class="btn back" href="?lang=${LANG}">← ${esc(t('all_tests'))}</a></div>
   <section class="card fullcard"><h2>${esc(t('full_test'))}</h2><p class="small">${esc(t('full_desc'))}</p><div class="secs">${fullsOf().map((f,k)=>`<div class="sec"><div><b>${esc(L(f.title))}</b><small>${f.sections.reduce((a,i)=>a+secs[i].minutes+(secs[i].review_minutes||0),0)} ${esc(t('minutes'))} · ${f.sections.length} ${esc(t('sections_n'))}: ${esc(f.sections.map(i=>L(secs[i].title)).join(' → '))}</small></div><button class="btn gold" data-full="${k}">${esc(t('start_full'))}</button></div>`).join('')}</div></section>
   <section class="card"><h2>${esc(t('choose_section'))}</h2>
   ${BANK.levels?`<label class="lvl">${esc(t('level'))}: <select id="lvl">${BANK.levels.map(l=>`<option>${esc(l)}</option>`).join('')}</select></label>`:''}
@@ -52,7 +53,7 @@ function testPage(){
   <p class="small">${esc(t('rules'))}</p>
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
-  <p><a href="?lang=${LANG}">← ${esc(t('all_tests'))}</a></p>`+footer();
+`+footer();
   bindLang();
   const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}CAND=nm;return true};
   $$('[data-sec]').forEach(b=>b.onclick=()=>{if(!nameOk())return;FULL=null;startSection(+b.dataset.sec,$('#examMode').checked)});
@@ -193,14 +194,15 @@ function showReport(results,fdef,isFull,rid){
   const anyTimeout=results.some(r=>r.timeout);
   app().innerHTML=header(title,'')+`<section class="card result">${anyTimeout?`<p class="warn">${esc(t('time_up'))}</p>`:''}
   ${reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov)}
-  <div class="share"><b>${esc(t('send_result'))}</b> <a class="btn wa" id="shWA" target="_blank" rel="noopener">WhatsApp</a> <a class="btn ghost" id="shMail">Email</a> <button class="btn ghost" id="shPrint">PDF / ${esc(t('print'))}</button><small>${esc(t('send_note'))}</small></div>
-  <p><a class="btn ghost" href="?test=${BANK.id}&lang=${LANG}">← ${esc(t('back'))}</a> <a class="btn" href="?test=${BANK.id}&lang=${LANG}">${esc(t('other_sections'))}</a> <a class="btn ghost" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">${esc(t('ask_consultant'))}</a></p></section>
+  <div class="share"><b>${esc(t('send_result'))}</b> <a class="btn wa" id="shWA" target="_blank" rel="noopener">WhatsApp</a> <a class="btn mail" id="shMail">Email</a> <button class="btn pdf" id="shPrint">PDF / ${esc(t('print'))}</button><small>${esc(t('send_note'))}</small></div>
+  <div class="acts"><a class="btn back" href="?test=${BANK.id}&lang=${LANG}">← ${esc(t('back_tests'))}</a> <button class="btn" id="retry">↻ ${esc(t('try_again'))}</button></div></section>
   <section class="card review-wrap"><h2>${esc(t('review'))}</h2>${results.map(r=>`<details${r.sec.auto?'':' open'}><summary>${esc(L(r.sec.title))}${r.sec.auto?` · ${r.raw}/${r.max}`:''}</summary>${r.parts.map(p=>`<div class="rvp"><p class="rvh">${esc(L(p.title)||p.slotTitle)}</p>${p.transcript?`<details class="tr"><summary>${esc(t('transcript'))}</summary><div class="trx">${p.transcript}</div></details>`:''}${(p.questions||[]).map(q=>{const x=r.rows.find(y=>y.q===q);return reviewRow(q,x&&x.s,r.answers)}).join('')}</div>`).join('')}</details>`).join('')}</section>`+footer();
   bindLang();scrollTo(0,0);
   const txt=summaryText(results,title,rid,rep,sk,ov);
   $('#shWA').href='https://wa.me/?text='+encodeURIComponent(txt.slice(0,1800));
   $('#shMail').href='mailto:?subject='+encodeURIComponent(t('free_mock')+' - '+title)+'&body='+encodeURIComponent(txt);
   $('#shPrint').onclick=()=>window.print();
+  $('#retry').onclick=()=>{if(isFull){FULL={def:fdef,pos:0,results:[],rid:newRid(),exam:true};startSection(fdef.sections[0],true)}else startSection(results[0].secIdx,true)};
 }
 function partStats(results){const g=[];results.forEach(r=>r.rows.forEach(x=>{if(!x.s)return;const k=x.p.slotTitle||L(x.p.title);let o=g.find(y=>y.k===k);if(!o){o={k,got:0,max:0};g.push(o)}o.got+=x.s.got;o.max+=x.s.max}));return g}
 function fbKey(p){return p>=0.8?'fb_strong':(p>=0.5?'fb_dev':'fb_focus')}

@@ -2004,5 +2004,39 @@
 "it": "Uscire dal test? Le risposte non inviate andranno perse.",
 "nl": "Toets verlaten? Niet ingeleverde antwoorden gaan verloren.",
 "ru": "Выйти из теста? Неотправленные ответы будут потеряны."
+},
+"back_tests": {
+"id": "Kembali ke pilihan tes",
+"en": "Back to test options",
+"th": "กลับไปที่ตัวเลือกการสอบ",
+"vi": "Quay lại lựa chọn bài thi",
+"zh": "返回考试选项",
+"ja": "テスト選択に戻る",
+"ko": "시험 선택으로 돌아가기",
+"km": "ត្រឡប់ទៅជម្រើសប្រឡង",
+"fr": "Retour aux options du test",
+"pt": "Voltar às opções do teste",
+"es": "Volver a las opciones",
+"de": "Zurück zur Testauswahl",
+"it": "Torna alle opzioni del test",
+"nl": "Terug naar toetsopties",
+"ru": "Назад к выбору теста"
+},
+"back_site": {
+"id": "Kembali ke website Talented",
+"en": "Back to Talented website",
+"th": "กลับไปที่เว็บไซต์ Talented",
+"vi": "Quay lại website Talented",
+"zh": "返回 Talented 网站",
+"ja": "Talented サイトに戻る",
+"ko": "Talented 웹사이트로 돌아가기",
+"km": "ត្រឡប់ទៅគេហទំព័រ Talented",
+"fr": "Retour au site Talented",
+"pt": "Voltar ao site Talented",
+"es": "Volver al sitio de Talented",
+"de": "Zurück zur Talented-Website",
+"it": "Torna al sito Talented",
+"nl": "Terug naar de Talented-website",
+"ru": "Назад на сайт Talented"
 }
 }

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-11",
+ "version": "2026-11-11+en",
  "updated_at": "2026-11-11T17:40:00+07:00",
  "source": "Data beasiswa TEG (diperbarui setiap Senin 06:17 WIB dari situs resmi pemberi beasiswa)",
  "count": 83,
@@ -335,7 +335,19 @@
    "url": "https://lpdp-belakang.kemenkeu.go.id/storage/programs/files/dcvSCKIBS9X6A0kL9Ra36hKPrlSaG4eEyeyTa96r.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tahap 2 2026 sudah ditutup (pendaftaran 30 Jun-31 Jul 2026, kuliah paling cepat Jan 2027). Jadwal 2027 belum diumumkan; secara historis tahap 1 dibuka sekitar Januari. Kategori Afirmasi kini masuk dalam program STEM/SHARE. Pemegang LoA unconditional tidak wajib sertifikat bahasa Inggris. Situs utama lpdp.kemenkeu.go.id tidak bisa diakses langsung saat pengecekan; data dari buku panduan resmi LPDP."
+   "notes": "Tahap 2 2026 sudah ditutup (pendaftaran 30 Jun-31 Jul 2026, kuliah paling cepat Jan 2027). Jadwal 2027 belum diumumkan; secara historis tahap 1 dibuka sekitar Januari. Kategori Afirmasi kini masuk dalam program STEM/SHARE. Pemegang LoA unconditional tidak wajib sertifikat bahasa Inggris. Situs utama lpdp.kemenkeu.go.id tidak bisa diakses langsung saat pengecekan; data dari buku panduan resmi LPDP.",
+   "i18n": {
+    "en": {
+     "name": "LPDP STEM Strategic Industries Scholarship (Master's & Doctorate)",
+     "provider": "LPDP (Indonesian Ministry of Finance)",
+     "country": "Various countries",
+     "fields": "Strategic-industry STEM (health, food, energy, maritime, defence, digitalisation/AI & semiconductors, downstreaming, advanced materials & manufacturing) + supporting fields (business & economics, public policy & law, entrepreneurship/creative industries)",
+     "coverage": "Full scheme: application fees, tuition, books, thesis/dissertation research, transport, visa, health insurance, arrival allowance, monthly living allowance; partial schemes also available (General and civil servant/military/police criteria)",
+     "eligibility": "Indonesian citizens; Master's GPA min. 3.00 and max. age 35, Doctorate GPA 3.25 and max. age 40 (General criteria); Affirmative criteria (Papua, affirmative regions, low-income, disability) with lighter requirements; overseas Master's IELTS 6.5, Doctorate IELTS 7.0 (Affirmative IELTS 6.0).",
+     "english_test": "Master's: IELTS 6.5 / TOEFL iBT 80 / PTE 58 / Duolingo 120; Doctorate: IELTS 7.0 / TOEFL iBT 94 / PTE 65 (Affirmative: IELTS 6.0 / iBT 61 / PTE 50)",
+     "notes": "Round 2 of 2026 is closed (applications 30 Jun-31 Jul 2026, study starting Jan 2027 at the earliest). The 2027 schedule has not been announced; historically round 1 opens around January. Affirmative categories are now part of the STEM/SHARE programmes. Holders of an unconditional LoA do not need an English certificate. The main site lpdp.kemenkeu.go.id could not be reached during the check; data taken from the official LPDP guidebook."
+    }
+   }
   },
   {
    "id": "id-lpdp-share",
@@ -360,7 +372,19 @@
    "url": "https://lpdp-belakang.kemenkeu.go.id/storage/programs/files/5b3blkreyD7WlTTsCmM07JPFbCnKHYF7l6tcWrzi.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Periode 2026 (tahap 2: 30 Jun-31 Jul 2026) sudah ditutup. Jadwal 2027 belum diumumkan."
+   "notes": "Periode 2026 (tahap 2: 30 Jun-31 Jul 2026) sudah ditutup. Jadwal 2027 belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "LPDP SHARE Scholarship (Social, Humanities, Art for People, Religious Study, Education)",
+     "provider": "LPDP (Indonesian Ministry of Finance)",
+     "country": "Various countries",
+     "fields": "Social sciences, humanities, arts, culture, religious studies, education",
+     "coverage": "Full scheme: education funds (application, tuition, books, research) and support funds (transport, visa, insurance, living allowance); partial scheme for General and civil servant/military/police criteria",
+     "eligibility": "Indonesian citizens under General, civil servant/military/police, or Affirmative criteria (Papua, affirmative regions, low-income, disability); overseas Master's IELTS 6.5, Doctorate IELTS 7.0 (Affirmative IELTS 6.0); Papuan applicants do not need an English certificate.",
+     "english_test": "Master's: IELTS 6.5 / TOEFL iBT 80 / PTE 58; Doctorate: IELTS 7.0 / TOEFL iBT 94 / PTE 65 (Affirmative: IELTS 6.0 / iBT 61 / PTE 50)",
+     "notes": "The 2026 period (round 2: 30 Jun-31 Jul 2026) is closed. The 2027 schedule has not been announced."
+    }
+   }
   },
   {
    "id": "id-lpdp-akselerasi-universitas-unggulan",
@@ -385,7 +409,19 @@
    "url": "https://lpdp-belakang.kemenkeu.go.id/storage/programs/files/FNS968McQZPkuDB44CkKn5mPQnWBf8XfnpbVpJeq.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran 2026 (pendaftaran 6-27 Mar 2026) dan putaran tahap 2 sudah ditutup. Daftar universitas unggulan mencakup kampus top di AS, Inggris, Jerman, Jepang, Singapura, dll."
+   "notes": "Putaran 2026 (pendaftaran 6-27 Mar 2026) dan putaran tahap 2 sudah ditutup. Daftar universitas unggulan mencakup kampus top di AS, Inggris, Jerman, Jepang, Singapura, dll.",
+   "i18n": {
+    "en": {
+     "name": "LPDP Acceleration Scholarship at Leading Universities",
+     "provider": "LPDP (Indonesian Ministry of Finance)",
+     "country": "Various countries",
+     "fields": "All fields at category A leading universities; selected STEM fields at category B",
+     "coverage": "Application, tuition, books, research, international seminars & publications, transport, visa, insurance, arrival allowance, living allowance, family allowance (doctorate)",
+     "eligibility": "Indonesian citizens holding an LoA (required for Master's) from LPDP's list of leading universities; Doctorate applicants without an LoA need IELTS 7.0 / TOEFL iBT 94 / PTE 65.",
+     "english_test": "Doctorate without LoA: IELTS 7.0 / TOEFL iBT 94 / PTE 65; LoA holders: no minimum",
+     "notes": "The 2026 round (applications 6-27 Mar 2026) and round 2 are closed. The list of leading universities includes top campuses in the US, UK, Germany, Japan, Singapore and others."
+    }
+   }
   },
   {
    "id": "id-lpdp-australia-awards-scholarships",
@@ -409,7 +445,19 @@
    "url": "https://australiaawardsindonesia.org/content/1000276/12/lpdp-australia-awards-scholarships?sub=true",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran untuk mulai kuliah 2027 dibuka 2 Apr-4 Mei 2026 (sudah ditutup). Pendaftaran via portal LPDP. Jadwal putaran berikutnya belum diumumkan."
+   "notes": "Putaran untuk mulai kuliah 2027 dibuka 2 Apr-4 Mei 2026 (sudah ditutup). Pendaftaran via portal LPDP. Jadwal putaran berikutnya belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "LPDP-Australia Awards Scholarships (LPDP-AAS)",
+     "provider": "LPDP (Indonesian Ministry of Finance) & Australian Government (DFAT)",
+     "country": "Australia",
+     "fields": "Digitalisation (AI & semiconductors), energy, downstreaming & industrialisation, health, food security, maritime, advanced materials & manufacturing",
+     "coverage": "Tuition, application, books, thesis research, seminars/publications, transport, visa, insurance, arrival allowance, monthly living allowance, pre-departure training",
+     "eligibility": "Indonesian citizens with a D4/Bachelor's degree (no Master's yet), for a 24-month single-degree Master's at ~30 Australian universities; IELTS 6.5 (min. 6.0 each band) / PTE 58 / TOEFL iBT 84.",
+     "english_test": "IELTS 6.5 (min. 6.0 each band) / PTE 58 / TOEFL iBT 84",
+     "notes": "The round for study starting in 2027 was open 2 Apr-4 May 2026 (closed). Apply via the LPDP portal. The next round has not been announced."
+    }
+   }
   },
   {
    "id": "id-lpdp-talenta-riset-doctor-by-research",
@@ -433,7 +481,19 @@
    "url": "https://lpdp-belakang.kemenkeu.go.id/storage/programs/files/Dy2k6jIRTFrSmJ77EE70wpDyvYqYUnjLP0Uj4HCY.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran 2026 (6-27 Mar 2026) sudah ditutup. Daftar LN 2026: 19 program di Inggris, Australia, Rusia, Prancis, Belanda."
+   "notes": "Putaran 2026 (6-27 Mar 2026) sudah ditutup. Daftar LN 2026: 19 program di Inggris, Australia, Rusia, Prancis, Belanda.",
+   "i18n": {
+    "en": {
+     "name": "BRIN National Research & Innovation Talent Doctoral Scholarship - Doctor by Research",
+     "provider": "LPDP (Indonesian Ministry of Finance) & BRIN",
+     "country": "Various countries",
+     "fields": "Priority-sector research: health, food, digitalisation, downstreaming, defence, materials & manufacturing, energy, maritime",
+     "coverage": "Application, tuition, international seminars & publications, transport (overseas), visa, health insurance, emergency fund",
+     "eligibility": "Indonesian citizens with a Master's (or D4/Bachelor's going straight to doctorate with an unconditional LoA) for a doctor-by-research programme; overseas IELTS 7.0 / TOEFL iBT 94 / PTE 65.",
+     "english_test": "IELTS 7.0 / TOEFL iBT 94 / PTE 65",
+     "notes": "The 2026 round (6-27 Mar 2026) is closed. 2026 overseas list: 19 programmes in the UK, Australia, Russia, France and the Netherlands."
+    }
+   }
   },
   {
    "id": "id-beasiswa-garuda-sarjana",
@@ -457,7 +517,19 @@
    "url": "https://beasiswagaruda.kemdiktisaintek.go.id/Buku-Panduan-Pendaftaran-Beasiswa-Garuda-Sarjana-2026.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "2026: Gelombang I 15 Feb-15 Mar, Gelombang II 25 Mei-25 Jun 2026 (keduanya ditutup). Berita Okt 2026 menyebut akan segera dibuka lagi, tetapi belum ada tanggal resmi. Program ini menggantikan peran BIM untuk S1 luar negeri."
+   "notes": "2026: Gelombang I 15 Feb-15 Mar, Gelombang II 25 Mei-25 Jun 2026 (keduanya ditutup). Berita Okt 2026 menyebut akan segera dibuka lagi, tetapi belum ada tanggal resmi. Program ini menggantikan peran BIM untuk S1 luar negeri.",
+   "i18n": {
+    "en": {
+     "name": "Garuda Undergraduate Scholarship (Overseas Bachelor's)",
+     "provider": "Indonesian Ministry of Higher Education, Science & Technology (Ditjen Saintek), funded by LPDP",
+     "country": "Various countries",
+     "fields": "10 priority themes: health, food security, defence, digitalisation, industrial downstreaming, advanced materials & manufacturing, maritime, energy, business & economics, law & public policy",
+     "coverage": "Tuition, application fees, books, transport, visa, health insurance, arrival allowance, monthly living allowance",
+     "eligibility": "Indonesian Year 12 students (SMA/SMK/MA) eligible for SNBP, IQ min. 110, SAT 1170 or the Scholastic Aptitude Test; for overseas campuses IELTS 6.5 (6.0 each band) / TOEFL iBT 80 / PTE 58.",
+     "english_test": "IELTS 6.5 (min. 6.0 each band) / TOEFL iBT 80 / PTE 58",
+     "notes": "2026: Wave I 15 Feb-15 Mar, Wave II 25 May-25 Jun 2026 (both closed). News in Oct 2026 said it will reopen soon, but there is no official date yet. This programme replaces BIM for overseas Bachelor's study."
+    }
+   }
   },
   {
    "id": "id-beasiswa-talenta-indonesia",
@@ -482,7 +554,18 @@
    "url": "https://integrasilpdp.kemenkeu.go.id/api/v1/file/cms/master-details/booklet/booklet-beasiswa-talenta-indonesia_1773334929_gZpUAmdo.pdf",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Khusus peraih medali kompetisi internasional. Jadwal ditetapkan Puspresnas dan diumumkan di laman Puspresnas/LPDP; tanggal putaran berikutnya belum diumumkan."
+   "notes": "Khusus peraih medali kompetisi internasional. Jadwal ditetapkan Puspresnas dan diumumkan di laman Puspresnas/LPDP; tanggal putaran berikutnya belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Indonesia Talent Scholarship (Overseas D4/Bachelor's Scheme)",
+     "provider": "Indonesian Ministry of Primary & Secondary Education (Puspresnas) & LPDP (Ministry of Finance)",
+     "country": "Various countries",
+     "fields": "Strategic-industry STEM and SHARE",
+     "coverage": "Application, tuition, books, final-project support, return transport, health insurance, monthly living allowance, visa & settlement allowance (overseas), companion for students with disability",
+     "eligibility": "Indonesian Year 12 students/graduates who won a medal (gold/silver/bronze/honourable mention) at an international competition facilitated by Puspresnas (e.g. IMO, IPhO, IOI, WorldSkills); English certificate optional.",
+     "notes": "Only for international competition medallists. The schedule is set by Puspresnas and announced on the Puspresnas/LPDP pages; the next round date has not been announced."
+    }
+   }
   },
   {
    "id": "id-kemdiktisaintek-beasiswa-kemitraan-indonesia",
@@ -506,7 +589,18 @@
    "url": "https://kemdiktisaintek.go.id/announcement/article/pengumuman-pendaftaran-beasiswa-kemitraan-indonesia-bki-tahun-2026",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Khusus dosen tetap. Putaran 2026 diumumkan 16 Mar 2026, batas pendaftaran 25 Apr 2026 (sudah ditutup)."
+   "notes": "Khusus dosen tetap. Putaran 2026 diumumkan 16 Mar 2026, batas pendaftaran 25 Apr 2026 (sudah ditutup).",
+   "i18n": {
+    "en": {
+     "name": "Indonesia Partnership Scholarship (BKI) - Overseas Doctorate for Lecturers",
+     "provider": "Indonesian Ministry of Higher Education, Science & Technology",
+     "country": "Various countries",
+     "fields": "All fields",
+     "coverage": "Scholarship for doctoral study overseas (components listed in the official guide)",
+     "eligibility": "Indonesian permanent lecturers at universities under the Ministry; apply via kualifikasidikti.kemdiktisaintek.go.id.",
+     "notes": "Only for permanent lecturers. The 2026 round was announced 16 Mar 2026 with a deadline of 25 Apr 2026 (closed)."
+    }
+   }
   },
   {
    "id": "au-australia-awards-scholarships-indonesia",
@@ -531,7 +625,20 @@
    "url": "https://www.australiaawardsindonesia.org/content/31/12/important-dates?sub=true",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Batas pendaftaran 28 April 2027 pukul 11:00 WIB. Wajib siap mengikuti pelatihan EAP penuh waktu 6 minggu-12 bulan di Indonesia. Dukungan khusus untuk penyandang disabilitas, perempuan dari latar kurang beruntung, dan provinsi target equity."
+   "notes": "Batas pendaftaran 28 April 2027 pukul 11:00 WIB. Wajib siap mengikuti pelatihan EAP penuh waktu 6 minggu-12 bulan di Indonesia. Dukungan khusus untuk penyandang disabilitas, perempuan dari latar kurang beruntung, dan provinsi target equity.",
+   "i18n": {
+    "en": {
+     "name": "Australia Awards Scholarships (Masters & PhD) - Indonesia",
+     "provider": "Australian Government (DFAT)",
+     "country": "Australia",
+     "fields": "Australia Awards Indonesia development priority areas",
+     "coverage": "Full tuition, return airfare, establishment allowance, living allowance, OSHC, English (EAP) training in Indonesia before departure",
+     "eligibility": "Indonesian citizens living in and applying from Indonesia, not active military, not a recipient of a long-term AAS in the last 4 years; Master's GPA 2.9 (equity groups 2.75), PhD GPA 3.0 and only for university/research-institute staff or policy makers; Master's IELTS 6.0 (equity 4.5), PhD IELTS 6.0-6.5.",
+     "english_test": "Master's: IELTS 6.0 / TOEFL iBT 80 / PTE 56 / TOEFL ITP 552 (Equity Target Groups: IELTS 4.5 / PTE 32); PhD non-target: IELTS 6.5 / PTE 61",
+     "intake": "Study in Australia starting 2028",
+     "notes": "Applications close 28 April 2027 at 11:00 WIB. You must be ready for full-time EAP training of 6 weeks-12 months in Indonesia. Special support for people with disability, women from disadvantaged backgrounds, and equity target provinces."
+    }
+   }
   },
   {
    "id": "au-australia-awards-garuda-scholarships",
@@ -555,7 +662,19 @@
    "url": "https://www.australiaawardsindonesia.org/content/1000347/12/general-requirements?sub=true",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Khusus pendidik Program Sekolah Garuda. Putaran intake 2027 dibuka 1 Feb-31 Mei 2026 (sudah ditutup); jadwal intake 2028 belum diumumkan."
+   "notes": "Khusus pendidik Program Sekolah Garuda. Putaran intake 2027 dibuka 1 Feb-31 Mei 2026 (sudah ditutup); jadwal intake 2028 belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Australia Awards Garuda Scholarships",
+     "provider": "Australian Government (DFAT)",
+     "country": "Australia",
+     "fields": "Education / fields linked to the Garuda Schools Programme (STEM & secondary education)",
+     "coverage": "Long-term Australia Awards scholarship (tuition, living allowance, airfare, OSHC, EAP training)",
+     "eligibility": "Indonesian Bachelor's holders who are principals/teachers at the 12 Garuda Transformation Schools (GPA 3.0, IELTS 5.5) or PPG teachers willing to be placed at New Garuda Schools (NTT, Bangka Belitung, North Kalimantan, Southeast Sulawesi).",
+     "english_test": "SGT: IELTS 5.5 / TOEFL ITP 500 / TOEFL iBT 52 / PTE 45; SGB: not stated",
+     "notes": "Only for Garuda Schools Programme educators. The 2027 intake round was open 1 Feb-31 May 2026 (closed); the 2028 intake schedule has not been announced."
+    }
+   }
   },
   {
    "id": "au-australia-awards-short-courses-indonesia",
@@ -579,7 +698,19 @@
    "url": "https://www.australiaawardsindonesia.org/content/1000392/13/short-courses-2027-2028?sub=true",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Semua kursus 2026 sudah lewat masa pendaftaran (terakhir 25 Jun 2026). Daftar kursus 2027-2028 sudah dirilis (status TBC) tetapi periode pendaftaran peserta belum diumumkan."
+   "notes": "Semua kursus 2026 sudah lewat masa pendaftaran (terakhir 25 Jun 2026). Daftar kursus 2027-2028 sudah dirilis (status TBC) tetapi periode pendaftaran peserta belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Australia Awards Short Courses (Indonesia)",
+     "provider": "Australian Government (DFAT)",
+     "country": "Australia",
+     "fields": "Specific policy themes per course (e.g. AI & public policy, energy, cyber security, food security, higher-education reform)",
+     "coverage": "2-week course in Australia plus 2 workshops in Indonesia, funded by the Australian Government",
+     "eligibility": "Professionals/staff of Indonesian institutions relevant to the course theme; apply per course during the announced period.",
+     "intake": "2027-2028",
+     "notes": "All 2026 courses are past their application period (last on 25 Jun 2026). The 2027-2028 course list has been released (status TBC), but participant application periods have not been announced."
+    }
+   }
   },
   {
    "id": "au-aciar-john-allwright-fellowship",
@@ -604,7 +735,19 @@
    "url": "https://www.aciar.gov.au/scholarships/john-allwright-fellowship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Intake 2027 sudah ditutup. Factsheet ACIAR menyebut pendaftaran biasanya 1 Feb-30 Apr setiap tahun via OASIS, tetapi tanggal putaran berikutnya belum dikonfirmasi."
+   "notes": "Intake 2027 sudah ditutup. Factsheet ACIAR menyebut pendaftaran biasanya 1 Feb-30 Apr setiap tahun via OASIS, tetapi tanggal putaran berikutnya belum dikonfirmasi.",
+   "i18n": {
+    "en": {
+     "name": "ACIAR John Allwright Fellowship",
+     "provider": "Australian Government (ACIAR)",
+     "country": "Australia",
+     "fields": "Agricultural, fisheries, forestry and economics research linked to ACIAR projects",
+     "coverage": "Full tuition, return airfare, establishment allowance, living allowance, OSHC, introductory academic programme, pre-course English if needed, fieldwork airfares",
+     "eligibility": "Indonesian scientists/economists involved in an ACIAR project in the last 24 months, permanent or long-term contract staff, at least a Bachelor's degree; Master by Research or PhD only; recent IELTS/TOEFL/PTE test.",
+     "english_test": "IELTS / TOEFL / PTE (score as required by the university)",
+     "notes": "The 2027 intake is closed. The ACIAR factsheet says applications usually run 1 Feb-30 Apr each year via OASIS, but the next round dates are not confirmed."
+    }
+   }
   },
   {
    "id": "au-research-training-program",
@@ -629,7 +772,18 @@
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Mendaftar langsung ke universitas; tiap kampus punya putaran dan tenggat sendiri (cek situs universitas tujuan). Doktor 3-4 tahun, Master riset hingga 2 tahun."
+   "notes": "Mendaftar langsung ke universitas; tiap kampus punya putaran dan tenggat sendiri (cek situs universitas tujuan). Doktor 3-4 tahun, Master riset hingga 2 tahun.",
+   "i18n": {
+    "en": {
+     "name": "Australian Government Research Training Program (RTP) Scholarship",
+     "provider": "Australian Government (Department of Education), administered by universities",
+     "country": "Australia",
+     "fields": "All fields (research programmes: Master by Research and PhD)",
+     "coverage": "Tuition offset, living-cost stipend, allowance for extra research costs (depends on the university)",
+     "eligibility": "Open to international students, including Indonesians, for research degrees (HDR) at Australian universities; selection and requirements (including English) are set by each university.",
+     "notes": "Apply directly to the university; each campus has its own rounds and deadlines (check the target university's website). Doctorate 3-4 years, research Master's up to 2 years."
+    }
+   }
   },
   {
    "id": "au-destination-australia",
@@ -656,7 +810,19 @@
    "url": "https://www.education.gov.au/destination-australia",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Pendaftaran langsung ke kampus penerima dana. Contoh: Flinders University (terbuka untuk internasional, putaran 2026 ditutup 13 Mar 2026); UOW hanya untuk domestik. Halaman resmi Kemendik Australia belum memuat jadwal putaran 2027."
+   "notes": "Pendaftaran langsung ke kampus penerima dana. Contoh: Flinders University (terbuka untuk internasional, putaran 2026 ditutup 13 Mar 2026); UOW hanya untuk domestik. Halaman resmi Kemendik Australia belum memuat jadwal putaran 2027.",
+   "i18n": {
+    "en": {
+     "name": "Destination Australia Scholarship",
+     "provider": "Australian Government (Department of Education), distributed through regional campuses",
+     "country": "Australia",
+     "fields": "Depends on the programmes set by the campus",
+     "coverage": "Study allowance at regional Australian campuses",
+     "amount": "Up to AUD 15,000/year",
+     "eligibility": "Domestic and international students studying full-time at a regional Australian campus; international eligibility differs by campus (some campuses are domestic-only).",
+     "notes": "Apply directly to the funded campus. Examples: Flinders University (open to international students, 2026 round closed 13 Mar 2026); UOW is domestic-only. The Australian Department of Education page does not yet list the 2027 round schedule."
+    }
+   }
   },
   {
    "id": "au-acu-executive-deans-international",
@@ -681,7 +847,19 @@
    "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-executive-deans-international-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Tidak perlu aplikasi beasiswa terpisah; dinilai dari aplikasi studi. Halaman tidak mencantumkan tanggal/intake 2027 - konfirmasi ke AskACU."
+   "notes": "Tidak perlu aplikasi beasiswa terpisah; dinilai dari aplikasi studi. Halaman tidak mencantumkan tanggal/intake 2027 - konfirmasi ke AskACU.",
+   "i18n": {
+    "en": {
+     "name": "ACU Executive Dean's International Scholarship",
+     "provider": "Australian Catholic University (ACU)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Partial tuition fee waiver; official ACU news also mentions travel/relocation support and visa costs",
+     "amount": "Up to 20% of tuition per year",
+     "eligibility": "New international Bachelor's/Master's students with excellent academic results; Indonesia is a target country (Southeast Asia).",
+     "notes": "No separate scholarship application; assessed from the study application. The page does not list 2027 dates/intakes - confirm with AskACU."
+    }
+   }
   },
   {
    "id": "au-acu-international-launch",
@@ -706,7 +884,19 @@
    "url": "https://www.acu.edu.au/study-at-acu/fees-and-scholarships/find-a-scholarship/acu-international-launch-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Tanpa aplikasi formal. Jenjang dan tanggal tidak disebutkan di halaman."
+   "notes": "Tanpa aplikasi formal. Jenjang dan tanggal tidak disebutkan di halaman.",
+   "i18n": {
+    "en": {
+     "name": "ACU International Launch Scholarship",
+     "provider": "Australian Catholic University (ACU)",
+     "country": "Australia",
+     "fields": "Computer Science, Data Science",
+     "coverage": "Tuition reduction",
+     "amount": "20% tuition reduction",
+     "eligibility": "New international students applying for Computer Science or Data Science at ACU.",
+     "notes": "No formal application. Level and dates are not stated on the page."
+    }
+   }
   },
   {
    "id": "au-cdu-vcihas",
@@ -731,7 +921,20 @@
    "url": "https://www.cdu.edu.au/international/how-apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Perlu aplikasi VCIHAS terpisah setelah mendaftar kuliah. Wajib GPA min. 5.3 tanpa nilai gagal."
+   "notes": "Perlu aplikasi VCIHAS terpisah setelah mendaftar kuliah. Wajib GPA min. 5.3 tanpa nilai gagal.",
+   "i18n": {
+    "en": {
+     "name": "Vice-Chancellor's International High Achievers Scholarship (VCIHAS)",
+     "provider": "Charles Darwin University (CDU)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "50% tuition reduction for the duration of study",
+     "amount": "50% tuition reduction",
+     "eligibility": "Overall result of at least 95% in the highest qualification, starting a Bachelor's/Master's in 2027, meeting CDU academic & English requirements, not receiving another sponsor scholarship; supporting essay max. 600 words.",
+     "intake": "Semester 1 2027 (Semester 2 2027 closes 4 July 2027)",
+     "notes": "A separate VCIHAS application is needed after applying for the course. Minimum GPA 5.3 with no failed units."
+    }
+   }
   },
   {
    "id": "au-cdu-global-merit",
@@ -758,7 +961,20 @@
    "url": "https://www.cdu.edu.au/international/how-apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai saat mendaftar program yang memenuhi syarat (TAFE, S1, S2, riset)."
+   "notes": "Otomatis dinilai saat mendaftar program yang memenuhi syarat (TAFE, S1, S2, riset).",
+   "i18n": {
+    "en": {
+     "name": "CDU Global Merit Scholarship",
+     "provider": "Charles Darwin University (CDU)",
+     "country": "Australia",
+     "fields": "Selected programmes",
+     "coverage": "Tuition reduction",
+     "amount": "30% tuition reduction",
+     "eligibility": "New international students starting in 2026/2027, studying full-time on campus in Sydney, Alice Springs or Darwin, and meeting entry requirements.",
+     "intake": "2027",
+     "notes": "Assessed automatically when applying for an eligible programme (TAFE, Bachelor's, Master's, research)."
+    }
+   }
   },
   {
    "id": "au-cdu-bachelor-nursing",
@@ -782,7 +998,20 @@
    "url": "https://www.cdu.edu.au/international/how-apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai saat mendaftar."
+   "notes": "Otomatis dinilai saat mendaftar.",
+   "i18n": {
+    "en": {
+     "name": "CDU Bachelor of Nursing Scholarship",
+     "provider": "Charles Darwin University (CDU)",
+     "country": "Australia",
+     "fields": "Nursing (Bachelor of Nursing)",
+     "coverage": "Tuition reduction",
+     "amount": "Up to 20% tuition reduction",
+     "eligibility": "International Bachelor of Nursing students starting in 2027, full-time on campus in Sydney or Darwin, meeting entry requirements.",
+     "intake": "2027",
+     "notes": "Assessed automatically on application."
+    }
+   }
   },
   {
    "id": "au-cdu-international-college-east-asia",
@@ -807,7 +1036,20 @@
    "url": "https://www.cdu.edu.au/international/how-apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Indonesia disebut eksplisit. Potongan diberikan saat enrolment, tidak untuk deposit."
+   "notes": "Indonesia disebut eksplisit. Potongan diberikan saat enrolment, tidak untuk deposit.",
+   "i18n": {
+    "en": {
+     "name": "CDU International College Scholarship - China and East Asia",
+     "provider": "Charles Darwin University (CDU)",
+     "country": "Australia",
+     "fields": "Diploma of Business Studies, Diploma of IT, Accelerated International Masters Qualifying Program",
+     "coverage": "First-year tuition reduction",
+     "amount": "30% tuition reduction (first year)",
+     "eligibility": "Indonesian citizens (among listed countries), new full-fee self-funded students for 2026/2027, passing an interview.",
+     "intake": "2027",
+     "notes": "Indonesia is named explicitly. The reduction is applied at enrolment, not to the deposit."
+    }
+   }
   },
   {
    "id": "au-kbs-sea-nea-scholarship",
@@ -833,7 +1075,20 @@
    "url": "https://www.kbs.edu.au/documents/asia-international-student-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Dokumen versi Juli 2026 (biaya 2026). Daftar negara tidak dirinci - konfirmasi kelayakan WNI ke KBS. Kuota terbatas tiap trimester."
+   "notes": "Dokumen versi Juli 2026 (biaya 2026). Daftar negara tidak dirinci - konfirmasi kelayakan WNI ke KBS. Kuota terbatas tiap trimester.",
+   "i18n": {
+    "en": {
+     "name": "International Student Scholarship Program - Southeast Asia and Northeast Asia",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australia",
+     "fields": "Business, IT, Accounting, Business Analytics",
+     "coverage": "Tuition reduction (scholarship fee 10% below course fee)",
+     "amount": "10% tuition reduction",
+     "eligibility": "Eligible citizens of Southeast/Northeast Asia meeting KBS academic & English requirements, not sponsored students; must be requested before accepting the Offer.",
+     "intake": "Every trimester",
+     "notes": "July 2026 document (2026 fees). The country list is not detailed - confirm eligibility for Indonesian citizens with KBS. Limited places each trimester."
+    }
+   }
   },
   {
    "id": "au-torrens-motivational",
@@ -858,7 +1113,20 @@
    "url": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships/motivational-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Isi International Student Scholarship Form. Halaman masih menyebut mulai 2026 - konfirmasi untuk intake 2027. Kuota terbatas."
+   "notes": "Isi International Student Scholarship Form. Halaman masih menyebut mulai 2026 - konfirmasi untuk intake 2027. Kuota terbatas.",
+   "i18n": {
+    "en": {
+     "name": "Torrens University Motivational Scholarship",
+     "provider": "Torrens University Australia",
+     "country": "Australia",
+     "fields": "All fields (except BMIHMS)",
+     "coverage": "Tuition reduction for the duration of study",
+     "amount": "Up to 25% tuition reduction",
+     "eligibility": "New international students holding a passport from Southeast Asia (including Indonesia) and other specified regions; full-time study load required.",
+     "intake": "Rolling, per intake",
+     "notes": "Complete the International Student Scholarship Form. The page still refers to 2026 starts - confirm for the 2027 intake. Limited places."
+    }
+   }
   },
   {
    "id": "au-torrens-three-pillars-bmihms",
@@ -883,7 +1151,20 @@
    "url": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Detail kriteria pada halaman beasiswa masing-masing."
+   "notes": "Detail kriteria pada halaman beasiswa masing-masing.",
+   "i18n": {
+    "en": {
+     "name": "Three Pillars BMIHMS Hospitality Scholarship",
+     "provider": "Torrens University Australia (Blue Mountains International Hotel Management School)",
+     "country": "Australia",
+     "fields": "Hospitality / Hotel Management",
+     "coverage": "Tuition reduction for the duration of study",
+     "amount": "10%-50% tuition reduction",
+     "eligibility": "New international students in BMIHMS programmes (Bachelor's/Master's).",
+     "intake": "Rolling, per intake",
+     "notes": "Criteria details on each scholarship's page."
+    }
+   }
   },
   {
    "id": "au-utas-tasmanian-international-scholarship",
@@ -908,7 +1189,20 @@
    "url": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-international-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai saat mendaftar; hasil tercantum di offer letter. Sebagian besar program tanpa tanggal tutup."
+   "notes": "Otomatis dinilai saat mendaftar; hasil tercantum di offer letter. Sebagian besar program tanpa tanggal tutup.",
+   "i18n": {
+    "en": {
+     "name": "Tasmanian International Scholarship (TIS)",
+     "provider": "University of Tasmania (UTAS)",
+     "country": "Australia",
+     "fields": "All fields (except some programmes, e.g. Medicine)",
+     "coverage": "Tuition reduction for the duration of study (while results are satisfactory)",
+     "amount": "25% tuition reduction",
+     "eligibility": "New international Bachelor's/coursework Master's students; assessed on the cumulative GPA of the highest previous qualification (min. 1 year).",
+     "intake": "All semester intakes",
+     "notes": "Assessed automatically on application; the result is shown in the offer letter. Most programmes have no closing date."
+    }
+   }
   },
   {
    "id": "au-wsu-international-ug-2027",
@@ -932,7 +1226,20 @@
    "url": "https://www.westernsydney.edu.au/international/applying/fees-and-costs/scholarships/international-scholarships-undergraduate",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Tanpa aplikasi; otomatis dinilai. First-come-first-served sampai kuota habis; tidak bisa ditunda."
+   "notes": "Tanpa aplikasi; otomatis dinilai. First-come-first-served sampai kuota habis; tidak bisa ditunda.",
+   "i18n": {
+    "en": {
+     "name": "Western Sydney International Scholarships - Undergraduate (2027)",
+     "provider": "Western Sydney University",
+     "country": "Australia",
+     "fields": "All fields (top tier not for Medicine & Nursing)",
+     "coverage": "Tuition reduction per year for the programme duration",
+     "amount": "AUD 10,000 or AUD 5,000 per year",
+     "eligibility": "Completed high school or equivalent, applying for a CRICOS Bachelor's and meeting the tier's academic requirement, commencing for the first time in 2027; not for the Sydney City campus.",
+     "intake": "2027",
+     "notes": "No application; assessed automatically. First come, first served until places run out; cannot be deferred."
+    }
+   }
   },
   {
    "id": "au-wsu-international-pg-2027",
@@ -956,7 +1263,20 @@
    "url": "https://www.westernsydney.edu.au/international/applying/fees-and-costs/scholarships/international-scholarships-postgraduate",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Tanpa aplikasi; dibuka hingga kuota sesi terpenuhi."
+   "notes": "Tanpa aplikasi; dibuka hingga kuota sesi terpenuhi.",
+   "i18n": {
+    "en": {
+     "name": "Western Sydney International Scholarships - Postgraduate (2027)",
+     "provider": "Western Sydney University",
+     "country": "Australia",
+     "fields": "All coursework fields (AUD 10,000 for Teaching, Social Work, Business Analytics, ICT, etc.)",
+     "coverage": "Tuition reduction per year for the programme duration",
+     "amount": "AUD 10,000 or AUD 5,000 per year",
+     "eligibility": "New international coursework Master's students (min. 1 year) meeting academic requirements, starting in 2027; not for the Sydney City campus, HDR, or pre-registration Nursing.",
+     "intake": "2027",
+     "notes": "No application; open until each session's quota is filled."
+    }
+   }
   },
   {
    "id": "au-unisc-global-future",
@@ -982,7 +1302,20 @@
    "url": "https://www.unisc.edu.au/international/programs-and-fees/international-scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis tercantum di offer. Dapat digabung dengan International Welcome Grant. Halaman tidak menyebut kampus UniSC Adelaide secara khusus."
+   "notes": "Otomatis tercantum di offer. Dapat digabung dengan International Welcome Grant. Halaman tidak menyebut kampus UniSC Adelaide secara khusus.",
+   "i18n": {
+    "en": {
+     "name": "UniSC Global Future Scholarship",
+     "provider": "University of the Sunshine Coast (UniSC)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Tuition reduction for the programme duration",
+     "amount": "20% tuition reduction",
+     "eligibility": "Passport holders of eligible countries (including Indonesia), applying for a Bachelor's/coursework Master's/pathway programme and starting in 2027.",
+     "intake": "2027 teaching periods",
+     "notes": "Shown automatically in the offer. Can be combined with the International Welcome Grant. The page does not specifically mention the UniSC Adelaide campus."
+    }
+   }
   },
   {
    "id": "au-unisc-bright-future",
@@ -1007,7 +1340,20 @@
    "url": "https://www.unisc.edu.au/international/programs-and-fees/international-scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis tercantum di offer; hanya bisa digabung dengan Welcome Grant."
+   "notes": "Otomatis tercantum di offer; hanya bisa digabung dengan Welcome Grant.",
+   "i18n": {
+    "en": {
+     "name": "UniSC Bright Future Scholarship",
+     "provider": "University of the Sunshine Coast (UniSC)",
+     "country": "Australia",
+     "fields": "Nursing, Prosthetics & Orthotics, Engineering, Cyber Security, Social Work, Engineering Project Management",
+     "coverage": "Tuition reduction for the programme duration",
+     "amount": "20% tuition reduction",
+     "eligibility": "International students in the listed programmes, starting in 2027.",
+     "intake": "2027 teaching periods",
+     "notes": "Shown automatically in the offer; can only be combined with the Welcome Grant."
+    }
+   }
   },
   {
    "id": "au-unisc-international-welcome-grant",
@@ -1033,7 +1379,20 @@
    "url": "https://www.unisc.edu.au/international/programs-and-fees/international-scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Dikreditkan setelah census date periode pertama; dapat digabung dengan beasiswa UniSC lain."
+   "notes": "Dikreditkan setelah census date periode pertama; dapat digabung dengan beasiswa UniSC lain.",
+   "i18n": {
+    "en": {
+     "name": "UniSC International Welcome Grant",
+     "provider": "University of the Sunshine Coast (UniSC)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Credit towards tuition/university fees equal to the student visa fee (OSHC not included)",
+     "amount": "Up to AUD 2,500",
+     "eligibility": "New primary student-visa applicants with a UniSC CoE, min. 48 units at UniSC, starting in a 2027 teaching period.",
+     "intake": "2027 teaching periods",
+     "notes": "Credited after the census date of the first period; can be combined with other UniSC scholarships."
+    }
+   }
   },
   {
    "id": "au-uon-international-excellence-2027",
@@ -1058,7 +1417,20 @@
    "url": "https://www.newcastle.edu.au/scholarships/UNI_053",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai saat mendaftar; sekitar 500 penerima (indikatif)."
+   "notes": "Otomatis dinilai saat mendaftar; sekitar 500 penerima (indikatif).",
+   "i18n": {
+    "en": {
+     "name": "International Excellence Scholarship 2027",
+     "provider": "University of Newcastle",
+     "country": "Australia",
+     "fields": "All fields (CRICOS programmes; except quota programmes)",
+     "coverage": "Annual tuition reduction, applied each term",
+     "amount": "20% tuition reduction",
+     "eligibility": "Full-fee international students starting in 2027 in a CRICOS Bachelor's/coursework Master's, strong academic background, living max. 50 km from campus; not Australia Awards/sponsored recipients.",
+     "intake": "2027",
+     "notes": "Assessed automatically on application; about 500 recipients (indicative)."
+    }
+   }
   },
   {
    "id": "au-angliss-international-merit",
@@ -1083,7 +1455,20 @@
    "url": "https://www.angliss.edu.au/future-students/scholarship-information/international-merit-scholarship-vic-nsw",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Untuk mahasiswa yang sudah kuliah di William Angliss. Tanggal tutup tidak tercantum di halaman."
+   "notes": "Untuk mahasiswa yang sudah kuliah di William Angliss. Tanggal tutup tidak tercantum di halaman.",
+   "i18n": {
+    "en": {
+     "name": "The Sir William Angliss International Merit Scholarships (VIC/NSW)",
+     "provider": "William Angliss Institute",
+     "country": "Australia",
+     "fields": "All fields (Hospitality, Culinary, Tourism, Events)",
+     "coverage": "Funds for skills development, travel, living costs and study equipment",
+     "amount": "Up to AUD 3,000",
+     "eligibility": "Current full-time international students (VET/Higher Education) in Melbourne/Sydney who have completed at least 1 semester with strong academic results.",
+     "intake": "Semester 1 & Semester 2",
+     "notes": "For students already studying at William Angliss. No closing date shown on the page."
+    }
+   }
   },
   {
    "id": "au-tafensw-15-higher-education",
@@ -1109,7 +1494,20 @@
    "url": "https://www.tafensw.edu.au/international/apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Gunakan TAFE NSW International Scholarship Application Form; tutup pukul 17.00 AEST pada tanggal mulai kursus di offer letter."
+   "notes": "Gunakan TAFE NSW International Scholarship Application Form; tutup pukul 17.00 AEST pada tanggal mulai kursus di offer letter.",
+   "i18n": {
+    "en": {
+     "name": "TAFE NSW 15% Higher Education Scholarship",
+     "provider": "TAFE NSW",
+     "country": "Australia",
+     "fields": "TAFE NSW Higher Education programmes",
+     "coverage": "Tuition credit each semester (some programmes: AUD 1,000 credit)",
+     "amount": "15% tuition reduction per semester",
+     "eligibility": "International students in TAFE NSW Higher Education programmes; merit-based, assessed by a scholarship panel.",
+     "intake": "Semester 1 2027",
+     "notes": "Use the TAFE NSW International Scholarship Application Form; closes 5 pm AEST on the course start date in the offer letter."
+    }
+   }
   },
   {
    "id": "au-tafensw-500-vocational",
@@ -1133,7 +1531,20 @@
    "url": "https://www.tafensw.edu.au/international/apply/scholarships",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Formulir sama dengan beasiswa 15%; tutup pada tanggal mulai kursus."
+   "notes": "Formulir sama dengan beasiswa 15%; tutup pada tanggal mulai kursus.",
+   "i18n": {
+    "en": {
+     "name": "TAFE NSW $500 Vocational Course Scholarship",
+     "provider": "TAFE NSW",
+     "country": "Australia",
+     "fields": "Selected vocational courses",
+     "coverage": "Vocational tuition credit",
+     "amount": "AUD 500",
+     "eligibility": "International students in selected vocational courses (list in the TAFE NSW PDF); merit-based.",
+     "intake": "Semester 1 2027",
+     "notes": "Same form as the 15% scholarship; closes on the course start date."
+    }
+   }
   },
   {
    "id": "au-tiwa-wa-regional-bursary",
@@ -1157,7 +1568,20 @@
    "url": "https://www.tafeinternational.wa.edu.au/tafe-courses/regional-bursary-tafe-international-students",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Penawaran waktu terbatas; daftar melalui portal TIWA untuk paket yang memenuhi syarat."
+   "notes": "Penawaran waktu terbatas; daftar melalui portal TIWA untuk paket yang memenuhi syarat.",
+   "i18n": {
+    "en": {
+     "name": "AUD$5,000 WA Regional TAFE International Student Bursary",
+     "provider": "TAFE International Western Australia (WA Government)",
+     "country": "Australia",
+     "fields": "Commercial Cookery, Patisserie, Nursing, Early Childhood, Community Services, IT, Individual Support",
+     "coverage": "Cash bursary (2 x AUD 2,500 or 1 x AUD 5,000)",
+     "amount": "AUD 5,000",
+     "eligibility": "International subclass 500 students starting in 2027/2028 in a regional course package (Geraldton, Kalgoorlie, Northam, Albany, Bunbury, Mandurah), living in the regional location for the bursary period.",
+     "intake": "2027 & 2028",
+     "notes": "Limited-time offer; apply via the TIWA portal for eligible packages."
+    }
+   }
   },
   {
    "id": "au-sihe-25-offshore",
@@ -1181,7 +1605,20 @@
    "url": "https://sydneyinstitute.edu.au/scholarships/",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai tim Admissions. Halaman menyebut intake November 2026; konfirmasi untuk intake 2027."
+   "notes": "Otomatis dinilai tim Admissions. Halaman menyebut intake November 2026; konfirmasi untuk intake 2027.",
+   "i18n": {
+    "en": {
+     "name": "SIHE 25% Offshore Scholarship",
+     "provider": "Sydney Institute of Higher Education (SIHE)",
+     "country": "Australia",
+     "fields": "Business (all SIHE programmes)",
+     "coverage": "Tuition reduction",
+     "amount": "25% tuition reduction",
+     "eligibility": "New students applying from outside Australia with adequate English.",
+     "intake": "November 2026",
+     "notes": "Assessed automatically by the Admissions team. The page mentions the November 2026 intake; confirm for 2027 intakes."
+    }
+   }
   },
   {
    "id": "au-sihe-35-onshore",
@@ -1205,7 +1642,20 @@
    "url": "https://sydneyinstitute.edu.au/scholarships/",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Untuk WNI yang sudah di Australia. Otomatis dinilai."
+   "notes": "Untuk WNI yang sudah di Australia. Otomatis dinilai.",
+   "i18n": {
+    "en": {
+     "name": "SIHE 35% Onshore Scholarship",
+     "provider": "Sydney Institute of Higher Education (SIHE)",
+     "country": "Australia",
+     "fields": "Business (all SIHE programmes)",
+     "coverage": "Tuition reduction",
+     "amount": "35% tuition reduction",
+     "eligibility": "New students already in Australia (onshore) with adequate English.",
+     "intake": "November 2026",
+     "notes": "For Indonesian students already in Australia. Assessed automatically."
+    }
+   }
   },
   {
    "id": "au-aih-next-gen-award",
@@ -1229,7 +1679,20 @@
    "url": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Harus mendaftar dan menerima offer sebelum 31 Desember 2026."
+   "notes": "Harus mendaftar dan menerima offer sebelum 31 Desember 2026.",
+   "i18n": {
+    "en": {
+     "name": "AIH Australian Next Gen Award (30%)",
+     "provider": "Australian Institute of Higher Education (AIH)",
+     "country": "Australia",
+     "fields": "Accounting, Business, Management, Information Systems",
+     "coverage": "Tuition reduction for up to 3 years",
+     "amount": "30% tuition reduction (up to AUD 16,080)",
+     "eligibility": "Offshore applicants with a strong academic record for Bachelor programmes; limited to the first 100 applicants for the 2027 intake.",
+     "intake": "2027",
+     "notes": "You must apply and accept the offer before 31 December 2026."
+    }
+   }
   },
   {
    "id": "au-aih-global-access-award",
@@ -1253,7 +1716,20 @@
    "url": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Daftar dan terima offer sebelum 31 Desember 2026."
+   "notes": "Daftar dan terima offer sebelum 31 Desember 2026.",
+   "i18n": {
+    "en": {
+     "name": "AIH Global Access Award (15%)",
+     "provider": "Australian Institute of Higher Education (AIH)",
+     "country": "Australia",
+     "fields": "AIH postgraduate programmes (Business/IT)",
+     "coverage": "Tuition reduction every year",
+     "amount": "15% tuition reduction",
+     "eligibility": "International students applying from overseas for postgraduate programmes, starting in 2026/2027.",
+     "intake": "2027",
+     "notes": "Apply and accept the offer before 31 December 2026."
+    }
+   }
   },
   {
    "id": "au-aih-international-support-bursary",
@@ -1278,7 +1754,20 @@
    "url": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Untuk WNI yang sudah berada di Australia."
+   "notes": "Untuk WNI yang sudah berada di Australia.",
+   "i18n": {
+    "en": {
+     "name": "AIH International Support Bursary (20%)",
+     "provider": "Australian Institute of Higher Education (AIH)",
+     "country": "Australia",
+     "fields": "AIH programmes (Business/IT)",
+     "coverage": "Tuition reduction every year",
+     "amount": "20% tuition reduction",
+     "eligibility": "Onshore international students (already in Australia) starting in 2026/2027.",
+     "intake": "2027",
+     "notes": "For Indonesian students already in Australia."
+    }
+   }
   },
   {
    "id": "au-aih-future-innovator",
@@ -1302,7 +1791,20 @@
    "url": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Daftar dan terima offer sebelum 31 Desember 2026."
+   "notes": "Daftar dan terima offer sebelum 31 Desember 2026.",
+   "i18n": {
+    "en": {
+     "name": "AIH Future Innovator Scholarship (30%)",
+     "provider": "Australian Institute of Higher Education (AIH)",
+     "country": "Australia",
+     "fields": "Master of Research (ICT)",
+     "coverage": "Tuition reduction every year of study",
+     "amount": "30% tuition reduction (up to AUD 21,600)",
+     "eligibility": "International students in the Master of Research (ICT); limited to the first 100 applicants for the 2026/27 intake.",
+     "intake": "2027",
+     "notes": "Apply and accept the offer before 31 December 2026."
+    }
+   }
   },
   {
    "id": "au-cim-academic-scholarship",
@@ -1327,7 +1829,20 @@
    "url": "https://ciom.edu.au/apply-for-scholarship/",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Untuk mahasiswa yang sudah kuliah; ajukan dalam 6 bulan setelah pengumuman nilai. Rincian nilai dari Study Australia (studyaustralia.gov.au)."
+   "notes": "Untuk mahasiswa yang sudah kuliah; ajukan dalam 6 bulan setelah pengumuman nilai. Rincian nilai dari Study Australia (studyaustralia.gov.au).",
+   "i18n": {
+    "en": {
+     "name": "CIM Academic Scholarship (International Students)",
+     "provider": "Canterbury Institute of Management (CIM)",
+     "country": "Australia",
+     "fields": "Business / Management",
+     "coverage": "Tuition credit for the next semester based on grades (DI AUD 150, HD AUD 250 per subject)",
+     "amount": "Up to AUD 500 per semester",
+     "eligibility": "Current full-time international students at CIM achieving Distinction/High Distinction; not for the final semester.",
+     "intake": "Every semester",
+     "notes": "For current students; apply within 6 months of results release. Amounts from Study Australia (studyaustralia.gov.au)."
+    }
+   }
   },
   {
    "id": "au-aapoly-eagle-awards",
@@ -1352,7 +1867,20 @@
    "url": "https://aapoly.edu.au/study-at-aapoly/scholarships/",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Untuk mahasiswa yang sudah kuliah; tidak ada tenggat tercantum."
+   "notes": "Untuk mahasiswa yang sudah kuliah; tidak ada tenggat tercantum.",
+   "i18n": {
+    "en": {
+     "name": "Higher Education Eagle Awards",
+     "provider": "Academies Australasia Polytechnic (AAPoly)",
+     "country": "Australia",
+     "fields": "AAPoly Higher Education programmes",
+     "coverage": "Merit scholarship usable for tuition",
+     "amount": "AUD 1,200",
+     "eligibility": "Current HE students (4 subjects/semester, min. 2 semesters) with 30-32 merit points, no academic misconduct or outstanding fees.",
+     "intake": "March, July, November semesters",
+     "notes": "For current students; no deadline listed."
+    }
+   }
   },
   {
    "id": "au-monash-international-merit",
@@ -1376,7 +1904,19 @@
    "url": "https://monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-merit-5770",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tanpa aplikasi; otomatis dipertimbangkan. Halaman tidak mencantumkan tanggal 2027."
+   "notes": "Tanpa aplikasi; otomatis dipertimbangkan. Halaman tidak mencantumkan tanggal 2027.",
+   "i18n": {
+    "en": {
+     "name": "Monash International Merit Scholarship",
+     "provider": "Monash University",
+     "country": "Australia",
+     "fields": "All fields (except Medical Science/MD)",
+     "coverage": "Tuition support per year up to the minimum points for the degree",
+     "amount": "AUD 15,000/year (up to AUD 75,000 in total)",
+     "eligibility": "International students with an unconditional Monash Bachelor's offer, studying full-time at an Australian campus; not from Monash Pathway programmes or transfers.",
+     "notes": "No application; considered automatically. The page does not list 2027 dates."
+    }
+   }
   },
   {
    "id": "au-unimelb-international-excellence-ug",
@@ -1400,7 +1940,20 @@
    "url": "https://scholarships.unimelb.edu.au/awards/melbourne-international-excellence-scholarship-undergraduate",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Status 'Open for automatic consideration'; min. 140 penerima (indikatif). Notifikasi dalam 5 hari kerja setelah offer."
+   "notes": "Status 'Open for automatic consideration'; min. 140 penerima (indikatif). Notifikasi dalam 5 hari kerja setelah offer.",
+   "i18n": {
+    "en": {
+     "name": "Melbourne International Excellence Scholarship (Undergraduate)",
+     "provider": "The University of Melbourne",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Tuition remission for the duration of study",
+     "amount": "20% tuition remission",
+     "eligibility": "Receive a Bachelor's offer (Overseas Fee place) starting in 2027, with no previous university study; ranked by entry score.",
+     "intake": "2027",
+     "notes": "Status 'Open for automatic consideration'; at least 140 recipients (indicative). Notification within 5 working days after the offer."
+    }
+   }
   },
   {
    "id": "au-unsw-international-scientia-coursework",
@@ -1425,7 +1978,20 @@
    "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Ronde Term 1 2027 sudah tutup. Beasiswa otomatis UNSW (mis. Australia's Global University Award AUD 10.000) tetap dinilai dari offer."
+   "notes": "Ronde Term 1 2027 sudah tutup. Beasiswa otomatis UNSW (mis. Australia's Global University Award AUD 10.000) tetap dinilai dari offer.",
+   "i18n": {
+    "en": {
+     "name": "UNSW International Scientia Coursework Scholarship",
+     "provider": "UNSW Sydney",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Full tuition (Offer 1) or AUD 20,000/year (Offer 2) for the minimum programme duration",
+     "amount": "Full tuition or AUD 20,000/year",
+     "eligibility": "International students with a UNSW Term 1 2027 offer; selected on academic merit, leadership and motivation.",
+     "intake": "Term 1 2027",
+     "notes": "The Term 1 2027 round is closed. UNSW automatic scholarships (e.g. Australia's Global University Award AUD 10,000) are still assessed from the offer."
+    }
+   }
   },
   {
    "id": "au-usyd-vcis",
@@ -1450,7 +2016,20 @@
    "url": "https://www.sydney.edu.au/content/corporate/scholarships/e/vice-chancellor-international-scholarships-scheme.html",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tanpa aplikasi; otomatis dinilai bagi pemegang offer tanpa syarat. Penerima beasiswa Pemerintah Australia tidak memenuhi syarat."
+   "notes": "Tanpa aplikasi; otomatis dinilai bagi pemegang offer tanpa syarat. Penerima beasiswa Pemerintah Australia tidak memenuhi syarat.",
+   "i18n": {
+    "en": {
+     "name": "Vice-Chancellor's International Scholarships Scheme (VCIS)",
+     "provider": "The University of Sydney",
+     "country": "Australia",
+     "fields": "All coursework fields",
+     "coverage": "First-year tuition support",
+     "amount": "AUD 5,000 - AUD 60,000",
+     "eligibility": "International students with an unconditional offer for a Bachelor's/coursework Master's before the round closing date; based on academic merit.",
+     "intake": "Semester 1 2027 (Round 3); Semester 2 2027 rounds close 15 Feb, 22 Mar, 3 May 2027",
+     "notes": "No application; assessed automatically for unconditional offer holders. Australian Government scholarship recipients are not eligible."
+    }
+   }
   },
   {
    "id": "au-uq-international-excellence",
@@ -1475,7 +2054,20 @@
    "url": "https://scholarships.uq.edu.au/scholarship/uq-international-excellence-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dinilai saat mendaftar; tenggat penerimaan diberitahukan bersama offer."
+   "notes": "Otomatis dinilai saat mendaftar; tenggat penerimaan diberitahukan bersama offer.",
+   "i18n": {
+    "en": {
+     "name": "UQ International Excellence Scholarship",
+     "provider": "The University of Queensland (UQ)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Tuition reduction per semester for the programme duration",
+     "amount": "25% tuition reduction",
+     "eligibility": "Full-time international students starting in 2027, meeting entry & English requirements with a competitive score; not fully sponsored.",
+     "intake": "2027",
+     "notes": "Assessed automatically on application; the acceptance deadline is given with the offer."
+    }
+   }
   },
   {
    "id": "au-anu-chancellors-international",
@@ -1500,7 +2092,19 @@
    "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Halaman menyatakan 'currently unavailable' dan hanya merujuk penerimaan 2026; ada kategori khusus Indonesia. Pantau untuk 2027."
+   "notes": "Halaman menyatakan 'currently unavailable' dan hanya merujuk penerimaan 2026; ada kategori khusus Indonesia. Pantau untuk 2027.",
+   "i18n": {
+    "en": {
+     "name": "ANU Chancellor's International Scholarship",
+     "provider": "The Australian National University (ANU)",
+     "country": "Australia",
+     "fields": "All fields (except MChD & Military Studies)",
+     "coverage": "Tuition reduction for the duration of study; possible guaranteed first-year accommodation",
+     "amount": "25% tuition reduction (Indonesia category) / 25-50% (Southeast Asia)",
+     "eligibility": "International students with an offer for an eligible programme, based on academic merit; not tuition-sponsored.",
+     "notes": "The page says 'currently unavailable' and only refers to 2026 admissions; there is a specific Indonesia category. Watch for 2027."
+    }
+   }
   },
   {
    "id": "au-adelaide-merit-15",
@@ -1525,7 +2129,19 @@
    "url": "https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dinilai saat mendaftar. Adelaide University adalah gabungan University of Adelaide & UniSA. Ada juga Academic Excellence Scholarship 50%."
+   "notes": "Otomatis dinilai saat mendaftar. Adelaide University adalah gabungan University of Adelaide & UniSA. Ada juga Academic Excellence Scholarship 50%.",
+   "i18n": {
+    "en": {
+     "name": "Adelaide Merit Scholarship (15%)",
+     "provider": "Adelaide University",
+     "country": "Australia",
+     "fields": "All fields (except some health programmes, veterinary science, MBA)",
+     "coverage": "Tuition reduction",
+     "amount": "15% tuition reduction",
+     "eligibility": "New international Bachelor's students (ATAR min. 75 or equivalent) or Master's students (GPA min. 5.0/7 or equivalent); not Australia Awards recipients.",
+     "notes": "Assessed automatically on application. Adelaide University is the merger of the University of Adelaide & UniSA. There is also a 50% Academic Excellence Scholarship."
+    }
+   }
   },
   {
    "id": "au-uwa-global-excellence",
@@ -1550,7 +2166,20 @@
    "url": "https://www.uwa.edu.au/study/global-excellence-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dinilai setelah transkrip akhir diserahkan."
+   "notes": "Otomatis dinilai setelah transkrip akhir diserahkan.",
+   "i18n": {
+    "en": {
+     "name": "UWA Global Excellence Scholarship",
+     "provider": "The University of Western Australia (UWA)",
+     "country": "Australia",
+     "fields": "All fields (except JD, MD, DMD, OD)",
+     "coverage": "Annual tuition reduction for the standard duration",
+     "amount": "10% or 20% tuition reduction",
+     "eligibility": "Bachelor's: ATAR equivalent min. 85 (10%) / 90 (20%); Master's: WAM min. 65 (10%) / 75 (20%); offer for a 2027 programme; open to all countries.",
+     "intake": "2027",
+     "notes": "Assessed automatically after final transcripts are submitted."
+    }
+   }
   },
   {
    "id": "au-deakin-vc-international",
@@ -1575,7 +2204,20 @@
    "url": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Kirim formulir min. 1 bulan sebelum kuliah dimulai. Pendaftar yang tidak lolos otomatis dipertimbangkan untuk Deakin International Scholarship 20%."
+   "notes": "Kirim formulir min. 1 bulan sebelum kuliah dimulai. Pendaftar yang tidak lolos otomatis dipertimbangkan untuk Deakin International Scholarship 20%.",
+   "i18n": {
+    "en": {
+     "name": "Deakin Vice-Chancellor's International Scholarship",
+     "provider": "Deakin University",
+     "country": "Australia",
+     "fields": "All coursework fields (except Doctor of Medicine)",
+     "coverage": "100% or 50% tuition reduction for the duration of study, accommodation priority, VCPEP programme",
+     "amount": "50% or 100% tuition reduction",
+     "eligibility": "New international students with an average of at least 85% (or equivalent), meeting the programme's English requirement; 300-word essay and 2 references.",
+     "intake": "2027 trimesters (assessed on a rolling basis before each trimester)",
+     "notes": "Submit the form at least 1 month before study starts. Unsuccessful applicants are automatically considered for the 20% Deakin International Scholarship."
+    }
+   }
   },
   {
    "id": "au-rmit-academic-merit-sea",
@@ -1601,7 +2243,19 @@
    "url": "https://www.rmit.edu.au/scholarships/international-scholarships/academic-merit-scholarship-southeast-asia",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Dibuka sekarang hingga kuota penuh (first-come-first-served); terima offer & bayar deposit dalam 14 hari."
+   "notes": "Dibuka sekarang hingga kuota penuh (first-come-first-served); terima offer & bayar deposit dalam 14 hari.",
+   "i18n": {
+    "en": {
+     "name": "RMIT Academic Merit Scholarship for Southeast Asia",
+     "provider": "RMIT University",
+     "country": "Australia",
+     "fields": "All fields (except pilot/aviation programmes)",
+     "coverage": "Tuition reduction for the duration of study",
+     "amount": "20% tuition reduction",
+     "eligibility": "Indonesian/Southeast Asian citizens applying from outside Australia, GPA equivalent 2.5 (or 70% average/ATAR 75); LPDP recipients are still eligible.",
+     "notes": "Open now until places are filled (first come, first served); accept the offer & pay the deposit within 14 days."
+    }
+   }
   },
   {
    "id": "au-uts-academic-excellence-international",
@@ -1626,7 +2280,20 @@
    "url": "https://www.uts.edu.au/vi/for-students/admissions-entry/scholarships/scholarships-search/uts-academic-excellence-international-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dipertimbangkan; tidak perlu dokumen tambahan."
+   "notes": "Otomatis dipertimbangkan; tidak perlu dokumen tambahan.",
+   "i18n": {
+    "en": {
+     "name": "UTS Academic Excellence International Scholarship",
+     "provider": "University of Technology Sydney (UTS)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Tuition reduction for the programme's standard credit points",
+     "amount": "30% tuition reduction",
+     "eligibility": "New international students meeting entry requirements and studying full-time on campus in Sydney, starting 2025-2028.",
+     "intake": "2027",
+     "notes": "Considered automatically; no extra documents needed."
+    }
+   }
   },
   {
    "id": "au-curtin-global-merit",
@@ -1651,7 +2318,20 @@
    "url": "https://scholarships.curtin.edu.au/scholarship/?id=7986",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tanpa aplikasi terpisah; surat beasiswa dikirim bersama Letter of Offer."
+   "notes": "Tanpa aplikasi terpisah; surat beasiswa dikirim bersama Letter of Offer.",
+   "i18n": {
+    "en": {
+     "name": "Curtin Global Merit Scholarship",
+     "provider": "Curtin University",
+     "country": "Australia",
+     "fields": "All fields (except MBBS, Master of Nursing Practice, etc.)",
+     "coverage": "Tuition reduction for up to 4 years (Bachelor's) / 2 years (Master's)",
+     "amount": "20% tuition reduction",
+     "eligibility": "Non-sponsored international students studying at a Curtin WA campus with Distinction standing (required grade average).",
+     "intake": "2027 or 2028",
+     "notes": "No separate application; the scholarship letter is sent with the Letter of Offer."
+    }
+   }
   },
   {
    "id": "au-griffith-international-academic-merit",
@@ -1676,7 +2356,20 @@
    "url": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/international-academic-merit-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dinilai; tercantum di Letter of Offer. Penundaan ke 2028 membuat tidak memenuhi syarat."
+   "notes": "Otomatis dinilai; tercantum di Letter of Offer. Penundaan ke 2028 membuat tidak memenuhi syarat.",
+   "i18n": {
+    "en": {
+     "name": "Griffith International Academic Merit Scholarship",
+     "provider": "Griffith University",
+     "country": "Australia",
+     "fields": "Most programmes (except MBA, Medicine, Dentistry, etc.)",
+     "coverage": "Tuition reduction for the duration of study",
+     "amount": "20% tuition reduction",
+     "eligibility": "Citizens of countries other than Australia/NZ with GPA min. 4.5/7 (or equivalent), meeting academic & English requirements, studying full-time.",
+     "intake": "All 2027 trimesters",
+     "notes": "Assessed automatically; shown in the Letter of Offer. Deferring to 2028 makes you ineligible."
+    }
+   }
   },
   {
    "id": "au-qut-international-merit",
@@ -1701,7 +2394,19 @@
    "url": "https://www.qut.edu.au/study/fees-and-scholarships/scholarships/international-merit-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Otomatis dinilai dari aplikasi studi; tanggal tidak tercantum."
+   "notes": "Otomatis dinilai dari aplikasi studi; tanggal tidak tercantum.",
+   "i18n": {
+    "en": {
+     "name": "QUT International Merit Scholarship",
+     "provider": "Queensland University of Technology (QUT)",
+     "country": "Australia",
+     "fields": "All fields",
+     "coverage": "Tuition reduction per semester for the duration of study",
+     "amount": "25% tuition reduction",
+     "eligibility": "New international students meeting academic & English requirements with a high academic record (e.g. Master's: GPA min. 5.0/7 equivalent).",
+     "notes": "Assessed automatically from the study application; dates not listed."
+    }
+   }
   },
   {
    "id": "jp-mext-research-student",
@@ -1726,7 +2431,20 @@
    "url": "https://www.id.emb-japan.go.jp/sch_rs.html",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Pendaftaran via Kedubes biasanya April-Mei, ujian tertulis Juni, wawancara Juli, berangkat April tahun berikutnya. Putaran keberangkatan 2027 sudah tutup."
+   "notes": "Pendaftaran via Kedubes biasanya April-Mei, ujian tertulis Juni, wawancara Juli, berangkat April tahun berikutnya. Putaran keberangkatan 2027 sudah tutup.",
+   "i18n": {
+    "en": {
+     "name": "Japanese Government (MEXT/Monbukagakusho) Scholarship - Research Student (Embassy recommendation)",
+     "provider": "Japanese Government (MEXT) via the Embassy of Japan in Indonesia",
+     "country": "Japan",
+     "fields": "All fields (must match the previous major)",
+     "coverage": "Full tuition, monthly allowance, return airfare",
+     "eligibility": "D4/Bachelor's/Master's graduates, max. age 34 on 1 April of the departure year, recommended GPA min. 3.2, TOEFL/IELTS/TOEIC (ETS) certificate or JLPT N2 required.",
+     "english_test": "TOEFL / IELTS / TOEIC (ETS) or JLPT N2 - see the Embassy page for minimum scores",
+     "intake": "April / October of the following year",
+     "notes": "Embassy applications usually run April-May, written exam in June, interview in July, departure the following April. The round for 2027 departure is closed."
+    }
+   }
   },
   {
    "id": "jp-mext-undergraduate",
@@ -1751,7 +2469,19 @@
    "url": "https://www.id.emb-japan.go.jp/sch_gakubu.html",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Perkuliahan dalam bahasa Jepang. Pada siklus sebelumnya registrasi berlangsung pertengahan April s.d. awal Mei."
+   "notes": "Perkuliahan dalam bahasa Jepang. Pada siklus sebelumnya registrasi berlangsung pertengahan April s.d. awal Mei.",
+   "i18n": {
+    "en": {
+     "name": "Japanese Government (MEXT) Scholarship - Undergraduate (Gakubu), Kosen & Senshu",
+     "provider": "Japanese Government (MEXT) via the Embassy of Japan in Indonesia",
+     "country": "Japan",
+     "fields": "All fields (science/social science)",
+     "coverage": "Full tuition, monthly allowance, return airfare, 1 year of Japanese language preparation",
+     "eligibility": "High school graduates, max. age 24 on 1 April of the departure year, semester 1-5 report grades min. 84 in required subjects (Mathematics, English, Chemistry for science).",
+     "intake": "April of the following year",
+     "notes": "Classes are taught in Japanese. In the previous cycle registration ran from mid-April to early May."
+    }
+   }
   },
   {
    "id": "jp-adb-jsp",
@@ -1775,7 +2505,18 @@
    "url": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Daftar melalui salah satu dari 27 institusi mitra (17 di Jepang); tenggat ditentukan masing-masing institusi."
+   "notes": "Daftar melalui salah satu dari 27 institusi mitra (17 di Jepang); tenggat ditentukan masing-masing institusi.",
+   "i18n": {
+    "en": {
+     "name": "Asian Development Bank - Japan Scholarship Program (ADB-JSP)",
+     "provider": "Asian Development Bank (funded by the Japanese Government)",
+     "country": "Various countries",
+     "fields": "Economics, management, science & technology, and development-related fields",
+     "coverage": "Full tuition, monthly allowance (including accommodation), books, health insurance, airfare",
+     "eligibility": "Indonesian citizens with an excellent Bachelor's record, min. 2 years of full-time work experience, max. age 35, admitted to a Master's at a partner institution, willing to return to Indonesia for at least 2 years.",
+     "notes": "Apply through one of the 27 partner institutions (17 in Japan); each institution sets its own deadline."
+    }
+   }
   },
   {
    "id": "jp-jasso-honors-scholarship",
@@ -1802,7 +2543,20 @@
    "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/jasso-scholarships/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Diajukan melalui kampus di Jepang (kuota rekomendasi terbatas) atau Reservation Program EJU."
+   "notes": "Diajukan melalui kampus di Jepang (kuota rekomendasi terbatas) atau Reservation Program EJU.",
+   "i18n": {
+    "en": {
+     "name": "Monbukagakusho Honors Scholarship for Privately Financed International Students (JASSO)",
+     "provider": "JASSO (Japan Student Services Organization)",
+     "country": "Japan",
+     "fields": "All fields",
+     "coverage": "Monthly allowance for self-funded students",
+     "amount": "JPY 48,000/month (JPY 30,000/month at Japanese language schools)",
+     "eligibility": "International students with Student status in Japan, GPA min. 2.30, Japanese (JLPT N2/EJU 200+) or English (CEFR B2) ability; available before departure via the EJU Reservation Program.",
+     "english_test": "CEFR B2 (or JLPT N2 / EJU Japanese 200+)",
+     "notes": "Apply through a university in Japan (limited recommendation quota) or the EJU Reservation Program."
+    }
+   }
   },
   {
    "id": "kr-gks-graduate",
@@ -1827,7 +2581,19 @@
    "url": "https://www.studyinkorea.go.kr/ko/sub/gks/allnew_invite.do",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Panduan biasanya diumumkan Januari-Februari. Pada GKS-G 2026 pendaftaran online jalur Kedutaan 12-25 Feb 2026; jalur universitas tenggat per kampus."
+   "notes": "Panduan biasanya diumumkan Januari-Februari. Pada GKS-G 2026 pendaftaran online jalur Kedutaan 12-25 Feb 2026; jalur universitas tenggat per kampus.",
+   "i18n": {
+    "en": {
+     "name": "Global Korea Scholarship (GKS) - Graduate Degrees",
+     "provider": "Government of South Korea (NIIED)",
+     "country": "South Korea",
+     "fields": "All fields",
+     "coverage": "Tuition (up to KRW 5 million/semester), monthly allowance, one-way airfare, 1-year Korean language course, insurance",
+     "eligibility": "Under 40, grades min. 80/100 or top 20% or GPA min. 2.64/4.0, not a graduate of a Korean high school/university; Indonesia Embassy-track quota 33 people (GKS-G 2026).",
+     "intake": "September 2027 (GKS-G 2027 cycle)",
+     "notes": "Guidelines are usually announced in January-February. For GKS-G 2026, Embassy-track online applications ran 12-25 Feb 2026; the university track has deadlines per campus."
+    }
+   }
   },
   {
    "id": "kr-gks-undergraduate",
@@ -1851,7 +2617,19 @@
    "url": "https://www.studyinkorea.go.kr/ko/sub/gks/allnew_invite.do",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "GKS-U 2027 dibuka September 2026; jalur universitas berlangsung hingga November dengan tenggat per kampus. Pengumuman akhir dijadwalkan 7 Jan 2027."
+   "notes": "GKS-U 2027 dibuka September 2026; jalur universitas berlangsung hingga November dengan tenggat per kampus. Pengumuman akhir dijadwalkan 7 Jan 2027.",
+   "i18n": {
+    "en": {
+     "name": "Global Korea Scholarship (GKS) - Undergraduate Degrees",
+     "provider": "Government of South Korea (NIIED) via the Korean Embassy in Indonesia",
+     "country": "South Korea",
+     "fields": "All fields",
+     "coverage": "Tuition, monthly allowance, airfare, 1-year Korean language course, insurance",
+     "eligibility": "Indonesian citizens (parents not Korean citizens), under 25, high school graduates or graduating students; Indonesia Embassy-track quota 4 people (GKS-U 2026).",
+     "intake": "March 2027 (GKS-U 2027 cycle in progress)",
+     "notes": "GKS-U 2027 opened in September 2026; the university track runs until November with deadlines per campus. Final results are scheduled for 7 Jan 2027."
+    }
+   }
   },
   {
    "id": "uk-chevening",
@@ -1875,7 +2653,19 @@
    "url": "https://www.chevening.org/scholarship/indonesia/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Pendaftaran 2027-28 (Agustus-Oktober 2026) sudah ditutup; putaran berikutnya umumnya dibuka Agustus."
+   "notes": "Pendaftaran 2027-28 (Agustus-Oktober 2026) sudah ditutup; putaran berikutnya umumnya dibuka Agustus.",
+   "i18n": {
+    "en": {
+     "name": "Chevening Scholarships",
+     "provider": "UK Government (FCDO)",
+     "country": "United Kingdom",
+     "fields": "All fields",
+     "coverage": "Full tuition, monthly living allowance, return airfare, visa costs",
+     "eligibility": "Indonesian citizens with a Bachelor's degree, work experience and leadership potential, applying to 3 one-year Master's programmes in the UK, willing to return to Indonesia after study; no age limit.",
+     "intake": "September/October 2027 (2027-28 round)",
+     "notes": "Applications for 2027-28 (August-October 2026) are closed; the next round usually opens in August."
+    }
+   }
   },
   {
    "id": "uk-great-scholarships-indonesia",
@@ -1899,7 +2689,20 @@
    "url": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships/indonesia",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Halaman masih menampilkan putaran 2026-27 (12 universitas, a.l. Lancaster, Nottingham, Southampton, St Andrews, York); tenggat per universitas."
+   "notes": "Halaman masih menampilkan putaran 2026-27 (12 universitas, a.l. Lancaster, Nottingham, Southampton, St Andrews, York); tenggat per universitas.",
+   "i18n": {
+    "en": {
+     "name": "GREAT Scholarships - Indonesia",
+     "provider": "British Council & UK Government (GREAT Britain Campaign) with UK universities",
+     "country": "United Kingdom",
+     "fields": "Varies by university",
+     "coverage": "Tuition reduction for a one-year taught Master's",
+     "amount": "GBP 10,000 towards tuition",
+     "eligibility": "Indonesian passport holders and residents with a Bachelor's degree, meeting the target university's English requirement.",
+     "english_test": "As required by the university",
+     "notes": "The page still shows the 2026-27 round (12 universities, incl. Lancaster, Nottingham, Southampton, St Andrews, York); deadlines per university."
+    }
+   }
   },
   {
    "id": "us-fulbright-masters-aminef",
@@ -1923,7 +2726,18 @@
    "url": "https://www.aminef.or.id/grants-for-indonesians/deadlines-timeline/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Situs AMINEF menyatakan pendaftaran Fulbright Master's & Doctoral telah dibuka; tenggat 15 Februari."
+   "notes": "Situs AMINEF menyatakan pendaftaran Fulbright Master's & Doctoral telah dibuka; tenggat 15 Februari.",
+   "i18n": {
+    "en": {
+     "name": "Fulbright Master's Degree Program",
+     "provider": "US Government via AMINEF",
+     "country": "United States",
+     "fields": "All fields",
+     "coverage": "Tuition and campus fees, living allowance, return airfare, health & accident insurance, J-1 visa sponsorship",
+     "eligibility": "Indonesian Bachelor's graduates going on to a Master's at a US university; dependants are not funded.",
+     "notes": "The AMINEF site says Fulbright Master's & Doctoral applications are open; deadline 15 February."
+    }
+   }
   },
   {
    "id": "us-fulbright-phd-aminef",
@@ -1947,7 +2761,18 @@
    "url": "https://www.aminef.or.id/grants-for-indonesians/deadlines-timeline/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tenggat 15 Februari sesuai halaman Deadlines AMINEF."
+   "notes": "Tenggat 15 Februari sesuai halaman Deadlines AMINEF.",
+   "i18n": {
+    "en": {
+     "name": "Fulbright Doctoral Degree (PhD) Program",
+     "provider": "US Government via AMINEF",
+     "country": "United States",
+     "fields": "All fields",
+     "coverage": "Tuition and campus fees, living allowance, return airfare, health & accident insurance, J-1 visa sponsorship",
+     "eligibility": "Indonesian citizens going on to a doctoral programme at a US university; dependants are not funded.",
+     "notes": "Deadline 15 February according to the AMINEF Deadlines page."
+    }
+   }
   },
   {
    "id": "nz-manaaki-scholarships",
@@ -1973,7 +2798,18 @@
    "url": "https://www.nzscholarships.govt.nz/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Intake 2027 untuk Indonesia ditutup 31 Maret 2026 (pengumuman Kemdiktisaintek). Tersedia juga Short Term Training Scholarships."
+   "notes": "Intake 2027 untuk Indonesia ditutup 31 Maret 2026 (pengumuman Kemdiktisaintek). Tersedia juga Short Term Training Scholarships.",
+   "i18n": {
+    "en": {
+     "name": "Manaaki New Zealand Scholarships",
+     "provider": "New Zealand Government (MFAT)",
+     "country": "New Zealand",
+     "fields": "Development priority fields",
+     "coverage": "Full tuition, living allowance, airfare, insurance",
+     "eligibility": "Indonesian citizens for postgraduate study (Master's/PhD) at New Zealand institutions; detailed requirements on the official site.",
+     "notes": "The 2027 intake for Indonesia closed on 31 March 2026 (Ministry announcement). Short Term Training Scholarships are also available."
+    }
+   }
   },
   {
    "id": "ca-seed-asean",
@@ -1997,7 +2833,19 @@
    "url": "https://www.educanada.ca/scholarships-bourses/can/institutions/asean-anase.aspx?lang=eng",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Bukan program gelar. Halaman terakhir menampilkan siklus 2025 (tenggat 31 Maret 2025); siklus berikutnya belum diumumkan."
+   "notes": "Bukan program gelar. Halaman terakhir menampilkan siklus 2025 (tenggat 31 Maret 2025); siklus berikutnya belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Scholarships and Educational Exchanges for Development (SEED-2)",
+     "provider": "Government of Canada (Global Affairs Canada)",
+     "country": "Canada",
+     "fields": "All fields",
+     "coverage": "Allowance for short-term study/research (exchange) in Canada",
+     "amount": "CAD 10,200 for 4 months (2025 cycle)",
+     "eligibility": "Indonesian students enrolled full-time at a higher-education institution in an ASEAN country that has an agreement/partnership with a Canadian institution; nominated by the Canadian institution.",
+     "notes": "Not a degree programme. The latest page shows the 2025 cycle (deadline 31 March 2025); the next cycle has not been announced."
+    }
+   }
   },
   {
    "id": "nl-nl-scholarship",
@@ -2022,7 +2870,21 @@
    "url": "https://www.studyinnl.org/finances/nl-scholarship",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Periode aplikasi 2027-2028 sudah dibuka; tenggat ditetapkan masing-masing institusi. StuNed sudah dihentikan (Programme Concluded)."
+   "notes": "Periode aplikasi 2027-2028 sudah dibuka; tenggat ditetapkan masing-masing institusi. StuNed sudah dihentikan (Programme Concluded).",
+   "i18n": {
+    "en": {
+     "name": "NL Scholarship (formerly Holland Scholarship)",
+     "provider": "Dutch Ministry of Education (OCW) with Dutch universities",
+     "country": "Netherlands",
+     "fields": "All fields (per participating programme)",
+     "coverage": "Cash grant in the first year of study",
+     "amount": "EUR 5,000 (first year)",
+     "eligibility": "Non-EEA nationality (including Indonesian), applying for a full-time Bachelor's/Master's at a participating Dutch institution, with no previous Dutch degree.",
+     "english_test": "As required by the university",
+     "intake": "September 2027 (2027-2028)",
+     "notes": "The 2027-2028 application period is open; deadlines are set by each institution. StuNed has ended (Programme Concluded)."
+    }
+   }
   },
   {
    "id": "de-daad-epos",
@@ -2047,7 +2909,18 @@
    "url": "https://www.daad-indonesia.org/en/find-funding/daad-scholarships-for-indonesia/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Tenggat berbeda per program (lihat DAAD Scholarship Database). DAAD Indonesia memperpanjang tenggat beberapa program hingga 28 Okt 2026 (sudah lewat)."
+   "notes": "Tenggat berbeda per program (lihat DAAD Scholarship Database). DAAD Indonesia memperpanjang tenggat beberapa program hingga 28 Okt 2026 (sudah lewat).",
+   "i18n": {
+    "en": {
+     "name": "DAAD - Development-Related Postgraduate Courses (EPOS)",
+     "provider": "DAAD (German Government, BMZ)",
+     "country": "Germany",
+     "fields": "Development-related fields (per the EPOS programme list)",
+     "coverage": "Monthly allowance, insurance, travel costs; duration 1-3 years",
+     "eligibility": "Graduates with at least 2 years of professional work experience; apply directly to the chosen EPOS programme.",
+     "notes": "Deadlines differ per programme (see the DAAD Scholarship Database). DAAD Indonesia extended some programme deadlines to 28 Oct 2026 (passed)."
+    }
+   }
   },
   {
    "id": "de-daad-research-grants-doctoral",
@@ -2071,7 +2944,18 @@
    "url": "https://www.daad-indonesia.org/en/find-funding/daad-scholarships-for-indonesia/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran tahun ini sudah lewat (perpanjangan tenggat beberapa program DAAD hingga 28 Okt 2026). Tersedia juga skema Bi-nationally Supervised Doctoral dan STEM Study Scholarships."
+   "notes": "Putaran tahun ini sudah lewat (perpanjangan tenggat beberapa program DAAD hingga 28 Okt 2026). Tersedia juga skema Bi-nationally Supervised Doctoral dan STEM Study Scholarships.",
+   "i18n": {
+    "en": {
+     "name": "DAAD Research Grants - Doctoral Programmes in Germany",
+     "provider": "DAAD (German Government)",
+     "country": "Germany",
+     "fields": "All fields",
+     "coverage": "Monthly allowance, insurance, travel costs, language course; up to 4 years",
+     "eligibility": "Master's graduates with above-average qualifications going on to a doctorate in Germany.",
+     "notes": "This year's round has passed (some DAAD programme deadlines were extended to 28 Oct 2026). Bi-nationally Supervised Doctoral and STEM Study Scholarships are also available."
+    }
+   }
   },
   {
    "id": "eu-erasmus-mundus-joint-masters",
@@ -2095,7 +2979,20 @@
    "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Sebagian besar program menerima aplikasi Oktober-Januari; tenggat per program, cek katalog EACEA."
+   "notes": "Sebagian besar program menerima aplikasi Oktober-Januari; tenggat per program, cek katalog EACEA.",
+   "i18n": {
+    "en": {
+     "name": "Erasmus Mundus Joint Masters (EMJM) Scholarships",
+     "provider": "European Union (Erasmus+, EACEA)",
+     "country": "Europe (multi-country)",
+     "fields": "All fields (more than 200 programmes)",
+     "coverage": "Participation costs (tuition), contribution to travel, visa and living costs",
+     "eligibility": "Open to students worldwide including Indonesians; hold a Bachelor's degree or be in the final year; apply directly to the programme consortium.",
+     "english_test": "As required by the programme",
+     "intake": "Academic year 2027-2028",
+     "notes": "Most programmes accept applications October-January; deadlines per programme, see the EACEA catalogue."
+    }
+   }
   },
   {
    "id": "hu-stipendium-hungaricum",
@@ -2122,7 +3019,20 @@
    "url": "https://stipendiumhungaricum.hu/apply/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Situs menyatakan aplikasi 2026/27 sudah ditutup (submit hingga 15 Jan 2026); call 2027/28 belum diumumkan."
+   "notes": "Situs menyatakan aplikasi 2026/27 sudah ditutup (submit hingga 15 Jan 2026); call 2027/28 belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Stipendium Hungaricum Scholarship",
+     "provider": "Government of Hungary (Tempus Public Foundation)",
+     "country": "Hungary",
+     "fields": "All fields (per the programme list for Indonesia)",
+     "coverage": "Tuition waiver, monthly allowance, accommodation/accommodation support, health insurance",
+     "eligibility": "Citizens of sending partner countries (Indonesia is listed as a Sending Partner); meet the chosen programme's requirements.",
+     "english_test": "As required by the programme",
+     "intake": "September 2027 (2027/28)",
+     "notes": "The site says 2026/27 applications are closed (submission until 15 Jan 2026); the 2027/28 call has not been announced."
+    }
+   }
   },
   {
    "id": "tr-turkiye-burslari",
@@ -2149,7 +3059,19 @@
    "url": "https://www.turkiyeburslari.gov.tr/calendar",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Kalender resmi: periode aplikasi umum 10 Januari - 20 Februari (tahun 2027 belum dikonfirmasi). Ada juga Research Scholarship 4 periode per tahun."
+   "notes": "Kalender resmi: periode aplikasi umum 10 Januari - 20 Februari (tahun 2027 belum dikonfirmasi). Ada juga Research Scholarship 4 periode per tahun.",
+   "i18n": {
+    "en": {
+     "name": "Türkiye Burslari (Türkiye Scholarships)",
+     "provider": "Government of Türkiye (YTB)",
+     "country": "Türkiye",
+     "fields": "All fields",
+     "coverage": "University placement, tuition, monthly allowance, accommodation, health insurance, 1-year Turkish language course, one return airfare",
+     "eligibility": "Open to foreign nationals including Indonesians; age and grade requirements per level on the official site.",
+     "intake": "September 2027",
+     "notes": "Official calendar: the general application period is 10 January - 20 February (2027 not yet confirmed). There is also a Research Scholarship with 4 periods per year."
+    }
+   }
   },
   {
    "id": "tw-moe-taiwan-scholarship",
@@ -2175,7 +3097,21 @@
    "url": "https://taiwanscholarship.moe.gov.tw/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Aplikasi diajukan melalui Taipei Economic and Trade Office (TETO) di Jakarta; jadwal 2027 belum diumumkan di sumber resmi."
+   "notes": "Aplikasi diajukan melalui Taipei Economic and Trade Office (TETO) di Jakarta; jadwal 2027 belum diumumkan di sumber resmi.",
+   "i18n": {
+    "en": {
+     "name": "Taiwan Scholarship (Ministry of Education)",
+     "provider": "Taiwan Ministry of Education (MOE) via TETO Jakarta",
+     "country": "Taiwan",
+     "fields": "All fields",
+     "coverage": "Tuition & campus fees (up to NTD 40,000/semester) and monthly living allowance",
+     "amount": "Tuition up to NTD 40,000/semester; Bachelor's allowance NTD 15,000/month",
+     "eligibility": "Not a Taiwanese citizen/overseas compatriot, not previously studied in Taiwan at the same level; attach an English/Mandarin certificate.",
+     "english_test": "English or Mandarin certificate",
+     "intake": "September 2027",
+     "notes": "Apply through the Taipei Economic and Trade Office (TETO) in Jakarta; the 2027 schedule has not been announced in official sources."
+    }
+   }
   },
   {
    "id": "tw-icdf-higher-education",
@@ -2201,7 +3137,21 @@
    "url": "https://www.icdf.org.tw/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Siklus sebelumnya dibuka 1 Desember s.d. 15 Maret; 11 mahasiswa Indonesia menerima beasiswa ini pada 2026."
+   "notes": "Siklus sebelumnya dibuka 1 Desember s.d. 15 Maret; 11 mahasiswa Indonesia menerima beasiswa ini pada 2026.",
+   "i18n": {
+    "en": {
+     "name": "TaiwanICDF International Higher Education Scholarship Program",
+     "provider": "Taiwan International Cooperation and Development Fund (TaiwanICDF)",
+     "country": "Taiwan",
+     "fields": "Selected programmes (incl. health, aquaculture, industrial engineering, agriculture, IT)",
+     "coverage": "Return airfare, dormitory, tuition, insurance, books, monthly allowance",
+     "amount": "Allowance NTD 18,000/month (Master's), NTD 20,000/month (PhD)",
+     "eligibility": "Indonesian citizens (Indonesia is an eligible Asia-Pacific country) meeting the requirements of the chosen ICDF programme.",
+     "english_test": "As required by the programme (English-taught programmes)",
+     "intake": "September 2027",
+     "notes": "The previous cycle ran 1 December to 15 March; 11 Indonesian students received this scholarship in 2026."
+    }
+   }
   },
   {
    "id": "cn-chinese-government-scholarship-indonesia",
@@ -2228,7 +3178,20 @@
    "url": "https://id.china-embassy.gov.cn/eng/sgdt/202610/t20261027_12047753.htm",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Agency Number Indonesia 3602; daftar online sebelum 14 Feb 2027, tanpa berkas fisik. 20 kuota. Hasil Juli-Agustus 2027."
+   "notes": "Agency Number Indonesia 3602; daftar online sebelum 14 Feb 2027, tanpa berkas fisik. 20 kuota. Hasil Juli-Agustus 2027.",
+   "i18n": {
+    "en": {
+     "name": "Chinese Government Scholarship 2027/2028 - China-Indonesia Scholarship in Higher Education Program",
+     "provider": "Chinese Government (China Scholarship Council) via the PRC Embassy in Jakarta",
+     "country": "China",
+     "fields": "All fields",
+     "coverage": "Full scholarship (international airfare not included)",
+     "eligibility": "Max. age: Bachelor's <25, Master's <35, PhD <40; Bachelor's requires a CSCA score; Mandarin-taught programmes HSK 4 (Master's/PhD), English-taught programmes IELTS/TOEFL per university; pre-admission letter required.",
+     "english_test": "IELTS/TOEFL as required by the university (or HSK 4 for Mandarin-taught programmes)",
+     "intake": "September 2027",
+     "notes": "Indonesia Agency Number 3602; apply online before 14 Feb 2027, no hard copies. 20 places. Results July-August 2027."
+    }
+   }
   },
   {
    "id": "sg-astar-singa",
@@ -2252,7 +3215,19 @@
    "url": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Dua jendela per tahun: intake Agustus (2 Jun-1 Des) dan intake Januari (2 Des-1 Jun)."
+   "notes": "Dua jendela per tahun: intake Agustus (2 Jun-1 Des) dan intake Januari (2 Des-1 Jun).",
+   "i18n": {
+    "en": {
+     "name": "Singapore International Graduate Award (SINGA)",
+     "provider": "A*STAR, NUS, NTU, SUTD (Singapore)",
+     "country": "Singapore",
+     "fields": "Science and engineering (PhD research)",
+     "coverage": "Full tuition, monthly allowance, airfare and settling-in allowance",
+     "eligibility": "International students (not Singapore citizens/PR) with excellent Bachelor's/Master's results and an interest in science & engineering research.",
+     "intake": "August 2027",
+     "notes": "Two windows per year: August intake (2 Jun-1 Dec) and January intake (2 Dec-1 Jun)."
+    }
+   }
   },
   {
    "id": "sg-moe-asean-scholarship-indonesia",
@@ -2276,7 +3251,18 @@
    "url": "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Periode aplikasi biasanya Januari-Februari; saat ini ditutup untuk semua negara."
+   "notes": "Periode aplikasi biasanya Januari-Februari; saat ini ditutup untuk semua negara.",
+   "i18n": {
+    "en": {
+     "name": "ASEAN Scholarship (Indonesia)",
+     "provider": "Singapore Ministry of Education (MOE)",
+     "country": "Singapore",
+     "fields": "Secondary education (Secondary 1 / Secondary 3)",
+     "coverage": "School fees and allowances at selected secondary schools in Singapore",
+     "eligibility": "Indonesian students entering Secondary 1 or Secondary 3 at selected schools in Singapore (JC1 is not open to Indonesia).",
+     "notes": "The application period is usually January-February; currently closed for all countries."
+    }
+   }
   },
   {
    "id": "bn-bdgs",
@@ -2302,7 +3288,19 @@
    "url": "https://www.mfa.gov.bn/Pages/online.bdgs.aspx",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran 2026/2027 ditutup 15 Feb 2026; putaran 2027/2028 belum diumumkan. Situs mfa.gov.bn tidak dapat diakses saat pengecekan."
+   "notes": "Putaran 2026/2027 ditutup 15 Feb 2026; putaran 2027/2028 belum diumumkan. Situs mfa.gov.bn tidak dapat diakses saat pengecekan.",
+   "i18n": {
+    "en": {
+     "name": "Brunei Darussalam Government Scholarship (BDGS)",
+     "provider": "Government of Brunei Darussalam (Ministry of Foreign Affairs)",
+     "country": "Brunei Darussalam",
+     "fields": "All fields at 5 Brunei institutions",
+     "coverage": "Benefit details are listed on the BDGS portal",
+     "eligibility": "International students; max. age 25 (Diploma/Bachelor's) or 35 (Master's) on 1 July of the start year.",
+     "intake": "August 2027 (2027/2028)",
+     "notes": "The 2026/2027 round closed on 15 Feb 2026; the 2027/2028 round has not been announced. The mfa.gov.bn site could not be reached during the check."
+    }
+   }
   },
   {
    "id": "fr-eiffel-excellence",
@@ -2327,7 +3325,19 @@
    "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Call 2027 dibuka Oktober 2026; 6 Jan 2027 adalah tenggat kampus mengirim berkas ke Campus France, sehingga tenggat internal kampus lebih awal. Hasil mulai 12 Apr 2027."
+   "notes": "Call 2027 dibuka Oktober 2026; 6 Jan 2027 adalah tenggat kampus mengirim berkas ke Campus France, sehingga tenggat internal kampus lebih awal. Hasil mulai 12 Apr 2027.",
+   "i18n": {
+    "en": {
+     "name": "Eiffel Excellence Scholarship Programme",
+     "provider": "French Ministry for Europe and Foreign Affairs (managed by Campus France)",
+     "country": "France",
+     "fields": "All fields",
+     "coverage": "Monthly allowance, return airfare, health insurance, cultural activities (tuition not included)",
+     "eligibility": "Prospective international students max. age 29 (Master's) or 35 (PhD); applications are submitted by French higher-education institutions, not individuals.",
+     "intake": "September 2027",
+     "notes": "The 2027 call opened in October 2026; 6 Jan 2027 is the deadline for institutions to submit files to Campus France, so internal university deadlines are earlier. Results from 12 Apr 2027."
+    }
+   }
   },
   {
    "id": "se-si-scholarship-global-professionals",
@@ -2351,7 +3361,20 @@
    "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Situs si.se tidak dapat diakses saat pengecekan; pastikan Indonesia ada di daftar negara eligible untuk 2027/28. Pemerintah RI (Kementerian PU) menawarkan program ini kepada pegawainya pada Januari 2026."
+   "notes": "Situs si.se tidak dapat diakses saat pengecekan; pastikan Indonesia ada di daftar negara eligible untuk 2027/28. Pemerintah RI (Kementerian PU) menawarkan program ini kepada pegawainya pada Januari 2026.",
+   "i18n": {
+    "en": {
+     "name": "Swedish Institute Scholarships for Global Professionals (SISGP)",
+     "provider": "Swedish Institute (Swedish Government)",
+     "country": "Sweden",
+     "fields": "All fields (eligible Master's programmes)",
+     "coverage": "Full tuition, living allowance, travel grant, insurance",
+     "eligibility": "Citizens of SI's eligible countries with work and leadership experience, applying for a Master's programme in Sweden via universityadmissions.se.",
+     "english_test": "As required by the university",
+     "intake": "August 2027",
+     "notes": "The si.se site could not be reached during the check; confirm that Indonesia is on the 2027/28 eligible country list. The Indonesian Government (Ministry of Public Works) offered this programme to its staff in January 2026."
+    }
+   }
   },
   {
    "id": "ie-goi-ies",
@@ -2376,7 +3399,21 @@
    "url": "https://hea.ie/policy/internationalisation/goi-ies/",
    "source_checked": "2026-11-11",
    "partner": false,
-   "notes": "Putaran 2026 ditutup 12 Maret 2026; call berikutnya belum diumumkan."
+   "notes": "Putaran 2026 ditutup 12 Maret 2026; call berikutnya belum diumumkan.",
+   "i18n": {
+    "en": {
+     "name": "Government of Ireland International Education Scholarships (GOI-IES)",
+     "provider": "Government of Ireland (Higher Education Authority)",
+     "country": "Ireland",
+     "fields": "All fields",
+     "coverage": "Full tuition waiver and 1-year stipend",
+     "amount": "EUR 10,000 stipend + tuition waiver",
+     "eligibility": "Domiciled outside the EU/EEA, Switzerland and the UK (Indonesians qualify), holding a conditional/unconditional LoA from an Irish institution, not a previous GOI-IES recipient; 60 scholarships per year.",
+     "intake": "September 2027",
+     "notes": "The 2026 round closed on 12 March 2026; the next call has not been announced."
+    }
+   }
   }
- ]
+ ],
+ "i18n_note": "Teks item: pakai item.i18n[lang] bila ada, lalu item.i18n.en, lalu field asli (Indonesia). Label status/type/funding/level dari labels.*."
 }

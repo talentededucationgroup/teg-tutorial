@@ -1,5 +1,5 @@
 {
- "version": "2026-11-12o",
+ "version": "2026-11-12p",
  "tests": [
   {
    "id": "ielts",
@@ -30,8 +30,21 @@
    "icon": "🇯🇵",
    "ready": true,
    "desc": {
-    "id": "Latihan N5 & N4: kosakata, tata bahasa, bacaan & choukai (listening). Soal latihan buatan Talented sesuai format JLPT.",
-    "en": "N5 & N4 practice: vocabulary, grammar, reading & listening. Talented practice items in JLPT format."
+    "id": "Latihan N5-N1: kosakata, tata bahasa, bacaan & choukai (listening). Soal latihan buatan Talented sesuai format JLPT.",
+    "en": "N5-N1 practice: vocabulary, grammar, reading & listening. Talented practice items in JLPT format.",
+    "th": "ฝึก N5-N1: คำศัพท์ ไวยากรณ์ การอ่าน และการฟัง ข้อสอบฝึกโดย Talented ตามรูปแบบ JLPT",
+    "vi": "Luyện N5-N1: từ vựng, ngữ pháp, đọc hiểu & nghe. Đề luyện của Talented theo định dạng JLPT.",
+    "zh": "N5-N1 练习：词汇、语法、阅读与听力。Talented 按 JLPT 格式编写的练习题。",
+    "ja": "N5〜N1 練習：文字・語彙、文法、読解、聴解。JLPT形式に沿った Talented オリジナル練習問題。",
+    "ko": "N5-N1 연습: 어휘, 문법, 독해, 청해. JLPT 형식의 Talented 연습 문제.",
+    "km": "លំហាត់ N5-N1៖ វាក្យសព្ទ វេយ្យាករណ៍ ការអាន និងការស្តាប់។ លំហាត់ដោយ Talented តាមទម្រង់ JLPT។",
+    "fr": "Entraînement N5-N1 : vocabulaire, grammaire, lecture et écoute. Exercices Talented au format JLPT.",
+    "pt": "Prática N5-N1: vocabulário, gramática, leitura e compreensão auditiva. Questões da Talented no formato JLPT.",
+    "es": "Práctica N5-N1: vocabulario, gramática, lectura y comprensión auditiva. Ejercicios de Talented en formato JLPT.",
+    "de": "Übung N5-N1: Wortschatz, Grammatik, Lesen und Hören. Übungsaufgaben von Talented im JLPT-Format.",
+    "it": "Esercitazione N5-N1: lessico, grammatica, lettura e ascolto. Esercizi Talented in formato JLPT.",
+    "nl": "Oefenen N5-N1: woordenschat, grammatica, lezen en luisteren. Oefenvragen van Talented in JLPT-formaat.",
+    "ru": "Практика N5-N1: лексика, грамматика, чтение и аудирование. Учебные задания Talented в формате JLPT."
    }
   },
   {

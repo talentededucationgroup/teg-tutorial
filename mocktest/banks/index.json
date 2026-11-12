@@ -1,5 +1,5 @@
 {
- "version": "2026-11-12e",
+ "version": "2026-11-12f",
  "tests": [
   {
    "id": "ielts",
@@ -26,7 +26,7 @@
   {
    "id": "jlpt",
    "file": "jlpt.json",
-   "title": "JLPT (Jepang)",
+   "title": "JLPT (日本語)",
    "icon": "🇯🇵",
    "ready": true,
    "desc": {
@@ -37,7 +37,7 @@
   {
    "id": "topik",
    "file": "topik.json",
-   "title": "TOPIK I (Korea)",
+   "title": "TOPIK I (한국어)",
    "icon": "🇰🇷",
    "ready": true,
    "desc": {
@@ -48,7 +48,7 @@
   {
    "id": "hsk",
    "file": "hsk.json",
-   "title": "HSK (China)",
+   "title": "HSK (中文)",
    "icon": "🇨🇳",
    "ready": true,
    "desc": {

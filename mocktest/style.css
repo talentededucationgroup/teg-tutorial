@@ -144,3 +144,4 @@ h3.th{font-size:1rem;margin:14px 0 6px;color:var(--green)}
 .flowst{font-weight:700;color:var(--green);min-height:1.4em;margin:8px 0 0}.itpos{align-self:center}.timer.itimer{background:var(--part);font-size:1rem}
 .mock-badge{position:relative;z-index:1;background:#9b1c1c;color:#fff;font-weight:800;font-size:.95rem;letter-spacing:.06em;text-align:center;padding:6px 12px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 @media print{.mock-badge{border:2px solid #9b1c1c}}
+.tkbox{border-top:1px dashed var(--line);padding-top:6px;margin-top:6px}.tkh{font-weight:700;margin:4px 0}

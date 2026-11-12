@@ -113,13 +113,15 @@ function qHTML(q,p){
   }
   return '';
 }
+let KEEPAU=null;
 function renderRun(){
   clearFlow(); if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();
   const p=RUN.parts[RUN.cur]; const sec=RUN.sec; const IT=isItem();
+  KEEPAU=(()=>{const a=$('#aud');return a&&!a.paused&&!a.ended&&a.dataset.pid===String(p.id)?a:null})();
   const tabs=IT?'':RUN.parts.map((x,k)=>`<button class="tab${k===RUN.cur?' on':''}" data-tab="${k}">${esc(L(x.title)||x.slotTitle||('Part '+(k+1)))}</button>`).join('');
   const groups=[]; (p.questions||[]).forEach(q=>{const g=q.group||'';if(!groups.length||groups[groups.length-1].g!==g)groups.push({g,qs:[]});groups[groups.length-1].qs.push(q)});
   const SPK=(p.questions||[]).some(q=>q.type==='speak'),EX=RUN.exam||SPK;
-  const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(BASE+p.audio)}" ${EX?'':'controls'} controlslist="nodownload noplaybackrate" disablepictureinpicture></audio>${EX?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(EX?t('audio_once'):t('audio_practice'))}</small></div>`:'';
+  const audio=p.audio?`<div class="audio"><audio id="aud" data-pid="${esc(p.id)}" preload="auto" src="${esc(BASE+p.audio)}" ${EX?'':'controls'} controlslist="nodownload noplaybackrate" disablepictureinpicture></audio>${EX?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(EX?t('audio_once'):t('audio_practice'))}</small></div>`:'';
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><span class="rbtns"><button class="btn ghost small" id="saveTop" title="${esc(t('save_later'))}" aria-label="${esc(t('save_later'))}">💾</button> <button class="btn" id="submit">${esc(t('submit'))}</button></span></div>
   <nav class="tabs">${tabs}</nav>
@@ -143,7 +145,8 @@ function bindRun(){
   $$('.hl span').forEach(s=>s.onclick=()=>{const n=+s.parentNode.dataset.n;const k=+s.dataset.k;const a=RUN.answers[n]=RUN.answers[n]||[];const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);s.classList.toggle('on')});
   $$('.essay').forEach(el=>save({target:el}));
   const pl=$('#play'),au=$('#aud');
-  if(pl&&au){pl.onclick=()=>{const p=RUN.parts[RUN.cur];RUN.audioPlayed[p.id]=1;pl.disabled=true;pl.textContent=t('playing');au.play().catch(()=>{pl.disabled=false;RUN.audioPlayed[p.id]=0;pl.textContent='▶ '+t('play_once')});au.onended=()=>{pl.textContent=t('played')}}}
+  if(pl&&au&&!KEEPAU){pl.onclick=()=>{const p=RUN.parts[RUN.cur];if(RUN.audioPlayed[p.id])return;RUN.audioPlayed[p.id]=1;clearFlow();audSt('on');au.play().catch(()=>{pl.disabled=false;RUN.audioPlayed[p.id]=0;pl.textContent='▶ '+t('play_once');audSt('')});au.onended=()=>audSt('done')}}
+  if(KEEPAU){const n=$('#aud');if(n)n.replaceWith(KEEPAU);KEEPAU=null;audSt('on')}else if(au&&RUN.audioPlayed[RUN.parts[RUN.cur].id]&&$('#flowst'))$('#flowst').textContent='✓ '+t('played')
   $$('[data-endans]').forEach(b=>b.onclick=()=>{if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()});
   const ask=()=>{const tot=countQ(),ans=Object.keys(RUN.answers).length;$('#unans').textContent=(RUN.sec.auto?`${ans}/${tot} `+t('answered'):'');$('#confirm').hidden=false};
   $('#submit').onclick=ask; const s2=$('#submit2'); if(s2)s2.onclick=ask;
@@ -215,16 +218,17 @@ function micCheck(go){if(micLive()){go();return}
 // ---------- official item flow (PTE: one item per screen, no going back, automatic audio/prep/recording, item timers) ----------
 let FLOW=[];function clearFlow(){FLOW.forEach(x=>{clearTimeout(x);clearInterval(x)});FLOW=[];clearTimeout(recTimer)}
 function isItem(){return !!(BANK&&BANK.flow==='item'&&RUN&&RUN.exam)}
-function cdown(secs,label,done){const el=$('#flowst');let s=secs;const upd=()=>{if(el)el.textContent=label+' '+s+' s'};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);done()}},1000);FLOW.push(iv)}
+function cdown(secs,label,done){const el=$('#flowst');let s=secs;const upd=()=>{if(el)el.textContent=label+' '+s+' s'};upd();const iv=setInterval(()=>{s--;if(s<=0){clearInterval(iv);if(el)el.textContent='';done()}else upd()},1000);FLOW.push(iv)}
+function audSt(k){const pl=$('#play'),el=$('#flowst');const tx=k==='on'?'🔊 '+t('playing'):k==='done'?'✓ '+t('played'):'';if(pl&&k){pl.disabled=true;pl.textContent=k==='on'?t('playing'):t('played')}if(el)el.textContent=tx}
 function nextItem(){if(!RUN||RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;renderRun();scrollTo(0,0)}else finish(false)}
 function autoFlow(p){const au=$('#aud'),pl=$('#play');const SPK=(p.questions||[]).some(q=>q.type==='speak');if(!RUN.exam&&!SPK)return;const IT=isItem();
   if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const sb=$('#submit');if(sb&&sb.parentNode)sb.parentNode.insertBefore(el,sb);
     const upd=()=>{el.textContent=t('item_time')+' '+fmt(s)};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);nextItem()}},1000);FLOW.push(iv)}
   const after=()=>{if(SPK)speakFlow(p)};
-  if(au&&!RUN.audioPlayed[p.id]){cdown(3,t('audio_starts'),()=>{RUN.audioPlayed[p.id]=1;if(pl){pl.disabled=true;pl.textContent=t('playing')}
-      au.onended=()=>{if(pl)pl.textContent=t('played');const el=$('#flowst');if(el)el.textContent='';after()};
-      au.play().catch(()=>{RUN.audioPlayed[p.id]=0;if(pl){pl.disabled=false;pl.textContent='▶ '+t('play_once')};const el=$('#flowst');if(el)el.textContent=t('tap_play');
-        if(pl)pl.addEventListener('click',()=>{au.onended=()=>{pl.textContent=t('played');after()}},{once:true})})})}
+  if(au&&!RUN.audioPlayed[p.id]){cdown(3,t('audio_starts'),()=>{RUN.audioPlayed[p.id]=1;audSt('on');
+      au.onended=()=>{audSt('done');after()};
+      au.play().catch(()=>{RUN.audioPlayed[p.id]=0;const b=$('#play');if(b){b.disabled=false;b.textContent='▶ '+t('play_once')};const el=$('#flowst');if(el)el.textContent=t('tap_play');
+        if(b)b.addEventListener('click',()=>{au.onended=()=>{audSt('done');after()}},{once:true})})})}
   else if(SPK)speakFlow(p)}
 
 // ---------- scoring ----------

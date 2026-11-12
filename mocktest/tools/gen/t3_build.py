@@ -3,6 +3,12 @@
 import json, sys, html, importlib
 B = '/home/claude/teg-tutorial/mocktest/banks/'
 mod = importlib.import_module(sys.argv[2]); LV = mod.LV
+try:  # T4 expansion modules (t3x_n3/n2/n1) extend the same lists
+    ext = importlib.import_module(sys.argv[2].replace('t3_', 't3x_'))
+    for k in ('v', 'g', 'rs', 'rm', 'rl', 'ri', 'ri2', 'L'):
+        if hasattr(ext, k): setattr(mod, k, getattr(mod, k, []) + getattr(ext, k))
+except ModuleNotFoundError:
+    pass
 CFG = {'N3': dict(secs=[('v', '言語知識（文字・語彙）', 30), ('g', '言語知識（文法）・読解', 70), ('l', '聴解', 40)], pass_=95),
        'N2': dict(secs=[('k', '言語知識（文字・語彙・文法）・読解', 105), ('l', '聴解', 50)], pass_=90),
        'N1': dict(secs=[('k', '言語知識（文字・語彙・文法）・読解', 110), ('l', '聴解', 55)], pass_=100)}[LV]

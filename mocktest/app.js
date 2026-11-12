@@ -166,8 +166,8 @@ async function record(b,auto){const box=b.parentNode;const st=$('.recst',box);co
 let FLOW=[];function clearFlow(){FLOW.forEach(x=>{clearTimeout(x);clearInterval(x)});FLOW=[];clearTimeout(recTimer)}
 function isItem(){return !!(BANK&&BANK.flow==='item'&&RUN&&RUN.exam)}
 function cdown(secs,label,done){const el=$('#flowst');let s=secs;const upd=()=>{if(el)el.textContent=label+' '+s+' s'};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);done()}},1000);FLOW.push(iv)}
-function nextItem(){if(RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;renderRun();scrollTo(0,0)}else finish(false)}
-function startSpeak(q){const go=()=>{const b=$(`.rec[data-n="${q.n}"] [data-rec]`);if(b&&!(mediaRec&&mediaRec.state==='recording'))record(b,true)};
+function nextItem(){if(!RUN||RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;renderRun();scrollTo(0,0)}else finish(false)}
+function startSpeak(q){const go=()=>{if(!RUN||RUN.done)return;const b=$(`.rec[data-n="${q.n}"] [data-rec]`);if(b&&!(mediaRec&&mediaRec.state==='recording'))record(b,true)};
   if(q.prep)cdown(q.prep,t('prep_left'),()=>{const el=$('#flowst');if(el)el.textContent=t('recording');go()});else go()}
 function autoFlow(p){if(!RUN.exam)return;const au=$('#aud'),pl=$('#play');const sq=(p.questions||[]).find(q=>q.type==='speak');const IT=isItem();
   if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const sb=$('#submit');if(sb&&sb.parentNode)sb.parentNode.insertBefore(el,sb);
@@ -240,7 +240,7 @@ function aiScore(q,a,speech){const txt=String(a||'').trim();const w=toks(txt);
   return {got:r1(got),max,ai:1,fb:`${t('ai_form')} ${r1(form)}/${maxF} · ${t('ai_content')} ${r1(content)}/2 · ${t('ai_grammar')} ${r1(gram)}/2 · ${t('ai_vocab')} ${r1(vocab)}/2 · ${n} ${t('words')} (${lo}-${hi})`}}
 function skillEstOf(sec,rows){let skillEst=null;if(sec.auto&&sec.skill_by_type){skillEst={};const agg={};rows.forEach(x=>{if(!x.s||!x.s.max)return;const k=sec.skill_by_type[x.q.type];if(!k)return;agg[k]=agg[k]||[0,0];agg[k][0]+=x.s.got;agg[k][1]+=x.s.max});Object.entries(agg).forEach(([k,v])=>skillEst[k]=conv(sec,v[0],v[1]))}return skillEst}
 function repOf(f){return Object.assign({},BANK.report||{},f.report||{})}
-function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;window.onbeforeunload=null;if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();
+function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;clearFlow();window.onbeforeunload=null;if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();
   const sec=RUN.sec;let raw=0,max=0;const rows=[];
   RUN.parts.forEach(p=>(p.questions||[]).forEach(q=>{if(!sec.auto){rows.push({q,p});return}const s=scoreQ(q);raw+=s.got;max+=s.max;rows.push({q,p,s})}));
   markSeen(BANK.id,RUN.ids);
@@ -438,7 +438,7 @@ function restoreState(st,saveId){checkState(st);RUN=null;FULL=null;
     RUN={name:CAND,rid:FULL?FULL.rid:String(r.rid||newRid()).slice(0,40),sec,secIdx:r.secIdx,parts,ids:parts.map(p=>p.id),answers:cleanAns(parts,r.answers),exam:r.exam!==false,start:Date.now()-el*1000,limit:lim,cur:Math.max(0,Math.min(parts.length-1,+r.cur||0)),done:false,audioPlayed:(r.audioPlayed&&typeof r.audioPlayed==='object')?r.audioPlayed:{},speech:cleanSpeech(r.speech),saveId};
     window.onbeforeunload=()=>RUN&&!RUN.done?true:null;renderRun();tick();scrollTo(0,0);return}
   interstitial(FULL.results[FULL.results.length-1])}
-function leaveRun(){if(RUN)RUN.done=true;window.onbeforeunload=null;try{const au=$('#aud');if(au)au.pause()}catch(e){}if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();RUN=null;FULL=null}
+function leaveRun(){if(RUN)RUN.done=true;clearFlow();window.onbeforeunload=null;try{const au=$('#aud');if(au)au.pause()}catch(e){}if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();RUN=null;FULL=null}
 function goTestPage(){if(history.state&&history.state.mock==='run'){history.back()}else{testPage();scrollTo(0,0)}}
 function saveLater(){if(!BANK||(!(RUN&&!RUN.done)&&!FULL))return;
   const st=packState();const id=(FULL&&FULL.saveId)||(RUN&&RUN.saveId)||('s'+Date.now().toString(36)+rnd(1296).toString(36));

@@ -1,22 +1,20 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4.3",
-  "released": "2026-11-11",
-  "built_from": {
-    "website": "pricelist.talentededucationgroup.com/biaya-studi (R89, screenshot 11/11/2026 20:15)"
-  },
-  "note": "v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
+  "version": "v4.4",
+  "released": "2026-11-12",
+  "built_from": "Screenshot website hosting versi 77 (12/11/2026), TEG Pricelist Main.xlsx R97",
+  "note": "v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 468.9,
+  "duration_seconds": 525.9,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 19148687,
-      "sha256": "a9ad18528c01cdd9113491b0ebe0ef31b91e6b3f5cd3bf15292b4c7592adc3de"
+      "bytes": 21523282,
+      "sha256": "a547af295c31de84c2010e60db01344df297da122c113757d748703919a38188"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -25,8 +23,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 4312,
-      "sha256": "da0a3abf687eb9a3b18b26d58bb4ea4b8f50c5855786b3e0bc8ab1a7392f6a52"
+      "bytes": 4965,
+      "sha256": "a385b1636f9bd976294dc27e203670b58ba0981aad4d5b7e4a94589221659497"
     }
   },
   "chapters": [
@@ -104,58 +102,70 @@
     },
     {
       "start": "04:07",
+      "title": "Browser: Membawa keluarga"
+    },
+    {
+      "start": "04:30",
+      "title": "Browser: Rincian biaya keluarga"
+    },
+    {
+      "start": "04:44",
       "title": "Browser: PDF, WhatsApp & daftar"
     },
     {
-      "start": "04:20",
+      "start": "04:56",
+      "title": "Browser: PDF resmi Talented"
+    },
+    {
+      "start": "05:10",
       "title": "Browser: Bandingkan"
     },
     {
-      "start": "04:31",
-      "title": "Browser: Simpan hasil"
+      "start": "05:25",
+      "title": "Browser: Simpan & kirim pilihan"
     },
     {
-      "start": "04:45",
+      "start": "05:42",
       "title": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
-      "start": "05:00",
+      "start": "05:57",
       "title": "Browser: Paket Pathway VET + HE"
     },
     {
-      "start": "05:19",
+      "start": "06:16",
       "title": "Browser: Sekolah lain (CRICOS)"
     },
     {
-      "start": "05:34",
+      "start": "06:31",
       "title": "Browser: Les persiapan IELTS / PTE"
     },
     {
-      "start": "05:48",
+      "start": "06:45",
       "title": "Browser: Kelas & harga VSA"
     },
     {
-      "start": "06:00",
+      "start": "06:57",
       "title": "Browser: Bea siswa"
     },
     {
-      "start": "06:22",
+      "start": "07:19",
       "title": "Browser: Lowongan Kerja"
     },
     {
-      "start": "06:38",
+      "start": "07:35",
       "title": "Browser: Akomodasi"
     },
     {
-      "start": "06:58",
+      "start": "07:55",
       "title": "Browser: Mulai Daftar"
     },
     {
-      "start": "07:09",
+      "start": "08:06",
       "title": "Browser: Kantor & formulir"
     },
     {
-      "start": "07:23",
+      "start": "08:20",
       "title": "Konsultasi gratis"
     }
   ],

@@ -312,7 +312,11 @@ function interstitial(res){const nx=BANK.sections[FULL.def.sections[FULL.pos]];
 function skillValues(results,rep){
   const lay=rep.layout||'generic';const sk=(rep.skills||[]).map(x=>Object.assign({},x,{v:null,raw:0,max:0,teacher:false,taken:false}));
   const tc=REPCTX&&REPCTX.teacher;
-  results.forEach((r,ri)=>{const ids=[].concat(r.sec.skill||r.sec.skills||[]);ids.forEach(id=>{const o=sk.find(x=>x.id===id);if(!o)return;o.taken=true;
+  results.forEach((r,ri)=>{
+    if(r.sec.auto&&r.sec.skill_by_slot&&!(lay==='pte'||lay==='ielts')){/* JLPT N1-N3: one section feeds two scoring sections (e.g. 言語知識 + 読解) */
+      (r.rows||[]).forEach(x=>{if(!x.s||!x.s.max)return;const id=r.sec.skill_by_slot[(x.p&&x.p.slot)||'']||[].concat(r.sec.skill||[])[0];const o=sk.find(y=>y.id===id);if(!o)return;o.taken=true;o.raw+=x.s.got;o.max+=x.s.max});
+      Object.values(r.sec.skill_by_slot).forEach(id=>{const o=sk.find(y=>y.id===id);if(o)o.taken=true});return}
+    const ids=[].concat(r.sec.skill||r.sec.skills||[]);ids.forEach(id=>{const o=sk.find(x=>x.id===id);if(!o)return;o.taken=true;
     const m=tc&&tc.secs&&tc.secs[ri]&&tc.secs[ri].skills&&tc.secs[ri].skills[id];if(m&&typeof m.v==='number'&&!isNaN(m.v)){o.v=m.v;o.tm=true;o.teacher=false;return}
     if(o.tm)return;
     if(!r.sec.auto){o.teacher=true;return}

@@ -1826,7 +1826,21 @@
       "attribution_ru": "Источник: UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould) (официальный сайт)",
       "teg_partner": true,
       "booking_via_teg": true,
-      "booking_url": "https://linktr.ee/talentededucationgroup"
+      "booking_url": "https://linktr.ee/talentededucationgroup",
+      "provider_en": "UniLodge - ANU accommodation (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_th": "UniLodge - ที่พัก ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_vi": "UniLodge - chỗ ở ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_zh": "UniLodge - ANU 住宿 (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_ja": "UniLodge - ANU 学生寮 (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_ko": "UniLodge - ANU 숙소 (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_km": "UniLodge - កន្លែងស្នាក់នៅ ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_fr": "UniLodge - logement ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_pt": "UniLodge - acomodação da ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_es": "UniLodge - alojamiento de la ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_de": "UniLodge - ANU-Unterkunft (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_it": "UniLodge - alloggi ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_nl": "UniLodge - ANU-huisvesting (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+      "provider_ru": "UniLodge - жильё ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)"
     },
     {
       "id": "084b76e5975a18b8",

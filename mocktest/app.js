@@ -20,11 +20,15 @@ async function J(u){const r=await fetch(u+(u.includes('?')?'&':'?')+'v='+(window
 function fmt(sec){sec=Math.max(0,Math.round(sec));const m=Math.floor(sec/60),s=sec%60;return (m<10?'0':'')+m+':'+(s<10?'0':'')+s}
 function L(o){if(o==null)return'';if(typeof o==='string')return o;return o[LANG]||o.en||o.id||''}
 // ---------- pick (random, avoid recently seen) ----------
-function pick(testId,slot,count){
-  const seen=store.get('seen:'+testId,{});
-  const pool=slot.sets||slot.items||[];
-  const fresh=shuffle(pool.filter(x=>!seen[x.id])), old=shuffle(pool.filter(x=>seen[x.id])).sort((a,b)=>seen[a.id]-seen[b.id]);
-  return fresh.concat(old).slice(0,count||1);
+// T4: per device, never repeat a set/item until the whole pool of that slot has been used; then a new round starts (only IDs are stored)
+let ROUND=false;
+function pick(testId,slot,count,exclude){
+  const seen=store.get('seen:'+testId,{});const ex=exclude||{};count=count||1;
+  const pool=(slot.sets||slot.items||[]).filter(x=>!ex[x.id]);
+  let fresh=shuffle(pool.filter(x=>!seen[x.id]));
+  if(fresh.length<count){ROUND=true;const keep=new Set(fresh.map(x=>x.id));pool.forEach(x=>{if(!keep.has(x.id))delete seen[x.id]});store.set('seen:'+testId,seen);
+    fresh=fresh.concat(shuffle(pool.filter(x=>!keep.has(x.id))))}
+  return fresh.slice(0,count);
 }
 function markSeen(testId,ids){const seen=store.get('seen:'+testId,{});const now=Date.now();ids.forEach(i=>seen[i]=now);store.set('seen:'+testId,seen)}
 // ---------- views ----------
@@ -56,12 +60,14 @@ function testPage(){
   ${BANK.levels?`<label class="lvl">${esc(t('level'))}: <select id="lvl">${BANK.levels.map(l=>`<option>${esc(l)}</option>`).join('')}</select></label>`:''}
   <label class="namef"><b>${esc(t('your_name'))}</b><input id="candName" maxlength="60" autocomplete="name" placeholder="${esc(t('name_ph'))}" value="${esc(CAND)}"><small>${esc(t('name_note'))}</small><span class="warn" id="nameWarn" hidden>${esc(t('name_required'))}</span></label>
   <div class="secs">${secs.map((s,i)=>`<div class="sec"><div><b>${esc(L(s.title))}</b><small>${s.minutes} ${esc(t('minutes'))}${s.review_minutes?` + ${s.review_minutes} ${esc(t('review_min'))}`:''} · ${s.auto?esc(t('auto_marked')):esc(t('practice_only'))}</small><small>${esc(L(s.desc))}</small></div><button class="btn" data-sec="${i}">${esc(t('start'))}</button></div>`).join('')}</div>
-  <p class="small">${esc(t('rules'))}</p>
+  <p class="small">${esc(t('rules'))}</p><p class="small seenrow">${esc(t('seen_info').replace('{n}',Object.keys(store.get('seen:'+BANK.id,{})).length))} <button type="button" class="btn ghost small" id="resetSeen">↺ ${esc(t('reset_seen'))}</button></p>
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
 `+footer();
   bindLang();
   const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}CAND=nm;return true};
+  {const inp=$('#candName');if(inp)inp.addEventListener('input',()=>{if((inp.value||'').replace(/\s+/g,' ').trim().length>=2)$('#nameWarn').hidden=true})}
+  {const rs=$('#resetSeen');if(rs)rs.onclick=()=>{if(!confirm(t('reset_seen_confirm')))return;try{localStorage.removeItem('tegmock:seen:'+BANK.id)}catch(_){}FLASH=t('reset_seen_done');testPage()}}
   $$('[data-sec]').forEach(b=>b.onclick=()=>{if(!nameOk())return;FULL=null;startSection(+b.dataset.sec,$('#examMode').checked)});
   $$('[data-full]').forEach(b=>b.onclick=()=>{if(!nameOk())return;const f=fullsOf()[+b.dataset.full];FULL={def:f,pos:0,results:[],rid:newRid(),exam:true};startSection(f.sections[0],FULL.exam)});
   $$('[data-res]').forEach(b=>b.onclick=()=>{const e=getSaves().find(x=>x.id===b.dataset.res);if(!e){testPage();return}if(!nameOk())return;
@@ -74,9 +80,11 @@ function testPage(){
 function startSection(i,exam){
   try{history.pushState({mock:'run'},'')}catch(e){}
   const sec=BANK.sections[i]; const parts=[]; const ids=[];
-  (sec.slots||[]).forEach(sl=>{const got=pick(BANK.id,sl,sl.count||1);got.forEach(g=>{ids.push(g.id);parts.push(Object.assign({slot:sl.id,slotTitle:sl.title},JSON.parse(JSON.stringify(g))))})});
+  ROUND=false;const used={};if(FULL)(FULL.results||[]).forEach(r=>(r.parts||[]).forEach(p=>{if(p.id)used[p.id]=1}));
+  (sec.slots||[]).forEach(sl=>{const got=pick(BANK.id,sl,sl.count||1,used);got.forEach(g=>used[g.id]=1);got.forEach(g=>{ids.push(g.id);parts.push(Object.assign({slot:sl.id,slotTitle:sl.title},JSON.parse(JSON.stringify(g))))})});
   let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n;q.kind=q.kind||p.slot;q._tr=p.transcript||'';q._pass=p.passage||''; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
-  RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{},speech:{},saveId:FULL?FULL.saveId:null};
+  RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{},speech:{},saveId:FULL?FULL.saveId:null,round:ROUND};
+  markSeen(BANK.id,ids);
   window.onbeforeunload=()=>RUN&&!RUN.done?true:null;
   const go=()=>{if(!RUN||RUN.done)return;RUN.start=Date.now();renderRun();tick();scrollTo(0,0)};
   if(hasSpeak(sec))micCheck(go);else go();
@@ -113,7 +121,7 @@ function renderRun(){
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><span class="rbtns"><button class="btn ghost small" id="saveTop" title="${esc(t('save_later'))}" aria-label="${esc(t('save_later'))}">💾</button> <button class="btn" id="submit">${esc(t('submit'))}</button></span></div>
   <nav class="tabs">${tabs}</nav>
-  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${p.instructions?`<p class="ins">${L(p.instructions)}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
+  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${RUN.round&&RUN.cur===0?`<p class="flash" role="status">🔄 ${esc(t('round_new'))}</p>`:''}${p.instructions?`<p class="ins">${L(p.instructions)}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
   <p class="flowst" id="flowst"></p><div class="navbtns">${RUN.cur>0&&!IT?`<button class="btn ghost" data-go="-1">← ${esc(t('prev'))}</button>`:''}${IT?`<span class="small itpos">${esc(t('item'))} ${RUN.cur+1} / ${RUN.parts.length} · ${esc(t('no_back'))}</span>`:''}${RUN.cur<RUN.parts.length-1?`<button class="btn" data-go="1">${esc(t('next'))} →</button>`:`<button class="btn" id="submit2">${esc(t('submit'))}</button>`}</div>
   <div class="toolrow"><button class="btn ghost" id="saveLater">💾 ${esc(t('save_later'))}</button> <button class="btn ghost" id="sendT">📤 ${esc(t('send_teacher'))}</button><small>${esc(t('save_note'))}</small></div></div></div>
   <div id="confirm" class="modal" hidden><div class="box"><p>${esc(t('confirm_submit'))}</p><p id="unans" class="small"></p><button class="btn" id="yes">${esc(t('submit'))}</button> <button class="btn ghost" id="no">${esc(t('back'))}</button></div></div>`;
@@ -237,7 +245,7 @@ function conv(sec,raw,max){const sc=sec.score;if(!sc)return '';
   if(sc.type==='scale'){return Math.round(sc.min+(sc.max-sc.min)*raw/max)}
   if(sc.type==='pct'){return Math.round(100*raw/max)+'%'}
   return '';}
-function newRid(){return 'TEG-'+BANK.id.toUpperCase()+'-'+new Date().toISOString().slice(2,10).replace(/-/g,'')+'-'+(Date.now().toString(36).slice(-3)+rnd(1296).toString(36)).toUpperCase()}
+function newRid(){return 'TALENTED-'+BANK.id.toUpperCase()+'-'+new Date().toISOString().slice(2,10).replace(/-/g,'')+'-'+(Date.now().toString(36).slice(-3)+rnd(1296).toString(36)).toUpperCase()}
 function fullsOf(){return BANK.fulls||[{id:'full',title:{id:'Full mock test '+BANK.title,en:'Full mock test '+BANK.title},sections:BANK.sections.map((_,i)=>i)}]}
 function fullForSec(i){return fullsOf().find(f=>f.sections.includes(i))||fullsOf()[0]}
 // ---------- automatic estimate for PTE speaking & writing (in-browser, simplified - not Pearson's algorithm) ----------
@@ -393,7 +401,7 @@ function reportIELTS(results,isFull,rid,rep,sk,ov,dstr,ps){const nm=esc(REPCTX.n
   return `<div class="report lay-ielts rp-ielts" id="report"><div class="wm" aria-hidden="true"></div>
   <div class="if-top"><div><div class="if-brand">IELTS Academic · <span>Mock Test</span></div><div class="if-title">${esc(t('ielts_form'))}</div></div><div class="if-mod">ACADEMIC</div></div>
   <p class="if-note">${esc(t('ielts_note'))}</p>
-  <div class="if-row">${box(t('centre'),'TEG Online')}${box(t('date'),dstr)}${box(t('report_no'),esc(rid))}</div>
+  <div class="if-row">${box(t('centre'),'Talented Online')}${box(t('date'),dstr)}${box(t('report_no'),esc(rid))}</div>
   <h3 class="if-h">${esc(t('candidate_details'))}</h3>
   <div class="if-cand"><div class="if-fields">${box(t('candidate'),nm,'wide')}${box(t('test_mode'),esc(isFull?t('full_test'):t('section_only')+' · '+L(results[0].sec.title)),'wide')}${box(t('time_used'),fmt(results.reduce((a,r)=>a+r.used,0)))}</div><div class="rp-photo big" aria-hidden="true">👤</div></div>
   <h3 class="if-h">${esc(t('test_results'))}</h3>

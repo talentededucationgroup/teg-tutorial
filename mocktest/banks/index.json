@@ -1,5 +1,5 @@
 {
- "version": "2026-11-12h",
+ "version": "2026-11-12i",
  "tests": [
   {
    "id": "ielts",
@@ -19,7 +19,7 @@
    "icon": "🎧",
    "ready": true,
    "desc": {
-    "id": "Reading & Listening dinilai otomatis (TEG Pearson PTE Elite Partner 2026)",
+    "id": "Reading & Listening dinilai otomatis (Talented Pearson PTE Elite Partner 2026)",
     "en": "Auto-marked Reading & Listening"
    }
   },
@@ -30,8 +30,8 @@
    "icon": "🇯🇵",
    "ready": true,
    "desc": {
-    "id": "Latihan N5 & N4: kosakata, tata bahasa, bacaan & choukai (listening). Soal latihan buatan TEG sesuai format JLPT.",
-    "en": "N5 & N4 practice: vocabulary, grammar, reading & listening. TEG practice items in JLPT format."
+    "id": "Latihan N5 & N4: kosakata, tata bahasa, bacaan & choukai (listening). Soal latihan buatan Talented sesuai format JLPT.",
+    "en": "N5 & N4 practice: vocabulary, grammar, reading & listening. Talented practice items in JLPT format."
    }
   },
   {
@@ -41,8 +41,8 @@
    "icon": "🇰🇷",
    "ready": true,
    "desc": {
-    "id": "TOPIK I (level 1-2): 듣기 Listening & 읽기 Reading. Soal latihan buatan TEG sesuai format TOPIK.",
-    "en": "TOPIK I (levels 1-2): Listening & Reading. TEG practice items in TOPIK format."
+    "id": "TOPIK I (level 1-2): 듣기 Listening & 읽기 Reading. Soal latihan buatan Talented sesuai format TOPIK.",
+    "en": "TOPIK I (levels 1-2): Listening & Reading. Talented practice items in TOPIK format."
    }
   },
   {
@@ -52,8 +52,8 @@
    "icon": "🇨🇳",
    "ready": true,
    "desc": {
-    "id": "HSK 1, 2 & 3: 听力 Listening, 阅读 Reading, 书写 Writing (HSK 3). Soal latihan buatan TEG sesuai format HSK.",
-    "en": "HSK 1, 2 & 3: Listening, Reading, Writing (HSK 3). TEG practice items in HSK format."
+    "id": "HSK 1, 2 & 3: 听力 Listening, 阅读 Reading, 书写 Writing (HSK 3). Soal latihan buatan Talented sesuai format HSK.",
+    "en": "HSK 1, 2 & 3: Listening, Reading, Writing (HSK 3). Talented practice items in HSK format."
    }
   }
  ]

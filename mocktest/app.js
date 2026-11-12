@@ -14,6 +14,7 @@ try{localStorage.removeItem('tegmock:name')}catch(e){}
 const store={get(k,d){try{const v=localStorage.getItem('tegmock:'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('tegmock:'+k,JSON.stringify(v))}catch(e){}}};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function rnd(n){if(window.crypto&&crypto.getRandomValues){const a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]%n}return Math.floor(Math.random()*n)}
+function pnote(){return t('practice_note').replace('{test}',BANK&&(BANK.short||String(BANK.title||'').split(/[ (]/)[0])||'')}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=rnd(i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
 function norm(s){return String(s||'').toLowerCase().replace(/[’']/g,"'").replace(/[^\p{L}\p{N}' ]+/gu,' ').replace(/\s+/g,' ').trim()}
 async function J(u){const r=await fetch(u+(u.includes('?')?'&':'?')+'v='+(window.MOCK_V||'1'));if(!r.ok)throw new Error(u+' '+r.status);return r.json()}
@@ -60,7 +61,7 @@ function testPage(){
   ${BANK.levels?`<label class="lvl">${esc(t('level'))}: <select id="lvl">${BANK.levels.map(l=>`<option>${esc(l)}</option>`).join('')}</select></label>`:''}
   <label class="namef"><b>${esc(t('your_name'))}</b><input id="candName" maxlength="60" autocomplete="name" placeholder="${esc(t('name_ph'))}" value="${esc(CAND)}"><small>${esc(t('name_note'))}</small><span class="warn" id="nameWarn" hidden>${esc(t('name_required'))}</span></label>
   <div class="secs">${secs.map((s,i)=>`<div class="sec"><div><b>${esc(L(s.title))}</b><small>${s.minutes} ${esc(t('minutes'))}${s.review_minutes?` + ${s.review_minutes} ${esc(t('review_min'))}`:''} · ${s.auto?esc(t('auto_marked')):esc(t('practice_only'))}</small><small>${esc(L(s.desc))}</small></div><button class="btn" data-sec="${i}">${esc(t('start'))}</button></div>`).join('')}</div>
-  <p class="small">${esc(t('rules'))}</p><p class="small seenrow">${esc(t('seen_info').replace('{n}',Object.keys(store.get('seen:'+BANK.id,{})).length))} <button type="button" class="btn ghost small" id="resetSeen">↺ ${esc(t('reset_seen'))}</button></p>
+  <p class="small pnote">ⓘ ${esc(pnote())}</p><p class="small">${esc(t('rules'))}</p><p class="small seenrow">${esc(t('seen_info').replace('{n}',Object.keys(store.get('seen:'+BANK.id,{})).length))} <button type="button" class="btn ghost small" id="resetSeen">↺ ${esc(t('reset_seen'))}</button></p>
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
 `+footer();
@@ -95,7 +96,8 @@ function qHTML(q,p){
   const head=`<div class="qn">${q.n}</div>`;
   const pr=q.prompt?`<div class="qp">${q.prompt}</div>`:'';
   switch(q.type){
-    case 'mcq': return `<div class="q">${head}<div>${pr}${q._opts.map((o,k)=>`<label class="opt"><input type="radio" name="${nm}" value="${k}"${a==k?' checked':''}> <span>${String.fromCharCode(65+k)}. ${o}</span></label>`).join('')}</div></div>`;
+    case 'mcq': if(q.aopts)return `<div class="q aq">${head}<div>${q.img?`<img class="qimg" src="${esc(BASE+q.img)}" alt="${esc(t('scene_img'))}" width="640" height="360">`:''}<p class="small">🔊 ${esc(t('aopts_hint'))}</p><div class="numopts" role="radiogroup">${q.options.map((o,k)=>`<label class="opt num"><input type="radio" name="${nm}" value="${k}"${a==k?' checked':''}> <span>${k+1}</span></label>`).join('')}</div></div></div>`;
+      return `<div class="q">${head}<div>${pr}${q._opts.map((o,k)=>`<label class="opt"><input type="radio" name="${nm}" value="${k}"${a==k?' checked':''}> <span>${String.fromCharCode(65+k)}. ${o}</span></label>`).join('')}</div></div>`;
     case 'multi': return `<div class="q">${head}<div>${pr}<small>${esc(t('choose'))} ${q.choose}</small>${q._opts.map((o,k)=>`<label class="opt"><input type="checkbox" name="${nm}" value="${k}"${a&&a.includes(k)?' checked':''}> <span>${String.fromCharCode(65+k)}. ${o}</span></label>`).join('')}</div></div>`;
     case 'tfng': case 'match': { const opts=q.options||p.options||(q.type==='tfng'?['TRUE','FALSE','NOT GIVEN']:[]);
       return `<div class="q">${head}<div>${pr}<select name="${nm}"><option value="">—</option>${opts.map(o=>{const v=typeof o==='string'?o:o.v;const lab=typeof o==='string'?o:(o.v+' '+o.t);return `<option value="${esc(v)}"${a===v?' selected':''}>${esc(lab)}</option>`}).join('')}</select></div></div>`}
@@ -121,7 +123,7 @@ function renderRun(){
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><span class="rbtns"><button class="btn ghost small" id="saveTop" title="${esc(t('save_later'))}" aria-label="${esc(t('save_later'))}">💾</button> <button class="btn" id="submit">${esc(t('submit'))}</button></span></div>
   <nav class="tabs">${tabs}</nav>
-  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${RUN.round&&RUN.cur===0?`<p class="flash" role="status">🔄 ${esc(t('round_new'))}</p>`:''}${p.instructions?`<p class="ins">${L(p.instructions)}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
+  <div class="run ${p.passage?'split':''}">${passage}<div class="qs">${RUN.round&&RUN.cur===0?`<p class="flash" role="status">🔄 ${esc(t('round_new'))}</p>`:''}${p.text_only?`<p class="warnc">⚠ ${esc(t('text_only'))}</p>`:''}${p.instructions?`<p class="ins">${L(p.instructions)}</p>`:''}${BANK.ai&&(p.questions||[]).some(q=>q.type==='speak')?`<p class="small ainote">🤖 ${esc(t('speech_note'))}${(window.SpeechRecognition||window.webkitSpeechRecognition)?'':' <b>'+esc(t('speech_unsupported'))+'</b>'}</p>`:''}${audio}${groups.map(g=>`${g.g?`<p class="ins">${g.g}</p>`:''}${g.qs.map(q=>qHTML(q,p)).join('')}`).join('')}
   <p class="flowst" id="flowst"></p><div class="navbtns">${RUN.cur>0&&!IT?`<button class="btn ghost" data-go="-1">← ${esc(t('prev'))}</button>`:''}${IT?`<span class="small itpos">${esc(t('item'))} ${RUN.cur+1} / ${RUN.parts.length} · ${esc(t('no_back'))}</span>`:''}${RUN.cur<RUN.parts.length-1?`<button class="btn" data-go="1">${esc(t('next'))} →</button>`:`<button class="btn" id="submit2">${esc(t('submit'))}</button>`}</div>
   <div class="toolrow"><button class="btn ghost" id="saveLater">💾 ${esc(t('save_later'))}</button> <button class="btn ghost" id="sendT">📤 ${esc(t('send_teacher'))}</button><small>${esc(t('save_note'))}</small></div></div></div>
   <div id="confirm" class="modal" hidden><div class="box"><p>${esc(t('confirm_submit'))}</p><p id="unans" class="small"></p><button class="btn" id="yes">${esc(t('submit'))}</button> <button class="btn ghost" id="no">${esc(t('back'))}</button></div></div>`;
@@ -336,7 +338,7 @@ function buildReport(results,fdef,isFull,rid){
   const rep=repOf(fdef);const lay=rep.layout||'generic';const sk=skillValues(results,rep);const ov=overallOf(sk,rep);
   const title=isFull?L(fdef.title):(BANK.title+' · '+L(results[0].sec.title));
   let html=reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov);
-  const MB=`<div class="mock-badge" role="note">⚠ ${esc(t('mock_badge'))}</div>`;
+  const MB=`<div class="mock-badge" role="note">⚠ ${esc(t('mock_badge'))}<br><small>${esc(pnote())}</small></div>`;
   html=html.replace('<div class="wm" aria-hidden="true"></div>',m=>m+MB);
   if(REPCTX.teacher){html=html.replace(MB,m=>m+tmBadge(REPCTX.teacher)).replace('<div class="rp-foot">',m=>tmBlock(results,REPCTX.teacher,rep)+m)}
   return {html,title,rep,sk,ov}}
@@ -426,10 +428,10 @@ function summaryText(results,title,rid,rep,sk,ov){
   results.forEach(r=>{if(r.sec.auto){lines.push('');lines.push(`${L(r.sec.title)}: ${r.raw}/${r.max}`);const wrong=r.rows.filter(x=>x.s&&x.s.got<x.s.max).map(x=>`${x.q.n}: ${showAns(x.q)}`.slice(0,60));if(wrong.length){lines.push(t('to_review')+':');lines.push(...wrong.slice(0,15));if(wrong.length>15)lines.push('…')}}
     else r.parts.forEach(p=>(p.questions||[]).forEach(q=>{const a=r.answers[q.n];if(q.type==='essay'){lines.push('');lines.push(`${q.n}. ${(q.prompt||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,160)}`);lines.push(`(${yours(q,r.answers)})`);if(a)lines.push(a)}}))});
   const tc=REPCTX.teacher;if(tc){lines.push('');lines.push('✎ Teacher marked'+(tc.by?' · '+tc.by:''));results.forEach((r,i)=>{const x=tc.secs[i];if(x&&x.comment)lines.push(L(r.sec.title)+': '+x.comment)});if(tc.overall)lines.push(t('overall_comment')+': '+tc.overall)}
-  lines.push('');lines.push(L(rep.note)||t('estimate_note'));lines.push(t('not_official'));lines.push('');lines.push(t('try_free'));lines.push(SHARE_URL);
+  lines.push('');lines.push(L(rep.note)||t('estimate_note'));lines.push(t('not_official'));lines.push(pnote());lines.push('');lines.push(t('try_free'));lines.push(SHARE_URL);
   return lines.join('\n');}
 function showAns(q){switch(q.type){
-  case 'mcq': return String.fromCharCode(65+(q._map?q._map.indexOf(q.answer):q.answer))+'. '+q.options[q.answer];
+  case 'mcq': return (q.aopts?String(q.answer+1):String.fromCharCode(65+(q._map?q._map.indexOf(q.answer):q.answer)))+'. '+q.options[q.answer];
   case 'multi': return q.answer.map(k=>String.fromCharCode(65+(q._map?q._map.indexOf(k):k))+'. '+q.options[k]).join(' / ');
   case 'gap': return [].concat(q.answer)[0];
   case 'order': return (q.answer||q.items.map((_,k)=>k)).map(k=>q.items[k]).join(' → ');
@@ -438,11 +440,11 @@ function showAns(q){switch(q.type){
   case 'essay': case 'speak': return '';
   default: return q.answer;}}
 function yours(q,ans){const a=(ans||RUN.answers)[q.n];if(a==null||a===''||(Array.isArray(a)&&!a.length))return '—';
-  switch(q.type){case 'mcq':return String.fromCharCode(65+a);case 'multi':return a.map(k=>String.fromCharCode(65+k)).join(', ');case 'order':return a.map(k=>q.items[k]).join(' → ');case 'highlight':return a.map(k=>q.text.split(' ')[k]).join(', ');case 'cloze':return Object.values(a).join(' / ');case 'essay':return (a.trim().split(/\s+/).length)+' '+t('words');default:return a}}
+  switch(q.type){case 'mcq':return q.aopts?(a+1)+'. '+q.options[a]:String.fromCharCode(65+a);case 'multi':return a.map(k=>String.fromCharCode(65+k)).join(', ');case 'order':return a.map(k=>q.items[k]).join(' → ');case 'highlight':return a.map(k=>q.text.split(' ')[k]).join(', ');case 'cloze':return Object.values(a).join(' / ');case 'essay':return (a.trim().split(/\s+/).length)+' '+t('words');default:return a}}
 function reviewRow(q,s,ans){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')):'na';
   return `<div class="rv ${ok}"><div class="qn">${q.n}</div><div>${q.prompt?`<div class="qp">${q.prompt.replace('___','____')}</div>`:''}
   ${q.type==='essay'||q.type==='speak'?`${q.type==='speak'?`${q._rec?`<p class="recplay"><b>🎧 ${esc(t('your_recording'))}:</b><br><audio controls preload="metadata" src="${q._rec}"></audio> <small>${esc(t('rec_local'))}</small></p>`:''}`:''}<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${s&&s.ai?`<p class="aifb"><b>🤖 ${esc(t('ai_score'))}: ${s.got}/${s.max}</b><br><small>${esc(s.fb||'')}</small></p>`:''}${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
-  :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${L(q.explain)}</p>`:''}</div></div>`}
+  :`${q.img?`<img class="qimg sm" src="${esc(BASE+q.img)}" alt="" width="320" height="180">`:''}${q.aopts?`<ol class="aol">${q.options.map(o=>`<li>${esc(o)}</li>`).join('')}</ol>`:''}<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${L(q.explain)}</p>`:''}</div></div>`}
 // ---------- save & continue (this device only) ----------
 const FV=1, SAVE_MAX=10;
 function saveKey(){return 'tegmock:save:'+BANK.id}

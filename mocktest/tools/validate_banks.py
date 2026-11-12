@@ -70,6 +70,12 @@ for b in BANKS:
                 for qi, q in enumerate(st.get('questions', [])):
                     nq += 1
                     check_q(f"{b}/{st['id']}#{qi+1}", q)
+                    if q.get('img') and not os.path.exists(os.path.join(ROOT, q['img'])):
+                        errs.append(f"{b}/{st['id']}#{qi+1}: image missing {q['img']}")
+                    if q.get('aopts'):
+                        # options are read in the audio in this fixed order: never shuffle, audio required
+                        if q.get('shuffle') is not False: errs.append(f"{b}/{st['id']}#{qi+1}: aopts must have shuffle:false")
+                        if not st.get('audio'): errs.append(f"{b}/{st['id']}#{qi+1}: aopts without audio")
             for k, c in texts.items():
                 if k and c > 1: errs.append(f"{b}/{sl['id']} (section {si}): {c} sets with identical text: {k[:60]}")
             rows.append((b, plain(s.get('title'))[:34], sl['id'], take, len(pool), nq, len(pool) // take if take else 0))

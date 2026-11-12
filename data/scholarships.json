@@ -3415,5 +3415,6 @@
    }
   }
  ],
- "i18n_note": "Teks item: pakai item.i18n[lang] bila ada, lalu item.i18n.en, lalu field asli (Indonesia). Label status/type/funding/level dari labels.*."
+ "i18n_note": "Teks item: pakai item.i18n[lang] bila ada, lalu item.i18n.en, lalu field asli (Indonesia). Label status/type/funding/level dari labels.*.",
+ "maintenance": "WAJIB untuk setiap update (termasuk tugas mingguan): setiap item baru/berubah harus ikut memperbarui item.i18n.en (name, provider, country, fields, coverage, amount, eligibility, english_test, intake, notes dalam bahasa Inggris). Item tanpa i18n.en tidak boleh di-push."
 }

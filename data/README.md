@@ -8,3 +8,9 @@ Dipakai oleh https://pricelist.talentededucationgroup.com (dibaca langsung, deng
 - `jobs.json` — lowongan kerja pelajar dari Adzuna API (atribusi wajib "Jobs by Adzuna"), diperbarui setiap hari oleh GitHub Actions (`.github/workflows/update-jobs.yml`, `scripts/update_jobs.py`): hanya tanggal posting asli maks. 30 hari, masih tercantum di sumber, tanpa deskripsi lengkap; indikasi penipuan ditahan (`held_for_review`) dan admin diberi issue GitHub. Log: `jobs-log.json`. Butuh secret repo `ADZUNA_APP_ID` dan `ADZUNA_APP_KEY`.
 - `accommodation.json` — direktori penyedia akomodasi pelajar resmi (ringkasan fakta + link, tanpa foto/logo), dicek ulang bulanan.
 - `rules.json` — hak kerja visa pelajar AU & NZ dan aturan bond sewa per negara bagian/NZ, dari situs pemerintah (dengan tanggal cek).
+
+
+## Terjemahan (12/11/2026)
+- scholarships.json: setiap item wajib punya `i18n.en` (lihat field `maintenance`). Website: `i18n[lang]` -> `i18n.en` -> teks asli.
+- accommodation.json: field `<nama>_<lang>` / `<nama>_en` wajib dipakai website (mis. `room_types_en`, `price_period_en`).
+- panduan/manifest.json: setiap bab punya `title_en`; pertahankan saat video diperbarui.

@@ -466,21 +466,21 @@
    "ru": "Семейная медстраховка (разница с Single)"
   },
   "teg_service_fee_dependant": {
-   "id": "Talented service fee (per tanggungan)",
-   "en": "Talented service fee (per dependant)",
-   "th": "ค่าบริการ Talented (ต่อผู้ติดตาม)",
-   "vi": "Phí dịch vụ Talented (mỗi người phụ thuộc)",
-   "zh": "Talented 服务费（每位随行家属）",
-   "ja": "Talented サービス料（帯同家族1人あたり）",
-   "ko": "Talented 서비스 수수료(동반 가족 1인당)",
-   "km": "ថ្លៃសេវា Talented (ក្នុងម្នាក់អ្នកនៅក្នុងបន្ទុក)",
-   "fr": "Frais de service Talented (par personne à charge)",
-   "pt": "Taxa de serviço Talented (por dependente)",
-   "es": "Tarifa de servicio Talented (por dependiente)",
-   "de": "Talented-Servicegebühr (pro Angehörigem)",
-   "it": "Commissione di servizio Talented (per familiare)",
-   "nl": "Talented servicekosten (per gezinslid)",
-   "ru": "Сервисный сбор Talented (за члена семьи)"
+   "id": "Professional Admin fee (per tanggungan)",
+   "en": "Professional Admin fee (per dependant)",
+   "th": "Professional Admin fee (per dependant)",
+   "vi": "Professional Admin fee (per dependant)",
+   "zh": "Professional Admin fee (per dependant)",
+   "ja": "Professional Admin fee (per dependant)",
+   "ko": "Professional Admin fee (per dependant)",
+   "km": "Professional Admin fee (per dependant)",
+   "fr": "Professional Admin fee (per dependant)",
+   "pt": "Professional Admin fee (per dependant)",
+   "es": "Professional Admin fee (per dependant)",
+   "de": "Professional Admin fee (per dependant)",
+   "it": "Professional Admin fee (per dependant)",
+   "nl": "Professional Admin fee (per dependant)",
+   "ru": "Professional Admin fee (per dependant)"
   }
  },
  "countries": {
@@ -546,13 +546,13 @@
     "amount": 150,
     "currency": "AUD",
     "per": "dependant (partner atau anak)",
-    "applies": "offshore (sama seperti Prof. Adm / Talented service fee pemohon utama)",
+    "applies": "offshore (sama seperti Prof. Adm / Professional Admin fee pemohon utama)",
     "source": "Keputusan pemilik TEG 11/11/2026"
    },
    "teg_service_fee_per_dependant": {
     "amount": 150,
     "currency": "AUD",
-    "rule": "Talented service fee per tanggungan (partner/anak) - dikonfirmasi pemilik 11/11/2026; mengikuti aturan Prof. Adm (Offshore); sumber utama sel Excel 'Aturan & Tarif'"
+    "rule": "Professional Admin fee per tanggungan (partner/anak) - dikonfirmasi pemilik 11/11/2026; mengikuti aturan Prof. Adm (Offshore); sumber utama sel Excel 'Aturan & Tarif'"
    },
    "child_age_input": {
     "rule": "TANPA kolom umur (keputusan pemilik 11/11/2026, kembali ke metode awal). Per anak: pertanyaan wajib ui.q_child_school dengan pilihan ui.yes / ui.no (tanpa default), keterangan ui.school_age_note di dekatnya. Belum dijawab = banner ui.school_missing_warning, label 'BELUM TOTAL', tombol PDF & WhatsApp nonaktif (ui.export_blocked). Ya = + biaya sekolah; Tidak = hanya biaya hidup anak. Semua anak = tarif visa < 18. Tidak disimpan saat refresh.",
@@ -591,7 +591,7 @@
     "amount": 150,
     "currency": "NZD",
     "per": "dependant (partner atau anak)",
-    "applies": "offshore (sama seperti Prof. Adm / Talented service fee pemohon utama)",
+    "applies": "offshore (sama seperti Prof. Adm / Professional Admin fee pemohon utama)",
     "source": "Keputusan pemilik TEG 11/11/2026"
    }
   },
@@ -647,7 +647,7 @@
  },
  "calculation": {
   "AU": {
-   "dana_awal_tambahan": "visa tambahan (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + OSHC keluarga (atau Single x jumlah applicant bila Single dipilih) - OSHC siswa Single + Talented service fee AUD 150 x jumlah tanggungan",
+   "dana_awal_tambahan": "visa tambahan (Indonesia: 1.255 per anggota >=18, 410 per anak <18) + OSHC keluarga (atau Single x jumlah applicant bila Single dipilih) - OSHC siswa Single + Professional Admin fee AUD 150 x jumlah tanggungan",
    "rekening_koran_minimum_tambahan": "living_cost partner + living_cost child x jumlah anak + school_cost x jumlah anak umur 5-17 + travel_per_person x (jumlah anggota keluarga) [pro rata bila < 12 bulan]",
    "saran_saldo_tambahan": "rekening_koran_minimum_tambahan + dana_awal_tambahan, dibulatkan ke atas ke ribuan",
    "contoh": {
@@ -661,7 +661,7 @@
   },
   "NZ": {
    "rekening_koran_minimum_tambahan": "partner: NZD 4.200 (bila eligible work visa); anak usia sekolah non-domestik: NZD 17.000/tahun + biaya sekolah internasional (konfirmasi sekolah)",
-   "dana_awal_tambahan": "visa partner (from NZD 1.630) + visa anak (cek INZ) + asuransi keluarga + Talented service fee tanggungan NZD 150 x jumlah anggota keluarga ikut (Offshore)"
+   "dana_awal_tambahan": "visa partner (from NZD 1.630) + visa anak (cek INZ) + asuransi keluarga + Professional Admin fee tanggungan NZD 150 x jumlah anggota keluarga ikut (Offshore)"
   },
   "GB": {
    "rekening_koran_minimum_tambahan": "per anggota: 845 (London) / 680 x min(bulan kursus, 9)"

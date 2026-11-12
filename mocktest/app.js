@@ -634,5 +634,5 @@ window.addEventListener('popstate',()=>{if(!BANK||MODE)return;
   try{BANK=await J(BASE+'banks/'+meta.file)}catch(e){app().innerHTML='<p>Load error.</p>';return}
   testPage();
 })();
-if(/[?&]debug=1\b/.test(location.search))window.__mt={get RUN(){return RUN},renderRun:()=>renderRun(),finish:f=>finish(f)};
+if(/[?&]debug=1\b/.test(location.search))window.__mt={get RUN(){return RUN},renderRun:()=>renderRun(),finish:f=>finish(f),overall:(sk,rep)=>overallOf(sk,rep)};
 })();

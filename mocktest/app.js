@@ -78,7 +78,8 @@ function startSection(i,exam){
   let n=0; parts.forEach(p=>(p.questions||[]).forEach(q=>{q.n=++n;q.kind=q.kind||p.slot;q._tr=p.transcript||'';q._pass=p.passage||''; if(q.options&&q.shuffle!==false&&['mcq','multi'].includes(q.type)){const idx=shuffle(q.options.map((_,k)=>k));q._map=idx;q._opts=idx.map(k=>q.options[k])}else q._opts=q.options}));
   RUN={name:CAND,rid:FULL?FULL.rid:newRid(),sec,secIdx:i,parts,ids,answers:{},exam,start:Date.now(),limit:(sec.minutes+(sec.review_minutes||0))*60,cur:0,done:false,audioPlayed:{},speech:{},saveId:FULL?FULL.saveId:null};
   window.onbeforeunload=()=>RUN&&!RUN.done?true:null;
-  renderRun(); tick();
+  const go=()=>{if(!RUN||RUN.done)return;RUN.start=Date.now();renderRun();tick();scrollTo(0,0)};
+  if(hasSpeak(sec))micCheck(go);else go();
 }
 function tick(){if(!RUN||RUN.done)return;const left=RUN.limit-(Date.now()-RUN.start)/1000;const el=$('#timer');if(el){el.textContent=fmt(left);el.classList.toggle('warn',left<300)}if(left<=0){finish(true);return}setTimeout(tick,500)}
 function qHTML(q,p){
@@ -98,7 +99,7 @@ function qHTML(q,p){
     case 'cloze': { let k=0; const vals=a||{}; const html=q.text.replace(/\[\[(\d+)\]\]/g,(m,id)=>{const b=q.blanks[id];k++;return b.options?`<select data-cl="${q.n}" data-b="${id}"><option value="">—</option>${b.options.map(o=>`<option${vals[id]===o?' selected':''}>${esc(o)}</option>`).join('')}</select>`:`<input class="gap" data-cl="${q.n}" data-b="${id}" value="${esc(vals[id]||'')}" autocomplete="off" spellcheck="false">`});
       return `<div class="q">${head}<div>${pr}<p class="cloze">${html}</p></div></div>`}
     case 'essay': return `<div class="q wide">${head}<div>${pr}${q.table||''}<textarea class="essay" name="${nm}" rows="14">${esc(a||'')}</textarea><small class="wc" data-n="${q.n}">0 ${esc(t('words'))} · min ${q.min_words}</small></div></div>`;
-    case 'speak': return `<div class="q wide">${head}<div>${pr}<small>${esc(t('prep'))}: ${q.prep||0}s · ${esc(t('speak_time'))}: ${q.speak||0}s</small><div class="rec" data-n="${q.n}"><button type="button" class="btn small" data-rec>${esc(t('record'))}</button> <span class="recst"></span></div></div></div>`;
+    case 'speak': return `<div class="q wide">${head}<div>${pr}<small>${esc(t('prep'))}: ${q.prep||0}s · ${esc(t('speak_time'))}: ${q.speak||0}s</small>${recBox(q)}</div></div>`;
   }
   return '';
 }
@@ -107,7 +108,8 @@ function renderRun(){
   const p=RUN.parts[RUN.cur]; const sec=RUN.sec; const IT=isItem();
   const tabs=IT?'':RUN.parts.map((x,k)=>`<button class="tab${k===RUN.cur?' on':''}" data-tab="${k}">${esc(L(x.title)||x.slotTitle||('Part '+(k+1)))}</button>`).join('');
   const groups=[]; (p.questions||[]).forEach(q=>{const g=q.group||'';if(!groups.length||groups[groups.length-1].g!==g)groups.push({g,qs:[]});groups[groups.length-1].qs.push(q)});
-  const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(BASE+p.audio)}" ${RUN.exam?'':'controls'}></audio>${RUN.exam?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(RUN.exam?t('audio_once'):t('audio_practice'))}</small></div>`:'';
+  const SPK=(p.questions||[]).some(q=>q.type==='speak'),EX=RUN.exam||SPK;
+  const audio=p.audio?`<div class="audio"><audio id="aud" preload="auto" src="${esc(BASE+p.audio)}" ${EX?'':'controls'} controlslist="nodownload noplaybackrate" disablepictureinpicture></audio>${EX?`<button class="btn" id="play"${RUN.audioPlayed[p.id]?' disabled':''}>${RUN.audioPlayed[p.id]?esc(t('played')):'▶ '+esc(t('play_once'))}</button>`:''}<small>${esc(EX?t('audio_once'):t('audio_practice'))}</small></div>`:'';
   const passage=p.passage?`<article class="passage">${p.passage}</article>`:'';
   app().innerHTML=`<div class="runbar"><b>${esc(BANK.title)} · ${esc(L(sec.title))}${FULL?` <span class="fullpos">(${FULL.pos+1}/${FULL.def.sections.length})</span>`:''}</b><span id="timer" class="timer">--:--</span><span class="rbtns"><button class="btn ghost small" id="saveTop" title="${esc(t('save_later'))}" aria-label="${esc(t('save_later'))}">💾</button> <button class="btn" id="submit">${esc(t('submit'))}</button></span></div>
   <nav class="tabs">${tabs}</nav>
@@ -132,7 +134,7 @@ function bindRun(){
   $$('.essay').forEach(el=>save({target:el}));
   const pl=$('#play'),au=$('#aud');
   if(pl&&au){pl.onclick=()=>{const p=RUN.parts[RUN.cur];RUN.audioPlayed[p.id]=1;pl.disabled=true;pl.textContent=t('playing');au.play().catch(()=>{pl.disabled=false;RUN.audioPlayed[p.id]=0;pl.textContent='▶ '+t('play_once')});au.onended=()=>{pl.textContent=t('played')}}}
-  $$('[data-rec]').forEach(b=>b.onclick=()=>record(b));
+  $$('[data-endans]').forEach(b=>b.onclick=()=>{if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()});
   const ask=()=>{const tot=countQ(),ans=Object.keys(RUN.answers).length;$('#unans').textContent=(RUN.sec.auto?`${ans}/${tot} `+t('answered'):'');$('#confirm').hidden=false};
   $('#submit').onclick=ask; const s2=$('#submit2'); if(s2)s2.onclick=ask;
   $('#no').onclick=()=>$('#confirm').hidden=true; $('#yes').onclick=()=>finish(false);
@@ -140,44 +142,80 @@ function bindRun(){
 }
 function countQ(){return RUN.parts.reduce((s,p)=>s+(p.questions||[]).length,0)}
 let mediaRec=null;
-let recog=null,recTimer=null;
-async function record(b,auto){const box=b.parentNode;const st=$('.recst',box);const n=+box.dataset.n;const q=RUN.parts.flatMap(p=>p.questions||[]).find(x=>x.n===n);
-  if(mediaRec&&mediaRec.state==='recording'){mediaRec.stop();return}
-  try{const s=await navigator.mediaDevices.getUserMedia({audio:true});const ch=[];mediaRec=new MediaRecorder(s);mediaRec.ondataavailable=e=>ch.push(e.data);
-    const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!SR&&!!BANK.ai};let finals=[],confs=[],lastEnd=Date.now();
-    if(SR&&BANK.ai){try{recog=new SR();recog.lang='en-AU';recog.continuous=true;recog.interimResults=false;recog.maxAlternatives=1;
-      recog.onresult=e=>{for(let k=e.resultIndex;k<e.results.length;k++){const r=e.results[k];if(r.isFinal){finals.push(r[0].transcript);if(r[0].confidence)confs.push(r[0].confidence);const now=Date.now();if(now-lastEnd>3000&&finals.length>1)sp.pauses++;lastEnd=now;sp.lastAt=now}}
-        RUN.answers[n]=finals.join(' ').trim();sp.conf=confs.length?confs.reduce((x,y)=>x+y,0)/confs.length:0};
-      recog.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed'||ev.error==='audio-capture')sp.unsupported=true};
-      recog.onend=()=>{if(mediaRec&&mediaRec.state==='recording'){try{recog.start()}catch(_){}}};
-      recog.start()}catch(_){sp.unsupported=true}}
-    mediaRec.onstop=()=>{clearTimeout(recTimer);sp.secs=(Date.now()-sp.t0)/1000;s.getTracks().forEach(x=>x.stop());const rr=recog;recog=null;if(rr){try{rr.stop()}catch(_){}}
-      const url=URL.createObjectURL(new Blob(ch));
-      setTimeout(()=>{const heard=RUN.answers[n];st.innerHTML=`<audio controls src="${url}"></audio> <small>${esc(t('rec_local'))}</small>${BANK.ai?`<br><small>${sp.unsupported?esc(t('speech_unsupported')):`${esc(t('ai_heard'))}: <i>${esc(heard||'—')}</i>`}</small>`:''}`},700);
-      b.textContent=t('record_again')};
-    mediaRec.start();b.textContent='■ '+t('stop');st.textContent=t('recording');
-    if(isItem()){try{const AC=window.AudioContext||window.webkitAudioContext;const ac=new AC();const o=ac.createOscillator();o.frequency.value=880;o.connect(ac.destination);o.start();o.stop(ac.currentTime+0.25);
-      const an=ac.createAnalyser();an.fftSize=1024;ac.createMediaStreamSource(s).connect(an);const buf=new Float32Array(an.fftSize);let quiet=0,heard=false;
-      const iv=setInterval(()=>{if(!mediaRec||mediaRec.state!=='recording'){clearInterval(iv);try{ac.close()}catch(_){}return}an.getFloatTimeDomainData(buf);let e=0;for(const x of buf)e+=x*x;const rms=Math.sqrt(e/buf.length);
-        if(rms>0.02){heard=true;quiet=0}else{quiet+=200;if(quiet>=3000){st.textContent=t('silence_stop');mediaRec.stop()}}},200);FLOW.push(iv)}catch(_){}}
-    if(q&&q.speak){clearTimeout(recTimer);recTimer=setTimeout(()=>{if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()},q.speak*1000)}
-  }catch(e){st.textContent=t('mic_denied')}}
+let recog=null,recTimer=null,MIC=null,ACX=null;
+function micLive(){return !!(MIC&&MIC.getAudioTracks().some(x=>x.readyState==='live'))}
+function recBox(q){const sp=RUN.speech[q.n];const done=sp&&sp.done;const multi=!isItem();
+  return `<div class="rec${done?' done':''}" data-n="${q.n}"><div class="recst">${done?'✓ '+esc(t('rec_completed')):'⏳ '+esc(t('rec_waiting'))}</div><div class="recbar"><i></i></div>${multi&&!done?`<button type="button" class="btn ghost small" data-endans hidden>${esc(t('end_answer'))} →</button>`:''}</div>`}
+function beep(){try{const AC=window.AudioContext||window.webkitAudioContext;if(!ACX)ACX=new AC();if(ACX.state==='suspended')ACX.resume();const o=ACX.createOscillator(),g=ACX.createGain();o.frequency.value=880;g.gain.value=0.25;o.connect(g);g.connect(ACX.destination);o.start();o.stop(ACX.currentTime+0.3)}catch(_){}}
+function recEls(q){const box=$(`.rec[data-n="${q.n}"]`);return {box,st:box&&$('.recst',box),bar:box&&$('.recbar i',box),end:box&&$('[data-endans]',box)}}
+function barRun(q,secs,cls){const e=recEls(q);if(!e.bar)return;e.box.classList.remove('prep','on');if(cls)e.box.classList.add(cls);const t0=Date.now();e.bar.style.width='0%';
+  const iv=setInterval(()=>{const f=Math.min(1,(Date.now()-t0)/(secs*1000));if(e.bar)e.bar.style.width=(f*100)+'%';if(f>=1)clearInterval(iv)},100);FLOW.push(iv)}
+// one question: "Beginning in N seconds" (recording locked) -> beep -> automatic recording -> automatic stop -> Completed. Recorded once only.
+function runSpeakQ(q,done){if(!RUN||RUN.done)return;const sp0=RUN.speech[q.n];if(sp0&&sp0.done){done&&done();return}
+  const e=recEls(q);if(!e.box){return}
+  const go=()=>{if(!RUN||RUN.done)return;beep();setTimeout(()=>recordAuto(q,done),350)};
+  if(q.prep>0){let s=q.prep;barRun(q,q.prep,'prep');const upd=()=>{if(e.st)e.st.textContent='⏳ '+t('beginning_in').replace('{n}',s)};upd();
+    const iv=setInterval(()=>{s--;if(s<=0){clearInterval(iv);go()}else upd()},1000);FLOW.push(iv)}
+  else go()}
+function recordAuto(q,done){const n=q.n;const e=recEls(q);if(!e.box||!RUN||RUN.done)return;
+  const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!(window.SpeechRecognition||window.webkitSpeechRecognition)&&!!BANK.ai};
+  const fin=(msg)=>{sp.secs=(Date.now()-sp.t0)/1000;sp.done=1;const x=recEls(q);if(x.box){x.box.classList.remove('on','prep');x.box.classList.add('done');if(x.st)x.st.textContent='✓ '+t('rec_completed')+(msg?' · '+msg:'');if(x.bar)x.bar.style.width='100%';if(x.end)x.end.remove()}
+    const fs=$('#flowst');if(fs)fs.textContent='';done&&setTimeout(done,800)};
+  barRun(q,q.speak||30,'on');if(e.st)e.st.textContent='● '+t('recording');if(e.end)e.end.hidden=false;
+  if(!micLive()){/* no microphone: timing continues, nothing recorded */sp.nomic=1;recTimer=setTimeout(()=>fin(t('no_mic_rec')),(q.speak||30)*1000);FLOW.push(recTimer);
+    mediaRec={state:'recording',stop(){this.state='inactive';clearTimeout(recTimer);fin(t('no_mic_rec'))}};return}
+  const ch=[];let why='';
+  try{mediaRec=new MediaRecorder(MIC)}catch(_){mediaRec={state:'recording',stop(){this.state='inactive';fin(t('no_mic_rec'))}};return}
+  mediaRec.ondataavailable=ev=>{if(ev.data&&ev.data.size)ch.push(ev.data)};
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;let finals=[],confs=[],lastEnd=Date.now();
+  if(SR&&BANK.ai){try{recog=new SR();recog.lang='en-AU';recog.continuous=true;recog.interimResults=false;recog.maxAlternatives=1;
+    recog.onresult=ev=>{for(let k=ev.resultIndex;k<ev.results.length;k++){const r=ev.results[k];if(r.isFinal){finals.push(r[0].transcript);if(r[0].confidence)confs.push(r[0].confidence);const now=Date.now();if(now-lastEnd>3000&&finals.length>1)sp.pauses++;lastEnd=now;sp.lastAt=now}}
+      RUN.answers[n]=finals.join(' ').trim();sp.conf=confs.length?confs.reduce((x,y)=>x+y,0)/confs.length:0};
+    recog.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed'||ev.error==='audio-capture')sp.unsupported=true};
+    recog.onend=()=>{if(mediaRec&&mediaRec.state==='recording'){try{recog.start()}catch(_){}}};
+    recog.start()}catch(_){sp.unsupported=true}}
+  const mr=mediaRec;
+  mr.onstop=()=>{clearTimeout(recTimer);const rr=recog;recog=null;if(rr){try{rr.stop()}catch(_){}}
+    if(ch.length)q._rec=URL.createObjectURL(new Blob(ch,{type:mr.mimeType||'audio/webm'}));fin(why)};
+  mr.start();
+  // PTE: microphone closes after ~3 s of silence (also if the candidate does not start speaking within 3 s)
+  if(BANK.flow==='item'){try{const AC=window.AudioContext||window.webkitAudioContext;if(!ACX)ACX=new AC();const an=ACX.createAnalyser();an.fftSize=1024;const src=ACX.createMediaStreamSource(MIC);src.connect(an);const buf=new Float32Array(an.fftSize);let quiet=0;
+    const iv=setInterval(()=>{if(mr.state!=='recording'){clearInterval(iv);try{src.disconnect()}catch(_){}return}an.getFloatTimeDomainData(buf);let en=0;for(const x of buf)en+=x*x;const rms=Math.sqrt(en/buf.length);
+      if(rms>0.02)quiet=0;else{quiet+=200;if(quiet>=3000){why=t('silence_stop');clearInterval(iv);mr.stop()}}},200);FLOW.push(iv)}catch(_){}}
+  recTimer=setTimeout(()=>{if(mr.state==='recording')mr.stop()},(q.speak||30)*1000)}
+// all speaking questions on the current screen, one after another
+function speakFlow(p){const qs=(p.questions||[]).filter(q=>q.type==='speak');let k=0;const nx=()=>{if(!RUN||RUN.done||RUN.parts[RUN.cur]!==p)return;if(k<qs.length)runSpeakQ(qs[k++],nx)};nx()}
+// microphone check before any section with speaking (like the PTE "Microphone check" screen)
+function hasSpeak(sec){return (sec.slots||[]).some(sl=>(sl.sets||sl.items||[]).some(g=>(g.questions||[]).some(q=>q.type==='speak')))}
+function micCheck(go){if(micLive()){go();return}
+  app().innerHTML=`<section class="card miccheck"><h2>🎙 ${esc(t('mic_check_title'))}</h2><p>${esc(t('mic_check_body'))}</p><div class="micmeter"><i id="mlvl"></i></div><p id="mst" class="small">${esc(t('mic_asking'))}</p>
+  <div class="acts"><button class="btn" id="mGo" disabled>${esc(t('mic_start'))}</button> <button class="btn ghost" id="mRetry" hidden>↻ ${esc(t('mic_retry'))}</button> <button class="btn ghost" id="mBack">← ${esc(t('back'))}</button></div>
+  <p class="small"><a href="#" id="mSkip">${esc(t('mic_skip'))}</a></p></section>`;scrollTo(0,0);
+  let iv=null;const stopMeter=()=>{clearInterval(iv)};
+  const ask=async()=>{$('#mst').textContent=t('mic_asking');$('#mRetry').hidden=true;
+    try{if(!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia)throw new Error('nomedia');MIC=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
+      $('#mst').textContent='✓ '+t('mic_ok');$('#mGo').disabled=false;
+      try{const AC=window.AudioContext||window.webkitAudioContext;if(!ACX)ACX=new AC();const an=ACX.createAnalyser();an.fftSize=512;const src=ACX.createMediaStreamSource(MIC);src.connect(an);const buf=new Float32Array(an.fftSize);
+        iv=setInterval(()=>{const l=$('#mlvl');if(!l){clearInterval(iv);try{src.disconnect()}catch(_){}return}an.getFloatTimeDomainData(buf);let en=0;for(const x of buf)en+=x*x;l.style.width=Math.min(100,Math.sqrt(en/buf.length)*600)+'%'},120)}catch(_){}}
+    catch(err){MIC=null;$('#mst').innerHTML='<b class="warnc">⚠ '+esc(t(err&&err.name==='NotFoundError'?'mic_none':'mic_denied'))+'</b> '+esc(t('mic_fix'));$('#mRetry').hidden=false}};
+  $('#mGo').onclick=()=>{stopMeter();try{if(!ACX){const AC=window.AudioContext||window.webkitAudioContext;ACX=new AC()}ACX.resume()}catch(_){}go()};
+  $('#mRetry').onclick=ask;$('#mBack').onclick=()=>{stopMeter();leaveRun();goTestPage()};
+  $('#mSkip').onclick=ev=>{ev.preventDefault();if(!confirm(t('mic_skip_confirm')))return;stopMeter();go()};
+  ask()}
 // ---------- official item flow (PTE: one item per screen, no going back, automatic audio/prep/recording, item timers) ----------
 let FLOW=[];function clearFlow(){FLOW.forEach(x=>{clearTimeout(x);clearInterval(x)});FLOW=[];clearTimeout(recTimer)}
 function isItem(){return !!(BANK&&BANK.flow==='item'&&RUN&&RUN.exam)}
 function cdown(secs,label,done){const el=$('#flowst');let s=secs;const upd=()=>{if(el)el.textContent=label+' '+s+' s'};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);done()}},1000);FLOW.push(iv)}
 function nextItem(){if(!RUN||RUN.done)return;if(RUN.cur<RUN.parts.length-1){RUN.cur++;renderRun();scrollTo(0,0)}else finish(false)}
-function startSpeak(q){const go=()=>{if(!RUN||RUN.done)return;const b=$(`.rec[data-n="${q.n}"] [data-rec]`);if(b&&!(mediaRec&&mediaRec.state==='recording'))record(b,true)};
-  if(q.prep)cdown(q.prep,t('prep_left'),()=>{const el=$('#flowst');if(el)el.textContent=t('recording');go()});else go()}
-function autoFlow(p){if(!RUN.exam)return;const au=$('#aud'),pl=$('#play');const sq=(p.questions||[]).find(q=>q.type==='speak');const IT=isItem();
+function autoFlow(p){const au=$('#aud'),pl=$('#play');const SPK=(p.questions||[]).some(q=>q.type==='speak');if(!RUN.exam&&!SPK)return;const IT=isItem();
   if(IT&&p.item_minutes){let s=p.item_minutes*60;const el=document.createElement('span');el.className='timer itimer';const sb=$('#submit');if(sb&&sb.parentNode)sb.parentNode.insertBefore(el,sb);
     const upd=()=>{el.textContent=t('item_time')+' '+fmt(s)};upd();const iv=setInterval(()=>{s--;upd();if(s<=0){clearInterval(iv);nextItem()}},1000);FLOW.push(iv)}
-  const after=()=>{if(IT&&sq)startSpeak(sq)};
+  const after=()=>{if(SPK)speakFlow(p)};
   if(au&&!RUN.audioPlayed[p.id]){cdown(3,t('audio_starts'),()=>{RUN.audioPlayed[p.id]=1;if(pl){pl.disabled=true;pl.textContent=t('playing')}
       au.onended=()=>{if(pl)pl.textContent=t('played');const el=$('#flowst');if(el)el.textContent='';after()};
       au.play().catch(()=>{RUN.audioPlayed[p.id]=0;if(pl){pl.disabled=false;pl.textContent='▶ '+t('play_once')};const el=$('#flowst');if(el)el.textContent=t('tap_play');
         if(pl)pl.addEventListener('click',()=>{au.onended=()=>{pl.textContent=t('played');after()}},{once:true})})})}
-  else if(!au&&IT&&sq)startSpeak(sq)}
+  else if(SPK)speakFlow(p)}
 
 // ---------- scoring ----------
 function scoreQ(q,ans,speech){const a=(ans||RUN.answers)[q.n];
@@ -391,7 +429,7 @@ function yours(q,ans){const a=(ans||RUN.answers)[q.n];if(a==null||a===''||(Array
   switch(q.type){case 'mcq':return String.fromCharCode(65+a);case 'multi':return a.map(k=>String.fromCharCode(65+k)).join(', ');case 'order':return a.map(k=>q.items[k]).join(' → ');case 'highlight':return a.map(k=>q.text.split(' ')[k]).join(', ');case 'cloze':return Object.values(a).join(' / ');case 'essay':return (a.trim().split(/\s+/).length)+' '+t('words');default:return a}}
 function reviewRow(q,s,ans){const ok=s?(s.got===s.max?'ok':(s.got>0?'part':'no')):'na';
   return `<div class="rv ${ok}"><div class="qn">${q.n}</div><div>${q.prompt?`<div class="qp">${q.prompt.replace('___','____')}</div>`:''}
-  ${q.type==='essay'||q.type==='speak'?`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${s&&s.ai?`<p class="aifb"><b>🤖 ${esc(t('ai_score'))}: ${s.got}/${s.max}</b><br><small>${esc(s.fb||'')}</small></p>`:''}${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
+  ${q.type==='essay'||q.type==='speak'?`${q.type==='speak'?`${q._rec?`<p class="recplay"><b>🎧 ${esc(t('your_recording'))}:</b><br><audio controls preload="metadata" src="${q._rec}"></audio> <small>${esc(t('rec_local'))}</small></p>`:''}`:''}<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))}</p>${s&&s.ai?`<p class="aifb"><b>🤖 ${esc(t('ai_score'))}: ${s.got}/${s.max}</b><br><small>${esc(s.fb||'')}</small></p>`:''}${q.checklist?`<p><b>${esc(t('checklist'))}:</b></p><ul>${q.checklist.map(c=>`<li>${c}</li>`).join('')}</ul>`:''}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}`
   :`<p><b>${esc(t('your_answer'))}:</b> ${esc(yours(q,ans))} · <b>${esc(t('correct_answer'))}:</b> ${esc(showAns(q))}${s?` · ${s.got}/${s.max}`:''}</p>`}${q.explain?`<p class="small">${L(q.explain)}</p>`:''}</div></div>`}
 // ---------- save & continue (this device only) ----------
 const FV=1, SAVE_MAX=10;
@@ -416,7 +454,7 @@ function cleanAns(parts,ans){const out={};if(!ans||typeof ans!=='object')return 
       case 'order':if(Array.isArray(a)&&a.length===q.items.length&&a.slice().sort((x,y)=>x-y).every((v,i)=>v===i))out[q.n]=a;break;
       case 'cloze':if(typeof a==='object'&&!Array.isArray(a)){const o={};Object.keys(q.blanks||{}).forEach(k=>{if(typeof a[k]==='string')o[k]=a[k].slice(0,500)});out[q.n]=o}break;
       default:if(typeof a==='string')out[q.n]=a.slice(0,20000)}}));return out}
-function cleanSpeech(sp){const o={};if(!sp||typeof sp!=='object')return o;Object.keys(sp).slice(0,200).forEach(k=>{const x=sp[k];if(!x||typeof x!=='object'||!/^\d+$/.test(k))return;const y={};['t0','secs','conf','pauses','lastAt'].forEach(f=>{const v=+x[f];if(Number.isFinite(v))y[f]=v});if(x.unsupported)y.unsupported=true;o[k]=y});return o}
+function cleanSpeech(sp){const o={};if(!sp||typeof sp!=='object')return o;Object.keys(sp).slice(0,200).forEach(k=>{const x=sp[k];if(!x||typeof x!=='object'||!/^\d+$/.test(k))return;const y={};['t0','secs','conf','pauses','lastAt','done','nomic'].forEach(f=>{const v=+x[f];if(Number.isFinite(v))y[f]=v});if(x.unsupported)y.unsupported=true;o[k]=y});return o}
 function packRes(r){return {secIdx:r.secIdx,section:L(r.sec.title),auto:!!r.sec.auto,raw:r.raw,max:r.max,est:r.est,used:Math.round(r.used||0),timeout:!!r.timeout,parts:packParts(r.parts),answers:r.answers,speech:cleanSpeech(r.speech)}}
 function unpackRes(o){if(!o||!Number.isInteger(o.secIdx))throw bankErr();const sec=BANK.sections[o.secIdx];if(!sec)throw bankErr();const parts=unpackParts(o.secIdx,o.parts);const ans=cleanAns(parts,o.answers);const speech=cleanSpeech(o.speech);
   let raw=0,max=0;const rows=[];parts.forEach(p=>(p.questions||[]).forEach(q=>{if(!sec.auto){rows.push({q,p});return}const s=scoreQ(q,ans,speech);raw+=s.got;max+=s.max;rows.push({q,p,s})}));raw=Math.round(raw*10)/10;
@@ -438,7 +476,7 @@ function restoreState(st,saveId){checkState(st);RUN=null;FULL=null;
   try{history.pushState({mock:'run'},'')}catch(e){}
   if(st.run){const r=st.run;const sec=BANK.sections[r.secIdx];const parts=unpackParts(r.secIdx,r.parts);const lim=secLimit(r.secIdx);const el=Math.max(0,Math.min(lim,+r.elapsed||0));
     RUN={name:CAND,rid:FULL?FULL.rid:String(r.rid||newRid()).slice(0,40),sec,secIdx:r.secIdx,parts,ids:parts.map(p=>p.id),answers:cleanAns(parts,r.answers),exam:r.exam!==false,start:Date.now()-el*1000,limit:lim,cur:Math.max(0,Math.min(parts.length-1,+r.cur||0)),done:false,audioPlayed:(r.audioPlayed&&typeof r.audioPlayed==='object')?r.audioPlayed:{},speech:cleanSpeech(r.speech),saveId};
-    window.onbeforeunload=()=>RUN&&!RUN.done?true:null;renderRun();tick();scrollTo(0,0);return}
+    window.onbeforeunload=()=>RUN&&!RUN.done?true:null;const go=()=>{if(!RUN||RUN.done)return;RUN.start=Date.now()-el*1000;renderRun();tick();scrollTo(0,0)};if(hasSpeak(sec))micCheck(go);else go();return}
   interstitial(FULL.results[FULL.results.length-1])}
 function leaveRun(){if(RUN)RUN.done=true;clearFlow();window.onbeforeunload=null;try{const au=$('#aud');if(au)au.pause()}catch(e){}if(mediaRec&&mediaRec.state==='recording')mediaRec.stop();RUN=null;FULL=null}
 function goTestPage(){if(history.state&&history.state.mock==='run'){history.back()}else{testPage();scrollTo(0,0)}}
@@ -536,7 +574,7 @@ function teacherBody(){const rep=repOf(TF.fdef);const tc=TF.teacher;
   <div class="acts"><button class="btn ghost" id="tPrev">${esc(t('preview_report'))}</button> <button class="btn" id="tDl">💾 ${esc(t('download_marked'))}</button></div><p class="small">${esc(t('marked_hint'))}</p></section><div id="tPrevBox"></div>`}
 function answersBlock(r){let spk=false;const out=r.parts.map(p=>`<div class="rvp"><p class="rvh">${esc(L(p.title)||p.slotTitle)}</p>${(p.questions||[]).map(q=>{const a=r.answers[q.n];
   const y0=r.rows.find(z=>z.q===q);const aifb=y0&&y0.s&&y0.s.ai?`<p class="aifb"><b>🤖 ${esc(t('ai_score'))}: ${y0.s.got}/${y0.s.max}</b><br><small>${esc(y0.s.fb||'')}</small></p>`:'';
-  if(q.type==='speak'){spk=true;return `<div class="rv na"><div class="qn">${q.n}</div><div>${q.prompt?`<div class="qp">${q.prompt}</div>`:''}${a?`<p class="small"><b>${esc(t('ai_heard'))}:</b></p><div class="tans">${esc(a)}</div>`:''}${aifb}</div></div>`}
+  if(q.type==='speak'){spk=true;return `<div class="rv na"><div class="qn">${q.n}</div><div>${q.prompt?`<div class="qp">${q.prompt}</div>`:''}${q._rec?`<p class="recplay"><b>🎧 ${esc(t('your_recording'))}:</b><br><audio controls preload="metadata" src="${q._rec}"></audio> <small>${esc(t('rec_local'))}</small></p>`:''}${a?`<p class="small"><b>${esc(t('ai_heard'))}:</b></p><div class="tans">${esc(a)}</div>`:''}${aifb}</div></div>`}
   if(q.type==='essay'){const w=a&&a.trim()?a.trim().split(/\s+/).length:0;return `<div class="rv na"><div class="qn">${q.n}</div><div>${q.prompt?`<details><summary>${esc(t('task'))}</summary><div class="qp">${q.prompt}</div>${q.table||''}</details>`:''}<p class="small"><b>${esc(t('your_answer'))}:</b> ${w} ${esc(t('words'))}${q.min_words?' · min '+q.min_words:''}</p><div class="tans">${a?esc(a):'—'}</div>${aifb}${q.model?`<details><summary>${esc(t('model_answer'))}</summary><div class="model">${q.model}</div></details>`:''}</div></div>`}
   const y=r.rows.find(z=>z.q===q);return reviewRow(q,y&&y.s,r.answers)}).join('')}</div>`).join('');
   return (spk?`<p class="ins">🎙 ${esc(t('audio_not_in_file'))}</p>`:'')+out}
@@ -584,4 +622,5 @@ window.addEventListener('popstate',()=>{if(!BANK||MODE)return;
   try{BANK=await J(BASE+'banks/'+meta.file)}catch(e){app().innerHTML='<p>Load error.</p>';return}
   testPage();
 })();
+if(/[?&]debug=1\b/.test(location.search))window.__mt={get RUN(){return RUN},renderRun:()=>renderRun(),finish:f=>finish(f)};
 })();

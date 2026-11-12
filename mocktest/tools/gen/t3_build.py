@@ -17,27 +17,43 @@ NAR = 'ja-JP-ShioriNeural'; MV = ['ja-JP-KeitaNeural', 'ja-JP-DaichiNeural', 'ja
 WHO = {'M': '男', 'F': '女'}
 def D(i, e): return {'id': i, 'en': e}
 
+AO = ('l3', 'l6')  # 概要理解 / 統合理解(1番・2番): nothing printed - question and options are heard after the talk
+INS_AO = {'l3': '問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と選択肢を聞いて、1から4の中から、最もよいものを一つ選んでください。',
+          'l6': '長めの話を聞きます。問題用紙に何も印刷されていません。まず話を聞いてください。それから、質問と選択肢を聞いて、1から4の中から、最もよいものを一つ選んでください。'}
+NUMK = ['いち', 'に', 'さん', 'よん']
+
 def listening_sets():
+    import random
     out, aud = [], []
     for k, (slot, sid, items) in enumerate(mod.L):
         m, f = MV[k % 3], FV[k % 3]
         tr, x, qs = '', '', []
+        ao = slot in AO
         for i, (scene, dlg, q) in enumerate(items, 1):
             qtext = q['prompt']
-            say_q = scene if slot == 'l4' else ('' if slot == 'l5' else qtext)
-            tr += f'<b>{i}番</b><br>' + (f'<i>🔊 {html.escape(say_q)}</i><br>' if say_q else '') + ''.join(f'{WHO[s]}: {html.escape(t)}<br>' for s, t in dlg) + (f'<i>🔊 {html.escape(qtext)}</i><br>' if slot in ('l1', 'l2', 'l3', 'l6') else '') + '<br>'
+            say_q = scene if slot == 'l4' else ('' if slot == 'l5' or ao else qtext)
+            q = dict(q)
+            if ao:  # fixed option order read in the audio; key position randomised once at build time
+                order = list(range(len(q['options']))); random.Random(f'{sid}-{i}').shuffle(order)
+                q['options'] = [q['options'][j] for j in order]; q['answer'] = order.index(q['answer'])
+                q['aopts'] = True; q['shuffle'] = False
+            tr += f'<b>{i}番</b><br>' + (f'<i>🔊 {html.escape(say_q)}</i><br>' if say_q else '') + ''.join(f'{WHO[s]}: {html.escape(t)}<br>' for s, t in dlg) + (f'<i>🔊 {html.escape(qtext)}</i><br>' if slot in ('l1', 'l2', 'l3', 'l6') else '')
+            if ao: tr += ''.join(f'🔊 {n+1}. {html.escape(o)}<br>' for n, o in enumerate(q['options']))
+            tr += '<br>'
             x += f"<voice name='{NAR}'>{i}番。{html.escape(say_q, quote=False)}<break time='800ms'/></voice>"
             for s, t in dlg:
                 x += f"<voice name='{m if s == 'M' else f}'>{html.escape(t, quote=False)}<break time='500ms'/></voice>"
-            if slot in ('l1', 'l2', 'l3', 'l6'):
+            if ao:
+                x += f"<voice name='{NAR}'>{html.escape(qtext, quote=False)}<break time='1000ms'/>" + ''.join(f"{NUMK[n]}、{html.escape(o, quote=False)}<break time='900ms'/>" for n, o in enumerate(q['options'])) + "<break time='1600ms'/></voice>"
+            elif slot in ('l1', 'l2', 'l3', 'l6'):
                 x += f"<voice name='{NAR}'>{html.escape(qtext, quote=False)}<break time='1500ms'/></voice>"
             else:
                 x += f"<voice name='{NAR}'><break time='700ms'/></voice>"
-            q = dict(q); q['prompt'] = f'{i}. ' + q['prompt']; qs.append(q)
+            q['prompt'] = f'{i}. ' + q['prompt']; qs.append(q)
         import re as _re
         x = _re.sub(r"<break time='\d+ms'/></voice>$", "<break time='3600ms'/></voice>", x)
         aud.append((sid, x))
-        out.append((slot, {'id': sid, 'title': mod.LI[slot] + ' ' + sid[-1].upper(), 'audio': f'audio/jlpt/{sid}.mp3', 'instructions': mod.INS[slot], 'transcript': tr, 'questions': qs}))
+        out.append((slot, {'id': sid, 'title': mod.LI[slot] + ' ' + sid[-1].upper(), 'audio': f'audio/jlpt/{"v2/" if ao else ""}{sid}.mp3', 'instructions': INS_AO[slot] if ao else mod.INS[slot], 'transcript': tr, 'questions': qs}))
     return out, aud
 
 def bank():

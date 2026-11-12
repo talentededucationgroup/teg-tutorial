@@ -3211,5 +3211,22 @@
 "it": "Non valutato (come nel test ufficiale).",
 "nl": "Niet beoordeeld (zoals in de officiële toets).",
 "ru": "Не оценивается (как на официальном тесте)."
+},
+"mock_badge": {
+"id": "MOCK TEST / NOT OFFICIAL",
+"en": "MOCK TEST / NOT OFFICIAL",
+"th": "MOCK TEST / NOT OFFICIAL",
+"vi": "MOCK TEST / NOT OFFICIAL",
+"zh": "MOCK TEST / NOT OFFICIAL",
+"ja": "MOCK TEST / NOT OFFICIAL",
+"ko": "MOCK TEST / NOT OFFICIAL",
+"km": "MOCK TEST / NOT OFFICIAL",
+"fr": "MOCK TEST / NOT OFFICIAL",
+"pt": "MOCK TEST / NOT OFFICIAL",
+"es": "MOCK TEST / NOT OFFICIAL",
+"de": "MOCK TEST / NOT OFFICIAL",
+"it": "MOCK TEST / NOT OFFICIAL",
+"nl": "MOCK TEST / NOT OFFICIAL",
+"ru": "MOCK TEST / NOT OFFICIAL"
 }
 }

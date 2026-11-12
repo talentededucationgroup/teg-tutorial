@@ -227,7 +227,7 @@ function aiScore(q,a,speech){const txt=String(a||'').trim();const w=toks(txt);
   const cov=cover(w,keys);const ttr=n?new Set(w).size/n:0;
   const capOk=/^[A-Z]/.test(txt)?1:0,endOk=/[.!?]$/.test(txt)?1:0;
   let form,maxF,lo,hi;if(q.kind==='swt'){lo=5;hi=75;maxF=1;form=(n>=lo&&n<=hi&&sents<=1)?1:0}else if(q.kind==='sst'){lo=50;hi=70;maxF=2;form=n>=lo&&n<=hi?2:(n>=40&&n<=100?1:0)}else{lo=200;hi=300;maxF=2;form=n>=lo&&n<=hi?2:(n>=120&&n<=380?1:0)}
-  if(!n)return {got:0,max:q.kind==='swt'?7:q.kind==='sst'?8:13,ai:1,fb:t('ai_nothing')};
+  if(!n)return {got:0,max:q.kind==='swt'?7:q.kind==='sst'?8:12,ai:1,fb:t('ai_nothing')};
   if(form===0&&q.kind!=='es'){/* PTE: wrong form = 0 for content-dependent traits */}
   const content=2*clamp(cov/(q.kind==='es'?0.35:0.25),0,1)*(form?1:0.3);
   const gram=2*(0.5*capOk+0.5*endOk)*clamp(n/lo,0,1)*clamp(q.kind==='swt'?1:sents/(q.kind==='sst'?2:8),0.3,1);
@@ -286,7 +286,9 @@ function buildReport(results,fdef,isFull,rid){
   const rep=repOf(fdef);const lay=rep.layout||'generic';const sk=skillValues(results,rep);const ov=overallOf(sk,rep);
   const title=isFull?L(fdef.title):(BANK.title+' · '+L(results[0].sec.title));
   let html=reportHTML(results,fdef,isFull,rid,rep,lay,sk,ov);
-  if(REPCTX.teacher){html=html.replace('<div class="wm" aria-hidden="true"></div>',m=>m+tmBadge(REPCTX.teacher)).replace('<div class="rp-foot">',m=>tmBlock(results,REPCTX.teacher,rep)+m)}
+  const MB=`<div class="mock-badge" role="note">⚠ ${esc(t('mock_badge'))}</div>`;
+  html=html.replace('<div class="wm" aria-hidden="true"></div>',m=>m+MB);
+  if(REPCTX.teacher){html=html.replace(MB,m=>m+tmBadge(REPCTX.teacher)).replace('<div class="rp-foot">',m=>tmBlock(results,REPCTX.teacher,rep)+m)}
   return {html,title,rep,sk,ov}}
 function showReport(results,fdef,isFull,rid,ctx){
   REPCTX=ctx||{name:(RUN&&RUN.name)||CAND||'',date:Date.now(),teacher:null};

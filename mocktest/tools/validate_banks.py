@@ -2,7 +2,7 @@
 """Validate TEG mock test banks (T4c): answer keys, duplicates, audio files, bank sizes.
 Usage: python3 mocktest/tools/validate_banks.py [--table]
 Exit code 1 when an error is found."""
-import json, os, re, sys, collections
+import json, os, re, sys, collections, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BANKS = ['ielts', 'pte', 'jlpt', 'topik', 'hsk']
 errs, warns, rows = [], [], []
@@ -12,13 +12,28 @@ def plain(x):
         x = x.get('en') or x.get('id') or ''
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', str(x or ''))).strip().lower()
 
+def norm_opt(x):
+    """Option text as a student sees it: HTML removed, NFKC (full/half width), no whitespace (incl. U+3000),
+    no punctuation/symbols, lower case. Two options equal after this are duplicates."""
+    if isinstance(x, dict): x = x.get('t') or x.get('v') or ''
+    x = unicodedata.normalize('NFKC', re.sub(r'<[^>]+>', '', str(x)))
+    x = ''.join(c for c in x if not c.isspace() and unicodedata.category(c)[0] not in 'PSZ')
+    return x.lower()
+
+def no_marks(x):
+    # same text when dakuten/handakuten and other combining marks are ignored (e.g. は/ば) -> warning only
+    return ''.join(c for c in unicodedata.normalize('NFD', x) if not unicodedata.combining(c))
+
 def check_q(where, q):
     t = q.get('type')
     opts = q.get('options')
     if t == 'mcq':
         if not isinstance(opts, list) or len(opts) < 2: errs.append(f'{where}: mcq without options')
         elif not isinstance(q.get('answer'), int) or not 0 <= q['answer'] < len(opts): errs.append(f'{where}: mcq answer out of range')
-        elif len(set(map(plain, opts))) != len(opts): errs.append(f'{where}: duplicate options')
+        else:
+            nn = [norm_opt(o) for o in opts]
+            if len(set(nn)) != len(nn) or '' in nn: errs.append(f'{where}: duplicate/empty options after normalisation {opts}')
+            elif len(set(map(no_marks, nn))) != len(nn): warns.append(f'{where}: options differ only by dakuten/marks {opts}')
     elif t == 'multi':
         a = q.get('answer')
         if not isinstance(a, list) or not a or any(not isinstance(k, int) or not 0 <= k < len(opts or []) for k in a): errs.append(f'{where}: multi answer invalid')

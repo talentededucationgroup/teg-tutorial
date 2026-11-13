@@ -5,6 +5,7 @@ const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelect
 const Q=new URLSearchParams(location.search);
 const BASE=(window.MOCK_BASE||'');
 const SHARE_URL=(window.MOCK_SHARE_URL||'https://pricelist.talentededucationgroup.com/');
+function backHref(){try{const u=new URL(SHARE_URL,location.href);u.searchParams.set('lang',LANG||'id');return u.href}catch(e){return SHARE_URL}}
 const LANGS=['id','en','th','vi','zh','ja','ko','km','fr','pt','es','de','it','nl','ru'];
 let LANG=(Q.get('lang')||'').slice(0,2); if(!LANGS.includes(LANG)) LANG='id';
 let UI={}, BANK=null, IDX=null, RUN=null, FULL=null, CAND='', LAST=null, REPCTX={name:'',date:Date.now(),teacher:null}, FLASH='', TF=null;
@@ -39,7 +40,7 @@ function header(title,sub){return `<header class="top"><a class="brand" href="?l
 function bindLang(){const s=$('#langSel');if(s)s.onchange=()=>{Q.set('lang',s.value);location.search=Q.toString()}}
 function home(){
   document.title=t('free_mock')+' - Talented Education Group';
-  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${SHARE_URL}" id="backSite">← ${esc(t('back_site'))}</a> ${fileBtn('hFile','📥 '+t('open_file'))}</div><div class="grid">${IDX.tests.map(x=>`<a class="card test" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
+  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${backHref()}" id="backSite">← ${esc(t('back_site'))}</a> ${fileBtn('hFile','📥 '+t('open_file'))}</div><div class="grid">${IDX.tests.map(x=>`<a class="card test" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
   <section class="note">${esc(t('disclaimer'))}<br><a href="?mode=guru&lang=${LANG}">👩‍🏫 ${esc(t('teacher_mode'))}</a></section>`+footer();
   bindLang(); bindFile('hFile',openStudentFile);
   $('#backSite').onclick=e=>{try{if(document.referrer&&new URL(document.referrer).host.includes('talentededucationgroup')&&history.length>1){e.preventDefault();history.back()}}catch(_){}};

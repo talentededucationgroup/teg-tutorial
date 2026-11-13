@@ -31,177 +31,212 @@
     {
       "start": "00:00",
       "title": "2 cara cek harga di Talented Education Group",
-      "title_en": "2 ways to check prices at Talented Education Group"
+      "title_en": "2 ways to check prices at Talented Education Group",
+      "title_id": "2 cara cek harga di Talented Education Group"
     },
     {
       "start": "00:12",
       "title": "Cara 1 · Lewat aplikasi Talented",
-      "title_en": "Way 1 · Using the Talented app"
+      "title_en": "Way 1 · Using the Talented app",
+      "title_id": "Cara 1 · Lewat aplikasi Talented"
     },
     {
       "start": "00:25",
       "title": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\"",
-      "title_en": "App: Tap \"Install Talented App\""
+      "title_en": "App: Tap \"Install Talented App\"",
+      "title_id": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\""
     },
     {
       "start": "00:34",
       "title": "Aplikasi: Android: pakai Chrome",
-      "title_en": "App: Android: use Chrome"
+      "title_en": "App: Android: use Chrome",
+      "title_id": "Aplikasi: Android: pakai Chrome"
     },
     {
       "start": "00:53",
       "title": "Aplikasi: iPhone / iPad: pakai Safari",
-      "title_en": "App: iPhone / iPad: use Safari"
+      "title_en": "App: iPhone / iPad: use Safari",
+      "title_id": "Aplikasi: iPhone / iPad: pakai Safari"
     },
     {
       "start": "01:07",
       "title": "Aplikasi: Selesai!",
-      "title_en": "App: Done!"
+      "title_en": "App: Done!",
+      "title_id": "Aplikasi: Selesai!"
     },
     {
       "start": "01:19",
       "title": "Cara 2 · Lewat browser",
-      "title_en": "Way 2 · Using the browser"
+      "title_en": "Way 2 · Using the browser",
+      "title_id": "Cara 2 · Lewat browser"
     },
     {
       "start": "01:33",
       "title": "Browser: Buka halaman & pilih bahasa",
-      "title_en": "Browser: Open the page & choose a language"
+      "title_en": "Browser: Open the page & choose a language",
+      "title_id": "Browser: Buka halaman & pilih bahasa"
     },
     {
       "start": "01:52",
       "title": "Browser: Menu utama",
-      "title_en": "Browser: Main menu"
+      "title_en": "Browser: Main menu",
+      "title_id": "Browser: Menu utama"
     },
     {
       "start": "02:10",
       "title": "Browser: Tombol aplikasi & Kegiatan TEG",
-      "title_en": "Browser: App button & TEG Activities"
+      "title_en": "Browser: App button & TEG Activities",
+      "title_id": "Browser: Tombol aplikasi & Kegiatan TEG"
     },
     {
       "start": "02:29",
       "title": "Browser: Negara & Offshore / Onshore",
-      "title_en": "Browser: Country & Offshore / Onshore"
+      "title_en": "Browser: Country & Offshore / Onshore",
+      "title_id": "Browser: Negara & Offshore / Onshore"
     },
     {
       "start": "02:47",
       "title": "Browser: Cari & filter",
-      "title_en": "Browser: Search & filter"
+      "title_en": "Browser: Search & filter",
+      "title_id": "Browser: Cari & filter"
     },
     {
       "start": "02:57",
       "title": "Browser: Pilih asuransi OSHC",
-      "title_en": "Browser: Choose OSHC insurance"
+      "title_en": "Browser: Choose OSHC insurance",
+      "title_id": "Browser: Pilih asuransi OSHC"
     },
     {
       "start": "03:06",
       "title": "Browser: Urutkan hasil",
-      "title_en": "Browser: Sort results"
+      "title_en": "Browser: Sort results",
+      "title_id": "Browser: Urutkan hasil"
     },
     {
       "start": "03:17",
       "title": "Browser: Baca kartu program",
-      "title_en": "Browser: Read a programme card"
+      "title_en": "Browser: Read a programme card",
+      "title_id": "Browser: Baca kartu program"
     },
     {
       "start": "03:28",
       "title": "Browser: Rincian program",
-      "title_en": "Browser: Programme details"
+      "title_en": "Browser: Programme details",
+      "title_id": "Browser: Rincian program"
     },
     {
       "start": "03:40",
       "title": "Browser: Dana awal, rekening koran & refund",
-      "title_en": "Browser: Upfront cost, bank statement & refund"
+      "title_en": "Browser: Upfront cost, bank statement & refund",
+      "title_id": "Browser: Dana awal, rekening koran & refund"
     },
     {
       "start": "03:52",
       "title": "Browser: Tambah biaya hidup",
-      "title_en": "Browser: Add living costs"
+      "title_en": "Browser: Add living costs",
+      "title_id": "Browser: Tambah biaya hidup"
     },
     {
       "start": "04:07",
       "title": "Browser: Membawa keluarga",
-      "title_en": "Browser: Bringing family"
+      "title_en": "Browser: Bringing family",
+      "title_id": "Browser: Membawa keluarga"
     },
     {
       "start": "04:30",
       "title": "Browser: Rincian biaya keluarga",
-      "title_en": "Browser: Family cost breakdown"
+      "title_en": "Browser: Family cost breakdown",
+      "title_id": "Browser: Rincian biaya keluarga"
     },
     {
       "start": "04:44",
       "title": "Browser: PDF, WhatsApp & daftar",
-      "title_en": "Browser: PDF, WhatsApp & apply"
+      "title_en": "Browser: PDF, WhatsApp & apply",
+      "title_id": "Browser: PDF, WhatsApp & daftar"
     },
     {
       "start": "04:56",
       "title": "Browser: PDF resmi Talented",
-      "title_en": "Browser: Official Talented PDF"
+      "title_en": "Browser: Official Talented PDF",
+      "title_id": "Browser: PDF resmi Talented"
     },
     {
       "start": "05:10",
       "title": "Browser: Bandingkan",
-      "title_en": "Browser: Compare"
+      "title_en": "Browser: Compare",
+      "title_id": "Browser: Bandingkan"
     },
     {
       "start": "05:25",
       "title": "Browser: Simpan & kirim pilihan",
-      "title_en": "Browser: Save & send your picks"
+      "title_en": "Browser: Save & send your picks",
+      "title_id": "Browser: Simpan & kirim pilihan"
     },
     {
       "start": "05:42",
       "title": "Browser: Bahasa Inggris (ELICOS)",
-      "title_en": "Browser: English courses (ELICOS)"
+      "title_en": "Browser: English courses (ELICOS)",
+      "title_id": "Browser: Bahasa Inggris (ELICOS)"
     },
     {
       "start": "05:57",
       "title": "Browser: Paket Pathway VET + HE",
-      "title_en": "Browser: VET + HE Pathway packages"
+      "title_en": "Browser: VET + HE Pathway packages",
+      "title_id": "Browser: Paket Pathway VET + HE"
     },
     {
       "start": "06:16",
       "title": "Browser: Sekolah lain (CRICOS)",
-      "title_en": "Browser: Other schools (CRICOS)"
+      "title_en": "Browser: Other schools (CRICOS)",
+      "title_id": "Browser: Sekolah lain (CRICOS)"
     },
     {
       "start": "06:31",
       "title": "Browser: Les persiapan IELTS / PTE",
-      "title_en": "Browser: IELTS / PTE preparation classes"
+      "title_en": "Browser: IELTS / PTE preparation classes",
+      "title_id": "Browser: Les persiapan IELTS / PTE"
     },
     {
       "start": "06:45",
       "title": "Browser: Kelas & harga VSA",
-      "title_en": "Browser: VSA classes & prices"
+      "title_en": "Browser: VSA classes & prices",
+      "title_id": "Browser: Kelas & harga VSA"
     },
     {
       "start": "06:57",
       "title": "Browser: Bea siswa",
-      "title_en": "Browser: Scholarships"
+      "title_en": "Browser: Scholarships",
+      "title_id": "Browser: Bea siswa"
     },
     {
       "start": "07:19",
       "title": "Browser: Lowongan Kerja",
-      "title_en": "Browser: Jobs"
+      "title_en": "Browser: Jobs",
+      "title_id": "Browser: Lowongan Kerja"
     },
     {
       "start": "07:35",
       "title": "Browser: Akomodasi",
-      "title_en": "Browser: Accommodation"
+      "title_en": "Browser: Accommodation",
+      "title_id": "Browser: Akomodasi"
     },
     {
       "start": "07:55",
       "title": "Browser: Mulai Daftar",
-      "title_en": "Browser: Start your application"
+      "title_en": "Browser: Start your application",
+      "title_id": "Browser: Mulai Daftar"
     },
     {
       "start": "08:06",
       "title": "Browser: Kantor & formulir",
-      "title_en": "Browser: Offices & forms"
+      "title_en": "Browser: Offices & forms",
+      "title_id": "Browser: Kantor & formulir"
     },
     {
       "start": "08:20",
       "title": "Konsultasi gratis",
-      "title_en": "Free consultation"
+      "title_en": "Free consultation",
+      "title_id": "Konsultasi gratis"
     }
   ],
   "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",

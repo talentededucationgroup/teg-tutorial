@@ -959,7 +959,7 @@
    "deadline": "",
    "intake": "2027",
    "url": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf",
-   "source_checked": "2026-11-11",
+   "source_checked": "2026-11-15",
    "partner": true,
    "notes": "Diberikan otomatis bila memenuhi syarat (tanpa aplikasi terpisah) untuk seluruh durasi kursus. Cek daftar program yang dikecualikan di Terms & Conditions 2027.",
    "i18n": {
@@ -974,8 +974,7 @@
      "intake": "2027",
      "notes": "Awarded automatically if eligible (no separate application) for the whole course. Check the list of exempt courses in the 2027 Terms & Conditions."
     }
-   },
-   "checked": "2026-11-15"
+   }
   },
   {
    "id": "au-cdu-bachelor-nursing",

@@ -948,33 +948,34 @@
     "S2",
     "S3"
    ],
-   "fields": "Program tertentu",
+   "fields": "Banyak program TAFE, Bachelor, Master coursework & HDR (ada yang dikecualikan, mis. Bachelor of Nursing, PhD, Master of Research)",
    "funding": "Sebagian",
    "coverage": "Potongan tuition",
    "amount": "Potongan tuition 30%",
-   "eligibility": "Mahasiswa internasional baru yang mulai 2026/2027, kuliah penuh waktu on-campus di Sydney, Alice Springs, atau Darwin, dan memenuhi syarat masuk.",
+   "eligibility": "Siswa internasional baru yang memulai kursus pertama di CDU tahun 2027, studi penuh waktu dengan visa pelajar, memenuhi syarat masuk; tidak bisa digabung dengan potongan CDU lain.",
    "english_test": "",
    "status": "Buka",
    "open_date": "",
    "deadline": "",
    "intake": "2027",
-   "url": "https://www.cdu.edu.au/international/how-apply/scholarships",
+   "url": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Otomatis dinilai saat mendaftar program yang memenuhi syarat (TAFE, S1, S2, riset).",
+   "notes": "Diberikan otomatis bila memenuhi syarat (tanpa aplikasi terpisah) untuk seluruh durasi kursus. Cek daftar program yang dikecualikan di Terms & Conditions 2027.",
    "i18n": {
     "en": {
      "name": "CDU Global Merit Scholarship",
      "provider": "Charles Darwin University (CDU)",
      "country": "Australia",
-     "fields": "Selected programmes",
+     "fields": "Many TAFE, Bachelor, coursework Master & HDR courses (some exempt, e.g. Bachelor of Nursing, PhD, Master of Research)",
      "coverage": "Tuition reduction",
      "amount": "30% tuition reduction",
-     "eligibility": "New international students starting in 2026/2027, studying full-time on campus in Sydney, Alice Springs or Darwin, and meeting entry requirements.",
+     "eligibility": "New international students starting their first CDU course in 2027, studying full-time on a student visa and meeting entry requirements; cannot be combined with other CDU tuition discounts.",
      "intake": "2027",
-     "notes": "Assessed automatically when applying for an eligible programme (TAFE, Bachelor's, Master's, research)."
+     "notes": "Awarded automatically if eligible (no separate application) for the whole course. Check the list of exempt courses in the 2027 Terms & Conditions."
     }
-   }
+   },
+   "checked": "2026-11-15"
   },
   {
    "id": "au-cdu-bachelor-nursing",

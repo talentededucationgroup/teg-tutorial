@@ -1,0 +1,134 @@
+{
+ "version": "2026-11-15",
+ "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
+ "label": {
+  "id": "Sponsored",
+  "en": "Sponsored"
+ },
+ "founding_label": {
+  "id": "Founding Partner",
+  "en": "Founding Partner"
+ },
+ "slots": {
+  "hero": {
+   "max": 4,
+   "where": "Atas halaman, di bawah video tutorial (carousel)",
+   "size": "1200x400 px (desktop) + 800x800 px (HP), JPG/PNG/WebP <= 300 KB"
+  },
+  "featured": {
+   "max": 2,
+   "where": "Kartu Sponsored di atas hasil Program studi, hanya bila negara/bidang cocok",
+   "size": "Teks + logo 400x400 px"
+  },
+  "tab": {
+   "max": 1,
+   "where": "Atas tab Bea siswa / ELICOS / Pathway / Akomodasi (field tab)",
+   "size": "1200x250 px"
+  }
+ },
+ "items": [
+  {
+   "id": "cdu-founding-2026",
+   "provider": "Charles Darwin University (CDU)",
+   "cricos": "00300K",
+   "slot": [
+    "hero",
+    "featured"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Charles Darwin"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "en": "Charles Darwin University - CDU Global Merit Scholarship 30%"
+   },
+   "text": {
+    "id": "Potongan 30% tuition otomatis untuk banyak program Bachelor, Master & TAFE intake 2027 (ada program yang dikecualikan - cek syarat). Kampus Darwin, Sydney & lainnya.",
+    "en": "Automatic 30% tuition reduction for many 2027 Bachelor, Master & TAFE courses (some courses exempt - check conditions). Darwin, Sydney and other campuses."
+   },
+   "cta": {
+    "id": "Lihat program & biaya CDU",
+    "en": "See CDU programs & costs"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Charles Darwin"
+   },
+   "source": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf",
+   "checked": "2026-11-15",
+   "image": null
+  },
+  {
+   "id": "aiat-founding-2026",
+   "provider": "Australian Institute of Advanced Technologies (AIAT)",
+   "cricos": "04191M",
+   "slot": [
+    "hero",
+    "featured"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Australian Institute of Advanced Technologies"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "AIAT Adelaide - IT, AI & MBA",
+    "en": "AIAT Adelaide - IT, AI & MBA"
+   },
+   "text": {
+    "id": "Bachelor & Master of Information Technology dan MBA (Leadership and Innovation) di pusat kota Adelaide.",
+    "en": "Bachelor & Master of Information Technology and MBA (Leadership and Innovation) in Adelaide's city centre."
+   },
+   "cta": {
+    "id": "Lihat program & biaya AIAT",
+    "en": "See AIAT programs & costs"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Australian Institute of Advanced Technologies"
+   },
+   "source": "https://search.studyaustralia.gov.au/provider/australian-institute-of-advanced-technologies/2c8cb290bce3fd532d1eb40a5b3d0d3f",
+   "checked": "2026-11-15",
+   "image": null
+  }
+ ],
+ "advertise": {
+  "title": {
+   "id": "Pasang iklan di Talented",
+   "en": "Advertise with Talented"
+  },
+  "intro": {
+   "id": "Tampilkan institusi Anda di depan calon siswa Indonesia & Asia Tenggara yang sedang membandingkan biaya studi, dalam 15 bahasa.",
+   "en": "Put your institution in front of Indonesian & Southeast Asian students who are actively comparing study costs, in 15 languages."
+  },
+  "terms": {
+   "id": [
+    "Setiap iklan berlabel \"Sponsored\".",
+    "Iklan tidak mengubah harga, urutan, filter, atau isi rincian program.",
+    "Wajib kode CRICOS/registrasi resmi; isi iklan harus akurat dan sesuai dokumen resmi (tanpa klaim \"pasti visa\"/\"pasti beasiswa\").",
+    "Iklan ditayangkan setelah disetujui Talented. Iklan yang ditolak akan dikembalikan dananya.",
+    "Talented berhak menurunkan iklan yang melanggar ketentuan."
+   ],
+   "en": [
+    "Every ad is labelled \"Sponsored\".",
+    "Ads never change prices, sorting, filters or programme details.",
+    "An official CRICOS/registration code is required; ad content must be accurate and match official documents (no \"guaranteed visa\"/\"guaranteed scholarship\" claims).",
+    "Ads go live only after Talented approves them. Rejected orders are refunded.",
+    "Talented may remove ads that breach these terms."
+   ]
+  },
+  "form_url": null
+ }
+}

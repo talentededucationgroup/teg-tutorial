@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16c",
+ "version": "2026-11-16d",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -630,5 +630,110 @@
    "nib": 725.81
   },
   "basis": "Quote 12 bulan Single dicek 16/11/2026 (laporan pemilik/ChatGPT); tarif per bulan perhitungan tetap R103 (selisih <= AUD 0,05/tahun)."
+ },
+ "rates": {
+  "version": "2026-11-16",
+  "currency": "AUD",
+  "basis": "Polis 12 bulan, cover 01/12/2026-30/11/2027; per bulan = premi 12 bulan / 12 (dibulatkan 2 desimal). null = belum tersedia di sumber resmi -> tampilkan \"konfirmasi ke konsultan TEG\".",
+  "excel_revision": "R103",
+  "default_provider": "ahm",
+  "auto_update": "Dicek ulang otomatis tiap tanggal 1 (tugas terjadwal bulanan). Angka hanya diubah bila sumber resmi berubah; selisih >10% ditahan untuk konfirmasi pemilik.",
+  "providers": {
+   "ahm": {
+    "monthly_aud": {
+     "single": 56.78,
+     "couple": 612.88,
+     "single_parent": 612.88,
+     "family": 1297.97
+    },
+    "annual_aud": {
+     "single": 681.4,
+     "couple": 7354.6,
+     "single_parent": 7354.6,
+     "family": 15575.6
+    },
+    "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
+    "checked": {
+     "single": "2026-11-16",
+     "couple_single_parent_family": "2026-11-12"
+    }
+   },
+   "Allianz Care": {
+    "monthly_aud": {
+     "single": 55.42,
+     "couple": 445.92,
+     "single_parent": null,
+     "family": 792.92
+    },
+    "annual_aud": {
+     "single": 665,
+     "couple": 5351,
+     "single_parent": null,
+     "family": 9515
+    },
+    "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
+    "checked": {
+     "single": "2026-11-16",
+     "couple_single_parent_family": "2026-11-12"
+    }
+   },
+   "Bupa": {
+    "monthly_aud": {
+     "single": 59.42,
+     "couple": 460.63,
+     "single_parent": 460.63,
+     "family": 1140.92
+    },
+    "annual_aud": {
+     "single": 713,
+     "couple": 5527.5,
+     "single_parent": 5527.5,
+     "family": 13691.04
+    },
+    "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
+    "checked": {
+     "single": "2026-11-16",
+     "couple_single_parent_family": "2026-11-12"
+    }
+   },
+   "Medibank": {
+    "monthly_aud": {
+     "single": 59.92,
+     "couple": 552.84,
+     "single_parent": 552.84,
+     "family": 1353.26
+    },
+    "annual_aud": {
+     "single": 719,
+     "couple": 6634.1,
+     "single_parent": 6634.1,
+     "family": 16239.15
+    },
+    "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
+    "checked": {
+     "single": "2026-11-16",
+     "couple_single_parent_family": "2026-11-12"
+    }
+   },
+   "nib": {
+    "monthly_aud": {
+     "single": 60.48,
+     "couple": 533.5,
+     "single_parent": null,
+     "family": 1331.58
+    },
+    "annual_aud": {
+     "single": 725.81,
+     "couple": 6402,
+     "single_parent": null,
+     "family": 15979
+    },
+    "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
+    "checked": {
+     "single": "2026-11-16",
+     "couple_single_parent_family": "2026-11-12"
+    }
+   }
+  }
  }
 }

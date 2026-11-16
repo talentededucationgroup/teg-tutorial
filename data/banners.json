@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16b",
+ "version": "2026-11-16c",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -128,7 +128,14 @@
    },
    "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/aih.webp",
+    "width": 219,
+    "height": 80,
+    "source": "https://aih.edu.au/wp-content/uploads/2024/07/logo-green.svg",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "astra-promo-2026",
@@ -204,7 +211,14 @@
    },
    "source": "https://search.studyaustralia.gov.au/",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/astra.webp",
+    "width": 282,
+    "height": 80,
+    "source": "https://astra.edu.au/wp-content/uploads/2021/07/astra-higher-education.svg",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "kent-promo-2026",
@@ -280,7 +294,14 @@
    },
    "source": "https://www.kent.edu.au",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/kent.webp",
+    "width": 138,
+    "height": 80,
+    "source": "https://kent.edu.au/wp-content/uploads/Kent-Institute-Logo.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "koi-promo-2026",
@@ -355,7 +376,14 @@
    },
    "source": "https://koi.edu.au/wp-content/uploads/2026/02/2026-KOI-Student-Information.pdf",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/koi.webp",
+    "width": 182,
+    "height": 80,
+    "source": "https://koi.edu.au/wp-content/uploads/2019/12/logo.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "cdu-founding-2026",
@@ -431,7 +459,14 @@
    },
    "source": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf",
    "checked": "2026-11-15",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/cdu.webp",
+    "width": 195,
+    "height": 80,
+    "source": "https://www.cdu.edu.au/ (logo SVG di header)",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "aiat-founding-2026",
@@ -507,7 +542,14 @@
    },
    "source": "https://search.studyaustralia.gov.au/provider/australian-institute-of-advanced-technologies/2c8cb290bce3fd532d1eb40a5b3d0d3f",
    "checked": "2026-11-15",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/aiat.webp",
+    "width": 353,
+    "height": 80,
+    "source": "https://aiat.edu.au/wp-content/uploads/2024/10/AIAT-logo.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "apic-promo-2026",
@@ -583,7 +625,14 @@
    },
    "source": "https://apicollege.edu.au/scholarship/",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/apic.webp",
+    "width": 138,
+    "height": 80,
+    "source": "https://cdn.prod.website-files.com/6a44d370149878dc8cc91c5b/6adb03fb10d09ea0b8730d74_apic-logo-tight.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "greenwich-promo-2026",
@@ -659,7 +708,14 @@
    },
    "source": "Greenwich College VET price list Q4 2026 (v10), hal. 4 & 10",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/greenwich.webp",
+    "width": 260,
+    "height": 80,
+    "source": "https://greenwichcollege.edu.au/wp-content/uploads/2026/10/Greenwich_Logo_Apr2023_GC_Greenwich_College_Logo_Colour_Apr2023-scaled-e1792064743292-1024x279.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "cihe-promo-2026",
@@ -735,7 +791,14 @@
    },
    "source": "https://www.cihe.edu.au/wp-content/uploads/2026/08/2026_International_Course_Fees_v1.1.pdf",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/cihe.webp",
+    "width": 80,
+    "height": 80,
+    "source": "https://www.cihe.edu.au/wp-content/uploads/2026/01/CIHE_PrimaryLogo_Standard_Colour_RGB-1.png",
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "utas-promo-2026",
@@ -811,7 +874,14 @@
    },
    "source": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-international-scholarship",
    "checked": "2026-11-16",
-   "image": null
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/utas.webp",
+    "width": 321,
+    "height": 80,
+    "source": "https://www.utas.edu.au/__data/assets/git_bridge/0012/1368768/dist/mysource_files/logo.svg",
+    "checked": "2026-11-16"
+   }
   }
  ],
  "advertise": {
@@ -957,5 +1027,6 @@
    ]
   },
   "form_url": "https://form.jotform.com/263181709123050"
- }
+ },
+ "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah."
 }

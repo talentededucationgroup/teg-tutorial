@@ -31,109 +31,125 @@ Way 2: your browser – click the link below this video.
 Open the price list page and pick your language at the top right – 15 languages. Below: verified-agent badges, then this tutorial video.
 
 9
-00:01:52,530 --> 00:02:09,930
-The menu: programmes, English, pathways, other schools, IELTS/PTE/Korean/Japanese classes, scholarships, jobs, accommodation and start your application.
+00:01:52,530 --> 00:02:15,090
+The menu: programmes, English, pathways, other schools, IELTS/PTE/Korean/Japanese classes, scholarships, jobs, accommodation and start your application – plus FREE Mock Test and free consultation buttons.
 
 10
-00:02:10,530 --> 00:02:28,820
-Buttons to install the Talented app and check prices now, plus TEG event videos: info sessions, seminars and school expos.
+00:02:15,690 --> 00:02:38,880
+Sponsored banners show the latest promos and scholarships from partner schools. Use the numbers or arrows, then click the button to see that school's programmes and costs. Ads never change prices or sorting.
 
 11
-00:02:29,420 --> 00:02:47,380
-Choose your country – Australia, New Zealand and many more – then Offshore (still in Indonesia) or Onshore (already there).
+00:02:39,480 --> 00:02:50,720
+Talented event videos: info sessions, seminars and school expos – click to watch.
 
 12
-00:02:47,980 --> 00:02:57,200
-Search by course or school, then filter by city, field and level.
+00:02:51,320 --> 00:03:09,280
+Choose your country – Australia, New Zealand and many more – then Offshore (still in Indonesia) or Onshore (already there).
 
 13
-00:02:57,800 --> 00:03:05,840
-Pick your OSHC provider – insurance costs are recalculated for every result.
+00:03:09,880 --> 00:03:19,100
+Search by course or school, then filter by city, field and level.
 
 14
-00:03:06,440 --> 00:03:17,270
-Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
+00:03:19,700 --> 00:03:39,360
+Enter your IELTS or PTE overall score: each card shows whether it meets the listed minimum. You can also filter for programmes with automatic scholarships.
 
 15
-00:03:17,870 --> 00:03:28,670
-Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
+00:03:39,960 --> 00:03:48,000
+Pick your OSHC provider – insurance costs are recalculated for every result.
 
 16
-00:03:29,270 --> 00:03:39,930
-Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
+00:03:48,600 --> 00:03:59,430
+Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
 
 17
-00:03:40,530 --> 00:03:52,490
-Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
+00:04:00,030 --> 00:04:10,830
+Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
 
 18
-00:03:53,090 --> 00:04:07,690
-Tick “Add estimated living costs” to include living costs for the whole study period in the total.
+00:04:11,430 --> 00:04:31,880
+Green badge = scholarship (e.g. automatic 30%); yellow badge = Special discount Talented from the 2nd payment. The card says whether prices are before or after the scholarship.
 
 19
-00:04:08,290 --> 00:04:30,450
-Bringing family: tick partner, enter the number of children and answer the school-age question. Visa, OSHC and recommended balance are calculated; a warning shows the right policy type.
+00:04:32,480 --> 00:04:43,140
+Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
 
 20
-00:04:31,050 --> 00:04:44,280
-In the details, the visa fee is shown per person, plus the Professional Admin fee and the Professional Admin fee per dependant – all added to the upfront cost.
+00:04:43,740 --> 00:04:55,700
+Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
 
 21
-00:04:44,880 --> 00:04:56,310
-Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
+00:04:56,300 --> 00:05:10,900
+Tick “Add estimated living costs” to include living costs for the whole study period in the total.
 
 22
-00:04:56,910 --> 00:05:10,570
-The PDF downloads straight away – every page has the Talented logo, a document code, date, QR code and watermark.
+00:05:11,500 --> 00:05:33,660
+Bringing family: tick partner, enter the number of children and answer the school-age question. Visa, OSHC and recommended balance are calculated; a warning shows the right policy type.
 
 23
-00:05:11,170 --> 00:05:25,600
-Tick Select on the programmes you like (up to 6), then click Compare – and download the comparison as a PDF.
+00:05:34,260 --> 00:05:47,490
+In the details, the visa fee is shown per person, plus the Professional Admin fee and the Professional Admin fee per dependant – all added to the upfront cost.
 
 24
-00:05:26,200 --> 00:05:41,999
-Your selected programmes appear in the bottom bar: download them as a PDF (comparison table and/or full details) or send the PDF to WhatsApp.
+00:05:48,090 --> 00:05:59,520
+Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
 
 25
-00:05:42,600 --> 00:05:57,600
-English (ELICOS): weekly fees with a 10-week simulation of upfront cost, total cost and recommended balance.
+00:06:00,120 --> 00:06:13,780
+The PDF downloads straight away – every page has the Talented logo, a document code, date, QR code and watermark.
 
 26
-00:05:58,200 --> 00:06:16,250
-Pathway packages: VET at one school, then a Bachelor at another, with upfront cost, total and recommended balance.
+00:06:14,380 --> 00:06:34,999
+Catalogue PDF links from your consultant open in your chosen language. When it says ready, click Save PDF / ZIP; if it fails or the link is incomplete, a message and a Try again button appear.
 
 27
-00:06:16,850 --> 00:06:30,730
-Other schools: the official CRICOS directory – 1,539 schools with courses and indicative prices.
+00:06:35,600 --> 00:06:49,810
+Tick Select on the programmes you like (up to 10), then click Compare – and download the comparison as a PDF.
 
 28
-00:06:31,330 --> 00:06:45,010
-IELTS/PTE preparation with Victory Scholars Academy – TEG is a Pearson PTE Elite Partner 2026.
+00:06:50,410 --> 00:07:06,210
+Your selected programmes appear in the bottom bar: download them as a PDF (comparison table and/or full details) or send the PDF to WhatsApp.
 
 29
-00:06:45,610 --> 00:06:57,230
-Basic English, PTE Foundation, IELTS/PTE Preparation, Japanese and Korean – online and offline, priced in IDR.
+00:07:06,810 --> 00:07:22,580
+English (ELICOS): weekly fees with a simulation based on each school's base weeks – upfront cost, total cost and recommended balance.
 
 30
-00:06:57,830 --> 00:07:19,510
-Scholarships: active scholarships for Indonesian students – filter by country, level, provider and funding, or TEG partner campuses. Always check the official source.
+00:07:23,180 --> 00:07:41,230
+Pathway packages: VET at one school, then a Bachelor at another, with upfront cost, total and recommended balance.
 
 31
-00:07:20,110 --> 00:07:34,780
-Job listings updated automatically twice a day. Never pay to get a job.
+00:07:41,830 --> 00:07:55,710
+Other schools: the official CRICOS directory – 1,539 schools with courses and indicative prices.
 
 32
-00:07:35,380 --> 00:07:55,520
-Accommodation: student housing providers with price ranges. Never transfer money before an official contract.
+00:07:56,310 --> 00:08:09,990
+IELTS/PTE preparation with Victory Scholars Academy – TEG is a Pearson PTE Elite Partner 2026.
 
 33
-00:07:56,120 --> 00:08:05,840
-Start your application: document checklist, process steps and a student visa process video.
+00:08:10,590 --> 00:08:22,210
+Basic English, PTE Foundation, IELTS/PTE Preparation, Japanese and Korean – online and offline, priced in IDR.
 
 34
-00:08:06,440 --> 00:08:20,340
-Our offices in Sydney, Pontianak and Singkawang, and the Student Information Form (PDF/Excel).
+00:08:22,810 --> 00:08:44,490
+Scholarships: active scholarships for Indonesian students – filter by country, level, provider and funding, or TEG partner campuses. Always check the official source.
 
 35
-00:08:20,940 --> 00:08:45,330
+00:08:45,090 --> 00:08:59,760
+Job listings updated automatically twice a day. Never pay to get a job.
+
+36
+00:09:00,360 --> 00:09:20,500
+Accommodation: student housing providers with price ranges. Never transfer money before an official contract.
+
+37
+00:09:21,100 --> 00:09:30,820
+Start your application: document checklist, process steps and a student visa process video.
+
+38
+00:09:31,420 --> 00:09:45,320
+Our offices in Sydney, Pontianak and Singkawang, and the Student Information Form (PDF/Excel).
+
+39
+00:09:45,920 --> 00:10:10,310
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

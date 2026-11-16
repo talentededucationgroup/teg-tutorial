@@ -1,0 +1,293 @@
+{
+ "version": "2026-11-16",
+ "checked": "2026-11-16",
+ "title": {
+  "id": "Perbandingan cover OSHC",
+  "en": "OSHC cover comparison"
+ },
+ "intro": {
+  "id": "Semua polis OSHC wajib memenuhi standar minimum pemerintah Australia. Perbedaannya ada di batas obat resep, layanan tambahan, dan masa tunggu. Harga per bulan mengikuti pilihan OSHC di atas.",
+  "en": "All OSHC policies must meet the Australian Government minimum. They differ in prescription limits, extra services and waiting periods. Monthly prices follow the OSHC selector above."
+ },
+ "disclaimer": {
+  "id": "Ringkasan informasi umum dari dokumen resmi masing-masing asuransi (tanggal cek tercantum), bukan saran asuransi. Benefit, limit, dan masa tunggu bisa berubah - baca dokumen polis atau tanya konsultan Talented sebelum membeli. Biaya selisih (gap) dokter bisa berlaku.",
+  "en": "General summary from each insurer's official documents (check date shown), not insurance advice. Benefits, limits and waiting periods can change - read the policy documents or ask a Talented consultant before buying. Doctor gap fees may apply."
+ },
+ "rows": [
+  {
+   "key": "product",
+   "label": {
+    "id": "Produk dasar",
+    "en": "Basic product"
+   }
+  },
+  {
+   "key": "gp",
+   "label": {
+    "id": "Dokter umum (GP) / spesialis",
+    "en": "GP / specialist"
+   }
+  },
+  {
+   "key": "pharmacy",
+   "label": {
+    "id": "Obat resep",
+    "en": "Prescriptions"
+   }
+  },
+  {
+   "key": "waiting",
+   "label": {
+    "id": "Masa tunggu",
+    "en": "Waiting periods"
+   }
+  },
+  {
+   "key": "mental",
+   "label": {
+    "id": "Kesehatan mental",
+    "en": "Mental health"
+   }
+  },
+  {
+   "key": "perks",
+   "label": {
+    "id": "Layanan tambahan",
+    "en": "Extra services"
+   }
+  },
+  {
+   "key": "upgrade",
+   "label": {
+    "id": "Pilihan lebih tinggi",
+    "en": "Higher cover option"
+   }
+  }
+ ],
+ "common": {
+  "id": [
+   "Rawat inap rumah sakit (public/private sesuai jaringan) dan operasi",
+   "Ambulans darurat 100%",
+   "Masa tunggu tidak berlaku untuk perawatan darurat",
+   "Dental, optik, fisioterapi TIDAK termasuk di polis dasar",
+   "Mulai 1 Jan 2026 asuransi mulai menghapus masa tunggu kehamilan untuk polis 2 tahun atau lebih"
+  ],
+  "en": [
+   "Hospital admission (public/private per network) and surgery",
+   "100% emergency ambulance",
+   "Waiting periods do not apply to emergency treatment",
+   "Dental, optical and physio are NOT included in basic policies",
+   "From 1 Jan 2026 insurers began removing pregnancy waiting periods for policies of 2+ years"
+  ]
+ },
+ "providers": [
+  {
+   "name": "ahm",
+   "match": "AHM",
+   "status": "active",
+   "product": {
+    "id": "ahm OSHC (bagian dari grup Medibank)",
+    "en": "ahm OSHC (part of the Medibank group)"
+   },
+   "gp": {
+    "id": "Menanggung GP, spesialis, tes darah & rontgen (minimal 85% MBS sesuai standar pemerintah; persentase pasti di Member Guide)",
+    "en": "Covers GP, specialists, blood tests & x-rays (at least 85% MBS per government minimum; exact % in the Member Guide)"
+   },
+   "pharmacy": {
+    "id": "Minimal standar pemerintah: s.d. AUD 50/item, AUD 500/tahun (single) - konfirmasi di Cover Summary ahm",
+    "en": "Government minimum: up to AUD 50/item, AUD 500/year (single) - confirm in ahm Cover Summary"
+   },
+   "waiting": {
+    "id": "Lihat Member Guide ahm (umumnya 12 bln kondisi bawaan & kehamilan)",
+    "en": "See ahm Member Guide (typically 12 months pre-existing & pregnancy)"
+   },
+   "mental": {
+    "id": "Saluran 24/7 perawat & konseling: 1800 006 745",
+    "en": "24/7 nurse & counselling line: 1800 006 745"
+   },
+   "perks": {
+    "id": "Klaim dibayar ke rekening dalam 2 hari kerja; aplikasi & daftar provider direct billing; ahm Student Rewards (diskon Apple, Samsung, Hoyts, Uber)",
+    "en": "Claims paid to your bank within 2 business days; app & direct-billing provider list; ahm Student Rewards (Apple, Samsung, Hoyts, Uber offers)"
+   },
+   "upgrade": {
+    "id": "-",
+    "en": "-"
+   },
+   "sources": [
+    "https://ahm.com.au/oshc",
+    "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
+   ]
+  },
+  {
+   "name": "Allianz Care",
+   "match": "Allianz",
+   "status": "active",
+   "product": {
+    "id": "OSHC Standard",
+    "en": "OSHC Standard"
+   },
+   "gp": {
+    "id": "GP 100% MBS; spesialis, tes darah & rontgen 85% MBS",
+    "en": "GP 100% MBS; specialist, blood tests & x-rays 85% MBS"
+   },
+   "pharmacy": {
+    "id": "S.d. AUD 50/item; AUD 500/tahun single, AUD 1.000 dual/keluarga",
+    "en": "Up to AUD 50/item; AUD 500/year single, AUD 1,000 dual/family"
+   },
+   "waiting": {
+    "id": "Kondisi bawaan 12 bln; kehamilan 12 bln (tidak ada bila polis >= 2 tahun); psikiatri tanpa masa tunggu",
+    "en": "Pre-existing 12 mths; pregnancy 12 mths (none if policy >= 2 years); no psychiatric waiting period"
+   },
+   "mental": {
+    "id": "Dukungan wellbeing 24/7 (Sonder)",
+    "en": "24/7 wellbeing support (Sonder)"
+   },
+   "perks": {
+    "id": "Aplikasi Allianz MyHealth; helpline darurat 24/7; dukungan di kampus tertentu",
+    "en": "Allianz MyHealth app; 24/7 emergency helpline; on-campus support at participating campuses"
+   },
+   "upgrade": {
+    "id": "OSHC Essentials: obat AUD 750/tahun single (AUD 1.500 keluarga), tambahan psikologi s.d. AUD 50/konsultasi, repatriasi medis s.d. AUD 100.000",
+    "en": "OSHC Essentials: prescriptions AUD 750/year single (AUD 1,500 family), extra psychology up to AUD 50/consult, medical repatriation up to AUD 100,000"
+   },
+   "sources": [
+    "https://www.allianzcare.com.au/en/student-visa-oshc/cover"
+   ]
+  },
+  {
+   "name": "Bupa",
+   "match": "Bupa",
+   "status": "active",
+   "product": {
+    "id": "Bupa Overseas Student Health Cover",
+    "en": "Bupa Overseas Student Health Cover"
+   },
+   "gp": {
+    "id": "S.d. 100% MBS tanpa batas tahunan; Medical Gap Scheme saat rawat inap (gap s.d. AUD 500 atau nol bila dokter ikut)",
+    "en": "Up to 100% MBS, no yearly limit; Medical Gap Scheme in hospital (gap up to AUD 500 or none if the doctor participates)"
+   },
+   "pharmacy": {
+    "id": "S.d. AUD 50/item; AUD 500/orang, AUD 1.000/polis per tahun",
+    "en": "Up to AUD 50/item; AUD 500/person, AUD 1,000/policy per year"
+   },
+   "waiting": {
+    "id": "Kondisi bawaan s.d. 12 bln; kehamilan s.d. 12 bln (polis < 24 bln); masa tunggu psikiatri kondisi bawaan 2 bln sedang dihapus sementara",
+    "en": "Pre-existing up to 12 mths; pregnancy up to 12 mths (policies < 24 mths); 2-month pre-existing psychiatric wait currently waived"
+   },
+   "mental": {
+    "id": "Psikiatri rumah sakit & mental health care plan (MBS) ditanggung",
+    "en": "Hospital psychiatric care & MBS mental health care plans covered"
+   },
+   "perks": {
+    "id": "Konsultasi dokter online (Blua) umumnya ditanggung penuh; biaya IGD 100% walau tidak rawat inap; Student Advice Line 24 jam 1300 884 235; aplikasi myBupa",
+    "en": "Online GP (Blua) generally fully covered; 100% emergency department fee even if not admitted; 24h Student Advice Line 1300 884 235; myBupa app"
+   },
+   "upgrade": {
+    "id": "Advantage OSHC: tanpa masa tunggu; limit obat non-PBS AUD 600 single (AUD 1.200 keluarga)",
+    "en": "Advantage OSHC: no waiting periods; non-PBS prescription limit AUD 600 single (AUD 1,200 family)"
+   },
+   "sources": [
+    "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
+    "https://www.bupa.com.au/oshc/kcryplrn0u2uhralkchig"
+   ]
+  },
+  {
+   "name": "Medibank",
+   "match": "Medibank",
+   "status": "active",
+   "product": {
+    "id": "Essentials OSHC",
+    "en": "Essentials OSHC"
+   },
+   "gp": {
+    "id": "GP 100% MBS; spesialis, tes darah & rontgen 85% MBS; pasien privat di RS swasta/negeri",
+    "en": "GP 100% MBS; specialist, blood tests & x-rays 85% MBS; private patient in private/public hospitals"
+   },
+   "pharmacy": {
+    "id": "Bayar AUD 30/item, Medibank s.d. AUD 70/item; AUD 500/tahun single (AUD 1.000 keluarga)",
+    "en": "You pay AUD 30/item, Medibank up to AUD 70/item; AUD 500/year single (AUD 1,000 family)"
+   },
+   "waiting": {
+    "id": "Kehamilan 12 bln; GP, obat, ambulans & psikiatri RS tanpa masa tunggu; kondisi bawaan - konfirmasi ke Medibank",
+    "en": "Pregnancy 12 mths; no wait for GP, prescriptions, ambulance & hospital psychiatric; pre-existing - confirm with Medibank"
+   },
+   "mental": {
+    "id": "Student Health and Support Line 24/7: 1800 887 283",
+    "en": "24/7 Student Health and Support Line: 1800 887 283"
+   },
+   "perks": {
+    "id": "Ambulans darurat tanpa batas; aplikasi OSHC dengan konsultasi dokter online; RS Members' Choice",
+    "en": "Unlimited emergency ambulance; OSHC app with online doctor consults; Members' Choice hospitals"
+   },
+   "upgrade": {
+    "id": "Comprehensive OSHC: obat s.d. 100% biaya (AUD 1.000/tahun single), psikologi AUD 100 & konseling AUD 70/sesi (limit AUD 200), repatriasi s.d. AUD 100.000",
+    "en": "Comprehensive OSHC: prescriptions up to 100% of cost (AUD 1,000/year single), psychology AUD 100 & counselling AUD 70/session (AUD 200 limit), repatriation up to AUD 100,000"
+   },
+   "sources": [
+    "https://www.medibank.com.au/content/dam/b2c/docs/mpl/Essentials_OSHC_Cover_Summary.pdf",
+    "https://www.medibank.com.au/content/dam/b2c/docs/mpl/Comprehensive_OSHC_Cover_Summary.pdf"
+   ],
+   "note": {
+    "id": "Dokumen Medibank: 'current as at January 2025'",
+    "en": "Medibank documents: 'current as at January 2025'"
+   }
+  },
+  {
+   "name": "nib",
+   "match": "nib",
+   "status": "active",
+   "product": {
+    "id": "nib OSHC Core",
+    "en": "nib OSHC Core"
+   },
+   "gp": {
+    "id": "GP 100% MBS; spesialis, patologi & radiologi 85% MBS",
+    "en": "GP 100% MBS; specialist, pathology & radiology 85% MBS"
+   },
+   "pharmacy": {
+    "id": "S.d. AUD 50/item (obat PBS); AUD 500/tahun single, AUD 1.000 keluarga",
+    "en": "Up to AUD 50/item (PBS medicines); AUD 500/year single, AUD 1,000 family"
+   },
+   "waiting": {
+    "id": "Kondisi bawaan 12 bln; psikiatri kondisi bawaan 2 bln; kehamilan 12 bln (polis < 2 tahun)",
+    "en": "Pre-existing 12 mths; pre-existing psychiatric 2 mths; pregnancy 12 mths (policies < 2 years)"
+   },
+   "mental": {
+    "id": "Psikiatri RS (masa tunggu 2 bln untuk kondisi bawaan)",
+    "en": "Hospital psychiatric (2-month wait for pre-existing)"
+   },
+   "perks": {
+    "id": "Aplikasi nib untuk klaim foto kuitansi; layanan online 24 jam",
+    "en": "nib app for photo-receipt claims; 24h online services"
+   },
+   "upgrade": {
+    "id": "nib OSHC Student Care: tanpa masa tunggu kehamilan & psikiatri. nib OSHC Top Cover: obat 100% biaya, dental (AUD 1.000 umum/2.500 mayor), optik AUD 500",
+    "en": "nib OSHC Student Care: no pregnancy or psychiatric waiting periods. nib OSHC Top Cover: prescriptions 100% of cost, dental (AUD 1,000 general/2,500 major), optical AUD 500"
+   },
+   "sources": [
+    "https://www.nib.com.au/docs/oshc-fund-rules"
+   ],
+   "note": {
+    "id": "Fund rules nib berlaku 29 Juli 2026",
+    "en": "nib fund rules effective 29 July 2026"
+   }
+  },
+  {
+   "name": "CBHS International Health",
+   "match": "CBHS",
+   "status": "closed",
+   "product": {
+    "id": "Tidak lagi dijual ke anggota baru sejak 1 November 2025",
+    "en": "No longer sold to new members since 1 November 2025"
+   },
+   "sources": [
+    "https://www.cbhsinternationalhealth.com.au/overseas-students-oshc"
+   ],
+   "note": {
+    "id": "Tidak tercantum di daftar asuransi OSHC pemerintah (fact sheet 2026). Jangan ditawarkan ke siswa baru.",
+    "en": "Not listed among OSHC insurers in the government fact sheet (2026). Do not offer to new students."
+   }
+  }
+ ],
+ "government_source": "https://www.health.gov.au/sites/default/files/2026-08/overseas-student-health-cover-oshc-fact-sheet.pdf"
+}

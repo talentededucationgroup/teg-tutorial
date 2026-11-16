@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16b",
+ "version": "2026-11-16c",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -114,15 +114,19 @@
     "en": "-"
    },
    "sources": [
-    "https://ahm.com.au/oshc",
+    "https://www.ahmoshc.com.au/content/dam/b2c/docs/ahm/ahm_OSHC_Member_Guide.pdf",
     "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
    ],
    "docs": {
-    "policy": "https://ahm.com.au/oshc",
+    "policy": "https://www.ahmoshc.com.au/content/dam/b2c/docs/ahm/ahm_OSHC_Member_Guide.pdf",
     "guide": "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
    },
    "buy_url": null,
-   "logo": null
+   "logo": null,
+   "document_dates": {
+    "policy": "2023-11"
+   },
+   "checked": "2026-11-16"
   },
   {
    "name": "Allianz Care",
@@ -164,7 +168,8 @@
     "guide": "https://allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/docs/IH-0073-OSHC_Simple_Guide.pdf"
    },
    "buy_url": null,
-   "logo": null
+   "logo": null,
+   "checked": "2026-11-16"
   },
   {
    "name": "Bupa",
@@ -200,14 +205,18 @@
    },
    "sources": [
     "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
-    "https://www.bupa.com.au/oshc/kcryplrn0u2uhralkchig"
+    "https://www.bupa.com.au/health-insurance/oshc/get-bupa/-/media/E967B67EA12D4622A7821C9D402433B5.ashx"
    ],
    "docs": {
     "policy": "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
-    "guide": "https://www.bupa.com.au/oshc/kcryplrn0u2uhralkchig"
+    "guide": "https://www.bupa.com.au/health-insurance/oshc/get-bupa/-/media/E967B67EA12D4622A7821C9D402433B5.ashx"
    },
    "buy_url": null,
-   "logo": null
+   "logo": null,
+   "document_dates": {
+    "guide": "2026-06-30"
+   },
+   "checked": "2026-11-16"
   },
   {
    "name": "Medibank",
@@ -254,7 +263,8 @@
     "guide": "https://www.medibank.com.au/overseas-student-health-cover/"
    },
    "buy_url": null,
-   "logo": null
+   "logo": null,
+   "checked": "2026-11-16"
   },
   {
    "name": "nib",
@@ -289,7 +299,8 @@
     "en": "nib OSHC Student Care: no pregnancy or psychiatric waiting periods. nib OSHC Top Cover: prescriptions 100% of cost, dental (AUD 1,000 general/2,500 major), optical AUD 500"
    },
    "sources": [
-    "https://www.nib.com.au/docs/oshc-fund-rules"
+    "https://www.nib.com.au/docs/oshc-fund-rules",
+    "https://www.nib.com.au/docs/oshc-fact-sheet"
    ],
    "note": {
     "id": "Fund rules nib berlaku 29 Juli 2026",
@@ -297,10 +308,14 @@
    },
    "docs": {
     "policy": "https://www.nib.com.au/docs/oshc-fund-rules",
-    "guide": "https://www.nib.com.au/overseas-students/documents/nib-oshc-product-brochure.pdf"
+    "guide": "https://www.nib.com.au/docs/oshc-fact-sheet"
    },
    "buy_url": null,
-   "logo": null
+   "logo": null,
+   "document_dates": {
+    "guide": "2026-06-16"
+   },
+   "checked": "2026-11-16"
   },
   {
    "name": "CBHS International Health",
@@ -602,5 +617,18 @@
    "id": "Dipilih",
    "en": "Selected"
   }
+ },
+ "single_quote": {
+  "start": "2026-12-01",
+  "end": "2027-11-30",
+  "adults": 1,
+  "annual_aud": {
+   "ahm": 681.4,
+   "Allianz Care": 665.0,
+   "Bupa": 713.0,
+   "Medibank": 719.0,
+   "nib": 725.81
+  },
+  "basis": "Quote 12 bulan Single dicek 16/11/2026 (laporan pemilik/ChatGPT); tarif per bulan perhitungan tetap R103 (selisih <= AUD 0,05/tahun)."
  }
 }

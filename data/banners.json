@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16c",
+ "version": "2026-11-17a",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -37,8 +37,8 @@
  },
  "slots": {
   "hero": {
-   "max": 10,
-   "where": "Atas halaman, di bawah video tutorial (carousel, maks. 10 slide, urut sesuai items)",
+   "max": 19,
+   "where": "Atas halaman, di bawah video tutorial (carousel, maks. sesuai slots.hero.max, urut sesuai items)",
    "size": "1200x400 px (desktop) + 800x800 px (HP), JPG/PNG/WebP <= 300 KB"
   },
   "featured": {
@@ -65,7 +65,7 @@
     "country": "AU",
     "q": "AIH Higher Education"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -148,7 +148,7 @@
     "country": "AU",
     "q": "Astra Institute"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -231,7 +231,7 @@
     "country": "AU",
     "q": "Kent Institute"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -314,7 +314,7 @@
     "country": "AU",
     "q": "King's Own Institute (KOI)"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -396,7 +396,7 @@
     "country": "AU",
     "q": "Charles Darwin"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -479,7 +479,7 @@
     "country": "AU",
     "q": "Australian Institute of Advanced Technologies"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -562,7 +562,7 @@
     "country": "AU",
     "q": "Asia Pacific International College"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -645,7 +645,7 @@
     "country": "AU",
     "q": "Greenwich College"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -728,7 +728,7 @@
     "country": "AU",
     "q": "CIHE"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -811,7 +811,7 @@
     "country": "AU",
     "q": "University of Tasmania"
    },
-   "plan": "trial",
+   "plan": "partner_bonus",
    "founding_partner": true,
    "approved": true,
    "start": "2026-11-16",
@@ -881,6 +881,753 @@
     "height": 80,
     "source": "https://www.utas.edu.au/__data/assets/git_bridge/0012/1368768/dist/mysource_files/logo.svg",
     "checked": "2026-11-16"
+   }
+  },
+  {
+   "id": "kings-partner-2026",
+   "provider": "King's School of Culinary Arts",
+   "cricos": "03994F",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "King's School of Culinary Arts"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "King's - Kuliner & Hospitality di Sydney",
+    "en": "King's - Culinary Arts & Hospitality in Sydney",
+    "th": "King's - การประกอบอาหารและการโรงแรมที่ซิดนีย์",
+    "vi": "King's - Ẩm thực & Nhà hàng khách sạn tại Sydney",
+    "zh": "King's - 悉尼烹饪与酒店管理",
+    "ja": "King's - シドニーで調理・ホスピタリティ",
+    "ko": "King's - 시드니 조리·호스피탈리티",
+    "km": "King's - ធ្វើម្ហូប និងបដិសណ្ឋារកិច្ចនៅស៊ីដនី",
+    "fr": "King's - Arts culinaires et hôtellerie à Sydney",
+    "pt": "King's - Culinária e Hotelaria em Sydney",
+    "es": "King's - Cocina y Hostelería en Sídney",
+    "de": "King's - Kochkunst & Hospitality in Sydney",
+    "it": "King's - Cucina e Ospitalità a Sydney",
+    "nl": "King's - Culinair & Hospitality in Sydney",
+    "ru": "King's - Кулинария и гостеприимство в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya King's",
+    "en": "See King's programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ King's",
+    "vi": "Xem chương trình & chi phí King's",
+    "zh": "查看 King's 课程与费用",
+    "ja": "King's のプログラムと費用を見る",
+    "ko": "King's 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា King's",
+    "fr": "Voir les programmes et coûts King's",
+    "pt": "Ver cursos e custos da King's",
+    "es": "Ver programas y costos de King's",
+    "de": "King's: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi King's",
+    "nl": "Bekijk opleidingen & kosten van King's",
+    "ru": "Программы и стоимость King's"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "King's School of Culinary Arts"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/kings.webp",
+    "width": 284,
+    "height": 80,
+    "source": "https://kings.nsw.edu.au/wp-content/uploads/2022/07/kings-logo-gold.png",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "wic-partner-2026",
+   "provider": "Wells International College (WIC)",
+   "cricos": "01856K",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Wells International College"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "WIC - Hospitality, Masak, IT & Leadership di Sydney",
+    "en": "WIC - Hospitality, Cookery, IT & Leadership in Sydney",
+    "th": "WIC - การโรงแรม การประกอบอาหาร IT และภาวะผู้นำที่ซิดนีย์",
+    "vi": "WIC - Nhà hàng khách sạn, Nấu ăn, IT & Lãnh đạo tại Sydney",
+    "zh": "WIC - 悉尼酒店、烹饪、IT 与领导力课程",
+    "ja": "WIC - シドニーでホスピタリティ・調理・IT・リーダーシップ",
+    "ko": "WIC - 시드니 호스피탈리티·조리·IT·리더십",
+    "km": "WIC - បដិសណ្ឋារកិច្ច ធ្វើម្ហូប IT និងភាពជាអ្នកដឹកនាំនៅស៊ីដនី",
+    "fr": "WIC - Hôtellerie, cuisine, IT et leadership à Sydney",
+    "pt": "WIC - Hotelaria, Culinária, TI e Liderança em Sydney",
+    "es": "WIC - Hostelería, Cocina, TI y Liderazgo en Sídney",
+    "de": "WIC - Hospitality, Kochen, IT & Leadership in Sydney",
+    "it": "WIC - Ospitalità, Cucina, IT e Leadership a Sydney",
+    "nl": "WIC - Hospitality, Koken, IT & Leiderschap in Sydney",
+    "ru": "WIC - Гостеприимство, кулинария, IT и лидерство в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya WIC",
+    "en": "See WIC programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ WIC",
+    "vi": "Xem chương trình & chi phí WIC",
+    "zh": "查看 WIC 课程与费用",
+    "ja": "WIC のプログラムと費用を見る",
+    "ko": "WIC 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា WIC",
+    "fr": "Voir les programmes et coûts WIC",
+    "pt": "Ver cursos e custos da WIC",
+    "es": "Ver programas y costos de WIC",
+    "de": "WIC: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi WIC",
+    "nl": "Bekijk opleidingen & kosten van WIC",
+    "ru": "Программы и стоимость WIC"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Wells International College"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/wic.webp",
+    "width": 164,
+    "height": 80,
+    "source": "https://www.wic.edu.au/wp-content/uploads/2019/09/logo.png",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "times-partner-2026",
+   "provider": "Times Academy",
+   "cricos": "03457J",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Times Academy"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "Times Academy - PAUD, Aged Care, Leadership & HR di Sydney",
+    "en": "Times Academy - Early Childhood, Aged Care, Leadership & HR in Sydney",
+    "th": "Times Academy - การศึกษาปฐมวัย การดูแลผู้สูงอายุ ภาวะผู้นำ และ HR ที่ซิดนีย์",
+    "vi": "Times Academy - Mầm non, Chăm sóc người cao tuổi, Lãnh đạo & Nhân sự tại Sydney",
+    "zh": "Times Academy - 悉尼幼教、养老护理、领导力与人力资源",
+    "ja": "Times Academy - シドニーで幼児教育・高齢者ケア・リーダーシップ・人事",
+    "ko": "Times Academy - 시드니 유아교육·노인돌봄·리더십·인사",
+    "km": "Times Academy - អប់រំកុមារតូច ថែទាំមនុស្សចាស់ ភាពជាអ្នកដឹកនាំ និង HR នៅស៊ីដនី",
+    "fr": "Times Academy - Petite enfance, soins aux aînés, leadership et RH à Sydney",
+    "pt": "Times Academy - Educação Infantil, Cuidado de Idosos, Liderança e RH em Sydney",
+    "es": "Times Academy - Educación Infantil, Cuidado de Mayores, Liderazgo y RR. HH. en Sídney",
+    "de": "Times Academy - Frühpädagogik, Altenpflege, Leadership & HR in Sydney",
+    "it": "Times Academy - Prima infanzia, Assistenza anziani, Leadership e HR a Sydney",
+    "nl": "Times Academy - Kinderopvang, Ouderenzorg, Leiderschap & HR in Sydney",
+    "ru": "Times Academy - Дошкольное образование, уход за пожилыми, лидерство и HR в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Times Academy",
+    "en": "See Times Academy programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Times Academy",
+    "vi": "Xem chương trình & chi phí Times Academy",
+    "zh": "查看 Times Academy 课程与费用",
+    "ja": "Times Academy のプログラムと費用を見る",
+    "ko": "Times Academy 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Times Academy",
+    "fr": "Voir les programmes et coûts Times Academy",
+    "pt": "Ver cursos e custos da Times Academy",
+    "es": "Ver programas y costos de Times Academy",
+    "de": "Times Academy: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Times Academy",
+    "nl": "Bekijk opleidingen & kosten van Times Academy",
+    "ru": "Программы и стоимость Times Academy"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Times Academy"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/times.webp",
+    "width": 161,
+    "height": 80,
+    "source": "https://www.times.nsw.edu.au/wp-content/uploads/2017/07/times-academy-01.png",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "lerosey-partner-2026",
+   "provider": "Le Rosey Hospitality Institute",
+   "cricos": "04183M",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Le Rosey Hospitality Institute"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "Le Rosey - Hospitality, Masak & Project Management di Sydney",
+    "en": "Le Rosey - Hospitality, Cookery & Project Management in Sydney",
+    "th": "Le Rosey - การโรงแรม การประกอบอาหาร และการจัดการโครงการที่ซิดนีย์",
+    "vi": "Le Rosey - Nhà hàng khách sạn, Nấu ăn & Quản lý dự án tại Sydney",
+    "zh": "Le Rosey - 悉尼酒店、烹饪与项目管理",
+    "ja": "Le Rosey - シドニーでホスピタリティ・調理・プロジェクト管理",
+    "ko": "Le Rosey - 시드니 호스피탈리티·조리·프로젝트 관리",
+    "km": "Le Rosey - បដិសណ្ឋារកិច្ច ធ្វើម្ហូប និងការគ្រប់គ្រងគម្រោងនៅស៊ីដនី",
+    "fr": "Le Rosey - Hôtellerie, cuisine et gestion de projet à Sydney",
+    "pt": "Le Rosey - Hotelaria, Culinária e Gestão de Projetos em Sydney",
+    "es": "Le Rosey - Hostelería, Cocina y Gestión de Proyectos en Sídney",
+    "de": "Le Rosey - Hospitality, Kochen & Projektmanagement in Sydney",
+    "it": "Le Rosey - Ospitalità, Cucina e Project Management a Sydney",
+    "nl": "Le Rosey - Hospitality, Koken & Projectmanagement in Sydney",
+    "ru": "Le Rosey - Гостеприимство, кулинария и управление проектами в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Le Rosey",
+    "en": "See Le Rosey programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Le Rosey",
+    "vi": "Xem chương trình & chi phí Le Rosey",
+    "zh": "查看 Le Rosey 课程与费用",
+    "ja": "Le Rosey のプログラムと費用を見る",
+    "ko": "Le Rosey 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Le Rosey",
+    "fr": "Voir les programmes et coûts Le Rosey",
+    "pt": "Ver cursos e custos da Le Rosey",
+    "es": "Ver programas y costos de Le Rosey",
+    "de": "Le Rosey: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Le Rosey",
+    "nl": "Bekijk opleidingen & kosten van Le Rosey",
+    "ru": "Программы и стоимость Le Rosey"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Le Rosey Hospitality Institute"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/lerosey.webp",
+    "width": 308,
+    "height": 80,
+    "source": "https://lerosey.edu.au/wp-content/uploads/2024/01/240123_Le-Rosey_Logo-for-Website.png",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "leculinaire-partner-2026",
+   "provider": "Le Culinaire Hospitality Institute",
+   "cricos": "03667K",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Le Culinaire Hospitality Institute"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "Le Culinaire - Kitchen Management, Patisserie & Hospitality di Sydney",
+    "en": "Le Culinaire - Kitchen Management, Patisserie & Hospitality in Sydney",
+    "th": "Le Culinaire - การจัดการครัว ขนมอบ และการโรงแรมที่ซิดนีย์",
+    "vi": "Le Culinaire - Quản lý bếp, Bánh ngọt & Nhà hàng khách sạn tại Sydney",
+    "zh": "Le Culinaire - 悉尼厨房管理、西点与酒店管理",
+    "ja": "Le Culinaire - シドニーでキッチンマネジメント・製菓・ホスピタリティ",
+    "ko": "Le Culinaire - 시드니 주방관리·파티시에·호스피탈리티",
+    "km": "Le Culinaire - ការគ្រប់គ្រងផ្ទះបាយ នំប៉័ង និងបដិសណ្ឋារកិច្ចនៅស៊ីដនី",
+    "fr": "Le Culinaire - Gestion de cuisine, pâtisserie et hôtellerie à Sydney",
+    "pt": "Le Culinaire - Gestão de Cozinha, Confeitaria e Hotelaria em Sydney",
+    "es": "Le Culinaire - Gestión de Cocina, Pastelería y Hostelería en Sídney",
+    "de": "Le Culinaire - Küchenmanagement, Patisserie & Hospitality in Sydney",
+    "it": "Le Culinaire - Gestione cucina, Pasticceria e Ospitalità a Sydney",
+    "nl": "Le Culinaire - Keukenmanagement, Patisserie & Hospitality in Sydney",
+    "ru": "Le Culinaire - Управление кухней, кондитерское дело и гостеприимство в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Le Culinaire",
+    "en": "See Le Culinaire programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Le Culinaire",
+    "vi": "Xem chương trình & chi phí Le Culinaire",
+    "zh": "查看 Le Culinaire 课程与费用",
+    "ja": "Le Culinaire のプログラムと費用を見る",
+    "ko": "Le Culinaire 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Le Culinaire",
+    "fr": "Voir les programmes et coûts Le Culinaire",
+    "pt": "Ver cursos e custos da Le Culinaire",
+    "es": "Ver programas y costos de Le Culinaire",
+    "de": "Le Culinaire: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Le Culinaire",
+    "nl": "Bekijk opleidingen & kosten van Le Culinaire",
+    "ru": "Программы и стоимость Le Culinaire"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Le Culinaire Hospitality Institute"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/leculinaire.webp",
+    "width": 108,
+    "height": 80,
+    "source": "https://www.leculinaire.edu.au/ (logo header, static.wixstatic.com/media/48b767_68905fd434494743806dc5da4e41bbdc~mv2.png)",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "via-partner-2026",
+   "provider": "VIA Education",
+   "cricos": "03562G",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "VIA Education"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "VIA - Bisnis, Marketing, HR & Hospitality di Sydney",
+    "en": "VIA - Business, Marketing, HR & Hospitality in Sydney",
+    "th": "VIA - ธุรกิจ การตลาด HR และการโรงแรมที่ซิดนีย์",
+    "vi": "VIA - Kinh doanh, Marketing, Nhân sự & Nhà hàng khách sạn tại Sydney",
+    "zh": "VIA - 悉尼商科、市场营销、人力资源与酒店管理",
+    "ja": "VIA - シドニーでビジネス・マーケティング・人事・ホスピタリティ",
+    "ko": "VIA - 시드니 비즈니스·마케팅·인사·호스피탈리티",
+    "km": "VIA - ពាណិជ្ជកម្ម ទីផ្សារ HR និងបដិសណ្ឋារកិច្ចនៅស៊ីដនី",
+    "fr": "VIA - Commerce, marketing, RH et hôtellerie à Sydney",
+    "pt": "VIA - Negócios, Marketing, RH e Hotelaria em Sydney",
+    "es": "VIA - Negocios, Marketing, RR. HH. y Hostelería en Sídney",
+    "de": "VIA - Business, Marketing, HR & Hospitality in Sydney",
+    "it": "VIA - Business, Marketing, HR e Ospitalità a Sydney",
+    "nl": "VIA - Business, Marketing, HR & Hospitality in Sydney",
+    "ru": "VIA - Бизнес, маркетинг, HR и гостеприимство в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya VIA",
+    "en": "See VIA programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ VIA",
+    "vi": "Xem chương trình & chi phí VIA",
+    "zh": "查看 VIA 课程与费用",
+    "ja": "VIA のプログラムと費用を見る",
+    "ko": "VIA 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា VIA",
+    "fr": "Voir les programmes et coûts VIA",
+    "pt": "Ver cursos e custos da VIA",
+    "es": "Ver programas y costos de VIA",
+    "de": "VIA: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi VIA",
+    "nl": "Bekijk opleidingen & kosten van VIA",
+    "ru": "Программы и стоимость VIA"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "VIA Education"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/via.webp",
+    "width": 290,
+    "height": 80,
+    "source": "https://via.edu.au/wp-content/uploads/2018/06/LOCK-UP-RGB-PNG-COLOR-e1705038017549.png",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "capstone-partner-2026",
+   "provider": "Capstone Institute of Australia (CIA)",
+   "cricos": "04051A",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Capstone Institute of Australia"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "Capstone - Hospitality, Marketing & PAUD di Sydney",
+    "en": "Capstone - Hospitality, Marketing & Early Childhood in Sydney",
+    "th": "Capstone - การโรงแรม การตลาด และการศึกษาปฐมวัยที่ซิดนีย์",
+    "vi": "Capstone - Nhà hàng khách sạn, Marketing & Mầm non tại Sydney",
+    "zh": "Capstone - 悉尼酒店管理、市场营销与幼教",
+    "ja": "Capstone - シドニーでホスピタリティ・マーケティング・幼児教育",
+    "ko": "Capstone - 시드니 호스피탈리티·마케팅·유아교육",
+    "km": "Capstone - បដិសណ្ឋារកិច្ច ទីផ្សារ និងអប់រំកុមារតូចនៅស៊ីដនី",
+    "fr": "Capstone - Hôtellerie, marketing et petite enfance à Sydney",
+    "pt": "Capstone - Hotelaria, Marketing e Educação Infantil em Sydney",
+    "es": "Capstone - Hostelería, Marketing y Educación Infantil en Sídney",
+    "de": "Capstone - Hospitality, Marketing & Frühpädagogik in Sydney",
+    "it": "Capstone - Ospitalità, Marketing e Prima infanzia a Sydney",
+    "nl": "Capstone - Hospitality, Marketing & Kinderopvang in Sydney",
+    "ru": "Capstone - Гостеприимство, маркетинг и дошкольное образование в Сиднее"
+   },
+   "text": {
+    "id": "Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Capstone",
+    "en": "See Capstone programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Capstone",
+    "vi": "Xem chương trình & chi phí Capstone",
+    "zh": "查看 Capstone 课程与费用",
+    "ja": "Capstone のプログラムと費用を見る",
+    "ko": "Capstone 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Capstone",
+    "fr": "Voir les programmes et coûts Capstone",
+    "pt": "Ver cursos e custos da Capstone",
+    "es": "Ver programas y costos de Capstone",
+    "de": "Capstone: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Capstone",
+    "nl": "Bekijk opleidingen & kosten van Capstone",
+    "ru": "Программы и стоимость Capstone"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Capstone Institute of Australia"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/capstone.webp",
+    "width": 261,
+    "height": 80,
+    "source": "https://capstone.edu.au/wp-content/uploads/2026/03/white.png (logo putih resmi di atas warna header situs #095ea4)",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "tafensw-partner-2026",
+   "provider": "TAFE NSW",
+   "cricos": "00591E",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "TAFE NSW"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "TAFE pemerintah NSW - beasiswa AUD 500 & 15%",
+    "en": "NSW Government TAFE - AUD 500 & 15% scholarships",
+    "th": "TAFE ของรัฐบาล NSW - ทุน AUD 500 และ 15%",
+    "vi": "TAFE của Chính phủ NSW - học bổng AUD 500 & 15%",
+    "zh": "新州政府 TAFE - AUD 500 及 15% 奖学金",
+    "ja": "NSW州政府TAFE - AUD 500・15%奨学金",
+    "ko": "NSW 주정부 TAFE - AUD 500·15% 장학금",
+    "km": "TAFE រដ្ឋាភិបាល NSW - អាហារូបករណ៍ AUD 500 និង 15%",
+    "fr": "TAFE publique de NSW - bourses AUD 500 et 15 %",
+    "pt": "TAFE do Governo de NSW - bolsas de AUD 500 e 15%",
+    "es": "TAFE del Gobierno de NSW - becas de AUD 500 y 15 %",
+    "de": "Staatliche TAFE NSW - Stipendien AUD 500 & 15 %",
+    "it": "TAFE pubblico del NSW - borse da AUD 500 e 15%",
+    "nl": "Overheids-TAFE NSW - beurzen AUD 500 & 15%",
+    "ru": "Государственный TAFE NSW - стипендии AUD 500 и 15%"
+   },
+   "text": {
+    "id": "TAFE NSW $500 Vocational Course Scholarship & 15% Higher Education Scholarship (seleksi, sesuai situs resmi). Lebih dari 130 kampus di NSW. Special discount Talented AUD 150-300/periode mulai pembayaran ke-2.",
+    "en": "TAFE NSW $500 Vocational Course Scholarship & 15% Higher Education Scholarship (selection-based, per official site). 130+ campuses across NSW. Special discount Talented AUD 150-300/period from the 2nd payment.",
+    "th": "TAFE NSW $500 Vocational Course Scholarship และ 15% Higher Education Scholarship (มีการคัดเลือก ตามเว็บไซต์ทางการ) มากกว่า 130 วิทยาเขตทั่ว NSW Special discount Talented AUD 150-300/งวด ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "TAFE NSW $500 Vocational Course Scholarship & 15% Higher Education Scholarship (xét chọn, theo trang chính thức). Hơn 130 cơ sở khắp NSW. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "TAFE NSW $500 Vocational Course Scholarship 及 15% Higher Education Scholarship（择优评选，以官网为准）。新州 130 多个校区。Special discount Talented：自第 2 次付款起每期 AUD 150-300。",
+    "ja": "TAFE NSW $500 Vocational Course Scholarship・15% Higher Education Scholarship（選考あり、公式サイト記載）。NSW州内130以上のキャンパス。Special discount Talented：2回目の支払いから1期AUD 150-300。",
+    "ko": "TAFE NSW $500 Vocational Course Scholarship 및 15% Higher Education Scholarship(선발제, 공식 사이트 기준). NSW 전역 130개 이상 캠퍼스. Special discount Talented: 2회차 납부부터 기간당 AUD 150-300.",
+    "km": "TAFE NSW $500 Vocational Course Scholarship និង 15% Higher Education Scholarship (ជ្រើសរើស តាមគេហទំព័រផ្លូវការ)។ សាខាជាង 130 ទូទាំង NSW។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "TAFE NSW $500 Vocational Course Scholarship et 15% Higher Education Scholarship (sur sélection, selon le site officiel). Plus de 130 campus en NSW. Special discount Talented AUD 150-300/période dès le 2e paiement.",
+    "pt": "TAFE NSW $500 Vocational Course Scholarship e 15% Higher Education Scholarship (por seleção, conforme o site oficial). Mais de 130 campi em NSW. Special discount Talented AUD 150-300/período a partir do 2º pagamento.",
+    "es": "TAFE NSW $500 Vocational Course Scholarship y 15% Higher Education Scholarship (por selección, según el sitio oficial). Más de 130 campus en NSW. Special discount Talented AUD 150-300/periodo desde el 2.º pago.",
+    "de": "TAFE NSW $500 Vocational Course Scholarship & 15% Higher Education Scholarship (Auswahlverfahren, laut offizieller Website). Über 130 Standorte in NSW. Special discount Talented AUD 150-300/Periode ab der 2. Zahlung.",
+    "it": "TAFE NSW $500 Vocational Course Scholarship e 15% Higher Education Scholarship (su selezione, come da sito ufficiale). Oltre 130 campus nel NSW. Special discount Talented AUD 150-300/periodo dal 2° pagamento.",
+    "nl": "TAFE NSW $500 Vocational Course Scholarship & 15% Higher Education Scholarship (op selectie, volgens officiële site). Meer dan 130 campussen in NSW. Special discount Talented AUD 150-300/periode vanaf de 2e betaling.",
+    "ru": "TAFE NSW $500 Vocational Course Scholarship и 15% Higher Education Scholarship (по отбору, согласно официальному сайту). Более 130 кампусов в NSW. Special discount Talented AUD 150-300 за период со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya TAFE NSW",
+    "en": "See TAFE NSW programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ TAFE NSW",
+    "vi": "Xem chương trình & chi phí TAFE NSW",
+    "zh": "查看 TAFE NSW 课程与费用",
+    "ja": "TAFE NSW のプログラムと費用を見る",
+    "ko": "TAFE NSW 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា TAFE NSW",
+    "fr": "Voir les programmes et coûts TAFE NSW",
+    "pt": "Ver cursos e custos da TAFE NSW",
+    "es": "Ver programas y costos de TAFE NSW",
+    "de": "TAFE NSW: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi TAFE NSW",
+    "nl": "Bekijk opleidingen & kosten van TAFE NSW",
+    "ru": "Программы и стоимость TAFE NSW"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "TAFE NSW"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); beasiswa: https://www.tafensw.edu.au/international/apply/scholarships (dicek 11/11/2026); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/tafensw.webp",
+    "width": 170,
+    "height": 80,
+    "source": "https://www.tafensw.edu.au/images/TAFE-international-logo.svg (teks putih resmi di atas warna header situs #22272b)",
+    "checked": "2026-11-17"
+   }
+  },
+  {
+   "id": "acis-partner-2026",
+   "provider": "Australian College of International Studies (ACIS)",
+   "cricos": "03781G",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Australian College of International Studies"
+   },
+   "plan": "partner_bonus",
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-17",
+   "end": "2027-12-31",
+   "headline": {
+    "id": "ACIS - Bisnis, Marketing, Community Services & Animal Care di North Sydney",
+    "en": "ACIS - Business, Marketing, Community Services & Animal Care in North Sydney",
+    "th": "ACIS - ธุรกิจ การตลาด บริการชุมชน และการดูแลสัตว์ที่นอร์ทซิดนีย์",
+    "vi": "ACIS - Kinh doanh, Marketing, Dịch vụ cộng đồng & Chăm sóc động vật tại North Sydney",
+    "zh": "ACIS - 北悉尼商科、市场营销、社区服务与动物护理",
+    "ja": "ACIS - ノースシドニーでビジネス・マーケティング・コミュニティサービス・動物ケア",
+    "ko": "ACIS - 노스 시드니 비즈니스·마케팅·커뮤니티 서비스·동물 케어",
+    "km": "ACIS - ពាណិជ្ជកម្ម ទីផ្សារ សេវាសហគមន៍ និងថែទាំសត្វនៅ North Sydney",
+    "fr": "ACIS - Commerce, marketing, services communautaires et soins animaliers à North Sydney",
+    "pt": "ACIS - Negócios, Marketing, Serviços Comunitários e Cuidado Animal em North Sydney",
+    "es": "ACIS - Negocios, Marketing, Servicios Comunitarios y Cuidado Animal en North Sydney",
+    "de": "ACIS - Business, Marketing, Community Services & Tierpflege in North Sydney",
+    "it": "ACIS - Business, Marketing, Servizi alla comunità e Cura degli animali a North Sydney",
+    "nl": "ACIS - Business, Marketing, Community Services & Dierenverzorging in North Sydney",
+    "ru": "ACIS - Бизнес, маркетинг, социальные услуги и уход за животными в Норт-Сиднее"
+   },
+   "text": {
+    "id": "Untuk siswa yang sudah di Australia (onshore). Paket kursus VET (Certificate s.d. Advanced Diploma) di Sydney. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "For students already in Australia (onshore). Packaged VET courses (Certificate to Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "สำหรับนักเรียนที่อยู่ในออสเตรเลียแล้ว (onshore) แพ็กเกจหลักสูตร VET (Certificate ถึง Advanced Diploma) ที่ ซิดนีย์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Dành cho học sinh đang ở Úc (onshore). Gói khóa học VET (Certificate đến Advanced Diploma) tại Sydney. Special discount Talented AUD 150-300/kỳ từ lần thanh toán thứ 2.",
+    "zh": "适用于已在澳大利亚的学生（onshore）。悉尼 VET 套读课程（Certificate 至 Advanced Diploma）。Special discount Talented：自第 2 次付款起每学期 AUD 150-300。",
+    "ja": "すでにオーストラリアにいる学生向け（onshore）。シドニーのVETパッケージコース（Certificate〜Advanced Diploma）。Special discount Talented：2回目の支払いから1タームAUD 150-300。",
+    "ko": "이미 호주에 있는 학생 대상(onshore). 시드니 VET 패키지 과정(Certificate~Advanced Diploma). Special discount Talented: 2회차 납부부터 학기당 AUD 150-300.",
+    "km": "សម្រាប់សិស្សដែលនៅអូស្ត្រាលីរួចហើយ (onshore)។ កញ្ចប់វគ្គសិក្សា VET (Certificate ដល់ Advanced Diploma) នៅ ស៊ីដនី។ Special discount Talented AUD 150-300/វគ្គ ចាប់ពីការបង់ប្រាក់លើកទី 2។",
+    "fr": "Pour les étudiants déjà en Australie (onshore). Formations VET groupées (Certificate à Advanced Diploma) à Sydney. Special discount Talented AUD 150-300/term dès le 2e paiement.",
+    "pt": "Para estudantes que já estão na Austrália (onshore). Pacotes de cursos VET (Certificate a Advanced Diploma) em Sydney. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "Para estudiantes que ya están en Australia (onshore). Paquetes de cursos VET (Certificate a Advanced Diploma) en Sídney. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "Für Studierende, die bereits in Australien sind (onshore). VET-Kurspakete (Certificate bis Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "Per studenti già in Australia (onshore). Pacchetti di corsi VET (dal Certificate all’Advanced Diploma) a Sydney. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "Voor studenten die al in Australië zijn (onshore). VET-cursuspakketten (Certificate tot Advanced Diploma) in Sydney. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Для студентов, уже находящихся в Австралии (onshore). Пакеты курсов VET (от Certificate до Advanced Diploma) в Сиднее. Special discount Talented AUD 150-300 за term со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya ACIS",
+    "en": "See ACIS programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ ACIS",
+    "vi": "Xem chương trình & chi phí ACIS",
+    "zh": "查看 ACIS 课程与费用",
+    "ja": "ACIS のプログラムと費用を見る",
+    "ko": "ACIS 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា ACIS",
+    "fr": "Voir les programmes et coûts ACIS",
+    "pt": "Ver cursos e custos da ACIS",
+    "es": "Ver programas y costos de ACIS",
+    "de": "ACIS: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi ACIS",
+    "nl": "Bekijk opleidingen & kosten van ACIS",
+    "ru": "Программы и стоимость ACIS"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Australian College of International Studies"
+   },
+   "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
+   "checked": "2026-11-17",
+   "image": null,
+   "logo": {
+    "src": "https://info.talentededucationgroup.com/assets/sponsors/acis.webp",
+    "width": 196,
+    "height": 80,
+    "source": "https://acis.edu.au/wp-content/uploads/2023/08/ACIS-Final-Logo-768x285.png",
+    "checked": "2026-11-17"
    }
   }
  ],
@@ -1028,5 +1775,6 @@
   },
   "form_url": "https://form.jotform.com/263181709123050"
  },
- "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah."
+ "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
+ "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir."
 }

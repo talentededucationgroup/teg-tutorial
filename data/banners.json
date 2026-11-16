@@ -1,18 +1,44 @@
 {
- "version": "2026-11-15",
+ "version": "2026-11-16",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
-  "en": "Sponsored"
+  "en": "Sponsored",
+  "th": "Sponsored",
+  "vi": "Sponsored",
+  "zh": "Sponsored",
+  "ja": "Sponsored",
+  "ko": "Sponsored",
+  "km": "Sponsored",
+  "fr": "Sponsored",
+  "pt": "Sponsored",
+  "es": "Sponsored",
+  "de": "Sponsored",
+  "it": "Sponsored",
+  "nl": "Sponsored",
+  "ru": "Sponsored"
  },
  "founding_label": {
   "id": "Founding Partner",
-  "en": "Founding Partner"
+  "en": "Founding Partner",
+  "th": "Founding Partner",
+  "vi": "Founding Partner",
+  "zh": "Founding Partner",
+  "ja": "Founding Partner",
+  "ko": "Founding Partner",
+  "km": "Founding Partner",
+  "fr": "Founding Partner",
+  "pt": "Founding Partner",
+  "es": "Founding Partner",
+  "de": "Founding Partner",
+  "it": "Founding Partner",
+  "nl": "Founding Partner",
+  "ru": "Founding Partner"
  },
  "slots": {
   "hero": {
-   "max": 4,
-   "where": "Atas halaman, di bawah video tutorial (carousel)",
+   "max": 10,
+   "where": "Atas halaman, di bawah video tutorial (carousel, maks. 10 slide, urut sesuai items)",
    "size": "1200x400 px (desktop) + 800x800 px (HP), JPG/PNG/WebP <= 300 KB"
   },
   "featured": {
@@ -27,6 +53,309 @@
   }
  },
  "items": [
+  {
+   "id": "aih-promo-2026",
+   "provider": "AIH Higher Education (Australian Institute of Higher Education)",
+   "cricos": "03147A",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "AIH Higher Education"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2026-12-31",
+   "headline": {
+    "id": "AIH Higher Education - beasiswa hingga 30% untuk Bachelor 2027",
+    "en": "AIH Higher Education - up to 30% scholarship for 2027 Bachelor courses",
+    "th": "AIH Higher Education - ทุนการศึกษาสูงสุด 30% สำหรับปริญญาตรีปี 2027",
+    "vi": "AIH Higher Education - học bổng đến 30% cho Cử nhân 2027",
+    "zh": "AIH Higher Education - 2027 学士课程最高 30% 奖学金",
+    "ja": "AIH Higher Education - 2027年学士課程 最大30%奨学金",
+    "ko": "AIH Higher Education - 2027 학사 과정 최대 30% 장학금",
+    "km": "AIH Higher Education - អាហារូបករណ៍រហូតដល់ 30% សម្រាប់បរិញ្ញាបត្រ 2027",
+    "fr": "AIH Higher Education - bourse jusqu’à 30 % pour les Bachelor 2027",
+    "pt": "AIH Higher Education - bolsa de até 30% para Bacharelado 2027",
+    "es": "AIH Higher Education - beca de hasta 30 % para Bachelor 2027",
+    "de": "AIH Higher Education - bis zu 30 % Stipendium für Bachelor 2027",
+    "it": "AIH Higher Education - borsa fino al 30% per i Bachelor 2027",
+    "nl": "AIH Higher Education - beurs tot 30% voor Bachelor 2027",
+    "ru": "AIH Higher Education - стипендия до 30% на бакалавриат 2027"
+   },
+   "text": {
+    "id": "Australian Next Gen Award 30% untuk Bachelor dan Global Access Award 15% untuk Master (seleksi, kuota terbatas). Apply & terima offer paling lambat 31/12/2026. Kampus Sydney & Melbourne.",
+    "en": "Australian Next Gen Award 30% for Bachelor courses and Global Access Award 15% for Master courses (selective, limited places). Apply and accept your offer by 31/12/2026. Sydney & Melbourne campuses.",
+    "th": "Australian Next Gen Award 30% สำหรับปริญญาตรี และ Global Access Award 15% สำหรับปริญญาโท (คัดเลือก จำนวนจำกัด) สมัครและตอบรับ Offer ภายใน 31/12/2026 วิทยาเขตซิดนีย์และเมลเบิร์น",
+    "vi": "Australian Next Gen Award 30% cho Cử nhân và Global Access Award 15% cho Thạc sĩ (xét tuyển, số suất có hạn). Nộp hồ sơ và chấp nhận Offer trước 31/12/2026. Cơ sở Sydney & Melbourne.",
+    "zh": "学士课程 Australian Next Gen Award 30%，硕士课程 Global Access Award 15%（择优录取，名额有限）。须于 2026/12/31 前申请并接受 Offer。悉尼与墨尔本校区。",
+    "ja": "学士課程はAustralian Next Gen Award 30%、修士課程はGlobal Access Award 15%（選考制・定員あり）。2026/12/31までに出願しOfferを受諾。シドニー＆メルボルン校。",
+    "ko": "학사 과정 Australian Next Gen Award 30%, 석사 과정 Global Access Award 15% (선발제, 인원 한정). 2026/12/31까지 지원 및 Offer 수락. 시드니 & 멜버른 캠퍼스.",
+    "km": "Australian Next Gen Award 30% សម្រាប់បរិញ្ញាបត្រ និង Global Access Award 15% សម្រាប់អនុបណ្ឌិត (ជ្រើសរើស ចំនួនមានកំណត់)។ ដាក់ពាក្យ និងទទួល Offer មុន 31/12/2026។ សាខា Sydney & Melbourne។",
+    "fr": "Australian Next Gen Award 30 % pour les Bachelor et Global Access Award 15 % pour les Master (sélectif, places limitées). Postulez et acceptez l’Offer Letter avant le 31/12/2026. Campus de Sydney et Melbourne.",
+    "pt": "Australian Next Gen Award 30% para Bacharelado e Global Access Award 15% para Mestrado (seletivo, vagas limitadas). Candidate-se e aceite a Offer até 31/12/2026. Campi Sydney e Melbourne.",
+    "es": "Australian Next Gen Award 30 % para Bachelor y Global Access Award 15 % para Máster (selectivo, plazas limitadas). Postula y acepta tu Offer antes del 31/12/2026. Campus de Sídney y Melbourne.",
+    "de": "Australian Next Gen Award 30 % für Bachelor- und Global Access Award 15 % für Masterstudiengänge (Auswahlverfahren, begrenzte Plätze). Bewerbung und Annahme des Offer bis 31.12.2026. Standorte Sydney & Melbourne.",
+    "it": "Australian Next Gen Award 30% per i Bachelor e Global Access Award 15% per i Master (selettivo, posti limitati). Candidati e accetta l’Offer entro il 31/12/2026. Campus di Sydney e Melbourne.",
+    "nl": "Australian Next Gen Award 30% voor Bachelor en Global Access Award 15% voor Master (selectief, beperkt aantal plaatsen). Aanmelden en Offer accepteren vóór 31/12/2026. Campussen Sydney & Melbourne.",
+    "ru": "Australian Next Gen Award 30% для бакалавриата и Global Access Award 15% для магистратуры (конкурсный отбор, места ограничены). Подайте заявку и примите Offer до 31.12.2026. Кампусы в Сиднее и Мельбурне."
+   },
+   "cta": {
+    "id": "Lihat program & biaya AIH",
+    "en": "See AIH programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ AIH",
+    "vi": "Xem chương trình & chi phí AIH",
+    "zh": "查看 AIH 课程与费用",
+    "ja": "AIH のプログラムと費用を見る",
+    "ko": "AIH 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា AIH",
+    "fr": "Voir les programmes et coûts AIH",
+    "pt": "Ver cursos e custos da AIH",
+    "es": "Ver programas y costos de AIH",
+    "de": "AIH: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi AIH",
+    "nl": "Bekijk opleidingen & kosten van AIH",
+    "ru": "Программы и стоимость AIH"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "AIH Higher Education"
+   },
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "astra-promo-2026",
+   "provider": "Astra Institute of Higher Education",
+   "cricos": "04231H",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Astra Institute"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "Astra Institute of Higher Education - Bachelor of Business",
+    "en": "Astra Institute of Higher Education - Bachelor of Business",
+    "th": "Astra Institute of Higher Education - Bachelor of Business",
+    "vi": "Astra Institute of Higher Education - Bachelor of Business",
+    "zh": "Astra Institute of Higher Education - Bachelor of Business",
+    "ja": "Astra Institute of Higher Education - Bachelor of Business",
+    "ko": "Astra Institute of Higher Education - Bachelor of Business",
+    "km": "Astra Institute of Higher Education - Bachelor of Business",
+    "fr": "Astra Institute of Higher Education - Bachelor of Business",
+    "pt": "Astra Institute of Higher Education - Bachelor of Business",
+    "es": "Astra Institute of Higher Education - Bachelor of Business",
+    "de": "Astra Institute of Higher Education - Bachelor of Business",
+    "it": "Astra Institute of Higher Education - Bachelor of Business",
+    "nl": "Astra Institute of Higher Education - Bachelor of Business",
+    "ru": "Astra Institute of Higher Education - Bachelor of Business"
+   },
+   "text": {
+    "id": "Bachelor of Business di Parramatta, Sydney. Special discount Talented AUD 380/trimester mulai pembayaran ke-2.",
+    "en": "Bachelor of Business in Parramatta, Sydney. Special discount Talented AUD 380/trimester from the 2nd payment.",
+    "th": "Bachelor of Business ที่ Parramatta ซิดนีย์ Special discount Talented AUD 380/ไตรมาส ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Bachelor of Business tại Parramatta, Sydney. Special discount Talented AUD 380/tam cá nguyệt từ lần thanh toán thứ 2.",
+    "zh": "位于悉尼 Parramatta 的 Bachelor of Business。 Special discount Talented 每学期（三学期制） AUD 380，自第 2 次付款起。",
+    "ja": "シドニー・パラマタのBachelor of Business。 Special discount Talented：2回目の支払いから1トライメスターあたりAUD 380。",
+    "ko": "시드니 파라마타의 Bachelor of Business. Special discount Talented: 2회차 납부부터 트라이메스터당 AUD 380.",
+    "km": "Bachelor of Business នៅ Parramatta, Sydney។ Special discount Talented AUD 380/ត្រីមាស ចាប់ពីការបង់លើកទី 2។",
+    "fr": "Bachelor of Business à Parramatta, Sydney. Special discount Talented AUD 380/trimestre à partir du 2e paiement.",
+    "pt": "Bachelor of Business em Parramatta, Sydney. Special discount Talented AUD 380/trimestre a partir do 2º pagamento.",
+    "es": "Bachelor of Business en Parramatta, Sídney. Special discount Talented AUD 380/trimestre desde el 2.º pago.",
+    "de": "Bachelor of Business in Parramatta, Sydney. Special discount Talented AUD 380/Trimester ab der 2. Zahlung.",
+    "it": "Bachelor of Business a Parramatta, Sydney. Special discount Talented AUD 380/trimestre dal 2° pagamento.",
+    "nl": "Bachelor of Business in Parramatta, Sydney. Special discount Talented AUD 380/trimester vanaf de 2e betaling.",
+    "ru": "Bachelor of Business в Парраматте, Сидней. Special discount Talented AUD 380/триместр начиная со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Astra",
+    "en": "See Astra programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Astra",
+    "vi": "Xem chương trình & chi phí Astra",
+    "zh": "查看 Astra 课程与费用",
+    "ja": "Astra のプログラムと費用を見る",
+    "ko": "Astra 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Astra",
+    "fr": "Voir les programmes et coûts Astra",
+    "pt": "Ver cursos e custos da Astra",
+    "es": "Ver programas y costos de Astra",
+    "de": "Astra: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Astra",
+    "nl": "Bekijk opleidingen & kosten van Astra",
+    "ru": "Программы и стоимость Astra"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Astra Institute"
+   },
+   "source": "https://search.studyaustralia.gov.au/",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "kent-promo-2026",
+   "provider": "Kent Institute Australia",
+   "cricos": "00161E",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Kent Institute"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "Kent Institute Australia - Business, Accounting & IT",
+    "en": "Kent Institute Australia - Business, Accounting & IT",
+    "th": "Kent Institute Australia - Business, Accounting & IT",
+    "vi": "Kent Institute Australia - Business, Accounting & IT",
+    "zh": "Kent Institute Australia - Business, Accounting & IT",
+    "ja": "Kent Institute Australia - Business, Accounting & IT",
+    "ko": "Kent Institute Australia - Business, Accounting & IT",
+    "km": "Kent Institute Australia - Business, Accounting & IT",
+    "fr": "Kent Institute Australia - Business, Accounting & IT",
+    "pt": "Kent Institute Australia - Business, Accounting & IT",
+    "es": "Kent Institute Australia - Business, Accounting & IT",
+    "de": "Kent Institute Australia - Business, Accounting & IT",
+    "it": "Kent Institute Australia - Business, Accounting & IT",
+    "nl": "Kent Institute Australia - Business, Accounting & IT",
+    "ru": "Kent Institute Australia - Business, Accounting & IT"
+   },
+   "text": {
+    "id": "Bachelor of Business, Accounting & IT serta Master of ICT di Melbourne & Sydney. Special discount Talented AUD 380/trimester mulai pembayaran ke-2.",
+    "en": "Bachelor of Business, Accounting & IT and Master of ICT in Melbourne & Sydney. Special discount Talented AUD 380/trimester from the 2nd payment.",
+    "th": "Bachelor of Business, Accounting & IT และ Master of ICT ที่เมลเบิร์นและซิดนีย์ Special discount Talented AUD 380/ไตรมาส ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Bachelor of Business, Accounting & IT và Master of ICT tại Melbourne & Sydney. Special discount Talented AUD 380/tam cá nguyệt từ lần thanh toán thứ 2.",
+    "zh": "墨尔本与悉尼的 Bachelor of Business、Accounting、IT 及 Master of ICT。 Special discount Talented 每学期（三学期制） AUD 380，自第 2 次付款起。",
+    "ja": "メルボルン＆シドニーでBachelor of Business・Accounting・IT、Master of ICT。 Special discount Talented：2回目の支払いから1トライメスターあたりAUD 380。",
+    "ko": "멜버른 & 시드니의 Bachelor of Business, Accounting, IT 및 Master of ICT. Special discount Talented: 2회차 납부부터 트라이메스터당 AUD 380.",
+    "km": "Bachelor of Business, Accounting & IT និង Master of ICT នៅ Melbourne & Sydney។ Special discount Talented AUD 380/ត្រីមាស ចាប់ពីការបង់លើកទី 2។",
+    "fr": "Bachelor of Business, Accounting et IT, et Master of ICT à Melbourne et Sydney. Special discount Talented AUD 380/trimestre à partir du 2e paiement.",
+    "pt": "Bachelor of Business, Accounting e IT e Master of ICT em Melbourne e Sydney. Special discount Talented AUD 380/trimestre a partir do 2º pagamento.",
+    "es": "Bachelor of Business, Accounting e IT y Master of ICT en Melbourne y Sídney. Special discount Talented AUD 380/trimestre desde el 2.º pago.",
+    "de": "Bachelor of Business, Accounting & IT sowie Master of ICT in Melbourne & Sydney. Special discount Talented AUD 380/Trimester ab der 2. Zahlung.",
+    "it": "Bachelor of Business, Accounting e IT e Master of ICT a Melbourne e Sydney. Special discount Talented AUD 380/trimestre dal 2° pagamento.",
+    "nl": "Bachelor of Business, Accounting & IT en Master of ICT in Melbourne & Sydney. Special discount Talented AUD 380/trimester vanaf de 2e betaling.",
+    "ru": "Bachelor of Business, Accounting и IT, а также Master of ICT в Мельбурне и Сиднее. Special discount Talented AUD 380/триместр начиная со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Kent",
+    "en": "See Kent programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Kent",
+    "vi": "Xem chương trình & chi phí Kent",
+    "zh": "查看 Kent 课程与费用",
+    "ja": "Kent のプログラムと費用を見る",
+    "ko": "Kent 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Kent",
+    "fr": "Voir les programmes et coûts Kent",
+    "pt": "Ver cursos e custos da Kent",
+    "es": "Ver programas y costos de Kent",
+    "de": "Kent: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Kent",
+    "nl": "Bekijk opleidingen & kosten van Kent",
+    "ru": "Программы и стоимость Kent"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Kent Institute"
+   },
+   "source": "https://www.kent.edu.au",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "koi-promo-2026",
+   "provider": "King's Own Institute (KOI)",
+   "cricos": "03171A",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "King's Own Institute (KOI)"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "en": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "th": "King's Own Institute (KOI) - ซิดนีย์และนิวคาสเซิล",
+    "vi": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "zh": "King's Own Institute (KOI) - 悉尼与纽卡斯尔",
+    "ja": "King's Own Institute (KOI) - シドニー＆ニューカッスル",
+    "ko": "King's Own Institute (KOI) - 시드니 & 뉴캐슬",
+    "km": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "fr": "King's Own Institute (KOI) - Sydney et Newcastle",
+    "pt": "King's Own Institute (KOI) - Sydney e Newcastle",
+    "es": "King's Own Institute (KOI) - Sídney y Newcastle",
+    "de": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "it": "King's Own Institute (KOI) - Sydney e Newcastle",
+    "nl": "King's Own Institute (KOI) - Sydney & Newcastle",
+    "ru": "King's Own Institute (KOI) - Сидней и Ньюкасл"
+   },
+   "text": {
+    "id": "Program Bachelor & Master bidang Business, Accounting, Information Systems dan TESOL. Tanyakan biaya & intake terbaru ke konsultan Talented.",
+    "en": "Bachelor & Master courses in Business, Accounting, Information Systems and TESOL. Ask a Talented consultant for the latest fees and intakes.",
+    "th": "หลักสูตรปริญญาตรีและโทด้าน Business, Accounting, Information Systems และ TESOL สอบถามค่าเรียนและรอบรับสมัครล่าสุดกับที่ปรึกษา Talented",
+    "vi": "Chương trình Cử nhân & Thạc sĩ ngành Business, Accounting, Information Systems và TESOL. Hỏi tư vấn viên Talented về học phí & kỳ nhập học mới nhất.",
+    "zh": "Business、Accounting、Information Systems 与 TESOL 领域的学士和硕士课程。最新费用与入学时间请咨询 Talented 顾问。",
+    "ja": "Business・Accounting・Information Systems・TESOLの学士・修士課程。最新の費用と入学時期はTalentedのコンサルタントへ。",
+    "ko": "Business, Accounting, Information Systems, TESOL 분야 학사·석사 과정. 최신 학비와 입학 시기는 Talented 상담사에게 문의하세요.",
+    "km": "កម្មវិធីបរិញ្ញាបត្រ និងអនុបណ្ឌិតផ្នែក Business, Accounting, Information Systems និង TESOL។ សួរអ្នកប្រឹក្សា Talented អំពីថ្លៃសិក្សា និងវគ្គចូលរៀនចុងក្រោយ។",
+    "fr": "Bachelor et Master en Business, Accounting, Information Systems et TESOL. Demandez à un conseiller Talented les frais et rentrées les plus récents.",
+    "pt": "Bacharelado e Mestrado em Business, Accounting, Information Systems e TESOL. Consulte um consultor Talented sobre custos e ingressos atualizados.",
+    "es": "Bachelor y Máster en Business, Accounting, Information Systems y TESOL. Consulta a un asesor de Talented los costos e intakes más recientes.",
+    "de": "Bachelor- und Masterstudiengänge in Business, Accounting, Information Systems und TESOL. Aktuelle Kosten und Starttermine bei einem Talented-Berater erfragen.",
+    "it": "Bachelor e Master in Business, Accounting, Information Systems e TESOL. Chiedi a un consulente Talented costi e intake aggiornati.",
+    "nl": "Bachelor- en masteropleidingen in Business, Accounting, Information Systems en TESOL. Vraag een Talented-adviseur naar de actuele kosten en startdata.",
+    "ru": "Бакалавриат и магистратура по Business, Accounting, Information Systems и TESOL. Актуальную стоимость и даты набора уточните у консультанта Talented."
+   },
+   "cta": {
+    "id": "Tanya konsultan Talented",
+    "en": "Ask a Talented consultant",
+    "th": "สอบถามที่ปรึกษา Talented",
+    "vi": "Hỏi tư vấn viên Talented",
+    "zh": "咨询 Talented 顾问",
+    "ja": "Talentedに相談する",
+    "ko": "Talented 상담사에게 문의",
+    "km": "សួរអ្នកប្រឹក្សា Talented",
+    "fr": "Contacter un conseiller Talented",
+    "pt": "Fale com um consultor Talented",
+    "es": "Consulta a un asesor de Talented",
+    "de": "Talented-Berater fragen",
+    "it": "Chiedi a un consulente Talented",
+    "nl": "Vraag een Talented-adviseur",
+    "ru": "Спросить консультанта Talented"
+   },
+   "action": {
+    "type": "url",
+    "url": "https://linktr.ee/talentededucationgroup"
+   },
+   "source": "https://koi.edu.au/wp-content/uploads/2026/02/2026-KOI-Student-Information.pdf",
+   "checked": "2026-11-16",
+   "image": null
+  },
   {
    "id": "cdu-founding-2026",
    "provider": "Charles Darwin University (CDU)",
@@ -46,15 +375,54 @@
    "end": "2027-02-15",
    "headline": {
     "id": "Charles Darwin University - CDU Global Merit Scholarship 30%",
-    "en": "Charles Darwin University - CDU Global Merit Scholarship 30%"
+    "en": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "th": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "vi": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "zh": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "ja": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "ko": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "km": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "fr": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "pt": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "es": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "de": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "it": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "nl": "Charles Darwin University - CDU Global Merit Scholarship 30%",
+    "ru": "Charles Darwin University - CDU Global Merit Scholarship 30%"
    },
    "text": {
-    "id": "Potongan 30% tuition otomatis untuk banyak program Bachelor, Master & TAFE intake 2027 (ada program yang dikecualikan - cek syarat). Kampus Darwin, Sydney & lainnya.",
-    "en": "Automatic 30% tuition reduction for many 2027 Bachelor, Master & TAFE courses (some courses exempt - check conditions). Darwin, Sydney and other campuses."
+    "id": "Potongan 30% tuition otomatis untuk banyak program Bachelor, Master & TAFE intake 2027 (ada program yang dikecualikan - cek syarat). Kampus Darwin, Sydney & lainnya. Special discount Talented AUD 350/semester mulai pembayaran ke-2.",
+    "en": "Automatic 30% tuition reduction for many 2027 Bachelor, Master & TAFE courses (some courses exempt - check conditions). Darwin, Sydney and other campuses. Special discount Talented AUD 350/semester from the 2nd payment.",
+    "th": "ลดค่าเรียน 30% อัตโนมัติสำหรับหลักสูตรปริญญาตรี ปริญญาโท และ TAFE จำนวนมาก รอบปี 2027 (บางหลักสูตรยกเว้น - ตรวจสอบเงื่อนไข) วิทยาเขตดาร์วิน ซิดนีย์ และอื่น ๆ Special discount Talented AUD 350/ภาคเรียน ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Tự động giảm 30% học phí cho nhiều chương trình Cử nhân, Thạc sĩ & TAFE kỳ 2027 (một số chương trình không áp dụng - xem điều kiện). Cơ sở Darwin, Sydney và các nơi khác. Special discount Talented AUD 350/học kỳ từ lần thanh toán thứ 2.",
+    "zh": "2027 年多数学士、硕士及 TAFE 课程自动减免 30% 学费（部分课程除外，请查看条件）。达尔文、悉尼等校区。 Special discount Talented 每学期 AUD 350，自第 2 次付款起。",
+    "ja": "2027年入学の多くの学士・修士・TAFEコースで学費30%を自動減額（対象外コースあり - 条件を確認）。ダーウィン、シドニーほか。 Special discount Talented：2回目の支払いから1セメスターあたりAUD 350。",
+    "ko": "2027년 입학 다수 학사·석사·TAFE 과정 학비 30% 자동 감면 (일부 과정 제외 - 조건 확인). 다윈, 시드니 등 캠퍼스. Special discount Talented: 2회차 납부부터 학기당 AUD 350.",
+    "km": "បញ្ចុះថ្លៃសិក្សា 30% ស្វ័យប្រវត្តិ សម្រាប់កម្មវិធីបរិញ្ញាបត្រ អនុបណ្ឌិត និង TAFE ជាច្រើន ឆ្នាំ 2027 (មានកម្មវិធីលើកលែង - ពិនិត្យលក្ខខណ្ឌ)។ សាខា Darwin, Sydney និងផ្សេងទៀត។ Special discount Talented AUD 350/ឆមាស ចាប់ពីការបង់លើកទី 2។",
+    "fr": "Réduction automatique de 30 % des frais pour de nombreux Bachelor, Master et TAFE 2027 (certains cours exclus - voir conditions). Campus de Darwin, Sydney et autres. Special discount Talented AUD 350/semestre à partir du 2e paiement.",
+    "pt": "Redução automática de 30% na mensalidade para muitos cursos de Bacharelado, Mestrado e TAFE 2027 (alguns cursos excluídos - confira as condições). Campi Darwin, Sydney e outros. Special discount Talented AUD 350/semestre a partir do 2º pagamento.",
+    "es": "Reducción automática del 30 % de la matrícula en muchos Bachelor, Máster y TAFE 2027 (algunos cursos excluidos - revisa las condiciones). Campus de Darwin, Sídney y otros. Special discount Talented AUD 350/semestre desde el 2.º pago.",
+    "de": "Automatische Reduzierung der Studiengebühren um 30 % für viele Bachelor-, Master- und TAFE-Kurse 2027 (einige Kurse ausgenommen - Bedingungen prüfen). Standorte Darwin, Sydney u. a. Special discount Talented AUD 350/Semester ab der 2. Zahlung.",
+    "it": "Riduzione automatica del 30% delle tasse per molti Bachelor, Master e TAFE 2027 (alcuni corsi esclusi - verifica le condizioni). Campus di Darwin, Sydney e altri. Special discount Talented AUD 350/semestre dal 2° pagamento.",
+    "nl": "Automatisch 30% korting op het collegegeld voor veel Bachelor-, Master- en TAFE-opleidingen 2027 (sommige opleidingen uitgezonderd - bekijk de voorwaarden). Campussen Darwin, Sydney e.a. Special discount Talented AUD 350/semester vanaf de 2e betaling.",
+    "ru": "Автоматическое снижение стоимости обучения на 30% для многих программ бакалавриата, магистратуры и TAFE 2027 г. (есть исключения — проверьте условия). Кампусы в Дарвине, Сиднее и др. Special discount Talented AUD 350/семестр начиная со 2-го платежа."
    },
    "cta": {
     "id": "Lihat program & biaya CDU",
-    "en": "See CDU programs & costs"
+    "en": "See CDU programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ CDU",
+    "vi": "Xem chương trình & chi phí CDU",
+    "zh": "查看 CDU 课程与费用",
+    "ja": "CDU のプログラムと費用を見る",
+    "ko": "CDU 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា CDU",
+    "fr": "Voir les programmes et coûts CDU",
+    "pt": "Ver cursos e custos da CDU",
+    "es": "Ver programas y costos de CDU",
+    "de": "CDU: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi CDU",
+    "nl": "Bekijk opleidingen & kosten van CDU",
+    "ru": "Программы и стоимость CDU"
    },
    "action": {
     "type": "search",
@@ -83,16 +451,55 @@
    "start": "2026-11-16",
    "end": "2027-02-15",
    "headline": {
-    "id": "AIAT Adelaide - IT, AI & MBA",
-    "en": "AIAT Adelaide - IT, AI & MBA"
+    "id": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "en": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "th": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "vi": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "zh": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "ja": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "ko": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "km": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "fr": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "pt": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "es": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "de": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "it": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "nl": "AIAT Adelaide & Melbourne - IT, AI & MBA",
+    "ru": "AIAT Adelaide & Melbourne - IT, AI & MBA"
    },
    "text": {
-    "id": "Bachelor & Master of Information Technology dan MBA (Leadership and Innovation) di pusat kota Adelaide.",
-    "en": "Bachelor & Master of Information Technology and MBA (Leadership and Innovation) in Adelaide's city centre."
+    "id": "Bachelor & Master of Information Technology dan MBA (Leadership and Innovation) di Adelaide & Melbourne. AIAT Bursary 17%-50% (tergantung program) untuk intake Feb & Jul 2027.",
+    "en": "Bachelor & Master of Information Technology and MBA (Leadership and Innovation) in Adelaide & Melbourne. AIAT Bursary 17%-50% (depending on course) for Feb & Jul 2027 intakes.",
+    "th": "Bachelor & Master of Information Technology และ MBA (Leadership and Innovation) ที่แอดิเลดและเมลเบิร์น AIAT Bursary 17%-50% (ขึ้นกับหลักสูตร) สำหรับรอบ ก.พ. และ ก.ค. 2027",
+    "vi": "Bachelor & Master of Information Technology và MBA (Leadership and Innovation) tại Adelaide & Melbourne. AIAT Bursary 17%-50% (tùy chương trình) cho kỳ nhập học tháng 2 & 7/2027.",
+    "zh": "阿德莱德与墨尔本的 Bachelor & Master of Information Technology 及 MBA (Leadership and Innovation)。2027 年 2 月与 7 月入学享 AIAT Bursary 17%-50%（视课程而定）。",
+    "ja": "アデレード＆メルボルンでBachelor & Master of Information Technology、MBA (Leadership and Innovation)。2027年2月・7月入学はAIAT Bursary 17〜50%（コースによる）。",
+    "ko": "애들레이드 & 멜버른의 Bachelor & Master of Information Technology 및 MBA (Leadership and Innovation). 2027년 2월·7월 입학 AIAT Bursary 17~50% (과정별 상이).",
+    "km": "Bachelor & Master of Information Technology និង MBA (Leadership and Innovation) នៅ Adelaide & Melbourne។ AIAT Bursary 17%-50% (អាស្រ័យលើកម្មវិធី) សម្រាប់វគ្គ ខែ 2 និង 7 ឆ្នាំ 2027។",
+    "fr": "Bachelor et Master of Information Technology et MBA (Leadership and Innovation) à Adelaide et Melbourne. AIAT Bursary de 17 % à 50 % (selon le cours) pour les rentrées de février et juillet 2027.",
+    "pt": "Bachelor e Master of Information Technology e MBA (Leadership and Innovation) em Adelaide e Melbourne. AIAT Bursary de 17% a 50% (conforme o curso) para os ingressos de fev. e jul. 2027.",
+    "es": "Bachelor y Master of Information Technology y MBA (Leadership and Innovation) en Adelaida y Melbourne. AIAT Bursary del 17 % al 50 % (según el curso) para los intakes de feb. y jul. 2027.",
+    "de": "Bachelor & Master of Information Technology und MBA (Leadership and Innovation) in Adelaide & Melbourne. AIAT Bursary 17-50 % (je nach Kurs) für die Starttermine Feb. & Jul. 2027.",
+    "it": "Bachelor e Master of Information Technology e MBA (Leadership and Innovation) ad Adelaide e Melbourne. AIAT Bursary dal 17% al 50% (secondo il corso) per gli intake di feb. e lug. 2027.",
+    "nl": "Bachelor & Master of Information Technology en MBA (Leadership and Innovation) in Adelaide & Melbourne. AIAT Bursary 17%-50% (afhankelijk van opleiding) voor de starts in feb. & jul. 2027.",
+    "ru": "Bachelor & Master of Information Technology и MBA (Leadership and Innovation) в Аделаиде и Мельбурне. AIAT Bursary 17–50% (в зависимости от программы) для набора в феврале и июле 2027 г."
    },
    "cta": {
     "id": "Lihat program & biaya AIAT",
-    "en": "See AIAT programs & costs"
+    "en": "See AIAT programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ AIAT",
+    "vi": "Xem chương trình & chi phí AIAT",
+    "zh": "查看 AIAT 课程与费用",
+    "ja": "AIAT のプログラムと費用を見る",
+    "ko": "AIAT 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា AIAT",
+    "fr": "Voir les programmes et coûts AIAT",
+    "pt": "Ver cursos e custos da AIAT",
+    "es": "Ver programas y costos de AIAT",
+    "de": "AIAT: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi AIAT",
+    "nl": "Bekijk opleidingen & kosten van AIAT",
+    "ru": "Программы и стоимость AIAT"
    },
    "action": {
     "type": "search",
@@ -102,16 +509,346 @@
    "source": "https://search.studyaustralia.gov.au/provider/australian-institute-of-advanced-technologies/2c8cb290bce3fd532d1eb40a5b3d0d3f",
    "checked": "2026-11-15",
    "image": null
+  },
+  {
+   "id": "apic-promo-2026",
+   "provider": "Asia Pacific International College (APIC)",
+   "cricos": "03048D",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Asia Pacific International College"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2026-12-31",
+   "headline": {
+    "id": "APIC - beasiswa hingga 34-36%",
+    "en": "APIC - scholarships up to 34-36%",
+    "th": "APIC - ทุนการศึกษาสูงสุด 34-36%",
+    "vi": "APIC - học bổng đến 34-36%",
+    "zh": "APIC - 最高 34-36% 奖学金",
+    "ja": "APIC - 最大34〜36%の奨学金",
+    "ko": "APIC - 최대 34~36% 장학금",
+    "km": "APIC - អាហារូបករណ៍រហូតដល់ 34-36%",
+    "fr": "APIC - bourses jusqu’à 34-36 %",
+    "pt": "APIC - bolsas de até 34-36%",
+    "es": "APIC - becas de hasta 34-36 %",
+    "de": "APIC - Stipendien bis zu 34-36 %",
+    "it": "APIC - borse fino al 34-36%",
+    "nl": "APIC - beurzen tot 34-36%",
+    "ru": "APIC - стипендии до 34-36%"
+   },
+   "text": {
+    "id": "Diploma, Bachelor & Master bidang Business dan IT di Sydney (Parramatta), Melbourne & Brisbane. Beasiswa hingga 34-36% dari biaya 2026 (seleksi) untuk aplikasi s.d. 31/12/2026.",
+    "en": "Diploma, Bachelor & Master courses in Business and IT in Sydney (Parramatta), Melbourne & Brisbane. Scholarships up to 34-36% of 2026 fees (selective) for applications by 31/12/2026.",
+    "th": "Diploma, ปริญญาตรีและโทด้าน Business และ IT ที่ซิดนีย์ (Parramatta) เมลเบิร์นและบริสเบน ทุนสูงสุด 34-36% ของค่าเรียนปี 2026 (คัดเลือก) สำหรับใบสมัครภายใน 31/12/2026",
+    "vi": "Diploma, Cử nhân & Thạc sĩ ngành Business và IT tại Sydney (Parramatta), Melbourne & Brisbane. Học bổng đến 34-36% học phí 2026 (xét tuyển) cho hồ sơ nộp trước 31/12/2026.",
+    "zh": "悉尼（Parramatta）、墨尔本与布里斯班的 Business 与 IT 文凭、学士与硕士课程。2026/12/31 前申请可获最高 2026 年学费 34-36% 奖学金（择优）。",
+    "ja": "シドニー（パラマタ）・メルボルン・ブリスベンでBusiness・ITのディプロマ、学士、修士課程。2026/12/31までの出願で2026年学費の最大34〜36%の奨学金（選考制）。",
+    "ko": "시드니(파라마타)·멜버른·브리즈번의 Business 및 IT 디플로마, 학사, 석사 과정. 2026/12/31까지 지원 시 2026년 학비의 최대 34~36% 장학금 (선발제).",
+    "km": "Diploma, បរិញ្ញាបត្រ និងអនុបណ្ឌិតផ្នែក Business និង IT នៅ Sydney (Parramatta), Melbourne & Brisbane។ អាហារូបករណ៍រហូតដល់ 34-36% នៃថ្លៃសិក្សា 2026 (ជ្រើសរើស) សម្រាប់ពាក្យដាក់មុន 31/12/2026។",
+    "fr": "Diploma, Bachelor et Master en Business et IT à Sydney (Parramatta), Melbourne et Brisbane. Bourses jusqu’à 34-36 % des frais 2026 (sélectif) pour les candidatures avant le 31/12/2026.",
+    "pt": "Diploma, Bacharelado e Mestrado em Business e IT em Sydney (Parramatta), Melbourne e Brisbane. Bolsas de até 34-36% das taxas de 2026 (seletivo) para inscrições até 31/12/2026.",
+    "es": "Diploma, Bachelor y Máster en Business e IT en Sídney (Parramatta), Melbourne y Brisbane. Becas de hasta 34-36 % de las tasas 2026 (selectivo) para solicitudes hasta el 31/12/2026.",
+    "de": "Diploma-, Bachelor- und Masterstudiengänge in Business und IT in Sydney (Parramatta), Melbourne & Brisbane. Stipendien bis zu 34-36 % der Gebühren 2026 (Auswahlverfahren) für Bewerbungen bis 31.12.2026.",
+    "it": "Diploma, Bachelor e Master in Business e IT a Sydney (Parramatta), Melbourne e Brisbane. Borse fino al 34-36% delle tasse 2026 (selettivo) per candidature entro il 31/12/2026.",
+    "nl": "Diploma-, bachelor- en masteropleidingen in Business en IT in Sydney (Parramatta), Melbourne & Brisbane. Beurzen tot 34-36% van het collegegeld 2026 (selectief) bij aanmelding vóór 31/12/2026.",
+    "ru": "Diploma, бакалавриат и магистратура по Business и IT в Сиднее (Парраматта), Мельбурне и Брисбене. Стипендии до 34-36% от стоимости 2026 г. (конкурсный отбор) при подаче до 31.12.2026."
+   },
+   "cta": {
+    "id": "Lihat program & biaya APIC",
+    "en": "See APIC programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ APIC",
+    "vi": "Xem chương trình & chi phí APIC",
+    "zh": "查看 APIC 课程与费用",
+    "ja": "APIC のプログラムと費用を見る",
+    "ko": "APIC 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា APIC",
+    "fr": "Voir les programmes et coûts APIC",
+    "pt": "Ver cursos e custos da APIC",
+    "es": "Ver programas y costos de APIC",
+    "de": "APIC: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi APIC",
+    "nl": "Bekijk opleidingen & kosten van APIC",
+    "ru": "Программы и стоимость APIC"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Asia Pacific International College"
+   },
+   "source": "https://apicollege.edu.au/scholarship/",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "greenwich-promo-2026",
+   "provider": "Greenwich College",
+   "cricos": "02672K",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "Greenwich College"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2026-12-31",
+   "headline": {
+    "id": "Greenwich College - diskon 50% term pertama",
+    "en": "Greenwich College - 50% off the first term",
+    "th": "Greenwich College - ลด 50% เทอมแรก",
+    "vi": "Greenwich College - giảm 50% kỳ đầu tiên",
+    "zh": "Greenwich College - 首学期 5 折",
+    "ja": "Greenwich College - 最初のターム50%オフ",
+    "ko": "Greenwich College - 첫 학기 50% 할인",
+    "km": "Greenwich College - បញ្ចុះ 50% វគ្គទីមួយ",
+    "fr": "Greenwich College - 50 % de réduction sur le 1er term",
+    "pt": "Greenwich College - 50% de desconto no 1º term",
+    "es": "Greenwich College - 50 % de descuento en el 1.er term",
+    "de": "Greenwich College - 50 % Rabatt auf den ersten Term",
+    "it": "Greenwich College - 50% di sconto sul primo term",
+    "nl": "Greenwich College - 50% korting op de eerste term",
+    "ru": "Greenwich College - скидка 50% на первый term"
+   },
+   "text": {
+    "id": "Diskon 50% term pertama untuk kursus VET (aplikasi s.d. 31/12/2026). Kampus Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast. Special discount Talented AUD 150-300/term mulai pembayaran ke-2.",
+    "en": "50% off the first term for VET courses (applications by 31/12/2026). Campuses in Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast. Special discount Talented AUD 150-300/term from the 2nd payment.",
+    "th": "ลด 50% เทอมแรกสำหรับหลักสูตร VET (สมัครภายใน 31/12/2026) วิทยาเขตซิดนีย์ เมลเบิร์น บริสเบน เพิร์ท แอดิเลด และโกลด์โคสต์ Special discount Talented AUD 150-300/เทอม ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Giảm 50% kỳ đầu tiên cho khóa VET (nộp hồ sơ trước 31/12/2026). Cơ sở Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast. Special discount Talented AUD 150-300/term từ lần thanh toán thứ 2.",
+    "zh": "VET 课程首学期 5 折（2026/12/31 前申请）。校区：悉尼、墨尔本、布里斯班、珀斯、阿德莱德与黄金海岸。 Special discount Talented 每term AUD 150-300，自第 2 次付款起。",
+    "ja": "VETコースの最初のタームが50%オフ（2026/12/31までの出願）。シドニー、メルボルン、ブリスベン、パース、アデレード、ゴールドコースト校。 Special discount Talented：2回目の支払いから1タームあたりAUD 150-300。",
+    "ko": "VET 과정 첫 학기 50% 할인 (2026/12/31까지 지원). 시드니, 멜버른, 브리즈번, 퍼스, 애들레이드, 골드코스트 캠퍼스. Special discount Talented: 2회차 납부부터 텀당 AUD 150-300.",
+    "km": "បញ្ចុះ 50% វគ្គទីមួយសម្រាប់វគ្គ VET (ដាក់ពាក្យមុន 31/12/2026)។ សាខា Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast។ Special discount Talented AUD 150-300/term ចាប់ពីការបង់លើកទី 2។",
+    "fr": "50 % de réduction sur le premier term des formations VET (candidatures avant le 31/12/2026). Campus à Sydney, Melbourne, Brisbane, Perth, Adelaide et Gold Coast. Special discount Talented AUD 150-300/term à partir du 2e paiement.",
+    "pt": "50% de desconto no primeiro term dos cursos VET (inscrições até 31/12/2026). Campi em Sydney, Melbourne, Brisbane, Perth, Adelaide e Gold Coast. Special discount Talented AUD 150-300/term a partir do 2º pagamento.",
+    "es": "50 % de descuento en el primer term de los cursos VET (solicitudes hasta el 31/12/2026). Campus en Sídney, Melbourne, Brisbane, Perth, Adelaida y Gold Coast. Special discount Talented AUD 150-300/term desde el 2.º pago.",
+    "de": "50 % Rabatt auf den ersten Term für VET-Kurse (Bewerbung bis 31.12.2026). Standorte Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast. Special discount Talented AUD 150-300/Term ab der 2. Zahlung.",
+    "it": "50% di sconto sul primo term dei corsi VET (candidature entro il 31/12/2026). Campus a Sydney, Melbourne, Brisbane, Perth, Adelaide e Gold Coast. Special discount Talented AUD 150-300/term dal 2° pagamento.",
+    "nl": "50% korting op de eerste term voor VET-opleidingen (aanmelding vóór 31/12/2026). Campussen in Sydney, Melbourne, Brisbane, Perth, Adelaide & Gold Coast. Special discount Talented AUD 150-300/term vanaf de 2e betaling.",
+    "ru": "Скидка 50% на первый term курсов VET (заявка до 31.12.2026). Кампусы в Сиднее, Мельбурне, Брисбене, Перте, Аделаиде и на Голд-Косте. Special discount Talented AUD 150-300/term начиная со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Greenwich",
+    "en": "See Greenwich programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Greenwich",
+    "vi": "Xem chương trình & chi phí Greenwich",
+    "zh": "查看 Greenwich 课程与费用",
+    "ja": "Greenwich のプログラムと費用を見る",
+    "ko": "Greenwich 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Greenwich",
+    "fr": "Voir les programmes et coûts Greenwich",
+    "pt": "Ver cursos e custos da Greenwich",
+    "es": "Ver programas y costos de Greenwich",
+    "de": "Greenwich: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Greenwich",
+    "nl": "Bekijk opleidingen & kosten van Greenwich",
+    "ru": "Программы и стоимость Greenwich"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Greenwich College"
+   },
+   "source": "Greenwich College VET price list Q4 2026 (v10), hal. 4 & 10",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "cihe-promo-2026",
+   "provider": "CIHE Australia (Crown Institute of Higher Education)",
+   "cricos": "03744B",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "CIHE"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "en": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "th": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "vi": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "zh": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "ja": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "ko": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "km": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "fr": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "pt": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "es": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "de": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "it": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "nl": "CIHE Australia - Teaching, IT, MBA & Accounting",
+    "ru": "CIHE Australia - Teaching, IT, MBA & Accounting"
+   },
+   "text": {
+    "id": "Master of Teaching, Bachelor of Education, Master of IT, MBA dan Master of Professional Accounting di Sydney, Canberra & Perth.",
+    "en": "Master of Teaching, Bachelor of Education, Master of IT, MBA and Master of Professional Accounting in Sydney, Canberra & Perth.",
+    "th": "Master of Teaching, Bachelor of Education, Master of IT, MBA และ Master of Professional Accounting ที่ซิดนีย์ แคนเบอร์รา และเพิร์ท",
+    "vi": "Master of Teaching, Bachelor of Education, Master of IT, MBA và Master of Professional Accounting tại Sydney, Canberra & Perth.",
+    "zh": "悉尼、堪培拉与珀斯的 Master of Teaching、Bachelor of Education、Master of IT、MBA 及 Master of Professional Accounting。",
+    "ja": "シドニー、キャンベラ、パースでMaster of Teaching、Bachelor of Education、Master of IT、MBA、Master of Professional Accounting。",
+    "ko": "시드니, 캔버라, 퍼스의 Master of Teaching, Bachelor of Education, Master of IT, MBA, Master of Professional Accounting.",
+    "km": "Master of Teaching, Bachelor of Education, Master of IT, MBA និង Master of Professional Accounting នៅ Sydney, Canberra & Perth។",
+    "fr": "Master of Teaching, Bachelor of Education, Master of IT, MBA et Master of Professional Accounting à Sydney, Canberra et Perth.",
+    "pt": "Master of Teaching, Bachelor of Education, Master of IT, MBA e Master of Professional Accounting em Sydney, Canberra e Perth.",
+    "es": "Master of Teaching, Bachelor of Education, Master of IT, MBA y Master of Professional Accounting en Sídney, Canberra y Perth.",
+    "de": "Master of Teaching, Bachelor of Education, Master of IT, MBA und Master of Professional Accounting in Sydney, Canberra & Perth.",
+    "it": "Master of Teaching, Bachelor of Education, Master of IT, MBA e Master of Professional Accounting a Sydney, Canberra e Perth.",
+    "nl": "Master of Teaching, Bachelor of Education, Master of IT, MBA en Master of Professional Accounting in Sydney, Canberra & Perth.",
+    "ru": "Master of Teaching, Bachelor of Education, Master of IT, MBA и Master of Professional Accounting в Сиднее, Канберре и Перте."
+   },
+   "cta": {
+    "id": "Lihat program & biaya CIHE",
+    "en": "See CIHE programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ CIHE",
+    "vi": "Xem chương trình & chi phí CIHE",
+    "zh": "查看 CIHE 课程与费用",
+    "ja": "CIHE のプログラムと費用を見る",
+    "ko": "CIHE 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា CIHE",
+    "fr": "Voir les programmes et coûts CIHE",
+    "pt": "Ver cursos e custos da CIHE",
+    "es": "Ver programas y costos de CIHE",
+    "de": "CIHE: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi CIHE",
+    "nl": "Bekijk opleidingen & kosten van CIHE",
+    "ru": "Программы и стоимость CIHE"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "CIHE"
+   },
+   "source": "https://www.cihe.edu.au/wp-content/uploads/2026/08/2026_International_Course_Fees_v1.1.pdf",
+   "checked": "2026-11-16",
+   "image": null
+  },
+  {
+   "id": "utas-promo-2026",
+   "provider": "University of Tasmania (UTAS)",
+   "cricos": "00586B",
+   "slot": [
+    "hero"
+   ],
+   "match": {
+    "country": "AU",
+    "q": "University of Tasmania"
+   },
+   "plan": "trial",
+   "founding_partner": true,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-02-15",
+   "headline": {
+    "id": "University of Tasmania - beasiswa 25%",
+    "en": "University of Tasmania - 25% scholarship",
+    "th": "University of Tasmania - ทุนการศึกษา 25%",
+    "vi": "University of Tasmania - học bổng 25%",
+    "zh": "University of Tasmania - 25% 奖学金",
+    "ja": "University of Tasmania - 25%奨学金",
+    "ko": "University of Tasmania - 25% 장학금",
+    "km": "University of Tasmania - អាហារូបករណ៍ 25%",
+    "fr": "University of Tasmania - bourse de 25 %",
+    "pt": "University of Tasmania - bolsa de 25%",
+    "es": "University of Tasmania - beca del 25 %",
+    "de": "University of Tasmania - 25 % Stipendium",
+    "it": "University of Tasmania - borsa del 25%",
+    "nl": "University of Tasmania - beurs van 25%",
+    "ru": "University of Tasmania - стипендия 25%"
+   },
+   "text": {
+    "id": "Tasmanian International Scholarship 25% tuition (sesuai syarat). Kampus Hobart, Launceston, Sydney & Melbourne. Special discount Talented AUD 350/semester mulai pembayaran ke-2.",
+    "en": "Tasmanian International Scholarship 25% of tuition (eligibility applies). Hobart, Launceston, Sydney & Melbourne campuses. Special discount Talented AUD 350/semester from the 2nd payment.",
+    "th": "Tasmanian International Scholarship 25% ของค่าเรียน (ตามเงื่อนไข) วิทยาเขตโฮบาร์ต ลอนเซสตัน ซิดนีย์ และเมลเบิร์น Special discount Talented AUD 350/ภาคเรียน ตั้งแต่การชำระครั้งที่ 2",
+    "vi": "Tasmanian International Scholarship 25% học phí (theo điều kiện). Cơ sở Hobart, Launceston, Sydney & Melbourne. Special discount Talented AUD 350/học kỳ từ lần thanh toán thứ 2.",
+    "zh": "Tasmanian International Scholarship 学费 25%（须符合条件）。霍巴特、朗塞斯顿、悉尼与墨尔本校区。 Special discount Talented 每学期 AUD 350，自第 2 次付款起。",
+    "ja": "Tasmanian International Scholarship 学費25%（条件あり）。ホバート、ロンセストン、シドニー、メルボルン校。 Special discount Talented：2回目の支払いから1セメスターあたりAUD 350。",
+    "ko": "Tasmanian International Scholarship 학비 25% (자격 조건 적용). 호바트, 론서스턴, 시드니, 멜버른 캠퍼스. Special discount Talented: 2회차 납부부터 학기당 AUD 350.",
+    "km": "Tasmanian International Scholarship 25% នៃថ្លៃសិក្សា (តាមលក្ខខណ្ឌ)។ សាខា Hobart, Launceston, Sydney & Melbourne។ Special discount Talented AUD 350/ឆមាស ចាប់ពីការបង់លើកទី 2។",
+    "fr": "Tasmanian International Scholarship de 25 % des frais de scolarité (sous conditions). Campus de Hobart, Launceston, Sydney et Melbourne. Special discount Talented AUD 350/semestre à partir du 2e paiement.",
+    "pt": "Tasmanian International Scholarship de 25% da mensalidade (sujeito a requisitos). Campi Hobart, Launceston, Sydney e Melbourne. Special discount Talented AUD 350/semestre a partir do 2º pagamento.",
+    "es": "Tasmanian International Scholarship del 25 % de la matrícula (sujeto a requisitos). Campus de Hobart, Launceston, Sídney y Melbourne. Special discount Talented AUD 350/semestre desde el 2.º pago.",
+    "de": "Tasmanian International Scholarship über 25 % der Studiengebühren (Voraussetzungen gelten). Standorte Hobart, Launceston, Sydney & Melbourne. Special discount Talented AUD 350/Semester ab der 2. Zahlung.",
+    "it": "Tasmanian International Scholarship del 25% delle tasse (requisiti applicabili). Campus di Hobart, Launceston, Sydney e Melbourne. Special discount Talented AUD 350/semestre dal 2° pagamento.",
+    "nl": "Tasmanian International Scholarship van 25% van het collegegeld (voorwaarden van toepassing). Campussen Hobart, Launceston, Sydney & Melbourne. Special discount Talented AUD 350/semester vanaf de 2e betaling.",
+    "ru": "Tasmanian International Scholarship — 25% от стоимости обучения (при соблюдении условий). Кампусы в Хобарте, Лонсестоне, Сиднее и Мельбурне. Special discount Talented AUD 350/семестр начиная со 2-го платежа."
+   },
+   "cta": {
+    "id": "Lihat program & biaya UTAS",
+    "en": "See UTAS programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ UTAS",
+    "vi": "Xem chương trình & chi phí UTAS",
+    "zh": "查看 UTAS 课程与费用",
+    "ja": "UTAS のプログラムと費用を見る",
+    "ko": "UTAS 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា UTAS",
+    "fr": "Voir les programmes et coûts UTAS",
+    "pt": "Ver cursos e custos da UTAS",
+    "es": "Ver programas y costos de UTAS",
+    "de": "UTAS: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi UTAS",
+    "nl": "Bekijk opleidingen & kosten van UTAS",
+    "ru": "Программы и стоимость UTAS"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "University of Tasmania"
+   },
+   "source": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-international-scholarship",
+   "checked": "2026-11-16",
+   "image": null
   }
  ],
  "advertise": {
   "title": {
    "id": "Pasang iklan di Talented",
-   "en": "Advertise with Talented"
+   "en": "Advertise with Talented",
+   "th": "ลงโฆษณากับ Talented",
+   "vi": "Quảng cáo cùng Talented",
+   "zh": "在 Talented 投放广告",
+   "ja": "Talentedに広告を掲載",
+   "ko": "Talented에 광고하기",
+   "km": "ផ្សាយពាណិជ្ជកម្មជាមួយ Talented",
+   "fr": "Faire de la publicité avec Talented",
+   "pt": "Anuncie na Talented",
+   "es": "Anúnciate en Talented",
+   "de": "Auf Talented werben",
+   "it": "Pubblicizza con Talented",
+   "nl": "Adverteren bij Talented",
+   "ru": "Реклама на Talented"
   },
   "intro": {
    "id": "Tampilkan institusi Anda di depan calon siswa Indonesia & Asia Tenggara yang sedang membandingkan biaya studi, dalam 15 bahasa.",
-   "en": "Put your institution in front of Indonesian & Southeast Asian students who are actively comparing study costs, in 15 languages."
+   "en": "Put your institution in front of Indonesian & Southeast Asian students who are actively comparing study costs, in 15 languages.",
+   "th": "นำเสนอสถาบันของคุณต่อนักเรียนอินโดนีเซียและเอเชียตะวันออกเฉียงใต้ที่กำลังเปรียบเทียบค่าเรียน ใน 15 ภาษา",
+   "vi": "Đưa trường của bạn đến với học sinh Indonesia & Đông Nam Á đang so sánh chi phí du học, bằng 15 ngôn ngữ.",
+   "zh": "以 15 种语言，向正在比较留学费用的印尼及东南亚学生展示您的院校。",
+   "ja": "留学費用を比較中のインドネシア・東南アジアの学生に、15言語で貴校をアピール。",
+   "ko": "유학 비용을 비교 중인 인도네시아·동남아 학생들에게 15개 언어로 기관을 알리세요.",
+   "km": "បង្ហាញស្ថាប័នរបស់អ្នកដល់សិស្សឥណ្ឌូនេស៊ី និងអាស៊ីអាគ្នេយ៍ ដែលកំពុងប្រៀបធៀបថ្លៃសិក្សា ជា 15 ភាសា។",
+   "fr": "Présentez votre établissement aux étudiants indonésiens et d’Asie du Sud-Est qui comparent les coûts d’études, en 15 langues.",
+   "pt": "Mostre sua instituição a estudantes da Indonésia e do Sudeste Asiático que estão comparando custos de estudo, em 15 idiomas.",
+   "es": "Muestra tu institución a estudiantes de Indonesia y el Sudeste Asiático que comparan costos de estudio, en 15 idiomas.",
+   "de": "Präsentieren Sie Ihre Institution Studierenden aus Indonesien und Südostasien, die Studienkosten vergleichen – in 15 Sprachen.",
+   "it": "Presenta il tuo istituto agli studenti indonesiani e del Sud-est asiatico che confrontano i costi di studio, in 15 lingue.",
+   "nl": "Breng uw instelling onder de aandacht van Indonesische en Zuidoost-Aziatische studenten die studiekosten vergelijken, in 15 talen.",
+   "ru": "Покажите своё учебное заведение студентам из Индонезии и Юго-Восточной Азии, которые сравнивают стоимость обучения, на 15 языках."
   },
   "terms": {
    "id": [
@@ -127,6 +864,97 @@
     "An official CRICOS/registration code is required; ad content must be accurate and match official documents (no \"guaranteed visa\"/\"guaranteed scholarship\" claims).",
     "Ads go live only after Talented approves them. Rejected orders are refunded.",
     "Talented may remove ads that breach these terms."
+   ],
+   "th": [
+    "ทุกโฆษณามีป้าย \"Sponsored\"",
+    "โฆษณาไม่เปลี่ยนราคา ลำดับ ตัวกรอง หรือรายละเอียดหลักสูตร",
+    "ต้องมีรหัส CRICOS/ทะเบียนอย่างเป็นทางการ เนื้อหาต้องถูกต้องตามเอกสารทางการ (ห้ามอ้าง \"วีซ่าผ่านแน่นอน\"/\"ได้ทุนแน่นอน\")",
+    "โฆษณาจะแสดงหลังได้รับอนุมัติจาก Talented คำสั่งที่ถูกปฏิเสธจะได้รับเงินคืน",
+    "Talented มีสิทธิ์นำโฆษณาที่ผิดเงื่อนไขออก"
+   ],
+   "vi": [
+    "Mọi quảng cáo đều gắn nhãn \"Sponsored\".",
+    "Quảng cáo không thay đổi giá, thứ tự, bộ lọc hay chi tiết chương trình.",
+    "Bắt buộc có mã CRICOS/đăng ký chính thức; nội dung phải chính xác theo tài liệu chính thức (không cam kết \"chắc chắn có visa\"/\"chắc chắn có học bổng\").",
+    "Quảng cáo chỉ hiển thị sau khi Talented phê duyệt. Đơn bị từ chối sẽ được hoàn tiền.",
+    "Talented có quyền gỡ quảng cáo vi phạm điều khoản."
+   ],
+   "zh": [
+    "所有广告均标注 \"Sponsored\"。",
+    "广告不会改变价格、排序、筛选或课程详情。",
+    "须提供 CRICOS/官方注册编号；内容须准确并与官方文件一致（不得声称\"保证签证\"/\"保证奖学金\"）。",
+    "广告须经 Talented 审核后上线，被拒订单将退款。",
+    "Talented 有权下架违反条款的广告。"
+   ],
+   "ja": [
+    "すべての広告に「Sponsored」と表示します。",
+    "広告によって価格、並び順、フィルター、プログラム詳細が変わることはありません。",
+    "CRICOS/公式登録番号が必要です。内容は正確で公式資料と一致すること（「ビザ確実」「奨学金確実」などの表現は不可）。",
+    "広告はTalentedの承認後に掲載されます。不承認の場合は返金します。",
+    "Talentedは規約違反の広告を削除できます。"
+   ],
+   "ko": [
+    "모든 광고에는 \"Sponsored\" 표시가 붙습니다.",
+    "광고는 가격, 정렬, 필터 또는 과정 정보를 변경하지 않습니다.",
+    "CRICOS/공식 등록 번호가 필요하며, 내용은 공식 문서와 일치해야 합니다(\"비자 보장\"/\"장학금 보장\" 표현 금지).",
+    "광고는 Talented 승인 후 게재됩니다. 거절된 주문은 환불됩니다.",
+    "Talented는 약관을 위반한 광고를 내릴 수 있습니다."
+   ],
+   "km": [
+    "ការផ្សាយពាណិជ្ជកម្មទាំងអស់មានស្លាក \"Sponsored\"។",
+    "ការផ្សាយមិនផ្លាស់ប្តូរតម្លៃ លំដាប់ តម្រង ឬព័ត៌មានកម្មវិធីទេ។",
+    "ត្រូវមានលេខ CRICOS/ចុះបញ្ជីផ្លូវការ ហើយខ្លឹមសារត្រូវត្រឹមត្រូវតាមឯកសារផ្លូវការ (ហាមអះអាង \"ធានាទិដ្ឋាការ\"/\"ធានាអាហារូបករណ៍\")។",
+    "ការផ្សាយបង្ហាញបន្ទាប់ពី Talented អនុម័ត។ ការកម្មង់ដែលត្រូវបដិសេធនឹងទទួលបានប្រាក់វិញ។",
+    "Talented មានសិទ្ធិដកការផ្សាយដែលល្មើសលក្ខខណ្ឌ។"
+   ],
+   "fr": [
+    "Chaque annonce porte la mention « Sponsored ».",
+    "Les annonces ne modifient jamais les prix, le tri, les filtres ni le détail des programmes.",
+    "Un code CRICOS/d’enregistrement officiel est requis ; le contenu doit être exact et conforme aux documents officiels (pas de « visa garanti »/« bourse garantie »).",
+    "Les annonces sont publiées après validation par Talented. Les commandes refusées sont remboursées.",
+    "Talented peut retirer les annonces qui enfreignent ces conditions."
+   ],
+   "pt": [
+    "Todo anúncio é identificado como \"Sponsored\".",
+    "Os anúncios nunca alteram preços, ordenação, filtros ou detalhes dos cursos.",
+    "É obrigatório um código CRICOS/registro oficial; o conteúdo deve ser preciso e conforme os documentos oficiais (sem \"visto garantido\"/\"bolsa garantida\").",
+    "Os anúncios só entram no ar após aprovação da Talented. Pedidos recusados são reembolsados.",
+    "A Talented pode remover anúncios que violem estes termos."
+   ],
+   "es": [
+    "Cada anuncio lleva la etiqueta \"Sponsored\".",
+    "Los anuncios nunca cambian precios, orden, filtros ni detalles de los programas.",
+    "Se requiere un código CRICOS/registro oficial; el contenido debe ser exacto y coincidir con documentos oficiales (sin \"visa garantizada\"/\"beca garantizada\").",
+    "Los anuncios se publican tras la aprobación de Talented. Los pedidos rechazados se reembolsan.",
+    "Talented puede retirar anuncios que incumplan estos términos."
+   ],
+   "de": [
+    "Jede Anzeige ist als „Sponsored“ gekennzeichnet.",
+    "Anzeigen ändern niemals Preise, Sortierung, Filter oder Programmdetails.",
+    "Ein offizieller CRICOS-/Registrierungscode ist erforderlich; Inhalte müssen korrekt sein und offiziellen Dokumenten entsprechen (keine Aussagen wie „Visum garantiert“/„Stipendium garantiert“).",
+    "Anzeigen erscheinen erst nach Freigabe durch Talented. Abgelehnte Aufträge werden erstattet.",
+    "Talented kann Anzeigen entfernen, die gegen diese Bedingungen verstoßen."
+   ],
+   "it": [
+    "Ogni annuncio è contrassegnato come \"Sponsored\".",
+    "Gli annunci non modificano mai prezzi, ordinamento, filtri o dettagli dei corsi.",
+    "È richiesto un codice CRICOS/registrazione ufficiale; il contenuto deve essere accurato e conforme ai documenti ufficiali (niente \"visto garantito\"/\"borsa garantita\").",
+    "Gli annunci vanno online solo dopo l’approvazione di Talented. Gli ordini rifiutati vengono rimborsati.",
+    "Talented può rimuovere gli annunci che violano questi termini."
+   ],
+   "nl": [
+    "Elke advertentie krijgt het label \"Sponsored\".",
+    "Advertenties veranderen nooit prijzen, sortering, filters of opleidingsdetails.",
+    "Een officiële CRICOS-/registratiecode is verplicht; inhoud moet juist zijn en overeenkomen met officiële documenten (geen \"visum gegarandeerd\"/\"beurs gegarandeerd\").",
+    "Advertenties verschijnen pas na goedkeuring door Talented. Afgewezen bestellingen worden terugbetaald.",
+    "Talented mag advertenties verwijderen die deze voorwaarden schenden."
+   ],
+   "ru": [
+    "Каждое объявление помечено как «Sponsored».",
+    "Реклама никогда не меняет цены, сортировку, фильтры или описание программ.",
+    "Требуется официальный код CRICOS/регистрации; содержание должно быть точным и соответствовать официальным документам (без «гарантированной визы»/«гарантированной стипендии»).",
+    "Реклама публикуется только после одобрения Talented. Отклонённые заказы возвращаются.",
+    "Talented может снять рекламу, нарушающую эти условия."
    ]
   },
   "form_url": "https://form.jotform.com/263181709123050"

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-17d",
+ "version": "2026-11-17e",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -1775,8 +1775,8 @@
     "Talented может снять рекламу, нарушающую эти условия."
    ]
   },
-  "form_url": "https://linktr.ee/talentededucationgroup",
-  "contact_note": "Keputusan pemilik 17/11/2026 01.26 WIB: pengajuan paket promosi lewat linktr.ee/talentededucationgroup (bukan Jotform)."
+  "form_url": "https://form.jotform.com/263181709123050",
+  "contact_note": "Keputusan pemilik 17/11/2026 01.34 WIB: semua otomatis - institusi memesan & membayar di formulir; tugas terjadwal harian memasang iklan yang lunas & lolos cek."
  },
  "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
  "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir.",

@@ -85,6 +85,7 @@ footer{margin-top:24px;color:var(--muted);font-size:.92rem}.hist{padding-left:1.
  .card{border:0!important;padding:0!important;margin:0!important;background:#fff!important}
  .report{border:1px solid #888;font-size:11px;margin:0}.rp-top,.rp-circles,.pte-two,.if-res,.if-bottom,.rp-foot,.rp-sect,.rp-bands{break-inside:avoid;page-break-inside:avoid}
  .review-wrap{break-before:page;page-break-before:always}.review-wrap details{display:block}.review-wrap details>*{display:block}
+ .review-wrap details::details-content{content-visibility:visible;display:block}
  body::after{content:"";position:fixed;inset:0;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27440%27%20height%3D%27280%27%3E%3Cg%20transform%3D%27rotate%28-30%20220%20140%29%27%20font-family%3D%27Arial%2Csans-serif%27%20fill%3D%27%231f5f4a%27%20fill-opacity%3D%270.13%27%20text-anchor%3D%27middle%27%3E%3Ctext%20x%3D%27220%27%20y%3D%27130%27%20font-size%3D%2720%27%20font-weight%3D%27700%27%3EMOCK%20TEST%20%C2%B7%20NOT%20OFFICIAL%3C/text%3E%3Ctext%20x%3D%27220%27%20y%3D%27156%27%20font-size%3D%2713%27%3ETalented%20Education%20Group%20%C2%B7%20Victory%20Scholars%20Academy%3C/text%3E%3C/g%3E%3C/svg%3E") repeat;z-index:99;pointer-events:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
 /* PTE-style layout */
@@ -164,3 +165,18 @@ h3.th{font-size:1rem;margin:14px 0 6px;color:var(--green)}
 .numopts{display:flex;gap:10px;flex-wrap:wrap}.opt.num{border:1.5px solid #1f5c45;border-radius:10px;padding:8px 18px;font-weight:700;font-size:1.1rem;min-width:56px;justify-content:center}.opt.num:has(input:checked){background:#1f5c45;color:#fff}
 .aol{margin:4px 0 6px 1.2em}.pnote{font-weight:600}
 @media print{.qimg.sm{max-width:220px}}
+@media print{
+ /* Audit 12 / T12-02: compact report in print so it does not leave an almost-empty page before the review */
+ .report{font-size:10px;line-height:1.32}.rp-band,.pte-head{padding:6px 12px}.pte-code{padding:4px 12px 5px 56px}
+ .rp-top{padding:8px 12px}.pte-top{padding:8px 12px;gap:10px}.rp-photo{width:50px;height:60px}.rp-name,.pte-name{font-size:1.05rem;margin-bottom:3px}
+ .rp-note,.rp-res{margin:4px 12px}.rp-circles,.rp-bands{padding:2px 12px;gap:6px}.rp-circles .ring{width:54px;height:54px;border-width:4px}
+ .rp-sect,.rp-tb{width:calc(100% - 24px);margin:0 12px}.rp-sect td,.rp-sect th,.rp-tb td,.rp-tb th{padding:2px 5px}
+ .pte-ov b{height:56px;font-size:2rem}.pte-bars{margin:2px 12px 4px;padding-top:16px}.pte-bars .pr{margin:3px 0}.pte-bars .tr{height:13px}.pte-two{gap:10px}
+ .if-top{padding:8px 12px 4px}.if-note{margin:0 12px 4px}.if-row,.if-cand{padding:0 12px}.if-f{margin:2px 0}.if-f b{min-height:19px;padding:1px 6px}
+ .if-h{margin:6px 12px 4px!important}.if-res{padding:2px 12px}.if-res b{height:24px}.if-bottom{padding:6px 12px;gap:8px}.if-com{min-height:60px}.if-lines{height:40px}.if-stamp img{height:22px}
+ .rp-foot{margin:6px 12px 0;padding-top:6px;gap:10px}.rp-foot .qr{width:54px;height:54px}.rp-foot .vsa{height:32px}.rp-org{margin:0 0 2px}
+ .rp-off{margin:6px 12px 8px}
+ .mock-badge{padding:3px 10px;font-size:.85rem}.if-brand{font-size:1.25rem}.if-mod{padding:2px 10px}.if-f b{min-height:17px}.if-com{min-height:46px}.if-lines{height:28px}.if-ver,.if-stamp{padding:4px}
+ /* no trailing blank page when the review ends exactly at a page boundary */
+ .review-wrap{padding-bottom:0!important}.review-wrap>details:last-child,.review-wrap>details:last-child>.rvp:last-child,.review-wrap>details:last-child>.rvp:last-child>:last-child{margin-bottom:0!important;padding-bottom:0!important}
+}

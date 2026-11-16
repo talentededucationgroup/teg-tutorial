@@ -361,7 +361,7 @@ function showReport(results,fdef,isFull,rid,ctx){
   const txt=summaryText(results,title,rid,rep,sk,ov);
   $('#shWA').href='https://wa.me/?text='+encodeURIComponent(txt.slice(0,1800));
   $('#shMail').href='mailto:?subject='+encodeURIComponent(t('free_mock')+' - '+title)+'&body='+encodeURIComponent(txt);
-  $('#shPrint').onclick=()=>window.print();
+  $('#shPrint').onclick=()=>{printOpen();window.print()};
   $('#shTeach').onclick=sendResult;
   $('#retry').onclick=()=>{if(isFull){FULL={def:fdef,pos:0,results:[],rid:newRid(),exam:true};startSection(fdef.sections[0],true)}else startSection(results[0].secIdx,true)};
 }
@@ -626,6 +626,13 @@ function bindTeacher(){const rep=repOf(TF.fdef);const tc=TF.teacher;
   $('#tDl').onclick=()=>{if($$('[data-sw]').some(w=>!w.hidden)){msgBox(t('score_range'),true);return}
     const cl=cleanTeacher(Object.assign({},tc,{at:new Date().toISOString()}),TF.results);if(!cl){msgBox(t('nothing_marked'),true);return}
     const fn=download(resultFile({ctx:{name:TF.name,date:TF.date},rid:TF.rid,isFull:TF.isFull,fdef:TF.fdef,results:TF.results},cl));msgBox(fn+' — '+t('marked_hint'))}}
+// ---------- print: full review (Audit 12 / T12-01) ----------
+// Closed <details> are not printed by current browsers, so open every review section while printing
+// (PDF button and Ctrl+P both fire beforeprint) and restore the student's open/closed state afterwards.
+let PRINT_OPENED=null;
+function printOpen(){if(PRINT_OPENED)return;PRINT_OPENED=[...document.querySelectorAll('.review-wrap details')].filter(d=>!d.open);PRINT_OPENED.forEach(d=>d.open=true)}
+function printRestore(){if(!PRINT_OPENED)return;PRINT_OPENED.forEach(d=>d.open=false);PRINT_OPENED=null}
+window.addEventListener('beforeprint',printOpen);window.addEventListener('afterprint',printRestore);
 // ---------- boot ----------
 window.addEventListener('popstate',()=>{if(!BANK||MODE)return;
   if(RUN&&!RUN.done){if(!confirm(t('leave_confirm'))){try{history.pushState({mock:'run'},'')}catch(e){}return}RUN.done=true;window.onbeforeunload=null;if(mediaRec&&mediaRec.state==='recording')mediaRec.stop()}

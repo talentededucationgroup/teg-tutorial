@@ -1,5 +1,5 @@
 {
- "version": "2026-11-17a",
+ "version": "2026-11-17b",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -1556,7 +1556,8 @@
    ],
    "match": {
     "country": "AU",
-    "q": "Australian College of International Studies"
+    "q": "Australian College of International Studies",
+    "side": "onshore"
    },
    "plan": "partner_bonus",
    "founding_partner": false,
@@ -1617,7 +1618,8 @@
    "action": {
     "type": "search",
     "country": "AU",
-    "q": "Australian College of International Studies"
+    "q": "Australian College of International Studies",
+    "side": "onshore"
    },
    "source": "Excel TEG Pricelist R103 (sheet Offshore/Onshore - Sydney: daftar program & special discount Talented); CRICOS: data/cricos.json (snapshot 02/11/2026)",
    "checked": "2026-11-17",
@@ -1776,5 +1778,6 @@
   "form_url": "https://form.jotform.com/263181709123050"
  },
  "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
- "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir."
+ "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir.",
+ "action_note": "action.side (opsional): \"offshore\" | \"onshore\" - website memilih tab Offshore/Onshore sebelum mencari action.q. Saat ini dipakai ACIS (hanya onshore)."
 }

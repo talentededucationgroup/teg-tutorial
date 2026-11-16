@@ -35,121 +35,121 @@ Open the price list page and pick your language at the top right – 15 language
 The menu: programmes, English, pathways, other schools, IELTS/PTE/Korean/Japanese classes, scholarships, jobs, accommodation and start your application – plus FREE Mock Test and free consultation buttons.
 
 10
-00:02:15,690 --> 00:02:42,790
-School promos are labelled Sponsored: a 10-slide carousel below the tutorial video and Sponsored cards above the Programmes results. Ads never change prices or sorting.
+00:02:15,690 --> 00:02:39,290
+School promos are labelled Sponsored: a 10-slide carousel below the tutorial video, with each school's official logo. Use the numbers or arrows; ads never change prices or sorting.
 
 11
-00:02:43,390 --> 00:02:54,630
+00:02:39,890 --> 00:02:51,130
 Talented event videos: info sessions, seminars and school expos – click to watch.
 
 12
-00:02:55,230 --> 00:03:13,190
+00:02:51,730 --> 00:03:09,690
 Choose your country – Australia, New Zealand and many more – then Offshore (still in Indonesia) or Onshore (already there).
 
 13
-00:03:13,790 --> 00:03:23,010
+00:03:10,290 --> 00:03:19,510
 Search by course or school, then filter by city, field and level.
 
 14
-00:03:23,610 --> 00:03:43,270
+00:03:20,110 --> 00:03:39,770
 Enter your IELTS or PTE overall score: each card shows whether it meets the listed minimum. You can also filter for programmes with automatic scholarships.
 
 15
-00:03:43,870 --> 00:04:14,950
-Choose OSHC from 5 active providers. Compare cover shows one card per provider: price, policy documents and guide, hospital, doctors, medicines and waiting periods. Click Select, or Buy through Talented.
+00:03:40,370 --> 00:04:16,610
+Choose OSHC from 5 active providers. Compare cover shows one card per provider: price, documents, cover and waiting periods. Click Select or Buy through Talented – or share the comparison via WhatsApp or link.
 
 16
-00:04:15,550 --> 00:04:26,380
+00:04:17,210 --> 00:04:28,040
 Sort by cheapest, upfront cost, total study cost, recommended bank balance, A–Z or duration.
 
 17
-00:04:26,980 --> 00:04:37,780
+00:04:28,640 --> 00:04:39,440
 Each card shows upfront cost, total study cost and recommended bank balance, with an IDR estimate.
 
 18
-00:04:38,380 --> 00:04:58,830
+00:04:40,040 --> 00:05:00,490
 Green badge = scholarship (e.g. automatic 30%); yellow badge = Special discount Talented from the 2nd payment. The card says whether prices are before or after the scholarship.
 
 19
-00:04:59,430 --> 00:05:10,090
+00:05:01,090 --> 00:05:11,750
 Open Programme details to see tuition per period, material and enrolment fees, and the upfront periods.
 
 20
-00:05:10,690 --> 00:05:22,650
+00:05:12,350 --> 00:05:24,310
 Upfront cost, minimum bank balance for the visa, and a refund policy summary with its official source.
 
 21
-00:05:23,250 --> 00:05:37,850
+00:05:24,910 --> 00:05:39,510
 Tick “Add estimated living costs” to include living costs for the whole study period in the total.
 
 22
-00:05:38,450 --> 00:06:00,610
+00:05:40,110 --> 00:06:02,270
 Bringing family: tick partner, enter the number of children and answer the school-age question. Visa, OSHC and recommended balance are calculated; a warning shows the right policy type.
 
 23
-00:06:01,210 --> 00:06:14,440
+00:06:02,870 --> 00:06:16,100
 In the details, the visa fee is shown per person, plus the Professional Admin fee and the Professional Admin fee per dependant – all added to the upfront cost.
 
 24
-00:06:15,040 --> 00:06:26,470
+00:06:16,700 --> 00:06:28,130
 Download a PDF or send it to WhatsApp; Start your application and Ask a consultant are on every card.
 
 25
-00:06:27,070 --> 00:06:40,730
+00:06:28,730 --> 00:06:42,390
 The PDF downloads straight away – every page has the Talented logo, a document code, date, QR code and watermark.
 
 26
-00:06:41,330 --> 00:07:01,950
+00:06:42,990 --> 00:07:03,610
 Catalogue PDF links from your consultant open in your chosen language. When it says ready, click Save PDF / ZIP; if it fails or the link is incomplete, a message and a Try again button appear.
 
 27
-00:07:02,550 --> 00:07:16,760
+00:07:04,210 --> 00:07:18,420
 Tick Select on the programmes you like (up to 10), then click Compare – and download the comparison as a PDF.
 
 28
-00:07:17,360 --> 00:07:33,160
+00:07:19,020 --> 00:07:34,820
 Your selected programmes appear in the bottom bar: download them as a PDF (comparison table and/or full details) or send the PDF to WhatsApp.
 
 29
-00:07:33,760 --> 00:07:49,530
+00:07:35,420 --> 00:07:51,190
 English (ELICOS): weekly fees with a simulation based on each school's base weeks – upfront cost, total cost and recommended balance.
 
 30
-00:07:50,130 --> 00:08:08,180
+00:07:51,790 --> 00:08:09,840
 Pathway packages: VET at one school, then a Bachelor at another, with upfront cost, total and recommended balance.
 
 31
-00:08:08,780 --> 00:08:22,660
+00:08:10,440 --> 00:08:24,320
 Other schools: the official CRICOS directory – 1,539 schools with courses and indicative prices.
 
 32
-00:08:23,260 --> 00:08:36,940
+00:08:24,920 --> 00:08:38,600
 IELTS/PTE preparation with Victory Scholars Academy – TEG is a Pearson PTE Elite Partner 2026.
 
 33
-00:08:37,540 --> 00:08:49,160
+00:08:39,200 --> 00:08:50,820
 Basic English, PTE Foundation, IELTS/PTE Preparation, Japanese and Korean – online and offline, priced in IDR.
 
 34
-00:08:49,760 --> 00:09:11,440
+00:08:51,420 --> 00:09:13,100
 Scholarships: active scholarships for Indonesian students – filter by country, level, provider and funding, or TEG partner campuses. Always check the official source.
 
 35
-00:09:12,040 --> 00:09:26,710
+00:09:13,700 --> 00:09:28,370
 Job listings updated automatically twice a day. Never pay to get a job.
 
 36
-00:09:27,310 --> 00:09:47,450
+00:09:28,970 --> 00:09:49,110
 Accommodation: student housing providers with price ranges. Never transfer money before an official contract.
 
 37
-00:09:48,050 --> 00:09:57,770
+00:09:49,710 --> 00:09:59,430
 Start your application: document checklist, process steps and a student visa process video.
 
 38
-00:09:58,370 --> 00:10:12,270
+00:10:00,030 --> 00:10:13,930
 Our offices in Sydney, Pontianak and Singkawang, and the Student Information Form (PDF/Excel).
 
 39
-00:10:12,870 --> 00:10:37,260
+00:10:14,530 --> 00:10:38,920
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

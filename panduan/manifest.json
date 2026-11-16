@@ -1,268 +1,268 @@
 {
-  "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4.8",
-  "released": "2026-11-16",
-  "built_from": "Screenshot website hosting v96-v100 (16/11/2026), Excel R103",
-  "note": "v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
-  "language": {
-    "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
-    "subtitles": "en (burned-in) + subtitle-en.srt"
+ "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
+ "version": "v4.9",
+ "released": "2026-11-16",
+ "built_from": "Screenshot website hosting v96-v105 (16/11/2026), Excel R103",
+ "note": "v4.9: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide dengan logo resmi sekolah; bab OSHC - tombol \"Bagikan ke WhatsApp\" & \"Bagikan link\" di perbandingan cover (website v105). | v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
+ "language": {
+  "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
+  "subtitles": "en (burned-in) + subtitle-en.srt"
+ },
+ "duration_seconds": 639.4,
+ "resolution": "1920x1080",
+ "files": {
+  "tutorial.mp4": {
+   "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
+   "bytes": 19149760,
+   "sha256": "4f609807671cd7be1e87ff7431aa23a25c57a28744fc937a35193cdac13e062a"
   },
-  "duration_seconds": 637.8,
-  "resolution": "1920x1080",
-  "files": {
-    "tutorial.mp4": {
-      "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 19062859,
-      "sha256": "a22ea836dce84a23da36da61ec94b8e1b6e548b70288fe5e3154b012e854d8f5"
-    },
-    "poster.jpg": {
-      "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
-      "bytes": 92567,
-      "sha256": "614856629cc311860d5b86506007f33aad1334034646e9fcad0b73dad3177ae5"
-    },
-    "subtitle-en.srt": {
-      "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 5964,
-      "sha256": "daaa82fb224b1ef22ff9b043c16dc04aa0f43b459b6c1ca08c580e63d8916c52"
-    }
+  "poster.jpg": {
+   "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
+   "bytes": 92567,
+   "sha256": "614856629cc311860d5b86506007f33aad1334034646e9fcad0b73dad3177ae5"
   },
-  "chapters": [
-    {
-      "start": "00:00",
-      "title": "2 cara cek harga di Talented Education Group",
-      "title_en": "2 ways to check prices at Talented Education Group",
-      "title_id": "2 cara cek harga di Talented Education Group"
-    },
-    {
-      "start": "00:12",
-      "title": "Cara 1 · Lewat aplikasi Talented",
-      "title_en": "Way 1 · Using the Talented app",
-      "title_id": "Cara 1 · Lewat aplikasi Talented"
-    },
-    {
-      "start": "00:25",
-      "title": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\"",
-      "title_en": "App: Tap \"Install Talented App\"",
-      "title_id": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\""
-    },
-    {
-      "start": "00:34",
-      "title": "Aplikasi: Android: pakai Chrome",
-      "title_en": "App: Android: use Chrome",
-      "title_id": "Aplikasi: Android: pakai Chrome"
-    },
-    {
-      "start": "00:53",
-      "title": "Aplikasi: iPhone / iPad: pakai Safari",
-      "title_en": "App: iPhone / iPad: use Safari",
-      "title_id": "Aplikasi: iPhone / iPad: pakai Safari"
-    },
-    {
-      "start": "01:07",
-      "title": "Aplikasi: Selesai!",
-      "title_en": "App: Done!",
-      "title_id": "Aplikasi: Selesai!"
-    },
-    {
-      "start": "01:19",
-      "title": "Cara 2 · Lewat browser",
-      "title_en": "Way 2 · Using the browser",
-      "title_id": "Cara 2 · Lewat browser"
-    },
-    {
-      "start": "01:33",
-      "title": "Browser: Buka halaman & pilih bahasa",
-      "title_en": "Browser: Open the page & choose a language",
-      "title_id": "Browser: Buka halaman & pilih bahasa"
-    },
-    {
-      "start": "01:52",
-      "title": "Browser: Menu utama",
-      "title_en": "Browser: Main menu",
-      "title_id": "Browser: Menu utama"
-    },
-    {
-      "start": "02:15",
-      "title": "Browser: Promo sekolah (Sponsored)",
-      "title_en": "Browser: School promos (Sponsored)",
-      "title_id": "Browser: Promo sekolah (Sponsored)"
-    },
-    {
-      "start": "02:43",
-      "title": "Browser: Kegiatan Talented",
-      "title_en": "Browser: Talented events",
-      "title_id": "Browser: Kegiatan Talented"
-    },
-    {
-      "start": "02:54",
-      "title": "Browser: Negara & Offshore / Onshore",
-      "title_en": "Browser: Country & Offshore / Onshore",
-      "title_id": "Browser: Negara & Offshore / Onshore"
-    },
-    {
-      "start": "03:13",
-      "title": "Browser: Cari & filter",
-      "title_en": "Browser: Search & filter",
-      "title_id": "Browser: Cari & filter"
-    },
-    {
-      "start": "03:23",
-      "title": "Browser: Cek skor & beasiswa",
-      "title_en": "Browser: Score check & scholarships",
-      "title_id": "Browser: Cek skor & beasiswa"
-    },
-    {
-      "start": "03:43",
-      "title": "Browser: Pilih OSHC & bandingkan cover",
-      "title_en": "Browser: Choose OSHC & compare cover",
-      "title_id": "Browser: Pilih OSHC & bandingkan cover"
-    },
-    {
-      "start": "04:15",
-      "title": "Browser: Urutkan hasil",
-      "title_en": "Browser: Sort results",
-      "title_id": "Browser: Urutkan hasil"
-    },
-    {
-      "start": "04:26",
-      "title": "Browser: Baca kartu program",
-      "title_en": "Browser: Read a programme card",
-      "title_id": "Browser: Baca kartu program"
-    },
-    {
-      "start": "04:38",
-      "title": "Browser: Lencana beasiswa & special discount",
-      "title_en": "Browser: Scholarship & special discount badges",
-      "title_id": "Browser: Lencana beasiswa & special discount"
-    },
-    {
-      "start": "04:59",
-      "title": "Browser: Rincian program",
-      "title_en": "Browser: Programme details",
-      "title_id": "Browser: Rincian program"
-    },
-    {
-      "start": "05:10",
-      "title": "Browser: Dana awal, rekening koran & refund",
-      "title_en": "Browser: Upfront cost, bank statement & refund",
-      "title_id": "Browser: Dana awal, rekening koran & refund"
-    },
-    {
-      "start": "05:22",
-      "title": "Browser: Tambah biaya hidup",
-      "title_en": "Browser: Add living costs",
-      "title_id": "Browser: Tambah biaya hidup"
-    },
-    {
-      "start": "05:38",
-      "title": "Browser: Membawa keluarga",
-      "title_en": "Browser: Bringing family",
-      "title_id": "Browser: Membawa keluarga"
-    },
-    {
-      "start": "06:00",
-      "title": "Browser: Rincian biaya keluarga",
-      "title_en": "Browser: Family cost breakdown",
-      "title_id": "Browser: Rincian biaya keluarga"
-    },
-    {
-      "start": "06:14",
-      "title": "Browser: PDF, WhatsApp & daftar",
-      "title_en": "Browser: PDF, WhatsApp & apply",
-      "title_id": "Browser: PDF, WhatsApp & daftar"
-    },
-    {
-      "start": "06:26",
-      "title": "Browser: PDF resmi Talented",
-      "title_en": "Browser: Official Talented PDF",
-      "title_id": "Browser: PDF resmi Talented"
-    },
-    {
-      "start": "06:41",
-      "title": "Browser: Katalog PDF per kota",
-      "title_en": "Browser: City PDF catalogues",
-      "title_id": "Browser: Katalog PDF per kota"
-    },
-    {
-      "start": "07:02",
-      "title": "Browser: Bandingkan",
-      "title_en": "Browser: Compare",
-      "title_id": "Browser: Bandingkan"
-    },
-    {
-      "start": "07:17",
-      "title": "Browser: Simpan & kirim pilihan",
-      "title_en": "Browser: Save & send your picks",
-      "title_id": "Browser: Simpan & kirim pilihan"
-    },
-    {
-      "start": "07:33",
-      "title": "Browser: Bahasa Inggris (ELICOS)",
-      "title_en": "Browser: English courses (ELICOS)",
-      "title_id": "Browser: Bahasa Inggris (ELICOS)"
-    },
-    {
-      "start": "07:49",
-      "title": "Browser: Paket Pathway VET + HE",
-      "title_en": "Browser: VET + HE Pathway packages",
-      "title_id": "Browser: Paket Pathway VET + HE"
-    },
-    {
-      "start": "08:08",
-      "title": "Browser: Sekolah lain (CRICOS)",
-      "title_en": "Browser: Other schools (CRICOS)",
-      "title_id": "Browser: Sekolah lain (CRICOS)"
-    },
-    {
-      "start": "08:22",
-      "title": "Browser: Les persiapan IELTS / PTE",
-      "title_en": "Browser: IELTS / PTE preparation classes",
-      "title_id": "Browser: Les persiapan IELTS / PTE"
-    },
-    {
-      "start": "08:37",
-      "title": "Browser: Kelas & harga VSA",
-      "title_en": "Browser: VSA classes & prices",
-      "title_id": "Browser: Kelas & harga VSA"
-    },
-    {
-      "start": "08:49",
-      "title": "Browser: Bea siswa",
-      "title_en": "Browser: Scholarships",
-      "title_id": "Browser: Bea siswa"
-    },
-    {
-      "start": "09:11",
-      "title": "Browser: Lowongan Kerja",
-      "title_en": "Browser: Jobs",
-      "title_id": "Browser: Lowongan Kerja"
-    },
-    {
-      "start": "09:27",
-      "title": "Browser: Akomodasi",
-      "title_en": "Browser: Accommodation",
-      "title_id": "Browser: Akomodasi"
-    },
-    {
-      "start": "09:47",
-      "title": "Browser: Mulai Daftar",
-      "title_en": "Browser: Start your application",
-      "title_id": "Browser: Mulai Daftar"
-    },
-    {
-      "start": "09:58",
-      "title": "Browser: Kantor & formulir",
-      "title_en": "Browser: Offices & forms",
-      "title_id": "Browser: Kantor & formulir"
-    },
-    {
-      "start": "10:12",
-      "title": "Konsultasi gratis",
-      "title_en": "Free consultation",
-      "title_id": "Konsultasi gratis"
-    }
-  ],
-  "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
-  "contact": "linktr.ee/talentededucationgroup"
+  "subtitle-en.srt": {
+   "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
+   "bytes": 5984,
+   "sha256": "ccd7f33850a44709f78681a250631e5253201b8a6490b162c155db0f06fe4cd0"
+  }
+ },
+ "chapters": [
+  {
+   "start": "00:00",
+   "title": "2 cara cek harga di Talented Education Group",
+   "title_en": "2 ways to check prices at Talented Education Group",
+   "title_id": "2 cara cek harga di Talented Education Group"
+  },
+  {
+   "start": "00:12",
+   "title": "Cara 1 · Lewat aplikasi Talented",
+   "title_en": "Way 1 · Using the Talented app",
+   "title_id": "Cara 1 · Lewat aplikasi Talented"
+  },
+  {
+   "start": "00:25",
+   "title": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\"",
+   "title_en": "App: Tap \"Install Talented App\"",
+   "title_id": "Aplikasi: Ketuk \"Pasang Aplikasi Talented\""
+  },
+  {
+   "start": "00:34",
+   "title": "Aplikasi: Android: pakai Chrome",
+   "title_en": "App: Android: use Chrome",
+   "title_id": "Aplikasi: Android: pakai Chrome"
+  },
+  {
+   "start": "00:53",
+   "title": "Aplikasi: iPhone / iPad: pakai Safari",
+   "title_en": "App: iPhone / iPad: use Safari",
+   "title_id": "Aplikasi: iPhone / iPad: pakai Safari"
+  },
+  {
+   "start": "01:07",
+   "title": "Aplikasi: Selesai!",
+   "title_en": "App: Done!",
+   "title_id": "Aplikasi: Selesai!"
+  },
+  {
+   "start": "01:19",
+   "title": "Cara 2 · Lewat browser",
+   "title_en": "Way 2 · Using the browser",
+   "title_id": "Cara 2 · Lewat browser"
+  },
+  {
+   "start": "01:33",
+   "title": "Browser: Buka halaman & pilih bahasa",
+   "title_en": "Browser: Open the page & choose a language",
+   "title_id": "Browser: Buka halaman & pilih bahasa"
+  },
+  {
+   "start": "01:52",
+   "title": "Browser: Menu utama",
+   "title_en": "Browser: Main menu",
+   "title_id": "Browser: Menu utama"
+  },
+  {
+   "start": "02:15",
+   "title": "Browser: Promo sekolah (Sponsored)",
+   "title_en": "Browser: School promos (Sponsored)",
+   "title_id": "Browser: Promo sekolah (Sponsored)"
+  },
+  {
+   "start": "02:39",
+   "title": "Browser: Kegiatan Talented",
+   "title_en": "Browser: Talented events",
+   "title_id": "Browser: Kegiatan Talented"
+  },
+  {
+   "start": "02:51",
+   "title": "Browser: Negara & Offshore / Onshore",
+   "title_en": "Browser: Country & Offshore / Onshore",
+   "title_id": "Browser: Negara & Offshore / Onshore"
+  },
+  {
+   "start": "03:09",
+   "title": "Browser: Cari & filter",
+   "title_en": "Browser: Search & filter",
+   "title_id": "Browser: Cari & filter"
+  },
+  {
+   "start": "03:19",
+   "title": "Browser: Cek skor & beasiswa",
+   "title_en": "Browser: Score check & scholarships",
+   "title_id": "Browser: Cek skor & beasiswa"
+  },
+  {
+   "start": "03:40",
+   "title": "Browser: Pilih OSHC & bandingkan cover",
+   "title_en": "Browser: Choose OSHC & compare cover",
+   "title_id": "Browser: Pilih OSHC & bandingkan cover"
+  },
+  {
+   "start": "04:16",
+   "title": "Browser: Urutkan hasil",
+   "title_en": "Browser: Sort results",
+   "title_id": "Browser: Urutkan hasil"
+  },
+  {
+   "start": "04:28",
+   "title": "Browser: Baca kartu program",
+   "title_en": "Browser: Read a programme card",
+   "title_id": "Browser: Baca kartu program"
+  },
+  {
+   "start": "04:39",
+   "title": "Browser: Lencana beasiswa & special discount",
+   "title_en": "Browser: Scholarship & special discount badges",
+   "title_id": "Browser: Lencana beasiswa & special discount"
+  },
+  {
+   "start": "05:00",
+   "title": "Browser: Rincian program",
+   "title_en": "Browser: Programme details",
+   "title_id": "Browser: Rincian program"
+  },
+  {
+   "start": "05:12",
+   "title": "Browser: Dana awal, rekening koran & refund",
+   "title_en": "Browser: Upfront cost, bank statement & refund",
+   "title_id": "Browser: Dana awal, rekening koran & refund"
+  },
+  {
+   "start": "05:24",
+   "title": "Browser: Tambah biaya hidup",
+   "title_en": "Browser: Add living costs",
+   "title_id": "Browser: Tambah biaya hidup"
+  },
+  {
+   "start": "05:39",
+   "title": "Browser: Membawa keluarga",
+   "title_en": "Browser: Bringing family",
+   "title_id": "Browser: Membawa keluarga"
+  },
+  {
+   "start": "06:02",
+   "title": "Browser: Rincian biaya keluarga",
+   "title_en": "Browser: Family cost breakdown",
+   "title_id": "Browser: Rincian biaya keluarga"
+  },
+  {
+   "start": "06:16",
+   "title": "Browser: PDF, WhatsApp & daftar",
+   "title_en": "Browser: PDF, WhatsApp & apply",
+   "title_id": "Browser: PDF, WhatsApp & daftar"
+  },
+  {
+   "start": "06:28",
+   "title": "Browser: PDF resmi Talented",
+   "title_en": "Browser: Official Talented PDF",
+   "title_id": "Browser: PDF resmi Talented"
+  },
+  {
+   "start": "06:42",
+   "title": "Browser: Katalog PDF per kota",
+   "title_en": "Browser: City PDF catalogues",
+   "title_id": "Browser: Katalog PDF per kota"
+  },
+  {
+   "start": "07:03",
+   "title": "Browser: Bandingkan",
+   "title_en": "Browser: Compare",
+   "title_id": "Browser: Bandingkan"
+  },
+  {
+   "start": "07:18",
+   "title": "Browser: Simpan & kirim pilihan",
+   "title_en": "Browser: Save & send your picks",
+   "title_id": "Browser: Simpan & kirim pilihan"
+  },
+  {
+   "start": "07:35",
+   "title": "Browser: Bahasa Inggris (ELICOS)",
+   "title_en": "Browser: English courses (ELICOS)",
+   "title_id": "Browser: Bahasa Inggris (ELICOS)"
+  },
+  {
+   "start": "07:51",
+   "title": "Browser: Paket Pathway VET + HE",
+   "title_en": "Browser: VET + HE Pathway packages",
+   "title_id": "Browser: Paket Pathway VET + HE"
+  },
+  {
+   "start": "08:10",
+   "title": "Browser: Sekolah lain (CRICOS)",
+   "title_en": "Browser: Other schools (CRICOS)",
+   "title_id": "Browser: Sekolah lain (CRICOS)"
+  },
+  {
+   "start": "08:24",
+   "title": "Browser: Les persiapan IELTS / PTE",
+   "title_en": "Browser: IELTS / PTE preparation classes",
+   "title_id": "Browser: Les persiapan IELTS / PTE"
+  },
+  {
+   "start": "08:38",
+   "title": "Browser: Kelas & harga VSA",
+   "title_en": "Browser: VSA classes & prices",
+   "title_id": "Browser: Kelas & harga VSA"
+  },
+  {
+   "start": "08:51",
+   "title": "Browser: Bea siswa",
+   "title_en": "Browser: Scholarships",
+   "title_id": "Browser: Bea siswa"
+  },
+  {
+   "start": "09:13",
+   "title": "Browser: Lowongan Kerja",
+   "title_en": "Browser: Jobs",
+   "title_id": "Browser: Lowongan Kerja"
+  },
+  {
+   "start": "09:28",
+   "title": "Browser: Akomodasi",
+   "title_en": "Browser: Accommodation",
+   "title_id": "Browser: Akomodasi"
+  },
+  {
+   "start": "09:49",
+   "title": "Browser: Mulai Daftar",
+   "title_en": "Browser: Start your application",
+   "title_id": "Browser: Mulai Daftar"
+  },
+  {
+   "start": "09:59",
+   "title": "Browser: Kantor & formulir",
+   "title_en": "Browser: Offices & forms",
+   "title_id": "Browser: Kantor & formulir"
+  },
+  {
+   "start": "10:14",
+   "title": "Konsultasi gratis",
+   "title_en": "Free consultation",
+   "title_id": "Konsultasi gratis"
+  }
+ ],
+ "disclaimer": "Semua harga adalah perkiraan; jumlah akhir mengikuti offer letter resmi sekolah.",
+ "contact": "linktr.ee/talentededucationgroup"
 }

@@ -1,20 +1,20 @@
 {
   "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
-  "version": "v4.7",
+  "version": "v4.8",
   "released": "2026-11-16",
-  "built_from": "Screenshot website hosting v96-v99 (16/11/2026), Excel R103",
-  "note": "v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
+  "built_from": "Screenshot website hosting v96-v100 (16/11/2026), Excel R103",
+  "note": "v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
   "language": {
     "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
     "subtitles": "en (burned-in) + subtitle-en.srt"
   },
-  "duration_seconds": 637.7,
+  "duration_seconds": 637.8,
   "resolution": "1920x1080",
   "files": {
     "tutorial.mp4": {
       "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-      "bytes": 19145445,
-      "sha256": "42561c6caf1ab1a77287b55990dd81a3f8338b46d7a1c0b97acedf67b63e04a9"
+      "bytes": 19062859,
+      "sha256": "a22ea836dce84a23da36da61ec94b8e1b6e548b70288fe5e3154b012e854d8f5"
     },
     "poster.jpg": {
       "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -23,8 +23,8 @@
     },
     "subtitle-en.srt": {
       "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "bytes": 5971,
-      "sha256": "d2b918d8aece558f37f6c7fd58b2252187d66bbb6512b668d98563f2ae6a6856"
+      "bytes": 5964,
+      "sha256": "daaa82fb224b1ef22ff9b043c16dc04aa0f43b459b6c1ca08c580e63d8916c52"
     }
   },
   "chapters": [
@@ -179,7 +179,7 @@
       "title_id": "Browser: PDF resmi Talented"
     },
     {
-      "start": "06:40",
+      "start": "06:41",
       "title": "Browser: Katalog PDF per kota",
       "title_en": "Browser: City PDF catalogues",
       "title_id": "Browser: Katalog PDF per kota"
@@ -191,7 +191,7 @@
       "title_id": "Browser: Bandingkan"
     },
     {
-      "start": "07:16",
+      "start": "07:17",
       "title": "Browser: Simpan & kirim pilihan",
       "title_en": "Browser: Save & send your picks",
       "title_id": "Browser: Simpan & kirim pilihan"
@@ -239,7 +239,7 @@
       "title_id": "Browser: Lowongan Kerja"
     },
     {
-      "start": "09:26",
+      "start": "09:27",
       "title": "Browser: Akomodasi",
       "title_en": "Browser: Accommodation",
       "title_id": "Browser: Akomodasi"

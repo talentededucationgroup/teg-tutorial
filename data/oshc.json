@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16",
+ "version": "2026-11-16b",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -116,7 +116,13 @@
    "sources": [
     "https://ahm.com.au/oshc",
     "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
-   ]
+   ],
+   "docs": {
+    "policy": "https://ahm.com.au/oshc",
+    "guide": "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
+   },
+   "buy_url": null,
+   "logo": null
   },
   {
    "name": "Allianz Care",
@@ -152,7 +158,13 @@
    },
    "sources": [
     "https://www.allianzcare.com.au/en/student-visa-oshc/cover"
-   ]
+   ],
+   "docs": {
+    "policy": "https://www.allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/docs/Allianz_Care_OSHC_Benefits_Flyer_Standard.pdf",
+    "guide": "https://allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/docs/IH-0073-OSHC_Simple_Guide.pdf"
+   },
+   "buy_url": null,
+   "logo": null
   },
   {
    "name": "Bupa",
@@ -189,7 +201,13 @@
    "sources": [
     "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
     "https://www.bupa.com.au/oshc/kcryplrn0u2uhralkchig"
-   ]
+   ],
+   "docs": {
+    "policy": "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
+    "guide": "https://www.bupa.com.au/oshc/kcryplrn0u2uhralkchig"
+   },
+   "buy_url": null,
+   "logo": null
   },
   {
    "name": "Medibank",
@@ -230,7 +248,13 @@
    "note": {
     "id": "Dokumen Medibank: 'current as at January 2025'",
     "en": "Medibank documents: 'current as at January 2025'"
-   }
+   },
+   "docs": {
+    "policy": "https://www.medibank.com.au/content/dam/b2c/docs/mpl/Essentials_OSHC_Cover_Summary.pdf",
+    "guide": "https://www.medibank.com.au/overseas-student-health-cover/"
+   },
+   "buy_url": null,
+   "logo": null
   },
   {
    "name": "nib",
@@ -270,7 +294,13 @@
    "note": {
     "id": "Fund rules nib berlaku 29 Juli 2026",
     "en": "nib fund rules effective 29 July 2026"
-   }
+   },
+   "docs": {
+    "policy": "https://www.nib.com.au/docs/oshc-fund-rules",
+    "guide": "https://www.nib.com.au/overseas-students/documents/nib-oshc-product-brochure.pdf"
+   },
+   "buy_url": null,
+   "logo": null
   },
   {
    "name": "CBHS International Health",
@@ -289,5 +319,288 @@
    }
   }
  ],
- "government_source": "https://www.health.gov.au/sites/default/files/2026-08/overseas-student-health-cover-oshc-fact-sheet.pdf"
+ "government_source": "https://www.health.gov.au/sites/default/files/2026-08/overseas-student-health-cover-oshc-fact-sheet.pdf",
+ "card_rows": [
+  {
+   "key": "public_hospital",
+   "label": {
+    "id": "Rumah sakit negeri",
+    "en": "Public hospital"
+   },
+   "values": {
+    "ahm": {
+     "id": "100% tarif negara bagian",
+     "en": "100% of State/Territory rate"
+    },
+    "Medibank": {
+     "id": "100% tarif negara bagian",
+     "en": "100% of State/Territory rate"
+    },
+    "Allianz Care": {
+     "id": "100% tarif negara bagian",
+     "en": "100% of State/Territory rate"
+    },
+    "Bupa": {
+     "id": "100% tarif negara bagian",
+     "en": "100% of State/Territory rate"
+    },
+    "nib": {
+     "id": "100% tarif negara bagian",
+     "en": "100% of State/Territory rate"
+    }
+   }
+  },
+  {
+   "key": "private_hospital",
+   "label": {
+    "id": "Rumah sakit swasta rekanan",
+    "en": "Agreement private hospital"
+   },
+   "values": {
+    "ahm": {
+     "id": "100% biaya terkontrak RS rekanan",
+     "en": "100% of contracted private hospital charges"
+    },
+    "Medibank": {
+     "id": "100% biaya terkontrak RS rekanan",
+     "en": "100% of contracted private hospital charges"
+    },
+    "Allianz Care": {
+     "id": "100% biaya terkontrak RS rekanan",
+     "en": "100% of contracted private hospital charges"
+    },
+    "Bupa": {
+     "id": "100% biaya terkontrak RS rekanan",
+     "en": "100% of contracted private hospital charges"
+    },
+    "nib": {
+     "id": "100% biaya terkontrak RS rekanan",
+     "en": "100% of contracted private hospital charges"
+    }
+   }
+  },
+  {
+   "key": "gp",
+   "label": {
+    "id": "Dokter umum (GP)",
+    "en": "GP visits"
+   },
+   "values": {
+    "ahm": {
+     "id": "Min. 85% MBS*",
+     "en": "At least 85% MBS*"
+    },
+    "Medibank": {
+     "id": "100% MBS",
+     "en": "100% of MBS fee"
+    },
+    "Allianz Care": {
+     "id": "100% MBS",
+     "en": "100% of MBS fee"
+    },
+    "Bupa": {
+     "id": "S.d. 100% MBS",
+     "en": "Up to 100% of MBS fee"
+    },
+    "nib": {
+     "id": "100% MBS",
+     "en": "100% of MBS fee"
+    }
+   }
+  },
+  {
+   "key": "specialist",
+   "label": {
+    "id": "Spesialis, tes darah & rontgen",
+    "en": "Specialist, pathology & x-ray"
+   },
+   "values": {
+    "ahm": {
+     "id": "Min. 85% MBS*",
+     "en": "At least 85% MBS*"
+    },
+    "Medibank": {
+     "id": "85% MBS",
+     "en": "85% of MBS fee"
+    },
+    "Allianz Care": {
+     "id": "85% MBS",
+     "en": "85% of MBS fee"
+    },
+    "Bupa": {
+     "id": "S.d. 100% MBS",
+     "en": "Up to 100% of MBS fee"
+    },
+    "nib": {
+     "id": "85% MBS",
+     "en": "85% of MBS fee"
+    }
+   }
+  },
+  {
+   "key": "ambulance",
+   "label": {
+    "id": "Ambulans darurat",
+    "en": "Emergency ambulance"
+   },
+   "values": {
+    "ahm": true,
+    "Medibank": true,
+    "Allianz Care": true,
+    "Bupa": true,
+    "nib": true
+   }
+  },
+  {
+   "key": "pharmacy",
+   "label": {
+    "id": "Obat resep",
+    "en": "Prescriptions"
+   },
+   "values": {
+    "ahm": {
+     "id": "Min. AUD 50/item, 500/thn*",
+     "en": "At least AUD 50/item, 500/yr*"
+    },
+    "Medibank": {
+     "id": "Ditanggung s.d. AUD 70/item, 500/thn",
+     "en": "Up to AUD 70/item, 500/yr"
+    },
+    "Allianz Care": {
+     "id": "AUD 50/item, 500/thn",
+     "en": "AUD 50/item, 500/yr"
+    },
+    "Bupa": {
+     "id": "AUD 50/item, 500/thn",
+     "en": "AUD 50/item, 500/yr"
+    },
+    "nib": {
+     "id": "AUD 50/item, 500/thn",
+     "en": "AUD 50/item, 500/yr"
+    }
+   }
+  },
+  {
+   "key": "pregnancy_wait",
+   "label": {
+    "id": "Masa tunggu kehamilan",
+    "en": "Pregnancy waiting period"
+   },
+   "values": {
+    "ahm": {
+     "id": "Lihat polis*",
+     "en": "See policy*"
+    },
+    "Medibank": {
+     "id": "12 bulan",
+     "en": "12 months"
+    },
+    "Allianz Care": {
+     "id": "12 bln (0 bila polis >= 2 thn)",
+     "en": "12 mths (none if policy >= 2 yrs)"
+    },
+    "Bupa": {
+     "id": "12 bln (polis < 2 thn)",
+     "en": "12 mths (policy < 2 yrs)"
+    },
+    "nib": {
+     "id": "12 bln (polis < 2 thn)",
+     "en": "12 mths (policy < 2 yrs)"
+    }
+   }
+  },
+  {
+   "key": "psych_nowait",
+   "label": {
+    "id": "Psikiatri tanpa masa tunggu",
+    "en": "No psychiatric waiting period"
+   },
+   "values": {
+    "ahm": null,
+    "Medibank": true,
+    "Allianz Care": true,
+    "Bupa": true,
+    "nib": false
+   }
+  },
+  {
+   "key": "online_gp",
+   "label": {
+    "id": "Dokter online ditanggung",
+    "en": "Online doctor covered"
+   },
+   "values": {
+    "ahm": null,
+    "Medibank": null,
+    "Allianz Care": null,
+    "Bupa": true,
+    "nib": null
+   }
+  },
+  {
+   "key": "helpline",
+   "label": {
+    "id": "Saluran bantuan 24/7",
+    "en": "24/7 support line"
+   },
+   "values": {
+    "ahm": true,
+    "Medibank": true,
+    "Allianz Care": true,
+    "Bupa": true,
+    "nib": null
+   }
+  },
+  {
+   "key": "extras",
+   "label": {
+    "id": "Dental, optik, fisioterapi",
+    "en": "Dental, optical, physio"
+   },
+   "values": {
+    "ahm": false,
+    "Medibank": false,
+    "Allianz Care": false,
+    "Bupa": false,
+    "nib": false
+   }
+  }
+ ],
+ "card_legend": {
+  "id": "✓ = ditanggung/tersedia · ✗ = tidak · – = tidak disebutkan di dokumen resmi · * angka pasti ahm ada di Member Guide/Cover Summary ahm (tampil sesuai standar minimum pemerintah)",
+  "en": "✓ = covered/available · ✗ = not covered · – = not stated in official documents · * ahm's exact figures are in the ahm Member Guide/Cover Summary (shown as the government minimum)"
+ },
+ "card_order": [
+  "ahm",
+  "Medibank",
+  "Allianz Care",
+  "Bupa",
+  "nib"
+ ],
+ "labels": {
+  "per_month": {
+   "id": "/bulan (Single)",
+   "en": "/month (Single)"
+  },
+  "policy_doc": {
+   "id": "Dokumen polis",
+   "en": "Policy document"
+  },
+  "guide": {
+   "id": "Panduan",
+   "en": "Guide"
+  },
+  "buy": {
+   "id": "Beli lewat Talented",
+   "en": "Buy via Talented"
+  },
+  "select": {
+   "id": "Pilih",
+   "en": "Select"
+  },
+  "selected": {
+   "id": "Dipilih",
+   "en": "Selected"
+  }
+ }
 }

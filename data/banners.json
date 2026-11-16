@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16",
+ "version": "2026-11-16b",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -44,7 +44,8 @@
   "featured": {
    "max": 2,
    "where": "Kartu Sponsored di atas hasil Program studi, hanya bila negara/bidang cocok",
-   "size": "Teks + logo 400x400 px"
+   "size": "Teks + logo 400x400 px",
+   "rule": "Satu iklan hanya boleh tampil di SATU slot (tidak boleh hero + featured sekaligus). Featured hanya untuk paket Featured berbayar."
   },
   "tab": {
    "max": 1,
@@ -361,8 +362,7 @@
    "provider": "Charles Darwin University (CDU)",
    "cricos": "00300K",
    "slot": [
-    "hero",
-    "featured"
+    "hero"
    ],
    "match": {
     "country": "AU",
@@ -438,8 +438,7 @@
    "provider": "Australian Institute of Advanced Technologies (AIAT)",
    "cricos": "04191M",
    "slot": [
-    "hero",
-    "featured"
+    "hero"
    ],
    "match": {
     "country": "AU",

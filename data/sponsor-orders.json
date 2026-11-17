@@ -1,0 +1,23 @@
+{
+  "updated": "2026-11-17",
+  "processed": {
+    "6706584372715050182": {
+      "institution": "sddxzcgd",
+      "package": null,
+      "amount_paid_aud": null,
+      "target_countries": [],
+      "submitted": "2026-11-16",
+      "checked": "2026-11-17",
+      "status": "tanpa pembayaran - tidak dipasang (data uji/isian acak, paket tidak dipilih)"
+    },
+    "6707126152716008265": {
+      "institution": "sdgsd",
+      "package": null,
+      "amount_paid_aud": null,
+      "target_countries": ["Australia"],
+      "submitted": "2026-11-17",
+      "checked": "2026-11-17",
+      "status": "uji coba - tidak dipasang (dikirim 17/11/2026, tanpa pembayaran)"
+    }
+  }
+}

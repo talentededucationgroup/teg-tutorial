@@ -1,0 +1,294 @@
+{
+ "version": "2026-11-18",
+ "updated_at": "2026-11-18T10:00:00+07:00",
+ "title": {
+  "id": "Berita resmi imigrasi & visa pelajar",
+  "en": "Official immigration & student visa news"
+ },
+ "intro": {
+  "id": "Ringkasan perubahan resmi terbaru tentang visa pelajar dan sekolah di negara-negara yang kami tawarkan, lengkap dengan link sumber resmi. Diperbarui berkala.",
+  "en": "Summary of the latest official changes on student visas and schools in the countries we offer, with links to official sources. Updated regularly."
+ },
+ "disclaimer": {
+  "id": "Ringkasan informasi umum, bukan nasihat hukum/imigrasi. Aturan bisa berubah - selalu cek link resmi atau tanya konsultan Talented sebelum mengambil keputusan.",
+  "en": "General summary, not legal or migration advice. Rules can change - always check the official link or ask a Talented consultant before deciding."
+ },
+ "categories": {
+  "visa": {
+   "id": "Visa",
+   "en": "Visa"
+  },
+  "policy": {
+   "id": "Kebijakan",
+   "en": "Policy"
+  },
+  "fees": {
+   "id": "Biaya",
+   "en": "Fees"
+  },
+  "school": {
+   "id": "Status sekolah",
+   "en": "School status"
+  }
+ },
+ "statuses": {
+  "in_force": {
+   "id": "Berlaku",
+   "en": "In force"
+  },
+  "upcoming": {
+   "id": "Akan berlaku",
+   "en": "Upcoming"
+  },
+  "announced": {
+   "id": "Diumumkan",
+   "en": "Announced"
+  },
+  "changed": {
+   "id": "Berubah",
+   "en": "Changed"
+  }
+ },
+ "countries": {
+  "AU": {
+   "id": "Australia",
+   "en": "Australia"
+  },
+  "NZ": {
+   "id": "Selandia Baru",
+   "en": "New Zealand"
+  },
+  "GB": {
+   "id": "Inggris",
+   "en": "United Kingdom"
+  },
+  "CA": {
+   "id": "Kanada",
+   "en": "Canada"
+  },
+  "US": {
+   "id": "Amerika Serikat",
+   "en": "United States"
+  }
+ },
+ "watch_sources": [
+  {
+   "country": "AU",
+   "url": "https://immi.homeaffairs.gov.au/news-media/archive"
+  },
+  {
+   "country": "AU",
+   "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news"
+  },
+  {
+   "country": "AU",
+   "url": "https://www.education.gov.au/international-education"
+  },
+  {
+   "country": "NZ",
+   "url": "https://www.immigration.govt.nz/about-us/news-centre"
+  },
+  {
+   "country": "NZ",
+   "url": "https://www.immigration.govt.nz/about-us/policy-and-law/amendment-circulars"
+  },
+  {
+   "country": "GB",
+   "url": "https://www.gov.uk/search/news-and-communications?topic=immigration"
+  },
+  {
+   "country": "GB",
+   "url": "https://www.gov.uk/government/collections/immigration-rules-statement-of-changes"
+  },
+  {
+   "country": "CA",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news.html"
+  },
+  {
+   "country": "US",
+   "url": "https://studyinthestates.dhs.gov/news"
+  },
+  {
+   "country": "US",
+   "url": "https://travel.state.gov/content/travel/en/News/visas-news.html"
+  }
+ ],
+ "rules": "Hanya berita dengan link sumber resmi pemerintah/sekolah (official=true) yang boleh menjadi sumber utama; link media hanya pelengkap. Urut tanggal terbaru. Hapus/arsipkan item > 12 bulan kecuali masih relevan. Jangan memuat nama master agent atau info internal.",
+ "items": [
+  {
+   "id": "us-ds-rule-vacated-2026-11",
+   "date": "2026-11-16",
+   "country": "US",
+   "category": "visa",
+   "status": "changed",
+   "title": {
+    "id": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1",
+    "en": "US: court vacates DHS rule ending 'Duration of Status' (D/S) for F-1 students"
+   },
+   "summary": {
+    "id": "Aturan DHS (Juli 2026) yang mengganti D/S dengan masa tinggal tetap (maks. 4 tahun) dibatalkan Pengadilan Distrik Massachusetts pada 16 Nov 2026, sehingga D/S tetap berlaku. Pemerintah AS diperkirakan akan banding - pantau terus.",
+    "en": "The DHS rule (July 2026) replacing D/S with fixed admission periods (max. 4 years) was vacated by the US District Court for Massachusetts on 16 Nov 2026, so D/S remains. An appeal is widely expected - keep watching."
+   },
+   "links": [
+    {
+     "label": "DHS - Final rule (Jul 2026)",
+     "url": "https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse",
+     "official": true
+    },
+    {
+     "label": "ICEF Monitor - court ruling",
+     "url": "https://monitor.icef.com/2026/11/breaking-news-us-court-strikes-down-rule-that-would-have-ended-duration-of-status-d-s-for-international-students/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "nz-ac-2026-32",
+   "date": "2026-10-27",
+   "country": "NZ",
+   "category": "visa",
+   "status": "in_force",
+   "title": {
+    "id": "Selandia Baru: 4 perubahan aturan visa pelajar mulai 27 Okt 2026",
+    "en": "New Zealand: 4 student visa rule changes from 27 Oct 2026"
+   },
+   "summary": {
+    "id": "(1) Master by Research kini maks. 25 jam/minggu saat kuliah, penuh waktu saat libur; doktoral tetap tanpa batas. (2) Kemampuan bahasa Inggris dapat dinilai (mis. IELTS 5.0 / PTE 36 / TOEFL iBT 35), hasil tes maks. 2 tahun. (3) INZ dapat menangguhkan visa untuk provider/program tertentu hingga 6 bulan. (4) Visa kursus < 1 tahun bisa berlaku 2 bulan setelah kursus selesai.",
+    "en": "(1) Masters by Research now max. 25 hrs/week in term, full-time in holidays; doctoral remains unlimited. (2) English ability may be assessed (e.g. IELTS 5.0 / PTE 36 / TOEFL iBT 35), tests max. 2 years old. (3) INZ may suspend processing for specific providers/programmes for up to 6 months. (4) Visas for courses under 1 year may run 2 months past the course end."
+   },
+   "links": [
+    {
+     "label": "INZ Amendment Circular 2026-32",
+     "url": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-32.pdf",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "au-family-members-2026-10",
+   "date": "2026-10-02",
+   "country": "AU",
+   "category": "visa",
+   "status": "in_force",
+   "title": {
+    "id": "Australia: anggota keluarga di visa pelajar sejak 2 Okt 2026",
+    "en": "Australia: family members on student visas from 2 Oct 2026"
+   },
+   "summary": {
+    "id": "Keluarga hanya bisa diikutkan oleh pemohon yang dikecualikan, termasuk pelajar dari negara ASEAN seperti Indonesia. Keluarga tidak bisa ditambahkan setelah visa terbit, dan semua harus berada di lokasi yang sama saat aplikasi.",
+    "en": "Family can only be included by exempt applicants, including students from ASEAN countries such as Indonesia. Family cannot be added after the visa is granted, and all must be in the same location when applying."
+   },
+   "links": [
+    {
+     "label": "Home Affairs - Family members",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "au-npl-2027",
+   "date": "2026-07-15",
+   "country": "AU",
+   "category": "policy",
+   "status": "announced",
+   "title": {
+    "id": "Australia: National Planning Level 2027 = 295.000 siswa baru",
+    "en": "Australia: 2027 National Planning Level = 295,000 new students"
+   },
+   "summary": {
+    "id": "Sama dengan 2026; tidak ada provider yang mendapat alokasi lebih kecil dari 2026. Visa diproses prioritas sampai provider mencapai 80% alokasinya, setelah itu tetap diterima tetapi lebih lambat. Bukan batas mutlak.",
+    "en": "Same as 2026; no provider gets a smaller allocation than in 2026. Visas are priority-processed until a provider reaches 80% of its allocation, then still accepted but slower. Not a hard cap."
+   },
+   "links": [
+    {
+     "label": "Study Australia - 2027 settings",
+     "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/australia-confirms-international-education-settings-for-2027",
+     "official": true
+    },
+    {
+     "label": "Department of Education - NPL 2027",
+     "url": "https://www.education.gov.au/node/20481",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "au-visa-fee-asean-2026-07",
+   "date": "2026-07-01",
+   "country": "AU",
+   "category": "fees",
+   "status": "in_force",
+   "title": {
+    "id": "Australia: biaya visa pelajar (subclass 500) untuk paspor Indonesia/ASEAN",
+    "en": "Australia: student visa (subclass 500) charge for Indonesian/ASEAN passports"
+   },
+   "summary": {
+    "id": "Tarif paspor Indonesia/ASEAN: pemohon utama AUD 2.050, anggota keluarga dewasa AUD 1.255, anak < 18 tahun AUD 410 (lebih rendah dari tarif umum AUD 2.500).",
+    "en": "Indonesian/ASEAN passport rate: main applicant AUD 2,050, adult family member AUD 1,255, child under 18 AUD 410 (lower than the general AUD 2,500)."
+   },
+   "links": [
+    {
+     "label": "Legislation F2026L00874",
+     "url": "https://www.legislation.gov.au/F2026L00874/asmade/2026-06-30/text/original/epub/OEBPS/document_1/document_1.html",
+     "official": true
+    },
+    {
+     "label": "Home Affairs - Current visa pricing",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "uk-graduate-18-months",
+   "date": "2025-10-14",
+   "effective": "2027-01-01",
+   "country": "GB",
+   "category": "visa",
+   "status": "upcoming",
+   "title": {
+    "id": "Inggris: Graduate visa jadi 18 bulan untuk aplikasi mulai 1 Jan 2027",
+    "en": "UK: Graduate visa cut to 18 months for applications from 1 Jan 2027"
+   },
+   "summary": {
+    "id": "Lulusan Bachelor/Master yang mengajukan Graduate visa mulai 1 Jan 2027 mendapat 18 bulan (sebelumnya 2 tahun). Aplikasi sampai 31 Des 2026 tetap 2 tahun. Lulusan doktoral tetap 3 tahun.",
+    "en": "Bachelor's/Master's graduates applying from 1 Jan 2027 get 18 months (previously 2 years). Applications up to 31 Dec 2026 keep 2 years. Doctoral graduates keep 3 years."
+   },
+   "links": [
+    {
+     "label": "GOV.UK - Statement of changes HC 1333",
+     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1333-14-october-2025",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "ca-cap-2026",
+   "date": "2026-04-20",
+   "country": "CA",
+   "category": "policy",
+   "status": "in_force",
+   "title": {
+    "id": "Kanada: kuota izin studi 2026 dan syarat dana terbaru",
+    "en": "Canada: 2026 study permit cap and latest funds requirement"
+   },
+   "summary": {
+    "id": "IRCC menargetkan hingga 408.000 izin studi pada 2026 (155.000 untuk siswa baru, 253.000 perpanjangan). Syarat dana hidup diperbarui setiap September - cek tabel resmi IRCC sebelum mengajukan.",
+    "en": "IRCC plans up to 408,000 study permits in 2026 (155,000 for new arrivals, 253,000 extensions). The living-funds requirement is updated every September - check the official IRCC table before applying."
+   },
+   "links": [
+    {
+     "label": "IRCC - International students (CIMM, Apr 2026)",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-apr-20-2026/international-students.html",
+     "official": true
+    },
+    {
+     "label": "IRCC - Proof of financial support",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+     "official": true
+    }
+   ]
+  }
+ ]
+}

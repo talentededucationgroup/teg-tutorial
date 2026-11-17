@@ -151,5 +151,9 @@ Start your application: document checklist, process steps and a student visa pro
 Our offices in Sydney, Pontianak and Singkawang, and the Student Information Form (PDF/Excel).
 
 39
-00:10:38,750 --> 00:11:03,140
+00:10:38,750 --> 00:11:13,600
+RPL: work experience assessed by a registered RTO for an Australian qualification. Results are not guaranteed; not a student visa pathway.
+
+40
+00:11:14,200 --> 00:11:38,590
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

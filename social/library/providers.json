@@ -1,0 +1,48 @@
+{
+ "note": "Nama/singkatan provider -> folder library & logo (assets/providers/<slug>.png). Sumber: brosur resmi yang diberikan provider ke Talented sebagai agen.",
+ "providers": {
+  "massey-university": {
+   "names": [
+    "Massey University",
+    "Massey"
+   ],
+   "source": "Massey University 2027 International Prospectus"
+  },
+  "auckland-institute-of-studies": {
+   "names": [
+    "Auckland Institute of Studies",
+    "AIS"
+   ],
+   "source": "AIS 2026 Prospectus"
+  },
+  "nzma": {
+   "names": [
+    "NZMA",
+    "New Zealand Management Academies"
+   ],
+   "source": "NZMA 2026 International Students Course Guide"
+  },
+  "witt": {
+   "names": [
+    "WITT",
+    "Western Institute of Technology at Taranaki",
+    "Te Pūkenga WITT"
+   ],
+   "source": "WITT Bachelor of Nursing brochure"
+  },
+  "sit-new-zealand": {
+   "names": [
+    "SIT",
+    "Southern Institute of Technology"
+   ],
+   "source": "SIT International Prospectus 2026"
+  },
+  "manukau-institute-of-technology": {
+   "names": [
+    "Manukau Institute of Technology",
+    "MIT"
+   ],
+   "source": "MIT Baking, Culinary & Hospitality brochure"
+  }
+ }
+}

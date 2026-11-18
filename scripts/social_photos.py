@@ -86,6 +86,24 @@ def slug(t):
     return re.sub(r'[^a-z0-9]+', '-', (t or '').lower()).strip('-')
 
 
+def resolve_provider(provider):
+    """provider text -> library slug (social/library/providers.json), or None"""
+    if not provider:
+        return None
+    try:
+        reg = json.load(open(os.path.join(ROOT, 'social', 'library', 'providers.json'), encoding='utf-8'))['providers']
+    except Exception:
+        return None
+    for k, v in reg.items():
+        for n in v.get('names', []):
+            if len(n) <= 4 and n.isupper():
+                if re.search(rf'(?<![A-Za-z]){re.escape(n)}(?![A-Za-z])', provider):
+                    return k
+            elif re.search(rf'\b{re.escape(n.lower())}\b', provider.lower()):
+                return k
+    return None
+
+
 def get_photo(country, seed, provider=None):
     """Return (PIL.Image or None, credit str or None). Never raises.
     1) social/library/<provider-slug>/*.jpg|png = official brochure/marketing images supplied by the
@@ -94,7 +112,8 @@ def get_photo(country, seed, provider=None):
     try:
         from PIL import Image
         if provider:
-            lib = sorted(glob.glob(os.path.join(ROOT, 'social', 'library', slug(provider), '*.[jp][pn]g')))
+            sl = resolve_provider(provider) or slug(provider)
+            lib = sorted(glob.glob(os.path.join(ROOT, 'social', 'library', sl, '*.[jp][pn]g')))
             if lib:
                 pick = lib[int(hashlib.sha256(seed.encode()).hexdigest(), 16) % len(lib)]
                 return Image.open(pick).convert('RGB'), f"Foto: {provider}"

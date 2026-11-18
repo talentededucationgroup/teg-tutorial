@@ -1,4 +1,5 @@
-Folder gambar resmi dari brosur/materi marketing provider (diberikan ke Talented sebagai agen resmi).
-Struktur: social/library/<nama-provider-slug>/*.jpg  (contoh: social/library/aih/brosur-2027-1.jpg)
-Dipakai otomatis sebagai foto kartu sosmed untuk postingan provider tsb. Hapus file bila provider meminta.
-Jangan taruh brosur dari provider yang bukan partner resmi, foto siswa tanpa izin, atau data harga rahasia agen.
+Gambar resmi dari brosur/prospectus provider (materi marketing yang diberikan ke Talented sebagai agen resmi).
+- Foto: social/library/<slug>/*.jpg   Logo: assets/providers/<slug>.png
+- Nama/singkatan provider -> slug: social/library/providers.json
+Dipakai otomatis sebagai foto & logo kartu sosmed. Hapus folder bila provider meminta.
+Jangan masukkan materi dari pihak yang bukan partner resmi, dokumen siswa, atau info harga/komisi agen.

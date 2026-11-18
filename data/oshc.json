@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18c",
+ "version": "2026-11-18d",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -1002,7 +1002,15 @@
     },
     "docs": {
      "guide": "https://health.aia.com.au/content/dam/au-myown-whitelabel/aia-health/international/documents/aia-overseas-visitors-health-cover-member-guide.pdf"
-    }
+    },
+    "buy_url": "https://agents.flywire.com/services/2VR4ZK/ovhc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+    "brand": {
+     "color": "#D31145",
+     "text_on_color": "#FFFFFF",
+     "logo_official": "https://health.aia.com.au/ (logo di header situs resmi)"
+    },
+    "product": "AIA Overseas Visitors Health Cover",
+    "logo": "assets/oshc/aia.png"
    },
    {
     "name": "nib",
@@ -1017,7 +1025,16 @@
     },
     "docs": {
      "guide": "https://www.nib.com.au/overseas-customers"
-    }
+    },
+    "buy_url": "https://agents.flywire.com/services/2VR4ZK/ovhc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+    "brand": {
+     "color": "#144A38",
+     "accent": "#82E578",
+     "text_on_color": "#FFFFFF",
+     "logo_official": "https://www.nib.com.au/overseas-customers (logo di header situs resmi)"
+    },
+    "product": "nib Overseas Visitors Health Cover",
+    "logo": "assets/oshc/nib.png"
    }
   ]
  },

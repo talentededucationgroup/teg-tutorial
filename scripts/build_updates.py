@@ -158,6 +158,60 @@ def main():
     print(f"new entries: {len(new)}; feed size: {len(items)}; pending push: {len(state.get('pending', []))}")
 
 
+CLOSING = ("Talented Education Group | PT. Pilar Pendidikan Internasional\n"
+           "Guiding Futures, Creating Opportunities.\n"
+           "talentededucationgroup.com · S&K berlaku.\n"
+           "IG/FB/YouTube @talented.e.g · TikTok @talented.education · X @talented_e_g\n"
+           "Cek biaya kuliah Australia, NZ, Kanada, Inggris & Korea dalam semenit (dana awal, total biaya & saran rekening koran visa): "
+           "https://pricelist.talentededucationgroup.com/ Bisa dipasang jadi App Talented, gratis. Free Mock Test IELTS/PTE/HSK/TOPIK/JLPT juga tersedia.")
+LT = 'https://linktr.ee/talentededucationgroup'
+HASH = {'AU': '#KuliahDiAustralia', 'NZ': '#KuliahDiNewZealand', 'GB': '#KuliahDiInggris', 'CA': '#KuliahDiKanada'}
+
+
+def caption(e, t):
+    """Universal caption (Panduan bagian M). Weekly marketing posts bring their own caption; closing is enforced."""
+    from make_social_cards import credit_for, idate
+    import re as _re
+    cr = credit_for(e['id'])
+    if e.get('caption'):
+        c = e['caption'].strip()
+        if 'Guiding Futures, Creating Opportunities.' not in c:
+            c += '\n\n' + CLOSING
+    else:
+        from make_social_cards import split_title
+        t2, dl0 = split_title(t)
+        dl = idate(dl0, True) if dl0 else None
+        k = e['kind']
+        if k == 'scholarship':
+            op = f"{t2} sedang dibuka" + (f", pendaftaran ditutup {dl}" if dl else '') + f". Info lengkap: {LT}"
+            body = ("Syarat, besaran beasiswa dan cara daftarnya beda-beda tiap kampus atau lembaga. Tim Talented bisa bantu cek apakah kamu memenuhi syarat "
+                    "dan menyiapkan berkasnya, gratis.\n\nScan QR di gambar atau klik link di bio untuk konsultasi.")
+        elif k in ('promo', 'sponsored'):
+            op = f"{t2}. Detail program dan biaya bisa dicek lewat {LT}"
+            body = ("Biaya final selalu mengikuti offer letter resmi kampus. Kami bantu hitung total biaya, dana awal dan saran rekening koran untuk visa, gratis.\n\n"
+                    "Scan QR di gambar atau klik link di bio.")
+        elif k == 'news':
+            op = f"{t2}. Ringkasan dan link sumber resminya ada di {LT}"
+            body = ("Aturan visa bisa berubah, jadi selalu cek sumber resmi pemerintah. Kalau bingung apakah perubahan ini berpengaruh ke rencana kuliahmu, "
+                    "tanya tim Talented, gratis.")
+        elif k == 'accommodation':
+            op = f"{t2}, lengkap dengan kisaran harga per minggu. Cek di {LT}"
+            body = "Pilih yang dekat kampus dan cek dulu bond serta minimum stay. Jangan transfer uang sebelum lihat kamar atau kontrak resmi."
+        else:
+            op = f"{t2}. Cek di {LT}"
+            body = "Lowongan yang asli tidak pernah minta biaya pendaftaran. Cek juga batas jam kerja visa pelajarmu."
+        if len(op) > 230:
+            op = op[:226 - len(LT)].rsplit(' ', 1)[0] + '... ' + LT
+        c = op + '\n\n' + body + '\n\n' + CLOSING
+        from social_photos import code as _cc
+        tags = [HASH.get(_cc(e.get('country')), '#KuliahLuarNegeri'),
+                '#BeasiswaLuarNegeri' if k == 'scholarship' else '#StudyAbroad', '#TalentedEducation']
+        c += '\n\n' + ' '.join(tags)
+    if cr:
+        c += '\n' + cr
+    return c
+
+
 def write_rss(items):
     """social-feed.xml: RSS for auto-posting tools (IFTTT/Zapier -> Buffer -> FB/IG/X/LinkedIn/Google Business).
     Only public, already-announced items. Links carry UTM so traffic is measurable."""
@@ -175,7 +229,7 @@ def write_rss(items):
     for p in sp.get('items', []):
         if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
             extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
-                          "caption": p.get('caption'), "sub": p.get('sub'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
+                          "caption": p.get('caption'), "sub": p.get('sub'), "spec": p.get('design'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
@@ -185,8 +239,10 @@ def write_rss(items):
         except Exception:
             d = NOW
         t = e['title']['id']
-        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'))
-        desc = e.get('caption') or t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
+        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'), e.get('spec'))
+        if not img:
+            continue  # QA failed: never publish a broken design
+        desc = caption(e, t)
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"

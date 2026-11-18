@@ -6,7 +6,8 @@
   "title": "judul pendek untuk gambar (<=90 karakter)",
   "sub": "opsional, baris kecil di gambar",
   "caption": "caption lengkap + tagar",
-  "url": "opsional, link ke pricelist dengan ?tab=..."
+  "url": "opsional, link ke pricelist dengan ?tab=...",
+  "design": "opsional, isi untuk desain sesuai Panduan: {headline: maks 6 kata, hero: angka besar mis. '30%' / 'AUD 6.000', price: 'AUD 6.000', unit: '/ semester', info: ['Program · Kota', 'Intake Feb 2027'], footnote: maks 2 baris}"
  },
  "items": []
 }

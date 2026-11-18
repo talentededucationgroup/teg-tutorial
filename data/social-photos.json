@@ -55,7 +55,8 @@
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "AU",
-   "file": "social/photos/f94ef229bdb84828.jpg"
+   "file": "social/photos/f94ef229bdb84828.jpg",
+   "blocked": true
   },
   {
    "place": "Perth skyline",

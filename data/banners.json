@@ -1,5 +1,5 @@
 {
- "version": "2026-11-17e-flow",
+ "version": "2026-11-18-rotation",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -37,8 +37,8 @@
  },
  "slots": {
   "hero": {
-   "max": 19,
-   "where": "Atas halaman, di bawah video tutorial (carousel, maks. sesuai slots.hero.max, urut sesuai items)",
+   "max": 30,
+   "where": "Atas halaman, di bawah video tutorial (carousel). Urutan: item paid=true dulu, lalu grup rotasi minggu ini (lihat rotation).",
    "size": "1200x400 px (desktop) + 800x800 px (HP), JPG/PNG/WebP <= 300 KB"
   },
   "featured": {
@@ -135,7 +135,8 @@
     "height": 80,
     "source": "https://aih.edu.au/wp-content/uploads/2024/07/logo-green.svg",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "astra-promo-2026",
@@ -218,7 +219,8 @@
     "height": 80,
     "source": "https://astra.edu.au/wp-content/uploads/2021/07/astra-higher-education.svg",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "kent-promo-2026",
@@ -301,7 +303,8 @@
     "height": 80,
     "source": "https://kent.edu.au/wp-content/uploads/Kent-Institute-Logo.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "koi-promo-2026",
@@ -383,7 +386,8 @@
     "height": 80,
     "source": "https://koi.edu.au/wp-content/uploads/2019/12/logo.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "cdu-founding-2026",
@@ -466,7 +470,8 @@
     "height": 80,
     "source": "https://www.cdu.edu.au/ (logo SVG di header)",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "aiat-founding-2026",
@@ -549,7 +554,8 @@
     "height": 80,
     "source": "https://aiat.edu.au/wp-content/uploads/2024/10/AIAT-logo.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "apic-promo-2026",
@@ -632,7 +638,8 @@
     "height": 80,
     "source": "https://cdn.prod.website-files.com/6a44d370149878dc8cc91c5b/6adb03fb10d09ea0b8730d74_apic-logo-tight.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "greenwich-promo-2026",
@@ -715,7 +722,8 @@
     "height": 80,
     "source": "https://greenwichcollege.edu.au/wp-content/uploads/2026/10/Greenwich_Logo_Apr2023_GC_Greenwich_College_Logo_Colour_Apr2023-scaled-e1792064743292-1024x279.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "cihe-promo-2026",
@@ -798,7 +806,8 @@
     "height": 80,
     "source": "https://www.cihe.edu.au/wp-content/uploads/2026/01/CIHE_PrimaryLogo_Standard_Colour_RGB-1.png",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "utas-promo-2026",
@@ -881,7 +890,8 @@
     "height": 80,
     "source": "https://www.utas.edu.au/__data/assets/git_bridge/0012/1368768/dist/mysource_files/logo.svg",
     "checked": "2026-11-16"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "kings-partner-2026",
@@ -964,7 +974,8 @@
     "height": 80,
     "source": "https://kings.nsw.edu.au/wp-content/uploads/2022/07/kings-logo-gold.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "wic-partner-2026",
@@ -1047,7 +1058,8 @@
     "height": 80,
     "source": "https://www.wic.edu.au/wp-content/uploads/2019/09/logo.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "times-partner-2026",
@@ -1130,7 +1142,8 @@
     "height": 80,
     "source": "https://www.times.nsw.edu.au/wp-content/uploads/2017/07/times-academy-01.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "lerosey-partner-2026",
@@ -1213,7 +1226,8 @@
     "height": 80,
     "source": "https://lerosey.edu.au/wp-content/uploads/2024/01/240123_Le-Rosey_Logo-for-Website.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "leculinaire-partner-2026",
@@ -1296,7 +1310,8 @@
     "height": 80,
     "source": "https://www.leculinaire.edu.au/ (logo header, static.wixstatic.com/media/48b767_68905fd434494743806dc5da4e41bbdc~mv2.png)",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "via-partner-2026",
@@ -1379,7 +1394,8 @@
     "height": 80,
     "source": "https://via.edu.au/wp-content/uploads/2018/06/LOCK-UP-RGB-PNG-COLOR-e1705038017549.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "A"
   },
   {
    "id": "capstone-partner-2026",
@@ -1462,7 +1478,8 @@
     "height": 80,
     "source": "https://capstone.edu.au/wp-content/uploads/2026/03/white.png (logo putih resmi di atas warna header situs #095ea4)",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "tafensw-partner-2026",
@@ -1545,7 +1562,8 @@
     "height": 80,
     "source": "https://www.tafensw.edu.au/images/TAFE-international-logo.svg (teks putih resmi di atas warna header situs #22272b)",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "B"
   },
   {
    "id": "acis-partner-2026",
@@ -1630,7 +1648,1698 @@
     "height": 80,
     "source": "https://acis.edu.au/wp-content/uploads/2023/08/ACIS-Final-Logo-768x285.png",
     "checked": "2026-11-17"
-   }
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "lpdp-house-2026",
+   "provider": "LPDP (Lembaga Pengelola Dana Pendidikan)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Beasiswa LPDP",
+    "en": "LPDP Scholarship",
+    "th": "LPDP Scholarship",
+    "vi": "LPDP Scholarship",
+    "zh": "LPDP Scholarship",
+    "ja": "LPDP Scholarship",
+    "ko": "LPDP Scholarship",
+    "km": "LPDP Scholarship",
+    "fr": "LPDP Scholarship",
+    "pt": "LPDP Scholarship",
+    "es": "LPDP Scholarship",
+    "de": "LPDP Scholarship",
+    "it": "LPDP Scholarship",
+    "nl": "LPDP Scholarship",
+    "ru": "LPDP Scholarship"
+   },
+   "text": {
+    "id": "Beasiswa Pemerintah Indonesia untuk kuliah di luar negeri. Lihat cakupan, syarat, dan jadwal pendaftaran di tab Beasiswa.",
+    "en": "Indonesian Government scholarship for study abroad. See coverage, requirements and application dates in the Scholarships tab.",
+    "th": "ทุนการศึกษารัฐบาลอินโดนีเซียสำหรับเรียนต่อต่างประเทศ ดูสิทธิประโยชน์ คุณสมบัติ และกำหนดการสมัครได้ในแท็บทุนการศึกษา",
+    "vi": "Học bổng Chính phủ Indonesia du học nước ngoài. Xem quyền lợi, điều kiện và lịch nộp hồ sơ trong tab Học bổng.",
+    "zh": "印尼政府海外留学奖学金。在“奖学金”标签查看资助范围、申请条件和申请日期。",
+    "ja": "インドネシア政府の海外留学奨学金。支給内容・応募条件・申請日程は「奨学金」タブで確認。",
+    "ko": "인도네시아 정부 해외 유학 장학금. 지원 내용, 자격 요건, 지원 일정은 장학금 탭에서 확인하세요.",
+    "km": "អាហារូបករណ៍រដ្ឋាភិបាលឥណ្ឌូនេស៊ីសម្រាប់សិក្សានៅបរទេស។ មើលអត្ថប្រយោជន៍ លក្ខខណ្ឌ និងកាលបរិច្ឆេទដាក់ពាក្យនៅផ្ទាំងអាហារូបករណ៍។",
+    "fr": "Bourse du gouvernement indonésien pour étudier à l’étranger. Couverture, conditions et dates de candidature dans l’onglet Bourses.",
+    "pt": "Bolsa do Governo da Indonésia para estudar no exterior. Veja cobertura, requisitos e datas de inscrição na aba Bolsas.",
+    "es": "Beca del Gobierno de Indonesia para estudiar en el extranjero. Consulta cobertura, requisitos y fechas de solicitud en la pestaña Becas.",
+    "de": "Stipendium der indonesischen Regierung für ein Auslandsstudium. Leistungen, Voraussetzungen und Bewerbungstermine im Tab Stipendien.",
+    "it": "Borsa di studio del Governo indonesiano per studiare all’estero. Copertura, requisiti e date di candidatura nella scheda Borse di studio.",
+    "nl": "Beurs van de Indonesische overheid om in het buitenland te studeren. Bekijk dekking, voorwaarden en aanvraagdata in het tabblad Beurzen.",
+    "ru": "Стипендия правительства Индонезии для учёбы за рубежом. Покрытие, требования и сроки подачи — во вкладке «Стипендии»."
+   },
+   "cta": {
+    "id": "Lihat beasiswa LPDP",
+    "en": "See LPDP scholarships",
+    "th": "ดูทุน LPDP",
+    "vi": "Xem học bổng LPDP",
+    "zh": "查看 LPDP 奖学金",
+    "ja": "LPDP 奨学金を見る",
+    "ko": "LPDP 장학금 보기",
+    "km": "មើលអាហារូបករណ៍ LPDP",
+    "fr": "Voir les bourses LPDP",
+    "pt": "Ver bolsas LPDP",
+    "es": "Ver becas LPDP",
+    "de": "LPDP-Stipendien ansehen",
+    "it": "Vedi borse LPDP",
+    "nl": "Bekijk LPDP-beurzen",
+    "ru": "Стипендии LPDP"
+   },
+   "action": {
+    "type": "tab",
+    "tab": "scholarships",
+    "q": "LPDP"
+   },
+   "match": {
+    "country": "Indonesia",
+    "q": "LPDP"
+   },
+   "website": "https://lpdp.kemenkeu.go.id/",
+   "source": "https://lpdp.kemenkeu.go.id/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://lpdp.kemenkeu.go.id/storage/setting/logo/logo_1630922364.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "garuda-house-2026",
+   "provider": "Beasiswa Garuda (Kemdiktisaintek)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Beasiswa Garuda",
+    "en": "Garuda Scholarship",
+    "th": "Garuda Scholarship",
+    "vi": "Garuda Scholarship",
+    "zh": "Garuda Scholarship",
+    "ja": "Garuda Scholarship",
+    "ko": "Garuda Scholarship",
+    "km": "Garuda Scholarship",
+    "fr": "Garuda Scholarship",
+    "pt": "Garuda Scholarship",
+    "es": "Garuda Scholarship",
+    "de": "Garuda Scholarship",
+    "it": "Garuda Scholarship",
+    "nl": "Garuda Scholarship",
+    "ru": "Garuda Scholarship"
+   },
+   "text": {
+    "id": "Beasiswa Pemerintah Indonesia untuk kuliah di luar negeri. Lihat cakupan, syarat, dan jadwal pendaftaran di tab Beasiswa.",
+    "en": "Indonesian Government scholarship for study abroad. See coverage, requirements and application dates in the Scholarships tab.",
+    "th": "ทุนการศึกษารัฐบาลอินโดนีเซียสำหรับเรียนต่อต่างประเทศ ดูสิทธิประโยชน์ คุณสมบัติ และกำหนดการสมัครได้ในแท็บทุนการศึกษา",
+    "vi": "Học bổng Chính phủ Indonesia du học nước ngoài. Xem quyền lợi, điều kiện và lịch nộp hồ sơ trong tab Học bổng.",
+    "zh": "印尼政府海外留学奖学金。在“奖学金”标签查看资助范围、申请条件和申请日期。",
+    "ja": "インドネシア政府の海外留学奨学金。支給内容・応募条件・申請日程は「奨学金」タブで確認。",
+    "ko": "인도네시아 정부 해외 유학 장학금. 지원 내용, 자격 요건, 지원 일정은 장학금 탭에서 확인하세요.",
+    "km": "អាហារូបករណ៍រដ្ឋាភិបាលឥណ្ឌូនេស៊ីសម្រាប់សិក្សានៅបរទេស។ មើលអត្ថប្រយោជន៍ លក្ខខណ្ឌ និងកាលបរិច្ឆេទដាក់ពាក្យនៅផ្ទាំងអាហារូបករណ៍។",
+    "fr": "Bourse du gouvernement indonésien pour étudier à l’étranger. Couverture, conditions et dates de candidature dans l’onglet Bourses.",
+    "pt": "Bolsa do Governo da Indonésia para estudar no exterior. Veja cobertura, requisitos e datas de inscrição na aba Bolsas.",
+    "es": "Beca del Gobierno de Indonesia para estudiar en el extranjero. Consulta cobertura, requisitos y fechas de solicitud en la pestaña Becas.",
+    "de": "Stipendium der indonesischen Regierung für ein Auslandsstudium. Leistungen, Voraussetzungen und Bewerbungstermine im Tab Stipendien.",
+    "it": "Borsa di studio del Governo indonesiano per studiare all’estero. Copertura, requisiti e date di candidatura nella scheda Borse di studio.",
+    "nl": "Beurs van de Indonesische overheid om in het buitenland te studeren. Bekijk dekking, voorwaarden en aanvraagdata in het tabblad Beurzen.",
+    "ru": "Стипендия правительства Индонезии для учёбы за рубежом. Покрытие, требования и сроки подачи — во вкладке «Стипендии»."
+   },
+   "cta": {
+    "id": "Lihat beasiswa Garuda",
+    "en": "See Garuda scholarships",
+    "th": "ดูทุน Garuda",
+    "vi": "Xem học bổng Garuda",
+    "zh": "查看 Garuda 奖学金",
+    "ja": "Garuda 奨学金を見る",
+    "ko": "Garuda 장학금 보기",
+    "km": "មើលអាហារូបករណ៍ Garuda",
+    "fr": "Voir les bourses Garuda",
+    "pt": "Ver bolsas Garuda",
+    "es": "Ver becas Garuda",
+    "de": "Garuda-Stipendien ansehen",
+    "it": "Vedi borse Garuda",
+    "nl": "Bekijk Garuda-beurzen",
+    "ru": "Стипендии Garuda"
+   },
+   "action": {
+    "type": "tab",
+    "tab": "scholarships",
+    "q": "Garuda"
+   },
+   "match": {
+    "country": "Indonesia",
+    "q": "Garuda"
+   },
+   "website": "https://beasiswagaruda.kemdiktisaintek.go.id/",
+   "source": "https://beasiswagaruda.kemdiktisaintek.go.id/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://beasiswagaruda.kemdiktisaintek.go.id/beasiswa-garuda-logo.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "ciccc-house-2026",
+   "provider": "Cornerstone Community College of Canada (CICCC)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "en": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "th": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "vi": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "zh": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "ja": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "ko": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "km": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "fr": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "pt": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "es": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "de": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "it": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "nl": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada",
+    "ru": "Cornerstone Community College of Canada (CICCC) - Vancouver, Canada"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di CICCC lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at CICCC on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ CICCC บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại CICCC trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 CICCC 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で CICCC のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 CICCC의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ CICCC លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à CICCC sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em CICCC na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en CICCC en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei CICCC in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso CICCC nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij CICCC in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в CICCC в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya CICCC",
+    "en": "See CICCC programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ CICCC",
+    "vi": "Xem chương trình & chi phí CICCC",
+    "zh": "查看 CICCC 课程与费用",
+    "ja": "CICCC のプログラムと費用を見る",
+    "ko": "CICCC 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា CICCC",
+    "fr": "Voir les programmes et coûts CICCC",
+    "pt": "Ver cursos e custos: CICCC",
+    "es": "Ver programas y costos de CICCC",
+    "de": "CICCC: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi CICCC",
+    "nl": "Bekijk opleidingen & kosten van CICCC",
+    "ru": "Программы и стоимость CICCC"
+   },
+   "match": {
+    "country": "Canada",
+    "q": "Cornerstone Community College"
+   },
+   "action": {
+    "type": "search",
+    "country": "Canada",
+    "q": "Cornerstone Community College"
+   },
+   "website": "https://ciccc.ca/",
+   "source": "https://ciccc.ca/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://ciccc.ca/ciccc_logo.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "itd-house-2026",
+   "provider": "ITD Canada (Institute of Technology Development of Canada)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "en": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "th": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "vi": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "zh": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "ja": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "ko": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "km": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "fr": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "pt": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "es": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "de": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "it": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "nl": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada",
+    "ru": "ITD Canada (Institute of Technology Development of Canada) - Vancouver, Canada"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di ITD Canada lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at ITD Canada on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ ITD Canada บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại ITD Canada trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 ITD Canada 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で ITD Canada のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 ITD Canada의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ ITD Canada លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à ITD Canada sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em ITD Canada na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en ITD Canada en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei ITD Canada in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso ITD Canada nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij ITD Canada in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в ITD Canada в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya ITD Canada",
+    "en": "See ITD Canada programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ ITD Canada",
+    "vi": "Xem chương trình & chi phí ITD Canada",
+    "zh": "查看 ITD Canada 课程与费用",
+    "ja": "ITD Canada のプログラムと費用を見る",
+    "ko": "ITD Canada 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា ITD Canada",
+    "fr": "Voir les programmes et coûts ITD Canada",
+    "pt": "Ver cursos e custos: ITD Canada",
+    "es": "Ver programas y costos de ITD Canada",
+    "de": "ITD Canada: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi ITD Canada",
+    "nl": "Bekijk opleidingen & kosten van ITD Canada",
+    "ru": "Программы и стоимость ITD Canada"
+   },
+   "match": {
+    "country": "Canada",
+    "q": "ITD Canada"
+   },
+   "action": {
+    "type": "search",
+    "country": "Canada",
+    "q": "ITD Canada"
+   },
+   "website": "https://itdcanada.ca/",
+   "source": "https://itdcanada.ca/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://itdcanada.ca/images/logo-itd.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "humber-house-2026",
+   "provider": "Humber Polytechnic",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Humber Polytechnic - Toronto, Canada",
+    "en": "Humber Polytechnic - Toronto, Canada",
+    "th": "Humber Polytechnic - Toronto, Canada",
+    "vi": "Humber Polytechnic - Toronto, Canada",
+    "zh": "Humber Polytechnic - Toronto, Canada",
+    "ja": "Humber Polytechnic - Toronto, Canada",
+    "ko": "Humber Polytechnic - Toronto, Canada",
+    "km": "Humber Polytechnic - Toronto, Canada",
+    "fr": "Humber Polytechnic - Toronto, Canada",
+    "pt": "Humber Polytechnic - Toronto, Canada",
+    "es": "Humber Polytechnic - Toronto, Canada",
+    "de": "Humber Polytechnic - Toronto, Canada",
+    "it": "Humber Polytechnic - Toronto, Canada",
+    "nl": "Humber Polytechnic - Toronto, Canada",
+    "ru": "Humber Polytechnic - Toronto, Canada"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Humber lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Humber on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Humber บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Humber trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Humber 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Humber のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Humber의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Humber លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Humber sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Humber na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Humber en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Humber in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Humber nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Humber in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Humber в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Humber",
+    "en": "See Humber programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Humber",
+    "vi": "Xem chương trình & chi phí Humber",
+    "zh": "查看 Humber 课程与费用",
+    "ja": "Humber のプログラムと費用を見る",
+    "ko": "Humber 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Humber",
+    "fr": "Voir les programmes et coûts Humber",
+    "pt": "Ver cursos e custos: Humber",
+    "es": "Ver programas y costos de Humber",
+    "de": "Humber: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Humber",
+    "nl": "Bekijk opleidingen & kosten van Humber",
+    "ru": "Программы и стоимость Humber"
+   },
+   "match": {
+    "country": "Canada",
+    "q": "Humber Polytechnic"
+   },
+   "action": {
+    "type": "search",
+    "country": "Canada",
+    "q": "Humber Polytechnic"
+   },
+   "website": "https://humber.ca/",
+   "source": "https://humber.ca/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://humber.ca/sites/g/files/qqwasj191/files/images/humber-polytechnic-logo-header.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "tru-house-2026",
+   "provider": "Thompson Rivers University (TRU)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "en": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "th": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "vi": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "zh": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "ja": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "ko": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "km": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "fr": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "pt": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "es": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "de": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "it": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "nl": "Thompson Rivers University (TRU) - Kamloops, Canada",
+    "ru": "Thompson Rivers University (TRU) - Kamloops, Canada"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di TRU lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at TRU on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ TRU บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại TRU trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 TRU 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で TRU のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 TRU의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ TRU លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à TRU sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em TRU na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en TRU en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei TRU in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso TRU nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij TRU in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в TRU в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya TRU",
+    "en": "See TRU programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ TRU",
+    "vi": "Xem chương trình & chi phí TRU",
+    "zh": "查看 TRU 课程与费用",
+    "ja": "TRU のプログラムと費用を見る",
+    "ko": "TRU 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា TRU",
+    "fr": "Voir les programmes et coûts TRU",
+    "pt": "Ver cursos e custos: TRU",
+    "es": "Ver programas y costos de TRU",
+    "de": "TRU: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi TRU",
+    "nl": "Bekijk opleidingen & kosten van TRU",
+    "ru": "Программы и стоимость TRU"
+   },
+   "match": {
+    "country": "Canada",
+    "q": "Thompson Rivers University"
+   },
+   "action": {
+    "type": "search",
+    "country": "Canada",
+    "q": "Thompson Rivers University"
+   },
+   "website": "https://www.tru.ca/",
+   "source": "https://www.tru.ca/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.tru.ca/__shared/assets/TRU-LOGO-LEFT-BLUE57093.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "srh-house-2026",
+   "provider": "SRH University",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "SRH University - Germany",
+    "en": "SRH University - Germany",
+    "th": "SRH University - Germany",
+    "vi": "SRH University - Germany",
+    "zh": "SRH University - Germany",
+    "ja": "SRH University - Germany",
+    "ko": "SRH University - Germany",
+    "km": "SRH University - Germany",
+    "fr": "SRH University - Germany",
+    "pt": "SRH University - Germany",
+    "es": "SRH University - Germany",
+    "de": "SRH University - Germany",
+    "it": "SRH University - Germany",
+    "nl": "SRH University - Germany",
+    "ru": "SRH University - Germany"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di SRH University lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at SRH University on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ SRH University บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại SRH University trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 SRH University 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で SRH University のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 SRH University의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ SRH University លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à SRH University sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em SRH University na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en SRH University en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei SRH University in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso SRH University nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij SRH University in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в SRH University в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya SRH University",
+    "en": "See SRH University programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ SRH University",
+    "vi": "Xem chương trình & chi phí SRH University",
+    "zh": "查看 SRH University 课程与费用",
+    "ja": "SRH University のプログラムと費用を見る",
+    "ko": "SRH University 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា SRH University",
+    "fr": "Voir les programmes et coûts SRH University",
+    "pt": "Ver cursos e custos: SRH University",
+    "es": "Ver programas y costos de SRH University",
+    "de": "SRH University: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi SRH University",
+    "nl": "Bekijk opleidingen & kosten van SRH University",
+    "ru": "Программы и стоимость SRH University"
+   },
+   "match": {
+    "country": "Germany",
+    "q": "SRH University"
+   },
+   "action": {
+    "type": "search",
+    "country": "Germany",
+    "q": "SRH University"
+   },
+   "website": "https://www.srh-university.de/en/",
+   "source": "https://www.srh-university.de/en/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "shibaura-house-2026",
+   "provider": "Shibaura Institute of Technology (SIT)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "en": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "th": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "vi": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "zh": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "ja": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "ko": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "km": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "fr": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "pt": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "es": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "de": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "it": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "nl": "Shibaura Institute of Technology (SIT) - Tokyo, Japan",
+    "ru": "Shibaura Institute of Technology (SIT) - Tokyo, Japan"
+   },
+   "text": {
+    "id": "Tertarik kuliah di Shibaura Institute of Technology? Tanya konsultan Talented tentang program, syarat masuk, dan biayanya.",
+    "en": "Interested in Shibaura Institute of Technology? Ask a Talented consultant about programmes, admission requirements and costs.",
+    "th": "สนใจเรียนที่ Shibaura Institute of Technology ใช่ไหม สอบถามที่ปรึกษา Talented เรื่องหลักสูตร คุณสมบัติการรับเข้า และค่าใช้จ่าย",
+    "vi": "Bạn quan tâm đến Shibaura Institute of Technology? Hỏi tư vấn viên Talented về chương trình, điều kiện nhập học và chi phí.",
+    "zh": "对 Shibaura Institute of Technology 感兴趣？向 Talented 顾问咨询课程、入学要求和费用。",
+    "ja": "Shibaura Institute of Technology に興味がありますか？プログラム、入学条件、費用は Talented のコンサルタントへ。",
+    "ko": "Shibaura Institute of Technology에 관심 있으신가요? 과정, 입학 요건, 비용은 Talented 상담사에게 문의하세요.",
+    "km": "ចាប់អារម្មណ៍នឹង Shibaura Institute of Technology មែនទេ? សួរទីប្រឹក្សា Talented អំពីកម្មវិធីសិក្សា លក្ខខណ្ឌចូលរៀន និងថ្លៃចំណាយ។",
+    "fr": "Shibaura Institute of Technology vous intéresse ? Renseignez-vous auprès d’un conseiller Talented sur les programmes, conditions d’admission et coûts.",
+    "pt": "Interessado em Shibaura Institute of Technology? Pergunte a um consultor Talented sobre cursos, requisitos de admissão e custos.",
+    "es": "¿Te interesa Shibaura Institute of Technology? Consulta a un asesor de Talented sobre programas, requisitos de admisión y costos.",
+    "de": "Interesse an Shibaura Institute of Technology? Frag einen Talented-Berater nach Studiengängen, Zulassungsvoraussetzungen und Kosten.",
+    "it": "Ti interessa Shibaura Institute of Technology? Chiedi a un consulente Talented informazioni su corsi, requisiti di ammissione e costi.",
+    "nl": "Interesse in Shibaura Institute of Technology? Vraag een Talented-adviseur naar opleidingen, toelatingseisen en kosten.",
+    "ru": "Интересует Shibaura Institute of Technology? Узнайте у консультанта Talented о программах, требованиях к поступлению и стоимости."
+   },
+   "cta": {
+    "id": "Tanya konsultan Talented",
+    "en": "Ask a Talented consultant",
+    "th": "สอบถามที่ปรึกษา Talented",
+    "vi": "Hỏi tư vấn viên Talented",
+    "zh": "咨询 Talented 顾问",
+    "ja": "Talentedに相談する",
+    "ko": "Talented 상담사에게 문의",
+    "km": "សួរអ្នកប្រឹក្សា Talented",
+    "fr": "Contacter un conseiller Talented",
+    "pt": "Fale com um consultor Talented",
+    "es": "Consulta a un asesor de Talented",
+    "de": "Talented-Berater fragen",
+    "it": "Chiedi a un consulente Talented",
+    "nl": "Vraag een Talented-adviseur",
+    "ru": "Спросить консультанта Talented"
+   },
+   "action": {
+    "type": "url",
+    "url": "https://linktr.ee/talentededucationgroup"
+   },
+   "website": "https://www.shibaura-it.ac.jp/en/",
+   "source": "https://www.shibaura-it.ac.jp/en/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "sitnz-house-2026",
+   "provider": "Southern Institute of Technology (SIT)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "en": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "th": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "vi": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "zh": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "ja": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "ko": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "km": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "fr": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "pt": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "es": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "de": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "it": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "nl": "Southern Institute of Technology (SIT) - Invercargill, New Zealand",
+    "ru": "Southern Institute of Technology (SIT) - Invercargill, New Zealand"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di SIT New Zealand lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at SIT New Zealand on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ SIT New Zealand บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại SIT New Zealand trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 SIT New Zealand 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で SIT New Zealand のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 SIT New Zealand의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ SIT New Zealand លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à SIT New Zealand sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em SIT New Zealand na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en SIT New Zealand en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei SIT New Zealand in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso SIT New Zealand nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij SIT New Zealand in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в SIT New Zealand в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya SIT New Zealand",
+    "en": "See SIT New Zealand programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ SIT New Zealand",
+    "vi": "Xem chương trình & chi phí SIT New Zealand",
+    "zh": "查看 SIT New Zealand 课程与费用",
+    "ja": "SIT New Zealand のプログラムと費用を見る",
+    "ko": "SIT New Zealand 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា SIT New Zealand",
+    "fr": "Voir les programmes et coûts SIT New Zealand",
+    "pt": "Ver cursos e custos: SIT New Zealand",
+    "es": "Ver programas y costos de SIT New Zealand",
+    "de": "SIT New Zealand: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi SIT New Zealand",
+    "nl": "Bekijk opleidingen & kosten van SIT New Zealand",
+    "ru": "Программы и стоимость SIT New Zealand"
+   },
+   "match": {
+    "country": "NZ",
+    "q": "Southern Institute of Technology"
+   },
+   "action": {
+    "type": "search",
+    "country": "NZ",
+    "q": "Southern Institute of Technology"
+   },
+   "website": "https://www.sit.ac.nz/",
+   "source": "https://www.sit.ac.nz/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.sit.ac.nz/media/images/SITZFS_Primary.max-560x144.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "unitec-house-2026",
+   "provider": "Unitec",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Unitec - Auckland, New Zealand",
+    "en": "Unitec - Auckland, New Zealand",
+    "th": "Unitec - Auckland, New Zealand",
+    "vi": "Unitec - Auckland, New Zealand",
+    "zh": "Unitec - Auckland, New Zealand",
+    "ja": "Unitec - Auckland, New Zealand",
+    "ko": "Unitec - Auckland, New Zealand",
+    "km": "Unitec - Auckland, New Zealand",
+    "fr": "Unitec - Auckland, New Zealand",
+    "pt": "Unitec - Auckland, New Zealand",
+    "es": "Unitec - Auckland, New Zealand",
+    "de": "Unitec - Auckland, New Zealand",
+    "it": "Unitec - Auckland, New Zealand",
+    "nl": "Unitec - Auckland, New Zealand",
+    "ru": "Unitec - Auckland, New Zealand"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Unitec lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Unitec on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Unitec บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Unitec trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Unitec 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Unitec のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Unitec의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Unitec លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Unitec sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Unitec na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Unitec en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Unitec in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Unitec nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Unitec in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Unitec в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Unitec",
+    "en": "See Unitec programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Unitec",
+    "vi": "Xem chương trình & chi phí Unitec",
+    "zh": "查看 Unitec 课程与费用",
+    "ja": "Unitec のプログラムと費用を見る",
+    "ko": "Unitec 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Unitec",
+    "fr": "Voir les programmes et coûts Unitec",
+    "pt": "Ver cursos e custos: Unitec",
+    "es": "Ver programas y costos de Unitec",
+    "de": "Unitec: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Unitec",
+    "nl": "Bekijk opleidingen & kosten van Unitec",
+    "ru": "Программы и стоимость Unitec"
+   },
+   "match": {
+    "country": "NZ",
+    "q": "Unitec"
+   },
+   "action": {
+    "type": "search",
+    "country": "NZ",
+    "q": "Unitec"
+   },
+   "website": "https://www.unitec.ac.nz/",
+   "source": "https://www.unitec.ac.nz/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "aut-house-2026",
+   "provider": "Auckland University of Technology (AUT)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "en": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "th": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "vi": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "zh": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "ja": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "ko": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "km": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "fr": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "pt": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "es": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "de": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "it": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "nl": "Auckland University of Technology (AUT) - Auckland, New Zealand",
+    "ru": "Auckland University of Technology (AUT) - Auckland, New Zealand"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di AUT lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at AUT on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ AUT บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại AUT trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 AUT 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で AUT のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 AUT의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ AUT លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à AUT sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em AUT na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en AUT en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei AUT in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso AUT nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij AUT in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в AUT в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya AUT",
+    "en": "See AUT programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ AUT",
+    "vi": "Xem chương trình & chi phí AUT",
+    "zh": "查看 AUT 课程与费用",
+    "ja": "AUT のプログラムと費用を見る",
+    "ko": "AUT 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា AUT",
+    "fr": "Voir les programmes et coûts AUT",
+    "pt": "Ver cursos e custos: AUT",
+    "es": "Ver programas y costos de AUT",
+    "de": "AUT: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi AUT",
+    "nl": "Bekijk opleidingen & kosten van AUT",
+    "ru": "Программы и стоимость AUT"
+   },
+   "match": {
+    "country": "NZ",
+    "q": "Auckland University of Technology"
+   },
+   "action": {
+    "type": "search",
+    "country": "NZ",
+    "q": "Auckland University of Technology"
+   },
+   "website": "https://www.aut.ac.nz/",
+   "source": "https://www.aut.ac.nz/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "otago-house-2026",
+   "provider": "Otago Polytechnic",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "en": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "th": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "vi": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "zh": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "ja": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "ko": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "km": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "fr": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "pt": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "es": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "de": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "it": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "nl": "Otago Polytechnic - Dunedin & Auckland, New Zealand",
+    "ru": "Otago Polytechnic - Dunedin & Auckland, New Zealand"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Otago lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Otago on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Otago บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Otago trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Otago 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Otago のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Otago의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Otago លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Otago sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Otago na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Otago en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Otago in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Otago nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Otago in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Otago в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Otago",
+    "en": "See Otago programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Otago",
+    "vi": "Xem chương trình & chi phí Otago",
+    "zh": "查看 Otago 课程与费用",
+    "ja": "Otago のプログラムと費用を見る",
+    "ko": "Otago 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Otago",
+    "fr": "Voir les programmes et coûts Otago",
+    "pt": "Ver cursos e custos: Otago",
+    "es": "Ver programas y costos de Otago",
+    "de": "Otago: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Otago",
+    "nl": "Bekijk opleidingen & kosten van Otago",
+    "ru": "Программы и стоимость Otago"
+   },
+   "match": {
+    "country": "NZ",
+    "q": "Otago"
+   },
+   "action": {
+    "type": "search",
+    "country": "NZ",
+    "q": "Otago"
+   },
+   "website": "https://www.op.ac.nz/",
+   "source": "https://www.op.ac.nz/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.op.ac.nz/images/otago-polytechnic-vertical-blue.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "wintec-house-2026",
+   "provider": "Wintec (Waikato Institute of Technology)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "en": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "th": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "vi": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "zh": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "ja": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "ko": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "km": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "fr": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "pt": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "es": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "de": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "it": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "nl": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand",
+    "ru": "Wintec (Waikato Institute of Technology) - Hamilton, New Zealand"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Wintec lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Wintec on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Wintec บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Wintec trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Wintec 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Wintec のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Wintec의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Wintec លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Wintec sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Wintec na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Wintec en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Wintec in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Wintec nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Wintec in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Wintec в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Wintec",
+    "en": "See Wintec programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Wintec",
+    "vi": "Xem chương trình & chi phí Wintec",
+    "zh": "查看 Wintec 课程与费用",
+    "ja": "Wintec のプログラムと費用を見る",
+    "ko": "Wintec 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Wintec",
+    "fr": "Voir les programmes et coûts Wintec",
+    "pt": "Ver cursos e custos: Wintec",
+    "es": "Ver programas y costos de Wintec",
+    "de": "Wintec: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Wintec",
+    "nl": "Bekijk opleidingen & kosten van Wintec",
+    "ru": "Программы и стоимость Wintec"
+   },
+   "match": {
+    "country": "NZ",
+    "q": "Wintec"
+   },
+   "action": {
+    "type": "search",
+    "country": "NZ",
+    "q": "Wintec"
+   },
+   "website": "https://www.wintec.ac.nz/",
+   "source": "https://www.wintec.ac.nz/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.wintec.ac.nz/ResourcePackages/WintecPublicWebsite/assets/dist/images/brand/logo-wintec.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "oieg-house-2026",
+   "provider": "Oxford International Education Group (Oxford International)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "en": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "th": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "vi": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "zh": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "ja": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "ko": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "km": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "fr": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "pt": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "es": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "de": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "it": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "nl": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK",
+    "ru": "Oxford International Education Group (Oxford International) - Canterbury, Dundee & Edinburgh, UK"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Oxford International lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Oxford International on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Oxford International บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Oxford International trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Oxford International 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Oxford International のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Oxford International의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Oxford International លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Oxford International sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Oxford International na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Oxford International en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Oxford International in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Oxford International nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Oxford International in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Oxford International в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Oxford International",
+    "en": "See Oxford International programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Oxford International",
+    "vi": "Xem chương trình & chi phí Oxford International",
+    "zh": "查看 Oxford International 课程与费用",
+    "ja": "Oxford International のプログラムと費用を見る",
+    "ko": "Oxford International 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Oxford International",
+    "fr": "Voir les programmes et coûts Oxford International",
+    "pt": "Ver cursos e custos: Oxford International",
+    "es": "Ver programas y costos de Oxford International",
+    "de": "Oxford International: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Oxford International",
+    "nl": "Bekijk opleidingen & kosten van Oxford International",
+    "ru": "Программы и стоимость Oxford International"
+   },
+   "match": {
+    "country": "United Kingdom",
+    "q": "Oxford International"
+   },
+   "action": {
+    "type": "search",
+    "country": "United Kingdom",
+    "q": "Oxford International"
+   },
+   "website": "https://www.oxfordinternational.com/",
+   "source": "https://www.oxfordinternational.com/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.oxfordinternational.com/app/uploads/2025/08/oi-colour.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "B"
+  },
+  {
+   "id": "shu-house-2026",
+   "provider": "Sheffield Hallam University",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Sheffield Hallam University - Sheffield, UK",
+    "en": "Sheffield Hallam University - Sheffield, UK",
+    "th": "Sheffield Hallam University - Sheffield, UK",
+    "vi": "Sheffield Hallam University - Sheffield, UK",
+    "zh": "Sheffield Hallam University - Sheffield, UK",
+    "ja": "Sheffield Hallam University - Sheffield, UK",
+    "ko": "Sheffield Hallam University - Sheffield, UK",
+    "km": "Sheffield Hallam University - Sheffield, UK",
+    "fr": "Sheffield Hallam University - Sheffield, UK",
+    "pt": "Sheffield Hallam University - Sheffield, UK",
+    "es": "Sheffield Hallam University - Sheffield, UK",
+    "de": "Sheffield Hallam University - Sheffield, UK",
+    "it": "Sheffield Hallam University - Sheffield, UK",
+    "nl": "Sheffield Hallam University - Sheffield, UK",
+    "ru": "Sheffield Hallam University - Sheffield, UK"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Sheffield Hallam lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Sheffield Hallam on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Sheffield Hallam บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Sheffield Hallam trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Sheffield Hallam 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Sheffield Hallam のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Sheffield Hallam의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Sheffield Hallam លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Sheffield Hallam sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Sheffield Hallam na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Sheffield Hallam en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Sheffield Hallam in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Sheffield Hallam nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Sheffield Hallam in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Sheffield Hallam в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Sheffield Hallam",
+    "en": "See Sheffield Hallam programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Sheffield Hallam",
+    "vi": "Xem chương trình & chi phí Sheffield Hallam",
+    "zh": "查看 Sheffield Hallam 课程与费用",
+    "ja": "Sheffield Hallam のプログラムと費用を見る",
+    "ko": "Sheffield Hallam 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Sheffield Hallam",
+    "fr": "Voir les programmes et coûts Sheffield Hallam",
+    "pt": "Ver cursos e custos: Sheffield Hallam",
+    "es": "Ver programas y costos de Sheffield Hallam",
+    "de": "Sheffield Hallam: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Sheffield Hallam",
+    "nl": "Bekijk opleidingen & kosten van Sheffield Hallam",
+    "ru": "Программы и стоимость Sheffield Hallam"
+   },
+   "match": {
+    "country": "United Kingdom",
+    "q": "Sheffield Hallam University"
+   },
+   "action": {
+    "type": "search",
+    "country": "United Kingdom",
+    "q": "Sheffield Hallam University"
+   },
+   "website": "https://www.shu.ac.uk/",
+   "source": "https://www.shu.ac.uk/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.shu.ac.uk/dist/img/logo-shu.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "brookes-house-2026",
+   "provider": "Oxford Brookes University",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Oxford Brookes University - Oxford, UK",
+    "en": "Oxford Brookes University - Oxford, UK",
+    "th": "Oxford Brookes University - Oxford, UK",
+    "vi": "Oxford Brookes University - Oxford, UK",
+    "zh": "Oxford Brookes University - Oxford, UK",
+    "ja": "Oxford Brookes University - Oxford, UK",
+    "ko": "Oxford Brookes University - Oxford, UK",
+    "km": "Oxford Brookes University - Oxford, UK",
+    "fr": "Oxford Brookes University - Oxford, UK",
+    "pt": "Oxford Brookes University - Oxford, UK",
+    "es": "Oxford Brookes University - Oxford, UK",
+    "de": "Oxford Brookes University - Oxford, UK",
+    "it": "Oxford Brookes University - Oxford, UK",
+    "nl": "Oxford Brookes University - Oxford, UK",
+    "ru": "Oxford Brookes University - Oxford, UK"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di Oxford Brookes lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at Oxford Brookes on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ Oxford Brookes บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại Oxford Brookes trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 Oxford Brookes 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で Oxford Brookes のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 Oxford Brookes의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ Oxford Brookes លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à Oxford Brookes sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em Oxford Brookes na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en Oxford Brookes en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei Oxford Brookes in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso Oxford Brookes nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij Oxford Brookes in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в Oxford Brookes в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya Oxford Brookes",
+    "en": "See Oxford Brookes programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ Oxford Brookes",
+    "vi": "Xem chương trình & chi phí Oxford Brookes",
+    "zh": "查看 Oxford Brookes 课程与费用",
+    "ja": "Oxford Brookes のプログラムと費用を見る",
+    "ko": "Oxford Brookes 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា Oxford Brookes",
+    "fr": "Voir les programmes et coûts Oxford Brookes",
+    "pt": "Ver cursos e custos: Oxford Brookes",
+    "es": "Ver programas y costos de Oxford Brookes",
+    "de": "Oxford Brookes: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi Oxford Brookes",
+    "nl": "Bekijk opleidingen & kosten van Oxford Brookes",
+    "ru": "Программы и стоимость Oxford Brookes"
+   },
+   "match": {
+    "country": "United Kingdom",
+    "q": "Oxford Brookes University"
+   },
+   "action": {
+    "type": "search",
+    "country": "United Kingdom",
+    "q": "Oxford Brookes University"
+   },
+   "website": "https://www.brookes.ac.uk/",
+   "source": "https://www.brookes.ac.uk/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.brookes.ac.uk/getmedia/355438e9-d5d7-4ba5-b880-88bf59d8bf4d/brookeslogo.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "gcu-house-2026",
+   "provider": "Glasgow Caledonian University (GCU)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "en": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "th": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "vi": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "zh": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "ja": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "ko": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "km": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "fr": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "pt": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "es": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "de": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "it": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "nl": "Glasgow Caledonian University (GCU) - Glasgow & London, UK",
+    "ru": "Glasgow Caledonian University (GCU) - Glasgow & London, UK"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di GCU lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at GCU on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ GCU บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại GCU trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 GCU 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で GCU のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 GCU의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ GCU លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à GCU sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em GCU na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en GCU en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei GCU in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso GCU nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij GCU in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в GCU в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya GCU",
+    "en": "See GCU programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ GCU",
+    "vi": "Xem chương trình & chi phí GCU",
+    "zh": "查看 GCU 课程与费用",
+    "ja": "GCU のプログラムと費用を見る",
+    "ko": "GCU 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា GCU",
+    "fr": "Voir les programmes et coûts GCU",
+    "pt": "Ver cursos e custos: GCU",
+    "es": "Ver programas y costos de GCU",
+    "de": "GCU: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi GCU",
+    "nl": "Bekijk opleidingen & kosten van GCU",
+    "ru": "Программы и стоимость GCU"
+   },
+   "match": {
+    "country": "United Kingdom",
+    "q": "Glasgow Caledonian University"
+   },
+   "action": {
+    "type": "search",
+    "country": "United Kingdom",
+    "q": "Glasgow Caledonian University"
+   },
+   "website": "https://www.gcu.ac.uk/",
+   "source": "https://www.gcu.ac.uk/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "wsu-house-2026",
+   "provider": "Western Sydney University (WSU)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Western Sydney University (WSU) - Sydney, Australia",
+    "en": "Western Sydney University (WSU) - Sydney, Australia",
+    "th": "Western Sydney University (WSU) - Sydney, Australia",
+    "vi": "Western Sydney University (WSU) - Sydney, Australia",
+    "zh": "Western Sydney University (WSU) - Sydney, Australia",
+    "ja": "Western Sydney University (WSU) - Sydney, Australia",
+    "ko": "Western Sydney University (WSU) - Sydney, Australia",
+    "km": "Western Sydney University (WSU) - Sydney, Australia",
+    "fr": "Western Sydney University (WSU) - Sydney, Australia",
+    "pt": "Western Sydney University (WSU) - Sydney, Australia",
+    "es": "Western Sydney University (WSU) - Sydney, Australia",
+    "de": "Western Sydney University (WSU) - Sydney, Australia",
+    "it": "Western Sydney University (WSU) - Sydney, Australia",
+    "nl": "Western Sydney University (WSU) - Sydney, Australia",
+    "ru": "Western Sydney University (WSU) - Sydney, Australia"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di WSU lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at WSU on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ WSU บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại WSU trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 WSU 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で WSU のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 WSU의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ WSU លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à WSU sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em WSU na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en WSU en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei WSU in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso WSU nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij WSU in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в WSU в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya WSU",
+    "en": "See WSU programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ WSU",
+    "vi": "Xem chương trình & chi phí WSU",
+    "zh": "查看 WSU 课程与费用",
+    "ja": "WSU のプログラムと費用を見る",
+    "ko": "WSU 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា WSU",
+    "fr": "Voir les programmes et coûts WSU",
+    "pt": "Ver cursos e custos: WSU",
+    "es": "Ver programas y costos de WSU",
+    "de": "WSU: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi WSU",
+    "nl": "Bekijk opleidingen & kosten van WSU",
+    "ru": "Программы и стоимость WSU"
+   },
+   "match": {
+    "country": "AU",
+    "q": "Western Sydney University"
+   },
+   "action": {
+    "type": "search",
+    "country": "AU",
+    "q": "Western Sydney University"
+   },
+   "website": "https://www.westernsydney.edu.au/",
+   "source": "https://www.westernsydney.edu.au/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.westernsydney.edu.au/content/dam/digital/images/badges-and-logos/WSU_Logo_LeftAligned_Centred_RGB.png",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "binus-house-2026",
+   "provider": "BINUS International (BINUS University)",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "en": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "th": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "vi": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "zh": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "ja": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "ko": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "km": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "fr": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "pt": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "es": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "de": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "it": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "nl": "BINUS International (BINUS University) - Jakarta, Indonesia",
+    "ru": "BINUS International (BINUS University) - Jakarta, Indonesia"
+   },
+   "text": {
+    "id": "Bandingkan program, biaya kuliah, dan estimasi total biaya studi di BINUS International lewat pricelist Talented. Tanya konsultan Talented untuk penawaran resmi.",
+    "en": "Compare programmes, tuition and estimated total study costs at BINUS International on the Talented pricelist. Ask a Talented consultant for an official quote.",
+    "th": "เปรียบเทียบหลักสูตร ค่าเล่าเรียน และค่าใช้จ่ายรวมโดยประมาณของ BINUS International บน Pricelist ของ Talented สอบถามที่ปรึกษา Talented เพื่อขอใบเสนอราคาอย่างเป็นทางการ",
+    "vi": "So sánh chương trình, học phí và tổng chi phí du học ước tính tại BINUS International trên bảng giá Talented. Hỏi tư vấn viên Talented để nhận báo giá chính thức.",
+    "zh": "在 Talented 价目表上比较 BINUS International 的课程、学费和预估总留学费用。咨询 Talented 顾问获取正式报价。",
+    "ja": "Talented の料金表で BINUS International のプログラム、学費、留学総費用の目安を比較。正式な見積もりは Talented のコンサルタントへ。",
+    "ko": "Talented 가격표에서 BINUS International의 과정, 학비, 예상 총 유학 비용을 비교하세요. 공식 견적은 Talented 상담사에게 문의하세요.",
+    "km": "ប្រៀបធៀបកម្មវិធីសិក្សា ថ្លៃសិក្សា និងថ្លៃចំណាយសរុបប៉ាន់ស្មាននៅ BINUS International លើតារាងតម្លៃ Talented។ សួរទីប្រឹក្សា Talented ដើម្បីទទួលសម្រង់តម្លៃផ្លូវការ។",
+    "fr": "Comparez les programmes, frais de scolarité et coût total estimé des études à BINUS International sur la grille tarifaire Talented. Demandez un devis officiel à un conseiller Talented.",
+    "pt": "Compare cursos, mensalidades e o custo total estimado de estudo em BINUS International na tabela de preços da Talented. Peça um orçamento oficial a um consultor Talented.",
+    "es": "Compara programas, matrícula y el costo total estimado de estudiar en BINUS International en la lista de precios de Talented. Pide una cotización oficial a un asesor de Talented.",
+    "de": "Vergleiche Studiengänge, Studiengebühren und geschätzte Gesamtkosten bei BINUS International in der Talented-Preisliste. Ein offizielles Angebot erhältst du von einem Talented-Berater.",
+    "it": "Confronta corsi, tasse universitarie e costo totale stimato degli studi presso BINUS International nel listino Talented. Chiedi un preventivo ufficiale a un consulente Talented.",
+    "nl": "Vergelijk opleidingen, collegegeld en de geschatte totale studiekosten bij BINUS International in de Talented-prijslijst. Vraag een Talented-adviseur om een officiële offerte.",
+    "ru": "Сравните программы, стоимость обучения и примерные общие расходы на учёбу в BINUS International в прайс-листе Talented. Официальный расчёт — у консультанта Talented."
+   },
+   "cta": {
+    "id": "Lihat program & biaya BINUS International",
+    "en": "See BINUS International programs & costs",
+    "th": "ดูหลักสูตรและค่าใช้จ่ายของ BINUS International",
+    "vi": "Xem chương trình & chi phí BINUS International",
+    "zh": "查看 BINUS International 课程与费用",
+    "ja": "BINUS International のプログラムと費用を見る",
+    "ko": "BINUS International 과정 및 비용 보기",
+    "km": "មើលកម្មវិធី និងថ្លៃសិក្សា BINUS International",
+    "fr": "Voir les programmes et coûts BINUS International",
+    "pt": "Ver cursos e custos: BINUS International",
+    "es": "Ver programas y costos de BINUS International",
+    "de": "BINUS International: Programme & Kosten ansehen",
+    "it": "Vedi corsi e costi BINUS International",
+    "nl": "Bekijk opleidingen & kosten van BINUS International",
+    "ru": "Программы и стоимость BINUS International"
+   },
+   "match": {
+    "country": "Indonesia",
+    "q": "BINUS International"
+   },
+   "action": {
+    "type": "search",
+    "country": "Indonesia",
+    "q": "BINUS International"
+   },
+   "website": "https://binus.ac.id/",
+   "source": "https://binus.ac.id/",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": null,
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
+  },
+  {
+   "id": "monashid-house-2026",
+   "provider": "Monash University, Indonesia",
+   "slot": [
+    "hero"
+   ],
+   "plan": "house",
+   "paid": false,
+   "founding_partner": false,
+   "approved": true,
+   "start": "2026-11-16",
+   "end": "2027-12-31",
+   "end_note": "Tayang sampai pemilik bilang stop (end hanya batas aman).",
+   "headline": {
+    "id": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "en": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "th": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "vi": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "zh": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "ja": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "ko": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "km": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "fr": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "pt": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "es": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "de": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "it": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "nl": "Monash University, Indonesia - BSD City, Tangerang, Indonesia",
+    "ru": "Monash University, Indonesia - BSD City, Tangerang, Indonesia"
+   },
+   "text": {
+    "id": "Tertarik kuliah di Monash University Indonesia? Tanya konsultan Talented tentang program, syarat masuk, dan biayanya.",
+    "en": "Interested in Monash University Indonesia? Ask a Talented consultant about programmes, admission requirements and costs.",
+    "th": "สนใจเรียนที่ Monash University Indonesia ใช่ไหม สอบถามที่ปรึกษา Talented เรื่องหลักสูตร คุณสมบัติการรับเข้า และค่าใช้จ่าย",
+    "vi": "Bạn quan tâm đến Monash University Indonesia? Hỏi tư vấn viên Talented về chương trình, điều kiện nhập học và chi phí.",
+    "zh": "对 Monash University Indonesia 感兴趣？向 Talented 顾问咨询课程、入学要求和费用。",
+    "ja": "Monash University Indonesia に興味がありますか？プログラム、入学条件、費用は Talented のコンサルタントへ。",
+    "ko": "Monash University Indonesia에 관심 있으신가요? 과정, 입학 요건, 비용은 Talented 상담사에게 문의하세요.",
+    "km": "ចាប់អារម្មណ៍នឹង Monash University Indonesia មែនទេ? សួរទីប្រឹក្សា Talented អំពីកម្មវិធីសិក្សា លក្ខខណ្ឌចូលរៀន និងថ្លៃចំណាយ។",
+    "fr": "Monash University Indonesia vous intéresse ? Renseignez-vous auprès d’un conseiller Talented sur les programmes, conditions d’admission et coûts.",
+    "pt": "Interessado em Monash University Indonesia? Pergunte a um consultor Talented sobre cursos, requisitos de admissão e custos.",
+    "es": "¿Te interesa Monash University Indonesia? Consulta a un asesor de Talented sobre programas, requisitos de admisión y costos.",
+    "de": "Interesse an Monash University Indonesia? Frag einen Talented-Berater nach Studiengängen, Zulassungsvoraussetzungen und Kosten.",
+    "it": "Ti interessa Monash University Indonesia? Chiedi a un consulente Talented informazioni su corsi, requisiti di ammissione e costi.",
+    "nl": "Interesse in Monash University Indonesia? Vraag een Talented-adviseur naar opleidingen, toelatingseisen en kosten.",
+    "ru": "Интересует Monash University Indonesia? Узнайте у консультанта Talented о программах, требованиях к поступлению и стоимости."
+   },
+   "cta": {
+    "id": "Tanya konsultan Talented",
+    "en": "Ask a Talented consultant",
+    "th": "สอบถามที่ปรึกษา Talented",
+    "vi": "Hỏi tư vấn viên Talented",
+    "zh": "咨询 Talented 顾问",
+    "ja": "Talentedに相談する",
+    "ko": "Talented 상담사에게 문의",
+    "km": "សួរអ្នកប្រឹក្សា Talented",
+    "fr": "Contacter un conseiller Talented",
+    "pt": "Fale com um consultor Talented",
+    "es": "Consulta a un asesor de Talented",
+    "de": "Talented-Berater fragen",
+    "it": "Chiedi a un consulente Talented",
+    "nl": "Vraag een Talented-adviseur",
+    "ru": "Спросить консультанта Talented"
+   },
+   "action": {
+    "type": "url",
+    "url": "https://linktr.ee/talentededucationgroup"
+   },
+   "website": "https://www.monash.edu/indonesia",
+   "source": "https://www.monash.edu/indonesia",
+   "checked": "2026-11-18",
+   "image": null,
+   "logo": {
+    "src": null,
+    "source": "https://www.monash.edu/__data/assets/git_bridge/0006/509343/deploy/mysource_files/monash-logo.svg",
+    "checked": "2026-11-18",
+    "todo": "Unduh logo resmi dari source (atau situs resmi bila source null), simpan sendiri, jangan hotlink. Sementara tampilkan nama sebagai teks."
+   },
+   "rotation_group": "A"
   }
  ],
  "advertise": {
@@ -1850,5 +3559,13 @@
  "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
  "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir.",
  "action_note": "action.side (opsional): \"offshore\" | \"onshore\" - website memilih tab Offshore/Onshore sebelum mencari action.q. Saat ini dipakai ACIS (hanya onshore).",
- "note_discount": "Keputusan pemilik 17/11/2026 00.54 WIB: iklan Sponsored TIDAK menyebut Special discount Talented."
+ "note_discount": "Keputusan pemilik 17/11/2026 00.54 WIB: iklan Sponsored TIDAK menyebut Special discount Talented.",
+ "rotation": {
+  "mode": "weekly_alternate",
+  "anchor_monday": "2026-11-16",
+  "timezone": "Asia/Jakarta",
+  "rule": "Item TANPA paid=true dibagi acak ke grup A/B (field rotation_group). Hitung minggu = floor((hari ini WIB - anchor_monday)/7). Minggu genap tampil grup A, minggu ganjil grup B. Minggu 16-22 Nov 2026 = A, 23-29 Nov = B, dst. Urutan dalam grup diacak setiap buka halaman.",
+  "paid_rule": "Item paid=true (pembeli paket Sponsored) TIDAK ikut rolling: selalu tampil setiap minggu, selalu di urutan paling depan (urut tanggal bayar), lalu baru item grup minggu ini.",
+  "status": "Aktif sampai pemilik bilang stop (keputusan 18/11/2026)."
+ }
 }

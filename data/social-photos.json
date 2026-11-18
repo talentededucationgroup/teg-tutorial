@@ -26,7 +26,8 @@
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "ANY",
-   "file": "social/photos/0859fc6902260029.jpg"
+   "file": "social/photos/0859fc6902260029.jpg",
+   "blocked": true
   },
   {
    "place": "Singapore skyline",
@@ -44,7 +45,8 @@
    "license": "CC BY 2.5",
    "license_url": "https://creativecommons.org/licenses/by/2.5",
    "country": "AU",
-   "file": "social/photos/21f6f8c7c6e167df.jpg"
+   "file": "social/photos/21f6f8c7c6e167df.jpg",
+   "blocked": true
   },
   {
    "place": "Brisbane skyline",
@@ -71,7 +73,8 @@
    "license": "Public domain",
    "license_url": "",
    "country": "FR",
-   "file": "social/photos/5d70083ea1ea70df.jpg"
+   "file": "social/photos/5d70083ea1ea70df.jpg",
+   "blocked": true
   },
   {
    "place": "Lyon",
@@ -80,7 +83,8 @@
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "FR",
-   "file": "social/photos/e9d2f80184fb97eb.jpg"
+   "file": "social/photos/e9d2f80184fb97eb.jpg",
+   "blocked": true
   },
   {
    "place": "New York City skyline",
@@ -89,7 +93,8 @@
    "license": "Public domain",
    "license_url": "",
    "country": "US",
-   "file": "social/photos/fd5ec2c194ade178.jpg"
+   "file": "social/photos/fd5ec2c194ade178.jpg",
+   "blocked": true
   },
   {
    "place": "Boston skyline",
@@ -98,7 +103,8 @@
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
    "country": "US",
-   "file": "social/photos/aec0802bb97ee288.jpg"
+   "file": "social/photos/aec0802bb97ee288.jpg",
+   "blocked": true
   },
   {
    "place": "San Francisco skyline",
@@ -107,7 +113,8 @@
    "license": "CC BY 2.0",
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "country": "US",
-   "file": "social/photos/198b3577b42f903e.jpg"
+   "file": "social/photos/198b3577b42f903e.jpg",
+   "blocked": true
   },
   {
    "place": "Auckland skyline",

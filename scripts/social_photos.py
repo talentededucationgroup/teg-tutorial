@@ -34,7 +34,7 @@ ALIAS = {'australia': 'AU', 'selandia baru': 'NZ', 'new zealand': 'NZ', 'inggris
 LIC = {'CC0': 'https://creativecommons.org/publicdomain/zero/1.0/', 'PUBLIC DOMAIN': '',
        'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0', 'CC BY 3.0': 'https://creativecommons.org/licenses/by/3.0',
        'CC BY 2.5': 'https://creativecommons.org/licenses/by/2.5', 'CC BY 2.0': 'https://creativecommons.org/licenses/by/2.0'}
-BAD = re.compile(r'map|logo|coin|stamp|flag|seal|crest|diagram|banknote|poster|1[89]\d\d|portrait|protest|police|fire|flood|accident|crash|riot|grave|cemetery|military|army|navy', re.I)
+BAD = re.compile(r'plaque|souvenir|memorial|monument aux|illustration|drawing|engraving|painting|vector|lithograph|map|logo|coin|stamp|flag|seal|crest|diagram|banknote|poster|1[89]\d\d|portrait|protest|police|fire|flood|accident|crash|riot|grave|cemetery|military|army|navy', re.I)
 
 
 def code(country):
@@ -66,9 +66,15 @@ def _search(place, used):
         t, ii = p['title'], (p.get('imageinfo') or [{}])[0]
         if key.lower() not in t.lower() or BAD.search(t) or ii.get('descriptionurl') in used:
             continue
-        if ii.get('mime') != 'image/jpeg' or ii.get('width', 0) < 1600 or ii.get('width', 0) < ii.get('height', 0) * 1.2:
+        if ii.get('mime') != 'image/jpeg' or ii.get('width', 0) < 1600 or not (1.2 <= ii.get('width', 0) / max(1, ii.get('height', 1)) <= 2.0):
             continue
         md = ii.get('extmetadata', {})
+        yr = re.search(r'(1[89]\d\d|20\d\d)', (md.get('DateTimeOriginal') or md.get('DateTime') or {}).get('value', '') or '')
+        if not yr or int(yr.group(1)) < 2005:
+            continue
+        cats = (md.get('Categories') or {}).get('value', '').lower()
+        if re.search(r'illustration|drawing|painting|engraving|vector|plaque|memorial|night', cats):
+            continue
         lic = (md.get('LicenseShortName') or {}).get('value', '').strip().upper()
         if lic not in LIC:
             continue

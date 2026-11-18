@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18-ref",
+ "version": "2026-11-18b",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -121,8 +121,8 @@
     "policy": "https://www.ahmoshc.com.au/content/dam/b2c/docs/ahm/ahm_OSHC_Member_Guide.pdf",
     "guide": "https://d35xmj88c21w5o.cloudfront.net/content/dam/b2c/docs/ahm/ahm_OSHC_Student_FAQ.pdf"
    },
-   "buy_url": null,
-   "logo": null,
+   "buy_url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+   "logo": "assets/oshc/ahm.png",
    "document_dates": {
     "policy": "2023-11"
    },
@@ -137,7 +137,28 @@
     "logo_official": "https://www.ahmoshc.com.au/content/dam/oshcb2c/ahm-oshc-logo.svg",
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
-   }
+   },
+   "contact": {
+    "phone_au": "134 148",
+    "phone_intl": "+61 3 9862 1095",
+    "hours": "Mon-Fri 8am-8pm AEST",
+    "email": "oshc@ahm.com.au",
+    "online": "https://www.ahmoshc.com.au/contactus/",
+    "online_label": "Message us (web chat)",
+    "support_24_7": "1800 006 745",
+    "office": "ahm OSHC, GPO 2984, Melbourne VIC 3001 (postal)",
+    "source": "https://www.ahmoshc.com.au/contactus/",
+    "checked": "2026-11-18"
+   },
+   "flywire": {
+    "annual_aud": 660.28,
+    "monthly_aud": 55.02,
+    "annual_was_aud": 681.4,
+    "monthly_was_aud": 56.78,
+    "basis": "Single, 12 bulan, mulai 1 Des 2026 - 30 Nov 2027, quote oshcaustralia.com.au (Flywire, partner 2VR4ZK)",
+    "checked": "2026-11-18"
+   },
+   "buy_mode": "online"
   },
   {
    "name": "Allianz Care",
@@ -178,8 +199,8 @@
     "policy": "https://www.allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/docs/Allianz_Care_OSHC_Benefits_Flyer_Standard.pdf",
     "guide": "https://allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/docs/IH-0073-OSHC_Simple_Guide.pdf"
    },
-   "buy_url": null,
-   "logo": null,
+   "buy_url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+   "logo": "assets/oshc/allianz-care.png",
    "checked": "2026-11-16",
    "brand": {
     "color": "#003781",
@@ -191,7 +212,28 @@
     "logo_official": "https://www.allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/Allianz-Care-Australia-logo.png",
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
-   }
+   },
+   "contact": {
+    "phone_au": "136 742",
+    "phone_intl": "+61 7 3305 8841",
+    "hours": "Claims 1800 651 349 / 13 OSHC: Mon-Fri 8:30am-6pm AEST",
+    "email": "oshc@allianzcare.com.au",
+    "online": "https://www.allianzcare.com.au/en/contact-us/contact-us-form.html",
+    "online_label": "Email us (online form)",
+    "support_24_7": "1800 814 781",
+    "office": "Allianz Care Australia, Locked Bag 3004, Toowong QLD 4066 (postal) · on-campus locations listed on the website",
+    "source": "https://www.allianzcare.com.au/en/contact-us.html",
+    "checked": "2026-11-18"
+   },
+   "flywire": {
+    "annual_aud": 665.0,
+    "monthly_aud": 55.42,
+    "annual_was_aud": null,
+    "monthly_was_aud": null,
+    "basis": "Single, 12 bulan, mulai 1 Des 2026 - 30 Nov 2027, quote oshcaustralia.com.au (Flywire, partner 2VR4ZK)",
+    "checked": "2026-11-18"
+   },
+   "buy_mode": "online"
   },
   {
    "name": "Bupa",
@@ -233,8 +275,8 @@
     "policy": "https://www.bupa.com.au/-/media/dotcom/files/oshc/migrated/oshc-cover/overseas_student_health_cover-product-info.pdf",
     "guide": "https://www.bupa.com.au/health-insurance/oshc/get-bupa/-/media/E967B67EA12D4622A7821C9D402433B5.ashx"
    },
-   "buy_url": null,
-   "logo": null,
+   "buy_url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+   "logo": "assets/oshc/bupa.png",
    "document_dates": {
     "guide": "2026-06-30"
    },
@@ -246,10 +288,31 @@
     "text_on_color": "#FFFFFF",
     "wordmark": "Bupa",
     "site": "https://www.bupa.com.au/",
-    "logo_official": null,
+    "logo_official": "SVG logo in header of https://www.bupa.com.au/",
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
-   }
+   },
+   "contact": {
+    "phone_au": "1800 888 942",
+    "phone_intl": "+61 3 9937 4223",
+    "hours": "Mon-Fri 8am-6pm AEDT",
+    "email": null,
+    "online": "https://api.whatsapp.com/send?phone=61134135",
+    "online_label": "WhatsApp (Mon-Fri 7am-12am, Sat-Sun 8am-10pm AEDT)",
+    "support_24_7": "1300 884 235",
+    "office": "Bupa stores: https://www.bupa.com.au/contact-us/find-a-bupa-store",
+    "source": "https://www.bupa.com.au/health-insurance/oshc/contact-us",
+    "checked": "2026-11-18"
+   },
+   "flywire": {
+    "annual_aud": 713.0,
+    "monthly_aud": 59.42,
+    "annual_was_aud": null,
+    "monthly_was_aud": null,
+    "basis": "Single, 12 bulan, mulai 1 Des 2026 - 30 Nov 2027, quote oshcaustralia.com.au (Flywire, partner 2VR4ZK)",
+    "checked": "2026-11-18"
+   },
+   "buy_mode": "online"
   },
   {
    "name": "Medibank",
@@ -295,8 +358,8 @@
     "policy": "https://www.medibank.com.au/content/dam/b2c/docs/mpl/Essentials_OSHC_Cover_Summary.pdf",
     "guide": "https://www.medibank.com.au/overseas-student-health-cover/"
    },
-   "buy_url": null,
-   "logo": null,
+   "buy_url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+   "logo": "assets/oshc/medibank.png",
    "checked": "2026-11-16",
    "brand": {
     "color": "#DD0822",
@@ -308,7 +371,28 @@
     "logo_official": "https://www.medibank.com.au/content/dam/global/en/logo/medibank.webp",
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
-   }
+   },
+   "contact": {
+    "phone_au": "134 148",
+    "phone_intl": "+61 3 9862 1095",
+    "hours": "Mon-Fri 8am-8pm AEST",
+    "email": "oshc@medibank.com.au",
+    "online": "https://www.medibankoshc.com.au/contact-us/",
+    "online_label": "WhatsApp & web messaging",
+    "support_24_7": "1800 887 283",
+    "office": "Medibank stores across Australia: https://www.medibank.com.au/locations/ · Postal: Medibank OSHC, GPO 2984, Melbourne VIC 3001",
+    "source": "https://www.medibankoshc.com.au/contact-us/",
+    "checked": "2026-11-18"
+   },
+   "flywire": {
+    "annual_aud": 683.05,
+    "monthly_aud": 56.92,
+    "annual_was_aud": 719.0,
+    "monthly_was_aud": 59.92,
+    "basis": "Single, 12 bulan, mulai 1 Des 2026 - 30 Nov 2027, quote oshcaustralia.com.au (Flywire, partner 2VR4ZK)",
+    "checked": "2026-11-18"
+   },
+   "buy_mode": "online"
   },
   {
    "name": "nib",
@@ -355,7 +439,7 @@
     "guide": "https://www.nib.com.au/docs/oshc-fact-sheet"
    },
    "buy_url": null,
-   "logo": null,
+   "logo": "assets/oshc/nib.png",
    "document_dates": {
     "guide": "2026-06-16"
    },
@@ -367,10 +451,23 @@
     "text_on_color": "#FFFFFF",
     "wordmark": "nib",
     "site": "https://www.nib.com.au/overseas-students/",
-    "logo_official": null,
+    "logo_official": "SVG logo in header of https://www.nib.com.au/overseas-students/",
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
-   }
+   },
+   "contact": {
+    "phone_au": "1800 775 204",
+    "phone_intl": "+61 2 9692 4488",
+    "hours": "Mon-Fri 8:30am-6pm AEST/AEDT",
+    "email": null,
+    "online": "https://www.nib.com.au/contact-us",
+    "online_label": "Chat now (website)",
+    "support_24_7": null,
+    "office": null,
+    "source": "https://www.nib.com.au/contact-us",
+    "checked": "2026-11-18"
+   },
+   "buy_mode": "consultant"
   },
   {
    "name": "CBHS International Health",
@@ -661,8 +758,8 @@
    "en": "Guide"
   },
   "buy": {
-   "id": "Beli lewat Talented",
-   "en": "Buy via Talented"
+   "id": "Beli online",
+   "en": "Buy online"
   },
   "select": {
    "id": "Pilih",
@@ -671,6 +768,34 @@
   "selected": {
    "id": "Dipilih",
    "en": "Selected"
+  },
+  "ask_consultant": {
+   "id": "Tanya konsultan",
+   "en": "Ask a consultant"
+  },
+  "contact": {
+   "id": "Kontak layanan pelanggan",
+   "en": "Customer service"
+  },
+  "phone_au": {
+   "id": "Telepon (di Australia)",
+   "en": "Phone (in Australia)"
+  },
+  "phone_intl": {
+   "id": "Telepon (dari luar negeri)",
+   "en": "Phone (from overseas)"
+  },
+  "support_24_7": {
+   "id": "Saluran 24/7",
+   "en": "24/7 line"
+  },
+  "office": {
+   "id": "Kantor / toko",
+   "en": "Office / store"
+  },
+  "was": {
+   "id": "Harga normal",
+   "en": "Regular price"
   }
  },
  "single_quote": {
@@ -792,8 +917,8 @@
   }
  },
  "brand_rules": {
-  "use_logo": false,
-  "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib."
+  "use_logo": true,
+  "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib. UPDATE 18/11/2026: pemilik meminta logo resmi ditampilkan (Talented = partner Flywire untuk OSHC/OVHC). Simpan file logo resmi di path providers[].logo (unduh dari brand.logo_official), jangan hotlink."
  },
  "referral_buy": {
   "note": "Tombol beli OSHC/OVHC lewat link referral Talented (pemilik akan mengirim link). Website: tampilkan tombol HANYA bila url terisi (bukan null); tanpa nomor WA; buka tab baru. Ditambah 18/11/2026.",
@@ -837,5 +962,125 @@
     "ru": "Купить OVHC (страховка для гостевой/рабочей визы) через Talented"
    }
   }
+ },
+ "price_source": {
+  "rule": "Harga OSHC yang tampil (kartu & kalkulator) = harga Flywire (flywire.monthly_aud) bila ada; bila ada harga coret (monthly_was_aud) tampilkan juga dicoret. nib tidak ada di Flywire: pakai harga resmi nib + tombol 'Tanya konsultan'.",
+  "checked": "2026-11-18"
+ },
+ "ovhc": {
+  "title": {
+   "id": "OVHC - asuransi untuk visa selain pelajar",
+   "en": "OVHC - cover for non-student visas"
+  },
+  "intro": {
+   "id": "Overseas Visitors Health Cover (OVHC) untuk pemegang visa kerja/pengunjung/graduate (mis. 485, 482, 417, 462) atau anggota keluarga dengan visa lain. Pemegang visa pelajar 500 wajib OSHC, bukan OVHC.",
+   "en": "Overseas Visitors Health Cover (OVHC) is for work, visitor or graduate visa holders (e.g. 485, 482, 417, 462) or family members on other visas. Student visa (500) holders must have OSHC, not OVHC."
+  },
+  "buy_url": "https://agents.flywire.com/services/2VR4ZK/ovhc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+  "basis": "Starting from, 1 adult, polis mulai 1 Des 2026 (Flywire, partner 2VR4ZK)",
+  "checked": "2026-11-18",
+  "providers": [
+   {
+    "name": "AIA Health",
+    "monthly_from_aud": 59.35,
+    "contact": {
+     "phone_au": "1800 161 170",
+     "phone_intl": "+61 3 8803 9961",
+     "hours": "Mon-Fri 9am-5pm AEST/AEDT",
+     "email": "ovhc.memberservices@aia.com.au",
+     "support_24_7": "1800 566 091",
+     "online": "https://health.aia.com.au/international/contact-us",
+     "source": "https://health.aia.com.au/international/contact-us",
+     "checked": "2026-11-18"
+    },
+    "docs": {
+     "guide": "https://health.aia.com.au/content/dam/au-myown-whitelabel/aia-health/international/documents/aia-overseas-visitors-health-cover-member-guide.pdf"
+    }
+   },
+   {
+    "name": "nib",
+    "monthly_from_aud": 68.76,
+    "contact": {
+     "phone_au": "1800 775 204",
+     "phone_intl": "+61 2 9692 4488",
+     "hours": "Mon-Fri 8:30am-6pm AEST/AEDT",
+     "online": "https://www.nib.com.au/contact-us",
+     "source": "https://www.nib.com.au/contact-us",
+     "checked": "2026-11-18"
+    },
+    "docs": {
+     "guide": "https://www.nib.com.au/overseas-customers"
+    }
+   }
+  ]
+ },
+ "services": {
+  "note": "Link referral Flywire milik Talented (partner 2VR4ZK). Tampilkan sebagai tombol 'Beli online' / 'Buka layanan' tanpa menyebut komisi.",
+  "items": [
+   {
+    "key": "oshc_au",
+    "country": "AU",
+    "label": {
+     "id": "Beli OSHC Australia online",
+     "en": "Buy Australian OSHC online"
+    },
+    "url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "oshc_au_flywire",
+    "country": "AU",
+    "label": {
+     "id": "OSHC Australia (Flywire)",
+     "en": "Australian OSHC (Flywire)"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/oshc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "ovhc_au",
+    "country": "AU",
+    "label": {
+     "id": "Beli OVHC Australia online",
+     "en": "Buy Australian OVHC online"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/ovhc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "health_nz",
+    "country": "NZ",
+    "label": {
+     "id": "Asuransi kesehatan pelajar Selandia Baru",
+     "en": "New Zealand student health insurance"
+    },
+    "url": "https://studenthealth.nz?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+    "url_alt": "https://agents.flywire.com/services/2VR4ZK/studenthealth-nz?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "nz_fts",
+    "country": "NZ",
+    "label": {
+     "id": "NZ Funds Transfer Scheme (bukti dana visa NZ)",
+     "en": "NZ Funds Transfer Scheme (NZ visa funds)"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/nz-fts?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "germany_blocked",
+    "country": "DE",
+    "label": {
+     "id": "Germany Blocked Account (Sperrkonto)",
+     "en": "Germany Blocked Account (Sperrkonto)"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/germany-blocked-accounts?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   {
+    "key": "all_services",
+    "country": null,
+    "label": {
+     "id": "Semua layanan pelajar internasional (Flywire)",
+     "en": "All services for international students (Flywire)"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   }
+  ]
  }
 }

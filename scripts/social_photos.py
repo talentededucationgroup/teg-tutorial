@@ -74,7 +74,8 @@ def _search(place, used):
             continue
         artist = html.unescape(re.sub('<[^>]+>', ' ', (md.get('Artist') or {}).get('value', ''))).strip()
         artist = re.sub(r'\s+', ' ', artist)
-        artist = re.sub(r'^(.+?)\s*\1$', r'\1', artist)[:60] or 'Unknown'
+        artist = re.sub(r'^(.+?)\s*\1$', r'\1', artist)
+        artist = re.sub(r'^Unknown author.*', 'Unknown author', artist)[:60] or 'Unknown author'
         name = 'Public domain' if lic == 'PUBLIC DOMAIN' else lic
         return {"place": place, "file_page": ii['descriptionurl'], "thumb": ii.get('thumburl'), "author": artist,
                 "license": name, "license_url": LIC[lic]}

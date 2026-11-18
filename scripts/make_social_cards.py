@@ -287,33 +287,48 @@ def derive(kind, title, sub, country, provider, spec):
             "unit": spec.get('unit'), "foot": foot, "cc": cc, "prov": prov}
 
 
-def pick_style(key, has_hero):
+LAYOUTS = {  # name: (needs hero, needs deadline, allowed palettes)
+    'A': (True, False, ['P1', 'P3']), 'B': (False, False, ['P6']), 'C': (False, False, ['P1', 'P2', 'P3', 'P5']),
+    'D': (True, False, ['P1', 'P3']), 'E': (False, False, ['P2', 'P4', 'P5']), 'F': (False, False, ['P1', 'P3']),
+    'G': (False, True, ['P1', 'P2', 'P3', 'P5']), 'H': (False, False, ['P1', 'P3', 'P2', 'P4']),
+}
+LAYOUT_NAMES = {'A': 'Foto kanan diagonal', 'B': 'Foto penuh + panel', 'C': 'Foto atas diagonal', 'D': 'Tipografi + foto miring',
+                'E': 'Majalah/editorial', 'F': 'Tiket boarding pass', 'G': 'Kalender deadline', 'H': 'Tipografi bertumpuk + cap'}
+
+
+def pick_style(key, has_hero, has_dl=False):
+    """random rolling (seeded by key) across 8 layouts; never repeats the last 3 layouts; P1 max 2 in a row"""
     try:
         log = json.load(open(LOG, encoding='utf-8'))
     except Exception:
         log = {"note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).", "items": []}
     for it in log['items']:
-        if it.get('key') == key:
+        if it.get('key') == key and it.get('v') == 8:
             return it['layout'], it['palette'], log, True
-    last = log['items'][-3:]
-    lays = ['A', 'B', 'C', 'D'] if has_hero else ['B', 'C']
-    prev = last[-1]['layout'] if last else None
-    order = ['A', 'B', 'C', 'D']
-    start = (order.index(prev) + 1) if prev in order else 0
-    lay = next(order[(start + i) % 4] for i in range(4) if order[(start + i) % 4] in lays and order[(start + i) % 4] != prev)
-    p1run = len(last) >= 2 and all(i['palette'] == 'P1' for i in last[-2:])
-    if lay == 'B':
-        pal = 'P6' if p1run else 'P1'
-    elif p1run:
-        others = ['P3', 'P2', 'P5', 'P4']
-        pal = others[len(log['items']) % 4]
+    rnd = random.Random(hashlib.sha256(key.encode()).hexdigest())
+    last = [i for i in log['items'] if i.get('key') != key][-3:]
+    recent = {i['layout'] for i in last}
+    ok = [l for l, (nh, nd, _) in LAYOUTS.items() if (has_hero or not nh) and (has_dl or not nd)]
+    pool = [l for l in ok if l not in recent] or ok
+    if has_dl and 'G' in pool and rnd.random() < 0.5:
+        lay = 'G'
     else:
-        pal = 'P1'
-    return lay, pal, log, False
+        lay = rnd.choice(pool)
+    pals = list(LAYOUTS[lay][2])
+    p1run = len(last) >= 2 and all(i['palette'] in ('P1', 'P6') for i in last[-2:])
+    if p1run and len([p for p in pals if p not in ('P1', 'P6')]):
+        pals = [p for p in pals if p not in ('P1', 'P6')]
+    elif 'P1' in pals and rnd.random() < 0.5:
+        pals = ['P1']  # signature colour about half of the time
+    if last and len(pals) > 1 and last[-1]['palette'] in pals:
+        pals.remove(last[-1]['palette'])
+    return lay, rnd.choice(pals), log, False
 
 
 # ---------------------------------------------------------------- layouts
 def render(c, lay, pal, photo, logo_path):
+    if lay in ('E', 'F', 'G', 'H'):
+        return render_extra(c, lay, pal, photo, logo_path)
     bg, tx, ac, dark = PAL[pal]
     if lay == 'B':
         dark = True  # text sits on the solid green panel
@@ -440,6 +455,169 @@ def render(c, lay, pal, photo, logo_path):
     return im.convert('RGB')
 
 
+def stamp(text, sub, fill, ink, angle=-7, size=150):
+    """flat solid stamp, rotated 4-10 deg (Panduan L) - no shadow"""
+    f = anton(size)
+    tmp = ImageDraw.Draw(Image.new('RGBA', (10, 10)))
+    w_, h_ = tw(tmp, text, f), th(tmp, text, f)
+    fs = mont(26, 'ExtraBold')
+    sw = tw(tmp, sub, fs) if sub else 0
+    bw, bh = max(w_, sw) + 70, h_ + (60 if sub else 0) + 60
+    st = Image.new('RGBA', (bw, bh), fill + (255,))
+    d = ImageDraw.Draw(st)
+    d.rectangle([8, 8, bw - 9, bh - 9], outline=ink + (255,), width=4)
+    draw_t(d, ((bw - w_) // 2, 30), text, f, ink)
+    if sub:
+        draw_t(d, ((bw - sw) // 2, 30 + h_ + 18), sub, fs, ink)
+    return st.rotate(angle, resample=Image.BICUBIC, expand=True)
+
+
+def render_extra(c, lay, pal, photo, logo_path):
+    bg, tx, ac, dark = PAL[pal]
+    im = Image.new('RGBA', (W, H), bg + (255,))
+    d = ImageDraw.Draw(im)
+    if photo is not None:
+        photo = grain(photo, 0.035)
+    alt = PANEL2 if dark else ((0xE6, 0xDE, 0xCB) if pal == 'P2' else (0xDD, 0xE7, 0xDA) if pal == 'P5' else (0xEE, 0xEE, 0xEA))
+    banner_y = 916 - int(182 * 960 / 993)
+    limit = banner_y - 18
+    on_photo = False
+    if lay == 'E':  # editorial: framed photo right, big left headline, highlighted word
+        if photo is not None:
+            d.rectangle([622, 232, 1040, 712], fill=GREEN)
+            im.paste(fit_person(photo, 400, 470), (604, 214))
+        x, y = M, 250
+        words = c['head'].split()
+        fh = anton(84)
+        lines = wrap(d, c['head'], fh, 500, 3)
+        while len(lines) > 3 or max(tw(d, l_, fh) for l_ in lines) > 500:
+            fh = anton(fh.size - 4); lines = wrap(d, c['head'], fh, 500, 3)
+        for i, ln in enumerate(lines):
+            if i == len(lines) - 1:
+                lw_ = tw(d, ln, fh); lh_ = th(d, ln, fh)
+                d.rectangle([x - 10, y - 8, x + lw_ + 12, y + lh_ + 10], fill=ac)
+                draw_t(d, (x, y), ln, fh, GREEN if not dark else bg)
+            else:
+                draw_t(d, (x, y), ln, fh, tx)
+            y += th(d, ln, fh) + 18
+        y += 16
+        if c['hero']:
+            fhero = fit_font(d, c['hero'], anton, 500, 150, 70)
+            _, h_ = draw_t(d, (x, y), c['hero'], fhero, ac if dark else tx); y += h_ + 16
+        y += price_line(d, x, y, c['price'], c['unit'], ac, 36, 500)
+        fi = mont(23, 'Bold')
+        for i, ln in enumerate(c['info'][:2]):
+            for l2 in wrap(d, ln, fi, 520, 2 if i == 0 else 1):
+                if y + 28 > limit - 22: break
+                _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 8
+        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+    elif lay == 'F':  # boarding pass
+        tk = (0xF6, 0xF1, 0xE6)
+        x0, y0, x1, y1, cut = M, 236, W - M, 700, 700
+        d.rectangle([x0, y0, x1, y1], fill=tk)
+        for yy in (y0, y1):
+            d.ellipse([cut - 22, yy - 22, cut + 22, yy + 22], fill=bg)
+        for yy in range(y0 + 34, y1 - 30, 22):
+            d.line([(cut, yy), (cut, yy + 10)], fill=(0xB9, 0xB0, 0x9C), width=3)
+        if photo is not None:
+            ph = fit_person(photo, x1 - cut - 24, y1 - y0 - 24)
+            im.paste(ph, (cut + 12, y0 + 12))
+        ink = GREEN
+        fl = mont(20, 'ExtraBold')
+        draw_t(d, (x0 + 34, y0 + 30), 'BOARDING PASS  ·  STUDY ABROAD', fl, (0xC8, 0x90, 0x1A))
+        dest = CNAME.get(c['cc'], 'LUAR NEGERI')
+        fr = fit_font(d, 'INDONESIA → ' + dest, anton, cut - x0 - 70, 64, 34)
+        draw_t(d, (x0 + 34, y0 + 70), 'INDONESIA → ' + dest, fr, ink)
+        y = y0 + 70 + th(d, 'INDONESIA', fr) + 26
+        d.line([(x0 + 34, y), (cut - 34, y)], fill=(0xC8, 0x90, 0x1A), width=4); y += 22
+        fh = fit_font(d, c['head'], anton, cut - x0 - 70, 44, 28)
+        for ln in wrap(d, c['head'], fh, cut - x0 - 70, 2):
+            _, h_ = draw_t(d, (x0 + 34, y), ln, fh, ink); y += h_ + 8
+        y += 10
+        if c['hero']:
+            fhero = fit_font(d, c['hero'], anton, cut - x0 - 70, 120, 60)
+            _, h_ = draw_t(d, (x0 + 34, y), c['hero'], fhero, (0xC8, 0x90, 0x1A)); y += h_ + 14
+        y += price_line(d, x0 + 34, y, c['price'], c['unit'], ink, 30, cut - x0 - 70)
+        fi = mont(20, 'Bold')
+        for ln in c['info'][:2]:
+            for l2 in wrap(d, ln, fi, cut - x0 - 70, 1):
+                if y + 24 > y1 - 26: break
+                _, h_ = draw_t(d, (x0 + 34, y), l2, fi, ink); y += h_ + 6
+        draw_t(d, (M, limit - 18), c['foot'], mont(16, 'Medium'), tx)
+    elif lay == 'G':  # calendar deadline
+        m = re.match(r'(\d{4})-(\d{2})-(\d{2})', c['dl'] or '')
+        day, mon, yr = (str(int(m.group(3))), BULAN[int(m.group(2)) - 1].upper(), m.group(1)) if m else ('', '', '')
+        if photo is not None:
+            poly_paste(im, photo, [(560, 0), (1080, 0), (1080, FOOT_Y), (700, FOOT_Y)])
+        cx0, cy0, cw, ch = M, 240, 400, 420
+        d.rectangle([cx0, cy0, cx0 + cw, cy0 + ch], fill=(255, 255, 255))
+        d.rectangle([cx0, cy0, cx0 + cw, cy0 + 86], fill=ac)
+        fm = fit_font(d, f'{mon} {yr}', lambda s_: mont(s_, 'ExtraBold'), cw - 40, 34, 18)
+        draw_t(d, (cx0 + (cw - tw(d, f'{mon} {yr}', fm)) // 2, cy0 + 26), f'{mon} {yr}', fm, GREEN)
+        fd = anton(250)
+        draw_t(d, (cx0 + (cw - tw(d, day, fd)) // 2, cy0 + 120), day, fd, GREEN)
+        fdl = mont(24, 'ExtraBold')
+        draw_t(d, (cx0 + (cw - tw(d, 'DEADLINE', fdl)) // 2, cy0 + ch - 50), 'DEADLINE', fdl, (0xC8, 0x90, 0x1A))
+        x, y = M, cy0 + ch + 26
+        maxw = 640
+        fh = fit_font(d, c['head'], anton, maxw, 54, 30)
+        for ln in wrap(d, c['head'], fh, maxw, 1):
+            _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 8
+        fi = mont(22, 'Bold')
+        for i, ln in enumerate(c['info'][:1]):
+            for l2 in wrap(d, ln, fi, 640, 1):
+                if y + 26 > limit - 20: break
+                _, h_ = draw_t(d, (x, y), l2, fi, ac); y += h_ + 6
+        if c['hero']:
+            st = stamp(c['hero'], None, ac, GREEN, angle=8, size=96)
+            im.alpha_composite(st, (cx0 + cw - 40, cy0 + 60))
+    elif lay == 'H':  # stacked typography + photo strip + stamp
+        if photo is not None:
+            im.paste(fit_person(photo, 400, FOOT_Y - 0), (W - 400, 0))
+            d.rectangle([W - 412, 0, W - 400, FOOT_Y], fill=ac)
+        x, y = M, 236
+        words = c['head'].split()
+        maxw = W - 400 - M - 40
+        lines, cur = [], ''
+        for w_ in words:  # 1-2 words per line, huge
+            n = (cur + ' ' + w_).strip()
+            if cur and (len(n.split()) > 2 or tw(d, n, anton(92)) > maxw):
+                lines.append(cur); cur = w_
+            else:
+                cur = n
+        lines.append(cur)
+        lines = lines[:4]
+        size = 120
+        while size > 50 and (max(tw(d, l_, anton(size)) for l_ in lines) > maxw or len(lines) * size * 1.08 > 330):
+            size -= 4
+        fh = anton(size)
+        hi = max(range(len(lines)), key=lambda i: len(lines[i])) if len(lines) > 1 else 0
+        for i, ln in enumerate(lines):
+            lh_ = th(d, ln, fh)
+            if i == hi:
+                d.rectangle([x - 10, y - 8, x + tw(d, ln, fh) + 12, y + lh_ + 10], fill=ac)
+                draw_t(d, (x, y), ln, fh, GREEN)
+            else:
+                draw_t(d, (x, y), ln, fh, tx)
+            y += lh_ + 20
+        y += 6
+        y += price_line(d, x, y, c['price'], c['unit'], ac, 34, maxw)
+        fi = mont(22, 'Bold')
+        for i, ln in enumerate(c['info'][:2]):
+            for l2 in wrap(d, ln, fi, maxw, 1):
+                if y + 26 > limit - 20: break
+                _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 6
+        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+        if c['hero']:
+            st = stamp(c['hero'], 'BEASISWA' if re.search('beasiswa|scholarship', c['t'], re.I) else None, ac, GREEN, angle=-7, size=110)
+            im.alpha_composite(st, (W - 400 - st.width // 2 + 20, 460))
+        on_photo = photo is not None
+    logo_talented(im, dark, 150)
+    logo_provider(im, logo_path)
+    footer_and_banner(im, dark, ac)
+    return im.convert('RGB')
+
+
 def qa_qr(path):
     try:
         import cv2
@@ -464,13 +642,13 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     from social_photos import get_photo
     os.makedirs(OUT, exist_ok=True)
     c = derive(kind, title, sub, country, provider, spec)
-    lay, pal, log, known = pick_style(key, bool(c['hero']))
+    lay, pal, log, known = pick_style(key, bool(c['hero']), bool(c['dl']))
     if lay == 'D' and not c['hero']:
         lay = 'B'
     if known:
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
-        if os.path.exists(p) and rec.get('v') == 7:
+        if os.path.exists(p) and rec.get('v') == 8:
             return BASE + urllib.parse.quote(rec['file'])
     photo, credit = get_photo(country or 'ANY', key, provider)
     im = render(c, lay, pal, photo, find_logo(provider))
@@ -486,7 +664,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('QA failed (QR):', name); os.remove(path); return None
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "photo": (credit or 'tanpa foto'), "v": 7, "credit": credit}
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 8, "credit": credit}
     if known:
         for i in log['items']:
             if i.get('key') == key:

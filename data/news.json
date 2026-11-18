@@ -427,7 +427,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "nz-stgwv-2026-11-16",
@@ -482,7 +483,8 @@
      "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/",
      "official": true
     }
-   ]
+   ],
+   "effective": "2026-11-16"
   },
   {
    "id": "nz-pswv-eligibility-2026-11-16",
@@ -532,7 +534,8 @@
      "url": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
      "official": true
     }
-   ]
+   ],
+   "effective": "2026-11-16"
   },
   {
    "id": "ca-levels-2027-2029",
@@ -587,7 +590,8 @@
      "url": "https://monitor.icef.com/2026/11/canada-announces-targets-for-new-international-student-arrivals-through-2029/",
      "official": false
     }
-   ]
+   ],
+   "effective": "2027-01-01"
   },
   {
    "id": "au-gs-financial-consultation-2026-11",
@@ -642,7 +646,8 @@
      "url": "https://monitor.icef.com/2026/11/amidst-high-visa-refusal-rates-and-falling-commencements-australian-government-opens-consultation-on-reforms-to-genuine-student-test-and-financial-requirements/",
      "official": false
     }
-   ]
+   ],
+   "effective": null
   },
   {
    "id": "nz-ac-2026-32",
@@ -692,7 +697,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "au-family-members-2026-10",
@@ -742,7 +748,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "uk-maintenance-2026-11-30",
@@ -802,7 +809,8 @@
      "url": "https://www.ukcisa.org.uk/news/student-update-changes-to-the-immigration-rules-september-2026/",
      "official": false
     }
-   ]
+   ],
+   "effective": "2026-11-30"
   },
   {
    "id": "au-npl-2027",
@@ -857,7 +865,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "au-visa-fee-asean-2026-07",
@@ -912,7 +921,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "ca-cap-2026",
@@ -967,7 +977,8 @@
     }
    ],
    "effective_date": null,
-   "deadline": null
+   "deadline": null,
+   "effective": null
   },
   {
    "id": "uk-graduate-18-months",
@@ -1017,7 +1028,7 @@
      "official": true
     }
    ],
-   "effective_date": null,
+   "effective_date": "2027-01-01",
    "deadline": null
   }
  ],

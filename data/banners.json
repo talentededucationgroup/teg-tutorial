@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18-rotation",
+ "version": "2026-11-18-sponsor",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -3484,7 +3484,7 @@
     "Talented может снять рекламу, нарушающую эти условия."
    ]
   },
-  "form_url": "https://form.jotform.com/263181709123050",
+  "form_url": "https://info.talentededucationgroup.com/sponsor/",
   "contact_note": "Keputusan pemilik 17/11/2026 01.34 WIB: semua otomatis - institusi memesan & membayar di formulir; tugas terjadwal harian memasang iklan yang lunas & lolos cek.",
   "flow": "Tombol 'Lihat cara kerjanya' (kotak Promosikan institusi) -> halaman /advertise di pricelist (tab sama): paket + Ketentuan yang berlaku -> centang 'agree_label' -> tombol 'process_label' baru aktif -> buka form_url (Jotform) di tab baru. Jangan pernah langsung ke Jotform dari tombol/iklan mana pun. Keputusan pemilik 18/11/2026 17.30.",
   "terms_heading": {
@@ -3554,7 +3554,9 @@
    "it": "Verrai indirizzato al modulo di ordine e pagamento online (Jotform, Stripe AUD).",
    "nl": "Je gaat naar het online bestel- en betaalformulier (Jotform, Stripe AUD).",
    "ru": "Вы перейдёте к онлайн-форме заказа и оплаты (Jotform, Stripe AUD)."
-  }
+  },
+  "jotform_url": "https://form.jotform.com/263181709123050",
+  "form_note": "form_url = halaman bantu pemesanan (cari institusi -> kode CRICOS, nama & website terisi otomatis ke Jotform; institusi luar Australia bisa lewati CRICOS). jotform_url = formulir langsung (cadangan)."
  },
  "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
  "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir.",

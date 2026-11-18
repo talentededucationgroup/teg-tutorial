@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Order a Sponsored Slide - Talented Education Group</title>
+<meta name="description" content="Find your institution's CRICOS provider code and order a Sponsored slide on the Talented Education Group study-cost website.">
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f4f7f5;--card:#fff;--ink:#18241f;--muted:#5b6a63;--green:#1f5f4a;--green2:#e6f2ec;--line:#dbe3de;--warn:#8a5a00;--warnbg:#fff6e0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,"Segoe UI",sans-serif;padding:24px 16px 56px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.eyebrow{margin:0;color:var(--green);font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+h1{margin:0;font-size:clamp(1.5rem,4.5vw,2.1rem);line-height:1.2}
+.lead{margin:0;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+label{font-weight:700;display:block;margin-bottom:6px}
+input[type=search]{width:100%;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input[type=search]:focus{outline:2px solid var(--green);outline-offset:1px}
+.hint{color:var(--muted);font-size:.88rem;margin:6px 0 0}
+ul#results{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+ul#results li button{width:100%;text-align:left;font:inherit;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;color:var(--ink)}
+ul#results li button:hover,ul#results li button:focus{border-color:var(--green);background:var(--green2);outline:none}
+.r-name{font-weight:700;display:block}
+.r-meta{color:var(--muted);font-size:.86rem}
+.code{font-family:ui-monospace,Consolas,monospace;font-weight:700;color:var(--green)}
+#picked{display:none}
+#picked h2{margin:0 0 6px;font-size:1.15rem}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:8px 0 0}
+dt{color:var(--muted)}dd{margin:0;word-break:break-word}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.btn{display:inline-block;font:inherit;font-weight:700;border-radius:10px;padding:12px 18px;text-decoration:none;cursor:pointer;border:1px solid var(--green)}
+.btn-primary{background:var(--green);color:#fff}
+.btn-ghost{background:#fff;color:var(--green)}
+.overseas{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.overseas input{margin-top:4px;width:18px;height:18px;accent-color:var(--green)}
+.note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:.9rem;margin-top:12px}
+#ovBox{display:none}
+.empty{color:var(--muted);font-size:.92rem;margin-top:10px}
+footer{color:var(--muted);font-size:.82rem}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1714;--card:#17211d;--ink:#e6eee9;--muted:#9fb0a8;--green:#5fbf99;--green2:#1d2d26;--line:#2a3a33;--warn:#ffd48a;--warnbg:#3a2e14}
+:root:not([data-theme="light"]) input[type=search],:root:not([data-theme="light"]) ul#results li button,:root:not([data-theme="light"]) .btn-ghost{background:var(--card)}
+:root:not([data-theme="light"]) .btn-primary{color:#0f1714}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="eyebrow">Talented Education Group · Sponsored</p>
+  <h1>Order a Sponsored slide</h1>
+  <p class="lead">Step 1: find your institution so the correct CRICOS provider code is filled in for you. Step 2: complete the order form and pay online. Your slide goes live automatically after payment and a content check (usually within 24 hours).</p>
+
+  <section class="card" id="searchCard">
+    <label for="q">Australian institution name or CRICOS code</label>
+    <input type="search" id="q" placeholder="e.g. Kent Institute, Charles Darwin University, 00300K" autocomplete="off" disabled>
+    <p class="hint" id="status">Loading the official CRICOS register…</p>
+    <ul id="results" aria-live="polite"></ul>
+    <p class="empty" id="empty" hidden>No matching CRICOS provider found. Check the spelling, try the trading name, or search by CRICOS code.</p>
+
+    <div class="overseas">
+      <input type="checkbox" id="ov">
+      <label for="ov" style="font-weight:400;margin:0">My institution is <b>outside Australia</b> (no CRICOS code). I will enter our official registration number in the form.</label>
+    </div>
+    <div id="ovBox">
+      <div class="note">CRICOS lookup is skipped. Please enter your country's official registration number (e.g. NZQA provider number, UK UKPRN, Canada DLI) in the form.</div>
+      <div class="row"><a class="btn btn-primary" id="ovGo" href="#" target="_blank" rel="noopener">Continue to order form →</a></div>
+    </div>
+  </section>
+
+  <section class="card" id="picked" aria-live="polite">
+    <h2 id="pName"></h2>
+    <dl>
+      <dt>CRICOS code</dt><dd class="code" id="pCode"></dd>
+      <dt>Legal name</dt><dd id="pLegal"></dd>
+      <dt>Location</dt><dd id="pLoc"></dd>
+      <dt>Website</dt><dd id="pWeb"></dd>
+    </dl>
+    <div class="row">
+      <a class="btn btn-primary" id="go" href="#" target="_blank" rel="noopener">Continue to order form →</a>
+      <button class="btn btn-ghost" id="change" type="button">Choose another</button>
+    </div>
+    <p class="hint">The institution name, CRICOS code and website are pre-filled in the form. Orders are checked against the CRICOS register before publishing.</p>
+  </section>
+
+  <footer>Source: official CRICOS register (data snapshot <span id="snap">–</span>). Sponsored slides are labelled "Sponsored" and never change prices, ranking or filters.</footer>
+</main>
+<script>
+(function(){
+  var FORM='https://form.jotform.com/263181709123050';
+  var DATA='https://info.talentededucationgroup.com/data/cricos.json';
+  var q=document.getElementById('q'),res=document.getElementById('results'),st=document.getElementById('status'),
+      empty=document.getElementById('empty'),picked=document.getElementById('picked'),ov=document.getElementById('ov'),
+      ovBox=document.getElementById('ovBox'),searchCard=document.getElementById('searchCard');
+  var list=[];
+  document.getElementById('ovGo').href=FORM;
+  var STOP=/\b(pty|ltd|limited|proprietary|the|inc|incorporated|trading|as|t\/a|australia|aust)\b/g;
+  function norm(s){return (s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/&/g,' and ').replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+  function core(s){return norm(s).replace(STOP,' ').replace(/\s+/g,' ').trim();}
+  function formUrl(p){
+    var u=new URLSearchParams();
+    u.set('textbox1',(p.trading_name&&p.trading_name.indexOf(',')<0)?p.trading_name:p.name);
+    u.set('cricosProvider',p.code);
+    if(p.website)u.set('textbox3',p.website);
+    return FORM+'?'+u.toString();
+  }
+  function score(p,nq,cq,tokens){
+    if(p._code===nq.replace(/\s/g,''))return 1000;
+    var s=0,names=[p._n,p._t];
+    for(var i=0;i<names.length;i++){var n=names[i];if(!n)continue;
+      if(n===cq)s=Math.max(s,900);
+      else if(n.indexOf(cq)===0)s=Math.max(s,700);
+      else if(n.indexOf(cq)>=0)s=Math.max(s,500);
+      else{var hit=0;for(var j=0;j<tokens.length;j++)if(n.indexOf(tokens[j])>=0)hit++;
+        if(hit===tokens.length)s=Math.max(s,300+hit);}
+    }
+    if(s&&p.teg_partner)s+=5;
+    return s;
+  }
+  function esc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML;}
+  function search(){
+    var raw=q.value.trim();res.innerHTML='';empty.hidden=true;
+    if(raw.length<2)return;
+    var nq=norm(raw),cq=core(raw)||nq,tokens=cq.split(' ').filter(function(t){return t.length>1;});
+    if(!tokens.length)tokens=[cq];
+    var out=[];
+    for(var i=0;i<list.length;i++){var sc=score(list[i],nq,cq,tokens);if(sc)out.push([sc,list[i]]);}
+    out.sort(function(a,b){return b[0]-a[0]||a[1].name.localeCompare(b[1].name);});
+    out=out.slice(0,8);
+    if(!out.length){empty.hidden=false;return;}
+    out.forEach(function(o){var p=o[1],li=document.createElement('li'),b=document.createElement('button');b.type='button';
+      var disp=p.trading_name||p.name;
+      var loc=(p.cities||[]).slice(0,3).join(', ')+((p.states||[]).length?' · '+p.states.join(', '):'');
+      b.innerHTML='<span class="r-name">'+esc(disp)+'</span><span class="r-meta"><span class="code">'+esc(p.code)+'</span>'+(p.trading_name&&p.trading_name!==p.name?' · '+esc(p.name):'')+(loc?' · '+esc(loc):'')+'</span>';
+      b.addEventListener('click',function(){pick(p);});li.appendChild(b);res.appendChild(li);});
+  }
+  function pick(p){
+    document.getElementById('pName').textContent=p.trading_name||p.name;
+    document.getElementById('pCode').textContent=p.code;
+    document.getElementById('pLegal').textContent=p.name;
+    document.getElementById('pLoc').textContent=[(p.cities||[]).join(', '),(p.states||[]).join(', ')].filter(Boolean).join(' · ')||'–';
+    var w=document.getElementById('pWeb');w.textContent='';
+    if(p.website&&/^https?:\/\//i.test(p.website)){var a=document.createElement('a');a.href=p.website;a.target='_blank';a.rel='noopener';a.textContent=p.website;w.appendChild(a);}else w.textContent='–';
+    document.getElementById('go').href=formUrl(p);
+    searchCard.style.display='none';picked.style.display='block';picked.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  document.getElementById('change').addEventListener('click',function(){picked.style.display='none';searchCard.style.display='block';q.focus();});
+  ov.addEventListener('change',function(){var on=ov.checked;ovBox.style.display=on?'block':'none';q.disabled=on||!list.length;res.style.display=on?'none':'';empty.hidden=true;});
+  var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(search,120);});
+  fetch(DATA,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
+    list=(d.providers||[]).map(function(p){p._n=core(p.name);p._t=core(p.trading_name);p._code=(p.code||'').toLowerCase();return p;});
+    document.getElementById('snap').textContent=d.data_date||d.updated_at||'–';
+    st.textContent=list.length.toLocaleString('en')+' CRICOS providers. Type at least 2 letters, then pick your institution.';
+    q.disabled=false;q.focus();
+  }).catch(function(){
+    st.innerHTML='The CRICOS register could not be loaded. You can still <a href="'+FORM+'" target="_blank" rel="noopener">open the order form</a> and type your CRICOS code manually.';
+  });
+})();
+</script>
+</body>
+</html>

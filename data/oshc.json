@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18h",
+ "version": "2026-11-18i",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -1171,6 +1171,86 @@
     ]
    },
    {
+    "key": "hospital_medical_other",
+    "stars": 3,
+    "title": {
+     "id": "Rumah sakit + rawat jalan (Medibank)",
+     "en": "Hospital + out-patient (Medibank)"
+    },
+    "subtitle": {
+     "id": "Manfaat kehamilan berbeda per produk - cek ringkasan polis",
+     "en": "Pregnancy benefits differ by product - check the cover summary"
+    },
+    "plans": [
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Workers Standard Hospital and Medical",
+      "excess_aud": null,
+      "monthly_aud": 119.0,
+      "price_label": "from",
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=standard-hospital-medical",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-standard-hospital-and-medical.pdf",
+      "visa_group": "workers"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Workers Advanced Hospital and Medical",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=advanced-hospital-medical",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-advanced-hospital-and-medical.pdf",
+      "visa_group": "workers"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Workers Premium Hospital, Medical and Extras",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=premium-hospital-medical-extras",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-premium-hospital-medical-and-extras.pdf",
+      "visa_group": "workers"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Visitors Starter Hospital and Medical",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=Working-holiday&productID=starter-hospital-medical",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-starter-hospital-and-medical.pdf",
+      "visa_group": "working_holiday"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Visitors Core Hospital and Medical",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=core-hospital-medical",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-core-hospital-and-medical.pdf",
+      "visa_group": "visitors"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Visitors Premier Hospital and Medical",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=premier-hospital-medical",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-premier-hospital-and-medical.pdf",
+      "visa_group": "visitors"
+     }
+    ]
+   },
+   {
     "key": "hospital_only",
     "stars": 2,
     "title": {
@@ -1223,6 +1303,28 @@
       "excess_aud": 750,
       "monthly_aud": 59.35,
       "on_flywire": true
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Workers Base Hospital",
+      "excess_aud": null,
+      "monthly_aud": 72.3,
+      "price_label": "from",
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=base-hospital",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-base-hospital.pdf",
+      "visa_group": "workers"
+     },
+     {
+      "insurer": "Medibank",
+      "product": "Overseas Visitors Comprehensive Hospital",
+      "excess_aud": null,
+      "monthly_aud": null,
+      "price_label": null,
+      "on_flywire": false,
+      "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=comprehensive-hospital",
+      "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-comprehensive-hospital.pdf",
+      "visa_group": "visitors"
      }
     ]
    }
@@ -1242,6 +1344,13 @@
     },
     "url": "https://linktr.ee/talentededucationgroup",
     "note": "Produk Bupa & Allianz Care OVHC tidak dijual di layanan Flywire Talented (cek 18/11/2026) - siswa dibantu konsultan."
+   },
+   "medibank": {
+    "label": {
+     "id": "Buy online",
+     "en": "Buy online"
+    },
+    "use": "plans[].buy_url (link affiliate Medibank Talented)"
    }
   },
   "excess_label": {
@@ -1274,7 +1383,39 @@
     "color": "#003781",
     "accent": "#009482",
     "logo": "assets/oshc/allianz-care.png"
+   },
+   "Medibank": {
+    "color": "#DD0822",
+    "text_on_color": "#FFFFFF",
+    "logo": "assets/oshc/medibank.png",
+    "logo_variant": {
+     "variant": "Wordmark 'medibank' merah #DD0822 di kotak putih.",
+     "checked": "2026-11-18"
+    }
    }
+  },
+  "medibank_affiliate": {
+   "general_workers": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER",
+   "general_visitors": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors",
+   "visa_groups": {
+    "workers": {
+     "id": "Visa kerja (482, 485, 188, 400, 403, 407, 408, 417, 462, 489, dll.)",
+     "en": "Work visas (482, 485, 188, 400, 403, 407, 408, 417, 462, 489 and more)"
+    },
+    "working_holiday": {
+     "id": "Working holiday & visa sementara lain (417, 462, 476, 489, 491, 494, dll.)",
+     "en": "Working holiday & other temporary visas (417, 462, 476, 489, 491, 494 and more)"
+    },
+    "visitors": {
+     "id": "Visa kunjungan (600, 601, 651, 300, 444, 445, 771)",
+     "en": "Visitor visas (600, 601, 651, 300, 444, 445, 771)"
+    }
+   },
+   "price_note": {
+    "id": "Harga Medibank = 'mulai dari' untuk 1 orang di halaman resmi Medibank (dicek 18/11/2026); harga final tergantung usia, visa & tanggal mulai. Produk tanpa angka: lihat harga di Medibank.",
+    "en": "Medibank prices are 'from' prices for one person on Medibank's official page (checked 18/11/2026); final price depends on age, visa and start date. Products without a figure: see price on Medibank."
+   },
+   "checked": "2026-11-18"
   }
  },
  "services": {

@@ -52,7 +52,7 @@ def collect():
     for it in n.get('items', []):
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
                                       '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2,
-                                      extra={"date": it.get('date') or TODAY})
+                                      extra={"date": it.get('date') or TODAY, "country": it.get('country')})
     s = load('scholarships.json', {}) or {}
     for it in s.get('items', []):
         name = it.get('name', '')
@@ -64,7 +64,7 @@ def collect():
             'scholarship', key,
             ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
             ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
-            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1)
+            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country')})
     b = load('banners.json', {}) or {}
     for it in b.get('items', []):
         if not it.get('approved'):
@@ -168,7 +168,7 @@ def write_rss(items):
     for p in sp.get('items', []):
         if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
             extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
-                          "caption": p.get('caption'), "sub": p.get('sub'), "url": p.get('url') or SITE + '/'})
+                          "caption": p.get('caption'), "sub": p.get('sub'), "country": p.get('country') or 'ANY', "url": p.get('url') or SITE + '/'})
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
@@ -178,7 +178,7 @@ def write_rss(items):
         except Exception:
             d = NOW
         t = e['title']['id']
-        img = make_card(e['kind'], t, e['id'], e.get('sub'))
+        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY')
         desc = e.get('caption') or t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"

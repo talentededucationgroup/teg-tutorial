@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "teg-updates-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/updates.json data/updates-state.json data/accommodation.json social-feed.xml social/
+          git add data/updates.json data/updates-state.json data/accommodation.json social-feed.xml social/ data/social-photos.json
           if ! git diff --cached --quiet; then
             git commit -m "Feed yang baru otomatis $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase -q origin main && git push -q origin HEAD:main

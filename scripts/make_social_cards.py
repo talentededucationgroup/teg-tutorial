@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Make 1080x1080 branded image cards for social posts (no third-party photos needed).
 make_card(kind, title, key) -> public URL of social/cards/<hash>.png (created if missing)."""
-import os, re, hashlib
+import os, re, sys, hashlib
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,10 +34,10 @@ def wrap(d, text, font, width):
     return lines
 
 
-def make_card(kind, title, key, sub=None):
+def make_card(kind, title, key, sub=None, country=None):
     os.makedirs(OUT, exist_ok=True)
     title = clean(title)
-    h = hashlib.sha256(f'{kind}|{title}|{sub}|v1'.encode()).hexdigest()[:16]
+    h = hashlib.sha256(f'{kind}|{title}|{sub}|{country}|v2'.encode()).hexdigest()[:16]
     path = os.path.join(OUT, h + '.png')
     if os.path.exists(path):
         return BASE + h + '.png'
@@ -46,8 +47,28 @@ def make_card(kind, title, key, sub=None):
     for y in range(W):
         t = y / W
         d.line([(0, y), (W, y)], fill=tuple(int(TOP[i] + (BOT[i] - TOP[i]) * t) for i in range(3)))
-    d.ellipse([700, -220, 1300, 380], fill=(0x1B, 0x7F, 0x58))
-    d.ellipse([-260, 820, 260, 1340], fill=(0x12, 0x55, 0x3D))
+    from social_photos import get_photo
+    photo, credit = get_photo(country, key) if country is not None else (None, None)
+    if photo:
+        r = max(W / photo.width, 470 / photo.height)
+        ph = photo.resize((int(photo.width * r) + 1, int(photo.height * r) + 1))
+        l, t = (ph.width - W) // 2, (ph.height - 470) // 2
+        im.paste(ph.crop((l, t, l + W, t + 470)), (0, 0))
+        sh = Image.new('RGBA', (W, 470), (0, 0, 0, 0))
+        sd = ImageDraw.Draw(sh)
+        for yy in range(470):
+            a = int(150 * max(0, (yy - 250) / 220)) + (60 if yy < 120 else 0)
+            sd.line([(0, yy), (W, yy)], fill=(0x0F, 0x3D, 0x2E, min(a, 200)))
+        im.paste(sh, (0, 0), sh)
+        fcr = F('Medium', 18)
+        cw = d.textlength(credit, font=fcr)
+        d.rounded_rectangle([W - 36 - cw, 434, W - 12, 464], 8, fill=(0, 0, 0))
+        d.text((W - 24 - cw, 438), credit, font=fcr, fill=(245, 245, 245))
+        global_y = 500
+    else:
+        d.ellipse([700, -220, 1300, 380], fill=(0x1B, 0x7F, 0x58))
+        d.ellipse([-260, 820, 260, 1340], fill=(0x12, 0x55, 0x3D))
+        global_y = 300
     try:
         lg = Image.open(os.path.join(ROOT, 'mocktest', 'logo.png')).convert('RGB')
         lg = lg.crop((0, 0, int(lg.width * 0.9), lg.height))
@@ -60,17 +81,19 @@ def make_card(kind, title, key, sub=None):
     label, col = KIND.get(kind, KIND['marketing'])
     fl = F('Bold', 34)
     lw = d.textlength(label, font=fl)
-    d.rounded_rectangle([72, 300, 72 + lw + 56, 366], 33, fill=col)
-    d.text((100, 307), label, font=fl, fill=(0x10, 0x2A, 0x20))
+    by = global_y
+    d.rounded_rectangle([72, by, 72 + lw + 56, by + 66], 33, fill=col)
+    d.text((100, by + 7), label, font=fl, fill=(0x10, 0x2A, 0x20))
+    maxh = 900 - (by + 100)
     size = 76
     while size > 44:
         ft = F('Bold', size)
         lines = wrap(d, title, ft, W - 150)
-        if len(lines) * size * 1.22 <= 430:
+        if len(lines) * size * 1.22 <= maxh:
             break
         size -= 4
     lines = lines[:7]
-    y = 400
+    y = by + 100
     for ln in lines:
         d.text((72, y), ln, font=ft, fill='white'); y += int(size * 1.22)
     if sub:

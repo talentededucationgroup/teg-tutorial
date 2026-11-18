@@ -160,6 +160,78 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "FR",
    "file": "social/photos/5ec241ada3c43841.jpg"
+  },
+  {
+   "place": "Singapore skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Singapore_skyline_at_dusk.JPG",
+   "author": "Terence Ong",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "country": "SG",
+   "file": "social/photos/89c8bc37b3800541.jpg"
+  },
+  {
+   "place": "Melbourne skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Melbourne_Skyline_at_daytime.jpg",
+   "author": "Kolitha de Silva",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "AU",
+   "file": "social/photos/26b813c7af766c3f.jpg"
+  },
+  {
+   "place": "Paris",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Paris_Petitot_Pont_Carrousel.jpg",
+   "author": "Jebulon",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "FR",
+   "file": "social/photos/33e62249ccf71119.jpg"
+  },
+  {
+   "place": "Lyon",
+   "file_page": "https://commons.wikimedia.org/wiki/File:View-of-Lyon-France.jpg",
+   "author": "Acediscovery",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "FR",
+   "file": "social/photos/f1e1dcf61ae5e40e.jpg"
+  },
+  {
+   "place": "London skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:River_Thames_riverside_park_with_London_skyline_at_Vauxhall-2026.jpg",
+   "author": "Raman Ghimire",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "ANY",
+   "file": "social/photos/f421795e0ae7960c.jpg"
+  },
+  {
+   "place": "New York City skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Manhattan_skyline_from_Upper_New_York_Bay,_20231001_1041_0889.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "US",
+   "file": "social/photos/018b71b552ed3457.jpg"
+  },
+  {
+   "place": "Boston skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Downtown_Boston_20240702.jpg",
+   "author": "Nkon21",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "US",
+   "file": "social/photos/049e65c8551c3e92.jpg"
+  },
+  {
+   "place": "San Francisco skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:San_Francisco_skyline_from_Kensington,_CA_(2025).jpg",
+   "author": "Ligocsicnarf89",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "US",
+   "file": "social/photos/26f4c088b980ba78.jpg"
   }
  ]
 }

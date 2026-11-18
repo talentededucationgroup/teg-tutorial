@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18T22:39:55+07:00",
+ "version": "2026-11-18T22:41:20+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -220,7 +220,5 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news"
   }
- ],
- "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
- "_fp": "teg-9ce73a6ca2e7"
+ ]
 }

@@ -1,74 +1,333 @@
 {
- "version": "2026-11-18",
- "updated_at": "2026-11-18T10:00:00+07:00",
+ "version": "2026-11-18b",
+ "updated_at": "2026-11-18T14:30:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
-  "en": "Official immigration & student visa news"
+  "en": "Official immigration & student visa news",
+  "th": "ข่าวทางการด้านตรวจคนเข้าเมืองและวีซ่านักเรียน",
+  "vi": "Tin chính thức về di trú & thị thực du học",
+  "zh": "官方移民与学生签证新闻",
+  "ja": "移民・学生ビザに関する公式ニュース",
+  "ko": "공식 이민 및 학생비자 뉴스",
+  "km": "ព័ត៌មានផ្លូវការអំពីអន្តោប្រវេសន៍ និងទិដ្ឋាការសិស្ស",
+  "fr": "Actualités officielles : immigration et visa étudiant",
+  "pt": "Notícias oficiais de imigração e visto de estudante",
+  "es": "Noticias oficiales de inmigración y visa de estudiante",
+  "de": "Offizielle Nachrichten zu Einwanderung & Studentenvisum",
+  "it": "Notizie ufficiali su immigrazione e visto per studenti",
+  "nl": "Officieel nieuws over immigratie & studentenvisum",
+  "ru": "Официальные новости об иммиграции и студенческих визах"
  },
  "intro": {
-  "id": "Ringkasan perubahan resmi terbaru tentang visa pelajar dan sekolah di negara-negara yang kami tawarkan, lengkap dengan link sumber resmi. Diperbarui berkala.",
-  "en": "Summary of the latest official changes on student visas and schools in the countries we offer, with links to official sources. Updated regularly."
+  "id": "Ringkasan perubahan resmi terbaru tentang visa pelajar dan sekolah di negara-negara yang kami tawarkan - termasuk usulan, konsultasi publik dan rencana pemerintah - lengkap dengan link sumber resmi. Diperbarui berkala.",
+  "en": "Summary of the latest official changes on student visas and schools in the countries we offer - including government proposals, public consultations and plans - with links to official sources. Updated regularly.",
+  "th": "สรุปการเปลี่ยนแปลงทางการล่าสุดเกี่ยวกับวีซ่านักเรียนและสถานศึกษาในประเทศที่เราให้บริการ รวมถึงข้อเสนอ การรับฟังความคิดเห็น และแผนของรัฐบาล พร้อมลิงก์แหล่งข้อมูลทางการ อัปเดตเป็นประจำ",
+  "vi": "Tóm tắt các thay đổi chính thức mới nhất về thị thực du học và trường học tại các quốc gia chúng tôi cung cấp - gồm cả đề xuất, tham vấn công khai và kế hoạch của chính phủ - kèm liên kết nguồn chính thức. Cập nhật định kỳ.",
+  "zh": "汇总我们所提供国家关于学生签证和学校的最新官方变化——包括政府提案、公众咨询和计划——并附官方来源链接。定期更新。",
+  "ja": "当社が扱う国の学生ビザ・学校に関する最新の公式変更(政府の提案、パブリックコンサルテーション、計画を含む)を公式情報源へのリンク付きでまとめています。定期的に更新。",
+  "ko": "저희가 안내하는 국가의 학생비자 및 학교 관련 최신 공식 변경 사항(정부 제안, 공개 의견수렴, 계획 포함)을 공식 출처 링크와 함께 정리했습니다. 정기적으로 업데이트됩니다.",
+  "km": "សេចក្តីសង្ខេបនៃការផ្លាស់ប្តូរផ្លូវការថ្មីៗអំពីទិដ្ឋាការសិស្ស និងសាលារៀននៅប្រទេសដែលយើងផ្តល់ជូន - រួមទាំងសំណើ ការពិគ្រោះយោបល់សាធារណៈ និងផែនការរបស់រដ្ឋាភិបាល - ជាមួយតំណប្រភពផ្លូវការ។ ធ្វើបច្ចុប្បន្នភាពជាប្រចាំ។",
+  "fr": "Résumé des derniers changements officiels sur les visas étudiants et les établissements des pays que nous proposons - y compris propositions, consultations publiques et projets du gouvernement - avec liens vers les sources officielles. Mis à jour régulièrement.",
+  "pt": "Resumo das mudanças oficiais mais recentes sobre vistos de estudante e instituições nos países que oferecemos - incluindo propostas, consultas públicas e planos do governo - com links para fontes oficiais. Atualizado regularmente.",
+  "es": "Resumen de los cambios oficiales más recientes sobre visas de estudiante y centros en los países que ofrecemos - incluidas propuestas, consultas públicas y planes del gobierno - con enlaces a fuentes oficiales. Actualizado periódicamente.",
+  "de": "Zusammenfassung der neuesten offiziellen Änderungen zu Studentenvisa und Schulen in unseren Ländern - einschließlich Regierungsvorschlägen, öffentlicher Konsultationen und Pläne - mit Links zu offiziellen Quellen. Regelmäßig aktualisiert.",
+  "it": "Riepilogo delle ultime modifiche ufficiali su visti per studenti e istituti nei paesi che offriamo - incluse proposte, consultazioni pubbliche e piani del governo - con link alle fonti ufficiali. Aggiornato regolarmente.",
+  "nl": "Overzicht van de nieuwste officiële wijzigingen rond studentenvisa en scholen in de landen die wij aanbieden - inclusief overheidsvoorstellen, openbare consultaties en plannen - met links naar officiële bronnen. Regelmatig bijgewerkt.",
+  "ru": "Обзор последних официальных изменений по студенческим визам и учебным заведениям в странах, которые мы предлагаем, включая предложения, общественные консультации и планы правительства, со ссылками на официальные источники. Обновляется регулярно."
  },
  "disclaimer": {
-  "id": "Ringkasan informasi umum, bukan nasihat hukum/imigrasi. Aturan bisa berubah - selalu cek link resmi atau tanya konsultan Talented sebelum mengambil keputusan.",
-  "en": "General summary, not legal or migration advice. Rules can change - always check the official link or ask a Talented consultant before deciding."
+  "id": "Ringkasan informasi umum, bukan nasihat hukum/imigrasi. Usulan/konsultasi BELUM berlaku dan bisa berubah. Aturan bisa berubah - selalu cek link resmi atau tanya konsultan Talented sebelum mengambil keputusan.",
+  "en": "General summary, not legal or migration advice. Proposals/consultations are NOT yet in force and may change. Rules can change - always check the official link or ask a Talented consultant before deciding.",
+  "th": "สรุปข้อมูลทั่วไป ไม่ใช่คำแนะนำทางกฎหมาย/การย้ายถิ่น ข้อเสนอ/การรับฟังความคิดเห็นยังไม่มีผลบังคับใช้และอาจเปลี่ยนแปลง กฎอาจเปลี่ยนได้ โปรดตรวจสอบลิงก์ทางการหรือสอบถามที่ปรึกษา Talented ก่อนตัดสินใจ",
+  "vi": "Tóm tắt thông tin chung, không phải tư vấn pháp lý/di trú. Đề xuất/tham vấn CHƯA có hiệu lực và có thể thay đổi. Quy định có thể thay đổi - hãy kiểm tra liên kết chính thức hoặc hỏi tư vấn viên Talented trước khi quyết định.",
+  "zh": "一般信息摘要,不构成法律/移民建议。提案/咨询尚未生效,可能变化。规则可能变化——决定前请查看官方链接或咨询 Talented 顾问。",
+  "ja": "一般的な情報の要約であり、法律・移民に関する助言ではありません。提案・コンサルテーションはまだ施行されておらず、変更される可能性があります。決定前に必ず公式リンクを確認するか Talented のコンサルタントにご相談ください。",
+  "ko": "일반 정보 요약이며 법률/이민 자문이 아닙니다. 제안/의견수렴 단계 사항은 아직 시행되지 않았으며 변경될 수 있습니다. 결정 전 반드시 공식 링크를 확인하거나 Talented 상담사에게 문의하세요.",
+  "km": "សេចក្តីសង្ខេបព័ត៌មានទូទៅ មិនមែនជាដំបូន្មានច្បាប់/អន្តោប្រវេសន៍ទេ។ សំណើ/ការពិគ្រោះយោបល់ មិនទាន់មានសុពលភាព ហើយអាចផ្លាស់ប្តូរ។ សូមពិនិត្យតំណផ្លូវការ ឬសួរទីប្រឹក្សា Talented មុនសម្រេចចិត្ត។",
+  "fr": "Résumé d'information générale, pas un conseil juridique ou migratoire. Les propositions/consultations ne sont PAS encore en vigueur et peuvent changer. Vérifiez toujours le lien officiel ou demandez à un conseiller Talented avant de décider.",
+  "pt": "Resumo de informação geral, não é aconselhamento jurídico/migratório. Propostas/consultas AINDA NÃO estão em vigor e podem mudar. Sempre confira o link oficial ou pergunte a um consultor Talented antes de decidir.",
+  "es": "Resumen de información general, no es asesoría legal ni migratoria. Las propuestas/consultas AÚN NO están vigentes y pueden cambiar. Consulta siempre el enlace oficial o a un asesor de Talented antes de decidir.",
+  "de": "Allgemeine Zusammenfassung, keine Rechts- oder Migrationsberatung. Vorschläge/Konsultationen gelten NOCH NICHT und können sich ändern. Prüfen Sie vor einer Entscheidung immer den offiziellen Link oder fragen Sie eine Talented-Beratung.",
+  "it": "Riepilogo informativo generale, non consulenza legale o migratoria. Proposte/consultazioni NON sono ancora in vigore e possono cambiare. Verifica sempre il link ufficiale o chiedi a un consulente Talented prima di decidere.",
+  "nl": "Algemene samenvatting, geen juridisch of migratieadvies. Voorstellen/consultaties gelden NOG NIET en kunnen veranderen. Controleer altijd de officiële link of vraag een Talented-adviseur voordat je beslist.",
+  "ru": "Общий обзор, не является юридической или миграционной консультацией. Предложения/консультации ЕЩЁ НЕ вступили в силу и могут измениться. Перед решением проверьте официальную ссылку или спросите консультанта Talented."
  },
  "categories": {
   "visa": {
    "id": "Visa",
-   "en": "Visa"
+   "en": "Visa",
+   "th": "วีซ่า",
+   "vi": "Thị thực",
+   "zh": "签证",
+   "ja": "ビザ",
+   "ko": "비자",
+   "km": "ទិដ្ឋាការ",
+   "fr": "Visa",
+   "pt": "Visto",
+   "es": "Visa",
+   "de": "Visum",
+   "it": "Visto",
+   "nl": "Visum",
+   "ru": "Виза"
   },
   "policy": {
    "id": "Kebijakan",
-   "en": "Policy"
+   "en": "Policy",
+   "th": "นโยบาย",
+   "vi": "Chính sách",
+   "zh": "政策",
+   "ja": "政策",
+   "ko": "정책",
+   "km": "គោលនយោបាយ",
+   "fr": "Politique",
+   "pt": "Política",
+   "es": "Política",
+   "de": "Politik",
+   "it": "Politica",
+   "nl": "Beleid",
+   "ru": "Политика"
   },
   "fees": {
    "id": "Biaya",
-   "en": "Fees"
+   "en": "Fees",
+   "th": "ค่าธรรมเนียม",
+   "vi": "Chi phí",
+   "zh": "费用",
+   "ja": "費用",
+   "ko": "비용",
+   "km": "ថ្លៃ",
+   "fr": "Frais",
+   "pt": "Taxas",
+   "es": "Tarifas",
+   "de": "Gebühren",
+   "it": "Costi",
+   "nl": "Kosten",
+   "ru": "Сборы"
   },
   "school": {
    "id": "Status sekolah",
-   "en": "School status"
+   "en": "School status",
+   "th": "สถานะสถานศึกษา",
+   "vi": "Tình trạng trường",
+   "zh": "学校状态",
+   "ja": "学校の状況",
+   "ko": "학교 현황",
+   "km": "ស្ថានភាពសាលា",
+   "fr": "Statut de l'établissement",
+   "pt": "Situação da instituição",
+   "es": "Estado del centro",
+   "de": "Schulstatus",
+   "it": "Stato dell'istituto",
+   "nl": "Status school",
+   "ru": "Статус учебного заведения"
+  },
+  "work": {
+   "id": "Hak kerja",
+   "en": "Work rights",
+   "th": "สิทธิการทำงาน",
+   "vi": "Quyền làm việc",
+   "zh": "工作权利",
+   "ja": "就労権",
+   "ko": "근로 권한",
+   "km": "សិទ្ធិធ្វើការ",
+   "fr": "Droit au travail",
+   "pt": "Direito ao trabalho",
+   "es": "Derecho a trabajar",
+   "de": "Arbeitsrechte",
+   "it": "Diritto al lavoro",
+   "nl": "Werkrechten",
+   "ru": "Право на работу"
   }
  },
  "statuses": {
   "in_force": {
    "id": "Berlaku",
-   "en": "In force"
+   "en": "In force",
+   "th": "มีผลบังคับใช้",
+   "vi": "Đang có hiệu lực",
+   "zh": "已生效",
+   "ja": "施行中",
+   "ko": "시행 중",
+   "km": "មានសុពលភាព",
+   "fr": "En vigueur",
+   "pt": "Em vigor",
+   "es": "Vigente",
+   "de": "In Kraft",
+   "it": "In vigore",
+   "nl": "Van kracht",
+   "ru": "Действует"
   },
   "upcoming": {
    "id": "Akan berlaku",
-   "en": "Upcoming"
+   "en": "Upcoming",
+   "th": "กำลังจะมีผล",
+   "vi": "Sắp có hiệu lực",
+   "zh": "即将生效",
+   "ja": "施行予定",
+   "ko": "시행 예정",
+   "km": "នឹងចូលជាធរមាន",
+   "fr": "À venir",
+   "pt": "Em breve",
+   "es": "Próximamente",
+   "de": "Demnächst",
+   "it": "In arrivo",
+   "nl": "Binnenkort",
+   "ru": "Вступит в силу"
   },
   "announced": {
    "id": "Diumumkan",
-   "en": "Announced"
+   "en": "Announced",
+   "th": "ประกาศแล้ว",
+   "vi": "Đã công bố",
+   "zh": "已公布",
+   "ja": "発表済み",
+   "ko": "발표됨",
+   "km": "បានប្រកាស",
+   "fr": "Annoncé",
+   "pt": "Anunciado",
+   "es": "Anunciado",
+   "de": "Angekündigt",
+   "it": "Annunciato",
+   "nl": "Aangekondigd",
+   "ru": "Объявлено"
   },
   "changed": {
    "id": "Berubah",
-   "en": "Changed"
+   "en": "Changed",
+   "th": "เปลี่ยนแปลง",
+   "vi": "Đã thay đổi",
+   "zh": "已变更",
+   "ja": "変更",
+   "ko": "변경됨",
+   "km": "បានផ្លាស់ប្តូរ",
+   "fr": "Modifié",
+   "pt": "Alterado",
+   "es": "Modificado",
+   "de": "Geändert",
+   "it": "Modificato",
+   "nl": "Gewijzigd",
+   "ru": "Изменено"
+  },
+  "consultation": {
+   "id": "Konsultasi publik",
+   "en": "Public consultation",
+   "th": "รับฟังความคิดเห็น",
+   "vi": "Tham vấn công khai",
+   "zh": "公众咨询",
+   "ja": "パブリックコンサルテーション",
+   "ko": "공개 의견수렴",
+   "km": "ការពិគ្រោះយោបល់សាធារណៈ",
+   "fr": "Consultation publique",
+   "pt": "Consulta pública",
+   "es": "Consulta pública",
+   "de": "Öffentliche Konsultation",
+   "it": "Consultazione pubblica",
+   "nl": "Openbare consultatie",
+   "ru": "Общественная консультация"
+  },
+  "proposed": {
+   "id": "Usulan / rencana",
+   "en": "Proposed / planned",
+   "th": "ข้อเสนอ / แผน",
+   "vi": "Đề xuất / kế hoạch",
+   "zh": "提案/计划中",
+   "ja": "提案・計画段階",
+   "ko": "제안/계획",
+   "km": "សំណើ / ផែនការ",
+   "fr": "Proposé / prévu",
+   "pt": "Proposto / planejado",
+   "es": "Propuesto / previsto",
+   "de": "Vorgeschlagen / geplant",
+   "it": "Proposto / previsto",
+   "nl": "Voorgesteld / gepland",
+   "ru": "Предложено / планируется"
   }
  },
  "countries": {
   "AU": {
    "id": "Australia",
-   "en": "Australia"
+   "en": "Australia",
+   "th": "ออสเตรเลีย",
+   "vi": "Úc",
+   "zh": "澳大利亚",
+   "ja": "オーストラリア",
+   "ko": "호주",
+   "km": "អូស្ត្រាលី",
+   "fr": "Australie",
+   "pt": "Austrália",
+   "es": "Australia",
+   "de": "Australien",
+   "it": "Australia",
+   "nl": "Australië",
+   "ru": "Австралия"
   },
   "NZ": {
    "id": "Selandia Baru",
-   "en": "New Zealand"
+   "en": "New Zealand",
+   "th": "นิวซีแลนด์",
+   "vi": "New Zealand",
+   "zh": "新西兰",
+   "ja": "ニュージーランド",
+   "ko": "뉴질랜드",
+   "km": "នូវែលសេឡង់",
+   "fr": "Nouvelle-Zélande",
+   "pt": "Nova Zelândia",
+   "es": "Nueva Zelanda",
+   "de": "Neuseeland",
+   "it": "Nuova Zelanda",
+   "nl": "Nieuw-Zeeland",
+   "ru": "Новая Зеландия"
   },
   "GB": {
    "id": "Inggris",
-   "en": "United Kingdom"
+   "en": "United Kingdom",
+   "th": "สหราชอาณาจักร",
+   "vi": "Vương quốc Anh",
+   "zh": "英国",
+   "ja": "イギリス",
+   "ko": "영국",
+   "km": "ចក្រភពអង់គ្លេស",
+   "fr": "Royaume-Uni",
+   "pt": "Reino Unido",
+   "es": "Reino Unido",
+   "de": "Vereinigtes Königreich",
+   "it": "Regno Unito",
+   "nl": "Verenigd Koninkrijk",
+   "ru": "Великобритания"
   },
   "CA": {
    "id": "Kanada",
-   "en": "Canada"
+   "en": "Canada",
+   "th": "แคนาดา",
+   "vi": "Canada",
+   "zh": "加拿大",
+   "ja": "カナダ",
+   "ko": "캐나다",
+   "km": "កាណាដា",
+   "fr": "Canada",
+   "pt": "Canadá",
+   "es": "Canadá",
+   "de": "Kanada",
+   "it": "Canada",
+   "nl": "Canada",
+   "ru": "Канада"
   },
   "US": {
    "id": "Amerika Serikat",
-   "en": "United States"
+   "en": "United States",
+   "th": "สหรัฐอเมริกา",
+   "vi": "Hoa Kỳ",
+   "zh": "美国",
+   "ja": "アメリカ",
+   "ko": "미국",
+   "km": "សហរដ្ឋអាមេរិក",
+   "fr": "États-Unis",
+   "pt": "Estados Unidos",
+   "es": "Estados Unidos",
+   "de": "Vereinigte Staaten",
+   "it": "Stati Uniti",
+   "nl": "Verenigde Staten",
+   "ru": "США"
   }
  },
  "watch_sources": [
@@ -113,7 +372,7 @@
    "url": "https://travel.state.gov/content/travel/en/News/visas-news.html"
   }
  ],
- "rules": "Hanya berita dengan link sumber resmi pemerintah/sekolah (official=true) yang boleh menjadi sumber utama; link media hanya pelengkap. Urut tanggal terbaru. Hapus/arsipkan item > 12 bulan kecuali masih relevan. Jangan memuat nama master agent atau info internal.",
+ "rules": "Hanya berita dengan link sumber resmi pemerintah/sekolah (official=true) yang boleh menjadi sumber utama; link media hanya pelengkap. BOLEH memuat usulan, konsultasi publik, rencana pemerintah yang terbukti dari dokumen/halaman resmi (status consultation/proposed) - wajib tampil label status & tanggal tutup (deadline) bila ada; jangan ditulis seolah sudah berlaku. Field: date = tanggal terbit/pengumuman, effective_date = tanggal berlaku (bila ada), deadline = tanggal tutup konsultasi. Urut tanggal terbaru. Arsipkan item > 12 bulan kecuali masih relevan. Semua teks 15 bahasa (id,en,th,vi,zh,ja,ko,km,fr,pt,es,de,it,nl,ru); cadangan en. Jangan memuat nama master agent atau info internal.",
  "items": [
   {
    "id": "us-ds-rule-vacated-2026-11",
@@ -123,11 +382,37 @@
    "status": "changed",
    "title": {
     "id": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1",
-    "en": "US: court vacates DHS rule ending 'Duration of Status' (D/S) for F-1 students"
+    "en": "US: court vacates DHS rule ending 'Duration of Status' (D/S) for F-1 students",
+    "th": "สหรัฐฯ: ศาลเพิกถอนกฎ DHS ที่ยกเลิก 'Duration of Status' (D/S) ของนักเรียน F-1",
+    "vi": "Mỹ: tòa hủy quy định DHS chấm dứt 'Duration of Status' (D/S) cho sinh viên F-1",
+    "zh": "美国:法院撤销 DHS 取消 F-1 学生“Duration of Status”(D/S)的规定",
+    "ja": "アメリカ:F-1学生の「Duration of Status」(D/S)を廃止する DHS 規則を裁判所が無効化",
+    "ko": "미국: 법원, F-1 학생 'Duration of Status'(D/S) 폐지 DHS 규정 무효화",
+    "km": "សហរដ្ឋអាមេរិក៖ តុលាការលុបចោលច្បាប់ DHS ដែលបញ្ចប់ 'Duration of Status' (D/S) សម្រាប់សិស្ស F-1",
+    "fr": "États-Unis : un tribunal annule la règle du DHS supprimant le « Duration of Status » (D/S) des étudiants F-1",
+    "pt": "EUA: tribunal anula regra do DHS que acabava com o 'Duration of Status' (D/S) para estudantes F-1",
+    "es": "EE. UU.: un tribunal anula la norma del DHS que eliminaba el 'Duration of Status' (D/S) para estudiantes F-1",
+    "de": "USA: Gericht kippt DHS-Regel zur Abschaffung von 'Duration of Status' (D/S) für F-1-Studierende",
+    "it": "USA: tribunale annulla la norma DHS che aboliva il 'Duration of Status' (D/S) per studenti F-1",
+    "nl": "VS: rechter vernietigt DHS-regel die 'Duration of Status' (D/S) voor F-1-studenten afschafte",
+    "ru": "США: суд отменил правило DHS об отмене 'Duration of Status' (D/S) для студентов F-1"
    },
    "summary": {
     "id": "Aturan DHS (Juli 2026) yang mengganti D/S dengan masa tinggal tetap (maks. 4 tahun) dibatalkan Pengadilan Distrik Massachusetts pada 16 Nov 2026, sehingga D/S tetap berlaku. Pemerintah AS diperkirakan akan banding - pantau terus.",
-    "en": "The DHS rule (July 2026) replacing D/S with fixed admission periods (max. 4 years) was vacated by the US District Court for Massachusetts on 16 Nov 2026, so D/S remains. An appeal is widely expected - keep watching."
+    "en": "The DHS rule (July 2026) replacing D/S with fixed admission periods (max. 4 years) was vacated by the US District Court for Massachusetts on 16 Nov 2026, so D/S remains. An appeal is widely expected - keep watching.",
+    "th": "กฎ DHS (ก.ค. 2026) ที่แทน D/S ด้วยระยะพำนักคงที่ (สูงสุด 4 ปี) ถูกศาลแขวงแมสซาชูเซตส์เพิกถอนเมื่อ 16 พ.ย. 2026 D/S จึงยังใช้อยู่ คาดว่ารัฐบาลจะอุทธรณ์ โปรดติดตาม",
+    "vi": "Quy định DHS (7/2026) thay D/S bằng thời hạn cố định (tối đa 4 năm) đã bị Tòa án Quận Massachusetts hủy ngày 16/11/2026, nên D/S vẫn giữ nguyên. Dự kiến chính phủ sẽ kháng cáo - hãy theo dõi.",
+    "zh": "DHS 规则(2026年7月)以固定停留期(最长4年)取代 D/S,已于2026年11月16日被马萨诸塞州联邦地区法院撤销,D/S 继续有效。预计政府将上诉,请持续关注。",
+    "ja": "D/S を固定在留期間(最長4年)に置き換える DHS 規則(2026年7月)は、2026年11月16日にマサチューセッツ連邦地裁で無効とされ、D/S は存続。政府の控訴が予想されるため注視が必要。",
+    "ko": "D/S를 고정 체류기간(최대 4년)으로 바꾸는 DHS 규정(2026년 7월)이 2026년 11월 16일 매사추세츠 연방지방법원에서 무효화되어 D/S가 유지됩니다. 정부 항소가 예상되니 계속 확인하세요.",
+    "km": "ច្បាប់ DHS (កក្កដា 2026) ដែលជំនួស D/S ដោយរយៈពេលស្នាក់នៅថេរ (អតិបរមា 4 ឆ្នាំ) ត្រូវបានតុលាការស្រុក Massachusetts លុបចោលនៅ 16 វិច្ឆិកា 2026 ដូច្នេះ D/S នៅតែអនុវត្ត។ រំពឹងថានឹងមានការប្តឹងឧទ្ធរណ៍ - សូមតាមដាន។",
+    "fr": "La règle du DHS (juillet 2026) remplaçant le D/S par des durées fixes (max. 4 ans) a été annulée le 16 nov. 2026 par le tribunal fédéral du Massachusetts ; le D/S reste en place. Un appel est attendu - à suivre.",
+    "pt": "A regra do DHS (jul 2026) que trocava o D/S por prazos fixos (máx. 4 anos) foi anulada em 16 nov 2026 pelo Tribunal Distrital de Massachusetts; o D/S continua. Espera-se recurso - acompanhe.",
+    "es": "La norma del DHS (jul 2026) que sustituía el D/S por plazos fijos (máx. 4 años) fue anulada el 16 nov 2026 por el Tribunal de Distrito de Massachusetts; el D/S se mantiene. Se espera apelación - atentos.",
+    "de": "Die DHS-Regel (Juli 2026), die D/S durch feste Aufenthaltszeiten (max. 4 Jahre) ersetzen sollte, wurde am 16. Nov. 2026 vom Bezirksgericht Massachusetts aufgehoben; D/S bleibt. Berufung wird erwartet - bitte verfolgen.",
+    "it": "La norma DHS (luglio 2026) che sostituiva il D/S con periodi fissi (max 4 anni) è stata annullata il 16 nov 2026 dal tribunale distrettuale del Massachusetts; il D/S resta. Si attende un appello - da seguire.",
+    "nl": "De DHS-regel (juli 2026) die D/S verving door vaste termijnen (max. 4 jaar) is op 16 nov 2026 door de rechtbank in Massachusetts vernietigd; D/S blijft. Hoger beroep wordt verwacht - blijf volgen.",
+    "ru": "Правило DHS (июль 2026), заменявшее D/S фиксированными сроками (макс. 4 года), отменено окружным судом Массачусетса 16 нояб. 2026; D/S сохраняется. Ожидается апелляция — следите за новостями."
    },
    "links": [
     {
@@ -140,6 +425,223 @@
      "url": "https://monitor.icef.com/2026/11/breaking-news-us-court-strikes-down-rule-that-would-have-ended-duration-of-status-d-s-for-international-students/",
      "official": false
     }
+   ],
+   "effective_date": null,
+   "deadline": null
+  },
+  {
+   "id": "nz-stgwv-2026-11-16",
+   "date": "2026-11-16",
+   "effective_date": "2026-11-16",
+   "deadline": null,
+   "country": "NZ",
+   "category": "work",
+   "status": "in_force",
+   "title": {
+    "id": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026",
+    "en": "New Zealand: Short-Term Graduate Work Visa (6 months) opens 16 Nov 2026",
+    "th": "นิวซีแลนด์: วีซ่าทำงานระยะสั้นสำหรับผู้สำเร็จการศึกษา (6 เดือน) เปิด 16 พ.ย. 2026",
+    "vi": "New Zealand: thị thực làm việc ngắn hạn cho sinh viên tốt nghiệp (6 tháng) mở từ 16/11/2026",
+    "zh": "新西兰:短期毕业生工作签证(6个月)2026年11月16日开放",
+    "ja": "ニュージーランド:短期卒業生ワークビザ(6か月)2026年11月16日開始",
+    "ko": "뉴질랜드: 단기 졸업생 취업비자(6개월) 2026년 11월 16일 시행",
+    "km": "នូវែលសេឡង់៖ ទិដ្ឋាការការងារខ្លីសម្រាប់និស្សិតបញ្ចប់ការសិក្សា (6 ខែ) បើក 16 វិច្ឆិកា 2026",
+    "fr": "Nouvelle-Zélande : visa de travail court pour diplômés (6 mois) ouvert le 16 nov. 2026",
+    "pt": "Nova Zelândia: visto de trabalho curto para graduados (6 meses) a partir de 16 nov 2026",
+    "es": "Nueva Zelanda: visa de trabajo corta para graduados (6 meses) desde el 16 nov 2026",
+    "de": "Neuseeland: Kurzzeit-Arbeitsvisum für Absolventen (6 Monate) ab 16. Nov. 2026",
+    "it": "Nuova Zelanda: visto di lavoro breve per laureati (6 mesi) dal 16 nov 2026",
+    "nl": "Nieuw-Zeeland: kortlopend werkvisum voor afgestudeerden (6 maanden) vanaf 16 nov 2026",
+    "ru": "Новая Зеландия: краткосрочная рабочая виза для выпускников (6 мес.) с 16 нояб. 2026"
+   },
+   "summary": {
+    "id": "Untuk lulusan kualifikasi NZQCF Level 5-7 (min. 24 minggu full-time di NZ) yang tidak memenuhi syarat Post-Study Work Visa. Memberi 6 bulan izin kerja terbuka; ajukan maks. 3 bulan setelah visa pelajar berakhir; perlu dana hidup NZD 5.000.",
+    "en": "For graduates of NZQCF Level 5-7 qualifications (min. 24 weeks full-time in NZ) who are not eligible for a Post-Study Work Visa. Gives 6 months of open work rights; apply within 3 months of the student visa expiring; NZD 5,000 living funds needed.",
+    "th": "สำหรับผู้สำเร็จคุณวุฒิ NZQCF ระดับ 5-7 (เรียนเต็มเวลาในนิวซีแลนด์อย่างน้อย 24 สัปดาห์) ที่ไม่มีสิทธิ์ Post-Study Work Visa ได้สิทธิทำงานเปิด 6 เดือน ยื่นภายใน 3 เดือนหลังวีซ่านักเรียนหมดอายุ ต้องมีเงินค่าครองชีพ NZD 5,000",
+    "vi": "Dành cho người tốt nghiệp bằng NZQCF Level 5-7 (học toàn thời gian tại NZ tối thiểu 24 tuần) không đủ điều kiện Post-Study Work Visa. Được làm việc tự do 6 tháng; nộp trong 3 tháng sau khi thị thực du học hết hạn; cần NZD 5.000 sinh hoạt phí.",
+    "zh": "适用于获得 NZQCF 5-7 级资格(在新西兰全日制学习至少24周)但不符合 Post-Study Work Visa 条件的毕业生。可获6个月开放工作权;须在学生签证到期后3个月内申请;需 NZD 5,000 生活费。",
+    "ja": "NZQCF レベル5〜7の資格(NZで24週以上フルタイム就学)を取得し、Post-Study Work Visa の対象外の卒業生向け。6か月のオープンワーク権。学生ビザ失効後3か月以内に申請、生活費 NZD 5,000 が必要。",
+    "ko": "NZQCF 5-7레벨 자격(뉴질랜드에서 최소 24주 풀타임)을 취득했으나 Post-Study Work Visa 대상이 아닌 졸업생 대상. 6개월 자유 취업 가능, 학생비자 만료 후 3개월 이내 신청, 생활비 NZD 5,000 필요.",
+    "km": "សម្រាប់អ្នកបញ្ចប់គុណវុឌ្ឍិ NZQCF កម្រិត 5-7 (រៀនពេញម៉ោងនៅ NZ យ៉ាងតិច 24 សប្តាហ៍) ដែលមិនមានសិទ្ធិ Post-Study Work Visa។ ទទួលបានសិទ្ធិធ្វើការសេរី 6 ខែ; ដាក់ពាក្យក្នុង 3 ខែក្រោយទិដ្ឋាការសិស្សផុតកំណត់; ត្រូវមាន NZD 5,000 សម្រាប់ការរស់នៅ។",
+    "fr": "Pour les diplômés d'une qualification NZQCF niveau 5-7 (au moins 24 semaines à temps plein en NZ) non éligibles au Post-Study Work Visa. 6 mois de droit au travail ouvert ; demande dans les 3 mois suivant l'expiration du visa étudiant ; NZD 5 000 de fonds requis.",
+    "pt": "Para graduados de qualificações NZQCF nível 5-7 (mín. 24 semanas em tempo integral na NZ) sem direito ao Post-Study Work Visa. Dá 6 meses de trabalho livre; peça em até 3 meses após o fim do visto de estudante; exige NZD 5.000 para despesas.",
+    "es": "Para graduados de titulaciones NZQCF nivel 5-7 (mín. 24 semanas a tiempo completo en NZ) sin derecho al Post-Study Work Visa. Da 6 meses de permiso de trabajo abierto; solicitar dentro de 3 meses tras vencer la visa de estudiante; se requieren NZD 5.000.",
+    "de": "Für Absolventen von NZQCF-Level-5-7-Abschlüssen (mind. 24 Wochen Vollzeit in NZ) ohne Anspruch auf ein Post-Study Work Visa. 6 Monate offene Arbeitserlaubnis; Antrag binnen 3 Monaten nach Ablauf des Studentenvisums; NZD 5.000 Lebenshaltungsmittel nötig.",
+    "it": "Per laureati con qualifiche NZQCF livello 5-7 (min. 24 settimane a tempo pieno in NZ) non idonei al Post-Study Work Visa. 6 mesi di lavoro libero; domanda entro 3 mesi dalla scadenza del visto studenti; servono NZD 5.000.",
+    "nl": "Voor afgestudeerden met een NZQCF niveau 5-7-kwalificatie (min. 24 weken voltijd in NZ) die geen recht hebben op een Post-Study Work Visa. 6 maanden open werkrecht; aanvragen binnen 3 maanden na afloop studentenvisum; NZD 5.000 leefgeld nodig.",
+    "ru": "Для выпускников квалификаций NZQCF уровня 5–7 (не менее 24 недель очно в НЗ), не имеющих права на Post-Study Work Visa. Даёт 6 месяцев открытого права на работу; подача в течение 3 мес. после окончания студенческой визы; нужны NZD 5 000."
+   },
+   "links": [
+    {
+     "label": "INZ - Short-Term Graduate Work Visa",
+     "url": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
+     "official": true
+    },
+    {
+     "label": "INZ - News (launch 16 Nov 2026)",
+     "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "nz-pswv-eligibility-2026-11-16",
+   "date": "2026-11-16",
+   "effective_date": "2026-11-16",
+   "deadline": null,
+   "country": "NZ",
+   "category": "work",
+   "status": "in_force",
+   "title": {
+    "id": "Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026",
+    "en": "New Zealand: Post-Study Work Visa eligibility extended from 16 Nov 2026",
+    "th": "นิวซีแลนด์: ขยายสิทธิ์ Post-Study Work Visa ตั้งแต่ 16 พ.ย. 2026",
+    "vi": "New Zealand: mở rộng điều kiện Post-Study Work Visa từ 16/11/2026",
+    "zh": "新西兰:2026年11月16日起放宽 Post-Study Work Visa 资格",
+    "ja": "ニュージーランド:2026年11月16日から Post-Study Work Visa の対象拡大",
+    "ko": "뉴질랜드: 2026년 11월 16일부터 Post-Study Work Visa 자격 확대",
+    "km": "នូវែលសេឡង់៖ ពង្រីកលក្ខខណ្ឌ Post-Study Work Visa ចាប់ពី 16 វិច្ឆិកា 2026",
+    "fr": "Nouvelle-Zélande : éligibilité au Post-Study Work Visa élargie dès le 16 nov. 2026",
+    "pt": "Nova Zelândia: elegibilidade ao Post-Study Work Visa ampliada a partir de 16 nov 2026",
+    "es": "Nueva Zelanda: se amplía la elegibilidad del Post-Study Work Visa desde el 16 nov 2026",
+    "de": "Neuseeland: Post-Study Work Visa ab 16. Nov. 2026 erweitert",
+    "it": "Nuova Zelanda: requisiti del Post-Study Work Visa ampliati dal 16 nov 2026",
+    "nl": "Nieuw-Zeeland: Post-Study Work Visa ruimer vanaf 16 nov 2026",
+    "ru": "Новая Зеландия: расширены условия Post-Study Work Visa с 16 нояб. 2026"
+   },
+   "summary": {
+    "id": "Lulusan Graduate Diploma Level 7 yang sudah punya gelar sarjana (dari NZ atau luar negeri) kini bisa mendapat PSWV hingga 1 tahun (sesuai lama studi). Postgraduate Diploma (L8) hingga 1 tahun, Master (L9) hingga 3 tahun; min. 30 minggu studi full-time di NZ.",
+    "en": "Level 7 Graduate Diploma graduates who already hold a bachelor's degree (NZ or overseas) can now get a PSWV of up to 1 year (matching study length). Postgraduate Diploma (L8) up to 1 year, Master's (L9) up to 3 years; min. 30 weeks full-time study in NZ.",
+    "th": "ผู้จบ Graduate Diploma ระดับ 7 ที่มีปริญญาตรีอยู่แล้ว (จาก NZ หรือต่างประเทศ) สามารถได้ PSWV สูงสุด 1 ปี (ตามระยะเวลาเรียน) Postgraduate Diploma (L8) สูงสุด 1 ปี ปริญญาโท (L9) สูงสุด 3 ปี ต้องเรียนเต็มเวลาใน NZ อย่างน้อย 30 สัปดาห์",
+    "vi": "Người tốt nghiệp Graduate Diploma Level 7 đã có bằng cử nhân (NZ hoặc nước ngoài) nay được PSWV tối đa 1 năm (theo thời gian học). Postgraduate Diploma (L8) tối đa 1 năm, Thạc sĩ (L9) tối đa 3 năm; tối thiểu 30 tuần học toàn thời gian tại NZ.",
+    "zh": "已持有学士学位(新西兰或海外)的7级 Graduate Diploma 毕业生现可获最长1年 PSWV(与学习时长相同)。8级研究生文凭最长1年,9级硕士最长3年;须在新西兰全日制学习至少30周。",
+    "ja": "学士号(NZまたは海外)を既に持つレベル7 Graduate Diploma 修了者は、最長1年(就学期間に応じる)の PSWV が取得可能に。Postgraduate Diploma(L8)最長1年、修士(L9)最長3年。NZ で30週以上のフルタイム就学が必要。",
+    "ko": "학사 학위(뉴질랜드 또는 해외)를 이미 보유한 7레벨 Graduate Diploma 졸업생은 최대 1년(학업 기간과 동일) PSWV 가능. Postgraduate Diploma(L8) 최대 1년, 석사(L9) 최대 3년; 뉴질랜드에서 최소 30주 풀타임 학업 필요.",
+    "km": "អ្នកបញ្ចប់ Graduate Diploma កម្រិត 7 ដែលមានបរិញ្ញាបត្ររួចហើយ (ពី NZ ឬបរទេស) អាចទទួល PSWV រហូតដល់ 1 ឆ្នាំ (តាមរយៈពេលសិក្សា)។ Postgraduate Diploma (L8) រហូតដល់ 1 ឆ្នាំ, អនុបណ្ឌិត (L9) រហូតដល់ 3 ឆ្នាំ; សិក្សាពេញម៉ោងនៅ NZ យ៉ាងតិច 30 សប្តាហ៍។",
+    "fr": "Les diplômés d'un Graduate Diploma niveau 7 déjà titulaires d'une licence (NZ ou étranger) peuvent obtenir un PSWV jusqu'à 1 an (selon la durée d'études). Postgraduate Diploma (N8) jusqu'à 1 an, Master (N9) jusqu'à 3 ans ; min. 30 semaines à temps plein en NZ.",
+    "pt": "Graduados de Graduate Diploma nível 7 que já têm bacharelado (NZ ou exterior) agora podem obter PSWV de até 1 ano (conforme a duração do estudo). Postgraduate Diploma (N8) até 1 ano, Mestrado (N9) até 3 anos; mín. 30 semanas em tempo integral na NZ.",
+    "es": "Graduados de Graduate Diploma nivel 7 que ya tienen una licenciatura (NZ o extranjero) ahora pueden obtener un PSWV de hasta 1 año (según la duración del estudio). Postgraduate Diploma (N8) hasta 1 año, Máster (N9) hasta 3 años; mín. 30 semanas a tiempo completo en NZ.",
+    "de": "Absolventen eines Graduate Diploma (Level 7) mit bereits vorhandenem Bachelor (NZ oder Ausland) erhalten nun ein PSWV bis zu 1 Jahr (je nach Studiendauer). Postgraduate Diploma (L8) bis 1 Jahr, Master (L9) bis 3 Jahre; mind. 30 Wochen Vollzeitstudium in NZ.",
+    "it": "I diplomati Graduate Diploma livello 7 già in possesso di laurea triennale (NZ o estero) possono ottenere un PSWV fino a 1 anno (pari alla durata degli studi). Postgraduate Diploma (L8) fino a 1 anno, Master (L9) fino a 3 anni; min. 30 settimane a tempo pieno in NZ.",
+    "nl": "Afgestudeerden van een Graduate Diploma (niveau 7) die al een bachelor hebben (NZ of buitenland) kunnen nu een PSWV tot 1 jaar krijgen (gelijk aan de studieduur). Postgraduate Diploma (N8) tot 1 jaar, Master (N9) tot 3 jaar; min. 30 weken voltijd studie in NZ.",
+    "ru": "Выпускники Graduate Diploma уровня 7, уже имеющие степень бакалавра (НЗ или зарубежную), теперь могут получить PSWV до 1 года (по сроку обучения). Postgraduate Diploma (L8) — до 1 года, магистратура (L9) — до 3 лет; минимум 30 недель очного обучения в НЗ."
+   },
+   "links": [
+    {
+     "label": "INZ - PSWV eligibility extended (16 Nov 2026)",
+     "url": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
+     "official": true
+    }
+   ]
+  },
+  {
+   "id": "ca-levels-2027-2029",
+   "date": "2026-11-05",
+   "effective_date": "2027-01-01",
+   "deadline": null,
+   "country": "CA",
+   "category": "policy",
+   "status": "announced",
+   "title": {
+    "id": "Kanada: target 150.000 pelajar internasional baru per tahun untuk 2027-2029",
+    "en": "Canada: target of 150,000 new international students per year for 2027-2029",
+    "th": "แคนาดา: เป้าหมายนักศึกษาต่างชาติใหม่ 150,000 คนต่อปี ช่วง 2027-2029",
+    "vi": "Canada: mục tiêu 150.000 du học sinh mới mỗi năm giai đoạn 2027-2029",
+    "zh": "加拿大:2027-2029年每年新国际学生目标为15万人",
+    "ja": "カナダ:2027〜2029年の新規留学生目標は年15万人",
+    "ko": "캐나다: 2027-2029년 신규 유학생 연 15만 명 목표",
+    "km": "កាណាដា៖ គោលដៅនិស្សិតអន្តរជាតិថ្មី 150,000 នាក់ក្នុងមួយឆ្នាំ សម្រាប់ 2027-2029",
+    "fr": "Canada : objectif de 150 000 nouveaux étudiants internationaux par an pour 2027-2029",
+    "pt": "Canadá: meta de 150.000 novos estudantes internacionais por ano em 2027-2029",
+    "es": "Canadá: objetivo de 150.000 nuevos estudiantes internacionales por año en 2027-2029",
+    "de": "Kanada: Ziel von 150.000 neuen internationalen Studierenden pro Jahr 2027-2029",
+    "it": "Canada: obiettivo di 150.000 nuovi studenti internazionali all'anno nel 2027-2029",
+    "nl": "Canada: doel van 150.000 nieuwe internationale studenten per jaar in 2027-2029",
+    "ru": "Канада: цель — 150 000 новых иностранных студентов в год в 2027–2029"
+   },
+   "summary": {
+    "id": "Rencana Tingkat Imigrasi 2027-2029 (dirilis bersama anggaran federal 5 Nov 2026): 150.000 kedatangan pelajar baru per tahun (2026: 155.000), bagian dari 370.000 izin tinggal sementara baru per tahun. Program pascasarjana tetap diprioritaskan.",
+    "en": "The 2027-2029 Immigration Levels Plan (released with the federal budget on 5 Nov 2026): 150,000 new student arrivals per year (2026: 155,000), within 370,000 new temporary resident permits per year. Postgraduate study remains a priority.",
+    "th": "แผนระดับการย้ายถิ่น 2027-2029 (ประกาศพร้อมงบประมาณกลาง 5 พ.ย. 2026): นักศึกษาใหม่ 150,000 คนต่อปี (2026: 155,000) อยู่ในใบอนุญาตพำนักชั่วคราวใหม่ 370,000 ใบต่อปี การศึกษาระดับบัณฑิตศึกษายังเป็นลำดับความสำคัญ",
+    "vi": "Kế hoạch mức nhập cư 2027-2029 (công bố cùng ngân sách liên bang ngày 5/11/2026): 150.000 du học sinh mới mỗi năm (2026: 155.000), trong tổng 370.000 giấy phép cư trú tạm thời mới mỗi năm. Sau đại học vẫn được ưu tiên.",
+    "zh": "2027-2029年移民水平计划(与2026年11月5日联邦预算同时发布):每年15万名新学生入境(2026年为15.5万),包含在每年37万份新临时居民许可之内。研究生学习仍为优先。",
+    "ja": "2027〜2029年移民受入計画(2026年11月5日の連邦予算と同時発表):新規学生の入国は年15万人(2026年は15.5万人)、年37万件の新規一時滞在許可に含まれる。大学院課程は引き続き優先。",
+    "ko": "2027-2029 이민 수준 계획(2026년 11월 5일 연방 예산과 함께 발표): 신규 유학생 연 15만 명(2026년 15만 5천 명), 연 37만 건의 신규 임시체류 허가에 포함. 대학원 과정은 계속 우선.",
+    "km": "ផែនការកម្រិតអន្តោប្រវេសន៍ 2027-2029 (ចេញជាមួយថវិកាសហព័ន្ធ 5 វិច្ឆិកា 2026)៖ និស្សិតថ្មី 150,000 នាក់ក្នុងមួយឆ្នាំ (2026: 155,000) ក្នុងចំណោមលិខិតអនុញ្ញាតស្នាក់នៅបណ្តោះអាសន្នថ្មី 370,000 ក្នុងមួយឆ្នាំ។ ការសិក្សាក្រោយបរិញ្ញាបត្រនៅតែជាអាទិភាព។",
+    "fr": "Plan des niveaux d'immigration 2027-2029 (publié avec le budget fédéral du 5 nov. 2026) : 150 000 nouveaux étudiants par an (2026 : 155 000), dans un total de 370 000 nouveaux permis de résident temporaire par an. Les études supérieures restent prioritaires.",
+    "pt": "Plano de Níveis de Imigração 2027-2029 (divulgado com o orçamento federal em 5 nov 2026): 150.000 novos estudantes por ano (2026: 155.000), dentro de 370.000 novas autorizações temporárias por ano. A pós-graduação continua prioridade.",
+    "es": "Plan de Niveles de Inmigración 2027-2029 (publicado con el presupuesto federal el 5 nov 2026): 150.000 nuevos estudiantes al año (2026: 155.000), dentro de 370.000 nuevos permisos de residencia temporal al año. El posgrado sigue siendo prioridad.",
+    "de": "Einwanderungsplan 2027-2029 (mit dem Bundeshaushalt am 5. Nov. 2026 veröffentlicht): 150.000 neue Studierende pro Jahr (2026: 155.000) innerhalb von 370.000 neuen befristeten Aufenthaltstiteln pro Jahr. Postgraduale Studien bleiben Priorität.",
+    "it": "Piano dei livelli di immigrazione 2027-2029 (pubblicato con il bilancio federale il 5 nov 2026): 150.000 nuovi studenti all'anno (2026: 155.000), entro 370.000 nuovi permessi temporanei all'anno. Gli studi post-laurea restano prioritari.",
+    "nl": "Immigratieniveauplan 2027-2029 (gepubliceerd met de federale begroting op 5 nov 2026): 150.000 nieuwe studenten per jaar (2026: 155.000), binnen 370.000 nieuwe tijdelijke verblijfsvergunningen per jaar. Postgraduaat blijft prioriteit.",
+    "ru": "План уровней иммиграции на 2027–2029 гг. (опубликован вместе с федеральным бюджетом 5 нояб. 2026): 150 000 новых студентов в год (2026: 155 000) в рамках 370 000 новых временных разрешений в год. Магистратура остаётся приоритетом."
+   },
+   "links": [
+    {
+     "label": "IRCC - 2026 Annual Report to Parliament (Levels Plan annex)",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/annual-report-parliament-immigration-2026.html#annex",
+     "official": true
+    },
+    {
+     "label": "ICEF Monitor - summary",
+     "url": "https://monitor.icef.com/2026/11/canada-announces-targets-for-new-international-student-arrivals-through-2029/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "au-gs-financial-consultation-2026-11",
+   "date": "2026-10-30",
+   "effective_date": null,
+   "deadline": "2026-11-23",
+   "country": "AU",
+   "category": "policy",
+   "status": "consultation",
+   "title": {
+    "id": "Australia: konsultasi reformasi Genuine Student & bukti dana visa pelajar (tutup 23 Nov 2026)",
+    "en": "Australia: consultation on Genuine Student & financial capacity reforms (closes 23 Nov 2026)",
+    "th": "ออสเตรเลีย: รับฟังความคิดเห็นการปฏิรูป Genuine Student และหลักฐานทางการเงิน (ปิด 23 พ.ย. 2026)",
+    "vi": "Úc: tham vấn cải cách Genuine Student & chứng minh tài chính (đóng 23/11/2026)",
+    "zh": "澳大利亚:Genuine Student 与资金证明改革公众咨询(2026年11月23日截止)",
+    "ja": "オーストラリア:Genuine Student と資金証明の改革に関するコンサルテーション(2026年11月23日締切)",
+    "ko": "호주: Genuine Student 및 재정능력 요건 개편 의견수렴(2026년 11월 23일 마감)",
+    "km": "អូស្ត្រាលី៖ ការពិគ្រោះយោបល់កំណែទម្រង់ Genuine Student និងភស្តុតាងហិរញ្ញវត្ថុ (បិទ 23 វិច្ឆិកា 2026)",
+    "fr": "Australie : consultation sur la réforme du Genuine Student et de la capacité financière (clôture 23 nov. 2026)",
+    "pt": "Austrália: consulta sobre reformas do Genuine Student e da capacidade financeira (encerra 23 nov 2026)",
+    "es": "Australia: consulta sobre reformas de Genuine Student y capacidad financiera (cierra 23 nov 2026)",
+    "de": "Australien: Konsultation zu Reformen von Genuine Student & Finanznachweis (bis 23. Nov. 2026)",
+    "it": "Australia: consultazione su riforme Genuine Student e capacità finanziaria (chiude 23 nov 2026)",
+    "nl": "Australië: consultatie over hervorming Genuine Student & financiële draagkracht (sluit 23 nov 2026)",
+    "ru": "Австралия: консультация по реформе Genuine Student и финансовых требований (до 23 нояб. 2026)"
+   },
+   "summary": {
+    "id": "Home Affairs meminta masukan untuk: memperbarui Ministerial Direction 106 (penilaian Genuine Student), memperketat syarat bukti dana, dan kemungkinan langkah sementara bukti dana untuk negara Evidence Level 3. Belum ada keputusan - aturan saat ini tetap berlaku.",
+    "en": "Home Affairs is seeking feedback on updating Ministerial Direction 106 (Genuine Student assessment), strengthening financial capacity requirements, and a possible interim measure on financial evidence for Evidence Level 3 countries. No decisions have been made - current rules still apply.",
+    "th": "กระทรวงมหาดไทยออสเตรเลียขอความเห็นเรื่องปรับปรุง Ministerial Direction 106 (การประเมิน Genuine Student) เพิ่มความเข้มงวดหลักฐานทางการเงิน และมาตรการชั่วคราวสำหรับประเทศ Evidence Level 3 ยังไม่มีการตัดสินใจ กฎปัจจุบันยังใช้อยู่",
+    "vi": "Bộ Nội vụ Úc lấy ý kiến về cập nhật Ministerial Direction 106 (đánh giá Genuine Student), siết chặt yêu cầu chứng minh tài chính và biện pháp tạm thời cho các nước Evidence Level 3. Chưa có quyết định - quy định hiện hành vẫn áp dụng.",
+    "zh": "内政部就以下事项征求意见:更新第106号部长指令(Genuine Student 评估)、加强资金证明要求,以及可能针对 Evidence Level 3 国家的临时措施。尚未作出决定——现行规定仍适用。",
+    "ja": "内務省は、Ministerial Direction 106(Genuine Student 審査)の改定、資金証明要件の強化、Evidence Level 3 の国への暫定措置について意見を募集しています。まだ決定はなく、現行ルールが適用されます。",
+    "ko": "내무부가 Ministerial Direction 106(Genuine Student 심사) 개정, 재정능력 요건 강화, Evidence Level 3 국가 대상 임시 조치에 대해 의견을 받고 있습니다. 아직 결정된 바 없으며 현행 규정이 적용됩니다.",
+    "km": "ក្រសួងមហាផ្ទៃអូស្ត្រាលីស្នើសុំមតិលើការកែសម្រួល Ministerial Direction 106 (ការវាយតម្លៃ Genuine Student) ការពង្រឹងលក្ខខណ្ឌភស្តុតាងហិរញ្ញវត្ថុ និងវិធានការបណ្តោះអាសន្នសម្រាប់ប្រទេស Evidence Level 3។ មិនទាន់មានការសម្រេច - ច្បាប់បច្ចុប្បន្ននៅតែអនុវត្ត។",
+    "fr": "Le ministère de l'Intérieur sollicite des avis sur la mise à jour de la Ministerial Direction 106 (évaluation Genuine Student), le renforcement des exigences financières et une mesure provisoire pour les pays Evidence Level 3. Aucune décision - les règles actuelles s'appliquent.",
+    "pt": "O Home Affairs pede contribuições sobre a atualização da Ministerial Direction 106 (avaliação Genuine Student), o reforço da capacidade financeira e uma possível medida provisória para países Evidence Level 3. Nada decidido - as regras atuais continuam valendo.",
+    "es": "Home Affairs pide opiniones sobre actualizar la Ministerial Direction 106 (evaluación Genuine Student), reforzar la capacidad financiera y una posible medida provisional para países Evidence Level 3. No hay decisiones - siguen las reglas actuales.",
+    "de": "Home Affairs bittet um Stellungnahmen zur Aktualisierung der Ministerial Direction 106 (Genuine-Student-Prüfung), zu strengeren Finanznachweisen und einer möglichen Übergangsregel für Evidence-Level-3-Länder. Noch keine Entscheidung - es gelten die aktuellen Regeln.",
+    "it": "Home Affairs raccoglie pareri su aggiornamento della Ministerial Direction 106 (valutazione Genuine Student), requisiti finanziari più severi e una possibile misura provvisoria per i paesi Evidence Level 3. Nessuna decisione - valgono le regole attuali.",
+    "nl": "Home Affairs vraagt input over het bijwerken van Ministerial Direction 106 (Genuine Student-toets), strengere financiële eisen en een mogelijke tijdelijke maatregel voor Evidence Level 3-landen. Nog geen besluit - huidige regels gelden.",
+    "ru": "МВД Австралии собирает мнения об обновлении Ministerial Direction 106 (оценка Genuine Student), ужесточении финансовых требований и возможной временной мере для стран Evidence Level 3. Решений нет — действуют текущие правила."
+   },
+   "links": [
+    {
+     "label": "Home Affairs - Consultation (GS & financial capacity)",
+     "url": "https://www.homeaffairs.gov.au/help-and-support/how-to-engage-us/consultations/consultation-on-proposed-reforms-to-the-genuine-student-requirement-and-financial-capacity-framework",
+     "official": true
+    },
+    {
+     "label": "ICEF Monitor - background",
+     "url": "https://monitor.icef.com/2026/11/amidst-high-visa-refusal-rates-and-falling-commencements-australian-government-opens-consultation-on-reforms-to-genuine-student-test-and-financial-requirements/",
+     "official": false
+    }
    ]
   },
   {
@@ -150,11 +652,37 @@
    "status": "in_force",
    "title": {
     "id": "Selandia Baru: 4 perubahan aturan visa pelajar mulai 27 Okt 2026",
-    "en": "New Zealand: 4 student visa rule changes from 27 Oct 2026"
+    "en": "New Zealand: 4 student visa rule changes from 27 Oct 2026",
+    "th": "นิวซีแลนด์: กฎวีซ่านักเรียนเปลี่ยน 4 ข้อ ตั้งแต่ 27 ต.ค. 2026",
+    "vi": "New Zealand: 4 thay đổi quy định thị thực du học từ 27/10/2026",
+    "zh": "新西兰:2026年10月27日起学生签证4项规则变化",
+    "ja": "ニュージーランド:2026年10月27日から学生ビザの4つの変更",
+    "ko": "뉴질랜드: 2026년 10월 27일부터 학생비자 규정 4가지 변경",
+    "km": "នូវែលសេឡង់៖ ការផ្លាស់ប្តូរច្បាប់ទិដ្ឋាការសិស្ស 4 ចំណុច ចាប់ពី 27 តុលា 2026",
+    "fr": "Nouvelle-Zélande : 4 changements des règles du visa étudiant dès le 27 oct. 2026",
+    "pt": "Nova Zelândia: 4 mudanças nas regras do visto de estudante a partir de 27 out 2026",
+    "es": "Nueva Zelanda: 4 cambios en las reglas de la visa de estudiante desde el 27 oct 2026",
+    "de": "Neuseeland: 4 Änderungen beim Studentenvisum ab 27. Okt. 2026",
+    "it": "Nuova Zelanda: 4 modifiche alle regole del visto per studenti dal 27 ott 2026",
+    "nl": "Nieuw-Zeeland: 4 wijzigingen in studentenvisumregels vanaf 27 okt 2026",
+    "ru": "Новая Зеландия: 4 изменения правил студенческой визы с 27 окт. 2026"
    },
    "summary": {
     "id": "(1) Master by Research kini maks. 25 jam/minggu saat kuliah, penuh waktu saat libur; doktoral tetap tanpa batas. (2) Kemampuan bahasa Inggris dapat dinilai (mis. IELTS 5.0 / PTE 36 / TOEFL iBT 35), hasil tes maks. 2 tahun. (3) INZ dapat menangguhkan visa untuk provider/program tertentu hingga 6 bulan. (4) Visa kursus < 1 tahun bisa berlaku 2 bulan setelah kursus selesai.",
-    "en": "(1) Masters by Research now max. 25 hrs/week in term, full-time in holidays; doctoral remains unlimited. (2) English ability may be assessed (e.g. IELTS 5.0 / PTE 36 / TOEFL iBT 35), tests max. 2 years old. (3) INZ may suspend processing for specific providers/programmes for up to 6 months. (4) Visas for courses under 1 year may run 2 months past the course end."
+    "en": "(1) Masters by Research now max. 25 hrs/week in term, full-time in holidays; doctoral remains unlimited. (2) English ability may be assessed (e.g. IELTS 5.0 / PTE 36 / TOEFL iBT 35), tests max. 2 years old. (3) INZ may suspend processing for specific providers/programmes for up to 6 months. (4) Visas for courses under 1 year may run 2 months past the course end.",
+    "th": "(1) Masters by Research ทำงานได้สูงสุด 25 ชม./สัปดาห์ช่วงเรียน เต็มเวลาช่วงปิดเทอม (2) อาจประเมินภาษาอังกฤษ (เช่น IELTS 5.0 / PTE 36) ผลสอบอายุไม่เกิน 2 ปี (3) INZ อาจระงับการพิจารณาของสถาบัน/หลักสูตรบางแห่งได้ถึง 6 เดือน (4) วีซ่าสำหรับหลักสูตรต่ำกว่า 1 ปีอาจยาวกว่าวันจบ 2 เดือน",
+    "vi": "(1) Thạc sĩ nghiên cứu làm tối đa 25 giờ/tuần trong kỳ, toàn thời gian khi nghỉ. (2) Có thể đánh giá tiếng Anh (vd IELTS 5.0 / PTE 36), kết quả tối đa 2 năm. (3) INZ có thể tạm dừng xét hồ sơ của một số trường/khóa tới 6 tháng. (4) Thị thực cho khóa dưới 1 năm có thể kéo dài 2 tháng sau khi kết thúc.",
+    "zh": "(1) 研究型硕士学期内每周最多工作25小时,假期可全职。(2) 可能评估英语能力(如 IELTS 5.0 / PTE 36),成绩须在2年内。(3) INZ 可暂停特定院校/课程的审理最长6个月。(4) 不足1年的课程签证可延至课程结束后2个月。",
+    "ja": "(1) 研究修士は学期中週25時間まで、休暇中はフルタイム就労可。(2) 英語力が審査される場合あり(例:IELTS 5.0 / PTE 36、2年以内)。(3) INZ は特定の教育機関・課程の審査を最長6か月停止可能。(4) 1年未満の課程のビザは終了後2か月まで。",
+    "ko": "(1) 연구 석사 학기 중 주 25시간, 방학 중 풀타임 근무 가능. (2) 영어 능력 평가 가능(예: IELTS 5.0 / PTE 36, 2년 이내 성적). (3) INZ는 특정 기관/과정 심사를 최대 6개월 중단 가능. (4) 1년 미만 과정 비자는 종료 후 2개월까지.",
+    "km": "(1) Masters by Research ធ្វើការបានអតិបរមា 25 ម៉ោង/សប្តាហ៍ក្នុងវគ្គសិក្សា ពេញម៉ោងពេលឈប់សម្រាក។ (2) អាចវាយតម្លៃភាសាអង់គ្លេស (ឧ. IELTS 5.0 / PTE 36) លទ្ធផលមិនលើស 2 ឆ្នាំ។ (3) INZ អាចផ្អាកការពិនិត្យសម្រាប់ស្ថាប័ន/កម្មវិធីខ្លះរហូតដល់ 6 ខែ។ (4) ទិដ្ឋាការសម្រាប់វគ្គក្រោម 1 ឆ្នាំអាចលើសថ្ងៃបញ្ចប់ 2 ខែ។",
+    "fr": "(1) Masters by Research : max. 25 h/semaine en période de cours, temps plein en vacances. (2) L'anglais peut être évalué (ex. IELTS 5.0 / PTE 36), tests de moins de 2 ans. (3) INZ peut suspendre le traitement pour certains établissements/programmes jusqu'à 6 mois. (4) Les visas pour cours de moins d'1 an peuvent dépasser la fin du cours de 2 mois.",
+    "pt": "(1) Mestrado por pesquisa: máx. 25 h/semana no período letivo, integral nas férias. (2) Inglês pode ser avaliado (ex. IELTS 5.0 / PTE 36), testes de até 2 anos. (3) A INZ pode suspender o processamento de certas instituições/cursos por até 6 meses. (4) Vistos para cursos de menos de 1 ano podem ir até 2 meses após o fim.",
+    "es": "(1) Máster por investigación: máx. 25 h/semana en clases, tiempo completo en vacaciones. (2) Se puede evaluar el inglés (p. ej. IELTS 5.0 / PTE 36), pruebas de máx. 2 años. (3) INZ puede suspender la tramitación de ciertos centros/programas hasta 6 meses. (4) Las visas para cursos de menos de 1 año pueden durar 2 meses tras el fin.",
+    "de": "(1) Masters by Research: max. 25 Std./Woche im Semester, Vollzeit in den Ferien. (2) Englisch kann geprüft werden (z. B. IELTS 5.0 / PTE 36), Tests max. 2 Jahre alt. (3) INZ kann die Bearbeitung für bestimmte Anbieter/Programme bis zu 6 Monate aussetzen. (4) Visa für Kurse unter 1 Jahr können 2 Monate über das Kursende hinaus laufen.",
+    "it": "(1) Master di ricerca: max 25 ore/settimana durante i corsi, tempo pieno nelle pause. (2) L'inglese può essere valutato (es. IELTS 5.0 / PTE 36), test di max 2 anni. (3) INZ può sospendere le pratiche di certi istituti/programmi fino a 6 mesi. (4) I visti per corsi sotto 1 anno possono durare 2 mesi oltre la fine.",
+    "nl": "(1) Research master: max. 25 uur/week tijdens de studie, voltijd in vakanties. (2) Engels kan worden getoetst (bv. IELTS 5.0 / PTE 36), tests max. 2 jaar oud. (3) INZ kan de behandeling voor bepaalde instellingen/opleidingen tot 6 maanden opschorten. (4) Visa voor cursussen korter dan 1 jaar kunnen 2 maanden na het einde doorlopen.",
+    "ru": "(1) Исследовательская магистратура: до 25 ч/нед. в семестр, полный день в каникулы. (2) Может оцениваться английский (напр. IELTS 5.0 / PTE 36), тесты не старше 2 лет. (3) INZ может приостановить рассмотрение для отдельных учебных заведений/программ до 6 мес. (4) Визы на курсы короче 1 года могут длиться ещё 2 мес. после окончания."
    },
    "links": [
     {
@@ -162,7 +690,9 @@
      "url": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-32.pdf",
      "official": true
     }
-   ]
+   ],
+   "effective_date": null,
+   "deadline": null
   },
   {
    "id": "au-family-members-2026-10",
@@ -172,17 +702,105 @@
    "status": "in_force",
    "title": {
     "id": "Australia: anggota keluarga di visa pelajar sejak 2 Okt 2026",
-    "en": "Australia: family members on student visas from 2 Oct 2026"
+    "en": "Australia: family members on student visas from 2 Oct 2026",
+    "th": "ออสเตรเลีย: สมาชิกครอบครัวในวีซ่านักเรียน ตั้งแต่ 2 ต.ค. 2026",
+    "vi": "Úc: thành viên gia đình theo thị thực du học từ 2/10/2026",
+    "zh": "澳大利亚:2026年10月2日起学生签证随行家属规定",
+    "ja": "オーストラリア:2026年10月2日からの学生ビザ帯同家族",
+    "ko": "호주: 2026년 10월 2일부터 학생비자 동반가족 규정",
+    "km": "អូស្ត្រាលី៖ សមាជិកគ្រួសារលើទិដ្ឋាការសិស្ស ចាប់ពី 2 តុលា 2026",
+    "fr": "Australie : membres de la famille sur visa étudiant dès le 2 oct. 2026",
+    "pt": "Austrália: familiares no visto de estudante a partir de 2 out 2026",
+    "es": "Australia: familiares en la visa de estudiante desde el 2 oct 2026",
+    "de": "Australien: Familienangehörige beim Studentenvisum ab 2. Okt. 2026",
+    "it": "Australia: familiari nel visto per studenti dal 2 ott 2026",
+    "nl": "Australië: gezinsleden bij het studentenvisum vanaf 2 okt 2026",
+    "ru": "Австралия: члены семьи по студенческой визе с 2 окт. 2026"
    },
    "summary": {
     "id": "Keluarga hanya bisa diikutkan oleh pemohon yang dikecualikan, termasuk pelajar dari negara ASEAN seperti Indonesia. Keluarga tidak bisa ditambahkan setelah visa terbit, dan semua harus berada di lokasi yang sama saat aplikasi.",
-    "en": "Family can only be included by exempt applicants, including students from ASEAN countries such as Indonesia. Family cannot be added after the visa is granted, and all must be in the same location when applying."
+    "en": "Family can only be included by exempt applicants, including students from ASEAN countries such as Indonesia. Family cannot be added after the visa is granted, and all must be in the same location when applying.",
+    "th": "รวมครอบครัวได้เฉพาะผู้สมัครที่ได้รับยกเว้น รวมถึงนักเรียนจากอาเซียน เช่น อินโดนีเซีย ไม่สามารถเพิ่มครอบครัวหลังได้รับวีซ่า และทุกคนต้องอยู่ที่เดียวกันขณะยื่น",
+    "vi": "Chỉ người nộp đơn được miễn mới được kèm gia đình, gồm cả sinh viên từ các nước ASEAN như Indonesia. Không thể thêm gia đình sau khi cấp thị thực, và tất cả phải ở cùng nơi khi nộp.",
+    "zh": "只有豁免类申请人(包括印尼等东盟国家学生)可附带家属。获签后不能再添加家属,且递交时所有人须在同一地点。",
+    "ja": "家族を含められるのは免除対象の申請者のみ(インドネシアなど ASEAN 出身の学生を含む)。ビザ発給後の家族追加は不可で、申請時は全員同じ場所にいる必要あり。",
+    "ko": "면제 대상 신청자(인도네시아 등 아세안 국가 학생 포함)만 가족 동반 가능. 비자 발급 후 가족 추가 불가, 신청 시 모두 같은 장소에 있어야 함.",
+    "km": "មានតែអ្នកដាក់ពាក្យដែលត្រូវបានលើកលែង រួមទាំងសិស្សមកពីអាស៊ាន ដូចជាឥណ្ឌូណេស៊ី អាចរួមបញ្ចូលគ្រួសារ។ មិនអាចបន្ថែមគ្រួសារក្រោយទទួលទិដ្ឋាការ ហើយទាំងអស់ត្រូវនៅទីតាំងតែមួយពេលដាក់ពាក្យ។",
+    "fr": "Seuls les demandeurs exemptés, dont les étudiants de pays de l'ASEAN comme l'Indonésie, peuvent inclure leur famille. Impossible d'ajouter la famille après l'octroi du visa ; tous doivent être au même endroit lors de la demande.",
+    "pt": "Só requerentes isentos, incluindo estudantes de países da ASEAN como a Indonésia, podem incluir a família. Não é possível adicionar família após a concessão, e todos devem estar no mesmo local ao pedir.",
+    "es": "Solo los solicitantes exentos, incluidos estudiantes de países de la ASEAN como Indonesia, pueden incluir a su familia. No se puede añadir familia tras conceder la visa y todos deben estar en el mismo lugar al solicitar.",
+    "de": "Nur befreite Antragsteller, darunter Studierende aus ASEAN-Ländern wie Indonesien, dürfen Familie einschließen. Nach Visaerteilung keine Ergänzung möglich; alle müssen bei Antragstellung am selben Ort sein.",
+    "it": "Solo i richiedenti esenti, inclusi studenti di paesi ASEAN come l'Indonesia, possono includere la famiglia. Non si può aggiungere la famiglia dopo il rilascio e tutti devono trovarsi nello stesso luogo alla domanda.",
+    "nl": "Alleen vrijgestelde aanvragers, waaronder studenten uit ASEAN-landen zoals Indonesië, kunnen gezin meenemen. Na toekenning kan geen gezin worden toegevoegd; iedereen moet bij aanvraag op dezelfde plek zijn.",
+    "ru": "Включать семью могут только освобождённые заявители, в том числе студенты из стран АСЕАН, например Индонезии. Добавить семью после выдачи визы нельзя; при подаче все должны находиться в одном месте."
    },
    "links": [
     {
      "label": "Home Affairs - Family members",
      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
      "official": true
+    }
+   ],
+   "effective_date": null,
+   "deadline": null
+  },
+  {
+   "id": "uk-maintenance-2026-11-30",
+   "date": "2026-09-03",
+   "effective_date": "2026-11-30",
+   "deadline": null,
+   "country": "GB",
+   "category": "fees",
+   "status": "upcoming",
+   "title": {
+    "id": "Inggris: dana hidup minimum visa Student naik mulai 30 Nov 2026",
+    "en": "UK: Student visa maintenance funds rise from 30 Nov 2026",
+    "th": "สหราชอาณาจักร: เงินค่าครองชีพขั้นต่ำวีซ่า Student เพิ่มขึ้นตั้งแต่ 30 พ.ย. 2026",
+    "vi": "Anh: mức tiền sinh hoạt tối thiểu cho thị thực Student tăng từ 30/11/2026",
+    "zh": "英国:学生签证生活费要求自2026年11月30日起上调",
+    "ja": "イギリス:Student ビザの生活費要件が2026年11月30日から引き上げ",
+    "ko": "영국: 2026년 11월 30일부터 Student 비자 생활비 요건 인상",
+    "km": "ចក្រភពអង់គ្លេស៖ ប្រាក់រស់នៅអប្បបរមាសម្រាប់ទិដ្ឋាការ Student កើនឡើងចាប់ពី 30 វិច្ឆិកា 2026",
+    "fr": "Royaume-Uni : hausse des fonds de subsistance pour le visa Student dès le 30 nov. 2026",
+    "pt": "Reino Unido: valor de manutenção do visto Student sobe a partir de 30 nov 2026",
+    "es": "Reino Unido: sube el requisito de manutención del visado Student desde el 30 nov 2026",
+    "de": "Großbritannien: höhere Unterhaltsmittel für das Student-Visum ab 30. Nov. 2026",
+    "it": "Regno Unito: aumentano i fondi di mantenimento per il visto Student dal 30 nov 2026",
+    "nl": "VK: hogere bestaansmiddelen voor het Student-visum vanaf 30 nov 2026",
+    "ru": "Великобритания: с 30 нояб. 2026 растёт требование к средствам для визы Student"
+   },
+   "summary": {
+    "id": "Untuk aplikasi mulai 30 Nov 2026: London GBP 1.570/bulan (maks. 9 bulan = GBP 14.130), luar London GBP 1.203/bulan (maks. GBP 10.827). Aplikasi sebelum tanggal itu memakai angka lama (GBP 1.529 / 1.171). Dana disimpan minimal 28 hari berturut-turut.",
+    "en": "For applications from 30 Nov 2026: London GBP 1,570/month (max. 9 months = GBP 14,130), outside London GBP 1,203/month (max. GBP 10,827). Applications before that date use the old amounts (GBP 1,529 / 1,171). Funds must be held for 28 consecutive days.",
+    "th": "สำหรับคำขอตั้งแต่ 30 พ.ย. 2026: ลอนดอน GBP 1,570/เดือน (สูงสุด 9 เดือน = GBP 14,130) นอกลอนดอน GBP 1,203/เดือน (สูงสุด GBP 10,827) คำขอก่อนวันนั้นใช้อัตราเดิม (GBP 1,529 / 1,171) ต้องมีเงินในบัญชีติดต่อกัน 28 วัน",
+    "vi": "Hồ sơ nộp từ 30/11/2026: London GBP 1.570/tháng (tối đa 9 tháng = GBP 14.130), ngoài London GBP 1.203/tháng (tối đa GBP 10.827). Hồ sơ nộp trước ngày này dùng mức cũ (GBP 1.529 / 1.171). Tiền phải duy trì 28 ngày liên tục.",
+    "zh": "自2026年11月30日起递交的申请:伦敦每月 GBP 1,570(最多9个月 = GBP 14,130),伦敦以外每月 GBP 1,203(最多 GBP 10,827)。此前递交的申请沿用旧标准(GBP 1,529 / 1,171)。资金须连续持有28天。",
+    "ja": "2026年11月30日以降の申請:ロンドン月 GBP 1,570(最大9か月 = GBP 14,130)、ロンドン以外月 GBP 1,203(最大 GBP 10,827)。それ以前の申請は旧金額(GBP 1,529 / 1,171)。資金は連続28日間保持が必要。",
+    "ko": "2026년 11월 30일 이후 신청: 런던 월 GBP 1,570(최대 9개월 = GBP 14,130), 런던 외 지역 월 GBP 1,203(최대 GBP 10,827). 그 이전 신청은 기존 금액(GBP 1,529 / 1,171) 적용. 자금은 연속 28일 보유해야 함.",
+    "km": "សម្រាប់ពាក្យចាប់ពី 30 វិច្ឆិកា 2026៖ ទីក្រុងឡុងដ៍ GBP 1,570/ខែ (អតិបរមា 9 ខែ = GBP 14,130), ក្រៅឡុងដ៍ GBP 1,203/ខែ (អតិបរមា GBP 10,827)។ ពាក្យមុនថ្ងៃនោះប្រើចំនួនចាស់ (GBP 1,529 / 1,171)។ ត្រូវរក្សាប្រាក់ 28 ថ្ងៃជាប់គ្នា។",
+    "fr": "Pour les demandes à partir du 30 nov. 2026 : Londres GBP 1 570/mois (max. 9 mois = GBP 14 130), hors Londres GBP 1 203/mois (max. GBP 10 827). Les demandes antérieures gardent les anciens montants (GBP 1 529 / 1 171). Fonds détenus 28 jours consécutifs.",
+    "pt": "Para pedidos a partir de 30 nov 2026: Londres GBP 1.570/mês (máx. 9 meses = GBP 14.130), fora de Londres GBP 1.203/mês (máx. GBP 10.827). Pedidos anteriores usam os valores antigos (GBP 1.529 / 1.171). Fundos mantidos por 28 dias seguidos.",
+    "es": "Para solicitudes desde el 30 nov 2026: Londres GBP 1.570/mes (máx. 9 meses = GBP 14.130), fuera de Londres GBP 1.203/mes (máx. GBP 10.827). Las solicitudes anteriores usan los importes antiguos (GBP 1.529 / 1.171). Fondos mantenidos 28 días seguidos.",
+    "de": "Für Anträge ab 30. Nov. 2026: London GBP 1.570/Monat (max. 9 Monate = GBP 14.130), außerhalb Londons GBP 1.203/Monat (max. GBP 10.827). Frühere Anträge: alte Beträge (GBP 1.529 / 1.171). Mittel 28 Tage am Stück nachweisen.",
+    "it": "Per domande dal 30 nov 2026: Londra GBP 1.570/mese (max 9 mesi = GBP 14.130), fuori Londra GBP 1.203/mese (max GBP 10.827). Le domande precedenti usano gli importi vecchi (GBP 1.529 / 1.171). Fondi detenuti per 28 giorni consecutivi.",
+    "nl": "Voor aanvragen vanaf 30 nov 2026: Londen GBP 1.570/maand (max. 9 maanden = GBP 14.130), buiten Londen GBP 1.203/maand (max. GBP 10.827). Eerdere aanvragen: oude bedragen (GBP 1.529 / 1.171). Geld 28 dagen aaneengesloten aanhouden.",
+    "ru": "Для заявлений с 30 нояб. 2026: Лондон GBP 1 570/мес. (макс. 9 мес. = GBP 14 130), вне Лондона GBP 1 203/мес. (макс. GBP 10 827). Ранее поданные заявления — по старым суммам (GBP 1 529 / 1 171). Средства держать 28 дней подряд."
+   },
+   "links": [
+    {
+     "label": "GOV.UK - Statement of changes HC 584 (3 Sep 2026)",
+     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026",
+     "official": true
+    },
+    {
+     "label": "GOV.UK - Student visa: money",
+     "url": "https://www.gov.uk/student-visa/money",
+     "official": true
+    },
+    {
+     "label": "UKCISA - summary",
+     "url": "https://www.ukcisa.org.uk/news/student-update-changes-to-the-immigration-rules-september-2026/",
+     "official": false
     }
    ]
   },
@@ -194,11 +812,37 @@
    "status": "announced",
    "title": {
     "id": "Australia: National Planning Level 2027 = 295.000 siswa baru",
-    "en": "Australia: 2027 National Planning Level = 295,000 new students"
+    "en": "Australia: 2027 National Planning Level = 295,000 new students",
+    "th": "ออสเตรเลีย: National Planning Level 2027 = นักศึกษาใหม่ 295,000 คน",
+    "vi": "Úc: National Planning Level 2027 = 295.000 sinh viên mới",
+    "zh": "澳大利亚:2027年国家规划水平 = 29.5万名新生",
+    "ja": "オーストラリア:2027年 National Planning Level = 新規学生29.5万人",
+    "ko": "호주: 2027 National Planning Level = 신규 학생 29만 5천 명",
+    "km": "អូស្ត្រាលី៖ National Planning Level 2027 = និស្សិតថ្មី 295,000 នាក់",
+    "fr": "Australie : National Planning Level 2027 = 295 000 nouveaux étudiants",
+    "pt": "Austrália: National Planning Level 2027 = 295.000 novos estudantes",
+    "es": "Australia: National Planning Level 2027 = 295.000 nuevos estudiantes",
+    "de": "Australien: National Planning Level 2027 = 295.000 neue Studierende",
+    "it": "Australia: National Planning Level 2027 = 295.000 nuovi studenti",
+    "nl": "Australië: National Planning Level 2027 = 295.000 nieuwe studenten",
+    "ru": "Австралия: National Planning Level 2027 = 295 000 новых студентов"
    },
    "summary": {
     "id": "Sama dengan 2026; tidak ada provider yang mendapat alokasi lebih kecil dari 2026. Visa diproses prioritas sampai provider mencapai 80% alokasinya, setelah itu tetap diterima tetapi lebih lambat. Bukan batas mutlak.",
-    "en": "Same as 2026; no provider gets a smaller allocation than in 2026. Visas are priority-processed until a provider reaches 80% of its allocation, then still accepted but slower. Not a hard cap."
+    "en": "Same as 2026; no provider gets a smaller allocation than in 2026. Visas are priority-processed until a provider reaches 80% of its allocation, then still accepted but slower. Not a hard cap.",
+    "th": "เท่ากับปี 2026 ไม่มีสถาบันใดได้โควตาน้อยกว่าปี 2026 วีซ่าได้รับการพิจารณาเร่งด่วนจนสถาบันถึง 80% ของโควตา หลังจากนั้นยังรับแต่ช้าลง ไม่ใช่เพดานตายตัว",
+    "vi": "Giữ như 2026; không trường nào nhận chỉ tiêu thấp hơn 2026. Hồ sơ được ưu tiên đến khi trường đạt 80% chỉ tiêu, sau đó vẫn nhận nhưng chậm hơn. Không phải trần cứng.",
+    "zh": "与2026年相同;没有院校的分配少于2026年。在院校达到分配额80%之前签证优先处理,之后仍受理但较慢。并非硬性上限。",
+    "ja": "2026年と同じ。2026年より割当が減る教育機関はなし。教育機関が割当の80%に達するまで優先処理、その後も受理されるが遅くなる。厳格な上限ではない。",
+    "ko": "2026년과 동일; 2026년보다 배정이 줄어드는 기관은 없음. 기관이 배정의 80%에 도달할 때까지 우선 처리, 이후에도 접수되나 느려짐. 고정 상한 아님.",
+    "km": "ដូចឆ្នាំ 2026; គ្មានស្ថាប័នណាទទួលការបែងចែកតិចជាង 2026។ ទិដ្ឋាការត្រូវបានដំណើរការអាទិភាពរហូតស្ថាប័នដល់ 80% នៃការបែងចែក បន្ទាប់មកនៅតែទទួល តែយឺតជាង។ មិនមែនជាពិដានតឹងរ៉ឹងទេ។",
+    "fr": "Identique à 2026 ; aucun établissement n'aura une allocation inférieure à 2026. Traitement prioritaire jusqu'à 80 % de l'allocation, puis toujours accepté mais plus lent. Pas un plafond strict.",
+    "pt": "Igual a 2026; nenhuma instituição terá alocação menor que em 2026. Vistos com prioridade até a instituição atingir 80% da alocação; depois ainda aceitos, porém mais lentos. Não é teto rígido.",
+    "es": "Igual que 2026; ningún centro tendrá menos asignación que en 2026. Visas con prioridad hasta que el centro llega al 80% de su asignación; después se aceptan pero más lento. No es un tope estricto.",
+    "de": "Wie 2026; kein Anbieter erhält weniger als 2026. Bevorzugte Bearbeitung bis ein Anbieter 80 % seiner Zuteilung erreicht, danach weiter möglich, aber langsamer. Keine harte Obergrenze.",
+    "it": "Come nel 2026; nessun istituto avrà un'assegnazione inferiore al 2026. Priorità finché l'istituto raggiunge l'80% della quota, poi accettati ma più lenti. Non è un tetto rigido.",
+    "nl": "Gelijk aan 2026; geen instelling krijgt minder dan in 2026. Voorrang tot een instelling 80% van haar toewijzing bereikt, daarna nog steeds mogelijk maar trager. Geen hard plafond.",
+    "ru": "Как в 2026; ни одно учебное заведение не получит меньше, чем в 2026. Приоритетная обработка до достижения 80% квоты, затем визы принимаются, но медленнее. Это не жёсткий лимит."
    },
    "links": [
     {
@@ -211,7 +855,9 @@
      "url": "https://www.education.gov.au/node/20481",
      "official": true
     }
-   ]
+   ],
+   "effective_date": null,
+   "deadline": null
   },
   {
    "id": "au-visa-fee-asean-2026-07",
@@ -221,11 +867,37 @@
    "status": "in_force",
    "title": {
     "id": "Australia: biaya visa pelajar (subclass 500) untuk paspor Indonesia/ASEAN",
-    "en": "Australia: student visa (subclass 500) charge for Indonesian/ASEAN passports"
+    "en": "Australia: student visa (subclass 500) charge for Indonesian/ASEAN passports",
+    "th": "ออสเตรเลีย: ค่าวีซ่านักเรียน (subclass 500) สำหรับหนังสือเดินทางอินโดนีเซีย/อาเซียน",
+    "vi": "Úc: lệ phí thị thực du học (subclass 500) cho hộ chiếu Indonesia/ASEAN",
+    "zh": "澳大利亚:印尼/东盟护照学生签证(subclass 500)费用",
+    "ja": "オーストラリア:インドネシア/ASEAN旅券の学生ビザ(subclass 500)申請料",
+    "ko": "호주: 인도네시아/아세안 여권 학생비자(subclass 500) 수수료",
+    "km": "អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការសិស្ស (subclass 500) សម្រាប់លិខិតឆ្លងដែនឥណ្ឌូណេស៊ី/អាស៊ាន",
+    "fr": "Australie : frais du visa étudiant (subclass 500) pour passeports indonésiens/ASEAN",
+    "pt": "Austrália: taxa do visto de estudante (subclass 500) para passaportes da Indonésia/ASEAN",
+    "es": "Australia: tasa de la visa de estudiante (subclass 500) para pasaportes de Indonesia/ASEAN",
+    "de": "Australien: Gebühr Studentenvisum (subclass 500) für indonesische/ASEAN-Pässe",
+    "it": "Australia: costo del visto studenti (subclass 500) per passaporti indonesiani/ASEAN",
+    "nl": "Australië: kosten studentenvisum (subclass 500) voor Indonesische/ASEAN-paspoorten",
+    "ru": "Австралия: сбор за студенческую визу (subclass 500) для паспортов Индонезии/АСЕАН"
    },
    "summary": {
     "id": "Tarif paspor Indonesia/ASEAN: pemohon utama AUD 2.050, anggota keluarga dewasa AUD 1.255, anak < 18 tahun AUD 410 (lebih rendah dari tarif umum AUD 2.500).",
-    "en": "Indonesian/ASEAN passport rate: main applicant AUD 2,050, adult family member AUD 1,255, child under 18 AUD 410 (lower than the general AUD 2,500)."
+    "en": "Indonesian/ASEAN passport rate: main applicant AUD 2,050, adult family member AUD 1,255, child under 18 AUD 410 (lower than the general AUD 2,500).",
+    "th": "อัตราหนังสือเดินทางอินโดนีเซีย/อาเซียน: ผู้สมัครหลัก AUD 2,050 สมาชิกครอบครัวผู้ใหญ่ AUD 1,255 เด็กต่ำกว่า 18 ปี AUD 410 (ต่ำกว่าอัตราทั่วไป AUD 2,500)",
+    "vi": "Mức cho hộ chiếu Indonesia/ASEAN: người nộp chính AUD 2.050, người lớn đi kèm AUD 1.255, trẻ dưới 18 AUD 410 (thấp hơn mức chung AUD 2.500).",
+    "zh": "印尼/东盟护照费率:主申请人 AUD 2,050,成年家属 AUD 1,255,18岁以下儿童 AUD 410(低于一般费率 AUD 2,500)。",
+    "ja": "インドネシア/ASEAN旅券:主申請者 AUD 2,050、成人家族 AUD 1,255、18歳未満 AUD 410(一般料金 AUD 2,500 より低い)。",
+    "ko": "인도네시아/아세안 여권: 주신청자 AUD 2,050, 성인 가족 AUD 1,255, 18세 미만 AUD 410(일반 요금 AUD 2,500보다 낮음).",
+    "km": "អត្រាលិខិតឆ្លងដែនឥណ្ឌូណេស៊ី/អាស៊ាន៖ អ្នកដាក់ពាក្យចម្បង AUD 2,050 សមាជិកគ្រួសារពេញវ័យ AUD 1,255 កុមារក្រោម 18 ឆ្នាំ AUD 410 (ទាបជាងអត្រាទូទៅ AUD 2,500)។",
+    "fr": "Tarif passeports indonésiens/ASEAN : demandeur principal AUD 2 050, adulte de la famille AUD 1 255, enfant de moins de 18 ans AUD 410 (moins que le tarif général AUD 2 500).",
+    "pt": "Taxa para passaportes da Indonésia/ASEAN: requerente principal AUD 2.050, familiar adulto AUD 1.255, menor de 18 AUD 410 (abaixo da taxa geral de AUD 2.500).",
+    "es": "Tarifa para pasaportes de Indonesia/ASEAN: solicitante principal AUD 2.050, familiar adulto AUD 1.255, menor de 18 AUD 410 (menos que la tarifa general de AUD 2.500).",
+    "de": "Satz für indonesische/ASEAN-Pässe: Hauptantragsteller AUD 2.050, erwachsenes Familienmitglied AUD 1.255, Kind unter 18 AUD 410 (unter dem allgemeinen Satz von AUD 2.500).",
+    "it": "Tariffa per passaporti indonesiani/ASEAN: richiedente principale AUD 2.050, familiare adulto AUD 1.255, minore di 18 anni AUD 410 (inferiore alla tariffa generale di AUD 2.500).",
+    "nl": "Tarief voor Indonesische/ASEAN-paspoorten: hoofdaanvrager AUD 2.050, volwassen gezinslid AUD 1.255, kind onder 18 AUD 410 (lager dan het algemene tarief van AUD 2.500).",
+    "ru": "Ставка для паспортов Индонезии/АСЕАН: основной заявитель AUD 2 050, взрослый член семьи AUD 1 255, ребёнок до 18 лет AUD 410 (ниже общей ставки AUD 2 500)."
    },
    "links": [
     {
@@ -238,30 +910,9 @@
      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
      "official": true
     }
-   ]
-  },
-  {
-   "id": "uk-graduate-18-months",
-   "date": "2025-10-14",
-   "effective": "2027-01-01",
-   "country": "GB",
-   "category": "visa",
-   "status": "upcoming",
-   "title": {
-    "id": "Inggris: Graduate visa jadi 18 bulan untuk aplikasi mulai 1 Jan 2027",
-    "en": "UK: Graduate visa cut to 18 months for applications from 1 Jan 2027"
-   },
-   "summary": {
-    "id": "Lulusan Bachelor/Master yang mengajukan Graduate visa mulai 1 Jan 2027 mendapat 18 bulan (sebelumnya 2 tahun). Aplikasi sampai 31 Des 2026 tetap 2 tahun. Lulusan doktoral tetap 3 tahun.",
-    "en": "Bachelor's/Master's graduates applying from 1 Jan 2027 get 18 months (previously 2 years). Applications up to 31 Dec 2026 keep 2 years. Doctoral graduates keep 3 years."
-   },
-   "links": [
-    {
-     "label": "GOV.UK - Statement of changes HC 1333",
-     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1333-14-october-2025",
-     "official": true
-    }
-   ]
+   ],
+   "effective_date": null,
+   "deadline": null
   },
   {
    "id": "ca-cap-2026",
@@ -271,11 +922,37 @@
    "status": "in_force",
    "title": {
     "id": "Kanada: kuota izin studi 2026 dan syarat dana terbaru",
-    "en": "Canada: 2026 study permit cap and latest funds requirement"
+    "en": "Canada: 2026 study permit cap and latest funds requirement",
+    "th": "แคนาดา: เพดานใบอนุญาตศึกษาปี 2026 และเงื่อนไขเงินทุนล่าสุด",
+    "vi": "Canada: trần giấy phép du học 2026 và yêu cầu tài chính mới nhất",
+    "zh": "加拿大:2026年学签上限及最新资金要求",
+    "ja": "カナダ:2026年の就学許可上限と最新の資金要件",
+    "ko": "캐나다: 2026년 학생허가 상한 및 최신 재정 요건",
+    "km": "កាណាដា៖ ពិដានលិខិតអនុញ្ញាតសិក្សា 2026 និងលក្ខខណ្ឌមូលនិធិចុងក្រោយ",
+    "fr": "Canada : plafond 2026 des permis d'études et exigence financière actuelle",
+    "pt": "Canadá: limite de permissões de estudo 2026 e exigência financeira atual",
+    "es": "Canadá: límite de permisos de estudio 2026 y requisito financiero vigente",
+    "de": "Kanada: Obergrenze für Studienerlaubnisse 2026 und aktueller Finanznachweis",
+    "it": "Canada: tetto 2026 dei permessi di studio e requisito finanziario attuale",
+    "nl": "Canada: plafond studievergunningen 2026 en actuele financiële eis",
+    "ru": "Канада: лимит учебных разрешений на 2026 и текущие финансовые требования"
    },
    "summary": {
     "id": "IRCC menargetkan hingga 408.000 izin studi pada 2026 (155.000 untuk siswa baru, 253.000 perpanjangan). Syarat dana hidup diperbarui setiap September - cek tabel resmi IRCC sebelum mengajukan.",
-    "en": "IRCC plans up to 408,000 study permits in 2026 (155,000 for new arrivals, 253,000 extensions). The living-funds requirement is updated every September - check the official IRCC table before applying."
+    "en": "IRCC plans up to 408,000 study permits in 2026 (155,000 for new arrivals, 253,000 extensions). The living-funds requirement is updated every September - check the official IRCC table before applying.",
+    "th": "IRCC วางแผนใบอนุญาตศึกษาสูงสุด 408,000 ใบในปี 2026 (ผู้มาใหม่ 155,000 ต่ออายุ 253,000) เงินค่าครองชีพที่ต้องแสดงปรับทุกเดือนกันยายน ตรวจสอบตาราง IRCC ก่อนยื่น",
+    "vi": "IRCC dự kiến tối đa 408.000 giấy phép du học năm 2026 (155.000 người mới, 253.000 gia hạn). Mức tiền sinh hoạt cần chứng minh cập nhật mỗi tháng 9 - xem bảng chính thức của IRCC trước khi nộp.",
+    "zh": "IRCC 计划2026年最多签发40.8万份学签(新到15.5万,续签25.3万)。生活费要求每年9月更新——申请前请查看 IRCC 官方表格。",
+    "ja": "IRCC は2026年に最大40.8万件の就学許可を計画(新規15.5万、延長25.3万)。生活費要件は毎年9月に更新—申請前に IRCC の公式表を確認。",
+    "ko": "IRCC는 2026년 최대 40만 8천 건의 학생허가를 계획(신규 15만 5천, 연장 25만 3천). 생활비 요건은 매년 9월 갱신 - 신청 전 IRCC 공식 표 확인.",
+    "km": "IRCC គ្រោងចេញលិខិតអនុញ្ញាតសិក្សារហូតដល់ 408,000 ក្នុងឆ្នាំ 2026 (មកថ្មី 155,000 បន្ត 253,000)។ ប្រាក់រស់នៅត្រូវបានធ្វើបច្ចុប្បន្នភាពរៀងរាល់ខែកញ្ញា - ពិនិត្យតារាង IRCC មុនដាក់ពាក្យ។",
+    "fr": "IRCC prévoit jusqu'à 408 000 permis d'études en 2026 (155 000 nouvelles arrivées, 253 000 prolongations). Le montant de fonds requis est mis à jour chaque septembre - vérifiez le tableau officiel IRCC.",
+    "pt": "O IRCC prevê até 408.000 permissões de estudo em 2026 (155.000 novas chegadas, 253.000 prorrogações). O valor exigido para despesas é atualizado todo setembro - confira a tabela oficial do IRCC.",
+    "es": "IRCC prevé hasta 408.000 permisos de estudio en 2026 (155.000 nuevas llegadas, 253.000 prórrogas). El requisito de fondos se actualiza cada septiembre - revisa la tabla oficial de IRCC.",
+    "de": "IRCC plant 2026 bis zu 408.000 Studienerlaubnisse (155.000 Neuankünfte, 253.000 Verlängerungen). Der Finanznachweis wird jeden September angepasst - vor Antragstellung die offizielle IRCC-Tabelle prüfen.",
+    "it": "IRCC prevede fino a 408.000 permessi di studio nel 2026 (155.000 nuovi arrivi, 253.000 proroghe). Il requisito dei fondi si aggiorna ogni settembre - controlla la tabella ufficiale IRCC.",
+    "nl": "IRCC plant tot 408.000 studievergunningen in 2026 (155.000 nieuwe aankomsten, 253.000 verlengingen). De financiële eis wordt elke september bijgewerkt - controleer de officiële IRCC-tabel.",
+    "ru": "IRCC планирует до 408 000 учебных разрешений в 2026 (155 000 новых, 253 000 продлений). Требование к средствам обновляется каждый сентябрь — проверьте официальную таблицу IRCC."
    },
    "links": [
     {
@@ -288,7 +965,78 @@
      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
      "official": true
     }
-   ]
+   ],
+   "effective_date": null,
+   "deadline": null
+  },
+  {
+   "id": "uk-graduate-18-months",
+   "date": "2025-10-14",
+   "effective": "2027-01-01",
+   "country": "GB",
+   "category": "visa",
+   "status": "upcoming",
+   "title": {
+    "id": "Inggris: Graduate visa jadi 18 bulan untuk aplikasi mulai 1 Jan 2027",
+    "en": "UK: Graduate visa cut to 18 months for applications from 1 Jan 2027",
+    "th": "สหราชอาณาจักร: Graduate visa ลดเหลือ 18 เดือน สำหรับคำขอตั้งแต่ 1 ม.ค. 2027",
+    "vi": "Anh: Graduate visa giảm còn 18 tháng cho hồ sơ từ 1/1/2027",
+    "zh": "英国:2027年1月1日起申请的 Graduate 签证缩短为18个月",
+    "ja": "イギリス:2027年1月1日以降の申請から Graduate ビザは18か月に短縮",
+    "ko": "영국: 2027년 1월 1일 이후 신청분부터 Graduate 비자 18개월로 단축",
+    "km": "ចក្រភពអង់គ្លេស៖ Graduate visa កាត់មកត្រឹម 18 ខែ សម្រាប់ពាក្យចាប់ពី 1 មករា 2027",
+    "fr": "Royaume-Uni : le Graduate visa passe à 18 mois pour les demandes dès le 1er janv. 2027",
+    "pt": "Reino Unido: Graduate visa reduzido para 18 meses para pedidos a partir de 1 jan 2027",
+    "es": "Reino Unido: el Graduate visa baja a 18 meses para solicitudes desde el 1 ene 2027",
+    "de": "Großbritannien: Graduate Visa ab Anträgen vom 1. Jan. 2027 nur noch 18 Monate",
+    "it": "Regno Unito: Graduate visa ridotto a 18 mesi per domande dal 1° gen 2027",
+    "nl": "VK: Graduate visa ingekort tot 18 maanden voor aanvragen vanaf 1 jan 2027",
+    "ru": "Великобритания: Graduate visa сокращается до 18 мес. для заявлений с 1 янв. 2027"
+   },
+   "summary": {
+    "id": "Lulusan Bachelor/Master yang mengajukan Graduate visa mulai 1 Jan 2027 mendapat 18 bulan (sebelumnya 2 tahun). Aplikasi sampai 31 Des 2026 tetap 2 tahun. Lulusan doktoral tetap 3 tahun.",
+    "en": "Bachelor's/Master's graduates applying from 1 Jan 2027 get 18 months (previously 2 years). Applications up to 31 Dec 2026 keep 2 years. Doctoral graduates keep 3 years.",
+    "th": "ผู้จบปริญญาตรี/โทที่ยื่นตั้งแต่ 1 ม.ค. 2027 ได้ 18 เดือน (เดิม 2 ปี) คำขอถึง 31 ธ.ค. 2026 ยังได้ 2 ปี ผู้จบปริญญาเอกยังได้ 3 ปี",
+    "vi": "Người tốt nghiệp cử nhân/thạc sĩ nộp từ 1/1/2027 được 18 tháng (trước đây 2 năm). Hồ sơ đến 31/12/2026 vẫn được 2 năm. Tiến sĩ vẫn 3 năm.",
+    "zh": "2027年1月1日起申请的学士/硕士毕业生获18个月(此前为2年)。2026年12月31日前申请仍为2年。博士毕业生仍为3年。",
+    "ja": "2027年1月1日以降に申請する学士・修士修了者は18か月(従来2年)。2026年12月31日までの申請は2年のまま。博士修了者は3年のまま。",
+    "ko": "2027년 1월 1일부터 신청하는 학사/석사 졸업생은 18개월(기존 2년). 2026년 12월 31일까지 신청은 2년 유지. 박사 졸업생은 3년 유지.",
+    "km": "អ្នកបញ្ចប់បរិញ្ញាបត្រ/អនុបណ្ឌិតដែលដាក់ពាក្យចាប់ពី 1 មករា 2027 ទទួល 18 ខែ (មុន 2 ឆ្នាំ)។ ពាក្យដល់ 31 ធ្នូ 2026 នៅតែ 2 ឆ្នាំ។ បណ្ឌិតនៅតែ 3 ឆ្នាំ។",
+    "fr": "Les diplômés de licence/master qui déposent dès le 1er janv. 2027 obtiennent 18 mois (au lieu de 2 ans). Les demandes jusqu'au 31 déc. 2026 gardent 2 ans. Les docteurs gardent 3 ans.",
+    "pt": "Graduados de bacharelado/mestrado que pedirem a partir de 1 jan 2027 recebem 18 meses (antes 2 anos). Pedidos até 31 dez 2026 mantêm 2 anos. Doutorado mantém 3 anos.",
+    "es": "Graduados de grado/máster que soliciten desde el 1 ene 2027 obtienen 18 meses (antes 2 años). Las solicitudes hasta el 31 dic 2026 mantienen 2 años. Doctorado mantiene 3 años.",
+    "de": "Bachelor-/Masterabsolventen mit Antrag ab 1. Jan. 2027 erhalten 18 Monate (bisher 2 Jahre). Anträge bis 31. Dez. 2026 behalten 2 Jahre. Promovierte behalten 3 Jahre.",
+    "it": "I laureati triennali/magistrali che fanno domanda dal 1° gen 2027 ottengono 18 mesi (prima 2 anni). Le domande fino al 31 dic 2026 mantengono 2 anni. I dottori di ricerca mantengono 3 anni.",
+    "nl": "Bachelor-/masterafgestudeerden die vanaf 1 jan 2027 aanvragen krijgen 18 maanden (voorheen 2 jaar). Aanvragen tot 31 dec 2026 houden 2 jaar. Gepromoveerden houden 3 jaar.",
+    "ru": "Выпускники бакалавриата/магистратуры, подающие с 1 янв. 2027, получат 18 мес. (ранее 2 года). Заявления до 31 дек. 2026 — 2 года. Выпускники докторантуры — 3 года."
+   },
+   "links": [
+    {
+     "label": "GOV.UK - Statement of changes HC 1333",
+     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1333-14-october-2025",
+     "official": true
+    }
+   ],
+   "effective_date": null,
+   "deadline": null
   }
- ]
+ ],
+ "languages": [
+  "id",
+  "en",
+  "th",
+  "vi",
+  "zh",
+  "ja",
+  "ko",
+  "km",
+  "fr",
+  "pt",
+  "es",
+  "de",
+  "it",
+  "nl",
+  "ru"
+ ],
+ "checked": "2026-11-18"
 }

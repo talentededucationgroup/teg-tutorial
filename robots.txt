@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://info.talentededucationgroup.com/sitemap.xml

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18",
+ "version": "2026-11-18-ref",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -690,7 +690,7 @@
   "version": "2026-11-16",
   "currency": "AUD",
   "basis": "Polis 12 bulan, cover 01/12/2026-30/11/2027; per bulan = premi 12 bulan / 12 (dibulatkan 2 desimal). null = belum tersedia di sumber resmi -> tampilkan \"konfirmasi ke konsultan TEG\".",
-  "excel_revision": "R103",
+  "excel_revision": "R110",
   "default_provider": "ahm",
   "auto_update": "Dicek ulang otomatis tiap tanggal 1 (tugas terjadwal bulanan). Angka hanya diubah bila sumber resmi berubah; selisih >10% ditahan untuk konfirmasi pemilik.",
   "providers": {
@@ -708,10 +708,7 @@
      "family": 15575.6
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": {
-     "single": "2026-11-16",
-     "couple_single_parent_family": "2026-11-12"
-    }
+    "checked": "2026-11-18"
    },
    "Allianz Care": {
     "monthly_aud": {
@@ -727,10 +724,7 @@
      "family": 9515
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": {
-     "single": "2026-11-16",
-     "couple_single_parent_family": "2026-11-12"
-    }
+    "checked": "2026-11-18"
    },
    "Bupa": {
     "monthly_aud": {
@@ -746,10 +740,7 @@
      "family": 13691.04
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": {
-     "single": "2026-11-16",
-     "couple_single_parent_family": "2026-11-12"
-    }
+    "checked": "2026-11-18"
    },
    "Medibank": {
     "monthly_aud": {
@@ -765,10 +756,7 @@
      "family": 16239.15
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": {
-     "single": "2026-11-16",
-     "couple_single_parent_family": "2026-11-12"
-    }
+    "checked": "2026-11-18"
    },
    "nib": {
     "monthly_aud": {
@@ -784,15 +772,55 @@
      "family": 15979
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": {
-     "single": "2026-11-16",
-     "couple_single_parent_family": "2026-11-12"
-    }
+    "checked": "2026-11-18"
    }
   }
  },
  "brand_rules": {
   "use_logo": false,
   "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib."
+ },
+ "referral_buy": {
+  "note": "Tombol beli OSHC/OVHC lewat link referral Talented (pemilik akan mengirim link). Website: tampilkan tombol HANYA bila url terisi (bukan null); tanpa nomor WA; buka tab baru. Ditambah 18/11/2026.",
+  "oshc": {
+   "url": null,
+   "label": {
+    "id": "Beli OSHC lewat Talented",
+    "en": "Buy OSHC via Talented",
+    "th": "ซื้อ OSHC ผ่าน Talented",
+    "vi": "Mua OSHC qua Talented",
+    "zh": "通过 Talented 购买 OSHC",
+    "ja": "Talented 経由で OSHC を購入",
+    "ko": "Talented를 통해 OSHC 구매",
+    "km": "ទិញ OSHC តាមរយៈ Talented",
+    "fr": "Acheter l'OSHC via Talented",
+    "pt": "Comprar OSHC pela Talented",
+    "es": "Comprar OSHC con Talented",
+    "de": "OSHC über Talented kaufen",
+    "it": "Acquista l'OSHC tramite Talented",
+    "nl": "OSHC kopen via Talented",
+    "ru": "Купить OSHC через Talented"
+   }
+  },
+  "ovhc": {
+   "url": null,
+   "label": {
+    "id": "Beli OVHC (asuransi visa kerja/kunjungan) lewat Talented",
+    "en": "Buy OVHC (visitor/work visa cover) via Talented",
+    "th": "ซื้อ OVHC (ประกันวีซ่าท่องเที่ยว/ทำงาน) ผ่าน Talented",
+    "vi": "Mua OVHC (bảo hiểm visa du lịch/làm việc) qua Talented",
+    "zh": "通过 Talented 购买 OVHC(访客/工作签证保险)",
+    "ja": "Talented 経由で OVHC(訪問・就労ビザ用保険)を購入",
+    "ko": "Talented를 통해 OVHC(방문/취업비자 보험) 구매",
+    "km": "ទិញ OVHC (ធានារ៉ាប់រងទិដ្ឋាការភ្ញៀវ/ការងារ) តាមរយៈ Talented",
+    "fr": "Acheter l'OVHC (visa visiteur/travail) via Talented",
+    "pt": "Comprar OVHC (visto de visitante/trabalho) pela Talented",
+    "es": "Comprar OVHC (visa de visitante/trabajo) con Talented",
+    "de": "OVHC (Besucher-/Arbeitsvisum) über Talented kaufen",
+    "it": "Acquista l'OVHC (visto visitatori/lavoro) tramite Talented",
+    "nl": "OVHC (bezoekers-/werkvisum) kopen via Talented",
+    "ru": "Купить OVHC (страховка для гостевой/рабочей визы) через Talented"
+   }
+  }
  }
 }

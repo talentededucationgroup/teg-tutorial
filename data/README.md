@@ -14,3 +14,7 @@ Dipakai oleh https://pricelist.talentededucationgroup.com (dibaca langsung, deng
 - scholarships.json: setiap item wajib punya `i18n.en` (lihat field `maintenance`). Website: `i18n[lang]` -> `i18n.en` -> teks asli.
 - accommodation.json: field `<nama>_<lang>` / `<nama>_en` wajib dipakai website (mis. `room_types_en`, `price_period_en`).
 - panduan/manifest.json: setiap bab punya `title_en`; pertahankan saat video diperbarui.
+
+- news.json: berita resmi imigrasi & visa pelajar (AU, NZ, GB, CA, US) termasuk usulan/konsultasi publik (status `consultation`/`proposed`, field `deadline`, `effective_date`). Semua teks 15 bahasa; cadangan `en`.
+- blog.json: artikel blog bulanan (id + en). Halaman statis dibuat oleh `scripts/build_blog.py` -> /blog/, /blog/en/, /blog/feed.xml, /sitemap.xml, /robots.txt.
+- oshc.json `referral_buy`: tombol beli OSHC/OVHC lewat link referral Talented; tampil hanya bila `url` terisi.

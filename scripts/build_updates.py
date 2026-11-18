@@ -160,7 +160,16 @@ def write_rss(items):
             "news": "#visa #infoimigrasi #studyabroad", "sponsored": "#studyabroad #kuliahdiluarnegeri",
             "jobs": "#kerjapartime #studentjobs", "accommodation": "#akomodasi #studentaccommodation"}
     out = []
-    for e in items[:30]:
+    import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from make_social_cards import make_card
+    # extra ready-made marketing posts written by the weekly marketing task (data/social-posts.json)
+    sp = load('social-posts.json', {}) or {}
+    extra = []
+    for p in sp.get('items', []):
+        if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
+            extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
+                          "caption": p.get('caption'), "sub": p.get('sub'), "url": p.get('url') or SITE + '/'})
+    for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
         link = e['url'] + ('&' if '?' in e['url'] else '?') + 'utm_source=social&utm_medium=autopost&utm_campaign=' + e['kind']
@@ -169,11 +178,12 @@ def write_rss(items):
         except Exception:
             d = NOW
         t = e['title']['id']
-        desc = t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
+        img = make_card(e['kind'], t, e['id'], e.get('sub'))
+        desc = e.get('caption') or t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"
-                   f"<enclosure url=\"https://info.talentededucationgroup.com/mocktest/logo.png\" type=\"image/png\" length=\"0\"/></item>")
+                   f"<enclosure url=\"{x(img)}\" type=\"image/png\" length=\"0\"/></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
            '<title>Talented Education Group - Yang baru</title>'
            f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'

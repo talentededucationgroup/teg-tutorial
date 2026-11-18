@@ -1,0 +1,12 @@
+{
+ "note": "Postingan marketing siap tayang untuk sosmed (dibaca build_updates.py -> social-feed.xml -> Buffer). Diisi tugas marketing mingguan. Tanpa data pribadi siswa, tanpa nama master agent/komisi, tanpa klaim palsu.",
+ "schema": {
+  "id": "unik, mis. 2026-w47-1",
+  "date": "YYYY-MM-DD (tayang mulai tanggal ini)",
+  "title": "judul pendek untuk gambar (<=90 karakter)",
+  "sub": "opsional, baris kecil di gambar",
+  "caption": "caption lengkap + tagar",
+  "url": "opsional, link ke pricelist dengan ?tab=..."
+ },
+ "items": []
+}

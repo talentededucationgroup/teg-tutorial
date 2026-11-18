@@ -161,7 +161,7 @@ def main():
 CLOSING = ("Talented Education Group | PT. Pilar Pendidikan Internasional\n"
            "Guiding Futures, Creating Opportunities.\n"
            "talentededucationgroup.com · S&K berlaku.\n"
-           "IG/FB/YouTube @talented.e.g · TikTok @talented.education · X @talented_e_g\n"
+           "IG/FB/YouTube @talented.e.g · TikTok @talented.education · X @group_talented\n"
            "Cek biaya kuliah Australia, NZ, Kanada, Inggris & Korea dalam semenit (dana awal, total biaya & saran rekening koran visa): "
            "https://pricelist.talentededucationgroup.com/ Bisa dipasang jadi App Talented, gratis. Free Mock Test IELTS/PTE/HSK/TOPIK/JLPT juga tersedia.")
 LT = 'https://linktr.ee/talentededucationgroup'

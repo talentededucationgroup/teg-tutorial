@@ -687,7 +687,7 @@
   "basis": "Quote 12 bulan Single dicek 16/11/2026 (laporan pemilik/ChatGPT); tarif per bulan perhitungan tetap R103 (selisih <= AUD 0,05/tahun)."
  },
  "rates": {
-  "version": "2026-11-16",
+  "version": "2026-11-18",
   "currency": "AUD",
   "basis": "Polis 12 bulan, cover 01/12/2026-30/11/2027; per bulan = premi 12 bulan / 12 (dibulatkan 2 desimal). null = belum tersedia di sumber resmi -> tampilkan \"konfirmasi ke konsultan TEG\".",
   "excel_revision": "R110",
@@ -708,7 +708,10 @@
      "family": 15575.6
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": "2026-11-18"
+    "checked": {
+     "single": "2026-11-18",
+     "couple_single_parent_family": "2026-11-12"
+    }
    },
    "Allianz Care": {
     "monthly_aud": {
@@ -724,7 +727,10 @@
      "family": 9515
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": "2026-11-18"
+    "checked": {
+     "single": "2026-11-18",
+     "couple_single_parent_family": "2026-11-12"
+    }
    },
    "Bupa": {
     "monthly_aud": {
@@ -740,7 +746,10 @@
      "family": 13691.04
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": "2026-11-18"
+    "checked": {
+     "single": "2026-11-18",
+     "couple_single_parent_family": "2026-11-12"
+    }
    },
    "Medibank": {
     "monthly_aud": {
@@ -756,7 +765,10 @@
      "family": 16239.15
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": "2026-11-18"
+    "checked": {
+     "single": "2026-11-18",
+     "couple_single_parent_family": "2026-11-12"
+    }
    },
    "nib": {
     "monthly_aud": {
@@ -772,7 +784,10 @@
      "family": 15979
     },
     "source": "quote/rate card resmi provider (lihat Excel Aturan & Tarif)",
-    "checked": "2026-11-18"
+    "checked": {
+     "single": "2026-11-18",
+     "couple_single_parent_family": "2026-11-12"
+    }
    }
   }
  },

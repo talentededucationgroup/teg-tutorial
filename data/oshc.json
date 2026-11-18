@@ -468,7 +468,13 @@
     "checked": "2026-11-18"
    },
    "buy_mode": "online",
-   "flywire_note": "18/11/2026: nib sementara tidak tampil di Flywire (info provider: akan dimasukkan lagi). Tombol tetap 'Buy online' ke link Flywire. Harga = harga resmi nib sampai harga Flywire nib tersedia; tugas bulanan mengganti ke flywire.monthly_aud."
+   "flywire_note": "18/11/2026: nib sementara tidak tampil di Flywire (info provider: akan dimasukkan lagi). Tombol tetap 'Buy online' ke link Flywire. Harga = harga resmi nib sampai harga Flywire nib tersedia; tugas bulanan mengganti ke flywire.monthly_aud.",
+   "official_price": {
+    "monthly_aud": 60.48,
+    "annual_aud": 725.81,
+    "basis": "Single, 12 bulan, mulai 1 Des 2026 (situs resmi nib)",
+    "checked": "2026-11-18"
+   }
   },
   {
    "name": "CBHS International Health",

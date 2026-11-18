@@ -2,7 +2,7 @@
  "version": "2026-11-18",
  "updated_at": "2026-11-18T22:20:00+07:00",
  "note": "Lowongan & akomodasi kiriman bisnis terdaftar DAN perorangan lewat formulir gratis (Jotform 263214542459054). Hanya item yang lolos pemeriksaan (status approved) ada di sini. Kontak hanya yang diizinkan pemasang untuk ditampilkan; tidak ada nama lengkap, alamat rumah, atau dokumen pribadi.",
- "form_url": "https://form.jotform.com/263214542459054",
+ "form_url": "https://info.talentededucationgroup.com/pasang-iklan/",
  "labels": {
   "verified": {
    "id": "Bisnis terverifikasi",
@@ -48,7 +48,7 @@
   "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari.",
   "auto": "Sepenuhnya otomatis: ragu = ditolak otomatis (tidak menunggu pemilik). Laporan pengguna = iklan langsung disembunyikan (hidden:true) lalu dicek ulang; terbukti penipuan = dihapus + pemasang diblokir."
  },
- "report_form_url": "https://form.jotform.com/263214027573049",
+ "report_form_url": "https://info.talentededucationgroup.com/laporkan/",
  "sponsored": {
   "packages": [
    {
@@ -88,5 +88,10 @@
   "picks_max": 3,
   "anchor_monday": "2026-11-16",
   "timezone": "Asia/Jakarta"
- }
+ },
+ "jotform_ids": {
+  "post": "263214542459054",
+  "report": "263214027573049"
+ },
+ "report_prefill_note": "Tambahkan ?<nama field Listing ID di Jotform>=<id iklan> pada report_form_url; parameter diteruskan ke formulir."
 }

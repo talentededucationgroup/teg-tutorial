@@ -35,6 +35,10 @@
   "hidden_review": {
    "id": "Iklan disembunyikan sementara karena dilaporkan.",
    "en": "Listing temporarily hidden after a report."
+  },
+  "video": {
+   "id": "▶ Video tur properti",
+   "en": "▶ Property video tour"
   }
  },
  "jobs": [],
@@ -72,5 +76,6 @@
   "who": "Bisnis dan perorangan (keputusan pemilik 18/11/2026), setelah lolos pemeriksaan yang sama."
  },
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
- "_fp": "teg-a1e9c997583d"
+ "_fp": "teg-a1e9c997583d",
+ "video_rule": "Akomodasi boleh punya video tur: field video {provider:'youtube'|'vimeo', id, url}. Website menampilkan thumbnail + tombol putar; embed hanya saat diklik via https://www.youtube-nocookie.com/embed/<id> atau https://player.vimeo.com/video/<id>. Tidak ada upload file video ke repo."
 }

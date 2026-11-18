@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18-sponsor",
+ "version": "2026-11-18-advertisers",
  "note": "Iklan bersponsor. Diisi/disetujui Talented. Website hanya menampilkan item dengan approved=true dan tanggal hari ini di antara start..end (WIB). Tidak mempengaruhi harga, urutan, atau filter.",
  "label": {
   "id": "Sponsored",
@@ -3380,8 +3380,8 @@
    "ru": "Реклама на Talented"
   },
   "intro": {
-   "id": "Tampilkan institusi Anda di depan calon siswa Indonesia & Asia Tenggara yang sedang membandingkan biaya studi, dalam 15 bahasa.",
-   "en": "Put your institution in front of Indonesian & Southeast Asian students who are actively comparing study costs, in 15 languages.",
+   "id": "Tampilkan institusi atau layanan Anda (sekolah, kampus, OSHC/asuransi, bank, akomodasi, travel, dll.) di depan calon siswa Indonesia & Asia Tenggara yang sedang membandingkan biaya studi, dalam 15 bahasa.",
+   "en": "Put your institution or service (schools, universities, OSHC/insurance, banks, accommodation, travel and more) in front of Indonesian & Southeast Asian students who are actively comparing study costs, in 15 languages.",
    "th": "นำเสนอสถาบันของคุณต่อนักเรียนอินโดนีเซียและเอเชียตะวันออกเฉียงใต้ที่กำลังเปรียบเทียบค่าเรียน ใน 15 ภาษา",
    "vi": "Đưa trường của bạn đến với học sinh Indonesia & Đông Nam Á đang so sánh chi phí du học, bằng 15 ngôn ngữ.",
    "zh": "以 15 种语言，向正在比较留学费用的印尼及东南亚学生展示您的院校。",
@@ -3400,112 +3400,127 @@
    "id": [
     "Setiap iklan berlabel \"Sponsored\".",
     "Iklan tidak mengubah harga, urutan, filter, atau isi rincian program.",
-    "Wajib kode CRICOS/registrasi resmi; isi iklan harus akurat dan sesuai dokumen resmi (tanpa klaim \"pasti visa\"/\"pasti beasiswa\").",
+    "Institusi pendidikan Australia wajib kode CRICOS; institusi luar Australia dan perusahaan (mis. OSHC/asuransi, bank & transfer uang, akomodasi, travel) wajib nomor registrasi usaha resmi. Isi iklan harus akurat, sesuai dokumen resmi, dan relevan untuk pelajar (tanpa klaim \"pasti visa\"/\"pasti beasiswa\").",
     "Iklan ditayangkan setelah disetujui Talented. Iklan yang ditolak akan dikembalikan dananya.",
+    "Kami memeriksa setiap pemasang iklan: usaha harus terdaftar resmi, bukan spam, penipuan, atau penawaran yang merugikan, dan relevan bagi pelajar yang kuliah di luar negeri. Iklan yang tidak lolos tidak ditayangkan dan dananya dikembalikan.",
     "Talented berhak menurunkan iklan yang melanggar ketentuan."
    ],
    "en": [
     "Every ad is labelled \"Sponsored\".",
     "Ads never change prices, sorting, filters or programme details.",
-    "An official CRICOS/registration code is required; ad content must be accurate and match official documents (no \"guaranteed visa\"/\"guaranteed scholarship\" claims).",
+    "Australian education providers need a CRICOS code; institutions outside Australia and companies (e.g. OSHC/insurance, banks & money transfer, accommodation, travel) need an official business registration number. Ad content must be accurate, match official documents and be relevant to students (no \"guaranteed visa\"/\"guaranteed scholarship\" claims).",
     "Ads go live only after Talented approves them. Rejected orders are refunded.",
+    "We check every advertiser: the business must be officially registered, not spam, a scam or a harmful offer, and relevant to students studying abroad. Ads that fail the check are not published and are refunded.",
     "Talented may remove ads that breach these terms."
    ],
    "th": [
     "ทุกโฆษณามีป้าย \"Sponsored\"",
     "โฆษณาไม่เปลี่ยนราคา ลำดับ ตัวกรอง หรือรายละเอียดหลักสูตร",
-    "ต้องมีรหัส CRICOS/ทะเบียนอย่างเป็นทางการ เนื้อหาต้องถูกต้องตามเอกสารทางการ (ห้ามอ้าง \"วีซ่าผ่านแน่นอน\"/\"ได้ทุนแน่นอน\")",
+    "สถาบันการศึกษาในออสเตรเลียต้องมีรหัส CRICOS สถาบันนอกออสเตรเลียและบริษัท (เช่น OSHC/ประกัน ธนาคารและการโอนเงิน ที่พัก ท่องเที่ยว) ต้องมีเลขทะเบียนธุรกิจอย่างเป็นทางการ เนื้อหาโฆษณาต้องถูกต้อง ตรงกับเอกสารทางการ และเกี่ยวข้องกับนักเรียน (ห้ามอ้าง \"รับประกันวีซ่า\"/\"รับประกันทุน\")",
     "โฆษณาจะแสดงหลังได้รับอนุมัติจาก Talented คำสั่งที่ถูกปฏิเสธจะได้รับเงินคืน",
+    "เราตรวจสอบผู้ลงโฆษณาทุกราย: ธุรกิจต้องจดทะเบียนอย่างเป็นทางการ ไม่ใช่สแปม การหลอกลวง หรือข้อเสนอที่เป็นอันตราย และต้องเกี่ยวข้องกับนักเรียนที่ไปเรียนต่างประเทศ โฆษณาที่ไม่ผ่านจะไม่ถูกเผยแพร่และได้รับเงินคืน",
     "Talented มีสิทธิ์นำโฆษณาที่ผิดเงื่อนไขออก"
    ],
    "vi": [
     "Mọi quảng cáo đều gắn nhãn \"Sponsored\".",
     "Quảng cáo không thay đổi giá, thứ tự, bộ lọc hay chi tiết chương trình.",
-    "Bắt buộc có mã CRICOS/đăng ký chính thức; nội dung phải chính xác theo tài liệu chính thức (không cam kết \"chắc chắn có visa\"/\"chắc chắn có học bổng\").",
+    "Cơ sở giáo dục tại Úc cần mã CRICOS; cơ sở ngoài Úc và doanh nghiệp (ví dụ OSHC/bảo hiểm, ngân hàng & chuyển tiền, chỗ ở, du lịch) cần số đăng ký kinh doanh chính thức. Nội dung quảng cáo phải chính xác, khớp tài liệu chính thức và phù hợp với học sinh (không cam kết \"chắc chắn có visa\"/\"chắc chắn có học bổng\").",
     "Quảng cáo chỉ hiển thị sau khi Talented phê duyệt. Đơn bị từ chối sẽ được hoàn tiền.",
+    "Chúng tôi kiểm tra mọi nhà quảng cáo: doanh nghiệp phải đăng ký chính thức, không phải thư rác, lừa đảo hay đề nghị gây hại, và phù hợp với du học sinh. Quảng cáo không đạt sẽ không được đăng và được hoàn tiền.",
     "Talented có quyền gỡ quảng cáo vi phạm điều khoản."
    ],
    "zh": [
     "所有广告均标注 \"Sponsored\"。",
     "广告不会改变价格、排序、筛选或课程详情。",
-    "须提供 CRICOS/官方注册编号；内容须准确并与官方文件一致（不得声称\"保证签证\"/\"保证奖学金\"）。",
+    "澳大利亚教育机构须提供 CRICOS 代码；澳大利亚以外的院校及公司（如 OSHC/保险、银行与汇款、住宿、旅游）须提供正式的商业注册号。广告内容必须准确、与官方文件一致，并与学生相关（不得声称\"保证签证\"/\"保证奖学金\"）。",
     "广告须经 Talented 审核后上线，被拒订单将退款。",
+    "我们会审核每一位广告主：企业须正式注册，不得为垃圾信息、诈骗或有害内容，并须与出国留学的学生相关。未通过审核的广告不予发布并全额退款。",
     "Talented 有权下架违反条款的广告。"
    ],
    "ja": [
     "すべての広告に「Sponsored」と表示します。",
     "広告によって価格、並び順、フィルター、プログラム詳細が変わることはありません。",
-    "CRICOS/公式登録番号が必要です。内容は正確で公式資料と一致すること（「ビザ確実」「奨学金確実」などの表現は不可）。",
+    "オーストラリアの教育機関はCRICOSコードが必要です。オーストラリア国外の教育機関および企業（OSHC/保険、銀行・送金、住居、旅行など）は公式の事業登録番号が必要です。広告内容は正確で公式資料と一致し、学生に関連するものに限ります（「ビザ確約」「奨学金確約」などの表現は不可）。",
     "広告はTalentedの承認後に掲載されます。不承認の場合は返金します。",
+    "すべての広告主を審査します。正式に登録された事業であり、スパム・詐欺・有害な勧誘でなく、留学する学生に関連していることが条件です。審査に通らない広告は掲載せず、返金します。",
     "Talentedは規約違反の広告を削除できます。"
    ],
    "ko": [
     "모든 광고에는 \"Sponsored\" 표시가 붙습니다.",
     "광고는 가격, 정렬, 필터 또는 과정 정보를 변경하지 않습니다.",
-    "CRICOS/공식 등록 번호가 필요하며, 내용은 공식 문서와 일치해야 합니다(\"비자 보장\"/\"장학금 보장\" 표현 금지).",
+    "호주 교육기관은 CRICOS 코드가 필요하며, 호주 외 교육기관 및 기업(예: OSHC/보험, 은행·송금, 숙소, 여행)은 공식 사업자 등록번호가 필요합니다. 광고 내용은 정확하고 공식 문서와 일치해야 하며 학생과 관련이 있어야 합니다(\"비자 보장\"/\"장학금 보장\" 주장 금지).",
     "광고는 Talented 승인 후 게재됩니다. 거절된 주문은 환불됩니다.",
+    "모든 광고주를 확인합니다. 정식 등록된 사업체여야 하고, 스팸·사기·유해한 제안이 아니어야 하며, 해외 유학생과 관련이 있어야 합니다. 심사를 통과하지 못한 광고는 게시되지 않으며 환불됩니다.",
     "Talented는 약관을 위반한 광고를 내릴 수 있습니다."
    ],
    "km": [
     "ការផ្សាយពាណិជ្ជកម្មទាំងអស់មានស្លាក \"Sponsored\"។",
     "ការផ្សាយមិនផ្លាស់ប្តូរតម្លៃ លំដាប់ តម្រង ឬព័ត៌មានកម្មវិធីទេ។",
-    "ត្រូវមានលេខ CRICOS/ចុះបញ្ជីផ្លូវការ ហើយខ្លឹមសារត្រូវត្រឹមត្រូវតាមឯកសារផ្លូវការ (ហាមអះអាង \"ធានាទិដ្ឋាការ\"/\"ធានាអាហារូបករណ៍\")។",
+    "ស្ថាប័នអប់រំនៅអូស្ត្រាលីត្រូវមានលេខកូដ CRICOS; ស្ថាប័ននៅក្រៅអូស្ត្រាលី និងក្រុមហ៊ុន (ឧ. OSHC/ធានារ៉ាប់រង ធនាគារ និងការផ្ទេរប្រាក់ កន្លែងស្នាក់នៅ ទេសចរណ៍) ត្រូវមានលេខចុះបញ្ជីអាជីវកម្មផ្លូវការ។ ខ្លឹមសារពាណិជ្ជកម្មត្រូវតែត្រឹមត្រូវ ស្របនឹងឯកសារផ្លូវការ និងពាក់ព័ន្ធនឹងសិស្ស (គ្មានការអះអាង \"ធានាទិដ្ឋាការ\"/\"ធានាអាហារូបករណ៍\")។",
     "ការផ្សាយបង្ហាញបន្ទាប់ពី Talented អនុម័ត។ ការកម្មង់ដែលត្រូវបដិសេធនឹងទទួលបានប្រាក់វិញ។",
+    "យើងពិនិត្យអ្នកផ្សាយពាណិជ្ជកម្មគ្រប់រូប៖ អាជីវកម្មត្រូវចុះបញ្ជីផ្លូវការ មិនមែនសារឥតបានការ ការបោកប្រាស់ ឬការផ្តល់ជូនដែលបង្កគ្រោះថ្នាក់ និងត្រូវពាក់ព័ន្ធនឹងសិស្សដែលសិក្សានៅបរទេស។ ពាណិជ្ជកម្មដែលមិនឆ្លងកាត់នឹងមិនត្រូវផ្សាយ ហើយត្រូវបានសងប្រាក់វិញ។",
     "Talented មានសិទ្ធិដកការផ្សាយដែលល្មើសលក្ខខណ្ឌ។"
    ],
    "fr": [
     "Chaque annonce porte la mention « Sponsored ».",
     "Les annonces ne modifient jamais les prix, le tri, les filtres ni le détail des programmes.",
-    "Un code CRICOS/d’enregistrement officiel est requis ; le contenu doit être exact et conforme aux documents officiels (pas de « visa garanti »/« bourse garantie »).",
+    "Les établissements d’enseignement australiens doivent fournir un code CRICOS ; les établissements hors d’Australie et les entreprises (par ex. OSHC/assurance, banques et transferts d’argent, logement, voyages) doivent fournir un numéro d’immatriculation officiel. Le contenu doit être exact, conforme aux documents officiels et utile aux étudiants (aucune promesse de \"visa garanti\"/\"bourse garantie\").",
     "Les annonces sont publiées après validation par Talented. Les commandes refusées sont remboursées.",
+    "Nous vérifions chaque annonceur : l’entreprise doit être officiellement immatriculée, ne pas relever du spam, de l’arnaque ou d’une offre nuisible, et être utile aux étudiants partant à l’étranger. Les annonces refusées ne sont pas publiées et sont remboursées.",
     "Talented peut retirer les annonces qui enfreignent ces conditions."
    ],
    "pt": [
     "Todo anúncio é identificado como \"Sponsored\".",
     "Os anúncios nunca alteram preços, ordenação, filtros ou detalhes dos cursos.",
-    "É obrigatório um código CRICOS/registro oficial; o conteúdo deve ser preciso e conforme os documentos oficiais (sem \"visto garantido\"/\"bolsa garantida\").",
+    "Instituições de ensino australianas precisam do código CRICOS; instituições fora da Austrália e empresas (ex.: OSHC/seguro, bancos e transferências, acomodação, viagens) precisam de um número oficial de registro empresarial. O anúncio deve ser preciso, condizente com documentos oficiais e relevante para estudantes (sem promessas de \"visto garantido\"/\"bolsa garantida\").",
     "Os anúncios só entram no ar após aprovação da Talented. Pedidos recusados são reembolsados.",
+    "Verificamos cada anunciante: a empresa deve ser registrada oficialmente, não ser spam, golpe ou oferta prejudicial, e ser relevante para estudantes no exterior. Anúncios reprovados não são publicados e são reembolsados.",
     "A Talented pode remover anúncios que violem estes termos."
    ],
    "es": [
     "Cada anuncio lleva la etiqueta \"Sponsored\".",
     "Los anuncios nunca cambian precios, orden, filtros ni detalles de los programas.",
-    "Se requiere un código CRICOS/registro oficial; el contenido debe ser exacto y coincidir con documentos oficiales (sin \"visa garantizada\"/\"beca garantizada\").",
+    "Las instituciones educativas australianas necesitan un código CRICOS; las instituciones fuera de Australia y las empresas (p. ej. OSHC/seguros, bancos y envío de dinero, alojamiento, viajes) necesitan un número oficial de registro mercantil. El anuncio debe ser exacto, coincidir con documentos oficiales y ser relevante para estudiantes (sin afirmaciones de \"visa garantizada\"/\"beca garantizada\").",
     "Los anuncios se publican tras la aprobación de Talented. Los pedidos rechazados se reembolsan.",
+    "Revisamos a cada anunciante: la empresa debe estar registrada oficialmente, no ser spam, estafa ni una oferta dañina, y ser relevante para estudiantes en el extranjero. Los anuncios que no pasen la revisión no se publican y se reembolsan.",
     "Talented puede retirar anuncios que incumplan estos términos."
    ],
    "de": [
     "Jede Anzeige ist als „Sponsored“ gekennzeichnet.",
     "Anzeigen ändern niemals Preise, Sortierung, Filter oder Programmdetails.",
-    "Ein offizieller CRICOS-/Registrierungscode ist erforderlich; Inhalte müssen korrekt sein und offiziellen Dokumenten entsprechen (keine Aussagen wie „Visum garantiert“/„Stipendium garantiert“).",
+    "Australische Bildungsanbieter benötigen einen CRICOS-Code; Einrichtungen außerhalb Australiens und Unternehmen (z. B. OSHC/Versicherung, Banken & Geldtransfer, Unterkunft, Reisen) benötigen eine offizielle Handelsregister-/Unternehmensnummer. Anzeigen müssen korrekt sein, mit offiziellen Unterlagen übereinstimmen und für Studierende relevant sein (keine Aussagen wie \"Visum garantiert\"/\"Stipendium garantiert\").",
     "Anzeigen erscheinen erst nach Freigabe durch Talented. Abgelehnte Aufträge werden erstattet.",
+    "Wir prüfen jeden Werbekunden: Das Unternehmen muss offiziell registriert sein, darf kein Spam, Betrug oder schädliches Angebot sein und muss für Auslandsstudierende relevant sein. Abgelehnte Anzeigen werden nicht veröffentlicht und erstattet.",
     "Talented kann Anzeigen entfernen, die gegen diese Bedingungen verstoßen."
    ],
    "it": [
     "Ogni annuncio è contrassegnato come \"Sponsored\".",
     "Gli annunci non modificano mai prezzi, ordinamento, filtri o dettagli dei corsi.",
-    "È richiesto un codice CRICOS/registrazione ufficiale; il contenuto deve essere accurato e conforme ai documenti ufficiali (niente \"visto garantito\"/\"borsa garantita\").",
+    "Gli istituti di istruzione australiani devono indicare il codice CRICOS; gli istituti fuori dall’Australia e le aziende (es. OSHC/assicurazioni, banche e trasferimenti di denaro, alloggi, viaggi) devono indicare un numero ufficiale di registrazione dell’impresa. Il contenuto deve essere accurato, conforme ai documenti ufficiali e pertinente per gli studenti (niente promesse di \"visto garantito\"/\"borsa garantita\").",
     "Gli annunci vanno online solo dopo l’approvazione di Talented. Gli ordini rifiutati vengono rimborsati.",
+    "Verifichiamo ogni inserzionista: l’azienda deve essere registrata ufficialmente, non essere spam, truffa o un’offerta dannosa, ed essere pertinente per gli studenti all’estero. Gli annunci non approvati non vengono pubblicati e sono rimborsati.",
     "Talented può rimuovere gli annunci che violano questi termini."
    ],
    "nl": [
     "Elke advertentie krijgt het label \"Sponsored\".",
     "Advertenties veranderen nooit prijzen, sortering, filters of opleidingsdetails.",
-    "Een officiële CRICOS-/registratiecode is verplicht; inhoud moet juist zijn en overeenkomen met officiële documenten (geen \"visum gegarandeerd\"/\"beurs gegarandeerd\").",
+    "Australische onderwijsinstellingen hebben een CRICOS-code nodig; instellingen buiten Australië en bedrijven (bijv. OSHC/verzekering, banken & geldoverboeking, huisvesting, reizen) hebben een officieel bedrijfsregistratienummer nodig. Advertenties moeten juist zijn, overeenkomen met officiële documenten en relevant zijn voor studenten (geen claims als \"visum gegarandeerd\"/\"beurs gegarandeerd\").",
     "Advertenties verschijnen pas na goedkeuring door Talented. Afgewezen bestellingen worden terugbetaald.",
+    "We controleren elke adverteerder: het bedrijf moet officieel geregistreerd zijn, geen spam, oplichting of schadelijk aanbod zijn en relevant zijn voor studenten in het buitenland. Afgekeurde advertenties worden niet gepubliceerd en terugbetaald.",
     "Talented mag advertenties verwijderen die deze voorwaarden schenden."
    ],
    "ru": [
     "Каждое объявление помечено как «Sponsored».",
     "Реклама никогда не меняет цены, сортировку, фильтры или описание программ.",
-    "Требуется официальный код CRICOS/регистрации; содержание должно быть точным и соответствовать официальным документам (без «гарантированной визы»/«гарантированной стипендии»).",
+    "Австралийским учебным заведениям нужен код CRICOS; учебным заведениям за пределами Австралии и компаниям (например, OSHC/страхование, банки и денежные переводы, жильё, путешествия) — официальный регистрационный номер компании. Реклама должна быть точной, соответствовать официальным документам и быть полезной студентам (без обещаний «гарантированной визы»/«гарантированной стипендии»).",
     "Реклама публикуется только после одобрения Talented. Отклонённые заказы возвращаются.",
+    "Мы проверяем каждого рекламодателя: компания должна быть официально зарегистрирована, не быть спамом, мошенничеством или вредным предложением и быть полезной студентам, обучающимся за рубежом. Не прошедшая проверку реклама не публикуется, деньги возвращаются.",
     "Talented может снять рекламу, нарушающую эти условия."
    ]
   },
   "form_url": "https://info.talentededucationgroup.com/sponsor/",
   "contact_note": "Keputusan pemilik 17/11/2026 01.34 WIB: semua otomatis - institusi memesan & membayar di formulir; tugas terjadwal harian memasang iklan yang lunas & lolos cek.",
-  "flow": "Tombol 'Lihat cara kerjanya' (kotak Promosikan institusi) -> halaman /advertise di pricelist (tab sama): paket + Ketentuan yang berlaku -> centang 'agree_label' -> tombol 'process_label' baru aktif -> buka form_url (Jotform) di tab baru. Jangan pernah langsung ke Jotform dari tombol/iklan mana pun. Keputusan pemilik 18/11/2026 17.30.",
+  "flow": "Tombol 'Lihat cara kerjanya' -> /advertise (tab sama): paket + Ketentuan -> centang agree_label -> tombol process_label aktif -> form_url (halaman /sponsor/: institusi Australia cari CRICOS; institusi luar Australia & perusahaan centang 'no CRICOS') -> Jotform. Semua di TAB YANG SAMA (keputusan pemilik 18/11/2026 19.0x). Jangan langsung ke Jotform dari iklan.",
   "terms_heading": {
    "id": "Ketentuan yang berlaku",
    "en": "Terms and conditions",
@@ -3575,7 +3590,16 @@
    "ru": "Вы перейдёте к онлайн-форме заказа и оплаты (Jotform, Stripe AUD)."
   },
   "jotform_url": "https://form.jotform.com/263181709123050",
-  "form_note": "form_url = halaman bantu pemesanan (cari institusi -> kode CRICOS, nama & website terisi otomatis ke Jotform; institusi luar Australia bisa lewati CRICOS). jotform_url = formulir langsung (cadangan)."
+  "form_note": "form_url = halaman bantu pemesanan (/sponsor/). jotform_url = formulir langsung (cadangan).",
+  "advertiser_types": {
+   "allowed": [
+    "education_provider",
+    "student_service_company",
+    "government_or_scholarship_body"
+   ],
+   "examples": "OSHC/OVHC & asuransi kesehatan, bank/rekening pelajar & transfer uang, akomodasi pelajar, travel/tiket, SIM/telko, persiapan tes (IELTS/PTE), layanan kerja/karier pelajar",
+   "rule": "CRICOS hanya wajib untuk institusi pendidikan Australia. Lainnya wajib nomor registrasi usaha resmi yang bisa dicek (ABN/ACN, NZBN, Companies House, NIB Indonesia, dll.). Ditolak: spam, penipuan, MLM/investasi, judi, pinjol ilegal, joki/ijazah palsu, jasa visa/agen pesaing, konten dewasa/politik/SARA, produk tidak relevan untuk pelajar."
+  }
  },
  "logo_note": "Logo resmi sekolah (diambil dari situs resmi masing-masing, 16/11/2026). Tampilkan di kotak putih, tinggi 32-40px, rasio asli (jangan direntang); alt = nama provider. Logo merek dagang milik sekolah.",
  "partner_policy": "Keputusan pemilik 17/11/2026: iklan Sponsored sekolah partner = bonus gratis (plan partner_bonus), tidak ditagih. Iklan promo/beasiswa tayang s.d. tanggal promo berakhir (end); iklan profil sekolah partner s.d. 31/12/2027 lalu diperpanjang bila masih partner. Paket promosi berbayar hanya atas permintaan institusi lewat formulir.",

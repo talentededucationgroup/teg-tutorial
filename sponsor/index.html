@@ -48,7 +48,7 @@ footer{color:var(--muted);font-size:.82rem}
 <main class="wrap">
   <p class="eyebrow">Talented Education Group · Sponsored</p>
   <h1>Order a Sponsored slide</h1>
-  <p class="lead">Step 1: find your institution so the correct CRICOS provider code is filled in for you. Step 2: complete the order form and pay online. Your slide goes live automatically after payment and a content check (usually within 24 hours).</p>
+  <p class="lead">Open to schools, colleges and universities, and to companies that serve international students (e.g. OSHC/health insurance, banks &amp; money transfer, accommodation, travel, phone/SIM, test preparation). Step 1: Australian education providers find their institution so the correct CRICOS code is filled in; other organisations tick the box below. Step 2: complete the order form and pay online. Your slide goes live automatically after payment and a content check (usually within 24 hours).</p>
 
   <section class="card" id="searchCard">
     <label for="q">Australian institution name or CRICOS code</label>
@@ -59,11 +59,11 @@ footer{color:var(--muted);font-size:.82rem}
 
     <div class="overseas">
       <input type="checkbox" id="ov">
-      <label for="ov" style="font-weight:400;margin:0">My institution is <b>outside Australia</b> (no CRICOS code). I will enter our official registration number in the form.</label>
+      <label for="ov" style="font-weight:400;margin:0">We have <b>no CRICOS code</b>: an institution outside Australia, or a <b>company</b> (OSHC/insurance, bank, accommodation, travel, etc.). I will enter our official registration number in the form.</label>
     </div>
     <div id="ovBox">
-      <div class="note">CRICOS lookup is skipped. Please enter your country's official registration number (e.g. NZQA provider number, UK UKPRN, Canada DLI) in the form.</div>
-      <div class="row"><a class="btn btn-primary" id="ovGo" href="#" target="_blank" rel="noopener">Continue to order form →</a></div>
+      <div class="note">CRICOS lookup is skipped. In the form, enter your official registration number: education providers outside Australia (e.g. NZQA provider number, UK UKPRN, Canada DLI); companies: business/company registration (e.g. ABN/ACN, NZBN, UK Companies House, Indonesian NIB). We verify every organisation and only accept ads that are relevant to students studying abroad - no spam, misleading or harmful offers.</div>
+      <div class="row"><a class="btn btn-primary" id="ovGo" href="#">Continue to order form →</a></div>
     </div>
   </section>
 
@@ -76,7 +76,7 @@ footer{color:var(--muted);font-size:.82rem}
       <dt>Website</dt><dd id="pWeb"></dd>
     </dl>
     <div class="row">
-      <a class="btn btn-primary" id="go" href="#" target="_blank" rel="noopener">Continue to order form →</a>
+      <a class="btn btn-primary" id="go" href="#">Continue to order form →</a>
       <button class="btn btn-ghost" id="change" type="button">Choose another</button>
     </div>
     <p class="hint">The institution name, CRICOS code and website are pre-filled in the form. Orders are checked against the CRICOS register before publishing.</p>
@@ -152,7 +152,7 @@ footer{color:var(--muted);font-size:.82rem}
     st.textContent=list.length.toLocaleString('en')+' CRICOS providers. Type at least 2 letters, then pick your institution.';
     q.disabled=false;q.focus();
   }).catch(function(){
-    st.innerHTML='The CRICOS register could not be loaded. You can still <a href="'+FORM+'" target="_blank" rel="noopener">open the order form</a> and type your CRICOS code manually.';
+    st.innerHTML='The CRICOS register could not be loaded. You can still <a href="'+FORM+'">open the order form</a> and type your CRICOS code manually.';
   });
 })();
 </script>

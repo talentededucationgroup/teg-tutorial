@@ -34,10 +34,10 @@ def wrap(d, text, font, width):
     return lines
 
 
-def make_card(kind, title, key, sub=None, country=None):
+def make_card(kind, title, key, sub=None, country=None, provider=None):
     os.makedirs(OUT, exist_ok=True)
     title = clean(title)
-    h = hashlib.sha256(f'{kind}|{title}|{sub}|{country}|v2'.encode()).hexdigest()[:16]
+    h = hashlib.sha256(f'{kind}|{title}|{sub}|{country}|{provider}|v3'.encode()).hexdigest()[:16]
     path = os.path.join(OUT, h + '.png')
     if os.path.exists(path):
         return BASE + h + '.png'
@@ -48,7 +48,7 @@ def make_card(kind, title, key, sub=None, country=None):
         t = y / W
         d.line([(0, y), (W, y)], fill=tuple(int(TOP[i] + (BOT[i] - TOP[i]) * t) for i in range(3)))
     from social_photos import get_photo
-    photo, credit = get_photo(country, key) if country is not None else (None, None)
+    photo, credit = get_photo(country, key, provider) if country is not None else (None, None)
     if photo:
         r = max(W / photo.width, 470 / photo.height)
         ph = photo.resize((int(photo.width * r) + 1, int(photo.height * r) + 1))

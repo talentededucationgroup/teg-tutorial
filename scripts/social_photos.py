@@ -4,7 +4,7 @@ Only CC0 / Public domain / CC BY (NO share-alike, NO non-commercial), landscape,
 title must contain the landmark/city name. Chosen photos are cached in data/social-photos.json
 and social/photos/*.jpg so each is picked once and can be reviewed/removed by hand
 (set "blocked": true in the JSON to never use one again)."""
-import json, os, re, hashlib, io, urllib.parse, urllib.request
+import json, os, re, hashlib, io, html, glob, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = os.path.join(ROOT, 'data', 'social-photos.json')
@@ -72,17 +72,31 @@ def _search(place, used):
         lic = (md.get('LicenseShortName') or {}).get('value', '').strip().upper()
         if lic not in LIC:
             continue
-        artist = re.sub('<[^>]+>', '', (md.get('Artist') or {}).get('value', '')).strip()[:60] or 'Unknown'
+        artist = html.unescape(re.sub('<[^>]+>', ' ', (md.get('Artist') or {}).get('value', ''))).strip()
+        artist = re.sub(r'\s+', ' ', artist)
+        artist = re.sub(r'^(.+?)\s*\1$', r'\1', artist)[:60] or 'Unknown'
         name = 'Public domain' if lic == 'PUBLIC DOMAIN' else lic
         return {"place": place, "file_page": ii['descriptionurl'], "thumb": ii.get('thumburl'), "author": artist,
                 "license": name, "license_url": LIC[lic]}
     return None
 
 
-def get_photo(country, seed):
-    """Return (PIL.Image or None, credit str or None). Never raises."""
+def slug(t):
+    return re.sub(r'[^a-z0-9]+', '-', (t or '').lower()).strip('-')
+
+
+def get_photo(country, seed, provider=None):
+    """Return (PIL.Image or None, credit str or None). Never raises.
+    1) social/library/<provider-slug>/*.jpg|png = official brochure/marketing images supplied by the
+       provider to Talented as their agent (uploaded by the owner) -> used first, credit = provider.
+    2) openly licensed Wikimedia Commons city photo for the country."""
     try:
         from PIL import Image
+        if provider:
+            lib = sorted(glob.glob(os.path.join(ROOT, 'social', 'library', slug(provider), '*.[jp][pn]g')))
+            if lib:
+                pick = lib[int(hashlib.sha256(seed.encode()).hexdigest(), 16) % len(lib)]
+                return Image.open(pick).convert('RGB'), f"Foto: {provider}"
         m = load()
         cc = code(country)
         pool = [i for i in m['items'] if i.get('country') == cc and not i.get('blocked')]

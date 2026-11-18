@@ -64,7 +64,7 @@ def collect():
             'scholarship', key,
             ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
             ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
-            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country')})
+            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country'), "provider": it.get('provider')})
     b = load('banners.json', {}) or {}
     for it in b.get('items', []):
         if not it.get('approved'):
@@ -80,7 +80,7 @@ def collect():
         out[kind][it['id']] = entry(kind, it['id'], ('🔥 Promo: ' if is_promo else '⭐ ') + hl_id,
                                     ('🔥 Promo: ' if is_promo else '⭐ ') + hl_en, 'programs',
                                     url_q=(it.get('match') or {}).get('q') or prov, priority=pri,
-                                    extra={"paid": bool(it.get('paid'))})
+                                    extra={"paid": bool(it.get('paid')), "provider": prov})
     j = load('jobs.json', {}) or {}
     for it in j.get('items', []):
         out['jobs'][it['id']] = it.get('country') or 'other'
@@ -128,6 +128,12 @@ def main():
         n = load('news.json', {}) or {}
         recent = {i['id'] for i in n.get('items', []) if i.get('date', '') >= week}
         new = [e for k, e in cur['news'].items() if k in recent]
+    flat = {e['id']: e for d in cur.values() for e in d.values() if isinstance(e, dict)}
+    for i in items:
+        if i['id'] in flat:
+            for k in ('country', 'provider'):
+                if flat[i['id']].get(k) and not i.get(k):
+                    i[k] = flat[i['id']][k]
     existing = {i['id'] for i in items}
     new = [e for e in new if e['id'] not in existing]
     items = sorted(new + items, key=lambda e: (e['date'], e.get('priority', 1)), reverse=True)[:MAX_ITEMS]
@@ -168,7 +174,7 @@ def write_rss(items):
     for p in sp.get('items', []):
         if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
             extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
-                          "caption": p.get('caption'), "sub": p.get('sub'), "country": p.get('country') or 'ANY', "url": p.get('url') or SITE + '/'})
+                          "caption": p.get('caption'), "sub": p.get('sub'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
@@ -178,7 +184,7 @@ def write_rss(items):
         except Exception:
             d = NOW
         t = e['title']['id']
-        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY')
+        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'))
         desc = e.get('caption') or t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"

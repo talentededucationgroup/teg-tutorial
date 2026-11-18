@@ -173,7 +173,7 @@ def write_rss(items):
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"
-                   f"<enclosure url=\"{SITE}/og-image.png\" type=\"image/png\" length=\"0\"/></item>")
+                   f"<enclosure url=\"https://info.talentededucationgroup.com/mocktest/logo.png\" type=\"image/png\" length=\"0\"/></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
            '<title>Talented Education Group - Yang baru</title>'
            f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'

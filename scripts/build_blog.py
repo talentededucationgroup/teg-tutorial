@@ -9,7 +9,7 @@ N=json.load(open(os.path.join(ROOT,'data/news.json'),encoding='utf-8'))
 SITE='https://info.talentededucationgroup.com'
 PRICE='https://pricelist.talentededucationgroup.com/biaya-studi'
 LINK='https://linktr.ee/talentededucationgroup'
-FORM='https://form.jotform.com/263181709123050'
+ADV='https://pricelist.talentededucationgroup.com/advertise'
 OG=SITE+'/assets/share/pricelist-share-v2.jpg'
 e=html.escape
 T={'id':{'blog':'Blog Talented','sub':'Berita visa pelajar & tips studi luar negeri - diperbarui setiap bulan','read':'Baca','share':'Bagikan','copy':'Salin link','copied':'Link disalin','sources':'Sumber resmi','back':'← Semua artikel','cta1':'Cek biaya studi','cta2':'Konsultasi gratis','cta3':'Untuk institusi: ajukan paket promosi','news':'Berita imigrasi terbaru','disc':N['disclaimer']['id'],'upd':'Diperbarui','lang':'English','langq':'en','other':'Artikel lain'},
@@ -79,12 +79,12 @@ for l in ('id','en'):
         ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":OG,"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
         body=f"""<p class="meta"><a href="{url_idx(l)}">{t['back']}</a></p><h1>{e(p['title'][l])}</h1><p class="meta">{t['upd']}: {fmt(p.get('updated',p['date']),l)}</p>
 {share(u,p['title'][l],l)}<article>{p['body'][l]}</article><h2>{t['sources']}</h2><ul class="src">{src}</ul>
-<div class="cta"><a href="{PRICE}?lang={l}">{t['cta1']}</a><a class="alt" href="{LINK}">{t['cta2']}</a><a class="alt" href="{FORM}">{t['cta3']}</a></div>
+<div class="cta"><a href="{PRICE}?lang={l}">{t['cta1']}</a><a class="alt" href="{LINK}">{t['cta2']}</a> <a class="alt" href="{ADV}?lang={l}">{t['cta3']}</a></div>
 {share(u,p['title'][l],l)}{('<h2>'+t['other']+'</h2><ul>'+others+'</ul>') if others else ''}<p class="disc">{e(t['disc'])}</p>"""
         write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,f'<script type="application/ld+json">{ld}</script>'))
     cards=''.join(f'<div class="card"><h3><a href="{url_post(p["slug"],l)}">{e(p["title"][l])}</a></h3><p>{e(p["description"][l])}</p><span class="meta">{fmt(p["date"],l)}</span></div>' for p in posts)
     body=f"""<h1>{t['blog']}</h1><p class="meta">{t['sub']}</p>{share(url_idx(l),t['blog'],l)}{cards}<h2>{t['news']}</h2>{news_list(l)}
-<div class="cta"><a href="{PRICE}?lang={l}">{t['cta1']}</a><a class="alt" href="{LINK}">{t['cta2']}</a><a class="alt" href="{FORM}">{t['cta3']}</a></div><p class="disc">{e(t['disc'])}</p>"""
+<div class="cta"><a href="{PRICE}?lang={l}">{t['cta1']}</a><a class="alt" href="{LINK}">{t['cta2']}</a> <a class="alt" href="{ADV}?lang={l}">{t['cta3']}</a></div><p class="disc">{e(t['disc'])}</p>"""
     write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en','index.html'),page(l,t['blog']+' - Talented Education Group',t['sub'],url_idx(l),url_idx(t['langq']),body))
 # RSS
 items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description>{e(p['description']['id'])}</description></item>" for p in posts)

@@ -1,14 +1,42 @@
 {
  "version": "2026-11-18",
  "updated_at": "2026-11-18T22:20:00+07:00",
- "note": "Lowongan & akomodasi kiriman bisnis terdaftar lewat formulir gratis (Jotform 263214542459054). Hanya item yang lolos pemeriksaan otomatis (status approved) yang ada di file ini. Tidak berisi data kontak pribadi. Dikelola tugas terjadwal harian.",
+ "note": "Lowongan & akomodasi kiriman bisnis terdaftar DAN perorangan lewat formulir gratis (Jotform 263214542459054). Hanya item yang lolos pemeriksaan (status approved) ada di sini. Kontak hanya yang diizinkan pemasang untuk ditampilkan; tidak ada nama lengkap, alamat rumah, atau dokumen pribadi.",
  "form_url": "https://form.jotform.com/263214542459054",
  "labels": {
-  "verified": {"id": "Bisnis terverifikasi", "en": "Verified business"},
-  "post_cta": {"id": "Pasang lowongan / akomodasi gratis", "en": "Post a job / accommodation for free"},
-  "post_note": {"id": "Khusus bisnis terdaftar. Dicek dulu sebelum tayang (±24 jam).", "en": "Registered businesses only. Checked before it goes live (about 24 hours)."},
-  "report": {"id": "Laporkan iklan ini", "en": "Report this listing"}
+  "verified": {
+   "id": "Bisnis terverifikasi",
+   "en": "Verified business"
+  },
+  "post_cta": {
+   "id": "Pasang lowongan / akomodasi gratis",
+   "en": "Post a job / accommodation for free"
+  },
+  "post_note": {
+   "id": "Untuk bisnis & perorangan. Dicek dulu sebelum tayang (±24 jam).",
+   "en": "For businesses and private individuals. Checked before it goes live (about 24 hours)."
+  },
+  "report": {
+   "id": "Laporkan iklan ini",
+   "en": "Report this listing"
+  },
+  "individual": {
+   "id": "Iklan perorangan - sudah dicek, tetap waspada",
+   "en": "Private listing - checked, stay careful"
+  },
+  "safety_tips": {
+   "id": "Tips aman: lihat kamar/bertemu dulu di tempat umum, jangan pernah transfer uang sebelum ada kontrak tertulis, jangan kirim paspor atau data bank.",
+   "en": "Stay safe: view the room / meet in a public place first, never transfer money before a written contract, never send your passport or bank details."
+  },
+  "contact": {
+   "id": "Hubungi pemasang",
+   "en": "Contact the advertiser"
+  }
  },
  "jobs": [],
- "accommodation": []
+ "accommodation": [],
+ "rules": {
+  "individual": "Perorangan: email terverifikasi, kontak hanya yang diizinkan, akomodasi wajib bukti hak sewa (dicek lalu tidak disimpan), maks 2 iklan aktif per email, tayang 30 hari, badge 'Iklan perorangan' + tips aman.",
+  "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari."
+ }
 }

@@ -56,11 +56,11 @@ def fmt(d,l):
 def share(url,title,l):
     t=T[l]; u=e(url); q=lambda s: __import__('urllib.parse').parse.quote(s,safe='')
     return f"""<div class="share" aria-label="{t['share']}"><span class="lbl">{t['share']}:</span><button type="button" onclick="nshare()">📤</button>
-<a class="wa" href="https://wa.me/?text={q(title+' '+url)}" target="_blank" rel="noopener">WhatsApp</a>
-<a href="https://www.facebook.com/sharer/sharer.php?u={q(url)}" target="_blank" rel="noopener">Facebook</a>
-<a href="https://www.linkedin.com/sharing/share-offsite/?url={q(url)}" target="_blank" rel="noopener">LinkedIn</a>
-<a href="https://twitter.com/intent/tweet?url={q(url)}&text={q(title)}" target="_blank" rel="noopener">X</a>
-<a href="https://t.me/share/url?url={q(url)}&text={q(title)}" target="_blank" rel="noopener">Telegram</a>
+<a class="wa" href="https://wa.me/?text={q(title+' '+url)}" target="talented_ext" rel="noopener">WhatsApp</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u={q(url)}" target="talented_ext" rel="noopener">Facebook</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url={q(url)}" target="talented_ext" rel="noopener">LinkedIn</a>
+<a href="https://twitter.com/intent/tweet?url={q(url)}&text={q(title)}" target="talented_ext" rel="noopener">X</a>
+<a href="https://t.me/share/url?url={q(url)}&text={q(title)}" target="talented_ext" rel="noopener">Telegram</a>
 <button type="button" onclick="copyl()">🔗 {t['copy']}</button></div>"""
 JS=lambda l:f"""<div id="toast">{T[l]['copied']}</div><script>
 function nshare(){{if(navigator.share){{navigator.share({{title:document.title,url:location.href}}).catch(()=>{{}})}}else copyl()}}
@@ -89,7 +89,7 @@ def news_list(l,k=6):
     for it in sorted(N['items'],key=lambda x:x['date'],reverse=True)[:k]:
         st=N['statuses'][it['status']][l]; c=N['countries'][it['country']][l]
         off=[x for x in it['links'] if x.get('official')]
-        a=f'<a href="{e(off[0]["url"])}" target="_blank" rel="noopener">{"Sumber resmi ↗" if l=="id" else "Official source ↗"}</a>' if off else ''
+        a=f'<a href="{e(off[0]["url"])}" target="talented_ext" rel="noopener">{"Sumber resmi ↗" if l=="id" else "Official source ↗"}</a>' if off else ''
         title=clean_title(it["title"][l],c)
         dl=''
         if it.get('deadline') and not any(w in title.lower() for w in ('tutup','closes','closing')):
@@ -108,7 +108,7 @@ for l in ('id','en'):
     for p in posts:
         u=url_post(p['slug'],l); alt=url_post(p['slug'],t['langq'])
         others=''.join(f'<li><a href="{url_post(o["slug"],l)}">{e(o["title"][l])}</a></li>' for o in posts if o is not p)[:4000]
-        src=''.join(f'<li><a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["label"])}</a></li>' for s in p['sources'])
+        src=''.join(f'<li><a href="{e(s["url"])}" target="talented_ext" rel="noopener">{e(s["label"])}</a></li>' for s in p['sources'])
         ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":OG,"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
         hero=f"""<section class="hero"><div class="wrap"><p class="meta"><a href="{url_idx(l)}">{t['back']}</a></p><h1>{e(p['title'][l])}</h1><p class="meta">{t['upd']}: {fmt(p.get('updated',p['date']),l)}</p>{share(u,p['title'][l],l)}</div></section>"""
         body=f"""<article>{p['body'][l]}</article><h2>{t['sources']}</h2><ul class="src">{src}</ul>

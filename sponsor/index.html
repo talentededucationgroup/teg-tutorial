@@ -163,7 +163,7 @@ footer{color:var(--muted);font-size:.82rem}
     document.getElementById('pLegal').textContent=p.name;
     document.getElementById('pLoc').textContent=[(p.cities||[]).join(', '),(p.states||[]).join(', ')].filter(Boolean).join(' · ')||'–';
     var w=document.getElementById('pWeb');w.textContent='';
-    if(p.website&&/^https?:\/\//i.test(p.website)){var a=document.createElement('a');a.href=p.website;a.target='_blank';a.rel='noopener';a.textContent=p.website;w.appendChild(a);}else w.textContent='–';
+    if(p.website&&/^https?:\/\//i.test(p.website)){var a=document.createElement('a');a.href=p.website;a.target='talented_ext';a.rel='noopener';a.textContent=p.website;w.appendChild(a);}else w.textContent='–';
     document.getElementById('go').href=formUrl(p);
     searchCard.style.display='none';picked.style.display='block';picked.scrollIntoView({behavior:'smooth',block:'start'});
   }

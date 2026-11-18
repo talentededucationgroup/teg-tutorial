@@ -80,7 +80,8 @@ def collect():
         out[kind][it['id']] = entry(kind, it['id'], ('🔥 Promo: ' if is_promo else '⭐ ') + hl_id,
                                     ('🔥 Promo: ' if is_promo else '⭐ ') + hl_en, 'programs',
                                     url_q=(it.get('match') or {}).get('q') or prov, priority=pri,
-                                    extra={"paid": bool(it.get('paid')), "provider": prov})
+                                    extra={"paid": bool(it.get('paid')), "provider": prov,
+                                           "country": (it.get('match') or {}).get('country') or ('AU' if it.get('cricos') else None)})
     j = load('jobs.json', {}) or {}
     for it in j.get('items', []):
         out['jobs'][it['id']] = it.get('country') or 'other'

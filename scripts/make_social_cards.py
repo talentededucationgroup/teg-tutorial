@@ -142,7 +142,7 @@ def sticker(num, label, color=GOLD):
 def make_card(kind, title, key, sub=None, country=None, provider=None):
     os.makedirs(OUT, exist_ok=True)
     raw = clean(title)
-    h = hashlib.sha256(f'{kind}|{raw}|{sub}|{country}|{provider}|v5'.encode()).hexdigest()[:16]
+    h = hashlib.sha256(f'{kind}|{raw}|{sub}|{country}|{provider}|v6'.encode()).hexdigest()[:16]
     path = os.path.join(OUT, h + '.png')
     if os.path.exists(path):
         return BASE + h + '.png'
@@ -218,7 +218,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None):
         shadowed(im, ch, (W - 48 - ch.width, 40))
     # sticker
     if big:
-        st = sticker(big.group(1).upper(), STICK.get(kind, 'SPESIAL'))
+        st = sticker(big.group(1).upper(), 'BEASISWA' if re.search(r'scholarship|beasiswa|bursary', t, re.I) else STICK.get(kind, 'SPESIAL'))
         shadowed(im, st, (W - 330, PH - 250), radius=16, alpha=120)
     d = ImageDraw.Draw(im)
     if credit:

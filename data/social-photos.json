@@ -186,7 +186,8 @@
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "FR",
-   "file": "social/photos/33e62249ccf71119.jpg"
+   "file": "social/photos/33e62249ccf71119.jpg",
+   "blocked": true
   },
   {
    "place": "Lyon",

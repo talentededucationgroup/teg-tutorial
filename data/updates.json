@@ -1,5 +1,5 @@
 {
- "version": "2026-11-19T01:23:53+07:00",
+ "version": "2026-11-19T01:25:15+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,7 +123,8 @@
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education",
-   "provider": "AIH Higher Education (Australian Institute of Higher Education)"
+   "provider": "AIH Higher Education (Australian Institute of Higher Education)",
+   "country": "AU"
   },
   {
    "id": "promo:cdu-founding-2026",
@@ -136,7 +137,8 @@
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Charles%20Darwin",
-   "provider": "Charles Darwin University (CDU)"
+   "provider": "Charles Darwin University (CDU)",
+   "country": "AU"
   },
   {
    "id": "promo:aiat-founding-2026",
@@ -149,7 +151,8 @@
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Australian%20Institute%20of%20Advanced%20Technologies",
-   "provider": "Australian Institute of Advanced Technologies (AIAT)"
+   "provider": "Australian Institute of Advanced Technologies (AIAT)",
+   "country": "AU"
   },
   {
    "id": "promo:apic-promo-2026",
@@ -162,7 +165,8 @@
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College",
-   "provider": "Asia Pacific International College (APIC)"
+   "provider": "Asia Pacific International College (APIC)",
+   "country": "AU"
   },
   {
    "id": "accommodation:2026-11-18-1",

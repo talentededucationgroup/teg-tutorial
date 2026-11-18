@@ -1,0 +1,12 @@
+{
+ "version": "2026-11-19",
+ "updated_at": "2026-11-19T06:25:00+07:00",
+ "processed": {},
+ "reports": {},
+ "blocklist": {
+  "poster_hash": [],
+  "phone_hash": [],
+  "domains": [],
+  "registrations": []
+ }
+}

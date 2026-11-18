@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Order a Sponsored Slide - Talented Education Group</title>
-<meta name="description" content="Find your institution's CRICOS provider code and order a Sponsored slide on the Talented Education Group study-cost website.">
+<meta name="description" content="Order a Sponsored slide on the Talented Education Group study-cost website - for schools and universities worldwide and for companies serving international students.">
 <meta name="robots" content="noindex">
 <style>
 :root{--bg:#f4f7f5;--card:#fff;--ink:#18241f;--muted:#5b6a63;--green:#1f5f4a;--green2:#e6f2ec;--line:#dbe3de;--warn:#8a5a00;--warnbg:#fff6e0}
@@ -36,35 +36,55 @@ dt{color:var(--muted)}dd{margin:0;word-break:break-word}
 .overseas{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
 .overseas input{margin-top:4px;width:18px;height:18px;accent-color:var(--green)}
 .note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:.9rem;margin-top:12px}
-#ovBox{display:none}
 .empty{color:var(--muted);font-size:.92rem;margin-top:10px}
 footer{color:var(--muted);font-size:.82rem}
+.types{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0;padding:0;border:0}
+.types legend{font-weight:700;margin-bottom:8px;padding:0}
+.type{position:relative;display:flex;gap:10px;align-items:flex-start;background:#fff;border:2px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;font-weight:400;margin:0}
+.type:hover{border-color:var(--green)}.type input{margin-top:4px;width:18px;height:18px;accent-color:var(--green);flex:none}
+.type b{display:block;font-size:.98rem}.type small{display:block;color:var(--muted);font-size:.84rem;line-height:1.4}
+.type:has(input:checked){border-color:var(--green);background:var(--green2)}
+.step{font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--green);margin:0 0 6px}
+#searchCard,#otherCard{display:none}
+@media(max-width:560px){.types{grid-template-columns:1fr}}
+
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1714;--card:#17211d;--ink:#e6eee9;--muted:#9fb0a8;--green:#5fbf99;--green2:#1d2d26;--line:#2a3a33;--warn:#ffd48a;--warnbg:#3a2e14}
 :root:not([data-theme="light"]) input[type=search],:root:not([data-theme="light"]) ul#results li button,:root:not([data-theme="light"]) .btn-ghost{background:var(--card)}
-:root:not([data-theme="light"]) .btn-primary{color:#0f1714}}
+:root:not([data-theme="light"]) .btn-primary{color:#0f1714}
+:root:not([data-theme="light"]) .type{background:var(--card)}}
 </style>
 </head>
 <body>
 <main class="wrap">
   <p class="eyebrow">Talented Education Group · Sponsored</p>
   <h1>Order a Sponsored slide</h1>
-  <p class="lead">Open to schools, colleges and universities, and to companies that serve international students (e.g. OSHC/health insurance, banks &amp; money transfer, accommodation, travel, phone/SIM, test preparation). Step 1: Australian education providers find their institution so the correct CRICOS code is filled in; other organisations tick the box below. Step 2: complete the order form and pay online. Your slide goes live automatically after payment and a content check (usually within 24 hours).</p>
+  <p class="lead">Open to <b>schools, colleges and universities in any country</b>, and to <b>companies that serve international students</b> (OSHC/health insurance, banks &amp; money transfer, accommodation, travel, phone/SIM, test preparation, jobs) and government or scholarship bodies. Pay online - your slide goes live after payment and a content check (usually within 24 hours).</p>
+
+  <section class="card">
+    <p class="step">Step 1</p>
+    <fieldset class="types" id="types">
+      <legend>Who is advertising?</legend>
+      <label class="type"><input type="radio" name="t" value="au"><span><b>🇦🇺 Education provider in Australia</b><small>Find your CRICOS code - it is filled in for you.</small></span></label>
+      <label class="type"><input type="radio" name="t" value="intl"><span><b>🌏 Education provider outside Australia</b><small>NZ, UK, Canada, USA, Europe, Asia and more.</small></span></label>
+      <label class="type"><input type="radio" name="t" value="company"><span><b>🏢 Company / student service</b><small>OSHC/insurance, bank, money transfer, accommodation, travel, SIM, test prep, jobs.</small></span></label>
+      <label class="type"><input type="radio" name="t" value="gov"><span><b>🏛️ Government or scholarship body</b><small>Ministries, embassies, scholarship programmes.</small></span></label>
+    </fieldset>
+  </section>
 
   <section class="card" id="searchCard">
+    <p class="step">Step 2</p>
     <label for="q">Australian institution name or CRICOS code</label>
     <input type="search" id="q" placeholder="e.g. Kent Institute, Charles Darwin University, 00300K" autocomplete="off" disabled>
     <p class="hint" id="status">Loading the official CRICOS register…</p>
     <ul id="results" aria-live="polite"></ul>
     <p class="empty" id="empty" hidden>No matching CRICOS provider found. Check the spelling, try the trading name, or search by CRICOS code.</p>
+  </section>
 
-    <div class="overseas">
-      <input type="checkbox" id="ov">
-      <label for="ov" style="font-weight:400;margin:0">We have <b>no CRICOS code</b>: an institution outside Australia, or a <b>company</b> (OSHC/insurance, bank, accommodation, travel, etc.). I will enter our official registration number in the form.</label>
-    </div>
-    <div id="ovBox">
-      <div class="note">CRICOS lookup is skipped. In the form, enter your official registration number: education providers outside Australia (e.g. NZQA provider number, UK UKPRN, Canada DLI); companies: business/company registration (e.g. ABN/ACN, NZBN, UK Companies House, Indonesian NIB). We verify every organisation and only accept ads that are relevant to students studying abroad - no spam, misleading or harmful offers.</div>
-      <div class="row"><a class="btn btn-primary" id="ovGo" href="#">Continue to order form →</a></div>
-    </div>
+  <section class="card" id="otherCard">
+    <p class="step">Step 2</p>
+    <h2 id="oTitle" style="margin:0 0 6px;font-size:1.15rem"></h2>
+    <div class="note" id="oNote"></div>
+    <div class="row"><a class="btn btn-primary" id="ovGo" href="#">Continue to order form →</a></div>
   </section>
 
   <section class="card" id="picked" aria-live="polite">
@@ -82,15 +102,15 @@ footer{color:var(--muted);font-size:.82rem}
     <p class="hint">The institution name, CRICOS code and website are pre-filled in the form. Orders are checked against the CRICOS register before publishing.</p>
   </section>
 
-  <footer>Source: official CRICOS register (data snapshot <span id="snap">–</span>). Sponsored slides are labelled "Sponsored" and never change prices, ranking or filters.</footer>
+  <footer>Australian providers: official CRICOS register (data snapshot <span id="snap">–</span>). We verify every advertiser (official registration, real website, relevant to students; no spam or harmful offers). Sponsored slides are labelled "Sponsored" and never change prices, ranking or filters.</footer>
 </main>
 <script>
 (function(){
   var FORM='https://form.jotform.com/263181709123050';
   var DATA='https://info.talentededucationgroup.com/data/cricos.json';
   var q=document.getElementById('q'),res=document.getElementById('results'),st=document.getElementById('status'),
-      empty=document.getElementById('empty'),picked=document.getElementById('picked'),ov=document.getElementById('ov'),
-      ovBox=document.getElementById('ovBox'),searchCard=document.getElementById('searchCard');
+      empty=document.getElementById('empty'),picked=document.getElementById('picked'),
+      otherCard=document.getElementById('otherCard'),searchCard=document.getElementById('searchCard');
   var list=[];
   document.getElementById('ovGo').href=FORM;
   var STOP=/\b(pty|ltd|limited|proprietary|the|inc|incorporated|trading|as|t\/a|australia|aust)\b/g;
@@ -144,13 +164,24 @@ footer{color:var(--muted);font-size:.82rem}
     searchCard.style.display='none';picked.style.display='block';picked.scrollIntoView({behavior:'smooth',block:'start'});
   }
   document.getElementById('change').addEventListener('click',function(){picked.style.display='none';searchCard.style.display='block';q.focus();});
-  ov.addEventListener('change',function(){var on=ov.checked;ovBox.style.display=on?'block':'none';q.disabled=on||!list.length;res.style.display=on?'none':'';empty.hidden=true;});
+  var TXT={
+    intl:['Education provider outside Australia','In the form, enter your official registration number in the CRICOS / registration field (e.g. NZQA provider number, UK UKPRN, Canada DLI, US SEVP/school code, or your national education ministry registration) and your official website. We check it against the official register before publishing.'],
+    company:['Company / student service','In the form, choose "Student service company" and enter your official business registration number (e.g. ABN/ACN, NZBN, UK Companies House, Indonesian NIB). Insurance and financial services: add your licence (e.g. APRA/AFSL, OJK) in the notes. Ads must be relevant to students studying abroad - no spam, scams or harmful offers.'],
+    gov:['Government or scholarship body','In the form, choose "Government or scholarship body", enter your official website (government or programme domain) and, if available, an official reference or registration number. Scholarship ads need a link to the official programme page.']};
+  function setType(v){
+    picked.style.display='none';
+    if(v==='au'){otherCard.style.display='none';searchCard.style.display='block';if(list.length){q.disabled=false;q.focus();}}
+    else{searchCard.style.display='none';otherCard.style.display='block';document.getElementById('oTitle').textContent=TXT[v][0];document.getElementById('oNote').textContent=TXT[v][1];}
+    try{history.replaceState(null,'','#'+v);}catch(e){}
+  }
+  [].forEach.call(document.querySelectorAll('input[name=t]'),function(r){r.addEventListener('change',function(){setType(r.value);});});
+  var h=(location.hash||'').slice(1);var pre=document.querySelector('input[name=t][value="'+h+'"]');if(pre){pre.checked=true;setType(h);}
   var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(search,120);});
   fetch(DATA,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
     list=(d.providers||[]).map(function(p){p._n=core(p.name);p._t=core(p.trading_name);p._code=(p.code||'').toLowerCase();return p;});
     document.getElementById('snap').textContent=d.data_date||d.updated_at||'–';
     st.textContent=list.length.toLocaleString('en')+' CRICOS providers. Type at least 2 letters, then pick your institution.';
-    q.disabled=false;q.focus();
+    q.disabled=false;if(searchCard.style.display==='block')q.focus();
   }).catch(function(){
     st.innerHTML='The CRICOS register could not be loaded. You can still <a href="'+FORM+'">open the order form</a> and type your CRICOS code manually.';
   });

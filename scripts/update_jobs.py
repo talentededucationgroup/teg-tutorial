@@ -25,11 +25,20 @@ CITIES = {
     'gb': ['London', 'Manchester', 'Birmingham', 'Leeds', 'Edinburgh', 'Glasgow'],
     'de': ['Berlin', 'München', 'Hamburg', 'Frankfurt am Main', 'Köln'],
     'sg': ['Singapore'],
+    'fr': ['Paris', 'Lyon'],
+    'es': ['Madrid', 'Barcelona'],
+    'ch': ['Zürich', 'Genève'],
 }
+# negara tambahan (18/11/2026) hanya diambil di run pagi (WIB < 12) supaya kuota gratis Adzuna aman
+MORNING_ONLY = {'fr', 'es', 'ch'}
 COUNTRY = {'au': ('Australia', 'AUD'), 'nz': ('New Zealand', 'NZD'), 'ca': ('Canada', 'CAD'),
-           'gb': ('United Kingdom', 'GBP'), 'de': ('Germany', 'EUR'), 'sg': ('Singapore', 'SGD')}
+           'gb': ('United Kingdom', 'GBP'), 'de': ('Germany', 'EUR'), 'sg': ('Singapore', 'SGD'),
+           'fr': ('France', 'EUR'), 'es': ('Spain', 'EUR'), 'ch': ('Switzerland', 'CHF')}
 # Jepang & Korea Selatan tidak didukung Adzuna API -> website menampilkan direktori portal resmi (data/directory.json)
 QUERY_DE = 'Werkstudent Aushilfe Minijob Teilzeit Kellner Servicekraft Küchenhilfe Barista Verkäufer Lagerhelfer Reinigungskraft Student'
+QUERY_FR = 'serveur serveuse vendeur vendeuse caissier caissière plongeur équipier employé polyvalent étudiant temps partiel baby-sitting livreur'
+QUERY_ES = 'camarero camarera dependiente dependienta cajero ayudante cocina limpieza repartidor estudiante media jornada'
+QUERY_CH = 'Werkstudent Aushilfe Teilzeit Servicemitarbeiter Verkäufer étudiant temps partiel serveur vendeur'
 QUERY = 'casual part-time barista kitchen hand waiter waitress retail cleaner warehouse housekeeping café hospitality crew support worker'
 PER_CITY = 50  # fetched per city; filtered to student-friendly roles below
 STUDENT_KEYWORDS = ['barista', 'kitchen', 'cook', 'chef', 'dishwash', 'waiter', 'waitress', 'waitstaff', 'wait staff', 'food', 'hospitality',
@@ -40,11 +49,13 @@ STUDENT_KEYWORDS = ['barista', 'kitchen', 'cook', 'chef', 'dishwash', 'waiter', 
                     'childcare', 'early childhood', 'educator', 'tutor', 'receptionist', 'admin assistant', 'administration assistant',
                     'data entry', 'casual', 'part time', 'part-time', 'student',
                     'werkstudent', 'aushilfe', 'minijob', 'teilzeit', 'kellner', 'servicekraft', 'küche', 'kuche', 'verkäufer',
-                    'verkauf', 'kasse', 'lager', 'kommission', 'reinigung', 'fahrer', 'zusteller', 'studentische']
+                    'verkauf', 'kasse', 'lager', 'kommission', 'reinigung', 'fahrer', 'zusteller', 'studentische',
+                    'serveur', 'serveuse', 'vendeur', 'vendeuse', 'caissier', 'caissière', 'plongeur', 'équipier', 'polyvalent', 'étudiant', 'temps partiel', 'livreur', 'baby-sitt', 'serveur',
+                    'camarer', 'dependient', 'cajer', 'ayudante', 'limpieza', 'repartidor', 'estudiante', 'media jornada', 'servicemitarbeit']
 EXCLUDE_KEYWORDS = ['senior', 'manager', 'director', 'head of', 'lead ', 'principal', 'consultant', 'psychiatrist', 'doctor',
                     'registrar', 'specialist', 'engineer', 'lawyer', 'solicitor', 'accountant', 'planner', 'executive', 'officer',
                     'registered nurse', 'surgeon', 'physician', 'apprentice', 'therapist', 'teacher', 'locum', 'psycholog', 'citizen', 'pr only', 'permanent resident',
-                    'leiter', 'leitung', 'ingenieur', 'arzt', 'singaporean only', 'singapore citizen']
+                    'leiter', 'leitung', 'ingenieur', 'arzt', 'responsable', 'directeur', 'ingénieur', 'jefe', 'gerente', 'director de', 'singaporean only', 'singapore citizen']
 SUSPICIOUS = ['upfront fee', 'registration fee', 'pay a fee', 'pay to apply', 'training fee', 'deposit required', 'telegram',
               'whatsapp only', 'bitcoin', 'crypto', 'western union', 'gift card', 'processing fee', 'send your passport',
               'bank details to apply', 'cash in hand guaranteed']
@@ -157,10 +168,15 @@ def main():
     keep = {k: v for k, v in prev.items() if k == 'item_text' or (k.rsplit('_', 1)[-1] in LANGS and k.rsplit('_', 1)[0] == 'labels')}
     prev_items = {i['id']: i for i in prev.get('items', [])}
     items, held, failed, ok_cities, alerts = {}, [], [], set(), []
+    morning = NOW.astimezone(WIB).hour < 12
+    skipped = set()
     for cc, cities in CITIES.items():
+        if cc in MORNING_ONLY and not morning:
+            skipped.update(cities)
+            continue
         for city in cities:
             q = urllib.parse.urlencode({'app_id': app_id, 'app_key': app_key, 'results_per_page': PER_CITY, 'where': city,
-                                        'what_or': (QUERY_DE if cc == 'de' else QUERY), 'max_days_old': MAX_AGE_DAYS, 'sort_by': 'date', 'content-type': 'application/json'})
+                                        'what_or': {'de': QUERY_DE, 'fr': QUERY_FR, 'es': QUERY_ES, 'ch': QUERY_CH}.get(cc, QUERY), 'max_days_old': MAX_AGE_DAYS, 'sort_by': 'date', 'content-type': 'application/json'})
             try:
                 data = get(f'https://api.adzuna.com/v1/api/jobs/{cc}/search/1?{q}')
                 ok_cities.add(city)
@@ -199,6 +215,10 @@ def main():
     for pid, old in prev_items.items():
         if pid in items or old.get('city') in ok_cities:
             continue
+        if old.get('city') in skipped:  # not scheduled this run: keep as-is (still fresh from the morning run)
+            if (NOW.date() - datetime.date.fromisoformat(old['posted_date'])).days <= MAX_AGE_DAYS:
+                items[pid] = old
+            continue
         lv = parse_date(old.get('last_verified', ''))
         if lv and (NOW - lv).days < STALE_HIDE_DAYS and (NOW.date() - datetime.date.fromisoformat(old['posted_date'])).days <= MAX_AGE_DAYS:
             old['verification_status'] = 'Belum berhasil diperiksa ulang'
@@ -206,7 +226,7 @@ def main():
             items[pid] = old
     if failed:
         alerts.append('Sumber gagal diperiksa untuk kota: ' + ', '.join(f['city'] for f in failed))
-    total_cities = sum(len(v) for v in CITIES.values())
+    total_cities = sum(len(v) for v in CITIES.values()) - len(skipped)
     if len(failed) == total_cities or (failed and not ok_cities):
         print('ERROR: semua permintaan ke sumber gagal - data lama dipertahankan')
         write_log({'time': NOW.astimezone(WIB).isoformat(timespec='seconds'), 'result': 'gagal', 'failed': failed})

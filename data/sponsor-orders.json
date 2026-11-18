@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "processed": {
     "6706584372715050182": {
       "institution": "sddxzcgd",
@@ -14,10 +14,24 @@
       "institution": "sdgsd",
       "package": null,
       "amount_paid_aud": null,
-      "target_countries": ["Australia"],
+      "target_countries": [
+        "Australia"
+      ],
       "submitted": "2026-11-17",
       "checked": "2026-11-17",
       "status": "uji coba - tidak dipasang (dikirim 17/11/2026, tanpa pembayaran)"
+    },
+    "6708085956417941328": {
+      "institution": "Test",
+      "package": "event",
+      "amount_paid_aud": 60.0,
+      "target_countries": [
+        "Australia"
+      ],
+      "submitted": "2026-11-18",
+      "checked": "2026-11-18",
+      "status": "uji coba - tidak dipasang (nama institusi 'Test'; pembayaran PAID AUD 60 - pemilik perlu refund di Stripe)"
     }
-  }
+  },
+  "payment_detection": "Status lunas dibaca dari jawaban elemen 'Package' (control_stripe): paymentArray.order.status = 'PAID' dan stripeData.isCharged = true; jumlah = paymentArray.total (AUD); paket dari answer[0].id (1000=1m, 1001=3m, 1002=6m, 1003=event)."
 }

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18g",
+ "version": "2026-11-18h",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -136,7 +136,11 @@
     "site": "https://www.ahmoshc.com.au/",
     "logo_official": "https://www.ahmoshc.com.au/content/dam/oshcb2c/ahm-oshc-logo.svg",
     "checked": "2026-11-18",
-    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
+    "logo_variant": {
+     "variant": "Logo resmi ahm OSHC berwarna penuh (badge oranye + lingkaran biru) di kotak putih, kepala kartu gradasi #F78E32->#FBB031. Seperti header www.ahmoshc.com.au.",
+     "checked": "2026-11-18"
+    }
    },
    "contact": {
     "phone_au": "134 148",
@@ -211,7 +215,11 @@
     "site": "https://www.allianzcare.com.au/en/visas/student-visa-oshc.html",
     "logo_official": "https://www.allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/Allianz-Care-Australia-logo.png",
     "checked": "2026-11-18",
-    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
+    "logo_variant": {
+     "variant": "Logo 'Allianz (ii) Care' biru tua #003781 + 'Care' hijau tosca #009482 di kotak putih. Seperti header www.allianzcare.com.au.",
+     "checked": "2026-11-18"
+    }
    },
    "contact": {
     "phone_au": "136 742",
@@ -290,7 +298,11 @@
     "site": "https://www.bupa.com.au/",
     "logo_official": "SVG logo in header of https://www.bupa.com.au/",
     "checked": "2026-11-18",
-    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
+    "logo_variant": {
+     "variant": "Logo Bupa biru #0079C8 (ikon detak jantung + 'Bupa') di kotak putih. Seperti header www.bupa.com.au.",
+     "checked": "2026-11-18"
+    }
    },
    "contact": {
     "phone_au": "1800 888 942",
@@ -370,7 +382,11 @@
     "site": "https://www.medibank.com.au/overseas-health-insurance/oshc/",
     "logo_official": "https://www.medibank.com.au/content/dam/global/en/logo/medibank.webp",
     "checked": "2026-11-18",
-    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
+    "logo_variant": {
+     "variant": "Wordmark 'medibank' merah #DD0822 di kotak putih (atau versi putih di atas merah). Seperti header www.medibankoshc.com.au.",
+     "checked": "2026-11-18"
+    }
    },
    "contact": {
     "phone_au": "134 148",
@@ -455,7 +471,7 @@
     "checked": "2026-11-18",
     "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
     "logo_variant": {
-     "variant": "Logo nib warna hijau muda #82E578 (simbol + tulisan) langsung di atas latar hijau tua #144A38, TANPA kotak putih - sama dengan header www.nib.com.au (dicek 18/11/2026). Ambil SVG header nib.com.au, ubah fill ke #82E578.",
+     "variant": "Logo nib hijau muda #82E578 langsung di latar hijau tua #144A38, TANPA kotak putih. Seperti header www.nib.com.au.",
      "checked": "2026-11-18"
     }
    },
@@ -929,7 +945,8 @@
  },
  "brand_rules": {
   "use_logo": true,
-  "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib. UPDATE 18/11/2026: pemilik meminta logo resmi ditampilkan (Talented = partner Flywire untuk OSHC/OVHC). Simpan file logo resmi di path providers[].logo (unduh dari brand.logo_official), jangan hotlink."
+  "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib. UPDATE 18/11/2026: pemilik meminta logo resmi ditampilkan (Talented = partner Flywire untuk OSHC/OVHC). Simpan file logo resmi di path providers[].logo (unduh dari brand.logo_official), jangan hotlink.",
+  "logo_display": "Semua logo = file resmi apa adanya (warna asli, rasio asli, tidak di-recolor kecuali nib: fill #82E578 sesuai situs resmi). Logo berwarna di kotak putih bersudut 10px di tengah kepala kartu warna brand; nib tanpa kotak. Tinggi logo 36-44px. Dicek di situs resmi 18/11/2026."
  },
  "referral_buy": {
   "note": "Tombol beli OSHC/OVHC lewat link referral Talented (pemilik akan mengirim link). Website: tampilkan tombol HANYA bila url terisi (bukan null); tanpa nomor WA; buka tab baru. Ditambah 18/11/2026.",

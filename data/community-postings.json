@@ -44,5 +44,31 @@
   "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari.",
   "auto": "Sepenuhnya otomatis: ragu = ditolak otomatis (tidak menunggu pemilik). Laporan pengguna = iklan langsung disembunyikan (hidden:true) lalu dicek ulang; terbukti penipuan = dihapus + pemasang diblokir."
  },
- "report_form_url": "https://form.jotform.com/263214027573049"
+ "report_form_url": "https://form.jotform.com/263214027573049",
+ "sponsored": {
+  "packages": [
+   {
+    "key": "7d",
+    "days": 7,
+    "price": 15,
+    "currency": "AUD"
+   },
+   {
+    "key": "30d",
+    "days": 30,
+    "price": 40,
+    "currency": "AUD"
+   }
+  ],
+  "label": {
+   "id": "Sponsored",
+   "en": "Sponsored"
+  },
+  "upsell": {
+   "id": "⭐ Tampil paling atas dengan label Sponsored - mulai AUD 15 / 7 hari",
+   "en": "⭐ Pin your listing at the top with a Sponsored label - from AUD 15 / 7 days"
+  },
+  "rule": "Item dengan sponsored:{package, until} (until >= hari ini) tampil paling atas tab-nya, ditandai 'Sponsored', urut tanggal bayar; tidak ikut rolling banner. Setelah until lewat, item tetap tampil sebagai iklan biasa sampai closing_date/expires.",
+  "who": "Bisnis dan perorangan (keputusan pemilik 18/11/2026), setelah lolos pemeriksaan yang sama."
+ }
 }

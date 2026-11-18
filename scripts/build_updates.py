@@ -220,9 +220,10 @@ def write_rss(items):
     tags = {"scholarship": "#beasiswa #kuliahluarnegeri #studyabroad", "promo": "#promo #studyabroad",
             "news": "#visa #infoimigrasi #studyabroad", "sponsored": "#studyabroad #kuliahdiluarnegeri",
             "jobs": "#kerjapartime #studentjobs", "accommodation": "#akomodasi #studentaccommodation"}
-    out = []
+    out, out_story, out_reel = [], [], []
+    import urllib.parse as _up
     import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from make_social_cards import make_card
+    from make_social_cards import make_card, cleanup
     # extra ready-made marketing posts written by the weekly marketing task (data/social-posts.json)
     sp = load('social-posts.json', {}) or {}
     extra = []
@@ -247,12 +248,30 @@ def write_rss(items):
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"
                    f"<enclosure url=\"{x(img)}\" type=\"image/png\" length=\"0\"/></item>")
+        base_file = os.path.join(ROOT, 'social', 'cards', _up.unquote(img.rsplit('/', 1)[1]))
+        head = (f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
+                f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
+                f"<description>{x(desc)}</description>")
+        if os.path.exists(base_file[:-4] + ' Story.png'):
+            out_story.append(head + f"<enclosure url=\"{x(img[:-4] + '%20Story.png')}\" type=\"image/png\" length=\"0\"/></item>")
+        if os.path.exists(base_file[:-4] + ' Reel.mp4'):
+            sz = os.path.getsize(base_file[:-4] + ' Reel.mp4')
+            out_reel.append(head + f"<enclosure url=\"{x(img[:-4] + '%20Reel.mp4')}\" type=\"video/mp4\" length=\"{sz}\"/></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
            '<title>Talented Education Group - Yang baru</title>'
            f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'
            f'<language>id</language><lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>'
            + ''.join(out) + '</channel></rss>')
     open(os.path.join(ROOT, 'social-feed.xml'), 'w', encoding='utf-8').write(xml)
+    for fn, lst, ttl in (('social-feed-story.xml', out_story, 'Story 9:16'), ('social-feed-reels.xml', out_reel, 'Reels 9:16')):
+        open(os.path.join(ROOT, fn), 'w', encoding='utf-8').write(
+            '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+            f'<title>Talented Education Group - {ttl}</title><link>{SITE}/</link><description>{ttl} otomatis</description>'
+            f'<language>id</language><lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>' + ''.join(lst) + '</channel></rss>')
+    try:
+        cleanup()
+    except Exception:
+        pass
 
 
 def maybe_push(state, items):

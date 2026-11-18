@@ -1,0 +1,1 @@
+Foto ASLI milik Talented/VSA untuk postingan umum (berita visa, akomodasi, lowongan, tips): suasana kelas VSA, konsultasi, acara, siswa yang sudah memberi izin foto dipakai untuk promosi. JPG/PNG lanskap atau potret, tanpa tulisan/papan nama besar. Jangan foto dokumen/data pribadi.

@@ -1,0 +1,41 @@
+{
+ "note": "Postingan provider ini ditahan karena belum ada foto asli (brosur/foto sendiri). Kirim brosur ke chat Claude: 'masukkan ke library sosmed'.",
+ "providers": {
+  "A*STAR, NUS, NTU, SUTD (Singapura)": [
+   "scholarship:sg-astar-singa|open"
+  ],
+  "Australian Institute of Higher Education (AIH)": [
+   "scholarship:au-aih-next-gen-award|open",
+   "scholarship:au-aih-global-access-award|open",
+   "scholarship:au-aih-international-support-bursary|open",
+   "scholarship:au-aih-future-innovator|open"
+  ],
+  "Kementerian Eropa dan Luar Negeri Prancis (dikelola Campus France)": [
+   "scholarship:fr-eiffel-excellence|open"
+  ],
+  "AIH Higher Education (Australian Institute of Higher Education)": [
+   "promo:aih-promo-2026"
+  ],
+  "Charles Darwin University (CDU)": [
+   "promo:cdu-founding-2026"
+  ],
+  "Australian Institute of Advanced Technologies (AIAT)": [
+   "promo:aiat-founding-2026"
+  ],
+  "Asia Pacific International College (APIC)": [
+   "promo:apic-promo-2026"
+  ],
+  "Talented Umum (accommodation)": [
+   "accommodation:2026-11-18-1",
+   "accommodation:snapshot-2026-11-18"
+  ],
+  "Talented Umum (jobs)": [
+   "jobs:snapshot-2026-11-18"
+  ],
+  "Talented Umum (news)": [
+   "news:us-ds-rule-vacated-2026-11",
+   "news:nz-stgwv-2026-11-16",
+   "news:nz-pswv-eligibility-2026-11-16"
+  ]
+ }
+}

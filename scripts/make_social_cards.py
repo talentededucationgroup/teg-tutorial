@@ -281,8 +281,7 @@ def derive(kind, title, sub, country, provider, spec):
             info.append((where + ' · ' if where else '') + 'Deadline ' + idate(dl))
         elif where:
             info.append(where)
-    foot = spec.get('footnote') or ('Syarat berlaku. Info lengkap & biaya di caption.' if kind != 'news'
-                                     else 'Sumber resmi pemerintah. Detail di caption.')
+    foot = spec.get('footnote') or ('*Syarat & ketentuan berlaku.' if kind != 'news' else '*Sumber resmi pemerintah.')
     return {"t": t, "dl": dl, "hero": hero, "head": head, "info": info[:3], "price": spec.get('price'),
             "unit": spec.get('unit'), "foot": foot, "cc": cc, "prov": prov}
 
@@ -379,12 +378,12 @@ def render(c, lay, pal, photo, logo_path):
             _, h_ = draw_t(d, (x, y), c['hero'], fhero, tx); y += h_ + 18
             d.rectangle([x, y, x + min(440, tw(d, c['hero'], fhero)), y + 10], fill=ac); y += 30
         y += price_line(d, x, y, c['price'], c['unit'], ac, 42, 470)
-        fi = mont(26, 'Bold')
+        fi = mont(30, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
             for l2 in wrap(d, ln, fi, 450, 2 if i == 0 else 1):
                 if y + 32 > limit - 30: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx if i else ac); y += h_ + 10
-        draw_t(d, (x, min(y + 6, limit - 20)), c['foot'], mont(17, 'Medium'), tx)
+        draw_t(d, (x, min(y + 6, limit - 20)), c['foot'], mont(18, 'Medium'), tx)
     elif lay == 'B':
         if c['hero']:
             fhero = fit_font(d, c['hero'], anton, 300, 170, 70)
@@ -398,12 +397,12 @@ def render(c, lay, pal, photo, logo_path):
             _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 10
         y += 14
         y += price_line(d, x, y, c['price'], c['unit'], ac, 40, 640) + (8 if c['price'] else 0)
-        fi = mont(24, 'Bold')
+        fi = mont(28, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
             for l2 in wrap(d, ln, fi, 650, 1):
                 if y + 28 > limit - 26: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 10
-        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
     elif lay == 'C':
         y0 = 500
         x = M
@@ -425,7 +424,7 @@ def render(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, maxw, 2 if i == 0 else 1):
                 if y + 26 > limit - 22: break
                 _, h_ = draw_t(d, (x2, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
-        draw_t(d, (M, limit - 18), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
     elif lay == 'D':
         x, y = M, 236
         maxw = 580
@@ -446,12 +445,12 @@ def render(c, lay, pal, photo, logo_path):
             d.rectangle([x, y, x + bw_, y + 58], fill=ac)
             price_line(d, x + 18, y + 9, c['price'], c['unit'], GREEN if dark else (255, 255, 255), 34, bw_ - 36)
             y += 74
-        fi = mont(23, 'Bold')
+        fi = mont(27, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
             for l2 in wrap(d, ln, fi, 600, 1):
                 if y + 28 > limit - 24: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
-        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
     return im.convert('RGB')
 
 
@@ -505,12 +504,12 @@ def render_extra(c, lay, pal, photo, logo_path):
             fhero = fit_font(d, c['hero'], anton, 500, 150, 70)
             _, h_ = draw_t(d, (x, y), c['hero'], fhero, ac if dark else tx); y += h_ + 16
         y += price_line(d, x, y, c['price'], c['unit'], ac, 36, 500)
-        fi = mont(23, 'Bold')
+        fi = mont(27, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
             for l2 in wrap(d, ln, fi, 520, 2 if i == 0 else 1):
                 if y + 28 > limit - 22: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 8
-        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
     elif lay == 'F':  # boarding pass
         tk = (0xF6, 0xF1, 0xE6)
         x0, y0, x1, y1, cut = M, 236, W - M, 700, 700
@@ -538,12 +537,12 @@ def render_extra(c, lay, pal, photo, logo_path):
             fhero = fit_font(d, c['hero'], anton, cut - x0 - 70, 120, 60)
             _, h_ = draw_t(d, (x0 + 34, y), c['hero'], fhero, (0xC8, 0x90, 0x1A)); y += h_ + 14
         y += price_line(d, x0 + 34, y, c['price'], c['unit'], ink, 30, cut - x0 - 70)
-        fi = mont(20, 'Bold')
+        fi = mont(24, 'Bold')
         for ln in c['info'][:2]:
             for l2 in wrap(d, ln, fi, cut - x0 - 70, 1):
                 if y + 24 > y1 - 26: break
                 _, h_ = draw_t(d, (x0 + 34, y), l2, fi, ink); y += h_ + 6
-        draw_t(d, (M, limit - 18), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
     elif lay == 'G':  # calendar deadline
         m = re.match(r'(\d{4})-(\d{2})-(\d{2})', c['dl'] or '')
         day, mon, yr = (str(int(m.group(3))), BULAN[int(m.group(2)) - 1].upper(), m.group(1)) if m else ('', '', '')
@@ -563,7 +562,7 @@ def render_extra(c, lay, pal, photo, logo_path):
         fh = fit_font(d, c['head'], anton, maxw, 54, 30)
         for ln in wrap(d, c['head'], fh, maxw, 1):
             _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 8
-        fi = mont(22, 'Bold')
+        fi = mont(26, 'Bold')
         for i, ln in enumerate(c['info'][:1]):
             for l2 in wrap(d, ln, fi, 640, 1):
                 if y + 26 > limit - 20: break
@@ -602,20 +601,89 @@ def render_extra(c, lay, pal, photo, logo_path):
             y += lh_ + 20
         y += 6
         y += price_line(d, x, y, c['price'], c['unit'], ac, 34, maxw)
-        fi = mont(22, 'Bold')
+        fi = mont(26, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
             for l2 in wrap(d, ln, fi, maxw, 1):
                 if y + 26 > limit - 20: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 6
-        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(16, 'Medium'), tx)
+        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
         if c['hero']:
             st = stamp(c['hero'], 'BEASISWA' if re.search('beasiswa|scholarship', c['t'], re.I) else None, ac, GREEN, angle=-7, size=110)
-            im.alpha_composite(st, (W - 400 - st.width // 2 + 20, 460))
+            im.alpha_composite(st, (W - 400 + max(0, (400 - st.width) // 2), 470))
         on_photo = photo is not None
     logo_talented(im, dark, 150)
     logo_provider(im, logo_path)
     footer_and_banner(im, dark, ac)
     return im.convert('RGB')
+
+
+def make_story(png_path):
+    """1080x1920 story: poster centered on brand colour, flat bands (no AI, no gradients)"""
+    po = Image.open(png_path).convert('RGB')
+    st = Image.new('RGB', (1080, 1920), GREEN)
+    d = ImageDraw.Draw(st)
+    st.paste(po, (0, 285))
+    f1 = mont(34, 'ExtraBold')
+    t1 = 'INFO TERBARU DARI TALENTED'
+    draw_t(d, ((1080 - tw(d, t1, f1)) // 2, 120), t1, f1, PAL['P1'][2])
+    d.rectangle([440, 185, 640, 191], fill=PAL['P1'][2])
+    f2 = mont(36, 'ExtraBold')
+    t2 = 'Scan QR atau klik link di bio'
+    draw_t(d, ((1080 - tw(d, t2, f2)) // 2, 1700), t2, f2, (255, 255, 255))
+    f3 = mont(26, 'Bold')
+    t3 = 'linktr.ee/talentededucationgroup'
+    draw_t(d, ((1080 - tw(d, t3, f3)) // 2, 1770), t3, f3, PAL['P1'][2])
+    out = png_path[:-4] + ' Story.png'
+    st.save(out, optimize=True)
+    return out
+
+
+def make_reel(story_path, seconds=8):
+    """vertical 9:16 MP4 (H.264, 30 fps): slow zoom on the story frame; adds a licensed track from
+    assets/music/*.mp3 if the owner put one there (otherwise silent - music can be added in the app)."""
+    import subprocess, glob as _g
+    out = story_path.replace(' Story.png', ' Reel.mp4')
+    tmp = out[:-4] + '.tmp.mp4'
+    music = sorted(_g.glob(os.path.join(ROOT, 'assets', 'music', '*.mp3')))
+    vf = (f"scale=1296:2304,zoompan=z='min(1+0.0004*on,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+          f":d={seconds * 30}:s=1080x1920:fps=30,fade=t=in:st=0:d=0.4,format=yuv420p")
+    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-i', story_path]
+    if music:
+        pick = music[int(hashlib.sha256(story_path.encode()).hexdigest(), 16) % len(music)]
+        cmd += ['-i', pick, '-filter:a', f'afade=t=in:d=0.5,afade=t=out:st={seconds - 1}:d=1,volume=0.8', '-c:a', 'aac', '-b:a', '128k']
+    cmd += ['-vf', vf, '-t', str(seconds), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-movflags', '+faststart']
+    if music:
+        cmd += ['-shortest']
+    cmd += [tmp]
+    try:
+        subprocess.run(cmd, check=True, timeout=180)
+        os.replace(tmp, out)
+        return out
+    except Exception as e:
+        print('reel skipped:', str(e)[:120])
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        return None
+
+
+def cleanup(days=75):
+    """remove generated files older than N days (log date) so the repo stays small"""
+    try:
+        log = json.load(open(LOG, encoding='utf-8'))
+    except Exception:
+        return
+    cut = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    keep = []
+    for it in log['items']:
+        if it.get('date', '9999') < cut:
+            for suf in ('', ' Story.png', ' Reel.mp4'):
+                f = os.path.join(OUT, it['file'] if not suf else it['file'][:-4] + suf)
+                if os.path.exists(f):
+                    os.remove(f)
+        else:
+            keep.append(it)
+    log['items'] = keep
+    json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 def qa_qr(path):
@@ -649,8 +717,22 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
         if os.path.exists(p) and rec.get('v') == 8:
+            if not os.path.exists(p[:-4] + ' Story.png'):
+                try:
+                    make_reel(make_story(p))
+                except Exception as e:
+                    print('story/reel skipped:', str(e)[:120])
             return BASE + urllib.parse.quote(rec['file'])
-    photo, credit = get_photo(country or 'ANY', key, provider)
+    # quality gate (owner 19/11/2026: 'lebih profesional, lebih natural'): only REAL photos of people/campus -
+    # provider brochure photos, or Talented's own photos (social/library/talented-umum) for general posts.
+    photo, credit = get_photo(country or 'ANY', key, provider) if provider else (None, None)
+    if not (credit and 'Wikimedia' not in credit):
+        photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
+        if not (credit and 'Wikimedia' not in credit):
+            need_photo(provider or ('Talented Umum (' + kind + ')'), key)
+            print('held (no real photo yet):', provider or kind)
+            return None
+        credit = None
     im = render(c, lay, pal, photo, find_logo(provider))
     today = datetime.date.today()
     base = file_name(c, kind, today)
@@ -662,6 +744,11 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     im.save(path, optimize=True)
     if not qa_qr(path):
         print('QA failed (QR):', name); os.remove(path); return None
+    try:
+        sp = make_story(path)
+        make_reel(sp)
+    except Exception as e:
+        print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
            "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 8, "credit": credit}
@@ -674,6 +761,20 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     log['items'] = log['items'][-300:]
     json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     return BASE + urllib.parse.quote(name)
+
+
+def need_photo(provider, key):
+    """list of providers whose posts wait for real brochure photos (reported to the owner)"""
+    p = os.path.join(ROOT, 'data', 'social-need-photo.json')
+    try:
+        d = json.load(open(p, encoding='utf-8'))
+    except Exception:
+        d = {"note": "Postingan provider ini ditahan karena belum ada foto asli (brosur/foto sendiri). Kirim brosur ke chat Claude: 'masukkan ke library sosmed'.", "providers": {}}
+    k = provider or '-'
+    d['providers'].setdefault(k, [])
+    if key not in d['providers'][k]:
+        d['providers'][k].append(key)
+    json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 def credit_for(key):

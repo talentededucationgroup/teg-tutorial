@@ -28,6 +28,11 @@ for f in glob.glob('/home/claude/yes/results/*.json'):
         if r.get('country')=='Australia':
             for code in re.findall(r'\b(0\d{4}[A-Z])\b', str(r.get('provider_code',''))+' '+str(r.get('official_name',''))):
                 yes.add(code)
+# partner tambahan: semua provider di pricelist Talented + grup partner (data/cricos-partners.json)
+try:
+    _pf=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','data','cricos-partners.json')
+    yes|=set(json.load(open(_pf))['codes'])
+except Exception as _e: print('cricos-partners.json tidak terbaca:',_e)
 prov={}
 for i in inst:
     code=i['CRICOS Provider Code'].strip()

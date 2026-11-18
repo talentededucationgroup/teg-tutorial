@@ -13,8 +13,8 @@
    "en": "Post a job / accommodation for free"
   },
   "post_note": {
-   "id": "Untuk bisnis & perorangan. Dicek dulu sebelum tayang (±24 jam).",
-   "en": "For businesses and private individuals. Checked before it goes live (about 24 hours)."
+   "id": "Lowongan: khusus bisnis terdaftar. Akomodasi: bisnis & perorangan. Dicek dulu sebelum tayang (±24 jam).",
+   "en": "Jobs: registered businesses only. Accommodation: businesses and private individuals. Checked before it goes live (about 24 hours)."
   },
   "report": {
    "id": "⚑ Laporkan iklan ini",
@@ -40,7 +40,7 @@
  "jobs": [],
  "accommodation": [],
  "rules": {
-  "individual": "Perorangan: email terverifikasi, kontak hanya yang diizinkan, akomodasi wajib bukti hak sewa (dicek lalu tidak disimpan), maks 2 iklan aktif per email, tayang 30 hari, badge 'Iklan perorangan' + tips aman.",
+  "individual": "Perorangan: HANYA akomodasi (lowongan kerja wajib bisnis terdaftar - keputusan pemilik 18/11/2026). Email terverifikasi, bukti hak sewa (dicek lalu tidak disimpan), maks 2 iklan aktif per email, tayang 30 hari, badge 'Iklan perorangan' + tips aman.",
   "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari.",
   "auto": "Sepenuhnya otomatis: ragu = ditolak otomatis (tidak menunggu pemilik). Laporan pengguna = iklan langsung disembunyikan (hidden:true) lalu dicek ulang; terbukti penipuan = dihapus + pemasang diblokir."
  },

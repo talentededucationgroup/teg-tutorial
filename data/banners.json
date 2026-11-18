@@ -3589,8 +3589,8 @@
    "nl": "Je gaat naar het online bestel- en betaalformulier (Jotform, Stripe AUD).",
    "ru": "Вы перейдёте к онлайн-форме заказа и оплаты (Jotform, Stripe AUD)."
   },
-  "jotform_url": "https://form.jotform.com/263181709123050",
-  "form_note": "form_url = halaman bantu pemesanan (/sponsor/). jotform_url = formulir langsung (cadangan).",
+  "jotform_url": "https://info.talentededucationgroup.com/pesan-sponsored/",
+  "form_note": "form_url = halaman bantu pemesanan (/sponsor/) -> /pesan-sponsored/ (formulir Jotform di dalam halaman Talented). jotform_url = halaman pemesanan langsung (cadangan). Semua alamat di domain Talented.",
   "advertiser_types": {
    "allowed": [
     "education_provider",

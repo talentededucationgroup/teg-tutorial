@@ -77,7 +77,7 @@ footer{color:var(--muted);font-size:.82rem}
     <input type="search" id="q" placeholder="e.g. Kent Institute, Charles Darwin University, 00300K" autocomplete="off" disabled>
     <p class="hint" id="status">Loading the official CRICOS register…</p>
     <ul id="results" aria-live="polite"></ul>
-    <p class="empty" id="empty" hidden>No matching CRICOS provider found. Check the spelling, try the trading name, or search by CRICOS code.</p>
+    <p class="empty" id="empty" hidden>No matching CRICOS provider found. Check the spelling, try the full name, a short name (e.g. KOI, CDU) or the CRICOS code. Not in Australia or not a school? Choose another option in Step 1.</p>
   </section>
 
   <section class="card" id="otherCard">
@@ -114,8 +114,11 @@ footer{color:var(--muted);font-size:.82rem}
   var list=[];
   document.getElementById('ovGo').href=FORM;
   var STOP=/\b(pty|ltd|limited|proprietary|the|inc|incorporated|trading|as|t\/a|australia|aust)\b/g;
-  function norm(s){return (s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/&/g,' and ').replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
+  function norm(s){return (s||'').toLowerCase().replace(/['’`]/g,'').normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/&/g,' and ').replace(/[^a-z0-9 ]+/g,' ').replace(/\s+/g,' ').trim();}
   function core(s){return norm(s).replace(STOP,' ').replace(/\s+/g,' ').trim();}
+  var ASTOP=/^(of|and|the|for|pty|ltd|limited|inc|t)$/;
+  function acro(s){return norm(s).split(' ').filter(function(w){return w&&!ASTOP.test(w);}).map(function(w){return w[0];}).join('');}
+  function paren(s){var m=(s||'').match(/\(([^)]+)\)/);return m?norm(m[1]).replace(/\s/g,''):'';}
   function formUrl(p){
     var u=new URLSearchParams();
     u.set('textbox1',(p.trading_name&&p.trading_name.indexOf(',')<0)?p.trading_name:p.name);
@@ -125,7 +128,8 @@ footer{color:var(--muted);font-size:.82rem}
   }
   function score(p,nq,cq,tokens){
     if(p._code===nq.replace(/\s/g,''))return 1000;
-    var s=0,names=[p._n,p._t];
+    var cqs=cq.replace(/\s/g,''),s=0,names=[p._n,p._t];
+    if(cqs.length>=2&&cqs.length<=8){for(var k=0;k<p._a.length;k++){var a=p._a[k];if(!a)continue;if(a===cqs)s=Math.max(s,800);else if(cqs.length>=3&&a.indexOf(cqs)===0)s=Math.max(s,400);}}
     for(var i=0;i<names.length;i++){var n=names[i];if(!n)continue;
       if(n===cq)s=Math.max(s,900);
       else if(n.indexOf(cq)===0)s=Math.max(s,700);
@@ -178,7 +182,7 @@ footer{color:var(--muted);font-size:.82rem}
   var h=(location.hash||'').slice(1);var pre=document.querySelector('input[name=t][value="'+h+'"]');if(pre){pre.checked=true;setType(h);}
   var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(search,120);});
   fetch(DATA,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
-    list=(d.providers||[]).map(function(p){p._n=core(p.name);p._t=core(p.trading_name);p._code=(p.code||'').toLowerCase();return p;});
+    list=(d.providers||[]).map(function(p){p._n=core(p.name);p._t=core(p.trading_name);p._a=[acro(p.trading_name),acro(p.name),paren(p.trading_name),paren(p.name)];p._code=(p.code||'').toLowerCase();return p;});
     document.getElementById('snap').textContent=d.data_date||d.updated_at||'–';
     st.textContent=list.length.toLocaleString('en')+' CRICOS providers. Type at least 2 letters, then pick your institution.';
     q.disabled=false;if(searchCard.style.display==='block')q.focus();

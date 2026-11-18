@@ -223,3 +223,10 @@ h3.th{font-size:1rem;margin:14px 0 6px;color:var(--green)}
  .rv>div{min-width:0}
  .q>div>table.data{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 }
+/* share & category tabs (18/11/2026) */
+.share.invite{background:#fff;border:1px solid var(--line,#dbe3de);border-radius:12px;padding:12px 14px}.share.invite b{flex-basis:100%}
+.share .btn{min-height:44px}.share .copied{color:#1f7a45;flex-basis:auto}
+h2.choose{margin:18px 0 8px;font-size:1.1rem}
+.tabs.cats{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}.tabs.cats .tab{font:inherit;border:1px solid var(--line,#dbe3de);background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer;min-height:40px}
+.tabs.cats .tab.on{background:#1f5f4a;color:#fff;border-color:#1f5f4a}
+.grid .card.test[hidden]{display:none}

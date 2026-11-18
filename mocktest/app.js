@@ -38,11 +38,21 @@ const app=()=>$('#app');
 function header(title,sub){return `<header class="top"><a class="brand" href="?lang=${LANG}"><img src="${BASE}logo.png" alt="" onerror="this.remove()">Talented Education Group</a><div class="lang"><label>🌐 <select id="langSel">${LANGS.map(l=>`<option value="${l}"${l===LANG?' selected':''}>${UI._langnames?UI._langnames[l]:l}</option>`).join('')}</select></label></div></header>
 <div class="hero"><p class="eyebrow">${esc(t('free_mock'))}</p><h1>${esc(title)}</h1>${sub?`<p class="sub">${sub}</p>`:''}</div>`}
 function bindLang(){const s=$('#langSel');if(s)s.onchange=()=>{Q.set('lang',s.value);location.search=Q.toString()}}
+function pageUrl(q){const u=new URL(location.origin+location.pathname);Object.entries(q||{}).forEach(([k,v])=>v&&u.searchParams.set(k,v));u.searchParams.set('lang',LANG);return u.href}
+function shareBar(id,label,url,msg){const enc=encodeURIComponent;return `<section class="share invite" id="${id}"><b>📣 ${esc(label)}</b> <a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/?text=${enc(msg+' '+url)}">WhatsApp</a> <a class="btn" target="_blank" rel="noopener" href="https://t.me/share/url?url=${enc(url)}&text=${enc(msg)}">Telegram</a> <a class="btn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${enc(url)}">Facebook</a> <button type="button" class="btn" data-nshare="${esc(url)}" data-msg="${esc(msg)}">📤 ${esc(t('share'))}</button> <button type="button" class="btn ghost" data-copy="${esc(url)}">🔗 ${esc(t('copy_link'))}</button><small class="copied" hidden>✓ ${esc(t('link_copied'))}</small></section>`}
+function bindShare(){$$('[data-nshare]').forEach(b=>b.onclick=()=>{const url=b.dataset.nshare,msg=b.dataset.msg;if(navigator.share){navigator.share({title:document.title,text:msg,url}).catch(()=>{})}else{const c=b.parentNode.querySelector('[data-copy]');c&&c.click()}});
+ $$('[data-copy]').forEach(b=>b.onclick=()=>{const url=b.dataset.copy,ok=()=>{const m=b.parentNode.querySelector('.copied');if(m){m.hidden=false;setTimeout(()=>m.hidden=true,1800)}};try{navigator.clipboard.writeText(url).then(ok,()=>{prompt(t('copy_link'),url)})}catch(e){prompt(t('copy_link'),url)}})}
+const CAT={ielts:'en',pte:'en',jlpt:'ja',topik:'ko',hsk:'zh'};
 function home(){
   document.title=t('free_mock')+' - Talented Education Group';
-  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${backHref()}" id="backSite">← ${esc(t('back_site'))}</a> ${fileBtn('hFile','📥 '+t('open_file'))}</div><div class="grid">${IDX.tests.map(x=>`<a class="card test" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
+  app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${backHref()}" id="backSite">← ${esc(t('back_site'))}</a> ${fileBtn('hFile','📥 '+t('open_file'))}</div><h2 class="choose">${esc(t('choose_test'))}</h2><div class="tabs cats" role="tablist">${['all','en','ja','ko','zh'].filter(c=>c==='all'||IDX.tests.some(x=>(CAT[x.id]||'all')===c)).map(c=>`<button type="button" role="tab" class="tab" data-cat="${c}" aria-selected="false">${esc(t('tab_'+c))}</button>`).join('')}</div><div class="grid">${IDX.tests.map(x=>`<a class="card test" data-cat="${CAT[x.id]||'all'}" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
+${shareBar('shHome',t('invite_title'),pageUrl(),t('invite_msg').replace('{test}',t('all_free')))}
   <section class="note">${esc(t('disclaimer'))}<br><a href="?mode=guru&lang=${LANG}">👩‍🏫 ${esc(t('teacher_mode'))}</a></section>`+footer();
   bindLang(); bindFile('hFile',openStudentFile);
+  const setCat=c=>{$$('.tabs.cats .tab').forEach(b=>{const on=b.dataset.cat===c;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});$$('.grid .card.test').forEach(a=>a.hidden=!(c==='all'||a.dataset.cat===c))};
+  $$('.tabs.cats .tab').forEach(b=>b.onclick=()=>setCat(b.dataset.cat));
+  const qc=Q.get('cat'); setCat(['en','ja','ko','zh'].includes(qc)?qc:'all');
+  bindShare();
   $('#backSite').onclick=e=>{try{if(document.referrer&&new URL(document.referrer).host.includes('talentededucationgroup')&&history.length>1){e.preventDefault();history.back()}}catch(_){}};
 }
 function footer(){return `<footer><p>${esc(t('footer_vsa'))}</p><p><a class="btn gold" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">💬 ${esc(t('ask_consultant'))}</a></p><p class="small">© Talented Education Group · ${esc(t('privacy'))}</p></footer>`}
@@ -54,6 +64,7 @@ function testPage(){
   const saves=getSaves().filter(e=>e&&e.state&&BANK.sections[e.secIdx]);
   const flash=FLASH;FLASH='';
   app().innerHTML=header(BANK.title,esc(L(BANK.desc)))+`<div class="acts top"><a class="btn back" href="?lang=${LANG}">← ${esc(t('all_tests'))}</a> ${fileBtn('tFileS','📥 '+t('open_file'))}</div>
+  ${shareBar('shTest',t('share_this_test'),pageUrl({test:BANK.id}),t('invite_msg').replace('{test}',BANK.title))}
   ${flash?`<p class="flash" role="status">✓ ${esc(flash)}</p>`:''}
   ${saves.length?`<section class="card savecard" id="saveCard"><h2>💾 ${esc(t('saved_title'))}</h2><div class="secs">${saves.map(e=>{const f=e.fk!=null?fullsOf()[e.fk]:null;return `<div class="sec"><div><b>${esc(f?L(f.title):L(BANK.sections[e.secIdx].title))}</b><small>${esc(fmtDate(e.at,1))} · ${esc(L(BANK.sections[e.secIdx].title))}${f?` (${(e.pos||0)+1}/${f.sections.length})`:''} · ${esc(t('time_left'))} ${fmt(e.left)}</small></div><span class="sbtns"><button class="btn" data-res="${esc(e.id)}">${esc(t('resume'))}</button> <button class="btn ghost small" data-del="${esc(e.id)}" aria-label="${esc(t('del_save'))}">🗑 ${esc(t('del_save'))}</button></span></div>`}).join('')}</div>
   <p class="small">${esc(t('save_note'))}</p><button class="btn ghost" id="startNew">${esc(t('start_new'))}</button></section>`:''}
@@ -66,7 +77,7 @@ function testPage(){
   <label class="chk"><input type="checkbox" id="examMode" checked> ${esc(t('exam_mode'))}</label></section>
   ${hist.length?`<section class="card"><h2>${esc(t('history'))}</h2><ul class="hist">${hist.slice(-8).reverse().map(h=>`<li>${new Date(h.at).toLocaleString()} · ${esc(h.sec)} · <b>${esc(h.score)}</b></li>`).join('')}</ul><p class="small">${esc(t('history_note'))}</p></section>`:''}
 `+footer();
-  bindLang();
+  bindLang();bindShare();
   const nameOk=()=>{const inp=$('#candName');const nm=(inp.value||'').replace(/\s+/g,' ').trim();if(nm.length<2){$('#nameWarn').hidden=false;inp.focus();inp.scrollIntoView({block:'center'});return false}CAND=nm;return true};
   {const inp=$('#candName');if(inp)inp.addEventListener('input',()=>{if((inp.value||'').replace(/\s+/g,' ').trim().length>=2)$('#nameWarn').hidden=true})}
   {const rs=$('#resetSeen');if(rs)rs.onclick=()=>{if(!confirm(t('reset_seen_confirm')))return;try{localStorage.removeItem('tegmock:seen:'+BANK.id)}catch(_){}FLASH=t('reset_seen_done');testPage()}}

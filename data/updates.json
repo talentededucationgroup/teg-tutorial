@@ -1,5 +1,5 @@
 {
- "version": "2026-11-19T01:10:34+07:00",
+ "version": "2026-11-19T01:16:11+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -38,7 +38,9 @@
     "en": "🎓 Scholarship open: Singapore International Graduate Award (SINGA) (deadline 2026-12-01)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Singapore%20International%20Graduate%20Award%20%28SINGA%29"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Singapore%20International%20Graduate%20Award%20%28SINGA%29",
+   "country": "Singapura",
+   "provider": "A*STAR, NUS, NTU, SUTD (Singapura)"
   },
   {
    "id": "scholarship:au-aih-next-gen-award|open",
@@ -50,7 +52,9 @@
     "en": "🎓 Scholarship open: AIH Australian Next Gen Award (30%) (deadline 2026-12-31)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29",
+   "country": "Australia",
+   "provider": "Australian Institute of Higher Education (AIH)"
   },
   {
    "id": "scholarship:au-aih-global-access-award|open",
@@ -62,7 +66,9 @@
     "en": "🎓 Scholarship open: AIH Global Access Award (15%) (deadline 2026-12-31)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29",
+   "country": "Australia",
+   "provider": "Australian Institute of Higher Education (AIH)"
   },
   {
    "id": "scholarship:au-aih-international-support-bursary|open",
@@ -74,7 +80,9 @@
     "en": "🎓 Scholarship open: AIH International Support Bursary (20%) (deadline 2026-12-31)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20International%20Support%20Bursary%20%2820%25%29"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20International%20Support%20Bursary%20%2820%25%29",
+   "country": "Australia",
+   "provider": "Australian Institute of Higher Education (AIH)"
   },
   {
    "id": "scholarship:au-aih-future-innovator|open",
@@ -86,7 +94,9 @@
     "en": "🎓 Scholarship open: AIH Future Innovator Scholarship (30%) (deadline 2026-12-31)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29",
+   "country": "Australia",
+   "provider": "Australian Institute of Higher Education (AIH)"
   },
   {
    "id": "scholarship:fr-eiffel-excellence|open",
@@ -98,7 +108,9 @@
     "en": "🎓 Scholarship open: Eiffel Excellence Scholarship Programme (deadline 2027-01-06)"
    },
    "tab": "scholarships",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme",
+   "country": "Prancis",
+   "provider": "Kementerian Eropa dan Luar Negeri Prancis (dikelola Campus France)"
   },
   {
    "id": "promo:aih-promo-2026",
@@ -110,7 +122,8 @@
     "en": "🔥 Promo: AIH Higher Education - up to 30% scholarship for 2027 Bachelor courses"
    },
    "tab": "programs",
-   "url": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education"
+   "url": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education",
+   "provider": "AIH Higher Education (Australian Institute of Higher Education)"
   },
   {
    "id": "promo:cdu-founding-2026",
@@ -122,7 +135,8 @@
     "en": "🔥 Promo: Charles Darwin University - CDU Global Merit Scholarship 30%"
    },
    "tab": "programs",
-   "url": "https://pricelist.talentededucationgroup.com/?q=Charles%20Darwin"
+   "url": "https://pricelist.talentededucationgroup.com/?q=Charles%20Darwin",
+   "provider": "Charles Darwin University (CDU)"
   },
   {
    "id": "promo:aiat-founding-2026",
@@ -134,7 +148,8 @@
     "en": "🔥 Promo: AIAT Adelaide & Melbourne - IT, AI & MBA"
    },
    "tab": "programs",
-   "url": "https://pricelist.talentededucationgroup.com/?q=Australian%20Institute%20of%20Advanced%20Technologies"
+   "url": "https://pricelist.talentededucationgroup.com/?q=Australian%20Institute%20of%20Advanced%20Technologies",
+   "provider": "Australian Institute of Advanced Technologies (AIAT)"
   },
   {
    "id": "promo:apic-promo-2026",
@@ -146,7 +161,8 @@
     "en": "🔥 Promo: APIC - scholarships up to 34-36%"
    },
    "tab": "programs",
-   "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College"
+   "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College",
+   "provider": "Asia Pacific International College (APIC)"
   },
   {
    "id": "accommodation:2026-11-18-1",
@@ -206,7 +222,8 @@
     "en": "📰 US: court vacates DHS rule ending 'Duration of Status' (D/S) for F-1 students"
    },
    "tab": "news",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "US"
   },
   {
    "id": "news:nz-stgwv-2026-11-16",
@@ -218,7 +235,8 @@
     "en": "📰 New Zealand: Short-Term Graduate Work Visa (6 months) opens 16 Nov 2026"
    },
    "tab": "news",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "NZ"
   },
   {
    "id": "news:nz-pswv-eligibility-2026-11-16",
@@ -230,7 +248,8 @@
     "en": "📰 New Zealand: Post-Study Work Visa eligibility extended from 16 Nov 2026"
    },
    "tab": "news",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "NZ"
   }
  ]
 }

@@ -758,7 +758,7 @@
    "en": "Guide"
   },
   "buy": {
-   "id": "Beli online",
+   "id": "Buy online",
    "en": "Buy online"
   },
   "select": {
@@ -770,8 +770,8 @@
    "en": "Selected"
   },
   "ask_consultant": {
-   "id": "Tanya konsultan",
-   "en": "Ask a consultant"
+   "id": "Ask Konsultan",
+   "en": "Ask Konsultan"
   },
   "contact": {
    "id": "Kontak layanan pelanggan",

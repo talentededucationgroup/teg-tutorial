@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18f",
+ "version": "2026-11-18g",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -453,7 +453,11 @@
     "site": "https://www.nib.com.au/overseas-students/",
     "logo_official": "SVG logo in header of https://www.nib.com.au/overseas-students/",
     "checked": "2026-11-18",
-    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)",
+    "logo_variant": {
+     "variant": "Logo nib warna hijau muda #82E578 (simbol + tulisan) langsung di atas latar hijau tua #144A38, TANPA kotak putih - sama dengan header www.nib.com.au (dicek 18/11/2026). Ambil SVG header nib.com.au, ubah fill ke #82E578.",
+     "checked": "2026-11-18"
+    }
    },
    "contact": {
     "phone_au": "1800 775 204",
@@ -1007,7 +1011,11 @@
     "brand": {
      "color": "#D31145",
      "text_on_color": "#FFFFFF",
-     "logo_official": "https://health.aia.com.au/ (logo di header situs resmi)"
+     "logo_official": "https://health.aia.com.au/content/dam/au-myown-whitelabel/aia-health/international/icons/aia-logo.svg",
+     "logo_variant": {
+      "variant": "Logo AIA merah resmi (aia-logo.svg) di kotak putih bersudut, atau versi putih di atas merah #D31145. Sumber: https://health.aia.com.au/content/dam/au-myown-whitelabel/aia-health/international/icons/aia-logo.svg (dicek 18/11/2026).",
+      "checked": "2026-11-18"
+     }
     },
     "product": "AIA Overseas Visitors Health Cover",
     "logo": "assets/oshc/aia.png"
@@ -1031,7 +1039,11 @@
      "color": "#144A38",
      "accent": "#82E578",
      "text_on_color": "#FFFFFF",
-     "logo_official": "https://www.nib.com.au/overseas-customers (logo di header situs resmi)"
+     "logo_official": "https://www.nib.com.au/overseas-customers (logo di header situs resmi)",
+     "logo_variant": {
+      "variant": "Logo nib warna hijau muda #82E578 (simbol + tulisan) langsung di atas latar hijau tua #144A38, TANPA kotak putih - sama dengan header www.nib.com.au (dicek 18/11/2026). Ambil SVG header nib.com.au, ubah fill ke #82E578.",
+      "checked": "2026-11-18"
+     }
     },
     "product": "nib Overseas Visitors Health Cover",
     "logo": "assets/oshc/nib.png"
@@ -1223,11 +1235,19 @@
    "nib": {
     "color": "#144A38",
     "accent": "#82E578",
-    "logo": "assets/oshc/nib.png"
+    "logo": "assets/oshc/nib.png",
+    "logo_variant": {
+     "variant": "Logo nib warna hijau muda #82E578 (simbol + tulisan) langsung di atas latar hijau tua #144A38, TANPA kotak putih - sama dengan header www.nib.com.au (dicek 18/11/2026). Ambil SVG header nib.com.au, ubah fill ke #82E578.",
+     "checked": "2026-11-18"
+    }
    },
    "AIA Health": {
     "color": "#D31145",
-    "logo": "assets/oshc/aia.png"
+    "logo": "assets/oshc/aia.png",
+    "logo_variant": {
+     "variant": "Logo AIA merah resmi (aia-logo.svg) di kotak putih bersudut, atau versi putih di atas merah #D31145. Sumber: https://health.aia.com.au/content/dam/au-myown-whitelabel/aia-health/international/icons/aia-logo.svg (dicek 18/11/2026).",
+     "checked": "2026-11-18"
+    }
    },
    "Bupa": {
     "color": "#0079C8",

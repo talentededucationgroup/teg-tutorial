@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18i",
+ "version": "2026-11-18j",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -1056,7 +1056,7 @@
      "color": "#144A38",
      "accent": "#82E578",
      "text_on_color": "#FFFFFF",
-     "logo_official": "https://www.nib.com.au/overseas-customers (logo di header situs resmi)",
+     "logo_official": "https://www.nib.com.au/overseas-health-insurance",
      "logo_variant": {
       "variant": "Logo nib warna hijau muda #82E578 (simbol + tulisan) langsung di atas latar hijau tua #144A38, TANPA kotak putih - sama dengan header www.nib.com.au (dicek 18/11/2026). Ambil SVG header nib.com.au, ubah fill ke #82E578.",
       "checked": "2026-11-18"
@@ -1089,42 +1089,48 @@
       "product": "Standard Visitor Cover",
       "excess_aud": 500,
       "monthly_aud": 127.17,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "Bupa",
       "product": "Bupa Essential Visitor",
       "excess_aud": 0,
       "monthly_aud": 151.03,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "Bupa",
       "product": "Bupa Essential Lite",
       "excess_aud": 750,
       "monthly_aud": 92.52,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "nib",
       "product": "Standard Visitor Cover with Extras",
       "excess_aud": 500,
       "monthly_aud": 200.66,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "AIA Health",
       "product": "AIA Standard Cover",
       "excess_aud": 750,
       "monthly_aud": 111.75,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "AIA Health",
       "product": "AIA Standard Cover",
       "excess_aud": 500,
       "monthly_aud": 120.4,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      }
     ]
    },
@@ -1145,28 +1151,32 @@
       "product": "Advantage Visitor Cover with Extras",
       "excess_aud": 500,
       "monthly_aud": 386.01,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "Allianz Care",
       "product": "Classic Care Workers",
       "excess_aud": 0,
       "monthly_aud": 197.7,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "Allianz Care",
       "product": "Classic Care Workers",
       "excess_aud": 500,
       "monthly_aud": 150.5,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "Bupa",
       "product": "Bupa Mid 60 Visitor Cover",
       "excess_aud": 0,
       "monthly_aud": 399.37,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      }
     ]
    },
@@ -1191,7 +1201,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=standard-hospital-medical",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-standard-hospital-and-medical.pdf",
-      "visa_group": "workers"
+      "visa_group": "workers",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1202,7 +1213,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=advanced-hospital-medical",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-advanced-hospital-and-medical.pdf",
-      "visa_group": "workers"
+      "visa_group": "workers",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1213,7 +1225,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=premium-hospital-medical-extras",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-premium-hospital-medical-and-extras.pdf",
-      "visa_group": "workers"
+      "visa_group": "workers",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1224,7 +1237,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=Working-holiday&productID=starter-hospital-medical",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-starter-hospital-and-medical.pdf",
-      "visa_group": "working_holiday"
+      "visa_group": "working_holiday",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1235,7 +1249,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=core-hospital-medical",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-core-hospital-and-medical.pdf",
-      "visa_group": "visitors"
+      "visa_group": "visitors",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1246,7 +1261,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=premier-hospital-medical",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-premier-hospital-and-medical.pdf",
-      "visa_group": "visitors"
+      "visa_group": "visitors",
+      "buy_mode": "affiliate"
      }
     ]
    },
@@ -1267,42 +1283,48 @@
       "product": "Budget Visitor Cover",
       "excess_aud": 500,
       "monthly_aud": 68.76,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "Allianz Care",
       "product": "Hospital Care Workers",
       "excess_aud": 500,
       "monthly_aud": 72.5,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "nib",
       "product": "Budget Visitor Cover",
       "excess_aud": 0,
       "monthly_aud": 79.84,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "Allianz Care",
       "product": "Hospital Care Workers",
       "excess_aud": 0,
       "monthly_aud": 80.6,
-      "on_flywire": false
+      "on_flywire": false,
+      "buy_mode": "consultant"
      },
      {
       "insurer": "AIA Health",
       "product": "AIA Base Cover",
       "excess_aud": 500,
       "monthly_aud": 65.0,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "AIA Health",
       "product": "AIA Base Cover",
       "excess_aud": 750,
       "monthly_aud": 59.35,
-      "on_flywire": true
+      "on_flywire": true,
+      "buy_mode": "flywire"
      },
      {
       "insurer": "Medibank",
@@ -1313,7 +1335,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=WORKER&productID=base-hospital",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-workers-base-hospital.pdf",
-      "visa_group": "workers"
+      "visa_group": "workers",
+      "buy_mode": "affiliate"
      },
      {
       "insurer": "Medibank",
@@ -1324,7 +1347,8 @@
       "on_flywire": false,
       "buy_url": "https://medibank.com.au/bin/medibank/affiliates/?affiliateID=5000004200&affiliateName=TalentedEducationGroup&productType=visitors&productID=comprehensive-hospital",
       "cover_summary": "https://www.medibank.com.au/content/dam/retail/overseas/pdfs/cover-summaries/medibank-overseas-visitors-comprehensive-hospital.pdf",
-      "visa_group": "visitors"
+      "visa_group": "visitors",
+      "buy_mode": "affiliate"
      }
     ]
    }
@@ -1351,7 +1375,8 @@
      "en": "Buy online"
     },
     "use": "plans[].buy_url (link affiliate Medibank Talented)"
-   }
+   },
+   "rule": "Urutan pilihan tombol per plan: buy_url ada -> 'Buy online' ke buy_url (Medibank affiliate); on_flywire=true -> 'Buy online' ke plan_buttons.on_flywire.url; selain itu -> 'Ask Konsultan'. Lihat juga plans[].buy_mode."
   },
   "excess_label": {
    "id": "Excess (biaya sendiri per rawat inap)",

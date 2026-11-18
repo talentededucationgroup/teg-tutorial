@@ -145,9 +145,41 @@ def main():
     if new:
         state['pending'] = (state.get('pending', []) + [e['id'] for e in new])[-50:]
     maybe_push(state, items)
+    write_rss(items)
     json.dump(feed, open(D('updates.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(state, open(D('updates-state.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     print(f"new entries: {len(new)}; feed size: {len(items)}; pending push: {len(state.get('pending', []))}")
+
+
+def write_rss(items):
+    """social-feed.xml: RSS for auto-posting tools (IFTTT/Zapier -> Buffer -> FB/IG/X/LinkedIn/Google Business).
+    Only public, already-announced items. Links carry UTM so traffic is measurable."""
+    from xml.sax.saxutils import escape as x
+    import email.utils
+    tags = {"scholarship": "#beasiswa #kuliahluarnegeri #studyabroad", "promo": "#promo #studyabroad",
+            "news": "#visa #infoimigrasi #studyabroad", "sponsored": "#studyabroad #kuliahdiluarnegeri",
+            "jobs": "#kerjapartime #studentjobs", "accommodation": "#akomodasi #studentaccommodation"}
+    out = []
+    for e in items[:30]:
+        if e.get('kind') == 'sponsored' and not e.get('paid'):
+            continue  # unpaid third parties are never promoted as sponsored on social media
+        link = e['url'] + ('&' if '?' in e['url'] else '?') + 'utm_source=social&utm_medium=autopost&utm_campaign=' + e['kind']
+        try:
+            d = datetime.datetime.fromisoformat(e['date']).replace(hour=9, tzinfo=WIB)
+        except Exception:
+            d = NOW
+        t = e['title']['id']
+        desc = t + ' | Info lengkap & konsultasi gratis di Talented Education Group. ' + tags.get(e['kind'], '#studyabroad')
+        out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
+                   f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
+                   f"<description>{x(desc)}</description>"
+                   f"<enclosure url=\"{SITE}/og-image.png\" type=\"image/png\" length=\"0\"/></item>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+           '<title>Talented Education Group - Yang baru</title>'
+           f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'
+           f'<language>id</language><lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>'
+           + ''.join(out) + '</channel></rss>')
+    open(os.path.join(ROOT, 'social-feed.xml'), 'w', encoding='utf-8').write(xml)
 
 
 def maybe_push(state, items):

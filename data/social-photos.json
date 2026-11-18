@@ -135,6 +135,24 @@
    "license_url": "https://creativecommons.org/licenses/by/4.0",
    "country": "NZ",
    "file": "social/photos/1070be64af583db2.jpg"
+  },
+  {
+   "place": "Singapore skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Night_skyline_of_the_Central_Business_District,_Singapore_-_20121112.jpg",
+   "author": "Erwin Soo from Singapore.",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "SG",
+   "file": "social/photos/5c16a7fcdf45d843.jpg"
+  },
+  {
+   "place": "Paris",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bercy,_Paris_23_December_2021.jpg",
+   "author": "Pierre Blaché from Paris, France",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "FR",
+   "file": "social/photos/5ec241ada3c43841.jpg"
   }
  ]
 }

@@ -17,8 +17,8 @@
    "en": "For businesses and private individuals. Checked before it goes live (about 24 hours)."
   },
   "report": {
-   "id": "Laporkan iklan ini",
-   "en": "Report this listing"
+   "id": "⚑ Laporkan iklan ini",
+   "en": "⚑ Report this listing"
   },
   "individual": {
    "id": "Iklan perorangan - sudah dicek, tetap waspada",
@@ -31,12 +31,18 @@
   "contact": {
    "id": "Hubungi pemasang",
    "en": "Contact the advertiser"
+  },
+  "hidden_review": {
+   "id": "Iklan disembunyikan sementara karena dilaporkan.",
+   "en": "Listing temporarily hidden after a report."
   }
  },
  "jobs": [],
  "accommodation": [],
  "rules": {
   "individual": "Perorangan: email terverifikasi, kontak hanya yang diizinkan, akomodasi wajib bukti hak sewa (dicek lalu tidak disimpan), maks 2 iklan aktif per email, tayang 30 hari, badge 'Iklan perorangan' + tips aman.",
-  "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari."
- }
+  "business": "Bisnis: registrasi usaha dicek di register resmi, badge 'Bisnis terverifikasi', tayang 30-60 hari.",
+  "auto": "Sepenuhnya otomatis: ragu = ditolak otomatis (tidak menunggu pemilik). Laporan pengguna = iklan langsung disembunyikan (hidden:true) lalu dicek ulang; terbukti penipuan = dihapus + pemasang diblokir."
+ },
+ "report_form_url": "https://form.jotform.com/263214027573049"
 }

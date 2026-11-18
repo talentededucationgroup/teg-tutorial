@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18e",
+ "version": "2026-11-18f",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -1036,7 +1036,209 @@
     "product": "nib Overseas Visitors Health Cover",
     "logo": "assets/oshc/nib.png"
    }
-  ]
+  ],
+  "plans_basis": {
+   "id": "Contoh harga: 1 orang (Single), usia 19 thn, visa 417 Working Holiday, mulai 19 Nov 2026, bayar bulanan. Harga berubah menurut usia, jenis visa & tanggal mulai - cek harga final saat membeli.",
+   "en": "Sample prices: 1 person (Single), age 19, visa 417 Working Holiday, start 19 Nov 2026, paid monthly. Prices change with age, visa type and start date - final price is shown when you buy."
+  },
+  "plans_checked": "2026-11-18",
+  "tiers": [
+   {
+    "key": "hospital_extras_limited_preg",
+    "stars": 3,
+    "title": {
+     "id": "Rumah sakit + rawat jalan · kehamilan terbatas",
+     "en": "Hospital + out-patient · limited pregnancy"
+    },
+    "subtitle": {
+     "id": "Kehamilan hanya ditanggung saat rawat inap",
+     "en": "Pregnancy covered in hospital only"
+    },
+    "plans": [
+     {
+      "insurer": "nib",
+      "product": "Standard Visitor Cover",
+      "excess_aud": 500,
+      "monthly_aud": 127.17,
+      "on_flywire": true
+     },
+     {
+      "insurer": "Bupa",
+      "product": "Bupa Essential Visitor",
+      "excess_aud": 0,
+      "monthly_aud": 151.03,
+      "on_flywire": false
+     },
+     {
+      "insurer": "Bupa",
+      "product": "Bupa Essential Lite",
+      "excess_aud": 750,
+      "monthly_aud": 92.52,
+      "on_flywire": false
+     },
+     {
+      "insurer": "nib",
+      "product": "Standard Visitor Cover with Extras",
+      "excess_aud": 500,
+      "monthly_aud": 200.66,
+      "on_flywire": true
+     },
+     {
+      "insurer": "AIA Health",
+      "product": "AIA Standard Cover",
+      "excess_aud": 750,
+      "monthly_aud": 111.75,
+      "on_flywire": true
+     },
+     {
+      "insurer": "AIA Health",
+      "product": "AIA Standard Cover",
+      "excess_aud": 500,
+      "monthly_aud": 120.4,
+      "on_flywire": true
+     }
+    ]
+   },
+   {
+    "key": "hospital_extras_full_preg",
+    "stars": 4,
+    "title": {
+     "id": "Rumah sakit + rawat jalan · kehamilan lengkap",
+     "en": "Hospital + out-patient · extended pregnancy"
+    },
+    "subtitle": {
+     "id": "Kehamilan ditanggung rawat inap & rawat jalan",
+     "en": "Pregnancy covered in hospital and out-patient"
+    },
+    "plans": [
+     {
+      "insurer": "nib",
+      "product": "Advantage Visitor Cover with Extras",
+      "excess_aud": 500,
+      "monthly_aud": 386.01,
+      "on_flywire": true
+     },
+     {
+      "insurer": "Allianz Care",
+      "product": "Classic Care Workers",
+      "excess_aud": 0,
+      "monthly_aud": 197.7,
+      "on_flywire": false
+     },
+     {
+      "insurer": "Allianz Care",
+      "product": "Classic Care Workers",
+      "excess_aud": 500,
+      "monthly_aud": 150.5,
+      "on_flywire": false
+     },
+     {
+      "insurer": "Bupa",
+      "product": "Bupa Mid 60 Visitor Cover",
+      "excess_aud": 0,
+      "monthly_aud": 399.37,
+      "on_flywire": false
+     }
+    ]
+   },
+   {
+    "key": "hospital_only",
+    "stars": 2,
+    "title": {
+     "id": "Hanya rumah sakit (rawat inap)",
+     "en": "Hospital only"
+    },
+    "subtitle": {
+     "id": "Paling hemat - tanpa rawat jalan",
+     "en": "Lowest cost - no out-patient cover"
+    },
+    "plans": [
+     {
+      "insurer": "nib",
+      "product": "Budget Visitor Cover",
+      "excess_aud": 500,
+      "monthly_aud": 68.76,
+      "on_flywire": true
+     },
+     {
+      "insurer": "Allianz Care",
+      "product": "Hospital Care Workers",
+      "excess_aud": 500,
+      "monthly_aud": 72.5,
+      "on_flywire": false
+     },
+     {
+      "insurer": "nib",
+      "product": "Budget Visitor Cover",
+      "excess_aud": 0,
+      "monthly_aud": 79.84,
+      "on_flywire": true
+     },
+     {
+      "insurer": "Allianz Care",
+      "product": "Hospital Care Workers",
+      "excess_aud": 0,
+      "monthly_aud": 80.6,
+      "on_flywire": false
+     },
+     {
+      "insurer": "AIA Health",
+      "product": "AIA Base Cover",
+      "excess_aud": 500,
+      "monthly_aud": 65.0,
+      "on_flywire": true
+     },
+     {
+      "insurer": "AIA Health",
+      "product": "AIA Base Cover",
+      "excess_aud": 750,
+      "monthly_aud": 59.35,
+      "on_flywire": true
+     }
+    ]
+   }
+  ],
+  "plan_buttons": {
+   "on_flywire": {
+    "label": {
+     "id": "Buy online",
+     "en": "Buy online"
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/ovhc-au?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c"
+   },
+   "not_on_flywire": {
+    "label": {
+     "id": "Ask Konsultan",
+     "en": "Ask Konsultan"
+    },
+    "url": "https://linktr.ee/talentededucationgroup",
+    "note": "Produk Bupa & Allianz Care OVHC tidak dijual di layanan Flywire Talented (cek 18/11/2026) - siswa dibantu konsultan."
+   }
+  },
+  "excess_label": {
+   "id": "Excess (biaya sendiri per rawat inap)",
+   "en": "Excess (you pay per hospital admission)"
+  },
+  "brands": {
+   "nib": {
+    "color": "#144A38",
+    "accent": "#82E578",
+    "logo": "assets/oshc/nib.png"
+   },
+   "AIA Health": {
+    "color": "#D31145",
+    "logo": "assets/oshc/aia.png"
+   },
+   "Bupa": {
+    "color": "#0079C8",
+    "logo": "assets/oshc/bupa.png"
+   },
+   "Allianz Care": {
+    "color": "#003781",
+    "accent": "#009482",
+    "logo": "assets/oshc/allianz-care.png"
+   }
+  }
  },
  "services": {
   "note": "Link referral Flywire milik Talented (partner 2VR4ZK). Tampilkan sebagai tombol 'Beli online' / 'Buka layanan' tanpa menyebut komisi.",

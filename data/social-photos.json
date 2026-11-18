@@ -1,0 +1,32 @@
+{
+ "note": "Foto latar kartu sosmed, lisensi CC0/PD/CC BY dari Wikimedia Commons. 'blocked': true = jangan dipakai.",
+ "items": [
+  {
+   "place": "Sydney Opera House",
+   "file_page": "https://commons.wikimedia.org/wiki/File:MC_Sydney_Opera_House.jpg",
+   "author": "Christian Mehlführer, User:Chmehl",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "country": "ANY",
+   "file": "social/photos/274d153e4e5fb020.jpg"
+  },
+  {
+   "place": "London skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:London_Skyline_-_Flickr_-_concrete%5Efells.jpg",
+   "author": "concrete&amp;fells from London, United Kingdom",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "ANY",
+   "file": "social/photos/b9f23c38f8ce5756.jpg"
+  },
+  {
+   "place": "Toronto skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Toronto_skyline_16.jpg",
+   "author": "Unknown authorUnknown author",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "ANY",
+   "file": "social/photos/0859fc6902260029.jpg"
+  }
+ ]
+}

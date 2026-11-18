@@ -1,5 +1,5 @@
 {
- "version": "2026-11-16d",
+ "version": "2026-11-18",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -126,7 +126,18 @@
    "document_dates": {
     "policy": "2023-11"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "brand": {
+    "color": "#F7941D",
+    "color2": "#FBB031",
+    "accent": "#00BFF6",
+    "text_on_color": "#1A1A1A",
+    "wordmark": "ahm OSHC",
+    "site": "https://www.ahmoshc.com.au/",
+    "logo_official": "https://www.ahmoshc.com.au/content/dam/oshcb2c/ahm-oshc-logo.svg",
+    "checked": "2026-11-18",
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+   }
   },
   {
    "name": "Allianz Care",
@@ -169,7 +180,18 @@
    },
    "buy_url": null,
    "logo": null,
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "brand": {
+    "color": "#003781",
+    "color2": "#003781",
+    "accent": "#009482",
+    "text_on_color": "#FFFFFF",
+    "wordmark": "Allianz Care",
+    "site": "https://www.allianzcare.com.au/en/visas/student-visa-oshc.html",
+    "logo_official": "https://www.allianzcare.com.au/content/dam/onemarketing/azpau/allianzcare/Allianz-Care-Australia-logo.png",
+    "checked": "2026-11-18",
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+   }
   },
   {
    "name": "Bupa",
@@ -216,7 +238,18 @@
    "document_dates": {
     "guide": "2026-06-30"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "brand": {
+    "color": "#0079C8",
+    "color2": "#0079C8",
+    "accent": "#0079C8",
+    "text_on_color": "#FFFFFF",
+    "wordmark": "Bupa",
+    "site": "https://www.bupa.com.au/",
+    "logo_official": null,
+    "checked": "2026-11-18",
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+   }
   },
   {
    "name": "Medibank",
@@ -264,7 +297,18 @@
    },
    "buy_url": null,
    "logo": null,
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "brand": {
+    "color": "#DD0822",
+    "color2": "#DD0822",
+    "accent": "#DD0822",
+    "text_on_color": "#FFFFFF",
+    "wordmark": "medibank",
+    "site": "https://www.medibank.com.au/overseas-health-insurance/oshc/",
+    "logo_official": "https://www.medibank.com.au/content/dam/global/en/logo/medibank.webp",
+    "checked": "2026-11-18",
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+   }
   },
   {
    "name": "nib",
@@ -315,7 +359,18 @@
    "document_dates": {
     "guide": "2026-06-16"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "brand": {
+    "color": "#144A38",
+    "color2": "#144A38",
+    "accent": "#82E578",
+    "text_on_color": "#FFFFFF",
+    "wordmark": "nib",
+    "site": "https://www.nib.com.au/overseas-students/",
+    "logo_official": null,
+    "checked": "2026-11-18",
+    "source": "warna diambil dari logo/tombol di situs resmi provider (18/11/2026)"
+   }
   },
   {
    "name": "CBHS International Health",
@@ -735,5 +790,9 @@
     }
    }
   }
+ },
+ "brand_rules": {
+  "use_logo": false,
+  "note": "Default: nama provider (wordmark) ditulis dengan warna resmi masing-masing (brand.color; ahm gradasi color->color2). Logo resmi hanya dipakai bila pemilik mengonfirmasi Talented berhak memakainya (penjual/partner resmi): set use_logo=true dan simpan file logo resmi di assets/oshc/<provider>.<ext> (jangan hotlink ke situs provider). Warna aksen dipakai untuk garis atas kartu, harga, dan tombol Pilih; teks di atas warna memakai brand.text_on_color; kontras WCAG AA wajib."
  }
 }

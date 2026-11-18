@@ -77,5 +77,16 @@
  },
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a1e9c997583d",
- "video_rule": "Akomodasi boleh punya video tur: field video {provider:'youtube'|'vimeo', id, url}. Website menampilkan thumbnail + tombol putar; embed hanya saat diklik via https://www.youtube-nocookie.com/embed/<id> atau https://player.vimeo.com/video/<id>. Tidak ada upload file video ke repo."
+ "video_rule": "Akomodasi boleh punya video tur: field video {provider:'youtube'|'vimeo', id, url}. Website menampilkan thumbnail + tombol putar; embed hanya saat diklik via https://www.youtube-nocookie.com/embed/<id> atau https://player.vimeo.com/video/<id>. Tidak ada upload file video ke repo.",
+ "featured_picks": {
+  "label": {
+   "id": "⭐ Pilihan Talented",
+   "en": "⭐ Talented pick"
+  },
+  "rule": "Slot atas tiap tab (maks 5): 1) item sponsored berbayar (sponsored.until >= hari ini) SELALU duluan, urut paid_at; 2) sisa slot diisi 'Pilihan Talented' yang dipilih ACAK & BERGILIR per minggu (seed = nomor minggu sejak 2026-11-16, WIB) dari iklan nyata yang sudah ada: Lowongan = jobs.json (Adzuna) + community jobs yang punya upah, diposting <= 30 hari, cocok pelajar; Akomodasi = accommodation.json items (operator resmi dengan harga) + community akomodasi. Maks 1 pick per perusahaan/operator per minggu. Pick diberi label 'Pilihan Talented', BUKAN 'Sponsored' (tidak boleh mengklaim pihak lain membayar).",
+  "slots": 5,
+  "picks_max": 3,
+  "anchor_monday": "2026-11-16",
+  "timezone": "Asia/Jakarta"
+ }
 }

@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+"""Build data/updates.json (the "What's new" feed for the pricelist website) and,
+when OneSignal secrets are set, send ONE short push notification per run.
+
+Sources (all public data files in this repo):
+  news.json, scholarships.json, banners.json, jobs.json, accommodation.json
+State of what has already been announced: data/updates-state.json
+No personal data is read or written. Safe to run many times (idempotent).
+"""
+import json, os, sys, datetime, urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+D = lambda f: os.path.join(ROOT, 'data', f)
+WIB = datetime.timezone(datetime.timedelta(hours=7))
+NOW = datetime.datetime.now(WIB)
+TODAY = NOW.date().isoformat()
+SITE = 'https://pricelist.talentededucationgroup.com'
+MAX_ITEMS = 80
+MAX_PUSH_PER_DAY = 3
+
+
+def load(f, default=None):
+    try:
+        with open(D(f), encoding='utf-8') as fh:
+            return json.load(fh)
+    except Exception:
+        return default
+
+
+def txt(v, lang='en'):
+    if isinstance(v, dict):
+        return v.get(lang) or v.get('en') or v.get('id') or next(iter(v.values()), '')
+    return v or ''
+
+
+def entry(kind, key, title_id, title_en, tab, url_q=None, priority=1, extra=None):
+    e = {"id": f"{kind}:{key}", "kind": kind, "date": TODAY, "priority": priority,
+         "title": {"id": title_id, "en": title_en}, "tab": tab,
+         "url": f"{SITE}/?tab={tab}" + (f"&q={urllib.parse.quote(url_q)}" if url_q else "")}
+    if extra:
+        e.update(extra)
+    return e
+
+
+import urllib.parse  # noqa: E402
+
+
+def collect():
+    """Return {kind: {key: entry}} for everything currently announceable."""
+    out = {"news": {}, "scholarship": {}, "promo": {}, "sponsored": {}, "jobs": {}, "accommodation": {}}
+    n = load('news.json', {}) or {}
+    for it in n.get('items', []):
+        out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
+                                      '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2,
+                                      extra={"date": it.get('date') or TODAY})
+    s = load('scholarships.json', {}) or {}
+    for it in s.get('items', []):
+        name = it.get('name', '')
+        en = (it.get('i18n', {}).get('en', {}) or {}).get('name') or name
+        st = it.get('status', '')
+        key = it['id'] + ('|open' if st == 'Buka' else '')
+        dl = it.get('deadline') or ''
+        out['scholarship'][key] = entry(
+            'scholarship', key,
+            ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
+            ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
+            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1)
+    b = load('banners.json', {}) or {}
+    for it in b.get('items', []):
+        if not it.get('approved'):
+            continue
+        if it.get('start', '') > TODAY or it.get('end', '9999') < TODAY:
+            continue
+        prov = it.get('provider', '')
+        hl_id, hl_en = txt(it.get('headline'), 'id'), txt(it.get('headline'), 'en')
+        is_promo = any(w in (hl_en + ' ' + txt(it.get('text'), 'en')).lower()
+                       for w in ('scholarship', 'bursary', 'discount', 'promo', '% ', 'award', 'free'))
+        kind = 'promo' if is_promo else 'sponsored'
+        pri = 3 if it.get('paid') else (2 if is_promo else 1)
+        out[kind][it['id']] = entry(kind, it['id'], ('🔥 Promo: ' if is_promo else '⭐ ') + hl_id,
+                                    ('🔥 Promo: ' if is_promo else '⭐ ') + hl_en, 'programs',
+                                    url_q=(it.get('match') or {}).get('q') or prov, priority=pri,
+                                    extra={"paid": bool(it.get('paid'))})
+    j = load('jobs.json', {}) or {}
+    for it in j.get('items', []):
+        out['jobs'][it['id']] = it.get('country') or 'other'
+    a = load('accommodation.json', {}) or {}
+    for it in (a.get('items') or []) + (a.get('postings') or []):
+        if isinstance(it, dict) and it.get('id'):
+            out['accommodation'][it['id']] = it.get('city') or it.get('country') or ''
+    return out
+
+
+def main():
+    cur = collect()
+    state = load('updates-state.json')
+    feed = load('updates.json') or {}
+    items = feed.get('items', [])
+    first_run = state is None
+    state = state or {"seen": {}, "push_log": [], "pending": []}
+    new = []
+    for kind, d in cur.items():
+        seen = set(state['seen'].get(kind, []))
+        fresh = [k for k in d if k not in seen]
+        if not first_run and fresh:
+            if kind in ('jobs', 'accommodation'):
+                # aggregate: one entry per run, never one per listing
+                places = sorted({d[k] for k in fresh if d[k]})[:4]
+                where_en = ', '.join(places)
+                if kind == 'jobs':
+                    e = entry('jobs', TODAY + '-' + str(len(fresh)), f'💼 {len(fresh)} lowongan kerja baru' + (f' ({where_en})' if where_en else ''),
+                              f'💼 {len(fresh)} new part-time/student jobs' + (f' ({where_en})' if where_en else ''), 'jobs')
+                else:
+                    e = entry('accommodation', TODAY + '-' + str(len(fresh)), f'🏠 {len(fresh)} info akomodasi baru' + (f' ({where_en})' if where_en else ''),
+                              f'🏠 {len(fresh)} new accommodation listings' + (f' ({where_en})' if where_en else ''), 'accommodation')
+                new.append(e)
+            else:
+                new.extend(d[k] for k in fresh)
+        state['seen'][kind] = sorted(set(d) | seen)
+    if first_run:
+        # seed the feed with the most recent news (7 days) and today's paid/promo slides
+        week = (NOW.date() - datetime.timedelta(days=7)).isoformat()
+        n = load('news.json', {}) or {}
+        recent = {i['id'] for i in n.get('items', []) if i.get('date', '') >= week}
+        new = [e for k, e in cur['news'].items() if k in recent]
+    existing = {i['id'] for i in items}
+    new = [e for e in new if e['id'] not in existing]
+    items = sorted(new + items, key=lambda e: (e['date'], e.get('priority', 1)), reverse=True)[:MAX_ITEMS]
+    feed = {
+        "version": NOW.strftime('%Y-%m-%dT%H:%M:%S+07:00'),
+        "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
+        "kinds": {
+            "news": {"id": "Berita imigrasi", "en": "Immigration news"},
+            "scholarship": {"id": "Beasiswa", "en": "Scholarships"},
+            "promo": {"id": "Promo", "en": "Promotions"},
+            "sponsored": {"id": "Sekolah & layanan unggulan", "en": "Featured schools & services"},
+            "jobs": {"id": "Lowongan kerja", "en": "Jobs"},
+            "accommodation": {"id": "Akomodasi", "en": "Accommodation"}},
+        "items": items}
+    if new:
+        state['pending'] = (state.get('pending', []) + [e['id'] for e in new])[-50:]
+    maybe_push(state, items)
+    json.dump(feed, open(D('updates.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(state, open(D('updates-state.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+    print(f"new entries: {len(new)}; feed size: {len(items)}; pending push: {len(state.get('pending', []))}")
+
+
+def maybe_push(state, items):
+    app_id, key = os.environ.get('ONESIGNAL_APP_ID'), os.environ.get('ONESIGNAL_REST_API_KEY')
+    pend = state.get('pending', [])
+    if not pend:
+        return
+    if not (app_id and key):
+        print('OneSignal secrets not set: feed updated, push skipped (pending kept).')
+        state['pending'] = pend[-50:]
+        return
+    if not (7 <= NOW.hour < 21):
+        print('Quiet hours (21:00-07:00 WIB): push deferred.')
+        return
+    today_count = sum(1 for t in state.get('push_log', []) if t.startswith(TODAY))
+    if today_count >= MAX_PUSH_PER_DAY:
+        print('Daily push limit reached: deferred.')
+        return
+    by_id = {i['id']: i for i in items}
+    es = [by_id[p] for p in pend if p in by_id]
+    if not es:
+        state['pending'] = []
+        return
+    es.sort(key=lambda e: e.get('priority', 1), reverse=True)
+    top = es[0]
+    more = len(es) - 1
+    body_en = top['title']['en'] + (f' (+{more} more updates)' if more else '')
+    body_id = top['title']['id'] + (f' (+{more} update lain)' if more else '')
+    payload = {"app_id": app_id, "included_segments": ["Total Subscriptions"],
+               "headings": {"en": "Talented: what's new", "id": "Talented: yang baru"},
+               "contents": {"en": body_en, "id": body_id},
+               "url": top['url'] if not more else SITE + '/?updates=1'}
+    req = urllib.request.Request('https://api.onesignal.com/notifications', data=json.dumps(payload).encode(),
+                                 headers={'Content-Type': 'application/json', 'Authorization': 'Key ' + key})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print('push sent', r.status)
+        state['push_log'] = (state.get('push_log', []) + [NOW.isoformat()])[-30:]
+        state['pending'] = []
+    except Exception as ex:  # keep pending, try next run
+        print('push failed:', str(ex)[:200])
+
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -1,0 +1,68 @@
+{
+ "version": "2026-11-18T19:19:19+07:00",
+ "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
+ "kinds": {
+  "news": {
+   "id": "Berita imigrasi",
+   "en": "Immigration news"
+  },
+  "scholarship": {
+   "id": "Beasiswa",
+   "en": "Scholarships"
+  },
+  "promo": {
+   "id": "Promo",
+   "en": "Promotions"
+  },
+  "sponsored": {
+   "id": "Sekolah & layanan unggulan",
+   "en": "Featured schools & services"
+  },
+  "jobs": {
+   "id": "Lowongan kerja",
+   "en": "Jobs"
+  },
+  "accommodation": {
+   "id": "Akomodasi",
+   "en": "Accommodation"
+  }
+ },
+ "items": [
+  {
+   "id": "news:us-ds-rule-vacated-2026-11",
+   "kind": "news",
+   "date": "2026-11-16",
+   "priority": 2,
+   "title": {
+    "id": "📰 AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1",
+    "en": "📰 US: court vacates DHS rule ending 'Duration of Status' (D/S) for F-1 students"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+  },
+  {
+   "id": "news:nz-stgwv-2026-11-16",
+   "kind": "news",
+   "date": "2026-11-16",
+   "priority": 2,
+   "title": {
+    "id": "📰 Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026",
+    "en": "📰 New Zealand: Short-Term Graduate Work Visa (6 months) opens 16 Nov 2026"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+  },
+  {
+   "id": "news:nz-pswv-eligibility-2026-11-16",
+   "kind": "news",
+   "date": "2026-11-16",
+   "priority": 2,
+   "title": {
+    "id": "📰 Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026",
+    "en": "📰 New Zealand: Post-Study Work Visa eligibility extended from 16 Nov 2026"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news"
+  }
+ ]
+}

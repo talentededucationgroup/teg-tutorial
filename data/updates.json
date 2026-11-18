@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18T23:54:23+07:00",
+ "version": "2026-11-18T23:57:48+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -147,6 +147,18 @@
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College"
+  },
+  {
+   "id": "accommodation:2026-11-18-1",
+   "kind": "accommodation",
+   "date": "2026-11-18",
+   "priority": 1,
+   "title": {
+    "id": "🏠 1 info akomodasi baru (Melbourne)",
+    "en": "🏠 1 new accommodation listings (Melbourne)"
+   },
+   "tab": "accommodation",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=accommodation"
   },
   {
    "id": "sponsored:house-batch-2026-11-18",

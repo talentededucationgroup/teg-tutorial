@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18d",
+ "version": "2026-11-18e",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -1041,6 +1041,24 @@
  "services": {
   "note": "Link referral Flywire milik Talented (partner 2VR4ZK). Tampilkan sebagai tombol 'Beli online' / 'Buka layanan' tanpa menyebut komisi.",
   "items": [
+   {
+    "key": "tuition_payment",
+    "country": null,
+    "label": {
+     "id": "Bayar tuition fee ke sekolah (Flywire)",
+     "en": "Pay tuition fees to your school (Flywire)"
+    },
+    "button": {
+     "id": "Bayar tuition online",
+     "en": "Pay tuition online"
+    },
+    "note": {
+     "id": "Pembayaran aman langsung ke rekening resmi sekolah, bisa dari Rupiah/rekening Indonesia. Pilih nama sekolah di halaman Flywire; bila sekolah tidak ada di daftar, tanya konsultan Talented.",
+     "en": "Secure payment straight to your school's official account, including from Indonesian Rupiah/bank accounts. Choose your school on the Flywire page; if it is not listed, ask a Talented consultant."
+    },
+    "url": "https://agents.flywire.com/services/2VR4ZK/edu-payments?utm_source=agent_portal&utm_medium=link_copy&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
+    "checked": "2026-11-18"
+   },
    {
     "key": "oshc_au",
     "country": "AU",

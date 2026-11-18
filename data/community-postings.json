@@ -1,0 +1,14 @@
+{
+ "version": "2026-11-18",
+ "updated_at": "2026-11-18T22:20:00+07:00",
+ "note": "Lowongan & akomodasi kiriman bisnis terdaftar lewat formulir gratis (Jotform 263214542459054). Hanya item yang lolos pemeriksaan otomatis (status approved) yang ada di file ini. Tidak berisi data kontak pribadi. Dikelola tugas terjadwal harian.",
+ "form_url": "https://form.jotform.com/263214542459054",
+ "labels": {
+  "verified": {"id": "Bisnis terverifikasi", "en": "Verified business"},
+  "post_cta": {"id": "Pasang lowongan / akomodasi gratis", "en": "Post a job / accommodation for free"},
+  "post_note": {"id": "Khusus bisnis terdaftar. Dicek dulu sebelum tayang (±24 jam).", "en": "Registered businesses only. Checked before it goes live (about 24 hours)."},
+  "report": {"id": "Laporkan iklan ini", "en": "Report this listing"}
+ },
+ "jobs": [],
+ "accommodation": []
+}

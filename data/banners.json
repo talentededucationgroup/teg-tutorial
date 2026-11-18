@@ -3613,5 +3613,7 @@
   "paid_rule": "Item paid=true (pembeli paket Sponsored) TIDAK ikut rolling: selalu tampil setiap minggu, selalu di urutan paling depan (urut tanggal bayar), lalu baru item grup minggu ini.",
   "status": "Aktif sampai pemilik bilang stop (keputusan 18/11/2026)."
  },
- "website_note": "Tombol 'Official website' / 'Situs resmi' memakai field website (beranda resmi). source = halaman bukti promo."
+ "website_note": "Tombol 'Official website' / 'Situs resmi' memakai field website (beranda resmi). source = halaman bukti promo.",
+ "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
+ "_fp": "teg-9213a23e9255"
 }

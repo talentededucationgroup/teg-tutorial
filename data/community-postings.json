@@ -70,5 +70,7 @@
   },
   "rule": "Item dengan sponsored:{package, until} (until >= hari ini) tampil paling atas tab-nya, ditandai 'Sponsored', urut tanggal bayar; tidak ikut rolling banner. Setelah until lewat, item tetap tampil sebagai iklan biasa sampai closing_date/expires.",
   "who": "Bisnis dan perorangan (keputusan pemilik 18/11/2026), setelah lolos pemeriksaan yang sama."
- }
+ },
+ "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
+ "_fp": "teg-a1e9c997583d"
 }

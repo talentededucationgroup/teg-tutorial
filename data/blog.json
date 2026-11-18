@@ -1,7 +1,7 @@
 {
  "version": "2026-11-18",
  "site": "https://info.talentededucationgroup.com/blog/",
- "rules": "Artikel blog bulanan (riset & tulis otomatis oleh tugas terjadwal). Hanya fakta dengan sumber resmi (pemerintah/sekolah); usulan & konsultasi wajib diberi label jelas. Tanpa nama master agent, komisi, atau data pribadi. Bahasa: id (utama) + en. Halaman dibuat oleh scripts/build_blog.py.",
+ "rules": "Artikel blog bulanan (riset & tulis otomatis oleh tugas terjadwal). Hanya fakta dengan sumber resmi (pemerintah/sekolah); usulan & konsultasi wajib diberi label jelas. Tanpa data pribadi. Bahasa: id (utama) + en. Halaman dibuat oleh scripts/build_blog.py.",
  "posts": [
   {
    "slug": "update-visa-pelajar-november-2026",

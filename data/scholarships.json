@@ -3416,5 +3416,7 @@
   }
  ],
  "i18n_note": "Teks item: pakai item.i18n[lang] bila ada, lalu item.i18n.en, lalu field asli (Indonesia). Label status/type/funding/level dari labels.*.",
- "maintenance": "WAJIB untuk setiap update (termasuk tugas mingguan): setiap item baru/berubah harus ikut memperbarui item.i18n.en (name, provider, country, fields, coverage, amount, eligibility, english_test, intake, notes dalam bahasa Inggris). Item tanpa i18n.en tidak boleh di-push."
+ "maintenance": "WAJIB untuk setiap update (termasuk tugas mingguan): setiap item baru/berubah harus ikut memperbarui item.i18n.en (name, provider, country, fields, coverage, amount, eligibility, english_test, intake, notes dalam bahasa Inggris). Item tanpa i18n.en tidak boleh di-push.",
+ "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
+ "_fp": "teg-c1a6e1de21f7"
 }

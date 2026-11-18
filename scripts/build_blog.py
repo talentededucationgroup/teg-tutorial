@@ -67,7 +67,7 @@ function nshare(){{if(navigator.share){{navigator.share({{title:document.title,u
 function copyl(){{const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>{{const t=document.getElementById('toast');t.style.display='block';setTimeout(()=>t.style.display='none',1800)}}).catch(()=>prompt('{T[l]['copy']}',u))}}
 </script>"""
 def page(l,title,desc,url,alt_url,body,jsonld='',hero=''):
-    return f"""<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
 <link rel="alternate" hreflang="{l}" href="{e(url)}"><link rel="alternate" hreflang="{T[l]['langq']}" href="{e(alt_url)}"><link rel="alternate" type="application/rss+xml" title="Talented Blog" href="{SITE}/blog/feed.xml">
 <meta property="og:type" content="article"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{OG}"><meta name="twitter:card" content="summary_large_image">
@@ -129,5 +129,5 @@ urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l i
 last={url_post(p['slug'],l):p.get('updated',p['date']) for p in posts for l in ('id','en')}
 sm=''.join(f'<url><loc>{u}</loc><lastmod>{last.get(u,posts[0]["date"])}</lastmod></url>' for u in urls)
 write(os.path.join(ROOT,'sitemap.xml'),f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
-write(os.path.join(ROOT,'robots.txt'),f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
+write(os.path.join(ROOT,'robots.txt'),f'User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /sponsor/\nSitemap: {SITE}/sitemap.xml\n\nUser-agent: GPTBot\nDisallow: /data/\nUser-agent: CCBot\nDisallow: /\n')
 print('built',len(posts),'posts')

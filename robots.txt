@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /sponsor/
 Sitemap: https://info.talentededucationgroup.com/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /data/
+User-agent: CCBot
+Disallow: /

@@ -84,6 +84,11 @@ def collect():
     j = load('jobs.json', {}) or {}
     for it in j.get('items', []):
         out['jobs'][it['id']] = it.get('country') or 'other'
+    c = load('community-postings.json', {}) or {}
+    for it in c.get('jobs', []):
+        out['jobs'][it['id']] = it.get('city') or it.get('country') or 'other'
+    for it in c.get('accommodation', []):
+        out['accommodation'][it['id']] = it.get('city') or it.get('country') or ''
     a = load('accommodation.json', {}) or {}
     for it in (a.get('items') or []) + (a.get('postings') or []):
         if isinstance(it, dict) and it.get('id'):

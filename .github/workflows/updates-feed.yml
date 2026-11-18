@@ -9,6 +9,7 @@ on:
       - 'data/banners.json'
       - 'data/jobs.json'
       - 'data/accommodation.json'
+      - 'data/community-postings.json'
   workflow_run:
     workflows: ["Update lowongan kerja (2x sehari)"]
     types: [completed]

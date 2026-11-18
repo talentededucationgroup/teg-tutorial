@@ -812,22 +812,22 @@
   "basis": "Quote 12 bulan Single dicek 16/11/2026 (laporan pemilik/ChatGPT); tarif per bulan perhitungan tetap R103 (selisih <= AUD 0,05/tahun)."
  },
  "rates": {
-  "version": "2026-11-18",
+  "version": "2026-11-18b",
   "currency": "AUD",
-  "basis": "Polis 12 bulan, cover 01/12/2026-30/11/2027; per bulan = premi 12 bulan / 12 (dibulatkan 2 desimal). null = belum tersedia di sumber resmi -> tampilkan \"konfirmasi ke konsultan TEG\".",
-  "excel_revision": "R110",
+  "basis": "Polis 12 bulan, cover mulai 01/12/2026 (Single: harga Flywire 18/11/2026; nib: rate card nib); per bulan = premi 12 bulan / 12 (dibulatkan 2 desimal). null = belum tersedia di sumber resmi -> tampilkan \"konfirmasi ke konsultan TEG\".",
+  "excel_revision": "R111",
   "default_provider": "ahm",
   "auto_update": "Dicek ulang otomatis tiap tanggal 1 (tugas terjadwal bulanan). Angka hanya diubah bila sumber resmi berubah; selisih >10% ditahan untuk konfirmasi pemilik.",
   "providers": {
    "ahm": {
     "monthly_aud": {
-     "single": 56.78,
+     "single": 55.02,
      "couple": 612.88,
      "single_parent": 612.88,
      "family": 1297.97
     },
     "annual_aud": {
-     "single": 681.4,
+     "single": 660.24,
      "couple": 7354.6,
      "single_parent": 7354.6,
      "family": 15575.6
@@ -836,7 +836,8 @@
     "checked": {
      "single": "2026-11-18",
      "couple_single_parent_family": "2026-11-12"
-    }
+    },
+    "source_single": "Flywire, Single 12 bulan mulai 01/12/2026 (dicek 18/11/2026)"
    },
    "Allianz Care": {
     "monthly_aud": {
@@ -855,7 +856,8 @@
     "checked": {
      "single": "2026-11-18",
      "couple_single_parent_family": "2026-11-12"
-    }
+    },
+    "source_single": "Flywire, Single 12 bulan mulai 01/12/2026 (dicek 18/11/2026)"
    },
    "Bupa": {
     "monthly_aud": {
@@ -874,17 +876,18 @@
     "checked": {
      "single": "2026-11-18",
      "couple_single_parent_family": "2026-11-12"
-    }
+    },
+    "source_single": "Flywire, Single 12 bulan mulai 01/12/2026 (dicek 18/11/2026)"
    },
    "Medibank": {
     "monthly_aud": {
-     "single": 59.92,
+     "single": 56.92,
      "couple": 552.84,
      "single_parent": 552.84,
      "family": 1353.26
     },
     "annual_aud": {
-     "single": 719,
+     "single": 683.04,
      "couple": 6634.1,
      "single_parent": 6634.1,
      "family": 16239.15
@@ -893,7 +896,8 @@
     "checked": {
      "single": "2026-11-18",
      "couple_single_parent_family": "2026-11-12"
-    }
+    },
+    "source_single": "Flywire, Single 12 bulan mulai 01/12/2026 (dicek 18/11/2026)"
    },
    "nib": {
     "monthly_aud": {

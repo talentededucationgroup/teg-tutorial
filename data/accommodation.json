@@ -247,7 +247,21 @@
    "attribution_ru": "Источник: Iglu Brisbane City (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Brisbane_CBD_Skyline_from_George_St_100_1065.jpg/960px-Brisbane_CBD_Skyline_from_George_St_100_1065.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Brisbane_CBD_Skyline_from_George_St_100_1065.jpg",
+    "author": "John Robert McPherson",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: John Robert McPherson / Wikimedia Commons, CC BY-SA 4.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "8059938c3ae2ebe5",
@@ -577,7 +591,21 @@
    "attribution_ru": "Источник: Iglu Broadway (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Syd2007_Ultimo_Bay_St_N_from_Broadway_1.jpg/960px-Syd2007_Ultimo_Bay_St_N_from_Broadway_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Syd2007_Ultimo_Bay_St_N_from_Broadway_1.jpg",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Orderinchaos / Wikimedia Commons, CC BY-SA 4.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "d8f495efc036ad1d",
@@ -906,10 +934,24 @@
    "attribution_ru": "Источник: UniLodge Melbourne CBD (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/People%2C_tram_and_bike_on_Swanston_Street%2C_Melbourne_%2849537527207%29.jpg/960px-People%2C_tram_and_bike_on_Swanston_Street%2C_Melbourne_%2849537527207%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:People,_tram_and_bike_on_Swanston_Street,_Melbourne_(49537527207).jpg",
+    "author": "Philip Mallis",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Philip Mallis / Wikimedia Commons, CC BY-SA 2.0",
+    "checked": "2026-11-18"
+   }
   },
   {
-   "id": "d8f495efc036ad1d",
+   "id": "d8f495efc036adc2",
    "source_id": "unilodge",
    "kind": "provider_directory",
    "provider": "UniLodge Melbourne Central",
@@ -1221,7 +1263,21 @@
    "attribution_ru": "Источник: UniLodge Melbourne Central (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/People%2C_tram_and_bike_on_Swanston_Street%2C_Melbourne_%2849537527207%29.jpg/960px-People%2C_tram_and_bike_on_Swanston_Street%2C_Melbourne_%2849537527207%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:People,_tram_and_bike_on_Swanston_Street,_Melbourne_(49537527207).jpg",
+    "author": "Philip Mallis",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Philip Mallis / Wikimedia Commons, CC BY-SA 2.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "a2cecf5a5ed97a86",
@@ -1497,7 +1553,21 @@
    "attribution_ru": "Источник: UniLodge @ UC Campus West (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/University_of_Canberra_1.jpg/960px-University_of_Canberra_1.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:University_of_Canberra_1.jpg",
+    "author": "1717 at en.wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: 1717 at en.wikipedia / Wikimedia Commons, Public domain",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "40c610227f153678",
@@ -1840,7 +1910,21 @@
    "provider_de": "UniLodge - ANU-Unterkunft (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
    "provider_it": "UniLodge - alloggi ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
    "provider_nl": "UniLodge - ANU-huisvesting (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
-   "provider_ru": "UniLodge - жильё ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)"
+   "provider_ru": "UniLodge - жильё ANU (Warrumbul, Davey, Kinloch, Lena Karmel, Academie House, UniLodge on Gould)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/University_House_ANU_Canberra_%282948649223%29.jpg/960px-University_House_ANU_Canberra_%282948649223%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:University_House_ANU_Canberra_(2948649223).jpg",
+    "author": "Dave Snowden",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Dave Snowden / Wikimedia Commons, CC BY-SA 2.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "084b76e5975a18b8",
@@ -2170,7 +2254,21 @@
    "attribution_ru": "Источник: StudentLiving / UniLodge Darwin (CDU) (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Charles_Darwin_University%2C_NT.jpg/960px-Charles_Darwin_University%2C_NT.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_University,_NT.jpg",
+    "author": "Michael Coghlan",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Michael Coghlan / Wikimedia Commons, CC BY 2.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "34129c0e5ee5acd4",
@@ -2415,7 +2513,21 @@
    "attribution_de": "Quelle: Bond University - On-campus Accommodation (offizielle Website)",
    "attribution_it": "Fonte: Bond University - On-campus Accommodation (sito ufficiale)",
    "attribution_nl": "Bron: Bond University - On-campus Accommodation (officiële website)",
-   "attribution_ru": "Источник: Bond University - On-campus Accommodation (официальный сайт)"
+   "attribution_ru": "Источник: Bond University - On-campus Accommodation (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Bond_University_east_campus_buildings.jpg/960px-Bond_University_east_campus_buildings.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Bond_University_east_campus_buildings.jpg",
+    "author": "Shiftchange",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Shiftchange / Wikimedia Commons, CC0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "7684e7d80be68d5f",
@@ -2647,7 +2759,21 @@
    "attribution_de": "Quelle: University of Tasmania - Hobart Accommodation (offizielle Website)",
    "attribution_it": "Fonte: University of Tasmania - Hobart Accommodation (sito ufficiale)",
    "attribution_nl": "Bron: University of Tasmania - Hobart Accommodation (officiële website)",
-   "attribution_ru": "Источник: University of Tasmania - Hobart Accommodation (официальный сайт)"
+   "attribution_ru": "Источник: University of Tasmania - Hobart Accommodation (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/UniTas-Centenary_Building.jpg/960px-UniTas-Centenary_Building.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:UniTas-Centenary_Building.jpg",
+    "author": "Barrylb at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Barrylb at English Wikipedia / Wikimedia Commons, Public domain",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "71be5688525e6406",
@@ -2960,7 +3086,21 @@
    "attribution_de": "Quelle: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (offizielle Website)",
    "attribution_it": "Fonte: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (sito ufficiale)",
    "attribution_nl": "Bron: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (officiële website)",
-   "attribution_ru": "Источник: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (официальный сайт)"
+   "attribution_ru": "Источник: University of Auckland - Residences (55 Symonds, Carlaw Park, Stuart McCutcheon House, Te Tirohanga, Waikohanga) (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/00_0495_Clock_Tower%2C_University_of_Auckland.jpg/960px-00_0495_Clock_Tower%2C_University_of_Auckland.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:00_0495_Clock_Tower,_University_of_Auckland.jpg",
+    "author": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: W. Bulach / Wikimedia Commons, CC BY-SA 4.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "0edcaafa48c6f521",
@@ -3234,7 +3374,21 @@
    "attribution_ru": "Источник: UniLodge Auckland City (официальный сайт)",
    "teg_partner": true,
    "booking_via_teg": true,
-   "booking_url": "https://linktr.ee/talentededucationgroup"
+   "booking_url": "https://linktr.ee/talentededucationgroup",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Queen_Street%2C_Auckland_PA02.jpg/960px-Queen_Street%2C_Auckland_PA02.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Queen_Street,_Auckland_PA02.jpg",
+    "author": "Paora",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Paora / Wikimedia Commons, CC0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "e6a0f8ca659ccee3",
@@ -3491,7 +3645,21 @@
    "attribution_de": "Quelle: Te Herenga Waka - Victoria University of Wellington Halls (offizielle Website)",
    "attribution_it": "Fonte: Te Herenga Waka - Victoria University of Wellington Halls (sito ufficiale)",
    "attribution_nl": "Bron: Te Herenga Waka - Victoria University of Wellington Halls (officiële website)",
-   "attribution_ru": "Источник: Te Herenga Waka - Victoria University of Wellington Halls (официальный сайт)"
+   "attribution_ru": "Источник: Te Herenga Waka - Victoria University of Wellington Halls (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Victoria_University_of_Wellington_Kelburn_Campus_06.jpg/960px-Victoria_University_of_Wellington_Kelburn_Campus_06.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Victoria_University_of_Wellington_Kelburn_Campus_06.jpg",
+    "author": "Panamitsu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Panamitsu / Wikimedia Commons, CC BY-SA 4.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "512666a4ceab8213",
@@ -3750,7 +3918,21 @@
    "attribution_de": "Quelle: University of Otago - University Flats (offizielle Website)",
    "attribution_it": "Fonte: University of Otago - University Flats (sito ufficiale)",
    "attribution_nl": "Bron: University of Otago - University Flats (officiële website)",
-   "attribution_ru": "Источник: University of Otago - University Flats (официальный сайт)"
+   "attribution_ru": "Источник: University of Otago - University Flats (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Otago_Clocktower._NZ_%2822954035383%29.jpg/960px-University_of_Otago_Clocktower._NZ_%2822954035383%29.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:University_of_Otago_Clocktower._NZ_(22954035383).jpg",
+    "author": "Bernard Spragg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Bernard Spragg / Wikimedia Commons, CC0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "567a26989ec1630f",
@@ -4005,7 +4187,21 @@
    "attribution_de": "Quelle: University of Otago - Residential Colleges (15 Colleges) (offizielle Website)",
    "attribution_it": "Fonte: University of Otago - Residential Colleges (15 college) (sito ufficiale)",
    "attribution_nl": "Bron: University of Otago - Residential Colleges (15 colleges) (officiële website)",
-   "attribution_ru": "Источник: University of Otago - Residential Colleges (15 колледжей) (официальный сайт)"
+   "attribution_ru": "Источник: University of Otago - Residential Colleges (15 колледжей) (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Water_of_Leith_University_of_Otago.jpg/960px-Water_of_Leith_University_of_Otago.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Water_of_Leith_University_of_Otago.jpg",
+    "author": "Benchill",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Benchill / Wikimedia Commons, CC BY-SA 3.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "50ec2317fb49540a",
@@ -4261,7 +4457,21 @@
    "attribution_de": "Quelle: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (offizielle Website)",
    "attribution_it": "Fonte: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (sito ufficiale)",
    "attribution_nl": "Bron: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (officiële website)",
-   "attribution_ru": "Источник: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (официальный сайт)"
+   "attribution_ru": "Источник: University of Waikato - Catered Halls (Bryant Hall, College Hall, Student Village) (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gallagher_Academy_of_Performing_Arts.jpg/960px-Gallagher_Academy_of_Performing_Arts.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gallagher_Academy_of_Performing_Arts.jpg",
+    "author": "Waikato Wordwizard",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Waikato Wordwizard / Wikimedia Commons, CC BY-SA 3.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "026ecbfc23cd6010",
@@ -4518,7 +4728,21 @@
    "attribution_de": "Quelle: Massey University - Manawatū Halls (offizielle Website)",
    "attribution_it": "Fonte: Massey University - Manawatū Halls (sito ufficiale)",
    "attribution_nl": "Bron: Massey University - Manawatū Halls (officiële website)",
-   "attribution_ru": "Источник: Massey University - Manawatū Halls (официальный сайт)"
+   "attribution_ru": "Источник: Massey University - Manawatū Halls (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Massey_University_Manawat%C5%AB_campus_2010.jpg/960px-Massey_University_Manawat%C5%AB_campus_2010.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Massey_University_Manawatū_campus_2010.jpg",
+    "author": "Massey University",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "type": "campus",
+    "label": {
+     "id": "Foto kampus (ilustrasi)",
+     "en": "Campus photo (illustration)"
+    },
+    "credit": "Foto: Massey University / Wikimedia Commons, CC BY-SA 4.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "65bfc43f8bdcf4e3",
@@ -4845,7 +5069,21 @@
    "attribution_de": "Quelle: SIT Apartments (Southern Institute of Technology) (offizielle Website)",
    "attribution_it": "Fonte: SIT Apartments (Southern Institute of Technology) (sito ufficiale)",
    "attribution_nl": "Bron: SIT Apartments (Southern Institute of Technology) (officiële website)",
-   "attribution_ru": "Источник: SIT Apartments (Southern Institute of Technology) (официальный сайт)"
+   "attribution_ru": "Источник: SIT Apartments (Southern Institute of Technology) (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Leet_St_-_Flickr_-_Glutnix.jpg/960px-Leet_St_-_Flickr_-_Glutnix.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Leet_St_-_Flickr_-_Glutnix.jpg",
+    "author": "Brett Taylor",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Brett Taylor / Wikimedia Commons, CC BY 2.0",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "43a80e5d813a931f",
@@ -5115,7 +5353,21 @@
    "attribution_de": "Quelle: Te Henui Lodge (WITT, auf dem Campus) (offizielle Website)",
    "attribution_it": "Fonte: Te Henui Lodge (WITT, nel campus) (sito ufficiale)",
    "attribution_nl": "Bron: Te Henui Lodge (WITT, op de campus) (officiële website)",
-   "attribution_ru": "Источник: Te Henui Lodge (WITT, на территории кампуса) (официальный сайт)"
+   "attribution_ru": "Источник: Te Henui Lodge (WITT, на территории кампуса) (официальный сайт)",
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/New_Plymouth_Coastal_Walkway_45.jpg/960px-New_Plymouth_Coastal_Walkway_45.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:New_Plymouth_Coastal_Walkway_45.jpg",
+    "author": "Jacques Marier",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "type": "city",
+    "label": {
+     "id": "Foto kota (ilustrasi)",
+     "en": "City photo (illustration)"
+    },
+    "credit": "Foto: Jacques Marier / Wikimedia Commons, CC BY-SA 2.0",
+    "checked": "2026-11-18"
+   }
   }
  ],
  "postings": [],
@@ -5217,5 +5469,6 @@
   "url": "https://linktr.ee/talentededucationgroup"
  },
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
- "_fp": "teg-a6d79018c989"
+ "_fp": "teg-a6d79018c989",
+ "photo_rule": "photo{} = foto berlisensi bebas (CC0/CC BY/CC BY-SA/Public domain) dari Wikimedia Commons, BUKAN foto gedung resmi operator. Wajib tampilkan label (ilustrasi) + credit (penulis, Wikimedia Commons, lisensi) yang ditautkan ke file_page dan license_url. Jangan mengubah isi foto selain crop/resize."
 }

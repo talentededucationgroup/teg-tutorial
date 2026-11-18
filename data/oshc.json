@@ -1,5 +1,5 @@
 {
- "version": "2026-11-18b",
+ "version": "2026-11-18c",
  "checked": "2026-11-16",
  "title": {
   "id": "Perbandingan cover OSHC",
@@ -438,7 +438,7 @@
     "policy": "https://www.nib.com.au/docs/oshc-fund-rules",
     "guide": "https://www.nib.com.au/docs/oshc-fact-sheet"
    },
-   "buy_url": null,
+   "buy_url": "https://oshcaustralia.com.au?partner=2VR4ZK&referrer=4c0b186c-e755-47b7-b177-7dc19dd1302c",
    "logo": "assets/oshc/nib.png",
    "document_dates": {
     "guide": "2026-06-16"
@@ -467,7 +467,8 @@
     "source": "https://www.nib.com.au/contact-us",
     "checked": "2026-11-18"
    },
-   "buy_mode": "consultant"
+   "buy_mode": "online",
+   "flywire_note": "18/11/2026: nib sementara tidak tampil di Flywire (info provider: akan dimasukkan lagi). Tombol tetap 'Buy online' ke link Flywire. Harga = harga resmi nib sampai harga Flywire nib tersedia; tugas bulanan mengganti ke flywire.monthly_aud."
   },
   {
    "name": "CBHS International Health",
@@ -769,10 +770,6 @@
    "id": "Dipilih",
    "en": "Selected"
   },
-  "ask_consultant": {
-   "id": "Ask Konsultan",
-   "en": "Ask Konsultan"
-  },
   "contact": {
    "id": "Kontak layanan pelanggan",
    "en": "Customer service"
@@ -968,7 +965,7 @@
   }
  },
  "price_source": {
-  "rule": "Harga OSHC yang tampil (kartu & kalkulator) = harga Flywire (flywire.monthly_aud) bila ada; bila ada harga coret (monthly_was_aud) tampilkan juga dicoret. nib tidak ada di Flywire: pakai harga resmi nib + tombol 'Tanya konsultan'.",
+  "rule": "Harga OSHC yang tampil (kartu & kalkulator) = harga Flywire (flywire.monthly_aud) bila ada; bila ada harga coret (monthly_was_aud) tampilkan juga dicoret. Provider tanpa data flywire (saat ini nib) pakai harga resmi provider. SEMUA provider tombol 'Buy online' (tidak ada pengecualian).",
   "checked": "2026-11-18"
  },
  "ovhc": {

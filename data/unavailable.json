@@ -1,6 +1,6 @@
 {
  "version": "2026-11-19",
- "updated_at": "2026-11-19T16:30:00+07:00",
+ "updated_at": "2026-11-19T17:45:00+07:00",
  "note": "Sekolah yang TIDAK lagi ditawarkan Talented. Website menyembunyikan programnya dari hasil cari & daftar, atau menampilkan label tidak tersedia bila dibuka lewat link lama.",
  "label": {
   "id": "Tidak tersedia",
@@ -34,7 +34,20 @@
    ],
    "reason": {
     "id": "Tidak tersedia - sekolah sedang tutup (tidak menerima siswa baru).",
-    "en": "Not available - school is closing down (not accepting new students)."
+    "en": "Not available - school is closing down (not accepting new students).",
+    "th": "ไม่พร้อมให้บริการ - โรงเรียนกำลังปิดตัว (ไม่รับนักเรียนใหม่)",
+    "vi": "Không khả dụng - trường đang đóng cửa (không nhận học viên mới).",
+    "zh": "暂不可用 - 学校即将关闭（不再招收新生）。",
+    "ja": "受付停止 - 学校は閉校予定です（新入生の受け入れなし）。",
+    "ko": "이용 불가 - 학교 폐교 진행 중 (신입생 모집 없음).",
+    "km": "មិនមាន - សាលាកំពុងបិទ (មិនទទួលសិស្សថ្មី)។",
+    "fr": "Non disponible - l'école ferme (n'accepte plus de nouveaux étudiants).",
+    "pt": "Indisponível - a escola está encerrando as atividades (não aceita novos alunos).",
+    "es": "No disponible - la escuela está cerrando (no acepta nuevos estudiantes).",
+    "de": "Nicht verfügbar - die Schule schließt (keine neuen Studierenden).",
+    "it": "Non disponibile - la scuola sta chiudendo (non accetta nuovi studenti).",
+    "nl": "Niet beschikbaar - de school sluit (neemt geen nieuwe studenten aan).",
+    "ru": "Недоступно - учебное заведение закрывается (новых студентов не принимает)."
    },
    "since": "2026-11-19",
    "source": "Keputusan pemilik Talented (sekolah tutup)"

@@ -608,7 +608,12 @@ def render_extra(c, lay, pal, photo, logo_path):
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 6
         draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
         if c['hero']:
-            st = stamp(c['hero'], 'BEASISWA' if re.search('beasiswa|scholarship', c['t'], re.I) else None, ac, GREEN, angle=-7, size=110)
+            sz = 110
+            while True:
+                st = stamp(c['hero'], 'BEASISWA' if re.search('beasiswa|scholarship', c['t'], re.I) else None, ac, GREEN, angle=-7, size=sz)
+                if st.width <= 380 or sz <= 50:
+                    break
+                sz -= 8
             im.alpha_composite(st, (W - 400 + max(0, (400 - st.width) // 2), 470))
         on_photo = photo is not None
     logo_talented(im, dark, 150)

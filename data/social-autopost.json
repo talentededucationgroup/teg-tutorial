@@ -1,0 +1,11 @@
+{
+ "note": "Pengaturan posting otomatis ke Buffer (dibaca scripts/post_to_buffer.py). mode 'draft' = masuk Buffer > Drafts untuk disetujui pemilik; 'queue' = langsung masuk antrean & tayang sesuai jadwal Buffer.",
+ "enabled": true,
+ "mode": "draft",
+ "stories": true,
+ "reels": true,
+ "services": [],
+ "services_note": "Kosong = semua channel yang tersambung di Buffer. Isi mis. [\"instagram\",\"facebook\",\"twitter\",\"google\"] untuk membatasi.",
+ "max_per_run": 6,
+ "max_age_days": 10
+}

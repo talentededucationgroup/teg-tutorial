@@ -37,7 +37,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: pip install -q pillow opencv-python-headless && (which ffmpeg || sudo apt-get install -y -qq ffmpeg)
+      - run: pip install -q pillow opencv-python-headless imageio-ffmpeg
       - name: Foto kota berlisensi bebas untuk akomodasi baru (Wikimedia Commons)
         run: python scripts/fill_photos.py || true
       - name: Bangun feed & kirim push (bila secret OneSignal ada)

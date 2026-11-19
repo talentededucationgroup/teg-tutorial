@@ -652,7 +652,15 @@ def make_reel(story_path, seconds=8):
     music = sorted(_g.glob(os.path.join(ROOT, 'assets', 'music', '*.mp3')))
     vf = (f"scale=1296:2304,zoompan=z='min(1+0.0004*on,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
           f":d={seconds * 30}:s=1080x1920:fps=30,fade=t=in:st=0:d=0.4,format=yuv420p")
-    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-i', story_path]
+    import shutil as _sh
+    ff = _sh.which('ffmpeg')
+    if not ff:
+        try:
+            import imageio_ffmpeg
+            ff = imageio_ffmpeg.get_ffmpeg_exe()
+        except Exception:
+            print('reel skipped: no ffmpeg'); return None
+    cmd = [ff, '-y', '-loglevel', 'error', '-loop', '1', '-i', story_path]
     if music:
         pick = music[int(hashlib.sha256(story_path.encode()).hexdigest(), 16) % len(music)]
         cmd += ['-i', pick, '-filter:a', f'afade=t=in:d=0.5,afade=t=out:st={seconds - 1}:d=1,volume=0.8', '-c:a', 'aac', '-b:a', '128k']

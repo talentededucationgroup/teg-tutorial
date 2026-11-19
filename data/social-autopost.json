@@ -1,7 +1,7 @@
 {
  "note": "Pengaturan posting otomatis ke Buffer (dibaca scripts/post_to_buffer.py). mode 'draft' = masuk Buffer > Drafts untuk disetujui pemilik; 'queue' = langsung masuk antrean & tayang sesuai jadwal Buffer.",
  "enabled": true,
- "mode": "draft",
+ "mode": "auto_reviewed",
  "stories": true,
  "reels": true,
  "services": [],
@@ -9,5 +9,7 @@
  "max_per_run": 6,
  "max_age_days": 10,
  "news_max_age_days": 1,
- "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi)."
+ "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi).",
+ "mode_note": "'auto_reviewed' = setiap postingan dicek otomatis oleh ChatGPT (OpenAI, butuh secret OPENAI_API_KEY); hanya LOLOS yang langsung masuk antrean Buffer & tayang; REVISI/TOLAK ditahan & dilaporkan. Tanpa OPENAI_API_KEY = masuk Drafts. 'draft' = semua ke Drafts. 'queue' = langsung tayang tanpa cek.",
+ "reviewer_model": "gpt-4o"
 }

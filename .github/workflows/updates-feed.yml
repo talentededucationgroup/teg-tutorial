@@ -38,7 +38,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: pip install -q pillow opencv-python-headless imageio-ffmpeg
+      - run: pip install -q pillow opencv-python-headless imageio-ffmpeg pypdf
       - name: Foto kota berlisensi bebas untuk akomodasi baru (Wikimedia Commons)
         run: python scripts/fill_photos.py || true
       - name: Bangun feed & kirim push (bila secret OneSignal ada)
@@ -49,12 +49,13 @@ jobs:
       - name: Kirim postingan baru ke Buffer (bila BUFFER_API_KEY di-set)
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/post_to_buffer.py || true
       - name: Commit feed
         run: |
           git config user.name "teg-updates-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in data/updates.json data/updates-state.json data/accommodation.json social-feed.xml social-feed-story.xml social-feed-reels.xml social/ data/social-photos.json data/social-log.json data/social-need-photo.json data/buffer-sent.json; do [ -e "$f" ] && git add -A -- "$f"; done
+          for f in data/updates.json data/updates-state.json data/accommodation.json social-feed.xml social-feed-story.xml social-feed-reels.xml social/ data/social-photos.json data/social-log.json data/social-need-photo.json data/buffer-sent.json data/social-review.json; do [ -e "$f" ] && git add -A -- "$f"; done
           if ! git diff --cached --quiet; then
             git commit -m "Feed yang baru otomatis $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main

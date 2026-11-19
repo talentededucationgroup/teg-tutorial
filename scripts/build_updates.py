@@ -7,7 +7,7 @@ Sources (all public data files in this repo):
 State of what has already been announced: data/updates-state.json
 No personal data is read or written. Safe to run many times (idempotent).
 """
-import json, os, sys, datetime, urllib.request
+import json, os, re, sys, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = lambda f: os.path.join(ROOT, 'data', f)
@@ -52,7 +52,8 @@ def collect():
     for it in n.get('items', []):
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
                                       '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2,
-                                      extra={"date": it.get('date') or TODAY, "country": it.get('country')})
+                                      extra={"date": it.get('date') or TODAY, "country": it.get('country'),
+                                             "source": next((l['url'] for l in it.get('links', []) if l.get('official')), None)})
     s = load('scholarships.json', {}) or {}
     for it in s.get('items', []):
         name = it.get('name', '')
@@ -64,7 +65,7 @@ def collect():
             'scholarship', key,
             ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
             ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
-            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country'), "provider": it.get('provider')})
+            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country'), "provider": it.get('provider'), "source": it.get('url')})
     b = load('banners.json', {}) or {}
     for it in b.get('items', []):
         if not it.get('approved'):
@@ -81,7 +82,8 @@ def collect():
                                     ('🔥 Promo: ' if is_promo else '⭐ ') + hl_en, 'programs',
                                     url_q=(it.get('match') or {}).get('q') or prov, priority=pri,
                                     extra={"paid": bool(it.get('paid')), "provider": prov,
-                                           "country": (it.get('match') or {}).get('country') or ('AU' if it.get('cricos') else None)})
+                                           "country": (it.get('match') or {}).get('country') or ('AU' if it.get('cricos') else None),
+                                           "source": (it.get('source') if str(it.get('source') or '').startswith('http') else None) or it.get('website')})
     j = load('jobs.json', {}) or {}
     for it in j.get('items', []):
         out['jobs'][it['id']] = it.get('country') or 'other'
@@ -175,6 +177,18 @@ LT = 'https://linktr.ee/talentededucationgroup'
 HASH = {'AU': '#KuliahDiAustralia', 'NZ': '#KuliahDiNewZealand', 'GB': '#KuliahDiInggris', 'CA': '#KuliahDiKanada'}
 
 
+SECRET = re.compile(r"yes\s*edu|yesedugroup|\baig\b|australian\s+international\s+group|upgrad|\bgsp\b|\bapg\b|asia\s+pacific\s+group|"
+                    r"potongan\s+agen|komisi\s+agen|agent\s+commission|master\s+agent|harga\s+agen|agent\s+price|special\s+price\s+agent", re.I)
+
+
+def official_link(e):
+    """official source URL for terms that may need clarification; never a master-agent / partner-portal link"""
+    u = (e.get('source') or '').strip()
+    if not u.startswith('https://') or SECRET.search(u) or any(b in u.lower() for b in ('drive.google', 'dropbox', 'wetransfer', 'agent')):
+        return None
+    return u
+
+
 def caption(e, t):
     """Universal caption (Panduan bagian M). Weekly marketing posts bring their own caption; closing is enforced."""
     from make_social_cards import credit_for, idate
@@ -214,6 +228,14 @@ def caption(e, t):
         tags = [HASH.get(_cc(e.get('country')), '#KuliahLuarNegeri'),
                 '#BeasiswaLuarNegeri' if k == 'scholarship' else '#StudyAbroad', '#TalentedEducation']
         c += '\n\n' + ' '.join(tags)
+    src = official_link(e)
+    if src and src not in c:
+        lab = {'news': 'Sumber resmi pemerintah', 'scholarship': 'Ketentuan resmi beasiswa'}.get(e['kind'], 'Ketentuan resmi')
+        lines = c.split('\n\n')
+        # insert before the fixed closing block
+        i = next((k for k, b in enumerate(lines) if b.startswith('Talented Education Group | PT.')), len(lines))
+        lines.insert(i, f'{lab}: {src}')
+        c = '\n\n'.join(lines)
     if cr:
         c += '\n' + cr
     return c
@@ -237,7 +259,7 @@ def write_rss(items):
     for p in sp.get('items', []):
         if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
             extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
-                          "caption": p.get('caption'), "sub": p.get('sub'), "spec": p.get('design'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
+                          "caption": p.get('caption'), "sub": p.get('sub'), "spec": p.get('design'), "source": p.get('source_url'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
@@ -251,6 +273,9 @@ def write_rss(items):
         if not img:
             continue  # QA failed: never publish a broken design
         desc = caption(e, t)
+        if SECRET.search(desc) or SECRET.search(t):
+            print('BLOCKED (business secret in text):', e['id'])
+            continue
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"

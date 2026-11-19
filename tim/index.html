@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data: blob:; media-src 'self' https://info.talentededucationgroup.com blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'">
+<title>Kit Konten Tim Talented</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#14213d;--muted:#5b6475;--line:#e3ded3;--gold:#d4a017;--green:#1f7a4d;--new:#c0392b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151c;--card:#1a202b;--ink:#eef1f6;--muted:#a3adbd;--line:#2b3442}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:20px 16px 8px;max-width:1100px;margin:0 auto}h1{margin:0 0 4px;font-size:1.4rem}header p{margin:0;color:var(--muted);font-size:.92rem}
+.how{max-width:1100px;margin:12px auto;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-size:.9rem}
+.how ol{margin:6px 0 0;padding-left:20px}
+main{max-width:1100px;margin:0 auto;padding:8px 16px 40px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;background:#ddd}
+.body{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
+.badge{background:var(--new);color:#fff;border-radius:999px;padding:1px 8px;font-weight:700}
+.tag{border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+h2{font-size:1rem;margin:0}
+textarea{width:100%;min-height:120px;border:1px solid var(--line);border-radius:8px;padding:8px;font:inherit;font-size:.85rem;background:transparent;color:var(--ink);resize:vertical}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+button,a.btn{min-height:44px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:.88rem;font-weight:600;cursor:pointer;text-decoration:none;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px 8px}
+button.primary{background:var(--green);border-color:var(--green);color:#fff;grid-column:1/-1}
+.done{opacity:.55}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#14213d;color:#fff;padding:10px 16px;border-radius:10px;font-size:.9rem;display:none}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:0 16px 30px}
+</style>
+</head>
+<body>
+<header>
+<h1>📲 Kit Konten Tim Talented</h1>
+<p>Poster, Story, Reel &amp; caption terbaru dari Talented, siap diposting ke WA Status, Instagram, Facebook &amp; TikTok. Halaman ini diperbarui otomatis.</p>
+</header>
+<section class="how"><strong>Cara pakai (dari HP):</strong>
+<ol>
+<li>Tekan <b>📤 Bagikan poster + caption</b> → pilih <b>WhatsApp</b> → <b>Status Saya</b> (atau Instagram/Facebook). Caption ikut tersalin; bila tidak muncul, tekan tempel (paste).</li>
+<li>Untuk Story/Reel pakai tombol <b>Story 9:16</b> atau <b>Video Reel</b>.</li>
+<li>Postingan yang sudah Anda bagikan ditandai ✓ di HP Anda. <b>BARU</b> = terbit dalam 24 jam terakhir.</li>
+</ol></section>
+<main id="list"><p class="empty">Memuat postingan…</p></main>
+<footer>Talented Education Group | PT. Pilar Pendidikan Internasional · Konten resmi, jangan diubah angka/tanggalnya. Pertanyaan siswa arahkan ke https://linktr.ee/talentededucationgroup</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+const BASE='https://info.talentededucationgroup.com';
+const $=s=>document.querySelector(s);
+const toast=m=>{const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',2500)};
+const store={get(){try{return JSON.parse(localStorage.getItem('teg-tim-done')||'[]')}catch(e){return[]}},add(id){try{const a=store.get();if(!a.includes(id)){a.push(id);localStorage.setItem('teg-tim-done',JSON.stringify(a.slice(-300)))}}catch(e){}}};
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function copy(text){try{await navigator.clipboard.writeText(text);return true}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}ta.remove();return ok}}
+async function fileFrom(url,name){const r=await fetch(url,{cache:'force-cache'});if(!r.ok)throw new Error('gagal unduh');const b=await r.blob();return new File([b],name,{type:b.type||'application/octet-stream'})}
+async function share(post,kind){
+  const url=kind==='story'?post.story:kind==='reel'?post.reel:post.image;
+  const ext=kind==='reel'?'mp4':'png';
+  const name=('Talented '+post.title).replace(/[^\w\- ]+/g,'').slice(0,60)+(kind==='story'?' Story':kind==='reel'?' Reel':'')+'.'+ext;
+  await copy(post.caption);
+  try{
+    const f=await fileFrom(url,name);
+    if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:post.caption,title:post.title});store.add(post.id);render();return}
+  }catch(e){if(e&&e.name==='AbortError')return}
+  toast('Caption tersalin. Browser ini belum bisa berbagi file: poster dibuka, simpan lalu posting manual.');
+  window.open(url,'_blank','noopener');store.add(post.id);render();
+}
+let posts=[];
+function render(){
+  const done=store.get(),now=Date.now();
+  const el=$('#list');
+  if(!posts.length){el.innerHTML='<p class="empty">Belum ada postingan. Cek lagi nanti.</p>';return}
+  el.innerHTML=posts.map((p,i)=>`<article class="card ${done.includes(p.id)?'done':''}">
+    <img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy">
+    <div class="body">
+      <div class="meta">${now-p.time<864e5?'<span class="badge">BARU</span>':''}<span>${esc(p.dateText)}</span><span class="tag">${esc(p.kindText)}</span>${done.includes(p.id)?'<span>✓ sudah dibagikan</span>':''}</div>
+      <h2>${esc(p.title)}</h2>
+      <textarea readonly aria-label="Caption">${esc(p.caption)}</textarea>
+      <div class="btns">
+        <button class="primary" data-i="${i}" data-k="post">📤 Bagikan poster + caption</button>
+        ${p.story?`<button data-i="${i}" data-k="story">📱 Story 9:16</button>`:''}
+        ${p.reel?`<button data-i="${i}" data-k="reel">🎬 Video Reel</button>`:''}
+        <button data-i="${i}" data-k="copy">📋 Salin caption</button>
+        <a class="btn" href="${esc(p.image)}" download target="_blank" rel="noopener">⬇️ Simpan poster</a>
+      </div>
+    </div></article>`).join('');
+}
+document.addEventListener('click',async e=>{
+  const b=e.target.closest('button[data-i]');if(!b)return;
+  const p=posts[+b.dataset.i],k=b.dataset.k;
+  if(k==='copy'){toast(await copy(p.caption)?'Caption tersalin':'Salin manual dari kotak caption');return}
+  b.disabled=true;const old=b.textContent;b.textContent='Menyiapkan…';
+  try{await share(p,k==='post'?'image':k)}finally{b.disabled=false;b.textContent=old}
+});
+const KIND={news:'Berita visa',scholarship:'Beasiswa',promo:'Promo',sponsored:'Sponsored',marketing:'Info Talented',jobs:'Loker',accommodation:'Akomodasi',airport:'Jemput bandara',blog:'Artikel'};
+async function load(){
+  try{
+    const [xml,rev]=await Promise.all([
+      fetch(BASE+'/social-feed.xml?t='+Date.now(),{cache:'no-store'}).then(r=>r.text()),
+      fetch(BASE+'/data/social-review.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():{items:{}}).catch(()=>({items:{}}))]);
+    const doc=new DOMParser().parseFromString(xml,'application/xml');const reviews=(rev&&rev.items)||{};const now=Date.now();
+    posts=[...doc.querySelectorAll('item')].map(it=>{
+      const g=t=>(it.querySelector(t)||{}).textContent||'';
+      const id=g('guid'),time=Date.parse(g('pubDate'))||0,enc=it.querySelector('enclosure');
+      const image=enc?enc.getAttribute('url'):'';
+      const v=(reviews[id]||{}).verdict;
+      return {id,time,title:g('title'),caption:g('description').trim(),image,
+        story:image?image.replace(/\.png$/i,' Story.png').replace(/%20Story%20Story/,'%20Story'):'',
+        reel:image?image.replace(/\.png$/i,' Reel.mp4'):'',
+        kindText:KIND[g('category')]||g('category')||'Info',
+        dateText:time?new Date(time).toLocaleString('id-ID',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'}):'',
+        held:v==='REVISI'||v==='TOLAK'};
+    }).filter(p=>p.image&&!p.held&&p.time<=now).sort((a,b)=>b.time-a.time);
+    posts.forEach(p=>{p.story=p.story.replace(/ Story\.png$/,'%20Story.png');p.reel=p.reel.replace(/ Reel\.mp4$/,'%20Reel.mp4')});
+    await Promise.all(posts.map(async p=>{for(const k of ['story','reel']){try{const r=await fetch(p[k],{method:'HEAD'});if(!r.ok)p[k]=''}catch(e){p[k]=''}}}));
+    render();
+  }catch(e){$('#list').innerHTML='<p class="empty">Gagal memuat. Periksa koneksi lalu muat ulang halaman.</p>'}
+}
+load();
+})();
+</script>
+</body>
+</html>

@@ -129,5 +129,5 @@ urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l i
 last={url_post(p['slug'],l):p.get('updated',p['date']) for p in posts for l in ('id','en')}
 sm=''.join(f'<url><loc>{u}</loc><lastmod>{last.get(u,posts[0]["date"])}</lastmod></url>' for u in urls)
 write(os.path.join(ROOT,'sitemap.xml'),f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
-write(os.path.join(ROOT,'robots.txt'),f'User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /sponsor/\nSitemap: {SITE}/sitemap.xml\n\nUser-agent: GPTBot\nDisallow: /data/\nUser-agent: CCBot\nDisallow: /\n')
+write(os.path.join(ROOT,'robots.txt'),f'User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /sponsor/\nDisallow: /tim/\nSitemap: {SITE}/sitemap.xml\n\nUser-agent: GPTBot\nDisallow: /data/\nUser-agent: CCBot\nDisallow: /\n')
 print('built',len(posts),'posts')

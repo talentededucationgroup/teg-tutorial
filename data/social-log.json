@@ -56,6 +56,76 @@
    "photo": "tanpa foto",
    "v": 8,
    "credit": null
+  },
+  {
+   "no": 5,
+   "date": "2026-11-19",
+   "key": "post:2026-w47-ais",
+   "file": "Talented Auckland Institute Program November 2026.png",
+   "provider": "Auckland Institute",
+   "layout": "H",
+   "palette": "P4",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "Foto: Auckland Institute of Studies",
+   "v": 9,
+   "credit": "Foto: Auckland Institute of Studies"
+  },
+  {
+   "no": 6,
+   "date": "2026-11-19",
+   "key": "site:2026-11-20:site-02",
+   "file": "Talented Pricelist Hitung Dana Awal November 2026.png",
+   "provider": "-",
+   "layout": "B",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 7,
+   "date": "2026-11-19",
+   "key": "news:us-ds-rule-vacated-2026-11",
+   "file": "Talented Amerika Info Visa November 2026.png",
+   "provider": "-",
+   "layout": "E",
+   "palette": "P4",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 8,
+   "date": "2026-11-19",
+   "key": "news:nz-stgwv-2026-11-16",
+   "file": "Talented Selandia Baru Info Visa November 2026.png",
+   "provider": "-",
+   "layout": "H",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 9,
+   "date": "2026-11-19",
+   "key": "news:nz-pswv-eligibility-2026-11-16",
+   "file": "Talented Selandia Baru Info Visa November 2026 2.png",
+   "provider": "-",
+   "layout": "C",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto atas diagonal",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

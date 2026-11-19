@@ -9,5 +9,27 @@
   "url": "opsional, link ke pricelist dengan ?tab=...",
   "design": "opsional, isi untuk desain sesuai Panduan: {headline: maks 6 kata, hero: angka besar mis. '30%' / 'AUD 6.000', price: 'AUD 6.000', unit: '/ semester', info: ['Program · Kota', 'Intake Feb 2027'], footnote: maks 2 baris}"
  },
- "items": []
+ "items": [
+  {
+   "id": "2026-w47-ais",
+   "date": "2026-11-20",
+   "title": "Beasiswa 15% semua program di AIS Auckland",
+   "country": "NZ",
+   "provider": "Auckland Institute of Studies",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Auckland%20Institute%20of%20Studies",
+   "source_url": "https://uploads.up.education/wp-content/uploads/2026/02/AIS-Scholarship-Flyer-2026-WEB-110226.pdf",
+   "design": {
+    "headline": "BEASISWA KULIAH DI AUCKLAND",
+    "hero": "15%",
+    "price": "NZD 9.350",
+    "unit": "/ semester",
+    "info": [
+     "Bachelor of Business · AIS Auckland",
+     "Intake Term 2 2026 dst · + program lain"
+    ],
+    "footnote": "*NZD 18.700 per 120 kredit (±1 tahun) ÷ 2 semester. Syarat berlaku."
+   },
+   "caption": "Beasiswa 15% tuition untuk semua program di Auckland Institute of Studies (AIS), Auckland. Bachelor of Business jadi sekitar NZD 9.350 per semester. Info: https://linktr.ee/talentededucationgroup\n\nBerlaku untuk pendaftaran dengan intake mulai Term 2 2026 dan seterusnya. Setelah beasiswa, Bachelor of Business atau Bachelor of IT di AIS sekitar NZD 18.700 per 120 kredit (kurang lebih satu tahun, dua semester). Ada juga pilihan Graduate Diploma dan Master, termasuk MBA.\n\nButuh skor IELTS atau PTE dulu? Victory Scholars Academy, bagian dari Talented, buka kelas persiapan private atau group, online maupun offline. Mock test-nya gratis.\n\nTim Talented bantu cek syarat dan hitung total biayanya, gratis. Scan QR di gambar atau klik link di bio.\n\nTalented Education Group | PT. Pilar Pendidikan Internasional\nGuiding Futures, Creating Opportunities.\ntalentededucationgroup.com · S&K berlaku.\nIG/FB/YouTube @talented.e.g · TikTok @talented.education · X @group_talented\nCek biaya kuliah Australia, NZ, Kanada, Inggris & Korea dalam semenit (dana awal, total biaya & saran rekening koran visa): https://pricelist.talentededucationgroup.com/ Bisa dipasang jadi App Talented, gratis. Free Mock Test IELTS/PTE/HSK/TOPIK/JLPT juga tersedia.\n\n#KuliahDiNewZealand #BeasiswaLuarNegeri #TalentedEducation"
+  }
+ ]
 }

@@ -30,12 +30,16 @@
    "accommodation:snapshot-2026-11-18"
   ],
   "Talented Umum (jobs)": [
-   "jobs:snapshot-2026-11-18"
+   "jobs:snapshot-2026-11-18",
+   "jobs:2026-11-20-257"
   ],
   "Talented Umum (news)": [
    "news:us-ds-rule-vacated-2026-11",
    "news:nz-stgwv-2026-11-16",
    "news:nz-pswv-eligibility-2026-11-16"
+  ],
+  "Kaplan Business School Australia": [
+   "scholarship:au-kbs-excellence-indonesia-2027|open"
   ]
  }
 }

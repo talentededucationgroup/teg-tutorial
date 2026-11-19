@@ -1,5 +1,5 @@
 {
- "version": "2026-11-19T01:52:10+07:00",
+ "version": "2026-11-20T01:09:49+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -25,9 +25,40 @@
   "accommodation": {
    "id": "Akomodasi",
    "en": "Accommodation"
+  },
+  "airport": {
+   "id": "Jemput bandara",
+   "en": "Airport pickup"
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-kbs-excellence-indonesia-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: KBS Excellence Scholarship 2027 - Indonesia (deadline 2027-03-31)",
+    "en": "🎓 Scholarship open: KBS Excellence Scholarship 2027 - Indonesia (deadline 2027-03-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KBS%20Excellence%20Scholarship%202027%20-%20Indonesia",
+   "country": "Australia",
+   "provider": "Kaplan Business School Australia",
+   "source": "https://www.kbs.edu.au"
+  },
+  {
+   "id": "jobs:2026-11-20-257",
+   "kind": "jobs",
+   "date": "2026-11-20",
+   "priority": 1,
+   "title": {
+    "id": "💼 257 lowongan kerja baru (Australia, Canada, France, Germany)",
+    "en": "💼 257 new part-time/student jobs (Australia, Canada, France, Germany)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
+  },
   {
    "id": "scholarship:sg-astar-singa|open",
    "kind": "scholarship",

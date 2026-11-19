@@ -1,6 +1,6 @@
 {
- "version": "2026-11-19",
- "updated_at": "2026-11-19T13:30:00+07:00",
+ "version": "2026-11-19b",
+ "updated_at": "2026-11-19T13:20:00+07:00",
  "note": "Daftar sekolah yang diberi tanda Rekomendasi Talented di hasil pencarian & kartu program. Diatur pemilik.",
  "badge": {
   "icon": "⭐",
@@ -26,7 +26,7 @@
    "en": "Schools we recommend. Still compare programs, costs and requirements for your needs."
   }
  },
- "match_rule": "Cocokkan dengan kode CRICOS (paling akurat), lalu nama/alias (tanpa beda huruf besar-kecil, abaikan tanda petik & titik). Alias pendek (<=4 huruf, mis. ACA, KOI, VU, CDU, AIH) hanya dicocokkan sebagai kata utuh/huruf kapital, bukan potongan kata. 'Australian Catholic University' BUKAN ACA; 'Churchill Institute of Higher Education' BUKAN CIHE; 'King's Own International College' (02599C) BUKAN KOI.",
+ "match_rule": "Cocokkan dengan kode CRICOS (paling akurat), lalu nama/alias (tanpa beda huruf besar-kecil, abaikan tanda petik & titik). Alias pendek (<=4 huruf, mis. ACA, KOI, VU, CDU, AIH) hanya dicocokkan sebagai kata utuh/huruf kapital, bukan potongan kata. 'Australian Catholic University' BUKAN ACA; 'Churchill Institute of Higher Education' BUKAN CIHE; 'King's Own International College' (02599C) BUKAN KOI. Academies Australasia (ACA), Crown Institute of Higher Education (CIHE), Australian Business Institute & Australian Agribusiness Institute (Leaders Institute) TIDAK diberi tanda.",
  "items": [
   {
    "key": "aih",
@@ -77,18 +77,6 @@
    ]
   },
   {
-   "key": "cihe",
-   "name": "Crown Institute of Higher Education (CIHE)",
-   "aliases": [
-    "CIHE",
-    "Crown Institute of Higher Education",
-    "CIHE Australia"
-   ],
-   "cricos": [
-    "03744B"
-   ]
-  },
-  {
    "key": "aiat",
    "name": "Australian Institute of Advanced Technologies (AIAT)",
    "aliases": [
@@ -97,30 +85,6 @@
    ],
    "cricos": [
     "04191M"
-   ]
-  },
-  {
-   "key": "aca",
-   "name": "Academies Australasia (ACA)",
-   "aliases": [
-    "ACA",
-    "Academies Australasia",
-    "Academies Australasia Institute",
-    "Australian College of Technology",
-    "Clarendon Business College",
-    "Supreme Business College",
-    "Skills Training Australasia",
-    "Academies Australasia Polytechnic",
-    "AAPoly"
-   ],
-   "cricos": [
-    "02398A",
-    "02408D",
-    "01953J",
-    "02028E",
-    "03521F",
-    "03319G",
-    "02439G"
    ]
   },
   {
@@ -134,29 +98,6 @@
    ],
    "cricos": [
     "02672K"
-   ]
-  },
-  {
-   "key": "abi",
-   "name": "Australian Business Institute (Leaders Institute)",
-   "aliases": [
-    "Australian Business Institute",
-    "ABI",
-    "Leaders Institute"
-   ],
-   "cricos": [
-    "03732F"
-   ]
-  },
-  {
-   "key": "aai",
-   "name": "Australian Agribusiness Institute (Leaders Institute)",
-   "aliases": [
-    "Australian Agribusiness Institute",
-    "AAI"
-   ],
-   "cricos": [
-    "03732F"
    ]
   },
   {

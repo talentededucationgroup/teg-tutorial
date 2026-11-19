@@ -258,7 +258,7 @@ def write_rss(items):
     tags = {"scholarship": "#beasiswa #kuliahluarnegeri #studyabroad", "promo": "#promo #studyabroad",
             "news": "#visa #infoimigrasi #studyabroad", "sponsored": "#studyabroad #kuliahdiluarnegeri",
             "jobs": "#kerjapartime #studentjobs", "accommodation": "#akomodasi #studentaccommodation"}
-    out, out_story, out_reel = [], [], []
+    out, out_story, out_reel, wall = [], [], [], []
     import urllib.parse as _up
     import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from make_social_cards import make_card, cleanup
@@ -304,6 +304,9 @@ def write_rss(items):
         if SECRET.search(desc) or SECRET.search(t):
             print('BLOCKED (business secret in text):', e['id'])
             continue
+        wall.append({"id": e['id'], "kind": e['kind'], "date": e['date'], "title": re.sub(r'^[^\w]+', '', t).strip(),
+                     "image": img, "link": e.get('url') or SITE + '/', "source": official_link(e),
+                     "caption": (desc.split('\n\n')[0])[:300], "country": e.get('country')})
         out.append(f"<item><title>{x(t)}</title><link>{x(link)}</link><guid isPermaLink=\"false\">{x(e['id'])}</guid>"
                    f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>{x(e['kind'])}</category>"
                    f"<description>{x(desc)}</description>"
@@ -323,6 +326,29 @@ def write_rss(items):
            f'<language>id</language><lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>'
            + ''.join(out) + '</channel></rss>')
     open(os.path.join(ROOT, 'social-feed.xml'), 'w', encoding='utf-8').write(xml)
+    # public wall for the pricelist website: only posts that are live / approved (owner 20/11/2026)
+    rv = (load('social-review.json', {}) or {}).get('items', {})
+    mode = (load('social-autopost.json', {}) or {}).get('mode')
+    import urllib.parse as _u2
+    live = []
+    for w_ in wall:
+        if w_['date'] > TODAY:
+            continue
+        if mode == 'auto_reviewed' and rv and rv.get(w_['id'], {}).get('verdict') not in (None, 'LOLOS'):
+            continue
+        base = w_['image'][:-4]
+        fbase = os.path.join(ROOT, 'social', 'cards', _u2.unquote(base.rsplit('/', 1)[1]))
+        w_['story'] = base + '%20Story.png' if os.path.exists(fbase + ' Story.png') else None
+        w_['reel'] = base + '%20Reel.mp4' if os.path.exists(fbase + ' Reel.mp4') else None
+        live.append(w_)
+    json.dump({"version": NOW.strftime('%Y-%m-%dT%H:%M:%S+07:00'),
+               "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
+               "labels": {"title": {"id": "Info & promo terbaru", "en": "Latest updates & offers"},
+                          "kinds": {"scholarship": {"id": "Beasiswa", "en": "Scholarship"}, "promo": {"id": "Promo", "en": "Promo"},
+                                    "sponsored": {"id": "Sponsored", "en": "Sponsored"}, "news": {"id": "Berita visa", "en": "Visa news"},
+                                    "marketing": {"id": "Info Talented", "en": "Talented info"}, "jobs": {"id": "Loker", "en": "Jobs"},
+                                    "accommodation": {"id": "Akomodasi", "en": "Accommodation"}, "airport": {"id": "Jemput bandara", "en": "Airport pickup"}}},
+               "items": live[:24]}, open(D('social-wall.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     for fn, lst, ttl in (('social-feed-story.xml', out_story, 'Story 9:16'), ('social-feed-reels.xml', out_reel, 'Reels 9:16')):
         open(os.path.join(ROOT, fn), 'w', encoding='utf-8').write(
             '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'

@@ -19,6 +19,25 @@ MAX_ITEMS = 80
 MAX_PUSH_PER_DAY = 3
 
 
+
+# Label "Info & promo terbaru" 15 bahasa (aturan multibahasa TEG; terjemahan selain ID/EN: versi bahasa Inggris yang berlaku)
+_LANGS = ['id', 'en', 'th', 'vi', 'zh', 'ja', 'ko', 'km', 'fr', 'pt', 'es', 'de', 'it', 'nl', 'ru']
+def _l(*v):
+    return dict(zip(_LANGS, v))
+WALL_LABELS = {
+    "title": _l("Info & promo terbaru", "Latest updates & offers", "ข่าวและโปรโมชันล่าสุด", "Tin mới & ưu đãi", "最新资讯与优惠", "最新情報とキャンペーン", "최신 소식 & 프로모션", "ព័ត៌មាន និងប្រូម៉ូសិនថ្មីៗ", "Actualités et offres", "Novidades e ofertas", "Novedades y ofertas", "Neuigkeiten & Angebote", "Novità e offerte", "Nieuws & aanbiedingen", "Новости и акции"),
+    "kinds": {
+        "scholarship": _l("Beasiswa", "Scholarship", "ทุนการศึกษา", "Học bổng", "奖学金", "奨学金", "장학금", "អាហារូបករណ៍", "Bourse", "Bolsa de estudos", "Beca", "Stipendium", "Borsa di studio", "Beurs", "Стипендия"),
+        "promo": _l("Promo", "Promo", "โปรโมชัน", "Ưu đãi", "优惠", "キャンペーン", "프로모션", "ប្រូម៉ូសិន", "Promo", "Promoção", "Promoción", "Aktion", "Promozione", "Actie", "Акция"),
+        "sponsored": _l("Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored", "Sponsored"),
+        "news": _l("Berita visa", "Visa news", "ข่าววีซ่า", "Tin visa", "签证新闻", "ビザニュース", "비자 뉴스", "ព័ត៌មានទិដ្ឋាការ", "Actualités visa", "Notícias de visto", "Noticias de visados", "Visa-News", "Notizie sui visti", "Visumnieuws", "Новости о визах"),
+        "marketing": _l("Info Talented", "Talented info", "ข้อมูล Talented", "Thông tin Talented", "Talented 资讯", "Talented のお知らせ", "Talented 소식", "ព័ត៌មាន Talented", "Infos Talented", "Info Talented", "Info Talented", "Talented-Infos", "Info Talented", "Talented-info", "Новости Talented"),
+        "jobs": _l("Loker", "Jobs", "งาน", "Việc làm", "工作", "求人", "채용", "ការងារ", "Emplois", "Vagas", "Empleos", "Jobs", "Lavoro", "Vacatures", "Вакансии"),
+        "accommodation": _l("Akomodasi", "Accommodation", "ที่พัก", "Chỗ ở", "住宿", "宿泊先", "숙소", "កន្លែងស្នាក់នៅ", "Logement", "Acomodação", "Alojamiento", "Unterkunft", "Alloggio", "Huisvesting", "Жильё"),
+        "airport": _l("Jemput bandara", "Airport pickup", "รับที่สนามบิน", "Đón sân bay", "机场接机", "空港送迎", "공항 픽업", "ទទួលពីព្រលានយន្តហោះ", "Accueil aéroport", "Traslado do aeroporto", "Recogida en el aeropuerto", "Flughafenabholung", "Transfer aeroporto", "Ophalen luchthaven", "Встреча в аэропорту"),
+    },
+}
+
 def load(f, default=None):
     try:
         with open(D(f), encoding='utf-8') as fh:
@@ -343,11 +362,7 @@ def write_rss(items):
         live.append(w_)
     json.dump({"version": NOW.strftime('%Y-%m-%dT%H:%M:%S+07:00'),
                "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
-               "labels": {"title": {"id": "Info & promo terbaru", "en": "Latest updates & offers"},
-                          "kinds": {"scholarship": {"id": "Beasiswa", "en": "Scholarship"}, "promo": {"id": "Promo", "en": "Promo"},
-                                    "sponsored": {"id": "Sponsored", "en": "Sponsored"}, "news": {"id": "Berita visa", "en": "Visa news"},
-                                    "marketing": {"id": "Info Talented", "en": "Talented info"}, "jobs": {"id": "Loker", "en": "Jobs"},
-                                    "accommodation": {"id": "Akomodasi", "en": "Accommodation"}, "airport": {"id": "Jemput bandara", "en": "Airport pickup"}}},
+               "labels": WALL_LABELS,
                "items": live[:24]}, open(D('social-wall.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     for fn, lst, ttl in (('social-feed-story.xml', out_story, 'Story 9:16'), ('social-feed-reels.xml', out_reel, 'Reels 9:16')):
         open(os.path.join(ROOT, fn), 'w', encoding='utf-8').write(

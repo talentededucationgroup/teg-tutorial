@@ -8,11 +8,11 @@
    "file": "Talented Auckland Institute Program November 2026.png",
    "provider": "Auckland Institute",
    "layout": "H",
-   "palette": "P1",
+   "palette": "P4",
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "Foto: Auckland Institute of Studies",
-   "v": 8,
+   "v": 9,
    "credit": "Foto: Auckland Institute of Studies"
   },
   {
@@ -21,12 +21,12 @@
    "key": "news:us-ds-rule-vacated-2026-11",
    "file": "Talented Amerika Info Visa November 2026.png",
    "provider": "-",
-   "layout": "T",
+   "layout": "E",
    "palette": "P4",
    "format": "Feed 4:5",
-   "layout_name": "Tipografi berita resmi",
+   "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 8,
+   "v": 9,
    "credit": null
   },
   {
@@ -35,12 +35,12 @@
    "key": "news:nz-stgwv-2026-11-16",
    "file": "Talented Selandia Baru Info Visa November 2026.png",
    "provider": "-",
-   "layout": "T",
+   "layout": "H",
    "palette": "P3",
    "format": "Feed 4:5",
-   "layout_name": "Tipografi berita resmi",
+   "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 8,
+   "v": 9,
    "credit": null
   },
   {
@@ -49,12 +49,12 @@
    "key": "news:nz-pswv-eligibility-2026-11-16",
    "file": "Talented Selandia Baru Info Visa November 2026 2.png",
    "provider": "-",
-   "layout": "T",
+   "layout": "C",
    "palette": "P1",
    "format": "Feed 4:5",
-   "layout_name": "Tipografi berita resmi",
+   "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 8,
+   "v": 9,
    "credit": null
   },
   {

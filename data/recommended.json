@@ -1,0 +1,214 @@
+{
+ "version": "2026-11-19",
+ "updated_at": "2026-11-19T13:30:00+07:00",
+ "note": "Daftar sekolah yang diberi tanda Rekomendasi Talented di hasil pencarian & kartu program. Diatur pemilik.",
+ "badge": {
+  "icon": "⭐",
+  "label": {
+   "id": "Rekomendasi Talented",
+   "en": "Talented Recommended",
+   "th": "Talented แนะนำ",
+   "vi": "Talented đề xuất",
+   "zh": "Talented 推荐",
+   "ja": "Talented おすすめ",
+   "ko": "Talented 추천",
+   "km": "Talented ណែនាំ",
+   "fr": "Recommandé par Talented",
+   "pt": "Recomendado pela Talented",
+   "es": "Recomendado por Talented",
+   "de": "Von Talented empfohlen",
+   "it": "Consigliato da Talented",
+   "nl": "Aanbevolen door Talented",
+   "ru": "Рекомендует Talented"
+  },
+  "tooltip": {
+   "id": "Sekolah yang kami rekomendasikan. Tetap bandingkan program, biaya & syarat sesuai kebutuhanmu.",
+   "en": "Schools we recommend. Still compare programs, costs and requirements for your needs."
+  }
+ },
+ "match_rule": "Cocokkan dengan kode CRICOS (paling akurat), lalu nama/alias (tanpa beda huruf besar-kecil, abaikan tanda petik & titik). Alias pendek (<=4 huruf, mis. ACA, KOI, VU, CDU, AIH) hanya dicocokkan sebagai kata utuh/huruf kapital, bukan potongan kata. 'Australian Catholic University' BUKAN ACA; 'Churchill Institute of Higher Education' BUKAN CIHE; 'King's Own International College' (02599C) BUKAN KOI.",
+ "items": [
+  {
+   "key": "aih",
+   "name": "AIH Higher Education",
+   "aliases": [
+    "AIH",
+    "Australian Institute of Higher Education",
+    "AIH Higher Education"
+   ],
+   "cricos": [
+    "03147A"
+   ]
+  },
+  {
+   "key": "astra",
+   "name": "Astra Institute of Higher Education",
+   "aliases": [
+    "Astra Institute",
+    "Astra Institute of Higher Education",
+    "ASTRA"
+   ],
+   "cricos": [
+    "04231H"
+   ]
+  },
+  {
+   "key": "kent",
+   "name": "Kent Institute Australia",
+   "aliases": [
+    "Kent Institute",
+    "Kent Institute Australia",
+    "Kent"
+   ],
+   "cricos": [
+    "00161E"
+   ]
+  },
+  {
+   "key": "shea",
+   "name": "Skyline Higher Education Australia (SHEA)",
+   "aliases": [
+    "SHEA",
+    "Skyline Higher Education Australia",
+    "Skyline Higher Education"
+   ],
+   "cricos": [
+    "04214J"
+   ]
+  },
+  {
+   "key": "cihe",
+   "name": "Crown Institute of Higher Education (CIHE)",
+   "aliases": [
+    "CIHE",
+    "Crown Institute of Higher Education",
+    "CIHE Australia"
+   ],
+   "cricos": [
+    "03744B"
+   ]
+  },
+  {
+   "key": "aiat",
+   "name": "Australian Institute of Advanced Technologies (AIAT)",
+   "aliases": [
+    "AIAT",
+    "Australian Institute of Advanced Technologies"
+   ],
+   "cricos": [
+    "04191M"
+   ]
+  },
+  {
+   "key": "aca",
+   "name": "Academies Australasia (ACA)",
+   "aliases": [
+    "ACA",
+    "Academies Australasia",
+    "Academies Australasia Institute",
+    "Australian College of Technology",
+    "Clarendon Business College",
+    "Supreme Business College",
+    "Skills Training Australasia",
+    "Academies Australasia Polytechnic",
+    "AAPoly"
+   ],
+   "cricos": [
+    "02398A",
+    "02408D",
+    "01953J",
+    "02028E",
+    "03521F",
+    "03319G",
+    "02439G"
+   ]
+  },
+  {
+   "key": "greenwich",
+   "name": "Greenwich College",
+   "aliases": [
+    "Greenwich College",
+    "Greenwich English College",
+    "Greenwich Management College",
+    "Greenwich"
+   ],
+   "cricos": [
+    "02672K"
+   ]
+  },
+  {
+   "key": "abi",
+   "name": "Australian Business Institute (Leaders Institute)",
+   "aliases": [
+    "Australian Business Institute",
+    "ABI",
+    "Leaders Institute"
+   ],
+   "cricos": [
+    "03732F"
+   ]
+  },
+  {
+   "key": "aai",
+   "name": "Australian Agribusiness Institute (Leaders Institute)",
+   "aliases": [
+    "Australian Agribusiness Institute",
+    "AAI"
+   ],
+   "cricos": [
+    "03732F"
+   ]
+  },
+  {
+   "key": "utas",
+   "name": "University of Tasmania (UTAS)",
+   "aliases": [
+    "University of Tasmania",
+    "UTAS",
+    "UTas"
+   ],
+   "cricos": [
+    "00586B"
+   ]
+  },
+  {
+   "key": "vu",
+   "name": "Victoria University",
+   "aliases": [
+    "Victoria University",
+    "VU",
+    "VU Sydney",
+    "VU Brisbane"
+   ],
+   "cricos": [
+    "00124K",
+    "02475D"
+   ]
+  },
+  {
+   "key": "koi",
+   "name": "King's Own Institute (KOI)",
+   "aliases": [
+    "King's Own Institute",
+    "Kings Own Institute",
+    "KOI"
+   ],
+   "cricos": [
+    "03171A"
+   ]
+  },
+  {
+   "key": "cdu",
+   "name": "Charles Darwin University (CDU)",
+   "aliases": [
+    "Charles Darwin University",
+    "CDU"
+   ],
+   "cricos": [
+    "00300K"
+   ]
+  }
+ ],
+ "copyright": "© 2026 Talented Education Group.",
+ "_fp": "teg-rec-41b9"
+}

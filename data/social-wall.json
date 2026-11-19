@@ -1,0 +1,111 @@
+{
+ "version": "2026-11-20T01:30:43+07:00",
+ "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
+ "labels": {
+  "title": {
+   "id": "Info & promo terbaru",
+   "en": "Latest updates & offers"
+  },
+  "kinds": {
+   "scholarship": {
+    "id": "Beasiswa",
+    "en": "Scholarship"
+   },
+   "promo": {
+    "id": "Promo",
+    "en": "Promo"
+   },
+   "sponsored": {
+    "id": "Sponsored",
+    "en": "Sponsored"
+   },
+   "news": {
+    "id": "Berita visa",
+    "en": "Visa news"
+   },
+   "marketing": {
+    "id": "Info Talented",
+    "en": "Talented info"
+   },
+   "jobs": {
+    "id": "Loker",
+    "en": "Jobs"
+   },
+   "accommodation": {
+    "id": "Akomodasi",
+    "en": "Accommodation"
+   },
+   "airport": {
+    "id": "Jemput bandara",
+    "en": "Airport pickup"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "post:2026-w47-ais",
+   "kind": "marketing",
+   "date": "2026-11-20",
+   "title": "Beasiswa 15% semua program di AIS Auckland",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Auckland%20Institute%20of%20Studies",
+   "source": "https://uploads.up.education/wp-content/uploads/2026/02/AIS-Scholarship-Flyer-2026-WEB-110226.pdf",
+   "caption": "Beasiswa 15% tuition untuk semua program di Auckland Institute of Studies (AIS), Auckland. Bachelor of Business jadi sekitar NZD 9.350 per semester. Info: https://linktr.ee/talentededucationgroup",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "site:2026-11-20:site-02",
+   "kind": "marketing",
+   "date": "2026-11-20",
+   "title": "Hitung Dana Awal & Rekening Koran",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/",
+   "source": null,
+   "caption": "Mau tahu berapa saldo rekening koran yang disarankan untuk visa pelajar? Pricelist Talented menghitungnya otomatis. Info: https://linktr.ee/talentededucationgroup",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "news:us-ds-rule-vacated-2026-11",
+   "kind": "news",
+   "date": "2026-11-16",
+   "title": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "source": null,
+   "caption": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
+   "country": "US",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "news:nz-stgwv-2026-11-16",
+   "kind": "news",
+   "date": "2026-11-16",
+   "title": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "source": null,
+   "caption": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "news:nz-pswv-eligibility-2026-11-16",
+   "kind": "news",
+   "date": "2026-11-16",
+   "title": "Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "source": null,
+   "caption": "Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202%20Reel.mp4"
+  }
+ ]
+}

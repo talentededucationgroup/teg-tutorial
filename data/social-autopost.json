@@ -7,5 +7,7 @@
  "services": [],
  "services_note": "Kosong = semua channel yang tersambung di Buffer. Isi mis. [\"instagram\",\"facebook\",\"twitter\",\"google\"] untuk membatasi.",
  "max_per_run": 6,
- "max_age_days": 10
+ "max_age_days": 10,
+ "news_max_age_days": 1,
+ "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi)."
 }

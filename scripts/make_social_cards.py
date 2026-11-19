@@ -291,7 +291,7 @@ LAYOUTS = {  # name: (needs hero, needs deadline, allowed palettes)
     'D': (True, False, ['P1', 'P3']), 'E': (False, False, ['P2', 'P4', 'P5']), 'F': (False, False, ['P1', 'P3']),
     'G': (False, True, ['P1', 'P2', 'P3', 'P5']), 'H': (False, False, ['P1', 'P3', 'P2', 'P4']),
 }
-LAYOUT_NAMES = {'A': 'Foto kanan diagonal', 'B': 'Foto penuh + panel', 'C': 'Foto atas diagonal', 'D': 'Tipografi + foto miring',
+LAYOUT_NAMES = {'T': 'Tipografi berita resmi', 'A': 'Foto kanan diagonal', 'B': 'Foto penuh + panel', 'C': 'Foto atas diagonal', 'D': 'Tipografi + foto miring',
                 'E': 'Majalah/editorial', 'F': 'Tiket boarding pass', 'G': 'Kalender deadline', 'H': 'Tipografi bertumpuk + cap'}
 
 
@@ -326,6 +326,8 @@ def pick_style(key, has_hero, has_dl=False):
 
 # ---------------------------------------------------------------- layouts
 def render(c, lay, pal, photo, logo_path):
+    if lay == 'T':
+        return render_news(c, pal)
     if lay in ('E', 'F', 'G', 'H'):
         return render_extra(c, lay, pal, photo, logo_path)
     bg, tx, ac, dark = PAL[pal]
@@ -451,6 +453,47 @@ def render(c, lay, pal, photo, logo_path):
                 if y + 28 > limit - 24: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
         draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+    return im.convert('RGB')
+
+
+def render_news(c, pal):
+    """typography-only official news card: kicker, big title, announced date + official source domain"""
+    if pal not in ('P1', 'P3'):
+        pal = 'P1'
+    bg, tx, ac, dark = PAL[pal]
+    im = Image.new('RGBA', (W, H), bg + (255,))
+    d = ImageDraw.Draw(im)
+    d.polygon([(W - 300, 0), (W, 0), (W, 300)], fill=PANEL2)  # diagonal cut like the Talented logo
+    banner_y = 916 - int(182 * 960 / 993)
+    limit = banner_y - 24
+    x, y = M, 240
+    fk = mont(26, 'ExtraBold')
+    kick = c['head']
+    kw = tw(d, kick, fk)
+    d.rectangle([x, y, x + kw + 36, y + 50], fill=ac)
+    draw_t(d, (x + 18, y + 12), kick, fk, GREEN)
+    y += 82
+    t = re.sub(r'^(Australia|Selandia Baru|New Zealand|Inggris|Kanada|AS|Amerika Serikat|[A-Z]{2})\s*:\s*', '', c['t'])
+    maxw, maxh = W - 2 * M, limit - y - 120
+    size = 92
+    while True:
+        f = anton(size)
+        ls = wrap(d, t.upper(), f, maxw, 6)
+        if len(ls) * (size * 1.12) <= maxh or size <= 44:
+            break
+        size -= 4
+    for ln in ls:
+        _, h_ = draw_t(d, (x, y), ln, f, tx); y += int(size * 1.12)
+    y += 14
+    d.rectangle([x, y, x + 140, y + 8], fill=ac); y += 28
+    fi = mont(28, 'Bold')
+    for i, ln in enumerate(c['info'][:2]):
+        for l2 in wrap(d, ln, fi, maxw, 1):
+            if y + 34 > limit:
+                break
+            _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 12
+    logo_talented(im, True, 150)
+    footer_and_banner(im, True, ac)
     return im.convert('RGB')
 
 
@@ -741,7 +784,9 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     photo, credit = get_photo(country or 'ANY', key, provider) if provider else (None, None)
     if not (credit and 'Wikimedia' not in credit):
         photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
-        if not (credit and 'Wikimedia' not in credit):
+        if not (credit and 'Wikimedia' not in credit) and kind == 'news':
+            photo, credit, lay = None, None, 'T'   # Panduan A.11: tipografi murni (official news, no photo needed)
+        elif not (credit and 'Wikimedia' not in credit):
             need_photo(provider or ('Talented Umum (' + kind + ')'), key)
             print('held (no real photo yet):', provider or kind)
             return None

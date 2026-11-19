@@ -143,6 +143,9 @@ def main():
         for i in sorted(feed(fname), key=lambda x: x['pub']):
             if not i['media'] or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
                 continue
+            # immigration news: only post while fresh (announced today or yesterday) - owner 20/11/2026
+            if i['guid'].startswith('news:') and (NOW - i['pub']).days > int(cfg.get('news_max_age_days', 1)):
+                continue
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
                 if k in done or n >= limit * max(1, len(chans)):

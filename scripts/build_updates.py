@@ -269,7 +269,12 @@ def write_rss(items):
         except Exception:
             d = NOW
         t = e['title']['id']
-        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'), e.get('spec'))
+        spec = e.get('spec')
+        if e['kind'] == 'news' and not spec:
+            from make_social_cards import idate as _idate
+            dom = re.sub(r'^https?://(www\.)?([^/]+).*$', r'\2', e.get('source') or '')
+            spec = {"info": [f"Diumumkan {_idate(e.get('date'))}"] + ([f"Sumber resmi: {dom}"] if dom else [])}
+        img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'), spec)
         if not img:
             continue  # QA failed: never publish a broken design
         desc = caption(e, t)

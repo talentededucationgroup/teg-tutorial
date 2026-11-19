@@ -1,0 +1,163 @@
+{
+ "note": "Rotasi postingan promosi website pricelist (3x seminggu: Selasa, Jumat, Minggu). Dibaca scripts/build_updates.py. Isi faktual tentang fitur website.",
+ "weekdays": [
+  1,
+  4,
+  6
+ ],
+ "items": [
+  {
+   "key": "site-01",
+   "design": {
+    "headline": "CEK BIAYA KULIAH DALAM 1 MENIT",
+    "hero": "1 MENIT",
+    "info": [
+     "Australia · NZ · Kanada · Inggris · Korea",
+     "Gratis, tanpa daftar"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "fees"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/",
+   "opening": "Bingung total biaya kuliah di luar negeri? Di pricelist Talented kamu bisa cek dalam semenit. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Pilih negara, kota dan jurusan, lalu lihat kisaran biaya kuliah per periode, biaya hidup, dan total dana yang perlu disiapkan. Semua gratis dan bisa dibuka dari HP.",
+   "title": "Cek Biaya Kuliah Dalam 1 Menit"
+  },
+  {
+   "key": "site-02",
+   "design": {
+    "headline": "HITUNG DANA AWAL & REKENING KORAN",
+    "hero": "DANA AWAL",
+    "info": [
+     "Saran saldo rekening koran visa",
+     "Termasuk biaya keluarga"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "fees"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/",
+   "opening": "Mau tahu berapa saldo rekening koran yang disarankan untuk visa pelajar? Pricelist Talented menghitungnya otomatis. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Selain biaya kuliah, ada perkiraan dana awal, biaya hidup, dan tambahan bila membawa pasangan atau anak. Angkanya mengikuti aturan resmi yang dicek berkala.",
+   "title": "Hitung Dana Awal & Rekening Koran"
+  },
+  {
+   "key": "site-03",
+   "design": {
+    "headline": "BEASISWA AKTIF DI SATU TEMPAT",
+    "hero": "BEASISWA",
+    "info": [
+     "Pemerintah & kampus",
+     "Deadline selalu diperbarui"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "school"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships",
+   "opening": "Daftar beasiswa luar negeri yang masih buka, lengkap dengan deadline, ada di tab Beasiswa pricelist Talented. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Ada beasiswa pemerintah Indonesia, pemerintah negara tujuan, dan beasiswa kampus. Setiap beasiswa punya link resmi supaya kamu bisa cek ketentuannya langsung.",
+   "title": "Beasiswa Aktif Di Satu Tempat"
+  },
+  {
+   "key": "site-04",
+   "design": {
+    "headline": "FREE MOCK TEST IELTS & PTE",
+    "hero": "GRATIS",
+    "info": [
+     "IELTS · PTE · HSK · TOPIK · JLPT",
+     "Lewat Victory Scholars Academy"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "school"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=mocktest",
+   "opening": "Mau tahu perkiraan skor IELTS atau PTE sebelum tes asli? Coba Free Mock Test lewat pricelist Talented. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Mock test tersedia untuk IELTS, PTE, HSK, TOPIK dan JLPT. Kalau perlu persiapan, Victory Scholars Academy, bagian dari Talented, buka kelas private atau group, online maupun offline.",
+   "title": "Free Mock Test Ielts & Pte"
+  },
+  {
+   "key": "site-05",
+   "design": {
+    "headline": "LOKER PART-TIME UNTUK PELAJAR",
+    "hero": "LOKER",
+    "info": [
+     "Australia, NZ & negara lain",
+     "Aturan jam kerja visa"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "work"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "opening": "Cari kerja part-time saat kuliah di luar negeri? Tab Lowongan di pricelist Talented diperbarui dua kali sehari. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Lengkap dengan aturan jam kerja visa pelajar tiap negara dari sumber resmi, supaya kamu tetap aman. Ingat, lowongan asli tidak pernah meminta biaya pendaftaran.",
+   "title": "Loker Part-Time Untuk Pelajar"
+  },
+  {
+   "key": "site-06",
+   "design": {
+    "headline": "CARI AKOMODASI PELAJAR",
+    "hero": "AKOMODASI",
+    "info": [
+     "Asrama, homestay & sewa",
+     "Kisaran harga per minggu"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "school"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=accommodation",
+   "opening": "Cari tempat tinggal dekat kampus? Tab Akomodasi di pricelist Talented punya pilihan resmi dengan kisaran harga per minggu. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Ada student accommodation, homestay dan tips sewa dari sumber resmi, termasuk aturan bond. Jangan transfer uang sebelum lihat kamar atau kontrak resmi.",
+   "title": "Cari Akomodasi Pelajar"
+  },
+  {
+   "key": "site-07",
+   "design": {
+    "headline": "JEMPUT BANDARA SAAT TIBA",
+    "hero": "GRATIS*",
+    "info": [
+     "Banyak kampus jemput gratis",
+     "Tips aman anti penipuan"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "visa"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=airport",
+   "opening": "Baru pertama kali tiba di Australia atau NZ? Cek tab Jemput Bandara di pricelist Talented, banyak kampus menjemput gratis. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Ada daftar penjemputan resmi kampus, penyedia transfer, dan transportasi resmi bandara, lengkap dengan cara pesan. *Syarat gratis berbeda tiap kampus.",
+   "title": "Jemput Bandara Saat Tiba"
+  },
+  {
+   "key": "site-08",
+   "design": {
+    "headline": "BERITA VISA RESMI TERBARU",
+    "hero": "UPDATE",
+    "info": [
+     "Diperbarui setiap hari",
+     "Dari situs resmi pemerintah"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "visa"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "opening": "Aturan visa pelajar sering berubah. Tab Berita Imigrasi di pricelist Talented hanya memuat info yang sudah dikonfirmasi situs resmi pemerintah. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Setiap berita punya tanggal pengumuman resmi dan link sumbernya. Ada juga status jelas: sudah berlaku, akan berlaku, atau masih usulan.",
+   "title": "Berita Visa Resmi Terbaru"
+  },
+  {
+   "key": "site-09",
+   "design": {
+    "headline": "PASANG JADI APP DI HP",
+    "hero": "APP",
+    "info": [
+     "Gratis, tanpa Play Store",
+     "Tersedia 15 bahasa"
+    ],
+    "footnote": "*Gratis. pricelist.talentededucationgroup.com",
+    "topic": "fees"
+   },
+   "url": "https://pricelist.talentededucationgroup.com/",
+   "opening": "Pricelist Talented bisa dipasang jadi app di HP, gratis dan tanpa Play Store. Info: https://linktr.ee/talentededucationgroup",
+   "body": "Buka pricelist.talentededucationgroup.com lalu ketuk Mobile App Talented. Tersedia 15 bahasa, ada video tutorialnya juga.",
+   "title": "Pasang Jadi App Di Hp"
+  }
+ ]
+}

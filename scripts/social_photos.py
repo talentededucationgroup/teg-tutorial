@@ -122,7 +122,13 @@ def get_photo(country, seed, provider=None):
             lib = sorted(glob.glob(os.path.join(ROOT, 'social', 'library', sl, '*.[jp][pn]g')))
             if lib:
                 pick = lib[int(hashlib.sha256(seed.encode()).hexdigest(), 16) % len(lib)]
-                return Image.open(pick).convert('RGB'), f"Foto: {provider}"
+                cr = f"Foto: {provider}"
+                try:
+                    cj = json.load(open(os.path.join(os.path.dirname(pick), 'credits.json'), encoding='utf-8'))
+                    cr = cj.get(os.path.basename(pick), {}).get('credit') or cr
+                except Exception:
+                    pass
+                return Image.open(pick).convert('RGB'), cr
         m = load()
         cc = code(country)
         pool = [i for i in m['items'] if i.get('country') == cc and not i.get('blocked')]

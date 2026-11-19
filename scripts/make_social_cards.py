@@ -215,7 +215,29 @@ def find_logo(provider):
     return None
 
 
+def watermark(canvas, dark):
+    """anti-copy: faint diagonal repeated brand text over the stage + small copyright line above the banner"""
+    W_, top = canvas.width, STAGE + 5
+    layer = Image.new('RGBA', (W_ * 2, W_ * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    f = mont(30, 'Bold')
+    txt = 'TALENTED EDUCATION GROUP  ·  talentededucationgroup.com  ·  '
+    col = (255, 255, 255, 20) if dark else (23, 63, 53, 20)
+    for y in range(0, W_ * 2, 130):
+        d.text(((y // 130) % 2 * -220, y), txt * 4, font=f, fill=col)
+    layer = layer.rotate(28, resample=Image.BICUBIC)
+    l, t = (layer.width - W_) // 2, (layer.height - top) // 2
+    canvas.alpha_composite(layer.crop((l, t, l + W_, t + top)), (0, 0))
+    dd = ImageDraw.Draw(canvas)
+    fc = mont(15, 'Bold')
+    s_ = '© Talented Education Group · konten asli, dilarang menyalin tanpa izin'
+    w_ = dd.textlength(s_, font=fc)
+    dd.text((W_ - M - w_, 712), s_, font=fc, fill=(255, 255, 255, 235) if dark else (23, 63, 53, 235),
+            stroke_width=2, stroke_fill=(0, 0, 0, 160) if dark else (255, 255, 255, 200))
+
+
 def footer_and_banner(canvas, dark, accent):
+    watermark(canvas, dark)
     ft = Image.open(BR('footer-hijau.png' if dark else 'footer-terang.png')).convert('RGBA')
     canvas.alpha_composite(ft, (0, FOOT_Y))
     bn = Image.open(BR('banner-app.png')).convert('RGBA')
@@ -266,7 +288,13 @@ def derive(kind, title, sub, country, provider, spec):
             head = 'UPDATE VISA PELAJAR ' + (cn if cc != 'ANY' else '')
         else:
             head = ' '.join(t.split()[:5])
-    head = ' '.join(head.upper().split()[:6])
+    if kind == 'news' and not spec.get('headline'):
+        # news: the news itself is the headline (country prefix kept short), up to 12 words
+        tt = re.sub(r'^(Selandia Baru|New Zealand)\s*:', 'NZ:', t)
+        tt = re.sub(r'^(Amerika Serikat|United States)\s*:', 'AS:', tt)
+        head = ' '.join(tt.upper().split()[:12])
+    else:
+        head = ' '.join(head.upper().split()[:6])
     info = list(spec.get('info') or [])
     if not info:
         prog = re.sub(r'^' + re.escape(prov) + r'\s*-\s*', '', t) if prov else t
@@ -281,7 +309,7 @@ def derive(kind, title, sub, country, provider, spec):
             info.append((where + ' · ' if where else '') + 'Deadline ' + idate(dl))
         elif where:
             info.append(where)
-    foot = spec.get('footnote') or ('*Syarat & ketentuan berlaku.' if kind != 'news' else '*Sumber resmi pemerintah.')
+    foot = spec.get('footnote') or ('*Syarat & ketentuan berlaku.' if kind != 'news' else '*Detail & link resmi di caption.')
     return {"t": t, "dl": dl, "hero": hero, "head": head, "info": info[:3], "price": spec.get('price'),
             "unit": spec.get('unit'), "foot": foot, "cc": cc, "prov": prov}
 
@@ -302,7 +330,7 @@ def pick_style(key, has_hero, has_dl=False):
     except Exception:
         log = {"note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).", "items": []}
     for it in log['items']:
-        if it.get('key') == key and it.get('v') == 8:
+        if it.get('key') == key and it.get('v') == 9:
             return it['layout'], it['palette'], log, True
     rnd = random.Random(hashlib.sha256(key.encode()).hexdigest())
     last = [i for i in log['items'] if i.get('key') != key][-3:]
@@ -758,6 +786,8 @@ def file_name(c, kind, date):
     topic = {'scholarship': 'Beasiswa', 'promo': 'Promo', 'sponsored': 'Program', 'news': 'Info Visa',
              'accommodation': 'Akomodasi', 'jobs': 'Loker', 'marketing': 'Program'}.get(kind, 'Info')
     who = c['prov'] or CNAME.get(c['cc'], '').title()
+    if kind == 'marketing' and not c['prov'] and c['cc'] == 'ANY':
+        who, topic = 'Pricelist', ' '.join(c['head'].title().split()[:3])
     nm = re.sub(r'[^A-Za-z0-9 ]', '', f"Talented {who} {topic} {m} {y}")
     return re.sub(r'\s+', ' ', nm).strip()
 
@@ -772,7 +802,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     if known:
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
-        if os.path.exists(p) and rec.get('v') == 8:
+        if os.path.exists(p) and rec.get('v') == 9:
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
@@ -785,7 +815,18 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     if not (credit and 'Wikimedia' not in credit):
         photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
         if not (credit and 'Wikimedia' not in credit) and kind == 'news':
-            photo, credit, lay = None, None, 'T'   # Panduan A.11: tipografi murni (official news, no photo needed)
+            # topic photo (curated CC0/PD/CC BY, no lettering) - owner 20/11/2026; fallback: typography card
+            photo, credit = get_photo(country or 'ANY', key, 'Topik ' + ((spec or {}).get('topic') or 'visa'))
+            if photo is None:
+                photo, credit, lay = None, None, 'T'
+            elif lay in ('A', 'D', 'G', 'F'):
+                lay = 'B' if lay in ('A', 'G') else 'H'
+        elif not (credit and 'Wikimedia' not in credit) and (spec or {}).get('topic'):
+            photo, credit = get_photo(country or 'ANY', key, 'Topik ' + spec['topic'])
+            if photo is None:
+                need_photo('Topik ' + spec['topic'], key); return None
+            if lay in ('A', 'D', 'G', 'F'):
+                lay = 'B' if lay in ('A', 'G') else 'H'
         elif not (credit and 'Wikimedia' not in credit):
             need_photo(provider or ('Talented Umum (' + kind + ')'), key)
             print('held (no real photo yet):', provider or kind)
@@ -809,7 +850,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 8, "credit": credit}
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 9, "credit": credit}
     if known:
         for i in log['items']:
             if i.get('key') == key:

@@ -1,0 +1,27 @@
+{
+ "1.jpg": {
+  "credit": "Foto: https://pixabay.com/en/users/Fuzz-97706/ / Wikimedia Commons, CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kieran.jpg",
+  "license": "CC0"
+ },
+ "2.jpg": {
+  "credit": "Foto: Tim Gouw punttim / Wikimedia Commons, CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bright_skies_seen_from_a_plane_(Unsplash).jpg",
+  "license": "CC0"
+ },
+ "3.jpg": {
+  "credit": "Foto: West-Siberian-Man / Wikimedia Commons, CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Solar_terninator.jpg",
+  "license": "CC BY 4.0"
+ },
+ "4.jpg": {
+  "credit": "Foto: Lenny K Photography from Sydney, Australia / Wikimedia Commons, CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Flying_through_the_sunrise_-_Flickr_-_Lenny_K_Photography.jpg",
+  "license": "CC BY 2.0"
+ },
+ "5.jpg": {
+  "credit": "Foto: 4300streetcar / Wikimedia Commons, CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Delta_A321_taking_off_from_Runway_9_in_Boston.jpg",
+  "license": "CC BY 4.0"
+ }
+}

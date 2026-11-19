@@ -53,7 +53,8 @@ def collect():
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
                                       '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2,
                                       extra={"date": it.get('date') or TODAY, "country": it.get('country'),
-                                             "source": next((l['url'] for l in it.get('links', []) if l.get('official')), None)})
+                                             "source": next((l['url'] for l in it.get('links', []) if l.get('official')), None),
+                                             "category": it.get('category')})
     s = load('scholarships.json', {}) or {}
     for it in s.get('items', []):
         name = it.get('name', '')
@@ -236,6 +237,14 @@ def caption(e, t):
         i = next((k for k, b in enumerate(lines) if b.startswith('Talented Education Group | PT.')), len(lines))
         lines.insert(i, f'{lab}: {src}')
         c = '\n\n'.join(lines)
+    # anti copy-paste attribution (owner 20/11/2026)
+    attr = ('Dirangkum oleh Talented Education Group dari sumber resmi. Boleh dibagikan dengan menyebut sumber '
+            '@talented.e.g, dilarang menyalin ulang tanpa izin.')
+    if attr not in c:
+        lines = c.split('\n\n')
+        i = next((k for k, b in enumerate(lines) if b.startswith('Talented Education Group | PT.')), len(lines))
+        lines.insert(i, attr)
+        c = '\n\n'.join(lines)
     if cr:
         c += '\n' + cr
     return c
@@ -260,6 +269,19 @@ def write_rss(items):
         if p.get('date', '') <= TODAY and p.get('id') and p.get('title'):
             extra.append({"id": "post:" + p['id'], "kind": "marketing", "date": p['date'], "title": {"id": p['title']},
                           "caption": p.get('caption'), "sub": p.get('sub'), "spec": p.get('design'), "source": p.get('source_url'), "country": p.get('country') or 'ANY', "provider": p.get('provider'), "url": p.get('url') or SITE + '/'})
+    # website promotion 3x per week (owner 20/11/2026): rotate data/site-promo.json
+    sp2 = load('site-promo.json', {}) or {}
+    if sp2.get('items'):
+        for back in range(0, 3):
+            dd = NOW.date() - datetime.timedelta(days=back)
+            if dd.weekday() not in sp2.get('weekdays', [1, 4, 6]):
+                continue
+            n_ = (dd.toordinal() // 7) * 3 + sp2.get('weekdays', [1, 4, 6]).index(dd.weekday())
+            it = sp2['items'][n_ % len(sp2['items'])]
+            cap = it['opening'] + '\n\n' + it['body'] + '\n\nScan QR di gambar atau klik link di bio.\n\n' + CLOSING + '\n\n#StudyAbroad #KuliahLuarNegeri #TalentedEducation'
+            extra.append({"id": f"site:{dd.isoformat()}:{it['key']}", "kind": "marketing", "date": dd.isoformat(),
+                          "title": {"id": it['title']}, "caption": cap, "country": 'ANY', "provider": None,
+                          "spec": it['design'], "url": it['url']})
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media
@@ -273,7 +295,8 @@ def write_rss(items):
         if e['kind'] == 'news' and not spec:
             from make_social_cards import idate as _idate
             dom = re.sub(r'^https?://(www\.)?([^/]+).*$', r'\2', e.get('source') or '')
-            spec = {"info": [f"Diumumkan {_idate(e.get('date'))}"] + ([f"Sumber resmi: {dom}"] if dom else [])}
+            spec = {"topic": e.get('category') or 'visa',
+                    "info": [f"Diumumkan {_idate(e.get('date'))}"] + ([f"Sumber resmi: {dom}"] if dom else [])}
         img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'), spec)
         if not img:
             continue  # QA failed: never publish a broken design

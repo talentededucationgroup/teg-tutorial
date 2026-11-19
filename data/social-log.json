@@ -14,6 +14,48 @@
    "photo": "Foto: Auckland Institute of Studies",
    "v": 8,
    "credit": "Foto: Auckland Institute of Studies"
+  },
+  {
+   "no": 2,
+   "date": "2026-11-19",
+   "key": "news:us-ds-rule-vacated-2026-11",
+   "file": "Talented Amerika Info Visa November 2026.png",
+   "provider": "-",
+   "layout": "T",
+   "palette": "P4",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi berita resmi",
+   "photo": "tanpa foto",
+   "v": 8,
+   "credit": null
+  },
+  {
+   "no": 3,
+   "date": "2026-11-19",
+   "key": "news:nz-stgwv-2026-11-16",
+   "file": "Talented Selandia Baru Info Visa November 2026.png",
+   "provider": "-",
+   "layout": "T",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi berita resmi",
+   "photo": "tanpa foto",
+   "v": 8,
+   "credit": null
+  },
+  {
+   "no": 4,
+   "date": "2026-11-19",
+   "key": "news:nz-pswv-eligibility-2026-11-16",
+   "file": "Talented Selandia Baru Info Visa November 2026 2.png",
+   "provider": "-",
+   "layout": "T",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi berita resmi",
+   "photo": "tanpa foto",
+   "v": 8,
+   "credit": null
   }
  ]
 }

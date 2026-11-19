@@ -1,5 +1,5 @@
 {
- "version": "2026-11-20T01:47:20+07:00",
+ "version": "2026-11-20T06:09:15+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -46,6 +46,18 @@
    "country": "Australia",
    "provider": "Kaplan Business School Australia",
    "source": "https://www.kbs.edu.au"
+  },
+  {
+   "id": "jobs:2026-11-20-253",
+   "kind": "jobs",
+   "date": "2026-11-20",
+   "priority": 1,
+   "title": {
+    "id": "💼 253 lowongan kerja baru (Australia, Canada, France, Germany)",
+    "en": "💼 253 new part-time/student jobs (Australia, Canada, France, Germany)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "jobs:2026-11-20-257",

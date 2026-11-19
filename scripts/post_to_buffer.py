@@ -231,6 +231,11 @@ def main():
                 cfg['_draft'] = False
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
+                caps = cfg.get('daily_caps', {})
+                day = sent.setdefault('daily', {}).setdefault(NOW.date().isoformat(), {})
+                sv = svc(ch['service'])
+                if sv in caps and day.get(ch['id'], 0) >= int(caps[sv]) and k not in done:
+                    continue
                 if k in done or n >= limit * max(1, len(chans)):
                     continue
                 inp = build(kind, ch, i, cfg)
@@ -241,11 +246,13 @@ def main():
                     if r.get('message'):
                         raise RuntimeError(r['message'])
                     done.add(k); n += 1
+                    day[ch['id']] = day.get(ch['id'], 0) + 1
                     print('sent', kind, svc(ch['service']), i['guid'])
                 except Exception as e:
                     errors.append(f"{kind}/{svc(ch['service'])}/{i['guid']}: {str(e)[:160]}")
     json.dump(reviews, open(REVIEW_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     sent['sent'] = sorted(done)[-3000:]
+    sent['daily'] = {d: v for d, v in sent.get('daily', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['last_run'] = NOW.isoformat()
     sent['last_errors'] = errors[-20:]
     json.dump(sent, open(SENT_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)

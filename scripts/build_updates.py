@@ -47,7 +47,7 @@ import urllib.parse  # noqa: E402
 
 def collect():
     """Return {kind: {key: entry}} for everything currently announceable."""
-    out = {"news": {}, "scholarship": {}, "promo": {}, "sponsored": {}, "jobs": {}, "accommodation": {}}
+    out = {"news": {}, "scholarship": {}, "promo": {}, "sponsored": {}, "jobs": {}, "accommodation": {}, "airport": {}}
     n = load('news.json', {}) or {}
     for it in n.get('items', []):
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
@@ -90,6 +90,9 @@ def collect():
         out['jobs'][it['id']] = it.get('city') or it.get('country') or 'other'
     for it in c.get('accommodation', []):
         out['accommodation'][it['id']] = it.get('city') or it.get('country') or ''
+    for it in c.get('airport_pickup', []):
+        if not it.get('hidden'):
+            out['airport'][it['id']] = it.get('city') or it.get('country') or ''
     a = load('accommodation.json', {}) or {}
     for it in (a.get('items') or []) + (a.get('postings') or []):
         if isinstance(it, dict) and it.get('id'):
@@ -109,13 +112,16 @@ def main():
         seen = set(state['seen'].get(kind, []))
         fresh = [k for k in d if k not in seen]
         if not first_run and fresh:
-            if kind in ('jobs', 'accommodation'):
+            if kind in ('jobs', 'accommodation', 'airport'):
                 # aggregate: one entry per run, never one per listing
                 places = sorted({d[k] for k in fresh if d[k]})[:4]
                 where_en = ', '.join(places)
                 if kind == 'jobs':
                     e = entry('jobs', TODAY + '-' + str(len(fresh)), f'💼 {len(fresh)} lowongan kerja baru' + (f' ({where_en})' if where_en else ''),
                               f'💼 {len(fresh)} new part-time/student jobs' + (f' ({where_en})' if where_en else ''), 'jobs')
+                elif kind == 'airport':
+                    e = entry('airport', TODAY + '-' + str(len(fresh)), f'✈️ {len(fresh)} layanan jemput bandara baru' + (f' ({where_en})' if where_en else ''),
+                              f'✈️ {len(fresh)} new airport pickup services' + (f' ({where_en})' if where_en else ''), 'airport')
                 else:
                     e = entry('accommodation', TODAY + '-' + str(len(fresh)), f'🏠 {len(fresh)} info akomodasi baru' + (f' ({where_en})' if where_en else ''),
                               f'🏠 {len(fresh)} new accommodation listings' + (f' ({where_en})' if where_en else ''), 'accommodation')
@@ -147,7 +153,8 @@ def main():
             "promo": {"id": "Promo", "en": "Promotions"},
             "sponsored": {"id": "Sekolah & layanan unggulan", "en": "Featured schools & services"},
             "jobs": {"id": "Lowongan kerja", "en": "Jobs"},
-            "accommodation": {"id": "Akomodasi", "en": "Accommodation"}},
+            "accommodation": {"id": "Akomodasi", "en": "Accommodation"},
+            "airport": {"id": "Jemput bandara", "en": "Airport pickup"}},
         "items": items}
     if new:
         state['pending'] = (state.get('pending', []) + [e['id'] for e in new])[-50:]

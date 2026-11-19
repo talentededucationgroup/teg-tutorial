@@ -1,5 +1,5 @@
 {
- "version": "2026-11-19",
+ "version": "2026-11-19b",
  "updated_at": "2026-11-19T13:30:00+07:00",
  "title": {
   "id": "Penjemputan bandara",
@@ -67,9 +67,11 @@
   },
   "ids": [
    "ap-19",
-   "ap-21"
+   "ap-21",
+   "ap-20"
   ],
-  "rule": "Pilihan editorial Talented (bukan iklan berbayar). Jangan diberi label 'Sponsored'. Iklan berbayar asli (community sponsored airport_pickup) tampil di atas pilihan ini."
+  "rule": "Pilihan editorial Talented (bukan iklan berbayar), dirolling acak tiap minggu (anchor 2026-11-16) bersama Pilihan Talented di tab Jobs/Akomodasi. Jangan diberi label 'Sponsored'. Iklan berbayar asli (community-postings airport_pickup[] dengan sponsored aktif) selalu tampil paling depan.",
+  "slots": 3
  },
  "disclaimer": {
   "id": "Info diringkas dari situs resmi pada tanggal cek. Syarat, harga dan jadwal bisa berubah; selalu konfirmasi ke kampus/penyedia.",
@@ -585,5 +587,49 @@
   }
  ],
  "copyright": "© 2026 Talented Education Group. Data dikurasi Talented dari sumber resmi.",
- "_fp": "teg-ap-7c2e"
+ "_fp": "teg-ap-7c2e",
+ "tab": {
+  "key": "airport",
+  "icon": "✈️",
+  "label": {
+   "id": "Jemput Bandara",
+   "en": "Airport Pickup",
+   "th": "รับที่สนามบิน",
+   "vi": "Đón sân bay",
+   "zh": "机场接机",
+   "ja": "空港送迎",
+   "ko": "공항 픽업",
+   "km": "ទទួលពីព្រលាន",
+   "fr": "Accueil aéroport",
+   "pt": "Transfer aeroporto",
+   "es": "Recogida aeropuerto",
+   "de": "Flughafenabholung",
+   "it": "Prelievo aeroporto",
+   "nl": "Vliegveld ophalen",
+   "ru": "Встреча в аэропорту"
+  }
+ },
+ "sections": {
+  "sponsored": {
+   "id": "Sponsored & Pilihan Talented",
+   "en": "Sponsored & Talented's picks"
+  },
+  "university": {
+   "id": "Penjemputan resmi kampus",
+   "en": "Official university pickup"
+  },
+  "others": {
+   "id": "Penyedia, homestay & transportasi resmi bandara",
+   "en": "Providers, homestay & official airport transport"
+  },
+  "community": {
+   "id": "Iklan bisnis penjemputan terverifikasi",
+   "en": "Verified airport transfer businesses"
+  }
+ },
+ "post_cta": {
+  "id": "Pasang iklan penjemputan bandara (bisnis berizin)",
+  "en": "List your airport transfer (licensed businesses)",
+  "url": "https://info.talentededucationgroup.com/pasang-iklan/?type=airport"
+ }
 }

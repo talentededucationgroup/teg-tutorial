@@ -1,0 +1,589 @@
+{
+ "version": "2026-11-19",
+ "updated_at": "2026-11-19T13:30:00+07:00",
+ "title": {
+  "id": "Penjemputan bandara",
+  "en": "Airport pickup",
+  "th": "บริการรับที่สนามบิน",
+  "vi": "Đón sân bay",
+  "zh": "机场接机",
+  "ja": "空港送迎",
+  "ko": "공항 픽업",
+  "km": "ការទទួលពីព្រលានយន្តហោះ",
+  "fr": "Accueil à l'aéroport",
+  "pt": "Transfer do aeroporto",
+  "es": "Recogida en el aeropuerto",
+  "de": "Flughafenabholung",
+  "it": "Prelievo in aeroporto",
+  "nl": "Ophalen van het vliegveld",
+  "ru": "Встреча в аэропорту"
+ },
+ "intro": {
+  "id": "Banyak kampus menjemput mahasiswa internasional baru GRATIS dari bandara. Cek dulu kampusmu sebelum memesan layanan berbayar.",
+  "en": "Many universities pick up new international students from the airport for FREE. Check your university first before booking a paid service."
+ },
+ "type_labels": {
+  "university": {
+   "id": "Layanan resmi kampus",
+   "en": "Official university service"
+  },
+  "provider": {
+   "id": "Penyedia transfer",
+   "en": "Transfer provider"
+  },
+  "homestay": {
+   "id": "Lewat homestay",
+   "en": "Via homestay"
+  },
+  "public_transport": {
+   "id": "Transportasi resmi bandara",
+   "en": "Official airport transport"
+  },
+  "community": {
+   "id": "Iklan bisnis terverifikasi",
+   "en": "Verified business listing"
+  }
+ },
+ "safety_tips": {
+  "id": [
+   "Pesan hanya lewat link resmi kampus atau penyedia. Penipu sering menawarkan 'shuttle' palsu dan minta transfer uang duluan.",
+   "Jangan bayar ke rekening pribadi atau lewat chat WhatsApp/Telegram dari orang tak dikenal.",
+   "Sopir resmi memegang papan namamu/nama kampus dan punya nomor booking; cocokkan sebelum naik.",
+   "Aktifkan roaming atau WhatsApp supaya sopir bisa menghubungimu; jangan beli SIM dulu sebelum bertemu sopir.",
+   "Taksi: naik dari antrean taksi resmi bandara, jangan dari orang yang menawarkan di dalam terminal."
+  ],
+  "en": [
+   "Book only through official university or provider links. Scammers offer fake 'shuttles' and ask for payment upfront.",
+   "Never pay into a personal account or via WhatsApp/Telegram chats from strangers.",
+   "Official drivers hold a sign with your name/the university name and have a booking number; check before getting in.",
+   "Turn on roaming or WhatsApp so the driver can reach you; meet your driver before buying a SIM.",
+   "Taxis: use the official airport taxi rank, not people offering rides inside the terminal."
+  ]
+ },
+ "featured_picks": {
+  "label": {
+   "id": "⭐ Pilihan Talented",
+   "en": "⭐ Talented's pick"
+  },
+  "ids": [
+   "ap-19",
+   "ap-21"
+  ],
+  "rule": "Pilihan editorial Talented (bukan iklan berbayar). Jangan diberi label 'Sponsored'. Iklan berbayar asli (community sponsored airport_pickup) tampil di atas pilihan ini."
+ },
+ "disclaimer": {
+  "id": "Info diringkas dari situs resmi pada tanggal cek. Syarat, harga dan jadwal bisa berubah; selalu konfirmasi ke kampus/penyedia.",
+  "en": "Summarised from official websites on the check date. Conditions, prices and schedules can change; always confirm with the university/provider."
+ },
+ "lang_fallback": "en",
+ "items": [
+  {
+   "country": "AU",
+   "city": "Sydney",
+   "name": "Western Sydney University",
+   "type": "university",
+   "url": "https://www.westernsydney.edu.au/international/arriving/preparing-to-arrive/airport-pickup",
+   "cost": {
+    "id": "Gratis (yang memenuhi syarat)",
+    "en": "Free (eligible students)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru Bachelor/Postgraduate/Research/Study Abroad, ke kampus Western (bukan Sydney City). Lainnya berbayar.",
+    "en": "New international Bachelor/Postgraduate/Research/Study Abroad students to Western campuses (not Sydney City). Others pay a fee."
+   },
+   "how_to_book": {
+    "id": "Form WesternNow min. 5 hari kerja sebelum tiba; bandara Sydney.",
+    "en": "WesternNow request form at least 5 working days before arrival; Sydney Airport."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-01"
+  },
+  {
+   "country": "AU",
+   "city": "Sydney",
+   "name": "UNSW Sydney",
+   "type": "university",
+   "url": "https://www.unsw.edu.au/student/support/services/international/starting-your-studies-in-australia/airport-pick-up",
+   "cost": {
+    "id": "Gratis ke akomodasi/kampus UNSW (biaya kecil untuk drop-off lain/tamu)",
+    "en": "Free to UNSW-listed locations (small fees for other drop-offs/extra travellers)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional UNSW, sekali saat pertama tiba (UNSW College berbayar).",
+    "en": "UNSW international students, once on first arrival (UNSW College pays)."
+   },
+   "how_to_book": {
+    "id": "Booking online lewat 2airport min. 2 hari kerja sebelum tiba.",
+    "en": "Book online via 2airport at least 2 working days before arrival."
+   },
+   "operator": "2airport",
+   "checked": "2026-11-19",
+   "id": "ap-02"
+  },
+  {
+   "country": "AU",
+   "city": "Wollongong & Sydney",
+   "name": "University of Wollongong (UOW)",
+   "type": "university",
+   "url": "https://www.uow.edu.au/study/international/pickup",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru UOW (termasuk paket UOW College) yang pertama kali tiba.",
+    "en": "New UOW international students (incl. UOW College packages) arriving for the first time."
+   },
+   "how_to_book": {
+    "id": "Form Airport Pick-Up Request min. 72 jam sebelum tiba; Bandara Sydney.",
+    "en": "Airport Pick-Up Request form at least 72 hours before arrival; Sydney Airport."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-03"
+  },
+  {
+   "country": "AU",
+   "city": "Newcastle",
+   "name": "University of Newcastle",
+   "type": "university",
+   "url": "https://www.newcastle.edu.au/study/international/register-your-arrival",
+   "cost": {
+    "id": "Gratis sekali (Study Abroad/Exchange A$20)",
+    "en": "One-off free (Study Abroad/Exchange A$20)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru visa pelajar, kampus Callaghan/City. Dari Bandara Newcastle; ada shuttle harian dari Bandara Sydney pada periode tertentu.",
+    "en": "New international students on a student visa, Callaghan/City campuses. From Newcastle Airport; daily shuttle from Sydney Airport in set periods."
+   },
+   "how_to_book": {
+    "id": "Daftar min. 5 hari kerja sebelum tiba, dengan Student ID.",
+    "en": "Register at least 5 business days before arrival with your Student ID."
+   },
+   "operator": "Waratah Hire Cars / Diggers Shuttle",
+   "checked": "2026-11-19",
+   "id": "ap-04"
+  },
+  {
+   "country": "AU",
+   "city": "Melbourne & Geelong",
+   "name": "Deakin University",
+   "type": "university",
+   "url": "https://www.deakin.edu.au/international-students/before-you-arrive/airport-reception",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional degree, exchange/study abroad, atau bahasa Inggris Deakin yang pertama kali tiba.",
+    "en": "Deakin international degree, exchange/study abroad or English students arriving for the first time."
+   },
+   "how_to_book": {
+    "id": "Form online min. 3 hari kerja penuh sebelum penerbangan berangkat.",
+    "en": "Online form at least 3 full business days before your departure flight."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-05"
+  },
+  {
+   "country": "AU",
+   "city": "Ballarat, Berwick, Gippsland",
+   "name": "Federation University",
+   "type": "university",
+   "url": "https://federation.edu.au/international/international-student-advisory/airport-pick-up",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru untuk kampus Mt Helen, Berwick, Gippsland.",
+    "en": "New international students for Mt Helen, Berwick and Gippsland campuses."
+   },
+   "how_to_book": {
+    "id": "Form min. 5 hari kerja sebelum penerbangan berangkat.",
+    "en": "Application form at least 5 business days before your departure flight."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-06"
+  },
+  {
+   "country": "AU",
+   "city": "Melbourne",
+   "name": "Monash University",
+   "type": "university",
+   "url": "https://www.monash.edu/students/support/international/before-leaving/airport-pick-up",
+   "cost": {
+    "id": "Gratis (kelompok tertentu)",
+    "en": "Free (specific groups)"
+   },
+   "eligibility": {
+    "id": "Australia Awards, exchange/study abroad, di bawah 18 tahun, penerima beasiswa Monash, sponsor penuh.",
+    "en": "Australia Awards, exchange/study abroad, under-18s, Monash scholarship holders, fully sponsored students."
+   },
+   "how_to_book": {
+    "id": "Form min. 4 hari kerja sebelum tiba; Bandara Melbourne.",
+    "en": "Booking form at least 4 working days before arrival; Melbourne Airport."
+   },
+   "operator": "Aero Corporate Cars",
+   "checked": "2026-11-19",
+   "id": "ap-07"
+  },
+  {
+   "country": "AU",
+   "city": "Melbourne",
+   "name": "University of Melbourne",
+   "type": "university",
+   "url": "https://students.unimelb.edu.au/new-students/international-student-checklist/airport-pickup-service",
+   "cost": {
+    "id": "Gratis (kelompok tertentu)",
+    "en": "Free (specific groups)"
+   },
+   "eligibility": {
+    "id": "Australia Awards, exchange/study abroad, program Under 18, penerima beasiswa UniMelb.",
+    "en": "Australia Awards, exchange/study abroad, Under-18 program, UniMelb scholarship holders."
+   },
+   "how_to_book": {
+    "id": "Booking min. 4 hari kalender sebelum berangkat; Bandara Melbourne.",
+    "en": "Book at least 4 calendar days before departure; Melbourne Airport."
+   },
+   "operator": "Hughes",
+   "checked": "2026-11-19",
+   "id": "ap-08"
+  },
+  {
+   "country": "AU",
+   "city": "Perth",
+   "name": "University of Western Australia (UWA)",
+   "type": "university",
+   "url": "https://www.ask.uwa.edu.au/app/answers/detail/a_id/3605",
+   "cost": {
+    "id": "Gratis, sekali",
+    "en": "Free, once"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru UWA/UWA College/paket CELT dengan visa pelajar.",
+    "en": "New UWA/UWA College/CELT-package international students on a student visa."
+   },
+   "how_to_book": {
+    "id": "Pesan min. 3 hari sebelum tiba; Bandara Perth.",
+    "en": "Pre-book at least 3 days before arrival; Perth Airport."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-09"
+  },
+  {
+   "country": "AU",
+   "city": "Perth",
+   "name": "Curtin University",
+   "type": "university",
+   "url": "https://www.curtin.edu.au/study/help-support/app/answers/detail/a-id/4167/do-you-offer-an-airport-pickup-service-for-international-students/",
+   "cost": {
+    "id": "Cek di penyedia (tidak dicantumkan)",
+    "en": "Check with provider (not stated)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional dengan CoE, tiket ke Perth & visa pelajar.",
+    "en": "International students with CoE, Perth flight and student visa."
+   },
+   "how_to_book": {
+    "id": "Form Elegant Charters min. 24 jam sebelum tiba.",
+    "en": "Elegant Charters form at least 24 hours before arrival."
+   },
+   "operator": "Elegant Charters",
+   "checked": "2026-11-19",
+   "id": "ap-10"
+  },
+  {
+   "country": "AU",
+   "city": "Brisbane & Toowoomba",
+   "name": "University of Southern Queensland (UniSQ)",
+   "type": "university",
+   "url": "https://www.unisq.edu.au/international/living-studying-in-australia/airport-pick-up",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional yang pertama kali tiba untuk kuliah di UniSQ.",
+    "en": "International students arriving for the first time to study at UniSQ."
+   },
+   "how_to_book": {
+    "id": "Form di situs UIL min. 7 hari kerja sebelum tiba.",
+    "en": "UIL website form at least 7 business days before arrival."
+   },
+   "operator": "Union Institute of Language (UIL)",
+   "checked": "2026-11-19",
+   "id": "ap-11"
+  },
+  {
+   "country": "AU",
+   "city": "Brisbane & Gold Coast",
+   "name": "Griffith University",
+   "type": "university",
+   "url": "https://www.griffith.edu.au/international/prepare-university/airport-reception",
+   "cost": {
+    "id": "Gratis untuk mahasiswa baru yang memenuhi syarat; lainnya berbayar",
+    "en": "Free for eligible new students; others pay"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru program degree, Study Abroad/Exchange, GELI DEP/ELICOS.",
+    "en": "New international degree, Study Abroad/Exchange and GELI DEP/ELICOS students."
+   },
+   "how_to_book": {
+    "id": "Lewat Business Class Transfers min. 72 jam sebelum berangkat dari negara asal.",
+    "en": "Via Business Class Transfers at least 72 hours before leaving your home country."
+   },
+   "operator": "Business Class Transfers",
+   "checked": "2026-11-19",
+   "id": "ap-12"
+  },
+  {
+   "country": "AU",
+   "city": "Adelaide",
+   "name": "Adelaide University",
+   "type": "university",
+   "url": "https://adelaideuni.edu.au/about/faqs/answer/4259",
+   "cost": {
+    "id": "Cek di kampus (tidak dicantumkan)",
+    "en": "Check with the university (not stated)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional.",
+    "en": "International students."
+   },
+   "how_to_book": {
+    "id": "Online Application System, paling lambat 48 jam sebelum jadwal tiba.",
+    "en": "Online Application System, up to 48 hours before scheduled arrival."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-13"
+  },
+  {
+   "country": "AU",
+   "city": "Brisbane, Sydney, Melbourne, Canberra",
+   "name": "Australian Catholic University (ACU)",
+   "type": "university",
+   "url": "https://www.acu.edu.au/international-students/arriving-and-living-in-australia/airport-pick-up",
+   "cost": {
+    "id": "Berbayar (sekitar A$85-150 tergantung kota); gratis untuk Study Abroad/Exchange",
+    "en": "Paid (about A$85-150 by city); free for Study Abroad/Exchange"
+   },
+   "eligibility": {
+    "id": "Mahasiswa ACU.",
+    "en": "ACU students."
+   },
+   "how_to_book": {
+    "id": "Booking lewat halaman ACU; tagihan dikirim ACU, bukan bayar ke sopir.",
+    "en": "Book via the ACU page; ACU invoices you, do not pay the driver."
+   },
+   "operator": "Astra Limousines",
+   "checked": "2026-11-19",
+   "id": "ap-14"
+  },
+  {
+   "country": "AU",
+   "city": "Semua kota (lewat rekomendasi kampus)",
+   "name": "Torrens University Australia",
+   "type": "university",
+   "url": "https://studenthub.torrens.edu.au/Hub/Living-in-Australia",
+   "cost": {
+    "id": "Berbayar (harga di Hughes)",
+    "en": "Paid (price from Hughes)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa Torrens.",
+    "en": "Torrens students."
+   },
+   "how_to_book": {
+    "id": "Torrens merekomendasikan Hughes (Meet & Greet) untuk semua lokasi; booking langsung di Hughes.",
+    "en": "Torrens recommends Hughes (Meet & Greet) for all locations; book directly with Hughes."
+   },
+   "operator": "Hughes",
+   "checked": "2026-11-19",
+   "id": "ap-15"
+  },
+  {
+   "country": "NZ",
+   "city": "Auckland (kampus Albany)",
+   "name": "Massey University",
+   "type": "university",
+   "url": "https://www.massey.ac.nz/student-life/accommodation/airport-and-other-pick-ups-for-international-students/",
+   "cost": {
+    "id": "NZ$95 tunai ke sopir",
+    "en": "NZ$95 cash to the driver"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional yang tinggal di Massey Halls Auckland (Albany). Tidak ada layanan di Palmerston North/Wellington.",
+    "en": "International students staying at Massey Halls Auckland (Albany). No service in Palmerston North/Wellington."
+   },
+   "how_to_book": {
+    "id": "Form min. 72 jam sebelum tiba. Cek ketersediaan per semester.",
+    "en": "Request form at least 72 hours before arrival. Check availability each semester."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-16"
+  },
+  {
+   "country": "NZ",
+   "city": "Dunedin",
+   "name": "University of Otago",
+   "type": "university",
+   "url": "https://ask.otago.ac.nz/knowledgebase/article/KA-10001465/en-us",
+   "cost": {
+    "id": "Disubsidi kampus",
+    "en": "Subsidised by the university"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru (tidak dijamin).",
+    "en": "New international students (not guaranteed)."
+   },
+   "how_to_book": {
+    "id": "Pesan lewat Airport Shuttles (link di halaman Otago); booking hanya berlaku untuk perusahaan itu.",
+    "en": "Book via Airport Shuttles (link on the Otago page); valid only with that company."
+   },
+   "operator": "Airport Shuttles",
+   "checked": "2026-11-19",
+   "id": "ap-17"
+  },
+  {
+   "country": "NZ",
+   "city": "Hamilton (dari Bandara Auckland)",
+   "name": "University of Waikato",
+   "type": "university",
+   "url": "https://waikato.ac.nz/study/international/preparing-to-come-to-new-zealand/arriving-in-new-zealand",
+   "cost": {
+    "id": "Konfirmasi ke kampus",
+    "en": "Confirm with the university"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional yang sudah mengatur penjemputan lewat kampus.",
+    "en": "International students who arranged pickup through the university."
+   },
+   "how_to_book": {
+    "id": "Tanyakan International Student Services (info@waikato.ac.nz).",
+    "en": "Ask International Student Services (info@waikato.ac.nz)."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-18"
+  },
+  {
+   "country": "AU & NZ",
+   "city": "Kota besar AU, NZ & Singapura",
+   "name": "Hughes Chauffeur Services",
+   "type": "provider",
+   "url": "https://www.hughes.com.au/services/airport-transfers/",
+   "cost": {
+    "id": "Berbayar, cek quote online",
+    "en": "Paid, check online quote"
+   },
+   "eligibility": {
+    "id": "Siapa saja; dipakai/direkomendasikan oleh University of Melbourne & Torrens.",
+    "en": "Anyone; used/recommended by University of Melbourne and Torrens."
+   },
+   "how_to_book": {
+    "id": "Booking online/app atau 1300 615 165 (24/7); sopir menunggu di area kedatangan (Meet & Greet).",
+    "en": "Book online/app or 1300 615 165 (24/7); driver meets you in arrivals (Meet & Greet)."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-19"
+  },
+  {
+   "country": "AU",
+   "city": "Banyak kota",
+   "name": "Australian Homestay Network (AHN)",
+   "type": "homestay",
+   "url": "https://www.homestaynetwork.org/startaustralia/",
+   "cost": {
+    "id": "Tarif per kota (lihat halaman harga kota)",
+    "en": "Rates per city (see city pricing page)"
+   },
+   "eligibility": {
+    "id": "Pelajar yang memesan homestay AHN (penjemputan opsional).",
+    "en": "Students booking AHN homestay (optional pickup)."
+   },
+   "how_to_book": {
+    "id": "Pilih airport pickup saat mendaftar homestay.",
+    "en": "Choose airport pickup when applying for homestay."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-20"
+  },
+  {
+   "country": "AU",
+   "city": "Melbourne (juga Avalon & Hobart)",
+   "name": "SkyBus (bus ekspres bandara resmi)",
+   "type": "public_transport",
+   "url": "https://www.skybus.com.au/",
+   "cost": {
+    "id": "Tiket bus terjangkau",
+    "en": "Affordable bus fare"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Beli online/app; Melbourne City Express kira-kira tiap 10 menit, 04:00-01:00.",
+    "en": "Buy online/app; Melbourne City Express about every 10 minutes, 4am-1am."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-21"
+  },
+  {
+   "country": "AU",
+   "city": "Brisbane",
+   "name": "Airtrain (kereta bandara)",
+   "type": "public_transport",
+   "url": "https://www.airtrain.com.au/",
+   "cost": {
+    "id": "Tiket kereta (cek fare calculator)",
+    "en": "Train fare (see fare calculator)"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Beli online atau di stasiun; ke Brisbane City & Gold Coast.",
+    "en": "Buy online or at the station; to Brisbane City and Gold Coast."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-22"
+  },
+  {
+   "country": "NZ",
+   "city": "Auckland",
+   "name": "Auckland Airport - transportasi resmi",
+   "type": "public_transport",
+   "url": "https://www.aucklandairport.co.nz/transport",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Bus, shuttle, taksi resmi & rideshare di titik jemput resmi (internasional dekat pintu 11).",
+    "en": "Buses, shuttles, official taxis and rideshare at official pick-up zones (international near door 11)."
+   },
+   "operator": null,
+   "checked": "2026-11-19",
+   "id": "ap-23"
+  }
+ ],
+ "copyright": "© 2026 Talented Education Group. Data dikurasi Talented dari sumber resmi.",
+ "_fp": "teg-ap-7c2e"
+}

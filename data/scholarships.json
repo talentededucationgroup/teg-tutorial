@@ -1,12 +1,12 @@
 {
- "version": "2026-11-11+en",
- "updated_at": "2026-11-11T17:40:00+07:00",
+ "version": "2026-11-19-kbs",
+ "updated_at": "2026-11-19T17:10:00+07:00",
  "source": "Data beasiswa TEG (diperbarui setiap Senin 06:17 WIB dari situs resmi pemberi beasiswa)",
- "count": 83,
+ "count": 84,
  "counts": {
-  "Buka": 46,
+  "Tahunan - jadwal berikutnya belum diumumkan": 36,
   "Segera dibuka": 1,
-  "Tahunan - jadwal berikutnya belum diumumkan": 36
+  "Buka": 47
  },
  "ui": {
   "title": {
@@ -1075,7 +1075,7 @@
    "url": "https://www.kbs.edu.au/documents/asia-international-student-scholarship",
    "source_checked": "2026-11-11",
    "partner": true,
-   "notes": "Dokumen versi Juli 2026 (biaya 2026). Daftar negara tidak dirinci - konfirmasi kelayakan WNI ke KBS. Kuota terbatas tiap trimester.",
+   "notes": "Dokumen versi Juli 2026 (biaya 2026). Daftar negara tidak dirinci - konfirmasi kelayakan WNI ke KBS. Kuota terbatas tiap trimester. Tidak bisa digabung dengan KBS Excellence Scholarship 2027 (Indonesia).",
    "i18n": {
     "en": {
      "name": "International Student Scholarship Program - Southeast Asia and Northeast Asia",
@@ -1086,7 +1086,201 @@
      "amount": "10% tuition reduction",
      "eligibility": "Eligible citizens of Southeast/Northeast Asia meeting KBS academic & English requirements, not sponsored students; must be requested before accepting the Offer.",
      "intake": "Every trimester",
-     "notes": "July 2026 document (2026 fees). The country list is not detailed - confirm eligibility for Indonesian citizens with KBS. Limited places each trimester."
+     "notes": "July 2026 document (2026 fees). The country list is not detailed - confirm eligibility for Indonesian citizens with KBS. Limited places each trimester. Cannot be combined with the KBS Excellence Scholarship 2027 (Indonesia)."
+    }
+   }
+  },
+  {
+   "id": "au-kbs-excellence-indonesia-2027",
+   "name": "KBS Excellence Scholarship 2027 - Indonesia",
+   "provider": "Kaplan Business School Australia",
+   "type": "Kampus / Sekolah",
+   "country": "Australia",
+   "levels": [
+    "S1"
+   ],
+   "fields": "Bisnis, Teknologi Informasi (IT)",
+   "funding": "Sebagian",
+   "coverage": "Potongan tuition (kredit ke biaya kuliah; hanya tuition, tidak bisa ditukar uang)",
+   "amount": "2 beasiswa 50% (1 Bachelor of Business, 1 Bachelor of IT); juara 2 & 3 (runner-up) s.d. 30%",
+   "eligibility": "Paspor Indonesia; rata-rata nilai SMA kelas 12 (SMA3) min. 90% atau setara; memenuhi syarat akademik & bahasa Inggris KBS; punya Offer of Admission KBS untuk program sarjana Business atau IT mulai 2027; bukan mahasiswa bersponsor.",
+   "english_test": "Sesuai syarat bahasa Inggris KBS untuk program yang dipilih (boleh dipenuhi sebelum mulai kuliah)",
+   "status": "Buka",
+   "open_date": "2026-11-01",
+   "deadline": "2027-03-31",
+   "intake": "2027",
+   "url": "https://www.kbs.edu.au",
+   "source_checked": "2026-11-19",
+   "partner": true,
+   "notes": "Seleksi kompetitif: formulir + video kreatif orisinal 30 detik (Tahap 1), lalu wawancara akademik maks. 15 menit (Tahap 2). Tidak bisa digabung dengan beasiswa/diskon/promo KBS lain kecuali disetujui KBS tertulis. Daftar lewat konsultan Talented (formulir & video dikirim lewat konsultan).",
+   "i18n": {
+    "en": {
+     "name": "KBS Excellence Scholarship 2027 - Indonesia",
+     "fields": "Business, Information Technology",
+     "coverage": "Tuition fee credit (tuition only, not exchangeable for cash)",
+     "amount": "Two 50% scholarships (1 Bachelor of Business, 1 Bachelor of IT); 1st & 2nd runners-up up to 30%",
+     "eligibility": "Indonesian passport; minimum 90% average in SMA3 (or equivalent); meets KBS academic & English requirements; holds a KBS Offer of Admission for a Business or IT bachelor degree commencing in 2027; not sponsored.",
+     "intake": "2027",
+     "notes": "Competitive: application form + 30-second original creative video (Stage 1), then an academic interview of up to 15 minutes (Stage 2). Cannot be combined with another KBS scholarship, discount or promotion unless KBS approves in writing. Apply through a Talented consultant.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australia",
+     "english_test": "KBS English requirements for the chosen course (may be met before commencing)"
+    },
+    "th": {
+     "name": "ทุน KBS Excellence Scholarship 2027 - อินโดนีเซีย",
+     "fields": "ธุรกิจ, เทคโนโลยีสารสนเทศ",
+     "coverage": "เครดิตค่าเล่าเรียน (เฉพาะค่าเล่าเรียน แลกเป็นเงินสดไม่ได้)",
+     "amount": "ทุน 50% จำนวน 2 ทุน (Bachelor of Business 1, Bachelor of IT 1); รองอันดับ 1 และ 2 สูงสุด 30%",
+     "eligibility": "หนังสือเดินทางอินโดนีเซีย; เกรดเฉลี่ย SMA3 (หรือเทียบเท่า) อย่างน้อย 90%; ผ่านเกณฑ์วิชาการและภาษาอังกฤษของ KBS; มี Offer of Admission จาก KBS สำหรับปริญญาตรี Business หรือ IT ที่เริ่มเรียนปี 2027; ไม่มีผู้สนับสนุนทุน",
+     "intake": "2027",
+     "notes": "แข่งขัน: แบบฟอร์ม + วิดีโอสร้างสรรค์ต้นฉบับ 30 วินาที (ขั้นที่ 1) แล้วสัมภาษณ์วิชาการไม่เกิน 15 นาที (ขั้นที่ 2) ใช้ร่วมกับทุน ส่วนลด หรือโปรโมชันอื่นของ KBS ไม่ได้ เว้นแต่ KBS อนุมัติเป็นลายลักษณ์อักษร สมัครผ่านที่ปรึกษา Talented",
+     "provider": "Kaplan Business School Australia",
+     "country": "ออสเตรเลีย",
+     "english_test": ""
+    },
+    "vi": {
+     "name": "Học bổng KBS Excellence 2027 - Indonesia",
+     "fields": "Kinh doanh, Công nghệ thông tin",
+     "coverage": "Khấu trừ học phí (chỉ học phí, không quy đổi thành tiền mặt)",
+     "amount": "2 suất 50% (1 Bachelor of Business, 1 Bachelor of IT); á quân 1 & 2 tối đa 30%",
+     "eligibility": "Hộ chiếu Indonesia; điểm trung bình SMA3 (hoặc tương đương) tối thiểu 90%; đáp ứng yêu cầu học thuật & tiếng Anh của KBS; có Offer of Admission của KBS cho chương trình cử nhân Business hoặc IT khai giảng năm 2027; không có nhà tài trợ.",
+     "intake": "2027",
+     "notes": "Xét chọn cạnh tranh: đơn đăng ký + video sáng tạo gốc 30 giây (Vòng 1), sau đó phỏng vấn học thuật tối đa 15 phút (Vòng 2). Không kết hợp với học bổng, giảm giá hay khuyến mãi khác của KBS trừ khi KBS chấp thuận bằng văn bản. Đăng ký qua tư vấn viên Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Úc",
+     "english_test": ""
+    },
+    "zh": {
+     "name": "KBS 卓越奖学金 2027 - 印度尼西亚",
+     "fields": "商科、信息技术",
+     "coverage": "抵扣学费（仅限学费，不可兑换现金）",
+     "amount": "两个50%奖学金（商科学士1名、IT学士1名）；第一、第二亚军最高30%",
+     "eligibility": "持印度尼西亚护照；SMA3（或同等学历）平均成绩至少90%；符合KBS学术及英语要求；持有2027年入学的KBS商科或IT学士录取通知书（Offer of Admission）；非受资助学生。",
+     "intake": "2027",
+     "notes": "竞争性评选：申请表 + 30秒原创创意视频（第一阶段），随后最长15分钟的学术面试（第二阶段）。除非KBS书面批准，不可与KBS其他奖学金、折扣或促销同时使用。请通过Talented顾问申请。",
+     "provider": "Kaplan Business School Australia",
+     "country": "澳大利亚",
+     "english_test": ""
+    },
+    "ja": {
+     "name": "KBS Excellence Scholarship 2027 - インドネシア",
+     "fields": "ビジネス、情報技術",
+     "coverage": "授業料からの控除（授業料のみ、現金への交換不可）",
+     "amount": "50%奨学金2件（Bachelor of Business 1件、Bachelor of IT 1件）；準優勝1位・2位は最大30%",
+     "eligibility": "インドネシアのパスポート；SMA3（または同等）の平均90%以上；KBSの学業・英語要件を満たす；2027年開始のBusinessまたはIT学士課程のKBS Offer of Admissionを保有；スポンサーなし。",
+     "intake": "2027",
+     "notes": "選考制：申請書＋30秒のオリジナル動画（第1段階）、その後最大15分の学術面接（第2段階）。KBSが書面で承認しない限り、KBSの他の奨学金・割引・プロモーションとの併用不可。Talentedのコンサルタント経由で申請。",
+     "provider": "Kaplan Business School Australia",
+     "country": "オーストラリア",
+     "english_test": ""
+    },
+    "ko": {
+     "name": "KBS 엑설런스 장학금 2027 - 인도네시아",
+     "fields": "비즈니스, 정보기술",
+     "coverage": "등록금 공제 (등록금 한정, 현금 교환 불가)",
+     "amount": "50% 장학금 2명 (Bachelor of Business 1명, Bachelor of IT 1명); 1·2위 차점자 최대 30%",
+     "eligibility": "인도네시아 여권; SMA3(또는 동등) 평균 90% 이상; KBS 학업 및 영어 요건 충족; 2027년 시작 Business 또는 IT 학사과정 KBS Offer of Admission 보유; 후원 학생 아님.",
+     "intake": "2027",
+     "notes": "경쟁 선발: 신청서 + 30초 창작 영상(1단계), 이후 최대 15분 학업 인터뷰(2단계). KBS의 서면 승인 없이는 다른 KBS 장학금·할인·프로모션과 중복 불가. Talented 상담사를 통해 신청하세요.",
+     "provider": "Kaplan Business School Australia",
+     "country": "호주",
+     "english_test": ""
+    },
+    "km": {
+     "name": "អាហារូបករណ៍ KBS Excellence 2027 - ឥណ្ឌូនេស៊ី",
+     "fields": "ពាណិជ្ជកម្ម, បច្ចេកវិទ្យាព័ត៌មាន",
+     "coverage": "កាត់បន្ថយថ្លៃសិក្សា (តែថ្លៃសិក្សា មិនអាចប្តូរជាសាច់ប្រាក់)",
+     "amount": "អាហារូបករណ៍ 50% ចំនួន 2 (Bachelor of Business 1, Bachelor of IT 1); ជ័យលាភីរង ទី1 និងទី2 រហូតដល់ 30%",
+     "eligibility": "លិខិតឆ្លងដែនឥណ្ឌូនេស៊ី; មធ្យមភាគ SMA3 (ឬស្មើ) យ៉ាងតិច 90%; បំពេញលក្ខខណ្ឌសិក្សា និងភាសាអង់គ្លេសរបស់ KBS; មាន Offer of Admission ពី KBS សម្រាប់បរិញ្ញាបត្រ Business ឬ IT ចាប់ផ្តើមឆ្នាំ 2027; មិនមែនជាសិស្សមានអ្នកឧបត្ថម្ភ។",
+     "intake": "2027",
+     "notes": "ការជ្រើសរើសប្រកួតប្រជែង៖ ពាក្យស្នើសុំ + វីដេអូច្នៃប្រឌិតដើម 30 វិនាទី (ដំណាក់កាលទី1) បន្ទាប់មកសម្ភាសន៍សិក្សារហូតដល់ 15 នាទី (ដំណាក់កាលទី2)។ មិនអាចប្រើរួមជាមួយអាហារូបករណ៍ ការបញ្ចុះតម្លៃ ឬប្រូម៉ូសិនផ្សេងរបស់ KBS លើកលែងតែ KBS យល់ព្រមជាលាយលក្ខណ៍អក្សរ។ ដាក់ពាក្យតាមរយៈទីប្រឹក្សា Talented។",
+     "provider": "Kaplan Business School Australia",
+     "country": "អូស្ត្រាលី",
+     "english_test": ""
+    },
+    "fr": {
+     "name": "Bourse KBS Excellence 2027 - Indonésie",
+     "fields": "Commerce, Technologies de l'information",
+     "coverage": "Crédit sur les frais de scolarité (frais de scolarité uniquement, non convertible en espèces)",
+     "amount": "Deux bourses de 50 % (1 Bachelor of Business, 1 Bachelor of IT) ; 1er et 2e finalistes jusqu'à 30 %",
+     "eligibility": "Passeport indonésien ; moyenne d'au moins 90 % en SMA3 (ou équivalent) ; conditions académiques et d'anglais de KBS remplies ; Offer of Admission de KBS pour un bachelor Business ou IT débutant en 2027 ; étudiant non parrainé.",
+     "intake": "2027",
+     "notes": "Sélection compétitive : formulaire + vidéo créative originale de 30 secondes (étape 1), puis entretien académique de 15 minutes maximum (étape 2). Non cumulable avec une autre bourse, réduction ou promotion KBS sauf accord écrit de KBS. Candidature via un conseiller Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australie",
+     "english_test": ""
+    },
+    "pt": {
+     "name": "Bolsa KBS Excellence 2027 - Indonésia",
+     "fields": "Negócios, Tecnologia da Informação",
+     "coverage": "Crédito na mensalidade (somente mensalidade, não conversível em dinheiro)",
+     "amount": "Duas bolsas de 50% (1 Bachelor of Business, 1 Bachelor of IT); 1º e 2º colocados seguintes até 30%",
+     "eligibility": "Passaporte indonésio; média mínima de 90% no SMA3 (ou equivalente); cumprir requisitos acadêmicos e de inglês da KBS; ter Offer of Admission da KBS para bacharelado em Business ou IT com início em 2027; não ser patrocinado.",
+     "intake": "2027",
+     "notes": "Seleção competitiva: formulário + vídeo criativo original de 30 segundos (Etapa 1), depois entrevista acadêmica de até 15 minutos (Etapa 2). Não acumulável com outra bolsa, desconto ou promoção da KBS, salvo aprovação por escrito da KBS. Inscreva-se com um consultor Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Austrália",
+     "english_test": ""
+    },
+    "es": {
+     "name": "Beca KBS Excellence 2027 - Indonesia",
+     "fields": "Negocios, Tecnologías de la información",
+     "coverage": "Crédito en la matrícula (solo matrícula, no canjeable por dinero)",
+     "amount": "Dos becas del 50% (1 Bachelor of Business, 1 Bachelor of IT); 1.º y 2.º finalistas hasta 30%",
+     "eligibility": "Pasaporte indonesio; promedio mínimo del 90% en SMA3 (o equivalente); cumplir los requisitos académicos y de inglés de KBS; tener Offer of Admission de KBS para un grado de Business o IT que comience en 2027; no estar patrocinado.",
+     "intake": "2027",
+     "notes": "Selección competitiva: formulario + vídeo creativo original de 30 segundos (Etapa 1) y entrevista académica de hasta 15 minutos (Etapa 2). No combinable con otra beca, descuento o promoción de KBS salvo aprobación escrita de KBS. Solicítala con un consultor de Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australia",
+     "english_test": ""
+    },
+    "de": {
+     "name": "KBS Excellence Scholarship 2027 - Indonesien",
+     "fields": "Wirtschaft, Informationstechnologie",
+     "coverage": "Gutschrift auf die Studiengebühren (nur Studiengebühren, nicht in bar auszahlbar)",
+     "amount": "Zwei 50-%-Stipendien (1 Bachelor of Business, 1 Bachelor of IT); 1. und 2. Platzierte bis zu 30 %",
+     "eligibility": "Indonesischer Reisepass; Durchschnitt von mindestens 90 % in SMA3 (oder gleichwertig); erfüllt die akademischen und Englisch-Anforderungen von KBS; KBS Offer of Admission für einen Business- oder IT-Bachelor mit Beginn 2027; nicht gesponsert.",
+     "intake": "2027",
+     "notes": "Wettbewerb: Antragsformular + originelles 30-Sekunden-Video (Stufe 1), danach akademisches Interview bis 15 Minuten (Stufe 2). Nicht kombinierbar mit anderen KBS-Stipendien, Rabatten oder Aktionen, außer mit schriftlicher Zustimmung von KBS. Bewerbung über eine Talented-Beratung.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australien",
+     "english_test": ""
+    },
+    "it": {
+     "name": "Borsa KBS Excellence 2027 - Indonesia",
+     "fields": "Business, Tecnologia dell'informazione",
+     "coverage": "Credito sulle tasse universitarie (solo tasse, non convertibile in denaro)",
+     "amount": "Due borse del 50% (1 Bachelor of Business, 1 Bachelor of IT); 1° e 2° classificati successivi fino al 30%",
+     "eligibility": "Passaporto indonesiano; media minima del 90% in SMA3 (o equivalente); requisiti accademici e di inglese KBS soddisfatti; Offer of Admission KBS per un bachelor in Business o IT con inizio nel 2027; non sponsorizzato.",
+     "intake": "2027",
+     "notes": "Selezione competitiva: modulo + video creativo originale di 30 secondi (Fase 1), poi colloquio accademico fino a 15 minuti (Fase 2). Non cumulabile con altre borse, sconti o promozioni KBS salvo approvazione scritta di KBS. Candidati tramite un consulente Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australia",
+     "english_test": ""
+    },
+    "nl": {
+     "name": "KBS Excellence Scholarship 2027 - Indonesië",
+     "fields": "Bedrijfskunde, Informatietechnologie",
+     "coverage": "Korting op het collegegeld (alleen collegegeld, niet inwisselbaar voor geld)",
+     "amount": "Twee beurzen van 50% (1 Bachelor of Business, 1 Bachelor of IT); 1e en 2e runner-up tot 30%",
+     "eligibility": "Indonesisch paspoort; gemiddelde van minimaal 90% in SMA3 (of gelijkwaardig); voldoet aan de academische en Engelse eisen van KBS; heeft een KBS Offer of Admission voor een Business- of IT-bachelor die in 2027 start; niet gesponsord.",
+     "intake": "2027",
+     "notes": "Competitieve selectie: aanvraagformulier + originele creatieve video van 30 seconden (fase 1), daarna een academisch interview van maximaal 15 minuten (fase 2). Niet te combineren met andere KBS-beurzen, kortingen of promoties tenzij KBS schriftelijk toestemming geeft. Aanvragen via een Talented-consultant.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Australië",
+     "english_test": ""
+    },
+    "ru": {
+     "name": "Стипендия KBS Excellence 2027 - Индонезия",
+     "fields": "Бизнес, информационные технологии",
+     "coverage": "Зачёт в счёт оплаты обучения (только плата за обучение, не обменивается на деньги)",
+     "amount": "Две стипендии 50% (1 Bachelor of Business, 1 Bachelor of IT); 1-й и 2-й призёры до 30%",
+     "eligibility": "Паспорт Индонезии; средний балл SMA3 (или эквивалент) не ниже 90%; соответствие академическим и языковым требованиям KBS; Offer of Admission от KBS на бакалавриат Business или IT с началом в 2027 году; без спонсора.",
+     "intake": "2027",
+     "notes": "Конкурсный отбор: анкета + оригинальное творческое видео 30 секунд (этап 1), затем академическое собеседование до 15 минут (этап 2). Не суммируется с другими стипендиями, скидками или акциями KBS без письменного согласия KBS. Подача через консультанта Talented.",
+     "provider": "Kaplan Business School Australia",
+     "country": "Австралия",
+     "english_test": ""
     }
    }
   },

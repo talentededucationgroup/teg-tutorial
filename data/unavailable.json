@@ -1,0 +1,45 @@
+{
+ "version": "2026-11-19",
+ "updated_at": "2026-11-19T16:30:00+07:00",
+ "note": "Sekolah yang TIDAK lagi ditawarkan Talented. Website menyembunyikan programnya dari hasil cari & daftar, atau menampilkan label tidak tersedia bila dibuka lewat link lama.",
+ "label": {
+  "id": "Tidak tersedia",
+  "en": "Not available",
+  "th": "ไม่พร้อมให้บริการ",
+  "vi": "Không khả dụng",
+  "zh": "暂不可用",
+  "ja": "受付停止",
+  "ko": "이용 불가",
+  "km": "មិនមាន",
+  "fr": "Non disponible",
+  "pt": "Indisponível",
+  "es": "No disponible",
+  "de": "Nicht verfügbar",
+  "it": "Non disponibile",
+  "nl": "Niet beschikbaar",
+  "ru": "Недоступно"
+ },
+ "items": [
+  {
+   "key": "evolution",
+   "name": "Evolution Hospitality Institute",
+   "aliases": [
+    "Evolution Hospitality Institute",
+    "Evolution Hospitality",
+    "Evolution Systems for Training & Development",
+    "Evolution"
+   ],
+   "cricos": [
+    "02869G"
+   ],
+   "reason": {
+    "id": "Tidak tersedia - sekolah sedang tutup (tidak menerima siswa baru).",
+    "en": "Not available - school is closing down (not accepting new students)."
+   },
+   "since": "2026-11-19",
+   "source": "Keputusan pemilik Talented (sekolah tutup)"
+  }
+ ],
+ "match_rule": "Cocokkan CRICOS dulu, lalu nama/alias. Alias 'Evolution' hanya cocok bila nama sekolah diawali 'Evolution' (bukan nama program seperti 'Evolutionary Science').",
+ "copyright": "© 2026 Talented Education Group."
+}

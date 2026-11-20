@@ -79,7 +79,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:0 16px 20px
 </header>
 <nav class="filters" id="filters" aria-label="Saring"></nav>
 <details class="how" id="howbox"><summary>❓ Cara pakai (ketuk untuk buka)</summary><div><p style="margin:0 0 8px;font-weight:700">▶ Video tutorial (2,5 menit, suara Bahasa Indonesia)</p><video controls preload="none" playsinline poster="tutorial-poster.jpg?v=2" src="tutorial.mp4?v=5" style="width:100%;max-width:420px;border-radius:14px;display:block;margin:0 0 12px;background:#000"></video><ol>
-<li><b>Cara tercepat:</b> tekan tombol kuning <b>▶ Posting berurutan</b>. Tombol akan memandu: WA Status → IG Story → IG/FB Post → TikTok. Setiap langkah: pilih aplikasinya di menu bagikan, posting, lalu kembali ke halaman ini dan tekan langkah berikutnya. Caption selalu tersalin otomatis.</li>
+<li><b>Cara tercepat:</b> tekan tombol <b>▶ Posting berurutan</b>. Tombol akan memandu: WA Status → IG Story → IG/FB Post → TikTok. Setiap langkah: pilih aplikasinya di menu bagikan, posting, lalu kembali ke halaman ini dan tekan langkah berikutnya. Caption selalu tersalin otomatis.</li>
 <li>Atau satu per satu: tekan <b>📤 Bagikan poster + caption</b> → pilih <b>WhatsApp</b> → <b>Status Saya</b> (atau Instagram/Facebook). Caption ikut tersalin; bila tidak muncul, tekan tempel (paste).</li>
 <li>Untuk Story/Reel pakai tombol <b>Story 9:16</b> atau <b>Video Reel</b>.</li>
 <li>Pasang sebagai aplikasi: di Chrome menu ⋮ → <b>Instal aplikasi</b> (bukan "Tambahkan pintasan"), lalu tekan ikon <b>🔕</b> di kanan atas untuk menyalakan suara. Selama aplikasi terbuka, halaman mengecek postingan baru tiap 5 menit dan berbunyi bila ada yang baru. Angka merah = postingan yang belum Anda bagikan.</li>
@@ -98,19 +98,19 @@ const store={get(){try{return JSON.parse(localStorage.getItem('teg-tim-done')||'
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 async function copy(text){try{await navigator.clipboard.writeText(text);return true}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}ta.remove();return ok}}
 async function fileFrom(url,name){const r=await fetch(url,{cache:'force-cache'});if(!r.ok)throw new Error('gagal unduh');const b=await r.blob();return new File([b],name,{type:b.type||'application/octet-stream'})}
-async function share(post,kind){
+async function share(post,kind,mark=true){
   const url=kind==='story'?post.story:kind==='reel'?post.reel:post.image;
   const ext=kind==='reel'?'mp4':'png';
   const name=('Talented '+post.title).replace(/[^\w\- ]+/g,'').slice(0,60)+(kind==='story'?' Story':kind==='reel'?' Reel':'')+'.'+ext;
   await copy(post.caption);
   try{
     const f=await fileFrom(url,name);
-    if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:post.caption,title:post.title});store.add(post.id);return true}
+    if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:post.caption,title:post.title});if(mark)store.add(post.id);return true}
   }catch(e){if(e&&e.name==='AbortError')return false}
   toast('Caption tersalin. Browser ini belum bisa berbagi file: poster dibuka, simpan lalu posting manual.');
-  window.open(url,'_blank','noopener');store.add(post.id);return true;
+  window.open(url,'_blank','noopener');if(mark)store.add(post.id);return true;
 }
-let posts=[];let tab='new',cat='';
+let posts=[];let tab='new',cat='';const keep=new Set(); // dibagikan di sesi ini: tetap tampil di tab Belum sampai ganti tab/muat ulang
 const FLOW=[{k:'wa',label:'WA Status',kind:'image',hint:'Pilih WhatsApp → Status Saya'},
  {k:'igs',label:'IG Story',kind:'story',hint:'Pilih Instagram → Story (gambar 9:16)'},
  {k:'feed',label:'IG/FB Post',kind:'image',hint:'Pilih Instagram (Feed) atau Facebook, tempel caption'},
@@ -123,7 +123,7 @@ function render(){
   const el=$('#list');
   const cats=[...new Set(posts.map(p=>p.kindText))];
   $('#filters').innerHTML=['',...cats].map(c=>`<button data-cat="${esc(c)}" class="${c===cat?'on':''}">${c?esc(c):'Semua kategori'}</button>`).join('');
-  const view=posts.map((p,i)=>[p,i]).filter(([p])=>(tab==='all'||(tab==='done'?done.includes(p.id):!done.includes(p.id)))&&(!cat||p.kindText===cat));
+  const view=posts.map((p,i)=>[p,i]).filter(([p])=>(tab==='all'||(tab==='done'?done.includes(p.id):(!done.includes(p.id)||keep.has(p.id))))&&(!cat||p.kindText===cat));
   $('#cnt').textContent=posts.length+' postingan';
   if(!view.length){el.innerHTML='<p class="empty">'+(posts.length?(tab==='new'?'🎉 Semua postingan sudah Anda bagikan.':'Tidak ada postingan di sini.'):'Belum ada postingan. Cek lagi nanti.')+'</p>';return}
   el.innerHTML=view.map(([p,i])=>`<article class="card ${done.includes(p.id)?'done':''}">
@@ -143,15 +143,15 @@ function render(){
     </div></article>`).join('');
 }
 document.addEventListener('click',async e=>{
-  const t=e.target.closest('[data-tab]');if(t){tab=t.dataset.tab;document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('on',x===t));render();scrollTo({top:0,behavior:'smooth'});return}
+  const t=e.target.closest('[data-tab]');if(t){tab=t.dataset.tab;keep.clear();document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('on',x===t));render();scrollTo({top:0,behavior:'smooth'});return}
   const c=e.target.closest('[data-cat]');if(c){cat=c.dataset.cat;render();return}
   if(e.target.closest('#reload')){toast('Memeriksa postingan baru…');check();return}
   const b=e.target.closest('button[data-i]');if(!b)return;
-  const p=posts[+b.dataset.i],k=b.dataset.k;
+  const p=posts[+b.dataset.i],k=b.dataset.k;if(tab==='new')keep.add(p.id);
   if(k==='copy'){toast(await copy(p.caption)?'Caption tersalin':'Salin manual dari kotak caption');return}
   b.disabled=true;const old=b.textContent;b.textContent='Menyiapkan…';
   try{
-    if(k==='flow'){const nx=flowOf(p).find(f=>!plat.get(p.id).includes(f.k));if(nx&&await share(p,nx.kind)){plat.add(p.id,nx.k);toast('✓ '+nx.label+' selesai. Lanjut langkah berikutnya.')}}
+    if(k==='flow'){const nx=flowOf(p).find(f=>!plat.get(p.id).includes(f.k));if(nx&&await share(p,nx.kind,false)){plat.add(p.id,nx.k);const left=flowOf(p).filter(f=>!plat.get(p.id).includes(f.k));if(!left.length){store.add(p.id);toast('✓ Semua langkah selesai. Postingan pindah ke tab Sudah.')}else toast('✓ '+nx.label+' selesai. Lanjut: '+left[0].label+'.')}}
     else{await share(p,k==='post'?'image':k)}
   }finally{b.disabled=false;b.textContent=old;render()}
 });

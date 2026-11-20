@@ -80,6 +80,8 @@ def build(kind, ch, i, cfg):
             p['metadata'] = {"instagram": {"type": "post", "shouldShareToFeed": True}}
         elif s == 'facebook':
             p['metadata'] = {"facebook": {"type": "post"}}
+        elif s == 'google':
+            p['metadata'] = {"google": {"type": "whats_new"}}
         return p
     if kind == 'story':
         if s == 'instagram' and cfg.get('stories', True):
@@ -202,10 +204,13 @@ def main():
     chans = [c for c in chans if not c.get('isQueuePaused') and (not allow or svc(c['service']) in allow)]
     print('channels:', [(svc(c['service']), c.get('displayName') or c.get('name')) for c in chans])
     limit, n, errors = int(cfg.get('max_per_run', 6)), 0, []
+    waiting = set()
     reviews = load(REVIEW_P, {"note": "Hasil cek otomatis ChatGPT (OpenAI) per postingan sebelum tayang.", "items": {}})
-    auto = cfg.get('mode') == 'auto_reviewed' and bool(OAI)
-    if cfg.get('mode') == 'auto_reviewed' and not OAI:
-        print('mode auto_reviewed but OPENAI_API_KEY not set: posts go to Buffer Drafts instead.')
+    auto = cfg.get('mode') == 'auto_reviewed'
+    if auto and not OAI:
+        # owner 20/11/2026: no Drafts - verdicts come from the Claude QA scheduled task (data/social-review.json);
+        # posts without a verdict wait for the next review run.
+        print('mode auto_reviewed: no OPENAI_API_KEY, using verdicts written by the Claude QA reviewer.')
     for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
         for i in sorted(feed(fname), key=lambda x: x['pub']):
             if not i['media'] or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
@@ -216,14 +221,15 @@ def main():
             cfg['_draft'] = True
             if auto:
                 rv = reviews['items'].get(i['guid'])
-                if not rv and kind == 'feed':
+                if not rv and kind == 'feed' and OAI:
                     try:
                         rv = review(i, cfg); reviews['items'][i['guid']] = rv
                         print('review', i['guid'], rv['verdict'], '; '.join(rv.get('reasons', []))[:200])
                     except Exception as e:
                         errors.append(f"review/{i['guid']}: {str(e)[:160]}"); continue
                 if not rv:
-                    continue  # story/reel wait for the feed verdict
+                    waiting.add(i['guid'])
+                    continue  # waits for a QA verdict (story/reel follow the feed verdict)
                 if rv['verdict'] != 'LOLOS':
                     continue  # held: shown to the owner in the daily WA report
                 cfg['_draft'] = False
@@ -255,8 +261,9 @@ def main():
     sent['daily'] = {d: v for d, v in sent.get('daily', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['last_run'] = NOW.isoformat()
     sent['last_errors'] = errors[-20:]
+    sent['waiting_review'] = sorted(waiting)
     json.dump(sent, open(SENT_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    print(f'sent {n}; errors {len(errors)}')
+    print(f'sent {n}; errors {len(errors)}; waiting for QA verdict {len(waiting)}')
     for e in errors[:10]:
         print(' !', e)
     return 0

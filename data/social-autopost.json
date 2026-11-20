@@ -10,7 +10,7 @@
  "max_age_days": 10,
  "news_max_age_days": 1,
  "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi).",
- "mode_note": "'auto_reviewed' = setiap postingan dicek otomatis oleh ChatGPT (OpenAI, butuh secret OPENAI_API_KEY); hanya LOLOS yang langsung masuk antrean Buffer & tayang; REVISI/TOLAK ditahan & dilaporkan. Tanpa OPENAI_API_KEY = masuk Drafts. 'draft' = semua ke Drafts. 'queue' = langsung tayang tanpa cek.",
+ "mode_note": "'auto_reviewed' = setiap postingan dicek dulu: oleh ChatGPT bila secret OPENAI_API_KEY ada, bila tidak oleh tugas terjadwal Claude QA (menulis data/social-review.json). Hanya LOLOS yang langsung masuk antrean Buffer & tayang; REVISI/TOLAK ditahan; yang belum dicek menunggu (tidak ke Drafts). 'draft' = semua ke Drafts. 'queue' = langsung tayang tanpa cek.",
  "reviewer_model": "gpt-4o",
  "daily_caps": {
   "youtube": 2,
@@ -18,5 +18,6 @@
   "instagram": 6,
   "facebook": 6
  },
- "daily_caps_note": "Batas kiriman per channel per hari (YouTube dibatasi Buffer: paket gratis 2/hari, berbayar 100/hari dengan email terverifikasi, 5/hari bila belum). Sisa dikirim besok."
+ "daily_caps_note": "Batas kiriman per channel per hari (YouTube dibatasi Buffer: paket gratis 2/hari, berbayar 100/hari dengan email terverifikasi, 5/hari bila belum). Sisa dikirim besok.",
+ "review_note": "Sejak 20/11/2026 reviewer = Claude (tugas terjadwal 'QA postingan sosmed', 3x sehari)."
 }

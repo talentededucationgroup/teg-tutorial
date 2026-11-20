@@ -12,6 +12,7 @@ on:
       - 'data/community-postings.json'
       - 'data/social-posts.json'
       - 'data/social-autopost.json'
+      - 'data/social-review.json'
       - 'data/site-promo.json'
   workflow_run:
     workflows: ["Update lowongan kerja (2x sehari)"]

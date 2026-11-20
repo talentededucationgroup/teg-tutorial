@@ -248,5 +248,11 @@
     "ru": "50-70 слов; записывайте ключевые слова во время аудио, проверьте орфографию."
    }
   }
- ]
+ ],
+ "score_guide": {
+  "title": "Pearson PTE Academic Score Guide",
+  "url": "https://www.pearsonpte.com/score-guide",
+  "note": "Responses that contain pre-prepared or memorized material are classified as irrelevant responses (Content 0 = no score points).",
+  "checked": "2026-11-20"
+ }
 }

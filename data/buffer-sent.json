@@ -1,7 +1,46 @@
 {
 "note": "Postingan yang sudah dikirim ke Buffer (guid|kind|channel).",
-"sent": [],
-"last_run": "2026-11-19T23:09:16.278860+00:00",
-"last_errors": [],
-"daily": {}
+"sent": [
+"post:2026-w47-ais|feed|6aff3157ece6dfde5f2203ab",
+"post:2026-w47-ais|feed|6aff319cece6dfde5f2206b4",
+"post:2026-w47-ais|feed|6aff32d7ece6dfde5f22151d",
+"post:2026-w47-ais|feed|6aff3328ece6dfde5f221865",
+"post:2026-w47-ais|reel|6aff3157ece6dfde5f2203ab",
+"post:2026-w47-ais|reel|6aff319cece6dfde5f2206b4",
+"post:2026-w47-ais|reel|6aff31ffece6dfde5f220b47",
+"post:2026-w47-ais|reel|6aff3a05ece6dfde5f22802a",
+"post:2026-w47-ais|story|6aff3157ece6dfde5f2203ab",
+"post:2026-w47-ais|story|6aff319cece6dfde5f2206b4",
+"site:2026-11-20:site-02|feed|6aff3157ece6dfde5f2203ab",
+"site:2026-11-20:site-02|feed|6aff319cece6dfde5f2206b4",
+"site:2026-11-20:site-02|feed|6aff32d7ece6dfde5f22151d",
+"site:2026-11-20:site-02|feed|6aff3328ece6dfde5f221865",
+"site:2026-11-20:site-02|reel|6aff3157ece6dfde5f2203ab",
+"site:2026-11-20:site-02|reel|6aff319cece6dfde5f2206b4",
+"site:2026-11-20:site-02|reel|6aff31ffece6dfde5f220b47",
+"site:2026-11-20:site-02|reel|6aff3a05ece6dfde5f22802a",
+"site:2026-11-20:site-02|story|6aff3157ece6dfde5f2203ab",
+"site:2026-11-20:site-02|story|6aff319cece6dfde5f2206b4"
+],
+"last_run": "2026-11-20T02:26:05.454553+00:00",
+"last_errors": [
+"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
+"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new)."
+],
+"daily": {
+"2026-11-20": {
+"6aff3328ece6dfde5f221865": 2,
+"6aff32d7ece6dfde5f22151d": 2,
+"6aff319cece6dfde5f2206b4": 6,
+"6aff3157ece6dfde5f2203ab": 6,
+"6aff3a05ece6dfde5f22802a": 2,
+"6aff31ffece6dfde5f220b47": 2
+}
+}
 }

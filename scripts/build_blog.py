@@ -102,7 +102,7 @@ def cta(l):
     sub1='Biaya kuliah, hidup, visa & OSHC dalam satu estimasi' if l=='id' else 'Tuition, living, visa & OSHC in one estimate'
     sub2='Chat dengan konsultan Talented' if l=='id' else 'Chat with a Talented consultant'
     inst='Sekolah atau layanan pelajar? Tampil di pricelist kami.' if l=='id' else 'A school or student service? Get featured on our pricelist.'
-    return f'<div class="cta"><a class="p" href="{PRICE}?lang={l}">💰 {t["cta1"]} →<small>{sub1}</small></a><a class="s" href="{LINK}">💬 {t["cta2"]}<small>{sub2}</small></a></div><div class="inst"><span>🏫 {inst}</span><a href="{ADV}?lang={l}">{t["cta3"]} →</a></div>'
+    return f'<div class="cta"><a class="p" href="{PRICE}?lang={l}">💰 {t["cta1"]} →<small>{sub1}</small></a><a class="s" href="{LINK}">💬 {t["cta2"]}<small>{sub2}</small></a></div><div class="inst"><span>🏫 {inst}</span><a href="{ADV}?lang={l}">{t["cta3"]} →</a></div><div class="inst"><span>🎯 {'Les IELTS &amp; PTE Pontianak &amp; Singkawang - Victory Scholars Academy' if l=='id' else 'IELTS &amp; PTE classes in Pontianak &amp; Singkawang - Victory Scholars Academy'}</span><a href="{SITE}/les/">{'Lihat kelas' if l=='id' else 'See classes'} →</a></div>'
 for l in ('id','en'):
     t=T[l]
     for p in posts:

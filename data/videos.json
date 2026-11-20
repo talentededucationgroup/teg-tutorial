@@ -5,9 +5,9 @@
     {
       "id": "panduan-lengkap",
       "placement": "Video utama tertanam langsung di atas /biaya-studi & halaman awal aplikasi (tanpa tombol; spek L.2)",
-      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v5.7",
-      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v5.7",
-      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v5.7",
+      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v5.8",
+      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v5.8",
+      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v5.8",
       "manifest": "https://info.talentededucationgroup.com/panduan/manifest.json",
       "duration_seconds": 858.96,
       "orientation": "landscape",

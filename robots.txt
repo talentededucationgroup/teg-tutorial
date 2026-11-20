@@ -5,7 +5,17 @@ Disallow: /sponsor/
 Disallow: /tim/
 Sitemap: https://info.talentededucationgroup.com/sitemap.xml
 
+# Mesin pencari & asisten AI boleh membaca halaman publik (bukan /data/)
 User-agent: GPTBot
-Disallow: /data/
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
 User-agent: CCBot
-Disallow: /
+Allow: /
+Disallow: /data/
+Disallow: /sponsor/
+Disallow: /tim/

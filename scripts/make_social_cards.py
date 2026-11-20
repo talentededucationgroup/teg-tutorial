@@ -733,8 +733,28 @@ def make_reel(story_path, seconds=8):
             print('reel skipped: no ffmpeg'); return None
     cmd = [ff, '-y', '-loglevel', 'error', '-loop', '1', '-i', story_path]
     if music:
-        pick = music[int(hashlib.sha256(story_path.encode()).hexdigest(), 16) % len(music)]
-        cmd += ['-i', pick, '-filter:a', f'afade=t=in:d=0.5,afade=t=out:st={seconds - 1}:d=1,volume=0.8', '-c:a', 'aac', '-b:a', '128k']
+        # lagu acak, hindari lagu yang dipakai baru-baru ini; mulai dari detik acak (pemilik 21/11/2026)
+        import random as _r, json as _j
+        rec_p = os.path.join(ROOT, 'social', 'music-recent.json')
+        try:
+            recent = _j.load(open(rec_p, encoding='utf-8'))
+        except Exception:
+            recent = []
+        names = [os.path.basename(x) for x in music]
+        keep = max(0, min(len(names) - 3, 10))
+        pool = [x for x in music if os.path.basename(x) not in recent[-keep:]] if keep else music
+        pick = _r.choice(pool or music)
+        recent = (recent + [os.path.basename(pick)])[-30:]
+        try:
+            _j.dump(recent, open(rec_p, 'w', encoding='utf-8'), ensure_ascii=False)
+        except Exception:
+            pass
+        try:
+            dur = float(subprocess.run([ff.replace('ffmpeg', 'ffprobe') if 'ffmpeg' in os.path.basename(ff) and _sh.which('ffprobe') else 'ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', pick], capture_output=True, text=True, timeout=30).stdout.strip() or 0)
+        except Exception:
+            dur = 0
+        start = round(_r.uniform(0, max(0.0, dur - seconds - 1.5)), 2) if dur > seconds + 2 else 0
+        cmd += ['-ss', str(start), '-i', pick, '-filter:a', f'afade=t=in:d=0.5,afade=t=out:st={seconds - 1}:d=1,volume=0.8', '-c:a', 'aac', '-b:a', '128k']
     cmd += ['-vf', vf, '-t', str(seconds), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-movflags', '+faststart']
     if music:
         cmd += ['-shortest']

@@ -46,8 +46,12 @@ def track(name,bpm,root,prog,style,bars=8,seed=1):
     fade=int(1.2*SR); mix[-fade:]*=np.linspace(1,0,fade)[:,None]; mix[:int(.05*SR)]*=np.linspace(0,1,int(.05*SR))[:,None]
     wf.write(name+'.wav',SR,(mix*32767).astype(np.int16))
 I,V,vi,IV,ii,iii=[0,4,7],[7,11,14],[9,12,16],[5,9,12],[2,5,9],[4,7,11]
-track('talented-bright-01',112,60,[I,V,vi,IV],'bright',8,1)
-track('talented-hope-02',96,62,[vi,IV,I,V],'pop',8,2)
-track('talented-calm-03',80,57,[I,iii,IV,V],'calm',6,3)
-track('talented-drive-04',120,64,[I,IV,vi,V],'pop',8,4)
-track('talented-study-05',104,65,[IV,V,iii,vi],'bright',8,5)
+PROGS=[[I,V,vi,IV],[vi,IV,I,V],[I,iii,IV,V],[I,IV,vi,V],[IV,V,iii,vi],[I,vi,IV,V],[ii,V,I,vi],[I,V,IV,IV],[vi,V,IV,V],[IV,I,V,vi]]
+STYLES=['bright','pop','calm','bright','pop']
+if __name__=='__main__':
+    import random,sys
+    n=int(sys.argv[1]) if len(sys.argv)>1 else 20
+    for k in range(1,n+1):
+        r=random.Random(1000+k)
+        st=r.choice(STYLES);bpm=r.choice([78,84,90,96,100,104,108,112,116,120,124]) if st!='calm' else r.choice([72,76,80,84])
+        track(f'talented-{st}-{k:02d}',bpm,r.choice([55,57,58,60,62,63,65]),r.choice(PROGS),st,8 if st!='calm' else 6,1000+k)

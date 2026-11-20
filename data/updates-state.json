@@ -37,6 +37,7 @@
 "au-curtin-global-merit|open",
 "au-deakin-vc-international|open",
 "au-destination-australia",
+"au-greenwich-elicos-vet-package-voucher-2027|open",
 "au-griffith-international-academic-merit|open",
 "au-kbs-excellence-indonesia-2027|open",
 "au-kbs-sea-nea-scholarship|open",
@@ -51,6 +52,7 @@
 "au-tiwa-wa-regional-bursary|open",
 "au-torrens-motivational|open",
 "au-torrens-three-pillars-bmihms|open",
+"au-ucsh-welcome-success-reward-2027|open",
 "au-unimelb-international-excellence-ug|open",
 "au-unisc-bright-future|open",
 "au-unisc-global-future|open",
@@ -978,6 +980,8 @@
 "accommodation:2026-11-18-1",
 "scholarship:au-kbs-excellence-indonesia-2027|open",
 "jobs:2026-11-20-257",
-"jobs:2026-11-20-253"
+"jobs:2026-11-20-253",
+"scholarship:au-ucsh-welcome-success-reward-2027|open",
+"scholarship:au-greenwich-elicos-vet-package-voucher-2027|open"
 ]
 }

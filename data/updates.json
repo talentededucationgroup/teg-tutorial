@@ -1,5 +1,5 @@
 {
- "version": "2026-11-20T09:26:04+07:00",
+ "version": "2026-11-20T13:22:19+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -32,6 +32,36 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-ucsh-welcome-success-reward-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: UCSH Welcome Success Reward 2027 (deadline 2026-12-31)",
+    "en": "🎓 Scholarship open: UCSH Welcome Success Reward 2027 (deadline 2026-12-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=UCSH%20Welcome%20Success%20Reward%202027",
+   "country": "Australia",
+   "provider": "University of Canberra – Sydney Hills (UCSH)",
+   "source": "https://www.canberra.edu.au"
+  },
+  {
+   "id": "scholarship:au-greenwich-elicos-vet-package-voucher-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: Greenwich: voucher AUD 500 paket ELICOS + VET (deadline 2027-12-31)",
+    "en": "🎓 Scholarship open: Greenwich: AUD 500 voucher for ELICOS + VET packages (deadline 2027-12-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Greenwich%3A%20voucher%20AUD%20500%20paket%20ELICOS%20%2B%20VET",
+   "country": "Australia",
+   "provider": "Greenwich College",
+   "source": "https://www.greenwichcollege.edu.au"
+  },
   {
    "id": "scholarship:au-kbs-excellence-indonesia-2027|open",
    "kind": "scholarship",

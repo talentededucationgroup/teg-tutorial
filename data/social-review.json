@@ -1,4 +1,28 @@
 {
- "note": "Hasil cek otomatis ChatGPT (OpenAI) per postingan sebelum tayang.",
- "items": {}
+ "note": "Hasil cek per postingan sebelum tayang (ChatGPT bila OPENAI_API_KEY ada, selain itu Claude QA).",
+ "items": {
+  "post:2026-w47-ais": {
+   "verdict": "LOLOS",
+   "reasons": [
+    "15% Standard Scholarship semua program, intake Term 2 2026 dst, BBus/BIT NZD 18.700 per 120 kredit setelah beasiswa - cocok dengan flyer resmi AIS 2026; NZD 9.350/semester = 18.700 / 2, berlabel sekitar",
+    "Tidak ada nama master agent/komisi; tidak ada klaim jaminan",
+    "Catatan: handle X di footer poster @talented_e_g berbeda dengan caption @group_talented (template umum)"
+   ],
+   "fix": "",
+   "checked_at": "2026-11-20T20:55:00+07:00",
+   "model": "claude (QA sesi pemilik)",
+   "source": "https://uploads.up.education/wp-content/uploads/2026/02/AIS-Scholarship-Flyer-2026-WEB-110226.pdf"
+  },
+  "site:2026-11-20:site-02": {
+   "verdict": "LOLOS",
+   "reasons": [
+    "Promo fitur pricelist sendiri, tanpa angka/aturan yang perlu sumber",
+    "Tidak ada rahasia bisnis atau klaim jaminan; logo & teks poster rapi"
+   ],
+   "fix": "",
+   "checked_at": "2026-11-20T20:55:00+07:00",
+   "model": "claude (QA sesi pemilik)",
+   "source": null
+  }
+ }
 }

@@ -1,6 +1,6 @@
 {
- "version": "2026-11-18b",
- "updated_at": "2026-11-18T14:30:00+07:00",
+ "version": "2026-11-21",
+ "updated_at": "2026-11-21T07:30:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -538,6 +538,62 @@
    "effective": "2026-11-16"
   },
   {
+   "id": "au-485-family-2026-11-13",
+   "date": "2026-11-13",
+   "effective": "2026-11-13",
+   "effective_date": "2026-11-13",
+   "deadline": null,
+   "country": "AU",
+   "category": "visa",
+   "status": "in_force",
+   "title": {
+    "id": "Australia: aturan anggota keluarga visa Temporary Graduate (subclass 485) berubah sejak 13 Nov 2026",
+    "en": "Australia: new family member rules for the Temporary Graduate visa (subclass 485) from 13 Nov 2026",
+    "th": "ออสเตรเลีย: กฎใหม่เรื่องสมาชิกครอบครัวในวีซ่า Temporary Graduate (subclass 485) ตั้งแต่ 13 พ.ย. 2026",
+    "vi": "Úc: quy định mới về thành viên gia đình của thị thực Temporary Graduate (subclass 485) từ 13/11/2026",
+    "zh": "澳大利亚:2026年11月13日起 Temporary Graduate 签证(subclass 485)随行家属新规",
+    "ja": "オーストラリア:2026年11月13日から Temporary Graduate ビザ(subclass 485)の家族に関する新ルール",
+    "ko": "호주: 2026년 11월 13일부터 Temporary Graduate 비자(subclass 485) 동반가족 규정 변경",
+    "km": "អូស្ត្រាលី៖ ច្បាប់ថ្មីអំពីសមាជិកគ្រួសារលើទិដ្ឋាការ Temporary Graduate (subclass 485) ចាប់ពី 13 វិច្ឆិកា 2026",
+    "fr": "Australie : nouvelles règles pour la famille du visa Temporary Graduate (subclass 485) dès le 13 nov. 2026",
+    "pt": "Austrália: novas regras para familiares no visto Temporary Graduate (subclass 485) desde 13 nov 2026",
+    "es": "Australia: nuevas reglas para familiares de la visa Temporary Graduate (subclass 485) desde el 13 nov 2026",
+    "de": "Australien: neue Regeln für Familienangehörige beim Temporary Graduate Visum (subclass 485) ab 13. Nov. 2026",
+    "it": "Australia: nuove regole per i familiari del visto Temporary Graduate (subclass 485) dal 13 nov 2026",
+    "nl": "Australië: nieuwe regels voor gezinsleden bij het Temporary Graduate-visum (subclass 485) vanaf 13 nov 2026",
+    "ru": "Австралия: новые правила для членов семьи по визе Temporary Graduate (subclass 485) с 13 нояб. 2026"
+   },
+   "summary": {
+    "id": "Untuk aplikasi sejak 13 Nov 2026, keluarga hanya bisa diikutkan bila pemohon utama berpaspor Pasifik/ASEAN (termasuk Indonesia), lulus doktor, berbeasiswa penuh pemerintah asing, atau keluarga itu sudah ikut di visa pelajar/485 sebelumnya (mis. pada 2 Okt 2026 atau dalam 6 bulan terakhir). Keluarga wajib diajukan bersamaan dan tidak bisa menyusul sebagai subsequent entrant. Syarat pemohon utama tidak berubah; aplikasi sebelum 13 Nov dinilai dengan aturan lama.",
+    "en": "For applications from 13 Nov 2026, family can only be included if the main applicant holds a Pacific/ASEAN passport (including Indonesia), completed a doctorate, was fully funded by a foreign government, or the family member was already a dependant on the previous student/485 visa (e.g. on 2 Oct 2026 or within the last 6 months). Family must apply at the same time and cannot join later as subsequent entrants. Main applicant requirements are unchanged; applications made before 13 Nov are assessed under the old rules.",
+    "th": "สำหรับใบสมัครตั้งแต่ 13 พ.ย. 2026 รวมครอบครัวได้เฉพาะเมื่อผู้สมัครหลักถือหนังสือเดินทางแปซิฟิก/อาเซียน (รวมไทย) จบปริญญาเอก ได้ทุนเต็มจากรัฐบาลต่างประเทศ หรือสมาชิกครอบครัวเคยเป็นผู้ติดตามในวีซ่านักเรียน/485 ก่อนหน้า (เช่น ณ 2 ต.ค. 2026 หรือภายใน 6 เดือน) ครอบครัวต้องยื่นพร้อมกันและยื่นตามทีหลังไม่ได้ เงื่อนไขผู้สมัครหลักไม่เปลี่ยน ใบสมัครก่อน 13 พ.ย. ใช้กฎเดิม",
+    "vi": "Với hồ sơ nộp từ 13/11/2026, chỉ được kèm gia đình nếu người nộp chính có hộ chiếu Thái Bình Dương/ASEAN (gồm Việt Nam), học xong tiến sĩ, được chính phủ nước ngoài tài trợ toàn phần, hoặc thành viên gia đình đã là người phụ thuộc trong thị thực du học/485 trước đó (vd. vào 2/10/2026 hoặc trong 6 tháng gần nhất). Gia đình phải nộp cùng lúc, không thể bổ sung sau. Điều kiện người nộp chính không đổi; hồ sơ nộp trước 13/11 xét theo quy định cũ.",
+    "zh": "2026年11月13日起递交的申请,仅当主申请人持太平洋/东盟国家护照(含印尼)、完成博士学位、获外国政府全额资助,或家属此前已是学生签证/485签证的随行家属(如2026年10月2日或过去6个月内)时才可附带家属。家属须同时递交,不能日后以后续申请人身份追加。主申请人条件不变;11月13日前递交的申请按旧规评估。",
+    "ja": "2026年11月13日以降の申請では、主申請者が太平洋/ASEAN諸国のパスポート保持者(インドネシア含む)、博士課程修了者、外国政府の全額奨学生である場合、または家族が以前の学生ビザ/485ビザで帯同していた場合(例:2026年10月2日時点または直近6か月以内)のみ家族を含められる。家族は同時申請が必須で、後から追加申請はできない。主申請者の要件は変更なし。11月13日より前の申請は旧ルールで審査。",
+    "ko": "2026년 11월 13일 이후 신청은 주신청자가 태평양/아세안 국가 여권 소지자(인도네시아 포함), 박사 학위 이수자, 외국 정부 전액 장학생이거나, 가족이 이전 학생비자/485 비자의 동반가족이었던 경우(예: 2026년 10월 2일 또는 최근 6개월 이내)에만 가족 동반 가능. 가족은 동시에 신청해야 하며 나중에 추가 신청 불가. 주신청자 요건은 변경 없음, 11월 13일 이전 신청은 기존 규정 적용.",
+    "km": "សម្រាប់ពាក្យចាប់ពី 13 វិច្ឆិកា 2026 អាចរួមបញ្ចូលគ្រួសារបានតែពេលអ្នកដាក់ពាក្យចម្បងកាន់លិខិតឆ្លងដែនប៉ាស៊ីហ្វិក/អាស៊ាន (រួមទាំងកម្ពុជា) បញ្ចប់បណ្ឌិត ទទួលអាហារូបករណ៍ពេញពីរដ្ឋាភិបាលបរទេស ឬសមាជិកគ្រួសារធ្លាប់ជាអ្នកនៅក្នុងបន្ទុកលើទិដ្ឋាការសិស្ស/485 មុន (ឧ. នៅ 2 តុលា 2026 ឬក្នុង 6 ខែចុងក្រោយ)។ គ្រួសារត្រូវដាក់ពាក្យព្រមគ្នា មិនអាចដាក់តាមក្រោយបានទេ។ លក្ខខណ្ឌអ្នកដាក់ពាក្យចម្បងមិនផ្លាស់ប្តូរ ពាក្យមុន 13 វិច្ឆិកា ប្រើច្បាប់ចាស់។",
+    "fr": "Pour les demandes à partir du 13 nov. 2026, la famille ne peut être incluse que si le demandeur principal a un passeport du Pacifique/de l'ASEAN (dont l'Indonésie), a terminé un doctorat, est entièrement financé par un gouvernement étranger, ou si le membre de la famille était déjà à charge sur le visa étudiant/485 précédent (p. ex. au 2 oct. 2026 ou dans les 6 derniers mois). La famille doit déposer en même temps et ne peut pas rejoindre plus tard. Les conditions du demandeur principal sont inchangées ; les demandes avant le 13 nov. suivent les anciennes règles.",
+    "pt": "Para pedidos a partir de 13 nov 2026, familiares só podem ser incluídos se o requerente principal tiver passaporte do Pacífico/ASEAN (incluindo Indonésia), concluiu doutorado, foi totalmente financiado por governo estrangeiro, ou se o familiar já era dependente no visto de estudante/485 anterior (ex.: em 2 out 2026 ou nos últimos 6 meses). A família deve aplicar ao mesmo tempo e não pode ser adicionada depois. Os requisitos do requerente principal não mudaram; pedidos antes de 13 nov seguem as regras antigas.",
+    "es": "Para solicitudes desde el 13 nov 2026, la familia solo puede incluirse si el solicitante principal tiene pasaporte del Pacífico/ASEAN (incluida Indonesia), completó un doctorado, fue financiado totalmente por un gobierno extranjero, o si el familiar ya era dependiente en la visa de estudiante/485 anterior (p. ej., el 2 oct 2026 o en los últimos 6 meses). La familia debe solicitar al mismo tiempo y no puede añadirse después. Los requisitos del solicitante principal no cambian; las solicitudes previas al 13 nov siguen las reglas anteriores.",
+    "de": "Für Anträge ab 13. Nov. 2026 können Familienangehörige nur einbezogen werden, wenn der Hauptantragsteller einen Pazifik-/ASEAN-Pass (inkl. Indonesien) hat, eine Promotion abgeschlossen hat, voll von einer ausländischen Regierung finanziert wurde oder das Familienmitglied bereits Angehöriger beim vorherigen Studenten-/485-Visum war (z. B. am 2. Okt. 2026 oder in den letzten 6 Monaten). Die Familie muss gleichzeitig beantragen und kann nicht später nachziehen. Die Anforderungen an Hauptantragsteller bleiben gleich; Anträge vor dem 13. Nov. gelten nach alten Regeln.",
+    "it": "Per le domande dal 13 nov 2026, i familiari possono essere inclusi solo se il richiedente principale ha un passaporto del Pacifico/ASEAN (inclusa l'Indonesia), ha completato un dottorato, è stato finanziato interamente da un governo straniero, o se il familiare era già a carico nel precedente visto per studenti/485 (es. al 2 ott 2026 o negli ultimi 6 mesi). La famiglia deve fare domanda insieme e non può aggiungersi dopo. I requisiti del richiedente principale non cambiano; le domande prima del 13 nov seguono le vecchie regole.",
+    "nl": "Voor aanvragen vanaf 13 nov 2026 kunnen gezinsleden alleen mee als de hoofdaanvrager een paspoort uit de Pacific/ASEAN (incl. Indonesië) heeft, een doctoraat heeft afgerond, volledig door een buitenlandse overheid is gefinancierd, of als het gezinslid al afhankelijke was op het vorige studenten-/485-visum (bijv. op 2 okt 2026 of in de laatste 6 maanden). Het gezin moet tegelijk aanvragen en kan niet later worden toegevoegd. De eisen voor de hoofdaanvrager blijven gelijk; aanvragen vóór 13 nov vallen onder de oude regels.",
+    "ru": "Для заявлений с 13 нояб. 2026 членов семьи можно включить, только если основной заявитель имеет паспорт стран Тихоокеанского региона/АСЕАН (включая Индонезию), окончил докторантуру, полностью финансировался иностранным правительством, или член семьи уже был иждивенцем по прежней студенческой визе/визе 485 (напр., на 2 окт. 2026 или в последние 6 месяцев). Семья должна подавать одновременно и не может присоединиться позже. Требования к основному заявителю не изменились; заявления до 13 нояб. рассматриваются по старым правилам."
+   },
+   "links": [
+    {
+     "label": "Home Affairs: Changes to Temporary Graduate visa (subclass 485) family member rules",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
+     "official": true
+    },
+    {
+     "label": "Federal Register of Legislation: Migration Amendment (Temporary Graduate Visa Reform) Regulations 2026",
+     "url": "https://www.legislation.gov.au/F2026L01500/asmade/text",
+     "official": true
+    }
+   ]
+  },
+  {
    "id": "ca-levels-2027-2029",
    "date": "2026-11-05",
    "effective_date": "2027-01-01",
@@ -1049,7 +1105,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-18",
+ "checked": "2026-11-21",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

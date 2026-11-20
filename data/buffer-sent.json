@@ -18,19 +18,6 @@
 "feed/google/post:2026-w47-ais: Invalid post: Google Business summary cannot exceed 1500 characters.",
 "feed/google/post:2026-w47-ais: Invalid post: Google Business summary cannot exceed 1500 characters."
 ],
-"daily": {
-"2026-11-20": {
-"6aff3328ece6dfde5f221865": 4,
-"6aff32d7ece6dfde5f22151d": 4,
-"6aff319cece6dfde5f2206b4": 6,
-"6aff3157ece6dfde5f2203ab": 6,
-"6aff3a05ece6dfde5f22802a": 3,
-"6aff31ffece6dfde5f220b47": 2,
-"6aff3375ece6dfde5f221ba4": 1,
-"6aff3375ece6dfde5f221ba3": 1,
-"6aff3375ece6dfde5f221ba2": 1,
-"6aff3375ece6dfde5f221ba1": 1
-}
-},
+"daily": {},
 "waiting_review": []
 }

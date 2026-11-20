@@ -75,6 +75,8 @@ def build(kind, ch, i, cfg):
         if s not in ('instagram', 'facebook', 'twitter', 'linkedin', 'google', 'threads'):
             return None
         text = x_text(i) if s in ('twitter', 'threads') else (no_hashtags(i['text']) if s == 'google' else i['text'])
+        if s == 'google' and len(text) > 1490:
+            text = text[:1490].rsplit('\n', 1)[0].rstrip()  # Google Business summary max 1500 chars
         p = dict(base, text=text, assets=[{"image": {"url": i['media']}}])
         if s == 'instagram':
             p['metadata'] = {"instagram": {"type": "post", "shouldShareToFeed": True}}

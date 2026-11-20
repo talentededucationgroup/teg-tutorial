@@ -209,5 +209,34 @@ document.addEventListener('visibilitychange',()=>{if(document.visibilityState===
 if('serviceWorker' in navigator)navigator.serviceWorker.register('/tim/sw.js',{scope:'/tim/'}).catch(()=>{});
 })();
 </script>
+<div id="instpop" hidden role="dialog" aria-modal="true" aria-labelledby="instttl" style="position:fixed;inset:0;z-index:999;background:rgba(8,20,32,.55);display:none;align-items:flex-end;justify-content:center;padding:16px">
+<div style="background:#fff;color:#102b40;width:100%;max-width:440px;border-radius:20px;padding:22px 22px 18px;box-shadow:0 20px 50px rgba(0,0,0,.35);border-top:5px solid #c9a13b">
+<div style="display:flex;gap:14px;align-items:center"><img src="/tim/icon-192-talented.png" alt="" width="58" height="58" style="border-radius:14px"><div><h2 id="instttl" style="margin:0;font-size:1.15rem">Pasang Kit Tim di HP</h2><p style="margin:4px 0 0;font-size:.9rem;color:#5a6670">Buka seperti aplikasi, dapat notifikasi postingan baru.</p></div></div>
+<p id="insthow" style="margin:14px 0 0;font-size:.95rem;line-height:1.5"></p>
+<div style="display:flex;gap:10px;margin-top:16px"><button id="instgo" type="button" style="flex:1;background:#102b40;color:#fff;border:0;border-radius:12px;padding:13px;font-weight:800;font-size:1rem">Instal sekarang</button><button id="instlater" type="button" style="background:#fff;color:#102b40;border:2px solid #e4e0d4;border-radius:12px;padding:13px 16px;font-weight:700">Nanti saja</button></div>
+</div></div>
+<script>
+(function(){
+ const pop=document.getElementById('instpop'),how=document.getElementById('insthow'),go=document.getElementById('instgo');
+ const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+ const ua=navigator.userAgent,ios=/iPhone|iPad|iPod/.test(ua),inapp=/FBAN|FBAV|Instagram|WhatsApp|Line\/|; wv\)/i.test(ua);
+ const KEY='teg-tim-install-later';let deferred=null;
+ const snoozed=()=>{try{return Date.now()<+(localStorage.getItem(KEY)||0)}catch(e){return false}};
+ function show(){if(standalone||snoozed()||!pop.hidden)return;
+  if(deferred){how.innerHTML='Tekan <b>Instal sekarang</b>, lalu <b>Instal</b>.';go.style.display=''}
+  else if(inapp){how.innerHTML='Halaman ini terbuka di dalam aplikasi lain. Ketuk menu <b>⋮</b> (kanan atas) → <b>Buka di Chrome</b>'+(ios?' / <b>Buka di Safari</b>':'')+', lalu pasang dari sana.';go.style.display='none'}
+  else if(ios){how.innerHTML='Di Safari: ketuk tombol <b>Bagikan</b> (kotak dengan panah ke atas) → <b>Tambah ke Layar Utama</b> → <b>Tambah</b>.';go.style.display='none'}
+  else{how.innerHTML='Di Chrome: ketuk menu <b>⋮</b> → <b>Instal aplikasi</b> (bukan "Tambahkan pintasan"). Di komputer: klik ikon <b>Instal</b> di kolom alamat.';go.style.display='none'}
+  pop.hidden=false;pop.style.display='flex';(go.style.display==='none'?document.getElementById('instlater'):go).focus();}
+ function hide(){pop.hidden=true;pop.style.display='none'}
+ addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;if(!pop.hidden){hide();}setTimeout(show,300)});
+ go.onclick=async()=>{if(!deferred)return;deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;hide()};
+ document.getElementById('instlater').onclick=()=>{try{localStorage.setItem(KEY,String(Date.now()+3*864e5))}catch(e){};hide()};
+ pop.addEventListener('click',e=>{if(e.target===pop)document.getElementById('instlater').click()});
+ addEventListener('keydown',e=>{if(e.key==='Escape'&&!pop.hidden)document.getElementById('instlater').click()});
+ addEventListener('appinstalled',hide);
+ if(!standalone)setTimeout(show,2500);
+})();
+</script>
 </body>
 </html>

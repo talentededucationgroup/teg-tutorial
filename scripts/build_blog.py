@@ -125,7 +125,7 @@ for l in ('id','en'):
 # RSS
 items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description>{e(p['description']['id'])}</description></item>" for p in posts)
 write(os.path.join(ROOT,'blog/feed.xml'),f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Talented Blog</title><link>{SITE}/blog/</link><description>{e(T["id"]["sub"])}</description>{items}</channel></rss>')
-urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l in ('id','en')]+[SITE+'/panduan/']
+urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l in ('id','en')]+[SITE+'/panduan/',SITE+'/les/']
 last={url_post(p['slug'],l):p.get('updated',p['date']) for p in posts for l in ('id','en')}
 sm=''.join(f'<url><loc>{u}</loc><lastmod>{last.get(u,posts[0]["date"])}</lastmod></url>' for u in urls)
 write(os.path.join(ROOT,'sitemap.xml'),f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')

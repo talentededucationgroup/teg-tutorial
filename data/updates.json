@@ -1,5 +1,5 @@
 {
- "version": "2026-11-20T17:26:06+07:00",
+ "version": "2026-11-20T18:19:13+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -91,6 +91,18 @@
    "country": "Australia",
    "provider": "Kaplan Business School Australia",
    "source": "https://www.kbs.edu.au"
+  },
+  {
+   "id": "jobs:2026-11-20-245",
+   "kind": "jobs",
+   "date": "2026-11-20",
+   "priority": 1,
+   "title": {
+    "id": "💼 245 lowongan kerja baru (Australia, Canada, Germany, New Zealand)",
+    "en": "💼 245 new part-time/student jobs (Australia, Canada, Germany, New Zealand)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "scholarship:sg-sim-undergraduate-scholarship-2027",

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-21T06:09:38+07:00",
+ "version": "2026-11-21T06:49:58+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -838,6 +838,34 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ"
+  },
+  {
+   "id": "news:au-485-family-2026-11-13",
+   "kind": "news",
+   "date": "2026-11-13",
+   "priority": 2,
+   "title": {
+    "id": "📰 Australia: aturan anggota keluarga visa Temporary Graduate (subclass 485) berubah sejak 13 Nov 2026",
+    "en": "📰 Australia: new family member rules for the Temporary Graduate visa (subclass 485) from 13 Nov 2026",
+    "th": "📰 ออสเตรเลีย: กฎใหม่เรื่องสมาชิกครอบครัวในวีซ่า Temporary Graduate (subclass 485) ตั้งแต่ 13 พ.ย. 2026",
+    "vi": "📰 Úc: quy định mới về thành viên gia đình của thị thực Temporary Graduate (subclass 485) từ 13/11/2026",
+    "zh": "📰 澳大利亚:2026年11月13日起 Temporary Graduate 签证(subclass 485)随行家属新规",
+    "ja": "📰 オーストラリア:2026年11月13日から Temporary Graduate ビザ(subclass 485)の家族に関する新ルール",
+    "ko": "📰 호주: 2026년 11월 13일부터 Temporary Graduate 비자(subclass 485) 동반가족 규정 변경",
+    "km": "📰 អូស្ត្រាលី៖ ច្បាប់ថ្មីអំពីសមាជិកគ្រួសារលើទិដ្ឋាការ Temporary Graduate (subclass 485) ចាប់ពី 13 វិច្ឆិកា 2026",
+    "fr": "📰 Australie : nouvelles règles pour la famille du visa Temporary Graduate (subclass 485) dès le 13 nov. 2026",
+    "pt": "📰 Austrália: novas regras para familiares no visto Temporary Graduate (subclass 485) desde 13 nov 2026",
+    "es": "📰 Australia: nuevas reglas para familiares de la visa Temporary Graduate (subclass 485) desde el 13 nov 2026",
+    "de": "📰 Australien: neue Regeln für Familienangehörige beim Temporary Graduate Visum (subclass 485) ab 13. Nov. 2026",
+    "it": "📰 Australia: nuove regole per i familiari del visto Temporary Graduate (subclass 485) dal 13 nov 2026",
+    "nl": "📰 Australië: nieuwe regels voor gezinsleden bij het Temporary Graduate-visum (subclass 485) vanaf 13 nov 2026",
+    "ru": "📰 Австралия: новые правила для членов семьи по визе Temporary Graduate (subclass 485) с 13 нояб. 2026"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "AU",
+   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
+   "category": "visa"
   }
  ]
 }

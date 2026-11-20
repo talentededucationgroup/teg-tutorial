@@ -31,7 +31,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
         with:
@@ -47,11 +47,6 @@ jobs:
           ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
         run: python scripts/build_updates.py
-      - name: Kirim postingan baru ke Buffer (bila BUFFER_API_KEY di-set)
-        env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python scripts/post_to_buffer.py || true
       - name: Commit feed
         run: |
           git config user.name "teg-updates-bot"
@@ -59,5 +54,18 @@ jobs:
           for f in data/updates.json data/updates-state.json data/accommodation.json social-feed.xml social-feed-story.xml social-feed-reels.xml social/ data/social-photos.json data/social-log.json data/social-need-photo.json data/buffer-sent.json data/social-review.json data/social-wall.json; do [ -e "$f" ] && git add -A -- "$f"; done
           if ! git diff --cached --quiet; then
             git commit -m "Feed yang baru otomatis $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main
+          fi
+      - name: Kirim postingan baru ke Buffer (setelah poster terbit di GitHub Pages)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WAIT_MEDIA_SECONDS: '540'
+        run: python scripts/post_to_buffer.py || true
+      - name: Simpan status kiriman Buffer
+        run: |
+          for f in data/buffer-sent.json data/social-review.json; do [ -e "$f" ] && git add -A -- "$f"; done
+          if ! git diff --cached --quiet; then
+            git commit -m "Status kiriman Buffer $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main
           fi

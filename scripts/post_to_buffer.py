@@ -205,6 +205,23 @@ def main():
     allow = set(cfg.get('services') or [])
     chans = [c for c in chans if not c.get('isQueuePaused') and (not allow or svc(c['service']) in allow)]
     print('channels:', [(svc(c['service']), c.get('displayName') or c.get('name')) for c in chans])
+    # wait until freshly built posters are live on GitHub Pages (Buffer must be able to download them)
+    import time
+    def live(u):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(u, method='HEAD'), timeout=20) as r:
+                return r.status == 200
+        except Exception:
+            return False
+    want = {i['media'] for f in ('social-feed.xml', 'social-feed-story.xml', 'social-feed-reels.xml') for i in feed(f)
+            if i['media'] and i['pub'] <= NOW and (NOW - i['pub']).days <= int(cfg.get('max_age_days', 10))}
+    deadline = time.time() + int(os.environ.get('WAIT_MEDIA_SECONDS', '0') or 0)
+    ready = {u for u in want if live(u)}
+    while len(ready) < len(want) and time.time() < deadline:
+        time.sleep(20)
+        ready |= {u for u in want - ready if live(u)}
+    if len(ready) < len(want):
+        print(f'media not live yet: {len(want) - len(ready)} (will retry next run)')
     limit, n, errors = int(cfg.get('max_per_run', 6)), 0, []
     waiting = set()
     reviews = load(REVIEW_P, {"note": "Hasil cek otomatis ChatGPT (OpenAI) per postingan sebelum tayang.", "items": {}})
@@ -215,7 +232,7 @@ def main():
         print('mode auto_reviewed: no OPENAI_API_KEY, using verdicts written by the Claude QA reviewer.')
     for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
         for i in sorted(feed(fname), key=lambda x: x['pub']):
-            if not i['media'] or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
+            if not i['media'] or i['media'] not in ready or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
                 continue
             # immigration news: only post while fresh (announced today or yesterday) - owner 20/11/2026
             if i['guid'].startswith('news:') and (NOW - i['pub']).days > int(cfg.get('news_max_age_days', 1)):

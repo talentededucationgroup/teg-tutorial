@@ -51,10 +51,37 @@ def txt(v, lang='en'):
         return v.get(lang) or v.get('en') or v.get('id') or next(iter(v.values()), '')
     return v or ''
 
+L15 = ['id', 'en', 'th', 'vi', 'zh', 'ja', 'ko', 'km', 'fr', 'pt', 'es', 'de', 'it', 'nl', 'ru']
 
-def entry(kind, key, title_id, title_en, tab, url_q=None, priority=1, extra=None):
+
+def full(v, prefix='', suffix=''):
+    """Title dict in all 15 languages (fallback to en/id)."""
+    return {l: prefix + txt(v, l) + suffix for l in L15}
+
+
+def per(tmpl, **kw):
+    return {l: tmpl[l].format(**kw) for l in L15}
+
+
+KINDS = {
+    "news": {"id": "Berita imigrasi", "en": "Immigration news", "th": "ข่าวตรวจคนเข้าเมือง", "vi": "Tin di trú", "zh": "移民新闻", "ja": "移民ニュース", "ko": "이민 뉴스", "km": "ព័ត៌មានអន្តោប្រវេសន៍", "fr": "Actualités immigration", "pt": "Notícias de imigração", "es": "Noticias de inmigración", "de": "Einwanderungsnews", "it": "Notizie immigrazione", "nl": "Immigratienieuws", "ru": "Иммиграционные новости"},
+    "scholarship": {"id": "Beasiswa", "en": "Scholarships", "th": "ทุนการศึกษา", "vi": "Học bổng", "zh": "奖学金", "ja": "奨学金", "ko": "장학금", "km": "អាហារូបករណ៍", "fr": "Bourses", "pt": "Bolsas de estudo", "es": "Becas", "de": "Stipendien", "it": "Borse di studio", "nl": "Beurzen", "ru": "Стипендии"},
+    "promo": {"id": "Promo", "en": "Promotions", "th": "โปรโมชัน", "vi": "Khuyến mãi", "zh": "优惠", "ja": "キャンペーン", "ko": "프로모션", "km": "ប្រូម៉ូសិន", "fr": "Promotions", "pt": "Promoções", "es": "Promociones", "de": "Aktionen", "it": "Promozioni", "nl": "Acties", "ru": "Акции"},
+    "sponsored": {"id": "Sekolah & layanan unggulan", "en": "Featured schools & services", "th": "สถาบันและบริการแนะนำ", "vi": "Trường & dịch vụ nổi bật", "zh": "精选院校与服务", "ja": "注目の学校とサービス", "ko": "추천 학교 및 서비스", "km": "សាលា និងសេវាកម្មពិសេស", "fr": "Écoles et services à la une", "pt": "Escolas e serviços em destaque", "es": "Escuelas y servicios destacados", "de": "Empfohlene Schulen & Services", "it": "Scuole e servizi in evidenza", "nl": "Uitgelichte scholen & diensten", "ru": "Рекомендуемые школы и услуги"},
+    "jobs": {"id": "Lowongan kerja", "en": "Jobs", "th": "งาน", "vi": "Việc làm", "zh": "工作机会", "ja": "求人", "ko": "채용", "km": "ការងារ", "fr": "Emplois", "pt": "Vagas", "es": "Empleos", "de": "Jobs", "it": "Lavoro", "nl": "Vacatures", "ru": "Вакансии"},
+    "accommodation": {"id": "Akomodasi", "en": "Accommodation", "th": "ที่พัก", "vi": "Chỗ ở", "zh": "住宿", "ja": "住まい", "ko": "숙소", "km": "កន្លែងស្នាក់នៅ", "fr": "Logement", "pt": "Acomodação", "es": "Alojamiento", "de": "Unterkunft", "it": "Alloggio", "nl": "Huisvesting", "ru": "Жильё"},
+    "airport": {"id": "Jemput bandara", "en": "Airport pickup", "th": "รับที่สนามบิน", "vi": "Đón sân bay", "zh": "接机", "ja": "空港送迎", "ko": "공항 픽업", "km": "ទទួលពីព្រលានយន្តហោះ", "fr": "Accueil à l’aéroport", "pt": "Traslado do aeroporto", "es": "Recogida en el aeropuerto", "de": "Flughafenabholung", "it": "Ritiro in aeroporto", "nl": "Ophalen van het vliegveld", "ru": "Встреча в аэропорту"}}
+SCH_OPEN = {"id": "🎓 Beasiswa dibuka: ", "en": "🎓 Scholarship open: ", "th": "🎓 เปิดรับทุน: ", "vi": "🎓 Học bổng đang mở: ", "zh": "🎓 奖学金开放申请：", "ja": "🎓 奨学金募集中：", "ko": "🎓 장학금 모집 중: ", "km": "🎓 អាហារូបករណ៍បើក៖ ", "fr": "🎓 Bourse ouverte : ", "pt": "🎓 Bolsa aberta: ", "es": "🎓 Beca abierta: ", "de": "🎓 Stipendium offen: ", "it": "🎓 Borsa aperta: ", "nl": "🎓 Beurs open: ", "ru": "🎓 Открыт приём на стипендию: "}
+SCH_NEW = {"id": "🎓 Beasiswa baru: ", "en": "🎓 New scholarship: ", "th": "🎓 ทุนใหม่: ", "vi": "🎓 Học bổng mới: ", "zh": "🎓 新奖学金：", "ja": "🎓 新しい奨学金：", "ko": "🎓 새 장학금: ", "km": "🎓 អាហារូបករណ៍ថ្មី៖ ", "fr": "🎓 Nouvelle bourse : ", "pt": "🎓 Nova bolsa: ", "es": "🎓 Nueva beca: ", "de": "🎓 Neues Stipendium: ", "it": "🎓 Nuova borsa: ", "nl": "🎓 Nieuwe beurs: ", "ru": "🎓 Новая стипендия: "}
+AGG = {
+ "jobs": {"id": "💼 {n} lowongan kerja baru{w}", "en": "💼 {n} new part-time/student jobs{w}", "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ {n} ตำแหน่ง{w}", "vi": "💼 {n} việc làm bán thời gian/sinh viên mới{w}", "zh": "💼 {n} 个新的兼职/学生工作{w}", "ja": "💼 新しいアルバイト・学生向け求人 {n} 件{w}", "ko": "💼 새 파트타임/학생 일자리 {n}개{w}", "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី {n}{w}", "fr": "💼 {n} nouveaux jobs étudiants/temps partiel{w}", "pt": "💼 {n} novas vagas meio período/estudante{w}", "es": "💼 {n} nuevos empleos de medio tiempo/estudiante{w}", "de": "💼 {n} neue Teilzeit-/Studentenjobs{w}", "it": "💼 {n} nuovi lavori part-time/studenti{w}", "nl": "💼 {n} nieuwe bijbaantjes/studentenbanen{w}", "ru": "💼 {n} новых вакансий с частичной занятостью{w}"},
+ "airport": {"id": "✈️ {n} layanan jemput bandara baru{w}", "en": "✈️ {n} new airport pickup services{w}", "th": "✈️ บริการรับที่สนามบินใหม่ {n} รายการ{w}", "vi": "✈️ {n} dịch vụ đón sân bay mới{w}", "zh": "✈️ {n} 个新的接机服务{w}", "ja": "✈️ 新しい空港送迎サービス {n} 件{w}", "ko": "✈️ 새 공항 픽업 서비스 {n}개{w}", "km": "✈️ សេវាទទួលពីព្រលានយន្តហោះថ្មី {n}{w}", "fr": "✈️ {n} nouveaux services d’accueil à l’aéroport{w}", "pt": "✈️ {n} novos serviços de traslado{w}", "es": "✈️ {n} nuevos servicios de recogida en aeropuerto{w}", "de": "✈️ {n} neue Flughafenabholungen{w}", "it": "✈️ {n} nuovi servizi di ritiro in aeroporto{w}", "nl": "✈️ {n} nieuwe ophaaldiensten vanaf het vliegveld{w}", "ru": "✈️ {n} новых услуг встречи в аэропорту{w}"},
+ "accommodation": {"id": "🏠 {n} info akomodasi baru{w}", "en": "🏠 {n} new accommodation listings{w}", "th": "🏠 ที่พักใหม่ {n} รายการ{w}", "vi": "🏠 {n} chỗ ở mới{w}", "zh": "🏠 {n} 条新的住宿信息{w}", "ja": "🏠 新しい住まい情報 {n} 件{w}", "ko": "🏠 새 숙소 정보 {n}개{w}", "km": "🏠 កន្លែងស្នាក់នៅថ្មី {n}{w}", "fr": "🏠 {n} nouveaux logements{w}", "pt": "🏠 {n} novas opções de acomodação{w}", "es": "🏠 {n} nuevos alojamientos{w}", "de": "🏠 {n} neue Unterkünfte{w}", "it": "🏠 {n} nuovi alloggi{w}", "nl": "🏠 {n} nieuwe woonruimtes{w}", "ru": "🏠 {n} новых вариантов жилья{w}"}}
+
+
+def entry(kind, key, title_id, title_en, tab, url_q=None, priority=1, extra=None, title=None):
     e = {"id": f"{kind}:{key}", "kind": kind, "date": TODAY, "priority": priority,
-         "title": {"id": title_id, "en": title_en}, "tab": tab,
+         "title": title or {"id": title_id, "en": title_en}, "tab": tab,
          "url": f"{SITE}/?tab={tab}" + (f"&q={urllib.parse.quote(url_q)}" if url_q else "")}
     if extra:
         e.update(extra)
@@ -70,7 +97,7 @@ def collect():
     n = load('news.json', {}) or {}
     for it in n.get('items', []):
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
-                                      '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2,
+                                      '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2, title=full(it.get('title'), '📰 '),
                                       extra={"date": it.get('date') or TODAY, "country": it.get('country'),
                                              "source": next((l['url'] for l in it.get('links', []) if l.get('official')), None),
                                              "category": it.get('category')})
@@ -85,7 +112,8 @@ def collect():
             'scholarship', key,
             ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
             ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
-            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1, extra={"country": it.get('country'), "provider": it.get('provider'), "source": it.get('url')})
+            'scholarships', url_q=name, priority=2 if st == 'Buka' else 1,
+            title={l: (SCH_OPEN if st == 'Buka' else SCH_NEW)[l] + (name if l == 'id' else en) + (f' (deadline {dl})' if dl else '') for l in L15}, extra={"country": it.get('country'), "provider": it.get('provider'), "source": it.get('url')})
     b = load('banners.json', {}) or {}
     for it in b.get('items', []):
         if not it.get('approved'):
@@ -100,6 +128,7 @@ def collect():
         pri = 3 if it.get('paid') else (2 if is_promo else 1)
         out[kind][it['id']] = entry(kind, it['id'], ('🔥 Promo: ' if is_promo else '⭐ ') + hl_id,
                                     ('🔥 Promo: ' if is_promo else '⭐ ') + hl_en, 'programs',
+                                    title=full(it.get('headline'), '🔥 Promo: ' if is_promo else '⭐ '),
                                     url_q=(it.get('match') or {}).get('q') or prov, priority=pri,
                                     extra={"paid": bool(it.get('paid')), "provider": prov,
                                            "country": (it.get('match') or {}).get('country') or ('AU' if it.get('cricos') else None),
@@ -140,13 +169,16 @@ def main():
                 where_en = ', '.join(places)
                 if kind == 'jobs':
                     e = entry('jobs', TODAY + '-' + str(len(fresh)), f'💼 {len(fresh)} lowongan kerja baru' + (f' ({where_en})' if where_en else ''),
-                              f'💼 {len(fresh)} new part-time/student jobs' + (f' ({where_en})' if where_en else ''), 'jobs')
+                              f'💼 {len(fresh)} new part-time/student jobs' + (f' ({where_en})' if where_en else ''), 'jobs',
+                              title=per(AGG['jobs'], n=len(fresh), w=(f' ({where_en})' if where_en else '')))
                 elif kind == 'airport':
                     e = entry('airport', TODAY + '-' + str(len(fresh)), f'✈️ {len(fresh)} layanan jemput bandara baru' + (f' ({where_en})' if where_en else ''),
-                              f'✈️ {len(fresh)} new airport pickup services' + (f' ({where_en})' if where_en else ''), 'airport')
+                              f'✈️ {len(fresh)} new airport pickup services' + (f' ({where_en})' if where_en else ''), 'airport',
+                              title=per(AGG['airport'], n=len(fresh), w=(f' ({where_en})' if where_en else '')))
                 else:
                     e = entry('accommodation', TODAY + '-' + str(len(fresh)), f'🏠 {len(fresh)} info akomodasi baru' + (f' ({where_en})' if where_en else ''),
-                              f'🏠 {len(fresh)} new accommodation listings' + (f' ({where_en})' if where_en else ''), 'accommodation')
+                              f'🏠 {len(fresh)} new accommodation listings' + (f' ({where_en})' if where_en else ''), 'accommodation',
+                              title=per(AGG['accommodation'], n=len(fresh), w=(f' ({where_en})' if where_en else '')))
                 new.append(e)
             else:
                 new.extend(d[k] for k in fresh)
@@ -163,20 +195,16 @@ def main():
             for k in ('country', 'provider'):
                 if flat[i['id']].get(k) and not i.get(k):
                     i[k] = flat[i['id']][k]
+    for i in items:
+        if i['id'] in flat and len(flat[i['id']].get('title', {})) > len(i.get('title', {})):
+            i['title'] = flat[i['id']]['title']
     existing = {i['id'] for i in items}
     new = [e for e in new if e['id'] not in existing]
     items = sorted(new + items, key=lambda e: (e['date'], e.get('priority', 1)), reverse=True)[:MAX_ITEMS]
     feed = {
         "version": NOW.strftime('%Y-%m-%dT%H:%M:%S+07:00'),
         "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
-        "kinds": {
-            "news": {"id": "Berita imigrasi", "en": "Immigration news"},
-            "scholarship": {"id": "Beasiswa", "en": "Scholarships"},
-            "promo": {"id": "Promo", "en": "Promotions"},
-            "sponsored": {"id": "Sekolah & layanan unggulan", "en": "Featured schools & services"},
-            "jobs": {"id": "Lowongan kerja", "en": "Jobs"},
-            "accommodation": {"id": "Akomodasi", "en": "Accommodation"},
-            "airport": {"id": "Jemput bandara", "en": "Airport pickup"}},
+        "kinds": KINDS,
         "items": items}
     if new:
         state['pending'] = (state.get('pending', []) + [e['id'] for e in new])[-50:]

@@ -367,6 +367,33 @@ def write_rss(items):
         if os.path.exists(base_file[:-4] + ' Reel.mp4'):
             sz = os.path.getsize(base_file[:-4] + ' Reel.mp4')
             out_reel.append(head + f"<enclosure url=\"{x(img[:-4] + '%20Reel.mp4')}\" type=\"video/mp4\" length=\"{sz}\"/></item>")
+    # video milik Talented (data/social-video-library.json): Reels bergiliran, caption bergantian (pemilik 21/11/2026)
+    vl = load('social-video-library.json', {}) or {}
+    for v in vl.get('items', []):
+        fp = os.path.join(ROOT, v.get('file', ''))
+        if not os.path.exists(fp) or not v.get('captions'):
+            continue
+        try:
+            st = datetime.date.fromisoformat(v.get('start', TODAY))
+        except Exception:
+            continue
+        every = max(3, int(v.get('every_days', 14)))
+        for back in range(0, 3):
+            dd = NOW.date() - datetime.timedelta(days=back)
+            k = (dd - st).days
+            if k < 0 or k % every:
+                continue
+            capv = v['captions'][(k // every) % len(v['captions'])]
+            desc = capv + '\n\n' + CLOSING + '\n\n' + v.get('hashtags', '#StudyAbroad #TalentedEducation')
+            if SECRET.search(desc):
+                print('BLOCKED (business secret in text):', v['id']); continue
+            vurl = 'https://info.talentededucationgroup.com/' + _up.quote(v['file'])
+            link = v.get('url', SITE + '/') + ('&' if '?' in v.get('url', '') else '?') + 'utm_source=social&utm_medium=autopost&utm_campaign=video'
+            d = datetime.datetime.combine(dd, datetime.time(10, 0), tzinfo=WIB)
+            out_reel.append(f"<item><title>{x(v['title'])}</title><link>{x(link)}</link><guid isPermaLink=\"false\">video:{x(v['id'])}:{dd.isoformat()}</guid>"
+                            f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>marketing</category>"
+                            f"<description>{x(desc)}</description>"
+                            f"<enclosure url=\"{x(vurl)}\" type=\"video/mp4\" length=\"{os.path.getsize(fp)}\"/></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
            '<title>Talented Education Group - Yang baru</title>'
            f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'

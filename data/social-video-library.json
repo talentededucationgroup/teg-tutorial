@@ -1,0 +1,19 @@
+{
+ "note": "Video milik Talented untuk Reels/TikTok/YouTube Shorts otomatis. Diposting ulang bergiliran setiap 'every_days' hari dengan caption bergantian. Video dari pemilik = sudah disetujui (langsung tayang). Tambah video: taruh mp4 9:16 di social/videos/ lalu tambahkan item di sini.",
+ "items": [
+  {
+   "id": "office-tour",
+   "file": "social/videos/office-tour-talented.mp4",
+   "title": "Intip kantor Talented Education Group",
+   "start": "2026-11-21",
+   "every_days": 14,
+   "url": "https://pricelist.talentededucationgroup.com/",
+   "captions": [
+    "Intip kantor Talented Education Group 👀 Ruang belajar ber-komputer untuk les IELTS/PTE, Free Mock Test, dan konsultasi kuliah ke luar negeri - gratis.\n\nMau kuliah di Australia, NZ, Kanada, Inggris atau Asia? Cek biaya kuliah dalam 1 menit di app Talented, lalu konsultasi gratis bareng tim kami.",
+    "Ini tempat persiapan kuliah luar negerimu dimulai ✈️ Ruang belajar Talented dilengkapi komputer untuk latihan PTE, IELTS, HSK, TOPIK & JLPT, plus Free Mock Test.\n\nDatang langsung atau konsultasi online - gratis.",
+    "Office tour Talented Education Group 🏢 Agen pendidikan terverifikasi (PIER/QEAC) untuk kuliah di Australia, New Zealand & negara lain.\n\nCek syarat, biaya & beasiswa bareng konsultan kami - gratis. Scan QR di video atau klik link di bio."
+   ],
+   "hashtags": "#OfficeTour #KuliahLuarNegeri #StudyAbroad #LesIELTS #LesPTE #TalentedEducation"
+  }
+ ]
+}

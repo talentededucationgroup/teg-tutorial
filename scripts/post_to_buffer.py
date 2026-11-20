@@ -221,7 +221,10 @@ def main():
             if i['guid'].startswith('news:') and (NOW - i['pub']).days > int(cfg.get('news_max_age_days', 1)):
                 continue
             cfg['_draft'] = True
-            if auto:
+            instant = any(i['guid'].startswith(x) for x in cfg.get('instant_prefixes', []))
+            if auto and instant and (reviews['items'].get(i['guid']) or {}).get('verdict') not in ('REVISI', 'TOLAK'):
+                cfg['_draft'] = False  # official scholarship/immigration news: post at once (owner 20/11/2026), QA checks afterwards
+            elif auto:
                 rv = reviews['items'].get(i['guid'])
                 if not rv and kind == 'feed' and OAI:
                     try:

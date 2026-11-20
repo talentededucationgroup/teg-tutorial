@@ -814,9 +814,10 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     photo, credit = get_photo(country or 'ANY', key, provider) if provider else (None, None)
     if not (credit and 'Wikimedia' not in credit):
         photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
-        if not (credit and 'Wikimedia' not in credit) and kind == 'news':
-            # topic photo (curated CC0/PD/CC BY, no lettering) - owner 20/11/2026; fallback: typography card
-            photo, credit = get_photo(country or 'ANY', key, 'Topik ' + ((spec or {}).get('topic') or 'visa'))
+        if not (credit and 'Wikimedia' not in credit) and kind in ('news', 'scholarship', 'promo'):
+            # topic photo (curated CC0/PD/CC BY, no lettering) - owner 20/11/2026; fallback: typography card.
+            # Scholarships/promos must post on the day they open (owner 20/11/2026), so they never wait for a provider photo.
+            photo, credit = get_photo(country or 'ANY', key, 'Topik ' + ((spec or {}).get('topic') or {'news': 'visa', 'scholarship': 'school', 'promo': 'fees'}[kind]))
             if photo is None:
                 photo, credit, lay = None, None, 'T'
             elif lay in ('A', 'D', 'G', 'F'):

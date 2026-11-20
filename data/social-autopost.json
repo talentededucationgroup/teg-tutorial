@@ -6,7 +6,7 @@
  "reels": true,
  "services": [],
  "services_note": "Kosong = semua channel yang tersambung di Buffer. Isi mis. [\"instagram\",\"facebook\",\"twitter\",\"google\"] untuk membatasi.",
- "max_per_run": 6,
+ "max_per_run": 8,
  "max_age_days": 10,
  "news_max_age_days": 1,
  "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi).",
@@ -19,5 +19,10 @@
   "facebook": 6
  },
  "daily_caps_note": "Batas kiriman per channel per hari (YouTube dibatasi Buffer: paket gratis 2/hari, berbayar 100/hari dengan email terverifikasi, 5/hari bila belum). Sisa dikirim besok.",
- "review_note": "Sejak 20/11/2026 reviewer = Claude (tugas terjadwal 'QA postingan sosmed', 3x sehari)."
+ "review_note": "Sejak 20/11/2026 reviewer = Claude (tugas terjadwal 'QA postingan sosmed', 3x sehari).",
+ "instant_prefixes": [
+  "news:",
+  "scholarship:"
+ ],
+ "instant_note": "Beasiswa & berita imigrasi resmi langsung masuk antrean Buffer tanpa menunggu QA (keputusan pemilik 20/11/2026: wajib jadi yang pertama posting). Data sumbernya sudah diverifikasi dari situs resmi oleh tugas harian; QA Claude tetap memeriksa sesudahnya dan putusan REVISI/TOLAK menghentikan kiriman berikutnya."
 }

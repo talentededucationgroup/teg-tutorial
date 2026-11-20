@@ -1,17 +1,8 @@
 {
 "note": "Postingan yang sudah dikirim ke Buffer (guid|kind|channel). Direset 20/11/2026: semua kiriman sebelumnya masuk Drafts (tanpa OPENAI_API_KEY); dikirim ulang ke antrean setelah lolos QA Claude.",
 "sent": [],
-"last_run": "2026-11-20T11:19:13.668203+00:00",
-"last_errors": [
-"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/post:2026-w47-ais: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new).",
-"feed/google/site:2026-11-20:site-02: Invalid post: Google Business Profiles posts require a type (event, offer, or whats_new)."
-],
+"last_run": "2026-11-20T13:37:37.199569+00:00",
+"last_errors": [],
 "daily": {
 "2026-11-20": {
 "6aff3328ece6dfde5f221865": 2,
@@ -21,5 +12,9 @@
 "6aff3a05ece6dfde5f22802a": 2,
 "6aff31ffece6dfde5f220b47": 2
 }
-}
+},
+"waiting_review": [
+"post:2026-w47-ais",
+"site:2026-11-20:site-02"
+]
 }

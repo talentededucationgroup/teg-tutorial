@@ -1,0 +1,22 @@
+name: Hapus Draft lama Buffer (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'inspect atau delete'
+        default: 'inspect'
+permissions:
+  contents: read
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          MODE: ${{ github.event.inputs.mode }}
+        run: python scripts/buffer_drafts_cleanup.py

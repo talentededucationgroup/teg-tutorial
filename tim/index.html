@@ -5,59 +5,89 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data: blob:; media-src 'self' https://info.talentededucationgroup.com blob:; manifest-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'">
-<title>Kit Konten Tim Talented</title>
+<title>Kit Tim</title>
 <link rel="manifest" href="/tim/manifest.webmanifest">
-<meta name="theme-color" content="#14213d">
-<link rel="apple-touch-icon" href="/tim/icon-192.png">
-<style>
-:root{--bg:#f6f4ef;--card:#fff;--ink:#14213d;--muted:#5b6475;--line:#e3ded3;--gold:#d4a017;--green:#1f7a4d;--new:#c0392b}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151c;--card:#1a202b;--ink:#eef1f6;--muted:#a3adbd;--line:#2b3442}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-header{padding:20px 16px 8px;max-width:1100px;margin:0 auto}h1{margin:0 0 4px;font-size:1.4rem}header p{margin:0;color:var(--muted);font-size:.92rem}
-.how{max-width:1100px;margin:12px auto;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-size:.9rem}
+<meta name="theme-color" content="#7c28e6">
+<link rel="apple-touch-icon" href="/tim/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/tim/favicon.png">
+<meta name="apple-mobile-web-app-title" content="Kit Tim">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<style>:root{--bg:#f4f1fb;--card:#fff;--ink:#1b1430;--muted:#665f7a;--line:#e6e0f2;--brand1:#ff5e3a;--brand2:#7c28e6;--gold:#ffce40;--green:#18a058;--new:#ff3b5c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#120d1f;--card:#1d1630;--ink:#f1edfa;--muted:#a79fbd;--line:#2f2645}}
+:root[data-theme="dark"]{--bg:#120d1f;--card:#1d1630;--ink:#f1edfa;--muted:#a79fbd;--line:#2f2645}
+*{box-sizing:border-box}html{-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+.appbar{position:sticky;top:0;z-index:5;background:linear-gradient(120deg,var(--brand1),var(--brand2));color:#fff;padding:calc(10px + env(safe-area-inset-top)) 16px 14px;box-shadow:0 6px 20px rgba(76,24,150,.25);border-radius:0 0 22px 22px}
+.appbar .row{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.appbar img{width:44px;height:44px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.appbar h1{margin:0;font-size:1.15rem;line-height:1.2}.appbar small{display:block;opacity:.9;font-size:.78rem;font-weight:500}
+.appbar .sp{flex:1}
+.iconbtn{min-height:40px;min-width:40px;border-radius:12px;border:0;background:rgba(255,255,255,.18);color:#fff;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;position:relative;padding:0 10px}
+.iconbtn .dot{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#1b1430;border-radius:999px;font-size:.7rem;font-weight:800;padding:1px 6px}
+.stats{max-width:1100px;margin:10px auto 0;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.chip{flex:0 0 auto;background:rgba(255,255,255,.18);border-radius:999px;padding:4px 12px;font-size:.8rem;font-weight:600}
+.filters{max-width:1100px;margin:14px auto 0;padding:0 16px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.filters button{flex:0 0 auto;min-height:36px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:0 14px;font-weight:600;font-size:.85rem;cursor:pointer}
+.filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+details.how{max-width:1100px;margin:12px auto 0;padding:0 16px}
+details.how>div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 16px;font-size:.9rem}
+details.how summary{cursor:pointer;font-weight:700;color:var(--brand2);padding:6px 0;list-style:none}details.how summary::-webkit-details-marker{display:none}
 .how ol{margin:6px 0 0;padding-left:20px}
-main{max-width:1100px;margin:0 auto;padding:8px 16px 40px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
-.card img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;background:#ddd}
-.body{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
-.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
-.badge{background:var(--new);color:#fff;border-radius:999px;padding:1px 8px;font-weight:700}
-.tag{border:1px solid var(--line);border-radius:999px;padding:1px 8px}
-h2{font-size:1rem;margin:0}
-textarea{width:100%;min-height:120px;border:1px solid var(--line);border-radius:8px;padding:8px;font:inherit;font-size:.85rem;background:transparent;color:var(--ink);resize:vertical}
+main{max-width:1100px;margin:0 auto;padding:12px 16px 24px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 14px rgba(60,30,120,.07)}
+.card .pic{position:relative}.card img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;background:#ddd}
+.card .pic .badge{position:absolute;top:10px;left:10px}
+.card .pic .ok{position:absolute;top:10px;right:10px;background:var(--green);color:#fff;border-radius:999px;padding:2px 10px;font-size:.75rem;font-weight:700}
+.body{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+.badge{background:var(--new);color:#fff;border-radius:999px;padding:2px 10px;font-weight:800;font-size:.75rem;box-shadow:0 2px 6px rgba(255,59,92,.4)}
+.tag{background:color-mix(in srgb,var(--brand2) 12%,transparent);color:var(--brand2);border-radius:999px;padding:1px 10px;font-weight:600}
+h2{font-size:1.02rem;margin:0;line-height:1.35}
+details.cap summary{cursor:pointer;font-size:.85rem;color:var(--muted);font-weight:600}
+textarea{width:100%;min-height:120px;margin-top:6px;border:1px solid var(--line);border-radius:12px;padding:10px;font:inherit;font-size:.85rem;background:transparent;color:var(--ink);resize:vertical}
 .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-button,a.btn{min-height:44px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:.88rem;font-weight:600;cursor:pointer;text-decoration:none;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px 8px}
+button,a.btn{min-height:46px;border-radius:14px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:.86rem;font-weight:700;cursor:pointer;text-decoration:none;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px 8px;gap:6px}
+button:active,a.btn:active{transform:scale(.97)}
 button.primary{background:var(--green);border-color:var(--green);color:#fff;grid-column:1/-1}
-.done{opacity:.55}
-.flow{border:1px dashed var(--green);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px}
-.flow p{margin:0;font-size:.82rem;color:var(--muted)}
-.steps{display:flex;gap:4px;flex-wrap:wrap}
-.step{font-size:.75rem;border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+.done .pic img{filter:saturate(.5);opacity:.8}
+.flow{background:linear-gradient(120deg,color-mix(in srgb,var(--brand1) 10%,transparent),color-mix(in srgb,var(--brand2) 10%,transparent));border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:8px}
+.flow p{margin:0;font-size:.8rem;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+.step{font-size:.7rem;text-align:center;border-radius:10px;padding:6px 2px;background:var(--card);border:1px solid var(--line);font-weight:600}
 .step.ok{background:var(--green);border-color:var(--green);color:#fff}
-.step.now{border-color:var(--gold);font-weight:700}
-button.next{background:var(--gold);border-color:var(--gold);color:#14213d;grid-column:1/-1}
-.bell{display:flex;gap:8px;flex-wrap:wrap;align-items:center;max-width:1100px;margin:8px auto 0;padding:0 16px}.bell button{min-height:40px;padding:6px 12px}.pill{background:var(--new);color:#fff;border-radius:999px;padding:2px 10px;font-weight:700;font-size:.85rem}
-#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#14213d;color:#fff;padding:10px 16px;border-radius:10px;font-size:.9rem;display:none}
+.step.now{border:2px solid var(--brand2);color:var(--brand2)}
+button.next{background:linear-gradient(120deg,var(--brand1),var(--brand2));border:0;color:#fff;grid-column:1/-1;box-shadow:0 4px 12px rgba(124,40,230,.3)}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);border-top:1px solid var(--line);display:flex;justify-content:space-around;padding:6px 8px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.06)}
+.tabbar button{border:0;min-height:52px;flex:1;flex-direction:column;gap:0;font-size:.7rem;color:var(--muted);border-radius:12px}
+.tabbar button b{font-size:1.25rem;line-height:1}
+.tabbar button.on{color:var(--brand2);background:color-mix(in srgb,var(--brand2) 10%,transparent)}
+#toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%);background:#1b1430;color:#fff;padding:10px 16px;border-radius:14px;font-size:.9rem;display:none;z-index:9;max-width:90vw;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
-footer{text-align:center;color:var(--muted);font-size:.8rem;padding:0 16px 30px}
+footer{text-align:center;color:var(--muted);font-size:.78rem;padding:0 16px 20px}
 </style>
 </head>
 <body>
-<header>
-<h1>📲 Kit Konten Tim Talented</h1>
-<p>Poster, Story, Reel &amp; caption terbaru dari Talented, siap diposting ke WA Status, Instagram, Facebook &amp; TikTok. Halaman ini diperbarui otomatis.</p>
+<header class="appbar"><div class="row">
+<img src="/tim/icon-192.png" alt="" width="44" height="44">
+<div><h1>Kit Konten Tim</h1><small>Talented Education Group · siap posting</small></div>
+<span class="sp"></span>
+<button id="snd" class="iconbtn" type="button" aria-label="Suara notifikasi">🔕</button>
+<button id="reload" class="iconbtn" type="button" aria-label="Muat ulang">⟳</button>
+</div>
+<div class="stats"><span class="chip" id="unread" hidden></span><span class="chip" id="cnt"></span><span class="chip" id="last"></span></div>
 </header>
-<div class="bell"><button id="snd" type="button">🔔 Aktifkan suara notifikasi</button><span id="unread" class="pill" hidden></span><span id="last" style="color:var(--muted);font-size:.8rem"></span></div>
-<section class="how"><strong>Cara pakai (dari HP):</strong>
-<ol>
+<nav class="filters" id="filters" aria-label="Saring"></nav>
+<details class="how" id="howbox"><summary>❓ Cara pakai (ketuk untuk buka)</summary><div><ol>
 <li><b>Cara tercepat:</b> tekan tombol kuning <b>▶ Posting berurutan</b>. Tombol akan memandu: WA Status → IG Story → IG/FB Post → TikTok. Setiap langkah: pilih aplikasinya di menu bagikan, posting, lalu kembali ke halaman ini dan tekan langkah berikutnya. Caption selalu tersalin otomatis.</li>
 <li>Atau satu per satu: tekan <b>📤 Bagikan poster + caption</b> → pilih <b>WhatsApp</b> → <b>Status Saya</b> (atau Instagram/Facebook). Caption ikut tersalin; bila tidak muncul, tekan tempel (paste).</li>
 <li>Untuk Story/Reel pakai tombol <b>Story 9:16</b> atau <b>Video Reel</b>.</li>
-<li>Pasang halaman ini sebagai aplikasi (menu browser → <b>Tambahkan ke layar utama</b>) dan tekan <b>🔔 Aktifkan suara notifikasi</b>. Selama aplikasi terbuka, halaman mengecek postingan baru tiap 5 menit dan berbunyi bila ada yang baru. Angka merah = postingan yang belum Anda bagikan.</li>
+<li>Pasang sebagai aplikasi: di Chrome menu ⋮ → <b>Instal aplikasi</b> (bukan "Tambahkan pintasan"), lalu tekan ikon <b>🔕</b> di kanan atas untuk menyalakan suara. Selama aplikasi terbuka, halaman mengecek postingan baru tiap 5 menit dan berbunyi bila ada yang baru. Angka merah = postingan yang belum Anda bagikan.</li>
 <li>Postingan yang sudah Anda bagikan ditandai ✓ di HP Anda. <b>BARU</b> = terbit dalam 24 jam terakhir.</li>
-</ol></section>
+</ol></div></details>
 <main id="list"><p class="empty">Memuat postingan…</p></main>
 <footer>Talented Education Group | PT. Pilar Pendidikan Internasional · Konten resmi, jangan diubah angka/tanggalnya. Pertanyaan siswa arahkan ke https://linktr.ee/talentededucationgroup</footer>
+<nav class="tabbar" aria-label="Menu"><button class="on" data-tab="new"><b>🆕</b>Belum dibagikan</button><button data-tab="all"><b>🗂️</b>Semua</button><button data-tab="done"><b>✅</b>Sudah</button></nav>
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
@@ -80,7 +110,7 @@ async function share(post,kind){
   toast('Caption tersalin. Browser ini belum bisa berbagi file: poster dibuka, simpan lalu posting manual.');
   window.open(url,'_blank','noopener');store.add(post.id);return true;
 }
-let posts=[];
+let posts=[];let tab='new',cat='';
 const FLOW=[{k:'wa',label:'WA Status',kind:'image',hint:'Pilih WhatsApp → Status Saya'},
  {k:'igs',label:'IG Story',kind:'story',hint:'Pilih Instagram → Story (gambar 9:16)'},
  {k:'feed',label:'IG/FB Post',kind:'image',hint:'Pilih Instagram (Feed) atau Facebook, tempel caption'},
@@ -91,13 +121,17 @@ const flowOf=p=>FLOW.filter(f=>f.kind!=='story'||p.story).filter(f=>f.kind!=='re
 function render(){
   const done=store.get(),now=Date.now();
   const el=$('#list');
-  if(!posts.length){el.innerHTML='<p class="empty">Belum ada postingan. Cek lagi nanti.</p>';return}
-  el.innerHTML=posts.map((p,i)=>`<article class="card ${done.includes(p.id)?'done':''}">
-    <img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy">
+  const cats=[...new Set(posts.map(p=>p.kindText))];
+  $('#filters').innerHTML=['',...cats].map(c=>`<button data-cat="${esc(c)}" class="${c===cat?'on':''}">${c?esc(c):'Semua kategori'}</button>`).join('');
+  const view=posts.map((p,i)=>[p,i]).filter(([p])=>(tab==='all'||(tab==='done'?done.includes(p.id):!done.includes(p.id)))&&(!cat||p.kindText===cat));
+  $('#cnt').textContent=posts.length+' postingan';
+  if(!view.length){el.innerHTML='<p class="empty">'+(posts.length?(tab==='new'?'🎉 Semua postingan sudah Anda bagikan.':'Tidak ada postingan di sini.'):'Belum ada postingan. Cek lagi nanti.')+'</p>';return}
+  el.innerHTML=view.map(([p,i])=>`<article class="card ${done.includes(p.id)?'done':''}">
+    <div class="pic"><img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy">${now-p.time<864e5?'<span class="badge">BARU</span>':''}${done.includes(p.id)?'<span class="ok">✓ Dibagikan</span>':''}</div>
     <div class="body">
-      <div class="meta">${now-p.time<864e5?'<span class="badge">BARU</span>':''}<span>${esc(p.dateText)}</span><span class="tag">${esc(p.kindText)}</span>${done.includes(p.id)?'<span>✓ sudah dibagikan</span>':''}</div>
+      <div class="meta"><span class="tag">${esc(p.kindText)}</span><span>${esc(p.dateText)}</span></div>
       <h2>${esc(p.title)}</h2>
-      <textarea readonly aria-label="Caption">${esc(p.caption)}</textarea>
+      <details class="cap"><summary>📝 Lihat caption</summary><textarea readonly aria-label="Caption">${esc(p.caption)}</textarea></details>
       ${(()=>{const fl=flowOf(p),dn=plat.get(p.id),nx=fl.find(f=>!dn.includes(f.k));return `<div class="flow"><div class="steps">${fl.map(f=>`<span class="step ${dn.includes(f.k)?'ok':(nx&&nx.k===f.k?'now':'')}">${dn.includes(f.k)?'✓ ':''}${f.label}</span>`).join('')}</div>${nx?`<button class="next" data-i="${i}" data-k="flow">▶ Posting berurutan: ${nx.label}</button><p>${nx.hint}</p>`:'<p>✓ Selesai di semua platform. Terima kasih!</p>'}</div>`})()}
       <div class="btns">
         <button class="primary" data-i="${i}" data-k="post">📤 Bagikan poster + caption</button>
@@ -109,6 +143,9 @@ function render(){
     </div></article>`).join('');
 }
 document.addEventListener('click',async e=>{
+  const t=e.target.closest('[data-tab]');if(t){tab=t.dataset.tab;document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('on',x===t));render();scrollTo({top:0,behavior:'smooth'});return}
+  const c=e.target.closest('[data-cat]');if(c){cat=c.dataset.cat;render();return}
+  if(e.target.closest('#reload')){toast('Memeriksa postingan baru…');check();return}
   const b=e.target.closest('button[data-i]');if(!b)return;
   const p=posts[+b.dataset.i],k=b.dataset.k;
   if(k==='copy'){toast(await copy(p.caption)?'Caption tersalin':'Salin manual dari kotak caption');return}
@@ -145,12 +182,12 @@ async function load(){
 const LS={g(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},s(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const ding=new Audio('/tim/ding.mp3');
 function soundOn(){return LS.g('teg-tim-sound',false)}
-function updSnd(){$('#snd').textContent=soundOn()?'🔔 Suara notifikasi aktif (ketuk untuk matikan)':'🔕 Aktifkan suara notifikasi'}
+function updSnd(){$('#snd').textContent=soundOn()?'🔔':'🔕';$('#snd').title=soundOn()?'Suara notifikasi aktif (ketuk untuk matikan)':'Aktifkan suara notifikasi'}
 $('#snd').addEventListener('click',()=>{const on=!soundOn();LS.s('teg-tim-sound',on);updSnd();if(on){ding.currentTime=0;ding.play().catch(()=>{});toast('Suara aktif. Aplikasi akan berbunyi bila ada postingan baru.')}});
 function unreadCount(){const done=store.get(),wk=Date.now()-7*864e5;return posts.filter(p=>p.time>=wk&&!done.includes(p.id)).length}
-function badge(){const n=unreadCount();const u=$('#unread');u.hidden=!n;u.textContent=n+' belum dibagikan';document.title=(n?'('+n+') ':'')+'Kit Konten Tim Talented';
+function badge(){const n=unreadCount();const u=$('#unread');u.hidden=!n;u.textContent='🔴 '+n+' belum dibagikan';document.title=(n?'('+n+') ':'')+'Kit Konten Tim Talented';
   try{n?navigator.setAppBadge&&navigator.setAppBadge(n):navigator.clearAppBadge&&navigator.clearAppBadge()}catch(e){}
-  $('#last').textContent='Dicek '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'})}
+  $('#last').textContent='⏱ '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'})}
 async function check(first){
   await load();
   const seen=LS.g('teg-tim-seen',null),ids=posts.map(p=>p.id);

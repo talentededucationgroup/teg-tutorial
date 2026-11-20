@@ -1,20 +1,20 @@
 {
  "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
- "version": "v5.6",
- "released": "2026-11-20",
+ "version": "v5.7",
+ "released": "2026-11-21",
  "built_from": "Screenshot website v148 di Cloudflare (20/11/2026), Excel R115",
- "note": "v5.6: bab baru \"Info & promo terbaru\" (carousel poster, Lihat semua, tombol Bagikan ke WhatsApp & Salin link di setiap tab), \"Buka poster\" (lightbox: ringkasan, Putar video, Sumber resmi, Bagikan; filter kategori & negara) dan \"Jemput Bandara\" (tips aman, filter negara/kota, penyedia pilihan Talented). | v5.5: bab Menu utama (tab baru Free Mock Test & Berita Imigrasi), bab Sponsored dengan kotak \"Promosikan institusi Anda di sini\" + \"Lihat cara kerjanya\" (website v119-v122), bab Kegiatan (screenshot baru), bab baru \"Free Mock Test\" (pilih tes, filter bahasa, tombol Mulai & WhatsApp) dan \"Berita Imigrasi\" (berita resmi visa pelajar, usulan & konsultasi, link sumber resmi, Baca blog Talented). | v5.4: bab baru \"RPL (Pengakuan Pengalaman Kerja)\" (tab RPL website v118: alur 5 langkah, checklist dokumen, filter bidang & cari kode, harga lewat konsultan; hasil tidak dijamin, bukan jalur visa pelajar). | v5.3: bab Lowongan Kerja & Akomodasi - link \"Bagikan ke WhatsApp\" langsung membuka tab tujuan (website v116). | v5.2: bab Sponsored - tombol \"Pasang iklan Sponsored untuk institusi Anda\" (pesan & bayar online, tayang otomatis setelah pembayaran & pengecekan isi); bab Lowongan Kerja & Akomodasi - tombol \"Bagikan ke WhatsApp\" (website v115). | v5.1: bab Sponsored tanpa Special discount Talented di teks iklan (keputusan pemilik 17/11/2026). | v5.0: bab \"Promo sekolah (Sponsored)\" - carousel 19 slide dengan logo resmi sekolah + tombol \"Ajukan paket promosi untuk institusi Anda\" (website v110). | v4.9: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide dengan logo resmi sekolah; bab OSHC - tombol \"Bagikan ke WhatsApp\" & \"Bagikan link\" di perbandingan cover (website v105). | v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
+ "note": "v5.7: bab baru \"Notifikasi & suara\" (Langkah 17: lonceng → Aktifkan notifikasi → Izinkan; tombol Bunyi aktif hanya untuk bunyi di website; pengaturan suara notifikasi di Android, iPhone, Windows, Mac; cara membuka blokir lewat ikon gembok). | v5.6: bab baru \"Info & promo terbaru\" (carousel poster, Lihat semua, tombol Bagikan ke WhatsApp & Salin link di setiap tab), \"Buka poster\" (lightbox: ringkasan, Putar video, Sumber resmi, Bagikan; filter kategori & negara) dan \"Jemput Bandara\" (tips aman, filter negara/kota, penyedia pilihan Talented). | v5.5: bab Menu utama (tab baru Free Mock Test & Berita Imigrasi), bab Sponsored dengan kotak \"Promosikan institusi Anda di sini\" + \"Lihat cara kerjanya\" (website v119-v122), bab Kegiatan (screenshot baru), bab baru \"Free Mock Test\" (pilih tes, filter bahasa, tombol Mulai & WhatsApp) dan \"Berita Imigrasi\" (berita resmi visa pelajar, usulan & konsultasi, link sumber resmi, Baca blog Talented). | v5.4: bab baru \"RPL (Pengakuan Pengalaman Kerja)\" (tab RPL website v118: alur 5 langkah, checklist dokumen, filter bidang & cari kode, harga lewat konsultan; hasil tidak dijamin, bukan jalur visa pelajar). | v5.3: bab Lowongan Kerja & Akomodasi - link \"Bagikan ke WhatsApp\" langsung membuka tab tujuan (website v116). | v5.2: bab Sponsored - tombol \"Pasang iklan Sponsored untuk institusi Anda\" (pesan & bayar online, tayang otomatis setelah pembayaran & pengecekan isi); bab Lowongan Kerja & Akomodasi - tombol \"Bagikan ke WhatsApp\" (website v115). | v5.1: bab Sponsored tanpa Special discount Talented di teks iklan (keputusan pemilik 17/11/2026). | v5.0: bab \"Promo sekolah (Sponsored)\" - carousel 19 slide dengan logo resmi sekolah + tombol \"Ajukan paket promosi untuk institusi Anda\" (website v110). | v4.9: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide dengan logo resmi sekolah; bab OSHC - tombol \"Bagikan ke WhatsApp\" & \"Bagikan link\" di perbandingan cover (website v105). | v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
  "language": {
   "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
   "subtitles": "en (burned-in) + subtitle-en.srt"
  },
- "duration_seconds": 795.8,
+ "duration_seconds": 858.96,
  "resolution": "1920x1080",
  "files": {
   "tutorial.mp4": {
    "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-   "bytes": 16080319,
-   "sha256": "fd6679bec66189c0c41a2fb844edd0608a631fc56cfc4b6f559e0b606c8fbcc4"
+   "bytes": 20185103,
+   "sha256": "70b954a69a581818b9a188a4f884b803d2b9baf618a2052980ab8c200e43d736"
   },
   "poster.jpg": {
    "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -23,8 +23,8 @@
   },
   "subtitle-en.srt": {
    "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-   "bytes": 7326,
-   "sha256": "7826f343010dab6a8e2e1eb320ecdc7e50a2dcc818bb2615b6226e99bd6e2324"
+   "bytes": 8065,
+   "sha256": "a33dc74f48fa6d750c2642d24ee8366ca5a526146cac433fe43bc80e9dbf53f5"
   }
  },
  "chapters": [
@@ -293,7 +293,13 @@
    "title_id": "Browser: RPL (Pengakuan Pengalaman Kerja)"
   },
   {
-   "start": "12:50",
+   "start": "12:51",
+   "title": "Browser: Notifikasi & suara",
+   "title_en": "Browser: Notifications & sound",
+   "title_id": "Browser: Notifikasi & suara"
+  },
+  {
+   "start": "13:54",
    "title": "Konsultasi gratis",
    "title_en": "Free consultation",
    "title_id": "Konsultasi gratis"

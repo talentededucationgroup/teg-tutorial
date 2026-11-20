@@ -175,5 +175,25 @@ Our offices in Sydney, Pontianak and Singkawang, and the Student Information For
 RPL: work experience assessed by a registered RTO for an Australian qualification. Results are not guaranteed; not a student visa pathway.
 
 45
-00:12:50,900 --> 00:13:15,290
+00:12:51,200 --> 00:13:00,800
+Tap the bell icon at the top right → Enable notifications → Allow. Get scholarship, visa news and promo alerts instantly.
+
+46
+00:13:00,800 --> 00:13:12,000
+The “Sound on” button in this panel only controls sounds inside the website.
+
+47
+00:13:12,100 --> 00:13:25,600
+For notification sounds, use each device’s settings. Android: Settings → Apps → Chrome → Notifications → sound on.
+
+48
+00:13:25,600 --> 00:13:39,100
+iPhone: Share → Add to Home Screen first, then Settings → Notifications → Talented → Sounds on.
+
+49
+00:13:39,100 --> 00:13:53,700
+Windows: Settings → System → Notifications → Chrome → sound on. Blocked? Lock icon → Notifications → Allow, then reload.
+
+50
+00:13:54,000 --> 00:14:18,390
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

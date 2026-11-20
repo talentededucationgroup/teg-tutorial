@@ -7,15 +7,15 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data: blob:; media-src 'self' https://info.talentededucationgroup.com blob:; manifest-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'">
 <title>Kit Tim</title>
 <link rel="manifest" href="/tim/manifest.webmanifest">
-<meta name="theme-color" content="#7c28e6">
-<link rel="apple-touch-icon" href="/tim/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="/tim/favicon.png">
+<meta name="theme-color" content="#102b40">
+<link rel="apple-touch-icon" href="/tim/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" href="/tim/favicon.png?v=2">
 <meta name="apple-mobile-web-app-title" content="Kit Tim">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<style>:root{--bg:#f4f1fb;--card:#fff;--ink:#1b1430;--muted:#665f7a;--line:#e6e0f2;--brand1:#ff5e3a;--brand2:#7c28e6;--gold:#ffce40;--green:#18a058;--new:#ff3b5c}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#120d1f;--card:#1d1630;--ink:#f1edfa;--muted:#a79fbd;--line:#2f2645}}
-:root[data-theme="dark"]{--bg:#120d1f;--card:#1d1630;--ink:#f1edfa;--muted:#a79fbd;--line:#2f2645}
+<style>:root{--bg:#f8f6f0;--card:#fff;--ink:#102b40;--muted:#5a6670;--line:#e4e0d4;--brand1:#0b1f30;--brand2:#102b40;--gold:#c9a13b;--green:#18a058;--new:#ff3b5c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1620;--card:#12222f;--ink:#eef2f5;--muted:#a6b3bd;--line:#24384a}}
+:root[data-theme="dark"]{--bg:#0b1620;--card:#12222f;--ink:#eef2f5;--muted:#a6b3bd;--line:#24384a}
 *{box-sizing:border-box}html{-webkit-tap-highlight-color:transparent}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:calc(84px + env(safe-area-inset-bottom))}
 .appbar{position:sticky;top:0;z-index:5;background:linear-gradient(120deg,var(--brand1),var(--brand2));color:#fff;padding:calc(10px + env(safe-area-inset-top)) 16px 14px;box-shadow:0 6px 20px rgba(76,24,150,.25);border-radius:0 0 22px 22px}
@@ -24,7 +24,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-app
 .appbar h1{margin:0;font-size:1.15rem;line-height:1.2}.appbar small{display:block;opacity:.9;font-size:.78rem;font-weight:500}
 .appbar .sp{flex:1}
 .iconbtn{min-height:40px;min-width:40px;border-radius:12px;border:0;background:rgba(255,255,255,.18);color:#fff;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;position:relative;padding:0 10px}
-.iconbtn .dot{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#1b1430;border-radius:999px;font-size:.7rem;font-weight:800;padding:1px 6px}
+.iconbtn .dot{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#102b40;border-radius:999px;font-size:.7rem;font-weight:800;padding:1px 6px}
 .stats{max-width:1100px;margin:10px auto 0;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
 .chip{flex:0 0 auto;background:rgba(255,255,255,.18);border-radius:999px;padding:4px 12px;font-size:.8rem;font-weight:600}
 .filters{max-width:1100px;margin:14px auto 0;padding:0 16px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
@@ -62,14 +62,14 @@ button.next{background:linear-gradient(120deg,var(--brand1),var(--brand2));borde
 .tabbar button{border:0;min-height:52px;flex:1;flex-direction:column;gap:0;font-size:.7rem;color:var(--muted);border-radius:12px}
 .tabbar button b{font-size:1.25rem;line-height:1}
 .tabbar button.on{color:var(--brand2);background:color-mix(in srgb,var(--brand2) 10%,transparent)}
-#toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%);background:#1b1430;color:#fff;padding:10px 16px;border-radius:14px;font-size:.9rem;display:none;z-index:9;max-width:90vw;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+#toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%);background:#102b40;color:#fff;padding:10px 16px;border-radius:14px;font-size:.9rem;display:none;z-index:9;max-width:90vw;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
 footer{text-align:center;color:var(--muted);font-size:.78rem;padding:0 16px 20px}
 </style>
 </head>
 <body>
 <header class="appbar"><div class="row">
-<img src="/tim/icon-192.png" alt="" width="44" height="44">
+<img src="/tim/icon-192.png?v=2" alt="" width="44" height="44">
 <div><h1>Kit Konten Tim</h1><small>Talented Education Group · siap posting</small></div>
 <span class="sp"></span>
 <button id="snd" class="iconbtn" type="button" aria-label="Suara notifikasi">🔕</button>
@@ -78,7 +78,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:0 16px 20px
 <div class="stats"><span class="chip" id="unread" hidden></span><span class="chip" id="cnt"></span><span class="chip" id="last"></span></div>
 </header>
 <nav class="filters" id="filters" aria-label="Saring"></nav>
-<details class="how" id="howbox"><summary>❓ Cara pakai (ketuk untuk buka)</summary><div><p style="margin:0 0 8px;font-weight:700">▶ Video tutorial (2 menit, suara Bahasa Indonesia)</p><video controls preload="none" playsinline poster="tutorial-poster.jpg?v=1" src="tutorial.mp4?v=1" style="width:100%;max-width:420px;border-radius:14px;display:block;margin:0 0 12px;background:#000"></video><ol>
+<details class="how" id="howbox"><summary>❓ Cara pakai (ketuk untuk buka)</summary><div><p style="margin:0 0 8px;font-weight:700">▶ Video tutorial (2 menit, suara Bahasa Indonesia)</p><video controls preload="none" playsinline poster="tutorial-poster.jpg?v=2" src="tutorial.mp4?v=2" style="width:100%;max-width:420px;border-radius:14px;display:block;margin:0 0 12px;background:#000"></video><ol>
 <li><b>Cara tercepat:</b> tekan tombol kuning <b>▶ Posting berurutan</b>. Tombol akan memandu: WA Status → IG Story → IG/FB Post → TikTok. Setiap langkah: pilih aplikasinya di menu bagikan, posting, lalu kembali ke halaman ini dan tekan langkah berikutnya. Caption selalu tersalin otomatis.</li>
 <li>Atau satu per satu: tekan <b>📤 Bagikan poster + caption</b> → pilih <b>WhatsApp</b> → <b>Status Saya</b> (atau Instagram/Facebook). Caption ikut tersalin; bila tidak muncul, tekan tempel (paste).</li>
 <li>Untuk Story/Reel pakai tombol <b>Story 9:16</b> atau <b>Video Reel</b>.</li>

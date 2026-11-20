@@ -1,5 +1,5 @@
 {
- "version": "2026-11-20T13:23:33+07:00",
+ "version": "2026-11-20T16:10:47+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -32,6 +32,21 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:sg-sim-diploma-scholarship-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%) (deadline 2026-12-31)",
+    "en": "🎓 Scholarship open: SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%) (deadline 2026-12-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20Diploma%20Scholarship%202027%20%28Academic%20Excellence%20100%25%20/%20Merit%2050%25%29",
+   "country": "Singapura",
+   "provider": "Singapore Institute of Management (SIM)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
   {
    "id": "scholarship:au-ucsh-welcome-success-reward-2027|open",
    "kind": "scholarship",
@@ -76,6 +91,36 @@
    "country": "Australia",
    "provider": "Kaplan Business School Australia",
    "source": "https://www.kbs.edu.au"
+  },
+  {
+   "id": "scholarship:sg-sim-undergraduate-scholarship-2027",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 1,
+   "title": {
+    "id": "🎓 Beasiswa baru: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
+    "en": "🎓 New scholarship: SIM Undergraduate Scholarship & SIM STARRR Award 2027"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20Undergraduate%20Scholarship%20%26%20SIM%20STARRR%20Award%202027",
+   "country": "Singapura",
+   "provider": "Singapore Institute of Management (SIM)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  {
+   "id": "scholarship:sg-sim-uob-mba-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "priority": 1,
+   "title": {
+    "id": "🎓 Beasiswa baru: SIM-University of Birmingham MBA Scholarship",
+    "en": "🎓 New scholarship: SIM-University of Birmingham MBA Scholarship"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MBA%20Scholarship",
+   "country": "Singapura",
+   "provider": "Singapore Institute of Management (SIM)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
   },
   {
    "id": "jobs:2026-11-20-253",

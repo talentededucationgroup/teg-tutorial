@@ -55,6 +55,7 @@ button.primary{background:var(--green);border-color:var(--green);color:#fff;grid
 .flow p{margin:0;font-size:.8rem;color:var(--muted)}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
 .step{font-size:.7rem;text-align:center;border-radius:10px;padding:6px 2px;background:var(--card);border:1px solid var(--line);font-weight:600}
+.confirm{display:block;width:100%;margin:0 0 8px;background:#fff;border:2px solid var(--green);color:var(--green);font-weight:800;border-radius:12px;padding:12px}
 .step.ok{background:var(--green);border-color:var(--green);color:#fff}
 .step.now{border:2px solid var(--brand2);color:var(--brand2)}
 button.next{background:linear-gradient(120deg,var(--brand1),var(--brand2));border:0;color:#fff;grid-column:1/-1;box-shadow:0 4px 12px rgba(124,40,230,.3)}
@@ -107,10 +108,10 @@ async function share(post,kind,mark=true){
     const f=await fileFrom(url,name);
     if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:post.caption,title:post.title});if(mark)store.add(post.id);return true}
   }catch(e){if(e&&e.name==='AbortError')return false}
-  toast('Caption tersalin. Browser ini belum bisa berbagi file: poster dibuka, simpan lalu posting manual.');
-  window.open(url,'_blank','noopener');if(mark)store.add(post.id);return true;
+  toast('Caption tersalin. Browser ini belum bisa berbagi file: media dibuka, simpan lalu posting manual. Setelah benar-benar diposting, tekan "✓ Tandai sudah diposting".');
+  window.open(url,'_blank','noopener');return 'fallback';
 }
-let posts=[];let tab='new',cat='';const keep=new Set(); // dibagikan di sesi ini: tetap tampil di tab Belum sampai ganti tab/muat ulang
+let posts=[];let tab='new',cat='';const keep=new Set();const pend={}; // pend[id] = langkah (k) atau 'single' yang menunggu konfirmasi setelah fallback // dibagikan di sesi ini: tetap tampil di tab Belum sampai ganti tab/muat ulang
 const FLOW=[{k:'wa',label:'WA Status',kind:'image',hint:'Pilih WhatsApp → Status Saya'},
  {k:'igs',label:'IG Story',kind:'story',hint:'Pilih Instagram → Story (gambar 9:16)'},
  {k:'feed',label:'IG/FB Post',kind:'image',hint:'Pilih Instagram (Feed) atau Facebook, tempel caption'},
@@ -132,7 +133,8 @@ function render(){
       <div class="meta"><span class="tag">${esc(p.kindText)}</span><span>${esc(p.dateText)}</span></div>
       <h2>${esc(p.title)}</h2>
       <details class="cap"><summary>📝 Lihat caption</summary><textarea readonly aria-label="Caption">${esc(p.caption)}</textarea></details>
-      ${(()=>{const fl=flowOf(p),dn=plat.get(p.id),nx=fl.find(f=>!dn.includes(f.k));return `<div class="flow"><div class="steps">${fl.map(f=>`<span class="step ${dn.includes(f.k)?'ok':(nx&&nx.k===f.k?'now':'')}">${dn.includes(f.k)?'✓ ':''}${f.label}</span>`).join('')}</div>${nx?`<button class="next" data-i="${i}" data-k="flow">▶ Posting berurutan: ${nx.label}</button><p>${nx.hint}</p>`:'<p>✓ Selesai di semua platform. Terima kasih!</p>'}</div>`})()}
+      ${(()=>{const fl=flowOf(p),dn=plat.get(p.id),nx=fl.find(f=>!dn.includes(f.k));return `<div class="flow"><div class="steps">${fl.map(f=>`<span class="step ${dn.includes(f.k)?'ok':(nx&&nx.k===f.k?'now':'')}">${dn.includes(f.k)?'✓ ':''}${f.label}</span>`).join('')}</div>${nx?`${pend[p.id]===nx.k?`<button class="confirm" data-i="${i}" data-k="confirm">✓ Tandai sudah diposting: ${nx.label}</button>`:''}<button class="next" data-i="${i}" data-k="flow">▶ Posting berurutan: ${nx.label}</button><p>${nx.hint}</p>`:'<p>✓ Selesai di semua platform. Terima kasih!</p>'}</div>`})()}
+      ${pend[p.id]==='single'?`<button class="confirm" data-i="${i}" data-k="confirm">✓ Tandai sudah diposting</button>`:''}
       <div class="btns">
         <button class="primary" data-i="${i}" data-k="post">📤 Bagikan poster + caption</button>
         ${p.story?`<button data-i="${i}" data-k="story">📱 Story 9:16</button>`:''}
@@ -149,10 +151,14 @@ document.addEventListener('click',async e=>{
   const b=e.target.closest('button[data-i]');if(!b)return;
   const p=posts[+b.dataset.i],k=b.dataset.k;if(tab==='new')keep.add(p.id);
   if(k==='copy'){toast(await copy(p.caption)?'Caption tersalin':'Salin manual dari kotak caption');return}
+  if(k==='confirm'){const w=pend[p.id];delete pend[p.id];
+    if(w==='single'){store.add(p.id);toast('✓ Ditandai sudah diposting')}
+    else if(w){plat.add(p.id,w);const left=flowOf(p).filter(f=>!plat.get(p.id).includes(f.k));if(!left.length){store.add(p.id);toast('✓ Semua langkah selesai. Postingan pindah ke tab Sudah.')}else toast('✓ Ditandai. Lanjut: '+left[0].label+'.')}
+    render();return}
   b.disabled=true;const old=b.textContent;b.textContent='Menyiapkan…';
   try{
-    if(k==='flow'){const nx=flowOf(p).find(f=>!plat.get(p.id).includes(f.k));if(nx&&await share(p,nx.kind,false)){plat.add(p.id,nx.k);const left=flowOf(p).filter(f=>!plat.get(p.id).includes(f.k));if(!left.length){store.add(p.id);toast('✓ Semua langkah selesai. Postingan pindah ke tab Sudah.')}else toast('✓ '+nx.label+' selesai. Lanjut: '+left[0].label+'.')}}
-    else{await share(p,k==='post'?'image':k)}
+    if(k==='flow'){const nx=flowOf(p).find(f=>!plat.get(p.id).includes(f.k));const r=nx?await share(p,nx.kind,false):false;if(r==='fallback'){pend[p.id]=nx.k}else if(r){plat.add(p.id,nx.k);const left=flowOf(p).filter(f=>!plat.get(p.id).includes(f.k));if(!left.length){store.add(p.id);toast('✓ Semua langkah selesai. Postingan pindah ke tab Sudah.')}else toast('✓ '+nx.label+' selesai. Lanjut: '+left[0].label+'.')}}
+    else{const r=await share(p,k==='post'?'image':k);if(r==='fallback')pend[p.id]='single'}
   }finally{b.disabled=false;b.textContent=old;render()}
 });
 const KIND={news:'Berita visa',scholarship:'Beasiswa',promo:'Promo',sponsored:'Sponsored',marketing:'Info Talented',jobs:'Loker',accommodation:'Akomodasi',airport:'Jemput bandara',blog:'Artikel'};

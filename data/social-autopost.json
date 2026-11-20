@@ -25,5 +25,7 @@
   "scholarship:",
   "video:"
  ],
- "instant_note": "Beasiswa & berita imigrasi resmi langsung masuk antrean Buffer tanpa menunggu QA (keputusan pemilik 20/11/2026: wajib jadi yang pertama posting). Data sumbernya sudah diverifikasi dari situs resmi oleh tugas harian; QA Claude tetap memeriksa sesudahnya dan putusan REVISI/TOLAK menghentikan kiriman berikutnya."
+ "instant_note": "Beasiswa & berita imigrasi resmi langsung masuk antrean Buffer tanpa menunggu QA (keputusan pemilik 20/11/2026: wajib jadi yang pertama posting). Data sumbernya sudah diverifikasi dari situs resmi oleh tugas harian; QA Claude tetap memeriksa sesudahnya dan putusan REVISI/TOLAK menghentikan kiriman berikutnya.",
+ "story_video": true,
+ "story_video_note": "Story IG & FB diposting sebagai video 9:16 bermusik (Reel) bila tersedia, selain itu gambar Story (pemilik 21/11/2026). WhatsApp Status tidak punya API: dibagikan lewat Kit Tim. X & LinkedIn tidak punya fitur Story: mendapat postingan feed. TikTok mendapat video Reel."
 }

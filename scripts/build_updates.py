@@ -394,6 +394,11 @@ def write_rss(items):
                             f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>marketing</category>"
                             f"<description>{x(desc)}</description>"
                             f"<enclosure url=\"{x(vurl)}\" type=\"video/mp4\" length=\"{os.path.getsize(fp)}\"/></item>")
+            if v.get('story', True):
+                out_story.append(f"<item><title>{x(v['title'])}</title><link>{x(link)}</link><guid isPermaLink=\"false\">video:{x(v['id'])}:{dd.isoformat()}</guid>"
+                                 f"<pubDate>{email.utils.format_datetime(d)}</pubDate><category>marketing</category>"
+                                 f"<description>{x(desc)}</description>"
+                                 f"<enclosure url=\"{x(vurl)}\" type=\"video/mp4\" length=\"{os.path.getsize(fp)}\"/></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
            '<title>Talented Education Group - Yang baru</title>'
            f'<link>{SITE}/</link><description>Beasiswa, promo, berita visa, lowongan kerja &amp; akomodasi pelajar</description>'

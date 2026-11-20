@@ -86,11 +86,18 @@ def build(kind, ch, i, cfg):
             p['metadata'] = {"google": {"type": "whats_new"}}
         return p
     if kind == 'story':
+        # Story sebagai video 9:16 bermusik bila Reel-nya sudah live (pemilik 21/11/2026), selain itu gambar
+        if i['media'].lower().endswith('.mp4'):
+            asset = {"video": {"url": i['media']}}
+        elif i.get('story_video') and cfg.get('story_video', True):
+            asset = {"video": {"url": i['story_video']}}
+        else:
+            asset = {"image": {"url": i['media']}}
         if s == 'instagram' and cfg.get('stories', True):
-            return dict(base, text='', assets=[{"image": {"url": i['media']}}],
+            return dict(base, text='', assets=[asset],
                         metadata={"instagram": {"type": "story", "shouldShareToFeed": False}})
         if s == 'facebook' and cfg.get('stories', True):
-            return dict(base, text='', assets=[{"image": {"url": i['media']}}], metadata={"facebook": {"type": "story"}})
+            return dict(base, text='', assets=[asset], metadata={"facebook": {"type": "story"}})
         return None
     if kind == 'reel':
         if not cfg.get('reels', True):
@@ -237,6 +244,9 @@ def main():
             # immigration news: only post while fresh (announced today or yesterday) - owner 20/11/2026
             if i['guid'].startswith('news:') and (NOW - i['pub']).days > int(cfg.get('news_max_age_days', 1)):
                 continue
+            if kind == 'story' and i['media'].endswith('%20Story.png'):
+                alt = i['media'][:-len('%20Story.png')] + '%20Reel.mp4'
+                i['story_video'] = alt if alt in ready else None
             cfg['_draft'] = True
             instant = any(i['guid'].startswith(x) for x in cfg.get('instant_prefixes', []))
             if auto and instant and (reviews['items'].get(i['guid']) or {}).get('verdict') not in ('REVISI', 'TOLAK'):

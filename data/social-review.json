@@ -210,6 +210,117 @@
    "checked_at": "2026-11-21T08:05:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": null
+  },
+  "scholarship:ae-murdoch-dubai-academic-merit|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/"
+  },
+  "scholarship:vn-rmit-international-excellence-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' dan deadline belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka dan deadline sesuai, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships"
+  },
+  "scholarship:ch-eskas-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' dan deadline belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka dan deadline sesuai, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sbfi.admin.ch/scholarships_eng"
+  },
+  "scholarship:sg-sim-asean-impact-award|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  "scholarship:sg-sim-uob-msc-scholarship-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' dan deadline belum dicek.",
+    "Poster: nama program terpotong ('University of Birmingham MSc Scholarship...', awalan 'SIM-' hilang) sehingga bisa terbaca sebagai beasiswa kampus Inggris.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka dan deadline sesuai, lalu minta QA ulang. Pendekkan judul poster jadi 'SIM-UoB MSc Scholarship 2027' agar tidak terpotong.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  "scholarship:th-rsu-ric-network-scholarship": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://rsuip.org/admissions/scholarships/"
+  },
+  "scholarship:es-nebrija-southeast-asia-scholarship": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/"
+  },
+  "scholarship:my-mohe-mis": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://biasiswa.mohe.gov.my/INTER/index.php"
+  },
+  "scholarship:hk-belt-and-road-scholarship-hku": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
+  },
+  "scholarship:in-iccr-scholarship": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa diverifikasi: halaman ketentuan resmi gagal dibuka dari QA (izin akses web tidak tersedia), sehingga status 'sedang dibuka' belum dicek.",
+    "Poster & caption lain OK: logo terlihat, tidak ada rahasia bisnis, tanpa klaim jaminan, maks 3 hashtag, penutup Talented ada."
+   ],
+   "fix": "Buka ulang link sumber resmi untuk memastikan beasiswa masih dibuka, lalu minta QA ulang.",
+   "checked_at": "2026-11-21T13:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://a2ascholarships.iccr.gov.in/"
   }
  }
 }

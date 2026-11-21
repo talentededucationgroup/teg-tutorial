@@ -1,6 +1,6 @@
 {
  "version": "2026-11-19b",
- "updated_at": "2026-11-19T13:30:00+07:00",
+ "updated_at": "2026-11-21T13:30:00+07:00",
  "title": {
   "id": "Penjemputan bandara",
   "en": "Airport pickup",
@@ -584,6 +584,534 @@
    "operator": null,
    "checked": "2026-11-19",
    "id": "ap-23"
+  },
+  {
+   "country": "MY",
+   "city": "Kuala Lumpur",
+   "name": "Taylor's University",
+   "type": "university",
+   "url": "https://university.taylors.edu.my/en/campus-life/international-students.html",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru Taylor's.",
+    "en": "New international Taylor's students."
+   },
+   "how_to_book": {
+    "id": "Isi Airport Pick-Up Request Form min. 3 hari kerja sebelum tiba; KLIA, KLIA2 & Subang (SST).",
+    "en": "Submit the Airport Pick-Up Request Form at least 3 working days before arrival; KLIA, KLIA2 & Subang (SST)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-24"
+  },
+  {
+   "country": "MY",
+   "city": "Kuala Lumpur",
+   "name": "Monash University Malaysia",
+   "type": "university",
+   "url": "https://www.monash.edu.my/lets-begin/prepare-to-arrive/airport-pick-up",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Semua mahasiswa internasional baru dengan tujuan akomodasi di area KL/Petaling Jaya.",
+    "en": "All new international students going to accommodation in the KL/Petaling Jaya area."
+   },
+   "how_to_book": {
+    "id": "Form request (login email Monash) min. 5 hari sebelum terbang; dihubungi 1-2 hari sebelum tiba.",
+    "en": "Request form (Monash student email) at least 5 days before your flight; contacted 1-2 days before arrival."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-25"
+  },
+  {
+   "country": "MY",
+   "city": "Kuala Lumpur",
+   "name": "IMU University",
+   "type": "university",
+   "url": "https://imu.edu.my/support-services/airport-pickup/",
+   "cost": {
+    "id": "Gratis (denda RM300 bila tidak datang/batal < 48 jam)",
+    "en": "Free (RM300 charge for no-shows/cancellation < 48 hours)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru semester 1 dengan offer letter, VAL & biaya semester 1 lunas; tiba sendiri di KLIA/KLIA2.",
+    "en": "New first-semester international students with offer letter, VAL and first-semester fees paid; arriving alone at KLIA/KLIA2."
+   },
+   "how_to_book": {
+    "id": "Ajukan min. 7 hari kerja sebelum tiba; konfirmasi email dalam 3 hari kerja.",
+    "en": "Apply at least 7 working days before arrival; email confirmation within 3 working days."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-26"
+  },
+  {
+   "country": "SG",
+   "city": "Singapore",
+   "name": "James Cook University Singapore",
+   "type": "university",
+   "url": "https://www.jcu.edu.sg/current-students/pre-arrival-information",
+   "cost": {
+    "id": "Gratis (termasuk International Student Registration Fee)",
+    "en": "Free (included in the International Student Registration Fee)"
+   },
+   "eligibility": {
+    "id": "Semua mahasiswa internasional (orang tua boleh ikut).",
+    "en": "All international students (parents may join)."
+   },
+   "how_to_book": {
+    "id": "Kirim detail penerbangan di Pre-Arrival System setelah IPA; Senin-Jumat 08.30-20.30. Di luar jam: taksi, reimburse maks. SGD 55.",
+    "en": "Submit flight details in the Pre-Arrival System after IPA; Mon-Fri 8:30am-8:30pm. Outside hours: taxi, reimbursed up to SGD 55."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-27"
+  },
+  {
+   "country": "SG",
+   "city": "Singapore",
+   "name": "PSB Academy",
+   "type": "university",
+   "url": "https://www.psb-academy.edu.sg/becoming-a-student/new-to-singapore/meet-and-greet",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Semua mahasiswa internasional baru.",
+    "en": "All new international students."
+   },
+   "how_to_book": {
+    "id": "Minta saat konseling pra-pendaftaran, min. 3 hari sebelum tiba.",
+    "en": "Request during pre-admission counselling, at least 3 days before arrival."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-28"
+  },
+  {
+   "country": "KR",
+   "city": "Seoul",
+   "name": "Korea University - transportasi dari Incheon",
+   "type": "university",
+   "url": "https://oia.korea.ac.kr/oia2026/Transportation.do",
+   "cost": {
+    "id": "Bus limosin 6102 KRW 18.000; taksi ± KRW 55.000",
+    "en": "Limousine bus 6102 KRW 18,000; taxi approx. KRW 55,000"
+   },
+   "eligibility": {
+    "id": "Tidak ada penjemputan resmi; panduan kampus untuk mahasiswa baru.",
+    "en": "No official pickup; campus guide for new students."
+   },
+   "how_to_book": {
+    "id": "Bus 6102 ke halte Sungrye Elementary School, AREX + subway Line 6, atau taksi internasional (intltaxi.co.kr).",
+    "en": "Bus 6102 to Sungrye Elementary School stop, AREX + subway Line 6, or international taxi (intltaxi.co.kr)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-29"
+  },
+  {
+   "country": "CN",
+   "city": "Suzhou",
+   "name": "Xi'an Jiaotong-Liverpool University (XJTLU)",
+   "type": "university",
+   "url": "https://www.xjtlu.edu.cn/en/admissions/pre-arrival-information",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru pada tanggal kedatangan resmi (X1: 25-28 Agu; X2: 30 Agu-1 Sep).",
+    "en": "New international students on official arrival dates (X1: 25-28 Aug; X2: 30 Aug-1 Sep)."
+   },
+   "how_to_book": {
+    "id": "Isi form pick-up di akun aplikasi; Bandara Pudong T1/T2, tiba sebelum 15.30.",
+    "en": "Book via the pick-up form in your application account; Pudong Airport T1/T2, arrive before 3:30pm."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-30"
+  },
+  {
+   "country": "VN",
+   "city": "Ho Chi Minh City / Hanoi",
+   "name": "RMIT University Vietnam",
+   "type": "university",
+   "url": "https://www.rmit.edu.vn/airport",
+   "cost": {
+    "id": "Gratis",
+    "en": "Free"
+   },
+   "eligibility": {
+    "id": "Semua mahasiswa internasional baru yang tiba di Ho Chi Minh City atau Hanoi.",
+    "en": "All new international students arriving in Ho Chi Minh City or Hanoi."
+   },
+   "how_to_book": {
+    "id": "Form pendaftaran gratis min. 5 hari kerja sebelum tiba; satu form per orang.",
+    "en": "Free registration form at least 5 working days before arrival; one form per person."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-31"
+  },
+  {
+   "country": "TH",
+   "city": "Bangkok",
+   "name": "Suvarnabhumi Airport - transportasi resmi",
+   "type": "public_transport",
+   "url": "https://suvarnabhumi.airportthai.co.th/service/airport-guide/detail/Transportation_BKK",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Airport Rail Link, bus & taksi resmi bandara. Pakai taksi argo saja.",
+    "en": "Airport Rail Link, buses and official airport taxis. Use metered taxis only."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-32"
+  },
+  {
+   "country": "HK",
+   "city": "Hong Kong",
+   "name": "Hong Kong Airport Express (resmi)",
+   "type": "public_transport",
+   "url": "https://www.hongkongairport.com/en/transport/to-from-airport/airport-express.page",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Kereta Airport Express ke Tsing Yi, Kowloon & Hong Kong Station; bus & taksi resmi tersedia.",
+    "en": "Airport Express train to Tsing Yi, Kowloon and Hong Kong Station; official buses and taxis available."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-33"
+  },
+  {
+   "country": "AE",
+   "city": "Dubai",
+   "name": "Dubai Airports - transportasi resmi",
+   "type": "public_transport",
+   "url": "https://www.dubaiairports.ae/transport",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Metro, bus & taksi resmi DXB. Murdoch Dubai & UOWD belum mencantumkan penjemputan - tanyakan ke kampus.",
+    "en": "DXB metro, buses and official taxis. Murdoch Dubai and UOWD do not list a pickup - ask the campus."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-34"
+  },
+  {
+   "country": "GB",
+   "city": "London",
+   "name": "Heathrow - transportasi resmi ke London",
+   "type": "public_transport",
+   "url": "https://www.heathrow.com/transport-and-directions/getting-into-london",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Elizabeth line, Heathrow Express, Piccadilly line, coach & taksi resmi. Banyak kampus UK punya meet & greet - cek halaman kampus.",
+    "en": "Elizabeth line, Heathrow Express, Piccadilly line, coaches and official taxis. Many UK universities run meet & greet - check your university page."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-35"
+  },
+  {
+   "country": "GB",
+   "city": "Birmingham",
+   "name": "Aston University - panduan kedatangan",
+   "type": "university",
+   "url": "https://www.aston.ac.uk/international/students-preparing/pre-arrival-guide",
+   "cost": {
+    "id": "Shuttle gratis bandara-stasiun",
+    "en": "Free airport-station shuttle"
+   },
+   "eligibility": {
+    "id": "Tidak ada penjemputan resmi tercantum.",
+    "en": "No official pickup listed."
+   },
+   "how_to_book": {
+    "id": "Shuttle gratis Birmingham Airport ke Birmingham International Station, lalu kereta 10-15 menit ke kampus.",
+    "en": "Free shuttle from Birmingham Airport to Birmingham International Station, then a 10-15 minute train to campus."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-36"
+  },
+  {
+   "country": "IE",
+   "city": "Limerick",
+   "name": "University of Limerick - cara ke UL",
+   "type": "university",
+   "url": "https://ul.ie/global/incoming-students/need-know-information/getting-to-ul",
+   "cost": {
+    "id": "Bus/coach bervariasi; taksi Shannon ± €50-70",
+    "en": "Bus/coach varies; Shannon taxi approx. €50-70"
+   },
+   "eligibility": {
+    "id": "Tidak ada penjemputan resmi tercantum.",
+    "en": "No official pickup listed."
+   },
+   "how_to_book": {
+    "id": "Dari Shannon: bus 51/343 atau taksi. Dari Dublin: JJ Kavanagh 735, Dublin Coach, CityLink (pesan online).",
+    "en": "From Shannon: bus 51/343 or taxi. From Dublin: JJ Kavanagh 735, Dublin Coach, CityLink (book online)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-37"
+  },
+  {
+   "country": "CA",
+   "city": "Thunder Bay / Orillia / Barrie",
+   "name": "Lakehead University",
+   "type": "university",
+   "url": "https://www.lakeheadu.ca/international/newly-accepted/travelling",
+   "cost": {
+    "id": "Gratis (sekali jalan ke akomodasi)",
+    "en": "Free (one-way to accommodation)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru dengan study permit approval & akomodasi sudah diatur.",
+    "en": "New international students with study permit approval and arranged accommodation."
+   },
+   "how_to_book": {
+    "id": "Request online min. 4 hari kerja sebelum terbang; voucher taksi (Thunder Bay) atau jemputan dari Toronto Pearson (Orillia/Barrie).",
+    "en": "Online request at least 4 business days before your flight; taxi voucher (Thunder Bay) or pickup from Toronto Pearson (Orillia/Barrie)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-38"
+  },
+  {
+   "country": "CA",
+   "city": "Toronto",
+   "name": "Humber Polytechnic - welcome desk bandara",
+   "type": "university",
+   "url": "https://humber.ca/international/student-life/humber-arrival/arrival-airport",
+   "cost": {
+    "id": "Gratis (welcome desk, bukan penjemputan)",
+    "en": "Free (welcome desk, not a pickup)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional yang tiba di Toronto Pearson (T1 & T3) pada periode kedatangan.",
+    "en": "International students arriving at Toronto Pearson (T1 & T3) during the arrival period."
+   },
+   "how_to_book": {
+    "id": "Daftarkan penerbangan di aplikasi iCent; info shuttle, transit & akomodasi.",
+    "en": "Register your flight in the iCent app; shuttle, transit and accommodation help."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-39"
+  },
+  {
+   "country": "US",
+   "city": "Kent, Ohio",
+   "name": "Kent State University",
+   "type": "university",
+   "url": "https://www.kent.edu/globaleducation/airportsarrivals",
+   "cost": {
+    "id": "Bersubsidi (lebih murah dari taksi)",
+    "en": "Subsidised (cheaper than taxi)"
+   },
+   "eligibility": {
+    "id": "Mahasiswa internasional baru; tiba sebelum/pada tanggal mulai program.",
+    "en": "New international students arriving on or before the program start date."
+   },
+   "how_to_book": {
+    "id": "Reservasi lewat link \"Reserve Your Airport Pickup\"; bandara Cleveland (CLE) atau Akron-Canton (CAK).",
+    "en": "Book via \"Reserve Your Airport Pickup\"; Cleveland (CLE) or Akron-Canton (CAK) airport."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-40"
+  },
+  {
+   "country": "CH",
+   "city": "Glion / Bulle",
+   "name": "Glion Institute of Higher Education (Sommet Education)",
+   "type": "university",
+   "url": "https://brochure.glion.edu/pre-arrival/new-student-checklist",
+   "cost": {
+    "id": "Tidak dicantumkan",
+    "en": "Not stated"
+   },
+   "eligibility": {
+    "id": "Mahasiswa semester pertama yang tiba pada tanggal check-in resmi.",
+    "en": "First-semester students arriving on official check-in dates."
+   },
+   "how_to_book": {
+    "id": "Konfirmasi kedatangan di Applicant Portal min. 3 minggu sebelum program; Bandara Jenewa (GVA).",
+    "en": "Confirm arrival in the Applicant Portal at least 3 weeks before the programme; Geneva Airport (GVA)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-41"
+  },
+  {
+   "country": "HU",
+   "city": "Pécs",
+   "name": "University of Pécs - cara ke Pécs",
+   "type": "university",
+   "url": "https://international.pte.hu/how_get_pecs",
+   "cost": {
+    "id": "Shuttle ± HUF 9.000 (± €30)",
+    "en": "Shuttle approx. HUF 9,000 (approx. €30)"
+   },
+   "eligibility": {
+    "id": "Kampus tidak mengatur penjemputan.",
+    "en": "The university does not arrange pickups."
+   },
+   "how_to_book": {
+    "id": "Shuttle swasta dari Budapest Airport (Travel4You, MECSEK Travel) atau ke Stasiun Keleti lalu kereta IC.",
+    "en": "Private shuttle from Budapest Airport (Travel4You, MECSEK Travel) or to Keleti Station then an IC train."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-42"
+  },
+  {
+   "country": "HU",
+   "city": "Debrecen",
+   "name": "University of Debrecen - kedatangan",
+   "type": "university",
+   "url": "https://internationaloffice.unideb.hu/arrival",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Tidak ada penjemputan resmi tercantum.",
+    "en": "No official pickup listed."
+   },
+   "how_to_book": {
+    "id": "Bus 200E ke Kőbánya-Kispest lalu kereta IC ke Debrecen (perlu reservasi kursi).",
+    "en": "Bus 200E to Kőbánya-Kispest then an IC train to Debrecen (seat reservation needed)."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-43"
+  },
+  {
+   "country": "MT",
+   "city": "Malta",
+   "name": "Malta International Airport - transportasi resmi",
+   "type": "public_transport",
+   "url": "https://maltairport.com/transport/",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Bus, taksi & transfer resmi bandara.",
+    "en": "Buses, taxis and official airport transfers."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-44"
+  },
+  {
+   "country": "DE",
+   "city": "Berlin",
+   "name": "Berlin Brandenburg Airport (BER) - transportasi umum",
+   "type": "public_transport",
+   "url": "https://ber.berlin-airport.de/en/getting-here/public-transport.html",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "S-Bahn, regional train & bus ke pusat Berlin.",
+    "en": "S-Bahn, regional trains and buses to central Berlin."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-45"
+  },
+  {
+   "country": "FR",
+   "city": "Lyon",
+   "name": "Lyon Saint-Exupéry - transportasi ke kota",
+   "type": "public_transport",
+   "url": "https://www.lyonaeroports.com/en/lyon-airport-to-city-center-transport",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Tram Rhônexpress ke Lyon Part-Dieu, bus & taksi resmi.",
+    "en": "Rhônexpress tram to Lyon Part-Dieu, buses and official taxis."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-46"
+  },
+  {
+   "country": "ES",
+   "city": "Madrid",
+   "name": "Comunidad de Madrid - koneksi bandara",
+   "type": "public_transport",
+   "url": "https://www.comunidad.madrid/transporte/conecta-aeropuerto",
+   "cost": {
+    "id": "Bervariasi",
+    "en": "Varies"
+   },
+   "eligibility": {
+    "id": "Siapa saja.",
+    "en": "Anyone."
+   },
+   "how_to_book": {
+    "id": "Metro, kereta Cercanías & bus ekspres resmi Madrid-Barajas.",
+    "en": "Metro, Cercanías trains and the official express bus from Madrid-Barajas."
+   },
+   "operator": null,
+   "checked": "2026-11-21",
+   "id": "ap-47"
   }
  ],
  "copyright": "© 2026 Talented Education Group. Data dikurasi Talented dari sumber resmi.",

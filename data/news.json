@@ -1,6 +1,6 @@
 {
- "version": "2026-11-21",
- "updated_at": "2026-11-21T07:30:00+07:00",
+ "version": "2026-11-22",
+ "updated_at": "2026-11-22T07:15:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -706,6 +706,67 @@
    "effective": null
   },
   {
+   "id": "uk-graduate-18-months",
+   "date": "2026-10-28",
+   "effective": "2027-01-01",
+   "country": "GB",
+   "category": "visa",
+   "status": "changed",
+   "title": {
+    "id": "Inggris: Graduate visa 18 bulan mulai 1 Jan 2027, tapi Budget 2026 umumkan 2 tahun untuk universitas tertentu",
+    "en": "UK: Graduate visa 18 months from 1 Jan 2027, but Budget 2026 announces 2 years for eligible universities",
+    "th": "สหราชอาณาจักร: Graduate visa 18 เดือนตั้งแต่ 1 ม.ค. 2027 แต่ Budget 2026 ประกาศให้ 2 ปีสำหรับมหาวิทยาลัยที่เข้าเกณฑ์",
+    "vi": "Anh: Graduate visa 18 tháng từ 1/1/2027, nhưng Budget 2026 công bố 2 năm cho các trường đủ điều kiện",
+    "zh": "英国:Graduate 签证自2027年1月1日起为18个月,但 Budget 2026 宣布符合条件的大学可为2年",
+    "ja": "イギリス:Graduate ビザは2027年1月1日から18か月、ただし Budget 2026 で対象大学は2年と発表",
+    "ko": "영국: Graduate 비자 2027년 1월 1일부터 18개월, 단 Budget 2026에서 해당 대학은 2년 발표",
+    "km": "ចក្រភពអង់គ្លេស៖ Graduate visa 18 ខែ ចាប់ពី 1 មករា 2027 ប៉ុន្តែ Budget 2026 ប្រកាស 2 ឆ្នាំសម្រាប់សាកលវិទ្យាល័យដែលមានសិទ្ធិ",
+    "fr": "Royaume-Uni : Graduate visa de 18 mois dès le 1er janv. 2027, mais le Budget 2026 annonce 2 ans pour les universités éligibles",
+    "pt": "Reino Unido: Graduate visa de 18 meses a partir de 1 jan 2027, mas o Budget 2026 anuncia 2 anos para universidades elegíveis",
+    "es": "Reino Unido: Graduate visa de 18 meses desde el 1 ene 2027, pero el Budget 2026 anuncia 2 años para universidades elegibles",
+    "de": "Großbritannien: Graduate Visa ab 1. Jan. 2027 18 Monate, Budget 2026 kündigt aber 2 Jahre für berechtigte Universitäten an",
+    "it": "Regno Unito: Graduate visa di 18 mesi dal 1° gen 2027, ma il Budget 2026 annuncia 2 anni per le università idonee",
+    "nl": "VK: Graduate visa 18 maanden vanaf 1 jan 2027, maar Budget 2026 kondigt 2 jaar aan voor in aanmerking komende universiteiten",
+    "ru": "Великобритания: Graduate visa 18 мес. с 1 янв. 2027, но Budget 2026 объявил 2 года для отвечающих критериям университетов"
+   },
+   "summary": {
+    "id": "Menurut GOV.UK, aplikasi Graduate visa sampai 31 Des 2026 mendapat 2 tahun dan mulai 1 Jan 2027 mendapat 18 bulan (doktoral 3 tahun). Pada 28 Okt 2026, Budget 2026 mengumumkan Graduate visa diperpanjang menjadi 2 tahun untuk universitas yang memenuhi syarat. Kriteria dan tanggal berlakunya belum diterbitkan, jadi aturan 18 bulan tetap tercantum di GOV.UK dan bisa berubah.",
+    "en": "According to GOV.UK, Graduate visa applications up to 31 Dec 2026 get 2 years and from 1 Jan 2027 get 18 months (doctoral 3 years). On 28 Oct 2026, Budget 2026 announced extending the Graduate visa to two years for eligible universities. Criteria and start date have not been published yet, so the 18-month rule still appears on GOV.UK and may change.",
+    "th": "ตาม GOV.UK คำขอ Graduate visa ถึง 31 ธ.ค. 2026 ได้ 2 ปี และตั้งแต่ 1 ม.ค. 2027 ได้ 18 เดือน (ปริญญาเอก 3 ปี) เมื่อ 28 ต.ค. 2026 Budget 2026 ประกาศขยาย Graduate visa เป็น 2 ปีสำหรับมหาวิทยาลัยที่เข้าเกณฑ์ ยังไม่มีการเผยแพร่เกณฑ์และวันเริ่มใช้ กฎ 18 เดือนจึงยังอยู่บน GOV.UK และอาจเปลี่ยนแปลง",
+    "vi": "Theo GOV.UK, hồ sơ Graduate visa đến 31/12/2026 được 2 năm, từ 1/1/2027 được 18 tháng (tiến sĩ 3 năm). Ngày 28/10/2026, Budget 2026 công bố kéo dài Graduate visa lên 2 năm cho các trường đủ điều kiện. Tiêu chí và ngày áp dụng chưa được công bố, nên quy định 18 tháng vẫn còn trên GOV.UK và có thể thay đổi.",
+    "zh": "根据 GOV.UK,2026年12月31日前申请的 Graduate 签证为2年,2027年1月1日起为18个月(博士3年)。2026年10月28日,Budget 2026 宣布将符合条件大学的 Graduate 签证延长至2年。具体标准和生效日期尚未公布,GOV.UK 仍显示18个月规定,可能会变化。",
+    "ja": "GOV.UK によると、2026年12月31日までの Graduate ビザ申請は2年、2027年1月1日以降は18か月(博士は3年)。2026年10月28日、Budget 2026 は対象大学の Graduate ビザを2年に延長すると発表。基準と開始日は未公表のため、GOV.UK には18か月の規定が残っており、変更の可能性あり。",
+    "ko": "GOV.UK에 따르면 2026년 12월 31일까지 신청한 Graduate 비자는 2년, 2027년 1월 1일부터는 18개월(박사 3년)입니다. 2026년 10월 28일 Budget 2026은 요건을 충족하는 대학의 Graduate 비자를 2년으로 연장한다고 발표했습니다. 기준과 시행일은 아직 공개되지 않아 GOV.UK에는 18개월 규정이 남아 있으며 변경될 수 있습니다.",
+    "km": "យោងតាម GOV.UK ពាក្យ Graduate visa ដល់ 31 ធ្នូ 2026 ទទួល 2 ឆ្នាំ ហើយចាប់ពី 1 មករា 2027 ទទួល 18 ខែ (បណ្ឌិត 3 ឆ្នាំ)។ នៅ 28 តុលា 2026 Budget 2026 បានប្រកាសពន្យារ Graduate visa ទៅ 2 ឆ្នាំសម្រាប់សាកលវិទ្យាល័យដែលមានសិទ្ធិ។ លក្ខខណ្ឌ និងថ្ងៃចាប់ផ្តើមមិនទាន់ផ្សព្វផ្សាយ ដូច្នេះច្បាប់ 18 ខែនៅតែមាននៅលើ GOV.UK ហើយអាចផ្លាស់ប្តូរ។",
+    "fr": "Selon GOV.UK, les demandes de Graduate visa jusqu'au 31 déc. 2026 donnent 2 ans et dès le 1er janv. 2027 18 mois (doctorat 3 ans). Le 28 oct. 2026, le Budget 2026 a annoncé l'extension du Graduate visa à deux ans pour les universités éligibles. Les critères et la date d'entrée en vigueur ne sont pas encore publiés ; la règle des 18 mois figure toujours sur GOV.UK et peut changer.",
+    "pt": "Segundo o GOV.UK, pedidos de Graduate visa até 31 dez 2026 recebem 2 anos e a partir de 1 jan 2027 recebem 18 meses (doutorado 3 anos). Em 28 out 2026, o Budget 2026 anunciou a extensão do Graduate visa para dois anos para universidades elegíveis. Critérios e data de início ainda não foram publicados; a regra de 18 meses continua no GOV.UK e pode mudar.",
+    "es": "Según GOV.UK, las solicitudes de Graduate visa hasta el 31 dic 2026 obtienen 2 años y desde el 1 ene 2027 obtienen 18 meses (doctorado 3 años). El 28 oct 2026, el Budget 2026 anunció ampliar el Graduate visa a dos años para universidades elegibles. Aún no se han publicado los criterios ni la fecha de inicio; la regla de 18 meses sigue en GOV.UK y puede cambiar.",
+    "de": "Laut GOV.UK erhalten Graduate-Visa-Anträge bis 31. Dez. 2026 2 Jahre, ab 1. Jan. 2027 18 Monate (Promotion 3 Jahre). Am 28. Okt. 2026 kündigte das Budget 2026 an, das Graduate Visa für berechtigte Universitäten auf zwei Jahre zu verlängern. Kriterien und Starttermin sind noch nicht veröffentlicht; die 18-Monats-Regel steht weiter auf GOV.UK und kann sich ändern.",
+    "it": "Secondo GOV.UK, le domande di Graduate visa fino al 31 dic 2026 ottengono 2 anni e dal 1° gen 2027 18 mesi (dottorato 3 anni). Il 28 ott 2026 il Budget 2026 ha annunciato l'estensione del Graduate visa a due anni per le università idonee. Criteri e data di avvio non sono ancora pubblicati; la regola dei 18 mesi resta su GOV.UK e può cambiare.",
+    "nl": "Volgens GOV.UK krijgen Graduate visa-aanvragen tot 31 dec 2026 2 jaar en vanaf 1 jan 2027 18 maanden (doctoraat 3 jaar). Op 28 okt 2026 kondigde Budget 2026 aan het Graduate visa te verlengen tot twee jaar voor in aanmerking komende universiteiten. Criteria en ingangsdatum zijn nog niet gepubliceerd; de 18-maandenregel staat nog op GOV.UK en kan veranderen.",
+    "ru": "По данным GOV.UK, заявления на Graduate visa до 31 дек. 2026 дают 2 года, с 1 янв. 2027 — 18 мес. (докторантура 3 года). 28 окт. 2026 Budget 2026 объявил продление Graduate visa до двух лет для отвечающих критериям университетов. Критерии и дата начала ещё не опубликованы, поэтому правило 18 мес. остаётся на GOV.UK и может измениться."
+   },
+   "links": [
+    {
+     "label": "GOV.UK - Budget 2026 press release (28 Oct 2026)",
+     "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future",
+     "official": true
+    },
+    {
+     "label": "GOV.UK - Graduate visa: how long you can stay",
+     "url": "https://www.gov.uk/graduate-visa",
+     "official": true
+    },
+    {
+     "label": "GOV.UK - Statement of changes HC 1333",
+     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1333-14-october-2025",
+     "official": true
+    }
+   ],
+   "effective_date": "2027-01-01",
+   "deadline": null
+  },
+  {
    "id": "nz-ac-2026-32",
    "date": "2026-10-27",
    "country": "NZ",
@@ -1035,57 +1096,6 @@
    "effective_date": null,
    "deadline": null,
    "effective": null
-  },
-  {
-   "id": "uk-graduate-18-months",
-   "date": "2025-10-14",
-   "effective": "2027-01-01",
-   "country": "GB",
-   "category": "visa",
-   "status": "upcoming",
-   "title": {
-    "id": "Inggris: Graduate visa jadi 18 bulan untuk aplikasi mulai 1 Jan 2027",
-    "en": "UK: Graduate visa cut to 18 months for applications from 1 Jan 2027",
-    "th": "สหราชอาณาจักร: Graduate visa ลดเหลือ 18 เดือน สำหรับคำขอตั้งแต่ 1 ม.ค. 2027",
-    "vi": "Anh: Graduate visa giảm còn 18 tháng cho hồ sơ từ 1/1/2027",
-    "zh": "英国:2027年1月1日起申请的 Graduate 签证缩短为18个月",
-    "ja": "イギリス:2027年1月1日以降の申請から Graduate ビザは18か月に短縮",
-    "ko": "영국: 2027년 1월 1일 이후 신청분부터 Graduate 비자 18개월로 단축",
-    "km": "ចក្រភពអង់គ្លេស៖ Graduate visa កាត់មកត្រឹម 18 ខែ សម្រាប់ពាក្យចាប់ពី 1 មករា 2027",
-    "fr": "Royaume-Uni : le Graduate visa passe à 18 mois pour les demandes dès le 1er janv. 2027",
-    "pt": "Reino Unido: Graduate visa reduzido para 18 meses para pedidos a partir de 1 jan 2027",
-    "es": "Reino Unido: el Graduate visa baja a 18 meses para solicitudes desde el 1 ene 2027",
-    "de": "Großbritannien: Graduate Visa ab Anträgen vom 1. Jan. 2027 nur noch 18 Monate",
-    "it": "Regno Unito: Graduate visa ridotto a 18 mesi per domande dal 1° gen 2027",
-    "nl": "VK: Graduate visa ingekort tot 18 maanden voor aanvragen vanaf 1 jan 2027",
-    "ru": "Великобритания: Graduate visa сокращается до 18 мес. для заявлений с 1 янв. 2027"
-   },
-   "summary": {
-    "id": "Lulusan Bachelor/Master yang mengajukan Graduate visa mulai 1 Jan 2027 mendapat 18 bulan (sebelumnya 2 tahun). Aplikasi sampai 31 Des 2026 tetap 2 tahun. Lulusan doktoral tetap 3 tahun.",
-    "en": "Bachelor's/Master's graduates applying from 1 Jan 2027 get 18 months (previously 2 years). Applications up to 31 Dec 2026 keep 2 years. Doctoral graduates keep 3 years.",
-    "th": "ผู้จบปริญญาตรี/โทที่ยื่นตั้งแต่ 1 ม.ค. 2027 ได้ 18 เดือน (เดิม 2 ปี) คำขอถึง 31 ธ.ค. 2026 ยังได้ 2 ปี ผู้จบปริญญาเอกยังได้ 3 ปี",
-    "vi": "Người tốt nghiệp cử nhân/thạc sĩ nộp từ 1/1/2027 được 18 tháng (trước đây 2 năm). Hồ sơ đến 31/12/2026 vẫn được 2 năm. Tiến sĩ vẫn 3 năm.",
-    "zh": "2027年1月1日起申请的学士/硕士毕业生获18个月(此前为2年)。2026年12月31日前申请仍为2年。博士毕业生仍为3年。",
-    "ja": "2027年1月1日以降に申請する学士・修士修了者は18か月(従来2年)。2026年12月31日までの申請は2年のまま。博士修了者は3年のまま。",
-    "ko": "2027년 1월 1일부터 신청하는 학사/석사 졸업생은 18개월(기존 2년). 2026년 12월 31일까지 신청은 2년 유지. 박사 졸업생은 3년 유지.",
-    "km": "អ្នកបញ្ចប់បរិញ្ញាបត្រ/អនុបណ្ឌិតដែលដាក់ពាក្យចាប់ពី 1 មករា 2027 ទទួល 18 ខែ (មុន 2 ឆ្នាំ)។ ពាក្យដល់ 31 ធ្នូ 2026 នៅតែ 2 ឆ្នាំ។ បណ្ឌិតនៅតែ 3 ឆ្នាំ។",
-    "fr": "Les diplômés de licence/master qui déposent dès le 1er janv. 2027 obtiennent 18 mois (au lieu de 2 ans). Les demandes jusqu'au 31 déc. 2026 gardent 2 ans. Les docteurs gardent 3 ans.",
-    "pt": "Graduados de bacharelado/mestrado que pedirem a partir de 1 jan 2027 recebem 18 meses (antes 2 anos). Pedidos até 31 dez 2026 mantêm 2 anos. Doutorado mantém 3 anos.",
-    "es": "Graduados de grado/máster que soliciten desde el 1 ene 2027 obtienen 18 meses (antes 2 años). Las solicitudes hasta el 31 dic 2026 mantienen 2 años. Doctorado mantiene 3 años.",
-    "de": "Bachelor-/Masterabsolventen mit Antrag ab 1. Jan. 2027 erhalten 18 Monate (bisher 2 Jahre). Anträge bis 31. Dez. 2026 behalten 2 Jahre. Promovierte behalten 3 Jahre.",
-    "it": "I laureati triennali/magistrali che fanno domanda dal 1° gen 2027 ottengono 18 mesi (prima 2 anni). Le domande fino al 31 dic 2026 mantengono 2 anni. I dottori di ricerca mantengono 3 anni.",
-    "nl": "Bachelor-/masterafgestudeerden die vanaf 1 jan 2027 aanvragen krijgen 18 maanden (voorheen 2 jaar). Aanvragen tot 31 dec 2026 houden 2 jaar. Gepromoveerden houden 3 jaar.",
-    "ru": "Выпускники бакалавриата/магистратуры, подающие с 1 янв. 2027, получат 18 мес. (ранее 2 года). Заявления до 31 дек. 2026 — 2 года. Выпускники докторантуры — 3 года."
-   },
-   "links": [
-    {
-     "label": "GOV.UK - Statement of changes HC 1333",
-     "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1333-14-october-2025",
-     "official": true
-    }
-   ],
-   "effective_date": "2027-01-01",
-   "deadline": null
   }
  ],
  "languages": [
@@ -1105,7 +1115,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

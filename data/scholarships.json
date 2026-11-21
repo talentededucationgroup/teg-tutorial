@@ -1,12 +1,12 @@
 {
- "version": "2026-11-20-sim",
- "updated_at": "2026-11-20T16:20:00+07:00",
+ "version": "2026-11-21-sim2",
+ "updated_at": "2026-11-21T12:10:00+07:00",
  "source": "Data beasiswa TEG (diperbarui setiap Senin 06:17 WIB dari situs resmi pemberi beasiswa)",
- "count": 89,
+ "count": 91,
  "counts": {
   "Tahunan - jadwal berikutnya belum diumumkan": 37,
   "Segera dibuka": 2,
-  "Buka": 50
+  "Buka": 52
  },
  "ui": {
   "title": {
@@ -4017,9 +4017,9 @@
    "deadline": "2026-12-31",
    "intake": "April 2027 (periode berikutnya untuk Oktober 2027: 1 Apr - 30 Jun 2027)",
    "url": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
-   "source_checked": "2026-11-20",
+   "source_checked": "2026-11-21",
    "partner": true,
-   "notes": "Berlaku selama durasi minimum kursus, tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented.",
+   "notes": "Berlaku selama durasi minimum kursus, tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented. Dokumen (scan, di-zip): ijazah/transkrip/rapor (+ terjemahan Inggris), bukti bahasa Inggris (IELTS/TOEFL/PTE dll.), sertifikat kegiatan/prestasi (bila ada), personal statement, paspor, dan bukti aplikasi Diploma SIM.",
    "i18n": {
     "en": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4031,7 +4031,7 @@
      "eligibility": "New international students in a SIM Diploma programme with outstanding high school/Year 12 results. Academic Excellence: strong leadership, interpersonal and communication skills. Merit: good communication skills.",
      "english_test": "As per SIM Diploma entry requirements",
      "intake": "April 2027 (next window for October 2027: 1 Apr - 30 Jun 2027)",
-     "notes": "Tenable for the minimum course duration, no bond. An online scholarship briefing & pre-assessment runs for the 2027 intake; students who apply and pay the application fee by 31 Dec 2026 can join scholarship training from January 2027. Apply through your Talented consultant."
+     "notes": "Tenable for the minimum course duration, no bond. An online scholarship briefing & pre-assessment runs for the 2027 intake; students who apply and pay the application fee by 31 Dec 2026 can join scholarship training from January 2027. Apply through your Talented consultant. Documents (scanned, zipped): certificates/transcripts/reports (+ English translation), English proof (IELTS/TOEFL/PTE etc.), activity/award certificates (if any), personal statement, passport, and SIM Diploma application acknowledgement."
     },
     "th": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4043,7 +4043,7 @@
      "eligibility": "นักเรียนต่างชาติใหม่ในหลักสูตร Diploma ของ SIM ผลการเรียน ม.ปลาย/Year 12 ดีเยี่ยม Academic Excellence: ภาวะผู้นำ มนุษยสัมพันธ์ และการสื่อสารดี Merit: การสื่อสารดี",
      "english_test": "SIM Diploma entry requirements",
      "intake": "เมษายน 2027 (รอบถัดไปสำหรับตุลาคม 2027: 1 เม.ย. - 30 มิ.ย. 2027)",
-     "notes": "ใช้ได้ตลอดระยะเวลาขั้นต่ำของหลักสูตร ไม่มีสัญญาผูกมัด มีการบรรยายและประเมินเบื้องต้นออนไลน์สำหรับรอบ 2027 ผู้ที่สมัครและชำระค่าสมัครภายใน 31 ธ.ค. 2026 เข้าอบรมทุนได้ตั้งแต่ ม.ค. 2027 สมัครผ่านที่ปรึกษา Talented"
+     "notes": "ใช้ได้ตลอดระยะเวลาขั้นต่ำของหลักสูตร ไม่มีสัญญาผูกมัด มีการบรรยายและประเมินเบื้องต้นออนไลน์สำหรับรอบ 2027 ผู้ที่สมัครและชำระค่าสมัครภายใน 31 ธ.ค. 2026 เข้าอบรมทุนได้ตั้งแต่ ม.ค. 2027 สมัครผ่านที่ปรึกษา Talented เอกสาร (สแกนและบีบอัด): ใบประกาศ/ใบแสดงผลการเรียน (+ คำแปลภาษาอังกฤษ), หลักฐานภาษาอังกฤษ (IELTS/TOEFL/PTE ฯลฯ), เกียรติบัตรกิจกรรม/รางวัล (ถ้ามี), personal statement, หนังสือเดินทาง และหลักฐานการสมัคร Diploma ของ SIM"
     },
     "vi": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4055,7 +4055,7 @@
      "eligibility": "Sinh viên quốc tế mới học Diploma tại SIM, kết quả THPT/Year 12 xuất sắc. Academic Excellence: lãnh đạo, giao tiếp và kỹ năng xã hội tốt. Merit: giao tiếp tốt.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Tháng 4/2027 (đợt sau cho tháng 10/2027: 1/4 - 30/6/2027)",
-     "notes": "Áp dụng trong thời gian tối thiểu của khóa học, không ràng buộc. Có buổi giới thiệu & tiền đánh giá học bổng trực tuyến cho kỳ 2027; nộp hồ sơ và đóng phí trước 31/12/2026 được tham gia đào tạo học bổng từ tháng 1/2027. Đăng ký qua tư vấn viên Talented."
+     "notes": "Áp dụng trong thời gian tối thiểu của khóa học, không ràng buộc. Có buổi giới thiệu & tiền đánh giá học bổng trực tuyến cho kỳ 2027; nộp hồ sơ và đóng phí trước 31/12/2026 được tham gia đào tạo học bổng từ tháng 1/2027. Đăng ký qua tư vấn viên Talented. Hồ sơ (scan, nén zip): bằng/bảng điểm/học bạ (+ bản dịch tiếng Anh), chứng chỉ tiếng Anh (IELTS/TOEFL/PTE...), giấy chứng nhận hoạt động/giải thưởng (nếu có), personal statement, hộ chiếu và xác nhận nộp hồ sơ Diploma SIM."
     },
     "zh": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4067,7 +4067,7 @@
      "eligibility": "就读 SIM Diploma 的新国际学生，高中/Year 12 成绩优异。Academic Excellence：领导力、人际与沟通能力强；Merit：沟通能力良好。",
      "english_test": "SIM Diploma entry requirements",
      "intake": "2027 年 4 月（2027 年 10 月入学：2027 年 4 月 1 日至 6 月 30 日申请）",
-     "notes": "在课程最短学制内有效，无服务约束。2027 入学有线上奖学金说明会与预评估；2026 年 12 月 31 日前申请并缴纳申请费者可参加 2027 年 1 月起的奖学金培训。请通过 Talented 顾问申请。"
+     "notes": "在课程最短学制内有效，无服务约束。2027 入学有线上奖学金说明会与预评估；2026 年 12 月 31 日前申请并缴纳申请费者可参加 2027 年 1 月起的奖学金培训。请通过 Talented 顾问申请。 材料（扫描并压缩）：证书/成绩单（附英文翻译）、英语证明（IELTS/TOEFL/PTE 等）、课外活动/奖项证书（如有）、personal statement、护照及 SIM Diploma 申请确认。"
     },
     "ja": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4079,7 +4079,7 @@
      "eligibility": "SIM の Diploma に入学する新規留学生で、高校／Year 12 の成績が優秀な人。Academic Excellence：リーダーシップ・対人・コミュニケーション力。Merit：コミュニケーション力。",
      "english_test": "SIM Diploma entry requirements",
      "intake": "2027年4月（2027年10月入学は 2027年4月1日〜6月30日に申請）",
-     "notes": "最短修業期間中有効、義務なし。2027年入学向けにオンライン説明会・事前審査あり。2026年12月31日までに出願し出願料を支払うと 2027年1月からの奨学金トレーニングに参加可能。Talented のコンサルタント経由で申請。"
+     "notes": "最短修業期間中有効、義務なし。2027年入学向けにオンライン説明会・事前審査あり。2026年12月31日までに出願し出願料を支払うと 2027年1月からの奨学金トレーニングに参加可能。Talented のコンサルタント経由で申請。 書類（スキャンして zip）：卒業証書・成績証明書（英訳付き）、英語力証明（IELTS/TOEFL/PTE 等）、課外活動・受賞の証明（あれば）、personal statement、パスポート、SIM Diploma 出願受付の確認書。"
     },
     "ko": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4091,7 +4091,7 @@
      "eligibility": "SIM Diploma 과정 신입 국제학생, 고교/Year 12 성적 우수. Academic Excellence: 리더십·대인관계·의사소통 능력 우수. Merit: 의사소통 능력 양호.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "2027년 4월 (2027년 10월 입학: 2027년 4월 1일~6월 30일 신청)",
-     "notes": "최소 과정 기간 동안 유효, 의무 복무 없음. 2027년 입학 대상 온라인 장학 설명회·사전 평가가 있으며 2026년 12월 31일까지 지원하고 지원비를 내면 2027년 1월부터 장학 트레이닝 참여 가능. Talented 상담사를 통해 지원."
+     "notes": "최소 과정 기간 동안 유효, 의무 복무 없음. 2027년 입학 대상 온라인 장학 설명회·사전 평가가 있으며 2026년 12월 31일까지 지원하고 지원비를 내면 2027년 1월부터 장학 트레이닝 참여 가능. Talented 상담사를 통해 지원. 서류(스캔 후 zip): 졸업장/성적증명서(영문 번역 포함), 영어 증빙(IELTS/TOEFL/PTE 등), 활동/수상 증명서(있는 경우), personal statement, 여권, SIM Diploma 지원 접수 확인서."
     },
     "km": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4103,7 +4103,7 @@
      "eligibility": "សិស្សអន្តរជាតិថ្មីក្នុងកម្មវិធី Diploma SIM មានលទ្ធផលវិទ្យាល័យ/Year 12 ល្អឥតខ្ចោះ។ Academic Excellence៖ ភាពជាអ្នកដឹកនាំ និងការទំនាក់ទំនងល្អ។ Merit៖ ការទំនាក់ទំនងល្អ។",
      "english_test": "SIM Diploma entry requirements",
      "intake": "មេសា 2027 (វគ្គបន្ទាប់សម្រាប់តុលា 2027៖ 1 មេសា - 30 មិថុនា 2027)",
-     "notes": "មានសុពលភាពក្នុងរយៈពេលអប្បបរមានៃវគ្គ គ្មានកាតព្វកិច្ច។ មានវគ្គណែនាំ និងវាយតម្លៃមុនតាមអនឡាញសម្រាប់ឆ្នាំ 2027; ដាក់ពាក្យ និងបង់ថ្លៃមុន 31 ធ្នូ 2026 អាចចូលវគ្គបណ្តុះបណ្តាលពីមករា 2027។ ដាក់ពាក្យតាមអ្នកប្រឹក្សា Talented។"
+     "notes": "មានសុពលភាពក្នុងរយៈពេលអប្បបរមានៃវគ្គ គ្មានកាតព្វកិច្ច។ មានវគ្គណែនាំ និងវាយតម្លៃមុនតាមអនឡាញសម្រាប់ឆ្នាំ 2027; ដាក់ពាក្យ និងបង់ថ្លៃមុន 31 ធ្នូ 2026 អាចចូលវគ្គបណ្តុះបណ្តាលពីមករា 2027។ ដាក់ពាក្យតាមអ្នកប្រឹក្សា Talented។ ឯកសារ (ស្កេន និង zip)៖ សញ្ញាបត្រ/ព្រឹត្តិបត្រពិន្ទុ (+ ការបកប្រែជាភាសាអង់គ្លេស), ភស្តុតាងភាសាអង់គ្លេស (IELTS/TOEFL/PTE ។ល។), វិញ្ញាបនបត្រសកម្មភាព/រង្វាន់ (បើមាន), personal statement, លិខិតឆ្លងដែន និងភស្តុតាងនៃការដាក់ពាក្យ Diploma របស់ SIM។"
     },
     "fr": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4115,7 +4115,7 @@
      "eligibility": "Nouveaux étudiants internationaux en Diploma SIM avec d’excellents résultats au lycée/Year 12. Academic Excellence : leadership et communication solides. Merit : bonne communication.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Avril 2027 (prochaine période pour octobre 2027 : 1er avr. - 30 juin 2027)",
-     "notes": "Valable pour la durée minimale du cours, sans engagement. Briefing et pré-évaluation en ligne pour la rentrée 2027 ; candidature et frais payés avant le 31/12/2026 = formation bourse dès janvier 2027. Candidature via votre conseiller Talented."
+     "notes": "Valable pour la durée minimale du cours, sans engagement. Briefing et pré-évaluation en ligne pour la rentrée 2027 ; candidature et frais payés avant le 31/12/2026 = formation bourse dès janvier 2027. Candidature via votre conseiller Talented. Documents (scannés, zippés) : diplômes/relevés de notes (+ traduction anglaise), preuve d’anglais (IELTS/TOEFL/PTE etc.), attestations d’activités/prix (le cas échéant), personal statement, passeport et accusé de candidature au Diploma SIM."
     },
     "pt": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4127,7 +4127,7 @@
      "eligibility": "Novos alunos internacionais de Diploma no SIM com ótimas notas no ensino médio/Year 12. Academic Excellence: liderança e comunicação fortes. Merit: boa comunicação.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Abril de 2027 (próxima janela para outubro de 2027: 1 abr - 30 jun 2027)",
-     "notes": "Válida pela duração mínima do curso, sem vínculo. Há briefing e pré-avaliação online para 2027; quem se inscrever e pagar a taxa até 31/12/2026 participa do treinamento a partir de janeiro de 2027. Inscreva-se pelo consultor Talented."
+     "notes": "Válida pela duração mínima do curso, sem vínculo. Há briefing e pré-avaliação online para 2027; quem se inscrever e pagar a taxa até 31/12/2026 participa do treinamento a partir de janeiro de 2027. Inscreva-se pelo consultor Talented. Documentos (digitalizados, em zip): diplomas/históricos (+ tradução em inglês), comprovante de inglês (IELTS/TOEFL/PTE etc.), certificados de atividades/prêmios (se houver), personal statement, passaporte e confirmação da candidatura ao Diploma SIM."
     },
     "es": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4139,7 +4139,7 @@
      "eligibility": "Nuevos estudiantes internacionales de Diploma en SIM con excelentes notas de secundaria/Year 12. Academic Excellence: liderazgo y comunicación sólidos. Merit: buena comunicación.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Abril 2027 (siguiente plazo para octubre 2027: 1 abr - 30 jun 2027)",
-     "notes": "Válida durante la duración mínima del curso, sin compromiso. Hay sesión informativa y preevaluación en línea para 2027; quien postule y pague la tasa antes del 31/12/2026 accede a la formación desde enero 2027. Postula con tu asesor Talented."
+     "notes": "Válida durante la duración mínima del curso, sin compromiso. Hay sesión informativa y preevaluación en línea para 2027; quien postule y pague la tasa antes del 31/12/2026 accede a la formación desde enero 2027. Postula con tu asesor Talented. Documentos (escaneados, en zip): títulos/expedientes (+ traducción al inglés), prueba de inglés (IELTS/TOEFL/PTE etc.), certificados de actividades/premios (si los hay), personal statement, pasaporte y acuse de la solicitud al Diploma de SIM."
     },
     "de": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4151,7 +4151,7 @@
      "eligibility": "Neue internationale Diploma-Studierende am SIM mit sehr guten Schulnoten/Year 12. Academic Excellence: starke Führungs- und Kommunikationsfähigkeit. Merit: gute Kommunikation.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "April 2027 (nächstes Fenster für Oktober 2027: 1. Apr. - 30. Juni 2027)",
-     "notes": "Gilt für die Mindestdauer des Kurses, ohne Bindung. Online-Briefing & Vorprüfung für 2027; wer bis 31.12.2026 bewirbt und die Gebühr zahlt, nimmt ab Januar 2027 am Stipendientraining teil. Bewerbung über deine Talented-Beratung."
+     "notes": "Gilt für die Mindestdauer des Kurses, ohne Bindung. Online-Briefing & Vorprüfung für 2027; wer bis 31.12.2026 bewirbt und die Gebühr zahlt, nimmt ab Januar 2027 am Stipendientraining teil. Bewerbung über deine Talented-Beratung. Unterlagen (gescannt, gezippt): Zeugnisse/Notenübersichten (+ englische Übersetzung), Englischnachweis (IELTS/TOEFL/PTE usw.), Nachweise über Aktivitäten/Auszeichnungen (falls vorhanden), Personal Statement, Reisepass und Bestätigung der SIM-Diploma-Bewerbung."
     },
     "it": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4163,7 +4163,7 @@
      "eligibility": "Nuovi studenti internazionali di Diploma SIM con ottimi voti delle superiori/Year 12. Academic Excellence: leadership e comunicazione forti. Merit: buona comunicazione.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Aprile 2027 (prossima finestra per ottobre 2027: 1 apr - 30 giu 2027)",
-     "notes": "Valida per la durata minima del corso, senza vincoli. Briefing e pre-valutazione online per il 2027; chi si candida e paga la tassa entro il 31/12/2026 accede alla formazione da gennaio 2027. Candidati tramite il tuo consulente Talented."
+     "notes": "Valida per la durata minima del corso, senza vincoli. Briefing e pre-valutazione online per il 2027; chi si candida e paga la tassa entro il 31/12/2026 accede alla formazione da gennaio 2027. Candidati tramite il tuo consulente Talented. Documenti (scansionati, in zip): diplomi/pagelle (+ traduzione in inglese), certificazione d’inglese (IELTS/TOEFL/PTE ecc.), attestati di attività/premi (se presenti), personal statement, passaporto e conferma della domanda al Diploma SIM."
     },
     "nl": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4175,7 +4175,7 @@
      "eligibility": "Nieuwe internationale Diploma-studenten bij SIM met uitstekende middelbare-schoolcijfers/Year 12. Academic Excellence: sterk leiderschap en communicatie. Merit: goede communicatie.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "April 2027 (volgende periode voor oktober 2027: 1 apr - 30 jun 2027)",
-     "notes": "Geldig voor de minimale cursusduur, zonder verplichting. Online briefing & pre-assessment voor 2027; wie vóór 31-12-2026 aanmeldt en het inschrijfgeld betaalt, volgt vanaf januari 2027 de beurstraining. Aanmelden via je Talented-consulent."
+     "notes": "Geldig voor de minimale cursusduur, zonder verplichting. Online briefing & pre-assessment voor 2027; wie vóór 31-12-2026 aanmeldt en het inschrijfgeld betaalt, volgt vanaf januari 2027 de beurstraining. Aanmelden via je Talented-consulent. Documenten (gescand, gezipt): diploma's/cijferlijsten (+ Engelse vertaling), bewijs Engels (IELTS/TOEFL/PTE enz.), certificaten van activiteiten/prijzen (indien van toepassing), personal statement, paspoort en ontvangstbevestiging van de SIM-Diploma-aanvraag."
     },
     "ru": {
      "name": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%)",
@@ -4187,7 +4187,7 @@
      "eligibility": "Новые иностранные студенты Diploma в SIM с отличными школьными оценками/Year 12. Academic Excellence: лидерство и коммуникация. Merit: хорошая коммуникация.",
      "english_test": "SIM Diploma entry requirements",
      "intake": "Апрель 2027 (следующий приём на октябрь 2027: 1 апр. - 30 июня 2027)",
-     "notes": "Действует в течение минимального срока курса, без обязательств. Онлайн-брифинг и предварительная оценка для набора 2027; подавшие заявку и оплатившие сбор до 31.12.2026 участвуют в подготовке с января 2027. Подача через консультанта Talented."
+     "notes": "Действует в течение минимального срока курса, без обязательств. Онлайн-брифинг и предварительная оценка для набора 2027; подавшие заявку и оплатившие сбор до 31.12.2026 участвуют в подготовке с января 2027. Подача через консультанта Talented. Документы (скан, zip): аттестаты/выписки оценок (+ перевод на английский), подтверждение английского (IELTS/TOEFL/PTE и др.), сертификаты активностей/наград (если есть), personal statement, паспорт и подтверждение подачи заявки на Diploma SIM."
     }
    }
   },
@@ -4211,7 +4211,7 @@
    "deadline": "",
    "intake": "Periode aplikasi Maret & September 2027",
    "url": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
-   "source_checked": "2026-11-20",
+   "source_checked": "2026-11-21",
    "partner": true,
    "notes": "Tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented.",
    "i18n": {
@@ -4576,6 +4576,394 @@
      "english_test": "University of Birmingham MBA entry requirements at SIM",
      "intake": "Январь",
      "notes": "Application dates for the January 2027 intake are not yet listed on the official site; ask your Talented consultant."
+    }
+   }
+  },
+  {
+   "id": "sg-sim-asean-impact-award",
+   "name": "SIM ASEAN Impact Award",
+   "provider": "Singapore Institute of Management (SIM)",
+   "type": "Kampus / Sekolah",
+   "country": "Singapura",
+   "levels": [
+    "S1"
+   ],
+   "fields": "Program sarjana (undergraduate) di SIM",
+   "funding": "Sebagian",
+   "coverage": "Bantuan dana S$3.000 untuk mahasiswa sarjana baru dari negara ASEAN (selain Singapura)",
+   "amount": "S$3.000",
+   "eligibility": "Mahasiswa baru S1 di SIM dari Brunei, Myanmar, Kamboja, Indonesia, Laos, Malaysia, Filipina, Thailand atau Vietnam; sudah terdaftar dan mulai kuliah; nilai SMA/ujian nasional baik; pengalaman/kualitas kepemimpinan.",
+   "english_test": "Sesuai syarat masuk program sarjana SIM",
+   "status": "Buka",
+   "open_date": "",
+   "deadline": "",
+   "intake": "Mahasiswa baru sarjana SIM 2027",
+   "url": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "source_checked": "2026-11-21",
+   "partner": true,
+   "notes": "Tidak perlu mendaftar beasiswa: seleksi berdasarkan prestasi akademik, kandidat terpilih diundang wawancara. Daftar program sarjana SIM lewat konsultan Talented.",
+   "i18n": {
+    "en": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Undergraduate programmes at SIM",
+     "coverage": "S$3,000 financial assistance for new undergraduate students from ASEAN countries (excluding Singapore)",
+     "amount": "S$3,000",
+     "eligibility": "New SIM undergraduate students from Brunei, Myanmar, Cambodia, Indonesia, Laos, Malaysia, the Philippines, Thailand or Vietnam; enrolled and started classes; good high school/national exam results; leadership qualities/experience.",
+     "english_test": "As per SIM undergraduate entry requirements",
+     "intake": "New SIM undergraduate students 2027",
+     "notes": "No scholarship application needed: selection is based on academic merit and shortlisted candidates are invited to an interview. Apply for a SIM degree through your Talented consultant."
+    },
+    "th": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "สิงคโปร์",
+     "fields": "หลักสูตรปริญญาตรีที่ SIM",
+     "coverage": "เงินช่วยเหลือ S$3,000 สำหรับนักศึกษาปริญญาตรีใหม่จากประเทศอาเซียน (ยกเว้นสิงคโปร์)",
+     "amount": "S$3,000",
+     "eligibility": "นักศึกษาปริญญาตรีใหม่ของ SIM จากบรูไน เมียนมา กัมพูชา อินโดนีเซีย ลาว มาเลเซีย ฟิลิปปินส์ ไทย หรือเวียดนาม ที่ลงทะเบียนและเริ่มเรียนแล้ว ผลการเรียนมัธยม/สอบระดับชาติดี และมีภาวะผู้นำ",
+     "english_test": "ตามเกณฑ์รับเข้าปริญญาตรีของ SIM",
+     "intake": "นักศึกษาปริญญาตรีใหม่ของ SIM ปี 2027",
+     "notes": "ไม่ต้องสมัครทุน: คัดเลือกจากผลการเรียน ผู้ผ่านการคัดเลือกเบื้องต้นจะได้รับเชิญสัมภาษณ์ สมัครเรียนปริญญาตรี SIM ผ่านที่ปรึกษา Talented"
+    },
+    "vi": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Chương trình cử nhân tại SIM",
+     "coverage": "Hỗ trợ tài chính S$3.000 cho sinh viên cử nhân mới đến từ các nước ASEAN (trừ Singapore)",
+     "amount": "S$3.000",
+     "eligibility": "Sinh viên cử nhân mới của SIM đến từ Brunei, Myanmar, Campuchia, Indonesia, Lào, Malaysia, Philippines, Thái Lan hoặc Việt Nam; đã nhập học và bắt đầu học; kết quả THPT/kỳ thi quốc gia tốt; có tố chất/kinh nghiệm lãnh đạo.",
+     "english_test": "Theo yêu cầu đầu vào cử nhân của SIM",
+     "intake": "Sinh viên cử nhân mới SIM 2027",
+     "notes": "Không cần nộp đơn học bổng: xét theo thành tích học tập, ứng viên được chọn sẽ được mời phỏng vấn. Đăng ký chương trình cử nhân SIM qua tư vấn viên Talented."
+    },
+    "zh": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "新加坡",
+     "fields": "SIM 本科课程",
+     "coverage": "为来自东盟国家（新加坡除外）的本科新生提供 S$3,000 资助",
+     "amount": "S$3,000",
+     "eligibility": "来自文莱、缅甸、柬埔寨、印尼、老挝、马来西亚、菲律宾、泰国或越南的 SIM 本科新生；已注册并开始上课；高中/全国考试成绩良好；具备领导素质/经验。",
+     "english_test": "按 SIM 本科入学要求",
+     "intake": "2027 年 SIM 本科新生",
+     "notes": "无需申请：按学业成绩评选，入围者将受邀面试。请通过 Talented 顾问申请 SIM 本科课程。"
+    },
+    "ja": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "シンガポール",
+     "fields": "SIM の学士課程",
+     "coverage": "ASEAN 諸国（シンガポールを除く）出身の学士新入生に S$3,000 の支援",
+     "amount": "S$3,000",
+     "eligibility": "ブルネイ、ミャンマー、カンボジア、インドネシア、ラオス、マレーシア、フィリピン、タイ、ベトナム出身の SIM 学士新入生で、入学・授業開始済み、高校／全国試験の成績が良好、リーダーシップの資質・経験がある人。",
+     "english_test": "SIM 学士課程の入学要件に準拠",
+     "intake": "2027年 SIM 学士新入生",
+     "notes": "奨学金の申請は不要：学業成績で選考し、候補者は面接に招待されます。SIM 学士課程へは Talented のコンサルタント経由で出願。"
+    },
+    "ko": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "싱가포르",
+     "fields": "SIM 학사 과정",
+     "coverage": "아세안 국가(싱가포르 제외) 출신 학사 신입생에게 S$3,000 지원",
+     "amount": "S$3,000",
+     "eligibility": "브루나이, 미얀마, 캄보디아, 인도네시아, 라오스, 말레이시아, 필리핀, 태국 또는 베트남 출신 SIM 학사 신입생; 등록 후 수업 시작; 고교/국가시험 성적 우수; 리더십 자질/경험.",
+     "english_test": "SIM 학사 입학 요건에 따름",
+     "intake": "2027년 SIM 학사 신입생",
+     "notes": "장학금 신청 불필요: 학업 성적으로 선발하며 후보자는 면접에 초대됩니다. SIM 학사 과정은 Talented 컨설턴트를 통해 지원하세요."
+    },
+    "km": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "សិង្ហបុរី",
+     "fields": "កម្មវិធីបរិញ្ញាបត្រនៅ SIM",
+     "coverage": "ជំនួយហិរញ្ញវត្ថុ S$3,000 សម្រាប់និស្សិតបរិញ្ញាបត្រថ្មីមកពីប្រទេសអាស៊ាន (លើកលែងសិង្ហបុរី)",
+     "amount": "S$3,000",
+     "eligibility": "និស្សិតបរិញ្ញាបត្រថ្មីរបស់ SIM មកពីព្រុយណេ មីយ៉ាន់ម៉ា កម្ពុជា ឥណ្ឌូនេស៊ី ឡាវ ម៉ាឡេស៊ី ហ្វីលីពីន ថៃ ឬវៀតណាម ដែលបានចុះឈ្មោះ និងចាប់ផ្តើមរៀន មានលទ្ធផលវិទ្យាល័យ/ប្រឡងជាតិល្អ និងមានភាពជាអ្នកដឹកនាំ។",
+     "english_test": "តាមលក្ខខណ្ឌចូលរៀនបរិញ្ញាបត្ររបស់ SIM",
+     "intake": "និស្សិតបរិញ្ញាបត្រថ្មី SIM ឆ្នាំ 2027",
+     "notes": "មិនចាំបាច់ដាក់ពាក្យអាហារូបករណ៍៖ ជ្រើសរើសតាមលទ្ធផលសិក្សា បេក្ខជនដែលជាប់នឹងត្រូវអញ្ជើញសម្ភាសន៍។ ដាក់ពាក្យបរិញ្ញាបត្រ SIM តាមរយៈទីប្រឹក្សា Talented។"
+    },
+    "fr": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapour",
+     "fields": "Programmes de licence (undergraduate) à SIM",
+     "coverage": "Aide financière de S$3 000 pour les nouveaux étudiants de licence des pays de l’ASEAN (hors Singapour)",
+     "amount": "S$3 000",
+     "eligibility": "Nouveaux étudiants de licence à SIM venant de Brunei, Myanmar, Cambodge, Indonésie, Laos, Malaisie, Philippines, Thaïlande ou Vietnam ; inscrits et ayant commencé les cours ; bons résultats au lycée/examen national ; qualités/expérience de leadership.",
+     "english_test": "Selon les conditions d’admission en licence de SIM",
+     "intake": "Nouveaux étudiants de licence SIM 2027",
+     "notes": "Aucune candidature requise : sélection sur le mérite académique, les candidats présélectionnés sont invités à un entretien. Candidature au programme SIM via votre conseiller Talented."
+    },
+    "pt": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapura",
+     "fields": "Programas de graduação na SIM",
+     "coverage": "Auxílio financeiro de S$3.000 para novos alunos de graduação de países da ASEAN (exceto Singapura)",
+     "amount": "S$3.000",
+     "eligibility": "Novos alunos de graduação da SIM de Brunei, Mianmar, Camboja, Indonésia, Laos, Malásia, Filipinas, Tailândia ou Vietnã; matriculados e com aulas iniciadas; bons resultados no ensino médio/exame nacional; qualidades/experiência de liderança.",
+     "english_test": "Conforme os requisitos de admissão da graduação da SIM",
+     "intake": "Novos alunos de graduação SIM 2027",
+     "notes": "Não é preciso se candidatar à bolsa: seleção por mérito acadêmico e pré-selecionados são convidados para entrevista. Candidate-se à graduação SIM pelo consultor Talented."
+    },
+    "es": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapur",
+     "fields": "Programas de grado en SIM",
+     "coverage": "Ayuda económica de S$3.000 para nuevos estudiantes de grado de países de la ASEAN (excepto Singapur)",
+     "amount": "S$3.000",
+     "eligibility": "Nuevos estudiantes de grado de SIM de Brunéi, Myanmar, Camboya, Indonesia, Laos, Malasia, Filipinas, Tailandia o Vietnam; matriculados y con clases iniciadas; buenos resultados de secundaria/examen nacional; cualidades/experiencia de liderazgo.",
+     "english_test": "Según los requisitos de admisión de grado de SIM",
+     "intake": "Nuevos estudiantes de grado SIM 2027",
+     "notes": "No hace falta solicitar la beca: la selección es por mérito académico y los preseleccionados son invitados a una entrevista. Solicita el grado SIM con tu consultor Talented."
+    },
+    "de": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapur",
+     "fields": "Bachelorprogramme an der SIM",
+     "coverage": "Finanzielle Unterstützung von S$3.000 für neue Bachelorstudierende aus ASEAN-Ländern (außer Singapur)",
+     "amount": "S$3.000",
+     "eligibility": "Neue Bachelorstudierende der SIM aus Brunei, Myanmar, Kambodscha, Indonesien, Laos, Malaysia, den Philippinen, Thailand oder Vietnam; eingeschrieben und Studienbeginn erfolgt; gute Schul-/Abschlussprüfungsnoten; Führungsqualitäten/-erfahrung.",
+     "english_test": "Gemäß den Zulassungsvoraussetzungen der SIM für Bachelorprogramme",
+     "intake": "Neue SIM-Bachelorstudierende 2027",
+     "notes": "Keine Stipendienbewerbung nötig: Auswahl nach akademischer Leistung, Kandidaten der engeren Wahl werden zum Gespräch eingeladen. Bewerbung für das SIM-Studium über Ihre Talented-Beratung."
+    },
+    "it": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Corsi di laurea triennale presso SIM",
+     "coverage": "Contributo di S$3.000 per nuovi studenti di laurea dei paesi ASEAN (esclusa Singapore)",
+     "amount": "S$3.000",
+     "eligibility": "Nuovi studenti di laurea SIM provenienti da Brunei, Myanmar, Cambogia, Indonesia, Laos, Malesia, Filippine, Thailandia o Vietnam; iscritti e con lezioni iniziate; buoni risultati scolastici/esame nazionale; doti/esperienza di leadership.",
+     "english_test": "Secondo i requisiti di ammissione ai corsi di laurea SIM",
+     "intake": "Nuovi studenti di laurea SIM 2027",
+     "notes": "Nessuna domanda di borsa richiesta: selezione per merito accademico, i candidati preselezionati sono invitati a un colloquio. Iscriviti a SIM tramite il tuo consulente Talented."
+    },
+    "nl": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Bacheloropleidingen bij SIM",
+     "coverage": "Financiële steun van S$3.000 voor nieuwe bachelorstudenten uit ASEAN-landen (behalve Singapore)",
+     "amount": "S$3.000",
+     "eligibility": "Nieuwe bachelorstudenten van SIM uit Brunei, Myanmar, Cambodja, Indonesië, Laos, Maleisië, de Filipijnen, Thailand of Vietnam; ingeschreven en met de lessen begonnen; goede middelbare school-/eindexamenresultaten; leiderschapskwaliteiten/-ervaring.",
+     "english_test": "Volgens de toelatingseisen voor bacheloropleidingen van SIM",
+     "intake": "Nieuwe SIM-bachelorstudenten 2027",
+     "notes": "Geen beursaanvraag nodig: selectie op academische prestaties, geselecteerde kandidaten worden uitgenodigd voor een gesprek. Meld je aan voor SIM via je Talented-consulent."
+    },
+    "ru": {
+     "name": "SIM ASEAN Impact Award",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Сингапур",
+     "fields": "Программы бакалавриата в SIM",
+     "coverage": "Финансовая помощь S$3 000 новым студентам бакалавриата из стран АСЕАН (кроме Сингапура)",
+     "amount": "S$3 000",
+     "eligibility": "Новые студенты бакалавриата SIM из Брунея, Мьянмы, Камбоджи, Индонезии, Лаоса, Малайзии, Филиппин, Таиланда или Вьетнама; зачислены и начали занятия; хорошие школьные/национальные экзаменационные оценки; лидерские качества/опыт.",
+     "english_test": "Согласно требованиям SIM для бакалавриата",
+     "intake": "Новые студенты бакалавриата SIM 2027",
+     "notes": "Заявка на стипендию не нужна: отбор по успеваемости, кандидаты из шорт-листа приглашаются на собеседование. Поступление в SIM через консультанта Talented."
+    }
+   }
+  },
+  {
+   "id": "sg-sim-uob-msc-scholarship-2027",
+   "name": "SIM-University of Birmingham MSc Scholarship 2027",
+   "provider": "Singapore Institute of Management (SIM)",
+   "type": "Kampus / Sekolah",
+   "country": "Singapura",
+   "levels": [
+    "S2"
+   ],
+   "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham di SIM)",
+   "funding": "Sebagian",
+   "coverage": "Beasiswa SGD 5.500 untuk mahasiswa baru MSc University of Birmingham di SIM tahun akademik 2027-2028",
+   "amount": "SGD 5.500",
+   "eligibility": "Pelamar baru MSc University of Birmingham yang sudah mendapat tempat di SIM; S1 bidang apa pun dengan predikat First Class atau Upper Second-Class Honours (atau setara). Disarankan ikut pra-asesmen dengan Academic Director sebelum mendaftar.",
+   "english_test": "IELTS overall 6.5 (no band <6.0)",
+   "status": "Buka",
+   "open_date": "",
+   "deadline": "2027-07-01",
+   "intake": "Oktober 2027",
+   "url": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "source_checked": "2026-11-21",
+   "partner": true,
+   "notes": "Batas aplikasi beasiswa 1 Juli 2027 untuk intake Oktober 2027. Semua program Master SIM terbuka untuk pra-asesmen langsung. Daftar lewat konsultan Talented.",
+   "i18n": {
+    "en": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham at SIM)",
+     "coverage": "SGD 5,500 scholarship for new University of Birmingham MSc students at SIM, academic year 2027-2028",
+     "amount": "SGD 5,500",
+     "eligibility": "New applicants to University of Birmingham MSc programmes who have been offered a place at SIM; bachelor's degree in any discipline with First Class or Upper Second-Class Honours (or equivalent). A pre-assessment with the Academic Director is recommended before applying.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "October 2027",
+     "notes": "Scholarship cut-off 1 July 2027 for the October 2027 intake. All SIM Master's programmes are open for direct pre-assessment. Apply through your Talented consultant."
+    },
+    "th": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "สิงคโปร์",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham ที่ SIM)",
+     "coverage": "ทุน SGD 5,500 สำหรับนักศึกษาใหม่ MSc University of Birmingham ที่ SIM ปีการศึกษา 2027-2028",
+     "amount": "SGD 5,500",
+     "eligibility": "ผู้สมัครใหม่หลักสูตร MSc University of Birmingham ที่ได้รับที่เรียนที่ SIM แล้ว; ปริญญาตรีสาขาใดก็ได้ เกียรตินิยมอันดับหนึ่งหรืออันดับสอง (Upper Second) หรือเทียบเท่า แนะนำให้ประเมินเบื้องต้นกับ Academic Director ก่อนสมัคร",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "ตุลาคม 2027",
+     "notes": "ปิดรับสมัครทุน 1 กรกฎาคม 2027 สำหรับรอบตุลาคม 2027 ทุกหลักสูตร Master ของ SIM เปิดให้ประเมินเบื้องต้นโดยตรง สมัครผ่านที่ปรึกษา Talented"
+    },
+    "vi": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham tại SIM)",
+     "coverage": "Học bổng SGD 5.500 cho sinh viên mới MSc University of Birmingham tại SIM, năm học 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Ứng viên mới chương trình MSc University of Birmingham đã nhận được thư mời học tại SIM; bằng cử nhân bất kỳ ngành nào loại First Class hoặc Upper Second-Class Honours (hoặc tương đương). Nên làm đánh giá sơ bộ với Academic Director trước khi nộp hồ sơ.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Tháng 10/2027",
+     "notes": "Hạn chót học bổng 1/7/2027 cho kỳ nhập học tháng 10/2027. Tất cả chương trình Master của SIM đều mở đánh giá sơ bộ trực tiếp. Đăng ký qua tư vấn viên Talented."
+    },
+    "zh": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "新加坡",
+     "fields": "Master of Science Financial Management / Master of Science International Business（SIM 的 University of Birmingham 课程）",
+     "coverage": "为 2027-2028 学年在 SIM 就读 University of Birmingham MSc 的新生提供 SGD 5,500 奖学金",
+     "amount": "SGD 5,500",
+     "eligibility": "已获 SIM 录取的 University of Birmingham MSc 新申请人；任何专业的学士学位，一等或二等一荣誉学位（或同等学历）。建议申请前先与 Academic Director 进行预评估。",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "2027 年 10 月",
+     "notes": "2027 年 10 月入学的奖学金截止日期为 2027 年 7 月 1 日。SIM 所有硕士课程均可直接预评估。请通过 Talented 顾问申请。"
+    },
+    "ja": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "シンガポール",
+     "fields": "Master of Science Financial Management / Master of Science International Business（SIM の University of Birmingham）",
+     "coverage": "2027-2028 学年に SIM で University of Birmingham MSc に入学する新入生に SGD 5,500 の奨学金",
+     "amount": "SGD 5,500",
+     "eligibility": "SIM から入学許可を得た University of Birmingham MSc の新規出願者。専攻不問の学士号で First Class または Upper Second-Class Honours（または同等）。出願前に Academic Director との事前審査を推奨。",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "2027年10月",
+     "notes": "2027年10月入学の奨学金締切は 2027年7月1日。SIM の全 Master プログラムで直接の事前審査が可能。Talented のコンサルタント経由で申請。"
+    },
+    "ko": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "싱가포르",
+     "fields": "Master of Science Financial Management / Master of Science International Business (SIM의 University of Birmingham)",
+     "coverage": "2027-2028 학년도 SIM의 University of Birmingham MSc 신입생에게 SGD 5,500 장학금",
+     "amount": "SGD 5,500",
+     "eligibility": "SIM 입학 허가를 받은 University of Birmingham MSc 신규 지원자; 전공 무관 학사 학위 First Class 또는 Upper Second-Class Honours(또는 동등). 지원 전 Academic Director와 사전 평가를 권장합니다.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "2027년 10월",
+     "notes": "2027년 10월 입학 장학금 마감은 2027년 7월 1일. SIM의 모든 Master 과정은 직접 사전 평가 가능. Talented 컨설턴트를 통해 지원하세요."
+    },
+    "km": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "សិង្ហបុរី",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham នៅ SIM)",
+     "coverage": "អាហារូបករណ៍ SGD 5,500 សម្រាប់និស្សិតថ្មី MSc University of Birmingham នៅ SIM ឆ្នាំសិក្សា 2027-2028",
+     "amount": "SGD 5,500",
+     "eligibility": "អ្នកដាក់ពាក្យថ្មីសម្រាប់ MSc University of Birmingham ដែលទទួលបានកន្លែងសិក្សានៅ SIM; បរិញ្ញាបត្រជំនាញណាមួយ First Class ឬ Upper Second-Class Honours (ឬស្មើ)។ គួរធ្វើការវាយតម្លៃបឋមជាមួយ Academic Director មុនដាក់ពាក្យ។",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "ខែតុលា 2027",
+     "notes": "ផុតកំណត់អាហារូបករណ៍ 1 កក្កដា 2027 សម្រាប់វគ្គខែតុលា 2027។ កម្មវិធី Master ទាំងអស់របស់ SIM បើកការវាយតម្លៃបឋមផ្ទាល់។ ដាក់ពាក្យតាមរយៈទីប្រឹក្សា Talented។"
+    },
+    "fr": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapour",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham à SIM)",
+     "coverage": "Bourse de SGD 5 500 pour les nouveaux étudiants MSc de l’University of Birmingham à SIM, année 2027-2028",
+     "amount": "SGD 5 500",
+     "eligibility": "Nouveaux candidats aux MSc de l’University of Birmingham ayant reçu une offre de SIM ; licence dans toute discipline avec First Class ou Upper Second-Class Honours (ou équivalent). Une pré-évaluation avec l’Academic Director est recommandée avant de postuler.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Octobre 2027",
+     "notes": "Date limite de la bourse : 1er juillet 2027 pour la rentrée d’octobre 2027. Tous les Masters SIM sont ouverts à la pré-évaluation directe. Candidature via votre conseiller Talented."
+    },
+    "pt": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapura",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham na SIM)",
+     "coverage": "Bolsa de SGD 5.500 para novos alunos de MSc da University of Birmingham na SIM, ano letivo 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Novos candidatos aos MSc da University of Birmingham com vaga oferecida pela SIM; bacharelado em qualquer área com First Class ou Upper Second-Class Honours (ou equivalente). Recomenda-se uma pré-avaliação com o Academic Director antes de se candidatar.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Outubro de 2027",
+     "notes": "Prazo da bolsa: 1º de julho de 2027 para o ingresso de outubro de 2027. Todos os mestrados da SIM aceitam pré-avaliação direta. Candidate-se pelo consultor Talented."
+    },
+    "es": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapur",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham en SIM)",
+     "coverage": "Beca de SGD 5.500 para nuevos estudiantes de MSc de la University of Birmingham en SIM, curso 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Nuevos solicitantes de MSc de la University of Birmingham con plaza ofrecida en SIM; grado en cualquier disciplina con First Class o Upper Second-Class Honours (o equivalente). Se recomienda una preevaluación con el Academic Director antes de solicitar.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Octubre de 2027",
+     "notes": "Fecha límite de la beca: 1 de julio de 2027 para el ingreso de octubre de 2027. Todos los másteres de SIM admiten preevaluación directa. Solicítala con tu consultor Talented."
+    },
+    "de": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapur",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham an der SIM)",
+     "coverage": "Stipendium von SGD 5.500 für neue MSc-Studierende der University of Birmingham an der SIM, Studienjahr 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Neue Bewerber für MSc-Programme der University of Birmingham mit Studienplatzangebot der SIM; Bachelor in beliebigem Fach mit First Class oder Upper Second-Class Honours (oder gleichwertig). Vor der Bewerbung wird ein Pre-Assessment mit dem Academic Director empfohlen.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Oktober 2027",
+     "notes": "Stipendienfrist 1. Juli 2027 für den Start im Oktober 2027. Alle Masterprogramme der SIM sind für ein direktes Pre-Assessment offen. Bewerbung über Ihre Talented-Beratung."
+    },
+    "it": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham presso SIM)",
+     "coverage": "Borsa di SGD 5.500 per i nuovi studenti MSc della University of Birmingham presso SIM, anno accademico 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Nuovi candidati ai MSc della University of Birmingham con offerta di posto da SIM; laurea in qualsiasi disciplina con First Class o Upper Second-Class Honours (o equivalente). Si consiglia una pre-valutazione con l’Academic Director prima della domanda.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Ottobre 2027",
+     "notes": "Scadenza della borsa: 1 luglio 2027 per l’ingresso di ottobre 2027. Tutti i Master SIM sono aperti alla pre-valutazione diretta. Candidati tramite il tuo consulente Talented."
+    },
+    "nl": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Singapore",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham bij SIM)",
+     "coverage": "Beurs van SGD 5.500 voor nieuwe MSc-studenten van de University of Birmingham bij SIM, academisch jaar 2027-2028",
+     "amount": "SGD 5.500",
+     "eligibility": "Nieuwe aanvragers voor MSc-opleidingen van de University of Birmingham met een plaatsaanbod van SIM; bachelor in elke richting met First Class of Upper Second-Class Honours (of gelijkwaardig). Een pre-assessment met de Academic Director vóór aanmelding wordt aanbevolen.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Oktober 2027",
+     "notes": "Deadline beurs: 1 juli 2027 voor de instroom van oktober 2027. Alle masteropleidingen van SIM staan open voor direct pre-assessment. Aanmelden via je Talented-consulent."
+    },
+    "ru": {
+     "name": "SIM-University of Birmingham MSc Scholarship 2027",
+     "provider": "Singapore Institute of Management (SIM)",
+     "country": "Сингапур",
+     "fields": "Master of Science Financial Management / Master of Science International Business (University of Birmingham в SIM)",
+     "coverage": "Стипендия SGD 5 500 для новых студентов MSc University of Birmingham в SIM, учебный год 2027-2028",
+     "amount": "SGD 5 500",
+     "eligibility": "Новые абитуриенты MSc University of Birmingham, получившие место в SIM; бакалавр любой специальности с First Class или Upper Second-Class Honours (или эквивалент). Перед подачей рекомендуется предварительная оценка с Academic Director.",
+     "english_test": "IELTS overall 6.5 (no band <6.0)",
+     "intake": "Октябрь 2027",
+     "notes": "Срок подачи на стипендию — 1 июля 2027 для набора октября 2027. Все магистерские программы SIM открыты для прямой предварительной оценки. Подача через консультанта Talented."
     }
    }
   }

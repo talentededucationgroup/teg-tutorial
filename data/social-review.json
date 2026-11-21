@@ -23,6 +23,193 @@
    "checked_at": "2026-11-20T20:55:00+07:00",
    "model": "claude (QA sesi pemilik)",
    "source": null
+  },
+  "scholarship:sg-sim-diploma-scholarship-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi",
+    "Nama beasiswa di poster terpotong '...' ('SIM Diploma Scholarship 2027 (Academic...')",
+    "Tidak ada rahasia bisnis/klaim jaminan; logo Talented terlihat"
+   ],
+   "fix": "Verifikasi 100%/50% & deadline 31/12/2026 di halaman SIM; pendekkan nama di poster",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  "scholarship:sg-sim-undergraduate-scholarship-2027": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi",
+    "Caption menulis 'sedang dibuka' padahal data scholarships.json berstatus 'Segera dibuka' (tanpa tanggal)",
+    "Nama beasiswa di poster terpotong '...'"
+   ],
+   "fix": "Ganti jadi 'segera dibuka' + tanggal resmi setelah dicek di halaman SIM",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  "scholarship:sg-sim-uob-mba-scholarship": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi",
+    "Caption menulis 'sedang dibuka' padahal data berstatus 'Tahunan - jadwal berikutnya belum diumumkan' (menyesatkan)",
+    "Nama beasiswa di poster terpotong '...'"
+   ],
+   "fix": "Tahan sampai SIM mengumumkan periode berikutnya, atau ubah jadi info beasiswa tahunan tanpa kata 'dibuka'",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  "scholarship:au-ucsh-welcome-success-reward-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Link 'Ketentuan resmi' hanya homepage kampus, bukan halaman beasiswa/promo spesifik (canberra.edu.au)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (AUD 2.500, deadline 31/12/2026)"
+   ],
+   "fix": "Ganti link dengan halaman resmi UCSH/UC tentang Welcome Success Reward 2027",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.canberra.edu.au"
+  },
+  "scholarship:au-greenwich-elicos-vet-package-voucher-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Link 'Ketentuan resmi' hanya homepage kampus, bukan halaman beasiswa/promo spesifik (greenwichcollege.edu.au)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (voucher AUD 500, berlaku s.d. 31/12/2027)",
+    "Voucher paket disebut 'beasiswa' di judul & poster - pastikan istilah sesuai sumber"
+   ],
+   "fix": "Ganti link dengan halaman/brosur resmi Greenwich tentang voucher; pertimbangkan sebut 'voucher', bukan 'beasiswa'",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.greenwichcollege.edu.au"
+  },
+  "scholarship:au-kbs-excellence-indonesia-2027|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Link 'Ketentuan resmi' hanya homepage kampus, bukan halaman beasiswa/promo spesifik (kbs.edu.au)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (2 x 50%, deadline 31/03/2027)",
+    "Nama beasiswa di poster terpotong '...' ('KBS Excellence Scholarship 2027 -...')"
+   ],
+   "fix": "Ganti link dengan halaman resmi KBS Excellence Scholarship Indonesia; pendekkan nama di poster",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.kbs.edu.au"
+  },
+  "scholarship:sg-astar-singa|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (deadline 1/12/2026)",
+    "Nama beasiswa di poster terpotong '...'"
+   ],
+   "fix": "Tambah 'Ketentuan resmi beasiswa: https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa'; deadline tinggal 10 hari - cek masih berlaku",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "scholarship:au-aih-next-gen-award|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (30%, deadline 31/12/2026)",
+    "Link di data scholarships.json berlabel '2025-scholarships' - pastikan berlaku untuk intake 2026/2027"
+   ],
+   "fix": "Tambah baris 'Ketentuan resmi beasiswa:' dengan halaman resmi AIH yang memuat beasiswa ini & deadline 31/12/2026",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "scholarship:au-aih-global-access-award|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (15%, deadline 31/12/2026)",
+    "Link di data scholarships.json berlabel '2025-scholarships' - pastikan berlaku untuk intake 2026/2027"
+   ],
+   "fix": "Tambah baris 'Ketentuan resmi beasiswa:' dengan halaman resmi AIH yang memuat beasiswa ini & deadline 31/12/2026",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "scholarship:au-aih-international-support-bursary|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (20%, deadline 31/12/2026)",
+    "Link di data scholarships.json berlabel '2025-scholarships' - pastikan berlaku untuk intake 2026/2027"
+   ],
+   "fix": "Tambah baris 'Ketentuan resmi beasiswa:' dengan halaman resmi AIH yang memuat beasiswa ini & deadline 31/12/2026",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "scholarship:au-aih-future-innovator|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (30%, deadline 31/12/2026)",
+    "Link di data scholarships.json berlabel '2025-scholarships' - pastikan berlaku untuk intake 2026/2027"
+   ],
+   "fix": "Tambah baris 'Ketentuan resmi beasiswa:' dengan halaman resmi AIH yang memuat beasiswa ini & deadline 31/12/2026",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "scholarship:fr-eiffel-excellence|open": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption tidak memuat link sumber resmi (baris 'Ketentuan resmi beasiswa:' hilang)",
+    "Sumber resmi tidak bisa dibuka saat QA (akses web run terjadwal ditolak) - fakta belum terverifikasi (deadline 6/1/2027)",
+    "Eiffel didaftarkan oleh kampus Prancis, bukan siswa langsung - caption 'pendaftaran ditutup' bisa menyesatkan"
+   ],
+   "fix": "Tambah link Campus France resmi; jelaskan bahwa pengajuan lewat kampus Prancis",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "promo:aih-promo-2026": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption menyebut ketentuan promo/beasiswa (beasiswa hingga 30% Bachelor 2027) tanpa link sumber resmi - tidak bisa diverifikasi",
+    "Masa berlaku promo tidak disebut; tidak ada rahasia bisnis atau klaim jaminan terlihat"
+   ],
+   "fix": "Tambah 'Ketentuan resmi:' link halaman/brosur resmi kampus + masa berlaku promo",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "promo:cdu-founding-2026": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption menyebut ketentuan promo/beasiswa (CDU Global Merit Scholarship 30%) tanpa link sumber resmi - tidak bisa diverifikasi",
+    "Masa berlaku promo tidak disebut; tidak ada rahasia bisnis atau klaim jaminan terlihat"
+   ],
+   "fix": "Tambah 'Ketentuan resmi:' link halaman/brosur resmi kampus + masa berlaku promo",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "promo:aiat-founding-2026": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption menyebut ketentuan promo/beasiswa (promo AIAT IT, AI & MBA) tanpa link sumber resmi - tidak bisa diverifikasi",
+    "Masa berlaku promo tidak disebut; tidak ada rahasia bisnis atau klaim jaminan terlihat"
+   ],
+   "fix": "Tambah 'Ketentuan resmi:' link halaman/brosur resmi kampus + masa berlaku promo",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
+  },
+  "promo:apic-promo-2026": {
+   "verdict": "REVISI",
+   "reasons": [
+    "Caption menyebut ketentuan promo/beasiswa (beasiswa hingga 34-36%) tanpa link sumber resmi - tidak bisa diverifikasi",
+    "Masa berlaku promo tidak disebut; tidak ada rahasia bisnis atau klaim jaminan terlihat"
+   ],
+   "fix": "Tambah 'Ketentuan resmi:' link halaman/brosur resmi kampus + masa berlaku promo",
+   "checked_at": "2026-11-21T08:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
   }
  }
 }

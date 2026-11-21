@@ -1,5 +1,5 @@
 {
- "version": "2026-11-21T09:21:38+07:00",
+ "version": "2026-11-21T12:00:02+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,62 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:sg-sim-asean-impact-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: SIM ASEAN Impact Award",
+    "en": "🎓 Scholarship open: SIM ASEAN Impact Award",
+    "th": "🎓 เปิดรับทุน: SIM ASEAN Impact Award",
+    "vi": "🎓 Học bổng đang mở: SIM ASEAN Impact Award",
+    "zh": "🎓 奖学金开放申请：SIM ASEAN Impact Award",
+    "ja": "🎓 奨学金募集中：SIM ASEAN Impact Award",
+    "ko": "🎓 장학금 모집 중: SIM ASEAN Impact Award",
+    "km": "🎓 អាហារូបករណ៍បើក៖ SIM ASEAN Impact Award",
+    "fr": "🎓 Bourse ouverte : SIM ASEAN Impact Award",
+    "pt": "🎓 Bolsa aberta: SIM ASEAN Impact Award",
+    "es": "🎓 Beca abierta: SIM ASEAN Impact Award",
+    "de": "🎓 Stipendium offen: SIM ASEAN Impact Award",
+    "it": "🎓 Borsa aperta: SIM ASEAN Impact Award",
+    "nl": "🎓 Beurs open: SIM ASEAN Impact Award",
+    "ru": "🎓 Открыт приём на стипендию: SIM ASEAN Impact Award"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20ASEAN%20Impact%20Award",
+   "country": "Singapura",
+   "provider": "Singapore Institute of Management (SIM)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
+  {
+   "id": "scholarship:sg-sim-uob-msc-scholarship-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "en": "🎓 Scholarship open: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "th": "🎓 เปิดรับทุน: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "vi": "🎓 Học bổng đang mở: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "zh": "🎓 奖学金开放申请：SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "ja": "🎓 奨学金募集中：SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "ko": "🎓 장학금 모집 중: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "fr": "🎓 Bourse ouverte : SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "pt": "🎓 Bolsa aberta: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "es": "🎓 Beca abierta: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "de": "🎓 Stipendium offen: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "it": "🎓 Borsa aperta: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "nl": "🎓 Beurs open: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+    "ru": "🎓 Открыт приём на стипендию: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MSc%20Scholarship%202027",
+   "country": "Singapura",
+   "provider": "Singapore Institute of Management (SIM)",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+  },
   {
    "id": "jobs:2026-11-21-215",
    "kind": "jobs",

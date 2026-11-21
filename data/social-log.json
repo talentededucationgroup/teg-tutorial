@@ -364,6 +364,34 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 27,
+   "date": "2026-11-21",
+   "key": "scholarship:sg-sim-asean-impact-award|open",
+   "file": "Talented SIM Beasiswa November 2026 4.png",
+   "provider": "SIM",
+   "layout": "C",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto atas diagonal",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 28,
+   "date": "2026-11-21",
+   "key": "scholarship:sg-sim-uob-msc-scholarship-2027|open",
+   "file": "Talented SIM Beasiswa November 2026 5.png",
+   "provider": "SIM",
+   "layout": "B",
+   "palette": "P5",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

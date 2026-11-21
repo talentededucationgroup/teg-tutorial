@@ -1,5 +1,5 @@
 {
- "version": "2026-11-21T09:21:38+07:00",
+ "version": "2026-11-21T12:00:02+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,32 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:sg-sim-asean-impact-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: SIM ASEAN Impact Award",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20ASEAN%20Impact%20Award",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "caption": "SIM ASEAN Impact Award sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Singapura",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:sg-sim-uob-msc-scholarship-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MSc%20Scholarship%202027",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "caption": "SIM-University of Birmingham MSc Scholarship 2027 sedang dibuka, pendaftaran ditutup 1 Juli 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Singapura",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Reel.mp4"
+  },
   {
    "id": "post:2026-w47-ais",
    "kind": "marketing",

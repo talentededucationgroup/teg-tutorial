@@ -95,9 +95,11 @@
 "se-si-scholarship-global-professionals",
 "sg-astar-singa|open",
 "sg-moe-asean-scholarship-indonesia",
+"sg-sim-asean-impact-award|open",
 "sg-sim-diploma-scholarship-2027|open",
 "sg-sim-undergraduate-scholarship-2027",
 "sg-sim-uob-mba-scholarship",
+"sg-sim-uob-msc-scholarship-2027|open",
 "tr-turkiye-burslari",
 "tw-icdf-higher-education",
 "tw-moe-taiwan-scholarship",
@@ -1452,6 +1454,8 @@
 "scholarship:sg-sim-uob-mba-scholarship",
 "jobs:2026-11-20-245",
 "jobs:2026-11-21-215",
-"news:au-485-family-2026-11-13"
+"news:au-485-family-2026-11-13",
+"scholarship:sg-sim-asean-impact-award|open",
+"scholarship:sg-sim-uob-msc-scholarship-2027|open"
 ]
 }

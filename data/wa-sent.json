@@ -1,10 +1,27 @@
 {
- "note": "Postingan sosmed yang sudah dikirim ke pemilik untuk grup WA tim (diisi tugas terjadwal).",
- "sent": [
-  "post:2026-w47-ais",
-  "site:2026-11-20:site-02",
-  "news:us-ds-rule-vacated-2026-11",
-  "news:nz-stgwv-2026-11-16",
-  "news:nz-pswv-eligibility-2026-11-16"
- ]
+  "note": "Postingan sosmed yang sudah dikirim ke pemilik untuk grup WA tim (diisi tugas terjadwal).",
+  "sent": [
+    "post:2026-w47-ais",
+    "site:2026-11-20:site-02",
+    "news:us-ds-rule-vacated-2026-11",
+    "news:nz-stgwv-2026-11-16",
+    "news:nz-pswv-eligibility-2026-11-16",
+    "scholarship:sg-sim-diploma-scholarship-2027|open",
+    "scholarship:au-ucsh-welcome-success-reward-2027|open",
+    "scholarship:au-greenwich-elicos-vet-package-voucher-2027|open",
+    "scholarship:au-kbs-excellence-indonesia-2027|open",
+    "scholarship:sg-sim-undergraduate-scholarship-2027",
+    "scholarship:sg-sim-uob-mba-scholarship",
+    "scholarship:sg-astar-singa|open",
+    "scholarship:au-aih-next-gen-award|open",
+    "scholarship:au-aih-global-access-award|open",
+    "scholarship:au-aih-international-support-bursary|open",
+    "scholarship:au-aih-future-innovator|open",
+    "scholarship:fr-eiffel-excellence|open",
+    "promo:aih-promo-2026",
+    "promo:cdu-founding-2026",
+    "promo:aiat-founding-2026",
+    "promo:apic-promo-2026",
+    "news:au-485-family-2026-11-13"
+  ]
 }

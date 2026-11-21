@@ -1,5 +1,5 @@
 {
- "version": "2026-11-21T12:09:25+07:00",
+ "version": "2026-11-21T12:24:03+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,19 @@
  },
  "items": [
   {
+   "id": "scholarship:ae-murdoch-dubai-academic-merit|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: Murdoch University Dubai Academic Merit Scholarships",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Murdoch%20University%20Dubai%20Academic%20Merit%20Scholarships",
+   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/",
+   "caption": "Murdoch University Dubai Academic Merit Scholarships sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Uni Emirat Arab",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "scholarship:vn-rmit-international-excellence-2027|open",
    "kind": "scholarship",
    "date": "2026-11-21",
@@ -210,6 +223,32 @@
    "country": "Singapura",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:th-rsu-ric-network-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: RIC International School Network Scholarship (RISNS) - Rangsit University",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20RIC%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RIC%20International%20School%20Network%20Scholarship%20%28RISNS%29%20-%20Rangsit%20University",
+   "source": "https://rsuip.org/admissions/scholarships/",
+   "caption": "RIC International School Network Scholarship (RISNS) - Rangsit University sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Thailand",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20RIC%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20RIC%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:es-nebrija-southeast-asia-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: Nebrija University - Scholarship for Southeast Asia",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Nebrija%20University%20-%20Scholarship%20for%20Southeast%20Asia",
+   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/",
+   "caption": "Nebrija University - Scholarship for Southeast Asia sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Spanyol",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:my-mohe-mis",

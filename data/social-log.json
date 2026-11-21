@@ -462,6 +462,48 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 34,
+   "date": "2026-11-21",
+   "key": "scholarship:ae-murdoch-dubai-academic-merit|open",
+   "file": "Talented Murdoch University Dubai Beasiswa November 2026.png",
+   "provider": "Murdoch University Dubai",
+   "layout": "H",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 35,
+   "date": "2026-11-21",
+   "key": "scholarship:th-rsu-ric-network-scholarship",
+   "file": "Talented RIC Beasiswa November 2026.png",
+   "provider": "RIC",
+   "layout": "B",
+   "palette": "P6",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 36,
+   "date": "2026-11-21",
+   "key": "scholarship:es-nebrija-southeast-asia-scholarship",
+   "file": "Talented Universidad Antonio Beasiswa November 2026.png",
+   "provider": "Universidad Antonio",
+   "layout": "E",
+   "palette": "P4",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

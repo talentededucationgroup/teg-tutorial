@@ -16,6 +16,7 @@
 "us-ds-rule-vacated-2026-11"
 ],
 "scholarship": [
+"ae-murdoch-dubai-academic-merit|open",
 "au-aapoly-eagle-awards|open",
 "au-aciar-john-allwright-fellowship",
 "au-acu-executive-deans-international|open",
@@ -73,6 +74,7 @@
 "cn-chinese-government-scholarship-indonesia|open",
 "de-daad-epos",
 "de-daad-research-grants-doctoral",
+"es-nebrija-southeast-asia-scholarship",
 "eu-erasmus-mundus-joint-masters|open",
 "fr-eiffel-excellence|open",
 "hk-belt-and-road-scholarship-hku",
@@ -104,6 +106,7 @@
 "sg-sim-undergraduate-scholarship-2027",
 "sg-sim-uob-mba-scholarship",
 "sg-sim-uob-msc-scholarship-2027|open",
+"th-rsu-ric-network-scholarship",
 "tr-turkiye-burslari",
 "tw-icdf-higher-education",
 "tw-moe-taiwan-scholarship",
@@ -1466,6 +1469,9 @@
 "scholarship:vn-rmit-international-excellence-2027|open",
 "scholarship:hk-belt-and-road-scholarship-hku",
 "scholarship:in-iccr-scholarship",
-"scholarship:ch-eskas-2027|open"
+"scholarship:ch-eskas-2027|open",
+"scholarship:ae-murdoch-dubai-academic-merit|open",
+"scholarship:th-rsu-ric-network-scholarship",
+"scholarship:es-nebrija-southeast-asia-scholarship"
 ]
 }

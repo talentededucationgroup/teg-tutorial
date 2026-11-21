@@ -297,6 +297,33 @@
    "license_url": "https://creativecommons.org/licenses/by/4.0",
    "country": "MY",
    "file": "social/photos/198b790cd25ff51c.jpg"
+  },
+  {
+   "place": "Madrid",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Madrid_(38624991251).jpg",
+   "author": "Dmitry Dzhus from London",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "ES",
+   "file": "social/photos/d2908ebac03daa23.jpg"
+  },
+  {
+   "place": "Barcelona",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_La_Sagrada_Familia,_Barcelona,_Spain_(51227006134).jpg",
+   "author": "dronepicr",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "ES",
+   "file": "social/photos/1694cc9b367c7503.jpg"
+  },
+  {
+   "place": "Madrid",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Madrid_Iowa_20090329_Sign.JPG",
+   "author": "Ashton B Crew",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "country": "ES",
+   "file": "social/photos/4358e9623c3d7157.jpg"
   }
  ]
 }

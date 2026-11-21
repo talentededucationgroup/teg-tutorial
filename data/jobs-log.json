@@ -1,6 +1,20 @@
 {
  "runs": [
   {
+   "time": "2026-11-21T18:00:32+07:00",
+   "result": "berhasil",
+   "published": 325,
+   "held": 0,
+   "failed": [
+    {
+     "city": "Hobart",
+     "error": "HTTP 503 <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content"
+    }
+   ],
+   "added": 217,
+   "removed": 195
+  },
+  {
    "time": "2026-11-21T06:05:56+07:00",
    "result": "berhasil",
    "published": 303,

@@ -392,6 +392,76 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 29,
+   "date": "2026-11-21",
+   "key": "scholarship:vn-rmit-international-excellence-2027|open",
+   "file": "Talented RMIT University Vietnam Beasiswa November 2026.png",
+   "provider": "RMIT University Vietnam",
+   "layout": "E",
+   "palette": "P2",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 30,
+   "date": "2026-11-21",
+   "key": "scholarship:ch-eskas-2027|open",
+   "file": "Talented Pemerintah Swiss Beasiswa November 2026.png",
+   "provider": "Pemerintah Swiss",
+   "layout": "B",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 31,
+   "date": "2026-11-21",
+   "key": "scholarship:my-mohe-mis",
+   "file": "Talented MOHE Beasiswa November 2026.png",
+   "provider": "MOHE",
+   "layout": "C",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto atas diagonal",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 32,
+   "date": "2026-11-21",
+   "key": "scholarship:hk-belt-and-road-scholarship-hku",
+   "file": "Talented HKSAR Beasiswa November 2026.png",
+   "provider": "HKSAR",
+   "layout": "H",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 33,
+   "date": "2026-11-21",
+   "key": "scholarship:in-iccr-scholarship",
+   "file": "Talented ICCR Beasiswa November 2026.png",
+   "provider": "ICCR",
+   "layout": "H",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

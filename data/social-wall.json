@@ -1,5 +1,5 @@
 {
- "version": "2026-11-21T12:00:02+07:00",
+ "version": "2026-11-21T12:09:25+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,32 @@
  },
  "items": [
   {
+   "id": "scholarship:vn-rmit-international-excellence-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: RMIT Vietnam International Excellence Scholarships 2027 (deadline 2027-01-18)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RMIT%20Vietnam%20International%20Excellence%20Scholarships%202027",
+   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships",
+   "caption": "RMIT Vietnam International Excellence Scholarships 2027 sedang dibuka, pendaftaran ditutup 18 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Vietnam",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:ch-eskas-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: Swiss Government Excellence Scholarships 2027-2028 (Research) (deadline 2026-11-30)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Swiss%20Government%20Excellence%20Scholarships%202027-2028%20%28Research%29",
+   "source": "https://www.sbfi.admin.ch/scholarships_eng",
+   "caption": "Swiss Government Excellence Scholarships 2027-2028 (Research) sedang dibuka, pendaftaran ditutup 30 November 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Swiss",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "scholarship:sg-sim-asean-impact-award|open",
    "kind": "scholarship",
    "date": "2026-11-21",
@@ -186,6 +212,45 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Reel.mp4"
   },
   {
+   "id": "scholarship:my-mohe-mis",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: Malaysia International Scholarship (MIS)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Malaysia%20International%20Scholarship%20%28MIS%29",
+   "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
+   "caption": "Malaysia International Scholarship (MIS) sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Malaysia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:hk-belt-and-road-scholarship-hku",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Belt%20and%20Road%20Scholarship%20%28HKSAR%20Government%20Scholarship%20Fund%29%20-%20HKU",
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+   "caption": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Hong Kong",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:in-iccr-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: ICCR Scholarship (Government of India)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ICCR%20Scholarship%20%28Government%20of%20India%29",
+   "source": "https://a2ascholarships.iccr.gov.in/",
+   "caption": "ICCR Scholarship (Government of India) sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "India",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "post:2026-w47-ais",
    "kind": "marketing",
    "date": "2026-11-20",
@@ -210,58 +275,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "news:us-ds-rule-vacated-2026-11",
-   "kind": "news",
-   "date": "2026-11-16",
-   "title": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "source": null,
-   "caption": "AS: pengadilan membatalkan aturan DHS yang mengakhiri 'Duration of Status' (D/S) pelajar F-1. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
-   "country": "US",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Amerika%20Info%20Visa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "news:nz-stgwv-2026-11-16",
-   "kind": "news",
-   "date": "2026-11-16",
-   "title": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "source": null,
-   "caption": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
-   "country": "NZ",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "news:nz-pswv-eligibility-2026-11-16",
-   "kind": "news",
-   "date": "2026-11-16",
-   "title": "Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "source": null,
-   "caption": "Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
-   "country": "NZ",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Selandia%20Baru%20Info%20Visa%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "news:au-485-family-2026-11-13",
-   "kind": "news",
-   "date": "2026-11-13",
-   "title": "Australia: aturan anggota keluarga visa Temporary Graduate (subclass 485) berubah sejak 13 Nov 2026",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
-   "caption": "Australia: aturan anggota keluarga visa Temporary Graduate (subclass 485) berubah sejak 13 Nov 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%20Reel.mp4"
   }
  ]
 }

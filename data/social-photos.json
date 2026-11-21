@@ -252,6 +252,51 @@
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "country": "AU",
    "file": "social/photos/bcc575da2a33cafe.jpg"
+  },
+  {
+   "place": "Zurich",
+   "file_page": "https://commons.wikimedia.org/wiki/File:View_from_the_Lindenhof_Hill_in_Zurich,_20250330_1226_7912.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "CH",
+   "file": "social/photos/c8f8b04892f0de33.jpg"
+  },
+  {
+   "place": "Geneva",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Constitution_Oak_in_Geneva,_Alabama.jpg",
+   "author": "AlabamaGuy2007 at English Wikipedia",
+   "license": "Public domain",
+   "license_url": "",
+   "country": "CH",
+   "file": "social/photos/de882083be7a24b0.jpg"
+  },
+  {
+   "place": "Zurich",
+   "file_page": "https://commons.wikimedia.org/wiki/File:View_from_the_Lindenhof_Hill_in_Zurich,_20250330_1225_7911.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "CH",
+   "file": "social/photos/28333f854883699e.jpg"
+  },
+  {
+   "place": "Kuala Lumpur skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur,_Malaysia,_Skyline.jpg",
+   "author": "Vyacheslav Argenberg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "MY",
+   "file": "social/photos/0003e9bcc783813f.jpg"
+  },
+  {
+   "place": "Kuala Lumpur skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur,_Malaysia,_Skyline_2.jpg",
+   "author": "Vyacheslav Argenberg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "MY",
+   "file": "social/photos/198b790cd25ff51c.jpg"
   }
  ]
 }

@@ -69,11 +69,13 @@
 "au-wsu-international-ug-2027|open",
 "bn-bdgs",
 "ca-seed-asean",
+"ch-eskas-2027|open",
 "cn-chinese-government-scholarship-indonesia|open",
 "de-daad-epos",
 "de-daad-research-grants-doctoral",
 "eu-erasmus-mundus-joint-masters|open",
 "fr-eiffel-excellence|open",
+"hk-belt-and-road-scholarship-hku",
 "hu-stipendium-hungaricum",
 "id-beasiswa-garuda-sarjana",
 "id-beasiswa-talenta-indonesia",
@@ -84,12 +86,14 @@
 "id-lpdp-stem-industri-strategis",
 "id-lpdp-talenta-riset-doctor-by-research",
 "ie-goi-ies",
+"in-iccr-scholarship",
 "jp-adb-jsp",
 "jp-jasso-honors-scholarship",
 "jp-mext-research-student",
 "jp-mext-undergraduate",
 "kr-gks-graduate",
 "kr-gks-undergraduate",
+"my-mohe-mis",
 "nl-nl-scholarship|open",
 "nz-manaaki-scholarships",
 "se-si-scholarship-global-professionals",
@@ -106,7 +110,8 @@
 "uk-chevening",
 "uk-great-scholarships-indonesia",
 "us-fulbright-masters-aminef|open",
-"us-fulbright-phd-aminef|open"
+"us-fulbright-phd-aminef|open",
+"vn-rmit-international-excellence-2027|open"
 ],
 "promo": [
 "aiat-founding-2026",
@@ -1456,6 +1461,11 @@
 "jobs:2026-11-21-215",
 "news:au-485-family-2026-11-13",
 "scholarship:sg-sim-asean-impact-award|open",
-"scholarship:sg-sim-uob-msc-scholarship-2027|open"
+"scholarship:sg-sim-uob-msc-scholarship-2027|open",
+"scholarship:my-mohe-mis",
+"scholarship:vn-rmit-international-excellence-2027|open",
+"scholarship:hk-belt-and-road-scholarship-hku",
+"scholarship:in-iccr-scholarship",
+"scholarship:ch-eskas-2027|open"
 ]
 }

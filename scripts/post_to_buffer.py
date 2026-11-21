@@ -238,7 +238,8 @@ def main():
         # posts without a verdict wait for the next review run.
         print('mode auto_reviewed: no OPENAI_API_KEY, using verdicts written by the Claude QA reviewer.')
     for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
-        for i in sorted(feed(fname), key=lambda x: x['pub']):
+        # video asli (office tour dll.) didahulukan supaya tidak kalah kuota harian oleh poster otomatis (21/11/2026)
+        for i in sorted(feed(fname), key=lambda x: (not x['guid'].startswith('video:'), x['pub'])):
             if not i['media'] or i['media'] not in ready or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
                 continue
             # immigration news: only post while fresh (announced today or yesterday) - owner 20/11/2026

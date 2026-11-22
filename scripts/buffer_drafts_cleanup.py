@@ -23,6 +23,20 @@ if MODE == 'inspect':
         except Exception as e:
             print(t, 'ERR', str(e)[:120])
     sys.exit(0)
+if MODE == 'sent_list':
+    # daftar postingan yang SUDAH tayang (channelId + awal teks) untuk menyelaraskan data/buffer-sent.json
+    orgs = gql("query { account { organizations { id } } }")['account']['organizations']
+    for o in orgs:
+        after = None
+        for _ in range(20):
+            d = gql("""query P($o:OrganizationId!,$a:String){ posts(input:{organizationId:$o, filter:{status:[sent]}}, first:100, after:$a){ edges{ node{ id status channelId text } } pageInfo{ hasNextPage endCursor } } }""", {"o": o['id'], "a": after})['posts']
+            for e in d['edges']:
+                n = e['node']
+                print('SENT', json.dumps({"c": n.get('channelId'), "t": (n.get('text') or '')[:90]}, ensure_ascii=False))
+            if not d['pageInfo']['hasNextPage']:
+                break
+            after = d['pageInfo']['endCursor']
+    sys.exit(0)
 if MODE in ('count_queue', 'delete_queue'):
     # Pemilik 22/11/2026: kosongkan antrean Buffer (postingan terjadwal yang belum tayang) agar tidak menumpuk;
     # postingan baru setelah ini langsung tayang (post_mode now). Tidak menyentuh postingan yang sudah tayang.

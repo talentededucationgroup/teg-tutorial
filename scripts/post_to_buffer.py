@@ -262,11 +262,36 @@ def main():
     # Pilih sedikit tapi bermutu (pemilik 22/11/2026): urut skor (jenis + skor QA + kebaruan), 1 format per postingan
     # per channel (Reel ATAU feed), batas harian kecil, dan tidak menambah bila antrean Buffer channel itu masih penuh.
     prio = cfg.get('priority', {})
+    # Fokus negara (pemilik 22/11/2026): AU, CA, NZ, JP, KR lebih sering; negara lain jarang (pelengkap).
+    cf = cfg.get('country_focus', {})
+    focus = {c.upper() for c in cf.get('priority', ['AU', 'CA', 'NZ', 'JP', 'KR'])}
+    ALIAS = {'AUSTRALIA': 'AU', 'KANADA': 'CA', 'CANADA': 'CA', 'NEW ZEALAND': 'NZ', 'SELANDIA BARU': 'NZ', 'JEPANG': 'JP',
+             'JAPAN': 'JP', 'KOREA': 'KR', 'KOREA SELATAN': 'KR', 'SOUTH KOREA': 'KR', 'AU & NZ': 'AU'}
+    try:
+        upd = {x['id']: x.get('country') for x in load(os.path.join(ROOT, 'data', 'updates.json'), {}).get('items', [])}
+    except Exception:
+        upd = {}
+    def ctry(i):
+        c = upd.get(i['guid'])
+        if not c:
+            return None  # umum / tanpa negara = tidak dibatasi
+        c = str(c).strip().upper()
+        return ALIAS.get(c, c)
+    def other(i):
+        c = ctry(i)
+        return c is not None and c not in focus and c != 'ANY'
     def score(kind, i):
         rv = reviews['items'].get(i['guid']) or {}
         base = next((int(v) for k, v in prio.items() if i['guid'].startswith(k)), int(prio.get('default', 50)))
+        c = ctry(i)
+        if c in focus:
+            base += int(cf.get('priority_bonus', 15))
+        elif other(i):
+            base -= int(cf.get('other_penalty', 30))
         q = rv.get('score')
         return base + (int(q) - 3) * 10 if isinstance(q, (int, float)) else base, -(NOW - i['pub']).total_seconds()
+    oth_day = sent.setdefault('daily_other', {}).setdefault(NOW.date().isoformat(), [])
+    oth_max = int(cf.get('other_max_per_day', 1))
     kinds_order = {'reel': 0, 'feed': 1, 'story': 2}
     cands = []
     for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
@@ -315,6 +340,8 @@ def main():
                 cfg['_draft'] = False
             elif cfg.get('mode') == 'queue':
                 cfg['_draft'] = False
+            if other(i) and i['guid'] not in oth_day and len(oth_day) >= oth_max:
+                continue  # negara pelengkap: maks. other_max_per_day postingan per hari
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
                 if k in done:
@@ -347,6 +374,8 @@ def main():
                     if r.get('message'):
                         raise RuntimeError(r['message'])
                     done.add(k); n += 1
+                    if other(i) and i['guid'] not in oth_day:
+                        oth_day.append(i['guid'])
                     day[ck] = day.get(ck, 0) + 1
                     run_count[rk] = run_count.get(rk, 0) + 1
                     if kind != 'story' and queued is not None:
@@ -356,6 +385,7 @@ def main():
                     errors.append(f"{kind}/{sv}/{i['guid']}: {str(e)[:160]}")
     json.dump(reviews, open(REVIEW_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     sent['sent'] = sorted(done)[-3000:]
+    sent['daily_other'] = {d: v for d, v in sent.get('daily_other', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['daily'] = {d: v for d, v in sent.get('daily', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['last_run'] = NOW.isoformat()
     sent['last_errors'] = errors[-20:]

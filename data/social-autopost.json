@@ -55,5 +55,18 @@
   "default": 50
  },
  "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + paling baru. Satu postingan per channel hanya satu format (Reel ATAU feed).",
- "min_quality_score": 3
+ "min_quality_score": 3,
+ "country_focus": {
+  "priority": [
+   "AU",
+   "CA",
+   "NZ",
+   "JP",
+   "KR"
+  ],
+  "priority_bonus": 15,
+  "other_penalty": 30,
+  "other_max_per_day": 1,
+  "note": "Pemilik 22/11/2026: autopost lebih banyak untuk Australia, Kanada, New Zealand, Jepang & Korea. Negara lain hanya pelengkap: skor diturunkan & maks. 1 postingan negara lain per hari (semua channel). Postingan umum tanpa negara tidak dibatasi."
+ }
 }

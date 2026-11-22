@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'inspect atau delete'
+        description: 'inspect, delete (draft lama), count_queue, delete_queue (kosongkan antrean terjadwal)'
         default: 'inspect'
 permissions:
   contents: read

@@ -23,6 +23,26 @@ if MODE == 'inspect':
         except Exception as e:
             print(t, 'ERR', str(e)[:120])
     sys.exit(0)
+if MODE in ('count_queue', 'delete_queue'):
+    # Pemilik 22/11/2026: kosongkan antrean Buffer (postingan terjadwal yang belum tayang) agar tidak menumpuk;
+    # postingan baru setelah ini langsung tayang (post_mode now). Tidak menyentuh postingan yang sudah tayang.
+    orgs = gql("query { account { organizations { id } } }")['account']['organizations']
+    seen = deleted = 0; per = {}
+    for o in orgs:
+        for _ in range(50):
+            d = gql("""query P($o:OrganizationId!){ posts(input:{organizationId:$o, filter:{status:[scheduled]}}, first:100){ edges{ node{ id status channelId } } pageInfo{ hasNextPage endCursor } } }""", {"o": o['id']})['posts']
+            nodes = [e['node'] for e in d['edges'] if e['node']['status'] == 'scheduled']
+            seen += len(nodes)
+            for n in nodes:
+                per[n.get('channelId')] = per.get(n.get('channelId'), 0) + 1
+            if MODE == 'count_queue' or not nodes:
+                break
+            for n in nodes:
+                gql("mutation D($i:PostId!){ deletePost(input:{id:$i}){ __typename } }", {"i": n['id']})
+                deleted += 1
+    print(f'antrean terjadwal per channel: {per}')
+    print(f'scheduled seen {seen}; deleted {deleted}')
+    sys.exit(0)
 # delete mode
 orgs = gql("query { account { organizations { id } } }")['account']['organizations']
 total = deleted = 0

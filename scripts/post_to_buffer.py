@@ -68,7 +68,8 @@ def no_hashtags(t):
 def build(kind, ch, i, cfg):
     """return createPost input or None if this channel does not take this kind"""
     s = svc(ch['service'])
-    base = {"channelId": ch['id'], "schedulingType": "automatic", "mode": "addToQueue"}
+    base = {"channelId": ch['id'], "schedulingType": "automatic",
+            "mode": "shareNow" if cfg.get('post_mode') == 'now' and not cfg.get('_draft', True) else "addToQueue"}
     if cfg.get('_draft', True):
         base["saveToDraft"] = True
     if kind == 'feed':
@@ -183,6 +184,27 @@ MUT = """mutation P($input: CreatePostInput!) { createPost(input: $input) {
   ... on MutationError { message } } }"""
 
 
+def queued_counts(orgs):
+    """jumlah postingan terjadwal (belum tayang) per channel di Buffer; None bila API tidak bisa dibaca"""
+    try:
+        counts = {}
+        for o in orgs:
+            after = None
+            for _ in range(20):
+                d = gql("""query P($o:OrganizationId!,$a:String){ posts(input:{organizationId:$o, filter:{status:[scheduled]}}, first:100, after:$a){ edges{ node{ id channelId } } pageInfo{ hasNextPage endCursor } } }""",
+                        {"o": o['id'], "a": after})['posts']
+                for e in d['edges']:
+                    c = e['node'].get('channelId')
+                    counts[c] = counts.get(c, 0) + 1
+                if not d['pageInfo']['hasNextPage']:
+                    break
+                after = d['pageInfo']['endCursor']
+        return counts
+    except Exception as e:
+        print('queue lookup failed:', str(e)[:300])
+        return None
+
+
 def main():
     cfg = load(CFG_P, {})
     if not KEY:
@@ -237,10 +259,32 @@ def main():
         # owner 20/11/2026: no Drafts - verdicts come from the Claude QA scheduled task (data/social-review.json);
         # posts without a verdict wait for the next review run.
         print('mode auto_reviewed: no OPENAI_API_KEY, using verdicts written by the Claude QA reviewer.')
+    # Pilih sedikit tapi bermutu (pemilik 22/11/2026): urut skor (jenis + skor QA + kebaruan), 1 format per postingan
+    # per channel (Reel ATAU feed), batas harian kecil, dan tidak menambah bila antrean Buffer channel itu masih penuh.
+    prio = cfg.get('priority', {})
+    def score(kind, i):
+        rv = reviews['items'].get(i['guid']) or {}
+        base = next((int(v) for k, v in prio.items() if i['guid'].startswith(k)), int(prio.get('default', 50)))
+        q = rv.get('score')
+        return base + (int(q) - 3) * 10 if isinstance(q, (int, float)) else base, -(NOW - i['pub']).total_seconds()
+    kinds_order = {'reel': 0, 'feed': 1, 'story': 2}
+    cands = []
     for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
-        # video asli (office tour dll.) didahulukan supaya tidak kalah kuota harian oleh poster otomatis (21/11/2026)
-        for i in sorted(feed(fname), key=lambda x: (not x['guid'].startswith('video:'), x['pub'])):
-            if not i['media'] or i['media'] not in ready or i['pub'] > NOW or (NOW - i['pub']).days > int(cfg.get('max_age_days', 10)):
+        for i in feed(fname):
+            cands.append((score(kind, i), kinds_order[kind], kind, i))
+    cands.sort(key=lambda c: (-c[0][0], -c[0][1], c[1]))
+    queued = queued_counts(orgs)
+    if queued is None:
+        print('antrean Buffer tidak terbaca: hanya batas harian yang dipakai')
+    else:
+        print('antrean Buffer saat ini:', {svc(c['service']) + ':' + c['id'][-4:]: queued.get(c['id'], 0) for c in chans})
+    max_q = int(cfg.get('max_queue_per_channel', 2))
+    run_count = {}
+    max_age = int(cfg.get('max_age_days', 10))
+    min_q = int(cfg.get('min_quality_score', 3))
+    for (sc, _), _o, kind, i in cands:
+        if True:
+            if not i['media'] or i['media'] not in ready or i['pub'] > NOW or (NOW - i['pub']).days > max_age:
                 continue
             # immigration news: only post while fresh (announced today or yesterday) - owner 20/11/2026
             if i['guid'].startswith('news:') and (NOW - i['pub']).days > int(cfg.get('news_max_age_days', 1)):
@@ -249,6 +293,9 @@ def main():
                 alt = i['media'][:-len('%20Story.png')] + '%20Reel.mp4'
                 i['story_video'] = alt if alt in ready else None
             cfg['_draft'] = True
+            rv0 = reviews['items'].get(i['guid']) or {}
+            if isinstance(rv0.get('score'), (int, float)) and rv0['score'] < min_q:
+                continue  # kurang menarik menurut QA: tidak diposting
             instant = any(i['guid'].startswith(x) for x in cfg.get('instant_prefixes', []))
             if auto and instant and (reviews['items'].get(i['guid']) or {}).get('verdict') not in ('REVISI', 'TOLAK'):
                 cfg['_draft'] = False  # official scholarship/immigration news: post at once (owner 20/11/2026), QA checks afterwards
@@ -270,25 +317,43 @@ def main():
                 cfg['_draft'] = False
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
-                caps = cfg.get('daily_caps', {})
-                day = sent.setdefault('daily', {}).setdefault(NOW.date().isoformat(), {})
-                sv = svc(ch['service'])
-                if sv in caps and day.get(ch['id'], 0) >= int(caps[sv]) and k not in done:
+                if k in done:
                     continue
-                if k in done or n >= limit * max(1, len(chans)):
+                # satu format per postingan per channel: sudah jadi Reel -> jangan dikirim lagi sebagai feed (dan sebaliknya)
+                if kind in ('feed', 'reel') and f"{i['guid']}|{'reel' if kind == 'feed' else 'feed'}|{ch['id']}" in done:
+                    continue
+                sv = svc(ch['service'])
+                day = sent.setdefault('daily', {}).setdefault(NOW.date().isoformat(), {})
+                ck = ch['id'] + '|' + kind
+                cap = (cfg.get('daily_caps_by_kind', {}).get(kind) or {}).get(sv)
+                if cap is not None and day.get(ck, 0) >= int(cap):
+                    continue  # batas harian per jenis (feed/reel/story terpisah)
+                rk = ch['id'] + '|' + kind
+                if run_count.get(rk, 0) >= int(cfg.get('max_per_channel_per_run', 1)):
+                    continue  # disebar ke beberapa run per hari
+                if cfg.get('post_mode') != 'now' and kind != 'story' and queued is not None and queued.get(ch['id'], 0) >= max_q:
+                    continue  # antrean Buffer channel ini masih ada; tunggu tayang dulu
+                if n >= limit:
                     continue
                 inp = build(kind, ch, i, cfg)
                 if not inp:
                     continue
                 try:
                     r = gql(MUT, {"input": inp})['createPost']
+                    if r.get('message') and inp.get('mode') == 'shareNow':
+                        print('shareNow ditolak, pakai antrean:', r['message'][:120])
+                        inp['mode'] = 'addToQueue'
+                        r = gql(MUT, {"input": inp})['createPost']
                     if r.get('message'):
                         raise RuntimeError(r['message'])
                     done.add(k); n += 1
-                    day[ch['id']] = day.get(ch['id'], 0) + 1
-                    print('sent', kind, svc(ch['service']), i['guid'])
+                    day[ck] = day.get(ck, 0) + 1
+                    run_count[rk] = run_count.get(rk, 0) + 1
+                    if kind != 'story' and queued is not None:
+                        queued[ch['id']] = queued.get(ch['id'], 0) + 1
+                    print('sent', kind, sv, i['guid'], 'skor', sc)
                 except Exception as e:
-                    errors.append(f"{kind}/{svc(ch['service'])}/{i['guid']}: {str(e)[:160]}")
+                    errors.append(f"{kind}/{sv}/{i['guid']}: {str(e)[:160]}")
     json.dump(reviews, open(REVIEW_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     sent['sent'] = sorted(done)[-3000:]
     sent['daily'] = {d: v for d, v in sent.get('daily', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}

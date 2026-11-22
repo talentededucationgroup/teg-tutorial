@@ -6,19 +6,12 @@
  "reels": true,
  "services": [],
  "services_note": "Kosong = semua channel yang tersambung di Buffer. Isi mis. [\"instagram\",\"facebook\",\"twitter\",\"google\"] untuk membatasi.",
- "max_per_run": 8,
- "max_age_days": 10,
+ "max_per_run": 12,
+ "max_age_days": 4,
  "news_max_age_days": 1,
  "news_note": "Berita imigrasi hanya dikirim pada hari diumumkan / H+1 (tanggal dari sumber resmi).",
  "mode_note": "'auto_reviewed' = setiap postingan dicek dulu: oleh ChatGPT bila secret OPENAI_API_KEY ada, bila tidak oleh tugas terjadwal Claude QA (menulis data/social-review.json). Hanya LOLOS yang langsung masuk antrean Buffer & tayang; REVISI/TOLAK ditahan; yang belum dicek menunggu (tidak ke Drafts). 'draft' = semua ke Drafts. 'queue' = langsung tayang tanpa cek.",
  "reviewer_model": "gpt-4o",
- "daily_caps": {
-  "youtube": 2,
-  "tiktok": 3,
-  "instagram": 6,
-  "facebook": 6
- },
- "daily_caps_note": "Batas kiriman per channel per hari (YouTube dibatasi Buffer: paket gratis 2/hari, berbayar 100/hari dengan email terverifikasi, 5/hari bila belum). Sisa dikirim besok.",
  "review_note": "Sejak 20/11/2026 reviewer = Claude (tugas terjadwal 'QA postingan sosmed', 3x sehari).",
  "instant_prefixes": [
   "news:",
@@ -27,5 +20,40 @@
  ],
  "instant_note": "Beasiswa & berita imigrasi resmi langsung masuk antrean Buffer tanpa menunggu QA (keputusan pemilik 20/11/2026: wajib jadi yang pertama posting). Data sumbernya sudah diverifikasi dari situs resmi oleh tugas harian; QA Claude tetap memeriksa sesudahnya dan putusan REVISI/TOLAK menghentikan kiriman berikutnya.",
  "story_video": true,
- "story_video_note": "Story IG & FB diposting sebagai video 9:16 bermusik (Reel) bila tersedia, selain itu gambar Story (pemilik 21/11/2026). WhatsApp Status tidak punya API: dibagikan lewat Kit Tim. X & LinkedIn tidak punya fitur Story: mendapat postingan feed. TikTok mendapat video Reel."
+ "story_video_note": "Story IG & FB diposting sebagai video 9:16 bermusik (Reel) bila tersedia, selain itu gambar Story (pemilik 21/11/2026). WhatsApp Status tidak punya API: dibagikan lewat Kit Tim. X & LinkedIn tidak punya fitur Story: mendapat postingan feed. TikTok mendapat video Reel.",
+ "post_mode": "now",
+ "post_mode_note": "'now' = langsung tayang saat dikirim (Buffer shareNow), tidak menunggu slot antrean; 'queue' = masuk antrean Buffer. Pemilik 22/11/2026.",
+ "max_per_channel_per_run": 1,
+ "daily_caps_by_kind": {
+  "feed": {
+   "instagram": 2,
+   "facebook": 2,
+   "twitter": 2,
+   "linkedin": 1,
+   "google": 1
+  },
+  "reel": {
+   "instagram": 1,
+   "facebook": 1,
+   "tiktok": 1,
+   "youtube": 1
+  },
+  "story": {
+   "instagram": 1,
+   "facebook": 1
+  }
+ },
+ "daily_caps_note": "Batas harian per channel DIPISAH per jenis (feed/reel/story) supaya feed IG/FB tidak habis terpakai Reel/Story. Sedikit tapi bermutu (pemilik 22/11/2026). Maks 1 kiriman per channel per jenis per run (run 4x sehari: 08:23, 12:23, 16:23, 20:23 WIB) agar tersebar.",
+ "max_queue_per_channel": 2,
+ "priority": {
+  "news:": 100,
+  "video:": 85,
+  "scholarship:": 75,
+  "promo:": 60,
+  "post:": 55,
+  "site:": 40,
+  "default": 50
+ },
+ "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + paling baru. Satu postingan per channel hanya satu format (Reel ATAU feed).",
+ "min_quality_score": 3
 }

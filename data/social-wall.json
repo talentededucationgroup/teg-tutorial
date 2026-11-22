@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T11:26:06+07:00",
+ "version": "2026-11-22T11:27:07+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -173,6 +173,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
   },
   {
+   "id": "scholarship:hk-belt-and-road-scholarship-hku|open",
+   "kind": "scholarship",
+   "date": "2026-11-22",
+   "title": "Beasiswa dibuka: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Belt%20and%20Road%20Scholarship%20%28HKSAR%20Government%20Scholarship%20Fund%29%20-%20HKU",
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+   "caption": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU sedang dibuka, pendaftaran ditutup 31 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Hong Kong",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%202%20Reel.mp4"
+  },
+  {
    "id": "scholarship:ae-murdoch-dubai-academic-merit|open",
    "kind": "scholarship",
    "date": "2026-11-21",
@@ -223,6 +236,19 @@
    "country": "Spanyol",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:my-mohe-mis",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: Malaysia International Scholarship (MIS)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Malaysia%20International%20Scholarship%20%28MIS%29",
+   "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
+   "caption": "Info beasiswa: Malaysia International Scholarship (MIS). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Malaysia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:in-iccr-scholarship",
@@ -314,6 +340,19 @@
    "country": "Australia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-aih-international-support-bursary|open",
+   "kind": "scholarship",
+   "date": "2026-11-18",
+   "title": "Beasiswa dibuka: AIH International Support Bursary (20%) (deadline 2026-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%203.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20International%20Support%20Bursary%20%2820%25%29",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "caption": "AIH International Support Bursary (20%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%203%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%203%20Reel.mp4"
   },
   {
    "id": "scholarship:au-aih-future-innovator|open",

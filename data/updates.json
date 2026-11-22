@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T11:26:06+07:00",
+ "version": "2026-11-22T11:27:07+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,34 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:hk-belt-and-road-scholarship-hku|open",
+   "kind": "scholarship",
+   "date": "2026-11-22",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "en": "🎓 Scholarship open: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "th": "🎓 เปิดรับทุน: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "vi": "🎓 Học bổng đang mở: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "zh": "🎓 奖学金开放申请：Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "ja": "🎓 奨学金募集中：Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "ko": "🎓 장학금 모집 중: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "fr": "🎓 Bourse ouverte : Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "pt": "🎓 Bolsa aberta: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "es": "🎓 Beca abierta: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "de": "🎓 Stipendium offen: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "it": "🎓 Borsa aperta: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "nl": "🎓 Beurs open: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)",
+    "ru": "🎓 Открыт приём на стипендию: Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU (deadline 2027-01-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Belt%20and%20Road%20Scholarship%20%28HKSAR%20Government%20Scholarship%20Fund%29%20-%20HKU",
+   "country": "Hong Kong",
+   "provider": "Pemerintah Hong Kong (HKSAR) / The University of Hong Kong",
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
+  },
   {
    "id": "jobs:2026-11-22-171",
    "kind": "jobs",

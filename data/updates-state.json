@@ -78,6 +78,7 @@
 "eu-erasmus-mundus-joint-masters|open",
 "fr-eiffel-excellence|open",
 "hk-belt-and-road-scholarship-hku",
+"hk-belt-and-road-scholarship-hku|open",
 "hu-stipendium-hungaricum",
 "id-beasiswa-garuda-sarjana",
 "id-beasiswa-talenta-indonesia",
@@ -1859,6 +1860,7 @@
 "scholarship:ae-murdoch-dubai-academic-merit|open",
 "scholarship:th-rsu-ric-network-scholarship",
 "scholarship:es-nebrija-southeast-asia-scholarship",
-"jobs:2026-11-22-171"
+"jobs:2026-11-22-171",
+"scholarship:hk-belt-and-road-scholarship-hku|open"
 ]
 }

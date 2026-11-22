@@ -518,6 +518,20 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 38,
+   "date": "2026-11-22",
+   "key": "scholarship:hk-belt-and-road-scholarship-hku|open",
+   "file": "Talented HKSAR Beasiswa November 2026 2.png",
+   "provider": "HKSAR",
+   "layout": "H",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

@@ -12,6 +12,7 @@
 "post:2026-w47-ais|story|6aff3157ece6dfde5f2203ab",
 "post:2026-w47-ais|story|6aff319cece6dfde5f2206b4",
 "promo:aih-promo-2026|feed|6aff3328ece6dfde5f221865",
+"promo:cdu-founding-2026|feed|6aff3328ece6dfde5f221865",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3157ece6dfde5f2203ab",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff319cece6dfde5f2206b4",
 "scholarship:au-aih-future-innovator|open|feed|6aff3328ece6dfde5f221865",
@@ -54,7 +55,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-22T09:39:00.917983+00:00",
+"last_run": "2026-11-22T10:06:25.805578+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -105,7 +106,7 @@
 "6aff3375ece6dfde5f221ba2|feed": 1,
 "6aff3375ece6dfde5f221ba1|feed": 1,
 "6aff32d7ece6dfde5f22151d|feed": 1,
-"6aff3328ece6dfde5f221865|feed": 1
+"6aff3328ece6dfde5f221865|feed": 2
 }
 },
 "waiting_review": [],

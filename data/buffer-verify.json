@@ -1,6 +1,6 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-22T09:42:59+00:00",
+ "checked_at": "2026-11-22T10:09:43+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
@@ -14,8 +14,8 @@
    "text": "Belt and Road Scholarship (HKSAR Government Schola"
   },
   "facebook|story": {
-   "sentAt": "2026-11-22T03:27:05.322Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjM3NDIyNzYxOTU5Mjc5MTc=/?view_single=1",
+   "sentAt": "2026-11-22T07:20:44.711Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjExODE3MjUwNzA5ODM5NjA=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {
@@ -49,9 +49,9 @@
    "text": "Belt and Road Scholarship (HKSAR Government Schola"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-22T09:39:58.827Z",
-   "link": "https://x.com/1511766381762531332/status/2124437725407289704",
-   "text": "Promo: AIH Higher Education - beasiswa hingga 30% "
+   "sentAt": "2026-11-22T10:06:42.418Z",
+   "link": "https://x.com/1511766381762531332/status/2124444450596196790",
+   "text": "Promo: Charles Darwin University - CDU Global Meri"
   },
   "youtube|reel": {
    "sentAt": "2026-11-22T07:20:16.565Z",

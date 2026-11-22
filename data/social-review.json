@@ -298,6 +298,19 @@
    "checked_at": "2026-11-22T09:00:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
+  },
+  "site:2026-11-22:site-06": {
+   "verdict": "LOLOS",
+   "reasons": [
+    "Promo fitur tab Akomodasi pricelist sendiri, tanpa angka/tanggal/ketentuan spesifik yang perlu sumber eksternal",
+    "Tidak ada nama master agent/agregator, komisi, data siswa, nomor telepon, atau klaim jaminan",
+    "Poster: logo Talented terlihat, teks tidak terpotong/bertabrakan; caption wajar, penutup Talented ada, 3 hashtag",
+    "Catatan kecil: foto latar adalah ruang perpustakaan kampus, bukan kamar/asrama - tidak menyesatkan fakta, tapi kurang pas dengan tema"
+   ],
+   "fix": "Untuk postingan akomodasi berikutnya pakai foto kamar/asrama pelajar agar sesuai tema.",
+   "checked_at": "2026-11-22T12:56:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
   }
  }
 }

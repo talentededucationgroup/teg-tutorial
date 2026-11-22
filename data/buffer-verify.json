@@ -1,0 +1,64 @@
+{
+ "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
+ "checked_at": "2026-11-22T09:42:59+00:00",
+ "ok": true,
+ "last_sent": {
+  "facebook|feed": {
+   "sentAt": "2026-11-22T09:39:45.849Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1741071218029042",
+   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+  },
+  "facebook|reel": {
+   "sentAt": "2026-11-22T07:20:25.222Z",
+   "link": "https://www.facebook.com/reel/1353504500293494/",
+   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+  },
+  "facebook|story": {
+   "sentAt": "2026-11-22T03:27:05.322Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjM3NDIyNzYxOTU5Mjc5MTc=/?view_single=1",
+   "text": ""
+  },
+  "googlebusiness|feed": {
+   "sentAt": "2026-11-22T09:39:29.078Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDo4aFJGeXE5Qmo0MTcxWUEzQTJpXzR3",
+   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+  },
+  "instagram|feed": {
+   "sentAt": "2026-11-22T09:39:58.130Z",
+   "link": "https://www.instagram.com/p/DgCgRkNIPUw/",
+   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+  },
+  "instagram|reel": {
+   "sentAt": "2026-11-22T07:21:24.538Z",
+   "link": "https://www.instagram.com/reel/DgCQVEvjxw6/",
+   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+  },
+  "instagram|story": {
+   "sentAt": "2026-11-22T07:23:41.175Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4035860524679797068",
+   "text": ""
+  },
+  "linkedin|feed": {
+   "sentAt": "2026-11-22T09:39:52.677Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530203387695513600",
+   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+  },
+  "tiktok|reel": {
+   "sentAt": "2026-11-22T07:20:46.601Z",
+   "link": "https://tiktok.com/@talented.education/video/7710892220903132423",
+   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+  },
+  "twitter|feed": {
+   "sentAt": "2026-11-22T09:39:58.827Z",
+   "link": "https://x.com/1511766381762531332/status/2124437725407289704",
+   "text": "Promo: AIH Higher Education - beasiswa hingga 30% "
+  },
+  "youtube|reel": {
+   "sentAt": "2026-11-22T07:20:16.565Z",
+   "link": "https://www.youtube.com/shorts/JBc1pdpnjd0",
+   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+  }
+ },
+ "problems": [],
+ "stale": []
+}

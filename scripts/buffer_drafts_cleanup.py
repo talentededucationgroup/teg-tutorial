@@ -23,6 +23,20 @@ if MODE == 'inspect':
         except Exception as e:
             print(t, 'ERR', str(e)[:120])
     sys.exit(0)
+if MODE == 'recent':
+    # cek status 30 postingan terbaru per organisasi: tayang / error / link (tanpa teks lengkap)
+    pf = fields('Post')
+    names = {f['name'] for f in pf['fields']}
+    print('Post fields:', sorted(names))
+    want = [n for n in ('id', 'status', 'channelId', 'channelService', 'createdAt', 'dueAt', 'sentAt', 'externalLink', 'schedulingType', 'shareMode', 'via') if n in names]
+    err = ' error { message }' if 'error' in names else ''
+    orgs = gql("query { account { organizations { id } } }")['account']['organizations']
+    for o in orgs:
+        d = gql("query P($o:OrganizationId!){ posts(input:{organizationId:$o, sort:[{field: createdAt, direction: desc}]}, first:40){ edges{ node{ " + ' '.join(want) + err + " text } } } }", {"o": o['id']})['posts']
+        for e in d['edges']:
+            n = e['node']; n['text'] = (n.get('text') or '')[:50]
+            print('POST', json.dumps(n, ensure_ascii=False))
+    sys.exit(0)
 if MODE == 'resync_sent':
     # Pemilik 22/11/2026: setelah antrean dikosongkan, data/buffer-sent.json hanya mencatat feed/reel yang BENAR-BENAR
     # sudah tayang (dicocokkan dengan postingan status sent di Buffer), supaya yang terhapus bisa dipilih ulang tanpa dobel.

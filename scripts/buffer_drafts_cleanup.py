@@ -23,6 +23,42 @@ if MODE == 'inspect':
         except Exception as e:
             print(t, 'ERR', str(e)[:120])
     sys.exit(0)
+if MODE == 'resync_sent':
+    # Pemilik 22/11/2026: setelah antrean dikosongkan, data/buffer-sent.json hanya mencatat feed/reel yang BENAR-BENAR
+    # sudah tayang (dicocokkan dengan postingan status sent di Buffer), supaya yang terhapus bisa dipilih ulang tanpa dobel.
+    import re
+    from post_to_buffer import feed, x_text, no_hashtags, SENT_P
+    norm = lambda t: re.sub(r'[\s*]+', ' ', t or '').strip()[:60]
+    pub = set()
+    orgs = gql("query { account { organizations { id } } }")['account']['organizations']
+    for o in orgs:
+        after = None
+        for _ in range(30):
+            d = gql("""query P($o:OrganizationId!,$a:String){ posts(input:{organizationId:$o, filter:{status:[sent]}}, first:100, after:$a){ edges{ node{ channelId text } } pageInfo{ hasNextPage endCursor } } }""", {"o": o['id'], "a": after})['posts']
+            for e in d['edges']:
+                if e['node'].get('text'):
+                    pub.add((e['node']['channelId'], norm(e['node']['text'])))
+            if not d['pageInfo']['hasNextPage']:
+                break
+            after = d['pageInfo']['endCursor']
+    items = {}
+    for f in ('social-feed.xml', 'social-feed-story.xml', 'social-feed-reels.xml'):
+        for i in feed(f):
+            items[i['guid']] = i
+    sent = json.load(open(SENT_P, encoding='utf-8'))
+    keep, drop = [], []
+    for k in sent['sent']:
+        parts = k.split('|'); guid = '|'.join(parts[:-2]); kind = parts[-2]; ch = parts[-1]
+        i = items.get(guid)
+        if kind == 'story' or not i:
+            keep.append(k); continue
+        texts = {norm(i['text']), norm(no_hashtags(i['text'])), norm(x_text(i))}
+        (keep if any((ch, t) in pub for t in texts) else drop).append(k)
+    sent['sent'] = sorted(keep)
+    sent['note'] = sent.get('note', '') + ' Diselaraskan 22/11/2026 setelah antrean Buffer dikosongkan: hanya yang sudah tayang.'
+    json.dump(sent, open(SENT_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+    print(f'published texts {len(pub)}; kept {len(keep)}; dropped {len(drop)}')
+    sys.exit(0)
 if MODE == 'sent_list':
     # daftar postingan yang SUDAH tayang (channelId + awal teks) untuk menyelaraskan data/buffer-sent.json
     orgs = gql("query { account { organizations { id } } }")['account']['organizations']

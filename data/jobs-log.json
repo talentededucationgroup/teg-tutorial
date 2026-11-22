@@ -1,6 +1,24 @@
 {
  "runs": [
   {
+   "time": "2026-11-22T17:58:57+07:00",
+   "result": "berhasil",
+   "published": 252,
+   "held": 0,
+   "failed": [
+    {
+     "city": "Toronto",
+     "error": "HTTP 503 <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content"
+    },
+    {
+     "city": "Montreal",
+     "error": "HTTP 503 <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content"
+    }
+   ],
+   "added": 140,
+   "removed": 162
+  },
+  {
    "time": "2026-11-22T05:58:07+07:00",
    "result": "berhasil",
    "published": 274,

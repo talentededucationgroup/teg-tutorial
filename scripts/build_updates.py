@@ -192,7 +192,7 @@ def main():
     flat = {e['id']: e for d in cur.values() for e in d.values() if isinstance(e, dict)}
     for i in items:
         if i['id'] in flat:
-            for k in ('country', 'provider'):
+            for k in ('country', 'provider', 'source'):
                 if flat[i['id']].get(k) and not i.get(k):
                     i[k] = flat[i['id']][k]
     for i in items:
@@ -252,7 +252,11 @@ def caption(e, t):
         dl = idate(dl0, True) if dl0 else None
         k = e['kind']
         if k == 'scholarship':
-            op = f"{t2} sedang dibuka" + (f", pendaftaran ditutup {dl}" if dl else '') + f". Info lengkap: {LT}"
+            if str(e.get('id', '')).endswith('|open'):
+                op = f"{t2} sedang dibuka" + (f", pendaftaran ditutup {dl}" if dl else '') + f". Info lengkap: {LT}"
+            else:
+                # not open now (status 'Segera dibuka' / 'Tahunan'): never claim it is open (QA 22/11/2026)
+                op = f"Info beasiswa: {t2}. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: {LT}"
             body = ("Syarat, besaran beasiswa dan cara daftarnya beda-beda tiap kampus atau lembaga. Tim Talented bisa bantu cek apakah kamu memenuhi syarat "
                     "dan menyiapkan berkasnya, gratis.\n\nScan QR di gambar atau klik link di bio untuk konsultasi.")
         elif k in ('promo', 'sponsored'):

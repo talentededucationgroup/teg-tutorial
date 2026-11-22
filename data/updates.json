@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T09:22:37+07:00",
+ "version": "2026-11-22T11:26:06+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -721,7 +721,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Singapore%20International%20Graduate%20Award%20%28SINGA%29",
    "country": "Singapura",
-   "provider": "A*STAR, NUS, NTU, SUTD (Singapura)"
+   "provider": "A*STAR, NUS, NTU, SUTD (Singapura)",
+   "source": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"
   },
   {
    "id": "scholarship:au-aih-next-gen-award|open",
@@ -748,7 +749,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29",
    "country": "Australia",
-   "provider": "Australian Institute of Higher Education (AIH)"
+   "provider": "Australian Institute of Higher Education (AIH)",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   {
    "id": "scholarship:au-aih-global-access-award|open",
@@ -775,7 +777,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29",
    "country": "Australia",
-   "provider": "Australian Institute of Higher Education (AIH)"
+   "provider": "Australian Institute of Higher Education (AIH)",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   {
    "id": "scholarship:au-aih-international-support-bursary|open",
@@ -802,7 +805,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20International%20Support%20Bursary%20%2820%25%29",
    "country": "Australia",
-   "provider": "Australian Institute of Higher Education (AIH)"
+   "provider": "Australian Institute of Higher Education (AIH)",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   {
    "id": "scholarship:au-aih-future-innovator|open",
@@ -829,7 +833,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29",
    "country": "Australia",
-   "provider": "Australian Institute of Higher Education (AIH)"
+   "provider": "Australian Institute of Higher Education (AIH)",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   {
    "id": "scholarship:fr-eiffel-excellence|open",
@@ -856,7 +861,8 @@
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme",
    "country": "Prancis",
-   "provider": "Kementerian Eropa dan Luar Negeri Prancis (dikelola Campus France)"
+   "provider": "Kementerian Eropa dan Luar Negeri Prancis (dikelola Campus France)",
+   "source": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
   },
   {
    "id": "promo:aih-promo-2026",
@@ -883,7 +889,8 @@
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education",
    "provider": "AIH Higher Education (Australian Institute of Higher Education)",
-   "country": "AU"
+   "country": "AU",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   {
    "id": "promo:cdu-founding-2026",
@@ -910,7 +917,8 @@
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Charles%20Darwin",
    "provider": "Charles Darwin University (CDU)",
-   "country": "AU"
+   "country": "AU",
+   "source": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf"
   },
   {
    "id": "promo:aiat-founding-2026",
@@ -937,7 +945,8 @@
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Australian%20Institute%20of%20Advanced%20Technologies",
    "provider": "Australian Institute of Advanced Technologies (AIAT)",
-   "country": "AU"
+   "country": "AU",
+   "source": "https://search.studyaustralia.gov.au/provider/australian-institute-of-advanced-technologies/2c8cb290bce3fd532d1eb40a5b3d0d3f"
   },
   {
    "id": "promo:apic-promo-2026",
@@ -964,7 +973,8 @@
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College",
    "provider": "Asia Pacific International College (APIC)",
-   "country": "AU"
+   "country": "AU",
+   "source": "https://apicollege.edu.au/scholarship/"
   },
   {
    "id": "accommodation:2026-11-18-1",
@@ -1090,7 +1100,8 @@
    },
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "country": "US"
+   "country": "US",
+   "source": "https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse"
   },
   {
    "id": "news:nz-stgwv-2026-11-16",
@@ -1116,7 +1127,8 @@
    },
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "country": "NZ"
+   "country": "NZ",
+   "source": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/"
   },
   {
    "id": "news:nz-pswv-eligibility-2026-11-16",
@@ -1142,7 +1154,8 @@
    },
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "country": "NZ"
+   "country": "NZ",
+   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/"
   },
   {
    "id": "news:au-485-family-2026-11-13",

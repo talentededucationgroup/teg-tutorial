@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T09:22:37+07:00",
+ "version": "2026-11-22T11:26:06+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -173,6 +173,71 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
   },
   {
+   "id": "scholarship:ae-murdoch-dubai-academic-merit|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: Murdoch University Dubai Academic Merit Scholarships",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Murdoch%20University%20Dubai%20Academic%20Merit%20Scholarships",
+   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/",
+   "caption": "Murdoch University Dubai Academic Merit Scholarships sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Uni Emirat Arab",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:vn-rmit-international-excellence-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: RMIT Vietnam International Excellence Scholarships 2027 (deadline 2027-01-18)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RMIT%20Vietnam%20International%20Excellence%20Scholarships%202027",
+   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships",
+   "caption": "RMIT Vietnam International Excellence Scholarships 2027 sedang dibuka, pendaftaran ditutup 18 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Vietnam",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:ch-eskas-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa dibuka: Swiss Government Excellence Scholarships 2027-2028 (Research) (deadline 2026-11-30)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Swiss%20Government%20Excellence%20Scholarships%202027-2028%20%28Research%29",
+   "source": "https://www.sbfi.admin.ch/scholarships_eng",
+   "caption": "Swiss Government Excellence Scholarships 2027-2028 (Research) sedang dibuka, pendaftaran ditutup 30 November 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Swiss",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:es-nebrija-southeast-asia-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: Nebrija University - Scholarship for Southeast Asia",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Nebrija%20University%20-%20Scholarship%20for%20Southeast%20Asia",
+   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/",
+   "caption": "Info beasiswa: Nebrija University - Scholarship for Southeast Asia. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Spanyol",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:in-iccr-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-21",
+   "title": "Beasiswa baru: ICCR Scholarship (Government of India)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ICCR%20Scholarship%20%28Government%20of%20India%29",
+   "source": "https://a2ascholarships.iccr.gov.in/",
+   "caption": "Info beasiswa: ICCR Scholarship (Government of India). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "India",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "post:2026-w47-ais",
    "kind": "marketing",
    "date": "2026-11-20",
@@ -197,6 +262,110 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:sg-sim-diploma-scholarship-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "title": "Beasiswa dibuka: SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%) (deadline 2026-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20Diploma%20Scholarship%202027%20%28Academic%20Excellence%20100%25%20/%20Merit%2050%25%29",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "caption": "SIM Diploma Scholarship 2027 (Academic Excellence 100% / Merit 50%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Singapura",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:sg-sim-uob-mba-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-20",
+   "title": "Beasiswa baru: SIM-University of Birmingham MBA Scholarship",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%203.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MBA%20Scholarship",
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "caption": "Info beasiswa: SIM-University of Birmingham MBA Scholarship. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Singapura",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%203%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%203%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-aih-next-gen-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-18",
+   "title": "Beasiswa dibuka: AIH Australian Next Gen Award (30%) (deadline 2026-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "caption": "AIH Australian Next Gen Award (30%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-aih-global-access-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-18",
+   "title": "Beasiswa dibuka: AIH Global Access Award (15%) (deadline 2026-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "caption": "AIH Global Access Award (15%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-aih-future-innovator|open",
+   "kind": "scholarship",
+   "date": "2026-11-18",
+   "title": "Beasiswa dibuka: AIH Future Innovator Scholarship (30%) (deadline 2026-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "caption": "AIH Future Innovator Scholarship (30%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:fr-eiffel-excellence|open",
+   "kind": "scholarship",
+   "date": "2026-11-18",
+   "title": "Beasiswa dibuka: Eiffel Excellence Scholarship Programme (deadline 2027-01-06)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme",
+   "source": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+   "caption": "Eiffel Excellence Scholarship Programme sedang dibuka, pendaftaran ditutup 6 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Prancis",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "promo:aih-promo-2026",
+   "kind": "promo",
+   "date": "2026-11-18",
+   "title": "Promo: AIH Higher Education - beasiswa hingga 30% untuk Bachelor 2027",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education",
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "caption": "AIH Higher Education - beasiswa hingga 30% untuk Bachelor 2027. Detail program dan biaya bisa dicek lewat https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "promo:cdu-founding-2026",
+   "kind": "promo",
+   "date": "2026-11-18",
+   "title": "Promo: Charles Darwin University - CDU Global Merit Scholarship 30%",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?q=Charles%20Darwin",
+   "source": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf",
+   "caption": "Charles Darwin University - CDU Global Merit Scholarship 30%. Detail program dan biaya bisa dicek lewat https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%20Reel.mp4"
   }
  ]
 }

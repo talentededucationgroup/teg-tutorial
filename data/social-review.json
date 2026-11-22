@@ -117,12 +117,12 @@
    "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
   "scholarship:au-aih-international-support-bursary|open": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "reasons": [
-    "Sumber: 20% hanya untuk siswa internasional ONSHORE (sudah di Australia) - postingan untuk audiens Indonesia offshore bisa menyesatkan"
+    "Diperbaiki 22/11/2026: nama memuat \"khusus siswa di Australia\" sesuai sumber (onshore); 20%, deadline 31 Des 2026 cocok"
    ],
-   "fix": "Tambahkan \"khusus siswa yang sudah di Australia\"",
-   "checked_at": "2026-11-22T08:35:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-22T09:00:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
    "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
   },
@@ -180,12 +180,12 @@
    "source": "https://aiat.edu.au/fees-and-payments/"
   },
   "promo:apic-promo-2026": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "reasons": [
-    "Sumber APIC: tidak ada 34%; Equity 36% khusus siswa domestik; Diversity hingga 36% untuk internasional dengan syarat negara/kursus"
+    "Diperbaiki 22/11/2026: judul & teks jadi \"Diversity Scholarship hingga 36% biaya 2027\" (syarat negara & kursus) sesuai halaman resmi APIC; link sumber resmi di caption"
    ],
-   "fix": "Ubah jadi \"Diversity Scholarship hingga 36% (syarat negara & kursus)\"",
-   "checked_at": "2026-11-22T08:35:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-22T09:00:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
    "source": "https://www.apicollege.edu.au/fees-and-scholarships"
   },
@@ -260,21 +260,21 @@
    "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/"
   },
   "scholarship:my-mohe-mis": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "reasons": [
-    "Sumber: MIS khusus pascasarjana, aplikasi 2026/2027 sudah ditutup; nilai RM1.500/bulan tidak ada di halaman (ada di PDF Guidelines)"
+    "PDF Guidelines MIS 2026: RM1.500/bulan + tuition ditanggung, Master/PhD; caption baru menyebut pendaftaran belum dibuka (2026/2027 sudah tutup) - cocok"
    ],
-   "fix": "Sebut \"khusus S2/S3\" dan cek nilai di PDF Guidelines MIS 2026",
-   "checked_at": "2026-11-22T08:35:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-22T09:00:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
-   "source": "https://biasiswa.mohe.gov.my/INTER/index.php"
+   "source": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf"
   },
   "scholarship:hk-belt-and-road-scholarship-hku": {
    "verdict": "REVISI",
    "reasons": [
     "Sumber: hingga full tuition, WNI boleh daftar - cocok; TETAPI deadline 31 Jan 2027 = sedang dibuka, sedangkan data status \"Tahunan - belum diumumkan\""
    ],
-   "fix": "Ubah status di scholarships.json jadi Buka + deadline 2027-01-31 (akan jadi postingan \"dibuka\" baru)",
+   "fix": "Sudah diperbaiki 22/11/2026: status Buka + deadline 31/01/2027 (postingan baru guid ...|open)",
    "checked_at": "2026-11-22T08:35:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
@@ -288,6 +288,16 @@
    "checked_at": "2026-11-22T08:35:00+07:00",
    "model": "claude (QA ulang manual atas permintaan pemilik)",
    "source": "https://a2ascholarships.iccr.gov.in/"
+  },
+  "scholarship:hk-belt-and-road-scholarship-hku|open": {
+   "verdict": "LOLOS",
+   "reasons": [
+    "Halaman resmi HKU: hingga full tuition, WNI termasuk negara peserta, deadline 31 Jan 2027 - cocok"
+   ],
+   "fix": "",
+   "checked_at": "2026-11-22T09:00:00+07:00",
+   "model": "claude (QA ulang manual atas permintaan pemilik)",
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
   }
  }
 }

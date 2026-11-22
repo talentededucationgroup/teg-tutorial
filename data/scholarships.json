@@ -4,9 +4,9 @@
  "source": "Data beasiswa TEG (diperbarui setiap Senin 06:17 WIB dari situs resmi pemberi beasiswa)",
  "count": 99,
  "counts": {
-  "Tahunan - jadwal berikutnya belum diumumkan": 42,
+  "Tahunan - jadwal berikutnya belum diumumkan": 41,
   "Segera dibuka": 2,
-  "Buka": 55
+  "Buka": 56
  },
  "ui": {
   "title": {
@@ -1927,7 +1927,7 @@
   },
   {
    "id": "au-aih-international-support-bursary",
-   "name": "AIH International Support Bursary (20%)",
+   "name": "AIH International Support Bursary (20%, khusus siswa di Australia)",
    "provider": "Australian Institute of Higher Education (AIH)",
    "type": "Kampus / Sekolah",
    "country": "Australia",
@@ -1951,7 +1951,7 @@
    "notes": "Untuk WNI yang sudah berada di Australia.",
    "i18n": {
     "en": {
-     "name": "AIH International Support Bursary (20%)",
+     "name": "AIH International Support Bursary (20%, students already in Australia)",
      "provider": "Australian Institute of Higher Education (AIH)",
      "country": "Australia",
      "fields": "AIH programmes (Business/IT)",
@@ -4203,7 +4203,7 @@
    "fields": "Program sarjana SIM (termasuk University of London - Business, intake September 2027)",
    "funding": "Sebagian",
    "coverage": "SIM Undergraduate Scholarship: S$15.000 per penerima. SIM STARRR Award: total S$51.000 (tuition s.d. S$36.000, tunjangan hidup S$6.500, akomodasi s.d. S$5.000, tiket program pertukaran s.d. S$1.500, komputer s.d. S$2.000).",
-   "amount": "S$15.000 / S$51.000",
+   "amount": "STARRR: tuition hingga S$36.000 + tunjangan; SIM GE Scholarship S$15.000 (mahasiswa yang sudah kuliah)",
    "eligibility": "Terbuka untuk siswa internasional. Undergraduate: nilai A Level/IB/Year 12 sangat baik, kegiatan & kontribusi komunitas, kepemimpinan dan komunikasi kuat (jalur Academic Excellence & Leadership atau Sports & Artistic Talent); harus diterima di program dulu. STARRR: mahasiswa baru, ko-kurikuler baik, tes High Potential Trait Indicator untuk kandidat terpilih.",
    "english_test": "Sesuai syarat masuk program sarjana SIM",
    "status": "Segera dibuka",
@@ -4211,7 +4211,7 @@
    "deadline": "",
    "intake": "Periode aplikasi Maret & September 2027",
    "url": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
-   "source_checked": "2026-11-21",
+   "source_checked": "2026-11-22",
    "partner": true,
    "notes": "Tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented.",
    "i18n": {
@@ -4221,7 +4221,7 @@
      "country": "Singapore",
      "fields": "SIM undergraduate programmes (incl. University of London - Business, September 2027 intake)",
      "coverage": "SIM Undergraduate Scholarship: S$15,000 per scholar. SIM STARRR Award: S$51,000 in total (tuition up to S$36,000, living allowance S$6,500, accommodation up to S$5,000, exchange air ticket up to S$1,500, computer up to S$2,000).",
-     "amount": "S$15,000 / S$51,000",
+     "amount": "STARRR: tuition up to S$36,000 + allowances; SIM GE Scholarship S$15,000 (current students)",
      "eligibility": "Open to international students. Undergraduate: outstanding A Level/IB/Year 12 results, community and co-curricular record, strong leadership and communication (Academic Excellence & Leadership or Sports & Artistic Talent track); must first be accepted into the programme. STARRR: new students, good co-curricular record, High Potential Trait Indicator test for shortlisted candidates.",
      "english_test": "SIM undergraduate entry requirements",
      "intake": "Application periods March & September 2027",
@@ -4988,7 +4988,7 @@
    "deadline": "",
    "intake": "",
    "url": "https://biasiswa.mohe.gov.my/INTER/index.php",
-   "source_checked": "2026-11-21",
+   "source_checked": "2026-11-22",
    "partner": false,
    "notes": "Periode aplikasi 2026/2027 sudah ditutup; jadwal berikutnya belum diumumkan. Daftar online di biasiswa.mohe.gov.my.",
    "i18n": {
@@ -5371,14 +5371,14 @@
    "amount": "Tuition penuh",
    "eligibility": "Warga negara Belt and Road yang berpartisipasi (Indonesia termasuk); mendaftar program HKU dan memilih beasiswa ini di formulir online.",
    "english_test": "Sesuai syarat masuk program HKU",
-   "status": "Tahunan - jadwal berikutnya belum diumumkan",
+   "status": "Buka",
    "open_date": "",
-   "deadline": "",
+   "deadline": "2027-01-31",
    "intake": "September",
    "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
-   "source_checked": "2026-11-21",
+   "source_checked": "2026-11-22",
    "partner": false,
-   "notes": "Batas terakhir yang tercantum 31 Jan 2026; tanggal untuk intake 2027 belum tercantum - konfirmasi ke HKU. Dokumen: tulisan 1 halaman, CV + sertifikat, 4 paragraf singkat sesuai ketentuan.",
+   "notes": "Deadline 31 Jan 2027 (halaman resmi HKU, dicek 22/11/2026). Seleksi kompetitif.",
    "i18n": {
     "en": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5390,7 +5390,7 @@
      "eligibility": "Nationals of participating Belt and Road countries (Indonesia included); apply to an HKU programme and indicate this scholarship on the online form.",
      "english_test": "As per HKU programme entry requirements",
      "intake": "September",
-     "notes": "Last listed deadline 31 Jan 2026; the 2027 date is not yet listed - confirm with HKU. Documents: one-page write-up, CV + certificates, four short paragraphs as specified."
+     "notes": "Deadline 31 Jan 2027 (official HKU page, checked 22/11/2026). Competitive selection."
     },
     "th": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5402,7 +5402,7 @@
      "eligibility": "พลเมืองประเทศ Belt and Road ที่เข้าร่วม (รวมอินโดนีเซีย) สมัครหลักสูตร HKU และเลือกทุนนี้ในแบบฟอร์มออนไลน์",
      "english_test": "ตามเกณฑ์รับเข้าหลักสูตร HKU",
      "intake": "กันยายน",
-     "notes": "กำหนดปิดล่าสุดที่ระบุ 31 ม.ค. 2026 ยังไม่ระบุวันสำหรับปี 2027 โปรดยืนยันกับ HKU เอกสาร: งานเขียน 1 หน้า CV + ใบรับรอง และย่อหน้าสั้น 4 ย่อหน้าตามที่กำหนด"
+     "notes": "ปิดรับสมัคร 31 ม.ค. 2027 (หน้าเว็บทางการ HKU ตรวจสอบ 22/11/2026) คัดเลือกแบบแข่งขัน"
     },
     "vi": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5414,7 +5414,7 @@
      "eligibility": "Công dân các nước Vành đai và Con đường tham gia (có Indonesia); nộp hồ sơ chương trình HKU và chọn học bổng này trên đơn trực tuyến.",
      "english_test": "Theo yêu cầu đầu vào chương trình HKU",
      "intake": "Tháng 9",
-     "notes": "Hạn chót gần nhất được nêu là 31/1/2026; chưa có ngày cho năm 2027 - xác nhận với HKU. Hồ sơ: bài viết 1 trang, CV + chứng chỉ, 4 đoạn ngắn theo quy định."
+     "notes": "Hạn chót 31/01/2027 (trang chính thức HKU, kiểm tra 22/11/2026). Xét chọn cạnh tranh."
     },
     "zh": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5426,7 +5426,7 @@
      "eligibility": "参与“一带一路”国家的公民（包括印尼）；申请 HKU 课程并在网上申请表中勾选此奖学金。",
      "english_test": "按 HKU 课程入学要求",
      "intake": "9 月",
-     "notes": "最近公布的截止日期为 2026-01-31；2027 年日期尚未公布，请向 HKU 确认。材料：一页短文、简历及证书、按要求撰写的四个短段落。"
+     "notes": "截止日期 2027年1月31日（HKU 官方页面，2026/11/22 核实）。竞争性评选。"
     },
     "ja": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5438,7 +5438,7 @@
      "eligibility": "参加する一帯一路諸国の国籍者（インドネシアを含む）。HKU のプログラムに出願し、オンライン申請書でこの奨学金を選択。",
      "english_test": "HKU プログラムの入学要件に準拠",
      "intake": "9月",
-     "notes": "直近の締切は 2026年1月31日。2027年の日程は未掲載のため HKU に確認。書類：1ページの作文、CV・証明書、指定の短い段落4つ。"
+     "notes": "締切 2027年1月31日（HKU公式ページ、2026/11/22確認）。競争選考。"
     },
     "ko": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5450,7 +5450,7 @@
      "eligibility": "참여 일대일로 국가 국민(인도네시아 포함); HKU 과정에 지원하고 온라인 지원서에서 이 장학금을 선택.",
      "english_test": "HKU 과정 입학 요건에 따름",
      "intake": "9월",
-     "notes": "최근 공지된 마감은 2026-01-31이며 2027년 일정은 미게시—HKU에 확인하세요. 서류: 1페이지 글, CV+증명서, 지정된 짧은 문단 4개."
+     "notes": "마감 2027년 1월 31일 (HKU 공식 페이지, 2026/11/22 확인). 경쟁 선발."
     },
     "km": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5462,7 +5462,7 @@
      "eligibility": "ពលរដ្ឋប្រទេស Belt and Road ដែលចូលរួម (រួមទាំងឥណ្ឌូនេស៊ី); ដាក់ពាក្យកម្មវិធី HKU ហើយជ្រើសអាហារូបករណ៍នេះក្នុងទម្រង់អនឡាញ។",
      "english_test": "តាមលក្ខខណ្ឌចូលរៀនកម្មវិធី HKU",
      "intake": "កញ្ញា",
-     "notes": "ផុតកំណត់ចុងក្រោយដែលបានចុះ 31 មករា 2026; កាលបរិច្ឆេទឆ្នាំ 2027 មិនទាន់មាន - សូមបញ្ជាក់ជាមួយ HKU។ ឯកសារ៖ អត្ថបទ 1 ទំព័រ CV + វិញ្ញាបនបត្រ និងកថាខណ្ឌខ្លី 4។"
+     "notes": "ថ្ងៃផុតកំណត់ 31 មករា 2027 (ទំព័រផ្លូវការ HKU ពិនិត្យ 22/11/2026)។ ការជ្រើសរើសប្រកួតប្រជែង។"
     },
     "fr": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5474,7 +5474,7 @@
      "eligibility": "Ressortissants des pays participants de la Belt and Road (Indonésie incluse) ; candidature à un programme HKU en cochant cette bourse dans le formulaire en ligne.",
      "english_test": "Selon les conditions d’admission du programme HKU",
      "intake": "Septembre",
-     "notes": "Dernière date limite indiquée : 31 janv. 2026 ; date 2027 non encore publiée - à confirmer auprès de HKU. Documents : texte d’une page, CV + certificats, quatre courts paragraphes demandés."
+     "notes": "Date limite 31/01/2027 (page officielle HKU, vérifiée le 22/11/2026). Sélection compétitive."
     },
     "pt": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5486,7 +5486,7 @@
      "eligibility": "Cidadãos dos países participantes da Belt and Road (inclui Indonésia); candidatar-se a um curso da HKU e indicar esta bolsa no formulário online.",
      "english_test": "Conforme requisitos de admissão do curso HKU",
      "intake": "Setembro",
-     "notes": "Último prazo divulgado: 31 jan 2026; data de 2027 ainda não publicada - confirme com a HKU. Documentos: texto de uma página, CV + certificados, quatro parágrafos curtos solicitados."
+     "notes": "Prazo 31/01/2027 (página oficial da HKU, verificada em 22/11/2026). Seleção competitiva."
     },
     "es": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5498,7 +5498,7 @@
      "eligibility": "Ciudadanos de países participantes de la Belt and Road (incluida Indonesia); solicitar un programa de HKU e indicar esta beca en el formulario en línea.",
      "english_test": "Según los requisitos de admisión del programa HKU",
      "intake": "Septiembre",
-     "notes": "Último plazo publicado: 31 ene 2026; la fecha de 2027 aún no figura - confírmala con HKU. Documentos: escrito de una página, CV + certificados, cuatro párrafos breves indicados."
+     "notes": "Fecha límite 31/01/2027 (página oficial de HKU, revisada el 22/11/2026). Selección competitiva."
     },
     "de": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5510,7 +5510,7 @@
      "eligibility": "Staatsangehörige teilnehmender Belt-and-Road-Länder (inkl. Indonesien); Bewerbung für ein HKU-Programm und Auswahl dieses Stipendiums im Online-Formular.",
      "english_test": "Gemäß den Zulassungsvoraussetzungen des HKU-Programms",
      "intake": "September",
-     "notes": "Zuletzt genannte Frist 31. Jan. 2026; Termin für 2027 noch nicht veröffentlicht - bei der HKU bestätigen. Unterlagen: einseitiger Text, Lebenslauf + Zertifikate, vier kurze Absätze nach Vorgabe."
+     "notes": "Frist 31.01.2027 (offizielle HKU-Seite, geprüft 22.11.2026). Wettbewerbsauswahl."
     },
     "it": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5522,7 +5522,7 @@
      "eligibility": "Cittadini dei paesi partecipanti alla Belt and Road (Indonesia inclusa); candidatura a un corso HKU indicando questa borsa nel modulo online.",
      "english_test": "Secondo i requisiti di ammissione del corso HKU",
      "intake": "Settembre",
-     "notes": "Ultima scadenza indicata 31 gen 2026; data 2027 non ancora pubblicata - verificare con HKU. Documenti: testo di una pagina, CV + certificati, quattro brevi paragrafi richiesti."
+     "notes": "Scadenza 31/01/2027 (pagina ufficiale HKU, verificata il 22/11/2026). Selezione competitiva."
     },
     "nl": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5534,7 +5534,7 @@
      "eligibility": "Staatsburgers van deelnemende Belt and Road-landen (inclusief Indonesië); aanmelden voor een HKU-opleiding en deze beurs aanvinken op het online formulier.",
      "english_test": "Volgens de toelatingseisen van de HKU-opleiding",
      "intake": "September",
-     "notes": "Laatst vermelde deadline 31 jan 2026; datum voor 2027 nog niet vermeld - bevestig bij HKU. Documenten: tekst van één pagina, cv + certificaten, vier korte alinea's volgens opgave."
+     "notes": "Deadline 31-01-2027 (officiële HKU-pagina, gecontroleerd 22-11-2026). Competitieve selectie."
     },
     "ru": {
      "name": "Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
@@ -5546,7 +5546,7 @@
      "eligibility": "Граждане стран-участниц Belt and Road (включая Индонезию); подача на программу HKU с отметкой этой стипендии в онлайн-форме.",
      "english_test": "Согласно требованиям программы HKU",
      "intake": "Сентябрь",
-     "notes": "Последний указанный срок — 31 янв. 2026; дата для 2027 ещё не опубликована — уточняйте в HKU. Документы: эссе на 1 страницу, резюме + сертификаты, четыре коротких абзаца по шаблону."
+     "notes": "Срок подачи 31.01.2027 (официальная страница HKU, проверено 22.11.2026). Конкурсный отбор."
     }
    }
   },

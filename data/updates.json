@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T17:06:23+07:00",
+ "version": "2026-11-22T18:03:50+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -150,6 +150,31 @@
    "country": "Hong Kong",
    "provider": "Pemerintah Hong Kong (HKSAR) / The University of Hong Kong",
    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
+  },
+  {
+   "id": "jobs:2026-11-22-140",
+   "kind": "jobs",
+   "date": "2026-11-22",
+   "priority": 1,
+   "title": {
+    "id": "💼 140 lowongan kerja baru (Australia, Canada, Germany, New Zealand)",
+    "en": "💼 140 new part-time/student jobs (Australia, Canada, Germany, New Zealand)",
+    "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ 140 ตำแหน่ง (Australia, Canada, Germany, New Zealand)",
+    "vi": "💼 140 việc làm bán thời gian/sinh viên mới (Australia, Canada, Germany, New Zealand)",
+    "zh": "💼 140 个新的兼职/学生工作 (Australia, Canada, Germany, New Zealand)",
+    "ja": "💼 新しいアルバイト・学生向け求人 140 件 (Australia, Canada, Germany, New Zealand)",
+    "ko": "💼 새 파트타임/학생 일자리 140개 (Australia, Canada, Germany, New Zealand)",
+    "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី 140 (Australia, Canada, Germany, New Zealand)",
+    "fr": "💼 140 nouveaux jobs étudiants/temps partiel (Australia, Canada, Germany, New Zealand)",
+    "pt": "💼 140 novas vagas meio período/estudante (Australia, Canada, Germany, New Zealand)",
+    "es": "💼 140 nuevos empleos de medio tiempo/estudiante (Australia, Canada, Germany, New Zealand)",
+    "de": "💼 140 neue Teilzeit-/Studentenjobs (Australia, Canada, Germany, New Zealand)",
+    "it": "💼 140 nuovi lavori part-time/studenti (Australia, Canada, Germany, New Zealand)",
+    "nl": "💼 140 nieuwe bijbaantjes/studentenbanen (Australia, Canada, Germany, New Zealand)",
+    "ru": "💼 140 новых вакансий с частичной занятостью (Australia, Canada, Germany, New Zealand)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "jobs:2026-11-22-171",

@@ -29,6 +29,8 @@
 "promo:cdu-founding-2026|feed|6aff3375ece6dfde5f221ba2",
 "promo:cdu-founding-2026|feed|6aff3375ece6dfde5f221ba3",
 "promo:cdu-founding-2026|feed|6aff3375ece6dfde5f221ba4",
+"scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3157ece6dfde5f2203ab",
+"scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff319cece6dfde5f2206b4",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff32d7ece6dfde5f22151d",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3328ece6dfde5f221865",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3375ece6dfde5f221ba1",
@@ -120,6 +122,12 @@
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3375ece6dfde5f221ba2",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3375ece6dfde5f221ba3",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3375ece6dfde5f221ba4",
+"scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff3157ece6dfde5f2203ab",
+"scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff319cece6dfde5f2206b4",
+"scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff31ffece6dfde5f220b47",
+"scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff3a05ece6dfde5f22802a",
+"scholarship:hk-belt-and-road-scholarship-hku|open|story|6aff3157ece6dfde5f2203ab",
+"scholarship:hk-belt-and-road-scholarship-hku|open|story|6aff319cece6dfde5f2206b4",
 "scholarship:in-iccr-scholarship|feed|6aff32d7ece6dfde5f22151d",
 "scholarship:in-iccr-scholarship|feed|6aff3328ece6dfde5f221865",
 "scholarship:in-iccr-scholarship|feed|6aff3375ece6dfde5f221ba1",
@@ -222,7 +230,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-22T06:15:06.314139+00:00",
+"last_run": "2026-11-22T07:19:57.568128+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -259,7 +267,15 @@
 "6aff3375ece6dfde5f221ba1": 4,
 "6aff3328ece6dfde5f221865": 4,
 "6aff32d7ece6dfde5f22151d": 4,
-"6aff3a05ece6dfde5f22802a": 3
+"6aff3a05ece6dfde5f22802a": 3,
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1,
+"6aff319cece6dfde5f2206b4|reel": 1,
+"6aff3157ece6dfde5f2203ab|reel": 1,
+"6aff319cece6dfde5f2206b4|story": 1,
+"6aff3157ece6dfde5f2203ab|story": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1
 }
 },
 "waiting_review": []

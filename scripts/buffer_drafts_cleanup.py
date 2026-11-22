@@ -32,7 +32,12 @@ if MODE == 'recent':
     err = ' error { message }' if 'error' in names else ''
     orgs = gql("query { account { organizations { id } } }")['account']['organizations']
     for o in orgs:
-        d = gql("query P($o:OrganizationId!){ posts(input:{organizationId:$o, sort:[{field: createdAt, direction: desc}]}, first:40){ edges{ node{ " + ' '.join(want) + err + " text } } } }", {"o": o['id']})['posts']
+        body = "{ edges{ node{ " + ' '.join(want) + err + " text } } } }"
+        try:
+            d = gql("query P($o:OrganizationId!){ posts(input:{organizationId:$o, sort:[{field: createdAt, direction: desc}]}, first:40)" + body, {"o": o['id']})['posts']
+        except Exception as ex:
+            print('sort tidak didukung:', str(ex)[:200])
+            d = gql("query P($o:OrganizationId!){ posts(input:{organizationId:$o}, first:40)" + body, {"o": o['id']})['posts']
         for e in d['edges']:
             n = e['node']; n['text'] = (n.get('text') or '')[:50]
             print('POST', json.dumps(n, ensure_ascii=False))

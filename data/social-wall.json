@@ -1,5 +1,5 @@
 {
- "version": "2026-11-22T21:13:52+07:00",
+ "version": "2026-11-23T06:04:31+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -277,19 +277,6 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026%20Reel.mp4"
   },
   {
-   "id": "site:2026-11-20:site-02",
-   "kind": "marketing",
-   "date": "2026-11-20",
-   "title": "Hitung Dana Awal & Rekening Koran",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/",
-   "source": null,
-   "caption": "Mau tahu berapa saldo rekening koran yang disarankan untuk visa pelajar? Pricelist Talented menghitungnya otomatis. Info: https://linktr.ee/talentededucationgroup",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Reel.mp4"
-  },
-  {
    "id": "scholarship:sg-sim-diploma-scholarship-2027|open",
    "kind": "scholarship",
    "date": "2026-11-20",
@@ -379,19 +366,6 @@
    "country": "Prancis",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "promo:aih-promo-2026",
-   "kind": "promo",
-   "date": "2026-11-18",
-   "title": "Promo: AIH Higher Education - beasiswa hingga 30% untuk Bachelor 2027",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?q=AIH%20Higher%20Education",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
-   "caption": "AIH Higher Education - beasiswa hingga 30% untuk Bachelor 2027. Detail program dan biaya bisa dicek lewat https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%20Reel.mp4"
   }
  ]
 }

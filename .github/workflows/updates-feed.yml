@@ -62,9 +62,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           WAIT_MEDIA_SECONDS: '540'
         run: python scripts/post_to_buffer.py || true
+      - name: Cek postingan benar-benar tayang (IG/FB feed & story)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          VERIFY_WAIT_SECONDS: '180'
+        run: python scripts/verify_buffer.py || true
       - name: Simpan status kiriman Buffer
         run: |
-          for f in data/buffer-sent.json data/social-review.json; do [ -e "$f" ] && git add -A -- "$f"; done
+          for f in data/buffer-sent.json data/social-review.json data/buffer-verify.json; do [ -e "$f" ] && git add -A -- "$f"; done
           if ! git diff --cached --quiet; then
             git commit -m "Status kiriman Buffer $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main

@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-23T02:31:54+00:00",
+ "checked_at": "2026-11-23T06:33:45+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-23T02:28:43.146Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1741916454611185",
-   "text": "Cari tempat tinggal dekat kampus? Tab Akomodasi di"
+   "sentAt": "2026-11-23T06:30:49.132Z",
+   "link": "https://www.facebook.com/104126648347814",
+   "text": ""
   },
   "facebook|reel": {
    "sentAt": "2026-11-23T02:28:00.288Z",
@@ -34,8 +34,8 @@
    "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "instagram|story": {
-   "sentAt": "2026-11-22T07:23:41.175Z",
-   "link": "https://www.instagram.com/stories/talented.e.g/4035860524679797068",
+   "sentAt": "2026-11-23T06:32:07.020Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4036560013740659167",
    "text": ""
   },
   "linkedin|feed": {
@@ -49,9 +49,9 @@
    "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-23T02:28:27.086Z",
-   "link": "https://x.com/1511766381762531332/status/2124691515045769456",
-   "text": "Beasiswa dibuka: Belt and Road Scholarship (HKSAR "
+   "sentAt": "2026-11-23T06:30:23.421Z",
+   "link": "https://x.com/1511766381762531332/status/2124752400854475046",
+   "text": "Cari Akomodasi Pelajar https://pricelist.talentede"
   },
   "youtube|reel": {
    "sentAt": "2026-11-23T02:27:51.192Z",

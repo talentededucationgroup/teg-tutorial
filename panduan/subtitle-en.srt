@@ -195,5 +195,13 @@ iPhone: Share → Add to Home Screen first, then Settings → Notifications → 
 Windows: Settings → System → Notifications → Chrome → sound on. Blocked? Lock icon → Notifications → Allow, then reload.
 
 50
-00:13:54,000 --> 00:14:18,390
+00:13:54,400 --> 00:14:18,900
+Every card in Scholarships, News, Other schools, Jobs, Accommodation, Airport pickup, RPL and Free Mock Test has Pick, WhatsApp and Copy link buttons.
+
+51
+00:14:19,600 --> 00:14:38,000
+Tick Pick on up to 10 cards, tap Compare to see them side by side, then share them all at once via WhatsApp or a link.
+
+52
+00:14:38,200 --> 00:15:02,590
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

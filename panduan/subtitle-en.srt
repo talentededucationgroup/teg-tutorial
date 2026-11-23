@@ -203,5 +203,13 @@ Every card in Scholarships, News, Other schools, Jobs, Accommodation, Airport pi
 Tick Pick on up to 10 cards, tap Compare to see them side by side, then share them all at once via WhatsApp or a link.
 
 52
-00:14:38,200 --> 00:15:02,590
+00:14:38,388 --> 00:15:01,798
+Study Tour: short overseas programs (study tours, summer/winter camps, group programs) with Country and Type filters; every card has Official page, WhatsApp, Copy link and Ask Talented.
+
+53
+00:15:02,298 --> 00:15:25,948
+Pathway 2 Countries: start in one country and graduate in another. Filter by Start in, Continue to and Field; see route, award, intakes and English requirements.
+
+54
+00:15:26,260 --> 00:15:50,650
 Prices are estimates. Official partners in Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.

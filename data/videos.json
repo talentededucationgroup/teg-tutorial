@@ -5,11 +5,11 @@
     {
       "id": "panduan-lengkap",
       "placement": "Video utama tertanam langsung di atas /biaya-studi & halaman awal aplikasi (tanpa tombol; spek L.2)",
-      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v5.9",
-      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v5.9",
-      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v5.9",
+      "video": "https://info.talentededucationgroup.com/panduan/tutorial.mp4?v=v6.0",
+      "poster": "https://info.talentededucationgroup.com/panduan/poster.jpg?v=v6.0",
+      "subtitles_en": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt?v=v6.0",
       "manifest": "https://info.talentededucationgroup.com/panduan/manifest.json",
-      "duration_seconds": 903.33,
+      "duration_seconds": 951.41,
       "orientation": "landscape",
       "title": {
         "id": "Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet",

@@ -1,12 +1,12 @@
 {
- "version": "2026-11-21-countries2",
- "updated_at": "2026-11-21T14:30:00+07:00",
+ "version": "2026-11-23-ecu",
+ "updated_at": "2026-11-23T14:20:00+07:00",
  "source": "Data beasiswa TEG (diperbarui setiap Senin 06:17 WIB dari situs resmi pemberi beasiswa)",
- "count": 99,
+ "count": 100,
  "counts": {
+  "Buka": 57,
   "Tahunan - jadwal berikutnya belum diumumkan": 41,
-  "Segera dibuka": 2,
-  "Buka": 56
+  "Segera dibuka": 2
  },
  "ui": {
   "title": {
@@ -312,6 +312,201 @@
   }
  },
  "items": [
+  {
+   "id": "au-ecu-kickstart-bursary-2027",
+   "name": "2027 ECU Kickstart Bursary",
+   "provider": "Edith Cowan University (ECU)",
+   "type": "Kampus / Sekolah",
+   "country": "Australia",
+   "levels": [
+    "S1",
+    "S2"
+   ],
+   "fields": "S1 & S2 coursework di School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (kampus Joondalup & City, Perth)",
+   "funding": "Sebagian",
+   "coverage": "Bursary tunai AUD 5.000 untuk biaya hidup, dibayar 2 x AUD 2.500 (akhir semester 1 & 2 tahun pertama)",
+   "amount": "AUD 5.000",
+   "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang mulai S1/S2 coursework tahun 2027 lewat direct entry (bukan paket pathway); tanpa credit transfer/advanced standing/RPL; bukan program kuota (mis. Nursing C33, Master of Nursing J46); full-time & on-campus, bukan penerima beasiswa pemerintah/sponsor.",
+   "english_test": "Sesuai syarat masuk program ECU",
+   "status": "Buka",
+   "open_date": "2026-11-19",
+   "deadline": "2028-08-01",
+   "intake": "Semua intake 2027",
+   "url": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary",
+   "source_checked": "2026-11-23",
+   "partner": true,
+   "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program ECU. Menurut ECU, bisa digabung ASEAN International Scholarship 20% (contoh: Bachelor of Communication tahun 1 AUD 39.600 -> AUD 26.680, hemat AUD 12.920). Dibayar ke rekening bank Australia. Daftar lewat konsultan Talented.",
+   "i18n": {
+    "en": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australia",
+     "fields": "Bachelor's & Master's by coursework in the Schools of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (Joondalup & City campuses, Perth)",
+     "coverage": "AUD 5,000 cash bursary for living costs, paid as 2 x AUD 2,500 (end of semester 1 & 2 of the first year)",
+     "amount": "AUD 5,000",
+     "eligibility": "New international students (Indonesians included) starting a Bachelor's/Master's by coursework in 2027 via direct entry (not a pathway package); no credit transfer/advanced standing/RPL; not a quota course (e.g. Nursing C33, Master of Nursing J46); full-time and on campus, not government/sponsor funded.",
+     "english_test": "As per ECU course entry requirements",
+     "intake": "All 2027 intakes",
+     "notes": "No separate application: assessed automatically when you apply to ECU. According to ECU it can be combined with the 20% ASEAN International Scholarship (example: Bachelor of Communication year 1 AUD 39,600 -> AUD 26,680, saving AUD 12,920). Paid into an Australian bank account. Apply through your Talented consultant."
+    },
+    "th": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "ออสเตรเลีย",
+     "fields": "ปริญญาตรีและปริญญาโทแบบ coursework ใน School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (วิทยาเขต Joondalup และ City, เพิร์ธ)",
+     "coverage": "เงินช่วยเหลือค่าครองชีพ AUD 5,000 จ่าย 2 งวด งวดละ AUD 2,500 (ปลายภาคเรียนที่ 1 และ 2 ของปีแรก)",
+     "amount": "AUD 5,000",
+     "eligibility": "นักศึกษาต่างชาติใหม่ (รวมชาวอินโดนีเซีย) ที่เริ่มปริญญาตรี/โท coursework ในปี 2027 แบบ direct entry (ไม่ใช่แพ็กเกจ pathway) ไม่มีการเทียบโอนหน่วยกิต/RPL ไม่ใช่หลักสูตรโควตา (เช่น Nursing C33, Master of Nursing J46) เรียนเต็มเวลาในวิทยาเขต และไม่ได้รับทุนรัฐบาล/ผู้สนับสนุน",
+     "english_test": "ตามเกณฑ์รับเข้าหลักสูตรของ ECU",
+     "intake": "ทุกรอบปี 2027",
+     "notes": "ไม่ต้องสมัครแยก พิจารณาอัตโนมัติเมื่อสมัครเรียนที่ ECU ตามข้อมูลจาก ECU ใช้ร่วมกับ ASEAN International Scholarship 20% ได้ (ตัวอย่าง: Bachelor of Communication ปีแรก AUD 39,600 -> AUD 26,680 ประหยัด AUD 12,920) จ่ายเข้าบัญชีธนาคารในออสเตรเลีย สมัครผ่านที่ปรึกษา Talented"
+    },
+    "vi": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Úc",
+     "fields": "Cử nhân & thạc sĩ coursework thuộc School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (cơ sở Joondalup & City, Perth)",
+     "coverage": "Trợ cấp tiền mặt AUD 5.000 cho sinh hoạt, trả 2 lần x AUD 2.500 (cuối học kỳ 1 & 2 năm đầu)",
+     "amount": "AUD 5.000",
+     "eligibility": "Sinh viên quốc tế mới (gồm người Indonesia) bắt đầu cử nhân/thạc sĩ coursework năm 2027 theo direct entry (không theo gói pathway); không chuyển tín chỉ/advanced standing/RPL; không phải ngành có hạn ngạch (vd. Nursing C33, Master of Nursing J46); học toàn thời gian tại trường, không nhận tài trợ chính phủ/nhà tài trợ.",
+     "english_test": "Theo yêu cầu đầu vào của ECU",
+     "intake": "Tất cả kỳ nhập học 2027",
+     "notes": "Không cần nộp đơn riêng: tự động xét khi nộp hồ sơ ECU. Theo ECU có thể kết hợp với ASEAN International Scholarship 20% (ví dụ: Bachelor of Communication năm 1 AUD 39.600 -> AUD 26.680, tiết kiệm AUD 12.920). Trả vào tài khoản ngân hàng Úc. Đăng ký qua tư vấn viên Talented."
+    },
+    "zh": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "澳大利亚",
+     "fields": "商法学院、文学与人文、工程、教育、理学、医学与健康科学学院的本科及授课型硕士（珀斯 Joondalup 与 City 校区）",
+     "coverage": "AUD 5,000 生活补助金，分两期各 AUD 2,500（第一年第 1、2 学期末发放）",
+     "amount": "AUD 5,000",
+     "eligibility": "2027 年以直录（非 pathway 套餐）入读本科/授课型硕士的国际新生（含印尼学生）；无学分转换/免修/RPL；非配额课程（如 Nursing C33、Master of Nursing J46）；全日制在校，且未获政府/赞助资助。",
+     "english_test": "按 ECU 课程入学要求",
+     "intake": "2027 年所有入学批次",
+     "notes": "无需单独申请：申请 ECU 课程时自动评估。据 ECU 说明可与 20% ASEAN International Scholarship 叠加（例：Bachelor of Communication 第一年 AUD 39,600 -> AUD 26,680，节省 AUD 12,920）。补助金汇入澳洲银行账户。请通过 Talented 顾问申请。"
+    },
+    "ja": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "オーストラリア",
+     "fields": "ビジネス・法学、人文、工学、教育、理学、医療・健康科学スクールの学士・コースワーク修士（パース Joondalup・City キャンパス）",
+     "coverage": "生活費用の給付金 AUD 5,000（初年度の第1・第2学期末に AUD 2,500 ずつ2回）",
+     "amount": "AUD 5,000",
+     "eligibility": "2027年に直接入学（パスウェイのパッケージ以外）で学士／コースワーク修士を始める新規留学生（インドネシア人含む）。単位認定・RPL なし、定員管理コース（Nursing C33、Master of Nursing J46 等）以外、フルタイム・キャンパス就学、政府・スポンサー資金なし。",
+     "english_test": "ECU の入学要件に準拠",
+     "intake": "2027年の全入学時期",
+     "notes": "別途申請不要：ECU 出願時に自動審査。ECU によると ASEAN International Scholarship 20% と併用可（例：Bachelor of Communication 初年度 AUD 39,600 -> AUD 26,680、AUD 12,920 節約）。オーストラリアの銀行口座に支給。Talented のコンサルタント経由で出願。"
+    },
+    "ko": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "호주",
+     "fields": "경영·법학, 인문, 공학, 교육, 자연과학, 의학·보건과학 스쿨의 학사 및 코스워크 석사(퍼스 Joondalup·City 캠퍼스)",
+     "coverage": "생활비 지원금 AUD 5,000, 1학년 1·2학기 말에 AUD 2,500씩 2회 지급",
+     "amount": "AUD 5,000",
+     "eligibility": "2027년 direct entry(패스웨이 패키지 제외)로 학사/코스워크 석사를 시작하는 신규 유학생(인도네시아인 포함); 학점 인정/advanced standing/RPL 없음; 정원 관리 과정 제외(예: Nursing C33, Master of Nursing J46); 전일제 캠퍼스 수강, 정부/스폰서 지원 없음.",
+     "english_test": "ECU 과정 입학 요건에 따름",
+     "intake": "2027년 전체 입학 시기",
+     "notes": "별도 신청 불필요: ECU 지원 시 자동 심사. ECU에 따르면 ASEAN International Scholarship 20%와 함께 받을 수 있음(예: Bachelor of Communication 1학년 AUD 39,600 -> AUD 26,680, AUD 12,920 절약). 호주 은행 계좌로 지급. Talented 컨설턴트를 통해 지원하세요."
+    },
+    "km": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "អូស្ត្រាលី",
+     "fields": "បរិញ្ញាបត្រ និងអនុបណ្ឌិត coursework ក្នុង School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (បរិវេណ Joondalup និង City, Perth)",
+     "coverage": "ប្រាក់ឧបត្ថម្ភរស់នៅ AUD 5,000 បង់ 2 ដង ម្តង AUD 2,500 (ចុងឆមាសទី 1 និង 2 ឆ្នាំដំបូង)",
+     "amount": "AUD 5,000",
+     "eligibility": "និស្សិតអន្តរជាតិថ្មី (រួមទាំងឥណ្ឌូនេស៊ី) ចាប់ផ្តើមបរិញ្ញាបត្រ/អនុបណ្ឌិត coursework ឆ្នាំ 2027 តាម direct entry (មិនមែនកញ្ចប់ pathway); គ្មានការផ្ទេរក្រេឌីត/RPL; មិនមែនវគ្គកូតា (ឧ. Nursing C33, Master of Nursing J46); សិក្សាពេញម៉ោងនៅបរិវេណ មិនទទួលមូលនិធិរដ្ឋាភិបាល/អ្នកឧបត្ថម្ភ។",
+     "english_test": "តាមលក្ខខណ្ឌចូលរៀនរបស់ ECU",
+     "intake": "គ្រប់វគ្គឆ្នាំ 2027",
+     "notes": "មិនចាំបាច់ដាក់ពាក្យដាច់ដោយឡែក៖ វាយតម្លៃដោយស្វ័យប្រវត្តិពេលដាក់ពាក្យ ECU។ តាម ECU អាចផ្សំជាមួយ ASEAN International Scholarship 20% (ឧ. Bachelor of Communication ឆ្នាំទី 1 AUD 39,600 -> AUD 26,680 សន្សំ AUD 12,920)។ បង់ចូលគណនីធនាគារអូស្ត្រាលី។ ដាក់ពាក្យតាមទីប្រឹក្សា Talented។"
+    },
+    "fr": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australie",
+     "fields": "Licences et masters par cours des écoles Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (campus Joondalup et City, Perth)",
+     "coverage": "Bourse en espèces de AUD 5 000 pour le coût de la vie, versée en 2 x AUD 2 500 (fin des semestres 1 et 2 de la première année)",
+     "amount": "AUD 5 000",
+     "eligibility": "Nouveaux étudiants internationaux (Indonésiens inclus) commençant une licence/un master par cours en 2027 en admission directe (pas un pack pathway) ; sans transfert de crédits/advanced standing/RPL ; hors cursus à quota (ex. Nursing C33, Master of Nursing J46) ; à temps plein sur le campus, sans financement public/sponsor.",
+     "english_test": "Selon les conditions d’admission ECU",
+     "intake": "Toutes les rentrées 2027",
+     "notes": "Pas de candidature séparée : évaluation automatique lors de la candidature à ECU. Selon ECU, cumulable avec l’ASEAN International Scholarship de 20 % (ex. : Bachelor of Communication année 1 AUD 39 600 -> AUD 26 680, économie de AUD 12 920). Versée sur un compte bancaire australien. Candidature via votre conseiller Talented."
+    },
+    "pt": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Austrália",
+     "fields": "Graduação e mestrado por disciplinas nas escolas de Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (campi Joondalup e City, Perth)",
+     "coverage": "Auxílio em dinheiro de AUD 5.000 para custo de vida, pago em 2 x AUD 2.500 (fim do 1º e 2º semestres do primeiro ano)",
+     "amount": "AUD 5.000",
+     "eligibility": "Novos alunos internacionais (inclusive indonésios) que iniciem graduação/mestrado por disciplinas em 2027 por admissão direta (não pacote pathway); sem aproveitamento de créditos/advanced standing/RPL; fora de cursos com cota (ex. Nursing C33, Master of Nursing J46); tempo integral presencial, sem financiamento governamental/patrocínio.",
+     "english_test": "Conforme requisitos de admissão da ECU",
+     "intake": "Todas as entradas de 2027",
+     "notes": "Sem inscrição separada: avaliação automática ao se candidatar à ECU. Segundo a ECU, acumula com a ASEAN International Scholarship de 20% (ex.: Bachelor of Communication ano 1 AUD 39.600 -> AUD 26.680, economia de AUD 12.920). Pago em conta bancária australiana. Candidate-se pelo consultor Talented."
+    },
+    "es": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australia",
+     "fields": "Grados y másteres por cursos en las escuelas de Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (campus Joondalup y City, Perth)",
+     "coverage": "Ayuda en efectivo de AUD 5.000 para gastos de vida, pagada en 2 x AUD 2.500 (final del semestre 1 y 2 del primer año)",
+     "amount": "AUD 5.000",
+     "eligibility": "Nuevos estudiantes internacionales (incluidos indonesios) que empiecen un grado/máster por cursos en 2027 por acceso directo (no paquete pathway); sin convalidación de créditos/advanced standing/RPL; no en cursos con cupo (p. ej. Nursing C33, Master of Nursing J46); a tiempo completo y presencial, sin financiación pública/patrocinio.",
+     "english_test": "Según los requisitos de admisión de ECU",
+     "intake": "Todas las entradas de 2027",
+     "notes": "Sin solicitud aparte: evaluación automática al solicitar ECU. Según ECU, se combina con la ASEAN International Scholarship del 20% (ej.: Bachelor of Communication año 1 AUD 39.600 -> AUD 26.680, ahorro de AUD 12.920). Se paga en una cuenta bancaria australiana. Solicítala con tu consultor Talented."
+    },
+    "de": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australien",
+     "fields": "Bachelor und Master by Coursework an den Schools of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (Campus Joondalup & City, Perth)",
+     "coverage": "Barzuschuss von AUD 5.000 für Lebenshaltungskosten, gezahlt in 2 x AUD 2.500 (Ende Semester 1 & 2 im ersten Jahr)",
+     "amount": "AUD 5.000",
+     "eligibility": "Neue internationale Studierende (auch Indonesier), die 2027 per Direktzulassung (kein Pathway-Paket) einen Bachelor/Master by Coursework beginnen; keine Anrechnung/Advanced Standing/RPL; kein Quotenstudiengang (z. B. Nursing C33, Master of Nursing J46); Vollzeit vor Ort, ohne staatliche Förderung/Sponsor.",
+     "english_test": "Gemäß den Zulassungsvoraussetzungen der ECU",
+     "intake": "Alle Studienstarts 2027",
+     "notes": "Keine separate Bewerbung: automatische Prüfung bei der Bewerbung an der ECU. Laut ECU mit dem ASEAN International Scholarship (20 %) kombinierbar (Beispiel: Bachelor of Communication Jahr 1 AUD 39.600 -> AUD 26.680, Ersparnis AUD 12.920). Auszahlung auf ein australisches Bankkonto. Bewerbung über Ihre Talented-Beratung."
+    },
+    "it": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australia",
+     "fields": "Lauree e master by coursework nelle School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (campus Joondalup e City, Perth)",
+     "coverage": "Contributo in denaro di AUD 5.000 per le spese di vita, pagato in 2 x AUD 2.500 (fine del semestre 1 e 2 del primo anno)",
+     "amount": "AUD 5.000",
+     "eligibility": "Nuovi studenti internazionali (anche indonesiani) che iniziano una laurea/master by coursework nel 2027 con ammissione diretta (non pacchetto pathway); senza riconoscimento crediti/advanced standing/RPL; non in corsi a numero chiuso (es. Nursing C33, Master of Nursing J46); a tempo pieno in sede, senza finanziamenti pubblici/sponsor.",
+     "english_test": "Secondo i requisiti di ammissione ECU",
+     "intake": "Tutti gli ingressi 2027",
+     "notes": "Nessuna domanda separata: valutazione automatica alla candidatura ECU. Secondo ECU è cumulabile con l’ASEAN International Scholarship del 20% (es.: Bachelor of Communication anno 1 AUD 39.600 -> AUD 26.680, risparmio AUD 12.920). Pagato su un conto bancario australiano. Candidati tramite il tuo consulente Talented."
+    },
+    "nl": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Australië",
+     "fields": "Bachelors en masters by coursework bij de Schools of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (campussen Joondalup & City, Perth)",
+     "coverage": "Geldbijdrage van AUD 5.000 voor levenskosten, uitbetaald in 2 x AUD 2.500 (eind semester 1 & 2 van het eerste jaar)",
+     "amount": "AUD 5.000",
+     "eligibility": "Nieuwe internationale studenten (ook Indonesiërs) die in 2027 via directe toelating (geen pathway-pakket) een bachelor/master by coursework starten; geen vrijstellingen/advanced standing/RPL; geen numerus-fixusopleiding (bv. Nursing C33, Master of Nursing J46); voltijds op de campus, zonder overheids-/sponsorfinanciering.",
+     "english_test": "Volgens de toelatingseisen van ECU",
+     "intake": "Alle instroommomenten 2027",
+     "notes": "Geen aparte aanvraag: automatisch beoordeeld bij aanmelding bij ECU. Volgens ECU te combineren met de ASEAN International Scholarship van 20% (bv. Bachelor of Communication jaar 1 AUD 39.600 -> AUD 26.680, besparing AUD 12.920). Uitbetaald op een Australische bankrekening. Aanmelden via je Talented-consulent."
+    },
+    "ru": {
+     "name": "2027 ECU Kickstart Bursary",
+     "provider": "Edith Cowan University (ECU)",
+     "country": "Австралия",
+     "fields": "Бакалавриат и магистратура (coursework) в School of Business and Law, Arts and Humanities, Engineering, Education, Science, Medical and Health Sciences (кампусы Joondalup и City, Перт)",
+     "coverage": "Денежное пособие AUD 5 000 на проживание, выплачивается 2 x AUD 2 500 (в конце 1-го и 2-го семестров первого года)",
+     "amount": "AUD 5 000",
+     "eligibility": "Новые иностранные студенты (включая индонезийцев), начинающие бакалавриат/магистратуру (coursework) в 2027 году по прямому зачислению (не пакет pathway); без перезачёта/advanced standing/RPL; не квотные программы (напр. Nursing C33, Master of Nursing J46); очно на кампусе, без госфинансирования/спонсора.",
+     "english_test": "Согласно требованиям ECU",
+     "intake": "Все наборы 2027 года",
+     "notes": "Отдельная заявка не нужна: оценивается автоматически при подаче в ECU. По данным ECU, совмещается с ASEAN International Scholarship 20% (пример: Bachelor of Communication 1-й год AUD 39 600 -> AUD 26 680, экономия AUD 12 920). Выплачивается на австралийский банковский счёт. Подача через консультанта Talented."
+    }
+   }
+  },
   {
    "id": "id-lpdp-stem-industri-strategis",
    "name": "Beasiswa LPDP STEM Industri Strategis (Magister & Doktor)",

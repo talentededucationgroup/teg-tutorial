@@ -233,3 +233,10 @@ h2.choose{margin:18px 0 8px;font-size:1.1rem}
 .aibox{border:2px solid #1d5e49;background:#eef6f2;border-radius:12px;padding:12px 14px;margin:12px 0}.aibox p{margin:4px 0}.aibox .btn{margin-top:6px}
 .tm-badge.ai{background:#e8f1fb;color:#123c69;border-color:#9cc0e6}
 @media print{.aibox{display:none}}
+@media print{
+ /* T17-01b: Android browsers with forced dark mode darken every background that is printed (the report card keeps
+    print-color-adjust:exact). Light backgrounds in the card are therefore not printed; the paper stays white.
+    Coloured bands/badges with white text keep their colour. Screen display is not affected. */
+ .report,.if-f b,.if-res b:not(.ovb),.rp-photo,.rp-circles .ring,.report .bar,.rp-pte .pte-code{background-color:transparent!important}
+ .report .bar{box-shadow:inset 0 0 0 1px #c8d3cd}
+}

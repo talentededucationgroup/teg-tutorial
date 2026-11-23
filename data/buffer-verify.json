@@ -1,7 +1,7 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-23T07:47:28+00:00",
- "ok": false,
+ "checked_at": "2026-11-23T10:35:24+00:00",
+ "ok": true,
  "last_sent": {
   "facebook|feed": {
    "sentAt": "2026-11-23T07:09:20.284Z",
@@ -14,8 +14,8 @@
    "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "facebook|story": {
-   "sentAt": "2026-11-22T07:20:44.711Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjExODE3MjUwNzA5ODM5NjA=/?view_single=1",
+   "sentAt": "2026-11-23T06:30:49.132Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjExNzczOTU0ODQ2NzYxODQ=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {
@@ -45,7 +45,7 @@
   },
   "tiktok|reel": {
    "sentAt": "2026-11-23T02:28:22.075Z",
-   "link": "https://tiktok.com/@talented.education/video/7711187928344530197",
+   "link": "https://www.tiktok.com/@talented.education/video/7711187928344530197?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "twitter|feed": {
@@ -60,7 +60,5 @@
   }
  },
  "problems": [],
- "stale": [
-  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-22T07:20:44.711Z)"
- ]
+ "stale": []
 }

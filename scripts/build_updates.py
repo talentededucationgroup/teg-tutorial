@@ -333,6 +333,12 @@ def write_rss(items):
             extra.append({"id": f"site:{dd.isoformat()}:{it['key']}", "kind": "marketing", "date": dd.isoformat(),
                           "title": {"id": it['title']}, "caption": cap, "country": 'ANY', "provider": None,
                           "spec": it['design'], "url": it['url']})
+    # promo jurusan otomatis (pemilik 23/11/2026): Bachelor & Master Australia, kadang VET, jurusan yang dibutuhkan di Australia
+    try:
+        from program_posts import posts as _program_posts
+        extra += _program_posts(NOW, {'lt': LT, 'text': CLOSING})
+    except Exception as _e:
+        print('program posts skipped:', str(_e)[:160])
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media

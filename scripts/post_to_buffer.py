@@ -3,6 +3,7 @@
 Needs GitHub secret BUFFER_API_KEY (created by the owner at https://publish.buffer.com/settings/api).
 Settings: data/social-autopost.json  (mode "draft" = lands in Buffer Drafts for approval, "queue" = Buffer queue).
 State: data/buffer-sent.json (what was already sent, per channel). No personal data. Never raises."""
+import hashlib
 import json, os, re, sys, datetime, email.utils, urllib.request, xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -289,13 +290,29 @@ def main():
         elif other(i):
             base -= int(cf.get('other_penalty', 30))
         q = rv.get('score')
+        # variasi acak per hari (pemilik 23/11/2026: postingan dibuat random) - deterministik per guid+tanggal
+        jit = int(cfg.get('random_jitter', 0))
+        if jit:
+            base += int(hashlib.sha1((i['guid'] + NOW.date().isoformat()).encode()).hexdigest()[:6], 16) % (2 * jit + 1) - jit
         return base + (int(q) - 3) * 10 if isinstance(q, (int, float)) else base, -(NOW - i['pub']).total_seconds()
     oth_day = sent.setdefault('daily_other', {}).setdefault(NOW.date().isoformat(), [])
     oth_max = int(cf.get('other_max_per_day', 1))
     kinds_order = {'reel': 0, 'feed': 1, 'story': 2}
     cands = []
-    for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml')):
-        for i in feed(fname):
+    feeds = {kind: feed(fname) for kind, fname in (('feed', 'social-feed.xml'), ('story', 'social-feed-story.xml'), ('reel', 'social-feed-reels.xml'))}
+    reel_guids = {i['guid'] for i in feeds['reel']}
+    share = float(cfg.get('reel_share', 0))
+    def fmt(i):
+        # satu format per postingan, dipilih acak per hari: video (Reel) atau gambar (feed) - pemilik 23/11/2026
+        if not share or i['guid'] not in reel_guids:
+            return None
+        h = int(hashlib.sha1((i['guid'] + '|fmt|' + NOW.date().isoformat()).encode()).hexdigest()[:8], 16) / 0xFFFFFFFF
+        return 'reel' if h < share else 'feed'
+    for kind in ('feed', 'story', 'reel'):
+        for i in feeds[kind]:
+            f = fmt(i)
+            if f and kind in ('feed', 'reel') and kind != f and not i['guid'].startswith('video:'):
+                continue
             cands.append((score(kind, i), kinds_order[kind], kind, i))
     cands.sort(key=lambda c: (-c[0][0], -c[0][1], c[1]))
     queued = queued_counts(orgs)
@@ -342,6 +359,10 @@ def main():
                 cfg['_draft'] = False
             if other(i) and i['guid'] not in oth_day and len(oth_day) >= oth_max:
                 continue  # negara pelengkap: maks. other_max_per_day postingan per hari
+            pfx = next((p for p in (cfg.get('max_items_per_day_by_prefix') or {}) if i['guid'].startswith(p)), None)
+            pday = sent.setdefault('daily_prefix', {}).setdefault(NOW.date().isoformat(), {}).setdefault(pfx, []) if pfx else None
+            if pfx and i['guid'] not in pday and len(pday) >= int(cfg['max_items_per_day_by_prefix'][pfx]):
+                continue  # mis. beasiswa dikurangi: maks. N postingan beasiswa per hari (pemilik 23/11/2026)
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
                 if k in done:
@@ -376,6 +397,8 @@ def main():
                     done.add(k); n += 1
                     if other(i) and i['guid'] not in oth_day:
                         oth_day.append(i['guid'])
+                    if pfx and i['guid'] not in pday:
+                        pday.append(i['guid'])
                     day[ck] = day.get(ck, 0) + 1
                     run_count[rk] = run_count.get(rk, 0) + 1
                     if kind != 'story' and queued is not None:
@@ -386,6 +409,7 @@ def main():
     json.dump(reviews, open(REVIEW_P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     sent['sent'] = sorted(done)[-3000:]
     sent['daily_other'] = {d: v for d, v in sent.get('daily_other', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
+    sent['daily_prefix'] = {d: v for d, v in sent.get('daily_prefix', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['daily'] = {d: v for d, v in sent.get('daily', {}).items() if d >= (NOW.date() - datetime.timedelta(days=7)).isoformat()}
     sent['last_run'] = NOW.isoformat()
     sent['last_errors'] = errors[-20:]

@@ -48,13 +48,14 @@
  "priority": {
   "news:": 100,
   "video:": 85,
-  "scholarship:": 75,
-  "promo:": 60,
+  "program:": 80,
+  "promo:": 70,
   "post:": 55,
+  "scholarship:": 45,
   "site:": 40,
   "default": 50
  },
- "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + paling baru. Satu postingan per channel hanya satu format (Reel ATAU feed).",
+ "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + variasi acak harian. Pemilik 23/11/2026: beasiswa dikurangi (skor 45, maks. 1 beasiswa/hari); promo jurusan (program:) diperbanyak - Bachelor & Master Australia, kadang VET, jurusan yang dibutuhkan di Australia (scripts/program_posts.py, ±1-2 per hari).",
  "min_quality_score": 3,
  "country_focus": {
   "priority": [
@@ -68,5 +69,11 @@
   "other_penalty": 30,
   "other_max_per_day": 1,
   "note": "Pemilik 22/11/2026: autopost lebih banyak untuk Australia, Kanada, New Zealand, Jepang & Korea. Negara lain hanya pelengkap: skor diturunkan & maks. 1 postingan negara lain per hari (semua channel). Postingan umum tanpa negara tidak dibatasi."
- }
+ },
+ "max_items_per_day_by_prefix": {
+  "scholarship:": 1
+ },
+ "random_jitter": 8,
+ "reel_share": 0.45,
+ "random_note": "Pemilik 23/11/2026: postingan dibuat acak supaya tidak terkesan gambar semua. Setiap postingan yang punya versi video tayang sebagai Reel (video) dengan peluang 45%, selain itu sebagai gambar; urutan diberi variasi acak ±8 poin per hari. Video Talented (video:) tetap tayang bergiliran."
 }

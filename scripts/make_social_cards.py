@@ -49,11 +49,128 @@ GREEN, PANEL2 = (0x17, 0x3F, 0x35), (0x21, 0x58, 0x4A)
 ACC = (0xE9, 0xC4, 0x6A)
 
 
+PAL_BG = [(0x17, 0x3F, 0x35)]
+
+
 def set_palette(pal):
     """warna tinta/panel/aksen global mengikuti palet yang dipilih (dipakai semua layout, story & reel)"""
     global GREEN, PANEL2, ACC
+    PAL_BG[0] = PAL.get(pal, PAL['P1'])[0]
     GREEN, PANEL2 = INKS.get(pal, ((0x17, 0x3F, 0x35), (0x21, 0x58, 0x4A)))
     ACC = PAL.get(pal, PAL['P1'])[2]
+
+
+DECOS = ['none', 'dots', 'rings', 'stripes', 'blob', 'grid', 'plus', 'arc']
+CTAS = ['app', 'app', 'pill', 'split', 'ticket', 'sticker']
+FONTS = ['anton', 'anton', 'mont', 'poppins']
+
+
+def set_style(key):
+    """font judul, ornamen latar & gaya ajakan (CTA) diacak per posting; tidak mengulang kombinasi posting sebelumnya"""
+    rnd = random.Random('style' + key)
+    try:
+        prev = json.load(open(LOG, encoding='utf-8'))['items'][-3:]
+    except Exception:
+        prev = []
+    def pick(opts, k):
+        last = [i.get(k) for i in prev]
+        pool = [o for o in opts if o not in last[-2:]] or opts
+        return rnd.choice(pool)
+    STYLE.update(font=pick(FONTS, 'font'), deco=pick(DECOS, 'deco'), cta=pick(CTAS, 'cta'))
+    return dict(STYLE)
+
+
+def _mix(a, b, t):
+    return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+
+
+def base_canvas(bg):
+    """kanvas warna + ornamen latar (di belakang foto & teks)"""
+    im = Image.new('RGBA', (W, H), bg + (255,))
+    lay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    dark = sum(bg) < 380
+    soft = _mix(bg, (255, 255, 255) if dark else GREEN, 0.10) + (255,)
+    acc = ACC + (110,)
+    k = STYLE.get('deco', 'none')
+    if k == 'dots':
+        for yy in range(40, 400, 34):
+            for xx in range(W - 380, W - 30, 34):
+                d.ellipse([xx, yy, xx + 9, yy + 9], fill=acc)
+    elif k == 'rings':
+        for r in (300, 230, 160):
+            d.ellipse([-r + 40, 720 - r, r + 40, 720 + r], outline=acc, width=10)
+    elif k == 'stripes':
+        for i in range(0, 900, 46):
+            d.polygon([(W - 520 + i, 0), (W - 500 + i, 0), (W - 900 + i, 400), (W - 920 + i, 400)], fill=ACC + (70,))
+    elif k == 'blob':
+        d.ellipse([W - 520, 360, W + 260, 1140], fill=soft)
+        d.ellipse([-180, -220, 300, 260], fill=soft)
+    elif k == 'grid':
+        for xx in range(0, W, 54):
+            d.line([(xx, 0), (xx, 930)], fill=soft[:3] + (140,), width=2)
+        for yy in range(0, 930, 54):
+            d.line([(0, yy), (W, yy)], fill=soft[:3] + (140,), width=2)
+    elif k == 'plus':
+        r = random.Random(str(bg))
+        for _ in range(16):
+            x, y = r.randint(40, W - 40), r.randint(30, 700)
+            d.rectangle([x - 14, y - 3, x + 14, y + 3], fill=acc); d.rectangle([x - 3, y - 14, x + 3, y + 14], fill=acc)
+    elif k == 'arc':
+        d.pieslice([W - 420, -420, W + 420, 420], 90, 180, fill=soft)
+        d.arc([W - 470, -470, W + 470, 470], 90, 180, fill=ACC + (255,), width=12)
+    im.alpha_composite(lay)
+    return im
+
+
+def _rr(d, box, r, **kw):
+    try:
+        d.rounded_rectangle(box, r, **kw)
+    except Exception:
+        d.rectangle(box, **kw)
+
+
+def cta_band(canvas, top=740, bottom=916):
+    """ajakan di atas footer; variasi gaya (pemilik 23/11/2026: desain jangan mirip semua)"""
+    k = STYLE.get('cta', 'app')
+    d = ImageDraw.Draw(canvas)
+    x0, x1 = (W - 960) // 2, (W + 960) // 2
+    if k == 'pill':
+        _rr(d, [x0, top + 22, x1, bottom - 10], 72, fill=ACC)
+        t1, t2 = 'CEK BIAYA KULIAH DALAM 1 MENIT', 'pricelist.talentededucationgroup.com'
+        f1 = fit_font(d, t1, lambda s_: mont(s_, 'ExtraBold'), 860, 44, 24); f2 = mont(28, 'Bold')
+        draw_t(d, ((W - tw(d, t1, f1)) // 2, top + 46), t1, f1, GREEN)
+        draw_t(d, ((W - tw(d, t2, f2)) // 2, top + 46 + th(d, t1, f1) + 16), t2, f2, GREEN)
+    elif k == 'split':
+        mid = x0 + 520
+        d.rectangle([x0, top + 24, mid, bottom - 8], fill=GREEN)
+        d.rectangle([mid, top + 24, x1, bottom - 8], fill=ACC)
+        f1 = fit_font(d, 'KONSULTASI GRATIS', anton, 460, 64, 30)
+        draw_t(d, (x0 + 30, top + 24 + (152 - th(d, 'KONSULTASI GRATIS', f1)) // 2), 'KONSULTASI GRATIS', f1, (255, 255, 255))
+        f2 = mont(30, 'ExtraBold'); f3 = mont(22, 'Bold')
+        draw_t(d, (mid + 28, top + 56), 'Scan QR di bawah', f2, GREEN)
+        draw_t(d, (mid + 28, top + 104), 'atau klik link di bio', f3, GREEN)
+    elif k == 'ticket':
+        _rr(d, [x0, top + 22, x1, bottom - 8], 26, fill=(255, 255, 255))
+        cut = x1 - 250
+        for yy in range(top + 40, bottom - 20, 18):
+            d.line([(cut, yy), (cut, yy + 8)], fill=GREEN, width=3)
+        f1 = fit_font(d, 'DOWNLOAD APP TALENTED', anton, cut - x0 - 60, 60, 28)
+        draw_t(d, (x0 + 34, top + 44), 'DOWNLOAD APP TALENTED', f1, GREEN)
+        draw_t(d, (x0 + 34, top + 50 + th(d, 'DOWNLOAD', f1) + 14), 'pricelist.talentededucationgroup.com', mont(26, 'Bold'), _mix(GREEN, (128, 128, 128), 0.3))
+        fg = fit_font(d, 'GRATIS', anton, 200, 66, 30)
+        _rr(d, [cut + 24, top + 50, x1 - 24, bottom - 34], 18, fill=ACC)
+        draw_t(d, (cut + 24 + (x1 - cut - 48 - tw(d, 'GRATIS', fg)) // 2, top + 50 + (bottom - 84 - top - th(d, 'GRATIS', fg)) // 2), 'GRATIS', fg, GREEN)
+    elif k == 'sticker':
+        f1 = mont(34, 'ExtraBold'); t1 = 'Cek harga kuliah di app Talented'
+        draw_t(d, (x0 + 10, top + 52), t1, fit_font(d, t1, lambda s_: mont(s_, 'ExtraBold'), 600, 34, 22), _mix(GREEN, (255, 255, 255), 0) if sum(PAL_BG[0]) > 380 else (255, 255, 255))
+        draw_t(d, (x0 + 10, top + 104), 'pricelist.talentededucationgroup.com', mont(24, 'Bold'), ACC if sum(PAL_BG[0]) < 380 else GREEN)
+        st = stamp('GRATIS', 'KONSULTASI', ACC, GREEN, angle=-8, size=70)
+        canvas.alpha_composite(st, (x1 - st.width + 10, top + (bottom - top - st.height) // 2 + 6))
+    else:
+        bn = Image.open(BR('banner-app.png')).convert('RGBA')
+        bn = bn.resize((960, int(bn.height * 960 / bn.width)), Image.LANCZOS)
+        canvas.alpha_composite(bn, ((W - 960) // 2, bottom - bn.height))
 CNAME = {'AU': 'AUSTRALIA', 'NZ': 'SELANDIA BARU', 'GB': 'INGGRIS', 'CA': 'KANADA', 'US': 'AMERIKA', 'IE': 'IRLANDIA',
          'DE': 'JERMAN', 'FR': 'PRANCIS', 'NL': 'BELANDA', 'JP': 'JEPANG', 'KR': 'KOREA', 'SG': 'SINGAPURA', 'TW': 'TAIWAN',
          'CN': 'TIONGKOK', 'SE': 'SWEDIA', 'HU': 'HONGARIA', 'TR': 'TURKI', 'BN': 'BRUNEI', 'ES': 'SPANYOL', 'CH': 'SWISS',
@@ -63,7 +180,21 @@ BULAN = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustu
 HL = re.compile(r'(\d{1,3}(?:[-–]\d{1,3})?%|(?:AUD|NZD|GBP|CAD|USD|EUR)\s?[\d.,]+)')
 
 
+STYLE = {'font': 'anton', 'deco': 'none', 'cta': 'app'}  # diatur per posting oleh set_style()
+
+
 def anton(s):
+    """font judul: bergilir per posting (Anton / Montserrat Black / Poppins Bold) supaya desain tidak mirip semua"""
+    f = STYLE.get('font', 'anton')
+    if f == 'mont':
+        ft = ImageFont.truetype(os.path.join(ROOT, 'assets', 'fonts', 'Montserrat.ttf'), int(s * 0.82))
+        try:
+            ft.set_variation_by_name('Black')
+        except Exception:
+            pass
+        return ft
+    if f == 'poppins':
+        return ImageFont.truetype(os.path.join(ROOT, 'assets', 'fonts', 'Poppins-Bold.ttf'), int(s * 0.84))
     return ImageFont.truetype(os.path.join(ROOT, 'assets', 'fonts', 'Anton.ttf'), s)
 
 
@@ -265,15 +396,26 @@ def watermark(canvas, dark):
             stroke_width=2, stroke_fill=(0, 0, 0, 160) if dark else (255, 255, 255, 200))
 
 
+def _recolor(img, src, dst, tol=22):
+    import numpy as np
+    a = np.array(img.convert('RGBA')).astype('int16')
+    m = (abs(a[..., 0] - src[0]) + abs(a[..., 1] - src[1]) + abs(a[..., 2] - src[2])) < tol
+    a[m, 0], a[m, 1], a[m, 2] = dst
+    return Image.fromarray(a.astype('uint8'), 'RGBA')
+
+
 def footer_and_banner(canvas, dark, accent):
     watermark(canvas, dark)
     ft = Image.open(BR('footer-hijau.png' if dark else 'footer-terang.png')).convert('RGBA')
+    # footer ikut warna palet (isi: QR, PIER, Victory, sosmed tetap sama)
+    try:
+        ft = _recolor(ft, (23, 63, 53), GREEN) if dark else _recolor(ft, (246, 241, 230), PAL_BG[0] if sum(PAL_BG[0]) > 600 else (246, 241, 230))
+    except Exception:
+        pass
     canvas.alpha_composite(ft, (0, FOOT_Y))
-    bn = Image.open(BR('banner-app.png')).convert('RGBA')
-    bw = 960
-    bn = bn.resize((bw, int(bn.height * bw / bn.width)), Image.LANCZOS)
-    canvas.alpha_composite(bn, ((W - bw) // 2, 916 - bn.height))
-    return 916 - bn.height  # top of banner
+    top = 916 - int(182 * 960 / 993)
+    cta_band(canvas, top, 916)
+    return top  # top of banner
 
 
 def price_line(d, x, y, price, unit, color, size=44, maxw=600):
@@ -400,7 +542,7 @@ def render(c, lay, pal, photo, logo_path):
     bg, tx, ac, dark = PAL[pal]
     if lay == 'B':
         dark = True  # text sits on the solid green panel
-    im = Image.new('RGBA', (W, H), bg + (255,))
+    im = base_canvas(bg)
     d = ImageDraw.Draw(im)
     if photo is not None:
         photo = grain(photo, 0.035)
@@ -529,7 +671,7 @@ def render_news(c, pal):
         pal = 'P1'
     set_palette(pal)
     bg, tx, ac, dark = PAL[pal]
-    im = Image.new('RGBA', (W, H), bg + (255,))
+    im = base_canvas(bg)
     d = ImageDraw.Draw(im)
     d.polygon([(W - 300, 0), (W, 0), (W, 300)], fill=PANEL2)  # diagonal cut like the Talented logo
     banner_y = 916 - int(182 * 960 / 993)
@@ -584,7 +726,7 @@ def stamp(text, sub, fill, ink, angle=-7, size=150):
 
 def render_extra(c, lay, pal, photo, logo_path):
     bg, tx, ac, dark = PAL[pal]
-    im = Image.new('RGBA', (W, H), bg + (255,))
+    im = base_canvas(bg)
     d = ImageDraw.Draw(im)
     if photo is not None:
         photo = grain(photo, 0.035)
@@ -636,8 +778,9 @@ def render_extra(c, lay, pal, photo, logo_path):
         fl = mont(20, 'ExtraBold')
         draw_t(d, (x0 + 34, y0 + 30), 'BOARDING PASS  ·  STUDY ABROAD', fl, (0xC8, 0x90, 0x1A))
         dest = CNAME.get(c['cc'], 'LUAR NEGERI')
-        fr = fit_font(d, 'INDONESIA → ' + dest, anton, cut - x0 - 70, 64, 34)
-        draw_t(d, (x0 + 34, y0 + 70), 'INDONESIA → ' + dest, fr, ink)
+        arrow = ' → ' if STYLE.get('font', 'anton') == 'anton' else ' - '  # Poppins/Montserrat tidak punya panah
+        fr = fit_font(d, 'INDONESIA' + arrow + dest, anton, cut - x0 - 70, 64, 34)
+        draw_t(d, (x0 + 34, y0 + 70), 'INDONESIA' + arrow + dest, fr, ink)
         y = y0 + 70 + th(d, 'INDONESIA', fr) + 26
         d.line([(x0 + 34, y), (cut - 34, y)], fill=(0xC8, 0x90, 0x1A), width=4); y += 22
         fh = fit_font(d, c['head'], anton, cut - x0 - 70, 44, 28)
@@ -759,7 +902,7 @@ def render_new(c, lay, pal, photo, logo_path):
     bg, tx, ac, dark = PAL[pal]
     photos = photo if isinstance(photo, list) else [photo]
     photos = [grain(p_, 0.03) for p_ in photos if p_ is not None]
-    im = Image.new('RGBA', (W, H), bg + (255,))
+    im = base_canvas(bg)
     d = ImageDraw.Draw(im)
     banner_y = 916 - int(182 * 960 / 993)
     limit = banner_y - 18
@@ -953,6 +1096,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     c = derive(kind, title, sub, country, provider, spec)
     lay, pal, log, known = pick_style(key, bool(c['hero']), bool(c['dl']))
     set_palette(pal)
+    sty = set_style(key)
     if lay == 'D' and not c['hero']:
         lay = 'B'
     if known:
@@ -975,8 +1119,6 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         p_, c_ = get_photo(country or 'ANY', key, 'Topik ' + spec['topic'])
         if p_ is not None:
             photo, credit, topic_ok = p_, c_, True
-            if lay in ('A', 'D', 'G', 'F'):
-                lay = 'B' if lay in ('A', 'G') else 'H'
     if not topic_ok and not (credit and 'Wikimedia' not in credit):
         photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
         if not (credit and 'Wikimedia' not in credit) and kind in ('news', 'scholarship', 'promo'):
@@ -985,14 +1127,10 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
             photo, credit = get_photo(country or 'ANY', key, 'Topik ' + ((spec or {}).get('topic') or {'news': 'visa', 'scholarship': 'school', 'promo': 'fees'}[kind]))
             if photo is None:
                 photo, credit, lay = None, None, 'T'
-            elif lay in ('A', 'D', 'G', 'F'):
-                lay = 'B' if lay in ('A', 'G') else 'H'
         elif not (credit and 'Wikimedia' not in credit) and (spec or {}).get('topic'):
             photo, credit = get_photo(country or 'ANY', key, 'Topik ' + spec['topic'])
             if photo is None:
                 need_photo('Topik ' + spec['topic'], key); return None
-            if lay in ('A', 'D', 'G', 'F'):
-                lay = 'B' if lay in ('A', 'G') else 'H'
         elif not (credit and 'Wikimedia' not in credit):
             need_photo(provider or ('Talented Umum (' + kind + ')'), key)
             print('held (no real photo yet):', provider or kind)
@@ -1023,7 +1161,8 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 10, "credit": credit}
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 10, "credit": credit,
+           "font": sty['font'], "deco": sty['deco'], "cta": sty['cta']}
     if known:
         for i in log['items']:
             if i.get('key') == key:

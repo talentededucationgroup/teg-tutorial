@@ -742,7 +742,23 @@
    "program": "Bachelor of Accounting and Finance (Hons) to Deakin University (Finance / Accounting)",
    "level": "Bachelor",
    "field": "Business",
-   "route": "2+1 (Accounting intake Maret: 2+1.5; major lain 1+2)",
+   "route": {
+    "id": "2+1 (Accounting intake Maret: 2+1.5; major lain 1+2)",
+    "en": "2+1 (Accounting March intake: 2+1.5; other majors 1+2)",
+    "th": "2+1 (Accounting รอบเข้าเรียนเดือนมีนาคม: 2+1.5; สาขาอื่น 1+2)",
+    "vi": "2+1 (Accounting kỳ nhập học tháng 3: 2+1.5; các ngành khác 1+2)",
+    "zh": "2+1（Accounting 3月入学：2+1.5；其他专业 1+2）",
+    "ja": "2+1（Accounting 3月入学：2+1.5；その他の専攻 1+2）",
+    "ko": "2+1 (Accounting 3월 입학: 2+1.5; 기타 전공 1+2)",
+    "km": "2+1 (Accounting ចូលរៀនខែមីនា: 2+1.5; ជំនាញផ្សេងទៀត 1+2)",
+    "fr": "2+1 (Accounting, rentrée de mars : 2+1.5 ; autres filières 1+2)",
+    "pt": "2+1 (Accounting, ingresso em março: 2+1.5; demais cursos 1+2)",
+    "es": "2+1 (Accounting, ingreso de marzo: 2+1.5; otras carreras 1+2)",
+    "de": "2+1 (Accounting, Start im März: 2+1.5; andere Fächer 1+2)",
+    "it": "2+1 (Accounting, ingresso di marzo: 2+1.5; altri indirizzi 1+2)",
+    "nl": "2+1 (Accounting, instroom maart: 2+1.5; andere studierichtingen 1+2)",
+    "ru": "2+1 (Accounting, набор в марте: 2+1.5; другие специальности 1+2)"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1045,7 +1061,23 @@
    "program": "Bachelor of Computer Science (Hons) / Software Engineering / IT to UK partner universities",
    "level": "Bachelor",
    "field": "IT",
-   "route": "1+2 atau 2+1",
+   "route": {
+    "id": "1+2 atau 2+1",
+    "en": "1+2 or 2+1",
+    "th": "1+2 หรือ 2+1",
+    "vi": "1+2 hoặc 2+1",
+    "zh": "1+2 或 2+1",
+    "ja": "1+2 または 2+1",
+    "ko": "1+2 또는 2+1",
+    "km": "1+2 ឬ 2+1",
+    "fr": "1+2 ou 2+1",
+    "pt": "1+2 ou 2+1",
+    "es": "1+2 o 2+1",
+    "de": "1+2 oder 2+1",
+    "it": "1+2 o 2+1",
+    "nl": "1+2 of 2+1",
+    "ru": "1+2 или 2+1"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1135,7 +1167,23 @@
    "program": "American Degree Transfer Program (Liberal Arts / Business / Engineering / Computer Science)",
    "level": "Bachelor",
    "field": "Liberal Arts / General",
-   "route": "ADP di Malaysia lalu transfer (total 4 tahun)",
+   "route": {
+    "id": "ADP di Malaysia lalu transfer (total 4 tahun)",
+    "en": "ADP in Malaysia, then transfer (4 years in total)",
+    "th": "ADP ในมาเลเซีย แล้วย้าย (รวม 4 ปี)",
+    "vi": "ADP tại Malaysia, sau đó chuyển tiếp (tổng 4 năm)",
+    "zh": "先在马来西亚读 ADP，再转学（共4年）",
+    "ja": "マレーシアで ADP、その後編入（合計4年）",
+    "ko": "말레이시아에서 ADP 후 편입 (총 4년)",
+    "km": "ADP នៅម៉ាឡេស៊ី បន្ទាប់មកផ្ទេរ (សរុប 4 ឆ្នាំ)",
+    "fr": "ADP en Malaisie, puis transfert (4 ans au total)",
+    "pt": "ADP na Malásia e depois transferência (4 anos no total)",
+    "es": "ADP en Malasia y luego traslado (4 años en total)",
+    "de": "ADP in Malaysia, danach Wechsel (insgesamt 4 Jahre)",
+    "it": "ADP in Malesia, poi trasferimento (4 anni in totale)",
+    "nl": "ADP in Maleisië, daarna overstap (in totaal 4 jaar)",
+    "ru": "ADP в Малайзии, затем перевод (всего 4 года)"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1223,7 +1271,23 @@
    "program": "UK Transfer Degree Programme to University of Liverpool",
    "level": "Bachelor",
    "field": null,
-   "route": "2+1 atau 1+2",
+   "route": {
+    "id": "2+1 atau 1+2",
+    "en": "2+1 or 1+2",
+    "th": "2+1 หรือ 1+2",
+    "vi": "2+1 hoặc 1+2",
+    "zh": "2+1 或 1+2",
+    "ja": "2+1 または 1+2",
+    "ko": "2+1 또는 1+2",
+    "km": "2+1 ឬ 1+2",
+    "fr": "2+1 ou 1+2",
+    "pt": "2+1 ou 1+2",
+    "es": "2+1 o 1+2",
+    "de": "2+1 oder 1+2",
+    "it": "2+1 o 1+2",
+    "nl": "2+1 of 1+2",
+    "ru": "2+1 или 1+2"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1276,7 +1340,23 @@
    "program": "UK Transfer Degree Programme to University of Liverpool",
    "level": "Bachelor",
    "field": null,
-   "route": "2+1 atau 1+2",
+   "route": {
+    "id": "2+1 atau 1+2",
+    "en": "2+1 or 1+2",
+    "th": "2+1 หรือ 1+2",
+    "vi": "2+1 hoặc 1+2",
+    "zh": "2+1 或 1+2",
+    "ja": "2+1 または 1+2",
+    "ko": "2+1 또는 1+2",
+    "km": "2+1 ឬ 1+2",
+    "fr": "2+1 ou 1+2",
+    "pt": "2+1 ou 1+2",
+    "es": "2+1 o 1+2",
+    "de": "2+1 oder 1+2",
+    "it": "2+1 o 1+2",
+    "nl": "2+1 of 1+2",
+    "ru": "2+1 или 1+2"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1516,7 +1596,23 @@
    "program": "Transfer to Monash University Australia (Melbourne)",
    "level": "Bachelor",
    "field": "Various",
-   "route": "Transfer kampus (pembagian tahun tidak disebut)",
+   "route": {
+    "id": "Transfer kampus (pembagian tahun tidak disebut)",
+    "en": "Campus transfer (split not stated)",
+    "th": "ย้ายวิทยาเขต (ไม่ระบุการแบ่งปี)",
+    "vi": "Chuyển cơ sở (không nêu cách chia năm)",
+    "zh": "转校区（未说明年份分配）",
+    "ja": "キャンパス移籍（年数の内訳は記載なし）",
+    "ko": "캠퍼스 이동 (연도 배분 미기재)",
+    "km": "ផ្ទេរសាខា (មិនបានបញ្ជាក់ការបែងចែកឆ្នាំ)",
+    "fr": "Transfert de campus (répartition non précisée)",
+    "pt": "Transferência de campus (divisão não informada)",
+    "es": "Traslado de campus (reparto no indicado)",
+    "de": "Campuswechsel (Aufteilung nicht angegeben)",
+    "it": "Trasferimento di campus (ripartizione non indicata)",
+    "nl": "Campusoverstap (verdeling niet vermeld)",
+    "ru": "Перевод в другой кампус (распределение не указано)"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1601,7 +1697,23 @@
    "program": "Bachelor of Business / Digital Business / Information Technology - study transfer to Monash Australia",
    "level": "Bachelor",
    "field": "Business / IT",
-   "route": "1.5+1.5 (opsional; bisa 3 tahun penuh di Indonesia)",
+   "route": {
+    "id": "1.5+1.5 (opsional; bisa 3 tahun penuh di Indonesia)",
+    "en": "1.5+1.5 (optional; can study all 3 years in Indonesia)",
+    "th": "1.5+1.5 (ไม่บังคับ; เรียนครบ 3 ปีในอินโดนีเซียได้)",
+    "vi": "1.5+1.5 (không bắt buộc; có thể học cả 3 năm tại Indonesia)",
+    "zh": "1.5+1.5（可选；可在印度尼西亚完成全部3年）",
+    "ja": "1.5+1.5（任意；3年間すべてインドネシアで学ぶことも可）",
+    "ko": "1.5+1.5 (선택; 3년 전체를 인도네시아에서 공부 가능)",
+    "km": "1.5+1.5 (ស្រេចចិត្ត; អាចសិក្សាទាំង 3 ឆ្នាំនៅឥណ្ឌូណេស៊ី)",
+    "fr": "1.5+1.5 (facultatif ; possibilité de faire les 3 ans en Indonésie)",
+    "pt": "1.5+1.5 (opcional; é possível cursar os 3 anos na Indonésia)",
+    "es": "1.5+1.5 (opcional; se pueden cursar los 3 años en Indonesia)",
+    "de": "1.5+1.5 (optional; du kannst alle 3 Jahre in Indonesien studieren)",
+    "it": "1.5+1.5 (facoltativo; si possono frequentare tutti i 3 anni in Indonesia)",
+    "nl": "1.5+1.5 (optioneel; alle 3 jaar in Indonesië studeren kan ook)",
+    "ru": "1.5+1.5 (по желанию; можно учиться все 3 года в Индонезии)"
+   },
    "stages": [
     {
      "country": "ID",
@@ -1718,7 +1830,23 @@
    "program": "Bachelor of Design (mandatory transfer to Monash Australia)",
    "level": "Bachelor",
    "field": "Design",
-   "route": "1.5+1.5 (wajib)",
+   "route": {
+    "id": "1.5+1.5 (wajib)",
+    "en": "1.5+1.5 (mandatory)",
+    "th": "1.5+1.5 (บังคับ)",
+    "vi": "1.5+1.5 (bắt buộc)",
+    "zh": "1.5+1.5（必须）",
+    "ja": "1.5+1.5（必須）",
+    "ko": "1.5+1.5 (필수)",
+    "km": "1.5+1.5 (ចាំបាច់)",
+    "fr": "1.5+1.5 (obligatoire)",
+    "pt": "1.5+1.5 (obrigatório)",
+    "es": "1.5+1.5 (obligatorio)",
+    "de": "1.5+1.5 (Pflicht)",
+    "it": "1.5+1.5 (obbligatorio)",
+    "nl": "1.5+1.5 (verplicht)",
+    "ru": "1.5+1.5 (обязательно)"
+   },
    "stages": [
     {
      "country": "ID",
@@ -1835,7 +1963,23 @@
    "program": "Curtin Campus Transfer Program to Curtin Perth",
    "level": "Bachelor",
    "field": "Various",
-   "route": "Transfer kampus (kapan saja setelah mulai studi)",
+   "route": {
+    "id": "Transfer kampus (kapan saja setelah mulai studi)",
+    "en": "Campus transfer (any time after starting)",
+    "th": "ย้ายวิทยาเขต (ได้ทุกเมื่อหลังเริ่มเรียน)",
+    "vi": "Chuyển cơ sở (bất cứ lúc nào sau khi bắt đầu học)",
+    "zh": "转校区（开始学习后随时可转）",
+    "ja": "キャンパス移籍（就学開始後いつでも可）",
+    "ko": "캠퍼스 이동 (학업 시작 후 언제든지)",
+    "km": "ផ្ទេរសាខា (គ្រប់ពេលក្រោយចាប់ផ្តើមសិក្សា)",
+    "fr": "Transfert de campus (à tout moment après le début des études)",
+    "pt": "Transferência de campus (a qualquer momento após o início)",
+    "es": "Traslado de campus (en cualquier momento tras el inicio)",
+    "de": "Campuswechsel (jederzeit nach Studienbeginn)",
+    "it": "Trasferimento di campus (in qualsiasi momento dopo l'inizio)",
+    "nl": "Campusoverstap (op elk moment na de start)",
+    "ru": "Перевод в другой кампус (в любое время после начала учёбы)"
+   },
    "stages": [
     {
      "country": "MY",
@@ -1936,7 +2080,23 @@
    "program": "Curtin Campus Transfer Program to Curtin Perth",
    "level": "Bachelor",
    "field": "Various",
-   "route": "Transfer kampus (kapan saja setelah mulai studi)",
+   "route": {
+    "id": "Transfer kampus (kapan saja setelah mulai studi)",
+    "en": "Campus transfer (any time after starting)",
+    "th": "ย้ายวิทยาเขต (ได้ทุกเมื่อหลังเริ่มเรียน)",
+    "vi": "Chuyển cơ sở (bất cứ lúc nào sau khi bắt đầu học)",
+    "zh": "转校区（开始学习后随时可转）",
+    "ja": "キャンパス移籍（就学開始後いつでも可）",
+    "ko": "캠퍼스 이동 (학업 시작 후 언제든지)",
+    "km": "ផ្ទេរសាខា (គ្រប់ពេលក្រោយចាប់ផ្តើមសិក្សា)",
+    "fr": "Transfert de campus (à tout moment après le début des études)",
+    "pt": "Transferência de campus (a qualquer momento após o início)",
+    "es": "Traslado de campus (en cualquier momento tras el inicio)",
+    "de": "Campuswechsel (jederzeit nach Studienbeginn)",
+    "it": "Trasferimento di campus (in qualsiasi momento dopo l'inizio)",
+    "nl": "Campusoverstap (op elk moment na de start)",
+    "ru": "Перевод в другой кампус (в любое время после начала учёбы)"
+   },
    "stages": [
     {
      "country": "SG",
@@ -2037,7 +2197,23 @@
    "program": "nextgen_way - start at Swinburne Sarawak, continue at Swinburne Melbourne",
    "level": "Bachelor",
    "field": "Business / IT / Design / Media",
-   "route": "Sarawak lalu Melbourne (lama tiap tahap tidak disebut)",
+   "route": {
+    "id": "Sarawak lalu Melbourne (lama tiap tahap tidak disebut)",
+    "en": "Sarawak, then Melbourne (length of each stage not stated)",
+    "th": "Sarawak แล้วต่อ Melbourne (ไม่ระบุระยะเวลาแต่ละช่วง)",
+    "vi": "Sarawak, sau đó Melbourne (không nêu thời gian mỗi giai đoạn)",
+    "zh": "先 Sarawak，后 Melbourne（未说明各阶段时长）",
+    "ja": "Sarawak、その後 Melbourne（各段階の期間は記載なし）",
+    "ko": "Sarawak 후 Melbourne (각 단계 기간 미기재)",
+    "km": "Sarawak បន្ទាប់មក Melbourne (មិនបានបញ្ជាក់រយៈពេលនៃដំណាក់កាលនីមួយៗ)",
+    "fr": "Sarawak, puis Melbourne (durée de chaque étape non précisée)",
+    "pt": "Sarawak e depois Melbourne (duração de cada etapa não informada)",
+    "es": "Sarawak y luego Melbourne (duración de cada etapa no indicada)",
+    "de": "Sarawak, danach Melbourne (Dauer der einzelnen Phasen nicht angegeben)",
+    "it": "Sarawak, poi Melbourne (durata di ogni fase non indicata)",
+    "nl": "Sarawak, daarna Melbourne (duur per fase niet vermeld)",
+    "ru": "Sarawak, затем Melbourne (длительность этапов не указана)"
+   },
    "stages": [
     {
      "country": "MY",
@@ -2223,7 +2399,23 @@
    "program": "IT and Engineering programs - international pathway to RMIT Melbourne",
    "level": "Bachelor",
    "field": "IT / Engineering",
-   "route": "1+2 atau 1+3",
+   "route": {
+    "id": "1+2 atau 1+3",
+    "en": "1+2 or 1+3",
+    "th": "1+2 หรือ 1+3",
+    "vi": "1+2 hoặc 1+3",
+    "zh": "1+2 或 1+3",
+    "ja": "1+2 または 1+3",
+    "ko": "1+2 또는 1+3",
+    "km": "1+2 ឬ 1+3",
+    "fr": "1+2 ou 1+3",
+    "pt": "1+2 ou 1+3",
+    "es": "1+2 o 1+3",
+    "de": "1+2 oder 1+3",
+    "it": "1+2 o 1+3",
+    "nl": "1+2 of 1+3",
+    "ru": "1+2 или 1+3"
+   },
    "stages": [
     {
      "country": "VN",
@@ -2308,7 +2500,23 @@
    "program": "Transfer to Murdoch University Perth campus",
    "level": "Bachelor",
    "field": "Various",
-   "route": "Transfer kampus (setelah tiap teaching period)",
+   "route": {
+    "id": "Transfer kampus (setelah tiap teaching period)",
+    "en": "Campus transfer (after any teaching period)",
+    "th": "ย้ายวิทยาเขต (หลังจบแต่ละช่วงการสอน)",
+    "vi": "Chuyển cơ sở (sau mỗi kỳ giảng dạy)",
+    "zh": "转校区（每个教学期结束后均可）",
+    "ja": "キャンパス移籍（各ティーチングピリオド終了後）",
+    "ko": "캠퍼스 이동 (각 수업 기간 종료 후)",
+    "km": "ផ្ទេរសាខា (ក្រោយរយៈពេលបង្រៀននីមួយៗ)",
+    "fr": "Transfert de campus (après chaque période d'enseignement)",
+    "pt": "Transferência de campus (após qualquer período letivo)",
+    "es": "Traslado de campus (tras cualquier periodo lectivo)",
+    "de": "Campuswechsel (nach jeder Lehrperiode)",
+    "it": "Trasferimento di campus (dopo ogni periodo didattico)",
+    "nl": "Campusoverstap (na elke onderwijsperiode)",
+    "ru": "Перевод в другой кампус (после любого учебного периода)"
+   },
    "stages": [
     {
      "country": "AE",
@@ -2393,7 +2601,23 @@
    "program": "Murdoch University degrees at Kaplan - transfer to Murdoch Perth",
    "level": "Bachelor",
    "field": "Business / IT / Psychology",
-   "route": "Transfer kampus (setelah tiap teaching period)",
+   "route": {
+    "id": "Transfer kampus (setelah tiap teaching period)",
+    "en": "Campus transfer (after any teaching period)",
+    "th": "ย้ายวิทยาเขต (หลังจบแต่ละช่วงการสอน)",
+    "vi": "Chuyển cơ sở (sau mỗi kỳ giảng dạy)",
+    "zh": "转校区（每个教学期结束后均可）",
+    "ja": "キャンパス移籍（各ティーチングピリオド終了後）",
+    "ko": "캠퍼스 이동 (각 수업 기간 종료 후)",
+    "km": "ផ្ទេរសាខា (ក្រោយរយៈពេលបង្រៀននីមួយៗ)",
+    "fr": "Transfert de campus (après chaque période d'enseignement)",
+    "pt": "Transferência de campus (após qualquer período letivo)",
+    "es": "Traslado de campus (tras cualquier periodo lectivo)",
+    "de": "Campuswechsel (nach jeder Lehrperiode)",
+    "it": "Trasferimento di campus (dopo ogni periodo didattico)",
+    "nl": "Campusoverstap (na elke onderwijsperiode)",
+    "ru": "Перевод в другой кампус (после любого учебного периода)"
+   },
    "stages": [
     {
      "country": "SG",
@@ -2478,7 +2702,23 @@
    "program": "Transfer to UOW Australia (Wollongong / Sydney) - Business, Engineering, Computer Science, Business Information Systems",
    "level": "Bachelor",
    "field": "Business / Engineering / IT",
-   "route": "Transfer kampus (kredit penuh mata kuliah UOWD)",
+   "route": {
+    "id": "Transfer kampus (kredit penuh mata kuliah UOWD)",
+    "en": "Campus transfer (full credit for UOWD subjects)",
+    "th": "ย้ายวิทยาเขต (เทียบโอนเต็มสำหรับรายวิชาของ UOWD)",
+    "vi": "Chuyển cơ sở (công nhận toàn bộ tín chỉ các môn UOWD)",
+    "zh": "转校区（UOWD 课程学分全部认可）",
+    "ja": "キャンパス移籍（UOWD 科目の単位を全て認定）",
+    "ko": "캠퍼스 이동 (UOWD 과목 학점 전부 인정)",
+    "km": "ផ្ទេរសាខា (ទទួលស្គាល់ក្រេឌីតពេញសម្រាប់មុខវិជ្ជា UOWD)",
+    "fr": "Transfert de campus (crédits complets pour les cours UOWD)",
+    "pt": "Transferência de campus (crédito integral das disciplinas da UOWD)",
+    "es": "Traslado de campus (crédito completo de las asignaturas de UOWD)",
+    "de": "Campuswechsel (volle Anrechnung der UOWD-Fächer)",
+    "it": "Trasferimento di campus (riconoscimento completo degli insegnamenti UOWD)",
+    "nl": "Campusoverstap (volledige vrijstelling voor UOWD-vakken)",
+    "ru": "Перевод в другой кампус (полный зачёт предметов UOWD)"
+   },
    "stages": [
     {
      "country": "AE",
@@ -2547,7 +2787,23 @@
    "program": "Diploma in Business Administration (and other PSB diplomas) to UOW Bachelor of Commerce / Business",
    "level": "Diploma",
    "field": "Business",
-   "route": "Diploma PSB + 2 tahun UOW (kredit 48 poin)",
+   "route": {
+    "id": "Diploma PSB + 2 tahun UOW (kredit 48 poin)",
+    "en": "PSB diploma + 2 years at UOW (48 credit points)",
+    "th": "Diploma ของ PSB + 2 ปีที่ UOW (48 หน่วยกิต)",
+    "vi": "Diploma PSB + 2 năm tại UOW (48 tín chỉ)",
+    "zh": "PSB 文凭 + UOW 2年（48学分）",
+    "ja": "PSB ディプロマ + UOW で2年（48単位）",
+    "ko": "PSB 디플로마 + UOW 2년 (48학점)",
+    "km": "ឌីប្លូម PSB + 2 ឆ្នាំនៅ UOW (48 ក្រេឌីត)",
+    "fr": "Diplôme PSB + 2 ans à UOW (48 crédits)",
+    "pt": "Diploma PSB + 2 anos na UOW (48 créditos)",
+    "es": "Diploma PSB + 2 años en UOW (48 créditos)",
+    "de": "PSB-Diploma + 2 Jahre an der UOW (48 Credit Points)",
+    "it": "Diploma PSB + 2 anni presso UOW (48 crediti)",
+    "nl": "PSB-diploma + 2 jaar aan UOW (48 studiepunten)",
+    "ru": "Диплом PSB + 2 года в UOW (48 кредитов)"
+   },
    "stages": [
     {
      "country": "SG",
@@ -2632,7 +2888,23 @@
    "program": "Campus Mobility Programme - transfer to partner universities",
    "level": "Bachelor",
    "field": "Business / IT / Engineering",
-   "route": "Transfer (8 modul tersisa / setelah diploma)",
+   "route": {
+    "id": "Transfer (8 modul tersisa / setelah diploma)",
+    "en": "Transfer (remaining 8 modules / after diploma)",
+    "th": "ย้าย (อีก 8 โมดูลที่เหลือ / หลังจบ diploma)",
+    "vi": "Chuyển tiếp (8 học phần còn lại / sau diploma)",
+    "zh": "转学（剩余8个模块 / 文凭之后）",
+    "ja": "編入（残り8モジュール / ディプロマ修了後）",
+    "ko": "편입 (남은 8개 모듈 / 디플로마 이후)",
+    "km": "ផ្ទេរ (8 ម៉ូឌុលដែលនៅសល់ / ក្រោយឌីប្លូម)",
+    "fr": "Transfert (8 modules restants / après le diplôme)",
+    "pt": "Transferência (8 módulos restantes / após o diploma)",
+    "es": "Traslado (8 módulos restantes / tras el diploma)",
+    "de": "Wechsel (restliche 8 Module / nach dem Diploma)",
+    "it": "Trasferimento (8 moduli rimanenti / dopo il diploma)",
+    "nl": "Overstap (resterende 8 modules / na het diploma)",
+    "ru": "Перевод (оставшиеся 8 модулей / после диплома)"
+   },
    "stages": [
     {
      "country": "SG",
@@ -2708,7 +2980,23 @@
    "program": "Bachelor of Game Design and Development + Sarjana Komputer (S.Kom.)",
    "level": "Bachelor",
    "field": "IT",
-   "route": "Double degree (total 3,5 tahun; pembagian tahun tidak disebut)",
+   "route": {
+    "id": "Double degree (total 3,5 tahun; pembagian tahun tidak disebut)",
+    "en": "Double degree (3.5 years in total; split not stated)",
+    "th": "Double degree (รวม 3.5 ปี; ไม่ระบุการแบ่งปี)",
+    "vi": "Double degree (tổng 3.5 năm; không nêu cách chia năm)",
+    "zh": "Double degree（共3.5年；未说明年份分配）",
+    "ja": "Double degree（合計3.5年；年数の内訳は記載なし）",
+    "ko": "Double degree (총 3.5년; 연도 배분 미기재)",
+    "km": "Double degree (សរុប 3.5 ឆ្នាំ; មិនបានបញ្ជាក់ការបែងចែកឆ្នាំ)",
+    "fr": "Double degree (3.5 ans au total ; répartition non précisée)",
+    "pt": "Double degree (3.5 anos no total; divisão não informada)",
+    "es": "Double degree (3.5 años en total; reparto no indicado)",
+    "de": "Double degree (insgesamt 3.5 Jahre; Aufteilung nicht angegeben)",
+    "it": "Double degree (3.5 anni in totale; ripartizione non indicata)",
+    "nl": "Double degree (in totaal 3.5 jaar; verdeling niet vermeld)",
+    "ru": "Double degree (всего 3.5 года; распределение не указано)"
+   },
    "stages": [
     {
      "country": "ID",
@@ -2777,7 +3065,23 @@
    "program": "Bachelor of Communication in Advertising + Sarjana Ilmu Komunikasi (S.I.Kom)",
    "level": "Bachelor",
    "field": "Communication",
-   "route": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+   "route": {
+    "id": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+    "en": "Double degree (4 years in total; split not stated)",
+    "th": "Double degree (รวม 4 ปี; ไม่ระบุการแบ่งปี)",
+    "vi": "Double degree (tổng 4 năm; không nêu cách chia năm)",
+    "zh": "Double degree（共4年；未说明年份分配）",
+    "ja": "Double degree（合計4年；年数の内訳は記載なし）",
+    "ko": "Double degree (총 4년; 연도 배분 미기재)",
+    "km": "Double degree (សរុប 4 ឆ្នាំ; មិនបានបញ្ជាក់ការបែងចែកឆ្នាំ)",
+    "fr": "Double degree (4 ans au total ; répartition non précisée)",
+    "pt": "Double degree (4 anos no total; divisão não informada)",
+    "es": "Double degree (4 años en total; reparto no indicado)",
+    "de": "Double degree (insgesamt 4 Jahre; Aufteilung nicht angegeben)",
+    "it": "Double degree (4 anni in totale; ripartizione non indicata)",
+    "nl": "Double degree (in totaal 4 jaar; verdeling niet vermeld)",
+    "ru": "Double degree (всего 4 года; распределение не указано)"
+   },
    "stages": [
     {
      "country": "ID",
@@ -2846,7 +3150,23 @@
    "program": "BSc (Hons) Computer Science + Sarjana Komputer (S.Kom.)",
    "level": "Bachelor",
    "field": "IT",
-   "route": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+   "route": {
+    "id": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+    "en": "Double degree (4 years in total; split not stated)",
+    "th": "Double degree (รวม 4 ปี; ไม่ระบุการแบ่งปี)",
+    "vi": "Double degree (tổng 4 năm; không nêu cách chia năm)",
+    "zh": "Double degree（共4年；未说明年份分配）",
+    "ja": "Double degree（合計4年；年数の内訳は記載なし）",
+    "ko": "Double degree (총 4년; 연도 배분 미기재)",
+    "km": "Double degree (សរុប 4 ឆ្នាំ; មិនបានបញ្ជាក់ការបែងចែកឆ្នាំ)",
+    "fr": "Double degree (4 ans au total ; répartition non précisée)",
+    "pt": "Double degree (4 anos no total; divisão não informada)",
+    "es": "Double degree (4 años en total; reparto no indicado)",
+    "de": "Double degree (insgesamt 4 Jahre; Aufteilung nicht angegeben)",
+    "it": "Double degree (4 anni in totale; ripartizione non indicata)",
+    "nl": "Double degree (in totaal 4 jaar; verdeling niet vermeld)",
+    "ru": "Double degree (всего 4 года; распределение не указано)"
+   },
    "stages": [
     {
      "country": "ID",
@@ -2984,7 +3304,23 @@
    "program": "Inter-campus transfer to University of Nottingham UK campus",
    "level": "Bachelor",
    "field": "Various",
-   "route": "Transfer kampus (setelah min. 1 semester; bukan tahun akhir)",
+   "route": {
+    "id": "Transfer kampus (setelah min. 1 semester; bukan tahun akhir)",
+    "en": "Campus transfer (after at least 1 semester; not in final year)",
+    "th": "ย้ายวิทยาเขต (หลังเรียนอย่างน้อย 1 ภาคเรียน; ไม่ใช่ปีสุดท้าย)",
+    "vi": "Chuyển cơ sở (sau ít nhất 1 học kỳ; không vào năm cuối)",
+    "zh": "转校区（至少读完1个学期后；最后一年除外）",
+    "ja": "キャンパス移籍（最低1学期修了後；最終学年を除く）",
+    "ko": "캠퍼스 이동 (최소 1학기 이후; 마지막 학년 제외)",
+    "km": "ផ្ទេរសាខា (ក្រោយយ៉ាងហោចណាស់ 1 ឆមាស; មិនមែនឆ្នាំចុងក្រោយ)",
+    "fr": "Transfert de campus (après au moins 1 semestre ; pas en dernière année)",
+    "pt": "Transferência de campus (após pelo menos 1 semestre; não no último ano)",
+    "es": "Traslado de campus (tras al menos 1 semestre; no en el último año)",
+    "de": "Campuswechsel (nach mindestens 1 Semester; nicht im letzten Jahr)",
+    "it": "Trasferimento di campus (dopo almeno 1 semestre; non all'ultimo anno)",
+    "nl": "Campusoverstap (na minimaal 1 semester; niet in het laatste jaar)",
+    "ru": "Перевод в другой кампус (минимум после 1 семестра; не на последнем курсе)"
+   },
    "stages": [
     {
      "country": "CN",

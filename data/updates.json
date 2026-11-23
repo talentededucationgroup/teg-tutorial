@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T13:30:16+07:00",
+ "version": "2026-11-23T14:07:54+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,34 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-23",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "en": "🎓 Scholarship open: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "th": "🎓 เปิดรับทุน: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "vi": "🎓 Học bổng đang mở: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "zh": "🎓 奖学金开放申请：2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "ja": "🎓 奨学金募集中：2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "ko": "🎓 장학금 모집 중: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "fr": "🎓 Bourse ouverte : 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "pt": "🎓 Bolsa aberta: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "es": "🎓 Beca abierta: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "de": "🎓 Stipendium offen: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "it": "🎓 Borsa aperta: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "nl": "🎓 Beurs open: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+    "ru": "🎓 Открыт приём на стипендию: 2027 ECU Kickstart Bursary (deadline 2028-08-01)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20Kickstart%20Bursary",
+   "country": "Australia",
+   "provider": "Edith Cowan University (ECU)",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary"
+  },
   {
    "id": "jobs:2026-11-23-164",
    "kind": "jobs",

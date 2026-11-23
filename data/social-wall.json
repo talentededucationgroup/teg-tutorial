@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T13:30:16+07:00",
+ "version": "2026-11-23T14:07:54+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,19 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-23",
+   "title": "Beasiswa dibuka: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20Kickstart%20Bursary",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary",
+   "caption": "2027 ECU Kickstart Bursary sedang dibuka, pendaftaran ditutup 1 Agustus 2028. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Reel.mp4"
+  },
   {
    "id": "site:2026-11-22:site-06",
    "kind": "marketing",
@@ -353,19 +366,6 @@
    "country": "Australia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:fr-eiffel-excellence|open",
-   "kind": "scholarship",
-   "date": "2026-11-18",
-   "title": "Beasiswa dibuka: Eiffel Excellence Scholarship Programme (deadline 2027-01-06)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme",
-   "source": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
-   "caption": "Eiffel Excellence Scholarship Programme sedang dibuka, pendaftaran ditutup 6 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Prancis",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kementerian%20Eropa%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

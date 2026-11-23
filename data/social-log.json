@@ -532,6 +532,20 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 39,
+   "date": "2026-11-23",
+   "key": "scholarship:au-ecu-kickstart-bursary-2027|open",
+   "file": "Talented ECU Beasiswa November 2026.png",
+   "provider": "ECU",
+   "layout": "B",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

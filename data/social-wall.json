@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T01:56:24+07:00",
+ "version": "2026-11-24T06:18:00+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -210,6 +210,19 @@
    "country": "AU",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "jobs:2026-11-24-189",
+   "kind": "jobs",
+   "date": "2026-11-24",
+   "title": "189 lowongan kerja baru (Australia, Canada, France, Germany)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "189 lowongan kerja baru (Australia, Canada, France, Germany). Cek di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Reel.mp4"
   },
   {
    "id": "scholarship:jp-mext-japanese-studies-teacher-training",
@@ -457,19 +470,6 @@
    "country": "Malaysia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:in-iccr-scholarship",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa baru: ICCR Scholarship (Government of India)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ICCR%20Scholarship%20%28Government%20of%20India%29",
-   "source": "https://a2ascholarships.iccr.gov.in/",
-   "caption": "Info beasiswa: ICCR Scholarship (Government of India). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "India",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

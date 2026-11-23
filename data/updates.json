@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T01:56:24+07:00",
+ "version": "2026-11-24T06:18:00+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,31 @@
   }
  },
  "items": [
+  {
+   "id": "jobs:2026-11-24-189",
+   "kind": "jobs",
+   "date": "2026-11-24",
+   "priority": 1,
+   "title": {
+    "id": "💼 189 lowongan kerja baru (Australia, Canada, France, Germany)",
+    "en": "💼 189 new part-time/student jobs (Australia, Canada, France, Germany)",
+    "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ 189 ตำแหน่ง (Australia, Canada, France, Germany)",
+    "vi": "💼 189 việc làm bán thời gian/sinh viên mới (Australia, Canada, France, Germany)",
+    "zh": "💼 189 个新的兼职/学生工作 (Australia, Canada, France, Germany)",
+    "ja": "💼 新しいアルバイト・学生向け求人 189 件 (Australia, Canada, France, Germany)",
+    "ko": "💼 새 파트타임/학생 일자리 189개 (Australia, Canada, France, Germany)",
+    "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី 189 (Australia, Canada, France, Germany)",
+    "fr": "💼 189 nouveaux jobs étudiants/temps partiel (Australia, Canada, France, Germany)",
+    "pt": "💼 189 novas vagas meio período/estudante (Australia, Canada, France, Germany)",
+    "es": "💼 189 nuevos empleos de medio tiempo/estudiante (Australia, Canada, France, Germany)",
+    "de": "💼 189 neue Teilzeit-/Studentenjobs (Australia, Canada, France, Germany)",
+    "it": "💼 189 nuovi lavori part-time/studenti (Australia, Canada, France, Germany)",
+    "nl": "💼 189 nieuwe bijbaantjes/studentenbanen (Australia, Canada, France, Germany)",
+    "ru": "💼 189 новых вакансий с частичной занятостью (Australia, Canada, France, Germany)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
+  },
   {
    "id": "scholarship:jp-mext-japanese-studies-teacher-training",
    "kind": "scholarship",

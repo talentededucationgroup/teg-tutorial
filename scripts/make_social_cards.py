@@ -23,8 +23,37 @@ PAL = {  # bg, text, accent, dark?
     'P4': ((0xFF, 0xFF, 0xFF), (0x17, 0x3F, 0x35), (0xC8, 0x90, 0x1A), False),
     'P5': ((0xEE, 0xF3, 0xEC), (0x17, 0x3F, 0x35), (0xC8, 0x90, 0x1A), False),
     'P6': ((0x17, 0x3F, 0x35), (255, 255, 255), (0xE9, 0xC4, 0x6A), True),
+    # pemilik 23/11/2026: warna berubah-ubah tiap posting. Palet tambahan (flat, kontras tinggi; logo & footer Talented tetap).
+    'N1': ((0x14, 0x2B, 0x4C), (255, 255, 255), (0xFF, 0x7A, 0x59), True),   # navy + coral
+    'N2': ((0xB8, 0x4A, 0x2C), (255, 255, 255), (0xFF, 0xD5, 0x80), True),   # terracotta + kuning lembut
+    'N3': ((0x0B, 0x5F, 0x66), (255, 255, 255), (0xFF, 0xC8, 0x57), True),   # ocean teal + mustard
+    'N4': ((0xE6, 0xF1, 0xFB), (0x12, 0x2E, 0x55), (0xF2, 0x6B, 0x3A), False),  # biru langit + oranye
+    'N5': ((0xEE, 0xE8, 0xFB), (0x2D, 0x1B, 0x5E), (0xE8, 0x5D, 0x75), False),  # lavender + pink
+    'N6': ((0x3B, 0x1F, 0x4F), (255, 255, 255), (0xFF, 0xB4, 0x4C), True),   # plum + oranye
+    'N7': ((0xB3, 0x1B, 0x2B), (255, 255, 255), (0xFF, 0xE0, 0x66), True),   # merah promo + kuning
+    'N8': ((0xE3, 0xF6, 0xEE), (0x0F, 0x4C, 0x3A), (0xFF, 0x7F, 0x3A), False),  # mint + oranye
+    'N9': ((0x1C, 0x1F, 0x24), (255, 255, 255), (0xC6, 0xF2, 0x4E), True),   # charcoal + lime
+    'N10': ((0xFF, 0xEE, 0xE2), (0x5A, 0x23, 0x10), (0xD9, 0x48, 0x34), False),  # peach + merah bata
+    'N11': ((0x1B, 0x3A, 0x8C), (255, 255, 255), (0x7F, 0xE0, 0xD4), True),  # royal blue + tosca
+    'N12': ((0xFF, 0xF6, 0xD6), (0x23, 0x2A, 0x5C), (0x2F, 0x6B, 0xFF), False),  # krem kuning + biru
 }
+# tinta per palet: warna gelap untuk panel & teks di atas warna aksen (dulu selalu hijau Talented)
+INKS = {'N1': ((0x14, 0x2B, 0x4C), (0x22, 0x40, 0x6B)), 'N2': ((0x4A, 0x1E, 0x10), (0x93, 0x38, 0x20)),
+        'N3': ((0x06, 0x3A, 0x3F), (0x13, 0x7A, 0x82)), 'N4': ((0x12, 0x2E, 0x55), (0x1F, 0x46, 0x7D)),
+        'N5': ((0x2D, 0x1B, 0x5E), (0x45, 0x2F, 0x82)), 'N6': ((0x24, 0x12, 0x33), (0x55, 0x30, 0x70)),
+        'N7': ((0x5A, 0x0A, 0x12), (0x8C, 0x14, 0x22)), 'N8': ((0x0F, 0x4C, 0x3A), (0x1B, 0x6B, 0x53)),
+        'N9': ((0x1C, 0x1F, 0x24), (0x33, 0x38, 0x40)), 'N10': ((0x5A, 0x23, 0x10), (0x80, 0x36, 0x1E)),
+        'N11': ((0x10, 0x24, 0x5C), (0x2B, 0x4F, 0xB0)), 'N12': ((0x23, 0x2A, 0x5C), (0x33, 0x3D, 0x80))}
+BRAND_PALS = ('P1', 'P2', 'P3', 'P4', 'P5', 'P6')
 GREEN, PANEL2 = (0x17, 0x3F, 0x35), (0x21, 0x58, 0x4A)
+ACC = (0xE9, 0xC4, 0x6A)
+
+
+def set_palette(pal):
+    """warna tinta/panel/aksen global mengikuti palet yang dipilih (dipakai semua layout, story & reel)"""
+    global GREEN, PANEL2, ACC
+    GREEN, PANEL2 = INKS.get(pal, ((0x17, 0x3F, 0x35), (0x21, 0x58, 0x4A)))
+    ACC = PAL.get(pal, PAL['P1'])[2]
 CNAME = {'AU': 'AUSTRALIA', 'NZ': 'SELANDIA BARU', 'GB': 'INGGRIS', 'CA': 'KANADA', 'US': 'AMERIKA', 'IE': 'IRLANDIA',
          'DE': 'JERMAN', 'FR': 'PRANCIS', 'NL': 'BELANDA', 'JP': 'JEPANG', 'KR': 'KOREA', 'SG': 'SINGAPURA', 'TW': 'TAIWAN',
          'CN': 'TIONGKOK', 'SE': 'SWEDIA', 'HU': 'HONGARIA', 'TR': 'TURKI', 'BN': 'BRUNEI', 'ES': 'SPANYOL', 'CH': 'SWISS',
@@ -314,13 +343,19 @@ def derive(kind, title, sub, country, provider, spec):
             "unit": spec.get('unit'), "foot": foot, "cc": cc, "prov": prov}
 
 
+DARK_PALS = [p for p, v in PAL.items() if v[3] and p != 'P6']
+LIGHT_PALS = [p for p, v in PAL.items() if not v[3]]
+ALL_PALS = DARK_PALS + LIGHT_PALS
 LAYOUTS = {  # name: (needs hero, needs deadline, allowed palettes)
-    'A': (True, False, ['P1', 'P3']), 'B': (False, False, ['P6']), 'C': (False, False, ['P1', 'P2', 'P3', 'P5']),
-    'D': (True, False, ['P1', 'P3']), 'E': (False, False, ['P2', 'P4', 'P5']), 'F': (False, False, ['P1', 'P3']),
-    'G': (False, True, ['P1', 'P2', 'P3', 'P5']), 'H': (False, False, ['P1', 'P3', 'P2', 'P4']),
+    'A': (True, False, DARK_PALS), 'B': (False, False, ALL_PALS), 'C': (False, False, ALL_PALS),
+    'D': (True, False, DARK_PALS), 'E': (False, False, LIGHT_PALS), 'F': (False, False, DARK_PALS),
+    'G': (False, True, ALL_PALS), 'H': (False, False, ALL_PALS),
+    'I': (False, False, ALL_PALS), 'J': (False, False, ALL_PALS), 'K': (False, False, ALL_PALS),
 }
+NEED_PHOTO = {'I', 'J', 'K'}  # layout baru hanya dipakai bila ada foto asli
 LAYOUT_NAMES = {'T': 'Tipografi berita resmi', 'A': 'Foto kanan diagonal', 'B': 'Foto penuh + panel', 'C': 'Foto atas diagonal', 'D': 'Tipografi + foto miring',
-                'E': 'Majalah/editorial', 'F': 'Tiket boarding pass', 'G': 'Kalender deadline', 'H': 'Tipografi bertumpuk + cap'}
+                'E': 'Majalah/editorial', 'F': 'Tiket boarding pass', 'G': 'Kalender deadline', 'H': 'Tipografi bertumpuk + cap',
+                'I': 'Foto lingkaran + blok warna', 'J': 'Kolase polaroid', 'K': 'Foto penuh + harga besar di bawah'}
 
 
 def pick_style(key, has_hero, has_dl=False):
@@ -330,30 +365,34 @@ def pick_style(key, has_hero, has_dl=False):
     except Exception:
         log = {"note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).", "items": []}
     for it in log['items']:
-        if it.get('key') == key and it.get('v') == 9:
+        if it.get('key') == key and it.get('v') in (9, 10):
             return it['layout'], it['palette'], log, True
     rnd = random.Random(hashlib.sha256(key.encode()).hexdigest())
-    last = [i for i in log['items'] if i.get('key') != key][-3:]
-    recent = {i['layout'] for i in last}
+    last = [i for i in log['items'] if i.get('key') != key][-5:]
+    recent = {i['layout'] for i in last[-4:]}  # 12 layout: tidak mengulang 4 layout terakhir
     ok = [l for l, (nh, nd, _) in LAYOUTS.items() if (has_hero or not nh) and (has_dl or not nd)]
     pool = [l for l in ok if l not in recent] or ok
-    if has_dl and 'G' in pool and rnd.random() < 0.5:
+    if has_dl and 'G' in pool and rnd.random() < 0.4:
         lay = 'G'
     else:
-        lay = rnd.choice(pool)
+        # layout foto baru (I/J/K) sedikit lebih sering supaya tampilan feed segar
+        lay = rnd.choice(pool + [l for l in pool if l in NEED_PHOTO])
     pals = list(LAYOUTS[lay][2])
-    p1run = len(last) >= 2 and all(i['palette'] in ('P1', 'P6') for i in last[-2:])
-    if p1run and len([p for p in pals if p not in ('P1', 'P6')]):
-        pals = [p for p in pals if p not in ('P1', 'P6')]
-    elif 'P1' in pals and rnd.random() < 0.5:
-        pals = ['P1']  # signature colour about half of the time
-    if last and len(pals) > 1 and last[-1]['palette'] in pals:
-        pals.remove(last[-1]['palette'])
-    return lay, rnd.choice(pals), log, False
+    # warna berganti tiap posting: tidak mengulang 5 palet terakhir; palet khas Talented ±25%
+    recent_p = {i.get('palette') for i in last}
+    fresh = [p for p in pals if p not in recent_p] or pals
+    brand = [p for p in fresh if p in BRAND_PALS]
+    other = [p for p in fresh if p not in BRAND_PALS]
+    if brand and (not other or rnd.random() < 0.25):
+        return lay, rnd.choice(brand), log, False
+    return lay, rnd.choice(other or fresh), log, False
 
 
 # ---------------------------------------------------------------- layouts
 def render(c, lay, pal, photo, logo_path):
+    set_palette(pal)
+    if lay in NEED_PHOTO:
+        return render_new(c, lay, pal, photo, logo_path)
     if lay == 'T':
         return render_news(c, pal)
     if lay in ('E', 'F', 'G', 'H'):
@@ -374,8 +413,8 @@ def render(c, lay, pal, photo, logo_path):
         if photo is not None:
             im.paste(fit_person(photo, W, FOOT_Y), (0, 0))
         im.alpha_composite(Image.new('RGBA', (760, FOOT_Y - 440), GREEN + (255,)), (0, 440))
-        d.rectangle([0, 434, 760, 440], fill=PAL['P1'][2])
-        tx, ac = (255, 255, 255), PAL['P1'][2]
+        d.rectangle([0, 434, 760, 440], fill=ACC)
+        tx, ac = (255, 255, 255), ACC
     elif lay == 'C':
         if photo is not None:
             poly_paste(im, darken(photo, 0.8), [(0, 0), (1080, 0), (1080, 380), (0, 460)])
@@ -419,7 +458,7 @@ def render(c, lay, pal, photo, logo_path):
             fhero = fit_font(d, c['hero'], anton, 300, 170, 70)
             hw, hh = tw(d, c['hero'], fhero), th(d, c['hero'], fhero)
             bx0, by0 = 1080 - M - hw - 50, 250
-            d.rectangle([bx0, by0, bx0 + hw + 50, by0 + hh + 50], fill=PAL['P1'][2])
+            d.rectangle([bx0, by0, bx0 + hw + 50, by0 + hh + 50], fill=ACC)
             draw_t(d, (bx0 + 25, by0 + 25), c['hero'], fhero, GREEN)
         x, y, maxw = M, 470, 660
         fh = fit_font(d, c['head'], anton, maxw, 66, 40)
@@ -486,8 +525,9 @@ def render(c, lay, pal, photo, logo_path):
 
 def render_news(c, pal):
     """typography-only official news card: kicker, big title, announced date + official source domain"""
-    if pal not in ('P1', 'P3'):
+    if pal not in DARK_PALS:
         pal = 'P1'
+    set_palette(pal)
     bg, tx, ac, dark = PAL[pal]
     im = Image.new('RGBA', (W, H), bg + (255,))
     d = ImageDraw.Draw(im)
@@ -693,6 +733,94 @@ def render_extra(c, lay, pal, photo, logo_path):
     return im.convert('RGB')
 
 
+def _polaroid(photo, w, h, angle, ink):
+    p = fit_person(photo, w, h).convert('RGBA')
+    fr = Image.new('RGBA', (w + 28, h + 90), (255, 255, 255, 255))
+    fr.alpha_composite(p, (14, 14))
+    ImageDraw.Draw(fr).rectangle([0, 0, w + 27, h + 89], outline=ink + (60,), width=2)
+    return fr.rotate(angle, resample=Image.BICUBIC, expand=True)
+
+
+def _stack_head(d, text, x, y, maxw, col, lines=3, start=78, low=40):
+    size = start
+    while size > low:
+        ls = wrap(d, text, anton(size), maxw, 9)
+        if len(ls) <= lines and max(tw(d, l_, anton(size)) for l_ in ls) <= maxw:
+            break
+        size -= 4
+    f = anton(size)
+    for ln in wrap(d, text, f, maxw, lines):
+        _, h_ = draw_t(d, (x, y), ln, f, col); y += h_ + 10
+    return y
+
+
+def render_new(c, lay, pal, photo, logo_path):
+    """layout tambahan (pemilik 23/11/2026): I lingkaran foto, J kolase polaroid, K foto penuh + blok harga"""
+    bg, tx, ac, dark = PAL[pal]
+    photos = photo if isinstance(photo, list) else [photo]
+    photos = [grain(p_, 0.03) for p_ in photos if p_ is not None]
+    im = Image.new('RGBA', (W, H), bg + (255,))
+    d = ImageDraw.Draw(im)
+    banner_y = 916 - int(182 * 960 / 993)
+    limit = banner_y - 18
+    rnd = random.Random(c['t'])
+    plate = False
+    if lay == 'I':
+        cx, cy, r = 760, 330, 270
+        if rnd.random() < 0.5:
+            d.ellipse([cx - r - 40, cy - r + 60, cx - r + 120, cy - r + 220], fill=ac)  # titik aksen
+        d.ellipse([cx - r - 18, cy - r - 18, cx + r + 18, cy + r + 18], fill=ac)
+        if photos:
+            ph = fit_person(photos[0], 2 * r, 2 * r).convert('RGBA')
+            mk = Image.new('L', (2 * r, 2 * r), 0); ImageDraw.Draw(mk).ellipse([0, 0, 2 * r - 1, 2 * r - 1], fill=255)
+            im.paste(ph, (cx - r, cy - r), mk)
+        d = ImageDraw.Draw(im)
+        x, y, maxw = M, 236, 430
+        y = _stack_head(d, c['head'], x, y, maxw, tx) + 18
+    elif lay == 'J':
+        angs = [-6, 5, -2]
+        spots = [(470, 190, 340, 300), (650, 360, 330, 290)] if len(photos) > 1 else [(520, 200, 430, 400)]
+        for i, (px, py, pw, ph_) in enumerate(spots[:max(1, len(photos))]):
+            if i < len(photos):
+                pol = _polaroid(photos[i], pw, ph_, angs[i], GREEN)
+                im.alpha_composite(pol, (px, py))
+        d = ImageDraw.Draw(im)
+        d.rectangle([560, 176, 660, 206], fill=ac + (255,))  # selotip
+        x, y, maxw = M, 236, 400
+        y = _stack_head(d, c['head'], x, y, maxw, tx) + 18
+    else:  # K
+        top = 520
+        if photos:
+            im.paste(fit_person(photos[0], W, top + 80), (0, 0))
+        d = ImageDraw.Draw(im)
+        d.polygon([(0, top), (W, top - 70), (W, H), (0, H)], fill=bg)
+        d.polygon([(0, top - 8), (W, top - 78), (W, top - 64), (0, top + 6)], fill=ac)
+        plate = bool(photos)
+        x, y, maxw = M, top + 6, W - 2 * M
+        fh = fit_font(d, c['head'], anton, maxw, 58, 32)
+        for ln in wrap(d, c['head'], fh, maxw, 1):
+            _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 8
+        y += 4
+    maxw = W - M - x if lay == 'K' else 600
+    if c['hero']:
+        fhero = fit_font(d, c['hero'], anton, maxw if lay == 'K' else 430, 130 if lay == 'K' else 100, 56)
+        hw, hh = tw(d, c['hero'], fhero), th(d, c['hero'], fhero)
+        if y + hh + 30 < limit:
+            d.rectangle([x - 12, y - 6, x + hw + 14, y + hh + 16], fill=ac)
+            draw_t(d, (x, y), c['hero'], fhero, GREEN); y += hh + 30
+    y += price_line(d, x, y, c['price'], c['unit'], ac, 34, 560)
+    fi = mont(26, 'Bold')
+    for i, ln in enumerate(c['info'][:2]):
+        for l2 in wrap(d, ln, fi, maxw, 1):
+            if y + 28 > limit - 22: break
+            _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 6
+    draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+    logo_talented(im, dark, 140 if plate else 150, plate=plate)
+    logo_provider(im, logo_path)
+    footer_and_banner(im, dark, ac)
+    return im.convert('RGB')
+
+
 def make_story(png_path):
     """1080x1920 story: poster centered on brand colour, flat bands (no AI, no gradients)"""
     po = Image.open(png_path).convert('RGB')
@@ -701,14 +829,14 @@ def make_story(png_path):
     st.paste(po, (0, 285))
     f1 = mont(34, 'ExtraBold')
     t1 = 'INFO TERBARU DARI TALENTED'
-    draw_t(d, ((1080 - tw(d, t1, f1)) // 2, 120), t1, f1, PAL['P1'][2])
-    d.rectangle([440, 185, 640, 191], fill=PAL['P1'][2])
+    draw_t(d, ((1080 - tw(d, t1, f1)) // 2, 120), t1, f1, ACC)
+    d.rectangle([440, 185, 640, 191], fill=ACC)
     f2 = mont(36, 'ExtraBold')
     t2 = 'Scan QR atau klik link di bio'
     draw_t(d, ((1080 - tw(d, t2, f2)) // 2, 1700), t2, f2, (255, 255, 255))
     f3 = mont(26, 'Bold')
     t3 = 'linktr.ee/talentededucationgroup'
-    draw_t(d, ((1080 - tw(d, t3, f3)) // 2, 1770), t3, f3, PAL['P1'][2])
+    draw_t(d, ((1080 - tw(d, t3, f3)) // 2, 1770), t3, f3, ACC)
     out = png_path[:-4] + ' Story.png'
     st.save(out, optimize=True)
     return out
@@ -721,8 +849,15 @@ def make_reel(story_path, seconds=8):
     out = story_path.replace(' Story.png', ' Reel.mp4')
     tmp = out[:-4] + '.tmp.mp4'
     music = sorted(_g.glob(os.path.join(ROOT, 'assets', 'music', '*.mp3')))
-    vf = (f"scale=1296:2304,zoompan=z='min(1+0.0004*on,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-          f":d={seconds * 30}:s=1080x1920:fps=30,fade=t=in:st=0:d=0.4,format=yuv420p")
+    n = seconds * 30
+    # gerakan kamera acak per posting (pemilik 23/11/2026): zoom masuk, zoom keluar, geser atas/bawah
+    moves = [f"z='min(1+0.0004*on,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'",
+             f"z='max(1.08-0.0004*on,1.0)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'",
+             f"z='1.07':x='iw/2-(iw/zoom/2)':y='(ih-ih/zoom)*on/{n}'",
+             f"z='1.07':x='iw/2-(iw/zoom/2)':y='(ih-ih/zoom)*(1-on/{n})'"]
+    mv = moves[int(hashlib.sha256(story_path.encode()).hexdigest(), 16) % len(moves)]
+    vf = (f"scale=1296:2304,zoompan={mv}"
+          f":d={n}:s=1080x1920:fps=30,fade=t=in:st=0:d=0.4,format=yuv420p")
     import shutil as _sh
     ff = _sh.which('ffmpeg')
     if not ff:
@@ -817,12 +952,13 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     os.makedirs(OUT, exist_ok=True)
     c = derive(kind, title, sub, country, provider, spec)
     lay, pal, log, known = pick_style(key, bool(c['hero']), bool(c['dl']))
+    set_palette(pal)
     if lay == 'D' and not c['hero']:
         lay = 'B'
     if known:
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
-        if os.path.exists(p) and rec.get('v') == 9:
+        if os.path.exists(p) and rec.get('v') in (9, 10):
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
@@ -853,6 +989,12 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
             print('held (no real photo yet):', provider or kind)
             return None
         credit = None
+    if lay in NEED_PHOTO and photo is None:
+        lay = 'H'
+    if lay == 'J' and photo is not None and provider:
+        p2, c2 = get_photo(country or 'ANY', key + '#2', provider)
+        if p2 is not None and c2 and 'Wikimedia' not in c2 and p2.resize((16, 16)).tobytes() != photo.resize((16, 16)).tobytes():
+            photo = [photo, p2]
     im = render(c, lay, pal, photo, find_logo(provider))
     today = datetime.date.today()
     base = file_name(c, kind, today)
@@ -871,7 +1013,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 9, "credit": credit}
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 10, "credit": credit}
     if known:
         for i in log['items']:
             if i.get('key') == key:

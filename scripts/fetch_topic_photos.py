@@ -14,6 +14,14 @@ TOPICS = {
     'fees': ['calculator notebook desk', 'piggy bank coins', 'student laptop study desk', 'budget planning notebook'],
     'work': ['barista coffee machine', 'cafe kitchen work', 'warehouse worker', 'retail shop interior'],
     'school': ['university library reading room', 'lecture hall students', 'university campus lawn', 'graduation ceremony'],
+    # per bidang untuk promo jurusan (pemilik 23/11/2026)
+    'health': ['nursing students simulation lab', 'nurse hospital ward', 'nursing training mannequin', 'aged care nurse'],
+    'cookery': ['chef cooking commercial kitchen', 'culinary students kitchen', 'pastry chef plating', 'chef kitchen brigade'],
+    'it': ['students coding laptops', 'computer lab students', 'programmer working code screen', 'data center server room'],
+    'construction': ['construction workers site helmets', 'carpenter apprentice', 'electrician working', 'construction site crane'],
+    'business': ['business meeting office team', 'students group project discussion', 'office coworking space', 'presentation meeting room'],
+    'childcare': ['kindergarten classroom children playing', 'preschool teacher children', 'early childhood education classroom', 'children painting classroom'],
+    'city-au': ['Sydney Harbour Bridge Opera House', 'Melbourne Flinders Street', 'Brisbane river skyline', 'Adelaide city', 'Perth Elizabeth Quay'],
 }
 LIC = {'CC0', 'PUBLIC DOMAIN', 'CC BY 4.0', 'CC BY 3.0', 'CC BY 2.5', 'CC BY 2.0'}
 BAD = re.compile(r'map|logo|coin of|stamp|flag|seal|crest|diagram|chart|poster|sign|1[89]\d\d|protest|police|military|army|navy|crash|accident|fire|grave|nude|drawing|illustration|painting|engraving|vector|screenshot', re.I)
@@ -26,7 +34,10 @@ def api(**q):
 
 
 def main():
+    only = [t.strip() for t in os.environ.get('TOPICS', '').split(',') if t.strip()]
     for topic, queries in TOPICS.items():
+        if only and topic not in only:
+            continue
         out = os.path.join(ROOT, 'social', 'photos', 'candidates', topic)
         os.makedirs(out, exist_ok=True)
         meta, seen = [], set()

@@ -19,6 +19,22 @@ FID = {'Business & Management': 'Bisnis & Manajemen', 'IT, Data & Cyber Security
        'Law & Criminology': 'Hukum & Kriminologi'}
 VET = ('Certificate III', 'Certificate IV', 'Diploma', 'Advanced Diploma')
 PER = {'Term': 'term', 'Trimester': 'trimester', 'Semester': 'semester', 'Unit': 'unit'}
+# foto topik per bidang (social/library/topic-<x>); bila library belum ada -> topik kampus 'school'
+TOPIC = {'Health & Nursing': 'health', 'Hospitality, Cookery & Tourism': 'cookery', 'IT, Data & Cyber Security': 'it',
+         'Construction, Engineering & Trades': 'construction', 'Business & Management': 'business', 'Accounting & Finance': 'business',
+         'Community Services & Early Childhood': 'childcare', 'Education & Training': 'childcare'}
+
+
+def topic_for(field, day, slot):
+    import os
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    have = lambda t: any(f.endswith(('.jpg', '.png')) for f in os.listdir(os.path.join(root, 'social', 'library', 'topic-' + t))) if os.path.isdir(os.path.join(root, 'social', 'library', 'topic-' + t)) else False
+    opts = [t for t in (TOPIC.get(field), 'city-au', 'school') if t and have(t)]
+    if not opts:
+        return 'school'
+    return opts[(day.toordinal() + (slot == 'b')) % len(opts)]
+
+
 CITIES = ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Canberra', 'Gold Coast', 'Hobart', 'Darwin']
 
 
@@ -136,6 +152,6 @@ def posts(now, closing, back_days=3):
             out.append({"id": f"program:{day.isoformat()}:{slot}", "kind": "promo", "date": day.isoformat(),
                         "title": {"id": head + ' mulai ' + hero + '/' + per}, "caption": cap, "country": 'AU', "provider": r['school'],
                         "spec": {"headline": head.upper(), "hero": hero, "info": info[:3],
-                                 "footnote": "*Perkiraan. pricelist.talentededucationgroup.com", "topic": "fees"},
+                                 "footnote": "*Perkiraan. pricelist.talentededucationgroup.com", "topic": topic_for(field, day, slot)},
                         "url": url, "source": None})
     return out

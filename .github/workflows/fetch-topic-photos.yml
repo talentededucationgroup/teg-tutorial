@@ -1,6 +1,9 @@
 name: Ambil kandidat foto topik berita (manual)
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/topic-photo-request.json']
 permissions:
   contents: write
 jobs:
@@ -13,6 +16,8 @@ jobs:
           python-version: '3.12'
       - run: pip install -q pillow
       - run: python scripts/fetch_topic_photos.py
+        env:
+          TOPICS: ${{ github.event_name == 'push' && 'health,cookery,it,construction,business,childcare,city-au' || '' }}
       - run: |
           git config user.name "teg-updates-bot"
           git config user.email "actions@users.noreply.github.com"

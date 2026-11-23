@@ -118,7 +118,7 @@ def get_photo(country, seed, provider=None):
     try:
         from PIL import Image
         if provider:
-            sl = resolve_provider(provider) or slug(provider)
+            sl = resolve_provider(provider) or (('topic-' + slug(provider[6:])) if provider.startswith('Topik ') else slug(provider))
             lib = sorted(glob.glob(os.path.join(ROOT, 'social', 'library', sl, '*.[jp][pn]g')))
             if lib:
                 pick = lib[int(hashlib.sha256(seed.encode()).hexdigest(), 16) % len(lib)]

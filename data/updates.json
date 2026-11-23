@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T14:07:54+07:00",
+ "version": "2026-11-23T14:43:14+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,34 @@
   }
  },
  "items": [
+  {
+   "id": "news:au-485-fee-2026-03",
+   "kind": "news",
+   "date": "2026-11-23",
+   "priority": 2,
+   "title": {
+    "id": "📰 Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026",
+    "en": "📰 Australia: Temporary Graduate visa (subclass 485) fee is AUD 4,600 since 1 Mar 2026",
+    "th": "📰 ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) AUD 4,600 ตั้งแต่ 1 มี.ค. 2026",
+    "vi": "📰 Úc: lệ phí visa Temporary Graduate (subclass 485) là AUD 4.600 từ 1/3/2026",
+    "zh": "📰 澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年3月1日起费用为 AUD 4,600",
+    "ja": "📰 オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年3月1日から AUD 4,600",
+    "ko": "📰 호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 3월 1일부터 AUD 4,600",
+    "km": "📰 អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) AUD 4,600 ចាប់ពី 1 មីនា 2026",
+    "fr": "📰 Australie : le visa Temporary Graduate (subclass 485) coûte AUD 4 600 depuis le 1er mars 2026",
+    "pt": "📰 Austrália: taxa do visto Temporary Graduate (subclass 485) é AUD 4.600 desde 1º de março de 2026",
+    "es": "📰 Australia: la tasa del visado Temporary Graduate (subclass 485) es de AUD 4.600 desde el 1 de marzo de 2026",
+    "de": "📰 Australien: Gebühr für das Temporary-Graduate-Visum (Subclass 485) seit 1. März 2026 AUD 4.600",
+    "it": "📰 Australia: il visto Temporary Graduate (subclass 485) costa AUD 4.600 dal 1° marzo 2026",
+    "nl": "📰 Australië: Temporary Graduate-visum (subclass 485) kost sinds 1 maart 2026 AUD 4.600",
+    "ru": "📰 Австралия: сбор за визу Temporary Graduate (subclass 485) — AUD 4 600 с 1 марта 2026"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "AU",
+   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
+   "category": "visa"
+  },
   {
    "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
    "kind": "scholarship",

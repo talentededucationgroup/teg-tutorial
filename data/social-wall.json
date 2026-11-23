@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T14:07:54+07:00",
+ "version": "2026-11-23T14:43:14+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,19 @@
   }
  },
  "items": [
+  {
+   "id": "news:au-485-fee-2026-03",
+   "kind": "news",
+   "date": "2026-11-23",
+   "title": "Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
+   "caption": "Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202%20Reel.mp4"
+  },
   {
    "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
    "kind": "scholarship",
@@ -353,19 +366,6 @@
    "country": "Australia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%203%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%203%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:au-aih-future-innovator|open",
-   "kind": "scholarship",
-   "date": "2026-11-18",
-   "title": "Beasiswa dibuka: AIH Future Innovator Scholarship (30%) (deadline 2026-12-31)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
-   "caption": "AIH Future Innovator Scholarship (30%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Australia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%204%20Reel.mp4"
   }
  ]
 }

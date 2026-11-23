@@ -968,7 +968,16 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     # quality gate (owner 19/11/2026: 'lebih profesional, lebih natural'): only REAL photos of people/campus -
     # provider brochure photos, or Talented's own photos (social/library/talented-umum) for general posts.
     photo, credit = get_photo(country or 'ANY', key, provider) if provider else (None, None)
-    if not (credit and 'Wikimedia' not in credit):
+    topic_ok = False
+    if not (credit and 'Wikimedia' not in credit) and kind == 'promo' and (spec or {}).get('topic') \
+            and int(hashlib.sha256(key.encode()).hexdigest(), 16) % 10 < 7:
+        # promo jurusan tanpa foto brosur: 70% foto topik bidang/kota/kampus supaya gambar bervariasi (pemilik 23/11/2026)
+        p_, c_ = get_photo(country or 'ANY', key, 'Topik ' + spec['topic'])
+        if p_ is not None:
+            photo, credit, topic_ok = p_, c_, True
+            if lay in ('A', 'D', 'G', 'F'):
+                lay = 'B' if lay in ('A', 'G') else 'H'
+    if not topic_ok and not (credit and 'Wikimedia' not in credit):
         photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
         if not (credit and 'Wikimedia' not in credit) and kind in ('news', 'scholarship', 'promo'):
             # topic photo (curated CC0/PD/CC BY, no lettering) - owner 20/11/2026; fallback: typography card.
@@ -988,7 +997,8 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
             need_photo(provider or ('Talented Umum (' + kind + ')'), key)
             print('held (no real photo yet):', provider or kind)
             return None
-        credit = None
+        if not (credit and 'Wikimedia' in credit):
+            credit = None  # foto sendiri Talented: tanpa kredit; foto CC BY tetap dikreditkan di caption
     if lay in NEED_PHOTO and photo is None:
         lay = 'H'
     if lay == 'J' and photo is not None and provider:

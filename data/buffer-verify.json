@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-23T06:33:45+00:00",
+ "checked_at": "2026-11-23T07:12:31+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-23T06:30:49.132Z",
-   "link": "https://www.facebook.com/104126648347814",
-   "text": ""
+   "sentAt": "2026-11-23T07:09:20.284Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1742130071256490",
+   "text": "2027 ECU Kickstart Bursary sedang dibuka, pendafta"
   },
   "facebook|reel": {
    "sentAt": "2026-11-23T02:28:00.288Z",
@@ -24,9 +24,9 @@
    "text": "Beasiswa 15% tuition untuk semua program di Auckla"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-23T02:28:55.085Z",
-   "link": "https://www.instagram.com/p/DgETvUAFiZj/",
-   "text": "Cari tempat tinggal dekat kampus? Tab Akomodasi di"
+   "sentAt": "2026-11-23T07:09:33.020Z",
+   "link": "https://www.instagram.com/p/DgEz2q4EaZD/",
+   "text": "2027 ECU Kickstart Bursary sedang dibuka, pendafta"
   },
   "instagram|reel": {
    "sentAt": "2026-11-23T02:28:59.479Z",

@@ -560,6 +560,76 @@
    "photo": "tanpa foto",
    "v": 9,
    "credit": null
+  },
+  {
+   "no": 41,
+   "date": "2026-11-23",
+   "key": "program:2026-11-23:a",
+   "file": "Talented Victoria University Promo November 2026.png",
+   "provider": "Victoria University",
+   "layout": "H",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 42,
+   "date": "2026-11-23",
+   "key": "program:2026-11-23:b",
+   "file": "Talented CIHE Australia Promo November 2026.png",
+   "provider": "CIHE Australia",
+   "layout": "E",
+   "palette": "P2",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 43,
+   "date": "2026-11-23",
+   "key": "program:2026-11-22:a",
+   "file": "Talented University of Canberra Promo November 2026.png",
+   "provider": "University of Canberra",
+   "layout": "B",
+   "palette": "P6",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 44,
+   "date": "2026-11-23",
+   "key": "program:2026-11-21:a",
+   "file": "Talented AIT Promo November 2026.png",
+   "provider": "AIT",
+   "layout": "H",
+   "palette": "P3",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
+  },
+  {
+   "no": 45,
+   "date": "2026-11-23",
+   "key": "program:2026-11-21:b",
+   "file": "Talented Everthought College Promo November 2026.png",
+   "provider": "Everthought College",
+   "layout": "B",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 9,
+   "credit": null
   }
  ]
 }

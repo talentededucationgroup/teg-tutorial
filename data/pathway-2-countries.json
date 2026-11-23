@@ -1,7 +1,7 @@
 {
- "version": "2026-11-24",
+ "version": "2026-11-24b",
  "updated_at": "2026-11-24T17:33:00+00:00",
- "count": 43,
+ "count": 44,
  "source_note": "Hanya dari halaman resmi sekolah/kampus; dicek 24/11/2026.",
  "items": [
   {
@@ -4018,6 +4018,139 @@
     "it": "Studia alla Western Sydney University Indonesia (Surabaya) con la possibilità di trasferirti al campus australiano. La brochure indica rette Bachelor di IDR 137.5-150 milioni e Master di IDR 167 milioni (annuali o semestrali, da confermare); borse di studio del 20-50%.",
     "nl": "Studeer aan Western Sydney University Indonesia (Surabaya) met de optie om over te stappen naar de Australische campus. De brochure vermeldt Bachelor-kosten van IDR 137.5-150 miljoen en Master IDR 167 miljoen (per jaar of per semester, nog te bevestigen); beurzen van 20-50%.",
     "ru": "Обучение в Western Sydney University Indonesia (Сурабая) с возможностью перевода в австралийский кампус. В брошюре указана стоимость Bachelor IDR 137.5-150 млн и Master IDR 167 млн (за год или за семестр — требует подтверждения); стипендии 20-50%."
+   }
+  },
+  {
+   "id": "obkg-indonesia-osaka",
+   "provider": "Osaka Bunka Kokusai Gakko (OBKG)",
+   "start_country": "ID",
+   "start_city": "Surabaya, Jakarta, Semarang, Bali & kota lain",
+   "program": "Japanese course in Indonesia, then long-term Japanese Language Program in Osaka (College Preparation / Japan Career Path)",
+   "level": "Foundation",
+   "field": "Japanese Language",
+   "route": {
+    "id": "Kursus bahasa Jepang di Indonesia (±3 bulan per level) lalu sekolah bahasa di Osaka 1,5-2 tahun",
+    "en": "Japanese course in Indonesia (about 3 months per level), then language school in Osaka for 1.5-2 years",
+    "th": "เรียนภาษาญี่ปุ่นในอินโดนีเซีย (ประมาณ 3 เดือนต่อระดับ) จากนั้นเรียนโรงเรียนสอนภาษาในโอซาก้า 1.5-2 ปี",
+    "vi": "Học tiếng Nhật tại Indonesia (khoảng 3 tháng mỗi cấp độ), sau đó học trường ngôn ngữ tại Osaka 1,5-2 năm",
+    "zh": "先在印度尼西亚学习日语（每个级别约3个月），然后在大阪语言学校学习1.5-2年",
+    "ja": "インドネシアで日本語コース（1レベル約3か月）、その後大阪の日本語学校で1.5～2年",
+    "ko": "인도네시아에서 일본어 과정(레벨당 약 3개월) 후 오사카 어학원에서 1.5~2년",
+    "km": "វគ្គភាសាជប៉ុននៅឥណ្ឌូណេស៊ី (ប្រហែល 3 ខែក្នុងមួយកម្រិត) បន្ទាប់មកសាលាភាសានៅអូសាកា 1.5-2 ឆ្នាំ",
+    "fr": "Cours de japonais en Indonésie (environ 3 mois par niveau), puis école de langue à Osaka pendant 1,5 à 2 ans",
+    "pt": "Curso de japonês na Indonésia (cerca de 3 meses por nível), depois escola de idiomas em Osaka por 1,5 a 2 anos",
+    "es": "Curso de japonés en Indonesia (unos 3 meses por nivel) y luego escuela de idiomas en Osaka durante 1,5-2 años",
+    "de": "Japanischkurs in Indonesien (ca. 3 Monate pro Niveau), danach Sprachschule in Osaka für 1,5-2 Jahre",
+    "it": "Corso di giapponese in Indonesia (circa 3 mesi per livello), poi scuola di lingua a Osaka per 1,5-2 anni",
+    "nl": "Japanse cursus in Indonesië (ongeveer 3 maanden per niveau), daarna taalschool in Osaka voor 1,5-2 jaar",
+    "ru": "Курс японского языка в Индонезии (около 3 месяцев на уровень), затем языковая школа в Осаке на 1,5-2 года"
+   },
+   "stages": [
+    {
+     "country": "ID",
+     "institution": "OBKG representative office in Indonesia"
+    },
+    {
+     "country": "JP",
+     "years": 2,
+     "institution": "Osaka Bunka Kokusai Gakko"
+    }
+   ],
+   "destinations": [
+    "JP"
+   ],
+   "partners": [
+    "Osaka Bunka Kokusai Gakko (Osaka)",
+    "University of Marketing and Distribution Sciences (UMDS), Kobe - pathway"
+   ],
+   "award": {
+    "id": "Sertifikat sekolah bahasa; lanjut ke universitas/senmon atau kerja di Jepang",
+    "en": "Language school certificate; continue to university/vocational college or work in Japan",
+    "th": "ประกาศนียบัตรโรงเรียนสอนภาษา; ศึกษาต่อมหาวิทยาลัย/วิทยาลัยวิชาชีพ หรือทำงานในญี่ปุ่น",
+    "vi": "Chứng chỉ trường ngôn ngữ; học tiếp lên đại học/trường nghề hoặc làm việc tại Nhật Bản",
+    "zh": "语言学校证书；可升入大学/专门学校或在日本工作",
+    "ja": "日本語学校修了証；大学・専門学校への進学または日本での就職",
+    "ko": "어학원 수료증; 일본 대학/전문학교 진학 또는 취업",
+    "km": "វិញ្ញាបនបត្រសាលាភាសា; បន្តទៅសាកលវិទ្យាល័យ/មហាវិទ្យាល័យវិជ្ជាជីវៈ ឬធ្វើការនៅជប៉ុន",
+    "fr": "Certificat d'école de langue ; poursuite à l'université/école professionnelle ou travail au Japon",
+    "pt": "Certificado da escola de idiomas; continuar na universidade/faculdade técnica ou trabalhar no Japão",
+    "es": "Certificado de la escuela de idiomas; continuar en la universidad/escuela vocacional o trabajar en Japón",
+    "de": "Sprachschulzertifikat; danach Universität/Berufsfachschule oder Arbeit in Japan",
+    "it": "Certificato della scuola di lingua; proseguimento all'università/istituto professionale o lavoro in Giappone",
+    "nl": "Certificaat van de taalschool; doorstromen naar universiteit/beroepsopleiding of werken in Japan",
+    "ru": "Сертификат языковой школы; продолжение учёбы в университете/профессиональном колледже или работа в Японии"
+   },
+   "start_fee": 1800000,
+   "currency": "IDR",
+   "fee_basis": {
+    "id": "kelas kursus di Indonesia, 23 pertemuan x 90 menit (contoh harga OBKG Semarang); biaya tahun 1 di Osaka JPY 840.000 + biaya pendaftaran",
+    "en": "course in Indonesia, 23 sessions x 90 minutes (OBKG Semarang example price); first year in Osaka JPY 840,000 + application fees",
+    "th": "คอร์สเรียนในอินโดนีเซีย 23 ครั้ง x 90 นาที (ตัวอย่างราคา OBKG Semarang); ค่าใช้จ่ายปีแรกในโอซาก้า JPY 840,000 + ค่าสมัคร",
+    "vi": "khóa học tại Indonesia, 23 buổi x 90 phút (giá ví dụ của OBKG Semarang); năm đầu tại Osaka JPY 840.000 + phí đăng ký",
+    "zh": "印度尼西亚课程，23节课 x 90分钟（OBKG Semarang 参考价格）；大阪第一年 JPY 840,000 + 申请费",
+    "ja": "インドネシアでのコース、23回 x 90分（OBKG Semarang の価格例）；大阪での1年目 JPY 840,000 + 出願費用",
+    "ko": "인도네시아 과정, 23회 x 90분 (OBKG Semarang 예시 가격); 오사카 1년차 JPY 840,000 + 지원비",
+    "km": "វគ្គសិក្សានៅឥណ្ឌូណេស៊ី 23 វគ្គ x 90 នាទី (តម្លៃឧទាហរណ៍ OBKG Semarang); ឆ្នាំទី 1 នៅអូសាកា JPY 840,000 + ថ្លៃដាក់ពាក្យ",
+    "fr": "cours en Indonésie, 23 séances x 90 minutes (exemple de prix OBKG Semarang) ; première année à Osaka JPY 840 000 + frais de candidature",
+    "pt": "curso na Indonésia, 23 aulas x 90 minutos (preço de exemplo da OBKG Semarang); primeiro ano em Osaka JPY 840.000 + taxas de inscrição",
+    "es": "curso en Indonesia, 23 sesiones x 90 minutos (precio de ejemplo de OBKG Semarang); primer año en Osaka JPY 840.000 + tasas de solicitud",
+    "de": "Kurs in Indonesien, 23 Einheiten x 90 Minuten (Beispielpreis OBKG Semarang); erstes Jahr in Osaka JPY 840.000 + Bewerbungsgebühren",
+    "it": "corso in Indonesia, 23 lezioni x 90 minuti (prezzo di esempio OBKG Semarang); primo anno a Osaka JPY 840.000 + tasse di iscrizione",
+    "nl": "cursus in Indonesië, 23 lessen x 90 minuten (voorbeeldprijs OBKG Semarang); eerste jaar in Osaka JPY 840.000 + aanmeldingskosten",
+    "ru": "курс в Индонезии, 23 занятия x 90 минут (пример цены OBKG Semarang); первый год в Осаке JPY 840 000 + сборы за подачу заявки"
+   },
+   "intakes": {
+    "id": "Osaka: April, Juli, Oktober",
+    "en": "Osaka: April, July, October",
+    "th": "โอซาก้า: เมษายน, กรกฎาคม, ตุลาคม",
+    "vi": "Osaka: tháng 4, tháng 7, tháng 10",
+    "zh": "大阪：4月、7月、10月",
+    "ja": "大阪：4月、7月、10月",
+    "ko": "오사카: 4월, 7월, 10월",
+    "km": "អូសាកា: មេសា, កក្កដា, តុលា",
+    "fr": "Osaka : avril, juillet, octobre",
+    "pt": "Osaka: abril, julho, outubro",
+    "es": "Osaka: abril, julio, octubre",
+    "de": "Osaka: April, Juli, Oktober",
+    "it": "Osaka: aprile, luglio, ottobre",
+    "nl": "Osaka: april, juli, oktober",
+    "ru": "Осака: апрель, июль, октябрь"
+   },
+   "english": {
+    "id": "Tidak perlu IELTS; bahasa Jepang min. JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "en": "No IELTS needed; Japanese at least JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "th": "ไม่ต้องใช้ IELTS; ภาษาญี่ปุ่นอย่างน้อย JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "vi": "Không cần IELTS; tiếng Nhật tối thiểu JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "zh": "无需 IELTS；日语至少 JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "ja": "IELTS 不要；日本語は JLPT N5 / NAT 5 / J-TEST F / S-JEP >300 以上",
+    "ko": "IELTS 불필요; 일본어 최소 JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "km": "មិនត្រូវការ IELTS; ភាសាជប៉ុនយ៉ាងហោចណាស់ JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "fr": "IELTS non requis ; japonais au minimum JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "pt": "Não precisa de IELTS; japonês no mínimo JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "es": "No se necesita IELTS; japonés mínimo JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "de": "Kein IELTS nötig; Japanisch mindestens JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "it": "IELTS non richiesto; giapponese almeno JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "nl": "Geen IELTS nodig; Japans minimaal JLPT N5 / NAT 5 / J-TEST F / S-JEP >300",
+    "ru": "IELTS не нужен; японский язык не ниже JLPT N5 / NAT 5 / J-TEST F / S-JEP >300"
+   },
+   "url": "https://www.japanese.ac.jp/id/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Belajar bahasa Jepang dulu di kantor perwakilan OBKG di Indonesia, lalu lanjut ke sekolah bahasa OBKG di Osaka (intake April 2 tahun, Juli 1 tahun 9 bulan, Oktober 1 tahun 6 bulan) sebagai persiapan masuk universitas atau kerja di Jepang. Bukti dana: bank reference > Rp 200 juta.",
+    "en": "Study Japanese first at an OBKG office in Indonesia, then continue at OBKG's language school in Osaka (April intake 2 years, July 1 year 9 months, October 1 year 6 months) to prepare for university or work in Japan. Proof of funds: bank reference above IDR 200 million.",
+    "th": "เรียนภาษาญี่ปุ่นก่อนที่สำนักงาน OBKG ในอินโดนีเซีย จากนั้นเรียนต่อที่โรงเรียนสอนภาษาของ OBKG ในโอซาก้า (รอบเมษายน 2 ปี, กรกฎาคม 1 ปี 9 เดือน, ตุลาคม 1 ปี 6 เดือน) เพื่อเตรียมเข้ามหาวิทยาลัยหรือทำงานในญี่ปุ่น หลักฐานทางการเงิน: bank reference มากกว่า IDR 200 ล้าน",
+    "vi": "Học tiếng Nhật trước tại văn phòng OBKG ở Indonesia, sau đó học tiếp tại trường ngôn ngữ của OBKG ở Osaka (kỳ tháng 4: 2 năm, tháng 7: 1 năm 9 tháng, tháng 10: 1 năm 6 tháng) để chuẩn bị vào đại học hoặc làm việc tại Nhật Bản. Chứng minh tài chính: bank reference trên IDR 200 triệu.",
+    "zh": "先在 OBKG 印度尼西亚办事处学习日语，然后到大阪 OBKG 语言学校继续学习（4月入学2年，7月入学1年9个月，10月入学1年6个月），为升入日本大学或在日本工作做准备。资金证明：bank reference 超过 IDR 2亿。",
+    "ja": "まずインドネシアの OBKG 事務所で日本語を学び、その後大阪の OBKG 日本語学校へ進学（4月入学2年、7月入学1年9か月、10月入学1年6か月）し、日本の大学進学や就職に備えます。経費支弁の証明：bank reference IDR 2億超。",
+    "ko": "먼저 인도네시아 OBKG 사무소에서 일본어를 배운 후, 오사카 OBKG 어학원에서 계속 공부합니다(4월 입학 2년, 7월 1년 9개월, 10월 1년 6개월). 일본 대학 진학 또는 취업을 준비합니다. 재정 증명: bank reference IDR 2억 초과.",
+    "km": "រៀនភាសាជប៉ុនជាមុននៅការិយាល័យ OBKG ក្នុងឥណ្ឌូណេស៊ី បន្ទាប់មកបន្តនៅសាលាភាសា OBKG នៅអូសាកា (វគ្គខែមេសា 2 ឆ្នាំ, កក្កដា 1 ឆ្នាំ 9 ខែ, តុលា 1 ឆ្នាំ 6 ខែ) ដើម្បីត្រៀមចូលសាកលវិទ្យាល័យ ឬធ្វើការនៅជប៉ុន។ ភស្តុតាងហិរញ្ញវត្ថុ: bank reference លើសពី IDR 200 លាន។",
+    "fr": "Étudie d'abord le japonais dans un bureau OBKG en Indonésie, puis poursuis à l'école de langue OBKG d'Osaka (rentrée d'avril 2 ans, juillet 1 an 9 mois, octobre 1 an 6 mois) pour préparer l'université ou le travail au Japon. Justificatif de fonds : bank reference supérieure à IDR 200 millions.",
+    "pt": "Estude japonês primeiro em um escritório da OBKG na Indonésia e depois continue na escola de idiomas da OBKG em Osaka (turma de abril 2 anos, julho 1 ano e 9 meses, outubro 1 ano e 6 meses) para se preparar para a universidade ou para trabalhar no Japão. Comprovação financeira: bank reference acima de IDR 200 milhões.",
+    "es": "Estudia japonés primero en una oficina de OBKG en Indonesia y luego continúa en la escuela de idiomas de OBKG en Osaka (ingreso de abril 2 años, julio 1 año y 9 meses, octubre 1 año y 6 meses) para prepararte para la universidad o el trabajo en Japón. Prueba de fondos: bank reference superior a IDR 200 millones.",
+    "de": "Lerne zuerst Japanisch in einem OBKG-Büro in Indonesien und setze dann an der OBKG-Sprachschule in Osaka fort (Start April 2 Jahre, Juli 1 Jahr 9 Monate, Oktober 1 Jahr 6 Monate), um dich auf ein Studium oder eine Arbeit in Japan vorzubereiten. Finanzierungsnachweis: bank reference über IDR 200 Millionen.",
+    "it": "Studia prima il giapponese in un ufficio OBKG in Indonesia, poi prosegui alla scuola di lingua OBKG di Osaka (ingresso di aprile 2 anni, luglio 1 anno e 9 mesi, ottobre 1 anno e 6 mesi) per prepararti all'università o al lavoro in Giappone. Prova dei fondi: bank reference superiore a IDR 200 milioni.",
+    "nl": "Leer eerst Japans bij een OBKG-kantoor in Indonesië en ga daarna verder op de OBKG-taalschool in Osaka (instroom april 2 jaar, juli 1 jaar 9 maanden, oktober 1 jaar 6 maanden) als voorbereiding op universiteit of werk in Japan. Bewijs van financiële middelen: bank reference boven IDR 200 miljoen.",
+    "ru": "Сначала изучайте японский в офисе OBKG в Индонезии, затем продолжите обучение в языковой школе OBKG в Осаке (набор в апреле — 2 года, в июле — 1 год 9 месяцев, в октябре — 1 год 6 месяцев) для подготовки к поступлению в университет или работе в Японии. Подтверждение средств: bank reference более IDR 200 млн."
    }
   }
  ]

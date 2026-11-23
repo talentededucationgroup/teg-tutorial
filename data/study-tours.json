@@ -1,7 +1,7 @@
 {
- "version": "2026-11-24",
+ "version": "2026-11-24b",
  "updated_at": "2026-11-24T17:33:00+00:00",
- "count": 23,
+ "count": 24,
  "source_note": "Hanya dari halaman resmi sekolah/kampus; dicek 24/11/2026.",
  "items": [
   {
@@ -3837,6 +3837,150 @@
     "it": "Programma accademico di 14 giorni per studenti di 14-18 anni che si preparano all'università, presso University College London: cinque aree di studio, visite a università e aziende, supporto per la candidatura UCAS. Date e prezzo non indicati.",
     "nl": "Academisch programma van 14 dagen voor leerlingen van 14-18 jaar die zich voorbereiden op de universiteit, aan University College London: vijf vakgebieden, bezoeken aan universiteiten en bedrijven, hulp bij de UCAS-aanmelding. Data en prijs niet vermeld.",
     "ru": "14-дневная академическая программа для школьников 14-18 лет, готовящихся к поступлению в университет, в University College London: пять направлений, посещение университетов и компаний, помощь с заявкой UCAS. Даты и цена не указаны."
+   }
+  },
+  {
+   "id": "obkg-japan-study-tour",
+   "provider": "Osaka Bunka Kokusai Gakko (OBKG)",
+   "country": "JP",
+   "city": "Osaka",
+   "type": "study_tour",
+   "name": "Japan Study Tour & Summer Camp (school groups)",
+   "ages": {
+    "id": "SMA (visa visitor perorangan)",
+    "en": "Senior high school students (individual visitor visa)",
+    "th": "นักเรียนมัธยมปลาย (วีซ่านักท่องเที่ยวรายบุคคล)",
+    "vi": "Học sinh THPT (visa du lịch cá nhân)",
+    "zh": "高中生（个人短期访问签证）",
+    "ja": "高校生（個人の短期滞在ビザ）",
+    "ko": "고등학생 (개인 방문 비자)",
+    "km": "សិស្សវិទ្យាល័យ (ទិដ្ឋាការទេសចរណ៍បុគ្គល)",
+    "fr": "Lycéens (visa visiteur individuel)",
+    "pt": "Estudantes do ensino médio (visto de visitante individual)",
+    "es": "Estudiantes de secundaria superior (visado de visitante individual)",
+    "de": "Oberstufenschüler (individuelles Besuchervisum)",
+    "it": "Studenti delle scuole superiori (visto turistico individuale)",
+    "nl": "Leerlingen bovenbouw middelbare school (individueel bezoekersvisum)",
+    "ru": "Старшеклассники (индивидуальная гостевая виза)"
+   },
+   "duration": {
+    "id": "6, 7, 10 atau 15 hari",
+    "en": "6, 7, 10 or 15 days",
+    "th": "6, 7, 10 หรือ 15 วัน",
+    "vi": "6, 7, 10 hoặc 15 ngày",
+    "zh": "6、7、10或15天",
+    "ja": "6日、7日、10日または15日",
+    "ko": "6일, 7일, 10일 또는 15일",
+    "km": "6, 7, 10 ឬ 15 ថ្ងៃ",
+    "fr": "6, 7, 10 ou 15 jours",
+    "pt": "6, 7, 10 ou 15 dias",
+    "es": "6, 7, 10 o 15 días",
+    "de": "6, 7, 10 oder 15 Tage",
+    "it": "6, 7, 10 o 15 giorni",
+    "nl": "6, 7, 10 of 15 dagen",
+    "ru": "6, 7, 10 или 15 дней"
+   },
+   "season": {
+    "id": "Sesuai permintaan; summer camp saat libur kenaikan kelas",
+    "en": "On request; summer camp during the end-of-school-year holiday",
+    "th": "ตามคำขอ; ค่ายฤดูร้อนช่วงปิดภาคเรียนปลายปีการศึกษา",
+    "vi": "Theo yêu cầu; trại hè vào kỳ nghỉ cuối năm học",
+    "zh": "按需安排；夏令营在学年末假期举行",
+    "ja": "ご要望に応じて；サマーキャンプは学年末の休暇中",
+    "ko": "요청 시; 여름 캠프는 학년말 방학 기간",
+    "km": "តាមសំណើ; ជំរំរដូវក្តៅក្នុងអំឡុងវិស្សមកាលចុងឆ្នាំសិក្សា",
+    "fr": "Sur demande ; camp d'été pendant les vacances de fin d'année scolaire",
+    "pt": "Sob consulta; acampamento de verão nas férias de fim de ano letivo",
+    "es": "Bajo petición; campamento de verano durante las vacaciones de fin de curso",
+    "de": "Auf Anfrage; Sommercamp in den Ferien zum Schuljahresende",
+    "it": "Su richiesta; campo estivo durante le vacanze di fine anno scolastico",
+    "nl": "Op aanvraag; zomerkamp tijdens de vakantie aan het einde van het schooljaar",
+    "ru": "По запросу; летний лагерь во время каникул в конце учебного года"
+   },
+   "price_from": null,
+   "currency": "IDR",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kunjungan sekolah Jepang",
+     "1 guru pendamping (sudah termasuk)"
+    ],
+    "en": [
+     "Japanese school visits",
+     "1 accompanying teacher (included)"
+    ],
+    "th": [
+     "เยี่ยมชมโรงเรียนญี่ปุ่น",
+     "ครูผู้ดูแล 1 คน (รวมแล้ว)"
+    ],
+    "vi": [
+     "Tham quan trường học Nhật Bản",
+     "1 giáo viên đi kèm (đã bao gồm)"
+    ],
+    "zh": [
+     "参访日本学校",
+     "1名随行教师（已包含）"
+    ],
+    "ja": [
+     "日本の学校訪問",
+     "引率教員1名（含む）"
+    ],
+    "ko": [
+     "일본 학교 방문",
+     "인솔 교사 1명 (포함)"
+    ],
+    "km": [
+     "ទស្សនកិច្ចសាលាជប៉ុន",
+     "គ្រូអមដំណើរ 1 នាក់ (រួមបញ្ចូលរួច)"
+    ],
+    "fr": [
+     "Visites d'écoles japonaises",
+     "1 enseignant accompagnateur (inclus)"
+    ],
+    "pt": [
+     "Visitas a escolas japonesas",
+     "1 professor acompanhante (incluído)"
+    ],
+    "es": [
+     "Visitas a escuelas japonesas",
+     "1 profesor acompañante (incluido)"
+    ],
+    "de": [
+     "Besuche japanischer Schulen",
+     "1 begleitende Lehrkraft (inklusive)"
+    ],
+    "it": [
+     "Visite a scuole giapponesi",
+     "1 insegnante accompagnatore (incluso)"
+    ],
+    "nl": [
+     "Bezoeken aan Japanse scholen",
+     "1 begeleidende docent (inbegrepen)"
+    ],
+    "ru": [
+     "Посещение японских школ",
+     "1 сопровождающий учитель (включено)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.japanese.ac.jp/id/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour rombongan sekolah ke Jepang bersama OBKG, 6-15 hari, dengan 1 guru pendamping sudah termasuk (disubsidi sekolah Jepang). Harga tergantung durasi & program - tanyakan penawaran lewat konsultan Talented.",
+    "en": "School group study tour to Japan with OBKG, 6-15 days, with 1 accompanying teacher included (subsidised by the Japanese school). Price depends on length and programme - ask a Talented consultant for an offer.",
+    "th": "ทัวร์ศึกษาดูงานแบบกลุ่มโรงเรียนไปญี่ปุ่นกับ OBKG 6-15 วัน รวมครูผู้ดูแล 1 คน (สนับสนุนโดยโรงเรียนญี่ปุ่น) ราคาขึ้นอยู่กับระยะเวลาและโปรแกรม - สอบถามข้อเสนอผ่านที่ปรึกษา Talented",
+    "vi": "Chuyến tham quan học tập theo đoàn trường đến Nhật Bản cùng OBKG, 6-15 ngày, đã bao gồm 1 giáo viên đi kèm (được trường Nhật Bản hỗ trợ). Giá tùy theo thời gian và chương trình - hãy hỏi tư vấn viên Talented để nhận báo giá.",
+    "zh": "与 OBKG 合作的学校团体日本游学，6-15天，含1名随行教师（由日本学校补贴）。价格视时长和项目而定，请咨询 Talented 顾问获取报价。",
+    "ja": "OBKG と行く学校団体向け日本スタディツアー（6～15日間）、引率教員1名を含みます（日本の学校による補助）。料金は期間とプログラムにより異なります - Talented のコンサルタントにお見積もりをご相談ください。",
+    "ko": "OBKG와 함께하는 학교 단체 일본 스터디 투어, 6~15일, 인솔 교사 1명 포함(일본 학교 지원). 가격은 기간과 프로그램에 따라 다르며, Talented 상담사에게 견적을 문의하세요.",
+    "km": "ដំណើរទស្សនកិច្ចសិក្សាជាក្រុមសាលាទៅជប៉ុនជាមួយ OBKG រយៈពេល 6-15 ថ្ងៃ រួមបញ្ចូលគ្រូអមដំណើរ 1 នាក់ (ឧបត្ថម្ភដោយសាលាជប៉ុន)។ តម្លៃអាស្រ័យលើរយៈពេល និងកម្មវិធី - សូមសួរទីប្រឹក្សា Talented ដើម្បីទទួលការផ្តល់ជូន។",
+    "fr": "Voyage d'études au Japon pour groupes scolaires avec OBKG, 6 à 15 jours, 1 enseignant accompagnateur inclus (subventionné par l'école japonaise). Le prix dépend de la durée et du programme - demande une offre à un conseiller Talented.",
+    "pt": "Viagem de estudos ao Japão para grupos escolares com a OBKG, 6 a 15 dias, com 1 professor acompanhante incluído (subsidiado pela escola japonesa). O preço depende da duração e do programa - peça uma proposta a um consultor Talented.",
+    "es": "Viaje de estudios a Japón para grupos escolares con OBKG, de 6 a 15 días, con 1 profesor acompañante incluido (subvencionado por la escuela japonesa). El precio depende de la duración y del programa - pide una oferta a un asesor de Talented.",
+    "de": "Studienreise nach Japan für Schulgruppen mit OBKG, 6-15 Tage, inklusive 1 begleitender Lehrkraft (von der japanischen Schule bezuschusst). Der Preis hängt von Dauer und Programm ab - frag einen Talented-Berater nach einem Angebot.",
+    "it": "Viaggio studio in Giappone per gruppi scolastici con OBKG, 6-15 giorni, con 1 insegnante accompagnatore incluso (sovvenzionato dalla scuola giapponese). Il prezzo dipende dalla durata e dal programma - chiedi un'offerta a un consulente Talented.",
+    "nl": "Studiereis naar Japan voor schoolgroepen met OBKG, 6-15 dagen, inclusief 1 begeleidende docent (gesubsidieerd door de Japanse school). De prijs hangt af van duur en programma - vraag een Talented-consulent om een offerte.",
+    "ru": "Учебный тур в Японию для школьных групп с OBKG, 6-15 дней, 1 сопровождающий учитель включён (субсидируется японской школой). Цена зависит от продолжительности и программы - запросите предложение у консультанта Talented."
    }
   }
  ]

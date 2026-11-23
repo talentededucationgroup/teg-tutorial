@@ -1,0 +1,3067 @@
+{
+ "version": "2026-11-24",
+ "updated_at": "2026-11-24T17:33:00+00:00",
+ "count": 38,
+ "source_note": "Hanya dari halaman resmi sekolah/kampus; dicek 24/11/2026.",
+ "items": [
+  {
+   "id": "sunway-uts-business-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "Business programmes (e.g. BSc (Hons) Accounting and Finance, International Business, Marketing) to UTS Bachelor of Business",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "University of Technology Sydney"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "University of Technology Sydney (UTS)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Tahun 1 program bisnis di Sunway University (Malaysia), lalu 2 tahun Bachelor of Business di UTS Sydney (skema 1+2 resmi Sunway).",
+    "en": "Year 1 of a business programme at Sunway University (Malaysia), then 2 years of the Bachelor of Business at UTS Sydney (official Sunway 1+2 arrangement).",
+    "th": "ปีที่ 1 เรียนหลักสูตรธุรกิจที่ Sunway University (มาเลเซีย) จากนั้นเรียน Bachelor of Business อีก 2 ปีที่ UTS ซิดนีย์ (โครงการ 1+2 อย่างเป็นทางการของ Sunway)",
+    "vi": "Năm 1 học chương trình kinh doanh tại Sunway University (Malaysia), sau đó 2 năm Bachelor of Business tại UTS Sydney (chương trình 1+2 chính thức của Sunway).",
+    "zh": "在 Sunway University（马来西亚）修读第 1 年商科课程，之后在 UTS 悉尼修读 2 年 Bachelor of Business（Sunway 官方 1+2 安排）。",
+    "ja": "Sunway University（マレーシア）でビジネス課程の 1 年目を学び、その後 UTS シドニーで Bachelor of Business を 2 年間（Sunway 公式の 1+2 制度）。",
+    "ko": "Sunway University(말레이시아)에서 비즈니스 과정 1학년을 마친 후 UTS 시드니에서 Bachelor of Business 2년 (Sunway 공식 1+2 제도).",
+    "km": "ឆ្នាំទី 1 សិក្សាកម្មវិធីពាណិជ្ជកម្មនៅ Sunway University (ម៉ាឡេស៊ី) បន្ទាប់មក 2 ឆ្នាំ Bachelor of Business នៅ UTS ស៊ីដនី (កម្មវិធី 1+2 ផ្លូវការរបស់ Sunway)។",
+    "fr": "1re année d'un programme de commerce à Sunway University (Malaisie), puis 2 ans du Bachelor of Business à UTS Sydney (accord 1+2 officiel de Sunway).",
+    "pt": "1º ano de um programa de negócios na Sunway University (Malásia) e depois 2 anos do Bachelor of Business na UTS Sydney (acordo 1+2 oficial da Sunway).",
+    "es": "1.er año de un programa de negocios en Sunway University (Malasia) y luego 2 años del Bachelor of Business en UTS Sídney (acuerdo 1+2 oficial de Sunway).",
+    "de": "1. Jahr eines Business-Programms an der Sunway University (Malaysia), danach 2 Jahre Bachelor of Business an der UTS Sydney (offizielle 1+2-Vereinbarung von Sunway).",
+    "it": "1° anno di un programma di business alla Sunway University (Malesia), poi 2 anni del Bachelor of Business alla UTS di Sydney (accordo 1+2 ufficiale di Sunway).",
+    "nl": "Jaar 1 van een businessprogramma aan Sunway University (Maleisië), daarna 2 jaar Bachelor of Business aan UTS Sydney (officiële 1+2-regeling van Sunway).",
+    "ru": "1-й год бизнес-программы в Sunway University (Малайзия), затем 2 года Bachelor of Business в UTS (Сидней) (официальная схема 1+2 Sunway)."
+   }
+  },
+  {
+   "id": "sunway-uts-maths-2-1",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "BSc (Hons) in Statistical Data Modelling to UTS Bachelor of Mathematical Sciences / Bachelor of Science (Mathematics)",
+   "level": "Bachelor",
+   "field": "Science",
+   "route": "2+1",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 2,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 1,
+     "institution": "University of Technology Sydney"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "University of Technology Sydney (UTS)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "2 tahun BSc (Hons) Statistical Data Modelling di Sunway, lalu 1 tahun di UTS (Bachelor of Mathematical Sciences atau Bachelor of Science major Mathematics).",
+    "en": "2 years of the BSc (Hons) Statistical Data Modelling at Sunway, then 1 year at UTS (Bachelor of Mathematical Sciences or Bachelor of Science, Mathematics major).",
+    "th": "เรียน BSc (Hons) Statistical Data Modelling ที่ Sunway 2 ปี จากนั้นเรียนที่ UTS อีก 1 ปี (Bachelor of Mathematical Sciences หรือ Bachelor of Science สาขาหลัก Mathematics)",
+    "vi": "2 năm BSc (Hons) Statistical Data Modelling tại Sunway, sau đó 1 năm tại UTS (Bachelor of Mathematical Sciences hoặc Bachelor of Science, chuyên ngành Mathematics).",
+    "zh": "在 Sunway 修读 2 年 BSc (Hons) Statistical Data Modelling，之后在 UTS 修读 1 年（Bachelor of Mathematical Sciences 或 Bachelor of Science 的 Mathematics 主修）。",
+    "ja": "Sunway で BSc (Hons) Statistical Data Modelling を 2 年間、その後 UTS で 1 年間（Bachelor of Mathematical Sciences または Bachelor of Science の Mathematics 専攻）。",
+    "ko": "Sunway에서 BSc (Hons) Statistical Data Modelling 2년, 이후 UTS에서 1년 (Bachelor of Mathematical Sciences 또는 Bachelor of Science Mathematics 전공).",
+    "km": "2 ឆ្នាំ BSc (Hons) Statistical Data Modelling នៅ Sunway បន្ទាប់មក 1 ឆ្នាំនៅ UTS (Bachelor of Mathematical Sciences ឬ Bachelor of Science ជំនាញ Mathematics)។",
+    "fr": "2 ans du BSc (Hons) Statistical Data Modelling à Sunway, puis 1 an à UTS (Bachelor of Mathematical Sciences ou Bachelor of Science, majeure Mathematics).",
+    "pt": "2 anos do BSc (Hons) Statistical Data Modelling na Sunway e depois 1 ano na UTS (Bachelor of Mathematical Sciences ou Bachelor of Science, ênfase em Mathematics).",
+    "es": "2 años del BSc (Hons) Statistical Data Modelling en Sunway y luego 1 año en UTS (Bachelor of Mathematical Sciences o Bachelor of Science, especialidad Mathematics).",
+    "de": "2 Jahre BSc (Hons) Statistical Data Modelling an der Sunway, danach 1 Jahr an der UTS (Bachelor of Mathematical Sciences oder Bachelor of Science, Hauptfach Mathematics).",
+    "it": "2 anni del BSc (Hons) Statistical Data Modelling a Sunway, poi 1 anno alla UTS (Bachelor of Mathematical Sciences o Bachelor of Science, indirizzo Mathematics).",
+    "nl": "2 jaar BSc (Hons) Statistical Data Modelling aan Sunway, daarna 1 jaar aan UTS (Bachelor of Mathematical Sciences of Bachelor of Science, major Mathematics).",
+    "ru": "2 года BSc (Hons) Statistical Data Modelling в Sunway, затем 1 год в UTS (Bachelor of Mathematical Sciences или Bachelor of Science, профиль Mathematics)."
+   }
+  },
+  {
+   "id": "sunway-uwa-computing-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "Computing programmes (BSc (Hons) Computer Science, IT, Software Engineering, Data Analytics) to UWA Bachelor of Science (Computer Science / Data Science)",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "The University of Western Australia"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "The University of Western Australia (UWA)"
+   ],
+   "award": null,
+   "start_fee": 9779,
+   "currency": "USD",
+   "fee_basis": {
+    "id": "Per tahun (estimasi 2026, BSc (Hons) Computer Science, siswa internasional; dibayar dalam RM)",
+    "en": "Per year (2026 estimate, BSc (Hons) Computer Science, international students; paid in RM)",
+    "th": "ต่อปี (ประมาณการปี 2026, BSc (Hons) Computer Science, นักศึกษาต่างชาติ; ชำระเป็น RM)",
+    "vi": "Mỗi năm (ước tính 2026, BSc (Hons) Computer Science, sinh viên quốc tế; thanh toán bằng RM)",
+    "zh": "每年（2026 年估算，BSc (Hons) Computer Science，国际学生；以 RM 支付）",
+    "ja": "年額（2026 年の概算、BSc (Hons) Computer Science、留学生；RM で支払い）",
+    "ko": "연간 (2026년 추정, BSc (Hons) Computer Science, 유학생; RM으로 납부)",
+    "km": "ក្នុងមួយឆ្នាំ (ការប៉ាន់ស្មានឆ្នាំ 2026, BSc (Hons) Computer Science, និស្សិតអន្តរជាតិ; បង់ជា RM)",
+    "fr": "Par an (estimation 2026, BSc (Hons) Computer Science, étudiants internationaux ; payé en RM)",
+    "pt": "Por ano (estimativa 2026, BSc (Hons) Computer Science, estudantes internacionais; pago em RM)",
+    "es": "Por año (estimación 2026, BSc (Hons) Computer Science, estudiantes internacionales; se paga en RM)",
+    "de": "Pro Jahr (Schätzung 2026, BSc (Hons) Computer Science, internationale Studierende; Zahlung in RM)",
+    "it": "All'anno (stima 2026, BSc (Hons) Computer Science, studenti internazionali; pagamento in RM)",
+    "nl": "Per jaar (schatting 2026, BSc (Hons) Computer Science, internationale studenten; betaling in RM)",
+    "ru": "В год (оценка на 2026 г., BSc (Hons) Computer Science, иностранные студенты; оплата в RM)"
+   },
+   "intakes": {
+    "id": "Feb, Mei, Sep",
+    "en": "Feb, May, Sep",
+    "th": "ก.พ., พ.ค., ก.ย.",
+    "vi": "tháng 2, tháng 5, tháng 9",
+    "zh": "2月、5月、9月",
+    "ja": "2月、5月、9月",
+    "ko": "2월, 5월, 9월",
+    "km": "កុម្ភៈ, ឧសភា, កញ្ញា",
+    "fr": "févr., mai, sept.",
+    "pt": "fev, mai, set",
+    "es": "feb, may, sep",
+    "de": "Feb., Mai, Sep.",
+    "it": "feb, mag, set",
+    "nl": "feb, mei, sep",
+    "ru": "февр., май, сент."
+   },
+   "english": {
+    "id": "IELTS 6.0 (BSc (Hons) Computer Science di Sunway)",
+    "en": "IELTS 6.0 (BSc (Hons) Computer Science at Sunway)",
+    "th": "IELTS 6.0 (BSc (Hons) Computer Science ที่ Sunway)",
+    "vi": "IELTS 6.0 (BSc (Hons) Computer Science tại Sunway)",
+    "zh": "IELTS 6.0（Sunway 的 BSc (Hons) Computer Science）",
+    "ja": "IELTS 6.0（Sunway の BSc (Hons) Computer Science）",
+    "ko": "IELTS 6.0 (Sunway BSc (Hons) Computer Science)",
+    "km": "IELTS 6.0 (BSc (Hons) Computer Science នៅ Sunway)",
+    "fr": "IELTS 6.0 (BSc (Hons) Computer Science à Sunway)",
+    "pt": "IELTS 6.0 (BSc (Hons) Computer Science na Sunway)",
+    "es": "IELTS 6.0 (BSc (Hons) Computer Science en Sunway)",
+    "de": "IELTS 6.0 (BSc (Hons) Computer Science an der Sunway)",
+    "it": "IELTS 6.0 (BSc (Hons) Computer Science presso Sunway)",
+    "nl": "IELTS 6.0 (BSc (Hons) Computer Science bij Sunway)",
+    "ru": "IELTS 6.0 (BSc (Hons) Computer Science в Sunway)"
+   },
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program komputer di Sunway, lalu 2 tahun Bachelor of Science (Computer Science/Data Science) di UWA Perth. Biaya Sunway BSc Computer Science estimasi USD 9.779/tahun (2026).",
+    "en": "1 year of a computing programme at Sunway, then 2 years of the Bachelor of Science (Computer Science/Data Science) at UWA Perth. Sunway BSc Computer Science fee estimate USD 9,779/year (2026).",
+    "th": "เรียนหลักสูตรคอมพิวเตอร์ที่ Sunway 1 ปี จากนั้นเรียน Bachelor of Science (Computer Science/Data Science) ที่ UWA เพิร์ธอีก 2 ปี ค่าเรียน BSc Computer Science ที่ Sunway ประมาณ USD 9,779/ปี (2026)",
+    "vi": "1 năm chương trình máy tính tại Sunway, sau đó 2 năm Bachelor of Science (Computer Science/Data Science) tại UWA Perth. Học phí ước tính BSc Computer Science tại Sunway USD 9.779/năm (2026).",
+    "zh": "在 Sunway 修读 1 年计算机课程，之后在 UWA 珀斯修读 2 年 Bachelor of Science（Computer Science/Data Science）。Sunway BSc Computer Science 学费估算 USD 9,779/年（2026）。",
+    "ja": "Sunway でコンピューティング課程を 1 年間、その後 UWA パースで Bachelor of Science（Computer Science/Data Science）を 2 年間。Sunway の BSc Computer Science の学費概算は USD 9,779/年（2026）。",
+    "ko": "Sunway에서 컴퓨팅 과정 1년, 이후 UWA 퍼스에서 Bachelor of Science (Computer Science/Data Science) 2년. Sunway BSc Computer Science 학비 추정 USD 9,779/년 (2026).",
+    "km": "1 ឆ្នាំកម្មវិធីកុំព្យូទ័រនៅ Sunway បន្ទាប់មក 2 ឆ្នាំ Bachelor of Science (Computer Science/Data Science) នៅ UWA ភើត។ ថ្លៃសិក្សា BSc Computer Science នៅ Sunway ប៉ាន់ស្មាន USD 9,779/ឆ្នាំ (2026)។",
+    "fr": "1 an d'un programme d'informatique à Sunway, puis 2 ans du Bachelor of Science (Computer Science/Data Science) à UWA Perth. Frais estimés du BSc Computer Science à Sunway : USD 9 779/an (2026).",
+    "pt": "1 ano de um programa de computação na Sunway e depois 2 anos do Bachelor of Science (Computer Science/Data Science) na UWA Perth. Estimativa da taxa do BSc Computer Science na Sunway: USD 9.779/ano (2026).",
+    "es": "1 año de un programa de informática en Sunway y luego 2 años del Bachelor of Science (Computer Science/Data Science) en UWA Perth. Estimación de la tasa del BSc Computer Science en Sunway: USD 9.779/año (2026).",
+    "de": "1 Jahr eines Informatik-Programms an der Sunway, danach 2 Jahre Bachelor of Science (Computer Science/Data Science) an der UWA Perth. Geschätzte Gebühr BSc Computer Science an der Sunway: USD 9.779/Jahr (2026).",
+    "it": "1 anno di un programma di informatica a Sunway, poi 2 anni del Bachelor of Science (Computer Science/Data Science) alla UWA di Perth. Retta stimata del BSc Computer Science a Sunway: USD 9.779/anno (2026).",
+    "nl": "1 jaar van een informaticaprogramma aan Sunway, daarna 2 jaar Bachelor of Science (Computer Science/Data Science) aan UWA Perth. Geschat collegegeld BSc Computer Science aan Sunway: USD 9.779/jaar (2026).",
+    "ru": "1 год компьютерной программы в Sunway, затем 2 года Bachelor of Science (Computer Science/Data Science) в UWA (Перт). Ориентировочная стоимость BSc Computer Science в Sunway: USD 9 779 в год (2026)."
+   }
+  },
+  {
+   "id": "sunway-uwa-business-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "Business programmes to UWA Bachelor of Commerce / Business / Economics",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "The University of Western Australia"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "The University of Western Australia (UWA)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program bisnis di Sunway, lalu 2 tahun Bachelor of Commerce, Business atau Economics di UWA Perth.",
+    "en": "1 year of a business programme at Sunway, then 2 years of the Bachelor of Commerce, Business or Economics at UWA Perth.",
+    "th": "เรียนหลักสูตรธุรกิจที่ Sunway 1 ปี จากนั้นเรียน Bachelor of Commerce, Business หรือ Economics ที่ UWA เพิร์ธอีก 2 ปี",
+    "vi": "1 năm chương trình kinh doanh tại Sunway, sau đó 2 năm Bachelor of Commerce, Business hoặc Economics tại UWA Perth.",
+    "zh": "在 Sunway 修读 1 年商科课程，之后在 UWA 珀斯修读 2 年 Bachelor of Commerce、Business 或 Economics。",
+    "ja": "Sunway でビジネス課程を 1 年間、その後 UWA パースで Bachelor of Commerce、Business または Economics を 2 年間。",
+    "ko": "Sunway에서 비즈니스 과정 1년, 이후 UWA 퍼스에서 Bachelor of Commerce, Business 또는 Economics 2년.",
+    "km": "1 ឆ្នាំកម្មវិធីពាណិជ្ជកម្មនៅ Sunway បន្ទាប់មក 2 ឆ្នាំ Bachelor of Commerce, Business ឬ Economics នៅ UWA ភើត។",
+    "fr": "1 an d'un programme de commerce à Sunway, puis 2 ans du Bachelor of Commerce, Business ou Economics à UWA Perth.",
+    "pt": "1 ano de um programa de negócios na Sunway e depois 2 anos do Bachelor of Commerce, Business ou Economics na UWA Perth.",
+    "es": "1 año de un programa de negocios en Sunway y luego 2 años del Bachelor of Commerce, Business o Economics en UWA Perth.",
+    "de": "1 Jahr eines Business-Programms an der Sunway, danach 2 Jahre Bachelor of Commerce, Business oder Economics an der UWA Perth.",
+    "it": "1 anno di un programma di business a Sunway, poi 2 anni del Bachelor of Commerce, Business o Economics alla UWA di Perth.",
+    "nl": "1 jaar van een businessprogramma aan Sunway, daarna 2 jaar Bachelor of Commerce, Business of Economics aan UWA Perth.",
+    "ru": "1 год бизнес-программы в Sunway, затем 2 года Bachelor of Commerce, Business или Economics в UWA (Перт)."
+   }
+  },
+  {
+   "id": "sunway-uwa-psychology-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "BSc (Hons) Psychology to UWA BSc / BA (Psychological & Behavioural Sciences) / Bachelor of Psychology",
+   "level": "Bachelor",
+   "field": "Psychology",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "The University of Western Australia"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "The University of Western Australia (UWA)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun BSc (Hons) Psychology di Sunway, lalu 2 tahun program psikologi di UWA Perth.",
+    "en": "1 year of the BSc (Hons) Psychology at Sunway, then 2 years of a psychology degree at UWA Perth.",
+    "th": "เรียน BSc (Hons) Psychology ที่ Sunway 1 ปี จากนั้นเรียนหลักสูตรปริญญาจิตวิทยาที่ UWA เพิร์ธอีก 2 ปี",
+    "vi": "1 năm BSc (Hons) Psychology tại Sunway, sau đó 2 năm chương trình cử nhân tâm lý học tại UWA Perth.",
+    "zh": "在 Sunway 修读 1 年 BSc (Hons) Psychology，之后在 UWA 珀斯修读 2 年心理学学位课程。",
+    "ja": "Sunway で BSc (Hons) Psychology を 1 年間、その後 UWA パースで心理学の学位課程を 2 年間。",
+    "ko": "Sunway에서 BSc (Hons) Psychology 1년, 이후 UWA 퍼스에서 심리학 학위 과정 2년.",
+    "km": "1 ឆ្នាំ BSc (Hons) Psychology នៅ Sunway បន្ទាប់មក 2 ឆ្នាំកម្មវិធីបរិញ្ញាបត្រចិត្តវិទ្យានៅ UWA ភើត។",
+    "fr": "1 an du BSc (Hons) Psychology à Sunway, puis 2 ans d'un diplôme de psychologie à UWA Perth.",
+    "pt": "1 ano do BSc (Hons) Psychology na Sunway e depois 2 anos de um curso de psicologia na UWA Perth.",
+    "es": "1 año del BSc (Hons) Psychology en Sunway y luego 2 años de una titulación de psicología en UWA Perth.",
+    "de": "1 Jahr BSc (Hons) Psychology an der Sunway, danach 2 Jahre eines Psychologie-Studiengangs an der UWA Perth.",
+    "it": "1 anno del BSc (Hons) Psychology a Sunway, poi 2 anni di un corso di laurea in psicologia alla UWA di Perth.",
+    "nl": "1 jaar BSc (Hons) Psychology aan Sunway, daarna 2 jaar van een psychologieopleiding aan UWA Perth.",
+    "ru": "1 год BSc (Hons) Psychology в Sunway, затем 2 года программы по психологии в UWA (Перт)."
+   }
+  },
+  {
+   "id": "sunway-qut-communication-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "BA (Hons) Communication / Advertising & Branding to QUT Bachelor of Communication",
+   "level": "Bachelor",
+   "field": "Communication",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "Queensland University of Technology"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Queensland University of Technology (QUT)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun BA (Hons) Communication atau Advertising & Branding di Sunway, lalu 2 tahun Bachelor of Communication di QUT Brisbane.",
+    "en": "1 year of the BA (Hons) Communication or Advertising & Branding at Sunway, then 2 years of the Bachelor of Communication at QUT Brisbane.",
+    "th": "เรียน BA (Hons) Communication หรือ Advertising & Branding ที่ Sunway 1 ปี จากนั้นเรียน Bachelor of Communication ที่ QUT บริสเบนอีก 2 ปี",
+    "vi": "1 năm BA (Hons) Communication hoặc Advertising & Branding tại Sunway, sau đó 2 năm Bachelor of Communication tại QUT Brisbane.",
+    "zh": "在 Sunway 修读 1 年 BA (Hons) Communication 或 Advertising & Branding，之后在 QUT 布里斯班修读 2 年 Bachelor of Communication。",
+    "ja": "Sunway で BA (Hons) Communication または Advertising & Branding を 1 年間、その後 QUT ブリスベンで Bachelor of Communication を 2 年間。",
+    "ko": "Sunway에서 BA (Hons) Communication 또는 Advertising & Branding 1년, 이후 QUT 브리즈번에서 Bachelor of Communication 2년.",
+    "km": "1 ឆ្នាំ BA (Hons) Communication ឬ Advertising & Branding នៅ Sunway បន្ទាប់មក 2 ឆ្នាំ Bachelor of Communication នៅ QUT ប្រ៊ីសប៊ែន។",
+    "fr": "1 an du BA (Hons) Communication ou Advertising & Branding à Sunway, puis 2 ans du Bachelor of Communication à QUT Brisbane.",
+    "pt": "1 ano do BA (Hons) Communication ou Advertising & Branding na Sunway e depois 2 anos do Bachelor of Communication na QUT Brisbane.",
+    "es": "1 año del BA (Hons) Communication o Advertising & Branding en Sunway y luego 2 años del Bachelor of Communication en QUT Brisbane.",
+    "de": "1 Jahr BA (Hons) Communication oder Advertising & Branding an der Sunway, danach 2 Jahre Bachelor of Communication an der QUT Brisbane.",
+    "it": "1 anno del BA (Hons) Communication o Advertising & Branding a Sunway, poi 2 anni del Bachelor of Communication alla QUT di Brisbane.",
+    "nl": "1 jaar BA (Hons) Communication of Advertising & Branding aan Sunway, daarna 2 jaar Bachelor of Communication aan QUT Brisbane.",
+    "ru": "1 год BA (Hons) Communication или Advertising & Branding в Sunway, затем 2 года Bachelor of Communication в QUT (Брисбен)."
+   }
+  },
+  {
+   "id": "sunway-anu-computing-1-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "Computing programmes to ANU Bachelor of Computing",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "The Australian National University"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "The Australian National University (ANU)"
+   ],
+   "award": null,
+   "start_fee": 9779,
+   "currency": "USD",
+   "fee_basis": {
+    "id": "Per tahun (estimasi 2026, BSc (Hons) Computer Science, siswa internasional; dibayar dalam RM)",
+    "en": "Per year (2026 estimate, BSc (Hons) Computer Science, international students; paid in RM)",
+    "th": "ต่อปี (ประมาณการปี 2026, BSc (Hons) Computer Science, นักศึกษาต่างชาติ; ชำระเป็น RM)",
+    "vi": "Mỗi năm (ước tính 2026, BSc (Hons) Computer Science, sinh viên quốc tế; thanh toán bằng RM)",
+    "zh": "每年（2026 年估算，BSc (Hons) Computer Science，国际学生；以 RM 支付）",
+    "ja": "年額（2026 年の概算、BSc (Hons) Computer Science、留学生；RM で支払い）",
+    "ko": "연간 (2026년 추정, BSc (Hons) Computer Science, 유학생; RM으로 납부)",
+    "km": "ក្នុងមួយឆ្នាំ (ការប៉ាន់ស្មានឆ្នាំ 2026, BSc (Hons) Computer Science, និស្សិតអន្តរជាតិ; បង់ជា RM)",
+    "fr": "Par an (estimation 2026, BSc (Hons) Computer Science, étudiants internationaux ; payé en RM)",
+    "pt": "Por ano (estimativa 2026, BSc (Hons) Computer Science, estudantes internacionais; pago em RM)",
+    "es": "Por año (estimación 2026, BSc (Hons) Computer Science, estudiantes internacionales; se paga en RM)",
+    "de": "Pro Jahr (Schätzung 2026, BSc (Hons) Computer Science, internationale Studierende; Zahlung in RM)",
+    "it": "All'anno (stima 2026, BSc (Hons) Computer Science, studenti internazionali; pagamento in RM)",
+    "nl": "Per jaar (schatting 2026, BSc (Hons) Computer Science, internationale studenten; betaling in RM)",
+    "ru": "В год (оценка на 2026 г., BSc (Hons) Computer Science, иностранные студенты; оплата в RM)"
+   },
+   "intakes": {
+    "id": "Feb, Mei, Sep",
+    "en": "Feb, May, Sep",
+    "th": "ก.พ., พ.ค., ก.ย.",
+    "vi": "tháng 2, tháng 5, tháng 9",
+    "zh": "2月、5月、9月",
+    "ja": "2月、5月、9月",
+    "ko": "2월, 5월, 9월",
+    "km": "កុម្ភៈ, ឧសភា, កញ្ញា",
+    "fr": "févr., mai, sept.",
+    "pt": "fev, mai, set",
+    "es": "feb, may, sep",
+    "de": "Feb., Mai, Sep.",
+    "it": "feb, mag, set",
+    "nl": "feb, mei, sep",
+    "ru": "февр., май, сент."
+   },
+   "english": {
+    "id": "IELTS 6.0 (BSc (Hons) Computer Science di Sunway)",
+    "en": "IELTS 6.0 (BSc (Hons) Computer Science at Sunway)",
+    "th": "IELTS 6.0 (BSc (Hons) Computer Science ที่ Sunway)",
+    "vi": "IELTS 6.0 (BSc (Hons) Computer Science tại Sunway)",
+    "zh": "IELTS 6.0（Sunway 的 BSc (Hons) Computer Science）",
+    "ja": "IELTS 6.0（Sunway の BSc (Hons) Computer Science）",
+    "ko": "IELTS 6.0 (Sunway BSc (Hons) Computer Science)",
+    "km": "IELTS 6.0 (BSc (Hons) Computer Science នៅ Sunway)",
+    "fr": "IELTS 6.0 (BSc (Hons) Computer Science à Sunway)",
+    "pt": "IELTS 6.0 (BSc (Hons) Computer Science na Sunway)",
+    "es": "IELTS 6.0 (BSc (Hons) Computer Science en Sunway)",
+    "de": "IELTS 6.0 (BSc (Hons) Computer Science an der Sunway)",
+    "it": "IELTS 6.0 (BSc (Hons) Computer Science presso Sunway)",
+    "nl": "IELTS 6.0 (BSc (Hons) Computer Science bij Sunway)",
+    "ru": "IELTS 6.0 (BSc (Hons) Computer Science в Sunway)"
+   },
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program komputer di Sunway, lalu 2 tahun Bachelor of Computing di ANU Canberra.",
+    "en": "1 year of a computing programme at Sunway, then 2 years of the Bachelor of Computing at ANU Canberra.",
+    "th": "เรียนหลักสูตรคอมพิวเตอร์ที่ Sunway 1 ปี จากนั้นเรียน Bachelor of Computing ที่ ANU แคนเบอร์ราอีก 2 ปี",
+    "vi": "1 năm chương trình máy tính tại Sunway, sau đó 2 năm Bachelor of Computing tại ANU Canberra.",
+    "zh": "在 Sunway 修读 1 年计算机课程，之后在 ANU 堪培拉修读 2 年 Bachelor of Computing。",
+    "ja": "Sunway でコンピューティング課程を 1 年間、その後 ANU キャンベラで Bachelor of Computing を 2 年間。",
+    "ko": "Sunway에서 컴퓨팅 과정 1년, 이후 ANU 캔버라에서 Bachelor of Computing 2년.",
+    "km": "1 ឆ្នាំកម្មវិធីកុំព្យូទ័រនៅ Sunway បន្ទាប់មក 2 ឆ្នាំ Bachelor of Computing នៅ ANU កង់បេរ៉ា។",
+    "fr": "1 an d'un programme d'informatique à Sunway, puis 2 ans du Bachelor of Computing à l'ANU Canberra.",
+    "pt": "1 ano de um programa de computação na Sunway e depois 2 anos do Bachelor of Computing na ANU Canberra.",
+    "es": "1 año de un programa de informática en Sunway y luego 2 años del Bachelor of Computing en ANU Canberra.",
+    "de": "1 Jahr eines Informatik-Programms an der Sunway, danach 2 Jahre Bachelor of Computing an der ANU Canberra.",
+    "it": "1 anno di un programma di informatica a Sunway, poi 2 anni del Bachelor of Computing alla ANU di Canberra.",
+    "nl": "1 jaar van een informaticaprogramma aan Sunway, daarna 2 jaar Bachelor of Computing aan ANU Canberra.",
+    "ru": "1 год компьютерной программы в Sunway, затем 2 года Bachelor of Computing в ANU (Канберра)."
+   }
+  },
+  {
+   "id": "sunway-anu-engineering-2-2",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "Engineering (Chemical, Electronic & Electrical, Mechanical) or Software programmes to ANU Bachelor of Engineering (Hons)",
+   "level": "Bachelor",
+   "field": "Engineering",
+   "route": "2+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 2,
+     "institution": "Sunway University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "The Australian National University"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "The Australian National University (ANU)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://sunwayuniversity.edu.my/about/partnerships-and-collaborations/academic/articulation-arrangements",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "2 tahun program engineering/software di Sunway, lalu 2 tahun Bachelor of Engineering (Hons) di ANU Canberra.",
+    "en": "2 years of an engineering/software programme at Sunway, then 2 years of the Bachelor of Engineering (Hons) at ANU Canberra.",
+    "th": "เรียนหลักสูตรวิศวกรรม/ซอฟต์แวร์ที่ Sunway 2 ปี จากนั้นเรียน Bachelor of Engineering (Hons) ที่ ANU แคนเบอร์ราอีก 2 ปี",
+    "vi": "2 năm chương trình kỹ thuật/phần mềm tại Sunway, sau đó 2 năm Bachelor of Engineering (Hons) tại ANU Canberra.",
+    "zh": "在 Sunway 修读 2 年工程/软件课程，之后在 ANU 堪培拉修读 2 年 Bachelor of Engineering (Hons)。",
+    "ja": "Sunway で工学/ソフトウェア課程を 2 年間、その後 ANU キャンベラで Bachelor of Engineering (Hons) を 2 年間。",
+    "ko": "Sunway에서 공학/소프트웨어 과정 2년, 이후 ANU 캔버라에서 Bachelor of Engineering (Hons) 2년.",
+    "km": "2 ឆ្នាំកម្មវិធីវិស្វកម្ម/សូហ្វវែរនៅ Sunway បន្ទាប់មក 2 ឆ្នាំ Bachelor of Engineering (Hons) នៅ ANU កង់បេរ៉ា។",
+    "fr": "2 ans d'un programme d'ingénierie/logiciel à Sunway, puis 2 ans du Bachelor of Engineering (Hons) à l'ANU Canberra.",
+    "pt": "2 anos de um programa de engenharia/software na Sunway e depois 2 anos do Bachelor of Engineering (Hons) na ANU Canberra.",
+    "es": "2 años de un programa de ingeniería/software en Sunway y luego 2 años del Bachelor of Engineering (Hons) en ANU Canberra.",
+    "de": "2 Jahre eines Ingenieur-/Software-Programms an der Sunway, danach 2 Jahre Bachelor of Engineering (Hons) an der ANU Canberra.",
+    "it": "2 anni di un programma di ingegneria/software a Sunway, poi 2 anni del Bachelor of Engineering (Hons) alla ANU di Canberra.",
+    "nl": "2 jaar van een engineering-/softwareprogramma aan Sunway, daarna 2 jaar Bachelor of Engineering (Hons) aan ANU Canberra.",
+    "ru": "2 года инженерной/программной программы в Sunway, затем 2 года Bachelor of Engineering (Hons) в ANU (Канберра)."
+   }
+  },
+  {
+   "id": "sunway-adtp-us",
+   "provider": "Sunway University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur (Bandar Sunway)",
+   "program": "American Degree Transfer Program (ADTP)",
+   "level": "Bachelor",
+   "field": "Liberal Arts / General",
+   "route": "1-2 + 2-3",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Sunway University (12-24 bulan)"
+    },
+    {
+     "country": "US",
+     "years": null,
+     "institution": "Universitas tujuan (24-36 bulan)"
+    }
+   ],
+   "destinations": [
+    "US",
+    "CA",
+    "AU",
+    "NZ"
+   ],
+   "partners": [
+    "Iowa State University (US) - mencantumkan Sunway sebagai institusi ADTP"
+   ],
+   "award": {
+    "id": "Ijazah dari universitas tujuan",
+    "en": "Degree from the destination university",
+    "th": "ปริญญาจากมหาวิทยาลัยปลายทาง",
+    "vi": "Bằng của trường đại học chuyển tiếp đến",
+    "zh": "目标大学颁发的学位",
+    "ja": "編入先大学の学位",
+    "ko": "편입 대학 학위",
+    "km": "សញ្ញាបត្រពីសាកលវិទ្យាល័យគោលដៅ",
+    "fr": "Diplôme de l'université d'accueil",
+    "pt": "Diploma da universidade de destino",
+    "es": "Título de la universidad de destino",
+    "de": "Abschluss der Zieluniversität",
+    "it": "Titolo dell'università di destinazione",
+    "nl": "Diploma van de bestemmingsuniversiteit",
+    "ru": "Диплом принимающего университета"
+   },
+   "start_fee": 7407,
+   "currency": "USD",
+   "fee_basis": {
+    "id": "Per tahun (estimasi 2026, siswa internasional; indikatif, dibayar dalam RM)",
+    "en": "Per year (2026 estimate, international students; indicative, paid in RM)",
+    "th": "ต่อปี (ประมาณการปี 2026, นักศึกษาต่างชาติ; ราคาโดยประมาณ ชำระเป็น RM)",
+    "vi": "Mỗi năm (ước tính 2026, sinh viên quốc tế; mang tính tham khảo, thanh toán bằng RM)",
+    "zh": "每年（2026 年估算，国际学生；仅供参考，以 RM 支付）",
+    "ja": "年額（2026 年の概算、留学生；目安、RM で支払い）",
+    "ko": "연간 (2026년 추정, 유학생; 참고용, RM으로 납부)",
+    "km": "ក្នុងមួយឆ្នាំ (ការប៉ាន់ស្មានឆ្នាំ 2026, និស្សិតអន្តរជាតិ; សម្រាប់ជាឯកសារយោង, បង់ជា RM)",
+    "fr": "Par an (estimation 2026, étudiants internationaux ; indicatif, payé en RM)",
+    "pt": "Por ano (estimativa 2026, estudantes internacionais; indicativo, pago em RM)",
+    "es": "Por año (estimación 2026, estudiantes internacionales; orientativo, se paga en RM)",
+    "de": "Pro Jahr (Schätzung 2026, internationale Studierende; Richtwert, Zahlung in RM)",
+    "it": "All'anno (stima 2026, studenti internazionali; indicativo, pagamento in RM)",
+    "nl": "Per jaar (schatting 2026, internationale studenten; indicatief, betaling in RM)",
+    "ru": "В год (оценка на 2026 г., иностранные студенты; ориентировочно, оплата в RM)"
+   },
+   "intakes": {
+    "id": "Feb, Mei, Sep",
+    "en": "Feb, May, Sep",
+    "th": "ก.พ., พ.ค., ก.ย.",
+    "vi": "tháng 2, tháng 5, tháng 9",
+    "zh": "2月、5月、9月",
+    "ja": "2月、5月、9月",
+    "ko": "2월, 5월, 9월",
+    "km": "កុម្ភៈ, ឧសភា, កញ្ញា",
+    "fr": "févr., mai, sept.",
+    "pt": "fev, mai, set",
+    "es": "feb, may, sep",
+    "de": "Feb., Mai, Sep.",
+    "it": "feb, mag, set",
+    "nl": "feb, mei, sep",
+    "ru": "февр., май, сент."
+   },
+   "english": {
+    "id": "Nilai kredit English SPM/O-Level/IGCSE, atau IELTS 5.0, atau Sunway IEP Level 4 (min. 50%)",
+    "en": "Credit in English at SPM/O-Level/IGCSE, or IELTS 5.0, or Sunway IEP Level 4 (min. 50%)",
+    "th": "เกรด Credit วิชา English ใน SPM/O-Level/IGCSE หรือ IELTS 5.0 หรือ Sunway IEP Level 4 (ขั้นต่ำ 50%)",
+    "vi": "Điểm Credit môn English ở SPM/O-Level/IGCSE, hoặc IELTS 5.0, hoặc Sunway IEP Level 4 (tối thiểu 50%)",
+    "zh": "SPM/O-Level/IGCSE 英语达到 Credit，或 IELTS 5.0，或 Sunway IEP Level 4（至少 50%）",
+    "ja": "SPM/O-Level/IGCSE の English で Credit、または IELTS 5.0、または Sunway IEP Level 4（50% 以上）",
+    "ko": "SPM/O-Level/IGCSE English Credit 이상, 또는 IELTS 5.0, 또는 Sunway IEP Level 4 (최소 50%)",
+    "km": "និទ្ទេស Credit មុខវិជ្ជា English ក្នុង SPM/O-Level/IGCSE ឬ IELTS 5.0 ឬ Sunway IEP Level 4 (យ៉ាងតិច 50%)",
+    "fr": "Mention Credit en anglais au SPM/O-Level/IGCSE, ou IELTS 5.0, ou Sunway IEP Level 4 (min. 50 %)",
+    "pt": "Nota Credit em inglês no SPM/O-Level/IGCSE, ou IELTS 5.0, ou Sunway IEP Level 4 (mín. 50%)",
+    "es": "Nota Credit en inglés en SPM/O-Level/IGCSE, o IELTS 5.0, o Sunway IEP Level 4 (mín. 50%)",
+    "de": "Note Credit in Englisch bei SPM/O-Level/IGCSE oder IELTS 5.0 oder Sunway IEP Level 4 (mind. 50 %)",
+    "it": "Voto Credit in inglese a SPM/O-Level/IGCSE, oppure IELTS 5.0, oppure Sunway IEP Level 4 (min. 50%)",
+    "nl": "Credit voor Engels bij SPM/O-Level/IGCSE, of IELTS 5.0, of Sunway IEP Level 4 (min. 50%)",
+    "ru": "Оценка Credit по английскому в SPM/O-Level/IGCSE, или IELTS 5.0, или Sunway IEP Level 4 (мин. 50%)"
+   },
+   "url": "https://sunwayuniversity.edu.my/school-of-american-education/courses/american-degree-transfer-program",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "12-24 bulan kuliah gaya Amerika di Sunway, lalu 24-36 bulan di universitas tujuan (AS, Kanada, Australia, NZ). Iowa State University mencantumkan Sunway sebagai mitra ADTP. Estimasi USD 7.407/tahun (2026).",
+    "en": "12-24 months of US-style study at Sunway, then 24-36 months at the destination university (US, Canada, Australia, NZ). Iowa State University lists Sunway as an ADTP institution. Estimate USD 7,407/year (2026).",
+    "th": "เรียนแบบอเมริกันที่ Sunway 12-24 เดือน จากนั้นเรียนที่มหาวิทยาลัยปลายทางอีก 24-36 เดือน (สหรัฐฯ แคนาดา ออสเตรเลีย นิวซีแลนด์) Iowa State University ระบุว่า Sunway เป็นสถาบัน ADTP ค่าเรียนประมาณ USD 7,407/ปี (2026)",
+    "vi": "12-24 tháng học theo mô hình Mỹ tại Sunway, sau đó 24-36 tháng tại trường đại học chuyển đến (Mỹ, Canada, Úc, NZ). Iowa State University liệt kê Sunway là cơ sở ADTP. Ước tính USD 7.407/năm (2026).",
+    "zh": "在 Sunway 进行 12-24 个月美式课程学习，之后在目标大学（美国、加拿大、澳大利亚、新西兰）学习 24-36 个月。Iowa State University 将 Sunway 列为 ADTP 院校。估算 USD 7,407/年（2026）。",
+    "ja": "Sunway でアメリカ式の課程を 12-24 か月学び、その後編入先大学（米国、カナダ、オーストラリア、NZ）で 24-36 か月。Iowa State University は Sunway を ADTP 校として掲載。概算 USD 7,407/年（2026）。",
+    "ko": "Sunway에서 미국식 과정 12-24개월, 이후 편입 대학(미국, 캐나다, 호주, NZ)에서 24-36개월. Iowa State University는 Sunway를 ADTP 기관으로 명시. 추정 USD 7,407/년 (2026).",
+    "km": "សិក្សាតាមបែបអាមេរិក 12-24 ខែនៅ Sunway បន្ទាប់មក 24-36 ខែនៅសាកលវិទ្យាល័យគោលដៅ (សហរដ្ឋអាមេរិក កាណាដា អូស្ត្រាលី NZ)។ Iowa State University ចុះឈ្មោះ Sunway ជាស្ថាប័ន ADTP។ ប៉ាន់ស្មាន USD 7,407/ឆ្នាំ (2026)។",
+    "fr": "12 à 24 mois d'études de type américain à Sunway, puis 24 à 36 mois à l'université d'accueil (États-Unis, Canada, Australie, NZ). Iowa State University mentionne Sunway comme établissement ADTP. Estimation : USD 7 407/an (2026).",
+    "pt": "12-24 meses de estudo no modelo americano na Sunway e depois 24-36 meses na universidade de destino (EUA, Canadá, Austrália, NZ). A Iowa State University lista a Sunway como instituição ADTP. Estimativa: USD 7.407/ano (2026).",
+    "es": "12-24 meses de estudios de estilo estadounidense en Sunway y luego 24-36 meses en la universidad de destino (EE. UU., Canadá, Australia, NZ). Iowa State University incluye a Sunway como institución ADTP. Estimación: USD 7.407/año (2026).",
+    "de": "12-24 Monate Studium nach US-Modell an der Sunway, danach 24-36 Monate an der Zieluniversität (USA, Kanada, Australien, NZ). Die Iowa State University führt Sunway als ADTP-Institution. Schätzung: USD 7.407/Jahr (2026).",
+    "it": "12-24 mesi di studio in stile americano a Sunway, poi 24-36 mesi all'università di destinazione (USA, Canada, Australia, NZ). La Iowa State University elenca Sunway come istituzione ADTP. Stima: USD 7.407/anno (2026).",
+    "nl": "12-24 maanden studie in Amerikaanse stijl aan Sunway, daarna 24-36 maanden aan de bestemmingsuniversiteit (VS, Canada, Australië, NZ). Iowa State University vermeldt Sunway als ADTP-instelling. Schatting: USD 7.407/jaar (2026).",
+    "ru": "12-24 месяца обучения по американской модели в Sunway, затем 24-36 месяцев в принимающем университете (США, Канада, Австралия, NZ). Iowa State University указывает Sunway как учреждение ADTP. Оценка: USD 7 407 в год (2026)."
+   }
+  },
+  {
+   "id": "taylors-business-au-1-2",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Business (Hons) to Australian partner universities",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "Universitas mitra di Australia"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Queensland University of Technology (QUT)",
+    "UNSW Sydney",
+    "The University of Queensland (UQ)",
+    "University of Technology Sydney (UTS)",
+    "RMIT University",
+    "The University of Sydney"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Feb, Apr, Sep",
+    "en": "Feb, Apr, Sep",
+    "th": "ก.พ., เม.ย., ก.ย.",
+    "vi": "tháng 2, tháng 4, tháng 9",
+    "zh": "2月、4月、9月",
+    "ja": "2月、4月、9月",
+    "ko": "2월, 4월, 9월",
+    "km": "កុម្ភៈ, មេសា, កញ្ញា",
+    "fr": "févr., avr., sept.",
+    "pt": "fev, abr, set",
+    "es": "feb, abr, sep",
+    "de": "Feb., Apr., Sep.",
+    "it": "feb, apr, set",
+    "nl": "feb, apr, sep",
+    "ru": "февр., апр., сент."
+   },
+   "english": {
+    "id": "MUET Band 3 / CEFR Low B2 atau Pre-U/Diploma berbahasa pengantar Inggris (Taylor's)",
+    "en": "MUET Band 3 / CEFR Low B2 or an English-medium Pre-U/Diploma (Taylor's)",
+    "th": "MUET Band 3 / CEFR Low B2 หรือ Pre-U/Diploma ที่สอนเป็นภาษาอังกฤษ (Taylor's)",
+    "vi": "MUET Band 3 / CEFR Low B2 hoặc Pre-U/Diploma giảng dạy bằng tiếng Anh (Taylor's)",
+    "zh": "MUET Band 3 / CEFR Low B2，或以英语授课的 Pre-U/Diploma（Taylor's）",
+    "ja": "MUET Band 3 / CEFR Low B2、または英語で教授される Pre-U/Diploma（Taylor's）",
+    "ko": "MUET Band 3 / CEFR Low B2 또는 영어로 수업하는 Pre-U/Diploma (Taylor's)",
+    "km": "MUET Band 3 / CEFR Low B2 ឬ Pre-U/Diploma ដែលបង្រៀនជាភាសាអង់គ្លេស (Taylor's)",
+    "fr": "MUET Band 3 / CEFR Low B2 ou Pre-U/Diploma enseigné en anglais (Taylor's)",
+    "pt": "MUET Band 3 / CEFR Low B2 ou Pre-U/Diploma ministrado em inglês (Taylor's)",
+    "es": "MUET Band 3 / CEFR Low B2 o Pre-U/Diploma impartido en inglés (Taylor's)",
+    "de": "MUET Band 3 / CEFR Low B2 oder englischsprachiges Pre-U/Diploma (Taylor's)",
+    "it": "MUET Band 3 / CEFR Low B2 oppure Pre-U/Diploma in lingua inglese (Taylor's)",
+    "nl": "MUET Band 3 / CEFR Low B2 of Engelstalige Pre-U/Diploma (Taylor's)",
+    "ru": "MUET Band 3 / CEFR Low B2 или Pre-U/Diploma на английском языке (Taylor's)"
+   },
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/business/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun Bachelor of Business (Hons) di Taylor's, lalu 2 tahun di universitas mitra Australia (mis. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "en": "1 year of the Bachelor of Business (Hons) at Taylor's, then 2 years at an Australian partner university (e.g. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "th": "เรียน Bachelor of Business (Hons) ที่ Taylor's 1 ปี จากนั้นเรียนที่มหาวิทยาลัยพันธมิตรในออสเตรเลียอีก 2 ปี (เช่น QUT, UNSW, UQ, UTS, RMIT, University of Sydney)",
+    "vi": "1 năm Bachelor of Business (Hons) tại Taylor's, sau đó 2 năm tại một trường đại học đối tác ở Úc (ví dụ QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "zh": "在 Taylor's 修读 1 年 Bachelor of Business (Hons)，之后在澳大利亚合作大学学习 2 年（如 QUT、UNSW、UQ、UTS、RMIT、University of Sydney）。",
+    "ja": "Taylor's で Bachelor of Business (Hons) を 1 年間、その後オーストラリアの提携大学で 2 年間（例：QUT、UNSW、UQ、UTS、RMIT、University of Sydney）。",
+    "ko": "Taylor's에서 Bachelor of Business (Hons) 1년, 이후 호주 협력 대학에서 2년 (예: QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "km": "1 ឆ្នាំ Bachelor of Business (Hons) នៅ Taylor's បន្ទាប់មក 2 ឆ្នាំនៅសាកលវិទ្យាល័យដៃគូក្នុងប្រទេសអូស្ត្រាលី (ឧ. QUT, UNSW, UQ, UTS, RMIT, University of Sydney)។",
+    "fr": "1 an du Bachelor of Business (Hons) à Taylor's, puis 2 ans dans une université partenaire australienne (p. ex. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "pt": "1 ano do Bachelor of Business (Hons) na Taylor's e depois 2 anos em uma universidade parceira na Austrália (ex.: QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "es": "1 año del Bachelor of Business (Hons) en Taylor's y luego 2 años en una universidad asociada de Australia (p. ej., QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "de": "1 Jahr Bachelor of Business (Hons) an der Taylor's, danach 2 Jahre an einer australischen Partneruniversität (z. B. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "it": "1 anno del Bachelor of Business (Hons) alla Taylor's, poi 2 anni in un'università partner australiana (ad es. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "nl": "1 jaar Bachelor of Business (Hons) aan Taylor's, daarna 2 jaar aan een Australische partneruniversiteit (bijv. QUT, UNSW, UQ, UTS, RMIT, University of Sydney).",
+    "ru": "1 год Bachelor of Business (Hons) в Taylor's, затем 2 года в австралийском университете-партнёре (например, QUT, UNSW, UQ, UTS, RMIT, University of Sydney)."
+   }
+  },
+  {
+   "id": "taylors-accfin-deakin-2-1",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Accounting and Finance (Hons) to Deakin University (Finance / Accounting)",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "2+1 (Accounting intake Maret: 2+1.5; major lain 1+2)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 2,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "AU",
+     "years": 1,
+     "institution": "Deakin University"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Deakin University"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Deakin: Jul/Nov (Accounting 2+1), Mar (Accounting 2+1,5)",
+    "en": "Deakin: Jul/Nov (Accounting 2+1), Mar (Accounting 2+1.5)",
+    "th": "Deakin: ก.ค./พ.ย. (Accounting 2+1), มี.ค. (Accounting 2+1.5)",
+    "vi": "Deakin: tháng 7/tháng 11 (Accounting 2+1), tháng 3 (Accounting 2+1.5)",
+    "zh": "Deakin: 7月/11月 (Accounting 2+1), 3月 (Accounting 2+1.5)",
+    "ja": "Deakin: 7月/11月 (Accounting 2+1), 3月 (Accounting 2+1.5)",
+    "ko": "Deakin: 7월/11월 (Accounting 2+1), 3월 (Accounting 2+1.5)",
+    "km": "Deakin: កក្កដា/វិច្ឆិកា (Accounting 2+1), មីនា (Accounting 2+1.5)",
+    "fr": "Deakin: juil./nov. (Accounting 2+1), mars (Accounting 2+1,5)",
+    "pt": "Deakin: jul/nov (Accounting 2+1), mar (Accounting 2+1,5)",
+    "es": "Deakin: jul/nov (Accounting 2+1), mar (Accounting 2+1,5)",
+    "de": "Deakin: Juli/Nov. (Accounting 2+1), März (Accounting 2+1,5)",
+    "it": "Deakin: lug/nov (Accounting 2+1), mar (Accounting 2+1,5)",
+    "nl": "Deakin: jul/nov (Accounting 2+1), mrt (Accounting 2+1,5)",
+    "ru": "Deakin: июль/нояб. (Accounting 2+1), март (Accounting 2+1,5)"
+   },
+   "english": null,
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/business/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "2 tahun Bachelor of Accounting and Finance (Hons) di Taylor's, lalu 1 tahun di Deakin University (Finance/Accounting; intake Maret untuk Accounting 1,5 tahun).",
+    "en": "2 years of the Bachelor of Accounting and Finance (Hons) at Taylor's, then 1 year at Deakin University (Finance/Accounting; 1.5 years for the March Accounting intake).",
+    "th": "เรียน Bachelor of Accounting and Finance (Hons) ที่ Taylor's 2 ปี จากนั้นเรียนที่ Deakin University อีก 1 ปี (Finance/Accounting; รอบเข้าเรียนเดือนมีนาคมสำหรับ Accounting ใช้เวลา 1.5 ปี)",
+    "vi": "2 năm Bachelor of Accounting and Finance (Hons) tại Taylor's, sau đó 1 năm tại Deakin University (Finance/Accounting; 1,5 năm với kỳ nhập học tháng 3 ngành Accounting).",
+    "zh": "在 Taylor's 修读 2 年 Bachelor of Accounting and Finance (Hons)，之后在 Deakin University 学习 1 年（Finance/Accounting；Accounting 3 月入学为 1.5 年）。",
+    "ja": "Taylor's で Bachelor of Accounting and Finance (Hons) を 2 年間、その後 Deakin University で 1 年間（Finance/Accounting；Accounting の 3 月入学は 1.5 年）。",
+    "ko": "Taylor's에서 Bachelor of Accounting and Finance (Hons) 2년, 이후 Deakin University에서 1년 (Finance/Accounting; Accounting 3월 입학은 1.5년).",
+    "km": "2 ឆ្នាំ Bachelor of Accounting and Finance (Hons) នៅ Taylor's បន្ទាប់មក 1 ឆ្នាំនៅ Deakin University (Finance/Accounting; 1.5 ឆ្នាំសម្រាប់វគ្គចូលរៀនខែមីនា ជំនាញ Accounting)។",
+    "fr": "2 ans du Bachelor of Accounting and Finance (Hons) à Taylor's, puis 1 an à Deakin University (Finance/Accounting ; 1,5 an pour la rentrée de mars en Accounting).",
+    "pt": "2 anos do Bachelor of Accounting and Finance (Hons) na Taylor's e depois 1 ano na Deakin University (Finance/Accounting; 1,5 ano para o ingresso de março em Accounting).",
+    "es": "2 años del Bachelor of Accounting and Finance (Hons) en Taylor's y luego 1 año en Deakin University (Finance/Accounting; 1,5 años para el ingreso de marzo en Accounting).",
+    "de": "2 Jahre Bachelor of Accounting and Finance (Hons) an der Taylor's, danach 1 Jahr an der Deakin University (Finance/Accounting; 1,5 Jahre beim März-Start in Accounting).",
+    "it": "2 anni del Bachelor of Accounting and Finance (Hons) alla Taylor's, poi 1 anno alla Deakin University (Finance/Accounting; 1,5 anni per l'ingresso di marzo in Accounting).",
+    "nl": "2 jaar Bachelor of Accounting and Finance (Hons) aan Taylor's, daarna 1 jaar aan Deakin University (Finance/Accounting; 1,5 jaar bij de instroom in maart voor Accounting).",
+    "ru": "2 года Bachelor of Accounting and Finance (Hons) в Taylor's, затем 1 год в Deakin University (Finance/Accounting; при мартовском наборе на Accounting — 1,5 года)."
+   }
+  },
+  {
+   "id": "taylors-accfin-canterbury-nz-2-1",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Accounting and Finance (Hons) / Bachelor of Accounting with Fintech (Hons) - dual degree with University of Canterbury",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "2+1 (dual degree)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 2,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "NZ",
+     "years": 1,
+     "institution": "University of Canterbury"
+    }
+   ],
+   "destinations": [
+    "NZ"
+   ],
+   "partners": [
+    "University of Canterbury (Christchurch)"
+   ],
+   "award": {
+    "id": "Dual degree (Taylor's + University of Canterbury)",
+    "en": "Dual degree (Taylor's + University of Canterbury)",
+    "th": "ปริญญาคู่ (Taylor's + University of Canterbury)",
+    "vi": "Song bằng (Taylor's + University of Canterbury)",
+    "zh": "双学位（Taylor's + University of Canterbury）",
+    "ja": "ダブルディグリー（Taylor's + University of Canterbury）",
+    "ko": "복수 학위 (Taylor's + University of Canterbury)",
+    "km": "សញ្ញាបត្រទ្វេ (Taylor's + University of Canterbury)",
+    "fr": "Double diplôme (Taylor's + University of Canterbury)",
+    "pt": "Dupla diplomação (Taylor's + University of Canterbury)",
+    "es": "Doble titulación (Taylor's + University of Canterbury)",
+    "de": "Doppelabschluss (Taylor's + University of Canterbury)",
+    "it": "Doppio titolo (Taylor's + University of Canterbury)",
+    "nl": "Dubbele graad (Taylor's + University of Canterbury)",
+    "ru": "Двойной диплом (Taylor's + University of Canterbury)"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/business/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Dual degree: 2 tahun di Taylor's, lalu 1 tahun di University of Canterbury, Selandia Baru (major Accounting).",
+    "en": "Dual degree: 2 years at Taylor's, then 1 year at the University of Canterbury, New Zealand (Accounting major).",
+    "th": "ปริญญาคู่: เรียนที่ Taylor's 2 ปี จากนั้นเรียนที่ University of Canterbury นิวซีแลนด์อีก 1 ปี (สาขาหลัก Accounting)",
+    "vi": "Song bằng: 2 năm tại Taylor's, sau đó 1 năm tại University of Canterbury, New Zealand (chuyên ngành Accounting).",
+    "zh": "双学位：在 Taylor's 学习 2 年，之后在新西兰 University of Canterbury 学习 1 年（Accounting 主修）。",
+    "ja": "ダブルディグリー：Taylor's で 2 年間、その後ニュージーランドの University of Canterbury で 1 年間（Accounting 専攻）。",
+    "ko": "복수 학위: Taylor's에서 2년, 이후 뉴질랜드 University of Canterbury에서 1년 (Accounting 전공).",
+    "km": "សញ្ញាបត្រទ្វេ៖ 2 ឆ្នាំនៅ Taylor's បន្ទាប់មក 1 ឆ្នាំនៅ University of Canterbury នូវែលសេឡង់ (ជំនាញ Accounting)។",
+    "fr": "Double diplôme : 2 ans à Taylor's, puis 1 an à l'University of Canterbury, Nouvelle-Zélande (majeure Accounting).",
+    "pt": "Dupla diplomação: 2 anos na Taylor's e depois 1 ano na University of Canterbury, Nova Zelândia (ênfase em Accounting).",
+    "es": "Doble titulación: 2 años en Taylor's y luego 1 año en University of Canterbury, Nueva Zelanda (especialidad Accounting).",
+    "de": "Doppelabschluss: 2 Jahre an der Taylor's, danach 1 Jahr an der University of Canterbury, Neuseeland (Hauptfach Accounting).",
+    "it": "Doppio titolo: 2 anni alla Taylor's, poi 1 anno alla University of Canterbury, Nuova Zelanda (indirizzo Accounting).",
+    "nl": "Dubbele graad: 2 jaar aan Taylor's, daarna 1 jaar aan University of Canterbury, Nieuw-Zeeland (major Accounting).",
+    "ru": "Двойной диплом: 2 года в Taylor's, затем 1 год в University of Canterbury, Новая Зеландия (профиль Accounting)."
+   }
+  },
+  {
+   "id": "taylors-business-uk-1-2",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Business (Hons) / Accounting and Finance (Hons) to UK partner universities",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "UK",
+     "years": 2,
+     "institution": "Universitas mitra di UK"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of Essex",
+    "University of Bristol",
+    "The University of Sheffield",
+    "University of Birmingham",
+    "University of Sussex"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Feb, Apr, Sep",
+    "en": "Feb, Apr, Sep",
+    "th": "ก.พ., เม.ย., ก.ย.",
+    "vi": "tháng 2, tháng 4, tháng 9",
+    "zh": "2月、4月、9月",
+    "ja": "2月、4月、9月",
+    "ko": "2월, 4월, 9월",
+    "km": "កុម្ភៈ, មេសា, កញ្ញា",
+    "fr": "févr., avr., sept.",
+    "pt": "fev, abr, set",
+    "es": "feb, abr, sep",
+    "de": "Feb., Apr., Sep.",
+    "it": "feb, apr, set",
+    "nl": "feb, apr, sep",
+    "ru": "февр., апр., сент."
+   },
+   "english": null,
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/business/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program bisnis di Taylor's, lalu 2 tahun di universitas mitra UK (mis. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham membatasi kuota).",
+    "en": "1 year of a business programme at Taylor's, then 2 years at a UK partner university (e.g. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham caps places).",
+    "th": "เรียนหลักสูตรธุรกิจที่ Taylor's 1 ปี จากนั้นเรียนที่มหาวิทยาลัยพันธมิตรในสหราชอาณาจักรอีก 2 ปี (เช่น Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham จำกัดจำนวนที่นั่ง)",
+    "vi": "1 năm chương trình kinh doanh tại Taylor's, sau đó 2 năm tại một trường đại học đối tác ở Anh (ví dụ Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham giới hạn chỉ tiêu).",
+    "zh": "在 Taylor's 修读 1 年商科课程，之后在英国合作大学学习 2 年（如 Essex、Bristol、Sheffield、Birmingham、Sussex；Birmingham 名额有限）。",
+    "ja": "Taylor's でビジネス課程を 1 年間、その後英国の提携大学で 2 年間（例：Essex、Bristol、Sheffield、Birmingham、Sussex；Birmingham は定員制限あり）。",
+    "ko": "Taylor's에서 비즈니스 과정 1년, 이후 영국 협력 대학에서 2년 (예: Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham은 정원 제한).",
+    "km": "1 ឆ្នាំកម្មវិធីពាណិជ្ជកម្មនៅ Taylor's បន្ទាប់មក 2 ឆ្នាំនៅសាកលវិទ្យាល័យដៃគូក្នុងចក្រភពអង់គ្លេស (ឧ. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham កំណត់ចំនួនកន្លែង)។",
+    "fr": "1 an d'un programme de commerce à Taylor's, puis 2 ans dans une université partenaire au Royaume-Uni (p. ex. Essex, Bristol, Sheffield, Birmingham, Sussex ; places limitées à Birmingham).",
+    "pt": "1 ano de um programa de negócios na Taylor's e depois 2 anos em uma universidade parceira no Reino Unido (ex.: Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham limita as vagas).",
+    "es": "1 año de un programa de negocios en Taylor's y luego 2 años en una universidad asociada del Reino Unido (p. ej., Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham limita las plazas).",
+    "de": "1 Jahr eines Business-Programms an der Taylor's, danach 2 Jahre an einer britischen Partneruniversität (z. B. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham begrenzt die Plätze).",
+    "it": "1 anno di un programma di business alla Taylor's, poi 2 anni in un'università partner nel Regno Unito (ad es. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham limita i posti).",
+    "nl": "1 jaar van een businessprogramma aan Taylor's, daarna 2 jaar aan een Britse partneruniversiteit (bijv. Essex, Bristol, Sheffield, Birmingham, Sussex; Birmingham beperkt het aantal plaatsen).",
+    "ru": "1 год бизнес-программы в Taylor's, затем 2 года в британском университете-партнёре (например, Essex, Bristol, Sheffield, Birmingham, Sussex; в Birmingham число мест ограничено)."
+   }
+  },
+  {
+   "id": "taylors-cs-au",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Computer Science (Hons) / Software Engineering / IT to Australian partner universities",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "1+2 (UQ 2+1; ANU Software Eng. 2+2; UTS 2+1.5)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "Universitas mitra di Australia"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Queensland University of Technology (QUT)",
+    "The University of Queensland (UQ)",
+    "Griffith University",
+    "University of Technology Sydney (UTS)",
+    "The University of Western Australia (UWA)",
+    "Flinders University",
+    "The Australian National University (ANU)",
+    "The University of Newcastle"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Feb, Apr, Sep",
+    "en": "Feb, Apr, Sep",
+    "th": "ก.พ., เม.ย., ก.ย.",
+    "vi": "tháng 2, tháng 4, tháng 9",
+    "zh": "2月、4月、9月",
+    "ja": "2月、4月、9月",
+    "ko": "2월, 4월, 9월",
+    "km": "កុម្ភៈ, មេសា, កញ្ញា",
+    "fr": "févr., avr., sept.",
+    "pt": "fev, abr, set",
+    "es": "feb, abr, sep",
+    "de": "Feb., Apr., Sep.",
+    "it": "feb, apr, set",
+    "nl": "feb, apr, sep",
+    "ru": "февр., апр., сент."
+   },
+   "english": {
+    "id": "IELTS 5.0 (Taylor's, siswa internasional)",
+    "en": "IELTS 5.0 (Taylor's, international students)",
+    "th": "IELTS 5.0 (Taylor's, นักศึกษาต่างชาติ)",
+    "vi": "IELTS 5.0 (Taylor's, sinh viên quốc tế)",
+    "zh": "IELTS 5.0（Taylor's，国际学生）",
+    "ja": "IELTS 5.0（Taylor's、留学生）",
+    "ko": "IELTS 5.0 (Taylor's, 유학생)",
+    "km": "IELTS 5.0 (Taylor's, និស្សិតអន្តរជាតិ)",
+    "fr": "IELTS 5.0 (Taylor's, étudiants internationaux)",
+    "pt": "IELTS 5.0 (Taylor's, estudantes internacionais)",
+    "es": "IELTS 5.0 (Taylor's, estudiantes internacionales)",
+    "de": "IELTS 5.0 (Taylor's, internationale Studierende)",
+    "it": "IELTS 5.0 (Taylor's, studenti internazionali)",
+    "nl": "IELTS 5.0 (Taylor's, internationale studenten)",
+    "ru": "IELTS 5.0 (Taylor's, иностранные студенты)"
+   },
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/computing/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Kuliah komputer di Taylor's 1-2 tahun, lalu lanjut di universitas mitra Australia (mis. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); pembagian tahun tergantung kampus tujuan.",
+    "en": "Computing study at Taylor's for 1-2 years, then continue at an Australian partner university (e.g. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); year split depends on the destination.",
+    "th": "เรียนคอมพิวเตอร์ที่ Taylor's 1-2 ปี จากนั้นเรียนต่อที่มหาวิทยาลัยพันธมิตรในออสเตรเลีย (เช่น QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle) การแบ่งจำนวนปีขึ้นอยู่กับมหาวิทยาลัยปลายทาง",
+    "vi": "Học máy tính tại Taylor's 1-2 năm, sau đó học tiếp tại một trường đại học đối tác ở Úc (ví dụ QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); số năm mỗi giai đoạn tùy trường chuyển đến.",
+    "zh": "在 Taylor's 学习计算机 1-2 年，之后在澳大利亚合作大学继续学习（如 QUT、UQ、Griffith、UTS、UWA、Flinders、ANU、Newcastle）；年限分配取决于目标大学。",
+    "ja": "Taylor's でコンピューティングを 1-2 年学び、その後オーストラリアの提携大学で継続（例：QUT、UQ、Griffith、UTS、UWA、Flinders、ANU、Newcastle）；年数の配分は編入先により異なる。",
+    "ko": "Taylor's에서 컴퓨팅 1-2년 공부 후 호주 협력 대학에서 계속 (예: QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); 연수 배분은 편입 대학에 따라 다름.",
+    "km": "សិក្សាកុំព្យូទ័រនៅ Taylor's 1-2 ឆ្នាំ បន្ទាប់មកបន្តនៅសាកលវិទ្យាល័យដៃគូក្នុងប្រទេសអូស្ត្រាលី (ឧ. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); ការបែងចែកឆ្នាំអាស្រ័យលើសាកលវិទ្យាល័យគោលដៅ។",
+    "fr": "Études d'informatique à Taylor's pendant 1 à 2 ans, puis poursuite dans une université partenaire australienne (p. ex. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle) ; la répartition des années dépend de l'université d'accueil.",
+    "pt": "Estudo de computação na Taylor's por 1-2 anos e depois continuação em uma universidade parceira na Austrália (ex.: QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); a divisão dos anos depende do destino.",
+    "es": "Estudios de informática en Taylor's durante 1-2 años y luego continuación en una universidad asociada de Australia (p. ej., QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); el reparto de años depende del destino.",
+    "de": "Informatikstudium an der Taylor's für 1-2 Jahre, danach Fortsetzung an einer australischen Partneruniversität (z. B. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); die Aufteilung der Jahre hängt vom Ziel ab.",
+    "it": "Studio di informatica alla Taylor's per 1-2 anni, poi prosecuzione in un'università partner australiana (ad es. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); la ripartizione degli anni dipende dalla destinazione.",
+    "nl": "Informaticastudie aan Taylor's gedurende 1-2 jaar, daarna verder aan een Australische partneruniversiteit (bijv. QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); de verdeling van de jaren hangt af van de bestemming.",
+    "ru": "Обучение компьютерным наукам в Taylor's 1-2 года, затем продолжение в австралийском университете-партнёре (например, QUT, UQ, Griffith, UTS, UWA, Flinders, ANU, Newcastle); распределение лет зависит от принимающего университета."
+   }
+  },
+  {
+   "id": "taylors-cs-uk",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "Bachelor of Computer Science (Hons) / Software Engineering / IT to UK partner universities",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "1+2 atau 2+1",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 1,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "UK",
+     "years": 2,
+     "institution": "Universitas mitra di UK"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of Essex",
+    "University of Birmingham",
+    "University of Leeds",
+    "University of Plymouth",
+    "Cardiff University",
+    "Queen's University Belfast"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Feb, Apr, Sep",
+    "en": "Feb, Apr, Sep",
+    "th": "ก.พ., เม.ย., ก.ย.",
+    "vi": "tháng 2, tháng 4, tháng 9",
+    "zh": "2月、4月、9月",
+    "ja": "2月、4月、9月",
+    "ko": "2월, 4월, 9월",
+    "km": "កុម្ភៈ, មេសា, កញ្ញា",
+    "fr": "févr., avr., sept.",
+    "pt": "fev, abr, set",
+    "es": "feb, abr, sep",
+    "de": "Feb., Apr., Sep.",
+    "it": "feb, apr, set",
+    "nl": "feb, apr, sep",
+    "ru": "февр., апр., сент."
+   },
+   "english": {
+    "id": "IELTS 5.0 (Taylor's, siswa internasional)",
+    "en": "IELTS 5.0 (Taylor's, international students)",
+    "th": "IELTS 5.0 (Taylor's, นักศึกษาต่างชาติ)",
+    "vi": "IELTS 5.0 (Taylor's, sinh viên quốc tế)",
+    "zh": "IELTS 5.0（Taylor's，国际学生）",
+    "ja": "IELTS 5.0（Taylor's、留学生）",
+    "ko": "IELTS 5.0 (Taylor's, 유학생)",
+    "km": "IELTS 5.0 (Taylor's, និស្សិតអន្តរជាតិ)",
+    "fr": "IELTS 5.0 (Taylor's, étudiants internationaux)",
+    "pt": "IELTS 5.0 (Taylor's, estudantes internacionais)",
+    "es": "IELTS 5.0 (Taylor's, estudiantes internacionales)",
+    "de": "IELTS 5.0 (Taylor's, internationale Studierende)",
+    "it": "IELTS 5.0 (Taylor's, studenti internazionali)",
+    "nl": "IELTS 5.0 (Taylor's, internationale studenten)",
+    "ru": "IELTS 5.0 (Taylor's, иностранные студенты)"
+   },
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/computing/overseas-transfer-options.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Kuliah komputer di Taylor's, lalu lanjut 1-2 tahun di universitas mitra UK (mis. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "en": "Computing study at Taylor's, then 1-2 years at a UK partner university (e.g. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "th": "เรียนคอมพิวเตอร์ที่ Taylor's จากนั้นเรียนที่มหาวิทยาลัยพันธมิตรในสหราชอาณาจักรอีก 1-2 ปี (เช่น Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast)",
+    "vi": "Học máy tính tại Taylor's, sau đó 1-2 năm tại một trường đại học đối tác ở Anh (ví dụ Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "zh": "在 Taylor's 学习计算机，之后在英国合作大学学习 1-2 年（如 Essex、Birmingham、Leeds、Plymouth、Cardiff、Queen's University Belfast）。",
+    "ja": "Taylor's でコンピューティングを学び、その後英国の提携大学で 1-2 年間（例：Essex、Birmingham、Leeds、Plymouth、Cardiff、Queen's University Belfast）。",
+    "ko": "Taylor's에서 컴퓨팅 공부 후 영국 협력 대학에서 1-2년 (예: Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "km": "សិក្សាកុំព្យូទ័រនៅ Taylor's បន្ទាប់មក 1-2 ឆ្នាំនៅសាកលវិទ្យាល័យដៃគូក្នុងចក្រភពអង់គ្លេស (ឧ. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast)។",
+    "fr": "Études d'informatique à Taylor's, puis 1 à 2 ans dans une université partenaire au Royaume-Uni (p. ex. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "pt": "Estudo de computação na Taylor's e depois 1-2 anos em uma universidade parceira no Reino Unido (ex.: Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "es": "Estudios de informática en Taylor's y luego 1-2 años en una universidad asociada del Reino Unido (p. ej., Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "de": "Informatikstudium an der Taylor's, danach 1-2 Jahre an einer britischen Partneruniversität (z. B. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "it": "Studio di informatica alla Taylor's, poi 1-2 anni in un'università partner nel Regno Unito (ad es. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "nl": "Informaticastudie aan Taylor's, daarna 1-2 jaar aan een Britse partneruniversiteit (bijv. Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast).",
+    "ru": "Обучение компьютерным наукам в Taylor's, затем 1-2 года в британском университете-партнёре (например, Essex, Birmingham, Leeds, Plymouth, Cardiff, Queen's University Belfast)."
+   }
+  },
+  {
+   "id": "taylors-adp-us-ca",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "American Degree Transfer Program (Liberal Arts / Business / Engineering / Computer Science)",
+   "level": "Bachelor",
+   "field": "Liberal Arts / General",
+   "route": "ADP di Malaysia lalu transfer (total 4 tahun)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "US",
+     "years": null,
+     "institution": "Universitas tujuan"
+    }
+   ],
+   "destinations": [
+    "US",
+    "CA",
+    "AU"
+   ],
+   "partners": [
+    "Iowa State University (US) - mencantumkan Taylor's sebagai institusi ADTP",
+    "University of Alberta (Canada) - daftar credit transfer Taylor's ADP"
+   ],
+   "award": {
+    "id": "Ijazah dari universitas tujuan",
+    "en": "Degree from the destination university",
+    "th": "ปริญญาจากมหาวิทยาลัยปลายทาง",
+    "vi": "Bằng của trường đại học chuyển tiếp đến",
+    "zh": "目标大学颁发的学位",
+    "ja": "編入先大学の学位",
+    "ko": "편입 대학 학위",
+    "km": "សញ្ញាបត្រពីសាកលវិទ្យាល័យគោលដៅ",
+    "fr": "Diplôme de l'université d'accueil",
+    "pt": "Diploma da universidade de destino",
+    "es": "Título de la universidad de destino",
+    "de": "Abschluss der Zieluniversität",
+    "it": "Titolo dell'università di destinazione",
+    "nl": "Diploma van de bestemmingsuniversiteit",
+    "ru": "Диплом принимающего университета"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Feb, Jun, Sep",
+    "en": "Feb, Jun, Sep",
+    "th": "ก.พ., มิ.ย., ก.ย.",
+    "vi": "tháng 2, tháng 6, tháng 9",
+    "zh": "2月、6月、9月",
+    "ja": "2月、6月、9月",
+    "ko": "2월, 6월, 9월",
+    "km": "កុម្ភៈ, មិថុនា, កញ្ញា",
+    "fr": "févr., juin, sept.",
+    "pt": "fev, jun, set",
+    "es": "feb, jun, sep",
+    "de": "Feb., Juni, Sep.",
+    "it": "feb, giu, set",
+    "nl": "feb, jun, sep",
+    "ru": "февр., июнь, сент."
+   },
+   "english": null,
+   "url": "https://university.taylors.edu.my/en/study/undergraduate/liberal-arts-and-sciences/adp.html",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program transfer gaya Amerika: mata kuliah umum di Taylor's, lalu transfer ke universitas di AS/Kanada/Australia. Iowa State University dan University of Alberta mencantumkan Taylor's ADP di halaman resminya.",
+    "en": "US-style transfer programme: general education at Taylor's, then transfer to a university in the US/Canada/Australia. Iowa State University and the University of Alberta list Taylor's ADP on their official pages.",
+    "th": "หลักสูตรโอนหน่วยกิตแบบอเมริกัน: เรียนวิชาศึกษาทั่วไปที่ Taylor's จากนั้นโอนไปยังมหาวิทยาลัยในสหรัฐฯ/แคนาดา/ออสเตรเลีย Iowa State University และ University of Alberta ระบุ Taylor's ADP ไว้ในหน้าเว็บทางการ",
+    "vi": "Chương trình chuyển tiếp kiểu Mỹ: học các môn đại cương tại Taylor's, sau đó chuyển tiếp đến một trường đại học ở Mỹ/Canada/Úc. Iowa State University và University of Alberta liệt kê Taylor's ADP trên trang chính thức.",
+    "zh": "美式转学课程：在 Taylor's 修读通识课程，之后转入美国/加拿大/澳大利亚的大学。Iowa State University 和 University of Alberta 在官方页面列出了 Taylor's ADP。",
+    "ja": "アメリカ式編入プログラム：Taylor's で一般教養を学び、その後米国/カナダ/オーストラリアの大学へ編入。Iowa State University と University of Alberta は公式ページに Taylor's ADP を掲載。",
+    "ko": "미국식 편입 프로그램: Taylor's에서 교양 과목 이수 후 미국/캐나다/호주 대학으로 편입. Iowa State University와 University of Alberta는 공식 페이지에 Taylor's ADP를 명시.",
+    "km": "កម្មវិធីផ្ទេរបែបអាមេរិក៖ សិក្សាមុខវិជ្ជាទូទៅនៅ Taylor's បន្ទាប់មកផ្ទេរទៅសាកលវិទ្យាល័យនៅសហរដ្ឋអាមេរិក/កាណាដា/អូស្ត្រាលី។ Iowa State University និង University of Alberta ចុះ Taylor's ADP នៅលើទំព័រផ្លូវការ។",
+    "fr": "Programme de transfert à l'américaine : enseignement général à Taylor's, puis transfert vers une université aux États-Unis, au Canada ou en Australie. Iowa State University et l'University of Alberta mentionnent le Taylor's ADP sur leurs pages officielles.",
+    "pt": "Programa de transferência no modelo americano: disciplinas gerais na Taylor's e depois transferência para uma universidade nos EUA/Canadá/Austrália. A Iowa State University e a University of Alberta citam o Taylor's ADP em suas páginas oficiais.",
+    "es": "Programa de transferencia de estilo estadounidense: asignaturas generales en Taylor's y luego transferencia a una universidad de EE. UU./Canadá/Australia. Iowa State University y University of Alberta incluyen el Taylor's ADP en sus páginas oficiales.",
+    "de": "Transferprogramm nach US-Modell: allgemeine Grundlagenfächer an der Taylor's, danach Wechsel an eine Universität in den USA/Kanada/Australien. Die Iowa State University und die University of Alberta führen das Taylor's ADP auf ihren offiziellen Seiten.",
+    "it": "Programma di trasferimento in stile americano: materie di base alla Taylor's, poi trasferimento in un'università negli USA/Canada/Australia. La Iowa State University e la University of Alberta elencano il Taylor's ADP sulle loro pagine ufficiali.",
+    "nl": "Transferprogramma in Amerikaanse stijl: algemene vakken aan Taylor's, daarna overstap naar een universiteit in de VS/Canada/Australië. Iowa State University en University of Alberta vermelden het Taylor's ADP op hun officiële pagina's.",
+    "ru": "Программа перевода по американской модели: общеобразовательные дисциплины в Taylor's, затем перевод в университет в США/Канаде/Австралии. Iowa State University и University of Alberta указывают Taylor's ADP на своих официальных страницах."
+   }
+  },
+  {
+   "id": "taylors-liverpool-uk-transfer",
+   "provider": "Taylor's University",
+   "start_country": "MY",
+   "start_city": "Subang Jaya",
+   "program": "UK Transfer Degree Programme to University of Liverpool",
+   "level": "Bachelor",
+   "field": null,
+   "route": "2+1 atau 1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Taylor's University"
+    },
+    {
+     "country": "UK",
+     "years": null,
+     "institution": "University of Liverpool"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of Liverpool"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://www.liverpool.ac.uk/law/study/international/international-partners/malaysian-study-partners",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "University of Liverpool mencantumkan Taylor's sebagai mitra UK Transfer Degree Programme: tahun terakhir (2+1) atau tahun 2 dan terakhir (1+2) di Liverpool.",
+    "en": "The University of Liverpool lists Taylor's as a UK Transfer Degree Programme partner: final year (2+1) or second and final years (1+2) at Liverpool.",
+    "th": "University of Liverpool ระบุ Taylor's เป็นพันธมิตร UK Transfer Degree Programme: เรียนปีสุดท้าย (2+1) หรือปีที่ 2 และปีสุดท้าย (1+2) ที่ Liverpool",
+    "vi": "University of Liverpool liệt kê Taylor's là đối tác UK Transfer Degree Programme: năm cuối (2+1) hoặc năm 2 và năm cuối (1+2) tại Liverpool.",
+    "zh": "University of Liverpool 将 Taylor's 列为 UK Transfer Degree Programme 合作院校：最后一年（2+1）或第二年及最后一年（1+2）在 Liverpool 就读。",
+    "ja": "University of Liverpool は Taylor's を UK Transfer Degree Programme の提携校として掲載：最終学年（2+1）または 2 年目と最終学年（1+2）を Liverpool で。",
+    "ko": "University of Liverpool은 Taylor's를 UK Transfer Degree Programme 협력 기관으로 명시: 마지막 학년(2+1) 또는 2학년과 마지막 학년(1+2)을 Liverpool에서.",
+    "km": "University of Liverpool ចុះ Taylor's ជាដៃគូ UK Transfer Degree Programme៖ ឆ្នាំចុងក្រោយ (2+1) ឬឆ្នាំទី 2 និងឆ្នាំចុងក្រោយ (1+2) នៅ Liverpool។",
+    "fr": "L'University of Liverpool mentionne Taylor's comme partenaire du UK Transfer Degree Programme : dernière année (2+1) ou 2e et dernière années (1+2) à Liverpool.",
+    "pt": "A University of Liverpool lista a Taylor's como parceira do UK Transfer Degree Programme: último ano (2+1) ou segundo e último anos (1+2) em Liverpool.",
+    "es": "University of Liverpool incluye a Taylor's como socio del UK Transfer Degree Programme: último año (2+1) o segundo y último años (1+2) en Liverpool.",
+    "de": "Die University of Liverpool führt Taylor's als Partner des UK Transfer Degree Programme: letztes Jahr (2+1) oder zweites und letztes Jahr (1+2) in Liverpool.",
+    "it": "La University of Liverpool elenca Taylor's come partner dello UK Transfer Degree Programme: ultimo anno (2+1) oppure secondo e ultimo anno (1+2) a Liverpool.",
+    "nl": "University of Liverpool vermeldt Taylor's als partner van het UK Transfer Degree Programme: laatste jaar (2+1) of tweede en laatste jaar (1+2) in Liverpool.",
+    "ru": "University of Liverpool указывает Taylor's как партнёра UK Transfer Degree Programme: последний год (2+1) или второй и последний годы (1+2) в Liverpool."
+   }
+  },
+  {
+   "id": "help-liverpool-uk-transfer",
+   "provider": "HELP University",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur",
+   "program": "UK Transfer Degree Programme to University of Liverpool",
+   "level": "Bachelor",
+   "field": null,
+   "route": "2+1 atau 1+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "HELP University"
+    },
+    {
+     "country": "UK",
+     "years": null,
+     "institution": "University of Liverpool"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of Liverpool"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://www.liverpool.ac.uk/law/study/international/international-partners/malaysian-study-partners",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "University of Liverpool mencantumkan HELP University sebagai mitra UK Transfer Degree Programme: 2+1 atau 1+2 dengan tahun akhir di Liverpool.",
+    "en": "The University of Liverpool lists HELP University as a UK Transfer Degree Programme partner: 2+1 or 1+2 with the final year(s) at Liverpool.",
+    "th": "University of Liverpool ระบุ HELP University เป็นพันธมิตร UK Transfer Degree Programme: แบบ 2+1 หรือ 1+2 โดยเรียนปีท้าย ๆ ที่ Liverpool",
+    "vi": "University of Liverpool liệt kê HELP University là đối tác UK Transfer Degree Programme: 2+1 hoặc 1+2, (các) năm cuối học tại Liverpool.",
+    "zh": "University of Liverpool 将 HELP University 列为 UK Transfer Degree Programme 合作院校：2+1 或 1+2，最后阶段在 Liverpool 就读。",
+    "ja": "University of Liverpool は HELP University を UK Transfer Degree Programme の提携校として掲載：2+1 または 1+2 で、最終学年を Liverpool で。",
+    "ko": "University of Liverpool은 HELP University를 UK Transfer Degree Programme 협력 기관으로 명시: 2+1 또는 1+2, 마지막 학년은 Liverpool에서.",
+    "km": "University of Liverpool ចុះ HELP University ជាដៃគូ UK Transfer Degree Programme៖ 2+1 ឬ 1+2 ដោយឆ្នាំចុងក្រោយសិក្សានៅ Liverpool។",
+    "fr": "L'University of Liverpool mentionne HELP University comme partenaire du UK Transfer Degree Programme : 2+1 ou 1+2, avec la ou les dernières années à Liverpool.",
+    "pt": "A University of Liverpool lista a HELP University como parceira do UK Transfer Degree Programme: 2+1 ou 1+2, com o(s) último(s) ano(s) em Liverpool.",
+    "es": "University of Liverpool incluye a HELP University como socio del UK Transfer Degree Programme: 2+1 o 1+2, con el/los último(s) año(s) en Liverpool.",
+    "de": "Die University of Liverpool führt die HELP University als Partner des UK Transfer Degree Programme: 2+1 oder 1+2, mit dem bzw. den letzten Jahren in Liverpool.",
+    "it": "La University of Liverpool elenca HELP University come partner dello UK Transfer Degree Programme: 2+1 o 1+2, con l'ultimo o gli ultimi anni a Liverpool.",
+    "nl": "University of Liverpool vermeldt HELP University als partner van het UK Transfer Degree Programme: 2+1 of 1+2, met het laatste jaar of de laatste jaren in Liverpool.",
+    "ru": "University of Liverpool указывает HELP University как партнёра UK Transfer Degree Programme: 2+1 или 1+2, последний год (годы) — в Liverpool."
+   }
+  },
+  {
+   "id": "help-academy-uwe-2-1",
+   "provider": "HELP Academy",
+   "start_country": "MY",
+   "start_city": "Kuala Lumpur",
+   "program": "BA (Hons) Accounting and Finance / BA (Hons) International Business Management (UWE Bristol)",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "2+1",
+   "stages": [
+    {
+     "country": "MY",
+     "years": 2,
+     "institution": "HELP Academy"
+    },
+    {
+     "country": "UK",
+     "years": 1,
+     "institution": "University of the West of England, Bristol"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of the West of England, Bristol (UWE Bristol)"
+   ],
+   "award": {
+    "id": "Ijazah dari University of the West of England, Bristol",
+    "en": "Degree from the University of the West of England, Bristol",
+    "th": "ปริญญาจาก University of the West of England, Bristol",
+    "vi": "Bằng của University of the West of England, Bristol",
+    "zh": "University of the West of England, Bristol 学位",
+    "ja": "University of the West of England, Bristol の学位",
+    "ko": "University of the West of England, Bristol 학위",
+    "km": "សញ្ញាបត្រពី University of the West of England, Bristol",
+    "fr": "Diplôme de University of the West of England, Bristol",
+    "pt": "Diploma emitido por University of the West of England, Bristol",
+    "es": "Título otorgado por University of the West of England, Bristol",
+    "de": "Abschluss von University of the West of England, Bristol",
+    "it": "Titolo rilasciato da University of the West of England, Bristol",
+    "nl": "Diploma van University of the West of England, Bristol",
+    "ru": "Диплом University of the West of England, Bristol"
+   },
+   "start_fee": 36000,
+   "currency": "MYR",
+   "fee_basis": {
+    "id": "Per tahun (biaya program 3+0 di KL, siswa internasional; sebelum Study Award)",
+    "en": "Per year (3+0 programme fee in KL, international students; before Study Award)",
+    "th": "ต่อปี (ค่าเรียนหลักสูตร 3+0 ที่ KL, นักศึกษาต่างชาติ; ก่อนหัก Study Award)",
+    "vi": "Mỗi năm (học phí chương trình 3+0 tại KL, sinh viên quốc tế; trước Study Award)",
+    "zh": "每年（KL 3+0 课程学费，国际学生；未扣除 Study Award）",
+    "ja": "年額（KL での 3+0 プログラム学費、留学生；Study Award 適用前）",
+    "ko": "연간 (KL 3+0 프로그램 학비, 유학생; Study Award 적용 전)",
+    "km": "ក្នុងមួយឆ្នាំ (ថ្លៃកម្មវិធី 3+0 នៅ KL, និស្សិតអន្តរជាតិ; មុនពេលកាត់ Study Award)",
+    "fr": "Par an (frais du programme 3+0 à KL, étudiants internationaux ; avant Study Award)",
+    "pt": "Por ano (taxa do programa 3+0 em KL, estudantes internacionais; antes do Study Award)",
+    "es": "Por año (tasa del programa 3+0 en KL, estudiantes internacionales; antes del Study Award)",
+    "de": "Pro Jahr (Gebühr des 3+0-Programms in KL, internationale Studierende; vor Study Award)",
+    "it": "All'anno (retta del programma 3+0 a KL, studenti internazionali; prima dello Study Award)",
+    "nl": "Per jaar (collegegeld 3+0-programma in KL, internationale studenten; vóór Study Award)",
+    "ru": "В год (стоимость программы 3+0 в KL, иностранные студенты; до учёта Study Award)"
+   },
+   "intakes": {
+    "id": "Jan 2027",
+    "en": "Jan 2027",
+    "th": "ม.ค. 2027",
+    "vi": "tháng 1/2027",
+    "zh": "2027年1月",
+    "ja": "2027年1月",
+    "ko": "2027년 1월",
+    "km": "មករា 2027",
+    "fr": "janv. 2027",
+    "pt": "jan 2027",
+    "es": "ene 2027",
+    "de": "Jan. 2027",
+    "it": "gen 2027",
+    "nl": "jan 2027",
+    "ru": "янв. 2027"
+   },
+   "english": null,
+   "url": "https://helpacademy.edu.my/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "2 tahun di HELP Academy Kuala Lumpur, lalu tahun terakhir di UWE Bristol, Inggris; ijazah dari UWE Bristol. Biaya 3+0 di KL RM 36.000/tahun (internasional).",
+    "en": "2 years at HELP Academy Kuala Lumpur, then the final year at UWE Bristol, UK; degree awarded by UWE Bristol. 3+0 fee in KL RM 36,000/year (international).",
+    "th": "เรียนที่ HELP Academy กัวลาลัมเปอร์ 2 ปี จากนั้นเรียนปีสุดท้ายที่ UWE Bristol สหราชอาณาจักร ปริญญาออกโดย UWE Bristol ค่าเรียนแบบ 3+0 ใน KL RM 36,000/ปี (นักศึกษาต่างชาติ)",
+    "vi": "2 năm tại HELP Academy Kuala Lumpur, sau đó năm cuối tại UWE Bristol, Anh; bằng do UWE Bristol cấp. Học phí 3+0 tại KL RM 36.000/năm (sinh viên quốc tế).",
+    "zh": "在 HELP Academy 吉隆坡学习 2 年，之后在英国 UWE Bristol 完成最后一年；学位由 UWE Bristol 颁发。KL 3+0 学费 RM 36,000/年（国际学生）。",
+    "ja": "HELP Academy クアラルンプールで 2 年間、その後英国の UWE Bristol で最終学年；学位は UWE Bristol が授与。KL での 3+0 学費は RM 36,000/年（留学生）。",
+    "ko": "HELP Academy 쿠알라룸푸르에서 2년, 이후 영국 UWE Bristol에서 마지막 학년; 학위는 UWE Bristol 수여. KL 3+0 학비 RM 36,000/년 (유학생).",
+    "km": "2 ឆ្នាំនៅ HELP Academy គូឡាឡាំពួរ បន្ទាប់មកឆ្នាំចុងក្រោយនៅ UWE Bristol ចក្រភពអង់គ្លេស; សញ្ញាបត្រចេញដោយ UWE Bristol។ ថ្លៃ 3+0 នៅ KL RM 36,000/ឆ្នាំ (និស្សិតអន្តរជាតិ)។",
+    "fr": "2 ans à HELP Academy Kuala Lumpur, puis la dernière année à UWE Bristol, Royaume-Uni ; diplôme délivré par UWE Bristol. Frais du 3+0 à KL : RM 36 000/an (étudiants internationaux).",
+    "pt": "2 anos na HELP Academy Kuala Lumpur e depois o último ano na UWE Bristol, Reino Unido; diploma emitido pela UWE Bristol. Taxa do 3+0 em KL: RM 36.000/ano (internacional).",
+    "es": "2 años en HELP Academy Kuala Lumpur y luego el último año en UWE Bristol, Reino Unido; título otorgado por UWE Bristol. Tasa del 3+0 en KL: RM 36.000/año (internacional).",
+    "de": "2 Jahre an der HELP Academy Kuala Lumpur, danach das letzte Jahr an der UWE Bristol, Großbritannien; Abschluss von UWE Bristol. Gebühr für 3+0 in KL: RM 36.000/Jahr (international).",
+    "it": "2 anni alla HELP Academy di Kuala Lumpur, poi l'ultimo anno alla UWE Bristol, Regno Unito; titolo rilasciato da UWE Bristol. Retta del 3+0 a KL: RM 36.000/anno (internazionali).",
+    "nl": "2 jaar aan HELP Academy Kuala Lumpur, daarna het laatste jaar aan UWE Bristol, VK; diploma uitgereikt door UWE Bristol. Collegegeld 3+0 in KL: RM 36.000/jaar (internationaal).",
+    "ru": "2 года в HELP Academy (Куала-Лумпур), затем последний год в UWE Bristol, Великобритания; диплом выдаёт UWE Bristol. Стоимость 3+0 в KL: RM 36 000 в год (иностранные студенты)."
+   }
+  },
+  {
+   "id": "inti-aup-us",
+   "provider": "INTI International University",
+   "start_country": "MY",
+   "start_city": "Nilai / Subang",
+   "program": "American University Program (AUP) - transfer degree",
+   "level": "Bachelor",
+   "field": "Business / Sciences / Psychology",
+   "route": "1+3 / 1.5+2.5 / 2+2",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "INTI International University"
+    },
+    {
+     "country": "US",
+     "years": null,
+     "institution": "Universitas tujuan di AS/Kanada"
+    }
+   ],
+   "destinations": [
+    "US",
+    "CA"
+   ],
+   "partners": [
+    "Iowa State University (US) - mencantumkan INTI sebagai institusi ADTP"
+   ],
+   "award": {
+    "id": "Ijazah dari universitas tujuan",
+    "en": "Degree from the destination university",
+    "th": "ปริญญาจากมหาวิทยาลัยปลายทาง",
+    "vi": "Bằng của trường đại học chuyển tiếp đến",
+    "zh": "目标大学颁发的学位",
+    "ja": "編入先大学の学位",
+    "ko": "편입 대학 학위",
+    "km": "សញ្ញាបត្រពីសាកលវិទ្យាល័យគោលដៅ",
+    "fr": "Diplôme de l'université d'accueil",
+    "pt": "Diploma da universidade de destino",
+    "es": "Título de la universidad de destino",
+    "de": "Abschluss der Zieluniversität",
+    "it": "Titolo dell'università di destinazione",
+    "nl": "Diploma van de bestemmingsuniversiteit",
+    "ru": "Диплом принимающего университета"
+   },
+   "start_fee": 47380,
+   "currency": "MYR",
+   "fee_basis": {
+    "id": "Mulai RM 47.380 (halaman tidak menyebut cakupan biaya)",
+    "en": "From RM 47,380 (the page does not state what the fee covers)",
+    "th": "เริ่มต้น RM 47,380 (หน้าเว็บไม่ได้ระบุว่าครอบคลุมค่าใช้จ่ายใดบ้าง)",
+    "vi": "Từ RM 47.380 (trang web không nêu chi phí bao gồm những gì)",
+    "zh": "RM 47,380 起（页面未说明费用包含哪些项目）",
+    "ja": "RM 47,380 から（ページには費用の内訳の記載なし）",
+    "ko": "RM 47,380부터 (페이지에 비용 포함 범위 미기재)",
+    "km": "ចាប់ពី RM 47,380 (ទំព័រមិនបានបញ្ជាក់ថាថ្លៃនេះរួមបញ្ចូលអ្វីខ្លះទេ)",
+    "fr": "À partir de RM 47 380 (la page ne précise pas ce que couvrent les frais)",
+    "pt": "A partir de RM 47.380 (a página não informa o que a taxa inclui)",
+    "es": "Desde RM 47.380 (la página no indica qué cubre la tasa)",
+    "de": "Ab RM 47.380 (die Seite nennt nicht, was die Gebühr abdeckt)",
+    "it": "Da RM 47.380 (la pagina non indica cosa copre la retta)",
+    "nl": "Vanaf RM 47.380 (de pagina vermeldt niet wat het bedrag dekt)",
+    "ru": "От RM 47 380 (на странице не указано, что входит в стоимость)"
+   },
+   "intakes": null,
+   "english": null,
+   "url": "https://newinti.edu.my/academic-programmes/american-university-program/why-study-aup/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program 4 tahun: mulai di INTI lalu transfer ke universitas AS/Kanada pada tahun 2, 3 atau 4 (skema 1+3, 1,5+2,5 atau 2+2). Iowa State University mencantumkan INTI sebagai mitra ADTP.",
+    "en": "4-year programme: start at INTI and transfer to a US/Canadian university in year 2, 3 or 4 (1+3, 1.5+2.5 or 2+2). Iowa State University lists INTI as an ADTP institution.",
+    "th": "หลักสูตร 4 ปี: เริ่มเรียนที่ INTI แล้วโอนไปมหาวิทยาลัยในสหรัฐฯ/แคนาดาในปีที่ 2, 3 หรือ 4 (1+3, 1.5+2.5 หรือ 2+2) Iowa State University ระบุ INTI เป็นสถาบัน ADTP",
+    "vi": "Chương trình 4 năm: bắt đầu tại INTI và chuyển tiếp đến một trường đại học ở Mỹ/Canada vào năm 2, 3 hoặc 4 (1+3, 1,5+2,5 hoặc 2+2). Iowa State University liệt kê INTI là cơ sở ADTP.",
+    "zh": "4 年制课程：在 INTI 开始学习，并在第 2、3 或 4 年转入美国/加拿大大学（1+3、1.5+2.5 或 2+2）。Iowa State University 将 INTI 列为 ADTP 院校。",
+    "ja": "4 年制プログラム：INTI で学び始め、2・3・4 年目に米国/カナダの大学へ編入（1+3、1.5+2.5 または 2+2）。Iowa State University は INTI を ADTP 校として掲載。",
+    "ko": "4년제 프로그램: INTI에서 시작해 2, 3 또는 4학년에 미국/캐나다 대학으로 편입 (1+3, 1.5+2.5 또는 2+2). Iowa State University는 INTI를 ADTP 기관으로 명시.",
+    "km": "កម្មវិធី 4 ឆ្នាំ៖ ចាប់ផ្តើមនៅ INTI ហើយផ្ទេរទៅសាកលវិទ្យាល័យនៅសហរដ្ឋអាមេរិក/កាណាដានៅឆ្នាំទី 2, 3 ឬ 4 (1+3, 1.5+2.5 ឬ 2+2)។ Iowa State University ចុះ INTI ជាស្ថាប័ន ADTP។",
+    "fr": "Programme de 4 ans : début à INTI, puis transfert vers une université aux États-Unis ou au Canada en 2e, 3e ou 4e année (1+3, 1,5+2,5 ou 2+2). Iowa State University mentionne INTI comme établissement ADTP.",
+    "pt": "Programa de 4 anos: começa na INTI e transfere para uma universidade nos EUA/Canadá no 2º, 3º ou 4º ano (1+3, 1,5+2,5 ou 2+2). A Iowa State University lista a INTI como instituição ADTP.",
+    "es": "Programa de 4 años: se empieza en INTI y se transfiere a una universidad de EE. UU./Canadá en el 2.º, 3.er o 4.º año (1+3, 1,5+2,5 o 2+2). Iowa State University incluye a INTI como institución ADTP.",
+    "de": "4-jähriges Programm: Start an der INTI und Wechsel an eine Universität in den USA/Kanada im 2., 3. oder 4. Jahr (1+3, 1,5+2,5 oder 2+2). Die Iowa State University führt INTI als ADTP-Institution.",
+    "it": "Programma di 4 anni: inizio all'INTI e trasferimento in un'università negli USA/Canada al 2°, 3° o 4° anno (1+3, 1,5+2,5 o 2+2). La Iowa State University elenca INTI come istituzione ADTP.",
+    "nl": "Programma van 4 jaar: start aan INTI en overstap naar een universiteit in de VS/Canada in jaar 2, 3 of 4 (1+3, 1,5+2,5 of 2+2). Iowa State University vermeldt INTI als ADTP-instelling.",
+    "ru": "4-летняя программа: начало в INTI и перевод в университет США/Канады на 2-м, 3-м или 4-м году (1+3, 1,5+2,5 или 2+2). Iowa State University указывает INTI как учреждение ADTP."
+   }
+  },
+  {
+   "id": "monash-my-melbourne",
+   "provider": "Monash University Malaysia",
+   "start_country": "MY",
+   "start_city": "Bandar Sunway",
+   "program": "Transfer to Monash University Australia (Melbourne)",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "Transfer kampus (pembagian tahun tidak disebut)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Monash University Malaysia"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Monash University (Melbourne)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Monash University (Melbourne, Australia)"
+   ],
+   "award": {
+    "id": "Ijazah Monash University",
+    "en": "Monash University degree",
+    "th": "ปริญญาจาก Monash University",
+    "vi": "Bằng của Monash University",
+    "zh": "Monash University 学位",
+    "ja": "Monash University の学位",
+    "ko": "Monash University 학위",
+    "km": "សញ្ញាបត្រពី Monash University",
+    "fr": "Diplôme de Monash University",
+    "pt": "Diploma emitido por Monash University",
+    "es": "Título otorgado por Monash University",
+    "de": "Abschluss von Monash University",
+    "it": "Titolo rilasciato da Monash University",
+    "nl": "Diploma van Monash University",
+    "ru": "Диплом Monash University"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Semester 1, 2027 (daftar kursus terbit setelah pendaftaran dibuka pada Agustus)",
+    "en": "Semester 1, 2027 (course list published after applications open in August)",
+    "th": "ภาคการศึกษาที่ 1 ปี 2027 (รายชื่อหลักสูตรประกาศหลังเปิดรับสมัครในเดือนสิงหาคม)",
+    "vi": "Học kỳ 1 năm 2027 (danh sách khóa học được công bố sau khi mở đăng ký vào tháng 8)",
+    "zh": "2027 年第 1 学期（课程名单在 8 月开放申请后公布）",
+    "ja": "2027 年第 1 学期（コース一覧は 8 月の出願開始後に公開）",
+    "ko": "2027년 1학기 (과정 목록은 8월 지원 접수 시작 후 공개)",
+    "km": "ឆមាសទី 1 ឆ្នាំ 2027 (បញ្ជីវគ្គសិក្សាប្រកាសបន្ទាប់ពីបើកការដាក់ពាក្យនៅខែសីហា)",
+    "fr": "Semestre 1, 2027 (liste des cours publiée après l'ouverture des candidatures en août)",
+    "pt": "Semestre 1, 2027 (lista de cursos publicada após a abertura das inscrições em agosto)",
+    "es": "Semestre 1, 2027 (lista de cursos publicada tras la apertura de solicitudes en agosto)",
+    "de": "Semester 1, 2027 (Kursliste wird nach Bewerbungsstart im August veröffentlicht)",
+    "it": "Semestre 1, 2027 (elenco dei corsi pubblicato dopo l'apertura delle candidature ad agosto)",
+    "nl": "Semester 1, 2027 (cursuslijst verschijnt nadat de aanmelding in augustus opent)",
+    "ru": "Семестр 1, 2027 (список курсов публикуется после открытия приёма заявок в августе)"
+   },
+   "english": null,
+   "url": "https://www.monash.edu.my/study/transfer",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mulai kuliah di Monash Malaysia lalu pindah ke Monash Melbourne. Syarat (mis. WAM minimum) ditetapkan tiap fakultas; daftar kursus Semester 1 2027 diumumkan di halaman Course Transfer Offering.",
+    "en": "Start at Monash Malaysia and transfer to Monash Melbourne. Requirements (e.g. minimum WAM) are set by each faculty; the Semester 1 2027 course list is published on the Course Transfer Offering page.",
+    "th": "เริ่มเรียนที่ Monash Malaysia แล้วย้ายไป Monash Melbourne เงื่อนไข (เช่น WAM ขั้นต่ำ) กำหนดโดยแต่ละคณะ รายชื่อหลักสูตรภาคการศึกษาที่ 1 ปี 2027 ประกาศในหน้า Course Transfer Offering",
+    "vi": "Bắt đầu tại Monash Malaysia và chuyển sang Monash Melbourne. Điều kiện (ví dụ WAM tối thiểu) do từng khoa quy định; danh sách khóa học Học kỳ 1 năm 2027 được công bố trên trang Course Transfer Offering.",
+    "zh": "在 Monash Malaysia 开始学习，之后转至 Monash Melbourne。要求（如最低 WAM）由各学院规定；2027 年第 1 学期课程名单在 Course Transfer Offering 页面公布。",
+    "ja": "Monash Malaysia で学び始め、Monash Melbourne へ移籍。条件（例：最低 WAM）は各学部が定める；2027 年第 1 学期のコース一覧は Course Transfer Offering ページで公開。",
+    "ko": "Monash Malaysia에서 시작해 Monash Melbourne으로 이동. 요건(예: 최소 WAM)은 각 학부가 정함; 2027년 1학기 과정 목록은 Course Transfer Offering 페이지에 게시.",
+    "km": "ចាប់ផ្តើមនៅ Monash Malaysia ហើយផ្ទេរទៅ Monash Melbourne។ លក្ខខណ្ឌ (ឧ. WAM អប្បបរមា) កំណត់ដោយមហាវិទ្យាល័យនីមួយៗ; បញ្ជីវគ្គសិក្សាឆមាសទី 1 ឆ្នាំ 2027 ត្រូវបានប្រកាសនៅលើទំព័រ Course Transfer Offering។",
+    "fr": "Début à Monash Malaysia, puis transfert à Monash Melbourne. Les conditions (p. ex. WAM minimum) sont fixées par chaque faculté ; la liste des cours du Semestre 1 2027 est publiée sur la page Course Transfer Offering.",
+    "pt": "Começa na Monash Malaysia e transfere para a Monash Melbourne. Os requisitos (ex.: WAM mínimo) são definidos por cada faculdade; a lista de cursos do Semestre 1 de 2027 é publicada na página Course Transfer Offering.",
+    "es": "Se empieza en Monash Malaysia y se transfiere a Monash Melbourne. Los requisitos (p. ej., WAM mínimo) los fija cada facultad; la lista de cursos del Semestre 1 de 2027 se publica en la página Course Transfer Offering.",
+    "de": "Start an der Monash Malaysia und Wechsel zur Monash Melbourne. Voraussetzungen (z. B. Mindest-WAM) legt jede Fakultät fest; die Kursliste für Semester 1 2027 erscheint auf der Seite Course Transfer Offering.",
+    "it": "Inizio alla Monash Malaysia e trasferimento alla Monash Melbourne. I requisiti (ad es. WAM minimo) sono fissati da ciascuna facoltà; l'elenco dei corsi del Semestre 1 2027 è pubblicato sulla pagina Course Transfer Offering.",
+    "nl": "Start aan Monash Malaysia en overstap naar Monash Melbourne. Eisen (bijv. minimale WAM) worden per faculteit bepaald; de cursuslijst voor Semester 1 2027 staat op de pagina Course Transfer Offering.",
+    "ru": "Начало обучения в Monash Malaysia и перевод в Monash Melbourne. Требования (например, минимальный WAM) устанавливает каждый факультет; список курсов на Семестр 1 2027 публикуется на странице Course Transfer Offering."
+   }
+  },
+  {
+   "id": "monash-id-melbourne-business-it",
+   "provider": "Monash University, Indonesia",
+   "start_country": "ID",
+   "start_city": "Tangerang (BSD City)",
+   "program": "Bachelor of Business / Digital Business / Information Technology - study transfer to Monash Australia",
+   "level": "Bachelor",
+   "field": "Business / IT",
+   "route": "1.5+1.5 (opsional; bisa 3 tahun penuh di Indonesia)",
+   "stages": [
+    {
+     "country": "ID",
+     "years": 1.5,
+     "institution": "Monash University, Indonesia"
+    },
+    {
+     "country": "AU",
+     "years": 1.5,
+     "institution": "Monash University (Australia)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Monash University (Australia)"
+   ],
+   "award": {
+    "id": "Satu ijazah Monash University",
+    "en": "One Monash University degree",
+    "th": "ปริญญาเดียวจาก Monash University",
+    "vi": "Một bằng duy nhất của Monash University",
+    "zh": "单一 Monash University 学位",
+    "ja": "Monash University の単一学位",
+    "ko": "Monash University 단일 학위",
+    "km": "សញ្ញាបត្រតែមួយពី Monash University",
+    "fr": "Un seul diplôme de Monash University",
+    "pt": "Um único diploma da Monash University",
+    "es": "Un único título de Monash University",
+    "de": "Ein einziger Abschluss der Monash University",
+    "it": "Un unico titolo della Monash University",
+    "nl": "Eén diploma van Monash University",
+    "ru": "Один диплом Monash University"
+   },
+   "start_fee": 207000000,
+   "currency": "IDR",
+   "fee_basis": {
+    "id": "Per tahun (siswa WNI, studi di Indonesia; siswa internasional Rp 231.840.000; di Australia mengikuti tarif Monash Australia)",
+    "en": "Per year (Indonesian citizens studying in Indonesia; international students IDR 231,840,000; in Australia, Monash Australia rates apply)",
+    "th": "ต่อปี (พลเมืองอินโดนีเซียที่เรียนในอินโดนีเซีย; นักศึกษาต่างชาติ IDR 231,840,000; ในออสเตรเลียใช้อัตราของ Monash Australia)",
+    "vi": "Mỗi năm (công dân Indonesia học tại Indonesia; sinh viên quốc tế IDR 231.840.000; tại Úc áp dụng mức phí của Monash Australia)",
+    "zh": "每年（在印尼就读的印尼公民；国际学生 IDR 231,840,000；在澳大利亚按 Monash Australia 收费标准）",
+    "ja": "年額（インドネシアで学ぶインドネシア国民；留学生 IDR 231,840,000；オーストラリアでは Monash Australia の学費を適用）",
+    "ko": "연간 (인도네시아에서 공부하는 인도네시아 국민; 유학생 IDR 231,840,000; 호주에서는 Monash Australia 학비 적용)",
+    "km": "ក្នុងមួយឆ្នាំ (ពលរដ្ឋឥណ្ឌូនេស៊ីដែលសិក្សានៅឥណ្ឌូនេស៊ី; និស្សិតអន្តរជាតិ IDR 231,840,000; នៅអូស្ត្រាលីអនុវត្តតាមតម្លៃ Monash Australia)",
+    "fr": "Par an (citoyens indonésiens étudiant en Indonésie ; étudiants internationaux IDR 231 840 000 ; en Australie, les tarifs de Monash Australia s'appliquent)",
+    "pt": "Por ano (cidadãos indonésios estudando na Indonésia; estudantes internacionais IDR 231.840.000; na Austrália valem as taxas da Monash Australia)",
+    "es": "Por año (ciudadanos indonesios que estudian en Indonesia; estudiantes internacionales IDR 231.840.000; en Australia se aplican las tarifas de Monash Australia)",
+    "de": "Pro Jahr (indonesische Staatsangehörige mit Studium in Indonesien; internationale Studierende IDR 231.840.000; in Australien gelten die Gebühren von Monash Australia)",
+    "it": "All'anno (cittadini indonesiani che studiano in Indonesia; studenti internazionali IDR 231.840.000; in Australia si applicano le rette di Monash Australia)",
+    "nl": "Per jaar (Indonesische staatsburgers die in Indonesië studeren; internationale studenten IDR 231.840.000; in Australië gelden de tarieven van Monash Australia)",
+    "ru": "В год (граждане Индонезии, обучающиеся в Индонезии; иностранные студенты IDR 231 840 000; в Австралии действуют тарифы Monash Australia)"
+   },
+   "intakes": {
+    "id": "Jul",
+    "en": "Jul",
+    "th": "ก.ค.",
+    "vi": "tháng 7",
+    "zh": "7月",
+    "ja": "7月",
+    "ko": "7월",
+    "km": "កក្កដា",
+    "fr": "juil.",
+    "pt": "jul",
+    "es": "jul",
+    "de": "Juli",
+    "it": "lug",
+    "nl": "jul",
+    "ru": "июль"
+   },
+   "english": {
+    "id": "IELTS Academic 6.5 (tiap band min. 6.0) / PTE 58 (tiap skill min. 50) / TOEFL iBT 79",
+    "en": "IELTS Academic 6.5 (no band below 6.0) / PTE 58 (no skill below 50) / TOEFL iBT 79",
+    "th": "IELTS Academic 6.5 (ทุกทักษะไม่ต่ำกว่า 6.0) / PTE 58 (ทุกทักษะไม่ต่ำกว่า 50) / TOEFL iBT 79",
+    "vi": "IELTS Academic 6.5 (không kỹ năng nào dưới 6.0) / PTE 58 (không kỹ năng nào dưới 50) / TOEFL iBT 79",
+    "zh": "IELTS Academic 6.5（单项不低于 6.0）/ PTE 58（单项不低于 50）/ TOEFL iBT 79",
+    "ja": "IELTS Academic 6.5（各バンド 6.0 以上）/ PTE 58（各技能 50 以上）/ TOEFL iBT 79",
+    "ko": "IELTS Academic 6.5 (각 영역 6.0 이상) / PTE 58 (각 영역 50 이상) / TOEFL iBT 79",
+    "km": "IELTS Academic 6.5 (គ្មានជំនាញណាក្រោម 6.0) / PTE 58 (គ្មានជំនាញណាក្រោម 50) / TOEFL iBT 79",
+    "fr": "IELTS Academic 6.5 (aucune note inférieure à 6.0) / PTE 58 (aucune compétence inférieure à 50) / TOEFL iBT 79",
+    "pt": "IELTS Academic 6.5 (nenhuma banda abaixo de 6.0) / PTE 58 (nenhuma habilidade abaixo de 50) / TOEFL iBT 79",
+    "es": "IELTS Academic 6.5 (ninguna banda inferior a 6.0) / PTE 58 (ninguna destreza inferior a 50) / TOEFL iBT 79",
+    "de": "IELTS Academic 6.5 (kein Band unter 6.0) / PTE 58 (keine Fertigkeit unter 50) / TOEFL iBT 79",
+    "it": "IELTS Academic 6.5 (nessuna banda inferiore a 6.0) / PTE 58 (nessuna abilità inferiore a 50) / TOEFL iBT 79",
+    "nl": "IELTS Academic 6.5 (geen onderdeel lager dan 6.0) / PTE 58 (geen vaardigheid lager dan 50) / TOEFL iBT 79",
+    "ru": "IELTS Academic 6.5 (ни один модуль ниже 6.0) / PTE 58 (ни один навык ниже 50) / TOEFL iBT 79"
+   },
+   "url": "https://www.monash.edu/indonesia/study/bachelor",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Kuliah 1,5 tahun di Monash Indonesia (BSD), lalu 1,5 tahun di Monash Australia (opsional). Biaya di Indonesia Rp 207 juta/tahun untuk WNI; di Australia mengikuti tarif Monash Australia.",
+    "en": "1.5 years at Monash Indonesia (BSD), then 1.5 years at Monash Australia (optional). Fee in Indonesia IDR 207 million/year for Indonesian citizens; Australian study follows Monash Australia rates.",
+    "th": "เรียนที่ Monash Indonesia (BSD) 1.5 ปี จากนั้นเรียนที่ Monash Australia อีก 1.5 ปี (ไม่บังคับ) ค่าเรียนในอินโดนีเซีย IDR 207,000,000/ปี สำหรับพลเมืองอินโดนีเซีย การเรียนในออสเตรเลียใช้อัตราของ Monash Australia",
+    "vi": "1,5 năm tại Monash Indonesia (BSD), sau đó 1,5 năm tại Monash Australia (không bắt buộc). Học phí tại Indonesia IDR 207 triệu/năm cho công dân Indonesia; giai đoạn học tại Úc áp dụng mức phí của Monash Australia.",
+    "zh": "在 Monash Indonesia（BSD）学习 1.5 年，之后可选择在 Monash Australia 学习 1.5 年。印尼公民在印尼的学费为 IDR 207,000,000/年；在澳大利亚学习按 Monash Australia 收费标准。",
+    "ja": "Monash Indonesia（BSD）で 1.5 年間、その後 Monash Australia で 1.5 年間（任意）。インドネシア国民のインドネシアでの学費は IDR 207,000,000/年；オーストラリアでの学費は Monash Australia の基準に従う。",
+    "ko": "Monash Indonesia(BSD)에서 1.5년, 이후 Monash Australia에서 1.5년 (선택). 인도네시아 국민의 인도네시아 학비 IDR 207,000,000/년; 호주 학업은 Monash Australia 학비 기준 적용.",
+    "km": "1.5 ឆ្នាំនៅ Monash Indonesia (BSD) បន្ទាប់មក 1.5 ឆ្នាំនៅ Monash Australia (ស្រេចចិត្ត)។ ថ្លៃសិក្សានៅឥណ្ឌូនេស៊ី IDR 207,000,000/ឆ្នាំ សម្រាប់ពលរដ្ឋឥណ្ឌូនេស៊ី; ការសិក្សានៅអូស្ត្រាលីអនុវត្តតាមតម្លៃ Monash Australia។",
+    "fr": "1,5 an à Monash Indonesia (BSD), puis 1,5 an à Monash Australia (facultatif). Frais en Indonésie : IDR 207 millions/an pour les citoyens indonésiens ; les études en Australie suivent les tarifs de Monash Australia.",
+    "pt": "1,5 ano na Monash Indonesia (BSD) e depois 1,5 ano na Monash Australia (opcional). Taxa na Indonésia: IDR 207 milhões/ano para cidadãos indonésios; o estudo na Austrália segue as taxas da Monash Australia.",
+    "es": "1,5 años en Monash Indonesia (BSD) y luego 1,5 años en Monash Australia (opcional). Tasa en Indonesia: IDR 207 millones/año para ciudadanos indonesios; los estudios en Australia siguen las tarifas de Monash Australia.",
+    "de": "1,5 Jahre an der Monash Indonesia (BSD), danach 1,5 Jahre an der Monash Australia (optional). Gebühr in Indonesien: IDR 207 Mio./Jahr für indonesische Staatsangehörige; für das Studium in Australien gelten die Gebühren von Monash Australia.",
+    "it": "1,5 anni alla Monash Indonesia (BSD), poi 1,5 anni alla Monash Australia (facoltativo). Retta in Indonesia: IDR 207 milioni/anno per i cittadini indonesiani; per lo studio in Australia valgono le rette di Monash Australia.",
+    "nl": "1,5 jaar aan Monash Indonesia (BSD), daarna 1,5 jaar aan Monash Australia (optioneel). Collegegeld in Indonesië: IDR 207 miljoen/jaar voor Indonesische staatsburgers; voor studie in Australië gelden de tarieven van Monash Australia.",
+    "ru": "1,5 года в Monash Indonesia (BSD), затем 1,5 года в Monash Australia (по желанию). Стоимость в Индонезии: IDR 207 млн в год для граждан Индонезии; обучение в Австралии — по тарифам Monash Australia."
+   }
+  },
+  {
+   "id": "monash-id-melbourne-design",
+   "provider": "Monash University, Indonesia",
+   "start_country": "ID",
+   "start_city": "Tangerang (BSD City)",
+   "program": "Bachelor of Design (mandatory transfer to Monash Australia)",
+   "level": "Bachelor",
+   "field": "Design",
+   "route": "1.5+1.5 (wajib)",
+   "stages": [
+    {
+     "country": "ID",
+     "years": 1.5,
+     "institution": "Monash University, Indonesia"
+    },
+    {
+     "country": "AU",
+     "years": 1.5,
+     "institution": "Monash University (Australia)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Monash University (Australia)"
+   ],
+   "award": {
+    "id": "Satu ijazah Monash University",
+    "en": "One Monash University degree",
+    "th": "ปริญญาเดียวจาก Monash University",
+    "vi": "Một bằng duy nhất của Monash University",
+    "zh": "单一 Monash University 学位",
+    "ja": "Monash University の単一学位",
+    "ko": "Monash University 단일 학위",
+    "km": "សញ្ញាបត្រតែមួយពី Monash University",
+    "fr": "Un seul diplôme de Monash University",
+    "pt": "Um único diploma da Monash University",
+    "es": "Un único título de Monash University",
+    "de": "Ein einziger Abschluss der Monash University",
+    "it": "Un unico titolo della Monash University",
+    "nl": "Eén diploma van Monash University",
+    "ru": "Один диплом Monash University"
+   },
+   "start_fee": 207000000,
+   "currency": "IDR",
+   "fee_basis": {
+    "id": "Per tahun (siswa WNI, studi di Indonesia; siswa internasional Rp 231.840.000; di Australia mengikuti tarif Monash Australia)",
+    "en": "Per year (Indonesian citizens studying in Indonesia; international students IDR 231,840,000; in Australia, Monash Australia rates apply)",
+    "th": "ต่อปี (พลเมืองอินโดนีเซียที่เรียนในอินโดนีเซีย; นักศึกษาต่างชาติ IDR 231,840,000; ในออสเตรเลียใช้อัตราของ Monash Australia)",
+    "vi": "Mỗi năm (công dân Indonesia học tại Indonesia; sinh viên quốc tế IDR 231.840.000; tại Úc áp dụng mức phí của Monash Australia)",
+    "zh": "每年（在印尼就读的印尼公民；国际学生 IDR 231,840,000；在澳大利亚按 Monash Australia 收费标准）",
+    "ja": "年額（インドネシアで学ぶインドネシア国民；留学生 IDR 231,840,000；オーストラリアでは Monash Australia の学費を適用）",
+    "ko": "연간 (인도네시아에서 공부하는 인도네시아 국민; 유학생 IDR 231,840,000; 호주에서는 Monash Australia 학비 적용)",
+    "km": "ក្នុងមួយឆ្នាំ (ពលរដ្ឋឥណ្ឌូនេស៊ីដែលសិក្សានៅឥណ្ឌូនេស៊ី; និស្សិតអន្តរជាតិ IDR 231,840,000; នៅអូស្ត្រាលីអនុវត្តតាមតម្លៃ Monash Australia)",
+    "fr": "Par an (citoyens indonésiens étudiant en Indonésie ; étudiants internationaux IDR 231 840 000 ; en Australie, les tarifs de Monash Australia s'appliquent)",
+    "pt": "Por ano (cidadãos indonésios estudando na Indonésia; estudantes internacionais IDR 231.840.000; na Austrália valem as taxas da Monash Australia)",
+    "es": "Por año (ciudadanos indonesios que estudian en Indonesia; estudiantes internacionales IDR 231.840.000; en Australia se aplican las tarifas de Monash Australia)",
+    "de": "Pro Jahr (indonesische Staatsangehörige mit Studium in Indonesien; internationale Studierende IDR 231.840.000; in Australien gelten die Gebühren von Monash Australia)",
+    "it": "All'anno (cittadini indonesiani che studiano in Indonesia; studenti internazionali IDR 231.840.000; in Australia si applicano le rette di Monash Australia)",
+    "nl": "Per jaar (Indonesische staatsburgers die in Indonesië studeren; internationale studenten IDR 231.840.000; in Australië gelden de tarieven van Monash Australia)",
+    "ru": "В год (граждане Индонезии, обучающиеся в Индонезии; иностранные студенты IDR 231 840 000; в Австралии действуют тарифы Monash Australia)"
+   },
+   "intakes": {
+    "id": "Jul",
+    "en": "Jul",
+    "th": "ก.ค.",
+    "vi": "tháng 7",
+    "zh": "7月",
+    "ja": "7月",
+    "ko": "7월",
+    "km": "កក្កដា",
+    "fr": "juil.",
+    "pt": "jul",
+    "es": "jul",
+    "de": "Juli",
+    "it": "lug",
+    "nl": "jul",
+    "ru": "июль"
+   },
+   "english": {
+    "id": "IELTS Academic 6.5 (tiap band min. 6.0) / PTE 58 (tiap skill min. 50) / TOEFL iBT 79",
+    "en": "IELTS Academic 6.5 (no band below 6.0) / PTE 58 (no skill below 50) / TOEFL iBT 79",
+    "th": "IELTS Academic 6.5 (ทุกทักษะไม่ต่ำกว่า 6.0) / PTE 58 (ทุกทักษะไม่ต่ำกว่า 50) / TOEFL iBT 79",
+    "vi": "IELTS Academic 6.5 (không kỹ năng nào dưới 6.0) / PTE 58 (không kỹ năng nào dưới 50) / TOEFL iBT 79",
+    "zh": "IELTS Academic 6.5（单项不低于 6.0）/ PTE 58（单项不低于 50）/ TOEFL iBT 79",
+    "ja": "IELTS Academic 6.5（各バンド 6.0 以上）/ PTE 58（各技能 50 以上）/ TOEFL iBT 79",
+    "ko": "IELTS Academic 6.5 (각 영역 6.0 이상) / PTE 58 (각 영역 50 이상) / TOEFL iBT 79",
+    "km": "IELTS Academic 6.5 (គ្មានជំនាញណាក្រោម 6.0) / PTE 58 (គ្មានជំនាញណាក្រោម 50) / TOEFL iBT 79",
+    "fr": "IELTS Academic 6.5 (aucune note inférieure à 6.0) / PTE 58 (aucune compétence inférieure à 50) / TOEFL iBT 79",
+    "pt": "IELTS Academic 6.5 (nenhuma banda abaixo de 6.0) / PTE 58 (nenhuma habilidade abaixo de 50) / TOEFL iBT 79",
+    "es": "IELTS Academic 6.5 (ninguna banda inferior a 6.0) / PTE 58 (ninguna destreza inferior a 50) / TOEFL iBT 79",
+    "de": "IELTS Academic 6.5 (kein Band unter 6.0) / PTE 58 (keine Fertigkeit unter 50) / TOEFL iBT 79",
+    "it": "IELTS Academic 6.5 (nessuna banda inferiore a 6.0) / PTE 58 (nessuna abilità inferiore a 50) / TOEFL iBT 79",
+    "nl": "IELTS Academic 6.5 (geen onderdeel lager dan 6.0) / PTE 58 (geen vaardigheid lager dan 50) / TOEFL iBT 79",
+    "ru": "IELTS Academic 6.5 (ни один модуль ниже 6.0) / PTE 58 (ни один навык ниже 50) / TOEFL iBT 79"
+   },
+   "url": "https://www.monash.edu/indonesia/study/bachelor",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Bachelor of Design: 1,5 tahun di Monash Indonesia lalu wajib 1,5 tahun di Monash Australia untuk studio. Biaya di Indonesia Rp 207 juta/tahun untuk WNI.",
+    "en": "Bachelor of Design: 1.5 years at Monash Indonesia, then a mandatory 1.5 years at Monash Australia for studio learning. Fee in Indonesia IDR 207 million/year for Indonesian citizens.",
+    "th": "Bachelor of Design: เรียนที่ Monash Indonesia 1.5 ปี จากนั้นต้องเรียนที่ Monash Australia อีก 1.5 ปีสำหรับการเรียนในสตูดิโอ ค่าเรียนในอินโดนีเซีย IDR 207,000,000/ปี สำหรับพลเมืองอินโดนีเซีย",
+    "vi": "Bachelor of Design: 1,5 năm tại Monash Indonesia, sau đó bắt buộc 1,5 năm tại Monash Australia để học studio. Học phí tại Indonesia IDR 207 triệu/năm cho công dân Indonesia.",
+    "zh": "Bachelor of Design：在 Monash Indonesia 学习 1.5 年，之后必须在 Monash Australia 学习 1.5 年工作室课程。印尼公民在印尼的学费为 IDR 207,000,000/年。",
+    "ja": "Bachelor of Design：Monash Indonesia で 1.5 年間、その後スタジオ学習のため Monash Australia で 1.5 年間（必須）。インドネシア国民のインドネシアでの学費は IDR 207,000,000/年。",
+    "ko": "Bachelor of Design: Monash Indonesia에서 1.5년, 이후 스튜디오 학습을 위해 Monash Australia에서 1.5년 (필수). 인도네시아 국민의 인도네시아 학비 IDR 207,000,000/년.",
+    "km": "Bachelor of Design៖ 1.5 ឆ្នាំនៅ Monash Indonesia បន្ទាប់មកត្រូវសិក្សា 1.5 ឆ្នាំនៅ Monash Australia សម្រាប់ការរៀនក្នុងស្ទូឌីយោ (ចាំបាច់)។ ថ្លៃសិក្សានៅឥណ្ឌូនេស៊ី IDR 207,000,000/ឆ្នាំ សម្រាប់ពលរដ្ឋឥណ្ឌូនេស៊ី។",
+    "fr": "Bachelor of Design : 1,5 an à Monash Indonesia, puis 1,5 an obligatoire à Monash Australia pour l'apprentissage en atelier. Frais en Indonésie : IDR 207 millions/an pour les citoyens indonésiens.",
+    "pt": "Bachelor of Design: 1,5 ano na Monash Indonesia e depois 1,5 ano obrigatório na Monash Australia para o aprendizado em estúdio. Taxa na Indonésia: IDR 207 milhões/ano para cidadãos indonésios.",
+    "es": "Bachelor of Design: 1,5 años en Monash Indonesia y luego 1,5 años obligatorios en Monash Australia para el aprendizaje en estudio. Tasa en Indonesia: IDR 207 millones/año para ciudadanos indonesios.",
+    "de": "Bachelor of Design: 1,5 Jahre an der Monash Indonesia, danach verpflichtend 1,5 Jahre an der Monash Australia für das Studio-Lernen. Gebühr in Indonesien: IDR 207 Mio./Jahr für indonesische Staatsangehörige.",
+    "it": "Bachelor of Design: 1,5 anni alla Monash Indonesia, poi 1,5 anni obbligatori alla Monash Australia per l'apprendimento in studio. Retta in Indonesia: IDR 207 milioni/anno per i cittadini indonesiani.",
+    "nl": "Bachelor of Design: 1,5 jaar aan Monash Indonesia, daarna verplicht 1,5 jaar aan Monash Australia voor studio-onderwijs. Collegegeld in Indonesië: IDR 207 miljoen/jaar voor Indonesische staatsburgers.",
+    "ru": "Bachelor of Design: 1,5 года в Monash Indonesia, затем обязательные 1,5 года в Monash Australia для студийного обучения. Стоимость в Индонезии: IDR 207 млн в год для граждан Индонезии."
+   }
+  },
+  {
+   "id": "curtin-my-perth",
+   "provider": "Curtin University Malaysia",
+   "start_country": "MY",
+   "start_city": "Miri, Sarawak",
+   "program": "Curtin Campus Transfer Program to Curtin Perth",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "Transfer kampus (kapan saja setelah mulai studi)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Curtin University Malaysia"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Curtin University (Perth)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Curtin University (Perth)"
+   ],
+   "award": {
+    "id": "Ijazah Curtin University",
+    "en": "Curtin University degree",
+    "th": "ปริญญาจาก Curtin University",
+    "vi": "Bằng của Curtin University",
+    "zh": "Curtin University 学位",
+    "ja": "Curtin University の学位",
+    "ko": "Curtin University 학위",
+    "km": "សញ្ញាបត្រពី Curtin University",
+    "fr": "Diplôme de Curtin University",
+    "pt": "Diploma emitido por Curtin University",
+    "es": "Título otorgado por Curtin University",
+    "de": "Abschluss von Curtin University",
+    "it": "Titolo rilasciato da Curtin University",
+    "nl": "Diploma van Curtin University",
+    "ru": "Диплом Curtin University"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Daftar min. 5 bulan sebelum semester/trimester dimulai",
+    "en": "Apply at least 5 months before the semester/trimester starts",
+    "th": "สมัครล่วงหน้าอย่างน้อย 5 เดือนก่อนเริ่มภาคการศึกษา/ไตรมาส",
+    "vi": "Nộp đơn ít nhất 5 tháng trước khi học kỳ/tam cá nguyệt bắt đầu",
+    "zh": "至少在学期/三学期制学期开始前 5 个月申请",
+    "ja": "セメスター/トライメスター開始の 5 か月以上前に出願",
+    "ko": "학기/트라이메스터 시작 최소 5개월 전 지원",
+    "km": "ដាក់ពាក្យយ៉ាងហោចណាស់ 5 ខែមុនឆមាស/ត្រីមាសចាប់ផ្តើម",
+    "fr": "Postuler au moins 5 mois avant le début du semestre/trimestre",
+    "pt": "Inscreva-se pelo menos 5 meses antes do início do semestre/trimestre",
+    "es": "Solicita al menos 5 meses antes del inicio del semestre/trimestre",
+    "de": "Bewirb dich mindestens 5 Monate vor Beginn des Semesters/Trimesters",
+    "it": "Candidarsi almeno 5 mesi prima dell'inizio del semestre/trimestre",
+    "nl": "Meld je minstens 5 maanden vóór de start van het semester/trimester aan",
+    "ru": "Подавать заявку не позднее чем за 5 месяцев до начала семестра/триместра"
+   },
+   "english": {
+    "id": "Umumnya tidak perlu tes baru, kecuali kursus tujuan mensyaratkan nilai lebih tinggi",
+    "en": "Usually no new test needed, unless the destination course requires a higher score",
+    "th": "โดยทั่วไปไม่ต้องสอบใหม่ เว้นแต่หลักสูตรปลายทางกำหนดคะแนนสูงกว่า",
+    "vi": "Thường không cần thi lại, trừ khi khóa học chuyển đến yêu cầu điểm cao hơn",
+    "zh": "通常无需重新考试，除非目标课程要求更高分数",
+    "ja": "通常は新たな試験は不要（編入先コースがより高いスコアを求める場合を除く）",
+    "ko": "일반적으로 새 시험 불필요 (편입 과정이 더 높은 점수를 요구하는 경우 제외)",
+    "km": "ជាទូទៅមិនចាំបាច់ប្រឡងថ្មីទេ លើកលែងតែវគ្គសិក្សាគោលដៅតម្រូវពិន្ទុខ្ពស់ជាង",
+    "fr": "En général, pas de nouveau test, sauf si le cours d'accueil exige un score plus élevé",
+    "pt": "Em geral não é preciso novo teste, a menos que o curso de destino exija nota mais alta",
+    "es": "Por lo general no se necesita un nuevo examen, salvo que el curso de destino exija una nota más alta",
+    "de": "In der Regel kein neuer Test nötig, außer der Zielkurs verlangt eine höhere Punktzahl",
+    "it": "Di norma non serve un nuovo test, salvo che il corso di destinazione richieda un punteggio più alto",
+    "nl": "Meestal geen nieuwe test nodig, tenzij de bestemmingsopleiding een hogere score vereist",
+    "ru": "Обычно новый тест не нужен, если только курс назначения не требует более высокого балла"
+   },
+   "url": "https://www.curtin.edu.au/study/learning-experience/global-study/campus-transfers",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa Curtin Malaysia (Miri) bisa pindah ke Curtin Perth dengan kalender & kurikulum sama; ada Curtin Global Talent Scholarship untuk yang pindah ke Perth.",
+    "en": "Curtin Malaysia (Miri) students can transfer to Curtin Perth with the same calendar and curriculum; the Curtin Global Talent Scholarship is available to students transferring to Perth.",
+    "th": "นักศึกษา Curtin Malaysia (Miri) สามารถย้ายไป Curtin Perth โดยใช้ปฏิทินการศึกษาและหลักสูตรเดียวกัน มีทุน Curtin Global Talent Scholarship สำหรับนักศึกษาที่ย้ายไปเพิร์ธ",
+    "vi": "Sinh viên Curtin Malaysia (Miri) có thể chuyển sang Curtin Perth với cùng lịch học và chương trình; có học bổng Curtin Global Talent Scholarship cho sinh viên chuyển sang Perth.",
+    "zh": "Curtin Malaysia（Miri）的学生可转至 Curtin Perth，校历与课程相同；转往珀斯的学生可申请 Curtin Global Talent Scholarship。",
+    "ja": "Curtin Malaysia（Miri）の学生は同じ学年暦・カリキュラムで Curtin Perth へ移籍可能；パースへ移る学生向けに Curtin Global Talent Scholarship あり。",
+    "ko": "Curtin Malaysia(Miri) 학생은 동일한 학사 일정과 교육과정으로 Curtin Perth로 이동 가능; 퍼스로 이동하는 학생에게 Curtin Global Talent Scholarship 제공.",
+    "km": "និស្សិត Curtin Malaysia (Miri) អាចផ្ទេរទៅ Curtin Perth ដោយប្រើប្រតិទិន និងកម្មវិធីសិក្សាដូចគ្នា; មានអាហារូបករណ៍ Curtin Global Talent Scholarship សម្រាប់និស្សិតដែលផ្ទេរទៅភើត។",
+    "fr": "Les étudiants de Curtin Malaysia (Miri) peuvent être transférés à Curtin Perth avec le même calendrier et le même cursus ; la Curtin Global Talent Scholarship est proposée aux étudiants transférés à Perth.",
+    "pt": "Estudantes da Curtin Malaysia (Miri) podem transferir-se para a Curtin Perth com o mesmo calendário e currículo; a Curtin Global Talent Scholarship está disponível para quem se transfere para Perth.",
+    "es": "Los estudiantes de Curtin Malaysia (Miri) pueden transferirse a Curtin Perth con el mismo calendario y plan de estudios; la Curtin Global Talent Scholarship está disponible para quienes se transfieren a Perth.",
+    "de": "Studierende der Curtin Malaysia (Miri) können mit gleichem Kalender und Lehrplan an die Curtin Perth wechseln; für den Wechsel nach Perth gibt es die Curtin Global Talent Scholarship.",
+    "it": "Gli studenti di Curtin Malaysia (Miri) possono trasferirsi a Curtin Perth con lo stesso calendario e curriculum; per chi si trasferisce a Perth è disponibile la Curtin Global Talent Scholarship.",
+    "nl": "Studenten van Curtin Malaysia (Miri) kunnen overstappen naar Curtin Perth met dezelfde kalender en hetzelfde curriculum; voor wie naar Perth gaat is de Curtin Global Talent Scholarship beschikbaar.",
+    "ru": "Студенты Curtin Malaysia (Miri) могут перевестись в Curtin Perth с тем же академическим календарём и учебным планом; для переводящихся в Перт доступна Curtin Global Talent Scholarship."
+   }
+  },
+  {
+   "id": "curtin-sg-perth",
+   "provider": "Curtin Singapore",
+   "start_country": "SG",
+   "start_city": "Singapore",
+   "program": "Curtin Campus Transfer Program to Curtin Perth",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "Transfer kampus (kapan saja setelah mulai studi)",
+   "stages": [
+    {
+     "country": "SG",
+     "years": null,
+     "institution": "Curtin Singapore"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Curtin University (Perth)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Curtin University (Perth)"
+   ],
+   "award": {
+    "id": "Ijazah Curtin University",
+    "en": "Curtin University degree",
+    "th": "ปริญญาจาก Curtin University",
+    "vi": "Bằng của Curtin University",
+    "zh": "Curtin University 学位",
+    "ja": "Curtin University の学位",
+    "ko": "Curtin University 학위",
+    "km": "សញ្ញាបត្រពី Curtin University",
+    "fr": "Diplôme de Curtin University",
+    "pt": "Diploma emitido por Curtin University",
+    "es": "Título otorgado por Curtin University",
+    "de": "Abschluss von Curtin University",
+    "it": "Titolo rilasciato da Curtin University",
+    "nl": "Diploma van Curtin University",
+    "ru": "Диплом Curtin University"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Daftar min. 5 bulan sebelum semester/trimester dimulai",
+    "en": "Apply at least 5 months before the semester/trimester starts",
+    "th": "สมัครล่วงหน้าอย่างน้อย 5 เดือนก่อนเริ่มภาคการศึกษา/ไตรมาส",
+    "vi": "Nộp đơn ít nhất 5 tháng trước khi học kỳ/tam cá nguyệt bắt đầu",
+    "zh": "至少在学期/三学期制学期开始前 5 个月申请",
+    "ja": "セメスター/トライメスター開始の 5 か月以上前に出願",
+    "ko": "학기/트라이메스터 시작 최소 5개월 전 지원",
+    "km": "ដាក់ពាក្យយ៉ាងហោចណាស់ 5 ខែមុនឆមាស/ត្រីមាសចាប់ផ្តើម",
+    "fr": "Postuler au moins 5 mois avant le début du semestre/trimestre",
+    "pt": "Inscreva-se pelo menos 5 meses antes do início do semestre/trimestre",
+    "es": "Solicita al menos 5 meses antes del inicio del semestre/trimestre",
+    "de": "Bewirb dich mindestens 5 Monate vor Beginn des Semesters/Trimesters",
+    "it": "Candidarsi almeno 5 mesi prima dell'inizio del semestre/trimestre",
+    "nl": "Meld je minstens 5 maanden vóór de start van het semester/trimester aan",
+    "ru": "Подавать заявку не позднее чем за 5 месяцев до начала семестра/триместра"
+   },
+   "english": {
+    "id": "Umumnya tidak perlu tes baru, kecuali kursus tujuan mensyaratkan nilai lebih tinggi",
+    "en": "Usually no new test needed, unless the destination course requires a higher score",
+    "th": "โดยทั่วไปไม่ต้องสอบใหม่ เว้นแต่หลักสูตรปลายทางกำหนดคะแนนสูงกว่า",
+    "vi": "Thường không cần thi lại, trừ khi khóa học chuyển đến yêu cầu điểm cao hơn",
+    "zh": "通常无需重新考试，除非目标课程要求更高分数",
+    "ja": "通常は新たな試験は不要（編入先コースがより高いスコアを求める場合を除く）",
+    "ko": "일반적으로 새 시험 불필요 (편입 과정이 더 높은 점수를 요구하는 경우 제외)",
+    "km": "ជាទូទៅមិនចាំបាច់ប្រឡងថ្មីទេ លើកលែងតែវគ្គសិក្សាគោលដៅតម្រូវពិន្ទុខ្ពស់ជាង",
+    "fr": "En général, pas de nouveau test, sauf si le cours d'accueil exige un score plus élevé",
+    "pt": "Em geral não é preciso novo teste, a menos que o curso de destino exija nota mais alta",
+    "es": "Por lo general no se necesita un nuevo examen, salvo que el curso de destino exija una nota más alta",
+    "de": "In der Regel kein neuer Test nötig, außer der Zielkurs verlangt eine höhere Punktzahl",
+    "it": "Di norma non serve un nuovo test, salvo che il corso di destinazione richieda un punteggio più alto",
+    "nl": "Meestal geen nieuwe test nodig, tenzij de bestemmingsopleiding een hogere score vereist",
+    "ru": "Обычно новый тест не нужен, если только курс назначения не требует более высокого балла"
+   },
+   "url": "https://curtin.edu.sg/campus-transfer",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa Curtin Singapore bisa melanjutkan di Curtin Perth (semua kursus Singapura tersedia di Perth); biaya mengikuti offer letter Perth.",
+    "en": "Curtin Singapore students can continue at Curtin Perth (all Singapore courses are available in Perth); fees follow the Perth offer letter.",
+    "th": "นักศึกษา Curtin Singapore สามารถเรียนต่อที่ Curtin Perth (ทุกหลักสูตรในสิงคโปร์มีเปิดสอนที่เพิร์ธ) ค่าเรียนเป็นไปตาม offer letter ของเพิร์ธ",
+    "vi": "Sinh viên Curtin Singapore có thể học tiếp tại Curtin Perth (mọi khóa học ở Singapore đều có tại Perth); học phí theo offer letter của Perth.",
+    "zh": "Curtin Singapore 的学生可在 Curtin Perth 继续学习（新加坡的所有课程在珀斯均有开设）；学费以珀斯的 offer letter 为准。",
+    "ja": "Curtin Singapore の学生は Curtin Perth で学業を継続可能（シンガポールの全コースがパースで開講）；学費はパースの offer letter に従う。",
+    "ko": "Curtin Singapore 학생은 Curtin Perth에서 학업을 이어갈 수 있음 (싱가포르의 모든 과정이 퍼스에 개설); 학비는 퍼스 offer letter 기준.",
+    "km": "និស្សិត Curtin Singapore អាចបន្តការសិក្សានៅ Curtin Perth (វគ្គសិក្សាទាំងអស់នៅសិង្ហបុរីមាននៅភើត); ថ្លៃសិក្សាអនុវត្តតាម offer letter របស់ភើត។",
+    "fr": "Les étudiants de Curtin Singapore peuvent poursuivre à Curtin Perth (tous les cours de Singapour sont proposés à Perth) ; les frais suivent l'offer letter de Perth.",
+    "pt": "Estudantes da Curtin Singapore podem continuar na Curtin Perth (todos os cursos de Singapura são oferecidos em Perth); as taxas seguem a offer letter de Perth.",
+    "es": "Los estudiantes de Curtin Singapore pueden continuar en Curtin Perth (todos los cursos de Singapur se ofrecen en Perth); las tasas siguen la offer letter de Perth.",
+    "de": "Studierende der Curtin Singapore können an der Curtin Perth weiterstudieren (alle Kurse aus Singapur werden in Perth angeboten); die Gebühren richten sich nach dem Offer Letter von Perth.",
+    "it": "Gli studenti di Curtin Singapore possono proseguire a Curtin Perth (tutti i corsi di Singapore sono disponibili a Perth); le rette seguono l'offer letter di Perth.",
+    "nl": "Studenten van Curtin Singapore kunnen verder studeren aan Curtin Perth (alle opleidingen uit Singapore worden in Perth aangeboden); het collegegeld volgt de offer letter van Perth.",
+    "ru": "Студенты Curtin Singapore могут продолжить обучение в Curtin Perth (все курсы Сингапура доступны в Перте); стоимость — по offer letter Перта."
+   }
+  },
+  {
+   "id": "swinburne-sarawak-nextgen-way",
+   "provider": "Swinburne University of Technology Sarawak Campus",
+   "start_country": "MY",
+   "start_city": "Kuching, Sarawak",
+   "program": "nextgen_way - start at Swinburne Sarawak, continue at Swinburne Melbourne",
+   "level": "Bachelor",
+   "field": "Business / IT / Design / Media",
+   "route": "Sarawak lalu Melbourne (lama tiap tahap tidak disebut)",
+   "stages": [
+    {
+     "country": "MY",
+     "years": null,
+     "institution": "Swinburne University of Technology Sarawak Campus"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Swinburne University of Technology (Melbourne)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Swinburne University of Technology (Melbourne)"
+   ],
+   "award": {
+    "id": "Ijazah Swinburne",
+    "en": "Swinburne degree",
+    "th": "ปริญญาจาก Swinburne",
+    "vi": "Bằng của Swinburne",
+    "zh": "Swinburne 学位",
+    "ja": "Swinburne の学位",
+    "ko": "Swinburne 학위",
+    "km": "សញ្ញាបត្រពី Swinburne",
+    "fr": "Diplôme de Swinburne",
+    "pt": "Diploma emitido por Swinburne",
+    "es": "Título otorgado por Swinburne",
+    "de": "Abschluss von Swinburne",
+    "it": "Titolo rilasciato da Swinburne",
+    "nl": "Diploma van Swinburne",
+    "ru": "Диплом Swinburne"
+   },
+   "start_fee": 39440,
+   "currency": "MYR",
+   "fee_basis": {
+    "id": "Per tahun (2026, Media and Communication, siswa internasional; program lain berbeda)",
+    "en": "Per year (2026, Media and Communication, international students; other programmes differ)",
+    "th": "ต่อปี (2026, Media and Communication, นักศึกษาต่างชาติ; หลักสูตรอื่นมีค่าเรียนต่างกัน)",
+    "vi": "Mỗi năm (2026, Media and Communication, sinh viên quốc tế; các chương trình khác có mức phí khác)",
+    "zh": "每年（2026 年，Media and Communication，国际学生；其他课程费用不同）",
+    "ja": "年額（2026 年、Media and Communication、留学生；他のプログラムは異なる）",
+    "ko": "연간 (2026년, Media and Communication, 유학생; 다른 프로그램은 상이)",
+    "km": "ក្នុងមួយឆ្នាំ (2026, Media and Communication, និស្សិតអន្តរជាតិ; កម្មវិធីផ្សេងទៀតមានតម្លៃខុសគ្នា)",
+    "fr": "Par an (2026, Media and Communication, étudiants internationaux ; les autres programmes diffèrent)",
+    "pt": "Por ano (2026, Media and Communication, estudantes internacionais; outros programas têm valores diferentes)",
+    "es": "Por año (2026, Media and Communication, estudiantes internacionales; otros programas varían)",
+    "de": "Pro Jahr (2026, Media and Communication, internationale Studierende; andere Programme abweichend)",
+    "it": "All'anno (2026, Media and Communication, studenti internazionali; altri programmi diversi)",
+    "nl": "Per jaar (2026, Media and Communication, internationale studenten; andere programma's wijken af)",
+    "ru": "В год (2026 г., Media and Communication, иностранные студенты; для других программ стоимость иная)"
+   },
+   "intakes": {
+    "id": "3 Mar, 2 Sep",
+    "en": "3 Mar, 2 Sep",
+    "th": "3 มี.ค., 2 ก.ย.",
+    "vi": "3/3, 2/9",
+    "zh": "3月3日、9月2日",
+    "ja": "3月3日、9月2日",
+    "ko": "3월 3일, 9월 2일",
+    "km": "3 មីនា, 2 កញ្ញា",
+    "fr": "3 mars, 2 sept.",
+    "pt": "3 mar, 2 set",
+    "es": "3 mar, 2 sep",
+    "de": "3. März, 2. Sep.",
+    "it": "3 mar, 2 set",
+    "nl": "3 mrt, 2 sep",
+    "ru": "3 марта, 2 сентября"
+   },
+   "english": null,
+   "url": "https://swinburne.edu.my/apply-now/next-gen-way/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mulai di Swinburne Sarawak lalu pindah ke Swinburne Melbourne; siswa menerima 2 offer letter dan study plan berisi nilai minimum. Bidang: Business/Law, Computer Science, Design, Media & Communication.",
+    "en": "Start at Swinburne Sarawak and move to Swinburne Melbourne; students receive 2 offer letters and a study plan with required grades. Areas: Business/Law, Computer Science, Design, Media & Communication.",
+    "th": "เริ่มเรียนที่ Swinburne Sarawak แล้วย้ายไป Swinburne Melbourne นักศึกษาจะได้รับ offer letter 2 ฉบับและแผนการเรียนที่ระบุเกรดที่ต้องได้ สาขา: Business/Law, Computer Science, Design, Media & Communication",
+    "vi": "Bắt đầu tại Swinburne Sarawak và chuyển sang Swinburne Melbourne; sinh viên nhận 2 offer letter và một study plan ghi rõ điểm cần đạt. Lĩnh vực: Business/Law, Computer Science, Design, Media & Communication.",
+    "zh": "在 Swinburne Sarawak 开始学习，之后转至 Swinburne Melbourne；学生会收到 2 份 offer letter 及一份注明所需成绩的学习计划。领域：Business/Law、Computer Science、Design、Media & Communication。",
+    "ja": "Swinburne Sarawak で学び始め、Swinburne Melbourne へ移籍；学生は 2 通の offer letter と必要成績を記した学習計画を受け取る。分野：Business/Law、Computer Science、Design、Media & Communication。",
+    "ko": "Swinburne Sarawak에서 시작해 Swinburne Melbourne으로 이동; 학생은 offer letter 2부와 필요 성적이 명시된 학습 계획을 받음. 분야: Business/Law, Computer Science, Design, Media & Communication.",
+    "km": "ចាប់ផ្តើមនៅ Swinburne Sarawak ហើយផ្ទេរទៅ Swinburne Melbourne; និស្សិតទទួលបាន offer letter 2 និងផែនការសិក្សាដែលបញ្ជាក់ពិន្ទុដែលត្រូវការ។ វិស័យ៖ Business/Law, Computer Science, Design, Media & Communication។",
+    "fr": "Début à Swinburne Sarawak, puis transfert à Swinburne Melbourne ; les étudiants reçoivent 2 offer letters et un plan d'études indiquant les notes requises. Domaines : Business/Law, Computer Science, Design, Media & Communication.",
+    "pt": "Começa na Swinburne Sarawak e transfere para a Swinburne Melbourne; o estudante recebe 2 offer letters e um plano de estudos com as notas exigidas. Áreas: Business/Law, Computer Science, Design, Media & Communication.",
+    "es": "Se empieza en Swinburne Sarawak y se pasa a Swinburne Melbourne; el estudiante recibe 2 offer letters y un plan de estudios con las notas requeridas. Áreas: Business/Law, Computer Science, Design, Media & Communication.",
+    "de": "Start an der Swinburne Sarawak und Wechsel zur Swinburne Melbourne; du erhältst 2 Offer Letters und einen Studienplan mit den erforderlichen Noten. Bereiche: Business/Law, Computer Science, Design, Media & Communication.",
+    "it": "Inizio a Swinburne Sarawak e trasferimento a Swinburne Melbourne; lo studente riceve 2 offer letter e un piano di studi con i voti richiesti. Aree: Business/Law, Computer Science, Design, Media & Communication.",
+    "nl": "Start aan Swinburne Sarawak en overstap naar Swinburne Melbourne; studenten krijgen 2 offer letters en een studieplan met de vereiste cijfers. Gebieden: Business/Law, Computer Science, Design, Media & Communication.",
+    "ru": "Начало обучения в Swinburne Sarawak и переход в Swinburne Melbourne; студент получает 2 offer letter и учебный план с требуемыми оценками. Направления: Business/Law, Computer Science, Design, Media & Communication."
+   }
+  },
+  {
+   "id": "rmit-vn-melbourne-business",
+   "provider": "RMIT University Vietnam",
+   "start_country": "VN",
+   "start_city": "Ho Chi Minh City / Hanoi",
+   "program": "Business programs - international pathway to RMIT Melbourne",
+   "level": "Bachelor",
+   "field": "Business",
+   "route": "1+2",
+   "stages": [
+    {
+     "country": "VN",
+     "years": 1,
+     "institution": "RMIT University Vietnam"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "RMIT University (Melbourne)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "RMIT University (Melbourne)"
+   ],
+   "award": {
+    "id": "Ijazah RMIT University",
+    "en": "RMIT University degree",
+    "th": "ปริญญาจาก RMIT University",
+    "vi": "Bằng của RMIT University",
+    "zh": "RMIT University 学位",
+    "ja": "RMIT University の学位",
+    "ko": "RMIT University 학위",
+    "km": "សញ្ញាបត្រពី RMIT University",
+    "fr": "Diplôme de RMIT University",
+    "pt": "Diploma emitido por RMIT University",
+    "es": "Título otorgado por RMIT University",
+    "de": "Abschluss von RMIT University",
+    "it": "Titolo rilasciato da RMIT University",
+    "nl": "Diploma van RMIT University",
+    "ru": "Диплом RMIT University"
+   },
+   "start_fee": 394656000,
+   "currency": "VND",
+   "fee_basis": {
+    "id": "Per tahun (estimasi 2027, Bachelor of Business, siswa baru; ±USD 15.104)",
+    "en": "Per year (2027 estimate, Bachelor of Business, new students; approx. USD 15,104)",
+    "th": "ต่อปี (ประมาณการปี 2027, Bachelor of Business, นักศึกษาใหม่; ประมาณ USD 15,104)",
+    "vi": "Mỗi năm (ước tính 2027, Bachelor of Business, sinh viên mới; khoảng USD 15.104)",
+    "zh": "每年（2027 年估算，Bachelor of Business，新生；约 USD 15,104）",
+    "ja": "年額（2027 年の概算、Bachelor of Business、新入生；約 USD 15,104）",
+    "ko": "연간 (2027년 추정, Bachelor of Business, 신입생; 약 USD 15,104)",
+    "km": "ក្នុងមួយឆ្នាំ (ការប៉ាន់ស្មានឆ្នាំ 2027, Bachelor of Business, និស្សិតថ្មី; ប្រហែល USD 15,104)",
+    "fr": "Par an (estimation 2027, Bachelor of Business, nouveaux étudiants ; env. USD 15 104)",
+    "pt": "Por ano (estimativa 2027, Bachelor of Business, novos estudantes; aprox. USD 15.104)",
+    "es": "Por año (estimación 2027, Bachelor of Business, estudiantes nuevos; aprox. USD 15.104)",
+    "de": "Pro Jahr (Schätzung 2027, Bachelor of Business, neue Studierende; ca. USD 15.104)",
+    "it": "All'anno (stima 2027, Bachelor of Business, nuovi studenti; circa USD 15.104)",
+    "nl": "Per jaar (schatting 2027, Bachelor of Business, nieuwe studenten; ca. USD 15.104)",
+    "ru": "В год (оценка на 2027 г., Bachelor of Business, новые студенты; около USD 15 104)"
+   },
+   "intakes": null,
+   "english": null,
+   "url": "https://rmit.edu.vn/study-at-rmit/global-experiences/permanent-transfer-to-melbourne/transfer-to-melbourne-for-prospective-students/business-and-management",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program bisnis di RMIT Vietnam, lalu 2 tahun di RMIT Melbourne (syarat GPA min. 1.0, tanpa gagal ganda). Estimasi 2027 VND 394.656.000/tahun di Vietnam.",
+    "en": "1 year of a business programme at RMIT Vietnam, then 2 years at RMIT Melbourne (GPA 1.0+, no double fails). 2027 estimate VND 394,656,000/year in Vietnam.",
+    "th": "เรียนหลักสูตรธุรกิจที่ RMIT Vietnam 1 ปี จากนั้นเรียนที่ RMIT Melbourne อีก 2 ปี (GPA 1.0 ขึ้นไป และไม่สอบตกวิชาเดียวกันซ้ำ) ประมาณการปี 2027 VND 394,656,000/ปี ในเวียดนาม",
+    "vi": "1 năm chương trình kinh doanh tại RMIT Vietnam, sau đó 2 năm tại RMIT Melbourne (GPA từ 1.0, không trượt môn hai lần). Ước tính 2027 VND 394.656.000/năm tại Việt Nam.",
+    "zh": "在 RMIT Vietnam 修读 1 年商科课程，之后在 RMIT Melbourne 学习 2 年（GPA 1.0 以上，无同一科目两次不及格）。2027 年在越南的估算为 VND 394,656,000/年。",
+    "ja": "RMIT Vietnam でビジネス課程を 1 年間、その後 RMIT Melbourne で 2 年間（GPA 1.0 以上、同一科目の 2 回不合格なし）。2027 年のベトナムでの概算は VND 394,656,000/年。",
+    "ko": "RMIT Vietnam에서 비즈니스 과정 1년, 이후 RMIT Melbourne에서 2년 (GPA 1.0 이상, 같은 과목 2회 낙제 없음). 2027년 베트남 학비 추정 VND 394,656,000/년.",
+    "km": "1 ឆ្នាំកម្មវិធីពាណិជ្ជកម្មនៅ RMIT Vietnam បន្ទាប់មក 2 ឆ្នាំនៅ RMIT Melbourne (GPA ចាប់ពី 1.0 គ្មានការធ្លាក់មុខវិជ្ជាដដែលពីរដង)។ ប៉ាន់ស្មានឆ្នាំ 2027 VND 394,656,000/ឆ្នាំ នៅវៀតណាម។",
+    "fr": "1 an d'un programme de commerce à RMIT Vietnam, puis 2 ans à RMIT Melbourne (GPA 1.0 minimum, pas de double échec). Estimation 2027 : VND 394 656 000/an au Vietnam.",
+    "pt": "1 ano de um programa de negócios na RMIT Vietnam e depois 2 anos na RMIT Melbourne (GPA a partir de 1.0, sem reprovação dupla). Estimativa 2027: VND 394.656.000/ano no Vietnã.",
+    "es": "1 año de un programa de negocios en RMIT Vietnam y luego 2 años en RMIT Melbourne (GPA desde 1.0, sin suspensos dobles). Estimación 2027: VND 394.656.000/año en Vietnam.",
+    "de": "1 Jahr eines Business-Programms an der RMIT Vietnam, danach 2 Jahre an der RMIT Melbourne (GPA ab 1.0, kein doppeltes Nichtbestehen). Schätzung 2027: VND 394.656.000/Jahr in Vietnam.",
+    "it": "1 anno di un programma di business alla RMIT Vietnam, poi 2 anni alla RMIT Melbourne (GPA almeno 1.0, nessuna doppia bocciatura). Stima 2027: VND 394.656.000/anno in Vietnam.",
+    "nl": "1 jaar van een businessprogramma aan RMIT Vietnam, daarna 2 jaar aan RMIT Melbourne (GPA vanaf 1.0, geen dubbele onvoldoende). Schatting 2027: VND 394.656.000/jaar in Vietnam.",
+    "ru": "1 год бизнес-программы в RMIT Vietnam, затем 2 года в RMIT Melbourne (GPA от 1.0, без двойного провала). Оценка на 2027 г.: VND 394 656 000 в год во Вьетнаме."
+   }
+  },
+  {
+   "id": "rmit-vn-melbourne-it-engineering",
+   "provider": "RMIT University Vietnam",
+   "start_country": "VN",
+   "start_city": "Ho Chi Minh City / Hanoi",
+   "program": "IT and Engineering programs - international pathway to RMIT Melbourne",
+   "level": "Bachelor",
+   "field": "IT / Engineering",
+   "route": "1+2 atau 1+3",
+   "stages": [
+    {
+     "country": "VN",
+     "years": 1,
+     "institution": "RMIT University Vietnam"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "RMIT University (Melbourne) (2-3 tahun)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "RMIT University (Melbourne)"
+   ],
+   "award": {
+    "id": "Ijazah RMIT University",
+    "en": "RMIT University degree",
+    "th": "ปริญญาจาก RMIT University",
+    "vi": "Bằng của RMIT University",
+    "zh": "RMIT University 学位",
+    "ja": "RMIT University の学位",
+    "ko": "RMIT University 학위",
+    "km": "សញ្ញាបត្រពី RMIT University",
+    "fr": "Diplôme de RMIT University",
+    "pt": "Diploma emitido por RMIT University",
+    "es": "Título otorgado por RMIT University",
+    "de": "Abschluss von RMIT University",
+    "it": "Titolo rilasciato da RMIT University",
+    "nl": "Diploma van RMIT University",
+    "ru": "Диплом RMIT University"
+   },
+   "start_fee": 394656000,
+   "currency": "VND",
+   "fee_basis": {
+    "id": "Per tahun (estimasi 2027, IT/Computer Science/Engineering, siswa baru; ±USD 15.104)",
+    "en": "Per year (2027 estimate, IT/Computer Science/Engineering, new students; approx. USD 15,104)",
+    "th": "ต่อปี (ประมาณการปี 2027, IT/Computer Science/Engineering, นักศึกษาใหม่; ประมาณ USD 15,104)",
+    "vi": "Mỗi năm (ước tính 2027, IT/Computer Science/Engineering, sinh viên mới; khoảng USD 15.104)",
+    "zh": "每年（2027 年估算，IT/Computer Science/Engineering，新生；约 USD 15,104）",
+    "ja": "年額（2027 年の概算、IT/Computer Science/Engineering、新入生；約 USD 15,104）",
+    "ko": "연간 (2027년 추정, IT/Computer Science/Engineering, 신입생; 약 USD 15,104)",
+    "km": "ក្នុងមួយឆ្នាំ (ការប៉ាន់ស្មានឆ្នាំ 2027, IT/Computer Science/Engineering, និស្សិតថ្មី; ប្រហែល USD 15,104)",
+    "fr": "Par an (estimation 2027, IT/Computer Science/Engineering, nouveaux étudiants ; env. USD 15 104)",
+    "pt": "Por ano (estimativa 2027, IT/Computer Science/Engineering, novos estudantes; aprox. USD 15.104)",
+    "es": "Por año (estimación 2027, IT/Computer Science/Engineering, estudiantes nuevos; aprox. USD 15.104)",
+    "de": "Pro Jahr (Schätzung 2027, IT/Computer Science/Engineering, neue Studierende; ca. USD 15.104)",
+    "it": "All'anno (stima 2027, IT/Computer Science/Engineering, nuovi studenti; circa USD 15.104)",
+    "nl": "Per jaar (schatting 2027, IT/Computer Science/Engineering, nieuwe studenten; ca. USD 15.104)",
+    "ru": "В год (оценка на 2027 г., IT/Computer Science/Engineering, новые студенты; около USD 15 104)"
+   },
+   "intakes": null,
+   "english": null,
+   "url": "https://rmit.edu.vn/study-at-rmit/global-experiences/permanent-transfer-to-melbourne/transfer-to-melbourne-for-prospective-students/it-and-engineering",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "1 tahun program IT/engineering di RMIT Vietnam, lalu 2-3 tahun di RMIT Melbourne (program yang sama). Estimasi 2027 VND 394.656.000/tahun di Vietnam.",
+    "en": "1 year of an IT/engineering programme at RMIT Vietnam, then 2-3 years at RMIT Melbourne (same program). 2027 estimate VND 394,656,000/year in Vietnam.",
+    "th": "เรียนหลักสูตร IT/วิศวกรรมที่ RMIT Vietnam 1 ปี จากนั้นเรียนที่ RMIT Melbourne อีก 2-3 ปี (หลักสูตรเดียวกัน) ประมาณการปี 2027 VND 394,656,000/ปี ในเวียดนาม",
+    "vi": "1 năm chương trình IT/kỹ thuật tại RMIT Vietnam, sau đó 2-3 năm tại RMIT Melbourne (cùng chương trình). Ước tính 2027 VND 394.656.000/năm tại Việt Nam.",
+    "zh": "在 RMIT Vietnam 修读 1 年 IT/工程课程，之后在 RMIT Melbourne 学习 2-3 年（同一课程）。2027 年在越南的估算为 VND 394,656,000/年。",
+    "ja": "RMIT Vietnam で IT/工学課程を 1 年間、その後 RMIT Melbourne で 2-3 年間（同じプログラム）。2027 年のベトナムでの概算は VND 394,656,000/年。",
+    "ko": "RMIT Vietnam에서 IT/공학 과정 1년, 이후 RMIT Melbourne에서 2-3년 (동일 프로그램). 2027년 베트남 학비 추정 VND 394,656,000/년.",
+    "km": "1 ឆ្នាំកម្មវិធី IT/វិស្វកម្មនៅ RMIT Vietnam បន្ទាប់មក 2-3 ឆ្នាំនៅ RMIT Melbourne (កម្មវិធីដដែល)។ ប៉ាន់ស្មានឆ្នាំ 2027 VND 394,656,000/ឆ្នាំ នៅវៀតណាម។",
+    "fr": "1 an d'un programme IT/ingénierie à RMIT Vietnam, puis 2 à 3 ans à RMIT Melbourne (même programme). Estimation 2027 : VND 394 656 000/an au Vietnam.",
+    "pt": "1 ano de um programa de TI/engenharia na RMIT Vietnam e depois 2-3 anos na RMIT Melbourne (mesmo programa). Estimativa 2027: VND 394.656.000/ano no Vietnã.",
+    "es": "1 año de un programa de TI/ingeniería en RMIT Vietnam y luego 2-3 años en RMIT Melbourne (mismo programa). Estimación 2027: VND 394.656.000/año en Vietnam.",
+    "de": "1 Jahr eines IT-/Ingenieur-Programms an der RMIT Vietnam, danach 2-3 Jahre an der RMIT Melbourne (gleiches Programm). Schätzung 2027: VND 394.656.000/Jahr in Vietnam.",
+    "it": "1 anno di un programma IT/ingegneria alla RMIT Vietnam, poi 2-3 anni alla RMIT Melbourne (stesso programma). Stima 2027: VND 394.656.000/anno in Vietnam.",
+    "nl": "1 jaar van een IT-/engineeringprogramma aan RMIT Vietnam, daarna 2-3 jaar aan RMIT Melbourne (zelfde programma). Schatting 2027: VND 394.656.000/jaar in Vietnam.",
+    "ru": "1 год программы IT/инженерии в RMIT Vietnam, затем 2-3 года в RMIT Melbourne (та же программа). Оценка на 2027 г.: VND 394 656 000 в год во Вьетнаме."
+   }
+  },
+  {
+   "id": "murdoch-dubai-perth",
+   "provider": "Murdoch University Dubai",
+   "start_country": "AE",
+   "start_city": "Dubai",
+   "program": "Transfer to Murdoch University Perth campus",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "Transfer kampus (setelah tiap teaching period)",
+   "stages": [
+    {
+     "country": "AE",
+     "years": null,
+     "institution": "Murdoch University Dubai"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Murdoch University (Perth)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Murdoch University (Perth)"
+   ],
+   "award": {
+    "id": "Ijazah Murdoch University",
+    "en": "Murdoch University degree",
+    "th": "ปริญญาจาก Murdoch University",
+    "vi": "Bằng của Murdoch University",
+    "zh": "Murdoch University 学位",
+    "ja": "Murdoch University の学位",
+    "ko": "Murdoch University 학위",
+    "km": "សញ្ញាបត្រពី Murdoch University",
+    "fr": "Diplôme de Murdoch University",
+    "pt": "Diploma emitido por Murdoch University",
+    "es": "Título otorgado por Murdoch University",
+    "de": "Abschluss von Murdoch University",
+    "it": "Titolo rilasciato da Murdoch University",
+    "nl": "Diploma van Murdoch University",
+    "ru": "Диплом Murdoch University"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Perth: Feb, Jul (sebagian PG Business: Jan, Mei, Sep)",
+    "en": "Perth: Feb, Jul (some PG Business: Jan, May, Sep)",
+    "th": "Perth: ก.พ., ก.ค. (PG Business บางหลักสูตร: ม.ค., พ.ค., ก.ย.)",
+    "vi": "Perth: tháng 2, tháng 7 (một số chương trình PG Business: tháng 1, tháng 5, tháng 9)",
+    "zh": "Perth: 2月、7月 (部分 PG Business 课程: 1月、5月、9月)",
+    "ja": "Perth: 2月、7月 (一部の PG Business: 1月、5月、9月)",
+    "ko": "Perth: 2월, 7월 (일부 PG Business: 1월, 5월, 9월)",
+    "km": "Perth: កុម្ភៈ, កក្កដា (PG Business មួយចំនួន: មករា, ឧសភា, កញ្ញា)",
+    "fr": "Perth: févr., juil. (certains PG Business: janv., mai, sept.)",
+    "pt": "Perth: fev, jul (alguns PG Business: jan, mai, set)",
+    "es": "Perth: feb, jul (algunos PG Business: ene, may, sep)",
+    "de": "Perth: Feb., Juli (einige PG-Business-Programme: Jan., Mai, Sep.)",
+    "it": "Perth: feb, lug (alcuni PG Business: gen, mag, set)",
+    "nl": "Perth: feb, jul (sommige PG Business: jan, mei, sep)",
+    "ru": "Perth: февр., июль (некоторые PG Business: янв., май, сент.)"
+   },
+   "english": null,
+   "url": "https://www.murdoch.edu.au/tne/resources-and-forms/transferring-to-the-perth-campus",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mulai di Murdoch Dubai lalu pindah ke Perth setelah teaching period selesai. Transfer 2026: TNE Transfer Scholarship potongan 25% untuk periode pertama di Perth.",
+    "en": "Start at Murdoch Dubai and transfer to Perth after a teaching period. 2026 transfers: TNE Transfer Scholarship gives 25% off the first Perth teaching period.",
+    "th": "เริ่มเรียนที่ Murdoch Dubai แล้วย้ายไปเพิร์ธหลังจบ teaching period ผู้ย้ายในปี 2026: ทุน TNE Transfer Scholarship ลด 25% สำหรับ teaching period แรกที่เพิร์ธ",
+    "vi": "Bắt đầu tại Murdoch Dubai và chuyển sang Perth sau một teaching period. Chuyển trường năm 2026: học bổng TNE Transfer Scholarship giảm 25% cho teaching period đầu tiên tại Perth.",
+    "zh": "在 Murdoch Dubai 开始学习，完成一个 teaching period 后转至珀斯。2026 年转学：TNE Transfer Scholarship 为珀斯首个 teaching period 减免 25%。",
+    "ja": "Murdoch Dubai で学び始め、teaching period 修了後にパースへ移籍。2026 年の移籍者：TNE Transfer Scholarship によりパースの最初の teaching period が 25% 減額。",
+    "ko": "Murdoch Dubai에서 시작해 teaching period 이수 후 퍼스로 이동. 2026년 이동자: TNE Transfer Scholarship으로 퍼스 첫 teaching period 25% 할인.",
+    "km": "ចាប់ផ្តើមនៅ Murdoch Dubai ហើយផ្ទេរទៅភើតបន្ទាប់ពីបញ្ចប់ teaching period មួយ។ ការផ្ទេរឆ្នាំ 2026៖ TNE Transfer Scholarship បញ្ចុះ 25% សម្រាប់ teaching period ដំបូងនៅភើត។",
+    "fr": "Début à Murdoch Dubai, puis transfert à Perth après une teaching period. Transferts 2026 : la TNE Transfer Scholarship accorde 25 % de réduction sur la première teaching period à Perth.",
+    "pt": "Começa na Murdoch Dubai e transfere para Perth após um teaching period. Transferências em 2026: a TNE Transfer Scholarship dá 25% de desconto no primeiro teaching period em Perth.",
+    "es": "Se empieza en Murdoch Dubai y se pasa a Perth tras un teaching period. Transferencias 2026: la TNE Transfer Scholarship da un 25% de descuento en el primer teaching period en Perth.",
+    "de": "Start an der Murdoch Dubai und Wechsel nach Perth nach einer Teaching Period. Wechsel 2026: Die TNE Transfer Scholarship gewährt 25 % Ermäßigung auf die erste Teaching Period in Perth.",
+    "it": "Inizio a Murdoch Dubai e trasferimento a Perth dopo un teaching period. Trasferimenti 2026: la TNE Transfer Scholarship offre il 25% di sconto sul primo teaching period a Perth.",
+    "nl": "Start aan Murdoch Dubai en overstap naar Perth na een teaching period. Overstappers in 2026: de TNE Transfer Scholarship geeft 25% korting op de eerste teaching period in Perth.",
+    "ru": "Начало обучения в Murdoch Dubai и перевод в Перт после одного teaching period. Переводы 2026 г.: TNE Transfer Scholarship даёт скидку 25% на первый teaching period в Перте."
+   }
+  },
+  {
+   "id": "kaplan-sg-murdoch-perth",
+   "provider": "Kaplan Higher Education Academy (Kaplan Singapore)",
+   "start_country": "SG",
+   "start_city": "Singapore",
+   "program": "Murdoch University degrees at Kaplan - transfer to Murdoch Perth",
+   "level": "Bachelor",
+   "field": "Business / IT / Psychology",
+   "route": "Transfer kampus (setelah tiap teaching period)",
+   "stages": [
+    {
+     "country": "SG",
+     "years": null,
+     "institution": "Kaplan Singapore (Murdoch University program)"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Murdoch University (Perth)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Murdoch University (Perth)"
+   ],
+   "award": {
+    "id": "Ijazah Murdoch University (sama dengan lulusan kampus Australia)",
+    "en": "Murdoch University degree (same as for Australian campus graduates)",
+    "th": "ปริญญาจาก Murdoch University (เหมือนผู้สำเร็จการศึกษาจากวิทยาเขตออสเตรเลีย)",
+    "vi": "Bằng của Murdoch University (giống sinh viên tốt nghiệp tại cơ sở Úc)",
+    "zh": "Murdoch University 学位（与澳大利亚校区毕业生相同）",
+    "ja": "Murdoch University の学位（オーストラリア校の卒業生と同じ）",
+    "ko": "Murdoch University 학위 (호주 캠퍼스 졸업생과 동일)",
+    "km": "សញ្ញាបត្រពី Murdoch University (ដូចនិស្សិតបញ្ចប់ការសិក្សានៅសាខាអូស្ត្រាលី)",
+    "fr": "Diplôme de Murdoch University (identique à celui des diplômés du campus australien)",
+    "pt": "Diploma emitido por Murdoch University (igual ao dos formados no campus australiano)",
+    "es": "Título otorgado por Murdoch University (igual que el de los graduados del campus australiano)",
+    "de": "Abschluss von Murdoch University (wie für Absolventen des australischen Campus)",
+    "it": "Titolo rilasciato da Murdoch University (uguale a quello dei laureati del campus australiano)",
+    "nl": "Diploma van Murdoch University (gelijk aan dat van afgestudeerden van de Australische campus)",
+    "ru": "Диплом Murdoch University (такой же, как у выпускников австралийского кампуса)"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Perth: Feb, Jul",
+    "en": "Perth: Feb, Jul",
+    "th": "Perth: ก.พ., ก.ค.",
+    "vi": "Perth: tháng 2, tháng 7",
+    "zh": "Perth: 2月、7月",
+    "ja": "Perth: 2月、7月",
+    "ko": "Perth: 2월, 7월",
+    "km": "Perth: កុម្ភៈ, កក្កដា",
+    "fr": "Perth: févr., juil.",
+    "pt": "Perth: fev, jul",
+    "es": "Perth: feb, jul",
+    "de": "Perth: Feb., Juli",
+    "it": "Perth: feb, lug",
+    "nl": "Perth: feb, jul",
+    "ru": "Perth: февр., июль"
+   },
+   "english": null,
+   "url": "https://www.murdoch.edu.au/tne/resources-and-forms/transferring-to-the-perth-campus",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa program Murdoch di Singapura bisa pindah ke Murdoch Perth setelah teaching period selesai; transfer 2026 dapat potongan 25% periode pertama.",
+    "en": "Students on Murdoch programs in Singapore can transfer to Murdoch Perth after a teaching period; 2026 transfers get 25% off the first period.",
+    "th": "นักศึกษาหลักสูตร Murdoch ในสิงคโปร์สามารถย้ายไป Murdoch Perth หลังจบ teaching period ผู้ย้ายในปี 2026 ได้ส่วนลด 25% สำหรับ period แรก",
+    "vi": "Sinh viên các chương trình Murdoch tại Singapore có thể chuyển sang Murdoch Perth sau một teaching period; chuyển trường năm 2026 được giảm 25% cho period đầu tiên.",
+    "zh": "在新加坡修读 Murdoch 课程的学生可在完成一个 teaching period 后转至 Murdoch Perth；2026 年转学者首个 period 可减免 25%。",
+    "ja": "シンガポールで Murdoch のプログラムを学ぶ学生は teaching period 修了後に Murdoch Perth へ移籍可能；2026 年の移籍者は最初の period が 25% 減額。",
+    "ko": "싱가포르에서 Murdoch 프로그램을 수강하는 학생은 teaching period 이수 후 Murdoch Perth로 이동 가능; 2026년 이동자는 첫 period 25% 할인.",
+    "km": "និស្សិតកម្មវិធី Murdoch នៅសិង្ហបុរីអាចផ្ទេរទៅ Murdoch Perth បន្ទាប់ពីបញ្ចប់ teaching period មួយ; ការផ្ទេរឆ្នាំ 2026 ទទួលបានការបញ្ចុះ 25% សម្រាប់ period ដំបូង។",
+    "fr": "Les étudiants des programmes Murdoch à Singapour peuvent être transférés à Murdoch Perth après une teaching period ; les transferts 2026 bénéficient de 25 % de réduction sur la première période.",
+    "pt": "Estudantes dos programas Murdoch em Singapura podem transferir-se para a Murdoch Perth após um teaching period; transferências em 2026 têm 25% de desconto no primeiro período.",
+    "es": "Los estudiantes de programas Murdoch en Singapur pueden transferirse a Murdoch Perth tras un teaching period; las transferencias de 2026 tienen un 25% de descuento en el primer periodo.",
+    "de": "Studierende von Murdoch-Programmen in Singapur können nach einer Teaching Period an die Murdoch Perth wechseln; Wechsel 2026 erhalten 25 % Ermäßigung auf die erste Periode.",
+    "it": "Gli studenti dei programmi Murdoch a Singapore possono trasferirsi a Murdoch Perth dopo un teaching period; i trasferimenti 2026 hanno il 25% di sconto sul primo periodo.",
+    "nl": "Studenten van Murdoch-programma's in Singapore kunnen na een teaching period overstappen naar Murdoch Perth; overstappers in 2026 krijgen 25% korting op de eerste periode.",
+    "ru": "Студенты программ Murdoch в Сингапуре могут перевестись в Murdoch Perth после одного teaching period; при переводе в 2026 г. — скидка 25% на первый период."
+   }
+  },
+  {
+   "id": "uowd-uow-australia",
+   "provider": "University of Wollongong in Dubai",
+   "start_country": "AE",
+   "start_city": "Dubai",
+   "program": "Transfer to UOW Australia (Wollongong / Sydney) - Business, Engineering, Computer Science, Business Information Systems",
+   "level": "Bachelor",
+   "field": "Business / Engineering / IT",
+   "route": "Transfer kampus (kredit penuh mata kuliah UOWD)",
+   "stages": [
+    {
+     "country": "AE",
+     "years": null,
+     "institution": "University of Wollongong in Dubai"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "University of Wollongong (Wollongong/Sydney)"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "University of Wollongong (Australia)"
+   ],
+   "award": {
+    "id": "Ijazah UOW",
+    "en": "UOW degree",
+    "th": "ปริญญาจาก UOW",
+    "vi": "Bằng của UOW",
+    "zh": "UOW 学位",
+    "ja": "UOW の学位",
+    "ko": "UOW 학위",
+    "km": "សញ្ញាបត្រពី UOW",
+    "fr": "Diplôme de UOW",
+    "pt": "Diploma emitido por UOW",
+    "es": "Título otorgado por UOW",
+    "de": "Abschluss von UOW",
+    "it": "Titolo rilasciato da UOW",
+    "nl": "Diploma van UOW",
+    "ru": "Диплом UOW"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://www.uowdubai.ac.ae/transfer-to-australia",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa UOWD bisa pindah ke kampus UOW Wollongong atau Sydney; mata kuliah UOWD yang lulus diakui (Business, Engineering, Computer Science, BIS).",
+    "en": "UOWD students can transfer to UOW's Wollongong or Sydney campus; completed UOWD subjects are credited (Business, Engineering, Computer Science, BIS).",
+    "th": "นักศึกษา UOWD สามารถย้ายไปวิทยาเขต Wollongong หรือ Sydney ของ UOW วิชาที่ผ่านแล้วที่ UOWD จะได้รับการเทียบโอน (Business, Engineering, Computer Science, BIS)",
+    "vi": "Sinh viên UOWD có thể chuyển sang cơ sở Wollongong hoặc Sydney của UOW; các môn đã hoàn thành tại UOWD được công nhận tín chỉ (Business, Engineering, Computer Science, BIS).",
+    "zh": "UOWD 学生可转至 UOW 的 Wollongong 或 Sydney 校区；在 UOWD 已完成的科目可获学分认可（Business、Engineering、Computer Science、BIS）。",
+    "ja": "UOWD の学生は UOW の Wollongong または Sydney キャンパスへ移籍可能；UOWD で修了した科目は単位認定される（Business、Engineering、Computer Science、BIS）。",
+    "ko": "UOWD 학생은 UOW Wollongong 또는 Sydney 캠퍼스로 이동 가능; UOWD에서 이수한 과목은 학점 인정 (Business, Engineering, Computer Science, BIS).",
+    "km": "និស្សិត UOWD អាចផ្ទេរទៅសាខា Wollongong ឬ Sydney របស់ UOW; មុខវិជ្ជាដែលបានបញ្ចប់នៅ UOWD ត្រូវបានទទួលស្គាល់ក្រេឌីត (Business, Engineering, Computer Science, BIS)។",
+    "fr": "Les étudiants de l'UOWD peuvent être transférés sur le campus de Wollongong ou de Sydney de l'UOW ; les matières réussies à l'UOWD sont créditées (Business, Engineering, Computer Science, BIS).",
+    "pt": "Estudantes da UOWD podem transferir-se para o campus de Wollongong ou Sydney da UOW; as disciplinas concluídas na UOWD são aproveitadas (Business, Engineering, Computer Science, BIS).",
+    "es": "Los estudiantes de UOWD pueden transferirse al campus de Wollongong o Sídney de UOW; las asignaturas aprobadas en UOWD se convalidan (Business, Engineering, Computer Science, BIS).",
+    "de": "Studierende der UOWD können an den UOW-Campus Wollongong oder Sydney wechseln; an der UOWD bestandene Fächer werden angerechnet (Business, Engineering, Computer Science, BIS).",
+    "it": "Gli studenti della UOWD possono trasferirsi al campus di Wollongong o Sydney della UOW; le materie superate alla UOWD vengono riconosciute (Business, Engineering, Computer Science, BIS).",
+    "nl": "Studenten van UOWD kunnen overstappen naar de UOW-campus in Wollongong of Sydney; behaalde vakken aan UOWD worden erkend (Business, Engineering, Computer Science, BIS).",
+    "ru": "Студенты UOWD могут перевестись в кампус UOW в Wollongong или Sydney; дисциплины, сданные в UOWD, засчитываются (Business, Engineering, Computer Science, BIS)."
+   }
+  },
+  {
+   "id": "psb-diploma-uow",
+   "provider": "PSB Academy",
+   "start_country": "SG",
+   "start_city": "Singapore",
+   "program": "Diploma in Business Administration (and other PSB diplomas) to UOW Bachelor of Commerce / Business",
+   "level": "Diploma",
+   "field": "Business",
+   "route": "Diploma PSB + 2 tahun UOW (kredit 48 poin)",
+   "stages": [
+    {
+     "country": "SG",
+     "years": null,
+     "institution": "PSB Academy (Diploma)"
+    },
+    {
+     "country": "AU",
+     "years": 2,
+     "institution": "University of Wollongong"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "University of Wollongong (Wollongong campus)"
+   ],
+   "award": {
+    "id": "Ijazah UOW",
+    "en": "UOW degree",
+    "th": "ปริญญาจาก UOW",
+    "vi": "Bằng của UOW",
+    "zh": "UOW 学位",
+    "ja": "UOW の学位",
+    "ko": "UOW 학위",
+    "km": "សញ្ញាបត្រពី UOW",
+    "fr": "Diplôme de UOW",
+    "pt": "Diploma emitido por UOW",
+    "es": "Título otorgado por UOW",
+    "de": "Abschluss von UOW",
+    "it": "Titolo rilasciato da UOW",
+    "nl": "Diploma van UOW",
+    "ru": "Диплом UOW"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "UOW: Autumn, Spring",
+    "en": "UOW: Autumn, Spring",
+    "th": "UOW: Autumn, Spring",
+    "vi": "UOW: Autumn, Spring",
+    "zh": "UOW：Autumn、Spring",
+    "ja": "UOW：Autumn、Spring",
+    "ko": "UOW: Autumn, Spring",
+    "km": "UOW: Autumn, Spring",
+    "fr": "UOW : Autumn, Spring",
+    "pt": "UOW: Autumn, Spring",
+    "es": "UOW: Autumn, Spring",
+    "de": "UOW: Autumn, Spring",
+    "it": "UOW: Autumn, Spring",
+    "nl": "UOW: Autumn, Spring",
+    "ru": "UOW: Autumn, Spring"
+   },
+   "english": null,
+   "url": "https://uow.edu.au/study/credit-for-prior-learning/singapore/psb-academy---singapore",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Lulusan Diploma PSB (nilai rata-rata min. 55%) mendapat kredit 48 poin dan menyelesaikan Bachelor of Commerce/Business di UOW Wollongong dalam ±2 tahun (Tourism: 36 poin, 2,5 tahun).",
+    "en": "PSB diploma graduates (55% average) get 48 credit points and complete the Bachelor of Commerce/Business at UOW Wollongong in about 2 years (Tourism: 36 points, 2.5 years).",
+    "th": "ผู้สำเร็จ Diploma จาก PSB (เกรดเฉลี่ย 55%) ได้รับเทียบโอน 48 หน่วยกิต และเรียน Bachelor of Commerce/Business ที่ UOW Wollongong จบในประมาณ 2 ปี (Tourism: 36 หน่วยกิต, 2.5 ปี)",
+    "vi": "Sinh viên tốt nghiệp diploma của PSB (điểm trung bình 55%) được công nhận 48 tín chỉ và hoàn thành Bachelor of Commerce/Business tại UOW Wollongong trong khoảng 2 năm (Tourism: 36 tín chỉ, 2,5 năm).",
+    "zh": "PSB 文凭毕业生（平均成绩 55%）可获 48 学分，并在约 2 年内于 UOW Wollongong 完成 Bachelor of Commerce/Business（Tourism：36 学分，2.5 年）。",
+    "ja": "PSB のディプロマ修了者（平均 55%）は 48 単位が認定され、UOW Wollongong で Bachelor of Commerce/Business を約 2 年で修了（Tourism：36 単位、2.5 年）。",
+    "ko": "PSB 디플로마 졸업생(평균 55%)은 48학점을 인정받아 UOW Wollongong에서 Bachelor of Commerce/Business를 약 2년 만에 이수 (Tourism: 36학점, 2.5년).",
+    "km": "និស្សិតបញ្ចប់ Diploma ពី PSB (ពិន្ទុមធ្យម 55%) ទទួលបាន 48 ក្រេឌីត ហើយបញ្ចប់ Bachelor of Commerce/Business នៅ UOW Wollongong ក្នុងរយៈពេលប្រហែល 2 ឆ្នាំ (Tourism៖ 36 ក្រេឌីត, 2.5 ឆ្នាំ)។",
+    "fr": "Les diplômés d'un diploma PSB (moyenne de 55 %) obtiennent 48 crédits et terminent le Bachelor of Commerce/Business à UOW Wollongong en environ 2 ans (Tourism : 36 crédits, 2,5 ans).",
+    "pt": "Formados no diploma da PSB (média de 55%) recebem 48 créditos e concluem o Bachelor of Commerce/Business na UOW Wollongong em cerca de 2 anos (Tourism: 36 créditos, 2,5 anos).",
+    "es": "Los graduados del diploma de PSB (media del 55%) obtienen 48 créditos y completan el Bachelor of Commerce/Business en UOW Wollongong en unos 2 años (Tourism: 36 créditos, 2,5 años).",
+    "de": "Absolventen eines PSB-Diploma (Durchschnitt 55 %) erhalten 48 Credit Points und schließen den Bachelor of Commerce/Business an der UOW Wollongong in etwa 2 Jahren ab (Tourism: 36 Punkte, 2,5 Jahre).",
+    "it": "I diplomati PSB (media del 55%) ottengono 48 crediti e completano il Bachelor of Commerce/Business alla UOW Wollongong in circa 2 anni (Tourism: 36 crediti, 2,5 anni).",
+    "nl": "Afgestudeerden van een PSB-diploma (gemiddelde 55%) krijgen 48 studiepunten en ronden de Bachelor of Commerce/Business aan UOW Wollongong in ongeveer 2 jaar af (Tourism: 36 punten, 2,5 jaar).",
+    "ru": "Выпускники диплома PSB (средний балл 55%) получают 48 кредитов и завершают Bachelor of Commerce/Business в UOW Wollongong примерно за 2 года (Tourism: 36 кредитов, 2,5 года)."
+   }
+  },
+  {
+   "id": "psb-campus-mobility",
+   "provider": "PSB Academy",
+   "start_country": "SG",
+   "start_city": "Singapore",
+   "program": "Campus Mobility Programme - transfer to partner universities",
+   "level": "Bachelor",
+   "field": "Business / IT / Engineering",
+   "route": "Transfer (8 modul tersisa / setelah diploma)",
+   "stages": [
+    {
+     "country": "SG",
+     "years": null,
+     "institution": "PSB Academy"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Universitas mitra"
+    }
+   ],
+   "destinations": [
+    "AU",
+    "NZ",
+    "UK"
+   ],
+   "partners": [
+    "La Trobe University",
+    "The University of Newcastle, Australia",
+    "University of Technology Sydney",
+    "Massey University (NZ)",
+    "Coventry University (UK)",
+    "Edinburgh Napier University (UK)"
+   ],
+   "award": null,
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "Australia & Massey: Feb, Jul; UK: Sep (sebagian Jan)",
+    "en": "Australia & Massey: Feb, Jul; UK: Sep (some Jan)",
+    "th": "Australia & Massey: ก.พ., ก.ค.; UK: ก.ย. (บางหลักสูตร ม.ค.)",
+    "vi": "Australia & Massey: tháng 2, tháng 7; UK: tháng 9 (một số tháng 1)",
+    "zh": "Australia & Massey: 2月、7月; UK: 9月 (部分1月)",
+    "ja": "Australia & Massey: 2月、7月; UK: 9月 (一部1月)",
+    "ko": "Australia & Massey: 2월, 7월; UK: 9월 (일부 1월)",
+    "km": "Australia & Massey: កុម្ភៈ, កក្កដា; UK: កញ្ញា (មួយចំនួន មករា)",
+    "fr": "Australia & Massey: févr., juil.; UK: sept. (certains janv.)",
+    "pt": "Australia & Massey: fev, jul; UK: set (alguns jan)",
+    "es": "Australia & Massey: feb, jul; UK: sep (algunos ene)",
+    "de": "Australia & Massey: Feb., Juli; UK: Sep. (teilweise Jan.)",
+    "it": "Australia & Massey: feb, lug; UK: set (alcuni gen)",
+    "nl": "Australia & Massey: feb, jul; UK: sep (sommige jan)",
+    "ru": "Australia & Massey: февр., июль; UK: сент. (частично янв.)"
+   },
+   "english": null,
+   "url": "https://www.psb-academy.edu.sg/campus-mobility-programme",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa/lulusan diploma PSB bisa melanjutkan di kampus mitra (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); daftar min. 6 bulan sebelum mulai.",
+    "en": "PSB students/diploma graduates can continue at partner campuses (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); apply at least 6 months before start.",
+    "th": "นักศึกษา/ผู้สำเร็จ Diploma ของ PSB สามารถเรียนต่อที่วิทยาเขตพันธมิตร (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier) ควรสมัครล่วงหน้าอย่างน้อย 6 เดือนก่อนเริ่มเรียน",
+    "vi": "Sinh viên/người tốt nghiệp diploma của PSB có thể học tiếp tại các cơ sở đối tác (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); nộp đơn ít nhất 6 tháng trước khi bắt đầu.",
+    "zh": "PSB 学生/文凭毕业生可在合作院校继续学习（La Trobe、Newcastle、UTS、Massey NZ、Coventry、Edinburgh Napier）；至少在开学前 6 个月申请。",
+    "ja": "PSB の学生/ディプロマ修了者は提携校（La Trobe、Newcastle、UTS、Massey NZ、Coventry、Edinburgh Napier）で学業を継続可能；開始の 6 か月以上前に出願。",
+    "ko": "PSB 학생/디플로마 졸업생은 협력 캠퍼스(La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier)에서 학업 계속 가능; 시작 최소 6개월 전 지원.",
+    "km": "និស្សិត/អ្នកបញ្ចប់ Diploma របស់ PSB អាចបន្តការសិក្សានៅសាខាដៃគូ (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); ដាក់ពាក្យយ៉ាងហោចណាស់ 6 ខែមុនចាប់ផ្តើម។",
+    "fr": "Les étudiants/diplômés d'un diploma PSB peuvent poursuivre sur des campus partenaires (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier) ; candidater au moins 6 mois avant le début.",
+    "pt": "Estudantes/formados no diploma da PSB podem continuar em campi parceiros (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); inscreva-se pelo menos 6 meses antes do início.",
+    "es": "Los estudiantes/graduados del diploma de PSB pueden continuar en campus asociados (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); solicita al menos 6 meses antes del inicio.",
+    "de": "PSB-Studierende/Diploma-Absolventen können an Partnercampus weiterstudieren (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); bewirb dich mindestens 6 Monate vor Beginn.",
+    "it": "Studenti/diplomati PSB possono proseguire nei campus partner (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); candidarsi almeno 6 mesi prima dell'inizio.",
+    "nl": "PSB-studenten/diploma-afgestudeerden kunnen verder op partnercampussen (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); meld je minstens 6 maanden vóór de start aan.",
+    "ru": "Студенты/выпускники диплома PSB могут продолжить обучение в кампусах-партнёрах (La Trobe, Newcastle, UTS, Massey NZ, Coventry, Edinburgh Napier); подавать заявку не позднее чем за 6 месяцев до начала."
+   }
+  },
+  {
+   "id": "binus-double-degree-deakin",
+   "provider": "BINUS University (BINUS International)",
+   "start_country": "ID",
+   "start_city": "Jakarta",
+   "program": "Bachelor of Game Design and Development + Sarjana Komputer (S.Kom.)",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "Double degree (total 3,5 tahun; pembagian tahun tidak disebut)",
+   "stages": [
+    {
+     "country": "ID",
+     "years": null,
+     "institution": "BINUS University"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "Deakin University"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "Deakin University"
+   ],
+   "award": {
+    "id": "Dua ijazah: BINUS + Deakin University",
+    "en": "Two degrees: BINUS + Deakin University",
+    "th": "สองปริญญา: BINUS + Deakin University",
+    "vi": "Hai bằng: BINUS + Deakin University",
+    "zh": "双学位：BINUS + Deakin University",
+    "ja": "2つの学位：BINUS + Deakin University",
+    "ko": "2개 학위: BINUS + Deakin University",
+    "km": "សញ្ញាបត្រពីរ៖ BINUS + Deakin University",
+    "fr": "Deux diplômes : BINUS + Deakin University",
+    "pt": "Dois diplomas: BINUS + Deakin University",
+    "es": "Dos títulos: BINUS + Deakin University",
+    "de": "Zwei Abschlüsse: BINUS + Deakin University",
+    "it": "Due titoli: BINUS + Deakin University",
+    "nl": "Twee diploma's: BINUS + Deakin University",
+    "ru": "Два диплома: BINUS + Deakin University"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://io.binus.ac.id/binus-programs/double-degree-program/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Double degree BINUS + Deakin University (AU), total 3,5 tahun; BINUS menyebut 1-2 tahun studi di luar negeri.",
+    "en": "BINUS + Deakin University (AU) double degree, 3.5 years in total; BINUS states 1-2 years of overseas study.",
+    "th": "ปริญญาคู่ BINUS + Deakin University (AU) รวม 3.5 ปี BINUS ระบุว่ามีการเรียนในต่างประเทศ 1-2 ปี",
+    "vi": "Song bằng BINUS + Deakin University (AU), tổng cộng 3,5 năm; BINUS nêu 1-2 năm học ở nước ngoài.",
+    "zh": "BINUS + Deakin University（AU）双学位，共 3.5 年；BINUS 说明有 1-2 年海外学习。",
+    "ja": "BINUS + Deakin University（AU）のダブルディグリー、計 3.5 年；BINUS によると海外での学習は 1-2 年。",
+    "ko": "BINUS + Deakin University (AU) 복수 학위, 총 3.5년; BINUS는 해외 학업 1-2년이라고 명시.",
+    "km": "សញ្ញាបត្រទ្វេ BINUS + Deakin University (AU) សរុប 3.5 ឆ្នាំ; BINUS បញ្ជាក់ថាសិក្សានៅបរទេស 1-2 ឆ្នាំ។",
+    "fr": "Double diplôme BINUS + Deakin University (AU), 3,5 ans au total ; BINUS indique 1 à 2 ans d'études à l'étranger.",
+    "pt": "Dupla diplomação BINUS + Deakin University (AU), 3,5 anos no total; a BINUS informa 1-2 anos de estudo no exterior.",
+    "es": "Doble titulación BINUS + Deakin University (AU), 3,5 años en total; BINUS indica 1-2 años de estudios en el extranjero.",
+    "de": "Doppelabschluss BINUS + Deakin University (AU), insgesamt 3,5 Jahre; laut BINUS 1-2 Jahre Studium im Ausland.",
+    "it": "Doppio titolo BINUS + Deakin University (AU), 3,5 anni in totale; BINUS indica 1-2 anni di studio all'estero.",
+    "nl": "Dubbele graad BINUS + Deakin University (AU), in totaal 3,5 jaar; volgens BINUS 1-2 jaar studie in het buitenland.",
+    "ru": "Двойной диплом BINUS + Deakin University (AU), всего 3,5 года; по данным BINUS, 1-2 года обучения за рубежом."
+   }
+  },
+  {
+   "id": "binus-double-degree-canberra",
+   "provider": "BINUS University (BINUS International)",
+   "start_country": "ID",
+   "start_city": "Jakarta",
+   "program": "Bachelor of Communication in Advertising + Sarjana Ilmu Komunikasi (S.I.Kom)",
+   "level": "Bachelor",
+   "field": "Communication",
+   "route": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+   "stages": [
+    {
+     "country": "ID",
+     "years": null,
+     "institution": "BINUS University"
+    },
+    {
+     "country": "AU",
+     "years": null,
+     "institution": "University of Canberra"
+    }
+   ],
+   "destinations": [
+    "AU"
+   ],
+   "partners": [
+    "University of Canberra"
+   ],
+   "award": {
+    "id": "Dua ijazah: BINUS + University of Canberra",
+    "en": "Two degrees: BINUS + University of Canberra",
+    "th": "สองปริญญา: BINUS + University of Canberra",
+    "vi": "Hai bằng: BINUS + University of Canberra",
+    "zh": "双学位：BINUS + University of Canberra",
+    "ja": "2つの学位：BINUS + University of Canberra",
+    "ko": "2개 학위: BINUS + University of Canberra",
+    "km": "សញ្ញាបត្រពីរ៖ BINUS + University of Canberra",
+    "fr": "Deux diplômes : BINUS + University of Canberra",
+    "pt": "Dois diplomas: BINUS + University of Canberra",
+    "es": "Dos títulos: BINUS + University of Canberra",
+    "de": "Zwei Abschlüsse: BINUS + University of Canberra",
+    "it": "Due titoli: BINUS + University of Canberra",
+    "nl": "Twee diploma's: BINUS + University of Canberra",
+    "ru": "Два диплома: BINUS + University of Canberra"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://io.binus.ac.id/binus-programs/double-degree-program/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Double degree BINUS + University of Canberra (AU), total 4 tahun; BINUS menyebut 1-2 tahun studi di luar negeri.",
+    "en": "BINUS + University of Canberra (AU) double degree, 4 years in total; BINUS states 1-2 years of overseas study.",
+    "th": "ปริญญาคู่ BINUS + University of Canberra (AU) รวม 4 ปี BINUS ระบุว่ามีการเรียนในต่างประเทศ 1-2 ปี",
+    "vi": "Song bằng BINUS + University of Canberra (AU), tổng cộng 4 năm; BINUS nêu 1-2 năm học ở nước ngoài.",
+    "zh": "BINUS + University of Canberra（AU）双学位，共 4 年；BINUS 说明有 1-2 年海外学习。",
+    "ja": "BINUS + University of Canberra（AU）のダブルディグリー、計 4 年；BINUS によると海外での学習は 1-2 年。",
+    "ko": "BINUS + University of Canberra (AU) 복수 학위, 총 4년; BINUS는 해외 학업 1-2년이라고 명시.",
+    "km": "សញ្ញាបត្រទ្វេ BINUS + University of Canberra (AU) សរុប 4 ឆ្នាំ; BINUS បញ្ជាក់ថាសិក្សានៅបរទេស 1-2 ឆ្នាំ។",
+    "fr": "Double diplôme BINUS + University of Canberra (AU), 4 ans au total ; BINUS indique 1 à 2 ans d'études à l'étranger.",
+    "pt": "Dupla diplomação BINUS + University of Canberra (AU), 4 anos no total; a BINUS informa 1-2 anos de estudo no exterior.",
+    "es": "Doble titulación BINUS + University of Canberra (AU), 4 años en total; BINUS indica 1-2 años de estudios en el extranjero.",
+    "de": "Doppelabschluss BINUS + University of Canberra (AU), insgesamt 4 Jahre; laut BINUS 1-2 Jahre Studium im Ausland.",
+    "it": "Doppio titolo BINUS + University of Canberra (AU), 4 anni in totale; BINUS indica 1-2 anni di studio all'estero.",
+    "nl": "Dubbele graad BINUS + University of Canberra (AU), in totaal 4 jaar; volgens BINUS 1-2 jaar studie in het buitenland.",
+    "ru": "Двойной диплом BINUS + University of Canberra (AU), всего 4 года; по данным BINUS, 1-2 года обучения за рубежом."
+   }
+  },
+  {
+   "id": "binus-double-degree-nottingham",
+   "provider": "BINUS University (BINUS International)",
+   "start_country": "ID",
+   "start_city": "Jakarta",
+   "program": "BSc (Hons) Computer Science + Sarjana Komputer (S.Kom.)",
+   "level": "Bachelor",
+   "field": "IT",
+   "route": "Double degree (total 4 tahun; pembagian tahun tidak disebut)",
+   "stages": [
+    {
+     "country": "ID",
+     "years": null,
+     "institution": "BINUS University"
+    },
+    {
+     "country": "UK",
+     "years": null,
+     "institution": "The University of Nottingham"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "The University of Nottingham"
+   ],
+   "award": {
+    "id": "Dua ijazah: BINUS + The University of Nottingham",
+    "en": "Two degrees: BINUS + The University of Nottingham",
+    "th": "สองปริญญา: BINUS + The University of Nottingham",
+    "vi": "Hai bằng: BINUS + The University of Nottingham",
+    "zh": "双学位：BINUS + The University of Nottingham",
+    "ja": "2つの学位：BINUS + The University of Nottingham",
+    "ko": "2개 학위: BINUS + The University of Nottingham",
+    "km": "សញ្ញាបត្រពីរ៖ BINUS + The University of Nottingham",
+    "fr": "Deux diplômes : BINUS + The University of Nottingham",
+    "pt": "Dois diplomas: BINUS + The University of Nottingham",
+    "es": "Dos títulos: BINUS + The University of Nottingham",
+    "de": "Zwei Abschlüsse: BINUS + The University of Nottingham",
+    "it": "Due titoli: BINUS + The University of Nottingham",
+    "nl": "Twee diploma's: BINUS + The University of Nottingham",
+    "ru": "Два диплома: BINUS + The University of Nottingham"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://io.binus.ac.id/binus-programs/double-degree-program/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Double degree BINUS + The University of Nottingham (UK), total 4 tahun; BINUS menyebut 1-2 tahun studi di luar negeri.",
+    "en": "BINUS + The University of Nottingham (UK) double degree, 4 years in total; BINUS states 1-2 years of overseas study.",
+    "th": "ปริญญาคู่ BINUS + The University of Nottingham (UK) รวม 4 ปี BINUS ระบุว่ามีการเรียนในต่างประเทศ 1-2 ปี",
+    "vi": "Song bằng BINUS + The University of Nottingham (UK), tổng cộng 4 năm; BINUS nêu 1-2 năm học ở nước ngoài.",
+    "zh": "BINUS + The University of Nottingham（UK）双学位，共 4 年；BINUS 说明有 1-2 年海外学习。",
+    "ja": "BINUS + The University of Nottingham（UK）のダブルディグリー、計 4 年；BINUS によると海外での学習は 1-2 年。",
+    "ko": "BINUS + The University of Nottingham (UK) 복수 학위, 총 4년; BINUS는 해외 학업 1-2년이라고 명시.",
+    "km": "សញ្ញាបត្រទ្វេ BINUS + The University of Nottingham (UK) សរុប 4 ឆ្នាំ; BINUS បញ្ជាក់ថាសិក្សានៅបរទេស 1-2 ឆ្នាំ។",
+    "fr": "Double diplôme BINUS + The University of Nottingham (UK), 4 ans au total ; BINUS indique 1 à 2 ans d'études à l'étranger.",
+    "pt": "Dupla diplomação BINUS + The University of Nottingham (UK), 4 anos no total; a BINUS informa 1-2 anos de estudo no exterior.",
+    "es": "Doble titulación BINUS + The University of Nottingham (UK), 4 años en total; BINUS indica 1-2 años de estudios en el extranjero.",
+    "de": "Doppelabschluss BINUS + The University of Nottingham (UK), insgesamt 4 Jahre; laut BINUS 1-2 Jahre Studium im Ausland.",
+    "it": "Doppio titolo BINUS + The University of Nottingham (UK), 4 anni in totale; BINUS indica 1-2 anni di studio all'estero.",
+    "nl": "Dubbele graad BINUS + The University of Nottingham (UK), in totaal 4 jaar; volgens BINUS 1-2 jaar studie in het buitenland.",
+    "ru": "Двойной диплом BINUS + The University of Nottingham (UK), всего 4 года; по данным BINUS, 1-2 года обучения за рубежом."
+   }
+  },
+  {
+   "id": "xjtlu-liverpool-2-2",
+   "provider": "Xi'an Jiaotong-Liverpool University (XJTLU)",
+   "start_country": "CN",
+   "start_city": "Suzhou",
+   "program": "2+2 programme with University of Liverpool",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "2+2",
+   "stages": [
+    {
+     "country": "CN",
+     "years": 2,
+     "institution": "Xi'an Jiaotong-Liverpool University"
+    },
+    {
+     "country": "UK",
+     "years": 2,
+     "institution": "University of Liverpool"
+    }
+   ],
+   "destinations": [
+    "UK"
+   ],
+   "partners": [
+    "University of Liverpool"
+   ],
+   "award": {
+    "id": "Dua ijazah: XJTLU + University of Liverpool",
+    "en": "Two degrees: XJTLU + University of Liverpool",
+    "th": "สองปริญญา: XJTLU + University of Liverpool",
+    "vi": "Hai bằng: XJTLU + University of Liverpool",
+    "zh": "双学位：XJTLU + University of Liverpool",
+    "ja": "2つの学位：XJTLU + University of Liverpool",
+    "ko": "2개 학위: XJTLU + University of Liverpool",
+    "km": "សញ្ញាបត្រពីរ៖ XJTLU + University of Liverpool",
+    "fr": "Deux diplômes : XJTLU + University of Liverpool",
+    "pt": "Dois diplomas: XJTLU + University of Liverpool",
+    "es": "Dos títulos: XJTLU + University of Liverpool",
+    "de": "Zwei Abschlüsse: XJTLU + University of Liverpool",
+    "it": "Due titoli: XJTLU + University of Liverpool",
+    "nl": "Twee diploma's: XJTLU + University of Liverpool",
+    "ru": "Два диплома: XJTLU + University of Liverpool"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": null,
+   "english": null,
+   "url": "https://www.liverpool.ac.uk/xjtlu/study-in-liverpool/2-2-programme/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "2 tahun di XJTLU Suzhou, lalu 2 tahun terakhir di University of Liverpool; lulus dengan 2 ijazah. Potongan 10% biaya Liverpool untuk mahasiswa 2+2.",
+    "en": "2 years at XJTLU Suzhou, then the final 2 years at the University of Liverpool; graduate with 2 degrees. 10% Liverpool fee discount for 2+2 students.",
+    "th": "เรียนที่ XJTLU ซูโจว 2 ปี จากนั้นเรียน 2 ปีสุดท้ายที่ University of Liverpool จบพร้อม 2 ปริญญา นักศึกษาแบบ 2+2 ได้ส่วนลดค่าเรียนที่ Liverpool 10%",
+    "vi": "2 năm tại XJTLU Tô Châu, sau đó 2 năm cuối tại University of Liverpool; tốt nghiệp với 2 bằng. Sinh viên 2+2 được giảm 10% học phí tại Liverpool.",
+    "zh": "在 XJTLU 苏州学习 2 年，之后在 University of Liverpool 完成最后 2 年；毕业获得 2 个学位。2+2 学生可享 Liverpool 学费 10% 减免。",
+    "ja": "XJTLU 蘇州で 2 年間、その後 University of Liverpool で最後の 2 年間；2 つの学位を取得して卒業。2+2 の学生は Liverpool の学費が 10% 割引。",
+    "ko": "XJTLU 쑤저우에서 2년, 이후 University of Liverpool에서 마지막 2년; 2개 학위로 졸업. 2+2 학생은 Liverpool 학비 10% 할인.",
+    "km": "2 ឆ្នាំនៅ XJTLU ស៊ូចូវ បន្ទាប់មក 2 ឆ្នាំចុងក្រោយនៅ University of Liverpool; បញ្ចប់ការសិក្សាជាមួយសញ្ញាបត្រ 2។ និស្សិត 2+2 ទទួលបានការបញ្ចុះថ្លៃសិក្សា 10% នៅ Liverpool។",
+    "fr": "2 ans à XJTLU Suzhou, puis les 2 dernières années à l'University of Liverpool ; diplômé avec 2 diplômes. Réduction de 10 % sur les frais de Liverpool pour les étudiants 2+2.",
+    "pt": "2 anos na XJTLU Suzhou e depois os 2 últimos anos na University of Liverpool; forma-se com 2 diplomas. Desconto de 10% nas taxas de Liverpool para estudantes 2+2.",
+    "es": "2 años en XJTLU Suzhou y luego los 2 últimos años en University of Liverpool; te gradúas con 2 títulos. Descuento del 10% en las tasas de Liverpool para estudiantes 2+2.",
+    "de": "2 Jahre an der XJTLU Suzhou, danach die letzten 2 Jahre an der University of Liverpool; Abschluss mit 2 Abschlüssen. 10 % Ermäßigung auf die Liverpool-Gebühren für 2+2-Studierende.",
+    "it": "2 anni alla XJTLU di Suzhou, poi gli ultimi 2 anni alla University of Liverpool; ci si laurea con 2 titoli. Sconto del 10% sulle rette di Liverpool per gli studenti 2+2.",
+    "nl": "2 jaar aan XJTLU Suzhou, daarna de laatste 2 jaar aan University of Liverpool; afstuderen met 2 diploma's. 10% korting op het collegegeld van Liverpool voor 2+2-studenten.",
+    "ru": "2 года в XJTLU (Сучжоу), затем последние 2 года в University of Liverpool; выпуск с 2 дипломами. Скидка 10% на обучение в Liverpool для студентов 2+2."
+   }
+  },
+  {
+   "id": "unnc-nottingham-uk-transfer",
+   "provider": "University of Nottingham Ningbo China (UNNC)",
+   "start_country": "CN",
+   "start_city": "Ningbo",
+   "program": "Inter-campus transfer to University of Nottingham UK campus",
+   "level": "Bachelor",
+   "field": "Various",
+   "route": "Transfer kampus (setelah min. 1 semester; bukan tahun akhir)",
+   "stages": [
+    {
+     "country": "CN",
+     "years": null,
+     "institution": "University of Nottingham Ningbo China"
+    },
+    {
+     "country": "UK",
+     "years": null,
+     "institution": "University of Nottingham (UK)"
+    }
+   ],
+   "destinations": [
+    "UK",
+    "MY"
+   ],
+   "partners": [
+    "University of Nottingham (UK campus)",
+    "University of Nottingham Malaysia"
+   ],
+   "award": {
+    "id": "Ijazah dari kampus tujuan",
+    "en": "Degree from the destination campus",
+    "th": "ปริญญาจากวิทยาเขตปลายทาง",
+    "vi": "Bằng của cơ sở chuyển đến",
+    "zh": "目标校区颁发的学位",
+    "ja": "編入先キャンパスの学位",
+    "ko": "편입 캠퍼스 학위",
+    "km": "សញ្ញាបត្រពីសាខាគោលដៅ",
+    "fr": "Diplôme du campus d'accueil",
+    "pt": "Diploma do campus de destino",
+    "es": "Título del campus de destino",
+    "de": "Abschluss des Zielcampus",
+    "it": "Titolo del campus di destinazione",
+    "nl": "Diploma van de bestemmingscampus",
+    "ru": "Диплом принимающего кампуса"
+   },
+   "start_fee": null,
+   "currency": null,
+   "fee_basis": null,
+   "intakes": {
+    "id": "September (tenggat UK: sebelum 14 Juni 2027)",
+    "en": "September (UK deadline: before 14 June 2027)",
+    "th": "กันยายน (กำหนดส่งสำหรับ UK: ก่อน 14 มิถุนายน 2027)",
+    "vi": "Tháng 9 (hạn chót cho UK: trước 14/6/2027)",
+    "zh": "9 月（英国校区截止：2027 年 6 月 14 日前）",
+    "ja": "9 月（英国キャンパスの締切：2027 年 6 月 14 日まで）",
+    "ko": "9월 (영국 마감: 2027년 6월 14일 이전)",
+    "km": "កញ្ញា (ផុតកំណត់សម្រាប់ UK៖ មុនថ្ងៃទី 14 មិថុនា 2027)",
+    "fr": "Septembre (date limite UK : avant le 14 juin 2027)",
+    "pt": "Setembro (prazo para o Reino Unido: antes de 14 de junho de 2027)",
+    "es": "Septiembre (plazo para Reino Unido: antes del 14 de junio de 2027)",
+    "de": "September (Frist UK: vor dem 14. Juni 2027)",
+    "it": "Settembre (scadenza UK: entro il 14 giugno 2027)",
+    "nl": "September (deadline VK: vóór 14 juni 2027)",
+    "ru": "Сентябрь (срок подачи для UK: до 14 июня 2027 г.)"
+   },
+   "english": null,
+   "url": "https://www.nottingham.edu.cn/en/global/inter-campus-transfer.aspx",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Mahasiswa UNNC dapat pindah ke kampus Nottingham UK (atau Malaysia) di bidang yang sama; syarat nilai rata-rata 55-60%; masuk September, tenggat UK 14 Juni 2027.",
+    "en": "UNNC students can transfer to Nottingham's UK (or Malaysia) campus in the same field; 55-60% average required; September entry, UK deadline 14 June 2027.",
+    "th": "นักศึกษา UNNC สามารถย้ายไปวิทยาเขต Nottingham ในสหราชอาณาจักร (หรือมาเลเซีย) ในสาขาเดียวกัน ต้องมีเกรดเฉลี่ย 55-60% เข้าเรียนเดือนกันยายน กำหนดส่งสำหรับ UK 14 มิถุนายน 2027",
+    "vi": "Sinh viên UNNC có thể chuyển sang cơ sở Nottingham ở Anh (hoặc Malaysia) cùng ngành; yêu cầu điểm trung bình 55-60%; nhập học tháng 9, hạn chót cho UK 14/6/2027.",
+    "zh": "UNNC 学生可在同一专业转至 Nottingham 英国（或马来西亚）校区；平均成绩需达 55-60%；9 月入学，英国校区截止日期 2027 年 6 月 14 日。",
+    "ja": "UNNC の学生は同じ分野で Nottingham の英国（またはマレーシア）キャンパスへ移籍可能；平均 55-60% が必要；9 月入学、英国の締切は 2027 年 6 月 14 日。",
+    "ko": "UNNC 학생은 같은 분야로 Nottingham 영국(또는 말레이시아) 캠퍼스로 이동 가능; 평균 55-60% 필요; 9월 입학, 영국 마감 2027년 6월 14일.",
+    "km": "និស្សិត UNNC អាចផ្ទេរទៅសាខា Nottingham នៅចក្រភពអង់គ្លេស (ឬម៉ាឡេស៊ី) ក្នុងវិស័យដដែល; តម្រូវពិន្ទុមធ្យម 55-60%; ចូលរៀនខែកញ្ញា ផុតកំណត់សម្រាប់ UK ថ្ងៃទី 14 មិថុនា 2027។",
+    "fr": "Les étudiants de l'UNNC peuvent être transférés sur le campus de Nottingham au Royaume-Uni (ou en Malaisie) dans le même domaine ; moyenne de 55-60 % requise ; rentrée en septembre, date limite UK le 14 juin 2027.",
+    "pt": "Estudantes da UNNC podem transferir-se para o campus de Nottingham no Reino Unido (ou na Malásia) na mesma área; média de 55-60% exigida; ingresso em setembro, prazo para o Reino Unido 14 de junho de 2027.",
+    "es": "Los estudiantes de UNNC pueden transferirse al campus de Nottingham en Reino Unido (o Malasia) en el mismo campo; se exige una media del 55-60%; ingreso en septiembre, plazo para Reino Unido 14 de junio de 2027.",
+    "de": "Studierende der UNNC können im gleichen Fach an den Nottingham-Campus in Großbritannien (oder Malaysia) wechseln; Durchschnitt von 55-60 % erforderlich; Start im September, Frist UK 14. Juni 2027.",
+    "it": "Gli studenti UNNC possono trasferirsi al campus di Nottingham nel Regno Unito (o in Malesia) nello stesso ambito; media richiesta 55-60%; ingresso a settembre, scadenza UK 14 giugno 2027.",
+    "nl": "Studenten van UNNC kunnen in hetzelfde vakgebied overstappen naar de Nottingham-campus in het VK (of Maleisië); gemiddelde van 55-60% vereist; start in september, deadline VK 14 juni 2027.",
+    "ru": "Студенты UNNC могут перевестись в кампус Nottingham в Великобритании (или Малайзии) по тому же направлению; требуется средний балл 55-60%; начало в сентябре, срок для UK — 14 июня 2027 г."
+   }
+  }
+ ]
+}

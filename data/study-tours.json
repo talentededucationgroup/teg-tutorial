@@ -1,0 +1,3843 @@
+{
+ "version": "2026-11-24",
+ "updated_at": "2026-11-24T17:33:00+00:00",
+ "count": 23,
+ "source_note": "Hanya dari halaman resmi sekolah/kampus; dicek 24/11/2026.",
+ "items": [
+  {
+   "id": "browns-junior-holiday-program",
+   "provider": "BROWNS English Language School",
+   "country": "AU",
+   "city": "Brisbane, Gold Coast, Melbourne",
+   "type": "junior_program",
+   "name": "Junior Holiday Program (JHP)",
+   "ages": {
+    "id": "12-17",
+    "en": "12-17",
+    "th": "12-17",
+    "vi": "12-17",
+    "zh": "12-17",
+    "ja": "12-17",
+    "ko": "12-17",
+    "km": "12-17",
+    "fr": "12-17",
+    "pt": "12-17",
+    "es": "12-17",
+    "de": "12-17",
+    "it": "12-17",
+    "nl": "12-17",
+    "ru": "12-17"
+   },
+   "duration": {
+    "id": "1-6 minggu",
+    "en": "1-6 weeks",
+    "th": "1-6 สัปดาห์",
+    "vi": "1-6 tuần",
+    "zh": "1-6周",
+    "ja": "1～6週間",
+    "ko": "1~6주",
+    "km": "1-6 សប្តាហ៍",
+    "fr": "1-6 semaines",
+    "pt": "1-6 semanas",
+    "es": "1-6 semanas",
+    "de": "1-6 Wochen",
+    "it": "1-6 settimane",
+    "nl": "1-6 weken",
+    "ru": "1-6 недель"
+   },
+   "season": {
+    "id": "Jan-Feb 2027 (10 Jan-20 Feb), Mar 2027 (Brisbane, Melbourne), Jul-Agu 2027",
+    "en": "Jan-Feb 2027 (10 Jan-20 Feb), Mar 2027 (Brisbane, Melbourne), Jul-Aug 2027",
+    "th": "ม.ค.-ก.พ. 2027 (10 ม.ค.-20 ก.พ.), มี.ค. 2027 (Brisbane, Melbourne), ก.ค.-ส.ค. 2027",
+    "vi": "Tháng 1-2/2027 (10/1-20/2), tháng 3/2027 (Brisbane, Melbourne), tháng 7-8/2027",
+    "zh": "2027年1-2月（1月10日-2月20日）、2027年3月（Brisbane、Melbourne）、2027年7-8月",
+    "ja": "2027年1-2月（1月10日～2月20日）、2027年3月（Brisbane、Melbourne）、2027年7-8月",
+    "ko": "2027년 1-2월(1월 10일~2월 20일), 2027년 3월(Brisbane, Melbourne), 2027년 7-8월",
+    "km": "មករា-កុម្ភៈ 2027 (10 មករា-20 កុម្ភៈ), មីនា 2027 (Brisbane, Melbourne), កក្កដា-សីហា 2027",
+    "fr": "janv.-févr. 2027 (10 janv.-20 févr.), mars 2027 (Brisbane, Melbourne), juil.-août 2027",
+    "pt": "jan.-fev. 2027 (10 jan.-20 fev.), mar. 2027 (Brisbane, Melbourne), jul.-ago. 2027",
+    "es": "ene.-feb. 2027 (10 ene.-20 feb.), mar. 2027 (Brisbane, Melbourne), jul.-ago. 2027",
+    "de": "Jan.-Feb. 2027 (10. Jan.-20. Feb.), März 2027 (Brisbane, Melbourne), Juli-Aug. 2027",
+    "it": "gen.-feb. 2027 (10 gen.-20 feb.), mar. 2027 (Brisbane, Melbourne), lug.-ago. 2027",
+    "nl": "jan.-feb. 2027 (10 jan.-20 feb.), mrt. 2027 (Brisbane, Melbourne), jul.-aug. 2027",
+    "ru": "янв.-февр. 2027 (10 янв.-20 февр.), март 2027 (Brisbane, Melbourne), июль-авг. 2027"
+   },
+   "price_from": 640,
+   "currency": "AUD",
+   "price_basis": {
+    "id": "per minggu (hanya biaya kursus; aktivitas +AUD 220/minggu; biaya pendaftaran AUD 260, resource fee, homestay AUD 485-490/minggu + placement AUD 320 terpisah)",
+    "en": "per week (tuition only; activities +AUD 220/week; application fee AUD 260, resource fee, homestay AUD 485-490/week + placement fee AUD 320 extra)",
+    "th": "ต่อสัปดาห์ (เฉพาะค่าเรียน; กิจกรรม +AUD 220/สัปดาห์; ค่าสมัคร AUD 260, ค่าสื่อการเรียน, โฮมสเตย์ AUD 485-490/สัปดาห์ + ค่าจัดหา AUD 320 คิดแยก)",
+    "vi": "mỗi tuần (chỉ học phí; hoạt động +AUD 220/tuần; phí ghi danh AUD 260, phí tài liệu, homestay AUD 485-490/tuần + phí sắp xếp AUD 320 tính riêng)",
+    "zh": "每周（仅学费；活动 +AUD 220/周；申请费 AUD 260、资料费、寄宿家庭 AUD 485-490/周 + 安置费 AUD 320 另计）",
+    "ja": "1週間あたり（授業料のみ；アクティビティ +AUD 220/週；申込金 AUD 260、教材費、ホームステイ AUD 485-490/週 + 手配料 AUD 320 は別途）",
+    "ko": "주당(수업료만; 액티비티 +AUD 220/주; 신청비 AUD 260, 자료비, 홈스테이 AUD 485-490/주 + 배정비 AUD 320 별도)",
+    "km": "ក្នុងមួយសប្តាហ៍ (តែថ្លៃសិក្សា; សកម្មភាព +AUD 220/សប្តាហ៍; ថ្លៃចុះឈ្មោះ AUD 260, ថ្លៃសម្ភារៈ, homestay AUD 485-490/សប្តាហ៍ + ថ្លៃរៀបចំ AUD 320 គិតដាច់ដោយឡែក)",
+    "fr": "par semaine (cours uniquement ; activités +AUD 220/semaine ; frais d'inscription AUD 260, frais de matériel, famille d'accueil AUD 485-490/semaine + frais de placement AUD 320 en sus)",
+    "pt": "por semana (somente curso; atividades +AUD 220/semana; taxa de inscrição AUD 260, taxa de materiais, casa de família AUD 485-490/semana + taxa de acomodação AUD 320 à parte)",
+    "es": "por semana (solo curso; actividades +AUD 220/semana; inscripción AUD 260, tasa de materiales, alojamiento AUD 485-490/semana + gestión AUD 320 aparte)",
+    "de": "pro Woche (nur Kurs; Aktivitäten +AUD 220/Woche; Anmeldegebühr AUD 260, Materialgebühr, Gastfamilie AUD 485-490/Woche + Vermittlung AUD 320 zusätzlich)",
+    "it": "a settimana (solo corso; attività +AUD 220/settimana; iscrizione AUD 260, materiali, famiglia ospitante AUD 485-490/settimana + sistemazione AUD 320 esclusi)",
+    "nl": "per week (alleen lesgeld; activiteiten +AUD 220/week; inschrijfgeld AUD 260, materiaalkosten, gastgezin AUD 485-490/week + plaatsingskosten AUD 320 extra)",
+    "ru": "в неделю (только обучение; мероприятия +AUD 220/нед.; регистрационный сбор AUD 260, сбор за материалы, проживание в семье AUD 485-490/нед. + сбор за размещение AUD 320 оплачиваются отдельно)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas (tambahan berbayar)",
+     "ekskursi hari Sabtu",
+     "buku latihan",
+     "sertifikat"
+    ],
+    "en": [
+     "tuition",
+     "activities (add-on)",
+     "Saturday excursion",
+     "workbook",
+     "certificate"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม (ส่วนเสริม)",
+     "ทัศนศึกษาวันเสาร์",
+     "แบบฝึกหัด",
+     "ประกาศนียบัตร"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động (tùy chọn thêm)",
+     "chuyến tham quan thứ Bảy",
+     "sách bài tập",
+     "chứng chỉ"
+    ],
+    "zh": [
+     "学费",
+     "活动（附加）",
+     "周六游览",
+     "练习册",
+     "证书"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ（オプション）",
+     "土曜日の遠足",
+     "ワークブック",
+     "修了証"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티(추가 옵션)",
+     "토요일 견학",
+     "워크북",
+     "수료증"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព (បន្ថែម)",
+     "ដំណើរកម្សាន្តថ្ងៃសៅរ៍",
+     "សៀវភៅលំហាត់",
+     "វិញ្ញាបនបត្រ"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités (en option)",
+     "excursion du samedi",
+     "cahier d'exercices",
+     "certificat"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades (adicional)",
+     "passeio de sábado",
+     "apostila de exercícios",
+     "certificado"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades (adicional)",
+     "excursión del sábado",
+     "cuaderno de ejercicios",
+     "certificado"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten (Zusatzoption)",
+     "Samstagsausflug",
+     "Arbeitsheft",
+     "Zertifikat"
+    ],
+    "it": [
+     "retta del corso",
+     "attività (opzionali)",
+     "escursione del sabato",
+     "eserciziario",
+     "certificato"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten (optioneel)",
+     "zaterdaguitstap",
+     "werkboek",
+     "certificaat"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия (доп. опция)",
+     "экскурсия в субботу",
+     "рабочая тетрадь",
+     "сертификат"
+    ]
+   },
+   "group_only": false,
+   "url": "https://brownsenglish.edu.au/junior-program",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program liburan bahasa Inggris untuk usia 12-17 tahun: 15 jam kelas per minggu plus aktivitas & ekskursi, mulai setiap Senin. Tuition AUD 640/minggu (flyer Jan-Feb 2027 Brisbane); aktivitas, homestay dan biaya lain terpisah.",
+    "en": "Holiday English program for ages 12-17: 15 hours of lessons per week plus activities and excursions, starting any Monday. Tuition AUD 640/week (Brisbane Jan-Feb 2027 flyer); activities, homestay and other fees are extra.",
+    "th": "โปรแกรมภาษาอังกฤษช่วงวันหยุดสำหรับอายุ 12-17 ปี: เรียน 15 ชั่วโมงต่อสัปดาห์ พร้อมกิจกรรมและทัศนศึกษา เริ่มได้ทุกวันจันทร์ ค่าเรียน AUD 640/สัปดาห์ (ใบปลิว Brisbane ม.ค.-ก.พ. 2027); กิจกรรม โฮมสเตย์ และค่าใช้จ่ายอื่นคิดแยก",
+    "vi": "Chương trình tiếng Anh kỳ nghỉ cho 12-17 tuổi: 15 giờ học mỗi tuần cùng hoạt động và tham quan, khai giảng mọi thứ Hai. Học phí AUD 640/tuần (tờ rơi Brisbane tháng 1-2/2027); hoạt động, homestay và các phí khác tính riêng.",
+    "zh": "面向12-17岁的假期英语课程：每周15小时课程，另有活动和游览，每周一开课。学费 AUD 640/周（Brisbane 2027年1-2月宣传单）；活动、寄宿家庭及其他费用另计。",
+    "ja": "12～17歳向けホリデー英語プログラム：週15時間の授業とアクティビティ・遠足、毎週月曜日開始。授業料 AUD 640/週（Brisbane 2027年1-2月チラシ）；アクティビティ、ホームステイ、その他費用は別途。",
+    "ko": "12~17세 대상 방학 영어 프로그램: 주 15시간 수업과 액티비티·견학, 매주 월요일 시작. 수업료 AUD 640/주(Brisbane 2027년 1-2월 전단); 액티비티, 홈스테이 및 기타 비용 별도.",
+    "km": "កម្មវិធីភាសាអង់គ្លេសពេលវិស្សមកាលសម្រាប់អាយុ 12-17 ឆ្នាំ: រៀន 15 ម៉ោងក្នុងមួយសប្តាហ៍ បូកសកម្មភាព និងដំណើរកម្សាន្ត ចាប់ផ្តើមរៀងរាល់ថ្ងៃច័ន្ទ។ ថ្លៃសិក្សា AUD 640/សប្តាហ៍ (ខិត្តប័ណ្ណ Brisbane មករា-កុម្ភៈ 2027); សកម្មភាព homestay និងថ្លៃផ្សេងៗគិតដាច់ដោយឡែក។",
+    "fr": "Programme d'anglais pendant les vacances pour les 12-17 ans : 15 heures de cours par semaine, plus activités et excursions, début chaque lundi. Cours AUD 640/semaine (dépliant Brisbane janv.-févr. 2027) ; activités, famille d'accueil et autres frais en sus.",
+    "pt": "Programa de inglês de férias para 12 a 17 anos: 15 horas de aula por semana, além de atividades e passeios, início toda segunda-feira. Curso AUD 640/semana (folheto Brisbane jan.-fev. 2027); atividades, casa de família e outras taxas à parte.",
+    "es": "Programa de inglés de vacaciones para 12-17 años: 15 horas de clase por semana más actividades y excursiones, inicio cualquier lunes. Curso AUD 640/semana (folleto Brisbane ene.-feb. 2027); actividades, alojamiento y otras tasas aparte.",
+    "de": "Englisch-Ferienprogramm für 12- bis 17-Jährige: 15 Unterrichtsstunden pro Woche plus Aktivitäten und Ausflüge, Start jeden Montag. Kurs AUD 640/Woche (Flyer Brisbane Jan.-Feb. 2027); Aktivitäten, Gastfamilie und weitere Gebühren zusätzlich.",
+    "it": "Programma di inglese per le vacanze per 12-17 anni: 15 ore di lezione a settimana più attività ed escursioni, inizio ogni lunedì. Corso AUD 640/settimana (volantino Brisbane gen.-feb. 2027); attività, famiglia ospitante e altri costi esclusi.",
+    "nl": "Engels vakantieprogramma voor 12-17 jaar: 15 uur les per week plus activiteiten en uitstapjes, start elke maandag. Lesgeld AUD 640/week (flyer Brisbane jan.-feb. 2027); activiteiten, gastgezin en overige kosten extra.",
+    "ru": "Каникулярная программа английского для 12-17 лет: 15 часов занятий в неделю плюс мероприятия и экскурсии, начало в любой понедельник. Обучение AUD 640/нед. (флаер Brisbane янв.-февр. 2027); мероприятия, проживание в семье и прочие сборы оплачиваются отдельно."
+   }
+  },
+  {
+   "id": "ilsc-junior-camp-brisbane",
+   "provider": "ILSC Language Schools (ILSC Education Group)",
+   "country": "AU",
+   "city": "Brisbane",
+   "type": "summer_camp",
+   "name": "Junior Camp (Brisbane, English, Homestay)",
+   "ages": {
+    "id": "12-17",
+    "en": "12-17",
+    "th": "12-17",
+    "vi": "12-17",
+    "zh": "12-17",
+    "ja": "12-17",
+    "ko": "12-17",
+    "km": "12-17",
+    "fr": "12-17",
+    "pt": "12-17",
+    "es": "12-17",
+    "de": "12-17",
+    "it": "12-17",
+    "nl": "12-17",
+    "ru": "12-17"
+   },
+   "duration": {
+    "id": "1-4 minggu",
+    "en": "1-4 weeks",
+    "th": "1-4 สัปดาห์",
+    "vi": "1-4 tuần",
+    "zh": "1-4周",
+    "ja": "1～4週間",
+    "ko": "1~4주",
+    "km": "1-4 សប្តាហ៍",
+    "fr": "1-4 semaines",
+    "pt": "1-4 semanas",
+    "es": "1-4 semanas",
+    "de": "1-4 Wochen",
+    "it": "1-4 settimane",
+    "nl": "1-4 weken",
+    "ru": "1-4 недели"
+   },
+   "season": {
+    "id": "Jul-Agu 2027 (mulai hari Minggu, 11 Jul-15 Agu; musim dingin Australia)",
+    "en": "Jul-Aug 2027 (Sunday starts 11 Jul-15 Aug; Australian winter)",
+    "th": "ก.ค.-ส.ค. 2027 (เริ่มวันอาทิตย์ 11 ก.ค.-15 ส.ค.; ฤดูหนาวออสเตรเลีย)",
+    "vi": "Tháng 7-8/2027 (khai giảng Chủ nhật 11/7-15/8; mùa đông Úc)",
+    "zh": "2027年7-8月（周日开课，7月11日-8月15日；澳大利亚冬季）",
+    "ja": "2027年7-8月（日曜日開始、7月11日～8月15日；オーストラリアの冬）",
+    "ko": "2027년 7-8월(일요일 시작, 7월 11일~8월 15일; 호주 겨울)",
+    "km": "កក្កដា-សីហា 2027 (ចាប់ផ្តើមថ្ងៃអាទិត្យ 11 កក្កដា-15 សីហា; រដូវរងាអូស្ត្រាលី)",
+    "fr": "juil.-août 2027 (débuts le dimanche du 11 juil. au 15 août ; hiver australien)",
+    "pt": "jul.-ago. 2027 (início aos domingos, 11 jul.-15 ago.; inverno australiano)",
+    "es": "jul.-ago. 2027 (inicio en domingo, 11 jul.-15 ago.; invierno australiano)",
+    "de": "Juli-Aug. 2027 (Start sonntags, 11. Juli-15. Aug.; australischer Winter)",
+    "it": "lug.-ago. 2027 (inizio di domenica, 11 lug.-15 ago.; inverno australiano)",
+    "nl": "jul.-aug. 2027 (start op zondag, 11 jul.-15 aug.; Australische winter)",
+    "ru": "июль-авг. 2027 (начало по воскресеньям, 11 июля-15 авг.; австралийская зима)"
+   },
+   "price_from": 2550,
+   "currency": "AUD",
+   "price_basis": {
+    "id": "per paket 1 minggu (fact sheet 2026; 4 minggu AUD 6.600)",
+    "en": "per 1-week package (2026 fact sheet; 4 weeks AUD 6,600)",
+    "th": "ต่อแพ็กเกจ 1 สัปดาห์ (เอกสารข้อมูล 2026; 4 สัปดาห์ AUD 6,600)",
+    "vi": "cho gói 1 tuần (tờ thông tin 2026; 4 tuần AUD 6,600)",
+    "zh": "每1周套餐（2026年资料表；4周 AUD 6,600）",
+    "ja": "1週間パッケージあたり（2026年ファクトシート；4週間 AUD 6,600）",
+    "ko": "1주 패키지 기준(2026년 안내서; 4주 AUD 6,600)",
+    "km": "ក្នុងមួយកញ្ចប់ 1 សប្តាហ៍ (ឯកសារព័ត៌មាន 2026; 4 សប្តាហ៍ AUD 6,600)",
+    "fr": "par forfait d'1 semaine (fiche 2026 ; 4 semaines AUD 6 600)",
+    "pt": "por pacote de 1 semana (ficha 2026; 4 semanas AUD 6.600)",
+    "es": "por paquete de 1 semana (ficha 2026; 4 semanas AUD 6.600)",
+    "de": "pro 1-Wochen-Paket (Infoblatt 2026; 4 Wochen AUD 6.600)",
+    "it": "per pacchetto di 1 settimana (scheda 2026; 4 settimane AUD 6.600)",
+    "nl": "per pakket van 1 week (factsheet 2026; 4 weken AUD 6.600)",
+    "ru": "за пакет на 1 неделю (информационный лист 2026; 4 недели AUD 6 600)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "homestay",
+     "makan",
+     "antar-jemput bandara",
+     "buku pelajaran",
+     "aktivitas",
+     "ekskursi",
+     "sertifikat"
+    ],
+    "en": [
+     "tuition",
+     "homestay",
+     "meals",
+     "airport transfer",
+     "textbooks",
+     "activities",
+     "excursions",
+     "certificate"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "โฮมสเตย์",
+     "อาหาร",
+     "รับส่งสนามบิน",
+     "หนังสือเรียน",
+     "กิจกรรม",
+     "ทัศนศึกษา",
+     "ประกาศนียบัตร"
+    ],
+    "vi": [
+     "học phí",
+     "homestay",
+     "bữa ăn",
+     "đưa đón sân bay",
+     "sách giáo khoa",
+     "hoạt động",
+     "tham quan",
+     "chứng chỉ"
+    ],
+    "zh": [
+     "学费",
+     "寄宿家庭",
+     "餐食",
+     "机场接送",
+     "教材",
+     "活动",
+     "游览",
+     "证书"
+    ],
+    "ja": [
+     "授業料",
+     "ホームステイ",
+     "食事",
+     "空港送迎",
+     "教科書",
+     "アクティビティ",
+     "遠足",
+     "修了証"
+    ],
+    "ko": [
+     "수업료",
+     "홈스테이",
+     "식사",
+     "공항 픽업",
+     "교재",
+     "액티비티",
+     "견학",
+     "수료증"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)",
+     "អាហារ",
+     "ការដឹកជញ្ជូនពីអាកាសយានដ្ឋាន",
+     "សៀវភៅសិក្សា",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត",
+     "វិញ្ញាបនបត្រ"
+    ],
+    "fr": [
+     "frais de cours",
+     "famille d'accueil",
+     "repas",
+     "transfert aéroport",
+     "manuels",
+     "activités",
+     "excursions",
+     "certificat"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "casa de família",
+     "refeições",
+     "traslado do aeroporto",
+     "livros didáticos",
+     "atividades",
+     "passeios",
+     "certificado"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en familia",
+     "comidas",
+     "traslado al aeropuerto",
+     "libros de texto",
+     "actividades",
+     "excursiones",
+     "certificado"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Gastfamilie",
+     "Mahlzeiten",
+     "Flughafentransfer",
+     "Lehrbücher",
+     "Aktivitäten",
+     "Ausflüge",
+     "Zertifikat"
+    ],
+    "it": [
+     "retta del corso",
+     "famiglia ospitante",
+     "pasti",
+     "transfer aeroportuale",
+     "libri di testo",
+     "attività",
+     "escursioni",
+     "certificato"
+    ],
+    "nl": [
+     "lesgeld",
+     "gastgezin",
+     "maaltijden",
+     "luchthavenvervoer",
+     "lesboeken",
+     "activiteiten",
+     "uitstapjes",
+     "certificaat"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в семье",
+     "питание",
+     "трансфер из аэропорта",
+     "учебники",
+     "мероприятия",
+     "экскурсии",
+     "сертификат"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.ilsc.com/junior-camp-ilsc-brisbane",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Camp bahasa Inggris 12-17 tahun di Brisbane, 17 jam kelas per minggu dengan homestay, aktivitas sore dan ekskursi Sabtu. Harga paket 2026 mulai AUD 2.550 (1 minggu) termasuk homestay, antar-jemput bandara dan buku; harga 2027 perlu konfirmasi.",
+    "en": "English camp for ages 12-17 in Brisbane: 17 lessons per week with homestay, afternoon activities and Saturday excursions. 2026 packages from AUD 2,550 (1 week) incl. homestay, airport transfers and textbooks; 2027 price to be confirmed.",
+    "th": "แคมป์ภาษาอังกฤษสำหรับอายุ 12-17 ปีที่ Brisbane: เรียน 17 คาบต่อสัปดาห์ พักโฮมสเตย์ มีกิจกรรมช่วงบ่ายและทัศนศึกษาวันเสาร์ แพ็กเกจปี 2026 เริ่มต้น AUD 2,550 (1 สัปดาห์) รวมโฮมสเตย์ รับส่งสนามบิน และหนังสือเรียน; ราคาปี 2027 รอการยืนยัน",
+    "vi": "Trại tiếng Anh cho 12-17 tuổi tại Brisbane: 17 tiết mỗi tuần, ở homestay, hoạt động buổi chiều và tham quan thứ Bảy. Gói 2026 từ AUD 2,550 (1 tuần) gồm homestay, đưa đón sân bay và sách giáo khoa; giá 2027 cần xác nhận.",
+    "zh": "Brisbane 12-17岁英语营：每周17节课，寄宿家庭，下午活动及周六游览。2026年套餐 AUD 2,550 起（1周），含寄宿家庭、机场接送及教材；2027年价格待确认。",
+    "ja": "Brisbane の12～17歳向け英語キャンプ：週17レッスン、ホームステイ、午後のアクティビティと土曜日の遠足。2026年パッケージは AUD 2,550 から（1週間）、ホームステイ・空港送迎・教科書込み；2027年料金は要確認。",
+    "ko": "Brisbane 12~17세 영어 캠프: 주 17교시 수업, 홈스테이, 오후 액티비티 및 토요일 견학. 2026년 패키지 AUD 2,550부터(1주), 홈스테이·공항 픽업·교재 포함; 2027년 가격은 확인 필요.",
+    "km": "ជំរុំភាសាអង់គ្លេសសម្រាប់អាយុ 12-17 ឆ្នាំនៅ Brisbane: 17 មេរៀនក្នុងមួយសប្តាហ៍ ស្នាក់នៅ homestay សកម្មភាពពេលរសៀល និងដំណើរកម្សាន្តថ្ងៃសៅរ៍។ កញ្ចប់ឆ្នាំ 2026 ចាប់ពី AUD 2,550 (1 សប្តាហ៍) រួម homestay ការដឹកពីអាកាសយានដ្ឋាន និងសៀវភៅ; តម្លៃឆ្នាំ 2027 ត្រូវបញ្ជាក់។",
+    "fr": "Camp d'anglais pour les 12-17 ans à Brisbane : 17 leçons par semaine, famille d'accueil, activités l'après-midi et excursions le samedi. Forfaits 2026 dès AUD 2 550 (1 semaine), famille d'accueil, transferts aéroport et manuels inclus ; prix 2027 à confirmer.",
+    "pt": "Acampamento de inglês para 12 a 17 anos em Brisbane: 17 aulas por semana, casa de família, atividades à tarde e passeios aos sábados. Pacotes 2026 a partir de AUD 2.550 (1 semana), incluindo casa de família, traslado do aeroporto e livros; preço 2027 a confirmar.",
+    "es": "Campamento de inglés para 12-17 años en Brisbane: 17 lecciones por semana, alojamiento en familia, actividades por la tarde y excursiones los sábados. Paquetes 2026 desde AUD 2.550 (1 semana) con familia, traslados al aeropuerto y libros; precio 2027 por confirmar.",
+    "de": "Englisch-Camp für 12- bis 17-Jährige in Brisbane: 17 Lektionen pro Woche, Gastfamilie, Nachmittagsaktivitäten und Samstagsausflüge. Pakete 2026 ab AUD 2.550 (1 Woche) inkl. Gastfamilie, Flughafentransfer und Lehrbüchern; Preis 2027 noch zu bestätigen.",
+    "it": "Campo di inglese per 12-17 anni a Brisbane: 17 lezioni a settimana, famiglia ospitante, attività pomeridiane ed escursioni il sabato. Pacchetti 2026 da AUD 2.550 (1 settimana) con famiglia, transfer aeroportuale e libri; prezzo 2027 da confermare.",
+    "nl": "Engels kamp voor 12-17 jaar in Brisbane: 17 lessen per week, gastgezin, middagactiviteiten en zaterdaguitstapjes. Pakketten 2026 vanaf AUD 2.550 (1 week) incl. gastgezin, luchthavenvervoer en lesboeken; prijs 2027 nog te bevestigen.",
+    "ru": "Языковой лагерь для 12-17 лет в Brisbane: 17 уроков в неделю, проживание в семье, мероприятия после обеда и экскурсии по субботам. Пакеты 2026 от AUD 2 550 (1 неделя), включая семью, трансфер из аэропорта и учебники; цена на 2027 требует подтверждения."
+   }
+  },
+  {
+   "id": "ilsc-junior-camp-perth",
+   "provider": "ILSC Language Schools (ILSC Education Group)",
+   "country": "AU",
+   "city": "Perth",
+   "type": "summer_camp",
+   "name": "Junior Camp (Perth, English, Homestay)",
+   "ages": {
+    "id": "12-17",
+    "en": "12-17",
+    "th": "12-17",
+    "vi": "12-17",
+    "zh": "12-17",
+    "ja": "12-17",
+    "ko": "12-17",
+    "km": "12-17",
+    "fr": "12-17",
+    "pt": "12-17",
+    "es": "12-17",
+    "de": "12-17",
+    "it": "12-17",
+    "nl": "12-17",
+    "ru": "12-17"
+   },
+   "duration": {
+    "id": "1-4 minggu",
+    "en": "1-4 weeks",
+    "th": "1-4 สัปดาห์",
+    "vi": "1-4 tuần",
+    "zh": "1-4周",
+    "ja": "1～4週間",
+    "ko": "1~4주",
+    "km": "1-4 សប្តាហ៍",
+    "fr": "1-4 semaines",
+    "pt": "1-4 semanas",
+    "es": "1-4 semanas",
+    "de": "1-4 Wochen",
+    "it": "1-4 settimane",
+    "nl": "1-4 weken",
+    "ru": "1-4 недели"
+   },
+   "season": {
+    "id": "Jul-Agu 2027 (mulai hari Minggu, 11 Jul-15 Agu; musim dingin Australia)",
+    "en": "Jul-Aug 2027 (Sunday starts 11 Jul-15 Aug; Australian winter)",
+    "th": "ก.ค.-ส.ค. 2027 (เริ่มวันอาทิตย์ 11 ก.ค.-15 ส.ค.; ฤดูหนาวออสเตรเลีย)",
+    "vi": "Tháng 7-8/2027 (khai giảng Chủ nhật 11/7-15/8; mùa đông Úc)",
+    "zh": "2027年7-8月（周日开课，7月11日-8月15日；澳大利亚冬季）",
+    "ja": "2027年7-8月（日曜日開始、7月11日～8月15日；オーストラリアの冬）",
+    "ko": "2027년 7-8월(일요일 시작, 7월 11일~8월 15일; 호주 겨울)",
+    "km": "កក្កដា-សីហា 2027 (ចាប់ផ្តើមថ្ងៃអាទិត្យ 11 កក្កដា-15 សីហា; រដូវរងាអូស្ត្រាលី)",
+    "fr": "juil.-août 2027 (débuts le dimanche du 11 juil. au 15 août ; hiver australien)",
+    "pt": "jul.-ago. 2027 (início aos domingos, 11 jul.-15 ago.; inverno australiano)",
+    "es": "jul.-ago. 2027 (inicio en domingo, 11 jul.-15 ago.; invierno australiano)",
+    "de": "Juli-Aug. 2027 (Start sonntags, 11. Juli-15. Aug.; australischer Winter)",
+    "it": "lug.-ago. 2027 (inizio di domenica, 11 lug.-15 ago.; inverno australiano)",
+    "nl": "jul.-aug. 2027 (start op zondag, 11 jul.-15 aug.; Australische winter)",
+    "ru": "июль-авг. 2027 (начало по воскресеньям, 11 июля-15 авг.; австралийская зима)"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "homestay",
+     "makan",
+     "aktivitas",
+     "ekskursi",
+     "sertifikat"
+    ],
+    "en": [
+     "tuition",
+     "homestay",
+     "meals",
+     "activities",
+     "excursions",
+     "certificate"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "โฮมสเตย์",
+     "อาหาร",
+     "กิจกรรม",
+     "ทัศนศึกษา",
+     "ประกาศนียบัตร"
+    ],
+    "vi": [
+     "học phí",
+     "homestay",
+     "bữa ăn",
+     "hoạt động",
+     "tham quan",
+     "chứng chỉ"
+    ],
+    "zh": [
+     "学费",
+     "寄宿家庭",
+     "餐食",
+     "活动",
+     "游览",
+     "证书"
+    ],
+    "ja": [
+     "授業料",
+     "ホームステイ",
+     "食事",
+     "アクティビティ",
+     "遠足",
+     "修了証"
+    ],
+    "ko": [
+     "수업료",
+     "홈스테이",
+     "식사",
+     "액티비티",
+     "견학",
+     "수료증"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)",
+     "អាហារ",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត",
+     "វិញ្ញាបនបត្រ"
+    ],
+    "fr": [
+     "frais de cours",
+     "famille d'accueil",
+     "repas",
+     "activités",
+     "excursions",
+     "certificat"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "casa de família",
+     "refeições",
+     "atividades",
+     "passeios",
+     "certificado"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en familia",
+     "comidas",
+     "actividades",
+     "excursiones",
+     "certificado"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Gastfamilie",
+     "Mahlzeiten",
+     "Aktivitäten",
+     "Ausflüge",
+     "Zertifikat"
+    ],
+    "it": [
+     "retta del corso",
+     "famiglia ospitante",
+     "pasti",
+     "attività",
+     "escursioni",
+     "certificato"
+    ],
+    "nl": [
+     "lesgeld",
+     "gastgezin",
+     "maaltijden",
+     "activiteiten",
+     "uitstapjes",
+     "certificaat"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в семье",
+     "питание",
+     "мероприятия",
+     "экскурсии",
+     "сертификат"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.ilsc.com/language-schools/programs/junior/ilsc-campuses/perth",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Camp bahasa Inggris 12-17 tahun di Perth, 17 jam kelas per minggu, homestay full board, aktivitas sore dan ekskursi Sabtu. Harga belum tercantum di halaman program.",
+    "en": "English camp for ages 12-17 in Perth: 17 lessons per week, full-board homestay, afternoon activities and Saturday excursions. Price not shown on the program page.",
+    "th": "แคมป์ภาษาอังกฤษสำหรับอายุ 12-17 ปีที่ Perth: เรียน 17 คาบต่อสัปดาห์ โฮมสเตย์พร้อมอาหารครบทุกมื้อ กิจกรรมช่วงบ่ายและทัศนศึกษาวันเสาร์ ไม่มีราคาแสดงในหน้าโปรแกรม",
+    "vi": "Trại tiếng Anh cho 12-17 tuổi tại Perth: 17 tiết mỗi tuần, homestay bao ăn, hoạt động buổi chiều và tham quan thứ Bảy. Trang chương trình không ghi giá.",
+    "zh": "Perth 12-17岁英语营：每周17节课，全膳寄宿家庭，下午活动及周六游览。课程页面未列出价格。",
+    "ja": "Perth の12～17歳向け英語キャンプ：週17レッスン、3食付きホームステイ、午後のアクティビティと土曜日の遠足。プログラムページに料金の記載なし。",
+    "ko": "Perth 12~17세 영어 캠프: 주 17교시 수업, 전식 포함 홈스테이, 오후 액티비티 및 토요일 견학. 프로그램 페이지에 가격 미표시.",
+    "km": "ជំរុំភាសាអង់គ្លេសសម្រាប់អាយុ 12-17 ឆ្នាំនៅ Perth: 17 មេរៀនក្នុងមួយសប្តាហ៍ homestay រួមអាហារពេញ សកម្មភាពពេលរសៀល និងដំណើរកម្សាន្តថ្ងៃសៅរ៍។ ទំព័រកម្មវិធីមិនបង្ហាញតម្លៃ។",
+    "fr": "Camp d'anglais pour les 12-17 ans à Perth : 17 leçons par semaine, famille d'accueil en pension complète, activités l'après-midi et excursions le samedi. Prix non indiqué sur la page du programme.",
+    "pt": "Acampamento de inglês para 12 a 17 anos em Perth: 17 aulas por semana, casa de família com pensão completa, atividades à tarde e passeios aos sábados. Preço não informado na página do programa.",
+    "es": "Campamento de inglés para 12-17 años en Perth: 17 lecciones por semana, familia con pensión completa, actividades por la tarde y excursiones los sábados. Precio no indicado en la página del programa.",
+    "de": "Englisch-Camp für 12- bis 17-Jährige in Perth: 17 Lektionen pro Woche, Gastfamilie mit Vollpension, Nachmittagsaktivitäten und Samstagsausflüge. Preis auf der Programmseite nicht angegeben.",
+    "it": "Campo di inglese per 12-17 anni a Perth: 17 lezioni a settimana, famiglia ospitante in pensione completa, attività pomeridiane ed escursioni il sabato. Prezzo non indicato nella pagina del programma.",
+    "nl": "Engels kamp voor 12-17 jaar in Perth: 17 lessen per week, gastgezin met volpension, middagactiviteiten en zaterdaguitstapjes. Prijs niet vermeld op de programmapagina.",
+    "ru": "Языковой лагерь для 12-17 лет в Perth: 17 уроков в неделю, проживание в семье с полным пансионом, мероприятия после обеда и экскурсии по субботам. Цена на странице программы не указана."
+   }
+  },
+  {
+   "id": "greenwich-global-explorer-junior-holiday",
+   "provider": "Greenwich College",
+   "country": "AU",
+   "city": "Sydney, Melbourne",
+   "type": "junior_program",
+   "name": "Global Explorer Program (Junior Holiday)",
+   "ages": {
+    "id": "7-16",
+    "en": "7-16",
+    "th": "7-16",
+    "vi": "7-16",
+    "zh": "7-16",
+    "ja": "7-16",
+    "ko": "7-16",
+    "km": "7-16",
+    "fr": "7-16",
+    "pt": "7-16",
+    "es": "7-16",
+    "de": "7-16",
+    "it": "7-16",
+    "nl": "7-16",
+    "ru": "7-16"
+   },
+   "duration": {
+    "id": "1-5 minggu",
+    "en": "1-5 weeks",
+    "th": "1-5 สัปดาห์",
+    "vi": "1-5 tuần",
+    "zh": "1-5周",
+    "ja": "1～5週間",
+    "ko": "1~5주",
+    "km": "1-5 សប្តាហ៍",
+    "fr": "1-5 semaines",
+    "pt": "1-5 semanas",
+    "es": "1-5 semanas",
+    "de": "1-5 Wochen",
+    "it": "1-5 settimane",
+    "nl": "1-5 weken",
+    "ru": "1-5 недель"
+   },
+   "season": {
+    "id": "Jan 2027 (4-29 Jan) dan Jul-Agu 2027 (12 Jul-13 Agu)",
+    "en": "Jan 2027 (4-29 Jan) and Jul-Aug 2027 (12 Jul-13 Aug)",
+    "th": "ม.ค. 2027 (4-29 ม.ค.) และ ก.ค.-ส.ค. 2027 (12 ก.ค.-13 ส.ค.)",
+    "vi": "Tháng 1/2027 (4-29/1) và tháng 7-8/2027 (12/7-13/8)",
+    "zh": "2027年1月（1月4-29日）及2027年7-8月（7月12日-8月13日）",
+    "ja": "2027年1月（1月4-29日）と2027年7-8月（7月12日～8月13日）",
+    "ko": "2027년 1월(1월 4-29일), 2027년 7-8월(7월 12일~8월 13일)",
+    "km": "មករា 2027 (4-29 មករា) និង កក្កដា-សីហា 2027 (12 កក្កដា-13 សីហា)",
+    "fr": "janv. 2027 (4-29 janv.) et juil.-août 2027 (12 juil.-13 août)",
+    "pt": "jan. 2027 (4-29 jan.) e jul.-ago. 2027 (12 jul.-13 ago.)",
+    "es": "ene. 2027 (4-29 ene.) y jul.-ago. 2027 (12 jul.-13 ago.)",
+    "de": "Jan. 2027 (4.-29. Jan.) und Juli-Aug. 2027 (12. Juli-13. Aug.)",
+    "it": "gen. 2027 (4-29 gen.) e lug.-ago. 2027 (12 lug.-13 ago.)",
+    "nl": "jan. 2027 (4-29 jan.) en jul.-aug. 2027 (12 jul.-13 aug.)",
+    "ru": "янв. 2027 (4-29 янв.) и июль-авг. 2027 (12 июля-13 авг.)"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas",
+     "ekskursi"
+    ],
+    "en": [
+     "tuition",
+     "activities",
+     "excursions"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม",
+     "ทัศนศึกษา"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động",
+     "tham quan"
+    ],
+    "zh": [
+     "学费",
+     "活动",
+     "游览"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ",
+     "遠足"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티",
+     "견학"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités",
+     "excursions"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades",
+     "passeios"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades",
+     "excursiones"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten",
+     "Ausflüge"
+    ],
+    "it": [
+     "retta del corso",
+     "attività",
+     "escursioni"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten",
+     "uitstapjes"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия",
+     "экскурсии"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.greenwichcollege.edu.au/elicos/junior-holiday-study-groups",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program liburan bahasa Inggris untuk pemegang visa non-pelajar usia 7-16 tahun, kelas pagi dan aktivitas sore, 1-5 minggu saat liburan musim panas & musim dingin Australia. Homestay & antar-jemput bandara bisa diatur; harga belum tercantum.",
+    "en": "Holiday English program for non-student-visa holders aged 7-16, morning lessons and afternoon activities, 1-5 weeks during the Australian summer and winter holidays. Homestay and airport transfers can be arranged; price not listed.",
+    "th": "โปรแกรมภาษาอังกฤษช่วงวันหยุดสำหรับผู้ถือวีซ่าที่ไม่ใช่วีซ่านักเรียน อายุ 7-16 ปี เรียนช่วงเช้าและกิจกรรมช่วงบ่าย 1-5 สัปดาห์ในช่วงปิดภาคฤดูร้อนและฤดูหนาวของออสเตรเลีย จัดโฮมสเตย์และรับส่งสนามบินได้; ไม่มีราคาแสดง",
+    "vi": "Chương trình tiếng Anh kỳ nghỉ cho người không dùng visa du học, 7-16 tuổi, học buổi sáng và hoạt động buổi chiều, 1-5 tuần trong kỳ nghỉ hè và đông của Úc. Có thể sắp xếp homestay và đưa đón sân bay; chưa niêm yết giá.",
+    "zh": "面向非学生签证持有者（7-16岁）的假期英语课程，上午上课、下午活动，在澳大利亚暑假和寒假期间举办，为期1-5周。可安排寄宿家庭和机场接送；未列出价格。",
+    "ja": "学生ビザ以外のビザ保持者（7～16歳）向けホリデー英語プログラム。午前は授業、午後はアクティビティ、オーストラリアの夏休み・冬休み期間に1～5週間。ホームステイと空港送迎の手配可；料金の記載なし。",
+    "ko": "학생 비자 외 비자 소지자(7~16세) 대상 방학 영어 프로그램, 오전 수업과 오후 액티비티, 호주 여름·겨울 방학 기간 중 1~5주. 홈스테이 및 공항 픽업 주선 가능; 가격 미기재.",
+    "km": "កម្មវិធីភាសាអង់គ្លេសពេលវិស្សមកាលសម្រាប់អ្នកកាន់ទិដ្ឋាការមិនមែនសិស្ស អាយុ 7-16 ឆ្នាំ រៀនពេលព្រឹក និងសកម្មភាពពេលរសៀល 1-5 សប្តាហ៍ ក្នុងវិស្សមកាលរដូវក្តៅ និងរដូវរងារបស់អូស្ត្រាលី។ អាចរៀបចំ homestay និងការដឹកពីអាកាសយានដ្ឋាន; មិនទាន់មានតម្លៃ។",
+    "fr": "Programme d'anglais pendant les vacances pour les titulaires d'un visa autre qu'étudiant, de 7 à 16 ans : cours le matin, activités l'après-midi, 1 à 5 semaines pendant les vacances d'été et d'hiver australiennes. Famille d'accueil et transferts aéroport possibles ; prix non indiqué.",
+    "pt": "Programa de inglês de férias para portadores de visto que não seja de estudante, de 7 a 16 anos: aulas pela manhã e atividades à tarde, 1 a 5 semanas nas férias de verão e inverno da Austrália. Casa de família e traslado do aeroporto podem ser providenciados; preço não informado.",
+    "es": "Programa de inglés de vacaciones para titulares de visados no estudiantiles de 7-16 años: clases por la mañana y actividades por la tarde, 1-5 semanas en las vacaciones de verano e invierno de Australia. Se puede organizar alojamiento en familia y traslados; precio no indicado.",
+    "de": "Englisch-Ferienprogramm für Inhaber eines Nicht-Studentenvisums von 7 bis 16 Jahren: vormittags Unterricht, nachmittags Aktivitäten, 1-5 Wochen in den australischen Sommer- und Winterferien. Gastfamilie und Flughafentransfer buchbar; Preis nicht angegeben.",
+    "it": "Programma di inglese per le vacanze per titolari di visto non studentesco, 7-16 anni: lezioni al mattino e attività al pomeriggio, 1-5 settimane durante le vacanze estive e invernali australiane. Famiglia ospitante e transfer organizzabili; prezzo non indicato.",
+    "nl": "Engels vakantieprogramma voor houders van een ander visum dan een studentenvisum, 7-16 jaar: 's ochtends les, 's middags activiteiten, 1-5 weken tijdens de Australische zomer- en wintervakantie. Gastgezin en luchthavenvervoer te regelen; prijs niet vermeld.",
+    "ru": "Каникулярная программа английского для владельцев нестуденческих виз в возрасте 7-16 лет: утром уроки, днём мероприятия, 1-5 недель во время летних и зимних каникул в Австралии. Возможна организация проживания в семье и трансфера; цена не указана."
+   }
+  },
+  {
+   "id": "greenwich-study-groups",
+   "provider": "Greenwich College",
+   "country": "AU",
+   "city": "Sydney, Melbourne, Brisbane, Gold Coast",
+   "type": "group_program",
+   "name": "Study Group - Global Explorer",
+   "ages": {
+    "id": "15+",
+    "en": "15+",
+    "th": "15+",
+    "vi": "15+",
+    "zh": "15+",
+    "ja": "15+",
+    "ko": "15+",
+    "km": "15+",
+    "fr": "15+",
+    "pt": "15+",
+    "es": "15+",
+    "de": "15+",
+    "it": "15+",
+    "nl": "15+",
+    "ru": "15+"
+   },
+   "duration": {
+    "id": "1-4 minggu",
+    "en": "1-4 weeks",
+    "th": "1-4 สัปดาห์",
+    "vi": "1-4 tuần",
+    "zh": "1-4周",
+    "ja": "1～4週間",
+    "ko": "1~4주",
+    "km": "1-4 សប្តាហ៍",
+    "fr": "1-4 semaines",
+    "pt": "1-4 semanas",
+    "es": "1-4 semanas",
+    "de": "1-4 Wochen",
+    "it": "1-4 settimane",
+    "nl": "1-4 weken",
+    "ru": "1-4 недели"
+   },
+   "season": {
+    "id": "sepanjang tahun",
+    "en": "all year round",
+    "th": "ตลอดทั้งปี",
+    "vi": "quanh năm",
+    "zh": "全年",
+    "ja": "通年",
+    "ko": "연중",
+    "km": "ពេញមួយឆ្នាំ",
+    "fr": "toute l'année",
+    "pt": "o ano todo",
+    "es": "todo el año",
+    "de": "ganzjährig",
+    "it": "tutto l'anno",
+    "nl": "het hele jaar",
+    "ru": "круглый год"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas",
+     "ekskursi",
+     "homestay (opsional)",
+     "antar-jemput bandara (opsional)"
+    ],
+    "en": [
+     "tuition",
+     "activities",
+     "excursions",
+     "homestay (optional)",
+     "airport transfer (optional)"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม",
+     "ทัศนศึกษา",
+     "โฮมสเตย์ (ไม่บังคับ)",
+     "รับส่งสนามบิน (ไม่บังคับ)"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động",
+     "tham quan",
+     "homestay (tùy chọn)",
+     "đưa đón sân bay (tùy chọn)"
+    ],
+    "zh": [
+     "学费",
+     "活动",
+     "游览",
+     "寄宿家庭（可选）",
+     "机场接送（可选）"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ",
+     "遠足",
+     "ホームステイ（任意）",
+     "空港送迎（任意）"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티",
+     "견학",
+     "홈스테이(선택)",
+     "공항 픽업(선택)"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត",
+     "ស្នាក់នៅជាមួយគ្រួសារ (ជម្រើស)",
+     "ការដឹកជញ្ជូនពីអាកាសយានដ្ឋាន (ជម្រើស)"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités",
+     "excursions",
+     "famille d'accueil (en option)",
+     "transfert aéroport (en option)"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades",
+     "passeios",
+     "casa de família (opcional)",
+     "traslado do aeroporto (opcional)"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades",
+     "excursiones",
+     "alojamiento en familia (opcional)",
+     "traslado al aeropuerto (opcional)"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten",
+     "Ausflüge",
+     "Gastfamilie (optional)",
+     "Flughafentransfer (optional)"
+    ],
+    "it": [
+     "retta del corso",
+     "attività",
+     "escursioni",
+     "famiglia ospitante (facoltativa)",
+     "transfer aeroportuale (facoltativo)"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten",
+     "uitstapjes",
+     "gastgezin (optioneel)",
+     "luchthavenvervoer (optioneel)"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия",
+     "экскурсии",
+     "проживание в семье (по желанию)",
+     "трансфер из аэропорта (по желанию)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.greenwichcollege.edu.au/elicos/junior-holiday-study-groups",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour khusus grup (usia 15+, visa non-pelajar) dengan program bahasa Inggris dan aktivitas yang disesuaikan, 1-4 minggu, tersedia sepanjang tahun. Harga sesuai penawaran grup.",
+    "en": "Group-only study tour (ages 15+, non-student visa) with tailored English lessons and activities, 1-4 weeks, available all year. Price quoted per group.",
+    "th": "สตัดี้ทัวร์สำหรับกลุ่มเท่านั้น (อายุ 15 ปีขึ้นไป วีซ่าที่ไม่ใช่วีซ่านักเรียน) พร้อมบทเรียนภาษาอังกฤษและกิจกรรมที่ปรับตามกลุ่ม 1-4 สัปดาห์ จัดได้ตลอดปี ราคาเสนอตามกลุ่ม",
+    "vi": "Study tour chỉ dành cho nhóm (từ 15 tuổi, visa không phải du học) với bài học tiếng Anh và hoạt động thiết kế riêng, 1-4 tuần, quanh năm. Giá báo theo từng nhóm.",
+    "zh": "仅限团体的游学团（15岁以上，非学生签证），英语课程及活动可定制，为期1-4周，全年开放。价格按团体报价。",
+    "ja": "団体限定のスタディツアー（15歳以上、学生ビザ以外）、英語レッスンとアクティビティをカスタマイズ、1～4週間、通年実施。料金は団体ごとに見積もり。",
+    "ko": "단체 전용 스터디 투어(15세 이상, 학생 비자 외), 맞춤형 영어 수업과 액티비티, 1~4주, 연중 운영. 가격은 단체별 견적.",
+    "km": "ដំណើរសិក្សាសម្រាប់តែក្រុម (អាយុ 15 ឆ្នាំឡើង ទិដ្ឋាការមិនមែនសិស្ស) ជាមួយមេរៀនភាសាអង់គ្លេស និងសកម្មភាពរៀបចំតាមក្រុម 1-4 សប្តាហ៍ មានពេញមួយឆ្នាំ។ តម្លៃតាមការដកស្រង់សម្រាប់ក្រុម។",
+    "fr": "Séjour linguistique réservé aux groupes (15 ans et plus, visa autre qu'étudiant), cours d'anglais et activités sur mesure, 1 à 4 semaines, toute l'année. Prix sur devis par groupe.",
+    "pt": "Viagem de estudos somente para grupos (a partir de 15 anos, visto que não seja de estudante), com aulas de inglês e atividades personalizadas, 1 a 4 semanas, o ano todo. Preço sob orçamento por grupo.",
+    "es": "Viaje de estudios solo para grupos (15+ años, visado no estudiantil) con clases de inglés y actividades a medida, 1-4 semanas, todo el año. Precio según presupuesto por grupo.",
+    "de": "Studienreise nur für Gruppen (ab 15 Jahren, kein Studentenvisum) mit maßgeschneidertem Englischunterricht und Aktivitäten, 1-4 Wochen, ganzjährig. Preis auf Angebot pro Gruppe.",
+    "it": "Viaggio studio solo per gruppi (dai 15 anni, visto non studentesco) con lezioni di inglese e attività su misura, 1-4 settimane, tutto l'anno. Prezzo su preventivo per gruppo.",
+    "nl": "Studiereis alleen voor groepen (15+, geen studentenvisum) met Engelse lessen en activiteiten op maat, 1-4 weken, het hele jaar. Prijs op offerte per groep.",
+    "ru": "Учебный тур только для групп (от 15 лет, нестуденческая виза) с индивидуальными уроками английского и мероприятиями, 1-4 недели, круглый год. Цена по запросу для группы."
+   }
+  },
+  {
+   "id": "shafston-ylc-senior-brisbane",
+   "provider": "Shafston International College",
+   "country": "AU",
+   "city": "Brisbane",
+   "type": "junior_program",
+   "name": "Young Learner Camp (YLC) Senior",
+   "ages": {
+    "id": "12-16",
+    "en": "12-16",
+    "th": "12-16",
+    "vi": "12-16",
+    "zh": "12-16",
+    "ja": "12-16",
+    "ko": "12-16",
+    "km": "12-16",
+    "fr": "12-16",
+    "pt": "12-16",
+    "es": "12-16",
+    "de": "12-16",
+    "it": "12-16",
+    "nl": "12-16",
+    "ru": "12-16"
+   },
+   "duration": {
+    "id": "1-5 minggu",
+    "en": "1-5 weeks",
+    "th": "1-5 สัปดาห์",
+    "vi": "1-5 tuần",
+    "zh": "1-5周",
+    "ja": "1～5週間",
+    "ko": "1~5주",
+    "km": "1-5 សប្តាហ៍",
+    "fr": "1-5 semaines",
+    "pt": "1-5 semanas",
+    "es": "1-5 semanas",
+    "de": "1-5 Wochen",
+    "it": "1-5 settimane",
+    "nl": "1-5 weken",
+    "ru": "1-5 недель"
+   },
+   "season": {
+    "id": "Jan-Feb 2027, Mar-Apr 2027, Jul-Agu 2027",
+    "en": "Jan-Feb 2027, Mar-Apr 2027, Jul-Aug 2027",
+    "th": "ม.ค.-ก.พ. 2027, มี.ค.-เม.ย. 2027, ก.ค.-ส.ค. 2027",
+    "vi": "Tháng 1-2/2027, tháng 3-4/2027, tháng 7-8/2027",
+    "zh": "2027年1-2月、2027年3-4月、2027年7-8月",
+    "ja": "2027年1-2月、2027年3-4月、2027年7-8月",
+    "ko": "2027년 1-2월, 2027년 3-4월, 2027년 7-8월",
+    "km": "មករា-កុម្ភៈ 2027, មីនា-មេសា 2027, កក្កដា-សីហា 2027",
+    "fr": "janv.-févr. 2027, mars-avr. 2027, juil.-août 2027",
+    "pt": "jan.-fev. 2027, mar.-abr. 2027, jul.-ago. 2027",
+    "es": "ene.-feb. 2027, mar.-abr. 2027, jul.-ago. 2027",
+    "de": "Jan.-Feb. 2027, März-Apr. 2027, Juli-Aug. 2027",
+    "it": "gen.-feb. 2027, mar.-apr. 2027, lug.-ago. 2027",
+    "nl": "jan.-feb. 2027, mrt.-apr. 2027, jul.-aug. 2027",
+    "ru": "янв.-февр. 2027, март-апр. 2027, июль-авг. 2027"
+   },
+   "price_from": 735,
+   "currency": "AUD",
+   "price_basis": {
+    "id": "per minggu (brosur 2026; homestay, antar-jemput, biaya pendaftaran AUD 300 dan materi AUD 150 terpisah)",
+    "en": "per week (2026 brochure; homestay, transfers, application fee AUD 300 and materials AUD 150 extra)",
+    "th": "ต่อสัปดาห์ (โบรชัวร์ 2026; โฮมสเตย์ รับส่ง ค่าสมัคร AUD 300 และค่าสื่อการเรียน AUD 150 คิดแยก)",
+    "vi": "mỗi tuần (brochure 2026; homestay, đưa đón, phí ghi danh AUD 300 và tài liệu AUD 150 tính riêng)",
+    "zh": "每周（2026年手册；寄宿家庭、接送、申请费 AUD 300 及材料费 AUD 150 另计）",
+    "ja": "1週間あたり（2026年パンフレット；ホームステイ、送迎、申込金 AUD 300、教材費 AUD 150 は別途）",
+    "ko": "주당(2026년 브로슈어; 홈스테이, 픽업, 신청비 AUD 300, 교재비 AUD 150 별도)",
+    "km": "ក្នុងមួយសប្តាហ៍ (ខិត្តប័ណ្ណ 2026; homestay ការដឹកជញ្ជូន ថ្លៃចុះឈ្មោះ AUD 300 និងសម្ភារៈ AUD 150 គិតដាច់ដោយឡែក)",
+    "fr": "par semaine (brochure 2026 ; famille d'accueil, transferts, frais d'inscription AUD 300 et matériel AUD 150 en sus)",
+    "pt": "por semana (folheto 2026; casa de família, traslados, taxa de inscrição AUD 300 e materiais AUD 150 à parte)",
+    "es": "por semana (folleto 2026; alojamiento, traslados, inscripción AUD 300 y materiales AUD 150 aparte)",
+    "de": "pro Woche (Broschüre 2026; Gastfamilie, Transfers, Anmeldegebühr AUD 300 und Material AUD 150 zusätzlich)",
+    "it": "a settimana (brochure 2026; famiglia ospitante, transfer, iscrizione AUD 300 e materiali AUD 150 esclusi)",
+    "nl": "per week (brochure 2026; gastgezin, vervoer, inschrijfgeld AUD 300 en materiaal AUD 150 extra)",
+    "ru": "в неделю (брошюра 2026; проживание в семье, трансферы, регистрационный сбор AUD 300 и материалы AUD 150 оплачиваются отдельно)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas",
+     "workshop"
+    ],
+    "en": [
+     "tuition",
+     "activities",
+     "workshops"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม",
+     "เวิร์กช็อป"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động",
+     "hội thảo thực hành"
+    ],
+    "zh": [
+     "学费",
+     "活动",
+     "工作坊"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ",
+     "ワークショップ"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티",
+     "워크숍"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព",
+     "សិក្ខាសាលា"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités",
+     "ateliers"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades",
+     "oficinas"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades",
+     "talleres"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten",
+     "Workshops"
+    ],
+    "it": [
+     "retta del corso",
+     "attività",
+     "workshop"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten",
+     "workshops"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия",
+     "мастер-классы"
+    ]
+   },
+   "group_only": false,
+   "url": "https://shafston.edu/wp-content/uploads/2026/03/EN_Study-Tour-Program-2026_v1.4_compressed.pdf",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Camp bahasa Inggris usia 12-16 tahun di Brisbane, Senin-Jumat kelas bahasa Inggris, speaking dan workshop budaya, bisa individu atau grup kecil. AUD 735/minggu (brosur 2026); homestay & antar-jemput terpisah.",
+    "en": "English camp for ages 12-16 in Brisbane: weekday English, speaking and cultural workshops, for individuals or small groups. AUD 735/week (2026 brochure); homestay and transfers extra.",
+    "th": "แคมป์ภาษาอังกฤษสำหรับอายุ 12-16 ปีที่ Brisbane: เรียนภาษาอังกฤษ การพูด และเวิร์กช็อปวัฒนธรรมวันจันทร์-ศุกร์ สำหรับรายบุคคลหรือกลุ่มเล็ก AUD 735/สัปดาห์ (โบรชัวร์ 2026); โฮมสเตย์และรับส่งคิดแยก",
+    "vi": "Trại tiếng Anh cho 12-16 tuổi tại Brisbane: học tiếng Anh, kỹ năng nói và hội thảo văn hóa từ thứ Hai đến thứ Sáu, cho cá nhân hoặc nhóm nhỏ. AUD 735/tuần (brochure 2026); homestay và đưa đón tính riêng.",
+    "zh": "Brisbane 12-16岁英语营：周一至周五英语、口语及文化工作坊，个人或小团体均可。AUD 735/周（2026年手册）；寄宿家庭及接送另计。",
+    "ja": "Brisbane の12～16歳向け英語キャンプ：平日に英語、スピーキング、文化ワークショップ。個人または少人数グループ。AUD 735/週（2026年パンフレット）；ホームステイと送迎は別途。",
+    "ko": "Brisbane 12~16세 영어 캠프: 평일 영어, 말하기 및 문화 워크숍, 개인 또는 소규모 그룹. AUD 735/주(2026년 브로슈어); 홈스테이 및 픽업 별도.",
+    "km": "ជំរុំភាសាអង់គ្លេសសម្រាប់អាយុ 12-16 ឆ្នាំនៅ Brisbane: ភាសាអង់គ្លេស ការនិយាយ និងសិក្ខាសាលាវប្បធម៌ ថ្ងៃច័ន្ទ-សុក្រ សម្រាប់បុគ្គល ឬក្រុមតូច។ AUD 735/សប្តាហ៍ (ខិត្តប័ណ្ណ 2026); homestay និងការដឹកជញ្ជូនគិតដាច់ដោយឡែក។",
+    "fr": "Camp d'anglais pour les 12-16 ans à Brisbane : anglais, expression orale et ateliers culturels en semaine, en individuel ou en petit groupe. AUD 735/semaine (brochure 2026) ; famille d'accueil et transferts en sus.",
+    "pt": "Acampamento de inglês para 12 a 16 anos em Brisbane: inglês, conversação e oficinas culturais de segunda a sexta, individual ou em pequenos grupos. AUD 735/semana (folheto 2026); casa de família e traslados à parte.",
+    "es": "Campamento de inglés para 12-16 años en Brisbane: inglés, conversación y talleres culturales de lunes a viernes, individual o en grupos pequeños. AUD 735/semana (folleto 2026); alojamiento y traslados aparte.",
+    "de": "Englisch-Camp für 12- bis 16-Jährige in Brisbane: werktags Englisch, Sprechtraining und Kultur-Workshops, einzeln oder in Kleingruppen. AUD 735/Woche (Broschüre 2026); Gastfamilie und Transfers zusätzlich.",
+    "it": "Campo di inglese per 12-16 anni a Brisbane: inglese, conversazione e workshop culturali dal lunedì al venerdì, individuale o in piccoli gruppi. AUD 735/settimana (brochure 2026); famiglia ospitante e transfer esclusi.",
+    "nl": "Engels kamp voor 12-16 jaar in Brisbane: doordeweeks Engels, spreekvaardigheid en culturele workshops, individueel of in kleine groepen. AUD 735/week (brochure 2026); gastgezin en vervoer extra.",
+    "ru": "Языковой лагерь для 12-16 лет в Brisbane: по будням английский, разговорная практика и культурные мастер-классы, индивидуально или в малых группах. AUD 735/нед. (брошюра 2026); проживание в семье и трансферы оплачиваются отдельно."
+   }
+  },
+  {
+   "id": "shafston-hsp-experience-sydney",
+   "provider": "Shafston International College",
+   "country": "AU",
+   "city": "Sydney",
+   "type": "junior_program",
+   "name": "HSP Experience",
+   "ages": {
+    "id": "12-16",
+    "en": "12-16",
+    "th": "12-16",
+    "vi": "12-16",
+    "zh": "12-16",
+    "ja": "12-16",
+    "ko": "12-16",
+    "km": "12-16",
+    "fr": "12-16",
+    "pt": "12-16",
+    "es": "12-16",
+    "de": "12-16",
+    "it": "12-16",
+    "nl": "12-16",
+    "ru": "12-16"
+   },
+   "duration": {
+    "id": "1-4 minggu",
+    "en": "1-4 weeks",
+    "th": "1-4 สัปดาห์",
+    "vi": "1-4 tuần",
+    "zh": "1-4周",
+    "ja": "1～4週間",
+    "ko": "1~4주",
+    "km": "1-4 សប្តាហ៍",
+    "fr": "1-4 semaines",
+    "pt": "1-4 semanas",
+    "es": "1-4 semanas",
+    "de": "1-4 Wochen",
+    "it": "1-4 settimane",
+    "nl": "1-4 weken",
+    "ru": "1-4 недели"
+   },
+   "season": {
+    "id": "Jan-Feb 2027, Jul-Agu 2027",
+    "en": "Jan-Feb 2027, Jul-Aug 2027",
+    "th": "ม.ค.-ก.พ. 2027, ก.ค.-ส.ค. 2027",
+    "vi": "Tháng 1-2/2027, tháng 7-8/2027",
+    "zh": "2027年1-2月、2027年7-8月",
+    "ja": "2027年1-2月、2027年7-8月",
+    "ko": "2027년 1-2월, 2027년 7-8월",
+    "km": "មករា-កុម្ភៈ 2027, កក្កដា-សីហា 2027",
+    "fr": "janv.-févr. 2027, juil.-août 2027",
+    "pt": "jan.-fev. 2027, jul.-ago. 2027",
+    "es": "ene.-feb. 2027, jul.-ago. 2027",
+    "de": "Jan.-Feb. 2027, Juli-Aug. 2027",
+    "it": "gen.-feb. 2027, lug.-ago. 2027",
+    "nl": "jan.-feb. 2027, jul.-aug. 2027",
+    "ru": "янв.-февр. 2027, июль-авг. 2027"
+   },
+   "price_from": 550,
+   "currency": "AUD",
+   "price_basis": {
+    "id": "per minggu (brosur 2026; homestay, antar-jemput, biaya pendaftaran dan materi terpisah)",
+    "en": "per week (2026 brochure; homestay, transfers, application fee and materials extra)",
+    "th": "ต่อสัปดาห์ (โบรชัวร์ 2026; โฮมสเตย์ รับส่ง ค่าสมัคร และค่าสื่อการเรียนคิดแยก)",
+    "vi": "mỗi tuần (brochure 2026; homestay, đưa đón, phí ghi danh và tài liệu tính riêng)",
+    "zh": "每周（2026年手册；寄宿家庭、接送、申请费及材料费另计）",
+    "ja": "1週間あたり（2026年パンフレット；ホームステイ、送迎、申込金、教材費は別途）",
+    "ko": "주당(2026년 브로슈어; 홈스테이, 픽업, 신청비, 교재비 별도)",
+    "km": "ក្នុងមួយសប្តាហ៍ (ខិត្តប័ណ្ណ 2026; homestay ការដឹកជញ្ជូន ថ្លៃចុះឈ្មោះ និងសម្ភារៈ គិតដាច់ដោយឡែក)",
+    "fr": "par semaine (brochure 2026 ; famille d'accueil, transferts, frais d'inscription et matériel en sus)",
+    "pt": "por semana (folheto 2026; casa de família, traslados, taxa de inscrição e materiais à parte)",
+    "es": "por semana (folleto 2026; alojamiento, traslados, inscripción y materiales aparte)",
+    "de": "pro Woche (Broschüre 2026; Gastfamilie, Transfers, Anmeldegebühr und Material zusätzlich)",
+    "it": "a settimana (brochure 2026; famiglia ospitante, transfer, iscrizione e materiali esclusi)",
+    "nl": "per week (brochure 2026; gastgezin, vervoer, inschrijfgeld en materiaal extra)",
+    "ru": "в неделю (брошюра 2026; проживание в семье, трансферы, регистрационный сбор и материалы оплачиваются отдельно)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas"
+    ],
+    "en": [
+     "tuition",
+     "activities"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động"
+    ],
+    "zh": [
+     "学费",
+     "活动"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten"
+    ],
+    "it": [
+     "retta del corso",
+     "attività"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия"
+    ]
+   },
+   "group_only": false,
+   "url": "https://shafston.edu/wp-content/uploads/2026/03/EN_Study-Tour-Program-2026_v1.4_compressed.pdf",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program pengalaman bahasa Inggris usia 12-16 tahun di Sydney, 1-4 minggu, individu atau grup kecil. AUD 550/minggu (brosur 2026); homestay & antar-jemput terpisah.",
+    "en": "English experience program for ages 12-16 in Sydney, 1-4 weeks, individuals or small groups. AUD 550/week (2026 brochure); homestay and transfers extra.",
+    "th": "โปรแกรมประสบการณ์ภาษาอังกฤษสำหรับอายุ 12-16 ปีที่ Sydney 1-4 สัปดาห์ รายบุคคลหรือกลุ่มเล็ก AUD 550/สัปดาห์ (โบรชัวร์ 2026); โฮมสเตย์และรับส่งคิดแยก",
+    "vi": "Chương trình trải nghiệm tiếng Anh cho 12-16 tuổi tại Sydney, 1-4 tuần, cá nhân hoặc nhóm nhỏ. AUD 550/tuần (brochure 2026); homestay và đưa đón tính riêng.",
+    "zh": "Sydney 12-16岁英语体验课程，1-4周，个人或小团体均可。AUD 550/周（2026年手册）；寄宿家庭及接送另计。",
+    "ja": "Sydney の12～16歳向け英語体験プログラム、1～4週間、個人または少人数グループ。AUD 550/週（2026年パンフレット）；ホームステイと送迎は別途。",
+    "ko": "Sydney 12~16세 영어 체험 프로그램, 1~4주, 개인 또는 소규모 그룹. AUD 550/주(2026년 브로슈어); 홈스테이 및 픽업 별도.",
+    "km": "កម្មវិធីបទពិសោធន៍ភាសាអង់គ្លេសសម្រាប់អាយុ 12-16 ឆ្នាំនៅ Sydney 1-4 សប្តាហ៍ សម្រាប់បុគ្គល ឬក្រុមតូច។ AUD 550/សប្តាហ៍ (ខិត្តប័ណ្ណ 2026); homestay និងការដឹកជញ្ជូនគិតដាច់ដោយឡែក។",
+    "fr": "Programme découverte de l'anglais pour les 12-16 ans à Sydney, 1 à 4 semaines, en individuel ou en petit groupe. AUD 550/semaine (brochure 2026) ; famille d'accueil et transferts en sus.",
+    "pt": "Programa de vivência em inglês para 12 a 16 anos em Sydney, 1 a 4 semanas, individual ou em pequenos grupos. AUD 550/semana (folheto 2026); casa de família e traslados à parte.",
+    "es": "Programa de experiencia en inglés para 12-16 años en Sydney, 1-4 semanas, individual o en grupos pequeños. AUD 550/semana (folleto 2026); alojamiento y traslados aparte.",
+    "de": "Englisch-Erlebnisprogramm für 12- bis 16-Jährige in Sydney, 1-4 Wochen, einzeln oder in Kleingruppen. AUD 550/Woche (Broschüre 2026); Gastfamilie und Transfers zusätzlich.",
+    "it": "Programma esperienziale di inglese per 12-16 anni a Sydney, 1-4 settimane, individuale o in piccoli gruppi. AUD 550/settimana (brochure 2026); famiglia ospitante e transfer esclusi.",
+    "nl": "Engelse belevingsprogramma voor 12-16 jaar in Sydney, 1-4 weken, individueel of in kleine groepen. AUD 550/week (brochure 2026); gastgezin en vervoer extra.",
+    "ru": "Программа погружения в английский для 12-16 лет в Sydney, 1-4 недели, индивидуально или в малых группах. AUD 550/нед. (брошюра 2026); проживание в семье и трансферы оплачиваются отдельно."
+   }
+  },
+  {
+   "id": "apc-junior-english-program",
+   "provider": "Australian Pacific College (English Unlimited)",
+   "country": "AU",
+   "city": "Melbourne, Gold Coast, Sydney",
+   "type": "junior_program",
+   "name": "Junior English Program",
+   "ages": {
+    "id": "8-16",
+    "en": "8-16",
+    "th": "8-16",
+    "vi": "8-16",
+    "zh": "8-16",
+    "ja": "8-16",
+    "ko": "8-16",
+    "km": "8-16",
+    "fr": "8-16",
+    "pt": "8-16",
+    "es": "8-16",
+    "de": "8-16",
+    "it": "8-16",
+    "nl": "8-16",
+    "ru": "8-16"
+   },
+   "duration": {
+    "id": "1-4 minggu",
+    "en": "1-4 weeks",
+    "th": "1-4 สัปดาห์",
+    "vi": "1-4 tuần",
+    "zh": "1-4周",
+    "ja": "1～4週間",
+    "ko": "1~4주",
+    "km": "1-4 សប្តាហ៍",
+    "fr": "1-4 semaines",
+    "pt": "1-4 semanas",
+    "es": "1-4 semanas",
+    "de": "1-4 Wochen",
+    "it": "1-4 settimane",
+    "nl": "1-4 weken",
+    "ru": "1-4 недели"
+   },
+   "season": {
+    "id": "sesuai permintaan (flyer 2026)",
+    "en": "on request (2026 flyer)",
+    "th": "ตามคำขอ (ใบปลิว 2026)",
+    "vi": "theo yêu cầu (tờ rơi 2026)",
+    "zh": "按需安排（2026年宣传单）",
+    "ja": "要相談（2026年チラシ）",
+    "ko": "요청 시(2026년 전단)",
+    "km": "តាមការស្នើសុំ (ខិត្តប័ណ្ណ 2026)",
+    "fr": "sur demande (dépliant 2026)",
+    "pt": "sob consulta (folheto 2026)",
+    "es": "a petición (folleto 2026)",
+    "de": "auf Anfrage (Flyer 2026)",
+    "it": "su richiesta (volantino 2026)",
+    "nl": "op aanvraag (flyer 2026)",
+    "ru": "по запросу (флаер 2026)"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "materi belajar",
+     "orientasi"
+    ],
+    "en": [
+     "tuition",
+     "materials",
+     "orientation"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "สื่อการเรียน",
+     "ปฐมนิเทศ"
+    ],
+    "vi": [
+     "học phí",
+     "tài liệu học tập",
+     "định hướng"
+    ],
+    "zh": [
+     "学费",
+     "学习材料",
+     "入学介绍"
+    ],
+    "ja": [
+     "授業料",
+     "教材",
+     "オリエンテーション"
+    ],
+    "ko": [
+     "수업료",
+     "학습 자료",
+     "오리엔테이션"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សម្ភារៈសិក្សា",
+     "ការតម្រង់ទិស"
+    ],
+    "fr": [
+     "frais de cours",
+     "matériel pédagogique",
+     "orientation"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "materiais",
+     "orientação"
+    ],
+    "es": [
+     "matrícula del curso",
+     "materiales",
+     "orientación"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Lernmaterialien",
+     "Orientierung"
+    ],
+    "it": [
+     "retta del corso",
+     "materiali didattici",
+     "orientamento"
+    ],
+    "nl": [
+     "lesgeld",
+     "lesmateriaal",
+     "oriëntatie"
+    ],
+    "ru": [
+     "обучение",
+     "учебные материалы",
+     "ориентация"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.apc.edu.au/course/junior-english-program/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program bahasa Inggris untuk usia 8-16 tahun, durasi fleksibel 1-4 minggu di Melbourne, Gold Coast dan Sydney. Harga $500-660 per minggu; biaya administrasi dan ekskursi opsional terpisah.",
+    "en": "English program for ages 8-16, flexible 1-4 weeks in Melbourne, Gold Coast and Sydney. $500-660 per week; administration fees and optional excursions extra.",
+    "th": "โปรแกรมภาษาอังกฤษสำหรับอายุ 8-16 ปี ระยะเวลายืดหยุ่น 1-4 สัปดาห์ที่ Melbourne, Gold Coast และ Sydney ราคา $500-660 ต่อสัปดาห์; ค่าธรรมเนียมการจัดการและทัศนศึกษาเสริมคิดแยก",
+    "vi": "Chương trình tiếng Anh cho 8-16 tuổi, linh hoạt 1-4 tuần tại Melbourne, Gold Coast và Sydney. $500-660 mỗi tuần; phí hành chính và tham quan tùy chọn tính riêng.",
+    "zh": "面向8-16岁的英语课程，在 Melbourne、Gold Coast 和 Sydney 灵活安排1-4周。每周 $500-660；管理费及可选游览另计。",
+    "ja": "8～16歳向け英語プログラム、Melbourne・Gold Coast・Sydney で1～4週間（柔軟に選択可）。週 $500-660；事務手数料とオプション遠足は別途。",
+    "ko": "8~16세 대상 영어 프로그램, Melbourne, Gold Coast, Sydney에서 1~4주 유연하게 선택. 주 $500-660; 행정 수수료 및 선택 견학 별도.",
+    "km": "កម្មវិធីភាសាអង់គ្លេសសម្រាប់អាយុ 8-16 ឆ្នាំ រយៈពេលបត់បែន 1-4 សប្តាហ៍ នៅ Melbourne, Gold Coast និង Sydney។ $500-660 ក្នុងមួយសប្តាហ៍; ថ្លៃរដ្ឋបាល និងដំណើរកម្សាន្តជម្រើសគិតដាច់ដោយឡែក។",
+    "fr": "Programme d'anglais pour les 8-16 ans, durée flexible de 1 à 4 semaines à Melbourne, Gold Coast et Sydney. $500-660 par semaine ; frais administratifs et excursions optionnelles en sus.",
+    "pt": "Programa de inglês para 8 a 16 anos, duração flexível de 1 a 4 semanas em Melbourne, Gold Coast e Sydney. $500-660 por semana; taxas administrativas e passeios opcionais à parte.",
+    "es": "Programa de inglés para 8-16 años, duración flexible de 1-4 semanas en Melbourne, Gold Coast y Sydney. $500-660 por semana; gastos administrativos y excursiones opcionales aparte.",
+    "de": "Englischprogramm für 8- bis 16-Jährige, flexibel 1-4 Wochen in Melbourne, Gold Coast und Sydney. $500-660 pro Woche; Verwaltungsgebühren und optionale Ausflüge zusätzlich.",
+    "it": "Programma di inglese per 8-16 anni, durata flessibile di 1-4 settimane a Melbourne, Gold Coast e Sydney. $500-660 a settimana; spese amministrative ed escursioni facoltative escluse.",
+    "nl": "Engels programma voor 8-16 jaar, flexibel 1-4 weken in Melbourne, Gold Coast en Sydney. $500-660 per week; administratiekosten en optionele uitstapjes extra.",
+    "ru": "Программа английского для 8-16 лет, гибкая продолжительность 1-4 недели в Melbourne, Gold Coast и Sydney. $500-660 в неделю; административные сборы и дополнительные экскурсии оплачиваются отдельно."
+   }
+  },
+  {
+   "id": "phoenix-junior-study-tours",
+   "provider": "Phoenix Academy",
+   "country": "AU",
+   "city": "Perth",
+   "type": "study_tour",
+   "name": "Junior Study Tours",
+   "ages": null,
+   "duration": null,
+   "season": {
+    "id": "sepanjang tahun",
+    "en": "all year round",
+    "th": "ตลอดทั้งปี",
+    "vi": "quanh năm",
+    "zh": "全年",
+    "ja": "通年",
+    "ko": "연중",
+    "km": "ពេញមួយឆ្នាំ",
+    "fr": "toute l'année",
+    "pt": "o ano todo",
+    "es": "todo el año",
+    "de": "ganzjährig",
+    "it": "tutto l'anno",
+    "nl": "het hele jaar",
+    "ru": "круглый год"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "aktivitas",
+     "ekskursi",
+     "homestay atau asrama (opsional)"
+    ],
+    "en": [
+     "tuition",
+     "activities",
+     "excursions",
+     "homestay or residence (optional)"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "กิจกรรม",
+     "ทัศนศึกษา",
+     "โฮมสเตย์หรือหอพัก (ไม่บังคับ)"
+    ],
+    "vi": [
+     "học phí",
+     "hoạt động",
+     "tham quan",
+     "homestay hoặc ký túc xá (tùy chọn)"
+    ],
+    "zh": [
+     "学费",
+     "活动",
+     "游览",
+     "寄宿家庭或宿舍（可选）"
+    ],
+    "ja": [
+     "授業料",
+     "アクティビティ",
+     "遠足",
+     "ホームステイまたは寮（任意）"
+    ],
+    "ko": [
+     "수업료",
+     "액티비티",
+     "견학",
+     "홈스테이 또는 기숙사(선택)"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត",
+     "ស្នាក់នៅជាមួយគ្រួសារ ឬអន្តេវាសិកដ្ឋាន (ជម្រើស)"
+    ],
+    "fr": [
+     "frais de cours",
+     "activités",
+     "excursions",
+     "famille d'accueil ou résidence (en option)"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "atividades",
+     "passeios",
+     "casa de família ou residência (opcional)"
+    ],
+    "es": [
+     "matrícula del curso",
+     "actividades",
+     "excursiones",
+     "familia o residencia (opcional)"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Aktivitäten",
+     "Ausflüge",
+     "Gastfamilie oder Wohnheim (optional)"
+    ],
+    "it": [
+     "retta del corso",
+     "attività",
+     "escursioni",
+     "famiglia ospitante o residenza (facoltativa)"
+    ],
+    "nl": [
+     "lesgeld",
+     "activiteiten",
+     "uitstapjes",
+     "gastgezin of residentie (optioneel)"
+    ],
+    "ru": [
+     "обучение",
+     "мероприятия",
+     "экскурсии",
+     "семья или резиденция (по желанию)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.phoenix.edu.au/courses/study-tours-junior",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup sekolah di Perth: kelas bahasa Inggris pagi dan aktivitas/ekskursi sore (mis. Perth Zoo, AQWA), akomodasi homestay atau asrama. Harga tergantung itinerary, ukuran grup dan tanggal.",
+    "en": "School-group study tour in Perth: morning English classes and afternoon activities/excursions (e.g. Perth Zoo, AQWA), homestay or residence options. Price depends on itinerary, group size and dates.",
+    "th": "สตัดี้ทัวร์สำหรับกลุ่มโรงเรียนที่ Perth: เรียนภาษาอังกฤษช่วงเช้า กิจกรรม/ทัศนศึกษาช่วงบ่าย (เช่น Perth Zoo, AQWA) มีตัวเลือกโฮมสเตย์หรือหอพัก ราคาขึ้นอยู่กับกำหนดการ ขนาดกลุ่ม และวันที่",
+    "vi": "Study tour cho nhóm trường học tại Perth: học tiếng Anh buổi sáng, hoạt động/tham quan buổi chiều (vd. Perth Zoo, AQWA), chọn homestay hoặc ký túc xá. Giá tùy lịch trình, quy mô nhóm và thời gian.",
+    "zh": "Perth 学校团体游学团：上午英语课，下午活动/游览（如 Perth Zoo、AQWA），可选寄宿家庭或宿舍。价格视行程、团体人数及日期而定。",
+    "ja": "Perth の学校団体向けスタディツアー：午前は英語クラス、午後はアクティビティ・遠足（例：Perth Zoo、AQWA）、ホームステイまたは寮を選択可。料金は日程、人数、日付により異なる。",
+    "ko": "Perth 학교 단체 스터디 투어: 오전 영어 수업, 오후 액티비티/견학(예: Perth Zoo, AQWA), 홈스테이 또는 기숙사 선택 가능. 가격은 일정, 단체 규모, 날짜에 따라 다름.",
+    "km": "ដំណើរសិក្សាសម្រាប់ក្រុមសាលានៅ Perth: ថ្នាក់ភាសាអង់គ្លេសពេលព្រឹក សកម្មភាព/ដំណើរកម្សាន្តពេលរសៀល (ឧ. Perth Zoo, AQWA) ជម្រើស homestay ឬអន្តេវាសិកដ្ឋាន។ តម្លៃអាស្រ័យលើកម្មវិធី ទំហំក្រុម និងកាលបរិច្ឆេទ។",
+    "fr": "Séjour linguistique pour groupes scolaires à Perth : cours d'anglais le matin, activités/excursions l'après-midi (p. ex. Perth Zoo, AQWA), famille d'accueil ou résidence au choix. Prix selon l'itinéraire, la taille du groupe et les dates.",
+    "pt": "Viagem de estudos para grupos escolares em Perth: aulas de inglês pela manhã e atividades/passeios à tarde (ex.: Perth Zoo, AQWA), opção de casa de família ou residência. Preço conforme roteiro, tamanho do grupo e datas.",
+    "es": "Viaje de estudios para grupos escolares en Perth: clases de inglés por la mañana y actividades/excursiones por la tarde (p. ej. Perth Zoo, AQWA), opción de familia o residencia. Precio según itinerario, tamaño del grupo y fechas.",
+    "de": "Studienreise für Schulgruppen in Perth: vormittags Englischunterricht, nachmittags Aktivitäten/Ausflüge (z. B. Perth Zoo, AQWA), Gastfamilie oder Wohnheim wählbar. Preis je nach Programm, Gruppengröße und Termin.",
+    "it": "Viaggio studio per gruppi scolastici a Perth: lezioni di inglese al mattino e attività/escursioni al pomeriggio (es. Perth Zoo, AQWA), famiglia ospitante o residenza a scelta. Prezzo in base a itinerario, dimensione del gruppo e date.",
+    "nl": "Studiereis voor schoolgroepen in Perth: 's ochtends Engelse les, 's middags activiteiten/uitstapjes (bijv. Perth Zoo, AQWA), keuze uit gastgezin of residentie. Prijs afhankelijk van programma, groepsgrootte en data.",
+    "ru": "Учебный тур для школьных групп в Perth: утром уроки английского, днём мероприятия и экскурсии (напр. Perth Zoo, AQWA), проживание в семье или резиденции на выбор. Цена зависит от программы, размера группы и дат."
+   }
+  },
+  {
+   "id": "eqi-study-tours",
+   "provider": "Education Queensland International (EQI)",
+   "country": "AU",
+   "city": "Queensland (various state schools)",
+   "type": "study_tour",
+   "name": "Study Tours (Queensland state schools)",
+   "ages": {
+    "id": "10-18",
+    "en": "10-18",
+    "th": "10-18",
+    "vi": "10-18",
+    "zh": "10-18",
+    "ja": "10-18",
+    "ko": "10-18",
+    "km": "10-18",
+    "fr": "10-18",
+    "pt": "10-18",
+    "es": "10-18",
+    "de": "10-18",
+    "it": "10-18",
+    "nl": "10-18",
+    "ru": "10-18"
+   },
+   "duration": {
+    "id": "setengah hari sampai 10 minggu",
+    "en": "half a day to 10 weeks",
+    "th": "ครึ่งวันถึง 10 สัปดาห์",
+    "vi": "nửa ngày đến 10 tuần",
+    "zh": "半天至10周",
+    "ja": "半日～10週間",
+    "ko": "반나절~10주",
+    "km": "ពីកន្លះថ្ងៃ ដល់ 10 សប្តាហ៍",
+    "fr": "d'une demi-journée à 10 semaines",
+    "pt": "de meio dia a 10 semanas",
+    "es": "de medio día a 10 semanas",
+    "de": "halber Tag bis 10 Wochen",
+    "it": "da mezza giornata a 10 settimane",
+    "nl": "halve dag tot 10 weken",
+    "ru": "от полудня до 10 недель"
+   },
+   "season": {
+    "id": "selama term sekolah Queensland",
+    "en": "during Queensland school terms",
+    "th": "ระหว่างภาคเรียนของโรงเรียนใน Queensland",
+    "vi": "trong các học kỳ của trường tại Queensland",
+    "zh": "Queensland 学校学期期间",
+    "ja": "Queensland の学期中",
+    "ko": "Queensland 학기 중",
+    "km": "ក្នុងអំឡុងឆមាសសាលានៅ Queensland",
+    "fr": "pendant les trimestres scolaires du Queensland",
+    "pt": "durante os períodos letivos de Queensland",
+    "es": "durante los trimestres escolares de Queensland",
+    "de": "während der Schulterms in Queensland",
+    "it": "durante i periodi scolastici del Queensland",
+    "nl": "tijdens de schooltermijnen in Queensland",
+    "ru": "во время школьных четвертей в Queensland"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kelas sekolah bersama siswa lokal",
+     "kelas bahasa Inggris",
+     "ekskursi",
+     "homestay (opsional)"
+    ],
+    "en": [
+     "school classes with local students",
+     "English lessons",
+     "excursions",
+     "homestay (optional)"
+    ],
+    "th": [
+     "เรียนในชั้นเรียนกับนักเรียนท้องถิ่น",
+     "เรียนภาษาอังกฤษ",
+     "ทัศนศึกษา",
+     "โฮมสเตย์ (ไม่บังคับ)"
+    ],
+    "vi": [
+     "học cùng lớp với học sinh bản xứ",
+     "học tiếng Anh",
+     "tham quan",
+     "homestay (tùy chọn)"
+    ],
+    "zh": [
+     "与当地学生一起上课",
+     "英语课",
+     "游览",
+     "寄宿家庭（可选）"
+    ],
+    "ja": [
+     "現地生徒との授業",
+     "英語レッスン",
+     "遠足",
+     "ホームステイ（任意）"
+    ],
+    "ko": [
+     "현지 학생과 함께하는 수업",
+     "영어 수업",
+     "견학",
+     "홈스테이(선택)"
+    ],
+    "km": [
+     "រៀនក្នុងថ្នាក់ជាមួយសិស្សក្នុងស្រុក",
+     "ថ្នាក់ភាសាអង់គ្លេស",
+     "ដំណើរកម្សាន្ត",
+     "ស្នាក់នៅជាមួយគ្រួសារ (ជម្រើស)"
+    ],
+    "fr": [
+     "cours avec des élèves locaux",
+     "cours d'anglais",
+     "excursions",
+     "famille d'accueil (en option)"
+    ],
+    "pt": [
+     "aulas com alunos locais",
+     "aulas de inglês",
+     "passeios",
+     "casa de família (opcional)"
+    ],
+    "es": [
+     "clases con estudiantes locales",
+     "clases de inglés",
+     "excursiones",
+     "alojamiento en familia (opcional)"
+    ],
+    "de": [
+     "Unterricht mit einheimischen Schülern",
+     "Englischunterricht",
+     "Ausflüge",
+     "Gastfamilie (optional)"
+    ],
+    "it": [
+     "lezioni con studenti locali",
+     "lezioni di inglese",
+     "escursioni",
+     "famiglia ospitante (facoltativa)"
+    ],
+    "nl": [
+     "lessen met lokale leerlingen",
+     "Engelse lessen",
+     "uitstapjes",
+     "gastgezin (optioneel)"
+    ],
+    "ru": [
+     "занятия вместе с местными школьниками",
+     "уроки английского",
+     "экскурсии",
+     "проживание в семье (по желанию)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://eqi.com.au/study-options/study-tours",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup (biasanya 10-20 siswa) di sekolah negeri Queensland untuk usia 10-18 tahun: ikut kelas bersama siswa lokal, kelas bahasa Inggris dan ekskursi. Biaya sesuai penawaran.",
+    "en": "Group study tour (usually 10-20 students) at Queensland state schools for ages 10-18: classes with local students, English lessons and excursions. Fees quoted on request.",
+    "th": "สตัดี้ทัวร์แบบกลุ่ม (ปกติ 10-20 คน) ที่โรงเรียนรัฐบาลใน Queensland สำหรับอายุ 10-18 ปี: เรียนร่วมกับนักเรียนท้องถิ่น เรียนภาษาอังกฤษ และทัศนศึกษา ค่าใช้จ่ายเสนอตามคำขอ",
+    "vi": "Study tour theo nhóm (thường 10-20 học sinh) tại các trường công lập Queensland cho 10-18 tuổi: học cùng học sinh bản xứ, học tiếng Anh và tham quan. Phí báo giá theo yêu cầu.",
+    "zh": "Queensland 公立学校团体游学团（通常10-20名学生），面向10-18岁：与当地学生同堂上课、英语课及游览。费用按需报价。",
+    "ja": "Queensland の公立学校での団体スタディツアー（通常10～20名）、10～18歳対象：現地生徒との授業、英語レッスン、遠足。費用は要見積もり。",
+    "ko": "Queensland 공립학교 단체 스터디 투어(보통 10~20명), 10~18세 대상: 현지 학생과 함께하는 수업, 영어 수업 및 견학. 비용은 요청 시 견적.",
+    "km": "ដំណើរសិក្សាជាក្រុម (ជាធម្មតា 10-20 នាក់) នៅសាលារដ្ឋ Queensland សម្រាប់អាយុ 10-18 ឆ្នាំ: រៀនជាមួយសិស្សក្នុងស្រុក ថ្នាក់ភាសាអង់គ្លេស និងដំណើរកម្សាន្ត។ ថ្លៃដកស្រង់តាមការស្នើសុំ។",
+    "fr": "Séjour en groupe (généralement 10 à 20 élèves) dans des écoles publiques du Queensland pour les 10-18 ans : cours avec des élèves locaux, cours d'anglais et excursions. Tarifs sur demande.",
+    "pt": "Viagem de estudos em grupo (geralmente 10 a 20 alunos) em escolas públicas de Queensland para 10 a 18 anos: aulas com alunos locais, aulas de inglês e passeios. Valores sob consulta.",
+    "es": "Viaje de estudios en grupo (normalmente 10-20 estudiantes) en escuelas públicas de Queensland para 10-18 años: clases con estudiantes locales, clases de inglés y excursiones. Precios a petición.",
+    "de": "Gruppen-Studienreise (meist 10-20 Schüler) an staatlichen Schulen in Queensland für 10- bis 18-Jährige: Unterricht mit einheimischen Schülern, Englischunterricht und Ausflüge. Preise auf Anfrage.",
+    "it": "Viaggio studio di gruppo (di solito 10-20 studenti) presso scuole statali del Queensland per 10-18 anni: lezioni con studenti locali, lezioni di inglese ed escursioni. Prezzi su richiesta.",
+    "nl": "Groepsstudiereis (meestal 10-20 leerlingen) op openbare scholen in Queensland voor 10-18 jaar: lessen met lokale leerlingen, Engelse lessen en uitstapjes. Prijzen op aanvraag.",
+    "ru": "Групповой учебный тур (обычно 10-20 учеников) в государственных школах Queensland для 10-18 лет: занятия с местными школьниками, уроки английского и экскурсии. Стоимость по запросу."
+   }
+  },
+  {
+   "id": "vic-gov-school-study-tours",
+   "provider": "Department of Education, Victoria (Study in Victoria)",
+   "country": "AU",
+   "city": "Victoria (various government schools)",
+   "type": "study_tour",
+   "name": "Victorian government school study tours",
+   "ages": {
+    "id": "10-18",
+    "en": "10-18",
+    "th": "10-18",
+    "vi": "10-18",
+    "zh": "10-18",
+    "ja": "10-18",
+    "ko": "10-18",
+    "km": "10-18",
+    "fr": "10-18",
+    "pt": "10-18",
+    "es": "10-18",
+    "de": "10-18",
+    "it": "10-18",
+    "nl": "10-18",
+    "ru": "10-18"
+   },
+   "duration": {
+    "id": "1 hari - 4 minggu",
+    "en": "1 day - 4 weeks",
+    "th": "1 วัน - 4 สัปดาห์",
+    "vi": "1 ngày - 4 tuần",
+    "zh": "1天-4周",
+    "ja": "1日～4週間",
+    "ko": "1일~4주",
+    "km": "1 ថ្ងៃ - 4 សប្តាហ៍",
+    "fr": "1 jour - 4 semaines",
+    "pt": "1 dia - 4 semanas",
+    "es": "1 día - 4 semanas",
+    "de": "1 Tag - 4 Wochen",
+    "it": "1 giorno - 4 settimane",
+    "nl": "1 dag - 4 weken",
+    "ru": "1 день - 4 недели"
+   },
+   "season": {
+    "id": "selama term sekolah Victoria",
+    "en": "during Victorian school terms",
+    "th": "ระหว่างภาคเรียนของโรงเรียนใน Victoria",
+    "vi": "trong các học kỳ của trường tại Victoria",
+    "zh": "Victoria 学校学期期间",
+    "ja": "Victoria の学期中",
+    "ko": "Victoria 학기 중",
+    "km": "ក្នុងអំឡុងឆមាសសាលានៅ Victoria",
+    "fr": "pendant les trimestres scolaires du Victoria",
+    "pt": "durante os períodos letivos de Victoria",
+    "es": "durante los trimestres escolares de Victoria",
+    "de": "während der Schulterms in Victoria",
+    "it": "durante i periodi scolastici del Victoria",
+    "nl": "tijdens de schooltermijnen in Victoria",
+    "ru": "во время школьных четвертей в Victoria"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kelas sekolah bersama siswa lokal",
+     "kelas EAL (English as an Additional Language)",
+     "teman pendamping (buddy) siswa lokal",
+     "homestay (tergantung sekolah)"
+    ],
+    "en": [
+     "school classes with local students",
+     "EAL classes",
+     "student buddies",
+     "homestay (depending on school)"
+    ],
+    "th": [
+     "เรียนในชั้นเรียนกับนักเรียนท้องถิ่น",
+     "ชั้นเรียน EAL",
+     "บัดดี้นักเรียน",
+     "โฮมสเตย์ (ขึ้นอยู่กับโรงเรียน)"
+    ],
+    "vi": [
+     "học cùng lớp với học sinh bản xứ",
+     "lớp EAL",
+     "bạn đồng hành học sinh",
+     "homestay (tùy trường)"
+    ],
+    "zh": [
+     "与当地学生一起上课",
+     "EAL 课程",
+     "学生伙伴",
+     "寄宿家庭（视学校而定）"
+    ],
+    "ja": [
+     "現地生徒との授業",
+     "EAL クラス",
+     "生徒バディ",
+     "ホームステイ（学校による）"
+    ],
+    "ko": [
+     "현지 학생과 함께하는 수업",
+     "EAL 수업",
+     "학생 버디",
+     "홈스테이(학교에 따라 다름)"
+    ],
+    "km": [
+     "រៀនក្នុងថ្នាក់ជាមួយសិស្សក្នុងស្រុក",
+     "ថ្នាក់ EAL",
+     "មិត្តរួមសិក្សា (buddy)",
+     "ស្នាក់នៅជាមួយគ្រួសារ (អាស្រ័យលើសាលា)"
+    ],
+    "fr": [
+     "cours avec des élèves locaux",
+     "cours EAL",
+     "binômes avec des élèves",
+     "famille d'accueil (selon l'école)"
+    ],
+    "pt": [
+     "aulas com alunos locais",
+     "aulas EAL",
+     "colegas tutores (buddies)",
+     "casa de família (conforme a escola)"
+    ],
+    "es": [
+     "clases con estudiantes locales",
+     "clases EAL",
+     "compañeros tutores (buddies)",
+     "alojamiento en familia (según la escuela)"
+    ],
+    "de": [
+     "Unterricht mit einheimischen Schülern",
+     "EAL-Unterricht",
+     "Schüler-Buddys",
+     "Gastfamilie (je nach Schule)"
+    ],
+    "it": [
+     "lezioni con studenti locali",
+     "lezioni EAL",
+     "compagni tutor (buddy)",
+     "famiglia ospitante (a seconda della scuola)"
+    ],
+    "nl": [
+     "lessen met lokale leerlingen",
+     "EAL-lessen",
+     "studiebuddy's",
+     "gastgezin (afhankelijk van school)"
+    ],
+    "ru": [
+     "занятия вместе с местными школьниками",
+     "занятия EAL",
+     "школьники-наставники (buddy)",
+     "проживание в семье (зависит от школы)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.study.vic.gov.au/en/international-student-program/schools-and-programs/study-tours",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup 10-20 siswa (usia 10-18) di sekolah negeri Victoria, 1 hari sampai 4 minggu: kelas bersama siswa lokal, kelas EAL dan buddy. Pendaftaran lewat operator study tour terakreditasi; harga tidak dicantumkan.",
+    "en": "Group study tour of 10-20 students (ages 10-18) at Victorian government schools, 1 day to 4 weeks: classes with local students, EAL classes and buddies. Booked via accredited study tour operators; price not listed.",
+    "th": "สตัดี้ทัวร์กลุ่ม 10-20 คน (อายุ 10-18 ปี) ที่โรงเรียนรัฐบาลใน Victoria ตั้งแต่ 1 วันถึง 4 สัปดาห์: เรียนร่วมกับนักเรียนท้องถิ่น ชั้นเรียน EAL และบัดดี้ จองผ่านผู้จัดสตัดี้ทัวร์ที่ได้รับการรับรอง; ไม่มีราคาแสดง",
+    "vi": "Study tour nhóm 10-20 học sinh (10-18 tuổi) tại các trường công lập Victoria, từ 1 ngày đến 4 tuần: học cùng học sinh bản xứ, lớp EAL và bạn đồng hành. Đặt qua đơn vị tổ chức study tour được công nhận; chưa niêm yết giá.",
+    "zh": "Victoria 公立学校10-20人团体游学团（10-18岁），1天至4周：与当地学生同堂上课、EAL 课程及学生伙伴。须通过认可的游学机构预订；未列出价格。",
+    "ja": "Victoria の公立学校での10～20名の団体スタディツアー（10～18歳）、1日～4週間：現地生徒との授業、EAL クラス、バディ。認定スタディツアー業者を通じて予約；料金の記載なし。",
+    "ko": "Victoria 공립학교 10~20명 단체 스터디 투어(10~18세), 1일~4주: 현지 학생과 함께하는 수업, EAL 수업 및 버디. 인증된 스터디 투어 운영사를 통해 예약; 가격 미기재.",
+    "km": "ដំណើរសិក្សាក្រុម 10-20 នាក់ (អាយុ 10-18 ឆ្នាំ) នៅសាលារដ្ឋ Victoria ពី 1 ថ្ងៃ ដល់ 4 សប្តាហ៍: រៀនជាមួយសិស្សក្នុងស្រុក ថ្នាក់ EAL និងមិត្តរួមសិក្សា។ កក់តាមរយៈប្រតិបត្តិករដំណើរសិក្សាដែលមានការទទួលស្គាល់; មិនមានតម្លៃ។",
+    "fr": "Séjour pour groupes de 10 à 20 élèves (10-18 ans) dans des écoles publiques du Victoria, de 1 jour à 4 semaines : cours avec des élèves locaux, cours EAL et binômes. Réservation via des organisateurs de séjours agréés ; prix non indiqué.",
+    "pt": "Viagem de estudos para grupos de 10 a 20 alunos (10 a 18 anos) em escolas públicas de Victoria, de 1 dia a 4 semanas: aulas com alunos locais, aulas EAL e colegas tutores. Reserva por operadoras credenciadas; preço não informado.",
+    "es": "Viaje de estudios para grupos de 10-20 estudiantes (10-18 años) en escuelas públicas de Victoria, de 1 día a 4 semanas: clases con estudiantes locales, clases EAL y compañeros tutores. Reserva a través de operadores acreditados; precio no indicado.",
+    "de": "Gruppen-Studienreise für 10-20 Schüler (10-18 Jahre) an staatlichen Schulen in Victoria, 1 Tag bis 4 Wochen: Unterricht mit einheimischen Schülern, EAL-Unterricht und Buddys. Buchung über akkreditierte Veranstalter; Preis nicht angegeben.",
+    "it": "Viaggio studio per gruppi di 10-20 studenti (10-18 anni) presso scuole statali del Victoria, da 1 giorno a 4 settimane: lezioni con studenti locali, lezioni EAL e compagni tutor. Prenotazione tramite operatori accreditati; prezzo non indicato.",
+    "nl": "Groepsstudiereis voor 10-20 leerlingen (10-18 jaar) op openbare scholen in Victoria, 1 dag tot 4 weken: lessen met lokale leerlingen, EAL-lessen en buddy's. Boeken via erkende studiereisorganisatoren; prijs niet vermeld.",
+    "ru": "Групповой учебный тур для 10-20 учеников (10-18 лет) в государственных школах Victoria, от 1 дня до 4 недель: занятия с местными школьниками, занятия EAL и наставники-сверстники. Бронирование через аккредитованных операторов; цена не указана."
+   }
+  },
+  {
+   "id": "vic-creative-conservation",
+   "provider": "Department of Education, Victoria (Study in Victoria)",
+   "country": "AU",
+   "city": "Melbourne",
+   "type": "study_tour",
+   "name": "Creative Conservation",
+   "ages": {
+    "id": "13-16",
+    "en": "13-16",
+    "th": "13-16",
+    "vi": "13-16",
+    "zh": "13-16",
+    "ja": "13-16",
+    "ko": "13-16",
+    "km": "13-16",
+    "fr": "13-16",
+    "pt": "13-16",
+    "es": "13-16",
+    "de": "13-16",
+    "it": "13-16",
+    "nl": "13-16",
+    "ru": "13-16"
+   },
+   "duration": {
+    "id": "4 hari",
+    "en": "4 days",
+    "th": "4 วัน",
+    "vi": "4 ngày",
+    "zh": "4天",
+    "ja": "4日間",
+    "ko": "4일",
+    "km": "4 ថ្ងៃ",
+    "fr": "4 jours",
+    "pt": "4 dias",
+    "es": "4 días",
+    "de": "4 Tage",
+    "it": "4 giorni",
+    "nl": "4 dagen",
+    "ru": "4 дня"
+   },
+   "season": {
+    "id": "2027: 9-12 Feb, 20-23 Apr, 20-23 Jul",
+    "en": "2027: 9-12 Feb, 20-23 Apr, 20-23 Jul",
+    "th": "2027: 9-12 ก.พ., 20-23 เม.ย., 20-23 ก.ค.",
+    "vi": "2027: 9-12/2, 20-23/4, 20-23/7",
+    "zh": "2027年：2月9-12日、4月20-23日、7月20-23日",
+    "ja": "2027年：2月9-12日、4月20-23日、7月20-23日",
+    "ko": "2027년: 2월 9-12일, 4월 20-23일, 7월 20-23일",
+    "km": "2027: 9-12 កុម្ភៈ, 20-23 មេសា, 20-23 កក្កដា",
+    "fr": "2027 : 9-12 févr., 20-23 avr., 20-23 juil.",
+    "pt": "2027: 9-12 fev., 20-23 abr., 20-23 jul.",
+    "es": "2027: 9-12 feb., 20-23 abr., 20-23 jul.",
+    "de": "2027: 9.-12. Feb., 20.-23. Apr., 20.-23. Juli",
+    "it": "2027: 9-12 feb., 20-23 apr., 20-23 lug.",
+    "nl": "2027: 9-12 feb., 20-23 apr., 20-23 jul.",
+    "ru": "2027: 9-12 февр., 20-23 апр., 20-23 июля"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kunjungan dipandu ahli (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "en": [
+     "expert-led visits (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "th": [
+     "การเยี่ยมชมโดยผู้เชี่ยวชาญนำ (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "vi": [
+     "tham quan có chuyên gia hướng dẫn (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "zh": [
+     "专家带领参观（Healesville Sanctuary、Melbourne Zoo、Royal Botanic Gardens Cranbourne、Science Gallery Melbourne）"
+    ],
+    "ja": [
+     "専門家による見学（Healesville Sanctuary、Melbourne Zoo、Royal Botanic Gardens Cranbourne、Science Gallery Melbourne）"
+    ],
+    "ko": [
+     "전문가 인솔 견학(Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "km": [
+     "ទស្សនកិច្ចដឹកនាំដោយអ្នកជំនាញ (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "fr": [
+     "visites guidées par des experts (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "pt": [
+     "visitas guiadas por especialistas (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "es": [
+     "visitas guiadas por expertos (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "de": [
+     "Besuche mit Fachleuten (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "it": [
+     "visite guidate da esperti (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "nl": [
+     "bezoeken onder leiding van experts (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ],
+    "ru": [
+     "визиты с экспертами (Healesville Sanctuary, Melbourne Zoo, Royal Botanic Gardens Cranbourne, Science Gallery Melbourne)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.study.vic.gov.au/en/international-student-program/schools-and-programs/study-tours",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour tematik konservasi 4 hari untuk siswa usia 13-16 tahun (grup 20-50), kunjungan dipandu ahli ke Melbourne Zoo, Healesville Sanctuary dan lainnya. Tidak termasuk kelas sekolah dan akomodasi; harga tidak dicantumkan.",
+    "en": "4-day conservation-themed study tour for students aged 13-16 (groups of 20-50) with expert-led visits to Melbourne Zoo, Healesville Sanctuary and more. School classes and accommodation not included; price not listed.",
+    "th": "สตัดี้ทัวร์ธีมการอนุรักษ์ 4 วันสำหรับนักเรียนอายุ 13-16 ปี (กลุ่ม 20-50 คน) เยี่ยมชมโดยมีผู้เชี่ยวชาญนำที่ Melbourne Zoo, Healesville Sanctuary และอื่นๆ ไม่รวมการเรียนในโรงเรียนและที่พัก; ไม่มีราคาแสดง",
+    "vi": "Study tour chủ đề bảo tồn 4 ngày cho học sinh 13-16 tuổi (nhóm 20-50), tham quan có chuyên gia hướng dẫn tại Melbourne Zoo, Healesville Sanctuary và các nơi khác. Không gồm lớp học ở trường và chỗ ở; chưa niêm yết giá.",
+    "zh": "面向13-16岁学生的4天保护主题游学团（20-50人团体），由专家带领参观 Melbourne Zoo、Healesville Sanctuary 等地。不含学校课程及住宿；未列出价格。",
+    "ja": "13～16歳の生徒向け4日間の自然保護テーマのスタディツアー（20～50名の団体）、専門家の案内で Melbourne Zoo、Healesville Sanctuary などを見学。学校の授業と宿泊は含まれない；料金の記載なし。",
+    "ko": "13~16세 학생 대상 4일 보전 주제 스터디 투어(20~50명 단체), 전문가 인솔로 Melbourne Zoo, Healesville Sanctuary 등 견학. 학교 수업 및 숙박 미포함; 가격 미기재.",
+    "km": "ដំណើរសិក្សាប្រធានបទអភិរក្សរយៈពេល 4 ថ្ងៃសម្រាប់សិស្សអាយុ 13-16 ឆ្នាំ (ក្រុម 20-50 នាក់) ទស្សនកិច្ចដឹកនាំដោយអ្នកជំនាញនៅ Melbourne Zoo, Healesville Sanctuary និងកន្លែងផ្សេងទៀត។ មិនរួមថ្នាក់រៀននៅសាលា និងកន្លែងស្នាក់នៅ; មិនមានតម្លៃ។",
+    "fr": "Séjour de 4 jours sur le thème de la conservation pour les 13-16 ans (groupes de 20 à 50), avec visites guidées par des experts à Melbourne Zoo, Healesville Sanctuary et ailleurs. Cours scolaires et hébergement non inclus ; prix non indiqué.",
+    "pt": "Viagem de estudos de 4 dias com tema de conservação para alunos de 13 a 16 anos (grupos de 20 a 50), com visitas guiadas por especialistas a Melbourne Zoo, Healesville Sanctuary e outros. Aulas escolares e hospedagem não incluídas; preço não informado.",
+    "es": "Viaje de estudios de 4 días sobre conservación para estudiantes de 13-16 años (grupos de 20-50), con visitas guiadas por expertos a Melbourne Zoo, Healesville Sanctuary y más. No incluye clases escolares ni alojamiento; precio no indicado.",
+    "de": "4-tägige Studienreise zum Thema Naturschutz für Schüler von 13 bis 16 Jahren (Gruppen von 20-50) mit Besuchen unter fachkundiger Leitung im Melbourne Zoo, Healesville Sanctuary und mehr. Schulunterricht und Unterkunft nicht inbegriffen; Preis nicht angegeben.",
+    "it": "Viaggio studio di 4 giorni sul tema della conservazione per studenti di 13-16 anni (gruppi di 20-50), con visite guidate da esperti a Melbourne Zoo, Healesville Sanctuary e altro. Lezioni scolastiche e alloggio non inclusi; prezzo non indicato.",
+    "nl": "Studiereis van 4 dagen rond natuurbehoud voor leerlingen van 13-16 jaar (groepen van 20-50), met bezoeken onder leiding van experts aan Melbourne Zoo, Healesville Sanctuary en meer. Schoollessen en accommodatie niet inbegrepen; prijs niet vermeld.",
+    "ru": "4-дневный учебный тур на тему охраны природы для школьников 13-16 лет (группы 20-50 человек) с визитами под руководством экспертов в Melbourne Zoo, Healesville Sanctuary и другие места. Школьные занятия и проживание не включены; цена не указана."
+   }
+  },
+  {
+   "id": "sa-gov-school-study-tours",
+   "provider": "Department for Education South Australia (South Australian Government Schools)",
+   "country": "AU",
+   "city": "South Australia (various government schools)",
+   "type": "study_tour",
+   "name": "Study Tours - South Australian Government Schools",
+   "ages": {
+    "id": "12+",
+    "en": "12+",
+    "th": "12+",
+    "vi": "12+",
+    "zh": "12+",
+    "ja": "12+",
+    "ko": "12+",
+    "km": "12+",
+    "fr": "12+",
+    "pt": "12+",
+    "es": "12+",
+    "de": "12+",
+    "it": "12+",
+    "nl": "12+",
+    "ru": "12+"
+   },
+   "duration": {
+    "id": "biasanya 10-14 hari",
+    "en": "usually 10-14 days",
+    "th": "โดยทั่วไป 10-14 วัน",
+    "vi": "thường 10-14 ngày",
+    "zh": "通常10-14天",
+    "ja": "通常10～14日間",
+    "ko": "보통 10~14일",
+    "km": "ជាធម្មតា 10-14 ថ្ងៃ",
+    "fr": "généralement 10-14 jours",
+    "pt": "geralmente 10-14 dias",
+    "es": "normalmente 10-14 días",
+    "de": "meist 10-14 Tage",
+    "it": "di solito 10-14 giorni",
+    "nl": "meestal 10-14 dagen",
+    "ru": "обычно 10-14 дней"
+   },
+   "season": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kelas bahasa Inggris",
+     "kegiatan sekolah",
+     "homestay",
+     "ekskursi"
+    ],
+    "en": [
+     "English classes",
+     "school activities",
+     "homestay",
+     "excursions"
+    ],
+    "th": [
+     "ชั้นเรียนภาษาอังกฤษ",
+     "กิจกรรมของโรงเรียน",
+     "โฮมสเตย์",
+     "ทัศนศึกษา"
+    ],
+    "vi": [
+     "lớp tiếng Anh",
+     "hoạt động của trường",
+     "homestay",
+     "tham quan"
+    ],
+    "zh": [
+     "英语课",
+     "学校活动",
+     "寄宿家庭",
+     "游览"
+    ],
+    "ja": [
+     "英語クラス",
+     "学校行事",
+     "ホームステイ",
+     "遠足"
+    ],
+    "ko": [
+     "영어 수업",
+     "학교 활동",
+     "홈스테이",
+     "견학"
+    ],
+    "km": [
+     "ថ្នាក់ភាសាអង់គ្លេស",
+     "សកម្មភាពសាលា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)",
+     "ដំណើរកម្សាន្ត"
+    ],
+    "fr": [
+     "cours d'anglais",
+     "activités scolaires",
+     "famille d'accueil",
+     "excursions"
+    ],
+    "pt": [
+     "aulas de inglês",
+     "atividades escolares",
+     "casa de família",
+     "passeios"
+    ],
+    "es": [
+     "clases de inglés",
+     "actividades escolares",
+     "alojamiento en familia",
+     "excursiones"
+    ],
+    "de": [
+     "Englischkurse",
+     "Schulaktivitäten",
+     "Gastfamilie",
+     "Ausflüge"
+    ],
+    "it": [
+     "corsi di inglese",
+     "attività scolastiche",
+     "famiglia ospitante",
+     "escursioni"
+    ],
+    "nl": [
+     "Engelse lessen",
+     "schoolactiviteiten",
+     "gastgezin",
+     "uitstapjes"
+    ],
+    "ru": [
+     "занятия английским",
+     "школьные мероприятия",
+     "проживание в семье",
+     "экскурсии"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.internationalstudents.sa.edu.au/en/study-options/study-tours/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup di sekolah negeri South Australia untuk siswa usia 12 tahun ke atas, biasanya 10-14 hari: kelas bahasa Inggris intensif, ikut kegiatan sekolah, homestay dan wisata. Harga tidak dicantumkan.",
+    "en": "Group study tour at South Australian government schools for students aged 12+, usually 10-14 days: intensive English, school activities, homestay and excursions. Price not listed.",
+    "th": "สตัดี้ทัวร์แบบกลุ่มที่โรงเรียนรัฐบาลใน South Australia สำหรับนักเรียนอายุ 12 ปีขึ้นไป ปกติ 10-14 วัน: เรียนภาษาอังกฤษแบบเข้มข้น ร่วมกิจกรรมโรงเรียน โฮมสเตย์ และทัศนศึกษา ไม่มีราคาแสดง",
+    "vi": "Study tour theo nhóm tại các trường công lập South Australia cho học sinh từ 12 tuổi, thường 10-14 ngày: tiếng Anh chuyên sâu, hoạt động của trường, homestay và tham quan. Chưa niêm yết giá.",
+    "zh": "South Australia 公立学校团体游学团，面向12岁以上学生，通常10-14天：强化英语、参与学校活动、寄宿家庭及游览。未列出价格。",
+    "ja": "South Australia の公立学校での団体スタディツアー、12歳以上対象、通常10～14日間：集中英語、学校行事への参加、ホームステイ、遠足。料金の記載なし。",
+    "ko": "South Australia 공립학교 단체 스터디 투어, 12세 이상 대상, 보통 10~14일: 집중 영어, 학교 활동, 홈스테이 및 견학. 가격 미기재.",
+    "km": "ដំណើរសិក្សាជាក្រុមនៅសាលារដ្ឋ South Australia សម្រាប់សិស្សអាយុ 12 ឆ្នាំឡើង ជាធម្មតា 10-14 ថ្ងៃ: ភាសាអង់គ្លេសពិសេស សកម្មភាពសាលា homestay និងដំណើរកម្សាន្ត។ មិនមានតម្លៃ។",
+    "fr": "Séjour en groupe dans des écoles publiques d'Australie-Méridionale pour les élèves de 12 ans et plus, généralement 10 à 14 jours : anglais intensif, activités scolaires, famille d'accueil et excursions. Prix non indiqué.",
+    "pt": "Viagem de estudos em grupo em escolas públicas da South Australia para alunos a partir de 12 anos, geralmente 10 a 14 dias: inglês intensivo, atividades escolares, casa de família e passeios. Preço não informado.",
+    "es": "Viaje de estudios en grupo en escuelas públicas de South Australia para estudiantes de 12+ años, normalmente 10-14 días: inglés intensivo, actividades escolares, alojamiento en familia y excursiones. Precio no indicado.",
+    "de": "Gruppen-Studienreise an staatlichen Schulen in South Australia für Schüler ab 12 Jahren, meist 10-14 Tage: Intensiv-Englisch, Schulaktivitäten, Gastfamilie und Ausflüge. Preis nicht angegeben.",
+    "it": "Viaggio studio di gruppo presso scuole statali del South Australia per studenti dai 12 anni, di solito 10-14 giorni: inglese intensivo, attività scolastiche, famiglia ospitante ed escursioni. Prezzo non indicato.",
+    "nl": "Groepsstudiereis op openbare scholen in South Australia voor leerlingen vanaf 12 jaar, meestal 10-14 dagen: intensief Engels, schoolactiviteiten, gastgezin en uitstapjes. Prijs niet vermeld.",
+    "ru": "Групповой учебный тур в государственных школах South Australia для учеников от 12 лет, обычно 10-14 дней: интенсивный английский, школьные мероприятия, проживание в семье и экскурсии. Цена не указана."
+   }
+  },
+  {
+   "id": "nsw-dei-study-tours",
+   "provider": "NSW Department of Education - DE International",
+   "country": "AU",
+   "city": "Sydney & regional NSW",
+   "type": "study_tour",
+   "name": "Study Tour Program",
+   "ages": null,
+   "duration": null,
+   "season": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kunjungan sekolah",
+     "homestay termasuk makan dan transport ke sekolah (opsional)"
+    ],
+    "en": [
+     "school visits",
+     "homestay with meals and school transfers (optional)"
+    ],
+    "th": [
+     "เยี่ยมชมโรงเรียน",
+     "โฮมสเตย์พร้อมอาหารและรับส่งโรงเรียน (ไม่บังคับ)"
+    ],
+    "vi": [
+     "thăm trường",
+     "homestay kèm bữa ăn và đưa đón đến trường (tùy chọn)"
+    ],
+    "zh": [
+     "学校参访",
+     "含餐及上下学接送的寄宿家庭（可选）"
+    ],
+    "ja": [
+     "学校訪問",
+     "食事・通学送迎付きホームステイ（任意）"
+    ],
+    "ko": [
+     "학교 방문",
+     "식사 및 등하교 교통 포함 홈스테이(선택)"
+    ],
+    "km": [
+     "ទស្សនកិច្ចសាលា",
+     "ស្នាក់នៅជាមួយគ្រួសារ រួមអាហារ និងការដឹកទៅសាលា (ជម្រើស)"
+    ],
+    "fr": [
+     "visites d'écoles",
+     "famille d'accueil avec repas et trajets vers l'école (en option)"
+    ],
+    "pt": [
+     "visitas a escolas",
+     "casa de família com refeições e transporte para a escola (opcional)"
+    ],
+    "es": [
+     "visitas a escuelas",
+     "familia con comidas y traslados a la escuela (opcional)"
+    ],
+    "de": [
+     "Schulbesuche",
+     "Gastfamilie mit Mahlzeiten und Schulweg-Transfer (optional)"
+    ],
+    "it": [
+     "visite alle scuole",
+     "famiglia ospitante con pasti e trasporto a scuola (facoltativa)"
+    ],
+    "nl": [
+     "schoolbezoeken",
+     "gastgezin met maaltijden en vervoer naar school (optioneel)"
+    ],
+    "ru": [
+     "посещение школ",
+     "проживание в семье с питанием и трансфером в школу (по желанию)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://deinternational.nsw.edu.au/study-options/study-programs/study-tours-study-tour-program",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup di sekolah negeri NSW (Sydney dan regional), program disesuaikan per grup; homestay termasuk makan dan transport ke sekolah. Usia, durasi dan harga tidak dicantumkan.",
+    "en": "Group study tour at NSW government schools (Sydney and regional), tailored per group; homestay includes meals and school transfers. Ages, duration and price not listed.",
+    "th": "สตัดี้ทัวร์แบบกลุ่มที่โรงเรียนรัฐบาลใน NSW (Sydney และภูมิภาค) ปรับโปรแกรมตามกลุ่ม; โฮมสเตย์รวมอาหารและรับส่งโรงเรียน ไม่ระบุอายุ ระยะเวลา และราคา",
+    "vi": "Study tour theo nhóm tại các trường công lập NSW (Sydney và vùng ngoại ô), chương trình thiết kế riêng cho từng nhóm; homestay gồm bữa ăn và đưa đón đến trường. Chưa niêm yết độ tuổi, thời lượng và giá.",
+    "zh": "NSW 公立学校（Sydney 及地区）团体游学团，按团体定制；寄宿家庭含餐及上下学接送。未列出年龄、时长及价格。",
+    "ja": "NSW の公立学校（Sydney および地方）での団体スタディツアー、団体ごとにカスタマイズ；ホームステイは食事と通学送迎付き。年齢、期間、料金の記載なし。",
+    "ko": "NSW 공립학교(Sydney 및 지방) 단체 스터디 투어, 단체별 맞춤 구성; 홈스테이는 식사 및 등하교 교통 포함. 연령, 기간, 가격 미기재.",
+    "km": "ដំណើរសិក្សាជាក្រុមនៅសាលារដ្ឋ NSW (Sydney និងតំបន់) រៀបចំតាមក្រុម; homestay រួមអាហារ និងការដឹកទៅសាលា។ មិនបញ្ជាក់អាយុ រយៈពេល និងតម្លៃ។",
+    "fr": "Séjour en groupe dans des écoles publiques de Nouvelle-Galles du Sud (Sydney et régions), programme sur mesure par groupe ; famille d'accueil avec repas et trajets vers l'école. Âges, durée et prix non indiqués.",
+    "pt": "Viagem de estudos em grupo em escolas públicas de NSW (Sydney e interior), personalizada por grupo; casa de família com refeições e transporte para a escola. Idades, duração e preço não informados.",
+    "es": "Viaje de estudios en grupo en escuelas públicas de NSW (Sydney y zonas regionales), a medida para cada grupo; alojamiento en familia con comidas y traslados a la escuela. Edades, duración y precio no indicados.",
+    "de": "Gruppen-Studienreise an staatlichen Schulen in NSW (Sydney und Regionen), pro Gruppe zugeschnitten; Gastfamilie mit Mahlzeiten und Schulweg-Transfer. Alter, Dauer und Preis nicht angegeben.",
+    "it": "Viaggio studio di gruppo presso scuole statali del NSW (Sydney e zone regionali), su misura per ogni gruppo; famiglia ospitante con pasti e trasporto a scuola. Età, durata e prezzo non indicati.",
+    "nl": "Groepsstudiereis op openbare scholen in NSW (Sydney en regionaal), op maat per groep; gastgezin met maaltijden en vervoer naar school. Leeftijd, duur en prijs niet vermeld.",
+    "ru": "Групповой учебный тур в государственных школах NSW (Sydney и регионы), программа под каждую группу; проживание в семье с питанием и трансфером в школу. Возраст, продолжительность и цена не указаны."
+   }
+  },
+  {
+   "id": "griffith-english-group-programs",
+   "provider": "Griffith University (International Development Unit)",
+   "country": "AU",
+   "city": null,
+   "type": "group_program",
+   "name": "English language group programs (specialised / integrated)",
+   "ages": null,
+   "duration": null,
+   "season": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "price_from": null,
+   "currency": "AUD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kelas bahasa Inggris",
+     "aktivitas budaya",
+     "ekskursi",
+     "pengaturan akomodasi (opsional)"
+    ],
+    "en": [
+     "English lessons",
+     "cultural activities",
+     "excursions",
+     "accommodation arrangement (optional)"
+    ],
+    "th": [
+     "เรียนภาษาอังกฤษ",
+     "กิจกรรมทางวัฒนธรรม",
+     "ทัศนศึกษา",
+     "จัดหาที่พัก (ไม่บังคับ)"
+    ],
+    "vi": [
+     "học tiếng Anh",
+     "hoạt động văn hóa",
+     "tham quan",
+     "sắp xếp chỗ ở (tùy chọn)"
+    ],
+    "zh": [
+     "英语课",
+     "文化活动",
+     "游览",
+     "住宿安排（可选）"
+    ],
+    "ja": [
+     "英語レッスン",
+     "文化体験",
+     "遠足",
+     "宿泊手配（任意）"
+    ],
+    "ko": [
+     "영어 수업",
+     "문화 활동",
+     "견학",
+     "숙소 주선(선택)"
+    ],
+    "km": [
+     "ថ្នាក់ភាសាអង់គ្លេស",
+     "សកម្មភាពវប្បធម៌",
+     "ដំណើរកម្សាន្ត",
+     "ការរៀបចំកន្លែងស្នាក់នៅ (ជម្រើស)"
+    ],
+    "fr": [
+     "cours d'anglais",
+     "activités culturelles",
+     "excursions",
+     "organisation de l'hébergement (en option)"
+    ],
+    "pt": [
+     "aulas de inglês",
+     "atividades culturais",
+     "passeios",
+     "organização de hospedagem (opcional)"
+    ],
+    "es": [
+     "clases de inglés",
+     "actividades culturales",
+     "excursiones",
+     "gestión del alojamiento (opcional)"
+    ],
+    "de": [
+     "Englischunterricht",
+     "Kulturaktivitäten",
+     "Ausflüge",
+     "Unterkunftsvermittlung (optional)"
+    ],
+    "it": [
+     "lezioni di inglese",
+     "attività culturali",
+     "escursioni",
+     "organizzazione dell'alloggio (facoltativa)"
+    ],
+    "nl": [
+     "Engelse lessen",
+     "culturele activiteiten",
+     "uitstapjes",
+     "regeling van accommodatie (optioneel)"
+    ],
+    "ru": [
+     "уроки английского",
+     "культурные мероприятия",
+     "экскурсии",
+     "организация проживания (по желанию)"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.griffith.edu.au/international/international-development-unit/english-language-group-programs",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program bahasa Inggris grup yang disesuaikan untuk sekolah menengah dan universitas mitra luar negeri, dengan aktivitas budaya dan ekskursi. Usia, durasi dan harga tidak dicantumkan.",
+    "en": "Tailored English group programs for overseas secondary schools and universities, with cultural activities and excursions. Ages, duration and price not listed.",
+    "th": "โปรแกรมภาษาอังกฤษแบบกลุ่มที่ปรับตามความต้องการสำหรับโรงเรียนมัธยมและมหาวิทยาลัยพันธมิตรจากต่างประเทศ พร้อมกิจกรรมทางวัฒนธรรมและทัศนศึกษา ไม่ระบุอายุ ระยะเวลา และราคา",
+    "vi": "Chương trình tiếng Anh theo nhóm thiết kế riêng cho các trường trung học và đại học đối tác nước ngoài, kèm hoạt động văn hóa và tham quan. Chưa niêm yết độ tuổi, thời lượng và giá.",
+    "zh": "为海外合作中学及大学定制的英语团体课程，含文化活动及游览。未列出年龄、时长及价格。",
+    "ja": "海外の中等学校・大学向けにカスタマイズされた英語団体プログラム、文化体験と遠足付き。年齢、期間、料金の記載なし。",
+    "ko": "해외 중등학교 및 대학을 위한 맞춤형 영어 단체 프로그램, 문화 활동 및 견학 포함. 연령, 기간, 가격 미기재.",
+    "km": "កម្មវិធីភាសាអង់គ្លេសជាក្រុមរៀបចំតាមតម្រូវការសម្រាប់សាលាមធ្យមសិក្សា និងសាកលវិទ្យាល័យដៃគូនៅបរទេស ជាមួយសកម្មភាពវប្បធម៌ និងដំណើរកម្សាន្ត។ មិនបញ្ជាក់អាយុ រយៈពេល និងតម្លៃ។",
+    "fr": "Programmes d'anglais sur mesure pour groupes d'établissements secondaires et d'universités étrangers, avec activités culturelles et excursions. Âges, durée et prix non indiqués.",
+    "pt": "Programas de inglês personalizados para grupos de escolas e universidades estrangeiras, com atividades culturais e passeios. Idades, duração e preço não informados.",
+    "es": "Programas de inglés a medida para grupos de escuelas secundarias y universidades extranjeras, con actividades culturales y excursiones. Edades, duración y precio no indicados.",
+    "de": "Maßgeschneiderte Englisch-Gruppenprogramme für ausländische Schulen und Universitäten, mit Kulturaktivitäten und Ausflügen. Alter, Dauer und Preis nicht angegeben.",
+    "it": "Programmi di inglese su misura per gruppi di scuole secondarie e università estere, con attività culturali ed escursioni. Età, durata e prezzo non indicati.",
+    "nl": "Engelse groepsprogramma's op maat voor buitenlandse middelbare scholen en universiteiten, met culturele activiteiten en uitstapjes. Leeftijd, duur en prijs niet vermeld.",
+    "ru": "Индивидуальные групповые программы английского для зарубежных школ и университетов, с культурными мероприятиями и экскурсиями. Возраст, продолжительность и цена не указаны."
+   }
+  },
+  {
+   "id": "kiwi-college-study-tours",
+   "provider": "Kiwi College of New Zealand",
+   "country": "NZ",
+   "city": "Auckland",
+   "type": "study_tour",
+   "name": "Study Tours for Groups (Young Learners)",
+   "ages": null,
+   "duration": null,
+   "season": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "price_from": null,
+   "currency": "NZD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "kelas bahasa Inggris",
+     "ekskursi",
+     "homestay"
+    ],
+    "en": [
+     "English lessons",
+     "excursions",
+     "homestay"
+    ],
+    "th": [
+     "เรียนภาษาอังกฤษ",
+     "ทัศนศึกษา",
+     "โฮมสเตย์"
+    ],
+    "vi": [
+     "học tiếng Anh",
+     "tham quan",
+     "homestay"
+    ],
+    "zh": [
+     "英语课",
+     "游览",
+     "寄宿家庭"
+    ],
+    "ja": [
+     "英語レッスン",
+     "遠足",
+     "ホームステイ"
+    ],
+    "ko": [
+     "영어 수업",
+     "견학",
+     "홈스테이"
+    ],
+    "km": [
+     "ថ្នាក់ភាសាអង់គ្លេស",
+     "ដំណើរកម្សាន្ត",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)"
+    ],
+    "fr": [
+     "cours d'anglais",
+     "excursions",
+     "famille d'accueil"
+    ],
+    "pt": [
+     "aulas de inglês",
+     "passeios",
+     "casa de família"
+    ],
+    "es": [
+     "clases de inglés",
+     "excursiones",
+     "alojamiento en familia"
+    ],
+    "de": [
+     "Englischunterricht",
+     "Ausflüge",
+     "Gastfamilie"
+    ],
+    "it": [
+     "lezioni di inglese",
+     "escursioni",
+     "famiglia ospitante"
+    ],
+    "nl": [
+     "Engelse lessen",
+     "uitstapjes",
+     "gastgezin"
+    ],
+    "ru": [
+     "уроки английского",
+     "экскурсии",
+     "проживание в семье"
+    ]
+   },
+   "group_only": true,
+   "url": "https://website.kiwi.ac.nz/young-learner/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Study tour grup bahasa Inggris untuk pelajar muda di Auckland dengan ekskursi harian dan homestay keluarga lokal. Usia, durasi dan harga tidak dicantumkan.",
+    "en": "Group English study tour for young learners in Auckland with daily excursions and local homestay. Ages, duration and price not listed.",
+    "th": "สตัดี้ทัวร์ภาษาอังกฤษแบบกลุ่มสำหรับผู้เรียนวัยเยาว์ที่ Auckland พร้อมทัศนศึกษารายวันและโฮมสเตย์กับครอบครัวท้องถิ่น ไม่ระบุอายุ ระยะเวลา และราคา",
+    "vi": "Study tour tiếng Anh theo nhóm cho học viên nhỏ tuổi tại Auckland, có tham quan hằng ngày và homestay với gia đình bản xứ. Chưa niêm yết độ tuổi, thời lượng và giá.",
+    "zh": "Auckland 青少年英语团体游学团，每日游览并入住当地寄宿家庭。未列出年龄、时长及价格。",
+    "ja": "Auckland の若年学習者向け団体英語スタディツアー、毎日の遠足と現地家庭でのホームステイ付き。年齢、期間、料金の記載なし。",
+    "ko": "Auckland 어린 학습자 대상 단체 영어 스터디 투어, 매일 견학 및 현지 가정 홈스테이. 연령, 기간, 가격 미기재.",
+    "km": "ដំណើរសិក្សាភាសាអង់គ្លេសជាក្រុមសម្រាប់អ្នកសិក្សាវ័យក្មេងនៅ Auckland ជាមួយដំណើរកម្សាន្តប្រចាំថ្ងៃ និង homestay ជាមួយគ្រួសារក្នុងស្រុក។ មិនបញ្ជាក់អាយុ រយៈពេល និងតម្លៃ។",
+    "fr": "Séjour linguistique en groupe pour jeunes apprenants à Auckland, avec excursions quotidiennes et hébergement en famille locale. Âges, durée et prix non indiqués.",
+    "pt": "Viagem de estudos de inglês em grupo para jovens em Auckland, com passeios diários e casa de família local. Idades, duração e preço não informados.",
+    "es": "Viaje de estudios de inglés en grupo para jóvenes en Auckland, con excursiones diarias y alojamiento en familia local. Edades, duración y precio no indicados.",
+    "de": "Englisch-Gruppenstudienreise für junge Lernende in Auckland mit täglichen Ausflügen und Unterbringung in einheimischen Gastfamilien. Alter, Dauer und Preis nicht angegeben.",
+    "it": "Viaggio studio di inglese di gruppo per giovani studenti ad Auckland, con escursioni giornaliere e famiglia ospitante locale. Età, durata e prezzo non indicati.",
+    "nl": "Engelse groepsstudiereis voor jonge leerlingen in Auckland met dagelijkse uitstapjes en verblijf bij een lokaal gastgezin. Leeftijd, duur en prijs niet vermeld.",
+    "ru": "Групповой языковой тур для юных учащихся в Auckland с ежедневными экскурсиями и проживанием в местной семье. Возраст, продолжительность и цена не указаны."
+   }
+  },
+  {
+   "id": "ccel-group-programmes",
+   "provider": "Christchurch College of English (CCEL)",
+   "country": "NZ",
+   "city": "Christchurch",
+   "type": "group_program",
+   "name": "Group Programmes",
+   "ages": {
+    "id": "15+",
+    "en": "15+",
+    "th": "15+",
+    "vi": "15+",
+    "zh": "15+",
+    "ja": "15+",
+    "ko": "15+",
+    "km": "15+",
+    "fr": "15+",
+    "pt": "15+",
+    "es": "15+",
+    "de": "15+",
+    "it": "15+",
+    "nl": "15+",
+    "ru": "15+"
+   },
+   "duration": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "season": {
+    "id": "sesuai permintaan",
+    "en": "on request",
+    "th": "ตามคำขอ",
+    "vi": "theo yêu cầu",
+    "zh": "按需安排",
+    "ja": "要相談",
+    "ko": "요청 시",
+    "km": "តាមការស្នើសុំ",
+    "fr": "sur demande",
+    "pt": "sob consulta",
+    "es": "a petición",
+    "de": "auf Anfrage",
+    "it": "su richiesta",
+    "nl": "op aanvraag",
+    "ru": "по запросу"
+   },
+   "price_from": null,
+   "currency": "NZD",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "homestay",
+     "aktivitas",
+     "sertifikat"
+    ],
+    "en": [
+     "tuition",
+     "homestay",
+     "activities",
+     "certificate"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "โฮมสเตย์",
+     "กิจกรรม",
+     "ประกาศนียบัตร"
+    ],
+    "vi": [
+     "học phí",
+     "homestay",
+     "hoạt động",
+     "chứng chỉ"
+    ],
+    "zh": [
+     "学费",
+     "寄宿家庭",
+     "活动",
+     "证书"
+    ],
+    "ja": [
+     "授業料",
+     "ホームステイ",
+     "アクティビティ",
+     "修了証"
+    ],
+    "ko": [
+     "수업료",
+     "홈스테이",
+     "액티비티",
+     "수료증"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)",
+     "សកម្មភាព",
+     "វិញ្ញាបនបត្រ"
+    ],
+    "fr": [
+     "frais de cours",
+     "famille d'accueil",
+     "activités",
+     "certificat"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "casa de família",
+     "atividades",
+     "certificado"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en familia",
+     "actividades",
+     "certificado"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Gastfamilie",
+     "Aktivitäten",
+     "Zertifikat"
+    ],
+    "it": [
+     "retta del corso",
+     "famiglia ospitante",
+     "attività",
+     "certificato"
+    ],
+    "nl": [
+     "lesgeld",
+     "gastgezin",
+     "activiteiten",
+     "certificaat"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в семье",
+     "мероприятия",
+     "сертификат"
+    ]
+   },
+   "group_only": true,
+   "url": "https://www.ccel.co.nz/?p=152",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program grup 10-150 siswa (usia minimal 15 tahun) yang disesuaikan: kelas bahasa Inggris, homestay dan aktivitas pilihan, tanggal fleksibel. Harga tidak dicantumkan.",
+    "en": "Tailored group programmes for 10-150 students (minimum age 15): English tuition, homestay and chosen activities, flexible dates. Price not listed.",
+    "th": "โปรแกรมกลุ่มที่ปรับตามความต้องการสำหรับนักเรียน 10-150 คน (อายุขั้นต่ำ 15 ปี): เรียนภาษาอังกฤษ โฮมสเตย์ และกิจกรรมที่เลือก วันที่ยืดหยุ่น ไม่มีราคาแสดง",
+    "vi": "Chương trình nhóm thiết kế riêng cho 10-150 học sinh (tối thiểu 15 tuổi): học tiếng Anh, homestay và hoạt động tự chọn, ngày linh hoạt. Chưa niêm yết giá.",
+    "zh": "为10-150名学生（最低15岁）定制的团体课程：英语课程、寄宿家庭及自选活动，日期灵活。未列出价格。",
+    "ja": "10～150名（15歳以上）向けのカスタマイズ団体プログラム：英語授業、ホームステイ、選択アクティビティ、日程は柔軟。料金の記載なし。",
+    "ko": "10~150명(최소 15세) 대상 맞춤형 단체 프로그램: 영어 수업, 홈스테이 및 선택 액티비티, 날짜 유연. 가격 미기재.",
+    "km": "កម្មវិធីក្រុមរៀបចំតាមតម្រូវការសម្រាប់សិស្ស 10-150 នាក់ (អាយុយ៉ាងតិច 15 ឆ្នាំ): ថ្នាក់ភាសាអង់គ្លេស homestay និងសកម្មភាពជ្រើសរើស កាលបរិច្ឆេទបត់បែន។ មិនមានតម្លៃ។",
+    "fr": "Programmes sur mesure pour groupes de 10 à 150 élèves (15 ans minimum) : cours d'anglais, famille d'accueil et activités au choix, dates flexibles. Prix non indiqué.",
+    "pt": "Programas personalizados para grupos de 10 a 150 alunos (idade mínima 15 anos): aulas de inglês, casa de família e atividades à escolha, datas flexíveis. Preço não informado.",
+    "es": "Programas a medida para grupos de 10-150 estudiantes (edad mínima 15 años): clases de inglés, alojamiento en familia y actividades a elegir, fechas flexibles. Precio no indicado.",
+    "de": "Maßgeschneiderte Gruppenprogramme für 10-150 Schüler (Mindestalter 15): Englischunterricht, Gastfamilie und Aktivitäten nach Wahl, flexible Termine. Preis nicht angegeben.",
+    "it": "Programmi su misura per gruppi di 10-150 studenti (età minima 15 anni): lezioni di inglese, famiglia ospitante e attività a scelta, date flessibili. Prezzo non indicato.",
+    "nl": "Groepsprogramma's op maat voor 10-150 leerlingen (minimumleeftijd 15): Engelse les, gastgezin en activiteiten naar keuze, flexibele data. Prijs niet vermeld.",
+    "ru": "Индивидуальные групповые программы для 10-150 учащихся (от 15 лет): уроки английского, проживание в семье и мероприятия на выбор, гибкие даты. Цена не указана."
+   }
+  },
+  {
+   "id": "macleans-short-term-visit",
+   "provider": "Macleans College",
+   "country": "NZ",
+   "city": "Auckland",
+   "type": "junior_program",
+   "name": "Short-term visits",
+   "ages": null,
+   "duration": {
+    "id": "1, 2, 4, 6 atau 8 minggu",
+    "en": "1, 2, 4, 6 or 8 weeks",
+    "th": "1, 2, 4, 6 หรือ 8 สัปดาห์",
+    "vi": "1, 2, 4, 6 hoặc 8 tuần",
+    "zh": "1、2、4、6或8周",
+    "ja": "1・2・4・6・8週間",
+    "ko": "1, 2, 4, 6 또는 8주",
+    "km": "1, 2, 4, 6 ឬ 8 សប្តាហ៍",
+    "fr": "1, 2, 4, 6 ou 8 semaines",
+    "pt": "1, 2, 4, 6 ou 8 semanas",
+    "es": "1, 2, 4, 6 u 8 semanas",
+    "de": "1, 2, 4, 6 oder 8 Wochen",
+    "it": "1, 2, 4, 6 o 8 settimane",
+    "nl": "1, 2, 4, 6 of 8 weken",
+    "ru": "1, 2, 4, 6 или 8 недель"
+   },
+   "season": {
+    "id": "selama term sekolah NZ",
+    "en": "during NZ school terms",
+    "th": "ระหว่างภาคเรียนของโรงเรียนในนิวซีแลนด์",
+    "vi": "trong các học kỳ của trường tại NZ",
+    "zh": "新西兰学校学期期间",
+    "ja": "ニュージーランドの学期中",
+    "ko": "뉴질랜드 학기 중",
+    "km": "ក្នុងអំឡុងឆមាសសាលានៅ NZ",
+    "fr": "pendant les trimestres scolaires en Nouvelle-Zélande",
+    "pt": "durante os períodos letivos da Nova Zelândia",
+    "es": "durante los trimestres escolares de Nueva Zelanda",
+    "de": "während der Schulterms in Neuseeland",
+    "it": "durante i periodi scolastici in Nuova Zelanda",
+    "nl": "tijdens de schooltermijnen in Nieuw-Zeeland",
+    "ru": "во время школьных четвертей в Новой Зеландии"
+   },
+   "price_from": 685,
+   "currency": "NZD",
+   "price_basis": {
+    "id": "per minggu (tuition NZD 425 + homestay NZD 260; tahun harga tidak tertulis di dokumen)",
+    "en": "per week (tuition NZD 425 + homestay NZD 260; year not stated in the document)",
+    "th": "ต่อสัปดาห์ (ค่าเรียน NZD 425 + โฮมสเตย์ NZD 260; ไม่ระบุปีในเอกสาร)",
+    "vi": "mỗi tuần (học phí NZD 425 + homestay NZD 260; tài liệu không ghi năm)",
+    "zh": "每周（学费 NZD 425 + 寄宿家庭 NZD 260；文件未注明年份）",
+    "ja": "1週間あたり（授業料 NZD 425 + ホームステイ NZD 260；資料に年度の記載なし）",
+    "ko": "주당(수업료 NZD 425 + 홈스테이 NZD 260; 문서에 연도 미기재)",
+    "km": "ក្នុងមួយសប្តាហ៍ (ថ្លៃសិក្សា NZD 425 + homestay NZD 260; ឯកសារមិនបញ្ជាក់ឆ្នាំ)",
+    "fr": "par semaine (cours NZD 425 + famille d'accueil NZD 260 ; année non indiquée dans le document)",
+    "pt": "por semana (curso NZD 425 + casa de família NZD 260; ano não informado no documento)",
+    "es": "por semana (curso NZD 425 + alojamiento NZD 260; año no indicado en el documento)",
+    "de": "pro Woche (Kurs NZD 425 + Gastfamilie NZD 260; Jahr im Dokument nicht angegeben)",
+    "it": "a settimana (corso NZD 425 + famiglia ospitante NZD 260; anno non indicato nel documento)",
+    "nl": "per week (lesgeld NZD 425 + gastgezin NZD 260; jaar niet vermeld in document)",
+    "ru": "в неделю (обучение NZD 425 + проживание в семье NZD 260; год в документе не указан)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "homestay"
+    ],
+    "en": [
+     "tuition",
+     "homestay"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "โฮมสเตย์"
+    ],
+    "vi": [
+     "học phí",
+     "homestay"
+    ],
+    "zh": [
+     "学费",
+     "寄宿家庭"
+    ],
+    "ja": [
+     "授業料",
+     "ホームステイ"
+    ],
+    "ko": [
+     "수업료",
+     "홈스테이"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)"
+    ],
+    "fr": [
+     "frais de cours",
+     "famille d'accueil"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "casa de família"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en familia"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Gastfamilie"
+    ],
+    "it": [
+     "retta del corso",
+     "famiglia ospitante"
+    ],
+    "nl": [
+     "lesgeld",
+     "gastgezin"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в семье"
+    ]
+   },
+   "group_only": false,
+   "url": "https://assets.macleans.school.nz/images/other/International-Students/Publications/publications-short-long-term-visits.pdf",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Kunjungan singkat 1-8 minggu di sekolah menengah negeri Macleans College, Auckland. NZD 685/minggu (tuition NZD 425 + homestay NZD 260); tahun harga tidak tertulis - konfirmasi ke sekolah.",
+    "en": "Short-term visit of 1-8 weeks at Macleans College, a state secondary school in Auckland. NZD 685/week (tuition NZD 425 + homestay NZD 260); price year not stated - confirm with the school.",
+    "th": "การเยี่ยมเรียนระยะสั้น 1-8 สัปดาห์ที่ Macleans College โรงเรียนมัธยมรัฐบาลใน Auckland ราคา NZD 685/สัปดาห์ (ค่าเรียน NZD 425 + โฮมสเตย์ NZD 260); ไม่ระบุปีของราคา - โปรดยืนยันกับโรงเรียน",
+    "vi": "Chương trình học ngắn hạn 1-8 tuần tại Macleans College, trường trung học công lập ở Auckland. NZD 685/tuần (học phí NZD 425 + homestay NZD 260); không ghi năm áp dụng giá - hãy xác nhận với trường.",
+    "zh": "在 Auckland 公立中学 Macleans College 进行1-8周短期访学。NZD 685/周（学费 NZD 425 + 寄宿家庭 NZD 260）；价格未注明年份，请向学校确认。",
+    "ja": "Auckland の公立中等学校 Macleans College での1～8週間の短期留学。NZD 685/週（授業料 NZD 425 + ホームステイ NZD 260）；料金の年度記載なし、学校に要確認。",
+    "ko": "Auckland 공립 중등학교 Macleans College 1~8주 단기 방문. NZD 685/주(수업료 NZD 425 + 홈스테이 NZD 260); 가격 적용 연도 미기재 - 학교에 확인 필요.",
+    "km": "ការសិក្សារយៈពេលខ្លី 1-8 សប្តាហ៍នៅ Macleans College សាលាមធ្យមសិក្សារដ្ឋនៅ Auckland។ NZD 685/សប្តាហ៍ (ថ្លៃសិក្សា NZD 425 + homestay NZD 260); មិនបញ្ជាក់ឆ្នាំតម្លៃ - សូមបញ្ជាក់ជាមួយសាលា។",
+    "fr": "Séjour court de 1 à 8 semaines au Macleans College, établissement secondaire public d'Auckland. NZD 685/semaine (cours NZD 425 + famille d'accueil NZD 260) ; année du tarif non indiquée - à confirmer auprès de l'école.",
+    "pt": "Visita de curta duração de 1 a 8 semanas no Macleans College, escola secundária pública em Auckland. NZD 685/semana (curso NZD 425 + casa de família NZD 260); ano do preço não informado - confirme com a escola.",
+    "es": "Estancia corta de 1-8 semanas en Macleans College, escuela secundaria pública de Auckland. NZD 685/semana (curso NZD 425 + alojamiento NZD 260); año del precio no indicado - confirmar con la escuela.",
+    "de": "Kurzaufenthalt von 1-8 Wochen am Macleans College, einer staatlichen weiterführenden Schule in Auckland. NZD 685/Woche (Kurs NZD 425 + Gastfamilie NZD 260); Preisjahr nicht angegeben - bitte bei der Schule nachfragen.",
+    "it": "Visita di breve durata di 1-8 settimane presso il Macleans College, scuola secondaria statale di Auckland. NZD 685/settimana (corso NZD 425 + famiglia ospitante NZD 260); anno del prezzo non indicato - da confermare con la scuola.",
+    "nl": "Kort bezoek van 1-8 weken aan Macleans College, een openbare middelbare school in Auckland. NZD 685/week (lesgeld NZD 425 + gastgezin NZD 260); prijsjaar niet vermeld - bevestig bij de school.",
+    "ru": "Краткосрочное обучение 1-8 недель в Macleans College, государственной средней школе в Auckland. NZD 685/нед. (обучение NZD 425 + проживание в семье NZD 260); год цены не указан - уточните в школе."
+   }
+  },
+  {
+   "id": "kings-uk-summer-course",
+   "provider": "Kings Education",
+   "country": "GB",
+   "city": "Newcastle, London, Bath, Berkshire, Ascot, Brighton",
+   "type": "summer_camp",
+   "name": "Kings Young Learners Summer Course (residential)",
+   "ages": {
+    "id": "8-17 (tergantung lokasi)",
+    "en": "8-17 (depending on centre)",
+    "th": "8-17 (ขึ้นอยู่กับศูนย์)",
+    "vi": "8-17 (tùy cơ sở)",
+    "zh": "8-17（视校区而定）",
+    "ja": "8-17（センターによる）",
+    "ko": "8-17(센터에 따라 다름)",
+    "km": "8-17 (អាស្រ័យលើមជ្ឈមណ្ឌល)",
+    "fr": "8-17 (selon le centre)",
+    "pt": "8-17 (conforme o centro)",
+    "es": "8-17 (según el centro)",
+    "de": "8-17 (je nach Standort)",
+    "it": "8-17 (a seconda del centro)",
+    "nl": "8-17 (afhankelijk van centrum)",
+    "ru": "8-17 (зависит от центра)"
+   },
+   "duration": {
+    "id": "1 minggu atau lebih",
+    "en": "1+ weeks",
+    "th": "1 สัปดาห์ขึ้นไป",
+    "vi": "từ 1 tuần",
+    "zh": "1周起",
+    "ja": "1週間以上",
+    "ko": "1주 이상",
+    "km": "ចាប់ពី 1 សប្តាហ៍",
+    "fr": "1 semaine ou plus",
+    "pt": "1 semana ou mais",
+    "es": "1 semana o más",
+    "de": "ab 1 Woche",
+    "it": "da 1 settimana",
+    "nl": "vanaf 1 week",
+    "ru": "от 1 недели"
+   },
+   "season": {
+    "id": "akhir Jun - pertengahan Agu (musim panas Inggris)",
+    "en": "late Jun - mid Aug (UK summer)",
+    "th": "ปลาย มิ.ย. - กลาง ส.ค. (ฤดูร้อนสหราชอาณาจักร)",
+    "vi": "cuối tháng 6 - giữa tháng 8 (mùa hè Anh)",
+    "zh": "6月下旬-8月中旬（英国夏季）",
+    "ja": "6月下旬～8月中旬（英国の夏）",
+    "ko": "6월 말~8월 중순(영국 여름)",
+    "km": "ចុងមិថុនា - ពាក់កណ្តាលសីហា (រដូវក្តៅចក្រភពអង់គ្លេស)",
+    "fr": "fin juin - mi-août (été au Royaume-Uni)",
+    "pt": "fim de jun. - meados de ago. (verão no Reino Unido)",
+    "es": "finales de jun. - mediados de ago. (verano en el Reino Unido)",
+    "de": "Ende Juni - Mitte Aug. (Sommer in Großbritannien)",
+    "it": "fine giu. - metà ago. (estate nel Regno Unito)",
+    "nl": "eind jun. - half aug. (zomer in het VK)",
+    "ru": "конец июня - середина авг. (лето в Великобритании)"
+   },
+   "price_from": 1180,
+   "currency": "GBP",
+   "price_basis": {
+    "id": "per minggu termasuk kursus dan akomodasi asrama (Newcastle University; biaya pendaftaran GBP 85; transfer terpisah)",
+    "en": "per week incl. course and residential accommodation (Newcastle University; enrolment fee GBP 85; transfers extra)",
+    "th": "ต่อสัปดาห์ รวมค่าเรียนและที่พักหอพัก (Newcastle University; ค่าลงทะเบียน GBP 85; ค่ารับส่งคิดแยก)",
+    "vi": "mỗi tuần, gồm khóa học và ký túc xá (Newcastle University; phí ghi danh GBP 85; đưa đón tính riêng)",
+    "zh": "每周，含课程及寄宿住宿（Newcastle University；注册费 GBP 85；接送另计）",
+    "ja": "1週間あたり、授業と寮滞在込み（Newcastle University；入学金 GBP 85；送迎は別途）",
+    "ko": "주당, 수업 및 기숙사 숙박 포함(Newcastle University; 등록비 GBP 85; 픽업 별도)",
+    "km": "ក្នុងមួយសប្តាហ៍ រួមវគ្គសិក្សា និងអន្តេវាសិកដ្ឋាន (Newcastle University; ថ្លៃចុះឈ្មោះ GBP 85; ការដឹកជញ្ជូនគិតដាច់ដោយឡែក)",
+    "fr": "par semaine, cours et hébergement en résidence inclus (Newcastle University ; frais d'inscription GBP 85 ; transferts en sus)",
+    "pt": "por semana, incluindo curso e hospedagem em residência (Newcastle University; taxa de matrícula GBP 85; traslados à parte)",
+    "es": "por semana, incluye curso y alojamiento en residencia (Newcastle University; inscripción GBP 85; traslados aparte)",
+    "de": "pro Woche inkl. Kurs und Wohnheimunterkunft (Newcastle University; Anmeldegebühr GBP 85; Transfers zusätzlich)",
+    "it": "a settimana, corso e alloggio in residenza inclusi (Newcastle University; iscrizione GBP 85; transfer esclusi)",
+    "nl": "per week incl. cursus en verblijf in residentie (Newcastle University; inschrijfgeld GBP 85; vervoer extra)",
+    "ru": "в неделю, включая курс и проживание в резиденции (Newcastle University; регистрационный сбор GBP 85; трансферы оплачиваются отдельно)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "akomodasi asrama",
+     "aktivitas"
+    ],
+    "en": [
+     "tuition",
+     "residential accommodation",
+     "activities"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "ที่พักแบบหอพัก",
+     "กิจกรรม"
+    ],
+    "vi": [
+     "học phí",
+     "ở ký túc xá",
+     "hoạt động"
+    ],
+    "zh": [
+     "学费",
+     "住宿（寄宿制）",
+     "活动"
+    ],
+    "ja": [
+     "授業料",
+     "寮滞在",
+     "アクティビティ"
+    ],
+    "ko": [
+     "수업료",
+     "기숙사 숙박",
+     "액티비티"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅអន្តេវាសិកដ្ឋាន",
+     "សកម្មភាព"
+    ],
+    "fr": [
+     "frais de cours",
+     "hébergement en résidence",
+     "activités"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "hospedagem em residência",
+     "atividades"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en residencia",
+     "actividades"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Wohnheimunterkunft",
+     "Aktivitäten"
+    ],
+    "it": [
+     "retta del corso",
+     "alloggio in residenza",
+     "attività"
+    ],
+    "nl": [
+     "lesgeld",
+     "verblijf in residentie",
+     "activiteiten"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в резиденции",
+     "мероприятия"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.kingseducation.com/young-learners/prices",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Summer camp bahasa Inggris berasrama di beberapa kampus/sekolah di Inggris untuk usia 8-17 tahun (tergantung lokasi). Mulai GBP 1.180/minggu termasuk kursus dan akomodasi (Newcastle); biaya pendaftaran GBP 85, transfer terpisah.",
+    "en": "Residential English summer camp at several UK centres for ages 8-17 (depending on centre). From GBP 1,180/week incl. course and accommodation (Newcastle); GBP 85 enrolment, transfers extra.",
+    "th": "ซัมเมอร์แคมป์ภาษาอังกฤษแบบพักค้างที่หลายศูนย์ในสหราชอาณาจักร สำหรับอายุ 8-17 ปี (ขึ้นอยู่กับศูนย์) เริ่มต้น GBP 1,180/สัปดาห์ รวมค่าเรียนและที่พัก (Newcastle); ค่าลงทะเบียน GBP 85 ค่ารับส่งคิดแยก",
+    "vi": "Trại hè tiếng Anh nội trú tại nhiều cơ sở ở Anh cho 8-17 tuổi (tùy cơ sở). Từ GBP 1,180/tuần gồm khóa học và chỗ ở (Newcastle); phí ghi danh GBP 85, đưa đón tính riêng.",
+    "zh": "在英国多个校区举办的寄宿制英语夏令营，面向8-17岁（视校区而定）。GBP 1,180/周起，含课程及住宿（Newcastle）；注册费 GBP 85，接送另计。",
+    "ja": "英国の複数センターで開催される寮滞在型英語サマーキャンプ、8～17歳（センターによる）。GBP 1,180/週から、授業と宿泊込み（Newcastle）；入学金 GBP 85、送迎は別途。",
+    "ko": "영국 여러 센터의 기숙형 영어 여름 캠프, 8~17세(센터에 따라 다름). GBP 1,180/주부터, 수업 및 숙박 포함(Newcastle); 등록비 GBP 85, 픽업 별도.",
+    "km": "ជំរុំរដូវក្តៅភាសាអង់គ្លេសស្នាក់នៅក្នុងមជ្ឈមណ្ឌលជាច្រើននៅចក្រភពអង់គ្លេស សម្រាប់អាយុ 8-17 ឆ្នាំ (អាស្រ័យលើមជ្ឈមណ្ឌល)។ ចាប់ពី GBP 1,180/សប្តាហ៍ រួមវគ្គសិក្សា និងកន្លែងស្នាក់នៅ (Newcastle); ថ្លៃចុះឈ្មោះ GBP 85 ការដឹកជញ្ជូនគិតដាច់ដោយឡែក។",
+    "fr": "Camp d'été d'anglais en résidence dans plusieurs centres au Royaume-Uni pour les 8-17 ans (selon le centre). Dès GBP 1 180/semaine, cours et hébergement inclus (Newcastle) ; frais d'inscription GBP 85, transferts en sus.",
+    "pt": "Acampamento de verão de inglês com hospedagem em vários centros no Reino Unido para 8 a 17 anos (conforme o centro). A partir de GBP 1.180/semana, incluindo curso e hospedagem (Newcastle); taxa de matrícula GBP 85, traslados à parte.",
+    "es": "Campamento de verano de inglés con residencia en varios centros del Reino Unido para 8-17 años (según el centro). Desde GBP 1.180/semana con curso y alojamiento (Newcastle); inscripción GBP 85, traslados aparte.",
+    "de": "Englisch-Sommercamp mit Unterkunft an mehreren Standorten in Großbritannien für 8- bis 17-Jährige (je nach Standort). Ab GBP 1.180/Woche inkl. Kurs und Unterkunft (Newcastle); Anmeldegebühr GBP 85, Transfers zusätzlich.",
+    "it": "Campo estivo di inglese residenziale in diversi centri del Regno Unito per 8-17 anni (a seconda del centro). Da GBP 1.180/settimana, corso e alloggio inclusi (Newcastle); iscrizione GBP 85, transfer esclusi.",
+    "nl": "Engels zomerkamp met verblijf op diverse locaties in het VK voor 8-17 jaar (afhankelijk van centrum). Vanaf GBP 1.180/week incl. cursus en accommodatie (Newcastle); inschrijfgeld GBP 85, vervoer extra.",
+    "ru": "Летний языковой лагерь с проживанием в нескольких центрах Великобритании для 8-17 лет (зависит от центра). От GBP 1 180/нед., включая курс и проживание (Newcastle); регистрационный сбор GBP 85, трансферы оплачиваются отдельно."
+   }
+  },
+  {
+   "id": "kings-experience-bournemouth",
+   "provider": "Kings Education",
+   "country": "GB",
+   "city": "Bournemouth",
+   "type": "summer_camp",
+   "name": "Kings Experience Bournemouth (homestay)",
+   "ages": {
+    "id": "12-17",
+    "en": "12-17",
+    "th": "12-17",
+    "vi": "12-17",
+    "zh": "12-17",
+    "ja": "12-17",
+    "ko": "12-17",
+    "km": "12-17",
+    "fr": "12-17",
+    "pt": "12-17",
+    "es": "12-17",
+    "de": "12-17",
+    "it": "12-17",
+    "nl": "12-17",
+    "ru": "12-17"
+   },
+   "duration": {
+    "id": "1 minggu atau lebih",
+    "en": "1+ weeks",
+    "th": "1 สัปดาห์ขึ้นไป",
+    "vi": "từ 1 tuần",
+    "zh": "1周起",
+    "ja": "1週間以上",
+    "ko": "1주 이상",
+    "km": "ចាប់ពី 1 សប្តាហ៍",
+    "fr": "1 semaine ou plus",
+    "pt": "1 semana ou mais",
+    "es": "1 semana o más",
+    "de": "ab 1 Woche",
+    "it": "da 1 settimana",
+    "nl": "vanaf 1 week",
+    "ru": "от 1 недели"
+   },
+   "season": {
+    "id": "27 Jun - 15 Agu (musim panas Inggris)",
+    "en": "27 Jun - 15 Aug (UK summer)",
+    "th": "27 มิ.ย. - 15 ส.ค. (ฤดูร้อนสหราชอาณาจักร)",
+    "vi": "27/6 - 15/8 (mùa hè Anh)",
+    "zh": "6月27日-8月15日（英国夏季）",
+    "ja": "6月27日～8月15日（英国の夏）",
+    "ko": "6월 27일~8월 15일(영국 여름)",
+    "km": "27 មិថុនា - 15 សីហា (រដូវក្តៅចក្រភពអង់គ្លេស)",
+    "fr": "27 juin - 15 août (été au Royaume-Uni)",
+    "pt": "27 jun. - 15 ago. (verão no Reino Unido)",
+    "es": "27 jun. - 15 ago. (verano en el Reino Unido)",
+    "de": "27. Juni - 15. Aug. (Sommer in Großbritannien)",
+    "it": "27 giu. - 15 ago. (estate nel Regno Unito)",
+    "nl": "27 jun. - 15 aug. (zomer in het VK)",
+    "ru": "27 июня - 15 авг. (лето в Великобритании)"
+   },
+   "price_from": 615,
+   "currency": "GBP",
+   "price_basis": {
+    "id": "per minggu, hanya kursus (homestay kamar berbagi +GBP 220/minggu; biaya pendaftaran GBP 85)",
+    "en": "per week, course only (shared-room homestay +GBP 220/week; enrolment fee GBP 85)",
+    "th": "ต่อสัปดาห์ เฉพาะค่าเรียน (โฮมสเตย์ห้องพักร่วม +GBP 220/สัปดาห์; ค่าลงทะเบียน GBP 85)",
+    "vi": "mỗi tuần, chỉ khóa học (homestay phòng chung +GBP 220/tuần; phí ghi danh GBP 85)",
+    "zh": "每周，仅课程（寄宿家庭合住房 +GBP 220/周；注册费 GBP 85）",
+    "ja": "1週間あたり、授業のみ（ホームステイ相部屋 +GBP 220/週；入学金 GBP 85）",
+    "ko": "주당, 수업만(홈스테이 공용 객실 +GBP 220/주; 등록비 GBP 85)",
+    "km": "ក្នុងមួយសប្តាហ៍ តែវគ្គសិក្សា (homestay បន្ទប់រួម +GBP 220/សប្តាហ៍; ថ្លៃចុះឈ្មោះ GBP 85)",
+    "fr": "par semaine, cours uniquement (famille d'accueil chambre partagée +GBP 220/semaine ; frais d'inscription GBP 85)",
+    "pt": "por semana, somente curso (casa de família em quarto compartilhado +GBP 220/semana; taxa de matrícula GBP 85)",
+    "es": "por semana, solo curso (familia en habitación compartida +GBP 220/semana; inscripción GBP 85)",
+    "de": "pro Woche, nur Kurs (Gastfamilie im Mehrbettzimmer +GBP 220/Woche; Anmeldegebühr GBP 85)",
+    "it": "a settimana, solo corso (famiglia ospitante in camera condivisa +GBP 220/settimana; iscrizione GBP 85)",
+    "nl": "per week, alleen cursus (gastgezin gedeelde kamer +GBP 220/week; inschrijfgeld GBP 85)",
+    "ru": "в неделю, только курс (проживание в семье, общая комната +GBP 220/нед.; регистрационный сбор GBP 85)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "homestay"
+    ],
+    "en": [
+     "tuition",
+     "homestay"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "โฮมสเตย์"
+    ],
+    "vi": [
+     "học phí",
+     "homestay"
+    ],
+    "zh": [
+     "学费",
+     "寄宿家庭"
+    ],
+    "ja": [
+     "授業料",
+     "ホームステイ"
+    ],
+    "ko": [
+     "수업료",
+     "홈스테이"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅជាមួយគ្រួសារ (homestay)"
+    ],
+    "fr": [
+     "frais de cours",
+     "famille d'accueil"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "casa de família"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en familia"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Gastfamilie"
+    ],
+    "it": [
+     "retta del corso",
+     "famiglia ospitante"
+    ],
+    "nl": [
+     "lesgeld",
+     "gastgezin"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в семье"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.kingseducation.com/young-learners/prices",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program musim panas bahasa Inggris usia 12-17 tahun di Bournemouth dengan homestay. Kursus GBP 615 + homestay kamar berbagi GBP 220 per minggu; biaya pendaftaran GBP 85.",
+    "en": "Summer English program for ages 12-17 in Bournemouth with homestay. Course GBP 615 + shared homestay GBP 220 per week; GBP 85 enrolment.",
+    "th": "โปรแกรมภาษาอังกฤษภาคฤดูร้อนสำหรับอายุ 12-17 ปีที่ Bournemouth พร้อมโฮมสเตย์ ค่าเรียน GBP 615 + โฮมสเตย์ห้องพักร่วม GBP 220 ต่อสัปดาห์; ค่าลงทะเบียน GBP 85",
+    "vi": "Chương trình tiếng Anh mùa hè cho 12-17 tuổi tại Bournemouth, ở homestay. Khóa học GBP 615 + homestay phòng chung GBP 220 mỗi tuần; phí ghi danh GBP 85.",
+    "zh": "Bournemouth 12-17岁暑期英语课程，入住寄宿家庭。课程 GBP 615 + 寄宿家庭合住房 GBP 220/周；注册费 GBP 85。",
+    "ja": "Bournemouth の12～17歳向けサマー英語プログラム（ホームステイ付き）。授業 GBP 615 + ホームステイ相部屋 GBP 220/週；入学金 GBP 85。",
+    "ko": "Bournemouth 12~17세 여름 영어 프로그램, 홈스테이. 수업 GBP 615 + 홈스테이 공용 객실 GBP 220/주; 등록비 GBP 85.",
+    "km": "កម្មវិធីភាសាអង់គ្លេសរដូវក្តៅសម្រាប់អាយុ 12-17 ឆ្នាំនៅ Bournemouth ជាមួយ homestay។ វគ្គសិក្សា GBP 615 + homestay បន្ទប់រួម GBP 220 ក្នុងមួយសប្តាហ៍; ថ្លៃចុះឈ្មោះ GBP 85។",
+    "fr": "Programme d'anglais d'été pour les 12-17 ans à Bournemouth avec famille d'accueil. Cours GBP 615 + famille d'accueil en chambre partagée GBP 220 par semaine ; frais d'inscription GBP 85.",
+    "pt": "Programa de inglês de verão para 12 a 17 anos em Bournemouth com casa de família. Curso GBP 615 + casa de família em quarto compartilhado GBP 220 por semana; taxa de matrícula GBP 85.",
+    "es": "Programa de inglés de verano para 12-17 años en Bournemouth con alojamiento en familia. Curso GBP 615 + familia en habitación compartida GBP 220 por semana; inscripción GBP 85.",
+    "de": "Englisch-Sommerprogramm für 12- bis 17-Jährige in Bournemouth mit Gastfamilie. Kurs GBP 615 + Gastfamilie im Mehrbettzimmer GBP 220 pro Woche; Anmeldegebühr GBP 85.",
+    "it": "Programma estivo di inglese per 12-17 anni a Bournemouth con famiglia ospitante. Corso GBP 615 + famiglia in camera condivisa GBP 220 a settimana; iscrizione GBP 85.",
+    "nl": "Engels zomerprogramma voor 12-17 jaar in Bournemouth met gastgezin. Cursus GBP 615 + gastgezin gedeelde kamer GBP 220 per week; inschrijfgeld GBP 85.",
+    "ru": "Летняя программа английского для 12-17 лет в Bournemouth с проживанием в семье. Курс GBP 615 + проживание в семье (общая комната) GBP 220 в неделю; регистрационный сбор GBP 85."
+   }
+  },
+  {
+   "id": "kings-us-summer",
+   "provider": "Kings Education",
+   "country": "US",
+   "city": "Boston, New York, Malibu",
+   "type": "summer_camp",
+   "name": "Kings Young Learners USA Summer (Experience Boston / Summer Course)",
+   "ages": {
+    "id": "10-20 (tergantung kursus)",
+    "en": "10-20 (depending on course)",
+    "th": "10-20 (ขึ้นอยู่กับหลักสูตร)",
+    "vi": "10-20 (tùy khóa học)",
+    "zh": "10-20（视课程而定）",
+    "ja": "10-20（コースによる）",
+    "ko": "10-20(과정에 따라 다름)",
+    "km": "10-20 (អាស្រ័យលើវគ្គសិក្សា)",
+    "fr": "10-20 (selon le cours)",
+    "pt": "10-20 (conforme o curso)",
+    "es": "10-20 (según el curso)",
+    "de": "10-20 (je nach Kurs)",
+    "it": "10-20 (a seconda del corso)",
+    "nl": "10-20 (afhankelijk van cursus)",
+    "ru": "10-20 (зависит от курса)"
+   },
+   "duration": {
+    "id": "1 minggu atau lebih",
+    "en": "1+ weeks",
+    "th": "1 สัปดาห์ขึ้นไป",
+    "vi": "từ 1 tuần",
+    "zh": "1周起",
+    "ja": "1週間以上",
+    "ko": "1주 이상",
+    "km": "ចាប់ពី 1 សប្តាហ៍",
+    "fr": "1 semaine ou plus",
+    "pt": "1 semana ou mais",
+    "es": "1 semana o más",
+    "de": "ab 1 Woche",
+    "it": "da 1 settimana",
+    "nl": "vanaf 1 week",
+    "ru": "от 1 недели"
+   },
+   "season": {
+    "id": "Jun - Agu (musim panas AS)",
+    "en": "Jun - Aug (US summer)",
+    "th": "มิ.ย. - ส.ค. (ฤดูร้อนสหรัฐฯ)",
+    "vi": "Tháng 6 - 8 (mùa hè Mỹ)",
+    "zh": "6月-8月（美国夏季）",
+    "ja": "6月～8月（米国の夏）",
+    "ko": "6월~8월(미국 여름)",
+    "km": "មិថុនា - សីហា (រដូវក្តៅសហរដ្ឋអាមេរិក)",
+    "fr": "juin - août (été aux États-Unis)",
+    "pt": "jun. - ago. (verão nos EUA)",
+    "es": "jun. - ago. (verano en EE. UU.)",
+    "de": "Juni - Aug. (Sommer in den USA)",
+    "it": "giu. - ago. (estate negli USA)",
+    "nl": "jun. - aug. (zomer in de VS)",
+    "ru": "июнь - авг. (лето в США)"
+   },
+   "price_from": 1940,
+   "currency": "USD",
+   "price_basis": {
+    "id": "per minggu termasuk kursus dan akomodasi asrama (Experience Boston, usia 15-20; biaya pendaftaran USD 175; asuransi USD 65/minggu kecuali punya sendiri)",
+    "en": "per week incl. course and residential accommodation (Experience Boston, ages 15-20; enrolment fee USD 175; insurance USD 65/week unless you have your own)",
+    "th": "ต่อสัปดาห์ รวมค่าเรียนและที่พักหอพัก (Experience Boston อายุ 15-20; ค่าลงทะเบียน USD 175; ประกัน USD 65/สัปดาห์ หากไม่มีประกันของตนเอง)",
+    "vi": "mỗi tuần, gồm khóa học và ký túc xá (Experience Boston, 15-20 tuổi; phí ghi danh USD 175; bảo hiểm USD 65/tuần nếu không có bảo hiểm riêng)",
+    "zh": "每周，含课程及寄宿住宿（Experience Boston，15-20岁；注册费 USD 175；如无自备保险，保险 USD 65/周）",
+    "ja": "1週間あたり、授業と寮滞在込み（Experience Boston、15-20歳；入学金 USD 175；保険未加入の場合 保険料 USD 65/週）",
+    "ko": "주당, 수업 및 기숙사 숙박 포함(Experience Boston, 15-20세; 등록비 USD 175; 개인 보험이 없으면 보험료 USD 65/주)",
+    "km": "ក្នុងមួយសប្តាហ៍ រួមវគ្គសិក្សា និងអន្តេវាសិកដ្ឋាន (Experience Boston អាយុ 15-20; ថ្លៃចុះឈ្មោះ USD 175; ធានារ៉ាប់រង USD 65/សប្តាហ៍ ប្រសិនបើគ្មានផ្ទាល់ខ្លួន)",
+    "fr": "par semaine, cours et hébergement en résidence inclus (Experience Boston, 15-20 ans ; frais d'inscription USD 175 ; assurance USD 65/semaine sauf assurance personnelle)",
+    "pt": "por semana, incluindo curso e hospedagem em residência (Experience Boston, 15-20 anos; taxa de matrícula USD 175; seguro USD 65/semana, salvo seguro próprio)",
+    "es": "por semana, incluye curso y alojamiento en residencia (Experience Boston, 15-20 años; inscripción USD 175; seguro USD 65/semana salvo seguro propio)",
+    "de": "pro Woche inkl. Kurs und Wohnheimunterkunft (Experience Boston, 15-20 Jahre; Anmeldegebühr USD 175; Versicherung USD 65/Woche, falls du keine eigene hast)",
+    "it": "a settimana, corso e alloggio in residenza inclusi (Experience Boston, 15-20 anni; iscrizione USD 175; assicurazione USD 65/settimana salvo assicurazione propria)",
+    "nl": "per week incl. cursus en verblijf in residentie (Experience Boston, 15-20 jaar; inschrijfgeld USD 175; verzekering USD 65/week tenzij eigen verzekering)",
+    "ru": "в неделю, включая курс и проживание в резиденции (Experience Boston, 15-20 лет; регистрационный сбор USD 175; страховка USD 65/нед., если нет собственной)"
+   },
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "akomodasi asrama"
+    ],
+    "en": [
+     "tuition",
+     "residential accommodation"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "ที่พักแบบหอพัก"
+    ],
+    "vi": [
+     "học phí",
+     "ở ký túc xá"
+    ],
+    "zh": [
+     "学费",
+     "住宿（寄宿制）"
+    ],
+    "ja": [
+     "授業料",
+     "寮滞在"
+    ],
+    "ko": [
+     "수업료",
+     "기숙사 숙박"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅអន្តេវាសិកដ្ឋាន"
+    ],
+    "fr": [
+     "frais de cours",
+     "hébergement en résidence"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "hospedagem em residência"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en residencia"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Wohnheimunterkunft"
+    ],
+    "it": [
+     "retta del corso",
+     "alloggio in residenza"
+    ],
+    "nl": [
+     "lesgeld",
+     "verblijf in residentie"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в резиденции"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.kingseducation.com/young-learners/prices",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program musim panas berasrama di AS (Boston, New York, Malibu). Mulai USD 1.940/minggu termasuk kursus dan akomodasi (Experience Boston, usia 15-20); Summer Course New York usia 12-17 USD 2.140/minggu.",
+    "en": "Residential US summer programs (Boston, New York, Malibu). From USD 1,940/week incl. course and accommodation (Experience Boston, ages 15-20); Summer Course New York ages 12-17 USD 2,140/week.",
+    "th": "โปรแกรมฤดูร้อนแบบพักค้างในสหรัฐฯ (Boston, New York, Malibu) เริ่มต้น USD 1,940/สัปดาห์ รวมค่าเรียนและที่พัก (Experience Boston อายุ 15-20); Summer Course New York อายุ 12-17 USD 2,140/สัปดาห์",
+    "vi": "Chương trình hè nội trú tại Mỹ (Boston, New York, Malibu). Từ USD 1,940/tuần gồm khóa học và chỗ ở (Experience Boston, 15-20 tuổi); Summer Course New York cho 12-17 tuổi USD 2,140/tuần.",
+    "zh": "美国寄宿制暑期课程（Boston、New York、Malibu）。USD 1,940/周起，含课程及住宿（Experience Boston，15-20岁）；Summer Course New York（12-17岁）USD 2,140/周。",
+    "ja": "米国の寮滞在型サマープログラム（Boston、New York、Malibu）。USD 1,940/週から、授業と宿泊込み（Experience Boston、15～20歳）；Summer Course New York（12～17歳）USD 2,140/週。",
+    "ko": "미국 기숙형 여름 프로그램(Boston, New York, Malibu). USD 1,940/주부터, 수업 및 숙박 포함(Experience Boston, 15~20세); Summer Course New York 12~17세 USD 2,140/주.",
+    "km": "កម្មវិធីរដូវក្តៅស្នាក់នៅក្នុងសហរដ្ឋអាមេរិក (Boston, New York, Malibu)។ ចាប់ពី USD 1,940/សប្តាហ៍ រួមវគ្គសិក្សា និងកន្លែងស្នាក់នៅ (Experience Boston អាយុ 15-20); Summer Course New York អាយុ 12-17 USD 2,140/សប្តាហ៍។",
+    "fr": "Programmes d'été en résidence aux États-Unis (Boston, New York, Malibu). Dès USD 1 940/semaine, cours et hébergement inclus (Experience Boston, 15-20 ans) ; Summer Course New York pour les 12-17 ans USD 2 140/semaine.",
+    "pt": "Programas de verão com hospedagem nos EUA (Boston, New York, Malibu). A partir de USD 1.940/semana, incluindo curso e hospedagem (Experience Boston, 15 a 20 anos); Summer Course New York para 12 a 17 anos USD 2.140/semana.",
+    "es": "Programas de verano con residencia en EE. UU. (Boston, New York, Malibu). Desde USD 1.940/semana con curso y alojamiento (Experience Boston, 15-20 años); Summer Course New York para 12-17 años USD 2.140/semana.",
+    "de": "Sommerprogramme mit Unterkunft in den USA (Boston, New York, Malibu). Ab USD 1.940/Woche inkl. Kurs und Unterkunft (Experience Boston, 15-20 Jahre); Summer Course New York für 12- bis 17-Jährige USD 2.140/Woche.",
+    "it": "Programmi estivi residenziali negli USA (Boston, New York, Malibu). Da USD 1.940/settimana, corso e alloggio inclusi (Experience Boston, 15-20 anni); Summer Course New York per 12-17 anni USD 2.140/settimana.",
+    "nl": "Zomerprogramma's met verblijf in de VS (Boston, New York, Malibu). Vanaf USD 1.940/week incl. cursus en accommodatie (Experience Boston, 15-20 jaar); Summer Course New York voor 12-17 jaar USD 2.140/week.",
+    "ru": "Летние программы с проживанием в США (Boston, New York, Malibu). От USD 1 940/нед., включая курс и проживание (Experience Boston, 15-20 лет); Summer Course New York для 12-17 лет USD 2 140/нед."
+   }
+  },
+  {
+   "id": "oxford-international-junior",
+   "provider": "Oxford International Education Group",
+   "country": "GB",
+   "city": "UK, Canada, USA, Australia (various centres)",
+   "type": "summer_camp",
+   "name": "Junior Programmes (spring, summer & winter camps)",
+   "ages": {
+    "id": "8-18",
+    "en": "8-18",
+    "th": "8-18",
+    "vi": "8-18",
+    "zh": "8-18",
+    "ja": "8-18",
+    "ko": "8-18",
+    "km": "8-18",
+    "fr": "8-18",
+    "pt": "8-18",
+    "es": "8-18",
+    "de": "8-18",
+    "it": "8-18",
+    "nl": "8-18",
+    "ru": "8-18"
+   },
+   "duration": {
+    "id": "tergantung lokasi",
+    "en": "varies by centre",
+    "th": "ขึ้นอยู่กับศูนย์",
+    "vi": "tùy cơ sở",
+    "zh": "视校区而定",
+    "ja": "センターによる",
+    "ko": "센터별 상이",
+    "km": "អាស្រ័យលើមជ្ឈមណ្ឌល",
+    "fr": "selon le centre",
+    "pt": "conforme o centro",
+    "es": "según el centro",
+    "de": "je nach Standort",
+    "it": "a seconda del centro",
+    "nl": "afhankelijk van centrum",
+    "ru": "зависит от центра"
+   },
+   "season": {
+    "id": "musim semi, musim panas, musim dingin (price list 2027)",
+    "en": "spring, summer, winter (2027 price list)",
+    "th": "ฤดูใบไม้ผลิ ฤดูร้อน ฤดูหนาว (ราคา 2027)",
+    "vi": "mùa xuân, mùa hè, mùa đông (bảng giá 2027)",
+    "zh": "春季、夏季、冬季（2027年价目表）",
+    "ja": "春・夏・冬（2027年料金表）",
+    "ko": "봄, 여름, 겨울(2027년 가격표)",
+    "km": "រដូវផ្ការីក រដូវក្តៅ រដូវរងា (តារាងតម្លៃ 2027)",
+    "fr": "printemps, été, hiver (grille tarifaire 2027)",
+    "pt": "primavera, verão, inverno (tabela de preços 2027)",
+    "es": "primavera, verano, invierno (lista de precios 2027)",
+    "de": "Frühling, Sommer, Winter (Preisliste 2027)",
+    "it": "primavera, estate, inverno (listino 2027)",
+    "nl": "lente, zomer, winter (prijslijst 2027)",
+    "ru": "весна, лето, зима (прайс-лист 2027)"
+   },
+   "price_from": null,
+   "currency": "GBP",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "biaya kursus",
+     "akomodasi asrama",
+     "aktivitas",
+     "ekskursi",
+     "penjemputan di bandara (di bawah 18 tahun)"
+    ],
+    "en": [
+     "tuition",
+     "residential accommodation",
+     "activities",
+     "excursions",
+     "airport meet (under 18)"
+    ],
+    "th": [
+     "ค่าเรียน",
+     "ที่พักแบบหอพัก",
+     "กิจกรรม",
+     "ทัศนศึกษา",
+     "รับที่สนามบิน (อายุต่ำกว่า 18 ปี)"
+    ],
+    "vi": [
+     "học phí",
+     "ở ký túc xá",
+     "hoạt động",
+     "tham quan",
+     "đón tại sân bay (dưới 18 tuổi)"
+    ],
+    "zh": [
+     "学费",
+     "住宿（寄宿制）",
+     "活动",
+     "游览",
+     "机场接机（18岁以下）"
+    ],
+    "ja": [
+     "授業料",
+     "寮滞在",
+     "アクティビティ",
+     "遠足",
+     "空港出迎え（18歳未満）"
+    ],
+    "ko": [
+     "수업료",
+     "기숙사 숙박",
+     "액티비티",
+     "견학",
+     "공항 마중(18세 미만)"
+    ],
+    "km": [
+     "ថ្លៃសិក្សា",
+     "ស្នាក់នៅអន្តេវាសិកដ្ឋាន",
+     "សកម្មភាព",
+     "ដំណើរកម្សាន្ត",
+     "ទទួលនៅអាកាសយានដ្ឋាន (អាយុក្រោម 18 ឆ្នាំ)"
+    ],
+    "fr": [
+     "frais de cours",
+     "hébergement en résidence",
+     "activités",
+     "excursions",
+     "accueil à l'aéroport (moins de 18 ans)"
+    ],
+    "pt": [
+     "mensalidade do curso",
+     "hospedagem em residência",
+     "atividades",
+     "passeios",
+     "recepção no aeroporto (menores de 18)"
+    ],
+    "es": [
+     "matrícula del curso",
+     "alojamiento en residencia",
+     "actividades",
+     "excursiones",
+     "recepción en el aeropuerto (menores de 18)"
+    ],
+    "de": [
+     "Kursgebühr",
+     "Wohnheimunterkunft",
+     "Aktivitäten",
+     "Ausflüge",
+     "Abholung am Flughafen (unter 18)"
+    ],
+    "it": [
+     "retta del corso",
+     "alloggio in residenza",
+     "attività",
+     "escursioni",
+     "accoglienza in aeroporto (under 18)"
+    ],
+    "nl": [
+     "lesgeld",
+     "verblijf in residentie",
+     "activiteiten",
+     "uitstapjes",
+     "ontvangst op de luchthaven (onder 18)"
+    ],
+    "ru": [
+     "обучение",
+     "проживание в резиденции",
+     "мероприятия",
+     "экскурсии",
+     "встреча в аэропорту (до 18 лет)"
+    ]
+   },
+   "group_only": false,
+   "url": "https://www.oxfordinternationalenglish.com/product-category/junior-programmes/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Camp bahasa Inggris berasrama untuk usia 8-18 tahun di beberapa centre di Inggris, Kanada, AS dan Australia: 3 jam kelas per hari plus aktivitas & ekskursi. Harga di price list 2027, belum tercantum di halaman.",
+    "en": "Residential English camps for ages 8-18 at centres in the UK, Canada, USA and Australia: 3 lessons a day plus activities and excursions. Prices in the 2027 price list, not shown on the page.",
+    "th": "แคมป์ภาษาอังกฤษแบบพักค้างสำหรับอายุ 8-18 ปี ที่ศูนย์ต่างๆ ในสหราชอาณาจักร แคนาดา สหรัฐฯ และออสเตรเลีย: เรียนวันละ 3 คาบ พร้อมกิจกรรมและทัศนศึกษา ราคาอยู่ในรายการราคาปี 2027 ไม่แสดงในหน้าเว็บ",
+    "vi": "Trại tiếng Anh nội trú cho 8-18 tuổi tại các cơ sở ở Anh, Canada, Mỹ và Úc: 3 tiết mỗi ngày cùng hoạt động và tham quan. Giá có trong bảng giá 2027, không hiển thị trên trang.",
+    "zh": "面向8-18岁的寄宿制英语营，校区位于英国、加拿大、美国和澳大利亚：每天3节课，另有活动及游览。价格见2027年价目表，页面未显示。",
+    "ja": "8～18歳向け寮滞在型英語キャンプ、英国・カナダ・米国・オーストラリアのセンターで実施：1日3レッスンとアクティビティ・遠足。料金は2027年料金表に記載、ページには表示なし。",
+    "ko": "8~18세 대상 기숙형 영어 캠프, 영국·캐나다·미국·호주 센터에서 운영: 하루 3교시 수업과 액티비티·견학. 가격은 2027년 가격표에 있으며 페이지에는 미표시.",
+    "km": "ជំរុំភាសាអង់គ្លេសស្នាក់នៅសម្រាប់អាយុ 8-18 ឆ្នាំ នៅមជ្ឈមណ្ឌលក្នុងចក្រភពអង់គ្លេស កាណាដា សហរដ្ឋអាមេរិក និងអូស្ត្រាលី: 3 មេរៀនក្នុងមួយថ្ងៃ បូកសកម្មភាព និងដំណើរកម្សាន្ត។ តម្លៃមាននៅក្នុងតារាងតម្លៃ 2027 មិនបង្ហាញលើទំព័រ។",
+    "fr": "Camps d'anglais en résidence pour les 8-18 ans dans des centres au Royaume-Uni, au Canada, aux États-Unis et en Australie : 3 leçons par jour, plus activités et excursions. Prix dans la grille tarifaire 2027, non affichés sur la page.",
+    "pt": "Acampamentos de inglês com hospedagem para 8 a 18 anos em centros no Reino Unido, Canadá, EUA e Austrália: 3 aulas por dia, além de atividades e passeios. Preços na tabela 2027, não exibidos na página.",
+    "es": "Campamentos de inglés con residencia para 8-18 años en centros del Reino Unido, Canadá, EE. UU. y Australia: 3 lecciones al día más actividades y excursiones. Precios en la lista 2027, no mostrados en la página.",
+    "de": "Englisch-Camps mit Unterkunft für 8- bis 18-Jährige an Standorten in Großbritannien, Kanada, den USA und Australien: 3 Lektionen pro Tag plus Aktivitäten und Ausflüge. Preise in der Preisliste 2027, nicht auf der Seite angegeben.",
+    "it": "Campi di inglese residenziali per 8-18 anni in centri nel Regno Unito, Canada, USA e Australia: 3 lezioni al giorno più attività ed escursioni. Prezzi nel listino 2027, non indicati nella pagina.",
+    "nl": "Engelse kampen met verblijf voor 8-18 jaar op locaties in het VK, Canada, de VS en Australië: 3 lessen per dag plus activiteiten en uitstapjes. Prijzen in de prijslijst 2027, niet op de pagina vermeld.",
+    "ru": "Языковые лагеря с проживанием для 8-18 лет в центрах Великобритании, Канады, США и Австралии: 3 урока в день плюс мероприятия и экскурсии. Цены в прайс-листе 2027, на странице не указаны."
+   }
+  },
+  {
+   "id": "malvern-innovate-summer-academy",
+   "provider": "Malvern International",
+   "country": "GB",
+   "city": "London (UCL)",
+   "type": "summer_camp",
+   "name": "Innovate Summer Academy",
+   "ages": {
+    "id": "14-18",
+    "en": "14-18",
+    "th": "14-18",
+    "vi": "14-18",
+    "zh": "14-18",
+    "ja": "14-18",
+    "ko": "14-18",
+    "km": "14-18",
+    "fr": "14-18",
+    "pt": "14-18",
+    "es": "14-18",
+    "de": "14-18",
+    "it": "14-18",
+    "nl": "14-18",
+    "ru": "14-18"
+   },
+   "duration": {
+    "id": "14 hari",
+    "en": "14 days",
+    "th": "14 วัน",
+    "vi": "14 ngày",
+    "zh": "14天",
+    "ja": "14日間",
+    "ko": "14일",
+    "km": "14 ថ្ងៃ",
+    "fr": "14 jours",
+    "pt": "14 dias",
+    "es": "14 días",
+    "de": "14 Tage",
+    "it": "14 giorni",
+    "nl": "14 dagen",
+    "ru": "14 дней"
+   },
+   "season": null,
+   "price_from": null,
+   "currency": "GBP",
+   "price_basis": null,
+   "includes": {
+    "id": [
+     "sesi akademik",
+     "kunjungan universitas & industri",
+     "masterclass UCAS",
+     "mentoring"
+    ],
+    "en": [
+     "academic sessions",
+     "university and industry visits",
+     "UCAS masterclass",
+     "mentoring"
+    ],
+    "th": [
+     "ชั้นเรียนวิชาการ",
+     "เยี่ยมชมมหาวิทยาลัยและภาคอุตสาหกรรม",
+     "มาสเตอร์คลาส UCAS",
+     "การให้คำปรึกษา (เมนเทอร์)"
+    ],
+    "vi": [
+     "buổi học thuật",
+     "tham quan trường đại học và doanh nghiệp",
+     "lớp chuyên sâu UCAS",
+     "cố vấn (mentoring)"
+    ],
+    "zh": [
+     "学术课程",
+     "参访大学和企业",
+     "UCAS 大师课",
+     "导师辅导"
+    ],
+    "ja": [
+     "アカデミックセッション",
+     "大学・企業訪問",
+     "UCAS マスタークラス",
+     "メンタリング"
+    ],
+    "ko": [
+     "학술 세션",
+     "대학 및 산업체 방문",
+     "UCAS 마스터클래스",
+     "멘토링"
+    ],
+    "km": [
+     "វគ្គសិក្សាអប់រំ",
+     "ទស្សនកិច្ចសាកលវិទ្យាល័យ និងឧស្សាហកម្ម",
+     "ថ្នាក់ UCAS masterclass",
+     "ការណែនាំ (mentoring)"
+    ],
+    "fr": [
+     "séances académiques",
+     "visites d'universités et d'entreprises",
+     "masterclass UCAS",
+     "mentorat"
+    ],
+    "pt": [
+     "sessões acadêmicas",
+     "visitas a universidades e empresas",
+     "masterclass UCAS",
+     "mentoria"
+    ],
+    "es": [
+     "sesiones académicas",
+     "visitas a universidades y empresas",
+     "masterclass UCAS",
+     "mentoría"
+    ],
+    "de": [
+     "akademische Einheiten",
+     "Besuche an Universitäten und in Unternehmen",
+     "UCAS-Masterclass",
+     "Mentoring"
+    ],
+    "it": [
+     "sessioni accademiche",
+     "visite a università e aziende",
+     "masterclass UCAS",
+     "mentoring"
+    ],
+    "nl": [
+     "academische sessies",
+     "bezoeken aan universiteiten en bedrijven",
+     "UCAS-masterclass",
+     "mentoring"
+    ],
+    "ru": [
+     "академические занятия",
+     "посещение университетов и компаний",
+     "мастер-класс UCAS",
+     "наставничество"
+    ]
+   },
+   "group_only": false,
+   "url": "https://malverninternational.com/our-divisions/junior-programmes/",
+   "checked": "2026-11-24",
+   "summary": {
+    "id": "Program akademik 14 hari untuk siswa 14-18 tahun yang bersiap kuliah, di University College London: 5 bidang studi, kunjungan universitas & industri, bimbingan pendaftaran UCAS. Tanggal dan harga tidak dicantumkan.",
+    "en": "14-day academic program for students aged 14-18 preparing for university, at University College London: five subject areas, university and industry visits, UCAS application support. Dates and price not listed.",
+    "th": "โปรแกรมวิชาการ 14 วันสำหรับนักเรียนอายุ 14-18 ปีที่เตรียมเข้ามหาวิทยาลัย ที่ University College London: 5 สาขาวิชา เยี่ยมชมมหาวิทยาลัยและภาคอุตสาหกรรม แนะแนวการสมัคร UCAS ไม่ระบุวันที่และราคา",
+    "vi": "Chương trình học thuật 14 ngày cho học sinh 14-18 tuổi chuẩn bị vào đại học, tại University College London: 5 lĩnh vực học, tham quan trường đại học và doanh nghiệp, hỗ trợ hồ sơ UCAS. Chưa niêm yết ngày và giá.",
+    "zh": "面向14-18岁备考大学学生的14天学术课程，在 University College London 举办：5个学科方向、参访大学及企业、UCAS 申请辅导。未列出日期及价格。",
+    "ja": "大学進学を目指す14～18歳向けの14日間アカデミックプログラム、University College London で実施：5つの専攻分野、大学・企業訪問、UCAS 出願サポート。日程と料金の記載なし。",
+    "ko": "대학 진학을 준비하는 14~18세 학생 대상 14일 학술 프로그램, University College London에서 진행: 5개 전공 분야, 대학 및 산업체 방문, UCAS 지원 도움. 날짜 및 가격 미기재.",
+    "km": "កម្មវិធីសិក្សារយៈពេល 14 ថ្ងៃសម្រាប់សិស្សអាយុ 14-18 ឆ្នាំដែលត្រៀមចូលសាកលវិទ្យាល័យ នៅ University College London: 5 មុខវិជ្ជា ទស្សនកិច្ចសាកលវិទ្យាល័យ និងឧស្សាហកម្ម ជំនួយការដាក់ពាក្យ UCAS។ មិនបញ្ជាក់កាលបរិច្ឆេទ និងតម្លៃ។",
+    "fr": "Programme académique de 14 jours pour les 14-18 ans qui préparent l'université, à University College London : cinq domaines d'études, visites d'universités et d'entreprises, aide à la candidature UCAS. Dates et prix non indiqués.",
+    "pt": "Programa acadêmico de 14 dias para alunos de 14 a 18 anos que se preparam para a universidade, na University College London: cinco áreas de estudo, visitas a universidades e empresas, apoio à inscrição UCAS. Datas e preço não informados.",
+    "es": "Programa académico de 14 días para estudiantes de 14-18 años que se preparan para la universidad, en University College London: cinco áreas de estudio, visitas a universidades y empresas, apoyo con la solicitud UCAS. Fechas y precio no indicados.",
+    "de": "14-tägiges Akademieprogramm für 14- bis 18-Jährige zur Vorbereitung auf das Studium am University College London: fünf Fachbereiche, Besuche an Universitäten und in Unternehmen, Unterstützung bei der UCAS-Bewerbung. Termine und Preis nicht angegeben.",
+    "it": "Programma accademico di 14 giorni per studenti di 14-18 anni che si preparano all'università, presso University College London: cinque aree di studio, visite a università e aziende, supporto per la candidatura UCAS. Date e prezzo non indicati.",
+    "nl": "Academisch programma van 14 dagen voor leerlingen van 14-18 jaar die zich voorbereiden op de universiteit, aan University College London: vijf vakgebieden, bezoeken aan universiteiten en bedrijven, hulp bij de UCAS-aanmelding. Data en prijs niet vermeld.",
+    "ru": "14-дневная академическая программа для школьников 14-18 лет, готовящихся к поступлению в университет, в University College London: пять направлений, посещение университетов и компаний, помощь с заявкой UCAS. Даты и цена не указаны."
+   }
+  }
+ ]
+}

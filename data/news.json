@@ -1,6 +1,6 @@
 {
  "version": "2026-11-22",
- "updated_at": "2026-11-22T07:15:00+07:00",
+ "updated_at": "2026-11-23T15:00:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -374,6 +374,62 @@
  ],
  "rules": "Hanya berita dengan link sumber resmi pemerintah/sekolah (official=true) yang boleh menjadi sumber utama; link media hanya pelengkap. BOLEH memuat usulan, konsultasi publik, rencana pemerintah yang terbukti dari dokumen/halaman resmi (status consultation/proposed) - wajib tampil label status & tanggal tutup (deadline) bila ada; jangan ditulis seolah sudah berlaku. Field: date = tanggal terbit/pengumuman, effective_date = tanggal berlaku (bila ada), deadline = tanggal tutup konsultasi. Urut tanggal terbaru. Arsipkan item > 12 bulan kecuali masih relevan. Semua teks 15 bahasa (id,en,th,vi,zh,ja,ko,km,fr,pt,es,de,it,nl,ru); cadangan en. Jangan memuat nama master agent atau info internal.",
  "items": [
+  {
+   "id": "au-485-fee-2026-03",
+   "date": "2026-11-23",
+   "effective": "2026-03-01",
+   "effective_date": "2026-03-01",
+   "deadline": null,
+   "country": "AU",
+   "category": "visa",
+   "status": "in_force",
+   "title": {
+    "id": "Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026",
+    "en": "Australia: Temporary Graduate visa (subclass 485) fee is AUD 4,600 since 1 Mar 2026",
+    "th": "ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) AUD 4,600 ตั้งแต่ 1 มี.ค. 2026",
+    "vi": "Úc: lệ phí visa Temporary Graduate (subclass 485) là AUD 4.600 từ 1/3/2026",
+    "zh": "澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年3月1日起费用为 AUD 4,600",
+    "ja": "オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年3月1日から AUD 4,600",
+    "ko": "호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 3월 1일부터 AUD 4,600",
+    "km": "អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) AUD 4,600 ចាប់ពី 1 មីនា 2026",
+    "fr": "Australie : le visa Temporary Graduate (subclass 485) coûte AUD 4 600 depuis le 1er mars 2026",
+    "pt": "Austrália: taxa do visto Temporary Graduate (subclass 485) é AUD 4.600 desde 1º de março de 2026",
+    "es": "Australia: la tasa del visado Temporary Graduate (subclass 485) es de AUD 4.600 desde el 1 de marzo de 2026",
+    "de": "Australien: Gebühr für das Temporary-Graduate-Visum (Subclass 485) seit 1. März 2026 AUD 4.600",
+    "it": "Australia: il visto Temporary Graduate (subclass 485) costa AUD 4.600 dal 1° marzo 2026",
+    "nl": "Australië: Temporary Graduate-visum (subclass 485) kost sinds 1 maart 2026 AUD 4.600",
+    "ru": "Австралия: сбор за визу Temporary Graduate (subclass 485) — AUD 4 600 с 1 марта 2026"
+   },
+   "summary": {
+    "id": "Biaya aplikasi 485 naik dua kali lipat sejak 1 Mar 2026: pemohon utama AUD 4.600 (sebelumnya 2.300), anggota keluarga dewasa AUD 2.300, anak di bawah 18 AUD 1.160. Tarif lebih rendah hanya untuk kasus tertentu (paspor Pasifik/Timor-Leste, atau pemegang 485 sebelumnya) - cek kalkulator Home Affairs sebelum mengajukan. Masukkan biaya ini ke rencana dana setelah lulus. WNI masih boleh mengikutkan keluarga (aturan baru sejak 13 Nov 2026), asalkan diajukan bersamaan.",
+    "en": "485 application charges doubled from 1 Mar 2026: primary applicant AUD 4,600 (was 2,300), additional adult AUD 2,300, child under 18 AUD 1,160. Lower charges apply only in specific cases (Pacific/Timor-Leste passports, or previous 485 holders) - check the Home Affairs estimator before lodging. Include this cost in your post-study budget. Indonesian citizens can still include family (new rule from 13 Nov 2026) if they apply together.",
+    "th": "ค่าธรรมเนียม 485 เพิ่มเป็นสองเท่าตั้งแต่ 1 มี.ค. 2026: ผู้สมัครหลัก AUD 4,600 (เดิม 2,300) ผู้ติดตามผู้ใหญ่ AUD 2,300 เด็กอายุต่ำกว่า 18 AUD 1,160 อัตราที่ต่ำกว่าใช้เฉพาะบางกรณี (หนังสือเดินทางแปซิฟิก/ติมอร์-เลสเต หรือผู้เคยถือ 485) ตรวจสอบเครื่องคำนวณของ Home Affairs ก่อนยื่น ควรรวมค่าใช้จ่ายนี้ในงบหลังเรียนจบ ชาวอินโดนีเซียยังพาครอบครัวได้ (กฎใหม่ตั้งแต่ 13 พ.ย. 2026) หากยื่นพร้อมกัน",
+    "vi": "Lệ phí 485 tăng gấp đôi từ 1/3/2026: người nộp chính AUD 4.600 (trước 2.300), người lớn đi kèm AUD 2.300, trẻ dưới 18 tuổi AUD 1.160. Mức thấp hơn chỉ áp dụng trường hợp đặc biệt (hộ chiếu Thái Bình Dương/Timor-Leste, hoặc đã từng có 485) - kiểm tra công cụ ước tính của Home Affairs trước khi nộp. Hãy tính chi phí này vào ngân sách sau tốt nghiệp. Công dân Indonesia vẫn được kèm gia đình (quy định mới từ 13/11/2026) nếu nộp cùng lúc.",
+    "zh": "485 申请费自 2026年3月1日起翻倍：主申请人 AUD 4,600（原 2,300），随行成人 AUD 2,300，18岁以下儿童 AUD 1,160。较低费用仅适用于特定情况（太平洋岛国/东帝汶护照，或曾持 485）——递交前请用 Home Affairs 费用估算工具确认。请把这笔费用纳入毕业后预算。印尼公民仍可携带家属（2026年11月13日新规），但须同时递交。",
+    "ja": "485 の申請料は2026年3月1日から倍増：主申請者 AUD 4,600（以前は 2,300）、同伴成人 AUD 2,300、18歳未満の子 AUD 1,160。低い料金は特定のケース（太平洋諸国・東ティモールのパスポート、または以前の 485 保持者）のみ。申請前に Home Affairs の料金試算ツールで確認を。卒業後の予算に含めましょう。インドネシア国籍者は家族の同伴が引き続き可能（2026年11月13日からの新ルール）ですが、同時申請が必要です。",
+    "ko": "485 신청비 2026년 3월 1일부터 두 배 인상: 주신청자 AUD 4,600(종전 2,300), 동반 성인 AUD 2,300, 18세 미만 자녀 AUD 1,160. 더 낮은 요금은 일부 경우(태평양 국가/동티모르 여권, 이전 485 소지자)에만 적용—신청 전 Home Affairs 계산기로 확인하세요. 졸업 후 예산에 포함하세요. 인도네시아 국민은 함께 신청하면 가족 동반 가능(2026년 11월 13일 새 규정).",
+    "km": "ថ្លៃពាក្យ 485 កើនទ្វេដងចាប់ពី 1 មីនា 2026៖ អ្នកដាក់ពាក្យចម្បង AUD 4,600 (មុន 2,300) មនុស្សពេញវ័យបន្ថែម AUD 2,300 កុមារក្រោម 18 AUD 1,160។ តម្លៃទាបជាងសម្រាប់តែករណីពិសេស (លិខិតឆ្លងដែនប៉ាស៊ីហ្វិក/ទីម័រខាងកើត ឬអ្នកធ្លាប់កាន់ 485) - ពិនិត្យឧបករណ៍គណនា Home Affairs មុនដាក់ពាក្យ។ ដាក់ថ្លៃនេះក្នុងថវិកាក្រោយបញ្ចប់ការសិក្សា។ ពលរដ្ឋឥណ្ឌូនេស៊ីនៅតែអាចនាំគ្រួសារ (ច្បាប់ថ្មីចាប់ពី 13 វិច្ឆិកា 2026) ប្រសិនបើដាក់ពាក្យជាមួយគ្នា។",
+    "fr": "Les frais du 485 ont doublé depuis le 1er mars 2026 : demandeur principal AUD 4 600 (contre 2 300), adulte supplémentaire AUD 2 300, enfant de moins de 18 ans AUD 1 160. Des frais réduits ne s’appliquent que dans certains cas (passeports du Pacifique/Timor-Leste ou anciens titulaires du 485) - vérifiez l’estimateur de Home Affairs avant de déposer. Prévoyez ce coût dans votre budget après les études. Les Indonésiens peuvent toujours inclure leur famille (nouvelle règle depuis le 13 nov. 2026) s’ils déposent ensemble.",
+    "pt": "As taxas do 485 dobraram desde 1º de março de 2026: requerente principal AUD 4.600 (antes 2.300), adulto adicional AUD 2.300, criança menor de 18 AUD 1.160. Valores menores só em casos específicos (passaportes do Pacífico/Timor-Leste ou ex-titulares do 485) - confira o estimador da Home Affairs antes de aplicar. Inclua esse custo no orçamento pós-formatura. Indonésios ainda podem incluir a família (nova regra desde 13 nov 2026) se aplicarem juntos.",
+    "es": "Las tasas del 485 se duplicaron desde el 1 de marzo de 2026: solicitante principal AUD 4.600 (antes 2.300), adulto adicional AUD 2.300, menor de 18 AUD 1.160. Tasas más bajas solo en casos concretos (pasaportes del Pacífico/Timor Oriental o titulares previos del 485): consulta el estimador de Home Affairs antes de presentar. Incluye este coste en tu presupuesto tras graduarte. Los indonesios aún pueden incluir a su familia (nueva norma desde el 13 nov 2026) si solicitan a la vez.",
+    "de": "Die 485-Gebühren haben sich ab 1. März 2026 verdoppelt: Hauptantragsteller AUD 4.600 (vorher 2.300), weiterer Erwachsener AUD 2.300, Kind unter 18 AUD 1.160. Niedrigere Gebühren nur in bestimmten Fällen (Pazifik-/Timor-Leste-Pässe oder frühere 485-Inhaber) - vor dem Antrag den Home-Affairs-Gebührenrechner prüfen. Kosten im Budget nach dem Studium einplanen. Indonesier können Familienangehörige weiterhin einbeziehen (neue Regel seit 13. Nov. 2026), wenn gemeinsam beantragt wird.",
+    "it": "I costi del 485 sono raddoppiati dal 1° marzo 2026: richiedente principale AUD 4.600 (prima 2.300), adulto aggiuntivo AUD 2.300, figlio sotto i 18 anni AUD 1.160. Importi più bassi solo in casi specifici (passaporti del Pacifico/Timor Est o ex titolari del 485): verifica lo strumento di stima di Home Affairs prima di presentare. Includi il costo nel budget post-laurea. Gli indonesiani possono ancora includere la famiglia (nuova regola dal 13 nov 2026) se presentano insieme.",
+    "nl": "De kosten van de 485 zijn sinds 1 maart 2026 verdubbeld: hoofdaanvrager AUD 4.600 (was 2.300), extra volwassene AUD 2.300, kind onder 18 AUD 1.160. Lagere tarieven alleen in bijzondere gevallen (paspoort uit de Pacific/Oost-Timor of eerdere 485-houders) - controleer de rekentool van Home Affairs vóór je aanvraagt. Neem deze kosten op in je budget na het afstuderen. Indonesiërs mogen nog steeds familie meenemen (nieuwe regel sinds 13 nov 2026) als ze tegelijk aanvragen.",
+    "ru": "Сборы за 485 удвоились с 1 марта 2026: основной заявитель AUD 4 600 (было 2 300), дополнительный взрослый AUD 2 300, ребёнок до 18 лет AUD 1 160. Пониженные сборы — только в отдельных случаях (паспорта стран Тихого океана/Тимор-Лешти или прежние держатели 485); перед подачей проверьте калькулятор Home Affairs. Учтите эти расходы в бюджете после учёбы. Граждане Индонезии по-прежнему могут включить семью (новое правило с 13 нояб. 2026), если подают одновременно."
+   },
+   "links": [
+    {
+     "label": "Home Affairs: Temporary Graduate visa (subclass 485) - Post-Higher Education Work stream",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
+     "official": true
+    },
+    {
+     "label": "Home Affairs: Changes to Temporary Graduate visa (subclass 485) family member rules",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
+     "official": true
+    }
+   ]
+  },
   {
    "id": "us-ds-rule-vacated-2026-11",
    "date": "2026-11-16",
@@ -1115,7 +1171,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-22",
+ "checked": "2026-11-23",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

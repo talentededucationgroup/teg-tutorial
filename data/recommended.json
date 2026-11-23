@@ -1,6 +1,6 @@
 {
- "version": "2026-11-19b",
- "updated_at": "2026-11-19T13:20:00+07:00",
+ "version": "2026-11-24",
+ "updated_at": "2026-11-24T02:10:00+07:00",
  "note": "Daftar sekolah yang diberi tanda Rekomendasi Talented di hasil pencarian & kartu program. Diatur pemilik.",
  "badge": {
   "icon": "⭐",
@@ -38,7 +38,8 @@
    ],
    "cricos": [
     "03147A"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "astra",
@@ -50,7 +51,8 @@
    ],
    "cricos": [
     "04231H"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "kent",
@@ -62,7 +64,8 @@
    ],
    "cricos": [
     "00161E"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "shea",
@@ -74,7 +77,8 @@
    ],
    "cricos": [
     "04214J"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "aiat",
@@ -85,7 +89,8 @@
    ],
    "cricos": [
     "04191M"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "greenwich",
@@ -98,7 +103,8 @@
    ],
    "cricos": [
     "02672K"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "utas",
@@ -110,7 +116,8 @@
    ],
    "cricos": [
     "00586B"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "vu",
@@ -124,7 +131,8 @@
    "cricos": [
     "00124K",
     "02475D"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "koi",
@@ -136,7 +144,8 @@
    ],
    "cricos": [
     "03171A"
-   ]
+   ],
+   "evidence_level": null
   },
   {
    "key": "cdu",
@@ -147,9 +156,938 @@
    ],
    "cricos": [
     "00300K"
-   ]
+   ],
+   "evidence_level": null
+  },
+  {
+   "key": "adci",
+   "name": "Australian Data and Cyber Institute (ADCI)",
+   "aliases": [
+    "The Australian Data and Cyber Institute (ADCI)",
+    "Australian Data and Cyber Institute",
+    "ADCI"
+   ],
+   "cricos": [
+    "04102F"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "kcbt",
+   "name": "Keystone College of Business and Technology (KCBT)",
+   "aliases": [
+    "Keystone College of Business and Technology (KCBT)",
+    "Keystone College of Business and Technology",
+    "Keystone College",
+    "KCBT"
+   ],
+   "cricos": [
+    "03425F"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "aibi",
+   "name": "AIBI Higher Education",
+   "aliases": [
+    "AIBI Higher Education",
+    "Australian Institute of Business Intelligence",
+    "AIBI"
+   ],
+   "cricos": [
+    "03844J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "sydney-metro-college",
+   "name": "Sydney Metro College (SMC)",
+   "aliases": [
+    "Sydney Metro College (SMC)",
+    "Sydney Metro College",
+    "SMC"
+   ],
+   "cricos": [
+    "03427D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "aicse",
+   "name": "Australian International College of Skills & Education (AICSE)",
+   "aliases": [
+    "Australian International College of Skills & Education (AICSE)",
+    "Australian International College of Skills & Education",
+    "AICSE"
+   ],
+   "cricos": [
+    "03985G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "naps",
+   "name": "National Academy of Professional Studies (NAPS)",
+   "aliases": [
+    "National Academy of Professional Studies (NAPS)",
+    "National Academy of Professional Studies",
+    "NAPS"
+   ],
+   "cricos": [
+    "04009C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "altec",
+   "name": "ALTEC College",
+   "aliases": [
+    "ALTEC College",
+    "ALTEC",
+    "Australian Learning Training and Education Centre"
+   ],
+   "cricos": [
+    "02926D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "states-college",
+   "name": "States College Australia",
+   "aliases": [
+    "States College Australia"
+   ],
+   "cricos": [
+    "04106B"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "asmi",
+   "name": "Australian Skills Management Institute (ASMI)",
+   "aliases": [
+    "Australian Skills Management Institute (ASMI)",
+    "Australian Skills Management Institute",
+    "ASMI"
+   ],
+   "cricos": [
+    "03442E"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "abc-institute",
+   "name": "Australian Business & Culinary Institute (ABC Institute)",
+   "aliases": [
+    "Australian Business & Culinary Institute (ABC Institute)",
+    "Australian Business & Culinary Institute",
+    "Australian Business and Culinary Institute",
+    "ABC Institute",
+    "ABCI"
+   ],
+   "cricos": [
+    "03742D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "aws",
+   "name": "Australian Workplace Skills Institute (AWS)",
+   "aliases": [
+    "Australian Workplace Skills Institute (AWS)",
+    "Australian Workplace Skills Institute",
+    "AWS Institute",
+    "AWS"
+   ],
+   "cricos": [
+    "03924J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "baxter",
+   "name": "Baxter Institute",
+   "aliases": [
+    "Baxter Institute",
+    "Sheila Baxter Training Centre"
+   ],
+   "cricos": [
+    "02233M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "capital-college",
+   "name": "Capital College",
+   "aliases": [
+    "Capital College",
+    "Australian Capital College"
+   ],
+   "cricos": [
+    "03537J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "collins-international",
+   "name": "Collins International College",
+   "aliases": [
+    "Collins International College"
+   ],
+   "cricos": [
+    "03887J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "eca-chs",
+   "name": "ECA College of Health Sciences (CHS)",
+   "aliases": [
+    "ECA College of Health Sciences (CHS)",
+    "ECA College of Health Sciences",
+    "CHS"
+   ],
+   "cricos": [
+    "03932J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "apic",
+   "name": "Asia Pacific International College (APIC)",
+   "aliases": [
+    "Asia Pacific International College (APIC)",
+    "Asia Pacific International College",
+    "APIC"
+   ],
+   "cricos": [
+    "03048D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "uc",
+   "name": "University of Canberra",
+   "aliases": [
+    "University of Canberra (UC Sydney Hills)",
+    "University of Canberra (incl. UC College) - Canberra",
+    "University of Canberra",
+    "UC Sydney Hills"
+   ],
+   "cricos": [
+    "00212K"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "heli",
+   "name": "Higher Education Leadership Institute (HELI)",
+   "aliases": [
+    "Higher Education Leadership Institute (HELI)",
+    "Higher Education Leadership Institute",
+    "HELI"
+   ],
+   "cricos": [
+    "03845H"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "unisc",
+   "name": "University of the Sunshine Coast (UniSC)",
+   "aliases": [
+    "University of the Sunshine Coast (UniSC)",
+    "UniSC (University of the Sunshine Coast)",
+    "University of the Sunshine Coast",
+    "UniSC",
+    "USC"
+   ],
+   "cricos": [
+    "01595D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "english-wise",
+   "name": "English Wise Global",
+   "aliases": [
+    "English Wise Global",
+    "Englishwise Global",
+    "EnglishWise"
+   ],
+   "cricos": [
+    "04311H"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "evolution",
+   "name": "Evolution Hospitality Institute",
+   "aliases": [
+    "Evolution Hospitality Institute",
+    "Evolution"
+   ],
+   "cricos": [
+    "02869G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "george-brown",
+   "name": "George Brown College (Sydney)",
+   "aliases": [
+    "George Brown College"
+   ],
+   "cricos": [
+    "03208D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "gca",
+   "name": "Global College Australasia",
+   "aliases": [
+    "Global College Australasia",
+    "GCA"
+   ],
+   "cricos": [
+    "03564F"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "hia",
+   "name": "Harbourside Institute of Australia (HIA)",
+   "aliases": [
+    "Harbourside Institute of Australia (HIA)",
+    "Harbourside Institute of Australia",
+    "HIA"
+   ],
+   "cricos": [
+    "03670D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "hta",
+   "name": "Hospitality Training Academy (HTA)",
+   "aliases": [
+    "Hospitality Training Academy (HTA)",
+    "Hospitality Training Academy",
+    "HTA"
+   ],
+   "cricos": [
+    "03960E"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "oceania",
+   "name": "Oceania College of Technology",
+   "aliases": [
+    "Oceania College of Technology"
+   ],
+   "cricos": [
+    "03413K"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "kings-culinary",
+   "name": "King's School of Culinary Arts",
+   "aliases": [
+    "King's School of Culinary Arts",
+    "Kings School of Culinary Arts",
+    "KSCA"
+   ],
+   "cricos": [
+    "03994F"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "acpc",
+   "name": "Australian College of Professional Careers (ACPC)",
+   "aliases": [
+    "Australian College of Professional Careers (ACPC)",
+    "Australian College of Professional Careers",
+    "ACPC"
+   ],
+   "cricos": [
+    "03834M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "kic",
+   "name": "Kingston International College (KIC)",
+   "aliases": [
+    "Kingston International College",
+    "Kingston International College (KIC)",
+    "KIC"
+   ],
+   "cricos": [
+    "02543G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "le-culinaire",
+   "name": "Le Culinaire Hospitality Institute",
+   "aliases": [
+    "Le Culinaire Hospitality Institute",
+    "Le Culinaire"
+   ],
+   "cricos": [
+    "03667K"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "lincoln-he",
+   "name": "Lincoln Institute of Higher Education",
+   "aliases": [
+    "Lincoln Institute of Higher Education",
+    "Lincoln Education Australia"
+   ],
+   "cricos": [
+    "04097J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "magill",
+   "name": "Magill College Sydney",
+   "aliases": [
+    "Magill College Sydney",
+    "Magill College"
+   ],
+   "cricos": [
+    "01994M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "menzies",
+   "name": "Menzies Institute of Technology",
+   "aliases": [
+    "Menzies Institute of Technology",
+    "Menzies College of Nursing & Health",
+    "MIT Menzies"
+   ],
+   "cricos": [
+    "02815M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "melbourne-metro",
+   "name": "Melbourne Metro College",
+   "aliases": [
+    "Melbourne Metro College",
+    "iLearn OZ"
+   ],
+   "cricos": [
+    "03831C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "mid-city",
+   "name": "Mid City College",
+   "aliases": [
+    "Mid City College"
+   ],
+   "cricos": [
+    "03627G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "mbc",
+   "name": "Million Brown's College (MBC)",
+   "aliases": [
+    "Million Brown's College (MBC)",
+    "Million Brown's College",
+    "Million Browns College",
+    "Million Brown Educations",
+    "MBC"
+   ],
+   "cricos": [
+    "04290H"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "ahic",
+   "name": "Australian Harbour International College (AHIC)",
+   "aliases": [
+    "Australian Harbour International College (AHIC)",
+    "Australian Harbour International College",
+    "AHIC"
+   ],
+   "cricos": [
+    "03449J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "tkl",
+   "name": "TKL College (Training for Knowledge and Livelihood)",
+   "aliases": [
+    "TKL College (Training for Knowledge and Livelihood)",
+    "Training for Knowledge and Livelihood (TKL)",
+    "Training for Knowledge and Livelihood",
+    "TKL College",
+    "TKL"
+   ],
+   "cricos": [
+    "03770M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "new-era",
+   "name": "New Era Institute",
+   "aliases": [
+    "New Era Institute"
+   ],
+   "cricos": [
+    "03509B"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "ntca",
+   "name": "National Training College of Australia (NTCA)",
+   "aliases": [
+    "National Training College of Australia (NTCA)",
+    "National Training College of Australia",
+    "National Training Centre of Australia",
+    "NTCA"
+   ],
+   "cricos": [
+    "03399C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "nta",
+   "name": "Nurse Training Australia (NTA)",
+   "aliases": [
+    "Nurse Training Australia (NTA)",
+    "Nurse Training Australia",
+    "NTA"
+   ],
+   "cricos": [
+    "03575C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "nvr",
+   "name": "NVR Education",
+   "aliases": [
+    "NVR Education",
+    "NVR Education Australia",
+    "NVR"
+   ],
+   "cricos": [
+    "03794C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "nccs",
+   "name": "New Cambridge College Sydney (NCCS)",
+   "aliases": [
+    "New Cambridge College Sydney (NCCS)",
+    "New Cambridge College Sydney",
+    "NCCS"
+   ],
+   "cricos": [
+    "03015B"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "nexus-english",
+   "name": "Nexus English College",
+   "aliases": [
+    "Nexus English College"
+   ],
+   "cricos": [
+    "04414A"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "pax",
+   "name": "Pax Institute of Education",
+   "aliases": [
+    "Pax Institute of Education",
+    "PAX"
+   ],
+   "cricos": [
+    "03152D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "tr4inright",
+   "name": "Tr4in Right",
+   "aliases": [
+    "TR4INRIGHT",
+    "Tr4in Right",
+    "Tr4inright"
+   ],
+   "cricos": [
+    "03618G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "rosehill",
+   "name": "Rosehill College",
+   "aliases": [
+    "Rosehill College"
+   ],
+   "cricos": [
+    "03622A"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "rosewood",
+   "name": "Rosewood International College",
+   "aliases": [
+    "Rosewood International College",
+    "Rosewood"
+   ],
+   "cricos": [
+    "04083D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "sihe",
+   "name": "Sydney Institute of Higher Education (SIHE)",
+   "aliases": [
+    "Sydney Institute of Higher Education (SIHE)",
+    "Sydney Institute of Higher Education",
+    "SIHE"
+   ],
+   "cricos": [
+    "03866C"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "smei",
+   "name": "Sydney Metropolitan English Institute (SMEI)",
+   "aliases": [
+    "Sydney Metropolitan English Institute (SMEI)",
+    "Sydney Metropolitan English Institute",
+    "SMEI"
+   ],
+   "cricos": [
+    "03846G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "smic",
+   "name": "Sydney Metropolitan International College (SMIC)",
+   "aliases": [
+    "Sydney Metropolitan International College",
+    "SMIC"
+   ],
+   "cricos": [
+    "03792E"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "sydney-global",
+   "name": "Sydney Global College",
+   "aliases": [
+    "Sydney Global College"
+   ],
+   "cricos": [
+    "03697D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "acis",
+   "name": "Australian College of International Studies (ACIS)",
+   "aliases": [
+    "Australian College of International Studies (ACIS)",
+    "Australian College of International Studies",
+    "ACIS"
+   ],
+   "cricos": [
+    "03781G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "coe",
+   "name": "The Centre of Excellence",
+   "aliases": [
+    "The Centre of Excellence",
+    "Centre of Excellence"
+   ],
+   "cricos": [
+    "03512G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "wic",
+   "name": "Wells International College (WIC)",
+   "aliases": [
+    "Wells International College (WIC)",
+    "Wells International College",
+    "WIC Sydney",
+    "WIC"
+   ],
+   "cricos": [
+    "01856K"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "iibt",
+   "name": "International Institute of Business and Technology (IIBT)",
+   "aliases": [
+    "International Institute of Business and Technology (IIBT)",
+    "IIBT (Warwick)",
+    "International Institute of Business and Technology",
+    "IIBT"
+   ],
+   "cricos": [
+    "03345F"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "warwick",
+   "name": "Warwick Institute of Australia",
+   "aliases": [
+    "Warwick Institute of Australia",
+    "Warwick Institute"
+   ],
+   "cricos": [
+    "02800G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "times-academy",
+   "name": "Times Academy",
+   "aliases": [
+    "Times Academy",
+    "Time Academy"
+   ],
+   "cricos": [
+    "03457J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "via",
+   "name": "VIA Education",
+   "aliases": [
+    "VIA Education"
+   ],
+   "cricos": [
+    "03562G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "cia",
+   "name": "Capstone Institute of Australia (CIA)",
+   "aliases": [
+    "Capstone Institute of Australia (CIA)",
+    "Capstone Institute of Australia",
+    "CIA"
+   ],
+   "cricos": [
+    "04051A"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "victory",
+   "name": "Victory Institute",
+   "aliases": [
+    "Victory Institute",
+    "Victory Institute of Vocational Education"
+   ],
+   "cricos": [
+    "02678D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "eton",
+   "name": "Eton College",
+   "aliases": [
+    "Eton College"
+   ],
+   "cricos": [
+    "03908J"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "york",
+   "name": "York Business Institute",
+   "aliases": [
+    "York Business Institute",
+    "York Business Institute / York English College",
+    "York English College"
+   ],
+   "cricos": [
+    "03549E"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "berkeley",
+   "name": "Berkeley Business Institute (BBI)",
+   "aliases": [
+    "Berkeley Business Institute (BBI)",
+    "Berkeley Business Institute",
+    "BBI"
+   ],
+   "cricos": [
+    "03395G"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "wattle",
+   "name": "Wattle College",
+   "aliases": [
+    "Wattle College"
+   ],
+   "cricos": [
+    "03905A"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "wsc",
+   "name": "Western Sydney College (WSC)",
+   "aliases": [
+    "Western Sydney College (WSC)",
+    "Western Sydney College",
+    "WSC"
+   ],
+   "cricos": [
+    "03690M"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "zoi",
+   "name": "ZOI Education",
+   "aliases": [
+    "INUS / ZOI (Nuture Education Group)",
+    "ZOI",
+    "Zoi Education"
+   ],
+   "cricos": [
+    "03611D"
+   ],
+   "country": "Australia",
+   "evidence_level": null
+  },
+  {
+   "key": "inus",
+   "name": "INUS Australia Education and Training",
+   "aliases": [
+    "INUS / ZOI (Nuture Education Group)",
+    "INUS Australia",
+    "INUS"
+   ],
+   "cricos": [
+    "03341K"
+   ],
+   "country": "Australia",
+   "evidence_level": null
   }
  ],
  "copyright": "© 2026 Talented Education Group.",
- "_fp": "teg-rec-41b9"
+ "_fp": "teg-rec-41b9",
+ "evidence_rule": "Provider dengan evidence_level 3 (Home Affairs, risiko tinggi) TIDAK diberi tanda Rekomendasi Talented (keputusan pemilik 24/11/2026). null = belum diketahui (tetap diberi tanda)."
 }

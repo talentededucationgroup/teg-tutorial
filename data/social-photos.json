@@ -351,6 +351,87 @@
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "country": "JP",
    "file": "social/photos/0a26e40516ae4a76.jpg"
+  },
+  {
+   "place": "Amsterdam",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Typical_Dutch_bascule_bridge_in_Amsterdam,_Netherlands.jpg",
+   "author": "Ibex73",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "NL",
+   "file": "social/photos/1a6360f010f3b77c.jpg"
+  },
+  {
+   "place": "Rotterdam",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Anjerstraat_in_Rotterdam.jpg",
+   "author": "Sterz",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "NL",
+   "file": "social/photos/d1a4c9279f8857cb.jpg"
+  },
+  {
+   "place": "Amsterdam",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Amsterdam_Canals_-_July_2006.jpg",
+   "author": "Diliff",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "country": "NL",
+   "file": "social/photos/5f2e3bd88236cd56.jpg"
+  },
+  {
+   "place": "Shanghai skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg",
+   "author": "Ermell",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "CN",
+   "file": "social/photos/1babebe17e4820a3.jpg"
+  },
+  {
+   "place": "Beijing",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bustling_Beijing_(153285).jpg",
+   "author": "Astronaut photograph ISS070-E-93528 was acquired on February",
+   "license": "Public domain",
+   "license_url": "",
+   "country": "CN",
+   "file": "social/photos/99e95a504c1517a3.jpg"
+  },
+  {
+   "place": "Dublin",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dublin_Stephen%27s_Green-44_edit.jpg",
+   "author": "Dronepicr (edited by King of Hearts ) Edit corrects CA and s",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "country": "IE",
+   "file": "social/photos/e97f02c824d9fa48.jpg"
+  },
+  {
+   "place": "London skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:London_Skyline_in_2011.jpg",
+   "author": "Library Lady Amy",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "GB",
+   "file": "social/photos/73ab0045fdae5e25.jpg"
+  },
+  {
+   "place": "Edinburgh",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Faith_and_Belief_Conference_in_Edinburgh,_Scotland_on_30_October_2024_-_7.jpg",
+   "author": "Scottish Government",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "GB",
+   "file": "social/photos/2ece5484e760f667.jpg"
+  },
+  {
+   "place": "Manchester",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ruined_remains_of_Medlock_Mill_aka_Hotspur_Press,_Manchester,_England_02.jpg",
+   "author": "Ridiculopathy",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "GB",
+   "file": "social/photos/c1d00a32fe9fb68e.jpg"
   }
  ]
 }

@@ -345,6 +345,12 @@ def write_rss(items):
         extra += _trust_posts(NOW, {'lt': LT, 'text': CLOSING})
     except Exception as _e:
         print('trust posts skipped:', str(_e)[:160])
+    # variasi konten harian (pemilik 24/11/2026): testimoni / sekolah / info penting / tips / blog / kuis / tentang Talented
+    try:
+        from content_mix import posts as _mix_posts
+        extra += _mix_posts(NOW, {'lt': LT, 'text': CLOSING})
+    except Exception as _e:
+        print('content mix skipped:', str(_e)[:160])
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media

@@ -54,7 +54,8 @@
   "scholarship:": 45,
   "site:": 40,
   "default": 50,
-  "trust:": 75
+  "trust:": 75,
+  "mix:": 78
  },
  "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + variasi acak harian. Pemilik 23/11/2026: beasiswa dikurangi (skor 45, maks. 1 beasiswa/hari); promo jurusan (program:) diperbanyak - Bachelor & Master Australia, kadang VET, jurusan yang dibutuhkan di Australia (scripts/program_posts.py, ±1-2 per hari). Pemilik 23/11/2026: postingan kepercayaan (trust:) tiap 3 hari - kredensial PIER/QEAC, ESOS, Pearson PTE, kantor Sydney & Kalbar, sekolah partner AU & NZ.",
  "min_quality_score": 3,
@@ -74,9 +75,11 @@
   "note": "Pemilik 23/11/2026: FOKUS sekolah Australia & New Zealand (skor +25). Negara lain (Kanada, Jepang, Korea, UK, dll.) hanya tampil bila ada PROMO atau BEASISWA, maks. 1 per hari, sebagai selingan. Postingan umum Talented (kepercayaan/kredensial, tips, video) tidak dibatasi."
  },
  "max_items_per_day_by_prefix": {
-  "scholarship:": 1
+  "scholarship:": 1,
+  "mix:": 1
  },
  "random_jitter": 8,
  "reel_share": 0.45,
- "random_note": "Pemilik 23/11/2026: postingan dibuat acak supaya tidak terkesan gambar semua. Setiap postingan yang punya versi video tayang sebagai Reel (video) dengan peluang 45%, selain itu sebagai gambar; urutan diberi variasi acak ±8 poin per hari. Video Talented (video:) tetap tayang bergiliran."
+ "random_note": "Pemilik 23/11/2026: postingan dibuat acak supaya tidak terkesan gambar semua. Setiap postingan yang punya versi video tayang sebagai Reel (video) dengan peluang 45%, selain itu sebagai gambar; urutan diberi variasi acak ±8 poin per hari. Video Talented (video:) tetap tayang bergiliran.",
+ "mix_note": "Pemilik 24/11/2026: 1 postingan variasi per hari (scripts/content_mix.py) - pilar testimoni, kenalan sekolah, info penting minggu ini, tips resmi, blog, kuis, tentang Talented; urutan diacak tiap minggu. Video asli Talented bergiliran lewat data/social-video-library.json."
 }

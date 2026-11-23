@@ -311,6 +311,32 @@
    "checked_at": "2026-11-22T12:56:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": null
+  },
+  "news:au-485-fee-2026-03": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Sumber resmi immi.homeaffairs.gov.au tidak bisa dibuka dari sesi QA - angka AUD 4.600 & tanggal 1 Mar 2026 belum terverifikasi",
+    "Poster menulis 'Diumumkan 23 Nov 2026' padahal caption menyebut berlaku sejak 1 Mar 2026 - kesan berita baru menyesatkan (sudah ~9 bulan)",
+    "Poster tidak menampilkan angka biaya; berita lama, bukan 'terbaru'"
+   ],
+   "fix": "Verifikasi biaya 485 di halaman resmi Home Affairs; ganti label poster jadi 'Berlaku sejak 1 Mar 2026' + tampilkan AUD 4.600, atau jangan diposting sebagai berita baru.",
+   "checked_at": "2026-11-23T18:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work"
+  },
+  "scholarship:au-ecu-kickstart-bursary-2027|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Sumber resmi ecu.edu.au tidak bisa dibuka dari sesi QA - status buka & deadline 1 Agu 2028 belum terverifikasi",
+    "Caption menulis 'pendaftaran ditutup 1 Agustus 2028' padahal data beasiswa menyebut dinilai otomatis (tanpa daftar terpisah) untuk mulai kuliah 2027",
+    "Caption & poster tidak menyebut nilai AUD 5.000 (daya tarik utama)"
+   ],
+   "fix": "Cek ulang halaman ECU; tulis 'Bursary AUD 5.000 untuk mahasiswa internasional baru S1/S2 mulai 2027, dinilai otomatis saat menerima offer' dan sebut nilai di poster.",
+   "checked_at": "2026-11-23T18:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary"
   }
  }
 }

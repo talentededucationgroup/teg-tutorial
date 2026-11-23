@@ -1,0 +1,73 @@
+{
+ "version": "2026-11-23-ai",
+ "tests": [
+  {
+   "id": "ielts",
+   "file": "ielts.json",
+   "title": "IELTS Academic",
+   "icon": "🇬🇧",
+   "ready": true,
+   "desc": {
+    "id": "Listening, Reading, Writing, Speaking - format computer-delivered",
+    "en": "Listening, Reading, Writing, Speaking - computer-delivered format"
+   }
+  },
+  {
+   "id": "pte",
+   "file": "pte.json",
+   "title": "PTE Academic",
+   "icon": "🎧",
+   "ready": true,
+   "desc": {
+    "id": "Reading & Listening dinilai otomatis (Talented Pearson PTE Elite Partner 2026)",
+    "en": "Auto-marked Reading & Listening"
+   }
+  },
+  {
+   "id": "jlpt",
+   "file": "jlpt.json",
+   "title": "JLPT (日本語)",
+   "icon": "🇯🇵",
+   "ready": true,
+   "desc": {
+    "id": "Latihan N5-N1: kosakata, tata bahasa, bacaan & choukai (listening). Soal latihan buatan Talented sesuai format JLPT.",
+    "en": "N5-N1 practice: vocabulary, grammar, reading & listening. Talented practice items in JLPT format.",
+    "th": "ฝึก N5-N1: คำศัพท์ ไวยากรณ์ การอ่าน และการฟัง ข้อสอบฝึกโดย Talented ตามรูปแบบ JLPT",
+    "vi": "Luyện N5-N1: từ vựng, ngữ pháp, đọc hiểu & nghe. Đề luyện của Talented theo định dạng JLPT.",
+    "zh": "N5-N1 练习：词汇、语法、阅读与听力。Talented 按 JLPT 格式编写的练习题。",
+    "ja": "N5〜N1 練習：文字・語彙、文法、読解、聴解。JLPT形式に沿った Talented オリジナル練習問題。",
+    "ko": "N5-N1 연습: 어휘, 문법, 독해, 청해. JLPT 형식의 Talented 연습 문제.",
+    "km": "លំហាត់ N5-N1៖ វាក្យសព្ទ វេយ្យាករណ៍ ការអាន និងការស្តាប់។ លំហាត់ដោយ Talented តាមទម្រង់ JLPT។",
+    "fr": "Entraînement N5-N1 : vocabulaire, grammaire, lecture et écoute. Exercices Talented au format JLPT.",
+    "pt": "Prática N5-N1: vocabulário, gramática, leitura e compreensão auditiva. Questões da Talented no formato JLPT.",
+    "es": "Práctica N5-N1: vocabulario, gramática, lectura y comprensión auditiva. Ejercicios de Talented en formato JLPT.",
+    "de": "Übung N5-N1: Wortschatz, Grammatik, Lesen und Hören. Übungsaufgaben von Talented im JLPT-Format.",
+    "it": "Esercitazione N5-N1: lessico, grammatica, lettura e ascolto. Esercizi Talented in formato JLPT.",
+    "nl": "Oefenen N5-N1: woordenschat, grammatica, lezen en luisteren. Oefenvragen van Talented in JLPT-formaat.",
+    "ru": "Практика N5-N1: лексика, грамматика, чтение и аудирование. Учебные задания Talented в формате JLPT."
+   }
+  },
+  {
+   "id": "topik",
+   "file": "topik.json",
+   "title": "TOPIK I (한국어)",
+   "icon": "🇰🇷",
+   "ready": true,
+   "desc": {
+    "id": "TOPIK I (level 1-2): 듣기 Listening & 읽기 Reading. Soal latihan buatan Talented sesuai format TOPIK.",
+    "en": "TOPIK I (levels 1-2): Listening & Reading. Talented practice items in TOPIK format."
+   }
+  },
+  {
+   "id": "hsk",
+   "file": "hsk.json",
+   "title": "HSK (中文)",
+   "icon": "🇨🇳",
+   "ready": true,
+   "desc": {
+    "id": "HSK 1, 2 & 3: 听力 Listening, 阅读 Reading, 书写 Writing (HSK 3). Soal latihan buatan Talented sesuai format HSK.",
+    "en": "HSK 1, 2 & 3: Listening, Reading, Writing (HSK 3). Talented practice items in HSK format."
+   }
+  }
+ ]
+}

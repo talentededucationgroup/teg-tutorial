@@ -340,6 +340,8 @@ def logo_talented(canvas, dark, h=150, plate=False):
 def logo_provider(canvas, path, maxw=240, maxh=96):
     if not path:
         return
+    if STYLE.get('logo_big'):
+        maxw, maxh = 300, 170  # badge kredensial (postingan kepercayaan) lebih besar
     lg = Image.open(path).convert('RGBA')
     lg.thumbnail((maxw - 28, maxh - 24), Image.LANCZOS)
     bg = lg.convert('RGB').getpixel((1, 1))
@@ -1143,7 +1145,9 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         p2, c2 = get_photo(country or 'ANY', key + '#2', provider)
         if p2 is not None and c2 and 'Wikimedia' not in c2 and p2.resize((16, 16)).tobytes() != photo.resize((16, 16)).tobytes():
             photo = [photo, p2]
-    im = render(c, lay, pal, photo, find_logo(provider))
+    lg = (spec or {}).get('logo')
+    STYLE['logo_big'] = bool(lg)
+    im = render(c, lay, pal, photo, os.path.join(ROOT, lg) if lg and os.path.exists(os.path.join(ROOT, lg)) else find_logo(provider))
     today = datetime.date.today()
     base = file_name(c, kind, today)
     used = {i['file'] for i in log['items'] if i.get('key') != key}

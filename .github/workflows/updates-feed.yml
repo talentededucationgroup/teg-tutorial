@@ -15,6 +15,7 @@ on:
       - 'data/social-review.json'
       - 'data/site-promo.json'
       - 'scripts/program_posts.py'
+      - 'scripts/trust_posts.py'
   workflow_run:
     workflows: ["Update lowongan kerja (2x sehari)"]
     types: [completed]

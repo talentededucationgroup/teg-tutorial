@@ -357,6 +357,9 @@ def main():
                 cfg['_draft'] = False
             elif cfg.get('mode') == 'queue':
                 cfg['_draft'] = False
+            # pemilik 23/11/2026: fokus AU & NZ; negara lain hanya bila promo/beasiswa (selang-seling, maks. per hari)
+            if other(i) and not any(i['guid'].startswith(x) for x in cf.get('other_allowed_prefixes', ['promo:', 'scholarship:', 'program:'])):
+                continue
             if other(i) and i['guid'] not in oth_day and len(oth_day) >= oth_max:
                 continue  # negara pelengkap: maks. other_max_per_day postingan per hari
             pfx = next((p for p in (cfg.get('max_items_per_day_by_prefix') or {}) if i['guid'].startswith(p)), None)

@@ -53,22 +53,25 @@
   "post:": 55,
   "scholarship:": 45,
   "site:": 40,
-  "default": 50
+  "default": 50,
+  "trust:": 75
  },
- "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + variasi acak harian. Pemilik 23/11/2026: beasiswa dikurangi (skor 45, maks. 1 beasiswa/hari); promo jurusan (program:) diperbanyak - Bachelor & Master Australia, kadang VET, jurusan yang dibutuhkan di Australia (scripts/program_posts.py, ±1-2 per hari).",
+ "priority_note": "Postingan dipilih dari skor tertinggi: jenis + skor QA Claude (1-5, 3 = netral, <3 tidak diposting) + variasi acak harian. Pemilik 23/11/2026: beasiswa dikurangi (skor 45, maks. 1 beasiswa/hari); promo jurusan (program:) diperbanyak - Bachelor & Master Australia, kadang VET, jurusan yang dibutuhkan di Australia (scripts/program_posts.py, ±1-2 per hari). Pemilik 23/11/2026: postingan kepercayaan (trust:) tiap 3 hari - kredensial PIER/QEAC, ESOS, Pearson PTE, kantor Sydney & Kalbar, sekolah partner AU & NZ.",
  "min_quality_score": 3,
  "country_focus": {
   "priority": [
    "AU",
-   "CA",
-   "NZ",
-   "JP",
-   "KR"
+   "NZ"
   ],
-  "priority_bonus": 15,
-  "other_penalty": 30,
+  "priority_bonus": 25,
+  "other_penalty": 25,
   "other_max_per_day": 1,
-  "note": "Pemilik 22/11/2026: autopost lebih banyak untuk Australia, Kanada, New Zealand, Jepang & Korea. Negara lain hanya pelengkap: skor diturunkan & maks. 1 postingan negara lain per hari (semua channel). Postingan umum tanpa negara tidak dibatasi."
+  "other_allowed_prefixes": [
+   "promo:",
+   "scholarship:",
+   "program:"
+  ],
+  "note": "Pemilik 23/11/2026: FOKUS sekolah Australia & New Zealand (skor +25). Negara lain (Kanada, Jepang, Korea, UK, dll.) hanya tampil bila ada PROMO atau BEASISWA, maks. 1 per hari, sebagai selingan. Postingan umum Talented (kepercayaan/kredensial, tips, video) tidak dibatasi."
  },
  "max_items_per_day_by_prefix": {
   "scholarship:": 1

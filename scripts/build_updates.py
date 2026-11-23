@@ -339,6 +339,12 @@ def write_rss(items):
         extra += _program_posts(NOW, {'lt': LT, 'text': CLOSING})
     except Exception as _e:
         print('program posts skipped:', str(_e)[:160])
+    # postingan kepercayaan tiap 3 hari (pemilik 23/11/2026): kredensial PIER/QEAC, ESOS, Pearson PTE, kantor, sekolah AU & NZ
+    try:
+        from trust_posts import posts as _trust_posts
+        extra += _trust_posts(NOW, {'lt': LT, 'text': CLOSING})
+    except Exception as _e:
+        print('trust posts skipped:', str(_e)[:160])
     for e in sorted(extra + items[:30], key=lambda e: e['date'], reverse=True)[:40]:
         if e.get('kind') == 'sponsored' and not e.get('paid'):
             continue  # unpaid third parties are never promoted as sponsored on social media

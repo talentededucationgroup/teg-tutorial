@@ -1,4 +1,4 @@
-/* Talented Education Group - Free Mock Test engine (static, no data sent to any server) */
+/* Talented Education Group - Free Mock Test engine (static; only when the candidate presses "AI marking" are IELTS Writing/Speaking answers sent to the AI marker at /api/mock-mark, nothing is stored) */
 (function(){
 'use strict';
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
@@ -183,17 +183,17 @@ function runSpeakQ(q,done){if(!RUN||RUN.done)return;const sp0=RUN.speech[q.n];if
     const iv=setInterval(()=>{s--;if(s<=0){clearInterval(iv);go()}else upd()},1000);FLOW.push(iv)}
   else go()}
 function recordAuto(q,done){const n=q.n;const e=recEls(q);if(!e.box||!RUN||RUN.done)return;
-  const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!(window.SpeechRecognition||window.webkitSpeechRecognition)&&!!BANK.ai};
+  const sp=RUN.speech[n]={t0:Date.now(),secs:0,conf:0,pauses:0,unsupported:!(window.SpeechRecognition||window.webkitSpeechRecognition)};const AUD=(RUN.audio=RUN.audio||{});
   const fin=(msg)=>{sp.secs=(Date.now()-sp.t0)/1000;sp.done=1;const x=recEls(q);if(x.box){x.box.classList.remove('on','prep');x.box.classList.add('done');if(x.st)x.st.textContent='✓ '+t('rec_completed')+(msg?' · '+msg:'');if(x.bar)x.bar.style.width='100%';if(x.end)x.end.remove()}
     const fs=$('#flowst');if(fs)fs.textContent='';done&&setTimeout(done,800)};
   barRun(q,q.speak||30,'on');if(e.st)e.st.textContent='● '+t('recording');if(e.end)e.end.hidden=false;
   if(!micLive()){/* no microphone: timing continues, nothing recorded */sp.nomic=1;recTimer=setTimeout(()=>fin(t('no_mic_rec')),(q.speak||30)*1000);FLOW.push(recTimer);
     mediaRec={state:'recording',stop(){this.state='inactive';clearTimeout(recTimer);fin(t('no_mic_rec'))}};return}
   const ch=[];let why='';
-  try{mediaRec=new MediaRecorder(MIC)}catch(_){mediaRec={state:'recording',stop(){this.state='inactive';fin(t('no_mic_rec'))}};return}
+  try{try{mediaRec=new MediaRecorder(MIC,{audioBitsPerSecond:32000})}catch(_){mediaRec=new MediaRecorder(MIC)}}catch(_){mediaRec={state:'recording',stop(){this.state='inactive';fin(t('no_mic_rec'))}};return}
   mediaRec.ondataavailable=ev=>{if(ev.data&&ev.data.size)ch.push(ev.data)};
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;let finals=[],confs=[],lastEnd=Date.now();
-  if(SR&&BANK.ai){try{recog=new SR();recog.lang='en-AU';recog.continuous=true;recog.interimResults=false;recog.maxAlternatives=1;
+  if(SR){try{recog=new SR();recog.lang='en-AU';recog.continuous=true;recog.interimResults=false;recog.maxAlternatives=1;
     recog.onresult=ev=>{for(let k=ev.resultIndex;k<ev.results.length;k++){const r=ev.results[k];if(r.isFinal){finals.push(r[0].transcript);if(r[0].confidence)confs.push(r[0].confidence);const now=Date.now();if(now-lastEnd>3000&&finals.length>1)sp.pauses++;lastEnd=now;sp.lastAt=now}}
       RUN.answers[n]=finals.join(' ').trim();sp.conf=confs.length?confs.reduce((x,y)=>x+y,0)/confs.length:0};
     recog.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed'||ev.error==='audio-capture')sp.unsupported=true};
@@ -201,7 +201,7 @@ function recordAuto(q,done){const n=q.n;const e=recEls(q);if(!e.box||!RUN||RUN.d
     recog.start()}catch(_){sp.unsupported=true}}
   const mr=mediaRec;
   mr.onstop=()=>{clearTimeout(recTimer);const rr=recog;recog=null;if(rr){try{rr.stop()}catch(_){}}
-    if(ch.length)q._rec=URL.createObjectURL(new Blob(ch,{type:mr.mimeType||'audio/webm'}));fin(why)};
+    if(ch.length){const bl=new Blob(ch,{type:mr.mimeType||'audio/webm'});q._rec=URL.createObjectURL(bl);if(bl.size<1400000){try{const fr=new FileReader();fr.onload=()=>{AUD[n]=String(fr.result)};fr.readAsDataURL(bl)}catch(_){}}}fin(why)};
   mr.start();
   // PTE: microphone closes after ~3 s of silence (also if the candidate does not start speaking within 3 s)
   if(BANK.flow==='item'){try{const AC=window.AudioContext||window.webkitAudioContext;if(!ACX)ACX=new AC();const an=ACX.createAnalyser();an.fftSize=1024;const src=ACX.createMediaStreamSource(MIC);src.connect(an);const buf=new Float32Array(an.fftSize);let quiet=0;
@@ -311,7 +311,7 @@ function finish(timeout){if(!RUN||RUN.done)return;RUN.done=true;clearFlow();wind
   const est=sec.auto?conv(sec,raw,max):'';
   const skillEst=skillEstOf(sec,rows);
   const used=Math.min(RUN.limit,(Date.now()-RUN.start)/1000);
-  raw=r1(raw);const res={secIdx:RUN.secIdx,sec,raw,max,est,skillEst,used,timeout,rows,parts:RUN.parts,answers:RUN.answers,speech:RUN.speech||{}};
+  raw=r1(raw);const res={secIdx:RUN.secIdx,sec,raw,max,est,skillEst,used,timeout,rows,parts:RUN.parts,answers:RUN.answers,speech:RUN.speech||{},audio:RUN.audio||{}};
   if(sec.auto){const h=store.get('hist:'+BANK.id,[]);h.push({at:Date.now(),sec:L(sec.title),score:`${raw}/${max}${est!==''?' · '+L(sec.score.label)+' '+est:''}`});store.set('hist:'+BANK.id,h.slice(-30))}
   if(FULL){FULL.results.push(res);FULL.pos++;if(FULL.pos<FULL.def.sections.length){interstitial(res);return}const f=FULL;FULL=null;dropSave(f.saveId);showReport(f.results,f.def,true,f.rid);return}
   dropSave(RUN.saveId);
@@ -485,10 +485,11 @@ function cleanAns(parts,ans){const out={};if(!ans||typeof ans!=='object')return 
       case 'cloze':if(typeof a==='object'&&!Array.isArray(a)){const o={};Object.keys(q.blanks||{}).forEach(k=>{if(typeof a[k]==='string')o[k]=a[k].slice(0,500)});out[q.n]=o}break;
       default:if(typeof a==='string')out[q.n]=a.slice(0,20000)}}));return out}
 function cleanSpeech(sp){const o={};if(!sp||typeof sp!=='object')return o;Object.keys(sp).slice(0,200).forEach(k=>{const x=sp[k];if(!x||typeof x!=='object'||!/^\d+$/.test(k))return;const y={};['t0','secs','conf','pauses','lastAt','done','nomic'].forEach(f=>{const v=+x[f];if(Number.isFinite(v))y[f]=v});if(x.unsupported)y.unsupported=true;o[k]=y});return o}
-function packRes(r){return {secIdx:r.secIdx,section:L(r.sec.title),auto:!!r.sec.auto,raw:r.raw,max:r.max,est:r.est,used:Math.round(r.used||0),timeout:!!r.timeout,parts:packParts(r.parts),answers:r.answers,speech:cleanSpeech(r.speech)}}
+function cleanAudio(a){const o={};if(!a||typeof a!=='object')return o;let tot=0;Object.keys(a).slice(0,20).forEach(k=>{const v=a[k];if(/^\d+$/.test(k)&&typeof v==='string'&&/^data:audio\/[\w.+-]+(;[\w=.+-]+)*;base64,[A-Za-z0-9+/=]+$/.test(v)&&v.length<1900000&&tot+v.length<9000000){o[k]=v;tot+=v.length}});return o}
+function packRes(r){return {secIdx:r.secIdx,section:L(r.sec.title),auto:!!r.sec.auto,raw:r.raw,max:r.max,est:r.est,used:Math.round(r.used||0),timeout:!!r.timeout,parts:packParts(r.parts),answers:r.answers,speech:cleanSpeech(r.speech),audio:cleanAudio(r.audio)}}
 function unpackRes(o){if(!o||!Number.isInteger(o.secIdx))throw bankErr();const sec=BANK.sections[o.secIdx];if(!sec)throw bankErr();const parts=unpackParts(o.secIdx,o.parts);const ans=cleanAns(parts,o.answers);const speech=cleanSpeech(o.speech);
   let raw=0,max=0;const rows=[];parts.forEach(p=>(p.questions||[]).forEach(q=>{if(!sec.auto){rows.push({q,p});return}const s=scoreQ(q,ans,speech);raw+=s.got;max+=s.max;rows.push({q,p,s})}));raw=Math.round(raw*10)/10;
-  const lim=(sec.minutes+(sec.review_minutes||0))*60;return {secIdx:o.secIdx,sec,raw,max,est:sec.auto&&max?conv(sec,raw,max):'',skillEst:skillEstOf(sec,rows),speech,used:Math.max(0,Math.min(lim,+o.used||0)),timeout:!!o.timeout,rows,parts,answers:ans}}
+  const lim=(sec.minutes+(sec.review_minutes||0))*60;return {secIdx:o.secIdx,sec,raw,max,est:sec.auto&&max?conv(sec,raw,max):'',skillEst:skillEstOf(sec,rows),speech,used:Math.max(0,Math.min(lim,+o.used||0)),timeout:!!o.timeout,rows,parts,answers:ans,audio:cleanAudio(o.audio)}}
 function packState(){const st={run:null,full:null};
   if(RUN&&!RUN.done)st.run={secIdx:RUN.secIdx,rid:RUN.rid,parts:packParts(RUN.parts),answers:RUN.answers,exam:!!RUN.exam,elapsed:Math.round(Math.min(RUN.limit,(Date.now()-RUN.start)/1000)),cur:RUN.cur,audioPlayed:RUN.audioPlayed,speech:cleanSpeech(RUN.speech)};
   if(FULL)st.full={k:fullsOf().indexOf(FULL.def),pos:FULL.pos,rid:FULL.rid,exam:!!FULL.exam,results:FULL.results.map(packRes)};
@@ -552,6 +553,45 @@ async function openStudentFile(o){
 function msgBox(text,err){let m=$('#msgbox');if(m)m.remove();m=document.createElement('div');m.id='msgbox';m.className='modal';
   m.innerHTML=`<div class="box${err?' err':''}" role="alertdialog" aria-modal="true"><p>${err?'⚠️ ':'✓ '}${esc(text)}</p><button class="btn" type="button">OK</button></div>`;
   document.body.appendChild(m);const b=$('button',m);b.onclick=()=>m.remove();try{b.focus()}catch(e){}}
+
+// ---------- AI marking (Claude + ChatGPT) for sections that are not auto-marked ----------
+const AI_URL=window.MOCK_AI||'https://pricelist.talentededucationgroup.com/api/mock-mark';
+function plainT(h){return String(h||'').replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/[ \t]+/g,' ').trim()}
+function aiNeeded(results,fdef){try{return (repOf(fdef).layout==='ielts')&&results.some(r=>!r.sec.auto)}catch(_){return false}}
+function aiPayload(results){const p={test:BANK.id,lang:LANG,writing:[],speaking:[]};
+  results.forEach(r=>{if(r.sec.auto)return;const sid=r.sec.skill;
+    if(sid==='W'){wTasks(r).forEach((q,k)=>p.writing.push({task:/2/.test(String(q.kind||''))?2:(wTasks(r).length>1?k+1:1),prompt:plainT(q.prompt||q.text)+(q.table?'\n\nDATA / DIAGRAM (as shown to the candidate):\n'+plainT(String(q.table).replace(/<\/(tr|li)>/gi,'\n').replace(/<\/t[dh]>/gi,' | ')):''),answer:String((r.answers||{})[q.n]||'')}))}
+    if(sid==='S'){r.parts.forEach(pt=>(pt.questions||[]).filter(q=>q.type==='speak').forEach(q=>{const sp=(r.speech||{})[q.n]||{};p.speaking.push({part:pt.slot||'',question:plainT(q.prompt||q.text),transcript:String((r.answers||{})[q.n]||''),secs:sp.secs||0,conf:sp.conf||0,audio:(r.audio||{})[q.n]||''})}))}});
+  return p}
+function aiTeacher(j,results,fdef){const rep=repOf(fdef);const R=j.result||{};const secs={};
+  results.forEach((r,i)=>{if(r.sec.auto)return;const sid=r.sec.skill;
+    if(sid==='W'&&R.writing){const W=R.writing;const tasks={};['1','2'].forEach(k=>{if(W[k]){const o={};Object.keys(W[k]).forEach(c=>{if(c!=='comment'&&typeof W[k][c]==='number')o[c]=W[k][c]});tasks[k]=o}});
+      const rb=rubricOf(rep,'W',r);let m;
+      if(rb.type==='tasks'){m={crit:{},tasks};m.v=wBand(rb,m).v}else{const k=tasks['2']?'2':'1';const c=Object.assign({},tasks[k]||{});if(c.TR!=null){c.TA=c.TR;delete c.TR}m={crit:c,v:critBand(rb,c)}}
+      secs[i]={comment:['1','2'].filter(k=>W[k]&&W[k].comment).map(k=>'Task '+k+': '+W[k].comment).join('\n\n'),skills:{W:m}}}
+    if(sid==='S'){if(R.speaking){const c={};['FC','LR','GRA','P'].forEach(x=>{if(typeof R.speaking[x]==='number')c[x]=R.speaking[x]});const rb=rubricOf(rep,'S',r);secs[i]={comment:String(R.speaking.comment||''),skills:{S:{crit:c,v:critBand(rb,c)}}}}
+      else secs[i]={comment:t('ai_no_speech'),skills:{}}}});
+  let ov=String(R.overall||'');if(R.spread>=1.5)ov+=(ov?' ':'')+t('ai_spread');
+  return {by:'AI · '+(j.markers||['Claude']).join(' + '),at:j.at||new Date().toISOString(),overall:ov,secs}}
+async function aiAuto(results,fdef,isFull,rid){
+  if(MODE==='guru'||!LAST||LAST.results!==results||REPCTX.teacher||!aiNeeded(results,fdef))return;
+  const ck='ai:'+BANK.id+':'+rid;const cached=store.get(ck,null);
+  if(cached){const tc=cleanTeacher(cached,results);if(tc){showReport(results,fdef,isFull,rid,Object.assign({},REPCTX,{teacher:tc}));return}}
+  const box=document.createElement('div');box.className='aibox';box.setAttribute('role','status');
+  const sh=document.querySelector('.card.result .share');if(sh)sh.parentNode.insertBefore(box,sh);else return;
+  if(!aiAuto.go){box.innerHTML='<p><b>🤖 '+esc(t('ai_title'))+'</b></p><p class="small">'+esc(t('ai_privacy'))+'</p><button class="btn" type="button" id="aiGo">🤖 '+esc(t('ai_start'))+'</button>';
+    $('#aiGo').onclick=()=>{aiAuto.go=true;box.remove();aiAuto(results,fdef,isFull,rid)};return}
+  box.innerHTML='<p>🤖 '+esc(t('ai_running'))+'</p>';
+  try{const r=await fetch(AI_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(aiPayload(results))});
+    let j={};try{j=await r.json()}catch(_){}
+    if(!r.ok||!j.ok){const e=new Error(j.error||('HTTP '+r.status));e.code=j.error;throw e}
+    (j.transcripts||[]).forEach((tx,k)=>{let c=0;results.forEach(rr=>{if(rr.sec.skill!=='S')return;rr.parts.forEach(pt=>(pt.questions||[]).filter(q=>q.type==='speak').forEach(q=>{if(c++===k&&tx&&!(rr.answers||{})[q.n]){rr.answers=rr.answers||{};rr.answers[q.n]=tx}}))})});
+    const tc=aiTeacher(j,results,fdef);try{store.set(ck,tc)}catch(_){}
+    if(LAST&&LAST.results===results)showReport(results,fdef,isFull,rid,Object.assign({},REPCTX,{teacher:cleanTeacher(tc,results)}))}
+  catch(e){const off=e.code==='not_configured';box.innerHTML='<p>⚠️ '+esc(off?t('ai_off'):e.code==='rate_limited'?t('ai_limit'):t('ai_fail'))+'</p>'+(off?'':'<button class="btn" type="button">↻ '+esc(t('ai_retry'))+'</button>');
+    const b=box.querySelector('button');if(b)b.onclick=()=>{box.remove();aiAuto(results,fdef,isFull,rid)}}}
+{const _sr=showReport;showReport=function(results,fdef,isFull,rid,ctx){_sr(results,fdef,isFull,rid,ctx);try{aiAuto(results,fdef,isFull,rid)}catch(_){}}}
+
 // ---------- teacher marking ----------
 function skLabel(rep,id){const o=(rep.skills||[]).find(x=>x.id===id);return o?L(o.label):id}
 function wTasks(r){return r?r.parts.flatMap(p=>(p.questions||[]).filter(q=>q.type==='essay')):[]}
@@ -572,14 +612,14 @@ function cleanTeacher(tc,results){if(!tc||typeof tc!=='object')return null;const
       const tasks={};Object.keys((m.tasks&&typeof m.tasks==='object')?m.tasks:{}).filter(k=>k==='1'||k==='2').forEach(k=>{const src2=m.tasks[k]||{};const tk={};Object.keys(typeof src2==='object'?src2:{}).slice(0,6).forEach(c=>{const y=+src2[c];if(Number.isFinite(y)&&y>=0&&y<=9)tk[String(c).slice(0,4)]=y});tasks[k]=tk});
       const v=+m.v;const o2={v:(m.v!=null&&m.v!==''&&Number.isFinite(v)&&v>=0&&v<=100)?v:null,crit};if(Object.keys(tasks).length)o2.tasks=tasks;o.skills[String(id).slice(0,10)]=o2});out.secs[i]=o});
   const has=out.overall||Object.values(out.secs).some(x=>x.comment||Object.values(x.skills).some(m=>m.v!=null));return has?out:null}
-function tmBadge(tc){return `<div class="tm-badge">✎ Teacher marked${LANG!=='en'?' · '+esc(t('tm_label')):''}${tc.by?' · '+esc(tc.by):''}${tc.at?' · '+esc(fmtDate(tc.at)):''}</div>`}
+function tmBadge(tc){if(/^AI/.test(tc.by||''))return `<div class="tm-badge ai">🤖 ${esc(t('ai_marked'))}${tc.by?' · '+esc(tc.by):''}${tc.at?' · '+esc(fmtDate(tc.at)):''}</div>`;return `<div class="tm-badge">✎ Teacher marked${LANG!=='en'?' · '+esc(t('tm_label')):''}${tc.by?' · '+esc(tc.by):''}${tc.at?' · '+esc(fmtDate(tc.at)):''}</div>`}
 function tmBlock(results,tc,rep){
   const rows=results.map((r,i)=>{const x=tc.secs[i];if(!x)return '';const marks=Object.entries(x.skills||{}).filter(([k,m])=>m.v!=null).map(([k,m])=>{const rb=rubricOf(rep,k,r);let det='';
       if(m.tasks&&rb.type==='tasks'){const wb=wBand(rb,m);det=' ('+rb.tasks.map((tk,j)=>`Task ${tk.k} ×${tk.w}: ${wb.bands[j]!=null?wb.bands[j].toFixed(1):'—'} [${tk.crit.filter(c=>(m.tasks[tk.k]||{})[c]!=null).map(c=>c+' '+m.tasks[tk.k][c]).join(', ')}]`).join('; ')+')'}
       else if(Object.keys(m.crit||{}).length)det=' ('+Object.entries(m.crit).map(([c,y])=>c+' '+y).join(', ')+')'+(rb.type==='tasks'?' — '+t('legacy_w_label'):'');
       return `${skLabel(rep,k)}: ${rep.layout==='ielts'?Number(m.v).toFixed(1):m.v}${det}`}).join(' · ');
     if(!marks&&!x.comment)return '';return `<div class="tmr"><b>${esc(L(r.sec.title))}</b>${marks?`<p class="tmm">${esc(marks)}</p>`:''}${x.comment?`<p class="tmc">${esc(x.comment)}</p>`:''}</div>`}).join('');
-  return `<h3>✎ ${esc(t('teacher_comments'))}</h3><div class="tm-block">${rows}${tc.overall?`<div class="tmr"><b>${esc(t('overall_comment'))}</b><p class="tmc">${esc(tc.overall)}</p></div>`:''}</div>`}
+  return `<h3>${/^AI/.test(tc.by||'')?'🤖 '+esc(t('ai_comments')):'✎ '+esc(t('teacher_comments'))}</h3><div class="tm-block">${rows}${tc.overall?`<div class="tmr"><b>${esc(t('overall_comment'))}</b><p class="tmc">${esc(tc.overall)}</p></div>`:''}</div>`}
 function teacherPage(){
   document.title=t('teacher_mode')+' - '+t('free_mock');
   app().innerHTML=header('👩‍🏫 '+t('teacher_mode'),esc(t('teacher_sub')))+`<div class="acts top"><a class="btn back" href="?lang=${LANG}">← ${esc(t('all_tests'))}</a> ${fileBtn('tFile','📥 '+t('teacher_open'))}</div>

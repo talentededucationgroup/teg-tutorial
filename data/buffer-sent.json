@@ -5,6 +5,10 @@
 "post:2026-w47-ais|feed|6aff319cece6dfde5f2206b4",
 "post:2026-w47-ais|feed|6aff32d7ece6dfde5f22151d",
 "post:2026-w47-ais|feed|6aff3328ece6dfde5f221865",
+"post:2026-w47-ais|feed|6aff3375ece6dfde5f221ba1",
+"post:2026-w47-ais|feed|6aff3375ece6dfde5f221ba2",
+"post:2026-w47-ais|feed|6aff3375ece6dfde5f221ba3",
+"post:2026-w47-ais|feed|6aff3375ece6dfde5f221ba4",
 "post:2026-w47-ais|reel|6aff3157ece6dfde5f2203ab",
 "post:2026-w47-ais|reel|6aff319cece6dfde5f2206b4",
 "post:2026-w47-ais|reel|6aff31ffece6dfde5f220b47",
@@ -28,6 +32,8 @@
 "scholarship:au-aih-next-gen-award|open|feed|6aff3375ece6dfde5f221ba4",
 "scholarship:au-aih-next-gen-award|open|reel|6aff3a05ece6dfde5f22802a",
 "scholarship:fr-eiffel-excellence|open|feed|6aff3328ece6dfde5f221865",
+"scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff32d7ece6dfde5f22151d",
+"scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3328ece6dfde5f221865",
 "scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff3157ece6dfde5f2203ab",
 "scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff319cece6dfde5f2206b4",
 "scholarship:hk-belt-and-road-scholarship-hku|open|reel|6aff31ffece6dfde5f220b47",
@@ -52,10 +58,16 @@
 "site:2026-11-20:site-02|reel|6aff3a05ece6dfde5f22802a",
 "site:2026-11-20:site-02|story|6aff3157ece6dfde5f2203ab",
 "site:2026-11-20:site-02|story|6aff319cece6dfde5f2206b4",
+"site:2026-11-22:site-06|feed|6aff3157ece6dfde5f2203ab",
+"site:2026-11-22:site-06|feed|6aff319cece6dfde5f2206b4",
+"video:office-tour:2026-11-21|reel|6aff3157ece6dfde5f2203ab",
+"video:office-tour:2026-11-21|reel|6aff319cece6dfde5f2206b4",
+"video:office-tour:2026-11-21|reel|6aff31ffece6dfde5f220b47",
+"video:office-tour:2026-11-21|reel|6aff3a05ece6dfde5f22802a",
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-22T23:04:33.214615+00:00",
+"last_run": "2026-11-23T02:27:26.853566+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -107,10 +119,27 @@
 "6aff3375ece6dfde5f221ba1|feed": 1,
 "6aff32d7ece6dfde5f22151d|feed": 1,
 "6aff3328ece6dfde5f221865|feed": 2
+},
+"2026-11-23": {
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1,
+"6aff319cece6dfde5f2206b4|reel": 1,
+"6aff3157ece6dfde5f2203ab|reel": 1,
+"6aff3375ece6dfde5f221ba4|feed": 1,
+"6aff3375ece6dfde5f221ba3|feed": 1,
+"6aff3375ece6dfde5f221ba2|feed": 1,
+"6aff3375ece6dfde5f221ba1|feed": 1,
+"6aff3328ece6dfde5f221865|feed": 1,
+"6aff32d7ece6dfde5f22151d|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1
 }
 },
 "waiting_review": [],
 "daily_other": {
-"2026-11-22": []
+"2026-11-22": [],
+"2026-11-23": [
+"scholarship:hk-belt-and-road-scholarship-hku|open"
+]
 }
 }

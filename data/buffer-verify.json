@@ -1,17 +1,17 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-22T23:07:48+00:00",
+ "checked_at": "2026-11-23T02:31:54+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-22T09:39:45.849Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1741071218029042",
-   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+   "sentAt": "2026-11-23T02:28:43.146Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1741916454611185",
+   "text": "Cari tempat tinggal dekat kampus? Tab Akomodasi di"
   },
   "facebook|reel": {
-   "sentAt": "2026-11-22T07:20:25.222Z",
-   "link": "https://www.facebook.com/reel/1353504500293494/",
-   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+   "sentAt": "2026-11-23T02:28:00.288Z",
+   "link": "https://www.facebook.com/reel/1007323788470434/",
+   "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "facebook|story": {
    "sentAt": "2026-11-22T07:20:44.711Z",
@@ -19,19 +19,19 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-22T09:39:29.078Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDo4aFJGeXE5Qmo0MTcxWUEzQTJpXzR3",
-   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+   "sentAt": "2026-11-23T02:28:24.768Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpESDhyUV9BUE9mQk9lREx1Z01LWlZn",
+   "text": "Beasiswa 15% tuition untuk semua program di Auckla"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-22T09:39:58.130Z",
-   "link": "https://www.instagram.com/p/DgCgRkNIPUw/",
-   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+   "sentAt": "2026-11-23T02:28:55.085Z",
+   "link": "https://www.instagram.com/p/DgETvUAFiZj/",
+   "text": "Cari tempat tinggal dekat kampus? Tab Akomodasi di"
   },
   "instagram|reel": {
-   "sentAt": "2026-11-22T07:21:24.538Z",
-   "link": "https://www.instagram.com/reel/DgCQVEvjxw6/",
-   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+   "sentAt": "2026-11-23T02:28:59.479Z",
+   "link": "https://www.instagram.com/reel/DgETr06DIqI/",
+   "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "instagram|story": {
    "sentAt": "2026-11-22T07:23:41.175Z",
@@ -39,24 +39,24 @@
    "text": ""
   },
   "linkedin|feed": {
-   "sentAt": "2026-11-22T09:39:52.677Z",
-   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530203387695513600",
-   "text": "AIH Australian Next Gen Award (30%) sedang dibuka,"
+   "sentAt": "2026-11-23T02:28:50.283Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530457301082628096",
+   "text": "Belt and Road Scholarship (HKSAR Government Schola"
   },
   "tiktok|reel": {
-   "sentAt": "2026-11-22T07:20:46.601Z",
-   "link": "https://tiktok.com/@talented.education/video/7710892220903132423",
-   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+   "sentAt": "2026-11-23T02:28:22.075Z",
+   "link": "https://tiktok.com/@talented.education/video/7711187928344530197",
+   "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-22T10:06:42.418Z",
-   "link": "https://x.com/1511766381762531332/status/2124444450596196790",
-   "text": "Promo: Charles Darwin University - CDU Global Meri"
+   "sentAt": "2026-11-23T02:28:27.086Z",
+   "link": "https://x.com/1511766381762531332/status/2124691515045769456",
+   "text": "Beasiswa dibuka: Belt and Road Scholarship (HKSAR "
   },
   "youtube|reel": {
-   "sentAt": "2026-11-22T07:20:16.565Z",
-   "link": "https://www.youtube.com/shorts/JBc1pdpnjd0",
-   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+   "sentAt": "2026-11-23T02:27:51.192Z",
+   "link": "https://www.youtube.com/shorts/dX-TY5ADxfU",
+   "text": "Intip kantor Talented Education Group 👀 Ruang bela"
   }
  },
  "problems": [],

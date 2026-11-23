@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T18:01:19+07:00",
+ "version": "2026-11-23T18:22:18+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -178,6 +178,31 @@
    "country": "Australia",
    "provider": "Edith Cowan University (ECU)",
    "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary"
+  },
+  {
+   "id": "jobs:2026-11-23-137",
+   "kind": "jobs",
+   "date": "2026-11-23",
+   "priority": 1,
+   "title": {
+    "id": "💼 137 lowongan kerja baru (Australia, Canada, Germany, New Zealand)",
+    "en": "💼 137 new part-time/student jobs (Australia, Canada, Germany, New Zealand)",
+    "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ 137 ตำแหน่ง (Australia, Canada, Germany, New Zealand)",
+    "vi": "💼 137 việc làm bán thời gian/sinh viên mới (Australia, Canada, Germany, New Zealand)",
+    "zh": "💼 137 个新的兼职/学生工作 (Australia, Canada, Germany, New Zealand)",
+    "ja": "💼 新しいアルバイト・学生向け求人 137 件 (Australia, Canada, Germany, New Zealand)",
+    "ko": "💼 새 파트타임/학생 일자리 137개 (Australia, Canada, Germany, New Zealand)",
+    "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី 137 (Australia, Canada, Germany, New Zealand)",
+    "fr": "💼 137 nouveaux jobs étudiants/temps partiel (Australia, Canada, Germany, New Zealand)",
+    "pt": "💼 137 novas vagas meio período/estudante (Australia, Canada, Germany, New Zealand)",
+    "es": "💼 137 nuevos empleos de medio tiempo/estudiante (Australia, Canada, Germany, New Zealand)",
+    "de": "💼 137 neue Teilzeit-/Studentenjobs (Australia, Canada, Germany, New Zealand)",
+    "it": "💼 137 nuovi lavori part-time/studenti (Australia, Canada, Germany, New Zealand)",
+    "nl": "💼 137 nieuwe bijbaantjes/studentenbanen (Australia, Canada, Germany, New Zealand)",
+    "ru": "💼 137 новых вакансий с частичной занятостью (Australia, Canada, Germany, New Zealand)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "jobs:2026-11-23-164",

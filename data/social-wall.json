@@ -1,5 +1,5 @@
 {
- "version": "2026-11-23T23:09:59+07:00",
+ "version": "2026-11-24T01:36:38+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,123 @@
  },
  "items": [
   {
+   "id": "site:2026-11-24:site-04",
+   "kind": "marketing",
+   "date": "2026-11-24",
+   "title": "Free Mock Test Ielts & Pte",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Free%20Mock%20Test%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=mocktest",
+   "source": null,
+   "caption": "Mau tahu perkiraan skor IELTS atau PTE sebelum tes asli? Coba Free Mock Test lewat pricelist Talented. Info: https://linktr.ee/talentededucationgroup",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Free%20Mock%20Test%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Free%20Mock%20Test%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "program:2026-11-24:a",
+   "kind": "promo",
+   "date": "2026-11-24",
+   "title": "S1 Bisnis & Manajemen di Adelaide mulai AUD 11.520/trimester",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Kaplan%20Business%20School%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Kaplan%20Business%20School",
+   "source": null,
+   "caption": "🔥 S1 Bisnis & Manajemen di Adelaide mulai AUD 11.520/trimester! Info: https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kaplan%20Business%20School%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kaplan%20Business%20School%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "program:2026-11-24:n",
+   "kind": "promo",
+   "date": "2026-11-24",
+   "title": "S1 IT, Data & Cyber Security di Auckland mulai NZD 24.360/tahun",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIS%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Auckland%20Institute%20of%20Studies%20%28AIS%29%20-%20Auckland",
+   "source": null,
+   "caption": "🇳🇿 S1 IT, Data & Cyber Security di Auckland mulai NZD 24.360/tahun! Kuliah di New Zealand: kampus aman & ramah, boleh kerja paruh waktu sesuai aturan visa pelajar. Info: https://linktr.ee/talentededucationgroup",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIS%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIS%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "trust:2026-11-24",
+   "kind": "promo",
+   "date": "2026-11-24",
+   "title": "Konselor Tersertifikasi Pier - Talented Education Group",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com",
+   "source": null,
+   "caption": "✅ Konselor Talented tersertifikasi PIER Qualified Education Agent Counsellor (QEAC) #10224.",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:jp-mext-japanese-studies-teacher-training",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa baru: Beasiswa Pemerintah Jepang (MEXT) - Japanese Studies & Teacher Training (rekomendasi Kedutaan)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20MEXT%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Pemerintah%20Jepang%20%28MEXT%29%20-%20Japanese%20Studies%20%26%20Teacher%20Training%20%28rekomendasi%20Kedutaan%29",
+   "source": "https://www.id.emb-japan.go.jp/sch_js.html",
+   "caption": "Info beasiswa: Beasiswa Pemerintah Jepang (MEXT) - Japanese Studies & Teacher Training (rekomendasi Kedutaan). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info... https://linktr.ee/talentededucationgroup",
+   "country": "Jepang",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MEXT%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MEXT%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:jp-jasso-student-exchange-support",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa baru: JASSO Student Exchange Support Program (Scholarship for Study in Japan under Agreement)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20JASSO%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=JASSO%20Student%20Exchange%20Support%20Program%20%28Scholarship%20for%20Study%20in%20Japan%20under%20Agreement%29",
+   "source": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/ukeire.html",
+   "caption": "Info beasiswa: JASSO Student Exchange Support Program (Scholarship for Study in Japan under Agreement). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Jepang",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20JASSO%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20JASSO%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:jp-inpex-scholarship-indonesia",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa baru: INPEX Scholarship (Indonesia)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20INPEX%20Scholarship%20Foundation%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=INPEX%20Scholarship%20%28Indonesia%29",
+   "source": "https://www.inpex-s.com/en/scholarship-program/index.php",
+   "caption": "Info beasiswa: INPEX Scholarship (Indonesia). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Jepang",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20INPEX%20Scholarship%20Foundation%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20INPEX%20Scholarship%20Foundation%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:jp-frf-scholarship-indonesia",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa baru: FRF Scholarship for Studying in Japan (Indonesia)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Fast%20Retailing%20Foundation%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=FRF%20Scholarship%20for%20Studying%20in%20Japan%20%28Indonesia%29",
+   "source": "https://www.fastretailing-foundation.or.jp/eng/scholarships/indonesia.html",
+   "caption": "Info beasiswa: FRF Scholarship for Studying in Japan (Indonesia). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Jepang",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Fast%20Retailing%20Foundation%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Fast%20Retailing%20Foundation%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:jp-nomura-foundation-scholarship",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa baru: NOMURA FOUNDATION Scholarship for International Students",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Nomura%20Foundation%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=NOMURA%20FOUNDATION%20Scholarship%20for%20International%20Students",
+   "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html",
+   "caption": "Info beasiswa: NOMURA FOUNDATION Scholarship for International Students. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Jepang",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Nomura%20Foundation%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Nomura%20Foundation%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "program:2026-11-23:a",
    "kind": "promo",
    "date": "2026-11-23",
@@ -176,9 +293,9 @@
    "id": "program:2026-11-23:b",
    "kind": "promo",
    "date": "2026-11-23",
-   "title": "S2 Pendidikan & Mengajar di Perth mulai AUD 6.250/term",
+   "title": "S2 Pendidikan & Mengajar di Darwin mulai AUD 7.858/term",
    "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=CIHE%20Australia",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Charles%20Darwin%20University%20%28CDU%29",
    "source": null,
    "caption": "🇦🇺 Jurusan yang dibutuhkan di Australia: Pendidikan & Mengajar.\nMenurut Jobs and Skills Australia (Occupation Shortage List 2025), bidang kesehatan, pendidikan, konstruksi & trades termasuk yang masih kekurangan tenaga kerja. Info: https://linktr.ee/talentededucationgroup",
    "country": "AU",
@@ -223,32 +340,6 @@
    "country": "Hong Kong",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%202%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20HKSAR%20Beasiswa%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-21:a",
-   "kind": "promo",
-   "date": "2026-11-21",
-   "title": "Diploma Desain, Media & Seni di Melbourne mulai AUD 5.750/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIT%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Academy%20of%20Interactive%20Technology%20%28AIT%29",
-   "source": null,
-   "caption": "🔥 Diploma Desain, Media & Seni di Melbourne mulai AUD 5.750/term! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIT%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIT%20Promo%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-21:b",
-   "kind": "promo",
-   "date": "2026-11-21",
-   "title": "Certificate III Konstruksi, Teknik & Trades di Brisbane mulai AUD 2.083/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Everthought%20College%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Everthought%20College%20of%20Construction",
-   "source": null,
-   "caption": "🇦🇺 Jurusan yang dibutuhkan di Australia: Konstruksi, Teknik & Trades.\nMenurut Jobs and Skills Australia (Occupation Shortage List 2025), bidang kesehatan, pendidikan, konstruksi & trades termasuk yang masih kekurangan tenaga kerja. Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Everthought%20College%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Everthought%20College%20Promo%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:ae-murdoch-dubai-academic-merit|open",
@@ -366,32 +457,6 @@
    "country": "Singapura",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%203%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%203%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:au-aih-next-gen-award|open",
-   "kind": "scholarship",
-   "date": "2026-11-18",
-   "title": "Beasiswa dibuka: AIH Australian Next Gen Award (30%) (deadline 2026-12-31)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
-   "caption": "AIH Australian Next Gen Award (30%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Australia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:au-aih-global-access-award|open",
-   "kind": "scholarship",
-   "date": "2026-11-18",
-   "title": "Beasiswa dibuka: AIH Global Access Award (15%) (deadline 2026-12-31)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
-   "caption": "AIH Global Access Award (15%) sedang dibuka, pendaftaran ditutup 31 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Australia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Beasiswa%20November%202026%202%20Reel.mp4"
   }
  ]
 }

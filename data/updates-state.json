@@ -93,9 +93,14 @@
 "ie-goi-ies",
 "in-iccr-scholarship",
 "jp-adb-jsp",
+"jp-frf-scholarship-indonesia",
+"jp-inpex-scholarship-indonesia",
 "jp-jasso-honors-scholarship",
+"jp-jasso-student-exchange-support",
+"jp-mext-japanese-studies-teacher-training",
 "jp-mext-research-student",
 "jp-mext-undergraduate",
+"jp-nomura-foundation-scholarship",
 "kr-gks-graduate",
 "kr-gks-undergraduate",
 "my-mohe-mis",
@@ -2309,6 +2314,11 @@
 "jobs:2026-11-23-164",
 "scholarship:au-ecu-kickstart-bursary-2027|open",
 "news:au-485-fee-2026-03",
-"jobs:2026-11-23-137"
+"jobs:2026-11-23-137",
+"scholarship:jp-mext-japanese-studies-teacher-training",
+"scholarship:jp-jasso-student-exchange-support",
+"scholarship:jp-inpex-scholarship-indonesia",
+"scholarship:jp-frf-scholarship-indonesia",
+"scholarship:jp-nomura-foundation-scholarship"
 ]
 }

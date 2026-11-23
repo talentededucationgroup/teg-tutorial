@@ -324,6 +324,33 @@
    "license_url": "https://creativecommons.org/licenses/by/3.0",
    "country": "ES",
    "file": "social/photos/4358e9623c3d7157.jpg"
+  },
+  {
+   "place": "Tokyo skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan.jpg",
+   "author": "David Kernan",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "country": "JP",
+   "file": "social/photos/f7e3f0f18fe40d1c.jpg"
+  },
+  {
+   "place": "Kyoto",
+   "file_page": "https://commons.wikimedia.org/wiki/File:August_2007,_disaster_simulation_in_central_Kyoto_2.jpg",
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "JP",
+   "file": "social/photos/6e381690755011ed.jpg"
+  },
+  {
+   "place": "Tokyo skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Tokyo_Skyline_2.jpg",
+   "author": "pmorgan",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "JP",
+   "file": "social/photos/0a26e40516ae4a76.jpg"
   }
  ]
 }

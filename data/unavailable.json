@@ -1,6 +1,6 @@
 {
- "version": "2026-11-19",
- "updated_at": "2026-11-19T17:45:00+07:00",
+ "version": "2026-11-23",
+ "updated_at": "2026-11-23T16:00:00+07:00",
  "note": "Sekolah yang TIDAK lagi ditawarkan Talented. Website menyembunyikan programnya dari hasil cari & daftar, atau menampilkan label tidak tersedia bila dibuka lewat link lama.",
  "label": {
   "id": "Tidak tersedia",
@@ -51,8 +51,37 @@
    },
    "since": "2026-11-19",
    "source": "Keputusan pemilik Talented (sekolah tutup)"
+  },
+  {
+   "key": "ieu-malta",
+   "name": "International European University - Malta Campus",
+   "aliases": [
+    "International European University - Malta Campus",
+    "International European University Malta",
+    "IEU Malta"
+   ],
+   "cricos": [],
+   "reason": {
+    "id": "Tidak tersedia - izin kampus dicabut regulator (tidak menerima siswa baru).",
+    "en": "Not available - campus licence revoked by the regulator (not accepting new students).",
+    "th": "ไม่พร้อมให้บริการ - หน่วยงานกำกับดูแลเพิกถอนใบอนุญาตของวิทยาเขต (ไม่รับนักเรียนใหม่)",
+    "vi": "Không khả dụng - cơ quan quản lý đã thu hồi giấy phép của cơ sở (không nhận học viên mới).",
+    "zh": "暂不可用 - 该校区执照已被监管机构吊销（不再招收新生）。",
+    "ja": "受付停止 - 規制当局によりキャンパスの認可が取り消されました（新入生の受け入れなし）。",
+    "ko": "이용 불가 - 감독 기관이 캠퍼스 인가를 취소함 (신입생 모집 없음).",
+    "km": "មិនមាន - និយតករបានដកហូតអាជ្ញាប័ណ្ណសាខា (មិនទទួលសិស្សថ្មី)។",
+    "fr": "Non disponible - licence du campus révoquée par l'autorité de régulation (n'accepte plus de nouveaux étudiants).",
+    "pt": "Indisponível - licença do campus revogada pelo órgão regulador (não aceita novos alunos).",
+    "es": "No disponible - el regulador revocó la licencia del campus (no acepta nuevos estudiantes).",
+    "de": "Nicht verfügbar - Zulassung des Campus von der Aufsichtsbehörde widerrufen (keine neuen Studierenden).",
+    "it": "Non disponibile - licenza del campus revocata dall'autorità di regolamentazione (non accetta nuovi studenti).",
+    "nl": "Niet beschikbaar - vergunning van de campus ingetrokken door de toezichthouder (neemt geen nieuwe studenten aan).",
+    "ru": "Недоступно - регулятор отозвал лицензию кампуса (новых студентов не принимает)."
+   },
+   "since": "2026-11-23",
+   "source": "Malta Further & Higher Education Authority (MFHEA) mencabut izin, Agustus 2025 (berita 13/08/2025, dicek 23/11/2026)"
   }
  ],
- "match_rule": "Cocokkan CRICOS dulu, lalu nama/alias. Alias 'Evolution' hanya cocok bila nama sekolah diawali 'Evolution' (bukan nama program seperti 'Evolutionary Science').",
+ "match_rule": "Cocokkan CRICOS dulu, lalu nama/alias. Alias 'Evolution' hanya cocok bila nama sekolah diawali 'Evolution' (bukan nama program seperti 'Evolutionary Science'). Alias 'IEU Malta' / 'International European University' hanya untuk kampus Malta.",
  "copyright": "© 2026 Talented Education Group."
 }

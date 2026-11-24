@@ -1316,6 +1316,25 @@
    "cta": "app",
    "sig": "a29a414e7680",
    "rendered_at": "2026-11-25T06:18:27+07:00"
+  },
+  {
+   "no": 83,
+   "date": "2026-11-24",
+   "key": "scholarship:id-beasiswa-garuda-sarjana|open",
+   "file": "Talented Kemdiktisaintek RI Beasiswa November 2026.png",
+   "provider": "Kemdiktisaintek RI",
+   "layout": "J",
+   "palette": "P4",
+   "format": "Feed 4:5",
+   "layout_name": "Kolase polaroid",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "poppins",
+   "deco": "plus",
+   "cta": "pill",
+   "sig": "c6566068db09",
+   "rendered_at": "2026-11-25T06:28:17+07:00"
   }
  ]
 }

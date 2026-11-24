@@ -90,6 +90,7 @@
 "hk-belt-and-road-scholarship-hku|open",
 "hu-stipendium-hungaricum",
 "id-beasiswa-garuda-sarjana",
+"id-beasiswa-garuda-sarjana|open",
 "id-beasiswa-talenta-indonesia",
 "id-kemdiktisaintek-beasiswa-kemitraan-indonesia",
 "id-kemdiktisaintek-doktor-penyelesaian-studi",
@@ -2900,7 +2901,6 @@
 },
 "push_log": [],
 "pending": [
-"accommodation:2026-11-18-1",
 "scholarship:au-kbs-excellence-indonesia-2027|open",
 "jobs:2026-11-20-257",
 "jobs:2026-11-20-253",
@@ -2949,6 +2949,7 @@
 "scholarship:au-torrens-family-scholarship|open",
 "scholarship:ie-lpdp-ucd-scholarship-2027|open",
 "jobs:2026-11-24-180",
-"jobs:2026-11-25-235"
+"jobs:2026-11-25-235",
+"scholarship:id-beasiswa-garuda-sarjana|open"
 ]
 }

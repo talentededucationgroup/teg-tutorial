@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T06:23:52+07:00",
+ "version": "2026-11-25T06:28:12+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,45 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:id-beasiswa-garuda-sarjana|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: Beasiswa Garuda Sarjana (S1 Luar Negeri) (deadline 2027-01-04)",
+    "en": "🎓 Scholarship open: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "th": "🎓 เปิดรับทุน: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "vi": "🎓 Học bổng đang mở: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "zh": "🎓 奖学金开放申请：Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "ja": "🎓 奨学金募集中：Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "ko": "🎓 장학금 모집 중: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "fr": "🎓 Bourse ouverte : Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "pt": "🎓 Bolsa aberta: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "es": "🎓 Beca abierta: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "de": "🎓 Stipendium offen: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "it": "🎓 Borsa aperta: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "nl": "🎓 Beurs open: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)",
+    "ru": "🎓 Открыт приём на стипендию: Garuda Undergraduate Scholarship (Overseas Bachelor's) (deadline 2027-01-04)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Garuda%20Sarjana%20%28S1%20Luar%20Negeri%29",
+   "country": "Berbagai negara",
+   "provider": "Kemdiktisaintek RI (Ditjen Saintek), didanai LPDP",
+   "source": "https://beasiswagaruda.kemdiktisaintek.go.id/buku-panduan-pendaftaran-beasiswa-garuda-2027.pdf",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Dana pendidikan (SPP/tuition, biaya pendaftaran, tunjangan buku) dan dana pendukung (transport, visa, asuransi kesehatan, kedatangan, tunjangan hidup bulanan, dana darurat/force majeure)",
+    "amount": "",
+    "eligibility": "WNI siswa kelas 12 SMA/SMK/MA TA 2026/2027; rata-rata rapor semester 1-4 min. 85 (atau IB predicted 36 / A-Level AAA / ACT 28); IQ min. 120 dari biro psikologi PT binaan Kemdiktisaintek (akreditasi min. Baik, maks. 2 tahun); SAT min. 1200 atau ikut Tes Bakat Skolastik (min. 1000); surat sehat (termasuk tes buta warna) & bebas narkoba.",
+    "english_test": "IELTS 6.5 (min. 6.0 tiap band) / TOEFL iBT 86 / TOEFL ITP 550; atau bahasa negara tujuan (Prancis B2, Spanyol B1, HSK 4 skor 180, JLPT N3, Jerman C1)",
+    "deadline": "2027-01-04",
+    "notes": "Pendaftaran 2027 (tujuan luar negeri) DIBUKA 12 Nov 2026-4 Jan 2027 di beasiswalpdp-terintegrasi.kemenkeu.go.id. Tes Bakat Skolastik 18-22 Jan 2027; pengumuman seleksi administrasi 5 Feb 2027; wawancara penempatan menyusul. Pilih 6 kampus (1 AS/Kanada, 1 Australia/Selandia Baru, 2 Eropa, 2 Asia); kampus & program akhir ditentukan saat wawancara penempatan. Tidak perlu LoA saat mendaftar. Penerima dapat menunda keberangkatan maks. 1 tahun; wajib kembali & berkontribusi di Indonesia 2x masa studi. Contoh kampus mitra: University of Sheffield (Inggris) menerima lulusan SMA dari sekolah yang diakui Garuda langsung ke S1 tertentu (Geography, International Relations and Politics, Digital Media and Society, Sociology) dengan rata-rata rapor 88-95%; Teknik lewat Sheffield Engineering Foundation Year (rata-rata min. 90% + nilai Matematika & Biologi/Kimia/Fisika). Siswa dari sekolah non-Garuda dinilai per kasus setelah menerima beasiswa. Konsultasikan pilihan kampus dengan Talented."
+   }
+  },
   {
    "id": "jobs:2026-11-25-235",
    "kind": "jobs",

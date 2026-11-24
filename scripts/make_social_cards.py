@@ -1105,9 +1105,50 @@ def file_name(c, kind, date):
     return re.sub(r'\s+', ' ', nm).strip()
 
 
+def custom_poster(kind, title, key, provider, spec):
+    """Poster buatan khusus (social-posts.json design.poster = path PNG 1080x1350 di repo, footer standar wajib)."""
+    import shutil
+    src = os.path.join(ROOT, spec['poster'])
+    if not os.path.exists(src):
+        print('custom poster missing:', spec['poster']); return None
+    try:
+        log = json.load(open(LOG, encoding='utf-8'))
+    except Exception:
+        log = {"note": "LOG desain sosmed otomatis.", "items": []}
+    sig = hashlib.sha1(open(src, 'rb').read()).hexdigest()[:12]
+    rec = next((i for i in log['items'] if i.get('key') == key), None)
+    name = os.path.basename(src)
+    dst = os.path.join(OUT, name)
+    os.makedirs(OUT, exist_ok=True)
+    if rec and rec.get('sig') == sig and os.path.exists(dst):
+        return BASE + urllib.parse.quote(name)
+    shutil.copyfile(src, dst)
+    if not qa_qr(dst):
+        print('QA failed (QR) custom poster:', name); os.remove(dst); return None
+    for f in (dst[:-4] + ' Story.png', dst[:-4] + ' Reel.mp4'):
+        if os.path.exists(f):
+            os.remove(f)
+    try:
+        make_reel(make_story(dst))
+    except Exception as e:
+        print('story/reel skipped:', str(e)[:120])
+    new = {"no": (rec or {}).get('no') or len(log['items']) + 1, "date": datetime.date.today().isoformat(), "key": key, "file": name,
+           "provider": provider or '-', "layout": "CUSTOM", "palette": "-", "format": "Feed 4:5", "layout_name": "Poster khusus",
+           "photo": "tanpa foto", "v": 10, "credit": None, "sig": sig,
+           "rendered_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(timespec='seconds')}
+    if rec:
+        rec.update(new)
+    else:
+        log['items'].append(new)
+    json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    return BASE + urllib.parse.quote(name)
+
+
 def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None):
     from social_photos import get_photo
     os.makedirs(OUT, exist_ok=True)
+    if (spec or {}).get('poster'):
+        return custom_poster(kind, title, key, provider, spec)
     c = derive(kind, title, sub, country, provider, spec)
     sig = hashlib.sha1(json.dumps([kind, title, sub, provider, spec], ensure_ascii=False, sort_keys=True, default=str).encode()).hexdigest()[:12]
     lay, pal, log, known = pick_style(key, bool(c['hero']), bool(c['dl']))

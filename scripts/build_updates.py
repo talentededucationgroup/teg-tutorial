@@ -160,6 +160,23 @@ def collect():
     return out
 
 
+def wall_keep(live, n=24):
+    """Dinding website tidak boleh menyusut (pemilik 25/11/2026: 'kenapa sisa 2'): gabungkan dengan isi dinding sebelumnya
+    (yang sudah pernah lolos/tayang), urut terbaru, maksimal n; poster yang kini ditolak QA tetap dibuang."""
+    rv = (load('social-review.json', {}) or {}).get('items', {})
+    old = (load('social-wall.json', {}) or {}).get('items', [])
+    ids = {w['id'] for w in live}
+    try:
+        posted = {k.rsplit('|', 2)[0] for k in (load('buffer-sent.json', {}) or {}).get('sent', [])}
+    except Exception:
+        posted = set()
+    ok = lambda w: (rv.get(w.get('id'), {}).get('verdict') == 'LOLOS' or w.get('id') in posted
+                    or (rv.get(w.get('id'), {}).get('verdict') is None and (w.get('date') or '') < '2026-11-20'))
+    keep = [w for w in old if w.get('id') not in ids and ok(w)
+            and os.path.exists(os.path.join(ROOT, 'social', 'cards', urllib.parse.unquote(str(w.get('image', '')).rsplit('/', 1)[-1])))]
+    return sorted(live + keep, key=lambda w: (w.get('date') or '', w.get('id') or ''), reverse=True)[:n]
+
+
 def main():
     cur = collect()
     state = load('updates-state.json')
@@ -484,12 +501,16 @@ def write_rss(items):
     mode = (load('social-autopost.json', {}) or {}).get('mode')
     import urllib.parse as _u2
     live = []
+    try:
+        posted = {k.rsplit('|', 2)[0] for k in (load('buffer-sent.json', {}) or {}).get('sent', [])}
+    except Exception:
+        posted = set()
     for w_ in wall:
         if w_['date'] > TODAY:
             continue
         vd = rv.get(w_['id'], {}).get('verdict')
-        if mode == 'auto_reviewed' and rv and (vd not in (None, 'LOLOS') or (vd is None and w_['date'] >= '2026-11-20')):
-            continue  # 25/11/2026: poster baru tampil di website hanya setelah LOLOS QA (sama dengan sosmed)
+        if mode == 'auto_reviewed' and rv and w_['id'] not in posted and (vd not in (None, 'LOLOS') or (vd is None and w_['date'] >= '2026-11-20')):
+            continue  # 25/11/2026: poster baru tampil di website setelah LOLOS QA atau sudah tayang di sosmed
         base = w_['image'][:-4]
         fbase = os.path.join(ROOT, 'social', 'cards', _u2.unquote(base.rsplit('/', 1)[1]))
         w_['story'] = base + '%20Story.png' if os.path.exists(fbase + ' Story.png') else None
@@ -498,7 +519,7 @@ def write_rss(items):
     json.dump({"version": NOW.strftime('%Y-%m-%dT%H:%M:%S+07:00'),
                "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
                "labels": WALL_LABELS,
-               "items": live[:24]}, open(D('social-wall.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+               "items": wall_keep(live)}, open(D('social-wall.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     for fn, lst, ttl in (('social-feed-story.xml', out_story, 'Story 9:16'), ('social-feed-reels.xml', out_reel, 'Reels 9:16')):
         open(os.path.join(ROOT, fn), 'w', encoding='utf-8').write(
             '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'

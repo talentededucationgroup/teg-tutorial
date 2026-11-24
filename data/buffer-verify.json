@@ -1,6 +1,6 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-24T02:33:29+00:00",
+ "checked_at": "2026-11-24T06:21:06+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
@@ -14,8 +14,8 @@
    "text": "🔥 S1 Early Childhood & Community Services di Sydne"
   },
   "facebook|story": {
-   "sentAt": "2026-11-23T06:30:49.132Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjExNzczOTU0ODQ2NzYxODQ=/?view_single=1",
+   "sentAt": "2026-11-24T00:05:28.572Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjE2MTI5ODgyOTAwNzM3OTM=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {

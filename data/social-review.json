@@ -429,6 +429,314 @@
    "checked_at": "2026-11-24T07:15:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://info.talentededucationgroup.com/data/jobs.json"
+  },
+  "site:2026-11-24:site-04": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Isi cocok dengan data/site-promo.json (site-04) dan badges.json; logo Talented, Victory Scholars & PIER QEAC #10224 terlihat, tidak ada rahasia bisnis atau klaim jaminan.",
+    "Judul postingan tertulis 'Free Mock Test Ielts & Pte' (huruf kapital salah; seharusnya IELTS & PTE).",
+    "Promo fitur generik yang sudah sering muncul di footer setiap poster, jadi nilai barunya rendah."
+   ],
+   "fix": "Ganti judul menjadi 'Free Mock Test IELTS & PTE'; tambahkan link langsung https://pricelist.talentededucationgroup.com/?tab=mocktest di caption.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/site-promo.json; data/badges.json"
+  },
+  "program:2026-11-24:a": {
+   "verdict": "TOLAK",
+   "score": 3,
+   "reasons": [
+    "Situs resmi KBS (International Fees): Bachelor of Business AUD 2.880/subject (2026), 24 subject, total course AUD 69.120; 2027 = AUD 3.020/subject, total AUD 72.480.",
+    "AUD 11.520 = 4 subject x 2.880 (harga 2026), tetapi '± AUD 34.560/tahun x 3 tahun' menyiratkan ±AUD 103.680, padahal total resmi hanya AUD 69.120 (±AUD 23.040/tahun bila 3 tahun). Estimasi per tahun salah dan menyesatkan.",
+    "Harga 2026 dipakai tanpa label padahal tarif 2027 sudah terbit; caption terpotong ('/ PT'), dan nama program memuat teks '(Per Trimester or 4 months)'."
+   ],
+   "fix": "Perbaiki estimasi: sebutkan total resmi AUD 69.120 (2026) / AUD 72.480 (2027), lalu hitung per tahun yang benar sesuai beban studi; beri label tahun harga; lengkapi 'PTE 50'; rapikan nama program menjadi 'Bachelor of Business'.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://kbs.edu.au/future-students/international-fees"
+  },
+  "program:2026-11-24:n": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Flyer resmi AIS 2026: BIT NZD 22.000 per 120 credits (36 bulan), belum termasuk resource fee. Angka NZD 24.360 tampaknya termasuk resource fee, tetapi rinciannya tidak bisa dipastikan dari sumber resmi yang bisa dibuka (halaman program masih memakai tarif 2024).",
+    "Teks poster terpotong: 'Auckland Institute of Studies...' dan '36 bulan (360...'.",
+    "Harga tahun 2026 belum diberi label untuk intake 2027; 'Cyber Security' tidak tercantum sebagai major BIT (major-nya Software Development, Networks, Information Systems)."
+   ],
+   "fix": "Perpendek teks poster (mis. 'AIS Auckland · 3 tahun'); tulis 'Harga 2026 (termasuk resource fee)' sesuai sumber; ganti judul menjadi 'S1 IT' atau sebutkan major resmi.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://uploads.up.education/wp-content/uploads/2026/02/AIS-Scholarship-Flyer-2026-WEB-110226.pdf"
+  },
+  "trust:2026-11-24": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "QEAC #10224 cocok dengan data/badges.json (PIER Qualified Education Agent Counsellor #10224); logo terlihat dan tidak ada klaim jaminan.",
+    "Caption memakai 4 hashtag (batas maksimal 3).",
+    "Foto perpustakaan bergaya gotik (Wikimedia) tidak jelas kaitannya dengan Australia/NZ; topik kredensial sudah tampil di footer setiap poster."
+   ],
+   "fix": "Hapus satu hashtag (mis. #KuliahDiNewZealand); tambahkan link direktori resmi PIER untuk cek QEAC; pertimbangkan foto kampus AU/NZ.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/badges.json"
+  },
+  "jobs:2026-11-24-189": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Angka 189 cocok dengan data/jobs.json (189 item diambil 24/11: Germany 75, UK 45, Australia 28, Canada 15, Spain 11, France 10, Switzerland 5), tetapi daftar negara di judul hanya 4 nama A-Z dan tidak menyebut UK (45) atau negara lain.",
+    "Atribusi wajib 'Jobs by Adzuna' tidak ada di caption maupun poster.",
+    "Poster berjudul 'LOKER PART-TIME PELAJAR', padahal di data hanya ±21 yang tertulis part-time, ±40 full-time, dan sebagian besar tidak menyebut jenisnya. Unggahan loker serupa juga sudah berulang."
+   ],
+   "fix": "Tambahkan 'Jobs by Adzuna' di caption dan poster; tulis negara secara lengkap ('Jerman, Inggris, Australia, Kanada & lainnya'); ganti judul poster menjadi 'LOKER UNTUK PELAJAR (cek jenis kerja & batas jam visa)'.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
+  },
+  "scholarship:au-uon-vc-international-academic-merit-2027|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Sumber resmi newcastle.edu.au/scholarships/UNI_059 tidak bisa dibuka dari sesi QA (proxy 403), jadi fakta belum terverifikasi langsung; data/scholarships.json (cek 16/11/2026) mencatat potongan tuition 30%, S1 rank 85 / S2 GPA 4.5/7, maks. 270 penerima.",
+    "Caption terlalu umum: tidak menyebut besaran 30%, syarat nilai, atau bahwa beasiswa dinilai otomatis tanpa aplikasi, padahal ini poin paling menarik.",
+    "Poster rapi: logo Talented terlihat, teks tidak bertabrakan, tidak ada rahasia bisnis atau klaim jaminan; penutup & 3 hashtag sesuai."
+   ],
+   "fix": "Cek ulang halaman UNI_059, lalu tambahkan 1-2 kalimat: 'Potongan tuition 30% per tahun untuk S1/S2 mulai 2027, otomatis dinilai saat daftar (kuota terbatas).'",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.newcastle.edu.au/scholarships/UNI_059"
+  },
+  "scholarship:au-uon-global-access-grant-2027|open": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Sumber resmi UNI_061 tidak bisa dibuka dari sesi QA (proxy 403); menurut data/scholarships.json ini hibah tunai satu kali AUD 1.500, hanya untuk penerima beasiswa UON 2027 lain dan tinggal maks. 50 km dari kampus.",
+    "Caption 'sedang dibuka' tanpa penjelasan bisa menyesatkan: hibah ini tidak bisa dilamar terpisah dan bukan beasiswa kuliah.",
+    "Nilainya kecil dan sangat mirip dengan postingan UON VC Merit di batch yang sama; lebih cocok digabung."
+   ],
+   "fix": "Gabungkan ke postingan VC Merit sebagai bonus ('+ hibah tunai AUD 1.500 satu kali untuk penerima beasiswa UON 2027'), atau tulis syaratnya dengan jelas.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.newcastle.edu.au/scholarships/UNI_061"
+  },
+  "scholarship:au-cihe-deans-list|open": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Sumber resmi cihe.edu.au/scholarships tidak bisa dibuka (proxy 403); data internal mencatat halaman CIHE 'sedang diperbarui - konfirmasi ke CIHE'.",
+    "Beasiswa ini hanya untuk mahasiswa CIHE yang sudah kuliah (mulai semester 2, rata-rata HD/Distinction), jadi 'sedang dibuka' menyesatkan bagi calon siswa baru.",
+    "Poster rapi, logo Talented & CIHE terlihat, tanpa rahasia bisnis atau klaim jaminan."
+   ],
+   "fix": "Pastikan halaman CIHE masih memuat Dean's List, lalu ubah caption menjadi 'Kuliah di CIHE? Nilai rata-rata HD/Distinction bisa dapat potongan tuition 10-15% mulai semester 2', tanpa kata 'sedang dibuka'.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.cihe.edu.au/scholarships/"
+  },
+  "scholarship:sg-ntu-asean-undergraduate-scholarship|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Sumber resmi ntu.edu.sg tidak bisa dibuka dari sesi QA (proxy 403); deadline 20 Jan 2027 cocok dengan data/scholarships.json (cek 23/11/2026, periode admisi SMA Indonesia 15/10/2026-20/01/2027).",
+    "Beasiswa penuh yang menarik (tuition + SGD 5.800/tahun hidup + SGD 3.000 akomodasi), tetapi caption tidak menyebut nilainya dan tidak menyebut ikatan kerja 3 tahun (Tuition Grant).",
+    "Poster jelas, deadline benar, logo terlihat; negara non-AU/NZ tetapi relevan untuk lulusan SMA Indonesia."
+   ],
+   "fix": "Verifikasi halaman NTU, lalu tambahkan ringkasan nilai beasiswa dan catatan 'daftar admisi NTU dulu; ada ikatan kerja 3 tahun di Singapura (Tuition Grant)'.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship/asean-scholarship"
+  },
+  "scholarship:nl-university-of-twente-scholarship|open": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Sumber resmi utwente.nl tidak bisa dibuka dari sesi QA (proxy 403); deadline 1 Apr 2027 cocok dengan data/scholarships.json (cek 23/11/2026).",
+    "Poster tidak menyebut nama beasiswa atau kampus (hanya 'April 2027 1 Deadline' & 'Beasiswa kuliah di Belanda'), dan judul 'BEASISWA KULIAH DI BELANDA' bertabrakan dengan teks hak cipta.",
+    "Caption tidak menyebut nilai beasiswa (EUR 3.000-22.000/tahun, untuk S2 dan 5-10% lulusan terbaik)."
+   ],
+   "fix": "Tambahkan 'University of Twente Scholarship (S2)' di poster dan geser judul agar tidak menimpa teks hak cipta; di caption tambahkan nilai beasiswa & syarat S2.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
+  },
+  "scholarship:nl-leiden-excellence-scholarship|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Sumber resmi universiteitleiden.nl tidak bisa dibuka dari sesi QA (proxy 403); deadline 1 Des 2026 cocok dengan data/scholarships.json (cek 23/11/2026) dan tinggal 7 hari, jadi harus segera tayang bila lolos.",
+    "Foto poster memperlihatkan banner 'Study in Australia' padahal beasiswanya untuk Belanda, sehingga foto tidak sesuai tema.",
+    "Caption tidak menyebut nilai (EUR 10.000-19.000, S2, sekitar 25 penerima) dan langkah mendesak (daftar admisi dulu + motivation letter)."
+   ],
+   "fix": "Ganti foto dengan foto netral atau bertema Belanda; tambahkan nilai beasiswa dan 'Tenggat 1 Des 2026, daftar program Master Leiden dulu'. Tayangkan paling lambat 25-26/11.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs"
+  },
+  "scholarship:cn-yenching-academy-pku|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Judul, poster & caption (deadline 30 Nov 2026) cocok dengan data/scholarships.json (dicek 23/11/2026: tenggat 30 Nov 2026 pukul 09.00 Beijing = 08.00 WIB, fully funded S2 China Studies).",
+    "Halaman resmi yenchingacademy.pku.edu.cn tidak bisa dibuka di sesi QA ini (WebFetch/curl diblokir), jadi deadline belum terverifikasi ulang langsung; hasil pencarian (UCL, Okt 2026) mendukung bahwa pendaftaran sedang dibuka.",
+    "Tidak ada rahasia bisnis/klaim terlarang; logo terlihat, teks rapi. Foto latar booth TEG 'Study...' generik, tidak bertema Tiongkok.",
+    "Beasiswa penuh dengan tenggat 6 hari lagi = menarik, tetapi Tiongkok hanya selingan dan caption tidak menyebut nilai tambah (fully funded, syarat IELTS 7.0)."
+   ],
+   "fix": "Verifikasi ulang tenggat di halaman resmi sebelum tayang; tambahkan di caption 'beasiswa penuh (tuition, asrama, tunjangan, tiket PP)' dan 'tenggat 30 Nov 2026 pukul 08.00 WIB'; posting secepatnya (paling lambat 28-29/11).",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+  },
+  "scholarship:au-torrens-family-scholarship|open": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Data internal (scholarships.json, dicek 21/11/2026) menyebut potongan tuition 35% untuk anggota keluarga inti mahasiswa/lulusan Torrens; poster & caption tidak menyebut besaran maupun syarat keluarga, jadi informasinya tipis.",
+    "Halaman resmi torrens.edu.au tidak bisa dibuka di sesi QA ini, sehingga status 'sedang dibuka' belum terverifikasi ulang (sumber tidak bisa dibuka = REVISI).",
+    "Tidak ada rahasia bisnis/klaim terlarang; logo terlihat, teks tidak bertabrakan; lingkaran dekoratif menimpa judul sedikit tetapi masih terbaca.",
+    "Relevan Australia, tetapi sasarannya sempit (hanya yang punya keluarga di Torrens) dan tanpa tenggat."
+   ],
+   "fix": "Tambahkan di poster/caption 'Potongan tuition 35% untuk keluarga inti mahasiswa/lulusan Torrens' + syarat bukti hubungan keluarga; verifikasi ulang halaman resmi sebelum tayang.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships/family-scholarship"
+  },
+  "scholarship:ie-lpdp-ucd-scholarship-2027|open": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Deadline 1 Des 2026 cocok dengan data/scholarships.json (dicek 23/11/2026), tetapi halaman resmi ucd.ie tidak bisa dibuka di sesi QA ini untuk verifikasi ulang.",
+    "Caption tidak menyebut syarat kunci: pelamar wajib SUDAH memegang offer program Master UCD yang memenuhi syarat sebelum mengajukan via portal LPDP; dengan sisa 7 hari, tanpa info ini posting bisa memberi harapan yang keliru.",
+    "Poster: judul program terpotong ('Programme...'), wajah orang dari banner terlihat sebagian di kanan bawah (pastikan bukan foto siswa tanpa izin); logo terlihat, tidak ada rahasia bisnis.",
+    "Beasiswa penuh (100% tuition + stipend) menarik, tetapi Irlandia hanya selingan dan peluang realistis kecil karena tenggat sangat dekat."
+   ],
+   "fix": "Tambahkan di caption: 'Khusus yang sudah punya offer Master 1 tahun UCD (32 program teknik/sains/kesehatan); ajukan via portal LPDP paling lambat 1 Des 2026'; sebut 100% tuition + stipend; ganti/crop foto agar wajah orang di banner tidak terpotong.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp"
+  },
+  "scholarship:au-sihe-35-onshore": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Judul 'Beasiswa baru' dan poster '35% BEASISWA KULIAH DI AUSTRALIA' memberi kesan beasiswa sedang tersedia, padahal caption & data internal (dicek 23/11/2026) menyatakan belum dibuka: putaran terakhir hanya intake November 2026 (kuliah mulai 16/11/2026) dan belum ada pengumuman 2027.",
+    "Poster tidak menyebut status 'belum dibuka' maupun syarat onshore (harus sudah di Australia); berpotensi menyesatkan bila poster dibagikan tanpa caption.",
+    "Halaman resmi sydneyinstitute.edu.au tidak bisa dibuka di sesi QA ini (hasil pencarian Study Australia mendukung keberadaan beasiswa 35% Onshore).",
+    "Tidak ada rahasia bisnis; logo terlihat, teks rapi; foto Career Day TEG sesuai tema Australia."
+   ],
+   "fix": "Tunda sampai SIHE mengumumkan putaran intake 2027; bila tetap tayang, ubah judul jadi 'Info beasiswa' dan tambahkan label di poster 'Pendaftaran belum dibuka - khusus siswa yang sudah di Australia'.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://sydneyinstitute.edu.au/scholarships/"
+  },
+  "scholarship:id-kemendikdasmen-chevening": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Judul 'Beasiswa baru' kurang tepat: menurut data internal (dicek 23/11/2026) putaran pertama 4 Agu-6 Okt 2026 sudah ditutup dan putaran berikutnya belum diumumkan; poster tidak menyebut status ini.",
+    "Sasaran sangat sempit (guru/tenaga kependidikan dikdasmen, S2 bidang pendidikan) dan tidak disebut di caption maupun poster; negara Inggris hanya selingan.",
+    "Poster: teks 'Beasiswa Chevening-Kemendikdasmen...' bertabrakan dengan lingkaran foto; foto memperlihatkan peserta acara (sebagian wajah) - pastikan izin.",
+    "Halaman resmi kemendikdasmen.go.id tidak bisa dibuka di sesi QA ini untuk verifikasi ulang."
+   ],
+   "fix": "Tunda sampai putaran berikutnya diumumkan; bila tayang, sebut 'khusus guru & tenaga kependidikan, S2 Pendidikan di Inggris, putaran 2026 sudah ditutup' dan geser judul agar tidak menimpa foto.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.kemendikdasmen.go.id/siaran-pers/15928-kemendikdasmen-dan-pemerintah-inggris-hadirkan-beasiswa-chevening"
+  },
+  "scholarship:id-kemdiktisaintek-doktor-penyelesaian-studi": {
+   "verdict": "TOLAK",
+   "score": 1,
+   "reasons": [
+    "Poster berjudul 'BEASISWA KULIAH DI LUAR NEGERI' menyesatkan: program ini bantuan penyelesaian S3 khusus dosen PT di bawah Kemdiktisaintek yang sudah menjelang ujian (Skema 2 hanya dalam negeri), bukan beasiswa kuliah luar negeri untuk calon siswa.",
+    "Pendaftaran 2026 (4-11 Nov 2026) sudah ditutup menurut data internal, tetapi judul memakai 'Beasiswa baru'.",
+    "Poster: judul program terpotong dan menimpa foto; foto 'Study in Australia' tidak sesuai tema. Halaman resmi kemdiktisaintek.go.id tidak bisa dibuka di sesi QA ini.",
+    "Tidak relevan dengan audiens TEG (calon siswa AU/NZ)."
+   ],
+   "fix": "Jangan diposting; keluarkan dari antrean sosmed (relevansi rendah untuk audiens TEG).",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://kemdiktisaintek.go.id/announcement/article/penawaran-beasiswa-program-doktor-penyelesaian-studi-di-dalamluar-negeri-tahun-2026"
+  },
+  "scholarship:au-utas-tasmanian-aurora-excellence": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Sumber resmi UTAS tidak bisa dibuka dari sesi QA (izin akses tidak terjawab), jadi fakta belum terverifikasi; data lokal scholarships.json (cek 23/11/2026) mencatat potongan tuition 50%, ronde Semester 2 2027 tutup 30/04/2027, tanggal buka TBC.",
+    "Caption bertentangan dengan judul & poster: caption menulis 'jadwal berikutnya belum diumumkan', padahal poster/judul menampilkan deadline 30 April 2027.",
+    "Caption tidak menyebut besaran (potongan tuition 50%) dan syarat utama (rata-rata nilai min. 90% / setara ATAR 90), padahal itu daya tarik utamanya; poster juga tidak menyebut 50%.",
+    "Tidak ada rahasia bisnis atau klaim terlarang; logo Talented terlihat, hashtag 3."
+   ],
+   "fix": "Ganti kalimat status menjadi 'Ronde Semester 2 2027: tanggal buka belum diumumkan, tutup 30 April 2027 (ronde Semester 1 2027 sudah tutup 15/11/2026)'; tambahkan 'potongan tuition 50%' + syarat nilai ringkas di caption & poster; verifikasi ulang link UTAS sebelum posting. Pastikan foto meja pendaftaran bukan foto siswa yang wajahnya bisa dikenali tanpa izin.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-aurora-excellence-scholarship"
+  },
+  "scholarship:jp-mext-japanese-studies-teacher-training": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Sumber resmi Kedutaan Jepang tidak bisa dibuka dari sesi QA, fakta belum terverifikasi langsung (data lokal: JPY 117.000/bln Japanese Studies, JPY 143.000/bln Teacher Training, jadwal belum diumumkan).",
+    "Poster memuat logo 'VIA Education / VIA Hospitality' yang tidak ada hubungannya dengan MEXT/Kedutaan Jepang - menyesatkan seolah lembaga itu penyelenggara.",
+    "Teks poster terpotong/bertabrakan: 'Beasiswa Pemerintah Jepang (MEXT' tertimpa foto; caption terpotong menjadi 'Info... https://linktr.ee/...'.",
+    "Program non-gelar khusus mahasiswa jurusan Jepang / guru aktif - audiens sempit, bukan fokus AU/NZ."
+   ],
+   "fix": "Hapus logo VIA dari poster; perpendek subjudul (mis. 'MEXT Japanese Studies & Teacher Training') agar tidak tertimpa foto; perbaiki caption 'Info lengkap:'; tambahkan tunjangan bulanan & sasaran pelamar.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.id.emb-japan.go.jp/sch_js.html"
+  },
+  "scholarship:jp-jasso-student-exchange-support": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Sumber resmi JASSO tidak bisa dibuka dari sesi QA, fakta belum terverifikasi langsung.",
+    "Menurut data lokal, beasiswa ini tidak bisa dilamar perorangan (diajukan kampus Jepang lewat perjanjian pertukaran), tetapi caption menawarkan 'Tim Talented bisa bantu ... menyiapkan berkasnya' - berpotensi menyesatkan.",
+    "Judul poster terpotong ('Scholarship for Study in...'); caption tidak menyebut besaran JPY 80.000/bulan.",
+    "Relevansi rendah untuk fokus AU/NZ dan hanya untuk mahasiswa aktif dengan program pertukaran kampus."
+   ],
+   "fix": "Tambahkan 'JPY 80.000/bulan, hanya lewat program pertukaran kampus asal - tanyakan ke kantor internasional kampusmu' dan sesuaikan kalimat bantuan Talented; atau lewati postingan ini.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/ukeire.html"
+  },
+  "scholarship:jp-inpex-scholarship-indonesia": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Sumber resmi INPEX tidak bisa dibuka dari sesi QA, fakta belum terverifikasi langsung.",
+    "Caption terlalu generik: tidak menyebut S2 STEM, beasiswa penuh + JPY 160.000/bulan, kuota Indonesia maks. 4, dan bahwa siklus 2027 sudah ditutup 31/10/2026 (periode lamaran historis 1 Agu - 31 Okt).",
+    "Poster rapi, logo Talented terlihat, tidak ada rahasia bisnis atau klaim terlarang; foto gedung bata bukan Jepang secara khusus (foto Eugene, AS) - kurang cocok tema."
+   ],
+   "fix": "Tambahkan ringkasan: S2 STEM di Jepang, beasiswa penuh + JPY 160.000/bulan, perlu LOA calon profesor, siklus berikutnya biasanya Agustus-Oktober; ganti foto dengan suasana Jepang.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.inpex-s.com/en/scholarship-program/index.php"
+  },
+  "scholarship:jp-frf-scholarship-indonesia": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Sumber resmi Fast Retailing Foundation tidak bisa dibuka dari sesi QA, fakta belum terverifikasi langsung.",
+    "Caption tidak menyebut nilai beasiswa (penuh, maks. JPY 4.500.000/tahun, S1 di universitas Jepang yang ditunjuk) dan pola jadwal (siklus sebelumnya 1 Juli - 1 September).",
+    "Judul poster terpotong ('FRF Scholarship for Studying in Japan...'); area tengah poster kosong. Tidak ada rahasia bisnis/klaim terlarang."
+   ],
+   "fix": "Tambahkan besaran & jenjang (S1 penuh di Jepang, khusus Indonesia/Vietnam/Filipina) serta 'biasanya dibuka Juli'; perpendek judul poster agar tidak terpotong.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.fastretailing-foundation.or.jp/eng/scholarships/indonesia.html"
+  },
+  "scholarship:jp-nomura-foundation-scholarship": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Sumber resmi Nomura Foundation tidak bisa dibuka dari sesi QA, fakta belum terverifikasi langsung.",
+    "Audiens sangat sempit (S2/S3 humaniora/sosial di 6 universitas Jepang, wajib lancar bahasa Jepang, lamaran berbahasa Jepang) dan siklus 2027 sudah tutup 30/09/2026; caption tidak menyebut apa pun dari ini.",
+    "Judul poster terpotong ('Scholarship for...') dan blok putih poster sebagian besar kosong; foto (Eugene, AS) tidak menggambarkan Jepang."
+   ],
+   "fix": "Bila tetap diposting: tambahkan JPY 200.000/bulan selama 2 tahun, 6 universitas, syarat bahasa Jepang & jadwal biasanya September; isi ruang kosong poster dan ganti foto. Lebih baik ditunda/digabung dalam postingan ringkasan beasiswa Jepang.",
+   "checked_at": "2026-11-24T14:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html"
   }
  }
 }

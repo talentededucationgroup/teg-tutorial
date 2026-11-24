@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T01:36:57+07:00",
+ "version": "2026-11-25T03:21:42+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -173,6 +173,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
   },
   {
+   "id": "post:2026-11-25-pathway-2-negara",
+   "kind": "marketing",
+   "date": "2026-11-25",
+   "title": "Pathway 2 Negara: kampus universitas Australia di Malaysia & Singapura, opsi pindah ke Australia",
+   "image": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara.png",
+   "link": "https://pricelist.talentededucationgroup.com/sekolah-lain/",
+   "source": null,
+   "caption": "Pathway 2 Negara: mulai kuliah di kampus resmi universitas Australia di Malaysia atau Singapura, lalu ada opsi pindah ke kampus di Australia. Cek pilihannya: https://pricelist.talentededucationgroup.com/sekolah-lain/",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara%20Reel.mp4"
+  },
+  {
    "id": "program:2026-11-25:a",
    "kind": "promo",
    "date": "2026-11-25",
@@ -314,19 +327,6 @@
    "country": "Swiss",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "post:2026-w47-ais",
-   "kind": "marketing",
-   "date": "2026-11-20",
-   "title": "Beasiswa 15% semua program di AIS Auckland",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Auckland%20Institute%20of%20Studies",
-   "source": "https://uploads.up.education/wp-content/uploads/2026/02/AIS-Scholarship-Flyer-2026-WEB-110226.pdf",
-   "caption": "Beasiswa 15% tuition untuk semua program di Auckland Institute of Studies (AIS), Auckland. Bachelor of Business jadi sekitar NZD 9.350 per semester. Info: https://linktr.ee/talentededucationgroup",
-   "country": "NZ",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Auckland%20Institute%20Program%20November%202026%20Reel.mp4"
   }
  ]
 }

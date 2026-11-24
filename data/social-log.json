@@ -1249,6 +1249,22 @@
    "cta": "sticker",
    "sig": "1374dcf1be52",
    "rendered_at": "2026-11-25T01:37:11+07:00"
+  },
+  {
+   "no": 79,
+   "date": "2026-11-24",
+   "key": "post:2026-11-25-pathway-2-negara",
+   "file": "pathway-2-negara.png",
+   "provider": "Talented Education Group",
+   "layout": "CUSTOM",
+   "palette": "-",
+   "format": "Feed 4:5",
+   "layout_name": "Poster khusus",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "sig": "114d591e57ab",
+   "rendered_at": "2026-11-25T03:21:46+07:00"
   }
  ]
 }

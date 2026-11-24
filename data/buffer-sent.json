@@ -86,7 +86,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-24T14:50:21.861574+00:00",
+"last_run": "2026-11-24T15:06:55.861157+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -173,7 +173,15 @@
 }
 },
 "waiting_review": [
-"jobs:2026-11-24-180"
+"jobs:2026-11-24-180",
+"news:au-485-fee-2026-03",
+"program:2026-11-22:a",
+"program:2026-11-23:a",
+"program:2026-11-23:b",
+"program:2026-11-24:a",
+"scholarship:cn-yenching-academy-pku|open",
+"scholarship:ie-lpdp-ucd-scholarship-2027|open",
+"scholarship:nl-leiden-excellence-scholarship|open"
 ],
 "daily_other": {
 "2026-11-22": [],

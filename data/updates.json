@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T06:18:21+07:00",
+ "version": "2026-11-25T06:23:52+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -2331,30 +2331,35 @@
    "date": "2026-11-16",
    "priority": 2,
    "title": {
-    "id": "📰 Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 16 Nov 2026",
-    "en": "📰 New Zealand: Short-Term Graduate Work Visa (6 months) opens 16 Nov 2026",
-    "th": "📰 นิวซีแลนด์: วีซ่าทำงานระยะสั้นสำหรับผู้สำเร็จการศึกษา (6 เดือน) เปิด 16 พ.ย. 2026",
-    "vi": "📰 New Zealand: thị thực làm việc ngắn hạn cho sinh viên tốt nghiệp (6 tháng) mở từ 16/11/2026",
-    "zh": "📰 新西兰:短期毕业生工作签证(6个月)2026年11月16日开放",
-    "ja": "📰 ニュージーランド:短期卒業生ワークビザ(6か月)2026年11月16日開始",
-    "ko": "📰 뉴질랜드: 단기 졸업생 취업비자(6개월) 2026년 11월 16일 시행",
-    "km": "📰 នូវែលសេឡង់៖ ទិដ្ឋាការការងារខ្លីសម្រាប់និស្សិតបញ្ចប់ការសិក្សា (6 ខែ) បើក 16 វិច្ឆិកា 2026",
-    "fr": "📰 Nouvelle-Zélande : visa de travail court pour diplômés (6 mois) ouvert le 16 nov. 2026",
-    "pt": "📰 Nova Zelândia: visto de trabalho curto para graduados (6 meses) a partir de 16 nov 2026",
-    "es": "📰 Nueva Zelanda: visa de trabajo corta para graduados (6 meses) desde el 16 nov 2026",
-    "de": "📰 Neuseeland: Kurzzeit-Arbeitsvisum für Absolventen (6 Monate) ab 16. Nov. 2026",
-    "it": "📰 Nuova Zelanda: visto di lavoro breve per laureati (6 mesi) dal 16 nov 2026",
-    "nl": "📰 Nieuw-Zeeland: kortlopend werkvisum voor afgestudeerden (6 maanden) vanaf 16 nov 2026",
-    "ru": "📰 Новая Зеландия: краткосрочная рабочая виза для выпускников (6 мес.) с 16 нояб. 2026"
+    "id": "📰 Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 23 Nov 2026 (ditunda dari 16 Nov)",
+    "en": "📰 New Zealand: Short-Term Graduate Work Visa (6 months) opened 23 Nov 2026 (delayed from 16 Nov)",
+    "th": "📰 นิวซีแลนด์: เปิด Short-Term Graduate Work Visa (6 เดือน) 23 พ.ย. 2026 (เลื่อนจาก 16 พ.ย.)",
+    "vi": "📰 New Zealand: mở Short-Term Graduate Work Visa (6 tháng) từ 23/11/2026 (hoãn từ 16/11)",
+    "zh": "📰 新西兰:短期毕业生工作签证(6个月)于2026年11月23日开放(由11月16日推迟)",
+    "ja": "📰 ニュージーランド:Short-Term Graduate Work Visa(6か月)2026年11月23日開始(11月16日から延期)",
+    "ko": "📰 뉴질랜드: Short-Term Graduate Work Visa(6개월) 2026년 11월 23일 시작(11월 16일에서 연기)",
+    "km": "📰 នូវែលសេឡង់៖ បើក Short-Term Graduate Work Visa (6 ខែ) 23 វិច្ឆិកា 2026 (ពន្យារពី 16 វិច្ឆិកា)",
+    "fr": "📰 Nouvelle-Zélande : Short-Term Graduate Work Visa (6 mois) ouvert le 23 nov. 2026 (reporté du 16 nov.)",
+    "pt": "📰 Nova Zelândia: Short-Term Graduate Work Visa (6 meses) aberto em 23 nov 2026 (adiado de 16 nov)",
+    "es": "📰 Nueva Zelanda: Short-Term Graduate Work Visa (6 meses) abierto el 23 nov 2026 (aplazado del 16 nov)",
+    "de": "📰 Neuseeland: Short-Term Graduate Work Visa (6 Monate) seit 23. Nov. 2026 (verschoben vom 16. Nov.)",
+    "it": "📰 Nuova Zelanda: Short-Term Graduate Work Visa (6 mesi) aperto dal 23 nov 2026 (rinviato dal 16 nov)",
+    "nl": "📰 Nieuw-Zeeland: Short-Term Graduate Work Visa (6 maanden) open sinds 23 nov 2026 (uitgesteld van 16 nov)",
+    "ru": "📰 Новая Зеландия: Short-Term Graduate Work Visa (6 месяцев) открыта с 23 нояб. 2026 (перенос с 16 нояб.)"
    },
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
+   "source": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
    "category": "work",
-   "effective": "2026-11-16",
+   "effective": "2026-11-23",
    "facts": {
-    "summary": "Untuk lulusan kualifikasi NZQCF Level 5-7 (min. 24 minggu full-time di NZ) yang tidak memenuhi syarat Post-Study Work Visa. Memberi 6 bulan izin kerja terbuka; ajukan maks. 3 bulan setelah visa pelajar berakhir; perlu dana hidup NZD 5.000."
+    "summary": "INZ menunda mulai berlakunya dari 16 ke 23 Nov 2026 karena gangguan global Microsoft (Amendment Circular 2026-36). Untuk lulusan kualifikasi NZQCF Level 5-7 (min. 24 minggu full-time di NZ) yang tidak memenuhi syarat Post-Study Work Visa. Memberi 6 bulan izin kerja terbuka; ajukan maks. 3 bulan setelah visa pelajar berakhir; perlu dana hidup NZD 5.000."
+   },
+   "fee_checked": "2026-11-25",
+   "card": {
+    "headline": "VISA KERJA LULUSAN NZ 6 BULAN",
+    "hero": "NZD 5.000"
    }
   },
   {
@@ -2363,30 +2368,30 @@
    "date": "2026-11-16",
    "priority": 2,
    "title": {
-    "id": "📰 Selandia Baru: syarat Post-Study Work Visa diperluas mulai 16 Nov 2026",
-    "en": "📰 New Zealand: Post-Study Work Visa eligibility extended from 16 Nov 2026",
-    "th": "📰 นิวซีแลนด์: ขยายสิทธิ์ Post-Study Work Visa ตั้งแต่ 16 พ.ย. 2026",
-    "vi": "📰 New Zealand: mở rộng điều kiện Post-Study Work Visa từ 16/11/2026",
-    "zh": "📰 新西兰:2026年11月16日起放宽 Post-Study Work Visa 资格",
-    "ja": "📰 ニュージーランド:2026年11月16日から Post-Study Work Visa の対象拡大",
-    "ko": "📰 뉴질랜드: 2026년 11월 16일부터 Post-Study Work Visa 자격 확대",
-    "km": "📰 នូវែលសេឡង់៖ ពង្រីកលក្ខខណ្ឌ Post-Study Work Visa ចាប់ពី 16 វិច្ឆិកា 2026",
-    "fr": "📰 Nouvelle-Zélande : éligibilité au Post-Study Work Visa élargie dès le 16 nov. 2026",
-    "pt": "📰 Nova Zelândia: elegibilidade ao Post-Study Work Visa ampliada a partir de 16 nov 2026",
-    "es": "📰 Nueva Zelanda: se amplía la elegibilidad del Post-Study Work Visa desde el 16 nov 2026",
-    "de": "📰 Neuseeland: Post-Study Work Visa ab 16. Nov. 2026 erweitert",
-    "it": "📰 Nuova Zelanda: requisiti del Post-Study Work Visa ampliati dal 16 nov 2026",
-    "nl": "📰 Nieuw-Zeeland: Post-Study Work Visa ruimer vanaf 16 nov 2026",
-    "ru": "📰 Новая Зеландия: расширены условия Post-Study Work Visa с 16 нояб. 2026"
+    "id": "📰 Selandia Baru: syarat Post-Study Work Visa diperluas, berlaku 23 Nov 2026 (ditunda dari 16 Nov)",
+    "en": "📰 New Zealand: Post-Study Work Visa eligibility extended, in effect 23 Nov 2026 (delayed from 16 Nov)",
+    "th": "📰 นิวซีแลนด์: ขยายสิทธิ์ Post-Study Work Visa มีผล 23 พ.ย. 2026 (เลื่อนจาก 16 พ.ย.)",
+    "vi": "📰 New Zealand: mở rộng điều kiện Post-Study Work Visa, áp dụng từ 23/11/2026 (hoãn từ 16/11)",
+    "zh": "📰 新西兰:Post-Study Work Visa 资格放宽,2026年11月23日生效(由11月16日推迟)",
+    "ja": "📰 ニュージーランド:Post-Study Work Visa の対象拡大、2026年11月23日施行(11月16日から延期)",
+    "ko": "📰 뉴질랜드: Post-Study Work Visa 자격 확대, 2026년 11월 23일 시행(11월 16일에서 연기)",
+    "km": "📰 នូវែលសេឡង់៖ ពង្រីកលក្ខខណ្ឌ Post-Study Work Visa មានប្រសិទ្ធភាព 23 វិច្ឆិកា 2026 (ពន្យារពី 16 វិច្ឆិកា)",
+    "fr": "📰 Nouvelle-Zélande : éligibilité au Post-Study Work Visa élargie, en vigueur le 23 nov. 2026 (reporté du 16 nov.)",
+    "pt": "📰 Nova Zelândia: elegibilidade ao Post-Study Work Visa ampliada, em vigor em 23 nov 2026 (adiado de 16 nov)",
+    "es": "📰 Nueva Zelanda: se amplía la elegibilidad del Post-Study Work Visa, vigente desde el 23 nov 2026 (aplazado del 16 nov)",
+    "de": "📰 Neuseeland: Post-Study Work Visa erweitert, gültig ab 23. Nov. 2026 (verschoben vom 16. Nov.)",
+    "it": "📰 Nuova Zelanda: requisiti del Post-Study Work Visa ampliati, in vigore dal 23 nov 2026 (rinviato dal 16 nov)",
+    "nl": "📰 Nieuw-Zeeland: Post-Study Work Visa ruimer, geldig vanaf 23 nov 2026 (uitgesteld van 16 nov)",
+    "ru": "📰 Новая Зеландия: расширены условия Post-Study Work Visa, действуют с 23 нояб. 2026 (перенос с 16 нояб.)"
    },
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
+   "source": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
    "category": "work",
-   "effective": "2026-11-16",
+   "effective": "2026-11-23",
    "facts": {
-    "summary": "Lulusan Graduate Diploma Level 7 yang sudah punya gelar sarjana (dari NZ atau luar negeri) kini bisa mendapat PSWV hingga 1 tahun (sesuai lama studi). Postgraduate Diploma (L8) hingga 1 tahun, Master (L9) hingga 3 tahun; min. 30 minggu studi full-time di NZ."
+    "summary": "INZ menunda mulai berlakunya dari 16 ke 23 Nov 2026 karena gangguan global Microsoft (Amendment Circular 2026-36). Lulusan Graduate Diploma Level 7 yang sudah punya gelar sarjana (dari NZ atau luar negeri) kini bisa mendapat PSWV hingga 1 tahun (sesuai lama studi). Postgraduate Diploma (L8) hingga 1 tahun, Master (L9) hingga 3 tahun; min. 30 minggu studi full-time di NZ."
    }
   },
   {

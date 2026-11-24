@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-24T00:08:39+00:00",
+ "checked_at": "2026-11-24T02:33:29+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-24T00:05:28.572Z",
-   "link": "https://www.facebook.com/104126648347814",
-   "text": ""
+   "sentAt": "2026-11-24T02:30:34.600Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1743128974489933",
+   "text": "Vice-Chancellor's International Academic Merit Sch"
   },
   "facebook|reel": {
    "sentAt": "2026-11-24T00:05:09.117Z",
@@ -19,14 +19,14 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-23T02:28:24.768Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpESDhyUV9BUE9mQk9lREx1Z01LWlZn",
-   "text": "Beasiswa 15% tuition untuk semua program di Auckla"
+   "sentAt": "2026-11-24T02:29:52.704Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDotUjg5c0xPVzdic3hYRHVOZXhlb293",
+   "text": "Vice-Chancellor's International Academic Merit Sch"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-23T07:09:33.020Z",
-   "link": "https://www.instagram.com/p/DgEz2q4EaZD/",
-   "text": "2027 ECU Kickstart Bursary sedang dibuka, pendafta"
+   "sentAt": "2026-11-24T02:30:36.395Z",
+   "link": "https://www.instagram.com/p/DgG4uzIjqGa/",
+   "text": "Vice-Chancellor's International Academic Merit Sch"
   },
   "instagram|reel": {
    "sentAt": "2026-11-24T00:06:10.655Z",
@@ -39,9 +39,9 @@
    "text": ""
   },
   "linkedin|feed": {
-   "sentAt": "2026-11-23T02:28:50.283Z",
-   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530457301082628096",
-   "text": "Belt and Road Scholarship (HKSAR Government Schola"
+   "sentAt": "2026-11-24T02:30:21.154Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530820069497573376",
+   "text": "Vice-Chancellor's International Academic Merit Sch"
   },
   "tiktok|reel": {
    "sentAt": "2026-11-24T00:06:32.215Z",
@@ -49,9 +49,9 @@
    "text": "🔥 S1 Early Childhood & Community Services di Sydne"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-23T06:30:23.421Z",
-   "link": "https://x.com/1511766381762531332/status/2124752400854475046",
-   "text": "Cari Akomodasi Pelajar https://pricelist.talentede"
+   "sentAt": "2026-11-24T02:29:57.568Z",
+   "link": "https://x.com/1511766381762531332/status/2125054272295293307",
+   "text": "Beasiswa dibuka: Vice-Chancellor's International A"
   },
   "youtube|reel": {
    "sentAt": "2026-11-24T00:04:59.556Z",

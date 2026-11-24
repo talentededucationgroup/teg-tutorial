@@ -39,6 +39,14 @@
 "scholarship:au-aih-next-gen-award|open|reel|6aff3a05ece6dfde5f22802a",
 "scholarship:au-ecu-kickstart-bursary-2027|open|feed|6aff3157ece6dfde5f2203ab",
 "scholarship:au-ecu-kickstart-bursary-2027|open|feed|6aff319cece6dfde5f2206b4",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3157ece6dfde5f2203ab",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff319cece6dfde5f2206b4",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff32d7ece6dfde5f22151d",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3328ece6dfde5f221865",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba1",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba2",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba3",
+"scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba4",
 "scholarship:fr-eiffel-excellence|open|feed|6aff3328ece6dfde5f221865",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff32d7ece6dfde5f22151d",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3328ece6dfde5f221865",
@@ -78,7 +86,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-24T00:04:39.135582+00:00",
+"last_run": "2026-11-24T02:29:15.755609+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -153,10 +161,24 @@
 "6aff319cece6dfde5f2206b4|reel": 1,
 "6aff3157ece6dfde5f2203ab|reel": 1,
 "6aff319cece6dfde5f2206b4|story": 1,
-"6aff3157ece6dfde5f2203ab|story": 1
+"6aff3157ece6dfde5f2203ab|story": 1,
+"6aff3375ece6dfde5f221ba4|feed": 1,
+"6aff3375ece6dfde5f221ba3|feed": 1,
+"6aff3375ece6dfde5f221ba2|feed": 1,
+"6aff3375ece6dfde5f221ba1|feed": 1,
+"6aff3328ece6dfde5f221865|feed": 1,
+"6aff32d7ece6dfde5f22151d|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1
 }
 },
-"waiting_review": [],
+"waiting_review": [
+"jobs:2026-11-24-189",
+"program:2026-11-24:a",
+"program:2026-11-24:n",
+"site:2026-11-24:site-04",
+"trust:2026-11-24"
+],
 "daily_other": {
 "2026-11-22": [],
 "2026-11-23": [
@@ -169,7 +191,9 @@
 "scholarship:": []
 },
 "2026-11-24": {
-"scholarship:": []
+"scholarship:": [
+"scholarship:au-uon-vc-international-academic-merit-2027|open"
+]
 }
 }
 }

@@ -487,8 +487,9 @@ def write_rss(items):
     for w_ in wall:
         if w_['date'] > TODAY:
             continue
-        if mode == 'auto_reviewed' and rv and rv.get(w_['id'], {}).get('verdict') not in (None, 'LOLOS'):
-            continue
+        vd = rv.get(w_['id'], {}).get('verdict')
+        if mode == 'auto_reviewed' and rv and (vd not in (None, 'LOLOS') or (vd is None and w_['date'] >= '2026-11-20')):
+            continue  # 25/11/2026: poster baru tampil di website hanya setelah LOLOS QA (sama dengan sosmed)
         base = w_['image'][:-4]
         fbase = os.path.join(ROOT, 'social', 'cards', _u2.unquote(base.rsplit('/', 1)[1]))
         w_['story'] = base + '%20Story.png' if os.path.exists(fbase + ' Story.png') else None

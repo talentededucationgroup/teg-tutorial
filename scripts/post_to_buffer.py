@@ -295,6 +295,10 @@ def main():
         if jit:
             base += int(hashlib.sha1((i['guid'] + NOW.date().isoformat()).encode()).hexdigest()[:6], 16) % (2 * jit + 1) - jit
         return base + (int(q) - 3) * 10 if isinstance(q, (int, float)) else base, -(NOW - i['pub']).total_seconds()
+    try:
+        rendered = {r['key']: r.get('rendered_at') for r in load(os.path.join(ROOT, 'data', 'social-log.json'), {}).get('items', []) if r.get('rendered_at')}
+    except Exception:
+        rendered = {}
     oth_day = sent.setdefault('daily_other', {}).setdefault(NOW.date().isoformat(), [])
     oth_max = int(cf.get('other_max_per_day', 1))
     kinds_order = {'reel': 0, 'feed': 1, 'story': 2}
@@ -343,6 +347,10 @@ def main():
                 cfg['_draft'] = False  # official scholarship/immigration news: post at once (owner 20/11/2026), QA checks afterwards
             elif auto:
                 rv = reviews['items'].get(i['guid'])
+                ra = rendered.get(i['guid'])
+                if rv and ra and str(rv.get('checked_at') or '') < ra:
+                    print('QA stale (kartu dibuat ulang setelah dicek):', i['guid'])
+                    rv = None  # isi/kartu berubah setelah QA: tunggu verdict baru
                 if not rv and kind == 'feed' and OAI:
                     try:
                         rv = review(i, cfg); reviews['items'][i['guid']] = rv

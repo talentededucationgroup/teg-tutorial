@@ -290,7 +290,12 @@ def fit_person(im, Wb, Hb):
     s = max(Wb / iw, Hb / ih); cx, top = iw / 2, 0
     try:
         import cv2, numpy as np
-        xml = os.path.join(cv2.data.haarcascades, 'haarcascade_frontalface_default.xml')
+        # OpenCV 5 tidak lagi membawa file cascade: pakai salinan di repo (24/11/2026), cadangan dari paket cv2
+        xml = os.path.join(ROOT, 'assets', 'cv', 'haarcascade_frontalface_default.xml')
+        if not os.path.exists(xml):
+            xml = os.path.join(cv2.data.haarcascades, 'haarcascade_frontalface_default.xml')
+        if not os.path.exists(xml):
+            print('PERINGATAN: deteksi wajah tidak aktif (file cascade tidak ada)')
         g = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2GRAY)
         f = cv2.CascadeClassifier(xml).detectMultiScale(g, 1.1, 5, minSize=(40, 40))
         if len(f):
@@ -1104,6 +1109,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     from social_photos import get_photo
     os.makedirs(OUT, exist_ok=True)
     c = derive(kind, title, sub, country, provider, spec)
+    sig = hashlib.sha1(json.dumps([kind, title, sub, provider, spec], ensure_ascii=False, sort_keys=True, default=str).encode()).hexdigest()[:12]
     lay, pal, log, known = pick_style(key, bool(c['hero']), bool(c['dl']))
     set_palette(pal)
     sty = set_style(key)
@@ -1112,12 +1118,16 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     if known:
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
-        if os.path.exists(p) and rec.get('v') in (9, 10):
+        # pengaman 24/11/2026 (poster CIHE tertimpa caption CDU): kartu lama hanya dipakai ulang bila isinya sama
+        if os.path.exists(p) and rec.get('v') in (9, 10) and rec.get('sig', sig) == sig:
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
                 except Exception as e:
                     print('story/reel skipped:', str(e)[:120])
+            if 'sig' not in rec:
+                rec['sig'] = sig
+                json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
             return BASE + urllib.parse.quote(rec['file'])
     # quality gate (owner 19/11/2026: 'lebih profesional, lebih natural'): only REAL photos of people/campus -
     # provider brochure photos, or Talented's own photos (social/library/talented-umum) for general posts.
@@ -1129,8 +1139,14 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         p_, c_ = get_photo(country or 'ANY', key, 'Topik ' + spec['topic'])
         if p_ is not None:
             photo, credit, topic_ok = p_, c_, True
+    from social_photos import code as _ccode
     if not topic_ok and not (credit and 'Wikimedia' not in credit):
-        photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
+        # foto umum Talented (booth/banner 'Study in Australia') hanya untuk konten AU/NZ/umum - QA 24/11/2026:
+        # beasiswa Belanda/Tiongkok/Irlandia tampil dengan banner Australia
+        if _ccode(country) in ('AU', 'NZ', 'ANY') or kind not in ('scholarship', 'news'):
+            photo, credit = get_photo(country or 'ANY', key, 'Talented Umum')
+        else:
+            photo, credit = None, None
         if not (credit and 'Wikimedia' not in credit) and kind in ('news', 'scholarship', 'promo'):
             # topic photo (curated CC0/PD/CC BY, no lettering) - owner 20/11/2026; fallback: typography card.
             # Scholarships/promos must post on the day they open (owner 20/11/2026), so they never wait for a provider photo.
@@ -1174,7 +1190,8 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
            "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 10, "credit": credit,
-           "font": sty['font'], "deco": sty['deco'], "cta": sty['cta']}
+           "font": sty['font'], "deco": sty['deco'], "cta": sty['cta'], "sig": sig,
+           "rendered_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(timespec='seconds')}
     if known:
         for i in log['items']:
             if i.get('key') == key:

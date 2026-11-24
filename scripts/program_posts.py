@@ -105,9 +105,11 @@ def posts(now, closing, back_days=3):
     out = []
     # sekolah yang dipakai 14 hari terakhir (dihitung ulang secara deterministik)
     hist = {}
-    start = now.date() - datetime.timedelta(days=16)
+    # titik awal TETAP (bukan now-16 hari) supaya pilihan sekolah per hari tidak bergeser antar build
+    # (24/11/2026: program:2026-11-23:b berubah dari CIHE ke CDU, poster lama tertimpa caption baru)
+    start = datetime.date(2026, 11, 1)
     used = []
-    for k in range(0, 17):
+    for k in range(0, (now.date() - start).days + 1):
         day = start + datetime.timedelta(days=k)
         for slot, level, field, city in slots(day):
             ex = set(u for d0, u in used if (day - d0).days < 14)

@@ -14,11 +14,9 @@
  "reviewer_model": "gpt-4o",
  "review_note": "Sejak 20/11/2026 reviewer = Claude (tugas terjadwal 'QA postingan sosmed', 3x sehari).",
  "instant_prefixes": [
-  "news:",
-  "scholarship:",
   "video:"
  ],
- "instant_note": "Beasiswa & berita imigrasi resmi langsung masuk antrean Buffer tanpa menunggu QA (keputusan pemilik 20/11/2026: wajib jadi yang pertama posting). Data sumbernya sudah diverifikasi dari situs resmi oleh tugas harian; QA Claude tetap memeriksa sesudahnya dan putusan REVISI/TOLAK menghentikan kiriman berikutnya.",
+ "instant_note": "24/11/2026 (pemilik: 'make sure tidak terjadi kesalahan lagi'): beasiswa & berita TIDAK lagi tayang tanpa QA. Item terjadwal 09.00 dicek QA pagi (06.11) sebelum jam tayang, lalu langsung tayang saat jamnya tiba. Sebelumnya (20/11): news/scholarship instant.",
  "story_video": true,
  "story_video_note": "Story IG & FB diposting sebagai video 9:16 bermusik (Reel) bila tersedia, selain itu gambar Story (pemilik 21/11/2026). WhatsApp Status tidak punya API: dibagikan lewat Kit Tim. X & LinkedIn tidak punya fitur Story: mendapat postingan feed. TikTok mendapat video Reel.",
  "post_mode": "now",

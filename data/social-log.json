@@ -13,7 +13,8 @@
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "Foto: Auckland Institute of Studies",
    "v": 9,
-   "credit": "Foto: Auckland Institute of Studies"
+   "credit": "Foto: Auckland Institute of Studies",
+   "sig": "4a9beb25bacf"
   },
   {
    "no": 2,
@@ -405,7 +406,8 @@
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "38b66ba5bbb3"
   },
   {
    "no": 30,
@@ -419,7 +421,8 @@
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "a309d84b45ba"
   },
   {
    "no": 31,
@@ -475,7 +478,8 @@
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "acb615350356"
   },
   {
    "no": 35,
@@ -517,7 +521,8 @@
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "1be98248cf51"
   },
   {
    "no": 38,
@@ -531,7 +536,8 @@
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "229f5e9a613a"
   },
   {
    "no": 39,
@@ -545,35 +551,8 @@
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
-  },
-  {
-   "no": 40,
-   "date": "2026-11-23",
-   "key": "news:au-485-fee-2026-03",
-   "file": "Talented Australia Info Visa November 2026 2.png",
-   "provider": "-",
-   "layout": "H",
-   "palette": "P1",
-   "format": "Feed 4:5",
-   "layout_name": "Tipografi bertumpuk + cap",
-   "photo": "tanpa foto",
-   "v": 9,
-   "credit": null
-  },
-  {
-   "no": 41,
-   "date": "2026-11-23",
-   "key": "program:2026-11-23:a",
-   "file": "Talented Victoria University Promo November 2026.png",
-   "provider": "Victoria University",
-   "layout": "H",
-   "palette": "P3",
-   "format": "Feed 4:5",
-   "layout_name": "Tipografi bertumpuk + cap",
-   "photo": "tanpa foto",
-   "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "35ab22cdfbc9"
   },
   {
    "no": 42,
@@ -587,21 +566,8 @@
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
    "v": 9,
-   "credit": null
-  },
-  {
-   "no": 43,
-   "date": "2026-11-23",
-   "key": "program:2026-11-22:a",
-   "file": "Talented University of Canberra Promo November 2026.png",
-   "provider": "University of Canberra",
-   "layout": "B",
-   "palette": "P6",
-   "format": "Feed 4:5",
-   "layout_name": "Foto penuh + panel",
-   "photo": "tanpa foto",
-   "v": 9,
-   "credit": null
+   "credit": null,
+   "sig": "2ffb19365c3a"
   },
   {
    "no": 44,
@@ -646,24 +612,8 @@
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
    "font": "anton",
    "deco": "grid",
-   "cta": "ticket"
-  },
-  {
-   "no": 47,
-   "date": "2026-11-23",
-   "key": "program:2026-11-24:a",
-   "file": "Talented Kaplan Business School Promo November 2026.png",
-   "provider": "Kaplan Business School",
-   "layout": "F",
-   "palette": "N6",
-   "format": "Feed 4:5",
-   "layout_name": "Tiket boarding pass",
-   "photo": "Foto: Kaplan Business School (brosur resmi)",
-   "v": 10,
-   "credit": "Foto: Kaplan Business School (brosur resmi)",
-   "font": "poppins",
-   "deco": "plus",
-   "cta": "pill"
+   "cta": "ticket",
+   "sig": "d55af9c74159"
   },
   {
    "no": 48,
@@ -680,7 +630,8 @@
    "credit": "Foto: Auckland Institute of Studies (AIS) - Auckland",
    "font": "mont",
    "deco": "rings",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "88d82bb36dac"
   },
   {
    "no": 49,
@@ -697,7 +648,8 @@
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
    "font": "anton",
    "deco": "grid",
-   "cta": "app"
+   "cta": "app",
+   "sig": "bf18cc457cec"
   },
   {
    "no": 50,
@@ -714,7 +666,8 @@
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
    "font": "poppins",
    "deco": "plus",
-   "cta": "ticket"
+   "cta": "ticket",
+   "sig": "53927d7592c1"
   },
   {
    "no": 51,
@@ -731,7 +684,8 @@
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
    "font": "mont",
    "deco": "dots",
-   "cta": "pill"
+   "cta": "pill",
+   "sig": "75a3c03e91c0"
   },
   {
    "no": 52,
@@ -748,7 +702,8 @@
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
    "font": "anton",
    "deco": "rings",
-   "cta": "app"
+   "cta": "app",
+   "sig": "8c9ce1bbbc73"
   },
   {
    "no": 53,
@@ -765,7 +720,8 @@
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
    "font": "poppins",
    "deco": "plus",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "0a562345f5ea"
   },
   {
    "no": 54,
@@ -782,7 +738,8 @@
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
    "font": "mont",
    "deco": "dots",
-   "cta": "ticket"
+   "cta": "ticket",
+   "sig": "1905df89c651"
   },
   {
    "no": 55,
@@ -799,7 +756,8 @@
    "credit": null,
    "font": "anton",
    "deco": "stripes",
-   "cta": "app"
+   "cta": "app",
+   "sig": "8465bba7a71a"
   },
   {
    "no": 56,
@@ -816,7 +774,8 @@
    "credit": null,
    "font": "poppins",
    "deco": "arc",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "d7ab07f76bd0"
   },
   {
    "no": 57,
@@ -833,7 +792,8 @@
    "credit": null,
    "font": "mont",
    "deco": "blob",
-   "cta": "split"
+   "cta": "split",
+   "sig": "f349c0641383"
   },
   {
    "no": 58,
@@ -850,7 +810,8 @@
    "credit": null,
    "font": "anton",
    "deco": "none",
-   "cta": "pill"
+   "cta": "pill",
+   "sig": "60bd4c05dca5"
   },
   {
    "no": 59,
@@ -901,7 +862,8 @@
    "credit": null,
    "font": "anton",
    "deco": "none",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "5c43cafb7406"
   },
   {
    "no": 62,
@@ -918,7 +880,8 @@
    "credit": null,
    "font": "poppins",
    "deco": "arc",
-   "cta": "app"
+   "cta": "app",
+   "sig": "48303f036957"
   },
   {
    "no": 63,
@@ -935,7 +898,8 @@
    "credit": null,
    "font": "mont",
    "deco": "rings",
-   "cta": "ticket"
+   "cta": "ticket",
+   "sig": "8bf089f601fc"
   },
   {
    "no": 64,
@@ -952,7 +916,8 @@
    "credit": null,
    "font": "anton",
    "deco": "dots",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "31a3de52d0b0"
   },
   {
    "no": 65,
@@ -969,7 +934,8 @@
    "credit": null,
    "font": "poppins",
    "deco": "stripes",
-   "cta": "pill"
+   "cta": "pill",
+   "sig": "4da2b74853b6"
   },
   {
    "no": 66,
@@ -986,41 +952,8 @@
    "credit": null,
    "font": "mont",
    "deco": "plus",
-   "cta": "split"
-  },
-  {
-   "no": 67,
-   "date": "2026-11-23",
-   "key": "scholarship:nl-leiden-excellence-scholarship|open",
-   "file": "Talented Universiteit Leiden Beasiswa November 2026.png",
-   "provider": "Universiteit Leiden",
-   "layout": "E",
-   "palette": "N5",
-   "format": "Feed 4:5",
-   "layout_name": "Majalah/editorial",
-   "photo": "tanpa foto",
-   "v": 10,
-   "credit": null,
-   "font": "anton",
-   "deco": "grid",
-   "cta": "app"
-  },
-  {
-   "no": 68,
-   "date": "2026-11-23",
-   "key": "scholarship:cn-yenching-academy-pku|open",
-   "file": "Talented Yenching Academy Beasiswa November 2026.png",
-   "provider": "Yenching Academy",
-   "layout": "K",
-   "palette": "N11",
-   "format": "Feed 4:5",
-   "layout_name": "Foto penuh + harga besar di bawah",
-   "photo": "tanpa foto",
-   "v": 10,
-   "credit": null,
-   "font": "poppins",
-   "deco": "stripes",
-   "cta": "pill"
+   "cta": "split",
+   "sig": "ba28518da6e5"
   },
   {
    "no": 69,
@@ -1037,24 +970,8 @@
    "credit": null,
    "font": "mont",
    "deco": "rings",
-   "cta": "ticket"
-  },
-  {
-   "no": 70,
-   "date": "2026-11-23",
-   "key": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
-   "file": "Talented UCD Beasiswa November 2026.png",
-   "provider": "UCD",
-   "layout": "B",
-   "palette": "N4",
-   "format": "Feed 4:5",
-   "layout_name": "Foto penuh + panel",
-   "photo": "tanpa foto",
-   "v": 10,
-   "credit": null,
-   "font": "anton",
-   "deco": "none",
-   "cta": "split"
+   "cta": "ticket",
+   "sig": "6441376da746"
   },
   {
    "no": 71,
@@ -1071,7 +988,8 @@
    "credit": null,
    "font": "poppins",
    "deco": "dots",
-   "cta": "app"
+   "cta": "app",
+   "sig": "8f0b90833199"
   },
   {
    "no": 72,
@@ -1088,7 +1006,8 @@
    "credit": null,
    "font": "mont",
    "deco": "blob",
-   "cta": "sticker"
+   "cta": "sticker",
+   "sig": "0c29b62b1e57"
   },
   {
    "no": 73,
@@ -1105,7 +1024,8 @@
    "credit": null,
    "font": "anton",
    "deco": "arc",
-   "cta": "split"
+   "cta": "split",
+   "sig": "fc592067c454"
   },
   {
    "no": 74,
@@ -1122,7 +1042,8 @@
    "credit": null,
    "font": "poppins",
    "deco": "grid",
-   "cta": "pill"
+   "cta": "pill",
+   "sig": "aca0711b8911"
   },
   {
    "no": 76,
@@ -1139,7 +1060,141 @@
    "credit": null,
    "font": "mont",
    "deco": "rings",
-   "cta": "app"
+   "cta": "app",
+   "sig": "0f262daa4740"
+  },
+  {
+   "no": 69,
+   "date": "2026-11-24",
+   "key": "program:2026-11-24:a",
+   "file": "Talented CDU Promo November 2026 2.png",
+   "provider": "CDU",
+   "layout": "F",
+   "palette": "N1",
+   "format": "Feed 4:5",
+   "layout_name": "Tiket boarding pass",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "anton",
+   "deco": "arc",
+   "cta": "ticket",
+   "sig": "471e8ad34401",
+   "rendered_at": "2026-11-24T22:02:43+07:00"
+  },
+  {
+   "no": 70,
+   "date": "2026-11-24",
+   "key": "scholarship:nl-leiden-excellence-scholarship|open",
+   "file": "Talented Universiteit Leiden Beasiswa November 2026.png",
+   "provider": "Universiteit Leiden",
+   "layout": "H",
+   "palette": "N8",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "Foto: Szalax / Wikimedia Commons, CC0",
+   "v": 10,
+   "credit": "Foto: Szalax / Wikimedia Commons, CC0",
+   "font": "poppins",
+   "deco": "grid",
+   "cta": "pill",
+   "sig": "68705ae168d4",
+   "rendered_at": "2026-11-24T22:02:49+07:00"
+  },
+  {
+   "no": 71,
+   "date": "2026-11-24",
+   "key": "scholarship:cn-yenching-academy-pku|open",
+   "file": "Talented Yenching Academy Beasiswa November 2026.png",
+   "provider": "Yenching Academy",
+   "layout": "K",
+   "palette": "N12",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + harga besar di bawah",
+   "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
+   "v": 10,
+   "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "app",
+   "sig": "883890c5062a",
+   "rendered_at": "2026-11-24T22:02:57+07:00"
+  },
+  {
+   "no": 72,
+   "date": "2026-11-24",
+   "key": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
+   "file": "Talented UCD Beasiswa November 2026.png",
+   "provider": "UCD",
+   "layout": "G",
+   "palette": "N3",
+   "format": "Feed 4:5",
+   "layout_name": "Kalender deadline",
+   "photo": "Foto: Szalax / Wikimedia Commons, CC0",
+   "v": 10,
+   "credit": "Foto: Szalax / Wikimedia Commons, CC0",
+   "font": "anton",
+   "deco": "none",
+   "cta": "ticket",
+   "sig": "57f22819734e",
+   "rendered_at": "2026-11-24T22:03:03+07:00"
+  },
+  {
+   "no": 74,
+   "date": "2026-11-24",
+   "key": "program:2026-11-23:a",
+   "file": "Talented UTAS Promo November 2026.png",
+   "provider": "UTAS",
+   "layout": "J",
+   "palette": "N6",
+   "format": "Feed 4:5",
+   "layout_name": "Kolase polaroid",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "mont",
+   "deco": "rings",
+   "cta": "app",
+   "sig": "939790b575d8",
+   "rendered_at": "2026-11-24T22:03:15+07:00"
+  },
+  {
+   "no": 75,
+   "date": "2026-11-24",
+   "key": "program:2026-11-22:a",
+   "file": "Talented Laurus Higher Education Promo November 2026.png",
+   "provider": "Laurus Higher Education",
+   "layout": "H",
+   "palette": "P1",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "Foto: Laurus Higher Education",
+   "v": 10,
+   "credit": "Foto: Laurus Higher Education",
+   "font": "anton",
+   "deco": "grid",
+   "cta": "pill",
+   "sig": "504360dd7cf6",
+   "rendered_at": "2026-11-24T22:03:21+07:00"
+  },
+  {
+   "no": 75,
+   "date": "2026-11-24",
+   "key": "news:au-485-fee-2026-03",
+   "file": "Talented Australia Info Visa November 2026 2.png",
+   "provider": "-",
+   "layout": "E",
+   "palette": "P2",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "poppins",
+   "deco": "plus",
+   "cta": "sticker",
+   "sig": "eddc9edafdbf",
+   "rendered_at": "2026-11-24T22:03:52+07:00"
   }
  ]
 }

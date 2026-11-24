@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T21:50:17+07:00",
+ "version": "2026-11-24T22:04:18+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -149,7 +149,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20International%20Academic%20Merit%20Scholarship%202027",
    "country": "Australia",
    "provider": "University of Newcastle",
-   "source": "https://www.newcastle.edu.au/scholarships/UNI_059"
+   "source": "https://www.newcastle.edu.au/scholarships/UNI_059",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition tahunan, diterapkan pro-rata tiap term",
+    "amount": "Potongan tuition 30%",
+    "eligibility": "Mahasiswa internasional full-fee mulai Trimester 1 2027 atau setelahnya; S1 min. selection rank 85 (atau setara), S2 min. GPA 4.5/7.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Tanpa aplikasi; otomatis dinilai saat mendaftar. Maksimal 270 beasiswa di 2027, setelah itu masuk daftar tunggu. Tanggal tutup tidak dicantumkan."
+   }
   },
   {
    "id": "scholarship:au-uon-global-access-grant-2027|open",
@@ -177,7 +189,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Global%20Access%20Grant%202027",
    "country": "Australia",
    "provider": "University of Newcastle",
-   "source": "https://www.newcastle.edu.au/scholarships/UNI_061"
+   "source": "https://www.newcastle.edu.au/scholarships/UNI_061",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Hibah tunai satu kali setelah census date periode studi pertama",
+    "amount": "AUD 1.500 (satu kali)",
+    "eligibility": "Mahasiswa internasional full-fee penerima International Excellence, Vice-Chancellor's Academic Merit, atau Excelencia Internacional Scholarship 2027; mulai Trimester 1/Semester 1 2027; tinggal maks. 50 km dari kampus.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Tanpa aplikasi; dicantumkan di Letter of Offer. Tidak untuk program online/offshore atau riset."
+   }
   },
   {
    "id": "scholarship:au-cihe-deans-list|open",
@@ -205,7 +229,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=CIHE%20Dean%27s%20List%20Scholarship",
    "country": "Australia",
    "provider": "Crown Institute of Higher Education (CIHE)",
-   "source": "https://www.cihe.edu.au/scholarships/"
+   "source": "https://www.cihe.edu.au/scholarships/",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition per semester mulai semester kedua",
+    "amount": "Potongan tuition 15% (rata-rata HD) atau 10% (rata-rata Distinction)",
+    "eligibility": "Mahasiswa internasional aktif (continuing) di CIHE dengan rata-rata High Distinction/Distinction; harus dipertahankan tiap semester.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Untuk mahasiswa yang sudah kuliah di CIHE; tanpa tenggat tercantum. Halaman sedang diperbarui - konfirmasi ke CIHE."
+   }
   },
   {
    "id": "scholarship:sg-ntu-asean-undergraduate-scholarship|open",
@@ -233,7 +269,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=NTU%20ASEAN%20Undergraduate%20Scholarship",
    "country": "Singapura",
    "provider": "Nanyang Technological University (NTU) Singapura",
-   "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship/asean-scholarship"
+   "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship/asean-scholarship",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Tuition bersubsidi (setelah Tuition Grant) penuh, tunjangan hidup, tunjangan akomodasi, tunjangan komputer sekali",
+    "amount": "SGD 5.800/tahun (hidup) + SGD 3.000/tahun (akomodasi) + SGD 1.750 (komputer, sekali)",
+    "eligibility": "WNI/PR negara ASEAN (selain Singapura) dengan prestasi akademik sangat baik (mis. Ijazah SMA/A-Level/IB), kegiatan ko-kurikuler dan potensi kepemimpinan; wajib CGPA min. 3,5/5,0 selama studi; ikatan kerja 3 tahun (MOE Tuition Grant).",
+    "english_test": "Sesuai syarat admisi NTU",
+    "deadline": "2027-01-20",
+    "notes": "Pendaftaran beasiswa mengikuti periode admisi; untuk Ijazah SMA Indonesia periode admisi 15 Okt 2026-20 Jan 2027. Daftar admisi dulu, lalu ajukan beasiswa."
+   }
   },
   {
    "id": "scholarship:nl-university-of-twente-scholarship|open",
@@ -261,7 +308,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=University%20of%20Twente%20Scholarship%20%28UTS%29",
    "country": "Belanda",
    "provider": "University of Twente, Belanda",
-   "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
+   "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan biaya studi tahun pertama; dapat diperpanjang tahun kedua untuk program 2 tahun jika memenuhi syarat kemajuan studi",
+    "amount": "EUR 3.000 - 22.000 per tahun",
+    "eligibility": "Mahasiswa non-EU/EEA (termasuk WNI) yang sudah diterima (bersyarat) di program Master UT mulai September 2027, termasuk 5-10% terbaik di angkatannya, bukan lulusan UT.",
+    "english_test": "Sesuai syarat program UT",
+    "deadline": "2027-04-01",
+    "notes": "Formulir dibuka 15 Okt 2026 09:00 CET dan ditutup 1 Apr 2027 16:00 CET; hasil minggu pertama Mei 2027. Daftar Master dulu untuk mendapat nomor mahasiswa."
+   }
   },
   {
    "id": "scholarship:nl-leiden-excellence-scholarship|open",
@@ -289,7 +347,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Leiden%20University%20Excellence%20Scholarship%20%28LExS%29",
    "country": "Belanda",
    "provider": "Universiteit Leiden, Belanda",
-   "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs"
+   "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan sebagian tuition",
+    "amount": "EUR 10.000 / 15.000 / 17.500 / 18.500 / 19.000",
+    "eligibility": "Pemegang paspor non-EEA/EFTA (termasuk WNI), sekitar 10% lulusan terbaik, mendaftar program Master Leiden mulai September; belum memiliki gelar Master Leiden. Sekitar 25 penerima per tahun.",
+    "english_test": "Sesuai syarat program",
+    "deadline": "2026-12-01",
+    "notes": "Tenggat 1 Des 2026 (halaman tidak menyebut tahun akademik secara eksplisit; program mulai September). Ajukan admisi dulu (proses hingga 3 hari kerja), lalu lengkapi bagian beasiswa + motivation letter maks. 500 kata. Notifikasi akhir Maret."
+   }
   },
   {
    "id": "scholarship:cn-yenching-academy-pku|open",
@@ -317,7 +386,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Yenching%20Academy%20Scholarship%20-%20Peking%20University",
    "country": "Tiongkok",
    "provider": "Yenching Academy, Peking University",
-   "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+   "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Tuition, akomodasi, tunjangan bulanan, satu kali tiket pesawat PP, biaya studi lapangan",
+    "amount": "",
+    "eligibility": "Minimal S1 bidang apa pun (atau mahasiswa tingkat akhir yang lulus paling lambat Agustus tahun masuk), prestasi akademik unggul, minat kuat pada studi Tiongkok, serta prestasi kepemimpinan/kemasyarakatan.",
+    "english_test": "IELTS Academic 7,0 / TOEFL iBT 100 / Cambridge C1 Advanced 185 (dikecualikan bagi penutur asli atau lulusan program berbahasa Inggris)",
+    "deadline": "2026-11-30",
+    "notes": "Tenggat kandidat internasional 30 Nov 2026 pukul 09.00 waktu Beijing (08.00 WIB). Tenggat sangat dekat."
+   }
   },
   {
    "id": "scholarship:au-torrens-family-scholarship|open",
@@ -345,7 +425,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Torrens%20University%20Family%20Scholarship",
    "country": "Australia",
    "provider": "Torrens University Australia",
-   "source": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships/family-scholarship"
+   "source": "https://www.torrens.edu.au/how-to-apply/fees-scholarships/scholarships/international-scholarships/family-scholarship",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition selama masa studi (hanya tuition)",
+    "amount": "Potongan tuition 35%",
+    "eligibility": "Pendaftar internasional baru S1/S2 yang merupakan anggota keluarga inti (pasangan, de facto, orang tua, anak, saudara kandung) dari mahasiswa Torrens saat ini, calon mahasiswa yang mendaftar dan mulai bersamaan, atau lulusan Torrens dalam 6 bulan terakhir; wajib bukti hubungan keluarga.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Isi Scholarship Application Form dan lampirkan bukti hubungan keluarga (akta nikah, akta lahir, atau statutory declaration) dalam bahasa Inggris/terjemahan tersertifikasi. Wajib beban studi penuh waktu 1 EFTSL per 12 bulan; hanya mata kuliah percobaan pertama. Pindah program dapat menggugurkan beasiswa. Tanggal tutup tidak dicantumkan."
+   }
   },
   {
    "id": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
@@ -373,7 +465,55 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=LPDP-UCD%20Scholarship%20Programme%20%28Co-Funding%29",
    "country": "Irlandia",
    "provider": "University College Dublin (UCD) & LPDP (Kemenkeu RI)",
-   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp"
+   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Beasiswa 100% tuition dan stipend untuk biaya hidup di Dublin",
+    "amount": "",
+    "eligibility": "WNI, berstatus non-EU untuk biaya kuliah, sudah memegang offer program Master taught 1 tahun yang memenuhi syarat di UCD (offer wajib diterima sebelum mengajukan beasiswa), studi di Dublin dan tidak ada bagian program yang diberikan institusi lain.",
+    "english_test": "Sesuai syarat masuk program UCD (tidak disebutkan di halaman beasiswa)",
+    "deadline": "2026-12-01",
+    "notes": "Bagian dari 7 program LPDP Co-Funding tahap 4 2026. Daftar program UCD dulu sampai dapat offer, lalu ajukan beasiswa via portal LPDP paling lambat 1 Des 2026. Wawancara kandidat terpilih 25 Jan-11 Feb 2027; pengumuman akhir April 2027. Daftar program dapat berubah. Kontak: internationalscholarships@ucd.ie."
+   }
+  },
+  {
+   "id": "news:au-485-fee-2026-03",
+   "kind": "news",
+   "date": "2026-11-24",
+   "priority": 2,
+   "title": {
+    "id": "📰 Australia: biaya visa Temporary Graduate (subclass 485) kini AUD 5.750 sejak 1 Jul 2026",
+    "en": "📰 Australia: Temporary Graduate visa (subclass 485) fee is now AUD 5,750 since 1 Jul 2026",
+    "th": "📰 ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) เป็น AUD 5,750 ตั้งแต่ 1 ก.ค. 2026",
+    "vi": "📰 Úc: lệ phí visa Temporary Graduate (subclass 485) nay là AUD 5.750 từ 1/7/2026",
+    "zh": "📰 澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年7月1日起费用为 AUD 5,750",
+    "ja": "📰 オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年7月1日から AUD 5,750",
+    "ko": "📰 호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 7월 1일부터 AUD 5,750",
+    "km": "📰 អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) ឥឡូវ AUD 5,750 ចាប់ពី 1 កក្កដា 2026",
+    "fr": "📰 Australie : le visa Temporary Graduate (subclass 485) coûte désormais AUD 5 750 depuis le 1er juil. 2026",
+    "pt": "📰 Austrália: taxa do visto Temporary Graduate (subclass 485) agora é AUD 5.750 desde 1º jul. 2026",
+    "es": "📰 Australia: la tasa del visado Temporary Graduate (subclass 485) es ahora AUD 5.750 desde el 1 jul. 2026",
+    "de": "📰 Australien: Gebühr für das Temporary Graduate Visum (subclass 485) beträgt seit 1. Juli 2026 AUD 5.750",
+    "it": "📰 Australia: la tassa del visto Temporary Graduate (subclass 485) è ora AUD 5.750 dal 1° lug. 2026",
+    "nl": "📰 Australië: tarief Temporary Graduate visum (subclass 485) is sinds 1 juli 2026 AUD 5.750",
+    "ru": "📰 Австралия: сбор за визу Temporary Graduate (subclass 485) с 1 июля 2026 г. составляет AUD 5 750"
+   },
+   "tab": "news",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "country": "AU",
+   "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase",
+   "category": "visa",
+   "effective": "2026-07-01",
+   "fee_checked": "2026-11-24",
+   "card": {
+    "headline": "BIAYA VISA 485 AUSTRALIA",
+    "hero": "AUD 5.750"
+   },
+   "facts": {
+    "summary": "Biaya aplikasi 485 untuk pemohon utama kini AUD 5.750 sejak 1 Jul 2026 (sebelumnya AUD 4.600 sejak 1 Mar 2026, dan AUD 2.300 sebelum itu). Biaya anggota keluarga juga naik; cek angka pastinya di Visa Pricing Estimator Home Affairs sebelum mengajukan, karena tarif bisa berubah tiap 1 Juli. Masukkan biaya ini ke rencana dana setelah lulus. WNI masih boleh mengikutkan keluarga (aturan baru sejak 13 Nov 2026), asalkan diajukan bersamaan."
+   }
   },
   {
    "id": "jobs:2026-11-24-180",
@@ -426,7 +566,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIHE%2035%25%20Onshore%20Scholarship",
    "country": "Australia",
    "provider": "Sydney Institute of Higher Education (SIHE)",
-   "source": "https://sydneyinstitute.edu.au/scholarships/"
+   "source": "https://sydneyinstitute.edu.au/scholarships/",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan tuition",
+    "amount": "Potongan tuition 35%",
+    "eligibility": "Mahasiswa baru yang sudah berada di Australia (onshore) dengan kemampuan bahasa Inggris memadai.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Untuk WNI yang sudah di Australia; otomatis dinilai. Putaran terakhir hanya untuk intake November 2026 (kuliah mulai 16 November 2026); belum ada pengumuman untuk intake 2027."
+   }
   },
   {
    "id": "scholarship:id-kemendikdasmen-chevening",
@@ -454,7 +605,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Chevening-Kemendikdasmen%20%28S2%20Pendidikan%20di%20Inggris%29",
    "country": "Inggris",
    "provider": "Kemendikdasmen RI & Pemerintah Inggris (Chevening)",
-   "source": "https://www.kemendikdasmen.go.id/siaran-pers/15928-kemendikdasmen-dan-pemerintah-inggris-hadirkan-beasiswa-chevening"
+   "source": "https://www.kemendikdasmen.go.id/siaran-pers/15928-kemendikdasmen-dan-pemerintah-inggris-hadirkan-beasiswa-chevening",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Beasiswa Chevening penuh (fully-funded); rincian komponen di chevening.org",
+    "amount": "",
+    "eligibility": "WNI profesional pendidikan (pendidik dan tenaga kependidikan pendidikan dasar dan menengah) yang akan menempuh S2 bidang pendidikan di Inggris; wajib kembali ke Indonesia dan mengabdi minimal 2 tahun; syarat lengkap mengikuti ketentuan Chevening.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Kemitraan baru (MoU 30 Jul 2026, berlaku hingga tahun ajaran 2029-2030). Putaran pertama untuk tahun ajaran 2027-2028 dibuka 4 Agu-6 Okt 2026 (sudah ditutup); pendaftaran via chevening.org. Jadwal putaran berikutnya belum diumumkan."
+   }
   },
   {
    "id": "scholarship:id-kemdiktisaintek-doktor-penyelesaian-studi",
@@ -482,7 +644,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Program%20Doktor%20Penyelesaian%20Studi%20di%20Dalam/Luar%20Negeri",
    "country": "Berbagai negara",
    "provider": "Kemdiktisaintek RI (PPAPT)",
-   "source": "https://kemdiktisaintek.go.id/announcement/article/penawaran-beasiswa-program-doktor-penyelesaian-studi-di-dalamluar-negeri-tahun-2026"
+   "source": "https://kemdiktisaintek.go.id/announcement/article/penawaran-beasiswa-program-doktor-penyelesaian-studi-di-dalamluar-negeri-tahun-2026",
+   "facts": {
+    "levels": [
+     "S3"
+    ],
+    "coverage": "Bantuan pembiayaan penyelesaian studi doktor (APBN); rincian komponen di buku panduan resmi",
+    "amount": "",
+    "eligibility": "WNI dosen pada perguruan tinggi negeri/swasta di bawah koordinasi Kemdiktisaintek yang sedang menempuh S3; Skema 1 (dalam/luar negeri): sudah terjadwal ujian tertutup/terbuka atau ada rekomendasi promotor tentang perkiraan waktu ujian; Skema 2 khusus dalam negeri.",
+    "english_test": "",
+    "deadline": "",
+    "notes": "Khusus dosen yang sedang studi S3. Putaran 2026 diumumkan 4 Nov 2026, pendaftaran daring 4-11 Nov 2026 via beasiswa.kemdiktisaintek.go.id (sudah ditutup). Putaran berikutnya belum diumumkan."
+   }
   },
   {
    "id": "scholarship:au-utas-tasmanian-aurora-excellence",
@@ -510,7 +683,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Tasmanian%20Aurora%20Excellence%20Scholarship",
    "country": "Australia",
    "provider": "University of Tasmania (UTAS)",
-   "source": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-aurora-excellence-scholarship"
+   "source": "https://www.utas.edu.au/study/scholarships-fees-and-costs/international-scholarships/tasmanian-aurora-excellence-scholarship",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition selama masa studi (maks. 5 tahun FTE); tidak mencakup SSAF, akomodasi, asuransi, buku",
+    "amount": "Potongan tuition 50%",
+    "eligibility": "Mahasiswa internasional baru penuh waktu mulai 2027; untuk lulusan SMA/SMK Indonesia min. 90% rata-rata semester 5 & 6 (setara ATAR 90), atau GPA 6.5/7; bukan penerima sponsor/beasiswa UTAS lain.",
+    "english_test": "",
+    "deadline": "2027-04-30",
+    "notes": "Ronde Semester 1 2027 (buka 14 Sep, tutup 15 Nov 2026) sudah tutup; ronde Semester 2 2027 tanggal buka TBC, tutup 30 April 2027. Pendaftar yang memenuhi syarat diundang mengisi formulir, personal statement 300-500 kata, dan wawancara."
+   }
   },
   {
    "id": "jobs:2026-11-24-189",
@@ -563,7 +748,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Pemerintah%20Jepang%20%28MEXT%29%20-%20Japanese%20Studies%20%26%20Teacher%20Training%20%28rekomendasi%20Kedutaan%29",
    "country": "Jepang",
    "provider": "Pemerintah Jepang (MEXT) via Kedutaan Besar Jepang di Indonesia",
-   "source": "https://www.id.emb-japan.go.jp/sch_js.html"
+   "source": "https://www.id.emb-japan.go.jp/sch_js.html",
+   "facts": {
+    "levels": [
+     "Short course/Non-gelar"
+    ],
+    "coverage": "Tuition penuh, tunjangan bulanan, tiket pesawat PP Indonesia-Jepang, bebas biaya visa pelajar",
+    "amount": "Japanese Studies JPY 117.000/bulan; Teacher Training JPY 143.000/bulan",
+    "eligibility": "Japanese Studies: mahasiswa aktif S1/D4 jurusan bahasa/sastra/budaya/pendidikan Jepang min. semester 3, usia maks. 29 tahun, direkomendasikan kampus. Teacher Training: guru aktif SD/SMP/SMA/SLB, lulusan D4/S1, pengalaman mengajar min. 5 tahun, usia di bawah 35 tahun. Wajib kembali ke Indonesia setelah program.",
+    "english_test": "Japanese Studies: kemampuan bahasa Jepang. Teacher Training: bahasa Inggris atau Jepang",
+    "deadline": "",
+    "notes": "Japanese Studies s.d. 1 tahun; Teacher Training 1,5 tahun (termasuk 6 bulan bahasa Jepang). Halaman Teacher Training: id.emb-japan.go.jp/sch_tt.html. Buku JASSO 2026-2027: rekrutmen jalur Kedubes sekitar Desember, tiba September/Oktober tahun berikutnya. Halaman Kedubes (dicek 24/11/2026) baru memuat siklus 2024 (registrasi 27 Desember 2023 - 22 Januari 2024); jadwal siklus berikutnya belum diumumkan."
+   }
   },
   {
    "id": "scholarship:jp-jasso-student-exchange-support",
@@ -591,7 +787,22 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=JASSO%20Student%20Exchange%20Support%20Program%20%28Scholarship%20for%20Study%20in%20Japan%20under%20Agreement%29",
    "country": "Jepang",
    "provider": "JASSO (Japan Student Services Organization)",
-   "source": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/ukeire.html"
+   "source": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/ukeire.html",
+   "facts": {
+    "levels": [
+     "Diploma/Vokasi",
+     "S1",
+     "S2",
+     "S3",
+     "Short course/Non-gelar"
+    ],
+    "coverage": "Tunjangan bulanan selama program pertukaran 8 hari s.d. 1 tahun",
+    "amount": "JPY 80.000/bulan",
+    "eligibility": "Mahasiswa aktif kampus asal (termasuk Indonesia; semua negara yang punya hubungan diplomatik dengan Jepang) yang diterima kampus Jepang lewat perjanjian pertukaran; prestasi akademik & pribadi baik, butuh dukungan biaya, kembali dan menyelesaikan studi di kampus asal; tidak menerima beasiswa lain di atas JPY 80.000/bulan.",
+    "english_test": "Sesuai syarat kampus Jepang",
+    "deadline": "",
+    "notes": "Tidak bisa dilamar perorangan ke JASSO: kampus Jepang yang mengajukan, seleksi oleh kampus. Tanyakan ke kantor urusan internasional kampus asal di Indonesia apakah punya perjanjian pertukaran dengan kampus Jepang. Buku JASSO 2026-2027."
+   }
   },
   {
    "id": "scholarship:jp-inpex-scholarship-indonesia",
@@ -619,7 +830,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=INPEX%20Scholarship%20%28Indonesia%29",
    "country": "Jepang",
    "provider": "INPEX Scholarship Foundation",
-   "source": "https://www.inpex-s.com/en/scholarship-program/index.php"
+   "source": "https://www.inpex-s.com/en/scholarship-program/index.php",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Biaya ujian, masuk & kuliah penuh, tunjangan bulanan, tiket PP Indonesia-Jepang, uang kedatangan JPY 60.000, biaya belajar bahasa Jepang sebelum berangkat",
+    "amount": "JPY 160.000/bulan",
+    "eligibility": "WNI, usia di bawah 30 tahun, lulusan fakultas STEM universitas besar di Indonesia dengan IPK min. 3,0, ingin S2 bidang STEM di pascasarjana Jepang; wajib Letter of Acceptance (LOA) dari calon profesor pembimbing.",
+    "english_test": "Lihat Application Guidelines INPEX",
+    "deadline": "",
+    "notes": "Beasiswa 2027 sudah ditutup (pengumuman yayasan 31/10/2026); pedoman & formulir 2027 terbit 1/7/2026. Kuota Indonesia maks. 4 orang. Jadwal beasiswa 2028 belum diumumkan. Buku JASSO 2026-2027 mencatat periode lamaran 1 Agustus - 31 Oktober, langsung ke yayasan; hubungi calon profesor pembimbing lebih dulu."
+   }
   },
   {
    "id": "scholarship:jp-frf-scholarship-indonesia",
@@ -647,7 +869,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=FRF%20Scholarship%20for%20Studying%20in%20Japan%20%28Indonesia%29",
    "country": "Jepang",
    "provider": "Fast Retailing Foundation",
-   "source": "https://www.fastretailing-foundation.or.jp/eng/scholarships/indonesia.html"
+   "source": "https://www.fastretailing-foundation.or.jp/eng/scholarships/indonesia.html",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Biaya ujian, masuk, kuliah & premi asuransi; dukungan persiapan JPY 200.000; tunjangan bulanan JPY 144.000-160.000; dibayar sampai lulus (di luar masa cuti)",
+    "amount": "Maks. JPY 4.500.000/tahun",
+    "eligibility": "Pelajar Indonesia yang ingin kuliah S1 di universitas Jepang yang ditunjuk FRF (program ini khusus Vietnam, Indonesia & Filipina); syarat usia, nilai & dokumen lihat Application Guidelines.",
+    "english_test": "Lihat Application Guidelines FRF",
+    "deadline": "",
+    "notes": "Siklus 2026: pendaftaran online 1 Juli - 1 September 2026 (08.00 JST), wawancara di Jakarta Oktober 2026, keputusan akhir s.d. 13/11/2026 (sudah lewat). Sekitar 10 penerima per tahun. Jadwal siklus 2027 belum diumumkan; secara historis dibuka 1 Juli. Pertanyaan lewat Inquiry Form di situs yayasan. Buku JASSO 2026-2027."
+   }
   },
   {
    "id": "scholarship:jp-nomura-foundation-scholarship",
@@ -675,35 +908,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=NOMURA%20FOUNDATION%20Scholarship%20for%20International%20Students",
    "country": "Jepang",
    "provider": "Nomura Foundation",
-   "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html"
-  },
-  {
-   "id": "news:au-485-fee-2026-03",
-   "kind": "news",
-   "date": "2026-11-23",
-   "priority": 2,
-   "title": {
-    "id": "📰 Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026",
-    "en": "📰 Australia: Temporary Graduate visa (subclass 485) fee is AUD 4,600 since 1 Mar 2026",
-    "th": "📰 ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) AUD 4,600 ตั้งแต่ 1 มี.ค. 2026",
-    "vi": "📰 Úc: lệ phí visa Temporary Graduate (subclass 485) là AUD 4.600 từ 1/3/2026",
-    "zh": "📰 澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年3月1日起费用为 AUD 4,600",
-    "ja": "📰 オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年3月1日から AUD 4,600",
-    "ko": "📰 호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 3월 1일부터 AUD 4,600",
-    "km": "📰 អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) AUD 4,600 ចាប់ពី 1 មីនា 2026",
-    "fr": "📰 Australie : le visa Temporary Graduate (subclass 485) coûte AUD 4 600 depuis le 1er mars 2026",
-    "pt": "📰 Austrália: taxa do visto Temporary Graduate (subclass 485) é AUD 4.600 desde 1º de março de 2026",
-    "es": "📰 Australia: la tasa del visado Temporary Graduate (subclass 485) es de AUD 4.600 desde el 1 de marzo de 2026",
-    "de": "📰 Australien: Gebühr für das Temporary-Graduate-Visum (Subclass 485) seit 1. März 2026 AUD 4.600",
-    "it": "📰 Australia: il visto Temporary Graduate (subclass 485) costa AUD 4.600 dal 1° marzo 2026",
-    "nl": "📰 Australië: Temporary Graduate-visum (subclass 485) kost sinds 1 maart 2026 AUD 4.600",
-    "ru": "📰 Австралия: сбор за визу Temporary Graduate (subclass 485) — AUD 4 600 с 1 марта 2026"
-   },
-   "tab": "news",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "country": "AU",
-   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
-   "category": "visa"
+   "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html",
+   "facts": {
+    "levels": [
+     "S2",
+     "S3"
+    ],
+    "coverage": "Tunjangan bulanan selama 2 tahun (transfer ke rekening atas nama penerima)",
+    "amount": "JPY 200.000/bulan",
+    "eligibility": "Semua kewarganegaraan, usia maks. 35 tahun per 1 April tahun beasiswa, kuliah/akan kuliah pascasarjana di salah satu dari 6 universitas tersebut dengan status Student (alamat Jepang boleh yang direncanakan), lancar berbahasa Jepang, prestasi akademik baik & butuh dukungan biaya; bukan penerima beasiswa pemerintah Jepang atau beasiswa lain di atas JPY 50.000/bulan.",
+    "english_test": "Bahasa Jepang lancar (lamaran ditulis dalam bahasa Jepang)",
+    "deadline": "",
+    "notes": "Beasiswa 2027: pendaftaran online 1-30 September 2026 (17.00 JST) lewat My Page, sudah ditutup; sekitar 10 penerima; seleksi dokumen lalu wawancara. Jadwal beasiswa 2028 belum diumumkan (pedoman 2027 terbit 3/8/2026). Pedoman hanya dalam bahasa Jepang. Buku JASSO 2026-2027: boleh melamar sebelum diterima universitas."
+   }
   },
   {
    "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
@@ -731,7 +948,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20Kickstart%20Bursary",
    "country": "Australia",
    "provider": "Edith Cowan University (ECU)",
-   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary"
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Bursary tunai AUD 5.000 untuk biaya hidup, dibayar 2 x AUD 2.500 (akhir semester 1 & 2 tahun pertama)",
+    "amount": "AUD 5.000",
+    "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang mulai S1/S2 coursework tahun 2027 lewat direct entry (bukan paket pathway); tanpa credit transfer/advanced standing/RPL; bukan program kuota (mis. Nursing C33, Master of Nursing J46); full-time & on-campus, bukan penerima beasiswa pemerintah/sponsor.",
+    "english_test": "Sesuai syarat masuk program ECU",
+    "deadline": "2028-08-01",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program ECU. Menurut ECU, bisa digabung ASEAN International Scholarship 20% (contoh: Bachelor of Communication tahun 1 AUD 39.600 -> AUD 26.680, hemat AUD 12.920). Dibayar ke rekening bank Australia. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "jobs:2026-11-23-137",
@@ -809,7 +1038,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Belt%20and%20Road%20Scholarship%20%28HKSAR%20Government%20Scholarship%20Fund%29%20-%20HKU",
    "country": "Hong Kong",
    "provider": "Pemerintah Hong Kong (HKSAR) / The University of Hong Kong",
-   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship"
+   "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Beasiswa masuk setara seluruh tuition untuk mahasiswa non-lokal",
+    "amount": "Tuition penuh",
+    "eligibility": "Warga negara Belt and Road yang berpartisipasi (Indonesia termasuk); mendaftar program HKU dan memilih beasiswa ini di formulir online.",
+    "english_test": "Sesuai syarat masuk program HKU",
+    "deadline": "2027-01-31",
+    "notes": "Tenggat beasiswa 31 Jan 2027 (halaman beasiswa HKU). Pendaftaran admisi internasional HKU untuk masuk 2027 dibuka 23 Sep 2026 (main round 25 Nov 2026, penutupan akhir 25 Agu 2027); pilih beasiswa ini di formulir online admisi. Dokumen: tulisan 1 halaman, CV + sertifikat, 4 paragraf singkat sesuai ketentuan."
+   }
   },
   {
    "id": "jobs:2026-11-22-140",
@@ -887,7 +1127,20 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Murdoch%20University%20Dubai%20Academic%20Merit%20Scholarships",
    "country": "Uni Emirat Arab",
    "provider": "Murdoch University Dubai",
-   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/"
+   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/",
+   "facts": {
+    "levels": [
+     "Diploma/Vokasi",
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition 15%/25%/35%/40% sesuai nilai sebelumnya (Foundation 50%, Diploma 25%, MBA 20%); bisa digabung Early Bird 5%",
+    "amount": "15% - 40% tuition",
+    "eligibility": "Mahasiswa baru (termasuk internasional) berdasarkan nilai akademik sebelumnya; mulai kuliah di trimester. Dinilai ulang tiap trimester (semua unit harus lulus).",
+    "english_test": "Sesuai syarat masuk Murdoch University Dubai",
+    "deadline": "",
+    "notes": "Tidak perlu aplikasi terpisah: dinilai otomatis dari nilai saat mendaftar. Hanya potongan tuition (tidak termasuk biaya hidup, akomodasi, visa). Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:vn-rmit-international-excellence-2027|open",
@@ -915,7 +1168,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RMIT%20Vietnam%20International%20Excellence%20Scholarships%202027",
    "country": "Vietnam",
    "provider": "RMIT University Vietnam",
-   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships"
+   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan 50% atau 25% tuition untuk seluruh program (2027: 6 x 50% dan 6 x 25%)",
+    "amount": "25% / 50% tuition",
+    "eligibility": "Bukan warga negara Vietnam (WNI bisa); sudah apply program sarjana & memenuhi syarat masuk; nilai rata-rata kelas akhir SMA min. 80%; bukan mahasiswa S1 RMIT Vietnam.",
+    "english_test": "Sesuai syarat masuk program sarjana RMIT Vietnam",
+    "deadline": "2027-01-18",
+    "notes": "Batas: Sem 1 18 Jan 2027, Sem 2 3 Mei 2027, Sem 3 20 Agu 2027 (17.00 WIB). Sangat kompetitif, diurutkan dari nilai SMA. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:ch-eskas-2027|open",
@@ -943,7 +1207,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Swiss%20Government%20Excellence%20Scholarships%202027-2028%20%28Research%29",
    "country": "Swiss",
    "provider": "Pemerintah Swiss (SERI / FCS)",
-   "source": "https://www.sbfi.admin.ch/scholarships_eng"
+   "source": "https://www.sbfi.admin.ch/scholarships_eng",
+   "facts": {
+    "levels": [
+     "S3"
+    ],
+    "coverage": "Tunjangan bulanan CHF 2.450 selama masa beasiswa",
+    "amount": "CHF 2.450/bulan",
+    "eligibility": "Untuk Indonesia: Research Fellowship & PhD. Peneliti muda yang sudah lulus S2 (paling lambat 31 Jul 2027), lahir setelah 31 Des 1991; wajib rencana riset dan surat dukungan supervisor di kampus Swiss.",
+    "english_test": "Sesuai syarat kampus/supervisor di Swiss",
+    "deadline": "2026-11-30",
+    "notes": "Pendaftaran online lewat portal GO ESKAS; batas untuk Indonesia 30 Nov 2026 pukul 23.59 waktu Swiss (daftar negara resmi SERI, Asia, 4 Agu 2026). Cari supervisor sedini mungkin."
+   }
   },
   {
    "id": "scholarship:sg-sim-asean-impact-award|open",
@@ -971,7 +1246,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20ASEAN%20Impact%20Award",
    "country": "Singapura",
    "provider": "Singapore Institute of Management (SIM)",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Bantuan dana S$3.000 untuk mahasiswa sarjana baru dari negara ASEAN (selain Singapura)",
+    "amount": "S$3.000",
+    "eligibility": "Mahasiswa baru S1 di SIM dari Brunei, Myanmar, Kamboja, Indonesia, Laos, Malaysia, Filipina, Thailand atau Vietnam; sudah terdaftar dan mulai kuliah; nilai SMA/ujian nasional baik; pengalaman/kualitas kepemimpinan.",
+    "english_test": "Sesuai syarat masuk program sarjana SIM",
+    "deadline": "",
+    "notes": "Tidak perlu mendaftar beasiswa: seleksi berdasarkan prestasi akademik, kandidat terpilih diundang wawancara. Daftar program sarjana SIM lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:sg-sim-uob-msc-scholarship-2027|open",
@@ -999,7 +1285,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MSc%20Scholarship%202027",
    "country": "Singapura",
    "provider": "Singapore Institute of Management (SIM)",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+   "source": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Beasiswa SGD 5.500 untuk mahasiswa baru MSc University of Birmingham di SIM tahun akademik 2027-2028",
+    "amount": "SGD 5.500",
+    "eligibility": "Pelamar baru MSc University of Birmingham yang sudah mendapat tempat di SIM; S1 bidang apa pun dengan predikat First Class atau Upper Second-Class Honours (atau setara). Disarankan ikut pra-asesmen dengan Academic Director sebelum mendaftar.",
+    "english_test": "IELTS overall 6.5 (no band <6.0)",
+    "deadline": "2027-07-01",
+    "notes": "Batas aplikasi beasiswa 1 Juli 2027 untuk intake Oktober 2027. Semua program Master SIM terbuka untuk pra-asesmen langsung. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:th-rsu-ric-network-scholarship",
@@ -1027,7 +1324,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RIC%20International%20School%20Network%20Scholarship%20%28RISNS%29%20-%20Rangsit%20University",
    "country": "Thailand",
    "provider": "Rangsit University International College (RIC)",
-   "source": "https://rsuip.org/admissions/scholarships/"
+   "source": "https://rsuip.org/admissions/scholarships/",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "50% tuition & academic service fee hingga 4 tahun (siswa membayar 50% sisanya)",
+    "amount": "50% tuition",
+    "eligibility": "Bukan WN Thailand; lulusan baru/kelas akhir SMA, belum mulai kuliah, usia < 23 th; IPK SMA min. 3,0 (atau setara 65%); wajib RIC Ambassador Project, video perkenalan, personal statement; wawancara online.",
+    "english_test": "IELTS 5.5 atau setara",
+    "deadline": "",
+    "notes": "Halaman resmi mencampur pengumuman beberapa tahun; jadwal & syarat terbaru perlu dikonfirmasi ke RIC (rsuip@rsu.ac.th). Pertahankan IPK min. 3,00 agar beasiswa berlanjut. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:es-nebrija-southeast-asia-scholarship",
@@ -1055,7 +1363,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Nebrija%20University%20-%20Scholarship%20for%20Southeast%20Asia",
    "country": "Spanyol",
    "provider": "Universidad Antonio de Nebrija",
-   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/"
+   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition 25% (S1) atau 30% (S2) untuk kuliah di kampus",
+    "amount": "25% / 30% tuition",
+    "eligibility": "WN Indonesia, Thailand, Filipina, Vietnam atau Malaysia (tinggal di mana pun), atau penduduk kelima negara itu.",
+    "english_test": "Sesuai syarat program Nebrija (sebagian program berbahasa Spanyol)",
+    "deadline": "",
+    "notes": "Periode 2026-2027 ditutup 17 Jul 2026. Jadwal 2027-2028 belum tercantum - konfirmasi ke Nebrija. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:my-mohe-mis",
@@ -1083,7 +1403,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Malaysia%20International%20Scholarship%20%28MIS%29",
    "country": "Malaysia",
    "provider": "Kementerian Pendidikan Tinggi Malaysia (MOHE)",
-   "source": "https://biasiswa.mohe.gov.my/INTER/index.php"
+   "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
+   "facts": {
+    "levels": [
+     "S2",
+     "S3"
+    ],
+    "coverage": "Tuition penuh selama masa sponsor + tunjangan hidup RM1.500/bulan",
+    "amount": "RM1.500/bulan + tuition",
+    "eligibility": "WNI (negara ASEAN penerima); S2 usia maks. 40 th & IPK S1 min. 3,00; S3 usia maks. 45 th; kuliah penuh waktu di universitas Malaysia.",
+    "english_test": "IELTS 6.0 / TOEFL PBT 550 (atau gelar sebelumnya berbahasa Inggris)",
+    "deadline": "",
+    "notes": "Periode aplikasi 2026/2027 sudah ditutup; jadwal berikutnya belum diumumkan. Daftar online di biasiswa.mohe.gov.my."
+   }
   },
   {
    "id": "scholarship:hk-belt-and-road-scholarship-hku",
@@ -1139,7 +1471,20 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ICCR%20Scholarship%20%28Government%20of%20India%29",
    "country": "India",
    "provider": "Indian Council for Cultural Relations (ICCR)",
-   "source": "https://a2ascholarships.iccr.gov.in/"
+   "source": "https://a2ascholarships.iccr.gov.in/",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2",
+     "S3"
+    ],
+    "coverage": "Beasiswa pemerintah India (rincian tunjangan di portal A2A ICCR)",
+    "amount": "",
+    "eligibility": "Mahasiswa internasional dari negara yang ditetapkan; mendaftar lewat portal A2A, dipilih Kedutaan India.",
+    "english_test": "Sesuai syarat universitas India",
+    "deadline": "",
+    "notes": "Jadwal 2026-27: portal A2A dibuka 7 Feb - 15 Apr 2026. Jadwal 2027-28 belum diumumkan; secara historis dibuka sekitar Februari. Konfirmasi kuota Indonesia ke Kedutaan India Jakarta."
+   }
   },
   {
    "id": "jobs:2026-11-21-215",
@@ -1192,7 +1537,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20Diploma%20Scholarship%202027%20%28Academic%20Excellence%20100%25%20/%20Merit%2050%25%29",
    "country": "Singapura",
    "provider": "Singapore Institute of Management (SIM)",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships/sim-global-education-diploma-scholarships",
+   "facts": {
+    "levels": [
+     "Diploma/Vokasi"
+    ],
+    "coverage": "Academic Excellence: 100% total biaya (course fees, student development fee, dan international student induction fee); Merit: 50% dari total biaya yang sama (tanpa biaya hidup)",
+    "amount": "100% / 50% biaya kursus",
+    "eligibility": "Siswa internasional baru yang terdaftar di salah satu dari 5 program Diploma SIM: Accounting, Banking & Finance, International Business, Management Studies, atau Information Technology; nilai SMA/Year 12 sangat baik. Academic Excellence: kepemimpinan, interpersonal dan komunikasi kuat. Merit: kemampuan komunikasi baik. Yang mendaftar keduanya hanya dipertimbangkan untuk Merit.",
+    "english_test": "Sesuai syarat masuk program Diploma SIM",
+    "deadline": "2026-12-31",
+    "notes": "Berlaku selama durasi minimum kursus, tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented. Dokumen (scan, di-zip): ijazah/transkrip/rapor (+ terjemahan Inggris), bukti bahasa Inggris (IELTS/TOEFL/PTE dll.), sertifikat kegiatan/prestasi (bila ada), personal statement, paspor, dan bukti aplikasi Diploma SIM."
+   }
   },
   {
    "id": "scholarship:au-ucsh-welcome-success-reward-2027|open",
@@ -1220,7 +1576,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=UCSH%20Welcome%20Success%20Reward%202027",
    "country": "Australia",
    "provider": "University of Canberra – Sydney Hills (UCSH)",
-   "source": "https://www.canberra.edu.au"
+   "source": "https://www.canberra.edu.au",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Kredit tuition AUD 2.500 (satu kali, untuk biaya kuliah berikutnya; bukan diskon di awal, tidak bisa ditukar uang)",
+    "amount": "AUD 2.500",
+    "eligibility": "Paspor Indonesia (atau negara lain di daftar); Bachelor of Nursing (CRICOS 095076E) atau Bachelor of Early Childhood Education (Birth to Five) (CRICOS 113915F); terima offer, bayar deposit, dapat CoE, lalu ajukan visa pelajar (subclass 500) Oktober-Desember 2026 untuk mulai Februari atau Agustus 2027; apply dari luar Australia atau dari Greater Sydney.",
+    "english_test": "Sesuai syarat bahasa Inggris UCSH untuk program yang dipilih",
+    "deadline": "2026-12-31",
+    "notes": "Kredit diberikan setelah siswa lulus 2 semester berturut-turut (kuliah terus, progres akademik memenuhi, tidak ada tunggakan). Batal bila mundur, menunda, berhenti, atau pindah kampus. Tidak bisa digabung dengan beasiswa/diskon UCSH lain kecuali disetujui tertulis. Syarat lengkap: minta ke konsultan Talented sebelum menerima offer."
+   }
   },
   {
    "id": "scholarship:au-greenwich-elicos-vet-package-voucher-2027|open",
@@ -1248,7 +1615,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Greenwich%3A%20voucher%20AUD%20500%20paket%20ELICOS%20%2B%20VET",
    "country": "Australia",
    "provider": "Greenwich College",
-   "source": "https://www.greenwichcollege.edu.au"
+   "source": "https://www.greenwichcollege.edu.au",
+   "facts": {
+    "levels": [
+     "Short course/Non-gelar",
+     "Diploma/Vokasi"
+    ],
+    "coverage": "Voucher hadiah AUD 500 untuk siswa (dibayarkan setelah visa terbit dan siswa mulai belajar)",
+    "amount": "AUD 500",
+    "eligibility": "Siswa offshore dari negara Asia (Assessment Level 1 & 2) - tanyakan konsultan Talented apakah berlaku untuk Anda; paket ELICOS min. 18 minggu + min. 2 kursus VET atau Bachelor Greenwich Higher Education; booking mulai 1 Juli 2026; VET mulai paling lambat 31 Desember 2027.",
+    "english_test": "Lewat paket ELICOS Greenwich",
+    "deadline": "2027-12-31",
+    "notes": "Kampus Sydney, Melbourne, Brisbane, Gold Coast, Perth, Adelaide. Flyer juga mencantumkan \"No Enrolment Fee\" - konfirmasi detailnya ke konsultan Talented. Flyer resmi Greenwich versi 4, benar per 02/11/2026."
+   }
   },
   {
    "id": "scholarship:au-kbs-excellence-indonesia-2027|open",
@@ -1276,7 +1655,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KBS%20Excellence%20Scholarship%202027%20-%20Indonesia",
    "country": "Australia",
    "provider": "Kaplan Business School Australia",
-   "source": "https://www.kbs.edu.au"
+   "source": "https://www.kbs.edu.au",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan tuition (kredit ke biaya kuliah; hanya tuition, tidak bisa ditukar uang)",
+    "amount": "2 beasiswa 50% (1 Bachelor of Business, 1 Bachelor of IT); juara 2 & 3 (runner-up) s.d. 30%",
+    "eligibility": "Paspor Indonesia; rata-rata nilai SMA kelas 12 (SMA3) min. 90% atau setara; memenuhi syarat akademik & bahasa Inggris KBS; punya Offer of Admission KBS untuk program sarjana Business atau IT mulai 2027; bukan mahasiswa bersponsor.",
+    "english_test": "Sesuai syarat bahasa Inggris KBS untuk program yang dipilih (boleh dipenuhi sebelum mulai kuliah)",
+    "deadline": "2027-03-31",
+    "notes": "Seleksi kompetitif: formulir + video kreatif orisinal 30 detik (Tahap 1), lalu wawancara akademik maks. 15 menit (Tahap 2). Tidak bisa digabung dengan beasiswa/diskon/promo KBS lain kecuali disetujui KBS tertulis. Daftar lewat konsultan Talented (formulir & video dikirim lewat konsultan). Kuota terbatas: pendaftaran ditutup lebih awal bila 80 aplikasi pertama sudah masuk, meski belum 31 Maret 2027 - daftar secepatnya."
+   }
   },
   {
    "id": "jobs:2026-11-20-245",
@@ -1309,27 +1699,38 @@
    "date": "2026-11-20",
    "priority": 1,
    "title": {
-    "id": "🎓 Beasiswa baru: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "en": "🎓 New scholarship: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "th": "🎓 ทุนใหม่: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "vi": "🎓 Học bổng mới: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "zh": "🎓 新奖学金：SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "ja": "🎓 新しい奨学金：SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "ko": "🎓 새 장학금: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "km": "🎓 អាហារូបករណ៍ថ្មី៖ SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "fr": "🎓 Nouvelle bourse : SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "pt": "🎓 Nova bolsa: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "es": "🎓 Nueva beca: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "de": "🎓 Neues Stipendium: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "it": "🎓 Nuova borsa: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "nl": "🎓 Nieuwe beurs: SIM Undergraduate Scholarship & SIM STARRR Award 2027",
-    "ru": "🎓 Новая стипендия: SIM Undergraduate Scholarship & SIM STARRR Award 2027"
+    "id": "🎓 Beasiswa baru: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "en": "🎓 New scholarship: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "th": "🎓 ทุนใหม่: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "vi": "🎓 Học bổng mới: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "zh": "🎓 新奖学金：SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "ja": "🎓 新しい奨学金：SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "ko": "🎓 새 장학금: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "km": "🎓 អាហារូបករណ៍ថ្មី៖ SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "fr": "🎓 Nouvelle bourse : SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "pt": "🎓 Nova bolsa: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "es": "🎓 Nueva beca: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "de": "🎓 Neues Stipendium: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "it": "🎓 Nuova borsa: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "nl": "🎓 Nieuwe beurs: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)",
+    "ru": "🎓 Новая стипендия: SIM Undergraduate Scholarship & SIM STARRR Award 2027 (deadline 2027-03-19)"
    },
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20Undergraduate%20Scholarship%20%26%20SIM%20STARRR%20Award%202027",
    "country": "Singapura",
    "provider": "Singapore Institute of Management (SIM)",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships/sim-starrr-award-for-new-undergraduate-students",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "SIM Undergraduate Scholarship: S$15.000 per penerima. SIM STARRR Award: total S$51.000 (tuition s.d. S$36.000, tunjangan hidup S$6.500, akomodasi s.d. S$5.000, tiket program pertukaran s.d. S$1.500, komputer s.d. S$2.000).",
+    "amount": "STARRR: tuition hingga S$36.000 + tunjangan; SIM GE Scholarship S$15.000 (mahasiswa yang sudah kuliah)",
+    "eligibility": "Terbuka untuk siswa internasional. Undergraduate: nilai A Level/IB/Year 12 sangat baik, kegiatan & kontribusi komunitas, kepemimpinan dan komunikasi kuat (jalur Academic Excellence & Leadership atau Sports & Artistic Talent); harus diterima di program dulu. STARRR: mahasiswa baru, ko-kurikuler baik, tes High Potential Trait Indicator untuk kandidat terpilih.",
+    "english_test": "Sesuai syarat masuk program sarjana SIM",
+    "deadline": "2027-03-19",
+    "notes": "Belum dibuka. Situs resmi SIM: periode aplikasi berikutnya 1-19 Maret 2027 (untuk SIM STARRR Award dan SIM Award/Sports & Artistic Talent Award); aplikasi dibuka dua kali setahun (Maret & September, tutup minggu ketiga) via BrightSparks. SIM Award (S$15.000) untuk mahasiswa yang sudah menerima min. satu set hasil ujian dari universitas mitra; STARRR untuk mahasiswa baru. Tanpa ikatan dinas (bond). Ada briefing & pra-asesmen beasiswa online untuk intake 2027; siswa yang mendaftar dan membayar application fee paling lambat 31 Des 2026 bisa ikut pelatihan beasiswa mulai Januari 2027. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "scholarship:sg-sim-uob-mba-scholarship",
@@ -1357,7 +1758,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MBA%20Scholarship",
    "country": "Singapura",
    "provider": "Singapore Institute of Management (SIM)",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships"
+   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan biaya SGD 10.000 per penerima (maks. 6 penerima)",
+    "amount": "SGD 10.000",
+    "eligibility": "Mahasiswa MBA University of Birmingham di SIM (intake Januari 2027 / Januari 2028, skema pilot) dengan status baik; telah lulus 6 modul inti + 1 elektif tahun pertama dengan nilai min. Merit, min. 70 kredit, kehadiran 90%; satu kategori per pelamar (Dean's Excellence, Global Citizenship, Responsible Leadership, Community Engagement Impact, Women in Business Leadership, Environmental Activism).",
+    "english_test": "Sesuai syarat masuk MBA University of Birmingham di SIM",
+    "deadline": "",
+    "notes": "Menurut T&C resmi (24 Jul 2026): skema pilot untuk intake Januari 2027 dan Januari 2028; aplikasi biasanya dibuka April dan tutup Mei pada tahun kedua studi (mis. 2028 untuk intake Jan 2027), jadwal dapat berubah. Berupa reimbursement satu kali (biasanya November) untuk tuition MBA saja. Tanggal pasti belum diumumkan. Daftar lewat konsultan Talented."
+   }
   },
   {
    "id": "jobs:2026-11-20-253",
@@ -1435,7 +1847,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Singapore%20International%20Graduate%20Award%20%28SINGA%29",
    "country": "Singapura",
    "provider": "A*STAR, NUS, NTU, SUTD (Singapura)",
-   "source": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"
+   "source": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+   "facts": {
+    "levels": [
+     "S3"
+    ],
+    "coverage": "Tuition penuh, tunjangan bulanan, tunjangan tiket pesawat dan settling-in",
+    "amount": "Stipend S$2.700/bulan (sebelum Qualifying Exam), S$3.200/bulan (setelah lulus QE)",
+    "eligibility": "Mahasiswa internasional (non-WN/PR Singapura) dengan nilai S1/S2 sangat baik dan minat riset sains & teknik.",
+    "english_test": "",
+    "deadline": "2026-12-01",
+    "notes": "Dua jendela per tahun (dikonfirmasi halaman SINGA SIT): intake Agustus (2 Jun-1 Des) dan intake Januari (2 Des-1 Jun). Institusi: A*STAR, NUS, NTU, SUTD, SMU, SIT."
+   }
   },
   {
    "id": "scholarship:au-aih-next-gen-award|open",
@@ -1463,7 +1886,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Australian%20Next%20Gen%20Award%20%2830%25%29",
    "country": "Australia",
    "provider": "Australian Institute of Higher Education (AIH)",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan tuition hingga 3 tahun",
+    "amount": "Potongan tuition 30% (hingga AUD 16.080)",
+    "eligibility": "Pendaftar offshore dengan rekam akademik kuat untuk program Bachelor; terbatas 100 pendaftar pertama intake 2027.",
+    "english_test": "",
+    "deadline": "2026-12-31",
+    "notes": "Harus mendaftar dan menerima offer sebelum 31 Desember 2026. Halaman resmi masih berjudul '2026 Scholarships and Bursaries'; belum ditemukan halaman beasiswa 2027 terpisah."
+   }
   },
   {
    "id": "scholarship:au-aih-global-access-award|open",
@@ -1491,7 +1925,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Global%20Access%20Award%20%2815%25%29",
    "country": "Australia",
    "provider": "Australian Institute of Higher Education (AIH)",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan tuition setiap tahun",
+    "amount": "Potongan tuition 15%",
+    "eligibility": "Mahasiswa internasional yang mendaftar dari luar negeri untuk program pascasarjana, mulai 2026/2027.",
+    "english_test": "",
+    "deadline": "2026-12-31",
+    "notes": "Daftar dan terima offer sebelum 31 Desember 2026. Halaman resmi masih berjudul '2026 Scholarships and Bursaries'; belum ditemukan halaman beasiswa 2027 terpisah."
+   }
   },
   {
    "id": "scholarship:au-aih-international-support-bursary|open",
@@ -1499,27 +1944,39 @@
    "date": "2026-11-18",
    "priority": 2,
    "title": {
-    "id": "🎓 Beasiswa dibuka: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "en": "🎓 Scholarship open: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "th": "🎓 เปิดรับทุน: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "vi": "🎓 Học bổng đang mở: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "zh": "🎓 奖学金开放申请：AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "ja": "🎓 奨学金募集中：AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "ko": "🎓 장학금 모집 중: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "km": "🎓 អាហារូបករណ៍បើក៖ AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "fr": "🎓 Bourse ouverte : AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "pt": "🎓 Bolsa aberta: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "es": "🎓 Beca abierta: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "de": "🎓 Stipendium offen: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "it": "🎓 Borsa aperta: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "nl": "🎓 Beurs open: AIH International Support Bursary (20%) (deadline 2026-12-31)",
-    "ru": "🎓 Открыт приём на стипендию: AIH International Support Bursary (20%) (deadline 2026-12-31)"
+    "id": "🎓 Beasiswa dibuka: AIH International Support Bursary (20%, khusus siswa di Australia) (deadline 2026-12-31)",
+    "en": "🎓 Scholarship open: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "th": "🎓 เปิดรับทุน: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "vi": "🎓 Học bổng đang mở: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "zh": "🎓 奖学金开放申请：AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "ja": "🎓 奨学金募集中：AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "ko": "🎓 장학금 모집 중: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "fr": "🎓 Bourse ouverte : AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "pt": "🎓 Bolsa aberta: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "es": "🎓 Beca abierta: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "de": "🎓 Stipendium offen: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "it": "🎓 Borsa aperta: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "nl": "🎓 Beurs open: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)",
+    "ru": "🎓 Открыт приём на стипендию: AIH International Support Bursary (20%, students already in Australia) (deadline 2026-12-31)"
    },
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20International%20Support%20Bursary%20%2820%25%29",
    "country": "Australia",
    "provider": "Australian Institute of Higher Education (AIH)",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan tuition setiap tahun",
+    "amount": "Potongan tuition 20%",
+    "eligibility": "Mahasiswa internasional onshore (sudah di Australia) jenjang S1/S2 yang mulai 2026/2027.",
+    "english_test": "",
+    "deadline": "2026-12-31",
+    "notes": "Untuk WNI yang sudah berada di Australia. Halaman resmi masih berjudul '2026 Scholarships and Bursaries'; belum ditemukan halaman beasiswa 2027 terpisah."
+   }
   },
   {
    "id": "scholarship:au-aih-future-innovator|open",
@@ -1547,7 +2004,18 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=AIH%20Future%20Innovator%20Scholarship%20%2830%25%29",
    "country": "Australia",
    "provider": "Australian Institute of Higher Education (AIH)",
-   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries"
+   "source": "https://explore.aih.edu.au/2025-scholarships-and-bursaries",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan tuition setiap tahun studi",
+    "amount": "Potongan tuition 30% (hingga AUD 21.600)",
+    "eligibility": "Mahasiswa internasional program Master of Research (ICT); terbatas 100 pendaftar pertama intake 2026/27.",
+    "english_test": "",
+    "deadline": "2026-12-31",
+    "notes": "Daftar dan terima offer sebelum 31 Desember 2026. Halaman resmi masih berjudul '2026 Scholarships and Bursaries'; belum ditemukan halaman beasiswa 2027 terpisah."
+   }
   },
   {
    "id": "scholarship:fr-eiffel-excellence|open",
@@ -1575,7 +2043,19 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Eiffel%20Excellence%20Scholarship%20Programme",
    "country": "Prancis",
    "provider": "Kementerian Eropa dan Luar Negeri Prancis (dikelola Campus France)",
-   "source": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+   "source": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+   "facts": {
+    "levels": [
+     "S2",
+     "S3"
+    ],
+    "coverage": "Tunjangan bulanan, tiket pesawat PP, asuransi kesehatan, kegiatan budaya (tuition tidak termasuk)",
+    "amount": "",
+    "eligibility": "Calon mahasiswa asing usia maks. 29 tahun (Master) atau 35 tahun (PhD); aplikasi diajukan oleh institusi pendidikan tinggi Prancis, bukan individu.",
+    "english_test": "",
+    "deadline": "2027-01-06",
+    "notes": "Call 2027 dibuka Oktober 2026; 6 Jan 2027 adalah tenggat kampus mengirim berkas ke Campus France, sehingga tenggat internal kampus lebih awal. Hasil mulai 12 Apr 2027."
+   }
   },
   {
    "id": "promo:aih-promo-2026",
@@ -1667,27 +2147,27 @@
    "date": "2026-11-18",
    "priority": 2,
    "title": {
-    "id": "🔥 Promo: APIC - beasiswa hingga 34-36%",
-    "en": "🔥 Promo: APIC - scholarships up to 34-36%",
-    "th": "🔥 Promo: APIC - ทุนการศึกษาสูงสุด 34-36%",
-    "vi": "🔥 Promo: APIC - học bổng đến 34-36%",
-    "zh": "🔥 Promo: APIC - 最高 34-36% 奖学金",
-    "ja": "🔥 Promo: APIC - 最大34〜36%の奨学金",
-    "ko": "🔥 Promo: APIC - 최대 34~36% 장학금",
-    "km": "🔥 Promo: APIC - អាហារូបករណ៍រហូតដល់ 34-36%",
-    "fr": "🔥 Promo: APIC - bourses jusqu’à 34-36 %",
-    "pt": "🔥 Promo: APIC - bolsas de até 34-36%",
-    "es": "🔥 Promo: APIC - becas de hasta 34-36 %",
-    "de": "🔥 Promo: APIC - Stipendien bis zu 34-36 %",
-    "it": "🔥 Promo: APIC - borse fino al 34-36%",
-    "nl": "🔥 Promo: APIC - beurzen tot 34-36%",
-    "ru": "🔥 Promo: APIC - стипендии до 34-36%"
+    "id": "🔥 Promo: APIC - Diversity Scholarship hingga 36% biaya 2027",
+    "en": "🔥 Promo: APIC - Diversity Scholarship up to 36% off 2027 fees",
+    "th": "🔥 Promo: APIC - Diversity Scholarship สูงสุด 36% ของค่าเรียนปี 2027",
+    "vi": "🔥 Promo: APIC - Diversity Scholarship đến 36% học phí 2027",
+    "zh": "🔥 Promo: APIC - Diversity Scholarship 最高减免 2027 年学费 36%",
+    "ja": "🔥 Promo: APIC - Diversity Scholarship 2027年学費最大36%",
+    "ko": "🔥 Promo: APIC - Diversity Scholarship 2027년 학비 최대 36%",
+    "km": "🔥 Promo: APIC - Diversity Scholarship រហូតដល់ 36% នៃថ្លៃសិក្សា 2027",
+    "fr": "🔥 Promo: APIC - Diversity Scholarship jusqu’à 36 % des frais 2027",
+    "pt": "🔥 Promo: APIC - Diversity Scholarship de até 36% das taxas de 2027",
+    "es": "🔥 Promo: APIC - Diversity Scholarship de hasta 36 % de las tasas 2027",
+    "de": "🔥 Promo: APIC - Diversity Scholarship bis zu 36 % der Gebühren 2027",
+    "it": "🔥 Promo: APIC - Diversity Scholarship fino al 36% delle tasse 2027",
+    "nl": "🔥 Promo: APIC - Diversity Scholarship tot 36% van het collegegeld 2027",
+    "ru": "🔥 Promo: APIC - Diversity Scholarship до 36% от стоимости обучения 2027"
    },
    "tab": "programs",
    "url": "https://pricelist.talentededucationgroup.com/?q=Asia%20Pacific%20International%20College",
    "provider": "Asia Pacific International College (APIC)",
    "country": "AU",
-   "source": "https://apicollege.edu.au/scholarship/"
+   "source": "https://www.apicollege.edu.au/fees-and-scholarships"
   },
   {
    "id": "accommodation:2026-11-18-1",
@@ -1814,7 +2294,11 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "US",
-   "source": "https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse"
+   "source": "https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse",
+   "category": "visa",
+   "facts": {
+    "summary": "Aturan DHS (Juli 2026) yang mengganti D/S dengan masa tinggal tetap (maks. 4 tahun) dibatalkan Pengadilan Distrik Massachusetts pada 16 Nov 2026, sehingga D/S tetap berlaku. Pemerintah AS diperkirakan akan banding - pantau terus."
+   }
   },
   {
    "id": "news:nz-stgwv-2026-11-16",
@@ -1841,7 +2325,12 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/"
+   "source": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
+   "category": "work",
+   "effective": "2026-11-16",
+   "facts": {
+    "summary": "Untuk lulusan kualifikasi NZQCF Level 5-7 (min. 24 minggu full-time di NZ) yang tidak memenuhi syarat Post-Study Work Visa. Memberi 6 bulan izin kerja terbuka; ajukan maks. 3 bulan setelah visa pelajar berakhir; perlu dana hidup NZD 5.000."
+   }
   },
   {
    "id": "news:nz-pswv-eligibility-2026-11-16",
@@ -1868,7 +2357,12 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/"
+   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
+   "category": "work",
+   "effective": "2026-11-16",
+   "facts": {
+    "summary": "Lulusan Graduate Diploma Level 7 yang sudah punya gelar sarjana (dari NZ atau luar negeri) kini bisa mendapat PSWV hingga 1 tahun (sesuai lama studi). Postgraduate Diploma (L8) hingga 1 tahun, Master (L9) hingga 3 tahun; min. 30 minggu studi full-time di NZ."
+   }
   },
   {
    "id": "news:au-485-family-2026-11-13",
@@ -1896,7 +2390,11 @@
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "AU",
    "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
-   "category": "visa"
+   "category": "visa",
+   "effective": "2026-11-13",
+   "facts": {
+    "summary": "Untuk aplikasi sejak 13 Nov 2026, keluarga hanya bisa diikutkan bila pemohon utama berpaspor Pasifik/ASEAN (termasuk Indonesia), lulus doktor, berbeasiswa penuh pemerintah asing, atau keluarga itu sudah ikut di visa pelajar/485 sebelumnya (mis. pada 2 Okt 2026 atau dalam 6 bulan terakhir). Keluarga wajib diajukan bersamaan dan tidak bisa menyusul sebagai subsequent entrant. Syarat pemohon utama tidak berubah; aplikasi sebelum 13 Nov dinilai dengan aturan lama."
+   }
   }
  ]
 }

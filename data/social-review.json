@@ -312,19 +312,6 @@
    "model": "claude (QA terjadwal)",
    "source": null
   },
-  "news:au-485-fee-2026-03": {
-   "verdict": "REVISI",
-   "score": 2,
-   "reasons": [
-    "Sumber resmi immi.homeaffairs.gov.au tidak bisa dibuka dari sesi QA - angka AUD 4.600 & tanggal 1 Mar 2026 belum terverifikasi",
-    "Poster menulis 'Diumumkan 23 Nov 2026' padahal caption menyebut berlaku sejak 1 Mar 2026 - kesan berita baru menyesatkan (sudah ~9 bulan)",
-    "Poster tidak menampilkan angka biaya; berita lama, bukan 'terbaru'"
-   ],
-   "fix": "Verifikasi biaya 485 di halaman resmi Home Affairs; ganti label poster jadi 'Berlaku sejak 1 Mar 2026' + tampilkan AUD 4.600, atau jangan diposting sebagai berita baru.",
-   "checked_at": "2026-11-23T18:05:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work"
-  },
   "scholarship:au-ecu-kickstart-bursary-2027|open": {
    "verdict": "REVISI",
    "score": 4,
@@ -337,45 +324,6 @@
    "checked_at": "2026-11-23T18:05:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary"
-  },
-  "program:2026-11-22:a": {
-   "verdict": "LOLOS",
-   "score": 4,
-   "reasons": [
-    "Bachelor of Early Childhood Education (Birth to Five) CRICOS 113915F cocok dengan register CRICOS: tuition AUD 108.000 / 156 minggu = AUD 36.000/tahun = AUD 18.000/semester, lokasi termasuk Castle Hill (UC Sydney Hills)",
-    "Jurusan pendidikan anak usia dini termasuk bidang yang dibutuhkan di Australia; label 'Perkiraan' & disclaimer offer letter ada",
-    "Logo Talented terlihat, penutup Talented ada, 3 hashtag, tanpa nomor telepon, tanpa nama master agent",
-    "Catatan kecil: nama kampus di poster disingkat 'University of Canberra (UC...' (sengaja dipotong, masih terbaca)"
-   ],
-   "fix": "",
-   "checked_at": "2026-11-24T07:15:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": "https://cricos.education.gov.au (register CRICOS, salinan data/cricos/00212K.json snapshot 2 Nov 2026)"
-  },
-  "program:2026-11-23:a": {
-   "verdict": "REVISI",
-   "score": 2,
-   "reasons": [
-    "Angka tidak konsisten: AUD 17.750/semester x 2 = AUD 35.500/tahun, tetapi poster & caption menulis '± AUD 31.062/tahun'",
-    "Situs resmi VU (vu.edu.au) tidak bisa dibuka dari sesi QA - harga kampus Sydney belum terverifikasi; register CRICOS VU untuk Master of Education (Early Childhood Teaching) hanya mencatat lokasi Melbourne"
-   ],
-   "fix": "Cek harga EMEC VU Sydney di fee schedule resmi VU; samakan angka per tahun dengan harga per semester (atau jelaskan cara hitung) lalu buat ulang poster.",
-   "checked_at": "2026-11-24T07:15:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": null
-  },
-  "program:2026-11-23:b": {
-   "verdict": "TOLAK",
-   "score": 1,
-   "reasons": [
-    "Poster TIDAK cocok dengan caption: poster menampilkan logo CIHE, 'S2 Pendidikan & Mengajar di PERTH', 'AUD 6.250', sedangkan caption menyebut Charles Darwin University (CDU), Darwin, AUD 7.858/term (file poster 'Talented CIHE Australia Promo November 2026.png' kemungkinan tertimpa postingan lain)",
-    "Nama program terpotong 'Bachelor of Primary Education / Master of Secondary'; CDU menagih per semester, label '/term' (hasil bagi 4) menyesatkan",
-    "Judul 'S2' padahal program gabungan Bachelor/Master 4,5 tahun"
-   ],
-   "fix": "Buat ulang poster CDU dengan nama file unik; tulis nama program lengkap & harga per semester resmi CDU (atau beri label 'sekitar ... per term, dihitung biaya tahunan/4'); jenjang 'S1+S2'.",
-   "checked_at": "2026-11-24T07:15:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": null
   },
   "jobs:2026-11-22-140": {
    "verdict": "REVISI",
@@ -442,19 +390,6 @@
    "checked_at": "2026-11-24T14:20:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/site-promo.json; data/badges.json"
-  },
-  "program:2026-11-24:a": {
-   "verdict": "TOLAK",
-   "score": 3,
-   "reasons": [
-    "Situs resmi KBS (International Fees): Bachelor of Business AUD 2.880/subject (2026), 24 subject, total course AUD 69.120; 2027 = AUD 3.020/subject, total AUD 72.480.",
-    "AUD 11.520 = 4 subject x 2.880 (harga 2026), tetapi '± AUD 34.560/tahun x 3 tahun' menyiratkan ±AUD 103.680, padahal total resmi hanya AUD 69.120 (±AUD 23.040/tahun bila 3 tahun). Estimasi per tahun salah dan menyesatkan.",
-    "Harga 2026 dipakai tanpa label padahal tarif 2027 sudah terbit; caption terpotong ('/ PT'), dan nama program memuat teks '(Per Trimester or 4 months)'."
-   ],
-   "fix": "Perbaiki estimasi: sebutkan total resmi AUD 69.120 (2026) / AUD 72.480 (2027), lalu hitung per tahun yang benar sesuai beban studi; beri label tahun harga; lengkapi 'PTE 50'; rapikan nama program menjadi 'Bachelor of Business'.",
-   "checked_at": "2026-11-24T14:20:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": "https://kbs.edu.au/future-students/international-fees"
   },
   "program:2026-11-24:n": {
    "verdict": "REVISI",

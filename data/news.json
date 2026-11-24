@@ -375,49 +375,111 @@
  "rules": "Hanya berita dengan link sumber resmi pemerintah/sekolah (official=true) yang boleh menjadi sumber utama; link media hanya pelengkap. BOLEH memuat usulan, konsultasi publik, rencana pemerintah yang terbukti dari dokumen/halaman resmi (status consultation/proposed) - wajib tampil label status & tanggal tutup (deadline) bila ada; jangan ditulis seolah sudah berlaku. Field: date = tanggal terbit/pengumuman, effective_date = tanggal berlaku (bila ada), deadline = tanggal tutup konsultasi. Urut tanggal terbaru. Arsipkan item > 12 bulan kecuali masih relevan. Semua teks 15 bahasa (id,en,th,vi,zh,ja,ko,km,fr,pt,es,de,it,nl,ru); cadangan en. Jangan memuat nama master agent atau info internal.",
  "items": [
   {
+   "id": "au-visitor-8503-2026",
+   "date": "2026-11-24",
+   "effective_date": null,
+   "deadline": null,
+   "country": "AU",
+   "category": "visa",
+   "status": "announced",
+   "title": {
+    "id": "Australia: kondisi 'No Further Stay' (8503) untuk semua visa visitor diumumkan pemerintah",
+    "en": "Australia: government announces a 'No Further Stay' (8503) condition for all visitor visas",
+    "th": "ออสเตรเลีย: รัฐบาลประกาศเงื่อนไข 'No Further Stay' (8503) สำหรับวีซ่าท่องเที่ยวทุกประเภท",
+    "vi": "Úc: chính phủ công bố điều kiện 'No Further Stay' (8503) cho mọi visa du lịch",
+    "zh": "澳大利亚：政府宣布所有访客签证将附加 'No Further Stay'（8503）条件",
+    "ja": "オーストラリア：全ての訪問者ビザに 'No Further Stay'（8503）条件を付けると政府が発表",
+    "ko": "호주: 정부, 모든 방문 비자에 'No Further Stay'(8503) 조건 도입 발표",
+    "km": "អូស្ត្រាលី៖ រដ្ឋាភិបាលប្រកាសលក្ខខណ្ឌ 'No Further Stay' (8503) សម្រាប់ទិដ្ឋាការភ្ញៀវទាំងអស់",
+    "fr": "Australie : le gouvernement annonce une condition 'No Further Stay' (8503) pour tous les visas visiteur",
+    "pt": "Austrália: governo anuncia condição 'No Further Stay' (8503) para todos os vistos de visitante",
+    "es": "Australia: el gobierno anuncia la condición 'No Further Stay' (8503) para todos los visados de visitante",
+    "de": "Australien: Regierung kündigt Auflage 'No Further Stay' (8503) für alle Besuchervisa an",
+    "it": "Australia: il governo annuncia la condizione 'No Further Stay' (8503) per tutti i visti visitatore",
+    "nl": "Australië: overheid kondigt voorwaarde 'No Further Stay' (8503) aan voor alle bezoekersvisa",
+    "ru": "Австралия: правительство объявило условие 'No Further Stay' (8503) для всех гостевых виз"
+   },
+   "summary": {
+    "id": "Pemerintah Australia mengumumkan bahwa semua visa visitor (termasuk ETA & eVisitor) akan diberi kondisi No Further Stay, sehingga pemegangnya tidak bisa mengajukan visa lain (termasuk visa pelajar) dari dalam Australia. Halaman resmi Home Affairs belum mencantumkan tanggal mulai; beberapa praktisi migrasi melaporkan mulai 28 Nov 2026. Rencana studi: ajukan visa pelajar dari Indonesia. Tanggal & detail final ikuti situs resmi Home Affairs.",
+    "en": "The Australian Government has announced that all visitor visas (including ETA & eVisitor) will carry a No Further Stay condition, so holders cannot apply for another visa (including a student visa) from inside Australia. The official Home Affairs page does not yet list a start date; several migration practitioners report 28 Nov 2026. Study plans: apply for your student visa from Indonesia. Final dates & details follow the official Home Affairs website.",
+    "th": "รัฐบาลออสเตรเลียประกาศว่าวีซ่าท่องเที่ยวทุกประเภท (รวม ETA และ eVisitor) จะมีเงื่อนไข No Further Stay ผู้ถือจึงไม่สามารถยื่นวีซ่าอื่น (รวมวีซ่านักเรียน) จากในออสเตรเลียได้ หน้าเว็บทางการของ Home Affairs ยังไม่ระบุวันเริ่ม นักกฎหมายการย้ายถิ่นหลายรายรายงานว่าเริ่ม 28 พ.ย. 2026 แผนการเรียน: ยื่นวีซ่านักเรียนจากอินโดนีเซีย วันที่และรายละเอียดสุดท้ายให้ยึดตามเว็บไซต์ทางการของ Home Affairs",
+    "vi": "Chính phủ Úc công bố mọi visa du lịch (gồm ETA & eVisitor) sẽ có điều kiện No Further Stay, nên người giữ visa không thể nộp visa khác (kể cả visa du học) từ trong nước Úc. Trang chính thức của Home Affairs chưa ghi ngày bắt đầu; một số chuyên gia di trú cho biết từ 28/11/2026. Kế hoạch du học: nộp visa du học từ Indonesia. Ngày và chi tiết cuối cùng theo trang chính thức của Home Affairs.",
+    "zh": "澳大利亚政府宣布，所有访客签证（包括 ETA 和 eVisitor）将附加 No Further Stay 条件，持有人无法在澳大利亚境内申请其他签证（包括学生签证）。Home Affairs 官方页面尚未列出生效日期；多家移民事务机构称自2026年11月28日起实施。留学计划：请从印尼申请学生签证。最终日期和细节以 Home Affairs 官方网站为准。",
+    "ja": "オーストラリア政府は、全ての訪問者ビザ（ETA・eVisitor を含む）に No Further Stay 条件を付けると発表しました。保持者はオーストラリア国内から他のビザ（学生ビザを含む）を申請できなくなります。Home Affairs 公式ページには開始日がまだ記載されていません。複数の移民専門家は2026年11月28日開始と報告しています。留学予定の方はインドネシアから学生ビザを申請してください。最終的な日付と詳細は Home Affairs 公式サイトに従います。",
+    "ko": "호주 정부는 모든 방문 비자(ETA·eVisitor 포함)에 No Further Stay 조건을 붙인다고 발표했습니다. 소지자는 호주 내에서 다른 비자(학생 비자 포함)를 신청할 수 없습니다. Home Affairs 공식 페이지에는 아직 시작일이 없으며, 여러 이민 전문가는 2026년 11월 28일 시행으로 보고하고 있습니다. 유학 계획: 인도네시아에서 학생 비자를 신청하세요. 최종 날짜와 세부 사항은 Home Affairs 공식 웹사이트를 따릅니다.",
+    "km": "រដ្ឋាភិបាលអូស្ត្រាលីប្រកាសថា ទិដ្ឋាការភ្ញៀវទាំងអស់ (រួមទាំង ETA និង eVisitor) នឹងមានលក្ខខណ្ឌ No Further Stay ដូច្នេះអ្នកកាន់មិនអាចដាក់ពាក្យទិដ្ឋាការផ្សេង (រួមទាំងទិដ្ឋាការសិស្ស) ពីក្នុងប្រទេសអូស្ត្រាលីបានទេ។ ទំព័រផ្លូវការ Home Affairs មិនទាន់បញ្ជាក់ថ្ងៃចាប់ផ្តើម អ្នកជំនាញអន្តោប្រវេសន៍ខ្លះរាយការណ៍ថាចាប់ពី 28 វិច្ឆិកា 2026។ ផែនការសិក្សា៖ ដាក់ពាក្យទិដ្ឋាការសិស្សពីឥណ្ឌូនេស៊ី។ កាលបរិច្ឆេទ និងព័ត៌មានចុងក្រោយ សូមយោងតាមគេហទំព័រផ្លូវការ Home Affairs។",
+    "fr": "Le gouvernement australien a annoncé que tous les visas visiteur (y compris ETA et eVisitor) porteront une condition No Further Stay : leurs titulaires ne pourront pas demander un autre visa (y compris un visa étudiant) depuis l'Australie. La page officielle de Home Affairs n'indique pas encore de date de début ; plusieurs praticiens en migration annoncent le 28 nov. 2026. Projet d'études : déposez votre visa étudiant depuis l'Indonésie. Les dates et détails définitifs suivent le site officiel de Home Affairs.",
+    "pt": "O governo australiano anunciou que todos os vistos de visitante (incluindo ETA e eVisitor) terão a condição No Further Stay, então os titulares não poderão pedir outro visto (inclusive de estudante) de dentro da Austrália. A página oficial do Home Affairs ainda não informa a data de início; vários profissionais de migração relatam 28 nov. 2026. Planos de estudo: solicite o visto de estudante a partir da Indonésia. Datas e detalhes finais seguem o site oficial do Home Affairs.",
+    "es": "El gobierno australiano anunció que todos los visados de visitante (incluidos ETA y eVisitor) llevarán la condición No Further Stay, por lo que sus titulares no podrán solicitar otro visado (incluido el de estudiante) desde Australia. La página oficial de Home Affairs aún no indica fecha de inicio; varios profesionales de migración informan el 28 nov. 2026. Planes de estudio: solicita tu visado de estudiante desde Indonesia. Las fechas y detalles finales siguen el sitio oficial de Home Affairs.",
+    "de": "Die australische Regierung hat angekündigt, dass alle Besuchervisa (einschließlich ETA und eVisitor) die Auflage No Further Stay erhalten; Inhaber können dann kein weiteres Visum (auch kein Studentenvisum) innerhalb Australiens beantragen. Die offizielle Home-Affairs-Seite nennt noch kein Startdatum; mehrere Migrationsberater berichten vom 28. Nov. 2026. Studienpläne: Studentenvisum aus Indonesien beantragen. Endgültige Daten und Details richten sich nach der offiziellen Home-Affairs-Website.",
+    "it": "Il governo australiano ha annunciato che tutti i visti visitatore (inclusi ETA ed eVisitor) avranno la condizione No Further Stay, quindi i titolari non potranno richiedere un altro visto (compreso quello per studenti) dall'Australia. La pagina ufficiale di Home Affairs non indica ancora la data di inizio; diversi professionisti dell'immigrazione riportano il 28 nov. 2026. Piani di studio: richiedi il visto per studenti dall'Indonesia. Date e dettagli finali seguono il sito ufficiale di Home Affairs.",
+    "nl": "De Australische overheid heeft aangekondigd dat alle bezoekersvisa (inclusief ETA en eVisitor) de voorwaarde No Further Stay krijgen, waardoor houders vanuit Australië geen ander visum (ook geen studentenvisum) kunnen aanvragen. De officiële Home Affairs-pagina noemt nog geen startdatum; verschillende migratieadviseurs melden 28 nov. 2026. Studieplannen: vraag je studentenvisum aan vanuit Indonesië. Definitieve data en details volgen de officiële website van Home Affairs.",
+    "ru": "Правительство Австралии объявило, что все гостевые визы (включая ETA и eVisitor) будут выдаваться с условием No Further Stay: их владельцы не смогут подать на другую визу (в том числе студенческую), находясь в Австралии. Официальная страница Home Affairs пока не указывает дату начала; ряд миграционных специалистов сообщает о 28 нояб. 2026 г. Планы на учёбу: подавайте на студенческую визу из Индонезии. Окончательные даты и детали — по официальному сайту Home Affairs."
+   },
+   "social": false,
+   "links": [
+    {
+     "label": "Home Affairs: Australian Government Migration Policy Changes",
+     "url": "https://immi.homeaffairs.gov.au/australian-government-migration-policy-changes",
+     "official": true
+    }
+   ],
+   "recheck": "Tanggal mulai belum ada di halaman resmi (cek 24/11/2026). Laporan praktisi: 28/11/2026. Cek ulang; bila resmi, isi effective_date & hapus social:false."
+  },
+  {
    "id": "au-485-fee-2026-03",
-   "date": "2026-11-23",
-   "effective": "2026-03-01",
-   "effective_date": "2026-03-01",
+   "date": "2026-11-24",
+   "effective": "2026-07-01",
+   "effective_date": "2026-07-01",
    "deadline": null,
    "country": "AU",
    "category": "visa",
    "status": "in_force",
    "title": {
-    "id": "Australia: biaya visa Temporary Graduate (subclass 485) AUD 4.600 sejak 1 Mar 2026",
-    "en": "Australia: Temporary Graduate visa (subclass 485) fee is AUD 4,600 since 1 Mar 2026",
-    "th": "ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) AUD 4,600 ตั้งแต่ 1 มี.ค. 2026",
-    "vi": "Úc: lệ phí visa Temporary Graduate (subclass 485) là AUD 4.600 từ 1/3/2026",
-    "zh": "澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年3月1日起费用为 AUD 4,600",
-    "ja": "オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年3月1日から AUD 4,600",
-    "ko": "호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 3월 1일부터 AUD 4,600",
-    "km": "អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) AUD 4,600 ចាប់ពី 1 មីនា 2026",
-    "fr": "Australie : le visa Temporary Graduate (subclass 485) coûte AUD 4 600 depuis le 1er mars 2026",
-    "pt": "Austrália: taxa do visto Temporary Graduate (subclass 485) é AUD 4.600 desde 1º de março de 2026",
-    "es": "Australia: la tasa del visado Temporary Graduate (subclass 485) es de AUD 4.600 desde el 1 de marzo de 2026",
-    "de": "Australien: Gebühr für das Temporary-Graduate-Visum (Subclass 485) seit 1. März 2026 AUD 4.600",
-    "it": "Australia: il visto Temporary Graduate (subclass 485) costa AUD 4.600 dal 1° marzo 2026",
-    "nl": "Australië: Temporary Graduate-visum (subclass 485) kost sinds 1 maart 2026 AUD 4.600",
-    "ru": "Австралия: сбор за визу Temporary Graduate (subclass 485) — AUD 4 600 с 1 марта 2026"
+    "id": "Australia: biaya visa Temporary Graduate (subclass 485) kini AUD 5.750 sejak 1 Jul 2026",
+    "en": "Australia: Temporary Graduate visa (subclass 485) fee is now AUD 5,750 since 1 Jul 2026",
+    "th": "ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) เป็น AUD 5,750 ตั้งแต่ 1 ก.ค. 2026",
+    "vi": "Úc: lệ phí visa Temporary Graduate (subclass 485) nay là AUD 5.750 từ 1/7/2026",
+    "zh": "澳大利亚：Temporary Graduate 签证（subclass 485）自 2026年7月1日起费用为 AUD 5,750",
+    "ja": "オーストラリア：Temporary Graduate ビザ（subclass 485）の申請料は2026年7月1日から AUD 5,750",
+    "ko": "호주: Temporary Graduate 비자(subclass 485) 수수료 2026년 7월 1일부터 AUD 5,750",
+    "km": "អូស្ត្រាលី៖ ថ្លៃទិដ្ឋាការ Temporary Graduate (subclass 485) ឥឡូវ AUD 5,750 ចាប់ពី 1 កក្កដា 2026",
+    "fr": "Australie : le visa Temporary Graduate (subclass 485) coûte désormais AUD 5 750 depuis le 1er juil. 2026",
+    "pt": "Austrália: taxa do visto Temporary Graduate (subclass 485) agora é AUD 5.750 desde 1º jul. 2026",
+    "es": "Australia: la tasa del visado Temporary Graduate (subclass 485) es ahora AUD 5.750 desde el 1 jul. 2026",
+    "de": "Australien: Gebühr für das Temporary Graduate Visum (subclass 485) beträgt seit 1. Juli 2026 AUD 5.750",
+    "it": "Australia: la tassa del visto Temporary Graduate (subclass 485) è ora AUD 5.750 dal 1° lug. 2026",
+    "nl": "Australië: tarief Temporary Graduate visum (subclass 485) is sinds 1 juli 2026 AUD 5.750",
+    "ru": "Австралия: сбор за визу Temporary Graduate (subclass 485) с 1 июля 2026 г. составляет AUD 5 750"
    },
    "summary": {
-    "id": "Biaya aplikasi 485 naik dua kali lipat sejak 1 Mar 2026: pemohon utama AUD 4.600 (sebelumnya 2.300), anggota keluarga dewasa AUD 2.300, anak di bawah 18 AUD 1.160. Tarif lebih rendah hanya untuk kasus tertentu (paspor Pasifik/Timor-Leste, atau pemegang 485 sebelumnya) - cek kalkulator Home Affairs sebelum mengajukan. Masukkan biaya ini ke rencana dana setelah lulus. WNI masih boleh mengikutkan keluarga (aturan baru sejak 13 Nov 2026), asalkan diajukan bersamaan.",
-    "en": "485 application charges doubled from 1 Mar 2026: primary applicant AUD 4,600 (was 2,300), additional adult AUD 2,300, child under 18 AUD 1,160. Lower charges apply only in specific cases (Pacific/Timor-Leste passports, or previous 485 holders) - check the Home Affairs estimator before lodging. Include this cost in your post-study budget. Indonesian citizens can still include family (new rule from 13 Nov 2026) if they apply together.",
-    "th": "ค่าธรรมเนียม 485 เพิ่มเป็นสองเท่าตั้งแต่ 1 มี.ค. 2026: ผู้สมัครหลัก AUD 4,600 (เดิม 2,300) ผู้ติดตามผู้ใหญ่ AUD 2,300 เด็กอายุต่ำกว่า 18 AUD 1,160 อัตราที่ต่ำกว่าใช้เฉพาะบางกรณี (หนังสือเดินทางแปซิฟิก/ติมอร์-เลสเต หรือผู้เคยถือ 485) ตรวจสอบเครื่องคำนวณของ Home Affairs ก่อนยื่น ควรรวมค่าใช้จ่ายนี้ในงบหลังเรียนจบ ชาวอินโดนีเซียยังพาครอบครัวได้ (กฎใหม่ตั้งแต่ 13 พ.ย. 2026) หากยื่นพร้อมกัน",
-    "vi": "Lệ phí 485 tăng gấp đôi từ 1/3/2026: người nộp chính AUD 4.600 (trước 2.300), người lớn đi kèm AUD 2.300, trẻ dưới 18 tuổi AUD 1.160. Mức thấp hơn chỉ áp dụng trường hợp đặc biệt (hộ chiếu Thái Bình Dương/Timor-Leste, hoặc đã từng có 485) - kiểm tra công cụ ước tính của Home Affairs trước khi nộp. Hãy tính chi phí này vào ngân sách sau tốt nghiệp. Công dân Indonesia vẫn được kèm gia đình (quy định mới từ 13/11/2026) nếu nộp cùng lúc.",
-    "zh": "485 申请费自 2026年3月1日起翻倍：主申请人 AUD 4,600（原 2,300），随行成人 AUD 2,300，18岁以下儿童 AUD 1,160。较低费用仅适用于特定情况（太平洋岛国/东帝汶护照，或曾持 485）——递交前请用 Home Affairs 费用估算工具确认。请把这笔费用纳入毕业后预算。印尼公民仍可携带家属（2026年11月13日新规），但须同时递交。",
-    "ja": "485 の申請料は2026年3月1日から倍増：主申請者 AUD 4,600（以前は 2,300）、同伴成人 AUD 2,300、18歳未満の子 AUD 1,160。低い料金は特定のケース（太平洋諸国・東ティモールのパスポート、または以前の 485 保持者）のみ。申請前に Home Affairs の料金試算ツールで確認を。卒業後の予算に含めましょう。インドネシア国籍者は家族の同伴が引き続き可能（2026年11月13日からの新ルール）ですが、同時申請が必要です。",
-    "ko": "485 신청비 2026년 3월 1일부터 두 배 인상: 주신청자 AUD 4,600(종전 2,300), 동반 성인 AUD 2,300, 18세 미만 자녀 AUD 1,160. 더 낮은 요금은 일부 경우(태평양 국가/동티모르 여권, 이전 485 소지자)에만 적용—신청 전 Home Affairs 계산기로 확인하세요. 졸업 후 예산에 포함하세요. 인도네시아 국민은 함께 신청하면 가족 동반 가능(2026년 11월 13일 새 규정).",
-    "km": "ថ្លៃពាក្យ 485 កើនទ្វេដងចាប់ពី 1 មីនា 2026៖ អ្នកដាក់ពាក្យចម្បង AUD 4,600 (មុន 2,300) មនុស្សពេញវ័យបន្ថែម AUD 2,300 កុមារក្រោម 18 AUD 1,160។ តម្លៃទាបជាងសម្រាប់តែករណីពិសេស (លិខិតឆ្លងដែនប៉ាស៊ីហ្វិក/ទីម័រខាងកើត ឬអ្នកធ្លាប់កាន់ 485) - ពិនិត្យឧបករណ៍គណនា Home Affairs មុនដាក់ពាក្យ។ ដាក់ថ្លៃនេះក្នុងថវិកាក្រោយបញ្ចប់ការសិក្សា។ ពលរដ្ឋឥណ្ឌូនេស៊ីនៅតែអាចនាំគ្រួសារ (ច្បាប់ថ្មីចាប់ពី 13 វិច្ឆិកា 2026) ប្រសិនបើដាក់ពាក្យជាមួយគ្នា។",
-    "fr": "Les frais du 485 ont doublé depuis le 1er mars 2026 : demandeur principal AUD 4 600 (contre 2 300), adulte supplémentaire AUD 2 300, enfant de moins de 18 ans AUD 1 160. Des frais réduits ne s’appliquent que dans certains cas (passeports du Pacifique/Timor-Leste ou anciens titulaires du 485) - vérifiez l’estimateur de Home Affairs avant de déposer. Prévoyez ce coût dans votre budget après les études. Les Indonésiens peuvent toujours inclure leur famille (nouvelle règle depuis le 13 nov. 2026) s’ils déposent ensemble.",
-    "pt": "As taxas do 485 dobraram desde 1º de março de 2026: requerente principal AUD 4.600 (antes 2.300), adulto adicional AUD 2.300, criança menor de 18 AUD 1.160. Valores menores só em casos específicos (passaportes do Pacífico/Timor-Leste ou ex-titulares do 485) - confira o estimador da Home Affairs antes de aplicar. Inclua esse custo no orçamento pós-formatura. Indonésios ainda podem incluir a família (nova regra desde 13 nov 2026) se aplicarem juntos.",
-    "es": "Las tasas del 485 se duplicaron desde el 1 de marzo de 2026: solicitante principal AUD 4.600 (antes 2.300), adulto adicional AUD 2.300, menor de 18 AUD 1.160. Tasas más bajas solo en casos concretos (pasaportes del Pacífico/Timor Oriental o titulares previos del 485): consulta el estimador de Home Affairs antes de presentar. Incluye este coste en tu presupuesto tras graduarte. Los indonesios aún pueden incluir a su familia (nueva norma desde el 13 nov 2026) si solicitan a la vez.",
-    "de": "Die 485-Gebühren haben sich ab 1. März 2026 verdoppelt: Hauptantragsteller AUD 4.600 (vorher 2.300), weiterer Erwachsener AUD 2.300, Kind unter 18 AUD 1.160. Niedrigere Gebühren nur in bestimmten Fällen (Pazifik-/Timor-Leste-Pässe oder frühere 485-Inhaber) - vor dem Antrag den Home-Affairs-Gebührenrechner prüfen. Kosten im Budget nach dem Studium einplanen. Indonesier können Familienangehörige weiterhin einbeziehen (neue Regel seit 13. Nov. 2026), wenn gemeinsam beantragt wird.",
-    "it": "I costi del 485 sono raddoppiati dal 1° marzo 2026: richiedente principale AUD 4.600 (prima 2.300), adulto aggiuntivo AUD 2.300, figlio sotto i 18 anni AUD 1.160. Importi più bassi solo in casi specifici (passaporti del Pacifico/Timor Est o ex titolari del 485): verifica lo strumento di stima di Home Affairs prima di presentare. Includi il costo nel budget post-laurea. Gli indonesiani possono ancora includere la famiglia (nuova regola dal 13 nov 2026) se presentano insieme.",
-    "nl": "De kosten van de 485 zijn sinds 1 maart 2026 verdubbeld: hoofdaanvrager AUD 4.600 (was 2.300), extra volwassene AUD 2.300, kind onder 18 AUD 1.160. Lagere tarieven alleen in bijzondere gevallen (paspoort uit de Pacific/Oost-Timor of eerdere 485-houders) - controleer de rekentool van Home Affairs vóór je aanvraagt. Neem deze kosten op in je budget na het afstuderen. Indonesiërs mogen nog steeds familie meenemen (nieuwe regel sinds 13 nov 2026) als ze tegelijk aanvragen.",
-    "ru": "Сборы за 485 удвоились с 1 марта 2026: основной заявитель AUD 4 600 (было 2 300), дополнительный взрослый AUD 2 300, ребёнок до 18 лет AUD 1 160. Пониженные сборы — только в отдельных случаях (паспорта стран Тихого океана/Тимор-Лешти или прежние держатели 485); перед подачей проверьте калькулятор Home Affairs. Учтите эти расходы в бюджете после учёбы. Граждане Индонезии по-прежнему могут включить семью (новое правило с 13 нояб. 2026), если подают одновременно."
+    "id": "Biaya aplikasi 485 untuk pemohon utama kini AUD 5.750 sejak 1 Jul 2026 (sebelumnya AUD 4.600 sejak 1 Mar 2026, dan AUD 2.300 sebelum itu). Biaya anggota keluarga juga naik; cek angka pastinya di Visa Pricing Estimator Home Affairs sebelum mengajukan, karena tarif bisa berubah tiap 1 Juli. Masukkan biaya ini ke rencana dana setelah lulus. WNI masih boleh mengikutkan keluarga (aturan baru sejak 13 Nov 2026), asalkan diajukan bersamaan.",
+    "en": "The 485 application charge for the primary applicant is now AUD 5,750 from 1 Jul 2026 (previously AUD 4,600 from 1 Mar 2026, and AUD 2,300 before that). Family member charges also rose; check the exact amounts in the Home Affairs Visa Pricing Estimator before applying, as prices can change every 1 July. Include this cost in your post-study budget. Indonesian applicants can still include family (new rules from 13 Nov 2026) if they apply together.",
+    "th": "ค่าธรรมเนียม 485 สำหรับผู้สมัครหลักเป็น AUD 5,750 ตั้งแต่ 1 ก.ค. 2026 (ก่อนหน้า AUD 4,600 ตั้งแต่ 1 มี.ค. 2026 และ AUD 2,300 ก่อนนั้น) ค่าธรรมเนียมสมาชิกครอบครัวก็เพิ่มขึ้น ตรวจสอบจำนวนที่แน่นอนใน Visa Pricing Estimator ของ Home Affairs ก่อนยื่น เพราะราคาอาจเปลี่ยนทุกวันที่ 1 ก.ค. รวมค่าใช้จ่ายนี้ในแผนการเงินหลังเรียนจบ ผู้สมัครชาวอินโดนีเซียยังรวมครอบครัวได้ (กฎใหม่ตั้งแต่ 13 พ.ย. 2026) หากยื่นพร้อมกัน",
+    "vi": "Lệ phí 485 cho người nộp đơn chính nay là AUD 5.750 từ 1/7/2026 (trước đó AUD 4.600 từ 1/3/2026 và AUD 2.300 trước nữa). Lệ phí cho thành viên gia đình cũng tăng; kiểm tra số tiền chính xác trên Visa Pricing Estimator của Home Affairs trước khi nộp vì giá có thể thay đổi mỗi ngày 1/7. Hãy đưa khoản này vào kế hoạch tài chính sau tốt nghiệp. Người Indonesia vẫn có thể kèm gia đình (quy định mới từ 13/11/2026) nếu nộp cùng lúc.",
+    "zh": "485 签证主申请人费用自 2026年7月1日起为 AUD 5,750（此前自2026年3月1日起为 AUD 4,600，更早为 AUD 2,300）。家庭成员费用也已上调；申请前请在 Home Affairs 的 Visa Pricing Estimator 中核实具体金额，因为费用可能每年7月1日调整。请将此费用纳入毕业后的资金计划。印尼申请人如同时申请，仍可携带家人（2026年11月13日起新规）。",
+    "ja": "485 の主申請者の申請料は2026年7月1日から AUD 5,750（それ以前は2026年3月1日から AUD 4,600、さらに前は AUD 2,300）。家族の申請料も上がっています。料金は毎年7月1日に変わることがあるため、申請前に Home Affairs の Visa Pricing Estimator で正確な金額を確認してください。卒業後の資金計画に含めましょう。インドネシア国籍者は同時申請なら家族を含められます（2026年11月13日からの新規則）。",
+    "ko": "485 주신청자 수수료는 2026년 7월 1일부터 AUD 5,750입니다(이전 2026년 3월 1일부터 AUD 4,600, 그 전에는 AUD 2,300). 가족 구성원 수수료도 올랐으니 신청 전 Home Affairs Visa Pricing Estimator에서 정확한 금액을 확인하세요. 요금은 매년 7월 1일 바뀔 수 있습니다. 졸업 후 자금 계획에 포함하세요. 인도네시아 신청자는 함께 신청하면 여전히 가족을 포함할 수 있습니다(2026년 11월 13일 새 규정).",
+    "km": "ថ្លៃពាក្យ 485 សម្រាប់អ្នកដាក់ពាក្យគោល ឥឡូវ AUD 5,750 ចាប់ពី 1 កក្កដា 2026 (មុននេះ AUD 4,600 ចាប់ពី 1 មីនា 2026 និង AUD 2,300 មុនទៀត)។ ថ្លៃសមាជិកគ្រួសារក៏ឡើងដែរ សូមពិនិត្យចំនួនពិតប្រាកដនៅ Visa Pricing Estimator របស់ Home Affairs មុនដាក់ពាក្យ ព្រោះតម្លៃអាចប្តូររៀងរាល់ថ្ងៃទី 1 កក្កដា។ បញ្ចូលថ្លៃនេះក្នុងផែនការថវិកាក្រោយបញ្ចប់ការសិក្សា។ អ្នកដាក់ពាក្យឥណ្ឌូនេស៊ីនៅតែអាចបញ្ចូលគ្រួសារ (ច្បាប់ថ្មីចាប់ពី 13 វិច្ឆិកា 2026) ប្រសិនបើដាក់ពាក្យជាមួយគ្នា។",
+    "fr": "Les frais 485 pour le demandeur principal sont désormais de AUD 5 750 depuis le 1er juil. 2026 (AUD 4 600 depuis le 1er mars 2026, et AUD 2 300 auparavant). Les frais des membres de la famille ont aussi augmenté ; vérifiez les montants exacts dans le Visa Pricing Estimator de Home Affairs avant de postuler, car les tarifs peuvent changer chaque 1er juillet. Prévoyez ce coût dans votre budget après les études. Les demandeurs indonésiens peuvent toujours inclure leur famille (nouvelles règles depuis le 13 nov. 2026) s'ils déposent ensemble.",
+    "pt": "A taxa do 485 para o requerente principal agora é AUD 5.750 desde 1º jul. 2026 (antes AUD 4.600 desde 1º mar. 2026 e AUD 2.300 anteriormente). As taxas de familiares também subiram; confira os valores exatos no Visa Pricing Estimator do Home Affairs antes de aplicar, pois os preços podem mudar todo 1º de julho. Inclua esse custo no orçamento pós-estudos. Indonésios ainda podem incluir a família (novas regras desde 13 nov. 2026) se aplicarem juntos.",
+    "es": "La tasa del 485 para el solicitante principal es ahora AUD 5.750 desde el 1 jul. 2026 (antes AUD 4.600 desde el 1 mar. 2026 y AUD 2.300 antes de eso). Las tasas de familiares también subieron; verifica los importes exactos en el Visa Pricing Estimator de Home Affairs antes de solicitar, ya que los precios pueden cambiar cada 1 de julio. Incluye este costo en tu presupuesto tras graduarte. Los solicitantes indonesios aún pueden incluir familia (nuevas reglas desde el 13 nov. 2026) si solicitan juntos.",
+    "de": "Die 485-Gebühr für Hauptantragsteller beträgt seit 1. Juli 2026 AUD 5.750 (zuvor AUD 4.600 ab 1. März 2026 und davor AUD 2.300). Auch die Gebühren für Familienangehörige sind gestiegen; prüfe die genauen Beträge vor der Antragstellung im Visa Pricing Estimator von Home Affairs, da sich die Preise jeden 1. Juli ändern können. Plane diese Kosten nach dem Studium ein. Indonesische Antragsteller können weiterhin Familie einbeziehen (neue Regeln seit 13. Nov. 2026), wenn sie gemeinsam beantragen.",
+    "it": "La tassa 485 per il richiedente principale è ora AUD 5.750 dal 1° lug. 2026 (prima AUD 4.600 dal 1° mar. 2026 e AUD 2.300 in precedenza). Anche le tasse per i familiari sono aumentate; verifica gli importi esatti nel Visa Pricing Estimator di Home Affairs prima di presentare domanda, perché i prezzi possono cambiare ogni 1° luglio. Includi questo costo nel budget post-laurea. I richiedenti indonesiani possono ancora includere la famiglia (nuove regole dal 13 nov. 2026) se presentano domanda insieme.",
+    "nl": "De 485-aanvraagkosten voor de hoofdaanvrager zijn sinds 1 juli 2026 AUD 5.750 (eerder AUD 4.600 vanaf 1 maart 2026 en daarvoor AUD 2.300). Ook de kosten voor gezinsleden zijn gestegen; controleer de exacte bedragen in de Visa Pricing Estimator van Home Affairs voordat je aanvraagt, want prijzen kunnen elk jaar op 1 juli veranderen. Neem deze kosten op in je budget na je studie. Indonesische aanvragers kunnen nog steeds gezinsleden meenemen (nieuwe regels sinds 13 nov. 2026) als ze samen aanvragen.",
+    "ru": "Сбор за визу 485 для основного заявителя с 1 июля 2026 г. составляет AUD 5 750 (ранее AUD 4 600 с 1 марта 2026 г., до этого AUD 2 300). Сборы для членов семьи тоже выросли; перед подачей проверьте точные суммы в Visa Pricing Estimator Home Affairs, так как тарифы могут меняться каждое 1 июля. Учтите эти расходы в бюджете после учёбы. Граждане Индонезии по-прежнему могут включить семью (новые правила с 13 нояб. 2026 г.), если подают заявление вместе."
    },
    "links": [
+    {
+     "label": "Study Australia (Pemerintah Australia): Visa Application Charge increase",
+     "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase",
+     "official": true
+    },
+    {
+     "label": "Home Affairs: Visa Pricing Estimator / current visa pricing",
+     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/current-visa-pricing",
+     "official": true
+    },
     {
      "label": "Home Affairs: Temporary Graduate visa (subclass 485) - Post-Higher Education Work stream",
      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
@@ -428,7 +490,13 @@
      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
      "official": true
     }
-   ]
+   ],
+   "recheck": "Biaya visa: cek ulang tabel tarif resmi setiap 1 Juli (indeksasi tahunan) dan setiap kali dipakai.",
+   "fee_checked": "2026-11-24",
+   "card": {
+    "headline": "BIAYA VISA 485 AUSTRALIA",
+    "hero": "AUD 5.750"
+   }
   },
   {
    "id": "us-ds-rule-vacated-2026-11",

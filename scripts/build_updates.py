@@ -22,6 +22,9 @@ MAX_PUSH_PER_DAY = 3
 
 # Label "Info & promo terbaru" 15 bahasa (aturan multibahasa TEG; terjemahan selain ID/EN: versi bahasa Inggris yang berlaku)
 _LANGS = ['id', 'en', 'th', 'vi', 'zh', 'ja', 'ko', 'km', 'fr', 'pt', 'es', 'de', 'it', 'nl', 'ru']
+FEE_RE = re.compile(r'(AUD|NZD|USD|GBP|CAD|EUR|SGD)\s?[\d.,]{3,}|Rp\s?[\d.,]{4,}', re.I)
+
+
 def _l(*v):
     return dict(zip(_LANGS, v))
 WALL_LABELS = {
@@ -96,11 +99,16 @@ def collect():
     out = {"news": {}, "scholarship": {}, "promo": {}, "sponsored": {}, "jobs": {}, "accommodation": {}, "airport": {}}
     n = load('news.json', {}) or {}
     for it in n.get('items', []):
+        if it.get('social') is False:
+            continue  # menunggu konfirmasi resmi: tampil di website (news.json), tidak di-autopost
         out['news'][it['id']] = entry('news', it['id'], '📰 ' + txt(it.get('title'), 'id'),
                                       '📰 ' + txt(it.get('title'), 'en'), 'news', priority=2, title=full(it.get('title'), '📰 '),
                                       extra={"date": it.get('date') or TODAY, "country": it.get('country'),
                                              "source": next((l['url'] for l in it.get('links', []) if l.get('official')), None),
-                                             "category": it.get('category')})
+                                             "category": it.get('category'),
+                                             "effective": it.get('effective_date') or it.get('effective'),
+                                             "fee_checked": it.get('fee_checked'), "card": it.get('card'),
+                                             "facts": {"summary": txt(it.get('summary'), 'id')}})
     s = load('scholarships.json', {}) or {}
     for it in s.get('items', []):
         name = it.get('name', '')
@@ -113,7 +121,8 @@ def collect():
             ('🎓 Beasiswa dibuka: ' if st == 'Buka' else '🎓 Beasiswa baru: ') + name + (f' (deadline {dl})' if dl else ''),
             ('🎓 Scholarship open: ' if st == 'Buka' else '🎓 New scholarship: ') + en + (f' (deadline {dl})' if dl else ''),
             'scholarships', url_q=name, priority=2 if st == 'Buka' else 1,
-            title={l: (SCH_OPEN if st == 'Buka' else SCH_NEW)[l] + (name if l == 'id' else en) + (f' (deadline {dl})' if dl else '') for l in L15}, extra={"country": it.get('country'), "provider": it.get('provider'), "source": it.get('url')})
+            title={l: (SCH_OPEN if st == 'Buka' else SCH_NEW)[l] + (name if l == 'id' else en) + (f' (deadline {dl})' if dl else '') for l in L15}, extra={"country": it.get('country'), "provider": it.get('provider'), "source": it.get('url'),
+                   "facts": {k: it.get(k) for k in ('levels', 'coverage', 'amount', 'eligibility', 'english_test', 'deadline', 'notes')}})
     b = load('banners.json', {}) or {}
     for it in b.get('items', []):
         if not it.get('approved'):
@@ -194,14 +203,14 @@ def main():
         recent = {i['id'] for i in n.get('items', []) if i.get('date', '') >= week}
         new = [e for k, e in cur['news'].items() if k in recent]
     flat = {e['id']: e for d in cur.values() for e in d.values() if isinstance(e, dict)}
+    # sumber data (news.json/scholarships.json) = acuan: entri lama ikut diperbarui tiap build
+    # (24/11/2026: judul 485 'AUD 4.600' tertahan di feed padahal news.json sudah diganti)
     for i in items:
         if i['id'] in flat:
-            for k in ('country', 'provider', 'source'):
-                if flat[i['id']].get(k) and not i.get(k):
-                    i[k] = flat[i['id']][k]
-    for i in items:
-        if i['id'] in flat and len(flat[i['id']].get('title', {})) > len(i.get('title', {})):
-            i['title'] = flat[i['id']]['title']
+            f = flat[i['id']]
+            for k in ('country', 'provider', 'source', 'category', 'effective', 'fee_checked', 'facts', 'card', 'title'):
+                if f.get(k) and f.get(k) != i.get(k):
+                    i[k] = f[k]
     existing = {i['id'] for i in items}
     new = [e for e in new if e['id'] not in existing]
     items = sorted(new + items, key=lambda e: (e['date'], e.get('priority', 1)), reverse=True)[:MAX_ITEMS]
@@ -263,6 +272,24 @@ def caption(e, t):
                 op = f"Info beasiswa: {t2}. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: {LT}"
             body = ("Syarat, besaran beasiswa dan cara daftarnya beda-beda tiap kampus atau lembaga. Tim Talented bisa bantu cek apakah kamu memenuhi syarat "
                     "dan menyiapkan berkasnya, gratis.\n\nScan QR di gambar atau klik link di bio untuk konsultasi.")
+            # fakta kunci dari scholarships.json (QA 24/11/2026: caption terlalu generik, syarat kunci tidak disebut)
+            fx = e.get('facts') or {}
+            def _cut(v, n):
+                v = ' '.join(str(v or '').split())
+                return v if len(v) <= n else v[:n].rsplit(' ', 1)[0] + '...'
+            fl = []
+            if fx.get('levels'):
+                fl.append('🎓 Jenjang: ' + ', '.join(fx['levels']) if isinstance(fx['levels'], list) else '🎓 Jenjang: ' + str(fx['levels']))
+            if fx.get('amount') or fx.get('coverage'):
+                fl.append('💰 ' + _cut(' · '.join(x for x in (fx.get('amount'), fx.get('coverage')) if x), 160))
+            if fx.get('eligibility'):
+                fl.append('✅ Syarat utama: ' + _cut(fx['eligibility'], 220))
+            if fx.get('english_test') and not str(fx['english_test']).lower().startswith('sesuai'):
+                fl.append('🗣 ' + _cut(fx['english_test'], 110))
+            if fx.get('notes'):
+                fl.append('📝 ' + _cut(fx['notes'], 220))
+            if fl:
+                body = '\n'.join(fl) + '\n\n' + body
         elif k in ('promo', 'sponsored'):
             op = f"{t2}. Detail program dan biaya bisa dicek lewat {LT}"
             body = ("Biaya final selalu mengikuti offer letter resmi kampus. Kami bantu hitung total biaya, dana awal dan saran rekening koran untuk visa, gratis.\n\n"
@@ -271,6 +298,9 @@ def caption(e, t):
             op = f"{t2}. Ringkasan dan link sumber resminya ada di {LT}"
             body = ("Aturan visa bisa berubah, jadi selalu cek sumber resmi pemerintah. Kalau bingung apakah perubahan ini berpengaruh ke rencana kuliahmu, "
                     "tanya tim Talented, gratis.")
+            sm = ' '.join(str((e.get('facts') or {}).get('summary') or '').split())
+            if sm:  # ringkasan fakta dari news.json supaya caption tidak kosong isi (24/11/2026)
+                body = (sm if len(sm) <= 600 else sm[:600].rsplit(' ', 1)[0] + '...') + '\n\n' + body
         elif k == 'accommodation':
             op = f"{t2}, lengkap dengan kisaran harga per minggu. Cek di {LT}"
             body = "Pilih yang dekat kampus dan cek dulu bond serta minimum stay. Jangan transfer uang sebelum lihat kamar atau kontrak resmi."
@@ -370,8 +400,24 @@ def write_rss(items):
         if e['kind'] == 'news' and not spec:
             from make_social_cards import idate as _idate
             dom = re.sub(r'^https?://(www\.)?([^/]+).*$', r'\2', e.get('source') or '')
+            eff = e.get('effective') or ''
+            # Aturan lama jangan tampil seolah baru: pakai "Berlaku sejak" bila tanggal berlaku < tanggal posting.
+            first = f"Berlaku sejak {_idate(eff)}" if eff and eff < (e.get('date') or '') else f"Diumumkan {_idate(e.get('date'))}"
             spec = {"topic": e.get('category') or 'visa',
-                    "info": [f"Diumumkan {_idate(e.get('date'))}"] + ([f"Sumber resmi: {dom}"] if dom else [])}
+                    "info": [first] + ([f"Sumber resmi: {dom}"] if dom else [])}
+            # kartu berita: judul pendek + angka utama dari news.json 'card' supaya angka tidak terpotong (QA 24/11/2026)
+            spec.update({k: v for k, v in (e.get('card') or {}).items() if k in ('headline', 'hero')})
+        if e['kind'] == 'news' and FEE_RE.search(t):
+            # Pengaman biaya: berita berisi nominal biaya wajib punya fee_checked <= 45 hari & tidak melewati 1 Juli (indeksasi tahunan).
+            fc = e.get('fee_checked') or ''
+            try:
+                fcd = datetime.date.fromisoformat(fc)
+            except Exception:
+                fcd = None
+            jul1 = datetime.date(NOW.year, 7, 1)
+            if not fcd or (NOW.date() - fcd).days > 45 or (fcd < jul1 <= NOW.date()):
+                print('HOLD (fee not re-checked):', e['id'], fc or '-')
+                continue
         img = make_card(e['kind'], t, e['id'], e.get('sub'), e.get('country') or 'ANY', e.get('provider'), spec)
         if not img:
             continue  # QA failed: never publish a broken design

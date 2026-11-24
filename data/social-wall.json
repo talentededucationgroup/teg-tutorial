@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T18:12:03+07:00",
+ "version": "2026-11-24T18:56:27+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,19 +159,6 @@
   }
  },
  "items": [
-  {
-   "id": "jobs:2026-11-24-180",
-   "kind": "jobs",
-   "date": "2026-11-24",
-   "title": "180 lowongan kerja baru (Australia, Canada, Germany, New Zealand)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
-   "source": null,
-   "caption": "180 lowongan kerja baru (Australia, Canada, Germany, New Zealand). Cek di https://linktr.ee/talentededucationgroup",
-   "country": null,
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Reel.mp4"
-  },
   {
    "id": "site:2026-11-22:site-06",
    "kind": "marketing",

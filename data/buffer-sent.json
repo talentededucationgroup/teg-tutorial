@@ -15,6 +15,12 @@
 "post:2026-w47-ais|reel|6aff3a05ece6dfde5f22802a",
 "post:2026-w47-ais|story|6aff3157ece6dfde5f2203ab",
 "post:2026-w47-ais|story|6aff319cece6dfde5f2206b4",
+"program:2026-11-22:a|reel|6aff3157ece6dfde5f2203ab",
+"program:2026-11-22:a|reel|6aff319cece6dfde5f2206b4",
+"program:2026-11-22:a|reel|6aff31ffece6dfde5f220b47",
+"program:2026-11-22:a|reel|6aff3a05ece6dfde5f22802a",
+"program:2026-11-22:a|story|6aff3157ece6dfde5f2203ab",
+"program:2026-11-22:a|story|6aff319cece6dfde5f2206b4",
 "promo:aih-promo-2026|feed|6aff3328ece6dfde5f221865",
 "promo:cdu-founding-2026|feed|6aff3328ece6dfde5f221865",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3157ece6dfde5f2203ab",
@@ -72,7 +78,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-23T23:44:05.645592+00:00",
+"last_run": "2026-11-24T00:04:39.135582+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -140,25 +146,29 @@
 "6aff3157ece6dfde5f2203ab|feed": 2,
 "6aff319cece6dfde5f2206b4|story": 1,
 "6aff3157ece6dfde5f2203ab|story": 1
+},
+"2026-11-24": {
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1,
+"6aff319cece6dfde5f2206b4|reel": 1,
+"6aff3157ece6dfde5f2203ab|reel": 1,
+"6aff319cece6dfde5f2206b4|story": 1,
+"6aff3157ece6dfde5f2203ab|story": 1
 }
 },
-"waiting_review": [
-"jobs:2026-11-22-140",
-"jobs:2026-11-22-171",
-"jobs:2026-11-23-137",
-"jobs:2026-11-23-164",
-"program:2026-11-22:a",
-"program:2026-11-23:a",
-"program:2026-11-23:b"
-],
+"waiting_review": [],
 "daily_other": {
 "2026-11-22": [],
 "2026-11-23": [
 "scholarship:hk-belt-and-road-scholarship-hku|open"
-]
+],
+"2026-11-24": []
 },
 "daily_prefix": {
 "2026-11-23": {
+"scholarship:": []
+},
+"2026-11-24": {
 "scholarship:": []
 }
 }

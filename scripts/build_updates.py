@@ -74,7 +74,7 @@ KINDS = {
 SCH_OPEN = {"id": "🎓 Beasiswa dibuka: ", "en": "🎓 Scholarship open: ", "th": "🎓 เปิดรับทุน: ", "vi": "🎓 Học bổng đang mở: ", "zh": "🎓 奖学金开放申请：", "ja": "🎓 奨学金募集中：", "ko": "🎓 장학금 모집 중: ", "km": "🎓 អាហារូបករណ៍បើក៖ ", "fr": "🎓 Bourse ouverte : ", "pt": "🎓 Bolsa aberta: ", "es": "🎓 Beca abierta: ", "de": "🎓 Stipendium offen: ", "it": "🎓 Borsa aperta: ", "nl": "🎓 Beurs open: ", "ru": "🎓 Открыт приём на стипендию: "}
 SCH_NEW = {"id": "🎓 Beasiswa baru: ", "en": "🎓 New scholarship: ", "th": "🎓 ทุนใหม่: ", "vi": "🎓 Học bổng mới: ", "zh": "🎓 新奖学金：", "ja": "🎓 新しい奨学金：", "ko": "🎓 새 장학금: ", "km": "🎓 អាហារូបករណ៍ថ្មី៖ ", "fr": "🎓 Nouvelle bourse : ", "pt": "🎓 Nova bolsa: ", "es": "🎓 Nueva beca: ", "de": "🎓 Neues Stipendium: ", "it": "🎓 Nuova borsa: ", "nl": "🎓 Nieuwe beurs: ", "ru": "🎓 Новая стипендия: "}
 AGG = {
- "jobs": {"id": "💼 {n} lowongan kerja baru{w}", "en": "💼 {n} new part-time/student jobs{w}", "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ {n} ตำแหน่ง{w}", "vi": "💼 {n} việc làm bán thời gian/sinh viên mới{w}", "zh": "💼 {n} 个新的兼职/学生工作{w}", "ja": "💼 新しいアルバイト・学生向け求人 {n} 件{w}", "ko": "💼 새 파트타임/학생 일자리 {n}개{w}", "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី {n}{w}", "fr": "💼 {n} nouveaux jobs étudiants/temps partiel{w}", "pt": "💼 {n} novas vagas meio período/estudante{w}", "es": "💼 {n} nuevos empleos de medio tiempo/estudiante{w}", "de": "💼 {n} neue Teilzeit-/Studentenjobs{w}", "it": "💼 {n} nuovi lavori part-time/studenti{w}", "nl": "💼 {n} nieuwe bijbaantjes/studentenbanen{w}", "ru": "💼 {n} новых вакансий с частичной занятостью{w}"},
+ "jobs": {"id": "💼 {n} lowongan kerja luar negeri baru{w}", "en": "💼 {n} new overseas job listings{w}", "th": "💼 ประกาศงานต่างประเทศใหม่ {n} ตำแหน่ง{w}", "vi": "💼 {n} tin tuyển dụng nước ngoài mới{w}", "zh": "💼 {n} 个新的海外职位{w}", "ja": "💼 海外の新着求人 {n} 件{w}", "ko": "💼 새 해외 채용 공고 {n}건{w}", "km": "💼 ការងារនៅបរទេសថ្មី {n}{w}", "fr": "💼 {n} nouvelles offres d'emploi à l'étranger{w}", "pt": "💼 {n} novas vagas no exterior{w}", "es": "💼 {n} nuevas ofertas de empleo en el extranjero{w}", "de": "💼 {n} neue Stellenangebote im Ausland{w}", "it": "💼 {n} nuove offerte di lavoro all'estero{w}", "nl": "💼 {n} nieuwe vacatures in het buitenland{w}", "ru": "💼 {n} новых вакансий за рубежом{w}"},
  "airport": {"id": "✈️ {n} layanan jemput bandara baru{w}", "en": "✈️ {n} new airport pickup services{w}", "th": "✈️ บริการรับที่สนามบินใหม่ {n} รายการ{w}", "vi": "✈️ {n} dịch vụ đón sân bay mới{w}", "zh": "✈️ {n} 个新的接机服务{w}", "ja": "✈️ 新しい空港送迎サービス {n} 件{w}", "ko": "✈️ 새 공항 픽업 서비스 {n}개{w}", "km": "✈️ សេវាទទួលពីព្រលានយន្តហោះថ្មី {n}{w}", "fr": "✈️ {n} nouveaux services d’accueil à l’aéroport{w}", "pt": "✈️ {n} novos serviços de traslado{w}", "es": "✈️ {n} nuevos servicios de recogida en aeropuerto{w}", "de": "✈️ {n} neue Flughafenabholungen{w}", "it": "✈️ {n} nuovi servizi di ritiro in aeroporto{w}", "nl": "✈️ {n} nieuwe ophaaldiensten vanaf het vliegveld{w}", "ru": "✈️ {n} новых услуг встречи в аэропорту{w}"},
  "accommodation": {"id": "🏠 {n} info akomodasi baru{w}", "en": "🏠 {n} new accommodation listings{w}", "th": "🏠 ที่พักใหม่ {n} รายการ{w}", "vi": "🏠 {n} chỗ ở mới{w}", "zh": "🏠 {n} 条新的住宿信息{w}", "ja": "🏠 新しい住まい情報 {n} 件{w}", "ko": "🏠 새 숙소 정보 {n}개{w}", "km": "🏠 កន្លែងស្នាក់នៅថ្មី {n}{w}", "fr": "🏠 {n} nouveaux logements{w}", "pt": "🏠 {n} novas opções de acomodação{w}", "es": "🏠 {n} nuevos alojamientos{w}", "de": "🏠 {n} neue Unterkünfte{w}", "it": "🏠 {n} nuovi alloggi{w}", "nl": "🏠 {n} nieuwe woonruimtes{w}", "ru": "🏠 {n} новых вариантов жилья{w}"}}
 
@@ -168,8 +168,12 @@ def main():
                 places = sorted({d[k] for k in fresh if d[k]})[:4]
                 where_en = ', '.join(places)
                 if kind == 'jobs':
-                    e = entry('jobs', TODAY + '-' + str(len(fresh)), f'💼 {len(fresh)} lowongan kerja baru' + (f' ({where_en})' if where_en else ''),
-                              f'💼 {len(fresh)} new part-time/student jobs' + (f' ({where_en})' if where_en else ''), 'jobs',
+                    # QA 24/11/2026: semua negara (urut jumlah terbanyak), bukan 4 pertama; tanpa klaim 'part-time/pelajar'
+                    from collections import Counter as _C
+                    places = [c for c, _ in _C(d[k] for k in fresh if d[k]).most_common()]
+                    where_en = ', '.join(places)
+                    e = entry('jobs', TODAY + '-' + str(len(fresh)), f'💼 {len(fresh)} lowongan kerja luar negeri baru' + (f' ({where_en})' if where_en else ''),
+                              f'💼 {len(fresh)} new overseas job listings' + (f' ({where_en})' if where_en else ''), 'jobs',
                               title=per(AGG['jobs'], n=len(fresh), w=(f' ({where_en})' if where_en else '')))
                 elif kind == 'airport':
                     e = entry('airport', TODAY + '-' + str(len(fresh)), f'✈️ {len(fresh)} layanan jemput bandara baru' + (f' ({where_en})' if where_en else ''),
@@ -271,8 +275,9 @@ def caption(e, t):
             op = f"{t2}, lengkap dengan kisaran harga per minggu. Cek di {LT}"
             body = "Pilih yang dekat kampus dan cek dulu bond serta minimum stay. Jangan transfer uang sebelum lihat kamar atau kontrak resmi."
         else:
-            op = f"{t2}. Cek di {LT}"
-            body = "Lowongan yang asli tidak pernah minta biaya pendaftaran. Cek juga batas jam kerja visa pelajarmu."
+            op = f"{t2}. Daftar lengkap, filter negara & link lamaran ada di {LT}"
+            body = ("Data lowongan dari Jobs by Adzuna (agregator lowongan), bukan rekrutmen Talented. Jenis kerja dan jam kerja beda-beda tiap lowongan, "
+                    "jadi cek detailnya dan batas jam kerja visa pelajarmu. Lowongan yang asli tidak pernah minta biaya pendaftaran.")
         if len(op) > 230:
             op = op[:226 - len(LT)].rsplit(' ', 1)[0] + '... ' + LT
         c = op + '\n\n' + body + '\n\n' + CLOSING
@@ -289,7 +294,8 @@ def caption(e, t):
         lines.insert(i, f'{lab}: {src}')
         c = '\n\n'.join(lines)
     # anti copy-paste attribution (owner 20/11/2026)
-    attr = ('Dirangkum oleh Talented Education Group dari sumber resmi. Boleh dibagikan dengan menyebut sumber '
+    attr = (('Dirangkum oleh Talented Education Group dari data Jobs by Adzuna. ' if e.get('kind') == 'jobs' else
+             'Dirangkum oleh Talented Education Group dari sumber resmi. ') + 'Boleh dibagikan dengan menyebut sumber '
             '@talented.e.g, dilarang menyalin ulang tanpa izin.')
     if attr not in c:
         lines = c.split('\n\n')
@@ -308,7 +314,7 @@ def write_rss(items):
     import email.utils
     tags = {"scholarship": "#beasiswa #kuliahluarnegeri #studyabroad", "promo": "#promo #studyabroad",
             "news": "#visa #infoimigrasi #studyabroad", "sponsored": "#studyabroad #kuliahdiluarnegeri",
-            "jobs": "#kerjapartime #studentjobs", "accommodation": "#akomodasi #studentaccommodation"}
+            "jobs": "#lowongankerja #kerjaluarnegeri #JobsByAdzuna", "accommodation": "#akomodasi #studentaccommodation"}
     out, out_story, out_reel, wall = [], [], [], []
     import urllib.parse as _up
     import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

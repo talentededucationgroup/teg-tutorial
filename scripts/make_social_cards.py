@@ -456,7 +456,7 @@ def derive(kind, title, sub, country, provider, spec):
         elif kind == 'accommodation':
             head = f'AKOMODASI PELAJAR {cn}'
         elif kind == 'jobs':
-            head = 'LOKER PART-TIME PELAJAR'
+            head = 'LOKER LUAR NEGERI'  # QA 24/11/2026: jangan klaim part-time/pelajar
         elif kind == 'news':
             head = 'UPDATE VISA PELAJAR ' + (cn if cc != 'ANY' else '')
         else:
@@ -469,6 +469,14 @@ def derive(kind, title, sub, country, provider, spec):
     else:
         head = ' '.join(head.upper().split()[:6])
     info = list(spec.get('info') or [])
+    if not info and kind == 'jobs':
+        # QA 24/11/2026: hindari teks terpotong; jumlah + negara singkat + atribusi wajib
+        mm = re.search(r'(\d+)', t); cs = re.search(r'\(([^)]*)\)', t)
+        cl = [c.strip() for c in (cs.group(1).split(',') if cs else []) if c.strip()]
+        short = {'United Kingdom': 'UK', 'New Zealand': 'NZ', 'United States': 'AS', 'Switzerland': 'Swiss', 'Germany': 'Jerman', 'France': 'Prancis', 'Spain': 'Spanyol', 'Canada': 'Kanada', 'Singapore': 'Singapura'}
+        cl = [short.get(c, c) for c in cl]
+        if mm: info.append(f"{mm.group(1)} lowongan baru di {len(cl)} negara" if cl else f"{mm.group(1)} lowongan baru")
+        if cl: info.append(', '.join(cl[:5]) + (f' +{len(cl) - 5}' if len(cl) > 5 else ''))
     if not info:
         prog = re.sub(r'^' + re.escape(prov) + r'\s*-\s*', '', t) if prov else t
         if hero:
@@ -482,7 +490,7 @@ def derive(kind, title, sub, country, provider, spec):
             info.append((where + ' · ' if where else '') + 'Deadline ' + idate(dl))
         elif where:
             info.append(where)
-    foot = spec.get('footnote') or ('*Syarat & ketentuan berlaku.' if kind != 'news' else '*Detail & link resmi di caption.')
+    foot = spec.get('footnote') or ('*Data: Jobs by Adzuna · syarat tiap lowongan berbeda.' if kind == 'jobs' else '*Syarat & ketentuan berlaku.' if kind != 'news' else '*Detail & link resmi di caption.')
     return {"t": t, "dl": dl, "hero": hero, "head": head, "info": info[:3], "price": spec.get('price'),
             "unit": spec.get('unit'), "foot": foot, "cc": cc, "prov": prov}
 

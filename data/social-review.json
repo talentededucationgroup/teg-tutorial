@@ -737,20 +737,6 @@
    "checked_at": "2026-11-24T14:20:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html"
-  },
-  "jobs:2026-11-24-180": {
-   "verdict": "REVISI",
-   "score": 2,
-   "reasons": [
-    "Poster 'LOKER PART-TIME PELAJAR' menyesatkan: data/jobs.json (24/11 18:08) tidak mencantumkan part-time untuk sebagian besar lowongan.",
-    "Angka 180 tidak bisa dicocokkan: jobs.json kini 293 lowongan (221 diambil 24/11), 8 negara termasuk UK, Swiss, Spanyol, Prancis - judul hanya 4 negara.",
-    "Atribusi wajib 'Jobs by Adzuna' tidak ada; caption menyebut 'dari sumber resmi' padahal data agregator.",
-    "Teks sub-judul poster terpotong ('(Australia,...'); topik loker berulang (5+ postingan serupa 22-24/11)."
-   ],
-   "fix": "Ganti judul jadi 'LOKER LUAR NEGERI', sebut negara lengkap/angka dari jobs.json saat posting, tambah 'Jobs by Adzuna', hindari teks terpotong; kurangi frekuensi postingan loker (maks 1-2/minggu).",
-   "checked_at": "2026-11-24T19:00:00+07:00",
-   "model": "claude (QA terjadwal)",
-   "source": "data/jobs.json"
   }
  }
 }

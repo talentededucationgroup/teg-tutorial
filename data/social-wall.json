@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T21:31:47+07:00",
+ "version": "2026-11-24T21:48:50+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,19 @@
  },
  "items": [
   {
+   "id": "jobs:2026-11-24-180",
+   "kind": "jobs",
+   "date": "2026-11-24",
+   "title": "221 lowongan kerja luar negeri baru (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "221 lowongan kerja luar negeri baru (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Reel.mp4"
+  },
+  {
    "id": "site:2026-11-22:site-06",
    "kind": "marketing",
    "date": "2026-11-22",
@@ -171,19 +184,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-22:a",
-   "kind": "promo",
-   "date": "2026-11-22",
-   "title": "S1 Early Childhood & Community Services di Sydney mulai AUD 18.000/semester",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Canberra%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=University%20of%20Canberra%20%28UC%20Sydney%20Hills%29",
-   "source": null,
-   "caption": "🔥 S1 Early Childhood & Community Services di Sydney mulai AUD 18.000/semester! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Canberra%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Canberra%20Promo%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:hk-belt-and-road-scholarship-hku|open",

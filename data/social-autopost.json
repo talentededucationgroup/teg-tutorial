@@ -81,5 +81,9 @@
  "random_jitter": 8,
  "reel_share": 0.45,
  "random_note": "Pemilik 23/11/2026: postingan dibuat acak supaya tidak terkesan gambar semua. Setiap postingan yang punya versi video tayang sebagai Reel (video) dengan peluang 45%, selain itu sebagai gambar; urutan diberi variasi acak ±8 poin per hari. Video Talented (video:) tetap tayang bergiliran.",
- "mix_note": "Pemilik 24/11/2026: 1 postingan variasi per hari (scripts/content_mix.py) - pilar testimoni, kenalan sekolah, info penting minggu ini, tips resmi, blog, kuis, tentang Talented; urutan diacak tiap minggu. Video asli Talented bergiliran lewat data/social-video-library.json."
+ "mix_note": "Pemilik 24/11/2026: 1 postingan variasi per hari (scripts/content_mix.py) - pilar testimoni, kenalan sekolah, info penting minggu ini, tips resmi, blog, kuis, tentang Talented; urutan diacak tiap minggu. Video asli Talented bergiliran lewat data/social-video-library.json.",
+ "max_items_per_week_by_prefix": {
+  "jobs:": 2
+ },
+ "jobs_note": "QA 24/11/2026: postingan loker maks. 2 per minggu; judul \"LOKER LUAR NEGERI\" (bukan part-time/pelajar), semua negara, atribusi \"Jobs by Adzuna\"."
 }

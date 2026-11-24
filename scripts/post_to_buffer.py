@@ -366,6 +366,11 @@ def main():
             pday = sent.setdefault('daily_prefix', {}).setdefault(NOW.date().isoformat(), {}).setdefault(pfx, []) if pfx else None
             if pfx and i['guid'] not in pday and len(pday) >= int(cfg['max_items_per_day_by_prefix'][pfx]):
                 continue  # mis. beasiswa dikurangi: maks. N postingan beasiswa per hari (pemilik 23/11/2026)
+            wpfx = next((p for p in (cfg.get('max_items_per_week_by_prefix') or {}) if i['guid'].startswith(p)), None)
+            wk = '%d-W%02d' % NOW.isocalendar()[:2]
+            pweek = sent.setdefault('weekly_prefix', {}).setdefault(wk, {}).setdefault(wpfx, []) if wpfx else None
+            if wpfx and i['guid'] not in pweek and len(pweek) >= int(cfg['max_items_per_week_by_prefix'][wpfx]):
+                continue  # QA 24/11/2026: loker maks. 2 postingan per minggu
             for ch in chans:
                 k = f"{i['guid']}|{kind}|{ch['id']}"
                 if k in done:
@@ -402,6 +407,8 @@ def main():
                         oth_day.append(i['guid'])
                     if pfx and i['guid'] not in pday:
                         pday.append(i['guid'])
+                    if wpfx and i['guid'] not in pweek:
+                        pweek.append(i['guid'])
                     day[ck] = day.get(ck, 0) + 1
                     run_count[rk] = run_count.get(rk, 0) + 1
                     if kind != 'story' and queued is not None:

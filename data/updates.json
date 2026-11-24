@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T21:31:47+07:00",
+ "version": "2026-11-24T21:48:50+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -381,21 +381,21 @@
    "date": "2026-11-24",
    "priority": 1,
    "title": {
-    "id": "💼 180 lowongan kerja baru (Australia, Canada, Germany, New Zealand)",
-    "en": "💼 180 new part-time/student jobs (Australia, Canada, Germany, New Zealand)",
-    "th": "💼 งานพาร์ทไทม์/นักเรียนใหม่ 180 ตำแหน่ง (Australia, Canada, Germany, New Zealand)",
-    "vi": "💼 180 việc làm bán thời gian/sinh viên mới (Australia, Canada, Germany, New Zealand)",
-    "zh": "💼 180 个新的兼职/学生工作 (Australia, Canada, Germany, New Zealand)",
-    "ja": "💼 新しいアルバイト・学生向け求人 180 件 (Australia, Canada, Germany, New Zealand)",
-    "ko": "💼 새 파트타임/학생 일자리 180개 (Australia, Canada, Germany, New Zealand)",
-    "km": "💼 ការងារក្រៅម៉ោង/សិស្សថ្មី 180 (Australia, Canada, Germany, New Zealand)",
-    "fr": "💼 180 nouveaux jobs étudiants/temps partiel (Australia, Canada, Germany, New Zealand)",
-    "pt": "💼 180 novas vagas meio período/estudante (Australia, Canada, Germany, New Zealand)",
-    "es": "💼 180 nuevos empleos de medio tiempo/estudiante (Australia, Canada, Germany, New Zealand)",
-    "de": "💼 180 neue Teilzeit-/Studentenjobs (Australia, Canada, Germany, New Zealand)",
-    "it": "💼 180 nuovi lavori part-time/studenti (Australia, Canada, Germany, New Zealand)",
-    "nl": "💼 180 nieuwe bijbaantjes/studentenbanen (Australia, Canada, Germany, New Zealand)",
-    "ru": "💼 180 новых вакансий с частичной занятостью (Australia, Canada, Germany, New Zealand)"
+    "id": "💼 221 lowongan kerja luar negeri baru (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "en": "💼 221 new overseas job listings (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "th": "💼 ประกาศงานต่างประเทศใหม่ 221 ตำแหน่ง (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "vi": "💼 221 tin tuyển dụng nước ngoài mới (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "zh": "💼 221 个新的海外职位 (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "ja": "💼 海外の新着求人 221 件 (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "ko": "💼 새 해외 채용 공고 221건 (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "km": "💼 ការងារនៅបរទេសថ្មី 221 (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "fr": "💼 221 nouvelles offres d'emploi à l'étranger (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "pt": "💼 221 novas vagas no exterior (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "es": "💼 221 nuevas ofertas de empleo en el extranjero (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "de": "💼 221 neue Stellenangebote im Ausland (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "it": "💼 221 nuove offerte di lavoro all'estero (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "nl": "💼 221 nieuwe vacatures in het buitenland (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
+    "ru": "💼 221 новых вакансий за рубежом (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)"
    },
    "tab": "jobs",
    "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"

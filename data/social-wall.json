@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T22:06:52+07:00",
+ "version": "2026-11-25T01:36:57+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,45 @@
  },
  "items": [
   {
+   "id": "post:2026-11-25-mock-unlimited",
+   "kind": "marketing",
+   "date": "2026-11-25",
+   "title": "Free Mock Test unlimited: IELTS, PTE, JLPT, TOPIK & HSK - gratis, ulangi sepuasnya",
+   "image": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=mock",
+   "source": null,
+   "caption": "Free Mock Test UNLIMITED: latihan IELTS, PTE, JLPT, TOPIK & HSK gratis, dan bisa diulang sepuasnya, tanpa batas. Mulai di sini: https://pricelist.talentededucationgroup.com/?tab=mock",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
+  },
+  {
+   "id": "program:2026-11-25:a",
+   "kind": "promo",
+   "date": "2026-11-25",
+   "title": "S2 Bisnis & Manajemen di Sydney mulai AUD 3.150/unit",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=AIH%20Higher%20Education%20%28Australian%20Institute%20of%20Higher%20Education%29",
+   "source": null,
+   "caption": "🔥 S2 Bisnis & Manajemen di Sydney mulai AUD 3.150/unit! Info: https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202%20Reel.mp4"
+  },
+  {
+   "id": "mix:2026-11-25:school:nzma",
+   "kind": "marketing",
+   "date": "2026-11-25",
+   "title": "Kenalan dengan NZMA - Auckland",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=programs&q=NZMA",
+   "source": null,
+   "caption": "🏫 Kenalan dengan NZMA - Auckland: 18 program di pricelist Talented (Auckland, Wellington).",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "program:2026-11-24:a",
    "kind": "promo",
    "date": "2026-11-24",
@@ -223,32 +262,6 @@
    "country": "AU",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "site:2026-11-22:site-06",
-   "kind": "marketing",
-   "date": "2026-11-22",
-   "title": "Cari Akomodasi Pelajar",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=accommodation",
-   "source": null,
-   "caption": "Cari tempat tinggal dekat kampus? Tab Akomodasi di pricelist Talented punya pilihan resmi dengan kisaran harga per minggu. Info: https://linktr.ee/talentededucationgroup",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-22:a",
-   "kind": "promo",
-   "date": "2026-11-22",
-   "title": "S1 Early Childhood & Community Services di Melbourne mulai AUD 4.583/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Laurus%20Higher%20Education%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Laurus%20Higher%20Education",
-   "source": null,
-   "caption": "🔥 S1 Early Childhood & Community Services di Melbourne mulai AUD 4.583/term! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Laurus%20Higher%20Education%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Laurus%20Higher%20Education%20Promo%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:hk-belt-and-road-scholarship-hku|open",

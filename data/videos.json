@@ -53,13 +53,14 @@
       "subtitles_it": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_nl": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_ru": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "version": "v5.5",
+      "version": "v6.0",
       "subtitles_th": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_vi": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_zh": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_ja": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
       "subtitles_ko": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-      "subtitles_km": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt"
+      "subtitles_km": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
+      "burned_subtitles": true
     },
     {
       "id": "profil-teg",

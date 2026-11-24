@@ -1123,6 +1123,23 @@
    "font": "poppins",
    "deco": "grid",
    "cta": "pill"
+  },
+  {
+   "no": 75,
+   "date": "2026-11-24",
+   "key": "jobs:2026-11-24-180",
+   "file": "Talented Luar Negeri Loker November 2026 8.png",
+   "provider": "-",
+   "layout": "B",
+   "palette": "P2",
+   "format": "Feed 4:5",
+   "layout_name": "Foto penuh + panel",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "mont",
+   "deco": "rings",
+   "cta": "app"
   }
  ]
 }

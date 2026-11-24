@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T03:30:24+07:00",
+ "version": "2026-11-25T03:42:41+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,136 +160,6 @@
  },
  "items": [
   {
-   "id": "post:2026-11-25-mock-unlimited",
-   "kind": "marketing",
-   "date": "2026-11-25",
-   "title": "Free Mock Test unlimited: IELTS, PTE, JLPT, TOPIK & HSK - gratis, ulangi sepuasnya",
-   "image": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=mock",
-   "source": null,
-   "caption": "Free Mock Test UNLIMITED: latihan IELTS, PTE, JLPT, TOPIK & HSK gratis, dan bisa diulang sepuasnya, tanpa batas. Mulai di sini: https://pricelist.talentededucationgroup.com/?tab=mock",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
-  },
-  {
-   "id": "post:2026-11-25-pathway-2-negara",
-   "kind": "marketing",
-   "date": "2026-11-25",
-   "title": "Pathway 2 Negara: kampus universitas Australia di Malaysia & Singapura, opsi pindah ke Australia",
-   "image": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara.png",
-   "link": "https://pricelist.talentededucationgroup.com/sekolah-lain/",
-   "source": null,
-   "caption": "Pathway 2 Negara: mulai kuliah di kampus resmi universitas Australia di Malaysia atau Singapura, lalu ada opsi pindah ke kampus di Australia. Cek pilihannya: https://pricelist.talentededucationgroup.com/sekolah-lain/",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/pathway-2-negara%20Reel.mp4"
-  },
-  {
-   "id": "post:2026-11-25-psikologi",
-   "kind": "marketing",
-   "date": "2026-11-25",
-   "title": "Kuliah Psikologi di Australia & NZ: Diploma sampai Master, mulai AUD 32 ribu/tahun",
-   "image": "https://info.talentededucationgroup.com/social/cards/kuliah-psikologi.png",
-   "link": "https://pricelist.talentededucationgroup.com/?q=psychology",
-   "source": null,
-   "caption": "Mau kuliah Psikologi di luar negeri? Ini pilihan di Australia & New Zealand, dari Diploma sampai Master, dengan tuition mulai AUD 32 ribu/tahun. Cek semua program & hitung biayanya: https://pricelist.talentededucationgroup.com/?q=psychology",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/kuliah-psikologi%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/kuliah-psikologi%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-25:a",
-   "kind": "promo",
-   "date": "2026-11-25",
-   "title": "S2 Bisnis & Manajemen di Sydney mulai AUD 3.150/unit",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=AIH%20Higher%20Education%20%28Australian%20Institute%20of%20Higher%20Education%29",
-   "source": null,
-   "caption": "🔥 S2 Bisnis & Manajemen di Sydney mulai AUD 3.150/unit! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20AIH%20Higher%20Education%20Promo%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "mix:2026-11-25:school:nzma",
-   "kind": "marketing",
-   "date": "2026-11-25",
-   "title": "Kenalan dengan NZMA - Auckland",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=programs&q=NZMA",
-   "source": null,
-   "caption": "🏫 Kenalan dengan NZMA - Auckland: 18 program di pricelist Talented (Auckland, Wellington).",
-   "country": "NZ",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-24:a",
-   "kind": "promo",
-   "date": "2026-11-24",
-   "title": "S1 Sains & Lingkungan di Darwin mulai AUD 8.896/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Charles%20Darwin%20University%20%28CDU%29",
-   "source": null,
-   "caption": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/term! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "news:au-485-fee-2026-03",
-   "kind": "news",
-   "date": "2026-11-24",
-   "title": "Australia: biaya visa Temporary Graduate (subclass 485) kini AUD 5.750 sejak 1 Jul 2026",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase",
-   "caption": "Australia: biaya visa Temporary Graduate (subclass 485) kini AUD 5.750 sejak 1 Jul 2026. Ringkasan dan link sumber resminya ada di https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Info%20Visa%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "jobs:2026-11-24-180",
-   "kind": "jobs",
-   "date": "2026-11-24",
-   "title": "221 lowongan kerja luar negeri baru (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
-   "source": null,
-   "caption": "221 lowongan kerja luar negeri baru (Germany, Canada, Australia, United Kingdom, New Zealand, Spain, France, Switzerland). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
-   "country": null,
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%208%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-23:a",
-   "kind": "promo",
-   "date": "2026-11-23",
-   "title": "S2 Early Childhood & Community Services di Hobart mulai AUD 10.238/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20UTAS%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=University%20of%20Tasmania%20%28UTAS%29",
-   "source": null,
-   "caption": "🔥 S2 Early Childhood & Community Services di Hobart mulai AUD 10.238/term! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20UTAS%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20UTAS%20Promo%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-23:b",
-   "kind": "promo",
-   "date": "2026-11-23",
-   "title": "S2 Pendidikan & Mengajar di Perth mulai AUD 6.250/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=CIHE%20Australia",
-   "source": null,
-   "caption": "🇦🇺 Jurusan yang dibutuhkan di Australia: Pendidikan & Mengajar.\nMenurut Jobs and Skills Australia (Occupation Shortage List 2025), bidang kesehatan, pendidikan, konstruksi & trades termasuk yang masih kekurangan tenaga kerja. Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CIHE%20Australia%20Promo%20November%202026%20Reel.mp4"
-  },
-  {
    "id": "scholarship:hk-belt-and-road-scholarship-hku|open",
    "kind": "scholarship",
    "date": "2026-11-22",
@@ -314,19 +184,6 @@
    "country": "Uni Emirat Arab",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:vn-rmit-international-excellence-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: RMIT Vietnam International Excellence Scholarships 2027 (deadline 2027-01-18)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RMIT%20Vietnam%20International%20Excellence%20Scholarships%202027",
-   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships",
-   "caption": "RMIT Vietnam International Excellence Scholarships 2027 sedang dibuka, pendaftaran ditutup 18 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Vietnam",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

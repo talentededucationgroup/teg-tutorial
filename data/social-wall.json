@@ -1,5 +1,5 @@
 {
- "version": "2026-11-24T06:43:07+07:00",
+ "version": "2026-11-24T07:04:35+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -459,17 +459,17 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Nomura%20Foundation%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
-   "id": "program:2026-11-23:a",
-   "kind": "promo",
-   "date": "2026-11-23",
-   "title": "S2 Early Childhood & Community Services di Sydney mulai AUD 17.750/semester",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Victoria%20University%20Promo%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Victoria%20University",
+   "id": "site:2026-11-22:site-06",
+   "kind": "marketing",
+   "date": "2026-11-22",
+   "title": "Cari Akomodasi Pelajar",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=accommodation",
    "source": null,
-   "caption": "🔥 S2 Early Childhood & Community Services di Sydney mulai AUD 17.750/semester! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Victoria%20University%20Promo%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Victoria%20University%20Promo%20November%202026%20Reel.mp4"
+   "caption": "Cari tempat tinggal dekat kampus? Tab Akomodasi di pricelist Talented punya pilihan resmi dengan kisaran harga per minggu. Info: https://linktr.ee/talentededucationgroup",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
   }
  ]
 }

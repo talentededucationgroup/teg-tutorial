@@ -496,31 +496,29 @@
    "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
   },
   "scholarship:nl-leiden-excellence-scholarship|open": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "score": 4,
    "reasons": [
-    "Sumber resmi universiteitleiden.nl tidak bisa dibuka dari sesi QA (proxy 403); deadline 1 Des 2026 cocok dengan data/scholarships.json (cek 23/11/2026) dan tinggal 7 hari, jadi harus segera tayang bila lolos.",
-    "Foto poster memperlihatkan banner 'Study in Australia' padahal beasiswanya untuk Belanda, sehingga foto tidak sesuai tema.",
-    "Caption tidak menyebut nilai (EUR 10.000-19.000, S2, sekitar 25 penerima) dan langkah mendesak (daftar admisi dulu + motivation letter)."
+    "Poster dibuat ulang (foto perpustakaan netral, bukan banner AU) - masalah QA 24/11 sudah beres.",
+    "Halaman resmi Leiden (student.universiteitleiden.nl) terbuka: tenggat 1 Des 2026, EUR 10.000/15.000/17.500/18.500/19.000 (potongan tuition, bukan beasiswa penuh), non-EEA/EFTA, ±10% terbaik, ±25 penerima/tahun - cocok dengan caption.",
+    "Tenggat 6 hari lagi, tayangkan hari ini."
    ],
-   "fix": "Ganti foto dengan foto netral atau bertema Belanda; tambahkan nilai beasiswa dan 'Tenggat 1 Des 2026, daftar program Master Leiden dulu'. Tayangkan paling lambat 25-26/11.",
-   "checked_at": "2026-11-24T14:20:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs"
+   "source": "https://www.student.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs"
   },
   "scholarship:cn-yenching-academy-pku|open": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "score": 4,
    "reasons": [
-    "Judul, poster & caption (deadline 30 Nov 2026) cocok dengan data/scholarships.json (dicek 23/11/2026: tenggat 30 Nov 2026 pukul 09.00 Beijing = 08.00 WIB, fully funded S2 China Studies).",
-    "Halaman resmi yenchingacademy.pku.edu.cn tidak bisa dibuka di sesi QA ini (WebFetch/curl diblokir), jadi deadline belum terverifikasi ulang langsung; hasil pencarian (UCL, Okt 2026) mendukung bahwa pendaftaran sedang dibuka.",
-    "Tidak ada rahasia bisnis/klaim terlarang; logo terlihat, teks rapi. Foto latar booth TEG 'Study...' generik, tidak bertema Tiongkok.",
-    "Beasiswa penuh dengan tenggat 6 hari lagi = menarik, tetapi Tiongkok hanya selingan dan caption tidak menyebut nilai tambah (fully funded, syarat IELTS 7.0)."
+    "Halaman resmi 'Master's Program in China Studies for 2027 Entry' (yenchingacademy.pku.edu.cn/info/1040/5753.htm) terbuka: tenggat online sebelum 09.00 waktu Beijing 30 Nov 2026 (= 08.00 WIB), IELTS Academic 7.0 / Cambridge C1 185, pengecualian penutur asli/lulusan program berbahasa Inggris, beasiswa fully-funded - cocok dengan caption.",
+    "Poster dibuat ulang, teks rapi, logo terlihat. Tenggat 5 hari lagi."
    ],
-   "fix": "Verifikasi ulang tenggat di halaman resmi sebelum tayang; tambahkan di caption 'beasiswa penuh (tuition, asrama, tunjangan, tiket PP)' dan 'tenggat 30 Nov 2026 pukul 08.00 WIB'; posting secepatnya (paling lambat 28-29/11).",
-   "checked_at": "2026-11-24T14:20:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+   "source": "https://yenchingacademy.pku.edu.cn/info/1040/5753.htm"
   },
   "scholarship:au-torrens-family-scholarship|open": {
    "verdict": "REVISI",
@@ -540,15 +538,13 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "Deadline 1 Des 2026 cocok dengan data/scholarships.json (dicek 23/11/2026), tetapi halaman resmi ucd.ie tidak bisa dibuka di sesi QA ini untuk verifikasi ulang.",
-    "Caption tidak menyebut syarat kunci: pelamar wajib SUDAH memegang offer program Master UCD yang memenuhi syarat sebelum mengajukan via portal LPDP; dengan sisa 7 hari, tanpa info ini posting bisa memberi harapan yang keliru.",
-    "Poster: judul program terpotong ('Programme...'), wajah orang dari banner terlihat sebagian di kanan bawah (pastikan bukan foto siswa tanpa izin); logo terlihat, tidak ada rahasia bisnis.",
-    "Beasiswa penuh (100% tuition + stipend) menarik, tetapi Irlandia hanya selingan dan peluang realistis kecil karena tenggat sangat dekat."
+    "Fakta cocok dengan halaman resmi UCD (ucd.ie/.../lpdp/): tenggat 1 Des 2026, 100% tuition + stipend, wajib sudah memegang offer UCD sebelum mengajukan via portal LPDP, wawancara 25 Jan-11 Feb 2027.",
+    "Poster: judul 'BEASISWA KULIAH DI IRLANDIA' bertabrakan dengan teks hak cipta '© Talented Education Group...' (huruf 'IRLANDIA' tertimpa)."
    ],
-   "fix": "Tambahkan di caption: 'Khusus yang sudah punya offer Master 1 tahun UCD (32 program teknik/sains/kesehatan); ajukan via portal LPDP paling lambat 1 Des 2026'; sebut 100% tuition + stipend; ganti/crop foto agar wajah orang di banner tidak terpotong.",
-   "checked_at": "2026-11-24T14:20:00+07:00",
+   "fix": "Geser/perkecil judul atau pindahkan teks hak cipta agar tidak menimpa 'IRLANDIA', lalu render ulang - tenggat 1 Des, segera.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp"
+   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp/"
   },
   "scholarship:au-sihe-35-onshore": {
    "verdict": "REVISI",
@@ -672,6 +668,167 @@
    "checked_at": "2026-11-24T14:20:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.nomurafoundation.or.jp/scholar/guideline.html"
+  },
+  "scholarship:id-beasiswa-garuda-sarjana|open": {
+   "verdict": "LOLOS",
+   "score": 5,
+   "reasons": [
+    "Buku panduan resmi Beasiswa Garuda 2027 (dibuka 25/11/2026): pendaftaran 12 Nov 2026-4 Jan 2027 via portal LPDP terintegrasi, TBS 18-22 Jan 2027, pengumuman administrasi 5 Feb 2027, rapor min. 85 (IB 36/A-Level AAA/ACT 28), IQ min. 120, IELTS 6.5 (min. 6.0)/TOEFL iBT 86/ITP 550, komponen dana - semua cocok dengan poster & caption.",
+    "Logo terlihat, tidak ada rahasia bisnis/klaim jaminan. Foto banner 'Study in Australia' masih wajar untuk beasiswa S1 luar negeri umum.",
+    "Beasiswa pemerintah besar yang baru dibuka = sangat relevan untuk siswa SMA."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://beasiswagaruda.kemdiktisaintek.go.id/buku-panduan-pendaftaran-beasiswa-garuda-2027.pdf"
+  },
+  "post:2026-11-25-pathway-2-negara": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Harga cocok dengan data pricelist (global) termurah Bachelor: Swinburne Sarawak MYR 34.040, UOW Malaysia MYR 31.125, Curtin Malaysia MYR 51.100, JCU Singapore SGD 32.373; Monash 'tanya konsultan'.",
+    "Ada peringatan visa pelajar Australia/Genuine Student & 'harga final mengikuti offer letter'; tidak ada rahasia bisnis atau jaminan. Poster rapi, logo terlihat, 3 hashtag."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist-data (global) 25/11/2026; data/pathway-2-countries.json"
+  },
+  "post:2026-11-25-psikologi": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Angka cocok dengan pricelist/verifikasi resmi 2026: CDU Diploma & Bachelor Psychological Science AUD 33.208/thn (PDF CDU 2026), ACU AUD 32.392 & Master Psychology (Clinical) AUD 37.152, WSU Psychology (Hons) AUD 37.052, WSU Psychotherapy & Counselling AUD 34.776 (8.694 x 4).",
+    "Catatan kecil: baris ACU AUD 32.392 di pricelist adalah double degree 'Psychological Science / Exercise and Sports Science' (4 tahun); poster menulis 'Bachelor 3-4 tahun' sehingga masih wajar.",
+    "Poster jelas & menarik, ada catatan jalur psikolog terdaftar, 3 hashtag."
+   ],
+   "fix": "(opsional) tulis 'ACU Canberra, Psychological Science/Exercise Science (double degree)'.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist-data 25/11/2026; https://www.cdu.edu.au/files/2025-08/2026-he-international-annual-tuition-fees.pdf"
+  },
+  "post:2026-11-25-testimoni-helen": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "social-posts.json mencatat persetujuan siswa (dikonfirmasi pemilik 25/11/2026); wajah tertutup.",
+    "Kutipan poster & caption memakai potongan ulasan yang sedikit berbeda tetapi tidak saling bertentangan; tidak ada klaim jaminan visa, tanpa nomor telepon, 3 hashtag."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/social-posts.json (consent)"
+  },
+  "post:2026-11-25-mock-unlimited": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "Link ?tab=mock dipakai website; fitur & disclaimer 'soal latihan buatan Talented, bukan soal resmi; skor = perkiraan' ada di poster & caption.",
+    "Topik mock test belum tayang 7 hari terakhir (site-04 ditahan 24/11); desain baru menarik, tetapi tetap promo fitur."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist.talentededucationgroup.com (?tab=mock)"
+  },
+  "program:2026-11-24:a": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "CDU Bachelor of Exercise and Sport Science AUD 35.584/tahun (PDF resmi CDU 2026) = 8.896 x 4 'term' (konvensi TEG 1/4 tahun); IELTS 6.0/PTE 50 sesuai pricelist.",
+    "Poster & caption sama sekolah (logo CDU), logo Talented terlihat, tanpa rahasia bisnis. Foto booth TEG 'Study in Australia' sesuai konten AU."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.cdu.edu.au/files/2025-08/2026-he-international-annual-tuition-fees.pdf"
+  },
+  "jobs:2026-11-25-235": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "jobs.json: 236 lowongan diambil 25/11 dari 9 negara (Jerman 75, UK 50, Australia 46, Kanada 28, Swiss 15, Spanyol 11, Prancis 8, NZ 2, Singapura 1) - cocok dengan poster/caption (selisih 1 wajar).",
+    "Perbaikan QA 24/11 sudah diterapkan: atribusi 'Jobs by Adzuna' di poster & caption, tanpa klaim part-time, peringatan anti-penipuan & batas jam kerja visa.",
+    "Ganti jobs:2026-11-24-180 (cukup satu postingan loker)."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
+  },
+  "jobs:2026-11-24-180": {
+   "verdict": "REVISI",
+   "score": 1,
+   "reasons": [
+    "Digantikan jobs:2026-11-25-235 (data lebih baru); angka 221 tidak lagi cocok dengan jobs.json, dan pemilik membatasi loker maks. 2 postingan/minggu."
+   ],
+   "fix": "Tidak perlu diposting.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
+  },
+  "mix:2026-11-25:school:nzma": {
+   "verdict": "LOLOS",
+   "score": 2,
+   "reasons": [
+    "18 program NZMA (Auckland & Wellington) cocok dengan pricelist; foto dari brosur resmi, logo NZMA & Talented terlihat, tanpa rahasia bisnis.",
+    "Konten perkenalan umum tanpa harga/fakta baru, kurang menarik dibanding bahan lain hari ini."
+   ],
+   "fix": "Tambahkan 1-2 program + harga termurah per tahun dan syarat IELTS agar lebih bernilai.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist-data 25/11/2026"
+  },
+  "program:2026-11-25:a": {
+   "verdict": "TOLAK",
+   "score": 1,
+   "reasons": [
+    "Program 'Master of Research (ICT)' diberi judul 'S2 Bisnis & Manajemen' (bidang salah).",
+    "'± AUD 3.150/tahun' salah: AUD 3.150 adalah harga per UNIT; pricelist mencatat 8 unit/tahun (≈ AUD 25.200/tahun, total tuition AUD 50.400). Akar masalah di data pricelist: field = Business & Management dan annual = 3150 untuk baris AIH Sydney (id au-offshore-r127-offshore-sydney-92).",
+    "Poster: nama sekolah terpotong 'Australian Institute of Hig' dan '*Perkiraan...' bertabrakan dengan teks hak cipta."
+   ],
+   "fix": "Perbaiki bidang (IT) & estimasi per tahun di data pricelist (unit x unit/tahun), perpendek nama sekolah di poster, lalu buat ulang.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist-data 25/11/2026"
+  },
+  "program:2026-11-23:a": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Verifikasi resmi di file pricelist: UTAS Master of Social Work (Qualifying) resmi 2026 AUD 36.450/tahun; pricelist memakai 10.237,5/term (AUD 40.950/tahun, +12%) dan berstatus 'Konfirmasi'/incomplete - angka di poster lebih tinggi dari sumber resmi.",
+    "Judul 'S2 Early Childhood & Community Services' kurang tepat untuk Social Work."
+   ],
+   "fix": "Konfirmasi harga UTAS 2026/2027 (36.450/4 = 9.112,5/term bila resmi), ganti judul menjadi 'S2 Social Work di Hobart'.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.utas.edu.au (verifikasi tercatat di TEG Pricelist Main.xlsx)"
+  },
+  "program:2026-11-23:b": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Harga CIHE Master of Teaching (Early Childhood Education) AUD 6.250/term (25.000/tahun) cocok dengan pricelist ('Sesuai resmi').",
+    "Poster hanya menulis 'AUD 6.250' tanpa satuan (/term) - bisa disangka biaya total/tahun.",
+    "Alamat CIHE di pricelist hanya kampus ACT; pastikan kampus Perth memang menawarkan program ini. Syarat bahasa Inggris tidak dicantumkan."
+   ],
+   "fix": "Tambahkan 'per term · ± AUD 25.000/tahun · 2 tahun' di poster; konfirmasi lokasi Perth.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "pricelist-data 25/11/2026"
+  },
+  "news:au-485-fee-2026-03": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "Biaya 485 AUD 5.750 sejak 1 Jul 2026 (naik dari AUD 4.600) terverifikasi di studyaustralia.gov.au; poster 'Berlaku sejak 1 Jul 2026' sudah benar.",
+    "Studyaustralia.gov.au: anggota keluarga harus diajukan bersamaan (benar). Tetapi kalimat 'WNI masih boleh mengikutkan keluarga (aturan baru sejak 13 Nov 2026)' tidak bisa diverifikasi - halaman Home Affairs 'Changes to 485 family member rules' tidak terbuka di sesi QA.",
+    "Berita sudah lama (berlaku Juli) dan batas umur berita habis 25/11 09.00."
+   ],
+   "fix": "Hapus klausa 'WNI masih boleh... (aturan baru sejak 13 Nov 2026)' atau tambahkan link resmi family-member-rules dan ringkasan yang terverifikasi.",
+   "checked_at": "2026-11-25T07:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase"
   }
  }
 }

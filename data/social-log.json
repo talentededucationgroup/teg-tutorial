@@ -1265,6 +1265,22 @@
    "credit": null,
    "sig": "114d591e57ab",
    "rendered_at": "2026-11-25T03:21:46+07:00"
+  },
+  {
+   "no": 80,
+   "date": "2026-11-24",
+   "key": "post:2026-11-25-psikologi",
+   "file": "kuliah-psikologi.png",
+   "provider": "Talented Education Group",
+   "layout": "CUSTOM",
+   "palette": "-",
+   "format": "Feed 4:5",
+   "layout_name": "Poster khusus",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "sig": "b9411f7a7b5e",
+   "rendered_at": "2026-11-25T03:30:29+07:00"
   }
  ]
 }

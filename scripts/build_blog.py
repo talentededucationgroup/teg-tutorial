@@ -111,10 +111,14 @@ for l in ('id','en'):
         src=''.join(f'<li><a href="{e(s["url"])}" target="talented_ext" rel="noopener">{e(s["label"])}</a></li>' for s in p['sources'])
         ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":OG,"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
         hero=f"""<section class="hero"><div class="wrap"><p class="meta"><a href="{url_idx(l)}">{t['back']}</a></p><h1>{e(p['title'][l])}</h1><p class="meta">{t['upd']}: {fmt(p.get('updated',p['date']),l)}</p>{share(u,p['title'][l],l)}</div></section>"""
-        body=f"""<article>{p['body'][l]}</article><h2>{t['sources']}</h2><ul class="src">{src}</ul>
+        fq=(p.get('faq') or {}).get(l) or []
+        faqh=('<h2>'+('Pertanyaan yang sering diajukan' if l=='id' else 'Frequently asked questions')+'</h2>'+''.join(f'<details><summary><strong>{e(x["q"])}</strong></summary><p>{e(x["a"])}</p></details>' for x in fq)) if fq else ''
+        if fq: ld=json.dumps([json.loads(ld),{"@context":"https://schema.org","@type":"FAQPage","inLanguage":l,"mainEntity":[{"@type":"Question","name":x['q'],"acceptedAnswer":{"@type":"Answer","text":x['a']}} for x in fq]}],ensure_ascii=False)
+        kw=(p.get('keywords') or {}).get(l)
+        body=f"""<article>{p['body'][l]}{faqh}</article><h2>{t['sources']}</h2><ul class="src">{src}</ul>
 {cta(l)}
 {share(u,p['title'][l],l)}{('<h2>'+t['other']+'</h2><ul>'+others+'</ul>') if others else ''}<p class="disc">{e(t['disc'])}</p>"""
-        write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,f'<script type="application/ld+json">{ld}</script>',hero))
+        write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,(f'<meta name="keywords" content="{e(kw)}">' if kw else '')+f'<script type="application/ld+json">{ld}</script>',hero))
     def chips(p): return ''.join(f'<span class="chip">{FLAG(c)} {e(N["countries"].get(c,{}).get(l,c))}</span>' for c in p.get('countries',[])[:6])
     kick='Artikel terbaru' if l=='id' else 'Latest article'
     cards=''.join(f'<a class="post" href="{url_post(p["slug"],l)}"><span class="kick">{kick if i==0 else fmt(p["date"],l)}</span><h3>{e(p["title"][l])}</h3><p>{e(p["description"][l])}</p><span class="foot"><span class="chips">{chips(p)}</span><span class="read">{t["read"]} →</span></span></a>' for i,p in enumerate(posts))

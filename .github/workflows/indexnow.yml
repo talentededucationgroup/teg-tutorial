@@ -1,0 +1,39 @@
+name: IndexNow (Bing, Yahoo, Yandex, Seznam)
+# Memberi tahu mesin pencari yang mendukung IndexNow setiap ada halaman baru/berubah (pemilik 25/11/2026: SEO Free Mock Test).
+# Kunci IndexNow bersifat publik (file 643035542ba852a0417b2b1e3e69ecf1.txt di root info & pricelist), bukan rahasia.
+on:
+  push:
+    branches: [main]
+    paths: ['blog/**', 'sitemap.xml', 'llms.txt', 'les/**']
+  schedule:
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kirim URL sitemap ke IndexNow
+        env:
+          KEY: 643035542ba852a0417b2b1e3e69ecf1
+        run: |
+          set -e
+          sleep 90  # tunggu GitHub Pages / Cloudflare selesai terbit
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          key = os.environ['KEY']
+          for host, sm in (('info.talentededucationgroup.com', 'https://info.talentededucationgroup.com/sitemap.xml'),
+                           ('pricelist.talentededucationgroup.com', 'https://pricelist.talentededucationgroup.com/sitemap.xml')):
+              try:
+                  xml = urllib.request.urlopen(sm, timeout=60).read().decode('utf-8', 'ignore')
+              except Exception as ex:
+                  print('gagal ambil', sm, ex); continue
+              urls = [u for u in re.findall(r'<loc>([^<]+)</loc>', xml) if host in u][:10000]
+              body = json.dumps({'host': host, 'key': key, 'keyLocation': f'https://{host}/{key}.txt', 'urlList': urls}).encode()
+              req = urllib.request.Request('https://api.indexnow.org/indexnow', data=body, headers={'Content-Type': 'application/json; charset=utf-8'})
+              try:
+                  r = urllib.request.urlopen(req, timeout=60); print(host, len(urls), 'URL ->', r.status)
+              except urllib.error.HTTPError as ex:
+                  print(host, len(urls), 'URL -> HTTP', ex.code, ex.read()[:200])
+          PY

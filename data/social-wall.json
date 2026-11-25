@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T18:18:15+07:00",
+ "version": "2026-11-25T19:01:39+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,19 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:nz-vuw-postgraduate-international-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "title": "Beasiswa dibuka: VUW Postgraduate International Scholarship",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Postgraduate%20International%20Scholarship",
+   "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship",
+   "caption": "VUW Postgraduate International Scholarship sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "New Zealand",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202%20Reel.mp4"
+  },
   {
    "id": "scholarship:id-beasiswa-garuda-sarjana|open",
    "kind": "scholarship",
@@ -457,19 +470,6 @@
    "country": "Uni Emirat Arab",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "site:2026-11-20:site-02",
-   "kind": "marketing",
-   "date": "2026-11-20",
-   "title": "Hitung Dana Awal & Rekening Koran",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/",
-   "source": null,
-   "caption": "Mau tahu berapa saldo rekening koran yang disarankan untuk visa pelajar? Pricelist Talented menghitungnya otomatis. Info: https://linktr.ee/talentededucationgroup",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Hitung%20Dana%20Awal%20November%202026%20Reel.mp4"
   }
  ]
 }

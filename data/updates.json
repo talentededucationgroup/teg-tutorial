@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T17:28:20+07:00",
+ "version": "2026-11-25T18:18:15+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -239,6 +239,31 @@
     "deadline": "2027-01-04",
     "notes": "Pendaftaran 2027 (tujuan luar negeri) DIBUKA 12 Nov 2026-4 Jan 2027 di beasiswalpdp-terintegrasi.kemenkeu.go.id. Tes Bakat Skolastik 18-22 Jan 2027; pengumuman seleksi administrasi 5 Feb 2027; wawancara penempatan menyusul. Pilih 6 kampus (1 AS/Kanada, 1 Australia/Selandia Baru, 2 Eropa, 2 Asia); kampus & program akhir ditentukan saat wawancara penempatan. Tidak perlu LoA saat mendaftar. Penerima dapat menunda keberangkatan maks. 1 tahun; wajib kembali & berkontribusi di Indonesia 2x masa studi. Contoh kampus mitra: University of Sheffield (Inggris) menerima lulusan SMA dari sekolah yang diakui Garuda langsung ke S1 tertentu (Geography, International Relations and Politics, Digital Media and Society, Sociology) dengan rata-rata rapor 88-95%; Teknik lewat Sheffield Engineering Foundation Year (rata-rata min. 90% + nilai Matematika & Biologi/Kimia/Fisika). Siswa dari sekolah non-Garuda dinilai per kasus setelah menerima beasiswa. Konsultasikan pilihan kampus dengan Talented."
    }
+  },
+  {
+   "id": "jobs:2026-11-25-243",
+   "kind": "jobs",
+   "date": "2026-11-25",
+   "priority": 1,
+   "title": {
+    "id": "💼 243 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "en": "💼 243 new overseas job listings (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "th": "💼 ประกาศงานต่างประเทศใหม่ 243 ตำแหน่ง (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "vi": "💼 243 tin tuyển dụng nước ngoài mới (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "zh": "💼 243 个新的海外职位 (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "ja": "💼 海外の新着求人 243 件 (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "ko": "💼 새 해외 채용 공고 243건 (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "km": "💼 ការងារនៅបរទេសថ្មី 243 (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "fr": "💼 243 nouvelles offres d'emploi à l'étranger (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "pt": "💼 243 novas vagas no exterior (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "es": "💼 243 nuevas ofertas de empleo en el extranjero (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "de": "💼 243 neue Stellenangebote im Ausland (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "it": "💼 243 nuove offerte di lavoro all'estero (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "nl": "💼 243 nieuwe vacatures in het buitenland (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)",
+    "ru": "💼 243 новых вакансий за рубежом (Germany, United Kingdom, Australia, Canada, Singapore, New Zealand)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "jobs:2026-11-25-235",

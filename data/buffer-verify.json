@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-25T02:58:37+00:00",
- "ok": false,
+ "checked_at": "2026-11-25T06:04:18+00:00",
+ "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-25T02:55:24.268Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1744466141022883",
-   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
+   "sentAt": "2026-11-25T06:01:06.179Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1744612051008292",
+   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
   },
   "facebook|reel": {
    "sentAt": "2026-11-25T02:30:54.767Z",
@@ -14,8 +14,8 @@
    "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "facebook|story": {
-   "sentAt": "2026-11-24T00:05:28.572Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjE2MTI5ODgyOTAwNzM3OTM=/?view_single=1",
+   "sentAt": "2026-11-25T02:31:14.038Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjE2OTEyNjA0NDI1OTAzMTE=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {
@@ -24,9 +24,9 @@
    "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-25T02:55:35.136Z",
-   "link": "https://www.instagram.com/p/DgJgYc-FTX-/",
-   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
+   "sentAt": "2026-11-25T06:02:34.451Z",
+   "link": "https://www.instagram.com/p/DgJ1tpgkRyK/",
+   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
   },
   "instagram|reel": {
    "sentAt": "2026-11-25T02:31:39.741Z",
@@ -60,7 +60,5 @@
   }
  },
  "problems": [],
- "stale": [
-  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-24T00:05:28.572Z)"
- ]
+ "stale": []
 }

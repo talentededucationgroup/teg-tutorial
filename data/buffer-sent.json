@@ -103,7 +103,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-25T06:19:27.313301+00:00",
+"last_run": "2026-11-25T07:01:20.986479+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -205,9 +205,7 @@
 "6aff3157ece6dfde5f2203ab|feed": 2
 }
 },
-"waiting_review": [
-"post:2026-11-25-qs-sustainability"
-],
+"waiting_review": [],
 "daily_other": {
 "2026-11-22": [],
 "2026-11-23": [

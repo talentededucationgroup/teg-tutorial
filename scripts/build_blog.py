@@ -108,14 +108,16 @@ for l in ('id','en'):
     for p in posts:
         u=url_post(p['slug'],l); alt=url_post(p['slug'],t['langq'])
         others=''.join(f'<li><a href="{url_post(o["slug"],l)}">{e(o["title"][l])}</a></li>' for o in posts if o is not p)[:4000]
-        src=''.join(f'<li><a href="{e(s["url"])}" target="talented_ext" rel="noopener">{e(s["label"])}</a></li>' for s in p['sources'])
+        li=lambda s: f'<li><a href="{e(s["url"])}" target="talented_ext" rel="noopener">{e(s["label"])}</a></li>'
+        src=''.join(li(s) for s in p['sources'] if not s.get('internal'))
+        intern=''.join(li(s) for s in p['sources'] if s.get('internal'))
         ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":OG,"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
         hero=f"""<section class="hero"><div class="wrap"><p class="meta"><a href="{url_idx(l)}">{t['back']}</a></p><h1>{e(p['title'][l])}</h1><p class="meta">{t['upd']}: {fmt(p.get('updated',p['date']),l)}</p>{share(u,p['title'][l],l)}</div></section>"""
         fq=(p.get('faq') or {}).get(l) or []
         faqh=('<h2>'+('Pertanyaan yang sering diajukan' if l=='id' else 'Frequently asked questions')+'</h2>'+''.join(f'<details><summary><strong>{e(x["q"])}</strong></summary><p>{e(x["a"])}</p></details>' for x in fq)) if fq else ''
         if fq: ld=json.dumps([json.loads(ld),{"@context":"https://schema.org","@type":"FAQPage","inLanguage":l,"mainEntity":[{"@type":"Question","name":x['q'],"acceptedAnswer":{"@type":"Answer","text":x['a']}} for x in fq]}],ensure_ascii=False)
         kw=(p.get('keywords') or {}).get(l)
-        body=f"""<article>{p['body'][l]}{faqh}</article><h2>{t['sources']}</h2><ul class="src">{src}</ul>
+        body=f"""<article>{p['body'][l]}{faqh}</article>{('<h2>'+('Sumber internal Talented' if l=='id' else 'Talented resources')+'</h2><ul class="src">'+intern+'</ul>') if intern else ''}<h2>{(('Sumber resmi ujian' if l=='id' else 'Official exam sources') if intern else t['sources'])}</h2><ul class="src">{src}</ul>
 {cta(l)}
 {share(u,p['title'][l],l)}{('<h2>'+t['other']+'</h2><ul>'+others+'</ul>') if others else ''}<p class="disc">{e(t['disc'])}</p>"""
         write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,(f'<meta name="keywords" content="{e(kw)}">' if kw else '')+f'<script type="application/ld+json">{ld}</script>',hero))

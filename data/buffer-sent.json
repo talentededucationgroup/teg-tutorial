@@ -1,6 +1,9 @@
 {
 "note": "Postingan yang sudah dikirim ke Buffer (guid|kind|channel). Direset 20/11/2026: semua kiriman sebelumnya masuk Drafts (tanpa OPENAI_API_KEY); dikirim ulang ke antrean setelah lolos QA Claude. Diselaraskan 22/11/2026 setelah antrean Buffer dikosongkan: hanya yang sudah tayang.",
 "sent": [
+"post:2026-11-25-pathway-2-negara|feed|6aff3328ece6dfde5f221865",
+"post:2026-11-25-testimoni-helen|feed|6aff3157ece6dfde5f2203ab",
+"post:2026-11-25-testimoni-helen|feed|6aff319cece6dfde5f2206b4",
 "post:2026-11-25-testimoni-helen|feed|6aff32d7ece6dfde5f22151d",
 "post:2026-11-25-testimoni-helen|feed|6aff3328ece6dfde5f221865",
 "post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba1",
@@ -98,7 +101,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-25T02:30:27.372743+00:00",
+"last_run": "2026-11-25T02:55:10.177699+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -194,8 +197,10 @@
 "6aff3375ece6dfde5f221ba3|feed": 1,
 "6aff3375ece6dfde5f221ba2|feed": 1,
 "6aff3375ece6dfde5f221ba1|feed": 1,
-"6aff3328ece6dfde5f221865|feed": 1,
-"6aff32d7ece6dfde5f22151d|feed": 1
+"6aff3328ece6dfde5f221865|feed": 2,
+"6aff32d7ece6dfde5f22151d|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1
 }
 },
 "waiting_review": [],

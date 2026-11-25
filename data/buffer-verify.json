@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-25T02:34:53+00:00",
+ "checked_at": "2026-11-25T02:58:37+00:00",
  "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-25T02:31:14.038Z",
-   "link": "https://www.facebook.com/104126648347814",
-   "text": ""
+   "sentAt": "2026-11-25T02:55:24.268Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1744466141022883",
+   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "facebook|reel": {
    "sentAt": "2026-11-25T02:30:54.767Z",
@@ -24,9 +24,9 @@
    "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-24T02:30:36.395Z",
-   "link": "https://www.instagram.com/p/DgG4uzIjqGa/",
-   "text": "Vice-Chancellor's International Academic Merit Sch"
+   "sentAt": "2026-11-25T02:55:35.136Z",
+   "link": "https://www.instagram.com/p/DgJgYc-FTX-/",
+   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "instagram|reel": {
    "sentAt": "2026-11-25T02:31:39.741Z",
@@ -49,9 +49,9 @@
    "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-25T02:31:41.895Z",
-   "link": "https://x.com/1511766381762531332/status/2125417108192272516",
-   "text": "Testimoni Helen Anggraeni: kedua kalinya pakai Tal"
+   "sentAt": "2026-11-25T02:55:36.708Z",
+   "link": "https://x.com/1511766381762531332/status/2125423126242578581",
+   "text": "Pathway 2 Negara: kampus universitas Australia di "
   },
   "youtube|reel": {
    "sentAt": "2026-11-25T02:30:46.770Z",
@@ -61,7 +61,6 @@
  },
  "problems": [],
  "stale": [
-  "instagram feed: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-24T02:30:36.395Z)",
   "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-24T00:05:28.572Z)"
  ]
 }

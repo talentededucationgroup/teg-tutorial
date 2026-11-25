@@ -1,20 +1,20 @@
 {
  "title": "Panduan lengkap: pasang aplikasi Talented & cek harga",
- "version": "v6.0",
- "released": "2026-11-24",
- "built_from": "Screenshot website pricelist (24/11/2026), Excel R129",
- "note": "v6.0: bab baru \"Study Tour & Pathway 2 Negara\" (Langkah 19): tab Study Tour (filter Negara & Jenis; tombol Halaman resmi, WhatsApp, Salin link, Tanya Talented) dan tab Pathway 2 Negara (mulai kuliah di satu negara, lulus di negara lain; filter Mulai di, Lanjut ke, Bidang). | v5.9: bab baru \"Bagikan & pilih per item\" (Langkah 18): tombol Pilih / WA / Salin link di setiap kartu (Bea siswa, Berita, Sekolah lain, Lowongan, Akomodasi, Jemput Bandara, RPL, Free Mock Test), pilih maks. 10, Bandingkan, bagikan sekaligus. | v5.8: bab \"Buka halaman & pilih bahasa\", \"Menu utama\" (narasi baru: 14 tab termasuk Book Tes Resmi & Jemput Bandara), \"Info & promo terbaru\", \"Cari & filter\" dan \"Baca kartu program\" memakai tampilan website terbaru (header navy, angka cakupan, menu ikon, info & promo di atas, filter grid). | v5.7: bab baru \"Notifikasi & suara\" (Langkah 17: lonceng → Aktifkan notifikasi → Izinkan; tombol Bunyi aktif hanya untuk bunyi di website; pengaturan suara notifikasi di Android, iPhone, Windows, Mac; cara membuka blokir lewat ikon gembok). | v5.6: bab baru \"Info & promo terbaru\" (carousel poster, Lihat semua, tombol Bagikan ke WhatsApp & Salin link di setiap tab), \"Buka poster\" (lightbox: ringkasan, Putar video, Sumber resmi, Bagikan; filter kategori & negara) dan \"Jemput Bandara\" (tips aman, filter negara/kota, penyedia pilihan Talented). | v5.5: bab Menu utama (tab baru Free Mock Test & Berita Imigrasi), bab Sponsored dengan kotak \"Promosikan institusi Anda di sini\" + \"Lihat cara kerjanya\" (website v119-v122), bab Kegiatan (screenshot baru), bab baru \"Free Mock Test\" (pilih tes, filter bahasa, tombol Mulai & WhatsApp) dan \"Berita Imigrasi\" (berita resmi visa pelajar, usulan & konsultasi, link sumber resmi, Baca blog Talented). | v5.4: bab baru \"RPL (Pengakuan Pengalaman Kerja)\" (tab RPL website v118: alur 5 langkah, checklist dokumen, filter bidang & cari kode, harga lewat konsultan; hasil tidak dijamin, bukan jalur visa pelajar). | v5.3: bab Lowongan Kerja & Akomodasi - link \"Bagikan ke WhatsApp\" langsung membuka tab tujuan (website v116). | v5.2: bab Sponsored - tombol \"Pasang iklan Sponsored untuk institusi Anda\" (pesan & bayar online, tayang otomatis setelah pembayaran & pengecekan isi); bab Lowongan Kerja & Akomodasi - tombol \"Bagikan ke WhatsApp\" (website v115). | v5.1: bab Sponsored tanpa Special discount Talented di teks iklan (keputusan pemilik 17/11/2026). | v5.0: bab \"Promo sekolah (Sponsored)\" - carousel 19 slide dengan logo resmi sekolah + tombol \"Ajukan paket promosi untuk institusi Anda\" (website v110). | v4.9: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide dengan logo resmi sekolah; bab OSHC - tombol \"Bagikan ke WhatsApp\" & \"Bagikan link\" di perbandingan cover (website v105). | v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
+ "version": "v6.1",
+ "released": "2026-11-25",
+ "built_from": "Screenshot website pricelist (25/11/2026), Excel R136",
+ "note": "v6.1: bab \"Cari & filter\" (Langkah 3) memakai filter baru - Kota, Bidang & Jenjang bisa dicentang lebih dari satu (Hapus pilihan / Selesai); bab baru \"Ulasan Google & Kegiatan\" (Langkah 20: ulasan Google kantor Sydney, Pontianak & Singkawang + video Kegiatan Talented di bawah setiap halaman) dan \"Sekolah lain & pasang aplikasi\" (Langkah 21: kartu sekolah tanpa daftar harga menampilkan jurusan, kode CRICOS, kampus & situs resmi; ajakan Pasang App Talented saat website dibuka). | v6.0: bab baru \"Study Tour & Pathway 2 Negara\" (Langkah 19): tab Study Tour (filter Negara & Jenis; tombol Halaman resmi, WhatsApp, Salin link, Tanya Talented) dan tab Pathway 2 Negara (mulai kuliah di satu negara, lulus di negara lain; filter Mulai di, Lanjut ke, Bidang). | v5.9: bab baru \"Bagikan & pilih per item\" (Langkah 18): tombol Pilih / WA / Salin link di setiap kartu (Bea siswa, Berita, Sekolah lain, Lowongan, Akomodasi, Jemput Bandara, RPL, Free Mock Test), pilih maks. 10, Bandingkan, bagikan sekaligus. | v5.8: bab \"Buka halaman & pilih bahasa\", \"Menu utama\" (narasi baru: 14 tab termasuk Book Tes Resmi & Jemput Bandara), \"Info & promo terbaru\", \"Cari & filter\" dan \"Baca kartu program\" memakai tampilan website terbaru (header navy, angka cakupan, menu ikon, info & promo di atas, filter grid). | v5.7: bab baru \"Notifikasi & suara\" (Langkah 17: lonceng → Aktifkan notifikasi → Izinkan; tombol Bunyi aktif hanya untuk bunyi di website; pengaturan suara notifikasi di Android, iPhone, Windows, Mac; cara membuka blokir lewat ikon gembok). | v5.6: bab baru \"Info & promo terbaru\" (carousel poster, Lihat semua, tombol Bagikan ke WhatsApp & Salin link di setiap tab), \"Buka poster\" (lightbox: ringkasan, Putar video, Sumber resmi, Bagikan; filter kategori & negara) dan \"Jemput Bandara\" (tips aman, filter negara/kota, penyedia pilihan Talented). | v5.5: bab Menu utama (tab baru Free Mock Test & Berita Imigrasi), bab Sponsored dengan kotak \"Promosikan institusi Anda di sini\" + \"Lihat cara kerjanya\" (website v119-v122), bab Kegiatan (screenshot baru), bab baru \"Free Mock Test\" (pilih tes, filter bahasa, tombol Mulai & WhatsApp) dan \"Berita Imigrasi\" (berita resmi visa pelajar, usulan & konsultasi, link sumber resmi, Baca blog Talented). | v5.4: bab baru \"RPL (Pengakuan Pengalaman Kerja)\" (tab RPL website v118: alur 5 langkah, checklist dokumen, filter bidang & cari kode, harga lewat konsultan; hasil tidak dijamin, bukan jalur visa pelajar). | v5.3: bab Lowongan Kerja & Akomodasi - link \"Bagikan ke WhatsApp\" langsung membuka tab tujuan (website v116). | v5.2: bab Sponsored - tombol \"Pasang iklan Sponsored untuk institusi Anda\" (pesan & bayar online, tayang otomatis setelah pembayaran & pengecekan isi); bab Lowongan Kerja & Akomodasi - tombol \"Bagikan ke WhatsApp\" (website v115). | v5.1: bab Sponsored tanpa Special discount Talented di teks iklan (keputusan pemilik 17/11/2026). | v5.0: bab \"Promo sekolah (Sponsored)\" - carousel 19 slide dengan logo resmi sekolah + tombol \"Ajukan paket promosi untuk institusi Anda\" (website v110). | v4.9: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide dengan logo resmi sekolah; bab OSHC - tombol \"Bagikan ke WhatsApp\" & \"Bagikan link\" di perbandingan cover (website v105). | v4.8: bab OSHC memakai tampilan kartu v100 (kartu per provider: harga, Dokumen polis & Panduan, Beli lewat Talented, Pilih, baris cover). | v4.7: bab OSHC - 5 provider aktif (ahm, Allianz Care, Bupa, Medibank, nib; CBHS dihapus) + panel \"Perbandingan cover OSHC\"; screenshot filter baru. | v4.6: bab \"Promo sekolah (Sponsored)\" - carousel 10 slide di bawah video tutorial + kartu Sponsored di atas hasil Program studi (menggantikan bab Banner Sponsored v4.5). | v4.5: banner Sponsored (10 sekolah), menu + FREE Mock Test & Konsultasi gratis, cek skor IELTS/PTE & filter beasiswa, lencana beasiswa & Special discount Talented, Bandingkan maks. 10 program, katalog PDF per kota (bahasa aktif, pesan gagal & Coba lagi), simulasi ELICOS sesuai minggu dasar sekolah, watermark PDF baru; semua screenshot diperbarui. | v4.4: Membawa keluarga & rincian biaya keluarga (Professional Admin fee), PDF resmi Talented (watermark, kode dokumen, QR), Pilih & Bandingkan maks. 6 program, Simpan & kirim pilihan. | v3: tampilan website terbaru - tombol besar \"Video Tutorial cara cek harga dan Download Talented Mobile App di HP/Tablet\", strip Kegiatan TEG, 15 bahasa, negara Global di dropdown Negara, simulasi ELICOS 10 minggu, saran saldo Pathway, direktori CRICOS, Les Preparation (VSA + Partner PTE Elite Pearson 2026), Scholarship, Lowongan Kerja, Akomodasi, Mulai Daftar (kantor & formulir). | v3.1: header R89, Kegiatan TEG + testimoni. v3.2: pelafalan \"Talented Edukesyen Grup\", \"aikon\", \"O Es Ha Ce\". | v4: video tutorial tertanam di atas halaman + Daftar bab, tombol \"Pasang Aplikasi Talented\" & \"Cek harga sekarang\", tata letak filter baru, tab Bea siswa (pencari beasiswa). v4.1: narasi & teks Lowongan Kerja tanpa nama penyedia data. v4.2: strip badge \"Agen terverifikasi & tersertifikasi\" di atas video, posisi filter terbaru. v4.3: tata letak baru (video + tombol berdampingan, menu 1 baris, filter 2 baris), mitra resmi di Indonesia: PT. Pilar Pendidikan Internasional & PT. Bintang Samudra Ternama.",
  "language": {
   "voice": "id (Microsoft Azure id-ID-Harper:MAI-Voice-2.1, rate -5%)",
   "subtitles": "en (burned-in) + subtitle-en.srt"
  },
- "duration_seconds": 951.41,
+ "duration_seconds": 1017.47,
  "resolution": "1920x1080",
  "files": {
   "tutorial.mp4": {
    "url": "https://info.talentededucationgroup.com/panduan/tutorial.mp4",
-   "bytes": 23393348,
-   "sha256": "f8c451353ec58017219ad65ce4e014263a2951641ca47234926d683f30796488"
+   "bytes": 27093765,
+   "sha256": "4b3ceedadf8c83371d4d3ee945d38487851d2c179f8111aff5c9677084c9256b"
   },
   "poster.jpg": {
    "url": "https://info.talentededucationgroup.com/panduan/poster.jpg",
@@ -23,8 +23,8 @@
   },
   "subtitle-en.srt": {
    "url": "https://info.talentededucationgroup.com/panduan/subtitle-en.srt",
-   "bytes": 8863,
-   "sha256": "c9df5e967e34774fa94cf5c81dca5be39e10cc6b6c733e51592b42c84fa252be"
+   "bytes": 9329,
+   "sha256": "f7354fc7c739d91107fe58827c763bb91b077c8d31483c9b1f6b4bf89293cac7"
   }
  },
  "chapters": [
@@ -119,199 +119,211 @@
    "title_id": "Browser: Cari & filter"
   },
   {
-   "start": "03:57",
+   "start": "04:07",
    "title": "Browser: Cek skor & beasiswa",
    "title_en": "Browser: Score check & scholarships",
    "title_id": "Browser: Cek skor & beasiswa"
   },
   {
-   "start": "04:17",
+   "start": "04:27",
    "title": "Browser: Pilih OSHC & bandingkan cover",
    "title_en": "Browser: Choose OSHC & compare cover",
    "title_id": "Browser: Pilih OSHC & bandingkan cover"
   },
   {
-   "start": "04:54",
+   "start": "05:04",
    "title": "Browser: Urutkan hasil",
    "title_en": "Browser: Sort results",
    "title_id": "Browser: Urutkan hasil"
   },
   {
-   "start": "05:06",
+   "start": "05:16",
    "title": "Browser: Baca kartu program",
    "title_en": "Browser: Read a programme card",
    "title_id": "Browser: Baca kartu program"
   },
   {
-   "start": "05:17",
+   "start": "05:27",
    "title": "Browser: Lencana beasiswa & special discount",
    "title_en": "Browser: Scholarship & special discount badges",
    "title_id": "Browser: Lencana beasiswa & special discount"
   },
   {
-   "start": "05:38",
+   "start": "05:48",
    "title": "Browser: Rincian program",
    "title_en": "Browser: Programme details",
    "title_id": "Browser: Rincian program"
   },
   {
-   "start": "05:49",
+   "start": "05:59",
    "title": "Browser: Dana awal, rekening koran & refund",
    "title_en": "Browser: Upfront cost, bank statement & refund",
    "title_id": "Browser: Dana awal, rekening koran & refund"
   },
   {
-   "start": "06:02",
+   "start": "06:12",
    "title": "Browser: Tambah biaya hidup",
    "title_en": "Browser: Add living costs",
    "title_id": "Browser: Tambah biaya hidup"
   },
   {
-   "start": "06:17",
+   "start": "06:27",
    "title": "Browser: Membawa keluarga",
    "title_en": "Browser: Bringing family",
    "title_id": "Browser: Membawa keluarga"
   },
   {
-   "start": "06:40",
+   "start": "06:50",
    "title": "Browser: Rincian biaya keluarga",
    "title_en": "Browser: Family cost breakdown",
    "title_id": "Browser: Rincian biaya keluarga"
   },
   {
-   "start": "06:54",
+   "start": "07:04",
    "title": "Browser: PDF, WhatsApp & daftar",
    "title_en": "Browser: PDF, WhatsApp & apply",
    "title_id": "Browser: PDF, WhatsApp & daftar"
   },
   {
-   "start": "07:06",
+   "start": "07:16",
    "title": "Browser: PDF resmi Talented",
    "title_en": "Browser: Official Talented PDF",
    "title_id": "Browser: PDF resmi Talented"
   },
   {
-   "start": "07:20",
+   "start": "07:30",
    "title": "Browser: Katalog PDF per kota",
    "title_en": "Browser: City PDF catalogues",
    "title_id": "Browser: Katalog PDF per kota"
   },
   {
-   "start": "07:41",
+   "start": "07:51",
    "title": "Browser: Bandingkan",
    "title_en": "Browser: Compare",
    "title_id": "Browser: Bandingkan"
   },
   {
-   "start": "07:56",
+   "start": "08:06",
    "title": "Browser: Simpan & kirim pilihan",
    "title_en": "Browser: Save & send your picks",
    "title_id": "Browser: Simpan & kirim pilihan"
   },
   {
-   "start": "08:12",
+   "start": "08:22",
    "title": "Browser: Bahasa Inggris (ELICOS)",
    "title_en": "Browser: English courses (ELICOS)",
    "title_id": "Browser: Bahasa Inggris (ELICOS)"
   },
   {
-   "start": "08:29",
+   "start": "08:39",
    "title": "Browser: Paket Pathway VET + HE",
    "title_en": "Browser: VET + HE Pathway packages",
    "title_id": "Browser: Paket Pathway VET + HE"
   },
   {
-   "start": "08:47",
+   "start": "08:57",
    "title": "Browser: Sekolah lain (CRICOS)",
    "title_en": "Browser: Other schools (CRICOS)",
    "title_id": "Browser: Sekolah lain (CRICOS)"
   },
   {
-   "start": "09:02",
+   "start": "09:12",
    "title": "Browser: Les persiapan IELTS / PTE",
    "title_en": "Browser: IELTS / PTE preparation classes",
    "title_id": "Browser: Les persiapan IELTS / PTE"
   },
   {
-   "start": "09:16",
+   "start": "09:26",
    "title": "Browser: Kelas & harga VSA",
    "title_en": "Browser: VSA classes & prices",
    "title_id": "Browser: Kelas & harga VSA"
   },
   {
-   "start": "09:28",
+   "start": "09:38",
    "title": "Browser: Free Mock Test",
    "title_en": "Browser: Free Mock Test",
    "title_id": "Browser: Free Mock Test"
   },
   {
-   "start": "09:53",
+   "start": "10:03",
    "title": "Browser: Bea siswa",
    "title_en": "Browser: Scholarships",
    "title_id": "Browser: Bea siswa"
   },
   {
-   "start": "10:15",
+   "start": "10:25",
    "title": "Browser: Berita Imigrasi",
    "title_en": "Browser: Immigration news",
    "title_id": "Browser: Berita Imigrasi"
   },
   {
-   "start": "10:37",
+   "start": "10:47",
    "title": "Browser: Lowongan Kerja",
    "title_en": "Browser: Jobs",
    "title_id": "Browser: Lowongan Kerja"
   },
   {
-   "start": "11:02",
+   "start": "11:12",
    "title": "Browser: Akomodasi",
    "title_en": "Browser: Accommodation",
    "title_id": "Browser: Akomodasi"
   },
   {
-   "start": "11:26",
+   "start": "11:36",
    "title": "Browser: Jemput Bandara",
    "title_en": "Browser: Airport pickup",
    "title_id": "Browser: Jemput Bandara"
   },
   {
-   "start": "11:50",
+   "start": "12:00",
    "title": "Browser: Mulai Daftar",
    "title_en": "Browser: Start your application",
    "title_id": "Browser: Mulai Daftar"
   },
   {
-   "start": "12:00",
+   "start": "12:10",
    "title": "Browser: Kantor & formulir",
    "title_en": "Browser: Offices & forms",
    "title_id": "Browser: Kantor & formulir"
   },
   {
-   "start": "12:15",
+   "start": "12:25",
    "title": "Browser: RPL (Pengakuan Pengalaman Kerja)",
    "title_en": "Browser: RPL (Recognition of Prior Learning)",
    "title_id": "Browser: RPL (Pengakuan Pengalaman Kerja)"
   },
   {
-   "start": "12:51",
+   "start": "13:01",
    "title": "Browser: Notifikasi & suara",
    "title_en": "Browser: Notifications & sound",
    "title_id": "Browser: Notifikasi & suara"
   },
   {
-   "start": "13:54",
+   "start": "14:04",
    "title": "Browser: Bagikan & pilih per item",
    "title_en": "Browser: Share & pick items",
    "title_id": "Browser: Bagikan & pilih per item"
   },
   {
-   "start": "14:38",
+   "start": "14:48",
    "title": "Browser: Study Tour & Pathway 2 Negara",
    "title_en": "Browser: Study Tour & Pathway 2 Countries",
    "title_id": "Browser: Study Tour & Pathway 2 Negara"
   },
   {
-   "start": "15:26",
+   "start": "15:36",
+   "title": "Browser: Ulasan Google & Kegiatan",
+   "title_en": "Browser: Google reviews & Talented events",
+   "title_id": "Browser: Ulasan Google & Kegiatan"
+  },
+  {
+   "start": "16:02",
+   "title": "Browser: Sekolah lain & pasang aplikasi",
+   "title_en": "Browser: Other schools & install the app",
+   "title_id": "Browser: Sekolah lain & pasang aplikasi"
+  },
+  {
+   "start": "16:32",
    "title": "Konsultasi gratis",
    "title_en": "Free consultation",
    "title_id": "Konsultasi gratis"

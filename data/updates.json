@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T06:22:23+07:00",
+ "version": "2026-11-26T06:26:40+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -124,6 +124,165 @@
  },
  "items": [
   {
+   "id": "scholarship:au-ecu-asean-international-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "en": "🎓 Scholarship open: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "th": "🎓 เปิดรับทุน: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "vi": "🎓 Học bổng đang mở: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "zh": "🎓 奖学金开放申请：2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "ja": "🎓 奨学金募集中：2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "ko": "🎓 장학금 모집 중: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "fr": "🎓 Bourse ouverte : 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "pt": "🎓 Bolsa aberta: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "es": "🎓 Beca abierta: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "de": "🎓 Stipendium offen: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "it": "🎓 Borsa aperta: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "nl": "🎓 Beurs open: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+    "ru": "🎓 Открыт приём на стипендию: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20ASEAN%20International%20Scholarship",
+   "country": "Australia",
+   "provider": "Edith Cowan University (ECU)",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-asean-international-scholarship",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan 20% tuition selama durasi standar program (hanya tuition)",
+    "amount": "Potongan tuition 20%",
+    "eligibility": "Warga negara ASEAN yang memenuhi syarat (Indonesia termasuk); mulai S1/S2 coursework ECU tahun 2027 di kampus Joondalup, City atau South West; full-fee, bukan penerima beasiswa pemerintah/sponsor industri; memenuhi syarat masuk ECU. Halaman resmi juga mencantumkan syarat terdaftar di paket pathway dengan mitra pathway resmi ECU.",
+    "english_test": "Sesuai syarat masuk program ECU",
+    "deadline": "2027-12-31",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program ECU, tercantum di Letter of Offer. Wajib full-time & nilai baik agar tetap berlaku. Syarat paket pathway di halaman resmi perlu dikonfirmasi ke ECU untuk siswa direct entry. Tidak bisa digabung beasiswa ECU lain kecuali disetujui ECU. Daftar lewat konsultan Talented."
+   }
+  },
+  {
+   "id": "scholarship:au-uts-southeast-asia-international|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "en": "🎓 Scholarship open: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "th": "🎓 เปิดรับทุน: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "vi": "🎓 Học bổng đang mở: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "zh": "🎓 奖学金开放申请：UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "ja": "🎓 奨学金募集中：UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "ko": "🎓 장학금 모집 중: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "fr": "🎓 Bourse ouverte : UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "pt": "🎓 Bolsa aberta: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "es": "🎓 Beca abierta: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "de": "🎓 Stipendium offen: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "it": "🎓 Borsa aperta: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "nl": "🎓 Beurs open: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+    "ru": "🎓 Открыт приём на стипендию: UTS Southeast Asia International Scholarship (deadline 2028-12-31)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=UTS%20Southeast%20Asia%20International%20Scholarship",
+   "country": "Australia",
+   "provider": "University of Technology Sydney (UTS)",
+   "source": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/uts-southeast-asia-international-scholarship",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Potongan 20% tuition selama beban studi standar (S1 maks. 10 sesi, S2 maks. 4 sesi)",
+    "amount": "Potongan tuition 20%",
+    "eligibility": "Warga negara Brunei, Kamboja, Indonesia, Laos, Malaysia, Myanmar, Filipina, Singapura, Thailand, Timor-Leste atau Vietnam; mahasiswa internasional baru yang memenuhi syarat masuk dan kuliah full-time on-campus di Sydney (bukan program online/distance); tidak menerima beasiswa/grant UTS lain. Seleksi berdasarkan prestasi akademik.",
+    "english_test": "Sesuai syarat masuk program UTS",
+    "deadline": "2028-12-31",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program coursework UTS di Sydney. Untuk program UTS Business School, skor GMAT/GRE juga dapat dipakai (S2). Penerima sponsor pemerintah kemungkinan tidak memenuhi syarat - konfirmasi ke UTS. Konsultasi gratis dengan Talented."
+   }
+  },
+  {
+   "id": "scholarship:au-monash-vc-asean-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: Vice-Chancellor's ASEAN Award",
+    "en": "🎓 Scholarship open: Vice-Chancellor's ASEAN Award",
+    "th": "🎓 เปิดรับทุน: Vice-Chancellor's ASEAN Award",
+    "vi": "🎓 Học bổng đang mở: Vice-Chancellor's ASEAN Award",
+    "zh": "🎓 奖学金开放申请：Vice-Chancellor's ASEAN Award",
+    "ja": "🎓 奨学金募集中：Vice-Chancellor's ASEAN Award",
+    "ko": "🎓 장학금 모집 중: Vice-Chancellor's ASEAN Award",
+    "km": "🎓 អាហារូបករណ៍បើក៖ Vice-Chancellor's ASEAN Award",
+    "fr": "🎓 Bourse ouverte : Vice-Chancellor's ASEAN Award",
+    "pt": "🎓 Bolsa aberta: Vice-Chancellor's ASEAN Award",
+    "es": "🎓 Beca abierta: Vice-Chancellor's ASEAN Award",
+    "de": "🎓 Stipendium offen: Vice-Chancellor's ASEAN Award",
+    "it": "🎓 Borsa aperta: Vice-Chancellor's ASEAN Award",
+    "nl": "🎓 Beurs open: Vice-Chancellor's ASEAN Award",
+    "ru": "🎓 Открыт приём на стипендию: Vice-Chancellor's ASEAN Award"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20ASEAN%20Award",
+   "country": "Australia",
+   "provider": "Monash University",
+   "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/vice-chancellors-asean-award-6280",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan 20% tuition hingga 3 tahun, tunai AUD 2.000 tiket pesawat, AUD 2.000 biaya visa, grant relokasi AUD 5.000, kartu Myki 12 bulan (AUD 683), jemputan bandara (AUD 187), OSHC (AUD 2.511)",
+    "amount": "Hingga AUD 37.054 total; 67 penerima per tahun",
+    "eligibility": "Mahasiswa internasional dari 10 negara ASEAN (Indonesia termasuk) yang baru mulai S1 full-time di kampus Monash di Australia; seleksi kompetitif berdasarkan prestasi akademik.",
+    "english_test": "Sesuai syarat masuk program Monash",
+    "deadline": "",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program S1 Monash. Untuk mempertahankan: rata-rata distinction (min. 70%) tiap semester dan tidak pindah program. Halaman resmi tidak mencantumkan tanggal buka/tutup atau intake - konfirmasi ke Monash. Konsultasi gratis dengan Talented."
+   }
+  },
+  {
+   "id": "scholarship:nz-waikato-vcies-sea-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "en": "🎓 Scholarship open: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "th": "🎓 เปิดรับทุน: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "vi": "🎓 Học bổng đang mở: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "zh": "🎓 奖学金开放申请：Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "ja": "🎓 奨学金募集中：Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "ko": "🎓 장학금 모집 중: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "fr": "🎓 Bourse ouverte : Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "pt": "🎓 Bolsa aberta: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "es": "🎓 Beca abierta: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "de": "🎓 Stipendium offen: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "it": "🎓 Borsa aperta: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "nl": "🎓 Beurs open: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+    "ru": "🎓 Открыт приём на стипендию: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20International%20Excellence%20Scholarship%20for%20South-East%20Asia%202027",
+   "country": "Selandia Baru",
+   "provider": "University of Waikato",
+   "source": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-SEA.pdf",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Kredit tuition NZD 8.000-15.000 (S1 hingga NZD 15.000, S2 hingga NZD 10.000), dibayar penuh di trimester pertama",
+    "amount": "NZD 8.000 - 15.000",
+    "eligibility": "Warga negara Asia Tenggara (Indonesia termasuk), mahasiswa internasional baru dengan IPK setara min. B+ pada kualifikasi masuk dan offer of place (bersyarat/tanpa syarat) Waikato; full-time min. 120 poin, tinggal & kuliah on-campus di NZ selama 12 bulan.",
+    "english_test": "Sesuai syarat masuk program Waikato",
+    "deadline": "2026-11-30",
+    "notes": "Daftar online lewat portal MyWaikato dengan offer of place + esai alasan memilih Waikato. Tenggat pelamar offshore per trimester: A 30 Nov 2026, B 31 Mei 2027, C 31 Agu 2027, H/X 31 Okt 2027 (aplikasi dalam 4 minggu sebelum trimester mulai tidak diproses). Keputusan 3-4 minggu; terima dalam 14 hari. Tidak bisa digabung beasiswa tuition Waikato lain, Education NZ atau Manaaki. Konsultasi gratis dengan Talented."
+   }
+  },
+  {
    "id": "jobs:2026-11-26-247",
    "kind": "jobs",
    "date": "2026-11-26",
@@ -172,7 +331,7 @@
    },
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Undergraduate%20International%20Scholarship",
-   "country": "New Zealand",
+   "country": "Selandia Baru",
    "provider": "Te Herenga Waka - Victoria University of Wellington",
    "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship",
    "facts": {
@@ -211,7 +370,7 @@
    },
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Postgraduate%20International%20Scholarship",
-   "country": "New Zealand",
+   "country": "Selandia Baru",
    "provider": "Te Herenga Waka - Victoria University of Wellington",
    "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship",
    "facts": {

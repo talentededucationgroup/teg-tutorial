@@ -41,12 +41,14 @@
 "au-curtin-global-merit|open",
 "au-deakin-vc-international|open",
 "au-destination-australia",
+"au-ecu-asean-international-2027|open",
 "au-ecu-kickstart-bursary-2027|open",
 "au-greenwich-elicos-vet-package-voucher-2027|open",
 "au-griffith-international-academic-merit|open",
 "au-kbs-excellence-indonesia-2027|open",
 "au-kbs-sea-nea-scholarship|open",
 "au-monash-international-merit|open",
+"au-monash-vc-asean-award|open",
 "au-qut-international-merit|open",
 "au-research-training-program",
 "au-rmit-academic-merit-sea|open",
@@ -73,6 +75,7 @@
 "au-utas-tasmanian-aurora-excellence",
 "au-utas-tasmanian-international-scholarship|open",
 "au-uts-academic-excellence-international|open",
+"au-uts-southeast-asia-international|open",
 "au-uwa-global-excellence|open",
 "au-wsu-international-pg-2027|open",
 "au-wsu-international-ug-2027|open",
@@ -121,6 +124,7 @@
 "nz-manaaki-scholarships",
 "nz-vuw-postgraduate-international-scholarship|open",
 "nz-vuw-undergraduate-international-scholarship|open",
+"nz-waikato-vcies-sea-2027|open",
 "se-si-scholarship-global-professionals",
 "sg-astar-singa|open",
 "sg-moe-asean-scholarship-indonesia",
@@ -3393,10 +3397,6 @@
 },
 "push_log": [],
 "pending": [
-"scholarship:au-greenwich-elicos-vet-package-voucher-2027|open",
-"scholarship:sg-sim-diploma-scholarship-2027|open",
-"scholarship:sg-sim-undergraduate-scholarship-2027",
-"scholarship:sg-sim-uob-mba-scholarship",
 "jobs:2026-11-20-245",
 "jobs:2026-11-21-215",
 "news:au-485-family-2026-11-13",
@@ -3442,6 +3442,10 @@
 "scholarship:nz-vuw-undergraduate-international-scholarship|open",
 "scholarship:nz-vuw-postgraduate-international-scholarship|open",
 "jobs:2026-11-25-243",
-"jobs:2026-11-26-247"
+"jobs:2026-11-26-247",
+"scholarship:au-ecu-asean-international-2027|open",
+"scholarship:au-uts-southeast-asia-international|open",
+"scholarship:au-monash-vc-asean-award|open",
+"scholarship:nz-waikato-vcies-sea-2027|open"
 ]
 }

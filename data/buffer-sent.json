@@ -103,7 +103,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-25T11:18:24.582316+00:00",
+"last_run": "2026-11-25T12:01:43.549849+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -205,11 +205,7 @@
 "6aff3157ece6dfde5f2203ab|feed": 2
 }
 },
-"waiting_review": [
-"jobs:2026-11-25-243",
-"scholarship:nz-vuw-postgraduate-international-scholarship|open",
-"scholarship:nz-vuw-undergraduate-international-scholarship|open"
-],
+"waiting_review": [],
 "daily_other": {
 "2026-11-22": [],
 "2026-11-23": [

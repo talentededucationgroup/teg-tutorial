@@ -829,6 +829,19 @@
    "checked_at": "2026-11-25T07:20:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase"
+  },
+  "post:2026-11-25-qs-sustainability": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "SUMBER_TIDAK_TERBUKA: halaman berita sydney.edu.au tidak bisa dibuka (WebFetch izin timeout, run tanpa pengawas). Judul hasil pencarian domain resmi sydney.edu.au mengonfirmasi 'Sydney 17th globally in QS rankings for sustainability' (17/11/2026), tetapi klaim '39 institusi Australia' dan 'Western Sydney University top 150' belum terverifikasi.",
+    "Hashtag #KuliahDiNewZealand tidak sesuai - konten tentang kampus Australia.",
+    "Poster hanya menulis 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney - bisa terbaca seolah semua kampus Australia #17; poster 'rilis 17-18 Nov' vs caption '17 November'."
+   ],
+   "fix": "Ganti #KuliahDiNewZealand -> #KuliahDiAustralia; tulis 'University of Sydney #17 dunia' di poster; samakan tanggal rilis; cek ulang 39 institusi & WSU top 150 di sumber resmi (QS/westernsydney.edu.au) atau hapus klaim itu.",
+   "checked_at": "2026-11-25T14:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html"
   }
  }
 }

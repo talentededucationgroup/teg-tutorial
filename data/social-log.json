@@ -1354,6 +1354,44 @@
    "cta": "sticker",
    "sig": "f9c23c117c9e",
    "rendered_at": "2026-11-25T12:59:13+07:00"
+  },
+  {
+   "no": 85,
+   "date": "2026-11-25",
+   "key": "scholarship:nz-vuw-undergraduate-international-scholarship|open",
+   "file": "Talented Te Herenga Waka Beasiswa November 2026.png",
+   "provider": "Te Herenga Waka",
+   "layout": "E",
+   "palette": "N5",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "anton",
+   "deco": "dots",
+   "cta": "split",
+   "sig": "c76c19eb09e2",
+   "rendered_at": "2026-11-25T15:01:04+07:00"
+  },
+  {
+   "no": 86,
+   "date": "2026-11-25",
+   "key": "scholarship:nz-vuw-postgraduate-international-scholarship|open",
+   "file": "Talented Te Herenga Waka Beasiswa November 2026 2.png",
+   "provider": "Te Herenga Waka",
+   "layout": "H",
+   "palette": "N11",
+   "format": "Feed 4:5",
+   "layout_name": "Tipografi bertumpuk + cap",
+   "photo": "tanpa foto",
+   "v": 10,
+   "credit": null,
+   "font": "poppins",
+   "deco": "none",
+   "cta": "ticket",
+   "sig": "f5be4dcf45f1",
+   "rendered_at": "2026-11-25T15:01:07+07:00"
   }
  ]
 }

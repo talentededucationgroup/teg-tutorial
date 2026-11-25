@@ -1,5 +1,5 @@
 {
- "version": "2026-11-25T14:01:16+07:00",
+ "version": "2026-11-25T15:01:00+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,84 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:nz-vuw-undergraduate-international-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: VUW Undergraduate International Scholarship",
+    "en": "🎓 Scholarship open: VUW Undergraduate International Scholarship",
+    "th": "🎓 เปิดรับทุน: VUW Undergraduate International Scholarship",
+    "vi": "🎓 Học bổng đang mở: VUW Undergraduate International Scholarship",
+    "zh": "🎓 奖学金开放申请：VUW Undergraduate International Scholarship",
+    "ja": "🎓 奨学金募集中：VUW Undergraduate International Scholarship",
+    "ko": "🎓 장학금 모집 중: VUW Undergraduate International Scholarship",
+    "km": "🎓 អាហារូបករណ៍បើក៖ VUW Undergraduate International Scholarship",
+    "fr": "🎓 Bourse ouverte : VUW Undergraduate International Scholarship",
+    "pt": "🎓 Bolsa aberta: VUW Undergraduate International Scholarship",
+    "es": "🎓 Beca abierta: VUW Undergraduate International Scholarship",
+    "de": "🎓 Stipendium offen: VUW Undergraduate International Scholarship",
+    "it": "🎓 Borsa aperta: VUW Undergraduate International Scholarship",
+    "nl": "🎓 Beurs open: VUW Undergraduate International Scholarship",
+    "ru": "🎓 Открыт приём на стипендию: VUW Undergraduate International Scholarship"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Undergraduate%20International%20Scholarship",
+   "country": "New Zealand",
+   "provider": "Te Herenga Waka - Victoria University of Wellington",
+   "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Potongan tuition NZD 15.000 untuk tahun pertama (tidak diperpanjang)",
+    "amount": "NZD 15.000",
+    "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang membayar biaya internasional penuh dan mulai S1 dengan Offer of Place (bersyarat/tanpa syarat); lulusan Foundation Studies/EAP VUW juga berhak. Tidak untuk penerima beasiswa/sponsor pemerintah, siswa credit transfer, exchange/study abroad, atau warga/penduduk tetap Australia/NZ.",
+    "english_test": "Sesuai syarat masuk program VUW",
+    "deadline": "",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program VUW dan diberitahukan di Offer of Place. Batas waktu = batas pendaftaran program. Daftar lewat konsultan Talented."
+   }
+  },
+  {
+   "id": "scholarship:nz-vuw-postgraduate-international-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: VUW Postgraduate International Scholarship",
+    "en": "🎓 Scholarship open: VUW Postgraduate International Scholarship",
+    "th": "🎓 เปิดรับทุน: VUW Postgraduate International Scholarship",
+    "vi": "🎓 Học bổng đang mở: VUW Postgraduate International Scholarship",
+    "zh": "🎓 奖学金开放申请：VUW Postgraduate International Scholarship",
+    "ja": "🎓 奨学金募集中：VUW Postgraduate International Scholarship",
+    "ko": "🎓 장학금 모집 중: VUW Postgraduate International Scholarship",
+    "km": "🎓 អាហារូបករណ៍បើក៖ VUW Postgraduate International Scholarship",
+    "fr": "🎓 Bourse ouverte : VUW Postgraduate International Scholarship",
+    "pt": "🎓 Bolsa aberta: VUW Postgraduate International Scholarship",
+    "es": "🎓 Beca abierta: VUW Postgraduate International Scholarship",
+    "de": "🎓 Stipendium offen: VUW Postgraduate International Scholarship",
+    "it": "🎓 Borsa aperta: VUW Postgraduate International Scholarship",
+    "nl": "🎓 Beurs open: VUW Postgraduate International Scholarship",
+    "ru": "🎓 Открыт приём на стипендию: VUW Postgraduate International Scholarship"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Postgraduate%20International%20Scholarship",
+   "country": "New Zealand",
+   "provider": "Te Herenga Waka - Victoria University of Wellington",
+   "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship",
+   "facts": {
+    "levels": [
+     "S2"
+    ],
+    "coverage": "Potongan tuition NZD 10.000 untuk tahun pertama (tidak diperpanjang)",
+    "amount": "NZD 10.000",
+    "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang membayar biaya internasional penuh dan mulai Master/Postgraduate Diploma dengan Offer of Place, full-time di kampus; lulusan S1/EAP VUW juga berhak. Tidak untuk penerima beasiswa/sponsor pemerintah, siswa credit transfer, exchange/study abroad, atau warga/penduduk tetap Australia/NZ.",
+    "english_test": "Sesuai syarat masuk program VUW",
+    "deadline": "",
+    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program VUW dan diberitahukan di Offer of Place. Batas waktu = batas pendaftaran program. Daftar lewat konsultan Talented."
+   }
+  },
   {
    "id": "scholarship:id-beasiswa-garuda-sarjana|open",
    "kind": "scholarship",

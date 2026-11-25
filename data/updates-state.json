@@ -119,6 +119,8 @@
 "nl-nl-scholarship|open",
 "nl-university-of-twente-scholarship|open",
 "nz-manaaki-scholarships",
+"nz-vuw-postgraduate-international-scholarship|open",
+"nz-vuw-undergraduate-international-scholarship|open",
 "se-si-scholarship-global-professionals",
 "sg-astar-singa|open",
 "sg-moe-asean-scholarship-indonesia",
@@ -2901,8 +2903,6 @@
 },
 "push_log": [],
 "pending": [
-"scholarship:au-kbs-excellence-indonesia-2027|open",
-"jobs:2026-11-20-257",
 "jobs:2026-11-20-253",
 "scholarship:au-ucsh-welcome-success-reward-2027|open",
 "scholarship:au-greenwich-elicos-vet-package-voucher-2027|open",
@@ -2950,6 +2950,8 @@
 "scholarship:ie-lpdp-ucd-scholarship-2027|open",
 "jobs:2026-11-24-180",
 "jobs:2026-11-25-235",
-"scholarship:id-beasiswa-garuda-sarjana|open"
+"scholarship:id-beasiswa-garuda-sarjana|open",
+"scholarship:nz-vuw-undergraduate-international-scholarship|open",
+"scholarship:nz-vuw-postgraduate-international-scholarship|open"
 ]
 }

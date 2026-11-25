@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T06:26:40+07:00",
+ "version": "2026-11-26T06:44:46+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,58 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-uts-southeast-asia-international|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "title": "Beasiswa dibuka: UTS Southeast Asia International Scholarship (deadline 2028-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20UTS%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=UTS%20Southeast%20Asia%20International%20Scholarship",
+   "source": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/uts-southeast-asia-international-scholarship",
+   "caption": "UTS Southeast Asia International Scholarship sedang dibuka, pendaftaran ditutup 31 Desember 2028. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20UTS%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20UTS%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-monash-vc-asean-award|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "title": "Beasiswa dibuka: Vice-Chancellor's ASEAN Award",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Monash%20University%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20ASEAN%20Award",
+   "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/vice-chancellors-asean-award-6280",
+   "caption": "Vice-Chancellor's ASEAN Award sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Monash%20University%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Monash%20University%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "mix:2026-11-26:testi",
+   "kind": "marketing",
+   "date": "2026-11-26",
+   "title": "Hasil asli siswa VSA",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id#mocktest",
+   "source": null,
+   "caption": "🎉 Hasil asli Siswa VSA: Overall 64 di PTE Academic (Speaking 67 · Listening 62).",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "jobs:2026-11-26-247",
+   "kind": "jobs",
+   "date": "2026-11-26",
+   "title": "247 lowongan kerja luar negeri baru (Germany, Australia, Canada, United Kingdom, Switzerland, France, Singapore, Spain)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "247 lowongan kerja luar negeri baru (Germany, Australia, Canada, United Kingdom, Switzerland, France, Singapore, Spain). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Reel.mp4"
+  },
   {
    "id": "scholarship:nz-vuw-postgraduate-international-scholarship|open",
    "kind": "scholarship",
@@ -418,58 +470,6 @@
    "country": "Malaysia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:in-iccr-scholarship",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa baru: ICCR Scholarship (Government of India)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ICCR%20Scholarship%20%28Government%20of%20India%29",
-   "source": "https://a2ascholarships.iccr.gov.in/",
-   "caption": "Info beasiswa: ICCR Scholarship (Government of India). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "India",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ICCR%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:es-nebrija-southeast-asia-scholarship",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa baru: Nebrija University - Scholarship for Southeast Asia",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Nebrija%20University%20-%20Scholarship%20for%20Southeast%20Asia",
-   "source": "https://www.nebrija.com/en/becas-para-el-sudeste-asiatico/",
-   "caption": "Info beasiswa: Nebrija University - Scholarship for Southeast Asia. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Spanyol",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universidad%20Antonio%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:ch-eskas-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: Swiss Government Excellence Scholarships 2027-2028 (Research) (deadline 2026-11-30)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Swiss%20Government%20Excellence%20Scholarships%202027-2028%20%28Research%29",
-   "source": "https://www.sbfi.admin.ch/scholarships_eng",
-   "caption": "Swiss Government Excellence Scholarships 2027-2028 (Research) sedang dibuka, pendaftaran ditutup 30 November 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Swiss",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pemerintah%20Swiss%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:ae-murdoch-dubai-academic-merit|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: Murdoch University Dubai Academic Merit Scholarships",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Murdoch%20University%20Dubai%20Academic%20Merit%20Scholarships",
-   "source": "https://www.murdochuniversitydubai.com/study/scholarships/academic-merit-scholarships/",
-   "caption": "Murdoch University Dubai Academic Merit Scholarships sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Uni Emirat Arab",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Murdoch%20University%20Dubai%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

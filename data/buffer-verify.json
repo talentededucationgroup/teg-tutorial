@@ -1,17 +1,17 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-24T23:49:23+00:00",
- "ok": true,
+ "checked_at": "2026-11-25T02:34:53+00:00",
+ "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-24T02:30:34.600Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1743128974489933",
-   "text": "Vice-Chancellor's International Academic Merit Sch"
+   "sentAt": "2026-11-25T02:31:14.038Z",
+   "link": "https://www.facebook.com/104126648347814",
+   "text": ""
   },
   "facebook|reel": {
-   "sentAt": "2026-11-24T00:05:09.117Z",
-   "link": "https://www.facebook.com/reel/1103296769408640/",
-   "text": "🔥 S1 Early Childhood & Community Services di Sydne"
+   "sentAt": "2026-11-25T02:30:54.767Z",
+   "link": "https://www.facebook.com/reel/1156554796832307/",
+   "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "facebook|story": {
    "sentAt": "2026-11-24T00:05:28.572Z",
@@ -19,9 +19,9 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-24T02:29:52.704Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDotUjg5c0xPVzdic3hYRHVOZXhlb293",
-   "text": "Vice-Chancellor's International Academic Merit Sch"
+   "sentAt": "2026-11-25T02:31:39.542Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpwQkI2VmFsN1F1cF80M0FwUi1pZ3BB",
+   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "instagram|feed": {
    "sentAt": "2026-11-24T02:30:36.395Z",
@@ -29,36 +29,39 @@
    "text": "Vice-Chancellor's International Academic Merit Sch"
   },
   "instagram|reel": {
-   "sentAt": "2026-11-24T00:06:10.655Z",
-   "link": "https://www.instagram.com/reel/DgGoKYPChB4/",
-   "text": "🔥 S1 Early Childhood & Community Services di Sydne"
+   "sentAt": "2026-11-25T02:31:39.741Z",
+   "link": "https://www.instagram.com/reel/DgJdliMIEmB/",
+   "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "instagram|story": {
-   "sentAt": "2026-11-24T00:06:39.135Z",
-   "link": "https://www.instagram.com/stories/talented.e.g/4037090903667318515",
+   "sentAt": "2026-11-25T02:32:13.489Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4037888928152613251",
    "text": ""
   },
   "linkedin|feed": {
-   "sentAt": "2026-11-24T02:30:21.154Z",
-   "link": "https://www.linkedin.com/feed/update/urn:li:share:7530820069497573376",
-   "text": "Vice-Chancellor's International Academic Merit Sch"
+   "sentAt": "2026-11-25T02:32:05.211Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7531182894011232258",
+   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
   },
   "tiktok|reel": {
-   "sentAt": "2026-11-24T00:06:32.215Z",
-   "link": "https://tiktok.com/@talented.education/video/7711522251425713415",
-   "text": "🔥 S1 Early Childhood & Community Services di Sydne"
+   "sentAt": "2026-11-25T02:31:18.092Z",
+   "link": "https://tiktok.com/@talented.education/video/7711930865281928456",
+   "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-24T02:29:57.568Z",
-   "link": "https://x.com/1511766381762531332/status/2125054272295293307",
-   "text": "Beasiswa dibuka: Vice-Chancellor's International A"
+   "sentAt": "2026-11-25T02:31:41.895Z",
+   "link": "https://x.com/1511766381762531332/status/2125417108192272516",
+   "text": "Testimoni Helen Anggraeni: kedua kalinya pakai Tal"
   },
   "youtube|reel": {
-   "sentAt": "2026-11-24T00:04:59.556Z",
-   "link": "https://www.youtube.com/shorts/qQVytEz0kKU",
-   "text": "🔥 S1 Early Childhood & Community Services di Sydne"
+   "sentAt": "2026-11-25T02:30:46.770Z",
+   "link": "https://www.youtube.com/shorts/vb0rcmNL3lg",
+   "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   }
  },
  "problems": [],
- "stale": []
+ "stale": [
+  "instagram feed: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-24T02:30:36.395Z)",
+  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-24T00:05:28.572Z)"
+ ]
 }

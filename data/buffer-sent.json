@@ -1,6 +1,12 @@
 {
 "note": "Postingan yang sudah dikirim ke Buffer (guid|kind|channel). Direset 20/11/2026: semua kiriman sebelumnya masuk Drafts (tanpa OPENAI_API_KEY); dikirim ulang ke antrean setelah lolos QA Claude. Diselaraskan 22/11/2026 setelah antrean Buffer dikosongkan: hanya yang sudah tayang.",
 "sent": [
+"post:2026-11-25-testimoni-helen|feed|6aff32d7ece6dfde5f22151d",
+"post:2026-11-25-testimoni-helen|feed|6aff3328ece6dfde5f221865",
+"post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba1",
+"post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba2",
+"post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba3",
+"post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba4",
 "post:2026-w47-ais|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-w47-ais|feed|6aff319cece6dfde5f2206b4",
 "post:2026-w47-ais|feed|6aff32d7ece6dfde5f22151d",
@@ -21,6 +27,12 @@
 "program:2026-11-22:a|reel|6aff3a05ece6dfde5f22802a",
 "program:2026-11-22:a|story|6aff3157ece6dfde5f2203ab",
 "program:2026-11-22:a|story|6aff319cece6dfde5f2206b4",
+"program:2026-11-24:a|reel|6aff3157ece6dfde5f2203ab",
+"program:2026-11-24:a|reel|6aff319cece6dfde5f2206b4",
+"program:2026-11-24:a|reel|6aff31ffece6dfde5f220b47",
+"program:2026-11-24:a|reel|6aff3a05ece6dfde5f22802a",
+"program:2026-11-24:a|story|6aff3157ece6dfde5f2203ab",
+"program:2026-11-24:a|story|6aff319cece6dfde5f2206b4",
 "promo:aih-promo-2026|feed|6aff3328ece6dfde5f221865",
 "promo:cdu-founding-2026|feed|6aff3328ece6dfde5f221865",
 "scholarship:ae-murdoch-dubai-academic-merit|open|feed|6aff3157ece6dfde5f2203ab",
@@ -86,7 +98,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-24T23:46:05.309926+00:00",
+"last_run": "2026-11-25T02:30:27.372743+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -170,6 +182,20 @@
 "6aff32d7ece6dfde5f22151d|feed": 1,
 "6aff319cece6dfde5f2206b4|feed": 1,
 "6aff3157ece6dfde5f2203ab|feed": 1
+},
+"2026-11-25": {
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1,
+"6aff319cece6dfde5f2206b4|reel": 1,
+"6aff3157ece6dfde5f2203ab|reel": 1,
+"6aff319cece6dfde5f2206b4|story": 1,
+"6aff3157ece6dfde5f2203ab|story": 1,
+"6aff3375ece6dfde5f221ba4|feed": 1,
+"6aff3375ece6dfde5f221ba3|feed": 1,
+"6aff3375ece6dfde5f221ba2|feed": 1,
+"6aff3375ece6dfde5f221ba1|feed": 1,
+"6aff3328ece6dfde5f221865|feed": 1,
+"6aff32d7ece6dfde5f22151d|feed": 1
 }
 },
 "waiting_review": [],
@@ -178,7 +204,8 @@
 "2026-11-23": [
 "scholarship:hk-belt-and-road-scholarship-hku|open"
 ],
-"2026-11-24": []
+"2026-11-24": [],
+"2026-11-25": []
 },
 "daily_prefix": {
 "2026-11-23": {
@@ -188,6 +215,14 @@
 "scholarship:": [
 "scholarship:au-uon-vc-international-academic-merit-2027|open"
 ]
+},
+"2026-11-25": {
+"scholarship:": []
+}
+},
+"weekly_prefix": {
+"2026-W48": {
+"jobs:": []
 }
 }
 }

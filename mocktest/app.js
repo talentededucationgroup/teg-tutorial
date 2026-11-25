@@ -1,4 +1,4 @@
-/* Talented Education Group - Free Mock Test engine (static; only when the candidate presses "AI marking" are IELTS Writing/Speaking answers sent to the AI marker at /api/mock-mark, nothing is stored) */
+/* Talented Education Group - Free Mock Test engine (static; IELTS Writing/Speaking answers are sent automatically to the AI marker at /api/mock-mark when the report opens, nothing is stored) */
 (function(){
 'use strict';
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
@@ -579,9 +579,8 @@ async function aiAuto(results,fdef,isFull,rid){
   if(cached){const tc=cleanTeacher(cached,results);if(tc){showReport(results,fdef,isFull,rid,Object.assign({},REPCTX,{teacher:tc}));return}}
   const box=document.createElement('div');box.className='aibox';box.setAttribute('role','status');
   const sh=document.querySelector('.card.result .share');if(sh)sh.parentNode.insertBefore(box,sh);else return;
-  if(!aiAuto.go){box.innerHTML='<p><b>🤖 '+esc(t('ai_title'))+'</b></p><p class="small">'+esc(t('ai_privacy'))+'</p><button class="btn" type="button" id="aiGo">🤖 '+esc(t('ai_start'))+'</button>';
-    $('#aiGo').onclick=()=>{aiAuto.go=true;box.remove();aiAuto(results,fdef,isFull,rid)};return}
-  box.innerHTML='<p>🤖 '+esc(t('ai_running'))+'</p>';
+  /* pemilik 25/11/2026: nilai AI langsung keluar tanpa menekan tombol */
+  box.innerHTML='<p>🤖 '+esc(t('ai_running'))+'</p><p class="small">'+esc(t('ai_privacy'))+'</p>';
   try{const r=await fetch(AI_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(aiPayload(results))});
     let j={};try{j=await r.json()}catch(_){}
     if(!r.ok||!j.ok){const e=new Error(j.error||('HTTP '+r.status));e.code=j.error;throw e}

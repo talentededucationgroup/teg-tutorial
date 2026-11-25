@@ -1,6 +1,6 @@
 {
- "version": "2026-11-25",
- "updated_at": "2026-11-25T06:45:00+07:00",
+ "version": "2026-11-26",
+ "updated_at": "2026-11-26T06:45:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -805,7 +805,7 @@
    "deadline": "2026-11-23",
    "country": "AU",
    "category": "policy",
-   "status": "consultation",
+   "status": "proposed",
    "title": {
     "id": "Australia: konsultasi reformasi Genuine Student & bukti dana visa pelajar (tutup 23 Nov 2026)",
     "en": "Australia: consultation on Genuine Student & financial capacity reforms (closes 23 Nov 2026)",
@@ -824,21 +824,21 @@
     "ru": "Австралия: консультация по реформе Genuine Student и финансовых требований (до 23 нояб. 2026)"
    },
    "summary": {
-    "id": "Home Affairs meminta masukan untuk: memperbarui Ministerial Direction 106 (penilaian Genuine Student), memperketat syarat bukti dana, dan kemungkinan langkah sementara bukti dana untuk negara Evidence Level 3. Belum ada keputusan - aturan saat ini tetap berlaku.",
-    "en": "Home Affairs is seeking feedback on updating Ministerial Direction 106 (Genuine Student assessment), strengthening financial capacity requirements, and a possible interim measure on financial evidence for Evidence Level 3 countries. No decisions have been made - current rules still apply.",
-    "th": "กระทรวงมหาดไทยออสเตรเลียขอความเห็นเรื่องปรับปรุง Ministerial Direction 106 (การประเมิน Genuine Student) เพิ่มความเข้มงวดหลักฐานทางการเงิน และมาตรการชั่วคราวสำหรับประเทศ Evidence Level 3 ยังไม่มีการตัดสินใจ กฎปัจจุบันยังใช้อยู่",
-    "vi": "Bộ Nội vụ Úc lấy ý kiến về cập nhật Ministerial Direction 106 (đánh giá Genuine Student), siết chặt yêu cầu chứng minh tài chính và biện pháp tạm thời cho các nước Evidence Level 3. Chưa có quyết định - quy định hiện hành vẫn áp dụng.",
-    "zh": "内政部就以下事项征求意见:更新第106号部长指令(Genuine Student 评估)、加强资金证明要求,以及可能针对 Evidence Level 3 国家的临时措施。尚未作出决定——现行规定仍适用。",
-    "ja": "内務省は、Ministerial Direction 106(Genuine Student 審査)の改定、資金証明要件の強化、Evidence Level 3 の国への暫定措置について意見を募集しています。まだ決定はなく、現行ルールが適用されます。",
-    "ko": "내무부가 Ministerial Direction 106(Genuine Student 심사) 개정, 재정능력 요건 강화, Evidence Level 3 국가 대상 임시 조치에 대해 의견을 받고 있습니다. 아직 결정된 바 없으며 현행 규정이 적용됩니다.",
-    "km": "ក្រសួងមហាផ្ទៃអូស្ត្រាលីស្នើសុំមតិលើការកែសម្រួល Ministerial Direction 106 (ការវាយតម្លៃ Genuine Student) ការពង្រឹងលក្ខខណ្ឌភស្តុតាងហិរញ្ញវត្ថុ និងវិធានការបណ្តោះអាសន្នសម្រាប់ប្រទេស Evidence Level 3។ មិនទាន់មានការសម្រេច - ច្បាប់បច្ចុប្បន្ននៅតែអនុវត្ត។",
-    "fr": "Le ministère de l'Intérieur sollicite des avis sur la mise à jour de la Ministerial Direction 106 (évaluation Genuine Student), le renforcement des exigences financières et une mesure provisoire pour les pays Evidence Level 3. Aucune décision - les règles actuelles s'appliquent.",
-    "pt": "O Home Affairs pede contribuições sobre a atualização da Ministerial Direction 106 (avaliação Genuine Student), o reforço da capacidade financeira e uma possível medida provisória para países Evidence Level 3. Nada decidido - as regras atuais continuam valendo.",
-    "es": "Home Affairs pide opiniones sobre actualizar la Ministerial Direction 106 (evaluación Genuine Student), reforzar la capacidad financiera y una posible medida provisional para países Evidence Level 3. No hay decisiones - siguen las reglas actuales.",
-    "de": "Home Affairs bittet um Stellungnahmen zur Aktualisierung der Ministerial Direction 106 (Genuine-Student-Prüfung), zu strengeren Finanznachweisen und einer möglichen Übergangsregel für Evidence-Level-3-Länder. Noch keine Entscheidung - es gelten die aktuellen Regeln.",
-    "it": "Home Affairs raccoglie pareri su aggiornamento della Ministerial Direction 106 (valutazione Genuine Student), requisiti finanziari più severi e una possibile misura provvisoria per i paesi Evidence Level 3. Nessuna decisione - valgono le regole attuali.",
-    "nl": "Home Affairs vraagt input over het bijwerken van Ministerial Direction 106 (Genuine Student-toets), strengere financiële eisen en een mogelijke tijdelijke maatregel voor Evidence Level 3-landen. Nog geen besluit - huidige regels gelden.",
-    "ru": "МВД Австралии собирает мнения об обновлении Ministerial Direction 106 (оценка Genuine Student), ужесточении финансовых требований и возможной временной мере для стран Evidence Level 3. Решений нет — действуют текущие правила."
+    "id": "Home Affairs meminta masukan untuk: memperbarui Ministerial Direction 106 (penilaian Genuine Student), memperketat syarat bukti dana, dan kemungkinan langkah sementara bukti dana untuk negara Evidence Level 3. Belum ada keputusan - aturan saat ini tetap berlaku. Konsultasi sudah ditutup 23 Nov 2026; per 24 Nov 2026 Home Affairs belum mengumumkan keputusan.",
+    "en": "Home Affairs is seeking feedback on updating Ministerial Direction 106 (Genuine Student assessment), strengthening financial capacity requirements, and a possible interim measure on financial evidence for Evidence Level 3 countries. No decisions have been made - current rules still apply. The consultation closed on 23 Nov 2026; as of 24 Nov 2026 Home Affairs has not announced any decision.",
+    "th": "กระทรวงมหาดไทยออสเตรเลียขอความเห็นเรื่องปรับปรุง Ministerial Direction 106 (การประเมิน Genuine Student) เพิ่มความเข้มงวดหลักฐานทางการเงิน และมาตรการชั่วคราวสำหรับประเทศ Evidence Level 3 ยังไม่มีการตัดสินใจ กฎปัจจุบันยังใช้อยู่ การรับฟังความคิดเห็นปิดแล้วเมื่อ 23 พ.ย. 2026 และ ณ 24 พ.ย. 2026 Home Affairs ยังไม่ประกาศการตัดสินใจ",
+    "vi": "Bộ Nội vụ Úc lấy ý kiến về cập nhật Ministerial Direction 106 (đánh giá Genuine Student), siết chặt yêu cầu chứng minh tài chính và biện pháp tạm thời cho các nước Evidence Level 3. Chưa có quyết định - quy định hiện hành vẫn áp dụng. Đợt tham vấn đã đóng ngày 23/11/2026; tính đến 24/11/2026 Home Affairs chưa công bố quyết định.",
+    "zh": "内政部就以下事项征求意见:更新第106号部长指令(Genuine Student 评估)、加强资金证明要求,以及可能针对 Evidence Level 3 国家的临时措施。尚未作出决定——现行规定仍适用。咨询已于2026年11月23日结束；截至2026年11月24日，Home Affairs 尚未公布任何决定。",
+    "ja": "内務省は、Ministerial Direction 106(Genuine Student 審査)の改定、資金証明要件の強化、Evidence Level 3 の国への暫定措置について意見を募集しています。まだ決定はなく、現行ルールが適用されます。コンサルテーションは2026年11月23日に終了しました。2026年11月24日時点で Home Affairs は決定を発表していません。",
+    "ko": "내무부가 Ministerial Direction 106(Genuine Student 심사) 개정, 재정능력 요건 강화, Evidence Level 3 국가 대상 임시 조치에 대해 의견을 받고 있습니다. 아직 결정된 바 없으며 현행 규정이 적용됩니다. 의견수렴은 2026년 11월 23일 마감되었으며, 2026년 11월 24일 기준 Home Affairs는 결정을 발표하지 않았습니다.",
+    "km": "ក្រសួងមហាផ្ទៃអូស្ត្រាលីស្នើសុំមតិលើការកែសម្រួល Ministerial Direction 106 (ការវាយតម្លៃ Genuine Student) ការពង្រឹងលក្ខខណ្ឌភស្តុតាងហិរញ្ញវត្ថុ និងវិធានការបណ្តោះអាសន្នសម្រាប់ប្រទេស Evidence Level 3។ មិនទាន់មានការសម្រេច - ច្បាប់បច្ចុប្បន្ននៅតែអនុវត្ត។ ការពិគ្រោះយោបល់បានបិទនៅ 23 វិច្ឆិកា 2026; គិតត្រឹម 24 វិច្ឆិកា 2026 Home Affairs មិនទាន់ប្រកាសការសម្រេចចិត្តណាមួយទេ។",
+    "fr": "Le ministère de l'Intérieur sollicite des avis sur la mise à jour de la Ministerial Direction 106 (évaluation Genuine Student), le renforcement des exigences financières et une mesure provisoire pour les pays Evidence Level 3. Aucune décision - les règles actuelles s'appliquent. La consultation a fermé le 23 nov. 2026 ; au 24 nov. 2026, Home Affairs n'a annoncé aucune décision.",
+    "pt": "O Home Affairs pede contribuições sobre a atualização da Ministerial Direction 106 (avaliação Genuine Student), o reforço da capacidade financeira e uma possível medida provisória para países Evidence Level 3. Nada decidido - as regras atuais continuam valendo. A consulta foi encerrada em 23 nov 2026; até 24 nov 2026 o Home Affairs não anunciou nenhuma decisão.",
+    "es": "Home Affairs pide opiniones sobre actualizar la Ministerial Direction 106 (evaluación Genuine Student), reforzar la capacidad financiera y una posible medida provisional para países Evidence Level 3. No hay decisiones - siguen las reglas actuales. La consulta cerró el 23 nov 2026; al 24 nov 2026 Home Affairs no ha anunciado ninguna decisión.",
+    "de": "Home Affairs bittet um Stellungnahmen zur Aktualisierung der Ministerial Direction 106 (Genuine-Student-Prüfung), zu strengeren Finanznachweisen und einer möglichen Übergangsregel für Evidence-Level-3-Länder. Noch keine Entscheidung - es gelten die aktuellen Regeln. Die Konsultation endete am 23. Nov. 2026; Stand 24. Nov. 2026 hat Home Affairs noch keine Entscheidung bekannt gegeben.",
+    "it": "Home Affairs raccoglie pareri su aggiornamento della Ministerial Direction 106 (valutazione Genuine Student), requisiti finanziari più severi e una possibile misura provvisoria per i paesi Evidence Level 3. Nessuna decisione - valgono le regole attuali. La consultazione si è chiusa il 23 nov 2026; al 24 nov 2026 Home Affairs non ha annunciato alcuna decisione.",
+    "nl": "Home Affairs vraagt input over het bijwerken van Ministerial Direction 106 (Genuine Student-toets), strengere financiële eisen en een mogelijke tijdelijke maatregel voor Evidence Level 3-landen. Nog geen besluit - huidige regels gelden. De consultatie sloot op 23 nov 2026; per 24 nov 2026 heeft Home Affairs nog geen besluit bekendgemaakt.",
+    "ru": "МВД Австралии собирает мнения об обновлении Ministerial Direction 106 (оценка Genuine Student), ужесточении финансовых требований и возможной временной мере для стран Evidence Level 3. Решений нет — действуют текущие правила. Консультация завершилась 23 нояб. 2026 г.; по состоянию на 24 нояб. 2026 г. Home Affairs не объявил решения."
    },
    "links": [
     {
@@ -1279,7 +1279,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

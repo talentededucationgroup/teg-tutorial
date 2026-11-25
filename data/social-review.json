@@ -834,14 +834,14 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "SUMBER_TIDAK_TERBUKA (cek ulang 25/11 19.05): halaman sydney.edu.au tetap hanya terkonfirmasi lewat judul hasil pencarian ('Sydney 17th globally in QS rankings for sustainability'); klaim '39 institusi Australia' dan 'Western Sydney University top 150' masih belum terverifikasi.",
-    "Hashtag #KuliahDiNewZealand tidak sesuai - konten tentang kampus Australia.",
-    "Poster hanya menulis 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney - bisa terbaca seolah semua kampus Australia #17; poster 'rilis 17-18 Nov' vs caption '17 November'."
+    "SUMBER_TIDAK_TERBUKA (cek ulang 26/11 07.05): halaman sydney.edu.au butuh izin (tidak terjawab); 'Sydney 17th globally' hanya dari judul hasil pencarian. 'Western Sydney University Top 150' KINI TERVERIFIKASI di westernsydney.edu.au/future/why-western/global-rankings. Klaim '39 institusi Australia' masih belum terverifikasi.",
+    "Hashtag #KuliahDiNewZealand #BeasiswaLuarNegeri tidak sesuai (konten ranking kampus Australia) - caption belum diubah.",
+    "Poster belum dirender ulang (rendered_at 25/11 12:59): tetap 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney."
    ],
-   "fix": "Ganti #KuliahDiNewZealand -> #KuliahDiAustralia; tulis 'University of Sydney #17 dunia' di poster; samakan tanggal rilis; cek ulang 39 institusi & WSU top 150 di sumber resmi (QS/westernsydney.edu.au) atau hapus klaim itu.",
-   "checked_at": "2026-11-25T19:05:00+07:00",
+   "fix": "Ganti hashtag -> #KuliahDiAustralia; tulis 'University of Sydney #17 dunia' di poster; hapus '39 institusi' bila tidak ada sumber resmi. Item kedaluwarsa (max_age 4 hari) 29/11.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html"
+   "source": "https://www.westernsydney.edu.au/future/why-western/global-rankings"
   },
   "scholarship:nz-vuw-postgraduate-international-scholarship|open": {
    "verdict": "LOLOS",
@@ -860,11 +860,11 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "SUMBER_TIDAK_TERBUKA: halaman resmi wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship gagal dibuka 3x (izin timeout / client_error, 25/11/2026). Halaman resmi lain (wgtn.ac.nz/international/scholarships-fees/scholarships & international-scholarship-update) mengonfirmasi beasiswa untuk mahasiswa internasional baru tahun pertama Bachelor full-time on campus dan dinilai otomatis, TETAPI nilai NZD 15.000, 'tidak diperpanjang', dan kelayakan lulusan Foundation/EAP belum terverifikasi.",
+    "SUMBER_TIDAK_TERBUKA (cek ulang 26/11 07.05): halaman resmi wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship butuh izin (tidak terjawab); halaman wgtn.ac.nz/international/scholarships-fees/scholarships hanya mengonfirmasi 'all new international students' S1 tahun pertama full-time on campus; Guide to Undergraduate Study 2027 (100rb karakter pertama) tidak menyebut beasiswa ini. Nilai NZD 15.000, 'tidak diperpanjang' & kelayakan Foundation/EAP belum terverifikasi.",
     "Caption 'Tidak untuk penerima...' terputus."
    ],
-   "fix": "Cek ulang nilai NZD 15.000 & durasi di halaman resmi; selesaikan kalimat pengecualian.",
-   "checked_at": "2026-11-25T19:05:00+07:00",
+   "fix": "Cek nilai NZD 15.000 & durasi di halaman resmi (perlu dibuka auditor/pemilik); selesaikan kalimat pengecualian.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.wgtn.ac.nz/international/scholarships-fees/scholarships"
   },
@@ -879,6 +879,105 @@
    "checked_at": "2026-11-25T19:05:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/jobs.json"
+  },
+  "scholarship:au-monash-vc-asean-award|open": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Cocok dengan halaman resmi Monash (cek 26/11/2026): hingga AUD 37.054, 67 penerima/tahun, 20% tuition hingga 3 tahun, AUD 2.000 tiket, AUD 2.000 visa, relokasi AUD 5.000; S1 full-time di kampus Monash Australia; 10 negara ASEAN termasuk Indonesia; otomatis tanpa aplikasi; distinction (70%) tiap semester; tanggal tutup tidak dicantumkan di halaman resmi.",
+    "Poster: logo Talented terlihat, foto booth TEG 'Study' sesuai konten AU, tanpa rahasia bisnis/jaminan; caption 3 hashtag, ada link resmi."
+   ],
+   "fix": "Opsional: lengkapi 'grant relokasi AUD...' yang terpotong menjadi AUD 5.000.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/vice-chancellors-asean-award-6280"
+  },
+  "scholarship:au-uts-southeast-asia-international|open": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Cocok dengan halaman resmi UTS (cek 26/11/2026): 20% tuition, S1 maks. 10 sesi / S2 maks. 4 sesi, 11 negara SEA termasuk Indonesia, full-time on-campus Sydney, otomatis (intake Spring 2026-Summer 2028), tutup 31/12/2028, GMAT/GRE hanya UTS Business School, penerima sponsor pemerintah dikecualikan.",
+    "Poster & caption sama (UTS, Australia, deadline 31 Des 2028); foto booth TEG sesuai konten AU; logo Talented terlihat."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/uts-southeast-asia-international-scholarship"
+  },
+  "scholarship:au-ecu-asean-international-2027|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Halaman resmi ECU (cek 26/11/2026) menyatakan syarat WAJIB: 'Students must be enrolled in a packaged pathway course with an ECU registered pathway partner that leads to an eligible ECU degree in 2027'. Caption menulis 'dinilai otomatis saat apply program ECU' dan hanya menyebut syarat pathway 'perlu dikonfirmasi' - pembaca bisa mengira siswa direct entry juga dapat 20%.",
+    "Fakta lain cocok: 20% tuition durasi standar, Indonesia termasuk, kampus Joondalup/City/South West, tutup 31/12/2027, full-fee non-sponsor. Beberapa program dikecualikan (Nursing, Education, WAAPA, dll.) belum disebut."
+   ],
+   "fix": "Tulis jelas di caption (dan bila bisa di poster): 'Khusus siswa paket pathway dengan mitra pathway resmi ECU yang lanjut ke S1/S2 ECU 2027; beberapa program dikecualikan (mis. Nursing, Education)'.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-asean-international-scholarship"
+  },
+  "scholarship:nz-waikato-vcies-sea-2027|open": {
+   "verdict": "REVISI",
+   "score": 5,
+   "reasons": [
+    "Fakta caption cocok dengan PDF resmi Waikato (cek 26/11/2026): NZD 8.000-15.000 (S1 hingga 15.000, S2 hingga 10.000), kredit tuition dibayar penuh trimester pertama, IPK B+, offer of place, full-time 120 poin, tinggal di NZ; tenggat offshore Trimester A 30 Nov.",
+    "A4: poster beasiswa SELANDIA BARU memakai foto banner 'STUDY IN AUSTRALIA' - tidak sesuai negara.",
+    "D: teks 'Vice-Chancellor's International Excellence...' dan '30 Nov 2026' bertabrakan dengan lingkaran foto."
+   ],
+   "fix": "MENDESAK (deadline 30/11/2026): render ulang poster dengan foto umum/NZ tanpa tulisan 'Study in Australia' dan teks tidak menimpa foto; caption sudah benar.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-SEA.pdf"
+  },
+  "program:2026-11-26:a": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Harga sama dengan pricelist (AUD 4.500/trimester, ± 13.500/tahun), TETAPI halaman resmi APIC (apicollege.edu.au/fees, cek 26/11/2026) mencatat Bachelor of Business internasional 2026 AUD 2.750/unit, total AUD 66.000 (≈ AUD 22.000/tahun, ≈ 7.333/trimester); 2027 hanya spesialisasi AUD 56.400 total. Angka poster ±39% lebih murah tanpa label promo/beasiswa - menyesatkan bila tidak dijelaskan.",
+    "Poster: nama sekolah terpotong 'Asia Pacific International...'; caption baris bahasa Inggris terpotong 'PTE 50 (writing & sp'.",
+    "Logo APIC & Melbourne cocok antara poster dan caption; foto 'Study in Australia' sesuai konten AU."
+   ],
+   "fix": "Pastikan dasar harga 4.500/trimester (bila setelah beasiswa/promo resmi APIC, tulis 'setelah Diversity Scholarship, s.d. ...' + link resmi); bila tidak ada bukti, gunakan harga resmi. Rapikan teks terpotong.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://apicollege.edu.au/fees/"
+  },
+  "program:2026-11-26:n": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Harga cocok: halaman resmi Unitec International fees 2027 (cek 26/11/2026) Master Professional Accounting L9, 18 bulan, programme fee NZD 31.327,20 (untuk program s.d. 120 kredit = ±1 tahun); IELTS 6.5 (no band <6)/PTE 58 sesuai minimum NZQA L9.",
+    "D: foto poster (rapat 4 pria/wanita paruh baya, kredit U.S. Army Corps of Engineers Europe District) tidak sesuai tema kuliah S2 di Auckland; poster tanpa nama/logo Unitec.",
+    "Caption baris bahasa Inggris terpotong 'PTE Academic 58, no band lo'."
+   ],
+   "fix": "Ganti foto dengan foto kampus/kota Auckland atau foto TEG, tambahkan nama/logo Unitec; rapikan teks terpotong.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.unitec.ac.nz/international/study-with-us/international-fees/"
+  },
+  "mix:2026-11-26:testi": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "Skor cocok dengan poster resmi VSA assets/testimoni-pte/pte-64.jpg (Overall 64, Speaking 67, Listening 62; nama/ID disensor); ada kalimat 'Hasil tiap siswa berbeda', tanpa jaminan skor.",
+    "Logo Talented & VSA terlihat; caption 3 hashtag, tanpa nomor telepon. Foto acara (siswa dari belakang/bermasker) tidak menampilkan identitas peserta tes."
+   ],
+   "fix": "Opsional: pakai foto kelas VSA yang lebih tajam.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-64.jpg"
+  },
+  "jobs:2026-11-26-247": {
+   "verdict": "LOLOS",
+   "score": 2,
+   "reasons": [
+    "Atribusi Jobs by Adzuna, peringatan 'lowongan asli tidak pernah minta biaya', tanpa klaim aman/dijamin; jobs.json diperbarui 26/11/2026 06:12 WIB.",
+    "Skor 2: topik lowongan berulang (postingan lowongan sudah tayang 25/11). Poster: teks 'Swiss +3' sedikit menimpa bingkai foto."
+   ],
+   "fix": "Tidak perlu diposting harian; cukup 1-2x per minggu dengan angka/negara yang menonjol.",
+   "checked_at": "2026-11-26T07:05:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": null
   }
  }
 }

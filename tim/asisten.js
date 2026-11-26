@@ -298,9 +298,9 @@ const css = `
 .ka-nav button[aria-pressed=true]{background:#14213d;color:#fff;border-color:#14213d}
 .ka-panel{display:flex;flex-direction:column;gap:10px;margin:6px 0 18px}
 .ka-panel[hidden]{display:none}
-.ka-search{width:100%;box-sizing:border-box;font:inherit;font-size:1rem;border:1.5px solid #d6dbe3;border-radius:10px;padding:9px 12px}
+.ka-search{background:#fff;color:#14213d;width:100%;box-sizing:border-box;font:inherit;font-size:1rem;border:1.5px solid #d6dbe3;border-radius:10px;padding:9px 12px}
 .ka-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px;align-items:start}
-.ka-card{background:#fff;border:1px solid #e3e7ee;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.ka-card{background:#fff;color:#14213d;border:1px solid #e3e7ee;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
 .ka-card h3{margin:0;font-size:1rem}
 .ka-ans{white-space:pre-line;overflow-wrap:anywhere;margin:0;font-size:.92rem}
 .ka-btn{align-self:flex-start;border:0;background:#18a058;color:#fff;border-radius:8px;padding:6px 12px;font:inherit;font-weight:700;font-size:.85rem;cursor:pointer}
@@ -315,6 +315,8 @@ const css = `
 .ka-due{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fde7e7;border:1px solid #f5b5b5;color:#a42121;border-radius:12px;padding:10px 12px;font-weight:700;font-size:.9rem}
 .ka-due[hidden],.ka-dot[hidden]{display:none}
 .ka-due button{margin-left:auto;border:0;background:#e5484d;color:#fff;border-radius:8px;padding:7px 12px;font:inherit;font-weight:800;cursor:pointer}
+.ka-chips{display:flex;gap:6px;flex-wrap:wrap}.ka-chips button{border:1.5px solid #d6dbe3;background:#f4f6f9;color:#14213d;border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}
+.ka-h{margin:6px 0 0;font-size:1rem}
 .ka-cta{display:inline-block;background:#14213d;color:#fff;border-radius:10px;padding:10px 16px;font-weight:700;text-decoration:none}
 `;
 function copy(text, btn) { const o = btn.textContent; (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(() => btn.textContent = "Tersalin", () => btn.textContent = "Salin gagal").finally(() => setTimeout(() => btn.textContent = o, 1500)); }
@@ -322,16 +324,12 @@ function mount(host) {
   const st = document.createElement("style"); st.textContent = css; document.head.append(st);
   host.innerHTML = `<nav class="ka-nav" role="group" aria-label="Asisten tim">
     <button type="button" data-v="konten" aria-pressed="true">📲 Konten<span class="ka-dot" id="ka-dot" hidden></span></button>
-    <button type="button" data-v="cepat" aria-pressed="false">⚡ Jawab Cepat</button>
-    <button type="button" data-v="cek" aria-pressed="false">🧭 Cek Student</button>
-    <button type="button" data-v="ai" aria-pressed="false">🔎 Tanya Sistem</button></nav>
+    <button type="button" data-v="ai" aria-pressed="false">💬 Tanya Jawab</button></nav>
     <div class="ka-due" id="ka-due" hidden role="status"><span id="ka-due-t"></span><button type="button" id="ka-due-go">📤 Posting sekarang</button></div>
-    <section class="ka-panel" id="ka-cepat" hidden><input class="ka-search" id="ka-q" type="search" placeholder="Cari: PTE, kerja, pasangan, 485, dana…" aria-label="Cari jawaban"><div class="ka-grid" id="ka-list"></div><p class="ka-muted">Dicek ${esc(KARTU.checked || "")} · kurs 1 AUD ≈ Rp ${Number(KARTU.kurs || 12330).toLocaleString("id-ID")} · angka final mengikuti offer letter & situs resmi.</p></section>
-    <section class="ka-panel" id="ka-cek" hidden><p class="ka-muted">Isi yang diketahui saja (tanpa nama lengkap/paspor/rekening). Hasil langsung muncul. Data hanya di HP ini.</p><div class="ka-form" id="ka-form"></div><div id="ka-res"></div></section>
-    <section class="ka-panel" id="ka-ai" hidden><div class="ka-card"><h3>🔎 Tanya Sistem</h3><p class="ka-muted">Tempel chat / pertanyaan student (boleh beberapa pertanyaan sekaligus). Sistem mencari jawaban resmi yang paling cocok dan menyusun balasan WA siap kirim. Tanpa internet, tanpa login, tidak ada yang tersimpan di server. Jangan tempel nama lengkap, nomor paspor, atau nomor rekening.</p><textarea class="ka-search" id="ka-tq" rows="4" placeholder="mis. kak kalau mau bawa suami bisa ga? terus dananya harus brp ya?"></textarea></div><div id="ka-tres"></div></section>`;
+    <section class="ka-panel" id="ka-ai" hidden><div class="ka-card"><h3>💬 Tanya Jawab</h3><textarea class="ka-search" id="ka-tq" rows="3" placeholder="Tempel / ketik pertanyaan student, mis. bawa suami bisa? dananya brp?" aria-label="Pertanyaan student"></textarea><div class="ka-chips" id="ka-chips">${["Dana","Biaya visa","PTE","Kerja","Bawa pasangan","485","Pindah sekolah","Harga sekolah","Visa pasti?"].map(x => `<button type="button">${x}</button>`).join("")}</div><span class="ka-muted">Jangan tempel nama lengkap, paspor, atau rekening. Dicek ${esc(KARTU.checked || "")} · 1 AUD ≈ Rp ${Number(KARTU.kurs || 12330).toLocaleString("id-ID")} · angka final mengikuti offer letter.</span></div><div id="ka-tres"></div><h3 class="ka-h" id="ka-allh">Semua jawaban</h3><div class="ka-grid" id="ka-list"></div></section>`;
   // Kit Tim: postingan dirender ulang ke <main id="list"> (innerHTML), jadi yang disembunyikan elemen halamannya, bukan anak <main>.
   const konten = ["#filters", "#howbox", "main", ".tabbar"].map(q => document.querySelector(q)).filter(n => n && !host.contains(n));
-  const show = v => { host.querySelectorAll(".ka-nav button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); ["cepat","cek","ai"].forEach(x => $("#ka-" + x, host).hidden = x !== v); konten.forEach(n => n.style.display = v === "konten" ? "" : "none"); cur = v; due(); };
+  const show = v => { host.querySelectorAll(".ka-nav button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); $("#ka-ai", host).hidden = v !== "ai"; if (v === "ai") setTimeout(() => { try { $("#ka-tq", host).focus({preventScroll: true}); } catch {} }, 50); konten.forEach(n => n.style.display = v === "konten" ? "" : "none"); cur = v; due(); };
   // Pengingat posting: angka diambil dari chip "🔴 n belum dibagikan" milik Kit Tim (tidak mengubah logika posting).
   let cur = "konten";
   const unread = () => { const u = document.getElementById("unread"); return u && !u.hidden ? parseInt((u.textContent.match(/\d+/) || ["0"])[0], 10) : 0; };
@@ -342,12 +340,10 @@ function mount(host) {
   $("#ka-due-go", host).addEventListener("click", () => { show("konten"); window.scrollTo({top: 0, behavior: "smooth"}); });
   { const u = document.getElementById("unread"); if (u) new MutationObserver(due).observe(u, {attributes: true, childList: true, characterData: true, subtree: true}); }
   host.querySelector(".ka-nav").addEventListener("click", e => { const b = e.target.closest("button[data-v]"); if (b) show(b.dataset.v); });
-  // Jawab Cepat
+  // Semua kartu (tampil saat kotak pertanyaan kosong)
   const list = $("#ka-list", host);
-  const draw = () => { const w = $("#ka-q", host).value.toLowerCase().split(/\s+/).filter(Boolean);
-    const r = KARTU.items.filter(c => w.every(x => (c.q + " " + c.a + " " + (c.k || "")).toLowerCase().includes(x)));
-    list.innerHTML = r.map((c, i) => `<article class="ka-card"><h3>${esc(c.q)}</h3><p class="ka-ans">${bold(c.a)}</p><span class="ka-muted">${esc(c.src || "")}</span><button type="button" class="ka-btn" data-i="${KARTU.items.indexOf(c)}">Salin</button></article>`).join("") || `<p class="ka-muted">Belum ada kartu. Coba 🔎 Tanya Sistem.</p>`; };
-  $("#ka-q", host).addEventListener("input", draw); list.addEventListener("click", e => { const b = e.target.closest(".ka-btn"); if (b) copy(KARTU.items[b.dataset.i].a, b); }); draw();
+  list.innerHTML = KARTU.items.map((c, i) => `<article class="ka-card"><h3>${esc(c.q)}</h3><p class="ka-ans">${bold(c.a)}</p><span class="ka-muted">${esc(c.src || "")}</span><button type="button" class="ka-btn" data-i="${i}">Salin</button></article>`).join("");
+  list.addEventListener("click", e => { const b = e.target.closest(".ka-btn"); if (b) copy(KARTU.items[b.dataset.i].a, b); });
   // Tanya Sistem: pencocokan kata kunci (offline) ke kartu Jawab Cepat
   const SYN = {brp:"berapa",berapaan:"berapa",bayar:"biaya",harga:"biaya",ongkos:"biaya",duit:"dana",uang:"dana",tabungan:"dana",saldo:"dana",rekening:"dana",
     suami:"pasangan",istri:"pasangan",bini:"pasangan",pacar:"pasangan",anak:"anak",keluarga:"pasangan",kerja:"kerja",part:"kerja",parttime:"kerja",jam:"jam",
@@ -366,7 +362,7 @@ function mount(host) {
     return docs.map(d => { let sc = 0; for (const w of q) { const n = d.w.filter(x => x === w || (w.length >= 4 && x.startsWith(w))).length; if (n) sc += idf(w) * (1 + Math.log(n)); } return {c: d.c, sc}; }).sort((a, b) => b.sc - a.sc); };
   const MIN = 1.2;
   const tq = $("#ka-tq", host), tres = $("#ka-tres", host);
-  const answer = () => { const txt = tq.value.trim(); if (!txt) { tres.innerHTML = ""; return; }
+  const answer = () => { const txt = tq.value.trim(); list.hidden = $("#ka-allh", host).hidden = !!txt; if (!txt) { tres.innerHTML = ""; return; }
     const parts = txt.split(/[?\n]+/).map(x => x.trim()).filter(x => x.length > 2);
     const pick = []; const add = c => { if (c && !pick.includes(c)) pick.push(c); };
     for (const part of parts) { const r = score(part); if (r[0].sc >= MIN) add(r[0].c); }
@@ -378,36 +374,15 @@ function mount(host) {
     const tip = hargaSaja ? KARTU.items.find(c => c.t === "Cek harga") : null;
     const wa = hargaSaja ? "Halo kak 😊\n\nRincian biaya per sekolah & jurusan (biaya awal, total studi, dan bukti dana) bisa dicek langsung di pricelist kami: " + PRICELIST + "\n\nAtau kabari kami jurusan, kota, dan rencana mulainya, nanti kami bantu kirimkan rinciannya. Angka final mengikuti offer letter resmi sekolah." : pick.length ? "Halo kak 😊\n\n" + pick.map(c => c.a).join("\n\n") + (harga ? "\n\nUntuk rincian biaya sekolah/jurusan, cek di sini ya: " + PRICELIST : "") + "\n\nAngka final mengikuti offer letter & situs resmi. Ada lagi yang mau ditanyakan, kak?" : "";
     tres.innerHTML = (tip ? `<div class="ka-card"><h3>💬 Balasan WA (pertanyaan harga)</h3><p class="ka-ans">${bold(wa)}</p><button type="button" class="ka-btn" id="ka-twa">Salin balasan</button></div><div class="ka-card"><h3>🧭 Untuk tim: ${esc(tip.q)}</h3><p class="ka-ans">${bold(tip.a)}</p><a class="ka-cta" href="${PRICELIST}" target="_blank" rel="noopener">Buka pricelist ↗</a></div>` : "") + (tip ? "" : pick.length ? `<div class="ka-card"><h3>💬 Balasan WA (cek dulu sebelum kirim)</h3><p class="ka-ans">${bold(wa)}</p><button type="button" class="ka-btn" id="ka-twa">Salin balasan</button><span class="ka-muted">Dari kartu: ${pick.map(c => esc(c.q)).join(" · ")}</span></div>`
-        : `<div class="ka-card"><h3>Belum ada jawaban resmi yang cocok</h3><p class="ka-ans">Coba kata lain (mis. "dana", "PTE", "pasangan", "485"), isi 🧭 Cek Student untuk kasus pribadi, cek harga di pricelist, atau teruskan ke konsultan senior. Jangan menebak angka.</p><a class="ka-cta" href="${PRICELIST}" target="_blank" rel="noopener">Buka pricelist ↗</a></div>`)
+        : `<div class="ka-card"><h3>Belum ada jawaban resmi yang cocok</h3><p class="ka-ans">Coba kata lain (mis. "dana", "PTE", "pasangan", "485"), cek harga di pricelist, atau teruskan ke konsultan senior. Jangan menebak angka.</p><a class="ka-cta" href="${PRICELIST}" target="_blank" rel="noopener">Buka pricelist ↗</a></div>`)
       + (alt.length ? `<h3>Mungkin juga relevan</h3><div class="ka-grid">${alt.map(c => `<article class="ka-card"><h3>${esc(c.q)}</h3><p class="ka-ans">${bold(c.a)}</p><button type="button" class="ka-btn" data-i="${KARTU.items.indexOf(c)}">Salin</button></article>`).join("")}</div>` : "");
     const b = $("#ka-twa", tres); if (b) b.onclick = () => copy(wa, b); };
   let tqT; tq.addEventListener("input", () => { clearTimeout(tqT); tqT = setTimeout(answer, 250); });
+  $("#ka-chips", host).addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const map = {"Harga sekolah": "harga sekolah", "Visa pasti?": "visa pasti keluar"}; tq.value = map[b.textContent] || b.textContent; answer(); });
   tres.addEventListener("click", e => { const b = e.target.closest(".ka-btn[data-i]"); if (b) copy(KARTU.items[b.dataset.i].a, b); });
-  // Cek Student
-  const form = $("#ka-form", host);
-  for (const g of AS_FIELDS) for (const f of g.f) { if (f.t === "area" || f.id === "sekolah" || f.id === "paspor") continue;
-    const l = document.createElement("label"); l.textContent = f.l; let i;
-    if (f.t === "select" || f.t === "multi") { i = document.createElement("select"); if (f.t === "multi") i.multiple = true; else i.append(new Option("— pilih —", "")); for (const o of f.o) i.append(new Option(o, o)); }
-    else { i = document.createElement("input"); i.type = f.t; i.placeholder = f.ph || ""; }
-    i.id = "ka-" + f.id; i.dataset.t = f.t; l.append(i); form.append(l); }
-  const read = () => { const p = {}; form.querySelectorAll("input,select").forEach(i => { const id = i.id.slice(3);
-      if (i.dataset.t === "multi") p[id] = [...i.selectedOptions].map(o => o.value); else if (i.value.trim() !== "") p[id] = i.dataset.t === "number" ? Number(i.value.replace(",", ".")) : i.value.trim(); });
-    try { localStorage.setItem("ka-p", JSON.stringify(p)); } catch {}
-    const pp = !p.dana && p.dana_rp ? {...p, dana: Math.round(p.dana_rp * 1e6 / 12330)} : p;
-    const r = assess(pp, new Date().getFullYear()), j = paths(pp, r), d = destinations(pp, r);
-    const tag = s => s === "ok" ? "ka-ok" : s === "bad" ? "ka-bad" : "ka-warn";
-    const dtag = s => /^(Cocok|Memenuhi|Bisa|Opsi)/.test(s) ? "ka-ok" : /^(Tidak|Belum|Rujuk)/.test(s) ? "ka-bad" : "ka-warn";
-    $("#ka-res", host).innerHTML = `<h3>Bandingkan negara & jalur</h3><div class="ka-table"><table><tr><th>Destinasi</th><th>Status</th><th>Visa</th><th>Biaya</th><th>Catatan</th></tr>${d.map(x => `<tr><td><b>${esc(x.dest)}</b><br><span class="ka-muted">${esc(x.jalur)}</span></td><td><span class="ka-tag ${dtag(x.status)}">${esc(x.status)}</span></td><td>${esc(x.visa)}</td><td>${esc(x.biaya)}</td><td>${esc(x.kenapa)}</td></tr>`).join("")}</table></div>
-      <h3>Kondisi student</h3><div class="ka-grid">${r.top.map(a => `<article class="ka-card"><span class="ka-tag ${tag(a.s)}">${a.s === "ok" ? "Aman" : a.s === "bad" ? "Risiko tinggi" : "Perlu perhatian"}</span><h3>${esc(a.n)}</h3><p class="ka-ans">${esc(a.notes.join("\n"))}${a.acts.length ? "\n→ " + esc(a.acts.join("\n→ ")) : ""}</p></article>`).join("")}</div>
-      ${j.opsi.length ? `<h3>${j.stuck ? "⚠ Solusi yang disarankan" : "Jalur & solusi"}</h3><div class="ka-grid">${j.opsi.map(o => `<article class="ka-card"><h3>${esc(o.judul)}</h3><p class="ka-ans">${esc(o.kenapa.join("\n"))}\n→ ${esc(o.langkah.join("\n→ "))}</p></article>`).join("")}</div>` : ""}
-      ${r.missing.length ? `<div class="ka-card"><h3>Data yang masih kurang</h3><p class="ka-ans">${esc(r.missing.map((q, i) => (i + 1) + ". " + q).join("\n"))}</p><button type="button" class="ka-btn" id="ka-askq">Salin pertanyaan ke student</button></div>` : ""}`;
-    const b = $("#ka-askq", host); if (b) b.onclick = () => copy("Halo kak! Biar aku bisa kasih saran yang pas, boleh bantu jawab ini ya:\n" + r.missing.map((q, i) => (i + 1) + ". " + q).join("\n") + "\nMakasih 😊", b);
-  };
-  form.addEventListener("input", read); form.addEventListener("change", read);
-  try { const s = JSON.parse(localStorage.getItem("ka-p") || "null"); if (s) for (const [k, v] of Object.entries(s)) { const i = $("#ka-" + k, host); if (!i) continue; if (i.multiple) [...i.options].forEach(o => o.selected = (v || []).includes(o.value)); else i.value = v; } } catch {}
-  read();
   // Selalu buka di tab Konten, supaya tim melihat postingan yang belum dibagikan setiap membuka aplikasi.
   show("konten");
+  try { localStorage.removeItem("ka-p"); localStorage.removeItem("ka-v"); } catch {} // data Cek Student lama dihapus dari HP
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && unread() && cur !== "konten") due(); });
 }
 const go = () => { const header = document.querySelector("header.appbar"); const host = document.createElement("div"); host.id = "teg-asisten";

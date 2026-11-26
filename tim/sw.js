@@ -1,6 +1,6 @@
-// Service worker Kit Konten Tim v5 (26/11/2026): data selalu diambil dari jaringan; asisten.js disimpan di cache agar tetap jalan saat sinyal lemah.
-const CACHE='kit-tim-v5';
-const PRE=['/tim/asisten.js?v=3'];
+// Service worker Kit Konten Tim v6 (26/11/2026): data selalu diambil dari jaringan; asisten.js disimpan di cache agar tetap jalan saat sinyal lemah.
+const CACHE='kit-tim-v6';
+const PRE=['/tim/asisten.js?v=4'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(PRE)).catch(()=>{}))});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);

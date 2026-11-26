@@ -979,6 +979,32 @@
    "checked_at": "2026-11-26T07:05:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": null
+  },
+  "scholarship:au-vu-sydney-brisbane-welcome-grant-2027|open": {
+   "verdict": "REVISI",
+   "score": 4,
+   "reasons": [
+    "Isi caption & poster cocok dengan data/scholarships.json (s.d. AUD 2.500, deadline 15 Jan 2027, S1/S2), poster sekolah & negara cocok dengan caption, tanpa rahasia bisnis/klaim jaminan.",
+    "Tidak bisa diverifikasi ke sumber resmi publik: link 'Ketentuan resmi beasiswa' (vu.edu.au/vu-sydney/study-with-us/vu-sydney-scholarships, dibuka 26/11/2026 18.58 WIB) hanya memuat 2027 International Scholarship 20%, Global Diversity 10% & Alumni Grant - tidak ada ECA Australia Welcome Grant/grant biaya visa. WebSearch domain vu.edu.au & eca.edu.au juga tidak menemukannya. Caption sendiri menyebut 'belum tercantum di halaman beasiswa publik VU', jadi link resmi di caption tidak mendukung klaim.",
+    "Poster: nama beasiswa terpotong 'ECA Australia Welcome Grant (VU Sydney...'."
+   ],
+   "fix": "Butuh pemilik: kirim flyer/email resmi VU/ECA tentang Welcome Grant (PDF) untuk diunggah sebagai sumber yang bisa dibuka publik (atau tunggu sampai tercantum di vu.edu.au), lalu ganti link 'Ketentuan resmi beasiswa'. Pendekkan judul poster (mis. 'VU Welcome Grant s.d. AUD 2.500').",
+   "checked_at": "2026-11-26T19:00:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.vu.edu.au/vu-sydney/study-with-us/vu-sydney-scholarships"
+  },
+  "jobs:2026-11-26-229": {
+   "verdict": "REVISI",
+   "score": 1,
+   "reasons": [
+    "Berulang: postingan loker jobs:2026-11-25-235 sudah LOLOS 25/11 dan jobs:2026-11-26-247 dinilai pagi ini; pemilik membatasi loker maks. 2 per minggu.",
+    "Angka tidak cocok dengan data/jobs.json saat ini (updated 26/11 18.12 WIB: 312 lowongan dari 9 negara - Jerman 66, Australia 63, UK 47, Kanada 46, NZ 43, Swiss 21, Prancis 11, Singapura 8, Spanyol 7); poster/caption menulis 229 di 6 negara.",
+    "Atribusi Jobs by Adzuna & peringatan anti-penipuan ada; tanpa klaim aman/dijamin."
+   ],
+   "fix": "Tidak perlu ditayangkan; postingan loker berikutnya minggu depan dengan angka dari jobs.json terbaru.",
+   "checked_at": "2026-11-26T19:00:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
   }
  }
 }

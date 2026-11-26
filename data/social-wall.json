@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T14:45:26+07:00",
+ "version": "2026-11-26T14:50:21+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -264,6 +264,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/testimoni-helen%20Reel.mp4"
   },
   {
+   "id": "post:2026-11-25-qs-sustainability",
+   "kind": "marketing",
+   "date": "2026-11-25",
+   "title": "Kampus Australia di QS Sustainability Rankings 2027: University of Sydney #17 dunia, Western Sydney University top 150",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20QS%20World%20University%20Program%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?q=Western%20Sydney%20University",
+   "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html",
+   "caption": "Kampus Australia masuk jajaran dunia di QS World University Rankings: Sustainability 2027 (rilis 17 November 2026). University of Sydney peringkat 17 dunia, dan Western Sydney University masuk 150 besar dunia. Ada 39 institusi Australia yang ikut diperingkat. Info: https://linktr.ee/talentededucatio",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20QS%20World%20University%20Program%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20QS%20World%20University%20Program%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "post:2026-11-25-psikologi",
    "kind": "marketing",
    "date": "2026-11-25",
@@ -457,19 +470,6 @@
    "country": "Singapura",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:sg-sim-asean-impact-award|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: SIM ASEAN Impact Award",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM%20ASEAN%20Impact%20Award",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
-   "caption": "SIM ASEAN Impact Award sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Singapura",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Reel.mp4"
   }
  ]
 }

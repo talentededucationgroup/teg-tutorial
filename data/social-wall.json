@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T06:47:05+07:00",
+ "version": "2026-11-27T06:53:18+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,19 @@
  },
  "items": [
   {
+   "id": "site:2026-11-27:site-05",
+   "kind": "marketing",
+   "date": "2026-11-27",
+   "title": "Loker Luar Negeri & Aturan Kerja Visa Pelajar",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "Mau kerja sambil kuliah di luar negeri? Tab Lowongan di pricelist Talented berisi lowongan kerja luar negeri dari Jobs by Adzuna, diperbarui dua kali sehari. Info: https://linktr.ee/talentededucationgroup",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "scholarship:kr-kaist-scholarship-undergraduate-2027|open",
    "kind": "scholarship",
    "date": "2026-11-27",
@@ -184,19 +197,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "jobs:2026-11-27-251",
-   "kind": "jobs",
-   "date": "2026-11-27",
-   "title": "251 lowongan kerja luar negeri baru (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
-   "source": null,
-   "caption": "251 lowongan kerja luar negeri baru (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
-   "country": null,
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013%20Reel.mp4"
   },
   {
    "id": "scholarship:au-uts-southeast-asia-international|open",

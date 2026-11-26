@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T17:28:13+07:00",
+ "version": "2026-11-26T18:15:58+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -321,6 +321,31 @@
     "deadline": "2026-11-30",
     "notes": "Daftar online lewat portal MyWaikato dengan offer of place + esai alasan memilih Waikato. Tenggat pelamar offshore per trimester: A 30 Nov 2026, B 31 Mei 2027, C 31 Agu 2027, H/X 31 Okt 2027 (aplikasi dalam 4 minggu sebelum trimester mulai tidak diproses). Keputusan 3-4 minggu; terima dalam 14 hari. Tidak bisa digabung beasiswa tuition Waikato lain, Education NZ atau Manaaki. Konsultasi gratis dengan Talented."
    }
+  },
+  {
+   "id": "jobs:2026-11-26-229",
+   "kind": "jobs",
+   "date": "2026-11-26",
+   "priority": 1,
+   "title": {
+    "id": "💼 229 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "en": "💼 229 new overseas job listings (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "th": "💼 ประกาศงานต่างประเทศใหม่ 229 ตำแหน่ง (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "vi": "💼 229 tin tuyển dụng nước ngoài mới (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "zh": "💼 229 个新的海外职位 (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "ja": "💼 海外の新着求人 229 件 (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "ko": "💼 새 해외 채용 공고 229건 (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "km": "💼 ការងារនៅបរទេសថ្មី 229 (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "fr": "💼 229 nouvelles offres d'emploi à l'étranger (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "pt": "💼 229 novas vagas no exterior (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "es": "💼 229 nuevas ofertas de empleo en el extranjero (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "de": "💼 229 neue Stellenangebote im Ausland (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "it": "💼 229 nuove offerte di lavoro all'estero (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "nl": "💼 229 nieuwe vacatures in het buitenland (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)",
+    "ru": "💼 229 новых вакансий за рубежом (Germany, United Kingdom, Australia, Canada, New Zealand, Singapore)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
   },
   {
    "id": "jobs:2026-11-26-247",

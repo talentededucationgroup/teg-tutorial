@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T21:32:57+07:00",
+ "version": "2026-11-27T06:18:59+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,31 @@
   }
  },
  "items": [
+  {
+   "id": "jobs:2026-11-27-251",
+   "kind": "jobs",
+   "date": "2026-11-27",
+   "priority": 1,
+   "title": {
+    "id": "💼 251 lowongan kerja luar negeri baru (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "en": "💼 251 new overseas job listings (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "th": "💼 ประกาศงานต่างประเทศใหม่ 251 ตำแหน่ง (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "vi": "💼 251 tin tuyển dụng nước ngoài mới (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "zh": "💼 251 个新的海外职位 (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "ja": "💼 海外の新着求人 251 件 (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "ko": "💼 새 해외 채용 공고 251건 (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "km": "💼 ការងារនៅបរទេសថ្មី 251 (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "fr": "💼 251 nouvelles offres d'emploi à l'étranger (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "pt": "💼 251 novas vagas no exterior (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "es": "💼 251 nuevas ofertas de empleo en el extranjero (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "de": "💼 251 neue Stellenangebote im Ausland (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "it": "💼 251 nuove offerte di lavoro all'estero (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "nl": "💼 251 nieuwe vacatures in het buitenland (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+    "ru": "💼 251 новых вакансий за рубежом (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
+  },
   {
    "id": "scholarship:au-vu-sydney-brisbane-welcome-grant-2027|open",
    "kind": "scholarship",

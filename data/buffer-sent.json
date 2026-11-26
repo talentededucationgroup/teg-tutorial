@@ -120,7 +120,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-26T23:28:31.849579+00:00",
+"last_run": "2026-11-26T23:49:11.270844+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -239,7 +239,6 @@
 }
 },
 "waiting_review": [
-"jobs:2026-11-25-235",
 "mix:2026-11-26:testi",
 "post:2026-11-25-qs-sustainability",
 "scholarship:au-ecu-asean-international-2027|open",

@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data: blob:; media-src 'self' https://info.talentededucationgroup.com blob:; manifest-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'">
 <title>Kit Tim</title>
-<link rel="manifest" href="/tim/manifest.webmanifest?v=3">
+<link rel="manifest" href="/tim/manifest.webmanifest?v=4">
 <meta name="theme-color" content="#102b40">
 <link rel="apple-touch-icon" href="/tim/apple-touch-icon-talented.png">
 <link rel="icon" type="image/png" href="/tim/favicon-talented.png">
@@ -206,7 +206,7 @@ const _render=render; render=function(){_render();badge()};
 updSnd(); check(true);
 setInterval(()=>{if(document.visibilityState==='visible')check()},5*60*1000);
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')check()});
-if('serviceWorker' in navigator)navigator.serviceWorker.register('/tim/sw.js',{scope:'/tim/'}).catch(()=>{});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('/tim/sw.js?v=3',{scope:'/tim/'}).catch(()=>{});
 })();
 </script>
 <div id="instpop" hidden role="dialog" aria-modal="true" aria-labelledby="instttl" style="position:fixed;inset:0;z-index:999;background:rgba(8,20,32,.55);display:none;align-items:flex-end;justify-content:center;padding:16px">
@@ -238,5 +238,6 @@ if('serviceWorker' in navigator)navigator.serviceWorker.register('/tim/sw.js',{s
  if(!standalone)setTimeout(show,2500);
 })();
 </script>
+<script src="/tim/asisten.js?v=1" defer></script>
 </body>
 </html>

@@ -834,14 +834,14 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "SUMBER_TIDAK_TERBUKA (cek ulang 26/11 07.05): halaman sydney.edu.au butuh izin (tidak terjawab); 'Sydney 17th globally' hanya dari judul hasil pencarian. 'Western Sydney University Top 150' KINI TERVERIFIKASI di westernsydney.edu.au/future/why-western/global-rankings. Klaim '39 institusi Australia' masih belum terverifikasi.",
-    "Hashtag #KuliahDiNewZealand #BeasiswaLuarNegeri tidak sesuai (konten ranking kampus Australia) - caption belum diubah.",
-    "Poster belum dirender ulang (rendered_at 25/11 12:59): tetap 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney."
+    "Fakta kini TERVERIFIKASI (26/11 14.05): sydney.edu.au (berita 17/11/2026) - University of Sydney peringkat 17 QS Sustainability 2027; '39 institutions in Australia' dari 2.003 institusi. Western Sydney University top 150 terverifikasi di westernsydney.edu.au (cek pagi).",
+    "Hashtag #KuliahDiNewZealand #BeasiswaLuarNegeri tidak sesuai konten ranking kampus Australia - caption belum diubah.",
+    "Poster (rendered_at 25/11 12:59) masih 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney - bisa menyesatkan."
    ],
-   "fix": "Ganti hashtag -> #KuliahDiAustralia; tulis 'University of Sydney #17 dunia' di poster; hapus '39 institusi' bila tidak ada sumber resmi. Item kedaluwarsa (max_age 4 hari) 29/11.",
-   "checked_at": "2026-11-26T07:05:00+07:00",
+   "fix": "Ganti hashtag -> #KuliahDiAustralia #RankingKampus; tulis 'University of Sydney #17 dunia' di poster lalu render ulang. Item kedaluwarsa 29/11.",
+   "checked_at": "2026-11-26T14:05:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://www.westernsydney.edu.au/future/why-western/global-rankings"
+   "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html"
   },
   "scholarship:nz-vuw-postgraduate-international-scholarship|open": {
    "verdict": "LOLOS",
@@ -860,13 +860,14 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "SUMBER_TIDAK_TERBUKA (cek ulang 26/11 07.05): halaman resmi wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship butuh izin (tidak terjawab); halaman wgtn.ac.nz/international/scholarships-fees/scholarships hanya mengonfirmasi 'all new international students' S1 tahun pertama full-time on campus; Guide to Undergraduate Study 2027 (100rb karakter pertama) tidak menyebut beasiswa ini. Nilai NZD 15.000, 'tidak diperpanjang' & kelayakan Foundation/EAP belum terverifikasi.",
+    "Sebagian TERVERIFIKASI (26/11 14.05): flyer resmi wgtn.ac.nz School-Leaver Scholarships 2027 - 'valued at $15,000 towards tuition fees in the first year of study'; halaman wgtn.ac.nz/international/scholarships-fees/scholarships - untuk semua mahasiswa internasional baru S1 tahun pertama full-time on campus. Halaman utama beasiswa tetap gagal dibuka (client error).",
+    "Klaim 'lulusan Foundation Studies/EAP VUW juga berhak' dan 'dinilai otomatis di Offer of Place' belum ada di sumber yang terbuka.",
     "Caption 'Tidak untuk penerima...' terputus."
    ],
-   "fix": "Cek nilai NZD 15.000 & durasi di halaman resmi (perlu dibuka auditor/pemilik); selesaikan kalimat pengecualian.",
-   "checked_at": "2026-11-26T07:05:00+07:00",
+   "fix": "Selesaikan/hapus kalimat 'Tidak untuk penerima...'; hapus klaim Foundation/EAP & penilaian otomatis atau minta auditor buka halaman utama beasiswa. Item kedaluwarsa 29/11.",
+   "checked_at": "2026-11-26T14:05:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://www.wgtn.ac.nz/international/scholarships-fees/scholarships"
+   "source": "https://www.wgtn.ac.nz/documents/publications/scholarships-flyer.pdf"
   },
   "jobs:2026-11-25-243": {
    "verdict": "REVISI",

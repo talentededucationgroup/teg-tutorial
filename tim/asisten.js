@@ -316,6 +316,7 @@ const css = `
 .ka-due[hidden],.ka-dot[hidden]{display:none}
 .ka-due button{margin-left:auto;border:0;background:#e5484d;color:#fff;border-radius:8px;padding:7px 12px;font:inherit;font-weight:800;cursor:pointer}
 .ka-chips{display:flex;gap:6px;flex-wrap:wrap}.ka-chips button{border:1.5px solid #d6dbe3;background:#f4f6f9;color:#14213d;border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}
+.ka-row{display:flex;gap:8px;flex-wrap:wrap}.ka-go{flex:1;min-width:120px;border:0;background:#18a058;color:#fff;border-radius:10px;padding:11px 14px;font:inherit;font-weight:800;font-size:1rem;cursor:pointer}.ka-shot{flex:1;min-width:150px;display:flex;align-items:center;justify-content:center;border:1.5px solid #14213d;color:#14213d;background:#fff;border-radius:10px;padding:10px 12px;font-weight:800;cursor:pointer}
 .ka-h{margin:6px 0 0;font-size:1rem}
 .ka-cta{display:inline-block;background:#14213d;color:#fff;border-radius:10px;padding:10px 16px;font-weight:700;text-decoration:none}
 `;
@@ -326,7 +327,7 @@ function mount(host) {
     <button type="button" data-v="konten" aria-pressed="true">📲 Konten<span class="ka-dot" id="ka-dot" hidden></span></button>
     <button type="button" data-v="ai" aria-pressed="false">💬 Tanya Jawab</button></nav>
     <div class="ka-due" id="ka-due" hidden role="status"><span id="ka-due-t"></span><button type="button" id="ka-due-go">📤 Posting sekarang</button></div>
-    <section class="ka-panel" id="ka-ai" hidden><div class="ka-card"><h3>💬 Tanya Jawab</h3><textarea class="ka-search" id="ka-tq" rows="3" placeholder="Tempel / ketik pertanyaan student, mis. bawa suami bisa? dananya brp?" aria-label="Pertanyaan student"></textarea><div class="ka-chips" id="ka-chips">${["Dana","Biaya visa","PTE","Kerja","Bawa pasangan","485","Pindah sekolah","Harga sekolah","Visa pasti?"].map(x => `<button type="button">${x}</button>`).join("")}</div><span class="ka-muted">Jangan tempel nama lengkap, paspor, atau rekening. Dicek ${esc(KARTU.checked || "")} · 1 AUD ≈ Rp ${Number(KARTU.kurs || 12330).toLocaleString("id-ID")} · angka final mengikuti offer letter.</span></div><div id="ka-tres"></div><h3 class="ka-h" id="ka-allh">Semua jawaban</h3><div class="ka-grid" id="ka-list"></div></section>`;
+    <section class="ka-panel" id="ka-ai" hidden><div class="ka-card"><h3>💬 Tanya Jawab</h3><textarea class="ka-search" id="ka-tq" rows="3" placeholder="Ketik / tempel pertanyaan student, atau pakai 📷 Screenshot chat. mis. bawa suami bisa? dananya brp?" aria-label="Pertanyaan student" enterkeyhint="send"></textarea><div class="ka-row"><button type="button" class="ka-go" id="ka-go">➤ Jawab</button><label class="ka-shot">📷 Screenshot chat<input type="file" id="ka-img" accept="image/*" hidden></label></div><span class="ka-muted" id="ka-ocr" hidden></span><div class="ka-chips" id="ka-chips">${["Dana","Biaya visa","PTE","Kerja","Bawa pasangan","485","Pindah sekolah","Harga sekolah","Visa pasti?"].map(x => `<button type="button">${x}</button>`).join("")}</div><span class="ka-muted">Jangan tempel nama lengkap, paspor, atau rekening. Dicek ${esc(KARTU.checked || "")} · 1 AUD ≈ Rp ${Number(KARTU.kurs || 12330).toLocaleString("id-ID")} · angka final mengikuti offer letter.</span></div><div id="ka-tres"></div><h3 class="ka-h" id="ka-allh">Semua jawaban</h3><div class="ka-grid" id="ka-list"></div></section>`;
   // Kit Tim: postingan dirender ulang ke <main id="list"> (innerHTML), jadi yang disembunyikan elemen halamannya, bukan anak <main>.
   const konten = ["#filters", "#howbox", "main", ".tabbar"].map(q => document.querySelector(q)).filter(n => n && !host.contains(n));
   const show = v => { host.querySelectorAll(".ka-nav button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); $("#ka-ai", host).hidden = v !== "ai"; if (v === "ai") setTimeout(() => { try { $("#ka-tq", host).focus({preventScroll: true}); } catch {} }, 50); konten.forEach(n => n.style.display = v === "konten" ? "" : "none"); cur = v; due(); };
@@ -354,7 +355,7 @@ function mount(host) {
     coe:"coe",offer:"coe",lama:"coe",kapan:"coe",pastry:"patisserie",patiseri:"patisserie",kue:"patisserie",bakery:"patisserie",chef:"cookery",masak:"cookery",
     hidup:"living",makan:"living",sewa:"living",kos:"living",level:"level",evidence:"level",streamlined:"level",dalam:"onshore",onshore:"onshore",australia:"australia"};
   const norm = t => String(t || "").toLowerCase().replace(/[^a-z0-9à-ÿ\s]/g, " ").split(/\s+/).filter(w => w.length > 1).map(w => SYN[w] || SYN[w.replace(/(nya|kah|lah|ku|mu)$/, "")] || w.replace(/(nya|kah|lah)$/, ""));
-  const STOP = new Set("ya ga gak nggak ngga kak ka min aku saya kalau kalo kl yg yang dan atau di ke dari untuk utk buat itu ini ada bisa apa gimana bagaimana mau harus juga sih dong deh nya terus trus tp tapi sama dgn dengan aja saja boleh berapa".split(" "));
+  const STOP = new Set("halo hai hi pagi siang sore malam makasih terima kasih sebentar cek dicek oke ok sip australia kuliah sekolah belajar study studi vv ya ga gak nggak ngga kak ka min aku saya kalau kalo kl yg yang dan atau di ke dari untuk utk buat itu ini ada bisa apa gimana bagaimana mau harus juga sih dong deh nya terus trus tp tapi sama dgn dengan aja saja boleh berapa".split(" "));
   const docs = KARTU.items.map(c => ({c, w: [...norm(c.q), ...norm(c.q), ...norm(c.k), ...norm(c.k), ...norm(c.k), ...norm(c.a)]}));
   const df = {}; docs.forEach(d => new Set(d.w).forEach(w => df[w] = (df[w] || 0) + 1));
   const idf = w => Math.log(1 + docs.length / (df[w] || docs.length));
@@ -368,7 +369,7 @@ function mount(host) {
     for (const part of parts) { const r = score(part); if (r[0].sc >= MIN) add(r[0].c); }
     const all = score(txt); if (!pick.length && all[0].sc >= MIN) add(all[0].c);
     const harga = /biaya|harga|tuition|fee|murah|mahal|sekolah|kampus|college|university|jurusan|kursus/.test(txt.toLowerCase());
-    const hargaSaja = /harga|tuition|fee|kursus|jurusan|sekolah|kampus/.test(txt.toLowerCase()) && !/visa|dana|rekening|hidup|oshc|asuransi|485|kerja|pasangan|suami|istri/.test(txt.toLowerCase());
+    const hargaSaja = /harga|tuition|fee|kursus|jurusan|sekolah|kampus/.test(txt.toLowerCase()) && !/visa|dana|rekening|hidup|oshc|asuransi|485|kerja|pasangan|suami|istri|pindah|transfer|refund|level/.test(txt.toLowerCase());
     if (hargaSaja) pick.length = 0;
     const alt = all.filter(x => x.sc >= MIN && !pick.includes(x.c)).slice(0, 3).map(x => x.c);
     const tip = hargaSaja ? KARTU.items.find(c => c.t === "Cek harga") : null;
@@ -377,7 +378,31 @@ function mount(host) {
         : `<div class="ka-card"><h3>Belum ada jawaban resmi yang cocok</h3><p class="ka-ans">Coba kata lain (mis. "dana", "PTE", "pasangan", "485"), cek harga di pricelist, atau teruskan ke konsultan senior. Jangan menebak angka.</p><a class="ka-cta" href="${PRICELIST}" target="_blank" rel="noopener">Buka pricelist ↗</a></div>`)
       + (alt.length ? `<h3>Mungkin juga relevan</h3><div class="ka-grid">${alt.map(c => `<article class="ka-card"><h3>${esc(c.q)}</h3><p class="ka-ans">${bold(c.a)}</p><button type="button" class="ka-btn" data-i="${KARTU.items.indexOf(c)}">Salin</button></article>`).join("")}</div>` : "");
     const b = $("#ka-twa", tres); if (b) b.onclick = () => copy(wa, b); };
-  let tqT; tq.addEventListener("input", () => { clearTimeout(tqT); tqT = setTimeout(answer, 250); });
+  const go = () => { clearTimeout(tqT); answer(); tq.blur(); if (tq.value.trim()) setTimeout(() => tres.scrollIntoView({behavior: "smooth", block: "start"}), 60); };
+  let tqT; tq.addEventListener("input", () => { clearTimeout(tqT); tqT = setTimeout(answer, 400); });
+  tq.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); go(); } });
+  $("#ka-go", host).addEventListener("click", go);
+  // Screenshot chat -> teks (OCR di HP, tidak diunggah ke server)
+  const ocrMsg = $("#ka-ocr", host), say = t => { ocrMsg.hidden = !t; ocrMsg.textContent = t || ""; };
+  let OCR = null;
+  const loadOCR = () => OCR || (OCR = new Promise((ok, no) => { if (window.Tesseract) return ok(); const sc = document.createElement("script"); sc.src = "/tim/ocr/tesseract.min.js"; sc.onload = ok; sc.onerror = () => { OCR = null; no(new Error("load")); }; document.head.append(sc); })
+    .then(() => Tesseract.createWorker(["ind", "eng"], 1, {workerPath: "/tim/ocr/worker.min.js", corePath: "/tim/ocr/core", langPath: "/tim/ocr/lang", workerBlobURL: false, logger: m => { if (m.status === "recognizing text") say(`📷 Membaca screenshot… ${Math.round(m.progress * 100)}%`); else if (/load/.test(m.status)) say("📷 Menyiapkan pembaca teks (pertama kali ±10 MB, berikutnya cepat)…"); }})));
+  const prep = img => { const k = Math.min(2, Math.max(1, 1400 / img.naturalWidth)), c = document.createElement("canvas"); c.width = img.naturalWidth * k; c.height = img.naturalHeight * k;
+    const x = c.getContext("2d"); x.drawImage(img, 0, 0, c.width, c.height); const d = x.getImageData(0, 0, c.width, c.height), a = d.data; let sum = 0;
+    for (let i = 0; i < a.length; i += 4) { const g = 0.299 * a[i] + 0.587 * a[i + 1] + 0.114 * a[i + 2]; a[i] = a[i + 1] = a[i + 2] = g; sum += g; }
+    if (sum / (a.length / 4) < 120) for (let i = 0; i < a.length; i += 4) a[i] = a[i + 1] = a[i + 2] = 255 - a[i]; // mode gelap -> dibalik
+    x.putImageData(d, 0, 0); return c; };
+  const clean = t => t.split("\n").map(l => l.replace(/\b\d{1,2}[.:]\d{2}\b\s*(am|pm)?/gi, "").replace(/[✓✔|]+/g, "").trim()).filter(l => l.length > 2 && /[a-z]{2}/i.test(l)).join("\n");
+  const readImg = async file => { if (!file || !/^image\//.test(file.type)) return;
+    say("📷 Membaca screenshot…");
+    try { const url = URL.createObjectURL(file), img = new Image(); await new Promise((ok, no) => { img.onload = ok; img.onerror = no; img.src = url; });
+      const w = await loadOCR(), r = await w.recognize(prep(img)); URL.revokeObjectURL(url);
+      const t = clean(r.data.text || "");
+      if (!t) { say("📷 Teks tidak terbaca. Coba screenshot yang lebih jelas, atau ketik pertanyaannya."); return; }
+      tq.value = (tq.value.trim() ? tq.value.trim() + "\n" : "") + t; say("📷 Teks dari screenshot sudah dimasukkan. Hapus bagian yang tidak perlu, lalu tekan ➤ Jawab."); go();
+    } catch (e) { say("📷 Gagal membaca screenshot (perlu internet untuk pertama kali). Ketik pertanyaannya saja."); } };
+  $("#ka-img", host).addEventListener("change", e => { readImg(e.target.files[0]); e.target.value = ""; });
+  tq.addEventListener("paste", e => { const it = [...(e.clipboardData?.items || [])].find(i => i.type.startsWith("image/")); if (it) { e.preventDefault(); readImg(it.getAsFile()); } });
   $("#ka-chips", host).addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const map = {"Harga sekolah": "harga sekolah", "Visa pasti?": "visa pasti keluar"}; tq.value = map[b.textContent] || b.textContent; answer(); });
   tres.addEventListener("click", e => { const b = e.target.closest(".ka-btn[data-i]"); if (b) copy(KARTU.items[b.dataset.i].a, b); });
   // Selalu buka di tab Konten, supaya tim melihat postingan yang belum dibagikan setiap membuka aplikasi.

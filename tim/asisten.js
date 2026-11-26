@@ -311,22 +311,36 @@ const css = `
 .ka-tag{display:inline-block;font-weight:700;font-size:.72rem;border-radius:999px;padding:1px 8px}
 .ka-ok{background:#e1f4ea;color:#0f7049}.ka-warn{background:#fff1d6;color:#8f5600}.ka-bad{background:#fde7e7;color:#a42121}
 .ka-table{overflow-x:auto} .ka-table table{border-collapse:collapse;min-width:620px;font-size:.84rem} .ka-table td,.ka-table th{border-bottom:1px solid #e3e7ee;padding:6px;text-align:left;vertical-align:top}
+.ka-dot{display:inline-block;min-width:18px;margin-left:6px;padding:0 5px;border-radius:999px;background:#e5484d;color:#fff;font-size:.72rem;line-height:18px;text-align:center}
+.ka-due{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fde7e7;border:1px solid #f5b5b5;color:#a42121;border-radius:12px;padding:10px 12px;font-weight:700;font-size:.9rem}
+.ka-due[hidden],.ka-dot[hidden]{display:none}
+.ka-due button{margin-left:auto;border:0;background:#e5484d;color:#fff;border-radius:8px;padding:7px 12px;font:inherit;font-weight:800;cursor:pointer}
 .ka-cta{display:inline-block;background:#14213d;color:#fff;border-radius:10px;padding:10px 16px;font-weight:700;text-decoration:none}
 `;
 function copy(text, btn) { const o = btn.textContent; (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(() => btn.textContent = "Tersalin", () => btn.textContent = "Salin gagal").finally(() => setTimeout(() => btn.textContent = o, 1500)); }
 function mount(host) {
   const st = document.createElement("style"); st.textContent = css; document.head.append(st);
   host.innerHTML = `<nav class="ka-nav" role="group" aria-label="Asisten tim">
-    <button type="button" data-v="konten" aria-pressed="true">📲 Konten</button>
+    <button type="button" data-v="konten" aria-pressed="true">📲 Konten<span class="ka-dot" id="ka-dot" hidden></span></button>
     <button type="button" data-v="cepat" aria-pressed="false">⚡ Jawab Cepat</button>
     <button type="button" data-v="cek" aria-pressed="false">🧭 Cek Student</button>
     <button type="button" data-v="ai" aria-pressed="false">💬 Tanya AI</button></nav>
+    <div class="ka-due" id="ka-due" hidden role="status"><span id="ka-due-t"></span><button type="button" id="ka-due-go">📤 Posting sekarang</button></div>
     <section class="ka-panel" id="ka-cepat" hidden><input class="ka-search" id="ka-q" type="search" placeholder="Cari: PTE, kerja, pasangan, 485, dana…" aria-label="Cari jawaban"><div class="ka-grid" id="ka-list"></div><p class="ka-muted">Dicek ${esc(KARTU.checked || "")} · kurs 1 AUD ≈ Rp ${Number(KARTU.kurs || 12330).toLocaleString("id-ID")} · angka final mengikuti offer letter & situs resmi.</p></section>
     <section class="ka-panel" id="ka-cek" hidden><p class="ka-muted">Isi yang diketahui saja (tanpa nama lengkap/paspor/rekening). Hasil langsung muncul. Data hanya di HP ini.</p><div class="ka-form" id="ka-form"></div><div id="ka-res"></div></section>
     <section class="ka-panel" id="ka-ai" hidden><div class="ka-card"><h3>💬 Tanya AI (tempel chat / screenshot student)</h3><p class="ka-ans">Untuk jawaban otomatis lengkap (balasan WA + hitungan + bandingkan negara), buka Tanya AI. Perlu login akun Claude yang sudah diberi akses.</p><a class="ka-cta" href="${APP_TIM}#ai" target="_blank" rel="noopener">Buka Tanya AI ↗</a></div></section>`;
   // Kit Tim: postingan dirender ulang ke <main id="list"> (innerHTML), jadi yang disembunyikan elemen halamannya, bukan anak <main>.
   const konten = ["#filters", "#howbox", "main", ".tabbar"].map(q => document.querySelector(q)).filter(n => n && !host.contains(n));
-  const show = v => { host.querySelectorAll(".ka-nav button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); ["cepat","cek","ai"].forEach(x => $("#ka-" + x, host).hidden = x !== v); konten.forEach(n => n.style.display = v === "konten" ? "" : "none"); try { localStorage.setItem("ka-v", v); } catch {} };
+  const show = v => { host.querySelectorAll(".ka-nav button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); ["cepat","cek","ai"].forEach(x => $("#ka-" + x, host).hidden = x !== v); konten.forEach(n => n.style.display = v === "konten" ? "" : "none"); cur = v; due(); };
+  // Pengingat posting: angka diambil dari chip "🔴 n belum dibagikan" milik Kit Tim (tidak mengubah logika posting).
+  let cur = "konten";
+  const unread = () => { const u = document.getElementById("unread"); return u && !u.hidden ? parseInt((u.textContent.match(/\d+/) || ["0"])[0], 10) : 0; };
+  const due = () => { const n = unread(), dot = $("#ka-dot", host), bx = $("#ka-due", host);
+    dot.hidden = !n; dot.textContent = n;
+    bx.hidden = !n || cur === "konten";
+    $("#ka-due-t", host).textContent = `🔴 ${n} postingan marketing belum kamu bagikan. Bagikan dulu, cuma ±2 menit.`; };
+  $("#ka-due-go", host).addEventListener("click", () => { show("konten"); window.scrollTo({top: 0, behavior: "smooth"}); });
+  { const u = document.getElementById("unread"); if (u) new MutationObserver(due).observe(u, {attributes: true, childList: true, characterData: true, subtree: true}); }
   host.querySelector(".ka-nav").addEventListener("click", e => { const b = e.target.closest("button[data-v]"); if (b) show(b.dataset.v); });
   // Jawab Cepat
   const list = $("#ka-list", host);
@@ -357,7 +371,9 @@ function mount(host) {
   form.addEventListener("input", read); form.addEventListener("change", read);
   try { const s = JSON.parse(localStorage.getItem("ka-p") || "null"); if (s) for (const [k, v] of Object.entries(s)) { const i = $("#ka-" + k, host); if (!i) continue; if (i.multiple) [...i.options].forEach(o => o.selected = (v || []).includes(o.value)); else i.value = v; } } catch {}
   read();
-  let v0 = "konten"; try { v0 = localStorage.getItem("ka-v") || "konten"; } catch {} show(v0);
+  // Selalu buka di tab Konten, supaya tim melihat postingan yang belum dibagikan setiap membuka aplikasi.
+  show("konten");
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && unread() && cur !== "konten") due(); });
 }
 const go = () => { const header = document.querySelector("header.appbar"); const host = document.createElement("div"); host.id = "teg-asisten";
   host.style.cssText = "max-width:1100px;margin:0 auto;padding:0 16px;box-sizing:border-box";

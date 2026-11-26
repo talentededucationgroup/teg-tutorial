@@ -15,6 +15,7 @@ BASE = 'https://info.talentededucationgroup.com/social/cards/'
 LOG = os.path.join(ROOT, 'data', 'social-log.json')
 BR = lambda f: os.path.join(ROOT, 'assets', 'brand', f)
 W, H, STAGE, FOOT_Y, M = 1080, 1350, 720, 930, 56
+BANNER_Y = FOOT_Y - 26  # v11 (27/11/2026): tanpa banner app besar; teks boleh turun sampai di atas footer
 QR_URL = 'https://linktr.ee/talentededucationgroup'
 PAL = {  # bg, text, accent, dark?
     'P1': ((0x17, 0x3F, 0x35), (255, 255, 255), (0xE9, 0xC4, 0x6A), True),
@@ -389,9 +390,9 @@ def watermark(canvas, dark):
     d = ImageDraw.Draw(layer)
     f = mont(30, 'Bold')
     txt = 'TALENTED EDUCATION GROUP  ·  talentededucationgroup.com  ·  '
-    col = (255, 255, 255, 20) if dark else (23, 63, 53, 20)
-    for y in range(0, W_ * 2, 130):
-        d.text(((y // 130) % 2 * -220, y), txt * 4, font=f, fill=col)
+    col = (255, 255, 255, 10) if dark else (23, 63, 53, 10)  # v11: lebih samar supaya poster tidak ramai
+    for y in range(0, W_ * 2, 260):
+        d.text(((y // 260) % 2 * -220, y), txt * 4, font=f, fill=col)
     layer = layer.rotate(28, resample=Image.BICUBIC)
     l, t = (layer.width - W_) // 2, (layer.height - top) // 2
     canvas.alpha_composite(layer.crop((l, t, l + W_, t + top)), (0, 0))
@@ -399,7 +400,7 @@ def watermark(canvas, dark):
     fc = mont(15, 'Bold')
     s_ = '© Talented Education Group · konten asli, dilarang menyalin tanpa izin'
     w_ = dd.textlength(s_, font=fc)
-    dd.text((W_ - M - w_, 712), s_, font=fc, fill=(255, 255, 255, 235) if dark else (23, 63, 53, 235),
+    dd.text((W_ - M - w_, FOOT_Y - 24), s_, font=fc, fill=(255, 255, 255, 235) if dark else (23, 63, 53, 235),
             stroke_width=2, stroke_fill=(0, 0, 0, 160) if dark else (255, 255, 255, 200))
 
 
@@ -412,17 +413,58 @@ def _recolor(img, src, dst, tol=22):
 
 
 def footer_and_banner(canvas, dark, accent):
+    """v11 (pemilik 27/11/2026: poster terlalu penuh -> lebih simpel, rapi, profesional).
+    Footer bersih: 1 ajakan + link pricelist + 1 baris tanda terverifikasi + QR. Banner app besar, blok Victory,
+    dan daftar sosmed tidak lagi dicetak di poster (sosmed ada di bio/caption)."""
     watermark(canvas, dark)
-    ft = Image.open(BR('footer-hijau.png' if dark else 'footer-terang.png')).convert('RGBA')
-    # footer ikut warna palet (isi: QR, PIER, Victory, sosmed tetap sama)
-    try:
-        ft = _recolor(ft, (23, 63, 53), GREEN) if dark else _recolor(ft, (246, 241, 230), PAL_BG[0] if sum(PAL_BG[0]) > 600 else (246, 241, 230))
-    except Exception:
-        pass
-    canvas.alpha_composite(ft, (0, FOOT_Y))
-    top = 916 - int(182 * 960 / 993)
-    cta_band(canvas, top, 916)
-    return top  # top of banner
+    d = ImageDraw.Draw(canvas)
+    light_bg = PAL_BG[0] if sum(PAL_BG[0]) > 600 else (246, 241, 230)
+    panel = GREEN if dark else light_bg
+    ink = (255, 255, 255) if dark else GREEN
+    sub = _mix(ink, panel, 0.28)
+    kick = ACC if dark else _mix(ACC, GREEN, 0.45)
+    d.rectangle([0, FOOT_Y, W, H], fill=panel)
+    d.rectangle([0, FOOT_Y, W, FOOT_Y + 8], fill=ACC)
+    # QR (sama dengan footer lama -> linktr.ee/talentededucationgroup), di kotak putih kanan
+    qx0, qy0, qx1, qy1 = 772, FOOT_Y + 48, W - M, FOOT_Y + 340
+    _rr(d, [qx0, qy0, qx1, qy1], 26, fill=(255, 255, 255), outline=None if dark else _mix(GREEN, (255, 255, 255), 0.75), width=0 if dark else 3)
+    qr = Image.open(BR('footer-terang.png')).convert('RGBA').crop((780, 54, 1022, 296))
+    qr = qr.resize((214, 214), Image.NEAREST)
+    canvas.alpha_composite(qr, ((qx0 + qx1 - 214) // 2, qy0 + 18))
+    fq = mont(19, 'ExtraBold'); tq = 'SCAN · KONSULTASI GRATIS'
+    fq = fit_font(d, tq, lambda s_: mont(s_, 'ExtraBold'), qx1 - qx0 - 30, 19, 14)
+    draw_t(d, ((qx0 + qx1 - tw(d, tq, fq)) // 2, qy1 - 50), tq, fq, GREEN)
+    # kiri: ajakan
+    x, y, maxw = M, FOOT_Y + 52, qx0 - M - 40
+    fk = mont(24, 'ExtraBold')
+    draw_t(d, (x, y), 'KONSULTASI GRATIS', fk, kick)
+    y += th(d, 'KONSULTASI GRATIS', fk) + 22
+    fh = fit_font(d, 'CEK BIAYA KULIAH', anton, maxw, 58, 40)  # lebih kecil dari judul poster supaya tidak bersaing
+    for ln in ('CEK BIAYA KULIAH', 'DALAM 1 MENIT'):
+        _, h_ = draw_t(d, (x, y), ln, fh, ink); y += h_ + 8
+    y += 14
+    fu = fit_font(d, 'pricelist.talentededucationgroup.com', lambda s_: mont(s_, 'Bold'), maxw, 27, 18)
+    draw_t(d, (x, y), 'pricelist.talentededucationgroup.com', fu, sub)
+    # baris terverifikasi (kecil, satu baris)
+    by = H - 96
+    pill_h, pad = 60, 14
+    logos = []
+    for f_ in ('agent-academy-esos.png', 'qeac-10224.png', 'pier-verified-agency.png'):
+        try:
+            lg = Image.open(os.path.join(ROOT, 'assets', 'badges', f_)).convert('RGBA')
+            k_ = (pill_h - 16) / lg.height
+            logos.append(lg.resize((max(1, int(lg.width * k_)), pill_h - 16), Image.LANCZOS))
+        except Exception:
+            pass
+    if logos:
+        pw = sum(l.width for l in logos) + pad * (len(logos) + 1)
+        _rr(d, [x, by, x + pw, by + pill_h], 16, fill=(255, 255, 255))
+        xx = x + pad
+        for l in logos:
+            canvas.alpha_composite(l, (xx, by + 8)); xx += l.width + pad
+        ft = mont(19, 'Bold')
+        draw_t(d, (x + pw + 18, by + (pill_h - th(d, 'Agen pendidikan terverifikasi', ft)) // 2), 'Agen pendidikan terverifikasi', ft, sub)
+    return BANNER_Y + 18  # caller: limit = top - 18
 
 
 def price_line(d, x, y, price, unit, color, size=44, maxw=600):
@@ -689,7 +731,7 @@ def render_news(c, pal):
     im = base_canvas(bg)
     d = ImageDraw.Draw(im)
     d.polygon([(W - 300, 0), (W, 0), (W, 300)], fill=PANEL2)  # diagonal cut like the Talented logo
-    banner_y = 916 - int(182 * 960 / 993)
+    banner_y = BANNER_Y
     limit = banner_y - 24
     x, y = M, 240
     fk = mont(26, 'ExtraBold')
@@ -746,7 +788,7 @@ def render_extra(c, lay, pal, photo, logo_path):
     if photo is not None:
         photo = grain(photo, 0.035)
     alt = PANEL2 if dark else ((0xE6, 0xDE, 0xCB) if pal == 'P2' else (0xDD, 0xE7, 0xDA) if pal == 'P5' else (0xEE, 0xEE, 0xEA))
-    banner_y = 916 - int(182 * 960 / 993)
+    banner_y = BANNER_Y
     limit = banner_y - 18
     on_photo = False
     if lay == 'E':  # editorial: framed photo right, big left headline, highlighted word
@@ -919,7 +961,7 @@ def render_new(c, lay, pal, photo, logo_path):
     photos = [grain(p_, 0.03) for p_ in photos if p_ is not None]
     im = base_canvas(bg)
     d = ImageDraw.Draw(im)
-    banner_y = 916 - int(182 * 960 / 993)
+    banner_y = BANNER_Y
     limit = banner_y - 18
     rnd = random.Random(c['t'])
     plate = False
@@ -1160,7 +1202,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
         # pengaman 24/11/2026 (poster CIHE tertimpa caption CDU): kartu lama hanya dipakai ulang bila isinya sama
-        if os.path.exists(p) and rec.get('v') in (9, 10) and rec.get('sig', sig) == sig:
+        if os.path.exists(p) and rec.get('v') == 11 and rec.get('sig', sig) == sig:
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
@@ -1230,7 +1272,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 10, "credit": credit,
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 11, "credit": credit,
            "font": sty['font'], "deco": sty['deco'], "cta": sty['cta'], "sig": sig,
            "rendered_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(timespec='seconds')}
     if known:

@@ -1,7 +1,7 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-26T02:57:27+00:00",
- "ok": false,
+ "checked_at": "2026-11-26T06:21:46+00:00",
+ "ok": true,
  "last_sent": {
   "facebook|feed": {
    "sentAt": "2026-11-26T02:53:58.038Z",
@@ -14,8 +14,8 @@
    "text": "Mau kuliah Psikologi di luar negeri? Ini pilihan d"
   },
   "facebook|story": {
-   "sentAt": "2026-11-25T02:31:14.038Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjE2OTEyNjA0NDI1OTAzMTE=/?view_single=1",
+   "sentAt": "2026-11-26T02:29:53.002Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjQxNjUwMTI4MTM2MzUzMzc=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {
@@ -60,7 +60,5 @@
   }
  },
  "problems": [],
- "stale": [
-  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-25T02:31:14.038Z)"
- ]
+ "stale": []
 }

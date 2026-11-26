@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T14:17:48+07:00",
+ "version": "2026-11-26T14:39:02+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -378,12 +378,12 @@
     "levels": [
      "S1"
     ],
-    "coverage": "Potongan tuition NZD 15.000 untuk tahun pertama (tidak diperpanjang)",
+    "coverage": "Potongan tuition NZD 15.000 untuk tahun pertama",
     "amount": "NZD 15.000",
-    "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang membayar biaya internasional penuh dan mulai S1 dengan Offer of Place (bersyarat/tanpa syarat); lulusan Foundation Studies/EAP VUW juga berhak. Tidak untuk penerima beasiswa/sponsor pemerintah, siswa credit transfer, exchange/study abroad, atau warga/penduduk tetap Australia/NZ.",
+    "eligibility": "Mahasiswa internasional baru (termasuk WNI) yang masuk tahun pertama program S1 (Bachelor) dan kuliah full-time di kampus VUW.",
     "english_test": "Sesuai syarat masuk program VUW",
     "deadline": "",
-    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program VUW dan diberitahukan di Offer of Place. Batas waktu = batas pendaftaran program. Daftar lewat konsultan Talented."
+    "notes": "Cara daftar & batas waktu mengikuti ketentuan resmi VUW (link di bawah). Tim Talented bantu cek syarat & proses daftarnya."
    }
   },
   {

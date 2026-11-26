@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T06:25:42+07:00",
+ "version": "2026-11-27T06:47:05+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,45 @@
  },
  "items": [
   {
+   "id": "scholarship:kr-kaist-scholarship-undergraduate-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-27",
+   "title": "Beasiswa dibuka: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KAIST%20Scholarship%20-%20Undergraduate%20International%20Admission%202027%20%28Regular%20Admissions%29",
+   "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+   "caption": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) sedang dibuka, pendaftaran ditutup 14 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Korea Selatan",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "mix:2026-11-27:kami",
+   "kind": "marketing",
+   "date": "2026-11-27",
+   "title": "Semua info Talented di satu tempat",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/",
+   "source": null,
+   "caption": "📲 Semua info Talented di satu tempat: cek biaya kuliah 1 menit di pricelist (bisa dipasang jadi app gratis), beasiswa aktif, berita visa resmi, lowongan & akomodasi pelajar, sampai free mock test IELTS/PTE.",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Reel.mp4"
+  },
+  {
+   "id": "jobs:2026-11-27-251",
+   "kind": "jobs",
+   "date": "2026-11-27",
+   "title": "251 lowongan kerja luar negeri baru (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "251 lowongan kerja luar negeri baru (Germany, Canada, United Kingdom, Australia, Spain, France, Switzerland, New Zealand, Singapore). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2013%20Reel.mp4"
+  },
+  {
    "id": "scholarship:au-uts-southeast-asia-international|open",
    "kind": "scholarship",
    "date": "2026-11-26",
@@ -199,19 +238,6 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%20Reel.mp4"
   },
   {
-   "id": "jobs:2026-11-26-247",
-   "kind": "jobs",
-   "date": "2026-11-26",
-   "title": "247 lowongan kerja luar negeri baru (Germany, Australia, Canada, United Kingdom, Switzerland, France, Singapore, Spain)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
-   "source": null,
-   "caption": "247 lowongan kerja luar negeri baru (Germany, Australia, Canada, United Kingdom, Switzerland, France, Singapore, Spain). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
-   "country": null,
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Reel.mp4"
-  },
-  {
    "id": "scholarship:nz-vuw-undergraduate-international-scholarship|open",
    "kind": "scholarship",
    "date": "2026-11-25",
@@ -236,19 +262,6 @@
    "country": "Selandia Baru",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:id-beasiswa-garuda-sarjana|open",
-   "kind": "scholarship",
-   "date": "2026-11-25",
-   "title": "Beasiswa dibuka: Beasiswa Garuda Sarjana (S1 Luar Negeri) (deadline 2027-01-04)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Garuda%20Sarjana%20%28S1%20Luar%20Negeri%29",
-   "source": "https://beasiswagaruda.kemdiktisaintek.go.id/buku-panduan-pendaftaran-beasiswa-garuda-2027.pdf",
-   "caption": "Beasiswa Garuda Sarjana (S1 Luar Negeri) sedang dibuka, pendaftaran ditutup 4 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Berbagai negara",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "post:2026-11-25-testimoni-helen",
@@ -329,17 +342,17 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Reel.mp4"
   },
   {
-   "id": "jobs:2026-11-25-235",
-   "kind": "jobs",
-   "date": "2026-11-25",
-   "title": "235 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, Switzerland, Spain, France, New Zealand, Singapore)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
-   "source": null,
-   "caption": "235 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, Switzerland, Spain, France, New Zealand, Singapore). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
-   "country": null,
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209%20Reel.mp4"
+   "id": "scholarship:nl-university-of-twente-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa dibuka: University of Twente Scholarship (UTS) (deadline 2027-04-01)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=University%20of%20Twente%20Scholarship%20%28UTS%29",
+   "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
+   "caption": "University of Twente Scholarship (UTS) sedang dibuka, pendaftaran ditutup 1 April 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Belanda",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:nl-leiden-excellence-scholarship|open",
@@ -353,6 +366,19 @@
    "country": "Belanda",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa dibuka: LPDP-UCD Scholarship Programme (Co-Funding) (deadline 2026-12-01)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=LPDP-UCD%20Scholarship%20Programme%20%28Co-Funding%29",
+   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp",
+   "caption": "LPDP-UCD Scholarship Programme (Co-Funding) sedang dibuka, pendaftaran ditutup 1 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Irlandia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:cn-yenching-academy-pku|open",
@@ -444,32 +470,6 @@
    "country": "AU",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Laurus%20Higher%20Education%20Promo%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Laurus%20Higher%20Education%20Promo%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:vn-rmit-international-excellence-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: RMIT Vietnam International Excellence Scholarships 2027 (deadline 2027-01-18)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=RMIT%20Vietnam%20International%20Excellence%20Scholarships%202027",
-   "source": "https://www.rmit.edu.vn/study-at-rmit/scholarships/international-student-scholarships/international-excellence-scholarships",
-   "caption": "RMIT Vietnam International Excellence Scholarships 2027 sedang dibuka, pendaftaran ditutup 18 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Vietnam",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20RMIT%20University%20Vietnam%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:sg-sim-uob-msc-scholarship-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa dibuka: SIM-University of Birmingham MSc Scholarship 2027 (deadline 2027-07-01)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=SIM-University%20of%20Birmingham%20MSc%20Scholarship%202027",
-   "source": "https://www.sim.edu.sg/degrees-diplomas/admissions/scholarships",
-   "caption": "SIM-University of Birmingham MSc Scholarship 2027 sedang dibuka, pendaftaran ditutup 1 Juli 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Singapura",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%205%20Reel.mp4"
   }
  ]
 }

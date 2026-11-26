@@ -441,6 +441,24 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "country": "CN",
    "file": "social/photos/9784c3d82b0a335d.jpg"
+  },
+  {
+   "place": "Seoul skyline",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Seoul_View_2017.jpg",
+   "author": "Anthony Surace",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "country": "KR",
+   "file": "social/photos/a22e892c35f1f3c6.jpg"
+  },
+  {
+   "place": "Busan",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Busan_beach.jpg",
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "country": "KR",
+   "file": "social/photos/c63d2ac2d03f3388.jpg"
   }
  ]
 }

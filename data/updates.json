@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T06:18:59+07:00",
+ "version": "2026-11-27T06:25:42+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,45 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:kr-kaist-scholarship-undergraduate-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-27",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "en": "🎓 Scholarship open: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "th": "🎓 เปิดรับทุน: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "vi": "🎓 Học bổng đang mở: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "zh": "🎓 奖学金开放申请：KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "ja": "🎓 奨学金募集中：KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "ko": "🎓 장학금 모집 중: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "fr": "🎓 Bourse ouverte : KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "pt": "🎓 Bolsa aberta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "es": "🎓 Beca abierta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "de": "🎓 Stipendium offen: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "it": "🎓 Borsa aperta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "nl": "🎓 Beurs open: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
+    "ru": "🎓 Открыт приём на стипендию: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KAIST%20Scholarship%20-%20Undergraduate%20International%20Admission%202027%20%28Regular%20Admissions%29",
+   "country": "Korea Selatan",
+   "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
+   "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+   "facts": {
+    "levels": [
+     "S1"
+    ],
+    "coverage": "Bebas tuition penuh selama 8 semester, tunjangan biaya hidup KRW 350.000 per bulan, dan subsidi asuransi kesehatan",
+    "amount": "Tuition penuh 8 semester + KRW 350.000/bulan",
+    "eligibility": "Pendaftar jalur International Student Admission KAIST (termasuk WNI) yang diterima di program S1; dipilih otomatis saat seleksi admisi. Wajib menjaga IPK di atas 2,7 (skala 4,3) setelah tahun pertama.",
+    "english_test": "Sesuai syarat admisi internasional KAIST (lihat Application Guide resmi)",
+    "deadline": "2027-01-14",
+    "notes": "Tidak ada aplikasi beasiswa terpisah: centang opsi \"KAIST scholarship\" di bagian Statement of Financial Resources pada formulir admisi online. Regular Admissions (Fall Track): pendaftaran & dokumen 10 Nov 2026-14 Jan 2027 pukul 18.00 KST, surat rekomendasi s.d. 21 Jan 2027, wawancara online (bila diminta) 3 Mar 2027, hasil 25 Mar 2027. Jadwal resmi: admission.kaist.ac.kr (Application Timeline 2027)."
+   }
+  },
   {
    "id": "jobs:2026-11-27-251",
    "kind": "jobs",
@@ -2766,7 +2805,7 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
+   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-and-short-term-graduate-work-visas-now-on-enhanced-immigration-online/",
    "category": "work",
    "effective": "2026-11-23",
    "facts": {
@@ -2803,7 +2842,7 @@
    "tab": "news",
    "url": "https://pricelist.talentededucationgroup.com/?tab=news",
    "country": "NZ",
-   "source": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
+   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-and-short-term-graduate-work-visas-now-on-enhanced-immigration-online/",
    "category": "work",
    "effective": "2026-11-23",
    "facts": {

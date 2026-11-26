@@ -118,6 +118,7 @@
 "jp-nomura-foundation-scholarship",
 "kr-gks-graduate",
 "kr-gks-undergraduate",
+"kr-kaist-scholarship-undergraduate-2027|open",
 "my-mohe-mis",
 "nl-leiden-excellence-scholarship|open",
 "nl-nl-scholarship|open",
@@ -3878,7 +3879,6 @@
 },
 "push_log": [],
 "pending": [
-"scholarship:sg-sim-asean-impact-award|open",
 "scholarship:sg-sim-uob-msc-scholarship-2027|open",
 "scholarship:my-mohe-mis",
 "scholarship:vn-rmit-international-excellence-2027|open",
@@ -3927,6 +3927,7 @@
 "scholarship:nz-waikato-vcies-sea-2027|open",
 "scholarship:au-vu-sydney-brisbane-welcome-grant-2027|open",
 "jobs:2026-11-26-229",
-"jobs:2026-11-27-251"
+"jobs:2026-11-27-251",
+"scholarship:kr-kaist-scholarship-undergraduate-2027|open"
 ]
 }

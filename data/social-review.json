@@ -486,12 +486,13 @@
    "verdict": "LOLOS",
    "score": 3,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): nama UTS & deadline 1 Apr 2027 jelas, tidak tertimpa.",
     "Halaman resmi utwente.nl terbuka 27/11/2026: EUR 3.000-22.000 untuk 1 tahun (tahun ke-2 untuk program 2 tahun bila memenuhi syarat), non-EU/EEA, 5-10% terbaik, diterima (bersyarat) Master mulai Sept 2027, bukan lulusan UT; formulir 15 Okt 2026 09.00 CET - 1 Apr 2027 16.00 CET; hasil minggu pertama Mei 2027 - caption cocok.",
     "Poster v11: nama beasiswa 'University of Twente Scholarship (UTS)' kini tampil, judul tidak bertabrakan; logo Talented terlihat.",
     "Negara non-AU/NZ, deadline masih jauh - skor cukup."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
   },
@@ -499,13 +500,14 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): deadline 1 Des 2026 jelas.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-25).",
     "Poster dibuat ulang (foto perpustakaan netral, bukan banner AU) - masalah QA 24/11 sudah beres.",
     "Halaman resmi Leiden (student.universiteitleiden.nl) terbuka: tenggat 1 Des 2026, EUR 10.000/15.000/17.500/18.500/19.000 (potongan tuition, bukan beasiswa penuh), non-EEA/EFTA, ±10% terbaik, ±25 penerima/tahun - cocok dengan caption.",
     "Tenggat 6 hari lagi, tayangkan hari ini."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.student.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs"
   },
@@ -513,12 +515,13 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): deadline 30 Nov 2026 jelas.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-25).",
     "Halaman resmi 'Master's Program in China Studies for 2027 Entry' (yenchingacademy.pku.edu.cn/info/1040/5753.htm) terbuka: tenggat online sebelum 09.00 waktu Beijing 30 Nov 2026 (= 08.00 WIB), IELTS Academic 7.0 / Cambridge C1 185, pengecualian penutur asli/lulusan program berbahasa Inggris, beasiswa fully-funded - cocok dengan caption.",
     "Poster dibuat ulang, teks rapi, logo terlihat. Tenggat 5 hari lagi."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://yenchingacademy.pku.edu.cn/info/1040/5753.htm"
   },
@@ -540,12 +543,13 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): kalender 1 Desember 2026 & judul Irlandia jelas, tidak tertimpa.",
     "Poster v11 dirender ulang 27/11: judul 'BEASISWA KULIAH DI IRLANDIA' tidak lagi tertimpa teks hak cipta; kalender 1 Desember 2026 jelas; logo Talented terlihat.",
     "Fakta caption sama dengan yang sudah dicocokkan ke halaman resmi UCD (cek 25/11/2026): tenggat portal LPDP 1 Des 2026, 100% tuition + stipend, wajib sudah memegang offer UCD, wawancara 25 Jan-11 Feb 2027; halaman resmi UCD LPDP masih muncul di pencarian domain ucd.ie 27/11/2026.",
     "Deadline 4 hari lagi - relevan untuk pembaca S2; negara non-AU/NZ (selingan)."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp/"
   },
@@ -677,10 +681,10 @@
    "score": 4,
    "reasons": [
     "Fakta tetap cocok dengan buku panduan resmi Beasiswa Garuda 2027 (dicek 25/11/2026; deadline 4 Jan 2027).",
-    "D (poster v11 27/11): teks '(S1 Luar Negeri)' tertimpa lingkaran foto."
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): teks '(S1 Luar Negeri)' masih tertimpa lingkaran foto."
    ],
    "fix": "Butuh perbaikan layout lingkaran foto (layout I) di make_social_cards.py lalu render ulang.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://beasiswagaruda.kemdiktisaintek.go.id/buku-panduan-pendaftaran-beasiswa-garuda-2027.pdf"
   },
@@ -752,7 +756,7 @@
     "Poster dirender ulang 27/11 (v11); digantikan jobs:2026-11-27-251 yang datanya lebih baru (batas loker 2 per minggu)."
    ],
    "fix": "Tidak perlu ditayangkan.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/jobs.json"
   },
@@ -771,12 +775,13 @@
    "verdict": "LOLOS",
    "score": 2,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): foto NZMA asli, logo NZMA & Talented jelas.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-25).",
     "18 program NZMA (Auckland & Wellington) cocok dengan pricelist; foto dari brosur resmi, logo NZMA & Talented terlihat, tanpa rahasia bisnis.",
     "Konten perkenalan umum tanpa harga/fakta baru, kurang menarik dibanding bahan lain hari ini."
    ],
    "fix": "Tambahkan 1-2 program + harga termurah per tahun dan syarat IELTS agar lebih bernilai.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "pricelist-data 25/11/2026"
   },
@@ -835,13 +840,14 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): #17 University of Sydney jelas (judul 'PERINGKAT...' dan baris kedua diringkas dengan elipsis, tidak tertimpa).",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-26).",
     "Fakta cocok sumber resmi: sydney.edu.au 17/11/2026 (University of Sydney #17 QS Sustainability 2027; 39 institusi Australia); westernsydney.edu.au (Western Sydney University top 150).",
     "Poster dirender ulang 26/11 14.45: headline 'University of Sydney peringkat dunia' + 2 baris info cocok dengan caption, footnote tidak terpotong, logo Talented terlihat.",
     "Hashtag sudah #KuliahDiAustralia #RankingKampus #TalentedEducation. Tanpa rahasia bisnis/klaim jaminan."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html"
   },
@@ -849,13 +855,14 @@
    "verdict": "LOLOS",
    "score": 3,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): judul & nama beasiswa jelas.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-25).",
     "Cocok dengan halaman resmi wgtn.ac.nz (dibuka 25/11/2026): NZ$10,000, hanya satu tahun studi (tahun pertama), Master/Postgraduate Diploma, full international fees, Offer of Place bersyarat/tanpa syarat, full-time on campus, lulusan EAP/Bachelor VUW berhak, tidak perlu aplikasi terpisah, closing date = batas pendaftaran program.",
     "Poster: logo Talented terlihat, nama sekolah/negara cocok dengan caption, foto banner TEG untuk konten NZ masih diperbolehkan.",
     "Kekurangan kecil: judul poster terpotong 'VUW Postgraduate International...' dan kalimat caption 'Tidak untuk penerima...' terputus."
    ],
    "fix": "Lain kali tulis lengkap 'Scholarship' di poster dan selesaikan kalimat pengecualian (mis. 'Tidak untuk mahasiswa VUW yang sedang kuliah, penerima sponsor pemerintah, atau yang mendapat credit transfer').",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship"
   },
@@ -863,13 +870,14 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): judul & nama beasiswa jelas (diringkas elipsis).",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-26).",
     "Caption diperbaiki 26/11: klaim tanpa sumber (Foundation/EAP, penilaian otomatis, pengecualian) dihapus; kalimat terpotong hilang.",
     "NZD 15.000 tahun pertama cocok dengan flyer resmi wgtn.ac.nz School-Leaver Scholarships 2027; syarat mahasiswa internasional baru S1 tahun pertama full-time on campus cocok dengan wgtn.ac.nz/international/scholarships-fees/scholarships.",
     "Poster: logo Talented terlihat, judul & negara cocok dengan caption; foto booth TEG 'Study in Australia' boleh untuk konten NZ. Tanpa rahasia bisnis, tanpa klaim jaminan, 3 hashtag."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.wgtn.ac.nz/documents/publications/scholarships-flyer.pdf"
   },
@@ -889,12 +897,13 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): judul & nama award jelas di panel bawah foto.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-26).",
     "Cocok dengan halaman resmi Monash (cek 26/11/2026): hingga AUD 37.054, 67 penerima/tahun, 20% tuition hingga 3 tahun, AUD 2.000 tiket, AUD 2.000 visa, relokasi AUD 5.000; S1 full-time di kampus Monash Australia; 10 negara ASEAN termasuk Indonesia; otomatis tanpa aplikasi; distinction (70%) tiap semester; tanggal tutup tidak dicantumkan di halaman resmi.",
     "Poster: logo Talented terlihat, foto booth TEG 'Study' sesuai konten AU, tanpa rahasia bisnis/jaminan; caption 3 hashtag, ada link resmi."
    ],
    "fix": "Opsional: lengkapi 'grant relokasi AUD...' yang terpotong menjadi AUD 5.000.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/vice-chancellors-asean-award-6280"
   },
@@ -902,12 +911,13 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): layout boarding pass, deadline 31 Des 2028 sesuai data resmi yang dicek 26/11.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-26).",
     "Cocok dengan halaman resmi UTS (cek 26/11/2026): 20% tuition, S1 maks. 10 sesi / S2 maks. 4 sesi, 11 negara SEA termasuk Indonesia, full-time on-campus Sydney, otomatis (intake Spring 2026-Summer 2028), tutup 31/12/2028, GMAT/GRE hanya UTS Business School, penerima sponsor pemerintah dikecualikan.",
     "Poster & caption sama (UTS, Australia, deadline 31 Des 2028); foto booth TEG sesuai konten AU; logo Talented terlihat."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/uts-southeast-asia-international-scholarship"
   },
@@ -929,10 +939,10 @@
    "reasons": [
     "Fakta caption cocok dengan PDF resmi Waikato (dicek 26/11/2026): NZD 8.000-15.000, tenggat Trimester A 30 Nov 2026.",
     "Koreksi putusan lama: foto banner 'Study in Australia' BOLEH untuk konten NZ (aturan A4: AU/NZ/umum).",
-    "D (poster v11 27/11): teks 'Vice-Chancellor's International Exce(llence)...' dan 'Deadline 30 Nov 202(6)' tertimpa bingkai polaroid - tahun deadline tidak terbaca utuh."
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): teks 'International Exce(llence)...' dan 'Deadline 30 Nov 202(6)' masih tertimpa bingkai polaroid."
    ],
    "fix": "MENDESAK (tenggat 30/11): butuh perbaikan layout di make_social_cards.py (teks info tidak boleh melewati batas foto) lalu render ulang; caption sudah benar.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-SEA.pdf"
   },
@@ -966,12 +976,13 @@
    "verdict": "LOLOS",
    "score": 3,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): PTE 64, Speaking 67, Listening 62, logo VSA & Talented jelas.",
     "Poster v11 dirender ulang 27/11/2026 dicek ulang: footer baru rapi (ajakan, link pricelist, QR, baris terverifikasi), logo Talented terlihat, teks utama tidak terpotong/bertabrakan; caption & fakta tidak berubah dari putusan sebelumnya (2026-11-26).",
     "Skor cocok dengan poster resmi VSA assets/testimoni-pte/pte-64.jpg (Overall 64, Speaking 67, Listening 62; nama/ID disensor); ada kalimat 'Hasil tiap siswa berbeda', tanpa jaminan skor.",
     "Logo Talented & VSA terlihat; caption 3 hashtag, tanpa nomor telepon. Foto acara (siswa dari belakang/bermasker) tidak menampilkan identitas peserta tes."
    ],
    "fix": "Opsional: pakai foto kelas VSA yang lebih tajam.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://info.talentededucationgroup.com/assets/testimoni-pte/pte-64.jpg"
   },
@@ -982,7 +993,7 @@
     "Poster dirender ulang 27/11 (v11); digantikan jobs:2026-11-27-251 yang datanya lebih baru (batas loker 2 per minggu)."
    ],
    "fix": "Tidak perlu ditayangkan.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/jobs.json"
   },
@@ -1016,26 +1027,28 @@
    "verdict": "LOLOS",
    "score": 4,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): kalender 14 Januari 2027, judul Korea & logo Talented jelas, tidak ada teks tertimpa.",
     "Cocok dengan halaman resmi KAIST (admission.kaist.ac.kr, cek 27/11/2026): bebas tuition 8 semester, tunjangan KRW 350.000/bulan, asuransi kesehatan; tanpa aplikasi terpisah (centang 'KAIST scholarship' di Statement of Financial Resources); IPK wajib >2,7 (skala 4,3) setelah tahun pertama.",
     "Application Timeline resmi: Regular Admissions (Fall Track) 10 Nov 2026 - 14 Jan 2027 18.00 KST (rekomendasi s.d. 21 Jan) - deadline poster & caption benar.",
     "Poster: logo Talented terlihat, kalender 14 Januari 2027 jelas, nama beasiswa diringkas dengan elipsis (wajar); foto kampus musim gugur netral (bukan banner AU). Tanpa rahasia bisnis/klaim jaminan; 3 hashtag.",
     "Negara non-AU/NZ: selingan beasiswa besar (penuh 4 tahun)."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist"
   },
   "jobs:2026-11-27-251": {
-   "verdict": "LOLOS",
+   "verdict": "REVISI",
    "score": 3,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): baris negara 'Jerman, Kanada, UK, Australia, Spanyol +4' tertimpa bingkai polaroid ('Span..ol +4').",
     "data/jobs.json (updated 27/11 06.15 WIB) memuat 340 lowongan dari 9 negara yang sama dengan judul (Jerman 75, Australia 68, Kanada 54, UK 48, NZ 46, Swiss 21, Spanyol 16, Prancis 10, Singapura 2); 251 = lowongan baru sejak pembaruan sebelumnya (build_updates.py).",
     "Judul 'LOKER LUAR NEGERI' sesuai aturan QA 24/11; atribusi Jobs by Adzuna, peringatan biaya pendaftaran & batas jam kerja visa ada; tanpa klaim aman/dijamin.",
     "Kuota loker minggu W48 masih 0/2; item loker lama 25-26/11 dinyatakan digantikan item ini."
    ],
-   "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "fix": "Render ulang dengan teks info tidak melewati batas foto (butuh perbaikan layout make_social_cards.py); data & caption sudah benar.",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/jobs.json"
   },
@@ -1043,25 +1056,26 @@
    "verdict": "LOLOS",
    "score": 3,
    "reasons": [
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): foto lingkaran acara Talented, teks tidak tertimpa, logo jelas.",
     "Fitur yang disebut (cek biaya, app gratis, beasiswa, berita visa, lowongan & akomodasi, free mock test) memang ada di pricelist.talentededucationgroup.com.",
     "Poster rapi: logo Talented, cap GRATIS, foto acara Talented (umum, banner AU boleh). Caption 3 hashtag, penutup Talented, tanpa nomor telepon.",
     "Postingan umum/fitur - cukup menarik, tidak berulang dalam 7 hari."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://pricelist.talentededucationgroup.com/"
   },
   "site:2026-11-27:site-05": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "score": 2,
    "reasons": [
-    "Judul/headline 'LOKER PART-TIME UNTUK PELAJAR' bertentangan dengan aturan QA 24/11/2026: lowongan Adzuna bukan khusus part-time/pelajar (judul harus 'LOKER LUAR NEGERI').",
-    "Isi sama dengan postingan loker jobs:2026-11-27-251 hari ini (berulang).",
-    "DIPERBAIKI OTOMATIS di data/site-promo.json (site-05): headline 'LOKER LUAR NEGERI & ATURAN KERJA VISA', judul & caption menyebut sumber Jobs by Adzuna dan batas jam kerja visa; poster akan dibuat ulang lalu dicek lagi."
+    "DIPERBAIKI OTOMATIS (data/site-promo.json site-05, commit 94ace97): judul 'Loker Luar Negeri & Aturan Kerja Visa Pelajar', caption menyebut Jobs by Adzuna, batas jam kerja visa & peringatan biaya pendaftaran - sesuai aturan QA 24/11.",
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): headline 'LOKER LUAR NEGERI & ATURAN KERJA', info 'Batas jam kerja visa pelajar', tidak tertimpa; foto acara Talented (umum).",
+    "Skor 2: topik sama dengan postingan loker hari ini (jobs:2026-11-27-251) - tidak perlu tayang hari ini."
    ],
-   "fix": "Tunggu render ulang; tetap skor rendah hari ini karena sudah ada postingan loker.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "fix": "",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/site-promo.json; data/jobs.json"
   },
@@ -1075,7 +1089,7 @@
     "Bukan masalah rahasia bisnis di caption, tetapi bila 4.000/term adalah harga khusus agen, harga itu tidak boleh dipublikasikan."
    ],
    "fix": "Butuh pemilik: konfirmasi dasar harga AUD 4.000/term (promo resmi tertulis s.d. tanggal?) atau pakai harga resmi AUD 3.125/unit (± AUD 25.000/tahun) di pricelist; ganti foto (kampus/kota Brisbane).",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://leaders.edu.au/courses/master-of-business-administration-agribusiness/"
   },
@@ -1089,7 +1103,7 @@
     "Nama program ditulis 'Dip Of Community Services' (huruf besar tidak baku)."
    ],
    "fix": "Butuh perbaikan script/pricelist: headline bidang memakai nama program ('Diploma of Community Services'), foto kota Melbourne, verifikasi AUD 2.315/term ke brosur/price list resmi AIBL.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://albrightinstitute.edu.au/chc52021-diploma-of-community-services/"
   },
@@ -1097,13 +1111,12 @@
    "verdict": "REVISI",
    "score": 2,
    "reasons": [
-    "Fakta cocok dengan data/badges.json (PIER Verified Agency); logo Talented & PIER terlihat, tanpa klaim jaminan.",
-    "D: teks 'Agen pendidikan Australia & New Zealand' tertimpa bingkai foto ('Zealand' terpotong).",
-    "E: caption memakai 4 hashtag (maks. 3) - dibuat scripts/trust_posts.py.",
-    "Foto taman Wikimedia tidak jelas kaitannya dengan AU/NZ; topik kredensial sudah ada di footer setiap poster (berulang)."
+    "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): teks tidak lagi tertimpa, logo PIER & Talented jelas, foto taman Wikimedia (tidak jelas AU/NZ).",
+    "E: caption 4 hashtag (#KuliahDiAustralia #KuliahDiNewZealand #AgenPendidikanTerpercaya #TalentedEducation) - maks. 3; dibuat scripts/trust_posts.py.",
+    "Fakta cocok dengan data/badges.json (PIER Verified Agency); topik kredensial sudah ada di footer setiap poster."
    ],
-   "fix": "Butuh perbaikan script trust_posts.py: maks. 3 hashtag (hapus #AgenPendidikanTerpercaya), teks info tidak menimpa foto, pakai foto kantor/kegiatan Talented.",
-   "checked_at": "2026-11-27T06:45:50+07:00",
+   "fix": "Butuh perbaikan scripts/trust_posts.py: maks. 3 hashtag; pakai foto kantor/kegiatan Talented.",
+   "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/badges.json"
   }

@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-25T23:48:07+00:00",
- "ok": true,
+ "checked_at": "2026-11-26T02:33:17+00:00",
+ "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-25T06:01:06.179Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1744612051008292",
-   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
+   "sentAt": "2026-11-26T02:29:53.002Z",
+   "link": "https://www.facebook.com/104126648347814",
+   "text": ""
   },
   "facebook|reel": {
    "sentAt": "2026-11-25T02:30:54.767Z",
@@ -19,14 +19,14 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-25T02:31:39.542Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpwQkI2VmFsN1F1cF80M0FwUi1pZ3BB",
-   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
+   "sentAt": "2026-11-26T02:29:14.442Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpiakxqcUsxa0gtdFpGaG54cnFZQ3Fn",
+   "text": "UTS Southeast Asia International Scholarship sedan"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-25T06:02:34.451Z",
-   "link": "https://www.instagram.com/p/DgJ1tpgkRyK/",
-   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
+   "sentAt": "2026-11-26T02:29:43.531Z",
+   "link": "https://www.instagram.com/p/DgMCOCbjICr/",
+   "text": "UTS Southeast Asia International Scholarship sedan"
   },
   "instagram|reel": {
    "sentAt": "2026-11-25T02:31:39.741Z",
@@ -34,14 +34,14 @@
    "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "instagram|story": {
-   "sentAt": "2026-11-25T02:32:13.489Z",
-   "link": "https://www.instagram.com/stories/talented.e.g/4037888928152613251",
+   "sentAt": "2026-11-26T02:31:13.289Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4038612903853945341",
    "text": ""
   },
   "linkedin|feed": {
-   "sentAt": "2026-11-25T02:32:05.211Z",
-   "link": "https://www.linkedin.com/feed/update/urn:li:share:7531182894011232258",
-   "text": "“Kedua kalinya pakai Talented, dan lagi-lagi meleb"
+   "sentAt": "2026-11-26T02:29:40.248Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7531544673857835008",
+   "text": "UTS Southeast Asia International Scholarship sedan"
   },
   "tiktok|reel": {
    "sentAt": "2026-11-25T02:31:18.092Z",
@@ -49,16 +49,18 @@
    "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-25T02:55:36.708Z",
-   "link": "https://x.com/1511766381762531332/status/2125423126242578581",
-   "text": "Pathway 2 Negara: kampus universitas Australia di "
+   "sentAt": "2026-11-26T02:29:16.852Z",
+   "link": "https://x.com/1511766381762531332/status/2125778887703466215",
+   "text": "Beasiswa dibuka: UTS Southeast Asia International "
   },
   "youtube|reel": {
-   "sentAt": "2026-11-25T02:30:46.770Z",
-   "link": "https://www.youtube.com/shorts/vb0rcmNL3lg",
-   "text": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/"
+   "sentAt": "2026-11-26T02:30:16.887Z",
+   "link": "https://www.youtube.com/shorts/qrcScGZtc7A",
+   "text": "Mau kuliah Psikologi di luar negeri? Ini pilihan d"
   }
  },
  "problems": [],
- "stale": []
+ "stale": [
+  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-25T02:31:14.038Z)"
+ ]
 }

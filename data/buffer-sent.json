@@ -4,6 +4,8 @@
 "post:2026-11-25-pathway-2-negara|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-11-25-pathway-2-negara|feed|6aff319cece6dfde5f2206b4",
 "post:2026-11-25-pathway-2-negara|feed|6aff3328ece6dfde5f221865",
+"post:2026-11-25-psikologi|reel|6aff31ffece6dfde5f220b47",
+"post:2026-11-25-psikologi|reel|6aff3a05ece6dfde5f22802a",
 "post:2026-11-25-testimoni-helen|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-11-25-testimoni-helen|feed|6aff319cece6dfde5f2206b4",
 "post:2026-11-25-testimoni-helen|feed|6aff32d7ece6dfde5f22151d",
@@ -64,6 +66,16 @@
 "scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba2",
 "scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba3",
 "scholarship:au-uon-vc-international-academic-merit-2027|open|feed|6aff3375ece6dfde5f221ba4",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3157ece6dfde5f2203ab",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff319cece6dfde5f2206b4",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff32d7ece6dfde5f22151d",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3328ece6dfde5f221865",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3375ece6dfde5f221ba1",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3375ece6dfde5f221ba2",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3375ece6dfde5f221ba3",
+"scholarship:au-uts-southeast-asia-international|open|feed|6aff3375ece6dfde5f221ba4",
+"scholarship:au-uts-southeast-asia-international|open|story|6aff3157ece6dfde5f2203ab",
+"scholarship:au-uts-southeast-asia-international|open|story|6aff319cece6dfde5f2206b4",
 "scholarship:fr-eiffel-excellence|open|feed|6aff3328ece6dfde5f221865",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff32d7ece6dfde5f22151d",
 "scholarship:hk-belt-and-road-scholarship-hku|open|feed|6aff3328ece6dfde5f221865",
@@ -103,7 +115,7 @@
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
 "video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-25T23:44:49.984969+00:00",
+"last_run": "2026-11-26T02:28:35.354243+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -203,6 +215,20 @@
 "6aff32d7ece6dfde5f22151d|feed": 1,
 "6aff319cece6dfde5f2206b4|feed": 2,
 "6aff3157ece6dfde5f2203ab|feed": 2
+},
+"2026-11-26": {
+"6aff3375ece6dfde5f221ba4|feed": 1,
+"6aff3375ece6dfde5f221ba3|feed": 1,
+"6aff3375ece6dfde5f221ba2|feed": 1,
+"6aff3375ece6dfde5f221ba1|feed": 1,
+"6aff3328ece6dfde5f221865|feed": 1,
+"6aff32d7ece6dfde5f22151d|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1,
+"6aff319cece6dfde5f2206b4|story": 1,
+"6aff3157ece6dfde5f2203ab|story": 1,
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1
 }
 },
 "waiting_review": [],
@@ -212,7 +238,8 @@
 "scholarship:hk-belt-and-road-scholarship-hku|open"
 ],
 "2026-11-24": [],
-"2026-11-25": []
+"2026-11-25": [],
+"2026-11-26": []
 },
 "daily_prefix": {
 "2026-11-23": {
@@ -225,6 +252,12 @@
 },
 "2026-11-25": {
 "scholarship:": []
+},
+"2026-11-26": {
+"scholarship:": [
+"scholarship:au-uts-southeast-asia-international|open"
+],
+"mix:": []
 }
 },
 "weekly_prefix": {

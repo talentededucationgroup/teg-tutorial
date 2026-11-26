@@ -831,15 +831,15 @@
    "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase"
   },
   "post:2026-11-25-qs-sustainability": {
-   "verdict": "REVISI",
-   "score": 3,
+   "verdict": "LOLOS",
+   "score": 4,
    "reasons": [
-    "Fakta kini TERVERIFIKASI (26/11 14.05): sydney.edu.au (berita 17/11/2026) - University of Sydney peringkat 17 QS Sustainability 2027; '39 institutions in Australia' dari 2.003 institusi. Western Sydney University top 150 terverifikasi di westernsydney.edu.au (cek pagi).",
-    "Hashtag #KuliahDiNewZealand #BeasiswaLuarNegeri tidak sesuai konten ranking kampus Australia - caption belum diubah.",
-    "Poster (rendered_at 25/11 12:59) masih 'Kampus Australia peringkat dunia #17' tanpa nama University of Sydney - bisa menyesatkan."
+    "Fakta cocok sumber resmi: sydney.edu.au 17/11/2026 (University of Sydney #17 QS Sustainability 2027; 39 institusi Australia); westernsydney.edu.au (Western Sydney University top 150).",
+    "Poster dirender ulang 26/11 14.45: headline 'University of Sydney peringkat dunia' + 2 baris info cocok dengan caption, footnote tidak terpotong, logo Talented terlihat.",
+    "Hashtag sudah #KuliahDiAustralia #RankingKampus #TalentedEducation. Tanpa rahasia bisnis/klaim jaminan."
    ],
-   "fix": "Ganti hashtag -> #KuliahDiAustralia #RankingKampus; tulis 'University of Sydney #17 dunia' di poster lalu render ulang. Item kedaluwarsa 29/11.",
-   "checked_at": "2026-11-26T14:05:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-26T14:55:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.sydney.edu.au/news-opinion/news/2026/11/17/sydney-17th-globally-in-qs-rankings-for-sustainability-.html"
   },

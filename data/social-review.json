@@ -857,15 +857,15 @@
    "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship"
   },
   "scholarship:nz-vuw-undergraduate-international-scholarship|open": {
-   "verdict": "REVISI",
-   "score": 3,
+   "verdict": "LOLOS",
+   "score": 4,
    "reasons": [
-    "Sebagian TERVERIFIKASI (26/11 14.05): flyer resmi wgtn.ac.nz School-Leaver Scholarships 2027 - 'valued at $15,000 towards tuition fees in the first year of study'; halaman wgtn.ac.nz/international/scholarships-fees/scholarships - untuk semua mahasiswa internasional baru S1 tahun pertama full-time on campus. Halaman utama beasiswa tetap gagal dibuka (client error).",
-    "Klaim 'lulusan Foundation Studies/EAP VUW juga berhak' dan 'dinilai otomatis di Offer of Place' belum ada di sumber yang terbuka.",
-    "Caption 'Tidak untuk penerima...' terputus."
+    "Caption diperbaiki 26/11: klaim tanpa sumber (Foundation/EAP, penilaian otomatis, pengecualian) dihapus; kalimat terpotong hilang.",
+    "NZD 15.000 tahun pertama cocok dengan flyer resmi wgtn.ac.nz School-Leaver Scholarships 2027; syarat mahasiswa internasional baru S1 tahun pertama full-time on campus cocok dengan wgtn.ac.nz/international/scholarships-fees/scholarships.",
+    "Poster: logo Talented terlihat, judul & negara cocok dengan caption; foto booth TEG 'Study in Australia' boleh untuk konten NZ. Tanpa rahasia bisnis, tanpa klaim jaminan, 3 hashtag."
    ],
-   "fix": "Selesaikan/hapus kalimat 'Tidak untuk penerima...'; hapus klaim Foundation/EAP & penilaian otomatis atau minta auditor buka halaman utama beasiswa. Item kedaluwarsa 29/11.",
-   "checked_at": "2026-11-26T14:05:00+07:00",
+   "fix": "",
+   "checked_at": "2026-11-26T14:50:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.wgtn.ac.nz/documents/publications/scholarships-flyer.pdf"
   },

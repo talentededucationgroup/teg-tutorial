@@ -1,6 +1,6 @@
 {
- "version": "2026-11-26",
- "updated_at": "2026-11-26T06:45:00+07:00",
+ "version": "2026-11-27",
+ "updated_at": "2026-11-27T06:30:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -429,7 +429,8 @@
      "official": true
     }
    ],
-   "recheck": "Terverifikasi 26/11/2026 (audit ChatGPT 05A): F2026L01503 dibuat 12/11/2026, terdaftar 13/11/2026, berlaku 28/11/2026; subclass 600/601/651; tidak retrospektif; Protection visa dikecualikan; waiver reg 2.05 tetap ada."
+   "recheck": "Terverifikasi 26/11/2026 (audit ChatGPT 05A): F2026L01503 dibuat 12/11/2026, terdaftar 13/11/2026, berlaku 28/11/2026; subclass 600/601/651; tidak retrospektif; Protection visa dikecualikan; waiver reg 2.05 tetap ada.",
+   "effective": "2026-11-28"
   },
   {
    "id": "au-485-fee-2026-03",
@@ -566,7 +567,7 @@
    "deadline": null,
    "country": "NZ",
    "category": "work",
-   "status": "changed",
+   "status": "in_force",
    "title": {
     "id": "Selandia Baru: visa kerja lulusan jangka pendek (6 bulan) dibuka 23 Nov 2026 (ditunda dari 16 Nov)",
     "en": "New Zealand: Short-Term Graduate Work Visa (6 months) opened 23 Nov 2026 (delayed from 16 Nov)",
@@ -603,6 +604,11 @@
    },
    "links": [
     {
+     "label": "INZ - PSWV & Short-Term Graduate Work Visa now on enhanced Immigration Online (23 Nov 2026)",
+     "url": "https://www.immigration.govt.nz/about-us/news-centre/post-study-and-short-term-graduate-work-visas-now-on-enhanced-immigration-online/",
+     "official": true
+    },
+    {
      "label": "INZ - Amendment Circular 2026-36 (16 Nov 2026: start delayed to 23 Nov 2026)",
      "url": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
      "official": true
@@ -632,7 +638,7 @@
    "deadline": null,
    "country": "NZ",
    "category": "work",
-   "status": "changed",
+   "status": "in_force",
    "title": {
     "id": "Selandia Baru: syarat Post-Study Work Visa diperluas, berlaku 23 Nov 2026 (ditunda dari 16 Nov)",
     "en": "New Zealand: Post-Study Work Visa eligibility extended, in effect 23 Nov 2026 (delayed from 16 Nov)",
@@ -668,6 +674,11 @@
     "ru": "INZ перенесла начало с 16 на 23 нояб. 2026 из-за глобального сбоя Microsoft (Amendment Circular 2026-36). Выпускники Graduate Diploma уровня 7, уже имеющие степень бакалавра (НЗ или зарубежную), теперь могут получить PSWV до 1 года (по сроку обучения). Postgraduate Diploma (L8) — до 1 года, магистратура (L9) — до 3 лет; минимум 30 недель очного обучения в НЗ."
    },
    "links": [
+    {
+     "label": "INZ - PSWV & Short-Term Graduate Work Visa now on enhanced Immigration Online (23 Nov 2026)",
+     "url": "https://www.immigration.govt.nz/about-us/news-centre/post-study-and-short-term-graduate-work-visas-now-on-enhanced-immigration-online/",
+     "official": true
+    },
     {
      "label": "INZ - Amendment Circular 2026-36 (16 Nov 2026: start delayed to 23 Nov 2026)",
      "url": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-36.pdf",
@@ -1279,7 +1290,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-26",
+ "checked": "2026-11-27",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

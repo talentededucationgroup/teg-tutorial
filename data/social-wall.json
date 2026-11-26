@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T14:39:02+07:00",
+ "version": "2026-11-26T14:45:26+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -210,6 +210,19 @@
    "country": null,
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%2011%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:nz-vuw-undergraduate-international-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "title": "Beasiswa dibuka: VUW Undergraduate International Scholarship",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=VUW%20Undergraduate%20International%20Scholarship",
+   "source": "https://www.wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship",
+   "caption": "VUW Undergraduate International Scholarship sedang dibuka. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Selandia Baru",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:nz-vuw-postgraduate-international-scholarship|open",
@@ -457,19 +470,6 @@
    "country": "Singapura",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20SIM%20Beasiswa%20November%202026%204%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:my-mohe-mis",
-   "kind": "scholarship",
-   "date": "2026-11-21",
-   "title": "Beasiswa baru: Malaysia International Scholarship (MIS)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Malaysia%20International%20Scholarship%20%28MIS%29",
-   "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
-   "caption": "Info beasiswa: Malaysia International Scholarship (MIS). Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Malaysia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20MOHE%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

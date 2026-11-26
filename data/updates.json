@@ -1,5 +1,5 @@
 {
- "version": "2026-11-26T13:55:46+07:00",
+ "version": "2026-11-26T14:17:48+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,46 @@
   }
  },
  "items": [
+  {
+   "id": "scholarship:au-vu-sydney-brisbane-welcome-grant-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "priority": 2,
+   "title": {
+    "id": "🎓 Beasiswa dibuka: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "en": "🎓 Scholarship open: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "th": "🎓 เปิดรับทุน: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "vi": "🎓 Học bổng đang mở: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "zh": "🎓 奖学金开放申请：ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "ja": "🎓 奨学金募集中：ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "ko": "🎓 장학금 모집 중: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "fr": "🎓 Bourse ouverte : ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "pt": "🎓 Bolsa aberta: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "es": "🎓 Beca abierta: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "de": "🎓 Stipendium offen: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "it": "🎓 Borsa aperta: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "nl": "🎓 Beurs open: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)",
+    "ru": "🎓 Открыт приём на стипендию: ECA Australia Welcome Grant (VU Sydney & Brisbane) (deadline 2027-01-15)"
+   },
+   "tab": "scholarships",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=ECA%20Australia%20Welcome%20Grant%20%28VU%20Sydney%20%26%20Brisbane%29",
+   "country": "Australia",
+   "provider": "Victoria University - VU Sydney & VU Brisbane",
+   "source": "https://www.vu.edu.au/vu-sydney/study-with-us/vu-sydney-scholarships",
+   "facts": {
+    "levels": [
+     "S1",
+     "S2"
+    ],
+    "coverage": "Senilai biaya visa pelajar yang dibayar, maks. AUD 2.500: kredit tuition setelah lulus 2 semester berturut-turut bila visa disetujui, atau penggantian biaya visa bila visa ditolak karena alasan genuine (dinilai ECA Group)",
+    "amount": "s.d. AUD 2.500",
+    "eligibility": "Warga negara Indonesia, Brasil, Kamboja, Chile, China daratan, Kolombia, Hong Kong, Jepang, Makau, Malaysia, Meksiko, Peru, Korea Selatan, Taiwan, Thailand, Vietnam yang mengajukan visa pelajar (subclass 500) secara genuine untuk program di VU Sydney atau VU Brisbane sebelum 15 Januari 2027 dan memenuhi kriteria grant. Daftar negara bisa berubah tanpa pemberitahuan.",
+    "english_test": "Sesuai syarat masuk program VU",
+    "deadline": "2027-01-15",
+    "notes": "Info resmi tim VU Sydney & Brisbane (26/11/2026), belum tercantum di halaman beasiswa publik VU. Satu benefit per siswa. Tenggatnya adalah tanggal pengajuan visa, jadi siapkan offer, deposit dan CoE lebih awal. Tanyakan kombinasi dengan beasiswa VU 2027 ke konsultan Talented."
+   }
+  },
   {
    "id": "scholarship:au-ecu-asean-international-2027|open",
    "kind": "scholarship",

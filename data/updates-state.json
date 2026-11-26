@@ -77,6 +77,7 @@
 "au-uts-academic-excellence-international|open",
 "au-uts-southeast-asia-international|open",
 "au-uwa-global-excellence|open",
+"au-vu-sydney-brisbane-welcome-grant-2027|open",
 "au-wsu-international-pg-2027|open",
 "au-wsu-international-ug-2027|open",
 "bn-bdgs",
@@ -3397,7 +3398,6 @@
 },
 "push_log": [],
 "pending": [
-"jobs:2026-11-20-245",
 "jobs:2026-11-21-215",
 "news:au-485-family-2026-11-13",
 "scholarship:sg-sim-asean-impact-award|open",
@@ -3446,6 +3446,7 @@
 "scholarship:au-ecu-asean-international-2027|open",
 "scholarship:au-uts-southeast-asia-international|open",
 "scholarship:au-monash-vc-asean-award|open",
-"scholarship:nz-waikato-vcies-sea-2027|open"
+"scholarship:nz-waikato-vcies-sea-2027|open",
+"scholarship:au-vu-sydney-brisbane-welcome-grant-2027|open"
 ]
 }

@@ -2,7 +2,9 @@
 """Build static blog pages from data/blog.json + data/news.json.
 Output: blog/index.html, blog/<slug>/index.html, blog/feed.xml, sitemap.xml, robots.txt
 Run from repo root: python3 scripts/build_blog.py"""
-import json, os, html, datetime
+import json, os, html, datetime, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import blog_covers
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B=json.load(open(os.path.join(ROOT,'data/blog.json'),encoding='utf-8'))
 N=json.load(open(os.path.join(ROOT,'data/news.json'),encoding='utf-8'))
@@ -14,7 +16,7 @@ OG=SITE+'/assets/share/pricelist-share-v2.jpg'
 e=html.escape
 T={'id':{'blog':'Blog Talented','sub':'Berita visa pelajar & tips studi luar negeri - diperbarui setiap bulan','read':'Baca','share':'Bagikan','copy':'Salin link','copied':'Link disalin','sources':'Sumber resmi','back':'← Semua artikel','cta1':'Cek biaya studi','cta2':'Konsultasi gratis','cta3':'Untuk institusi: ajukan paket promosi','news':'Berita imigrasi terbaru','disc':N['disclaimer']['id'],'upd':'Diperbarui','lang':'English','langq':'en','other':'Artikel lain'},
    'en':{'blog':'Talented Blog','sub':'Student visa news & study abroad tips - updated monthly','read':'Read','share':'Share','copy':'Copy link','copied':'Link copied','sources':'Official sources','back':'← All articles','cta1':'Check study costs','cta2':'Free consultation','cta3':'For institutions: apply for a promotion package','news':'Latest immigration news','disc':N['disclaimer']['en'],'upd':'Updated','lang':'Bahasa Indonesia','langq':'id','other':'More articles'}}
-CSS=""":root{--bg:#f4f6f3;--ink:#16231d;--muted:#5d6b64;--green:#14624a;--green9:#0e3b2e;--gold:#c9a227;--line:#e1e6e2;--card:#fff}
+CSS='.cover{width:100%;height:auto;border-radius:14px;margin:12px 0 4px;display:block}'+""":root{--bg:#f4f6f3;--ink:#16231d;--muted:#5d6b64;--green:#14624a;--green9:#0e3b2e;--gold:#c9a227;--line:#e1e6e2;--card:#fff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,"Segoe UI",Roboto,sans-serif}
 a{color:var(--green)}.wrap{max-width:860px;margin:0 auto;padding:0 16px}
 .top{background:#fff;border-bottom:1px solid var(--line)}.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
@@ -66,16 +68,18 @@ JS=lambda l:f"""<div id="toast">{T[l]['copied']}</div><script>
 function nshare(){{if(navigator.share){{navigator.share({{title:document.title,url:location.href}}).catch(()=>{{}})}}else copyl()}}
 function copyl(){{const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>{{const t=document.getElementById('toast');t.style.display='block';setTimeout(()=>t.style.display='none',1800)}}).catch(()=>prompt('{T[l]['copy']}',u))}}
 </script>"""
-def page(l,title,desc,url,alt_url,body,jsonld='',hero=''):
+def page(l,title,desc,url,alt_url,body,jsonld='',hero='',og=None):
+    og=og or OG
     return f"""<!doctype html><html lang="{l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self' https://info.talentededucationgroup.com; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
 <link rel="alternate" hreflang="{l}" href="{e(url)}"><link rel="alternate" hreflang="{T[l]['langq']}" href="{e(alt_url)}"><link rel="alternate" type="application/rss+xml" title="Talented Blog" href="{SITE}/blog/feed.xml">
-<meta property="og:type" content="article"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{OG}"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="article"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{og}"><meta name="twitter:card" content="summary_large_image">
 {jsonld}<style>{CSS}</style></head><body><div class="top"><div class="wrap"><a class="brand" href="{SITE}/blog/{'' if l=='id' else 'en/'}"><img src="{SITE}/mocktest/logo.png" alt="" width="53" height="40"><span>Talented Education Group<small>PT. Pilar Pendidikan Internasional</small></span></a><a class="lang" href="{e(alt_url)}">🌐 {T[l]['lang']}</a></div></div>
 {hero}<main class="wrap">{body}</main><footer>© Talented Education Group · <a href="{LINK}">linktr.ee/talentededucationgroup</a></footer>{JS(l)}</body></html>"""
 def url_post(s,l): return f"{SITE}/blog/{s}/" if l=='id' else f"{SITE}/blog/en/{s}/"
 def url_idx(l): return f"{SITE}/blog/" if l=='id' else f"{SITE}/blog/en/"
 posts=sorted(B['posts'],key=lambda p:p['date'],reverse=True)
+COVER={p['slug']:SITE+'/'+blog_covers.make(p) for p in sorted(posts,key=lambda p:p['date'])}  # foto berbeda per artikel, urut tanggal agar stabil  # sampul per artikel (pemilik 27/11/2026)
 def write(path,txt):
     os.makedirs(os.path.dirname(path),exist_ok=True); open(path,'w',encoding='utf-8').write(txt)
 FLAG=lambda c:''.join(chr(0x1F1E6+ord(x)-65) for x in ('GB' if c=='UK' else c)) if c and len(c)==2 and c.isalpha() else '🌐'
@@ -111,16 +115,16 @@ for l in ('id','en'):
         li=lambda s: f'<li><a href="{e(s["url"])}" target="talented_ext" rel="noopener">{e(s["label"])}</a></li>'
         src=''.join(li(s) for s in p['sources'] if not s.get('internal'))
         intern=''.join(li(s) for s in p['sources'] if s.get('internal'))
-        ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":OG,"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
+        ld=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p['title'][l],"description":p['description'][l],"datePublished":p['date'],"dateModified":p.get('updated',p['date']),"inLanguage":l,"mainEntityOfPage":u,"image":COVER[p['slug']],"author":{"@type":"Organization","name":"Talented Education Group"},"publisher":{"@type":"Organization","name":"Talented Education Group"}},ensure_ascii=False)
         hero=f"""<section class="hero"><div class="wrap"><p class="meta"><a href="{url_idx(l)}">{t['back']}</a></p><h1>{e(p['title'][l])}</h1><p class="meta">{t['upd']}: {fmt(p.get('updated',p['date']),l)}</p>{share(u,p['title'][l],l)}</div></section>"""
         fq=(p.get('faq') or {}).get(l) or []
         faqh=('<h2>'+('Pertanyaan yang sering diajukan' if l=='id' else 'Frequently asked questions')+'</h2>'+''.join(f'<details><summary><strong>{e(x["q"])}</strong></summary><p>{e(x["a"])}</p></details>' for x in fq)) if fq else ''
         if fq: ld=json.dumps([json.loads(ld),{"@context":"https://schema.org","@type":"FAQPage","inLanguage":l,"mainEntity":[{"@type":"Question","name":x['q'],"acceptedAnswer":{"@type":"Answer","text":x['a']}} for x in fq]}],ensure_ascii=False)
         kw=(p.get('keywords') or {}).get(l)
-        body=f"""<article>{p['body'][l]}{faqh}</article>{('<h2>'+('Sumber internal Talented' if l=='id' else 'Talented resources')+'</h2><ul class="src">'+intern+'</ul>') if intern else ''}<h2>{(('Sumber resmi ujian' if l=='id' else 'Official exam sources') if intern else t['sources'])}</h2><ul class="src">{src}</ul>
+        body=f"""<img class="cover" src="{COVER[p['slug']]}" alt="" width="1200" height="630"><article>{p['body'][l]}{faqh}</article>{('<h2>'+('Sumber internal Talented' if l=='id' else 'Talented resources')+'</h2><ul class="src">'+intern+'</ul>') if intern else ''}<h2>{(('Sumber resmi ujian' if l=='id' else 'Official exam sources') if intern else t['sources'])}</h2><ul class="src">{src}</ul>
 {cta(l)}
 {share(u,p['title'][l],l)}{('<h2>'+t['other']+'</h2><ul>'+others+'</ul>') if others else ''}<p class="disc">{e(t['disc'])}</p>"""
-        write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,(f'<meta name="keywords" content="{e(kw)}">' if kw else '')+f'<script type="application/ld+json">{ld}</script>',hero))
+        write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en',p['slug'],'index.html'),page(l,p['title'][l]+' | Talented',p['description'][l],u,alt,body,(f'<meta name="keywords" content="{e(kw)}">' if kw else '')+f'<script type="application/ld+json">{ld}</script>',hero,COVER[p['slug']]))
     def chips(p): return ''.join(f'<span class="chip">{FLAG(c)} {e(N["countries"].get(c,{}).get(l,c))}</span>' for c in p.get('countries',[])[:6])
     kick='Artikel terbaru' if l=='id' else 'Latest article'
     cards=''.join(f'<a class="post" href="{url_post(p["slug"],l)}"><span class="kick">{kick if i==0 else fmt(p["date"],l)}</span><h3>{e(p["title"][l])}</h3><p>{e(p["description"][l])}</p><span class="foot"><span class="chips">{chips(p)}</span><span class="read">{t["read"]} →</span></span></a>' for i,p in enumerate(posts))
@@ -130,8 +134,8 @@ for l in ('id','en'):
     write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en','index.html'),page(l,t['blog']+' - Talented Education Group',t['sub'],url_idx(l),url_idx(t['langq']),body,'',hero))
 # RSS
 IMG=SITE+'/assets/share/pricelist-share-v2.jpg';IMG_LEN=os.path.getsize(os.path.join(ROOT,'assets/share/pricelist-share-v2.jpg'))  # gambar feed (GoDaddy External blog feed, pemilik 27/11/2026)
-items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description>{e(p['description']['id'])}</description><enclosure url='{IMG}' length='{IMG_LEN}' type='image/jpeg'/><media:content url='{IMG}' medium='image' type='image/jpeg'/><media:thumbnail url='{IMG}'/></item>" for p in posts)
-write(os.path.join(ROOT,'blog/feed.xml'),f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Talented Blog</title><link>{SITE}/blog/</link><description>{e(T["id"]["sub"])}</description>{items}</channel></rss>')
+items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description><![CDATA[<p><img src='{COVER[p['slug']]}' alt='' width='1200' height='630'/></p><p>{e(p['description']['id'])}</p>]]></description><content:encoded><![CDATA[<p><img src='{COVER[p['slug']]}' alt=''/></p><p>{e(p['description']['id'])}</p><p><a href='{url_post(p['slug'],'id')}'>Baca selengkapnya</a></p>]]></content:encoded><enclosure url='{COVER[p['slug']]}' length='{os.path.getsize(os.path.join(ROOT,'blog',p['slug'],'cover.jpg'))}' type='image/jpeg'/><media:content url='{COVER[p['slug']]}' medium='image' type='image/jpeg'/><media:thumbnail url='{COVER[p['slug']]}'/></item>" for p in posts)
+write(os.path.join(ROOT,'blog/feed.xml'),f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Talented Blog</title><link>{SITE}/blog/</link><description>{e(T["id"]["sub"])}</description>{items}</channel></rss>')
 urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l in ('id','en')]+[SITE+'/panduan/',SITE+'/les/']
 last={url_post(p['slug'],l):p.get('updated',p['date']) for p in posts for l in ('id','en')}
 sm=''.join(f'<url><loc>{u}</loc><lastmod>{last.get(u,posts[0]["date"])}</lastmod></url>' for u in urls)

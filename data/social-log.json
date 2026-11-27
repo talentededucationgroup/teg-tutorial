@@ -12,13 +12,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 169,
@@ -31,13 +31,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 170,
@@ -50,13 +50,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 171,
@@ -69,13 +69,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 172,
@@ -88,13 +88,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 173,
@@ -107,13 +107,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 174,
@@ -164,13 +164,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 177,
@@ -183,13 +183,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 178,
@@ -202,13 +202,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 179,
@@ -221,13 +221,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 180,
@@ -240,13 +240,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 181,
@@ -259,13 +259,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 182,
@@ -278,13 +278,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 183,
@@ -297,13 +297,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 184,
@@ -316,13 +316,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 185,
@@ -335,13 +335,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 186,
@@ -354,13 +354,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 187,
@@ -373,13 +373,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 188,
@@ -392,13 +392,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 189,
@@ -411,13 +411,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 190,
@@ -430,13 +430,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 191,
@@ -449,13 +449,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 192,
@@ -468,13 +468,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 193,
@@ -487,13 +487,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 194,
@@ -506,13 +506,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 195,
@@ -525,13 +525,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 196,
@@ -544,13 +544,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 197,
@@ -563,13 +563,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 198,
@@ -582,13 +582,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 199,
@@ -601,13 +601,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 200,
@@ -620,13 +620,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 201,
@@ -639,13 +639,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 202,
@@ -658,13 +658,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 203,
@@ -677,13 +677,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 204,
@@ -696,13 +696,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 205,
@@ -715,13 +715,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 206,
@@ -734,13 +734,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 207,
@@ -753,13 +753,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 208,
@@ -772,13 +772,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 209,
@@ -791,13 +791,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 210,
@@ -848,13 +848,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 213,
@@ -867,13 +867,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 214,
@@ -886,13 +886,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 215,
@@ -905,13 +905,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 216,
@@ -924,13 +924,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 217,
@@ -943,13 +943,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 218,
@@ -962,13 +962,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 219,
@@ -981,13 +981,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 220,
@@ -1000,13 +1000,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 221,
@@ -1019,13 +1019,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 222,
@@ -1038,13 +1038,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 223,
@@ -1057,13 +1057,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 224,
@@ -1076,13 +1076,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 225,
@@ -1095,13 +1095,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 226,
@@ -1114,13 +1114,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 227,
@@ -1133,13 +1133,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 228,
@@ -1152,13 +1152,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 229,
@@ -1171,13 +1171,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 230,
@@ -1190,13 +1190,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 231,
@@ -1209,13 +1209,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 232,
@@ -1228,13 +1228,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 233,
@@ -1247,13 +1247,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 234,
@@ -1266,13 +1266,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 235,
@@ -1285,13 +1285,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 236,
@@ -1304,13 +1304,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 237,
@@ -1323,13 +1323,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 238,
@@ -1342,13 +1342,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 239,
@@ -1361,13 +1361,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 240,
@@ -1380,13 +1380,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 241,
@@ -1399,13 +1399,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 242,
@@ -1418,13 +1418,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 243,
@@ -1437,13 +1437,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 244,
@@ -1456,13 +1456,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 245,
@@ -1475,13 +1475,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 246,
@@ -1532,13 +1532,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 249,
@@ -1551,13 +1551,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 250,
@@ -1570,13 +1570,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 251,
@@ -1589,13 +1589,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 252,
@@ -1608,13 +1608,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 253,
@@ -1627,13 +1627,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 254,
@@ -1646,13 +1646,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 255,
@@ -1665,13 +1665,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 256,
@@ -1684,13 +1684,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 257,
@@ -1703,13 +1703,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 258,
@@ -1722,13 +1722,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 259,
@@ -1741,13 +1741,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 260,
@@ -1760,13 +1760,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 261,
@@ -1779,13 +1779,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 262,
@@ -1798,13 +1798,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 263,
@@ -1817,13 +1817,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 264,
@@ -1836,13 +1836,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 265,
@@ -1855,13 +1855,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 266,
@@ -1874,13 +1874,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 267,
@@ -1893,13 +1893,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 268,
@@ -1912,13 +1912,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 269,
@@ -1931,13 +1931,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 270,
@@ -1950,13 +1950,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 271,
@@ -1969,13 +1969,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 272,
@@ -1988,13 +1988,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 273,
@@ -2007,13 +2007,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 274,
@@ -2026,13 +2026,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 275,
@@ -2045,13 +2045,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 276,
@@ -2064,13 +2064,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 277,
@@ -2083,13 +2083,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 278,
@@ -2102,13 +2102,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 279,
@@ -2121,13 +2121,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 280,
@@ -2140,13 +2140,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 281,
@@ -2159,13 +2159,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 282,
@@ -2216,13 +2216,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "poppins",
-   "deco": "rings",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "app",
    "sig": "6ef48475eb75",
-   "rendered_at": "2026-11-27T12:59:24+07:00"
+   "rendered_at": "2026-11-27T19:07:47+07:00"
   },
   {
    "no": 285,
@@ -2235,13 +2235,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 286,
@@ -2254,13 +2254,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 287,
@@ -2273,13 +2273,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 288,
@@ -2292,13 +2292,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 289,
@@ -2311,13 +2311,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 290,
@@ -2330,13 +2330,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 291,
@@ -2349,13 +2349,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 292,
@@ -2368,13 +2368,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 293,
@@ -2387,13 +2387,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 294,
@@ -2406,13 +2406,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 295,
@@ -2425,13 +2425,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 296,
@@ -2444,13 +2444,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 297,
@@ -2463,13 +2463,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 298,
@@ -2482,13 +2482,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 299,
@@ -2501,13 +2501,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 300,
@@ -2520,13 +2520,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 301,
@@ -2539,13 +2539,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 301,
@@ -2558,13 +2558,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 301,
@@ -2577,13 +2577,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 301,
@@ -2596,13 +2596,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 301,
@@ -2615,13 +2615,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 301,
@@ -2634,13 +2634,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 301,
@@ -2653,13 +2653,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 301,
@@ -2672,13 +2672,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 301,
@@ -2691,13 +2691,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 301,
@@ -2710,13 +2710,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 301,
@@ -2729,13 +2729,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 301,
@@ -2748,13 +2748,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 301,
@@ -2767,13 +2767,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 301,
@@ -2786,13 +2786,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 301,
@@ -2805,13 +2805,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 301,
@@ -2824,13 +2824,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 301,
@@ -2843,13 +2843,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 301,
@@ -2862,13 +2862,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 301,
@@ -2895,18 +2895,18 @@
    "key": "post:2026-11-27-pte-promo-indowhv26",
    "file": "Talented Pearson PTE Program November 2026.png",
    "provider": "Pearson PTE",
-   "layout": "C",
+   "layout": "D",
    "palette": "N9",
    "format": "Feed 4:5",
-   "layout_name": "Foto atas diagonal",
+   "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "poppins",
+   "font": "mont",
    "deco": "stripes",
-   "cta": "pill",
+   "cta": "app",
    "sig": "6ef48475eb75",
-   "rendered_at": "2026-11-27T13:23:46+07:00"
+   "rendered_at": "2026-11-27T19:07:47+07:00"
   },
   {
    "no": 301,
@@ -2919,13 +2919,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 301,
@@ -2938,13 +2938,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 301,
@@ -2957,13 +2957,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 301,
@@ -2976,13 +2976,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 301,
@@ -2995,13 +2995,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 301,
@@ -3014,13 +3014,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 301,
@@ -3033,13 +3033,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 301,
@@ -3052,13 +3052,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 301,
@@ -3071,13 +3071,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 301,
@@ -3090,13 +3090,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 301,
@@ -3109,13 +3109,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 301,
@@ -3128,13 +3128,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 301,
@@ -3147,13 +3147,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 301,
@@ -3166,13 +3166,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 301,
@@ -3185,13 +3185,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 301,
@@ -3204,13 +3204,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 301,
@@ -3223,13 +3223,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 301,
@@ -3242,13 +3242,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 301,
@@ -3261,13 +3261,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 301,
@@ -3280,13 +3280,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 301,
@@ -3299,13 +3299,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 301,
@@ -3318,13 +3318,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 301,
@@ -3337,13 +3337,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 301,
@@ -3356,13 +3356,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 301,
@@ -3375,13 +3375,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 301,
@@ -3394,13 +3394,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 301,
@@ -3413,13 +3413,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 301,
@@ -3432,13 +3432,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 301,
@@ -3451,13 +3451,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 301,
@@ -3470,13 +3470,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 301,
@@ -3489,13 +3489,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 301,
@@ -3508,13 +3508,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 301,
@@ -3527,13 +3527,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 301,
@@ -3546,13 +3546,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 301,
@@ -3579,18 +3579,18 @@
    "key": "post:2026-11-27-pte-promo-indowhv26",
    "file": "Talented Pearson PTE Program November 2026.png",
    "provider": "Pearson PTE",
-   "layout": "C",
+   "layout": "D",
    "palette": "N9",
    "format": "Feed 4:5",
-   "layout_name": "Foto atas diagonal",
+   "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "poppins",
+   "font": "mont",
    "deco": "stripes",
-   "cta": "pill",
+   "cta": "app",
    "sig": "6ef48475eb75",
-   "rendered_at": "2026-11-27T14:03:08+07:00"
+   "rendered_at": "2026-11-27T19:07:47+07:00"
   },
   {
    "no": 301,
@@ -3603,13 +3603,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 301,
@@ -3622,13 +3622,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 301,
@@ -3641,13 +3641,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 301,
@@ -3660,13 +3660,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 301,
@@ -3679,13 +3679,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 301,
@@ -3698,13 +3698,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 301,
@@ -3717,13 +3717,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 301,
@@ -3736,13 +3736,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 301,
@@ -3755,13 +3755,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 301,
@@ -3774,13 +3774,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 301,
@@ -3793,13 +3793,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 301,
@@ -3812,13 +3812,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 301,
@@ -3831,13 +3831,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 301,
@@ -3850,13 +3850,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 301,
@@ -3869,13 +3869,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 301,
@@ -3888,13 +3888,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 301,
@@ -3907,13 +3907,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 301,
@@ -3926,13 +3926,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 301,
@@ -3945,13 +3945,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 301,
@@ -3964,13 +3964,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 301,
@@ -3983,13 +3983,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 301,
@@ -4002,13 +4002,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 301,
@@ -4021,13 +4021,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 301,
@@ -4040,13 +4040,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 301,
@@ -4059,13 +4059,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 301,
@@ -4078,13 +4078,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 301,
@@ -4097,13 +4097,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 301,
@@ -4116,13 +4116,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 301,
@@ -4135,13 +4135,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 301,
@@ -4154,13 +4154,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 301,
@@ -4173,13 +4173,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 301,
@@ -4192,13 +4192,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 301,
@@ -4211,13 +4211,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 301,
@@ -4230,13 +4230,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 301,
@@ -4263,18 +4263,18 @@
    "key": "post:2026-11-27-pte-promo-indowhv26",
    "file": "Talented Pearson PTE Program November 2026.png",
    "provider": "Pearson PTE",
-   "layout": "C",
+   "layout": "D",
    "palette": "N9",
    "format": "Feed 4:5",
-   "layout_name": "Foto atas diagonal",
+   "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "poppins",
+   "font": "mont",
    "deco": "stripes",
-   "cta": "pill",
+   "cta": "app",
    "sig": "6ef48475eb75",
-   "rendered_at": "2026-11-27T17:26:54+07:00"
+   "rendered_at": "2026-11-27T19:07:47+07:00"
   },
   {
    "no": 301,
@@ -4287,13 +4287,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 301,
@@ -4306,13 +4306,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 301,
@@ -4325,13 +4325,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 301,
@@ -4344,13 +4344,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 301,
@@ -4363,13 +4363,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 301,
@@ -4382,13 +4382,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 301,
@@ -4401,13 +4401,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 301,
@@ -4420,13 +4420,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 301,
@@ -4439,13 +4439,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 301,
@@ -4458,13 +4458,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 301,
@@ -4477,13 +4477,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 301,
@@ -4496,13 +4496,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 301,
@@ -4515,13 +4515,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 301,
@@ -4534,13 +4534,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 301,
@@ -4553,13 +4553,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 301,
@@ -4572,13 +4572,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 301,
@@ -4591,13 +4591,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 301,
@@ -4674,13 +4674,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 301,
@@ -4693,13 +4693,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 301,
@@ -4712,13 +4712,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 301,
@@ -4731,13 +4731,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 301,
@@ -4750,13 +4750,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 301,
@@ -4769,13 +4769,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 301,
@@ -4788,13 +4788,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 301,
@@ -4807,13 +4807,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 301,
@@ -4826,13 +4826,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 301,
@@ -4845,13 +4845,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 301,
@@ -4864,13 +4864,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 301,
@@ -4883,13 +4883,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 301,
@@ -4902,13 +4902,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 301,
@@ -4921,13 +4921,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 301,
@@ -4940,13 +4940,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 301,
@@ -4959,13 +4959,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 301,
@@ -4978,13 +4978,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   },
   {
    "no": 301,
@@ -5011,18 +5011,18 @@
    "key": "post:2026-11-27-pte-promo-indowhv26",
    "file": "Talented Pearson PTE Program November 2026.png",
    "provider": "Pearson PTE",
-   "layout": "C",
+   "layout": "D",
    "palette": "N9",
    "format": "Feed 4:5",
-   "layout_name": "Foto atas diagonal",
+   "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "stripes",
-   "cta": "pill",
+   "cta": "app",
    "sig": "6ef48475eb75",
-   "rendered_at": "2026-11-27T18:12:42+07:00"
+   "rendered_at": "2026-11-27T19:07:47+07:00"
   },
   {
    "no": 301,
@@ -5035,13 +5035,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto kanan diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "4d1d392426ff",
-   "rendered_at": "2026-11-27T19:01:34+07:00"
+   "rendered_at": "2026-11-27T19:07:50+07:00"
   },
   {
    "no": 301,
@@ -5054,13 +5054,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "33cbe493be47",
-   "rendered_at": "2026-11-27T19:01:37+07:00"
+   "rendered_at": "2026-11-27T19:07:53+07:00"
   },
   {
    "no": 301,
@@ -5073,13 +5073,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Samuel Wiki / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "0eccca664530",
-   "rendered_at": "2026-11-27T19:01:40+07:00"
+   "rendered_at": "2026-11-27T19:07:56+07:00"
   },
   {
    "no": 301,
@@ -5092,13 +5092,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "9613fefe3cc6",
-   "rendered_at": "2026-11-27T19:01:43+07:00"
+   "rendered_at": "2026-11-27T19:08:00+07:00"
   },
   {
    "no": 301,
@@ -5111,13 +5111,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "30242deb5000",
-   "rendered_at": "2026-11-27T19:01:46+07:00"
+   "rendered_at": "2026-11-27T19:08:02+07:00"
   },
   {
    "no": 301,
@@ -5130,13 +5130,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "b69a320afb66",
-   "rendered_at": "2026-11-27T19:01:49+07:00"
+   "rendered_at": "2026-11-27T19:08:05+07:00"
   },
   {
    "no": 301,
@@ -5149,13 +5149,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "bf43a12d1877",
-   "rendered_at": "2026-11-27T18:13:11+07:00"
+   "rendered_at": "2026-11-27T19:08:08+07:00"
   },
   {
    "no": 301,
@@ -5168,13 +5168,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "59ba4d915e82",
-   "rendered_at": "2026-11-27T19:01:53+07:00"
+   "rendered_at": "2026-11-27T19:08:11+07:00"
   },
   {
    "no": 301,
@@ -5187,13 +5187,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi + foto miring",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "none",
+   "cta": "split",
    "sig": "c61dee9c0312",
-   "rendered_at": "2026-11-27T19:01:56+07:00"
+   "rendered_at": "2026-11-27T19:08:14+07:00"
   },
   {
    "no": 301,
@@ -5206,13 +5206,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: U.S. Army Corps of Engineers Europe District from Wiesbaden, / Wikimedia Commons, Public domain",
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "420f20f63562",
-   "rendered_at": "2026-11-27T19:01:59+07:00"
+   "rendered_at": "2026-11-27T19:08:18+07:00"
   },
   {
    "no": 301,
@@ -5225,13 +5225,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "Foto: Talented Umum",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Talented Umum",
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "a94419b3e0b2",
-   "rendered_at": "2026-11-27T19:02:02+07:00"
+   "rendered_at": "2026-11-27T19:08:21+07:00"
   },
   {
    "no": 301,
@@ -5244,13 +5244,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
-   "cta": "pill",
+   "cta": "split",
    "sig": "f06fcb45a983",
-   "rendered_at": "2026-11-27T19:02:05+07:00"
+   "rendered_at": "2026-11-27T19:08:24+07:00"
   },
   {
    "no": 301,
@@ -5263,13 +5263,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "ffc010b2c4a2",
-   "rendered_at": "2026-11-27T19:02:08+07:00"
+   "rendered_at": "2026-11-27T19:08:27+07:00"
   },
   {
    "no": 301,
@@ -5282,13 +5282,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
+   "font": "mont",
+   "deco": "stripes",
    "cta": "app",
    "sig": "2eb837316fc6",
-   "rendered_at": "2026-11-27T19:02:11+07:00"
+   "rendered_at": "2026-11-27T19:08:30+07:00"
   },
   {
    "no": 301,
@@ -5301,13 +5301,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "40f04c63f238",
-   "rendered_at": "2026-11-27T19:02:15+07:00"
+   "rendered_at": "2026-11-27T19:08:34+07:00"
   },
   {
    "no": 301,
@@ -5320,13 +5320,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "split",
    "sig": "46aa9ca8989e",
-   "rendered_at": "2026-11-27T19:02:18+07:00"
+   "rendered_at": "2026-11-27T19:08:37+07:00"
   },
   {
    "no": 301,
@@ -5339,13 +5339,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "ticket",
    "sig": "072d8c398f33",
-   "rendered_at": "2026-11-27T19:02:21+07:00"
+   "rendered_at": "2026-11-27T19:08:40+07:00"
   },
   {
    "no": 301,
@@ -5358,13 +5358,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
+   "font": "mont",
+   "deco": "none",
    "cta": "app",
    "sig": "e4cd98fec760",
-   "rendered_at": "2026-11-27T19:02:24+07:00"
+   "rendered_at": "2026-11-27T19:08:43+07:00"
   },
   {
    "no": 301,
@@ -5377,13 +5377,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "efdb4ba6d58e",
-   "rendered_at": "2026-11-27T19:02:27+07:00"
+   "rendered_at": "2026-11-27T19:08:46+07:00"
   },
   {
    "no": 301,
@@ -5396,13 +5396,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: -wuppertaler / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "f166f45de203",
-   "rendered_at": "2026-11-27T19:02:30+07:00"
+   "rendered_at": "2026-11-27T19:08:49+07:00"
   },
   {
    "no": 301,
@@ -5415,13 +5415,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "Foto: NZMA (brosur resmi)",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: NZMA (brosur resmi)",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "1374dcf1be52",
-   "rendered_at": "2026-11-27T19:02:33+07:00"
+   "rendered_at": "2026-11-27T19:08:53+07:00"
   },
   {
    "no": 301,
@@ -5434,13 +5434,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "c76c19eb09e2",
-   "rendered_at": "2026-11-27T19:02:36+07:00"
+   "rendered_at": "2026-11-27T19:08:56+07:00"
   },
   {
    "no": 301,
@@ -5453,13 +5453,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "dots",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "none",
+   "cta": "ticket",
    "sig": "f5be4dcf45f1",
-   "rendered_at": "2026-11-27T19:02:39+07:00"
+   "rendered_at": "2026-11-27T19:08:59+07:00"
   },
   {
    "no": 301,
@@ -5472,13 +5472,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto lingkaran + blok warna",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "c6566068db09",
-   "rendered_at": "2026-11-27T19:02:42+07:00"
+   "rendered_at": "2026-11-27T19:09:02+07:00"
   },
   {
    "no": 301,
@@ -5491,13 +5491,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "sticker",
+   "cta": "ticket",
    "sig": "53d87958a684",
-   "rendered_at": "2026-11-27T19:02:46+07:00"
+   "rendered_at": "2026-11-27T19:09:06+07:00"
   },
   {
    "no": 301,
@@ -5510,13 +5510,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto atas diagonal",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "a29a414e7680",
-   "rendered_at": "2026-11-27T19:02:49+07:00"
+   "rendered_at": "2026-11-27T19:09:09+07:00"
   },
   {
    "no": 301,
@@ -5529,13 +5529,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
+   "font": "mont",
    "deco": "arc",
    "cta": "app",
    "sig": "48303f036957",
-   "rendered_at": "2026-11-27T19:02:52+07:00"
+   "rendered_at": "2026-11-27T19:09:12+07:00"
   },
   {
    "no": 301,
@@ -5548,13 +5548,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tipografi bertumpuk + cap",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "8bf089f601fc",
-   "rendered_at": "2026-11-27T19:02:55+07:00"
+   "rendered_at": "2026-11-27T19:09:15+07:00"
   },
   {
    "no": 301,
@@ -5567,13 +5567,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kolase polaroid",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "stripes",
+   "font": "mont",
+   "deco": "rings",
    "cta": "app",
    "sig": "31a3de52d0b0",
-   "rendered_at": "2026-11-27T19:02:58+07:00"
+   "rendered_at": "2026-11-27T19:09:18+07:00"
   },
   {
    "no": 301,
@@ -5586,13 +5586,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Rick Obst from Eugene, United States / Wikimedia Commons, CC BY 2.0",
-   "font": "anton",
-   "deco": "stripes",
-   "cta": "pill",
+   "font": "mont",
+   "deco": "rings",
+   "cta": "split",
    "sig": "4da2b74853b6",
-   "rendered_at": "2026-11-27T19:03:01+07:00"
+   "rendered_at": "2026-11-27T19:09:21+07:00"
   },
   {
    "no": 301,
@@ -5605,13 +5605,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + panel",
    "photo": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: ノボホショコロトソ / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
-   "cta": "pill",
+   "cta": "split",
    "sig": "ba28518da6e5",
-   "rendered_at": "2026-11-27T19:03:05+07:00"
+   "rendered_at": "2026-11-27T19:09:25+07:00"
   },
   {
    "no": 301,
@@ -5624,13 +5624,13 @@
    "format": "Feed 4:5",
    "layout_name": "Tiket boarding pass",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "anton",
+   "font": "mont",
    "deco": "plus",
    "cta": "app",
    "sig": "68705ae168d4",
-   "rendered_at": "2026-11-27T19:03:08+07:00"
+   "rendered_at": "2026-11-27T19:09:28+07:00"
   },
   {
    "no": 301,
@@ -5643,13 +5643,13 @@
    "format": "Feed 4:5",
    "layout_name": "Foto penuh + harga besar di bawah",
    "photo": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Guywelch2000 / Wikimedia Commons, CC BY 4.0",
-   "font": "anton",
+   "font": "mont",
    "deco": "grid",
    "cta": "app",
    "sig": "883890c5062a",
-   "rendered_at": "2026-11-27T19:03:11+07:00"
+   "rendered_at": "2026-11-27T19:09:31+07:00"
   },
   {
    "no": 301,
@@ -5662,13 +5662,13 @@
    "format": "Feed 4:5",
    "layout_name": "Majalah/editorial",
    "photo": "tanpa foto",
-   "v": 12,
+   "v": 13,
    "credit": null,
-   "font": "anton",
-   "deco": "blob",
-   "cta": "sticker",
+   "font": "mont",
+   "deco": "stripes",
+   "cta": "ticket",
    "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:03:14+07:00"
+   "rendered_at": "2026-11-27T19:09:35+07:00"
   },
   {
    "no": 301,
@@ -5681,13 +5681,13 @@
    "format": "Feed 4:5",
    "layout_name": "Kalender deadline",
    "photo": "Foto: Szalax / Wikimedia Commons, CC0",
-   "v": 12,
+   "v": 13,
    "credit": "Foto: Szalax / Wikimedia Commons, CC0",
-   "font": "poppins",
-   "deco": "dots",
-   "cta": "pill",
+   "font": "anton",
+   "deco": "none",
+   "cta": "split",
    "sig": "57f22819734e",
-   "rendered_at": "2026-11-27T19:03:18+07:00"
+   "rendered_at": "2026-11-27T19:09:39+07:00"
   }
  ]
 }

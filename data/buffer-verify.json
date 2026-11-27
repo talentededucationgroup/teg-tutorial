@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-27T06:29:08+00:00",
+ "checked_at": "2026-11-27T07:08:12+00:00",
  "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-26T02:53:58.038Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1745683194234511",
-   "text": "🎉 Hasil asli Siswa VSA: Overall 64 di PTE Academic"
+   "sentAt": "2026-11-27T07:00:03.000Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1747100120759485",
+   "text": "Advance your academic journey with confidence thro"
   },
   "facebook|reel": {
    "sentAt": "2026-11-27T02:33:49.924Z",
@@ -61,7 +61,6 @@
  },
  "problems": [],
  "stale": [
-  "instagram feed: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-26T02:54:09.054Z)",
-  "facebook feed: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-26T02:53:58.038Z)"
+  "instagram feed: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-26T02:54:09.054Z)"
  ]
 }

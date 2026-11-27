@@ -1,6 +1,6 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-27T16:10:49+00:00",
+ "checked_at": "2026-11-27T23:21:25+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
@@ -19,9 +19,9 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-27T02:34:35.297Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpYdU52UThjSXB5VEhiYVB3WGNUTEhR",
-   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
+   "sentAt": "2026-11-27T23:18:24.836Z",
+   "link": "https://local.google.com/place?id=7461406532257566671&use=posts&lpsid=CAIQACoeChxtc3BfaDpaRTUwZnlESDhQM2ZNb0xaMmZhTmFB",
+   "text": "Vice-Chancellor's International Excellence Scholar"
   },
   "instagram|feed": {
    "sentAt": "2026-11-27T12:14:36.566Z",

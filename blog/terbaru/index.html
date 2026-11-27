@@ -17,7 +17,7 @@ h2{margin:0 0 10px;font-size:1.35rem}.hd{display:flex;justify-content:space-betw
 const q=new URLSearchParams(location.search),en=(q.get('lang')||'id').startsWith('en'),N=Math.min(12,+q.get('n')||6);
 const T=en?['Latest articles','Read article','All articles →']:['Artikel terbaru','Baca artikel','Semua artikel →'];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-if(q.get('embed')==='1')document.body.classList.add('embed');document.documentElement.lang=en?'en':'id';
+if(q.get('embed')==='1')document.body.classList.add('embed');if(q.get('notitle')==='1')document.getElementById('h').style.display='none';document.documentElement.lang=en?'en':'id';
 document.getElementById('h').textContent=T[0];const all=document.getElementById('all');all.textContent=T[2];if(en)all.href+='en/';
 const s=document.getElementById('s');document.getElementById('pv').onclick=()=>s.scrollBy({left:-310,behavior:'smooth'});document.getElementById('nx').onclick=()=>s.scrollBy({left:310,behavior:'smooth'});
 fetch('/data/blog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{

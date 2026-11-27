@@ -22,7 +22,7 @@ const q=new URLSearchParams(location.search),lang=(q.get('lang')||'id').slice(0,
 const B={id:['Lihat','Lihat semua →'],en:['View','See all →'],th:['ดู','ดูทั้งหมด →'],vi:['Xem','Xem tất cả →'],zh:['查看','查看全部 →'],ja:['見る','すべて見る →'],ko:['보기','전체 보기 →'],km:['មើល','មើលទាំងអស់ →'],fr:['Voir','Tout voir →'],pt:['Ver','Ver tudo →'],es:['Ver','Ver todo →'],de:['Ansehen','Alle ansehen →'],it:['Vedi','Vedi tutto →'],nl:['Bekijk','Alles bekijken →'],ru:['Открыть','Смотреть все →']};
 const L=B[lang]||B.en,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:''}catch{return ''}};
-if(q.get('embed')==='1')document.body.classList.add('embed');document.documentElement.lang=lang;
+if(q.get('embed')==='1')document.body.classList.add('embed');if(q.get('notitle')==='1')document.getElementById('h').style.display='none';document.documentElement.lang=lang;
 const all=document.getElementById('all');all.textContent=L[1];all.href+='&lang='+encodeURIComponent(lang);
 const s=document.getElementById('s');
 document.getElementById('pv').onclick=()=>s.scrollBy({left:-280,behavior:'smooth'});document.getElementById('nx').onclick=()=>s.scrollBy({left:280,behavior:'smooth'});

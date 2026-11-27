@@ -137,7 +137,7 @@
 "video:testimoni-asin:2026-11-26|story|6aff3157ece6dfde5f2203ab",
 "video:testimoni-asin:2026-11-26|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-27T16:00:33.358598+00:00",
+"last_run": "2026-11-27T16:07:26.892693+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -271,9 +271,7 @@
 "6aff3157ece6dfde5f2203ab|feed": 2
 }
 },
-"waiting_review": [
-"program:2026-11-26:a"
-],
+"waiting_review": [],
 "daily_other": {
 "2026-11-22": [],
 "2026-11-23": [

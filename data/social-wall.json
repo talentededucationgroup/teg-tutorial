@@ -1,5 +1,5 @@
 {
- "version": "2026-11-28T06:36:28+07:00",
+ "version": "2026-11-28T06:41:43+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,19 @@
   }
  },
  "items": [
+  {
+   "id": "mix:2026-11-28:info",
+   "kind": "marketing",
+   "date": "2026-11-28",
+   "title": "Info penting minggu ini",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Program%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=news",
+   "source": "https://immi.homeaffairs.gov.au/australian-government-migration-policy-changes",
+   "caption": "📌 Rangkuman info visa & studi terbaru minggu ini, dari sumber resmi pemerintah:",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Program%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Program%20November%202026%20Reel.mp4"
+  },
   {
    "id": "jobs:2026-11-28-228",
    "kind": "jobs",
@@ -457,19 +470,6 @@
    "country": "Singapura",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:nl-university-of-twente-scholarship|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: University of Twente Scholarship (UTS) (deadline 2027-04-01)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=University%20of%20Twente%20Scholarship%20%28UTS%29",
-   "source": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
-   "caption": "University of Twente Scholarship (UTS) sedang dibuka, pendaftaran ditutup 1 April 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Belanda",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

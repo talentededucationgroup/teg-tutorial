@@ -1145,6 +1145,48 @@
    "checked_at": "2026-11-27T19:36:57+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/jobs.json"
+  },
+  "jobs:2026-11-28-228": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "Angka 228 lowongan baru & 9 negara cocok dengan data/updates.json (item jobs:2026-11-28-228) dan data/jobs.json (updated 28/11 06.13 WIB, 309 lowongan aktif, 9 negara).",
+    "Poster dibuka: 'LOKER LUAR NEGERI', '228 lowongan baru di 9 negara', 'Jerman, UK, Australia, Kanada, Spanyol +4', atribusi 'Data: Jobs by Adzuna'; teks tidak terpotong; logo Talented jelas. Foto acara Talented dengan banner 'Study in Australia' - konten multi-negara termasuk AU/NZ, dapat diterima (A4).",
+    "Caption: bukan rekrutmen Talented, peringatan biaya pendaftaran & batas jam kerja visa, tanpa klaim aman/dijamin, tanpa nomor telepon, 3 hashtag, penutup Talented ada.",
+    "Skor 3: konten loker harian berulang tetapi angka baru hari ini; loker 27/11 sudah tayang."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-28T06:45:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
+  },
+  "program:2026-11-28:a": {
+   "verdict": "REVISI",
+   "score": 3,
+   "reasons": [
+    "SUMBER_TIDAK_TERBUKA: harga AUD 1.375/term (± AUD 5.500/tahun) tidak bisa dicocokkan. Halaman resmi kcbt.edu.au/programs/bsb50120-diploma-of-business dan kcbt.edu.au/diploma-of-business (dibuka 28/11/2026) tidak mencantumkan tuition ('Please refer to Course Details/Prices'); price list resmi kcbt.edu.au/wp-content/uploads/2025/10/OFFSHORE-OCTOBER-2025-NEW.pdf gagal dibuka (WebFetch client_error 2x, curl diblokir proxy); WebSearch domain kcbt.edu.au tanpa cuplikan harga.",
+    "Register CRICOS (data/cricos/03425F.json, snapshot 2/11/2026): BSB50120 Diploma of Business CRICOS 105303A, 52 minggu, tuition AUD 10.000 - harga poster ±45% lebih rendah tanpa bukti promo/price list publik yang terbuka. Rahasia bisnis: harga agen tidak boleh dipromosikan.",
+    "Yang cocok: 52 minggu 4 term (= 1 tahun), kampus Perth & Adelaide, IELTS 5.5 atau setara (halaman resmi KCBT). Poster: nama sekolah, kota & harga = caption; logo Talented jelas; teks tidak terpotong.",
+    "Kecil: nama program di caption 'Dip Of Business' (seharusnya 'BSB50120 Diploma of Business'); foto kampus musim gugur (kredit Eugene, US) bukan Perth/KCBT."
+   ],
+   "fix": "Butuh pemilik: konfirmasi AUD 1.375/term ada di price list offshore resmi KCBT (bukan harga agen) atau kirim PDF price list; perbaiki nama program di pricelist menjadi 'Diploma of Business (BSB50120)'.",
+   "checked_at": "2026-11-28T06:45:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://kcbt.edu.au/programs/bsb50120-diploma-of-business/"
+  },
+  "program:2026-11-28:n": {
+   "verdict": "REVISI",
+   "score": 2,
+   "reasons": [
+    "Halaman resmi wintec.ac.nz Certificate in Exercise (Level 4) (dibuka 28/11/2026): durasi 'One semester', kampus Hamilton Rotokauri, intake Feb & Jul 2027, IELTS Academic 5.5 no band <5.0 (cocok). Biaya yang tercantum hanya '$4,372*' (fee domestik/tanpa label); fee internasional di 'International Fee Guideline' PDF tidak bisa dibuka; Table of Fees hanya biaya admin/refund. NZD 13.800 tidak terverifikasi.",
+    "Menyesatkan: program 1 semester (6 bulan) disebut 'NZD 13.800/term' dan '± NZD 27.600/tahun' - estimasi per tahun menggandakan biaya padahal kursus selesai dalam 6 bulan; kemungkinan NZD 13.800 adalah biaya seluruh program.",
+    "Bidang 'Kesehatan & Keperawatan' tidak cocok: Certificate in Exercise adalah program sport/exercise, bukan keperawatan - judul & poster bisa menyesatkan.",
+    "Poster: logo Talented jelas, teks tidak terpotong, nama sekolah = caption; foto acara Talented (umum)."
+   ],
+   "fix": "Butuh pemilik/pricelist: pastikan fee internasional resmi Wintec (fee guideline 2027), ubah periode menjadi 'per semester/seluruh program' tanpa estimasi per tahun untuk kursus 6 bulan, dan petakan bidang ke Sport/Exercise (bukan Health & Nursing). Data berasal dari pricelist-data.json (bukan file sumber yang boleh diubah QA).",
+   "checked_at": "2026-11-28T06:45:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.wintec.ac.nz/study-at-wintec/courses/sport-science-and-human-performance/certificate-in-exercise-(level-4)"
   }
  }
 }

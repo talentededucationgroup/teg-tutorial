@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T23:00:16+07:00",
+ "version": "2026-11-27T23:07:22+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -290,6 +290,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
+   "id": "program:2026-11-26:n",
+   "kind": "promo",
+   "date": "2026-11-26",
+   "title": "S2 Akuntansi & Keuangan di Auckland mulai NZD 31.327/tahun",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Unitec%20Auckland%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Unitec%20-%20Auckland",
+   "source": null,
+   "caption": "🇳🇿 S2 Akuntansi & Keuangan di Auckland mulai NZD 31.327/tahun! Kuliah di New Zealand: kampus aman & ramah, boleh kerja paruh waktu sesuai aturan visa pelajar. Info: https://linktr.ee/talentededucationgroup",
+   "country": "NZ",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Unitec%20Auckland%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Unitec%20Auckland%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "program:2026-11-26:a",
    "kind": "promo",
    "date": "2026-11-26",
@@ -457,19 +470,6 @@
    "country": "Belanda",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: LPDP-UCD Scholarship Programme (Co-Funding) (deadline 2026-12-01)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=LPDP-UCD%20Scholarship%20Programme%20%28Co-Funding%29",
-   "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/lpdp",
-   "caption": "LPDP-UCD Scholarship Programme (Co-Funding) sedang dibuka, pendaftaran ditutup 1 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Irlandia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

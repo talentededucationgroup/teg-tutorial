@@ -29,7 +29,7 @@ def topic_for(field, day, slot, country='AU'):
     import os
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     have = lambda t: any(f.endswith(('.jpg', '.png')) for f in os.listdir(os.path.join(root, 'social', 'library', 'topic-' + t))) if os.path.isdir(os.path.join(root, 'social', 'library', 'topic-' + t)) else False
-    opts = [t for t in (TOPIC.get(field), 'city-au' if country == 'AU' else None, 'school') if t and have(t)]
+    opts = [t for t in (TOPIC.get(field), 'school') if t and have(t)]  # QA 27/11/2026: foto kota umum bisa beda kota (Perth untuk Melbourne)
     if not opts:
         return 'school'
     return opts[(day.toordinal() + (slot == 'b')) % len(opts)]
@@ -37,6 +37,9 @@ def topic_for(field, day, slot, country='AU'):
 
 NZ_CITIES = ['Auckland', 'Wellington', 'Hamilton', 'Dunedin', 'Palmerston North', 'Invercargill', 'Christchurch']
 NZ_VET = ('Diploma', 'Certificate (NZ/negara lain)', 'Certificate IV', 'Graduate Diploma (NZ, Level 7)')
+# QA 27/11/2026: harga di pricelist belum cocok dengan harga resmi / belum ada bukti promo -> jangan dipromosikan
+# di sosmed sampai pemilik mengonfirmasi (pricelist sendiri tidak diubah). Hapus nama dari daftar setelah terverifikasi.
+HOLD_SCHOOLS = ('Australian Agribusiness Institute', 'Asia Pacific International College', 'Albright Institute of Business and Language')
 CITIES = ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Canberra', 'Gold Coast', 'Hobart', 'Darwin']
 
 
@@ -55,6 +58,11 @@ def load():
         if not r.get('tuition') or not r.get('annual') or r.get('city') not in (CITIES if r['country'] == 'AU' else NZ_CITIES):
             continue
         p = str(r.get('program') or '')
+        if any(h.lower() in str(r.get('school') or '').lower() for h in HOLD_SCHOOLS):
+            continue
+        # QA 27/11/2026 (AIH Master of Research): harga per unit -> estimasi per tahun tidak andal; program riset bukan target promo
+        if str(r.get('period') or '').split(' ')[0] == 'Unit' or 'research' in p.lower():
+            continue
         if '+' in p or len(p) > 80 or '(' in p and '$' in p:
             continue  # paket / nama panjang: kurang jelas untuk postingan
         out.append(r)
@@ -135,6 +143,9 @@ def posts(now, closing, back_days=3):
                       'Graduate Diploma (NZ, Level 7)': 'Graduate Diploma', 'Graduate Certificate/Diploma (AU, AQF 8)': 'Graduate Diploma',
                       'Postgraduate Certificate/Diploma (NZ & negara lain)': 'Postgraduate Diploma'}.get(r['level'], r['level'])
             fid = FID.get(field, field)
+            if field == 'Community Services & Early Childhood':  # QA 27/11/2026: judul sesuai program
+                pl_ = str(r['program']).lower()
+                fid = 'Early Childhood' if 'early childhood' in pl_ else 'Community Services' if 'community' in pl_ else fid
             head = f"{lvl_id} {fid} di {r['city']}"
             cur = r.get('currency') or ('NZD' if r['country'] == 'NZ' else 'AUD')
             hero = f"{cur} {money(r['tuition'])}"
@@ -161,7 +172,7 @@ def posts(now, closing, back_days=3):
             lines.append("Scan QR di gambar atau klik link di bio untuk konsultasi gratis.")
             tags = '#KuliahDiNewZealand #StudyInNewZealand #TalentedEducation' if r['country'] == 'NZ' else '#KuliahDiAustralia #StudyInAustralia #TalentedEducation'
             cap = '\n\n'.join(lines) + '\n\n' + closing['text'] + '\n\n' + tags
-            info = [f"per {per} · {r['school']}"[:60], f"± {cur} {money(r['annual'])}/tahun · {dur_id(r['duration'])}"]
+            info = [r['school'], f"per {per} · ± {cur} {money(r['annual'])}/tahun"]  # QA 27/11/2026: nama sekolah jangan terpotong
             if slot == 'b':
                 info.insert(0, 'Jurusan dibutuhkan di Australia')
             out.append({"id": f"program:{day.isoformat()}:{slot}", "kind": "promo", "date": day.isoformat(),

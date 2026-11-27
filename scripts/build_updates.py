@@ -283,7 +283,9 @@ def caption(e, t):
         k = e['kind']
         if k == 'scholarship':
             if str(e.get('id', '')).endswith('|open'):
-                op = f"{t2} sedang dibuka" + (f", pendaftaran ditutup {dl}" if dl else '') + f". Info lengkap: {LT}"
+                # QA 27/11/2026 (CIHE Dean's List): tanpa tenggat jangan menulis "sedang dibuka"
+                op = (f"{t2} sedang dibuka, pendaftaran ditutup {dl}. Info lengkap: {LT}" if dl
+                      else f"Info beasiswa: {t2}. Sumber resmi tidak mencantumkan tanggal tutup. Info lengkap: {LT}")
             else:
                 # not open now (status 'Segera dibuka' / 'Tahunan'): never claim it is open (QA 22/11/2026)
                 op = f"Info beasiswa: {t2}. Pendaftaran belum dibuka saat ini, jadwal berikutnya belum diumumkan. Info lengkap: {LT}"
@@ -304,7 +306,7 @@ def caption(e, t):
             if fx.get('english_test') and not str(fx['english_test']).lower().startswith('sesuai'):
                 fl.append('🗣 ' + _cut(fx['english_test'], 110))
             if fx.get('notes'):
-                fl.append('📝 ' + _cut(fx['notes'], 220))
+                fl.append('📝 ' + _cut(fx['notes'], 260))
             if fl:
                 body = '\n'.join(fl) + '\n\n' + body
         elif k in ('promo', 'sponsored'):

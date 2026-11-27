@@ -564,7 +564,14 @@ LAYOUT_NAMES = {'T': 'Tipografi berita resmi', 'A': 'Foto kanan diagonal', 'B': 
 def foot_t(d, x, y, text, col, maxw):
     """catatan kaki (*Syarat & ketentuan / Data: Adzuna): dibungkus sesuai lebar kolom teks supaya tidak menimpa foto"""
     f = mont(18, 'Medium')
-    for ln in wrap(d, text, f, max(200, maxw), 2):
+    lines = wrap(d, text, f, max(200, maxw), 2)
+    if len(lines) > 1:  # QA 27/11/2026 (NZMA): 2 baris -> font lebih kecil
+        f = mont(16, 'Medium'); lines = wrap(d, text, f, max(200, maxw), 2)
+    hs = [th(d, ln, f) + 4 for ln in lines]
+    ymax = FOOT_Y - 32  # jangan sampai menimpa baris hak cipta (FOOT_Y - 24)
+    if y + sum(hs) > ymax:
+        y = ymax - sum(hs)
+    for ln in lines:
         _, h_ = draw_t(d, (x, y), ln, f, col); y += h_ + 4
 
 
@@ -986,7 +993,7 @@ def render_new(c, lay, pal, photo, logo_path):
             mk = Image.new('L', (2 * r, 2 * r), 0); ImageDraw.Draw(mk).ellipse([0, 0, 2 * r - 1, 2 * r - 1], fill=255)
             im.paste(ph, (cx - r, cy - r), mk)
         d = ImageDraw.Draw(im)
-        x, y, maxw = M, 236, 430
+        x, y, maxw = M, 236, 400  # QA 27/11/2026: cincin foto mulai x=472, teks maks. sampai x=456
         y = _stack_head(d, c['head'], x, y, maxw, tx) + 18
     elif lay == 'J':
         angs = [-6, 5, -2]
@@ -1014,7 +1021,7 @@ def render_new(c, lay, pal, photo, logo_path):
         y += 4
     maxw = W - M - x if lay == 'K' else 400  # I/J: jangan menimpa foto di kanan
     if c['hero']:
-        fhero = fit_font(d, c['hero'], anton, maxw if lay == 'K' else 430, 130 if lay == 'K' else 100, 56)
+        fhero = fit_font(d, c['hero'], anton, maxw if lay == 'K' else 400, 130 if lay == 'K' else 100, 56)
         hw, hh = tw(d, c['hero'], fhero), th(d, c['hero'], fhero)
         if y + hh + 30 < limit:
             d.rectangle([x - 12, y - 6, x + hw + 14, y + hh + 16], fill=ac)
@@ -1024,7 +1031,8 @@ def render_new(c, lay, pal, photo, logo_path):
     for i, ln in enumerate(c['info'][:2]):
         for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
             if y + 28 > limit - 22: break
-            _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 6
+            f2 = fi if tw(d, l2, fi) <= maxw else fit_font(d, l2, lambda s_: mont(s_, 'Bold'), maxw, 26, 14)  # QA 27/11/2026: URL panjang jangan menimpa foto
+            _, h_ = draw_t(d, (x, y), l2, f2, tx); y += h_ + 6
     foot_t(d, x, min(y + 6, limit - 18), c['foot'], tx, locals().get('maxw', W - M - x))
     logo_talented(im, dark, 140 if plate else 150, plate=plate)
     logo_provider(im, logo_path)

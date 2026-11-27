@@ -575,7 +575,7 @@ def pick_style(key, has_hero, has_dl=False):
     except Exception:
         log = {"note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).", "items": []}
     for it in log['items']:
-        if it.get('key') == key and it.get('v') in (9, 10, 11, 12):  # v11/v12 juga dikenali: layout tetap, QA tidak kedaluwarsa
+        if it.get('key') == key and it.get('v') in (9, 10, 11, 12, 13):  # v11/v12 juga dikenali: layout tetap, QA tidak kedaluwarsa
             return it['layout'], it['palette'], log, True
     rnd = random.Random(hashlib.sha256(key.encode()).hexdigest())
     last = [i for i in log['items'] if i.get('key') != key][-5:]
@@ -1213,7 +1213,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
         # pengaman 24/11/2026 (poster CIHE tertimpa caption CDU): kartu lama hanya dipakai ulang bila isinya sama
-        if os.path.exists(p) and rec.get('v') == 12 and rec.get('sig', sig) == sig:
+        if os.path.exists(p) and rec.get('v') == 13 and rec.get('sig', sig) == sig:
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
@@ -1283,7 +1283,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 12, "credit": credit,
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 13, "credit": credit,
            "font": sty['font'], "deco": sty['deco'], "cta": sty['cta'], "sig": sig,
            "rendered_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(timespec='seconds')}
     if known:

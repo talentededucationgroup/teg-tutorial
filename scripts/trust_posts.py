@@ -1,4 +1,5 @@
 """Postingan kepercayaan Talented (pemilik 23/11/2026): tunjukkan bahwa Talented agen lengkap, terpercaya & bereputasi,
+# 27/11/2026: maks 3 hashtag per caption (pemilik).
 dengan fokus sekolah Australia & New Zealand. Satu postingan tiap 3 hari, tema bergilir.
 Hanya fakta yang tercatat di data publik Talented (data/badges.json, alamat kantor di situs, jumlah program di pricelist);
 tanpa klaim 'pasti visa', tanpa persentase keberhasilan, tanpa nama master agent/komisi."""

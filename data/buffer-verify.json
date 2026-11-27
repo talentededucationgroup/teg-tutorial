@@ -1,6 +1,6 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-27T10:32:23+00:00",
+ "checked_at": "2026-11-27T11:18:42+00:00",
  "ok": false,
  "last_sent": {
   "facebook|feed": {

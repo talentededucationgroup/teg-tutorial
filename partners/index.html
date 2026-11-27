@@ -1,0 +1,37 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="only light">
+<title>Sekolah Partner Talented</title><meta name="description" content="Sekolah, college dan universitas partner Talented Education Group di Australia, New Zealand dan negara lain.">
+<link rel="icon" href="/tim/favicon-talented.png">
+<style>:root{color-scheme:only light}*{box-sizing:border-box}body{margin:0;background:#fff;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;color:#14213d}
+main{max-width:1200px;margin:0 auto;padding:14px}body.embed main{padding:2px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}.bar select,.bar input{border:1.5px solid #d6dbe3;border-radius:10px;padding:8px 10px;font:inherit;background:#fff;color:#14213d}.bar input{flex:1;min-width:160px}
+.n{font-size:.85rem;color:#6b7280}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.t{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;height:118px;padding:10px;border:1px solid #e6e9ef;border-radius:14px;background:#fff;text-decoration:none;color:inherit;transition:box-shadow .15s,transform .15s}
+a.t:hover{box-shadow:0 4px 14px rgba(20,33,61,.14);transform:translateY(-2px)}
+.t img{max-width:100%;max-height:62px;object-fit:contain}.t.dark .lg{background:#0d1b2a;border-radius:8px;padding:4px 8px}
+.t span{font-size:.72rem;color:#4a5a66;text-align:center;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nm{font-size:.92rem;text-align:center;color:#14213d;line-height:1.25;border-top:3px solid #c9a227;padding-top:8px}
+.more{display:block;margin:14px auto 0;border:1.5px solid #c9a227;background:#fff;color:#14213d;border-radius:10px;padding:8px 16px;font-weight:700;cursor:pointer}
+</style></head><body><main>
+<div class="bar" id="bar"><select id="c" aria-label="Negara"></select><select id="k" aria-label="Kota"></select><input id="q" type="search" placeholder="Cari sekolah…"><span class="n" id="n"></span></div>
+<div class="grid" id="g"></div><button class="more" id="more" hidden>Tampilkan lebih banyak</button></main>
+<script>
+/* Logo sekolah partner Talented (hanya yang pernah menandatangani agreement) + link situs resmi (pemilik 27/11/2026, untuk talentededucationgroup.com GoDaddy).
+   Data: https://pricelist.talentededucationgroup.com/partners/partners.json (salinan widget di domain info, cadangan untuk embed GoDaddy) (dibuat otomatis tiap rilis pricelist oleh scripts/build_partners.py).
+   Parameter: ?embed=1 &country=Australia &city=Sydney &lang=en &hidebar=1 &limit=48 */
+const q=new URLSearchParams(location.search),en=(q.get('lang')||'id').startsWith('en'),LIM=+q.get('limit')||48;
+const T=en?{all:'All countries',city:'All cities',find:'Search school…',more:'Show more',n:'schools'}:{all:'Semua negara',city:'Semua kota',find:'Cari sekolah…',more:'Tampilkan lebih banyak',n:'sekolah'};
+if(q.get('embed')==='1')document.body.classList.add('embed');if(q.get('hidebar')==='1')document.getElementById('bar').hidden=true;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:''}catch{return ''}};
+const C=document.getElementById('c'),K=document.getElementById('k'),Q=document.getElementById('q'),G=document.getElementById('g'),M=document.getElementById('more'),N=document.getElementById('n');Q.placeholder=T.find;M.textContent=T.more;
+let D=[],shown=LIM;
+const opt=(el,list,first,val)=>{el.innerHTML=`<option value="">${esc(first)}</option>`+list.map(x=>`<option${x===val?' selected':''}>${esc(x)}</option>`).join('')};
+function cities(){const c=C.value;opt(K,[...new Set(D.filter(x=>!c||x.country===c).flatMap(x=>x.cities))].sort(),T.city,K.value||q.get('city')||'')}
+function draw(){const c=C.value,k=K.value,s=Q.value.trim().toLowerCase();
+ const L=D.filter(x=>(!c||x.country===c)&&(!k||x.cities.includes(k))&&(!s||x.name.toLowerCase().includes(s)));N.textContent=L.length+' '+T.n;
+ G.innerHTML=L.slice(0,shown).map(x=>{const u=safe(x.url),tag=u?'a':'div';return `<${tag} class="t${x.dark?' dark':''}"${u?` href="${esc(u)}" target="_blank" rel="noopener"`:''} title="${esc(x.name)}">${x.logo?`<span class="lg"><img loading="lazy" src="${esc('https://pricelist.talentededucationgroup.com'+x.logo)}" alt="${esc(x.name)}"></span><span>${esc(x.name)}</span>`:`<b class="nm">${esc(x.name)}</b>`}</${tag}>`}).join('');
+ M.hidden=L.length<=shown}
+C.onchange=()=>{K.value='';cities();shown=LIM;draw()};K.onchange=Q.oninput=()=>{shown=LIM;draw()};M.onclick=()=>{shown+=LIM;draw()};
+fetch('https://pricelist.talentededucationgroup.com/partners/partners.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{D=j.items||[];opt(C,[...new Set(D.map(x=>x.country))],T.all,q.get('country')||'');cities();draw()});
+</script></body></html>

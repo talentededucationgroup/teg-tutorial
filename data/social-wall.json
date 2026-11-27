@@ -1,5 +1,5 @@
 {
- "version": "2026-11-28T06:22:41+07:00",
+ "version": "2026-11-28T06:36:28+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -159,6 +159,19 @@
   }
  },
  "items": [
+  {
+   "id": "jobs:2026-11-28-228",
+   "kind": "jobs",
+   "date": "2026-11-28",
+   "title": "228 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, Spain, Switzerland, Singapore, France, New Zealand)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "228 lowongan kerja luar negeri baru (Germany, United Kingdom, Australia, Canada, Spain, Switzerland, Singapore, France, New Zealand). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Reel.mp4"
+  },
   {
    "id": "trust:2026-11-27",
    "kind": "promo",
@@ -457,19 +470,6 @@
    "country": "Belanda",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Twente%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:nl-leiden-excellence-scholarship|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: Leiden University Excellence Scholarship (LExS) (deadline 2026-12-01)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Leiden%20University%20Excellence%20Scholarship%20%28LExS%29",
-   "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
-   "caption": "Leiden University Excellence Scholarship (LExS) sedang dibuka, pendaftaran ditutup 1 Desember 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Belanda",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Universiteit%20Leiden%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "version": "2026-11-28T06:22:41+07:00",
+ "version": "2026-11-28T06:36:28+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -1014,7 +1014,7 @@
    "date": "2026-11-24",
    "priority": 2,
    "title": {
-    "id": "📰 Australia: biaya visa Temporary Graduate (subclass 485) kini AUD 5.750 sejak 1 Jul 2026",
+    "id": "📰 Visa 485 Australia: AUD 5.750 sejak 1 Jul 2026",
     "en": "📰 Australia: Temporary Graduate visa (subclass 485) fee is now AUD 5,750 since 1 Jul 2026",
     "th": "📰 ออสเตรเลีย: ค่าวีซ่า Temporary Graduate (subclass 485) เป็น AUD 5,750 ตั้งแต่ 1 ก.ค. 2026",
     "vi": "📰 Úc: lệ phí visa Temporary Graduate (subclass 485) nay là AUD 5.750 từ 1/7/2026",

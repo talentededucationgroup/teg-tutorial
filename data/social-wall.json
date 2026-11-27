@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T22:37:04+07:00",
+ "version": "2026-11-27T22:56:03+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -212,6 +212,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pearson%20PTE%20Program%20November%202026%20Reel.mp4"
   },
   {
+   "id": "mix:2026-11-27:kami",
+   "kind": "marketing",
+   "date": "2026-11-27",
+   "title": "Semua info Talented di satu tempat",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202.png",
+   "link": "https://pricelist.talentededucationgroup.com/",
+   "source": null,
+   "caption": "📲 Semua info Talented di satu tempat: cek biaya kuliah 1 menit di pricelist (bisa dipasang jadi app gratis), beasiswa aktif, berita visa resmi, lowongan & akomodasi pelajar, sampai free mock test IELTS/PTE.",
+   "country": "ANY",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Reel.mp4"
+  },
+  {
    "id": "jobs:2026-11-27-231",
    "kind": "jobs",
    "date": "2026-11-27",
@@ -262,6 +275,32 @@
    "country": "Australia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Monash%20University%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Monash%20University%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:au-ecu-asean-international-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "title": "Beasiswa dibuka: 2027 ECU ASEAN International Scholarship (deadline 2027-12-31)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20ASEAN%20International%20Scholarship",
+   "source": "https://www.ecu.edu.au/scholarships/details/2027-asean-international-scholarship",
+   "caption": "2027 ECU ASEAN International Scholarship sedang dibuka, pendaftaran ditutup 31 Desember 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Australia",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "program:2026-11-26:a",
+   "kind": "promo",
+   "date": "2026-11-26",
+   "title": "S1 Bisnis & Manajemen di Melbourne mulai AUD 8.000/semester",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CIM%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Canterbury%20Institute%20of%20Management%20%28CIM%29",
+   "source": null,
+   "caption": "🔥 S1 Bisnis & Manajemen di Melbourne mulai AUD 8.000/semester! Info: https://linktr.ee/talentededucationgroup",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CIM%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CIM%20Promo%20November%202026%20Reel.mp4"
   },
   {
    "id": "mix:2026-11-26:testi",
@@ -381,6 +420,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
   },
   {
+   "id": "scholarship:sg-ntu-asean-undergraduate-scholarship|open",
+   "kind": "scholarship",
+   "date": "2026-11-24",
+   "title": "Beasiswa dibuka: NTU ASEAN Undergraduate Scholarship (deadline 2027-01-20)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=NTU%20ASEAN%20Undergraduate%20Scholarship",
+   "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship/asean-scholarship",
+   "caption": "NTU ASEAN Undergraduate Scholarship sedang dibuka, pendaftaran ditutup 20 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Singapura",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "scholarship:nl-university-of-twente-scholarship|open",
    "kind": "scholarship",
    "date": "2026-11-24",
@@ -418,58 +470,6 @@
    "country": "Irlandia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20UCD%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:cn-yenching-academy-pku|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: Yenching Academy Scholarship - Peking University (deadline 2026-11-30)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Yenching%20Academy%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Yenching%20Academy%20Scholarship%20-%20Peking%20University",
-   "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
-   "caption": "Yenching Academy Scholarship - Peking University sedang dibuka, pendaftaran ditutup 30 November 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Tiongkok",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Yenching%20Academy%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Yenching%20Academy%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:au-uon-vc-international-academic-merit-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: Vice-Chancellor's International Academic Merit Scholarship 2027",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Newcastle%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20International%20Academic%20Merit%20Scholarship%202027",
-   "source": "https://www.newcastle.edu.au/scholarships/UNI_059",
-   "caption": "Info beasiswa: Vice-Chancellor's International Academic Merit Scholarship 2027. Sumber resmi tidak mencantumkan tanggal tutup. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Australia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Newcastle%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Newcastle%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "program:2026-11-24:a",
-   "kind": "promo",
-   "date": "2026-11-24",
-   "title": "S1 Sains & Lingkungan di Darwin mulai AUD 8.896/term",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/?lang=id&q=Charles%20Darwin%20University%20%28CDU%29",
-   "source": null,
-   "caption": "🔥 S1 Sains & Lingkungan di Darwin mulai AUD 8.896/term! Info: https://linktr.ee/talentededucationgroup",
-   "country": "AU",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20CDU%20Promo%20November%202026%202%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:au-ecu-kickstart-bursary-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-23",
-   "title": "Beasiswa dibuka: 2027 ECU Kickstart Bursary (deadline 2028-08-01)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=2027%20ECU%20Kickstart%20Bursary",
-   "source": "https://www.ecu.edu.au/scholarships/details/2027-ecu-kickstart-bursary",
-   "caption": "2027 ECU Kickstart Bursary sedang dibuka, pendaftaran ditutup 1 Agustus 2028. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Australia",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

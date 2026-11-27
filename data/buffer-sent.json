@@ -24,6 +24,9 @@
 "post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba2",
 "post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba3",
 "post:2026-11-25-testimoni-helen|feed|6aff3375ece6dfde5f221ba4",
+"post:2026-11-27-pte-promo-indowhv26|feed|6aff3157ece6dfde5f2203ab",
+"post:2026-11-27-pte-promo-indowhv26|feed|6aff319cece6dfde5f2206b4",
+"post:2026-11-27-pte-promo-indowhv26|feed|6aff3328ece6dfde5f221865",
 "post:2026-w47-ais|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-w47-ais|feed|6aff319cece6dfde5f2206b4",
 "post:2026-w47-ais|feed|6aff32d7ece6dfde5f22151d",
@@ -131,7 +134,7 @@
 "video:testimoni-asin:2026-11-26|story|6aff3157ece6dfde5f2203ab",
 "video:testimoni-asin:2026-11-26|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-27T12:03:31.387827+00:00",
+"last_run": "2026-11-27T12:09:51.662092+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -259,11 +262,13 @@
 "6aff3375ece6dfde5f221ba3|feed": 1,
 "6aff3375ece6dfde5f221ba2|feed": 1,
 "6aff3375ece6dfde5f221ba1|feed": 1,
-"6aff32d7ece6dfde5f22151d|feed": 1
+"6aff32d7ece6dfde5f22151d|feed": 1,
+"6aff3328ece6dfde5f221865|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 1,
+"6aff3157ece6dfde5f2203ab|feed": 1
 }
 },
 "waiting_review": [
-"jobs:2026-11-27-231",
 "jobs:2026-11-27-251",
 "mix:2026-11-26:testi",
 "mix:2026-11-27:kami",
@@ -272,7 +277,6 @@
 "post:2026-11-25-psikologi",
 "post:2026-11-25-qs-sustainability",
 "post:2026-11-25-testimoni-helen",
-"post:2026-11-27-pte-promo-indowhv26",
 "scholarship:au-ecu-asean-international-2027|open",
 "scholarship:au-monash-vc-asean-award|open",
 "scholarship:au-torrens-family-scholarship|open",

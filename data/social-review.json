@@ -1187,6 +1187,20 @@
    "checked_at": "2026-11-28T06:45:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.wintec.ac.nz/study-at-wintec/courses/sport-science-and-human-performance/certificate-in-exercise-(level-4)"
+  },
+  "mix:2026-11-28:info": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Diperbaiki otomatis run ini: poster awal memotong kedua judul berita ('...(8503) wa', '...(subc'); judul ID di data/news.json dipendekkan (commit 3989f4b), poster dirender ulang 2106bf9 - kini kedua baris utuh: 'Visa visitor AU wajib 8503 mulai 28 Nov 2026' & 'Visa 485 Australia: AUD 5.750 sejak 1 Jul 2026'.",
+    "A: 8503 - Migration Amendment (Preventing Further Stay for Visitor Visas) Regulations 2026 (F2026L01503) ada di legislation.gov.au (WebSearch domain resmi 28/11/2026; halaman teks tidak terbuka); detail berlaku 28/11/2026 untuk subclass 600/601/651 terverifikasi audit 26/11 (news.json recheck). Berlaku hari ini - relevan & baru.",
+    "A3: biaya 485 AUD 5.750 sejak 1 Jul 2026 = tarif tahun berjalan (terverifikasi studyaustralia.gov.au di QA 25/11); kalimat 'sejak', bukan 'diumumkan'.",
+    "Poster: logo Talented jelas, teks tidak terpotong/bertabrakan; foto acara Talented dengan banner Study in Australia - konten AU (A4 ok). Caption: link resmi Home Affairs, penutup Talented, 3 hashtag, tanpa nomor telepon/rahasia bisnis."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-28T06:40:54+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://immi.homeaffairs.gov.au/australian-government-migration-policy-changes"
   }
  }
 }

@@ -39,7 +39,8 @@ NZ_CITIES = ['Auckland', 'Wellington', 'Hamilton', 'Dunedin', 'Palmerston North'
 NZ_VET = ('Diploma', 'Certificate (NZ/negara lain)', 'Certificate IV', 'Graduate Diploma (NZ, Level 7)')
 # QA 27/11/2026: harga di pricelist belum cocok dengan harga resmi / belum ada bukti promo -> jangan dipromosikan
 # di sosmed sampai pemilik mengonfirmasi (pricelist sendiri tidak diubah). Hapus nama dari daftar setelah terverifikasi.
-HOLD_SCHOOLS = ('Australian Agribusiness Institute', 'Asia Pacific International College', 'Albright Institute of Business and Language')
+HOLD_SCHOOLS = ('Australian Agribusiness Institute', 'Australian Business Institute', 'Leaders Institute',
+                'Asia Pacific International College', 'Albright Institute of Business and Language')
 CITIES = ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Canberra', 'Gold Coast', 'Hobart', 'Darwin']
 
 
@@ -62,6 +63,11 @@ def load():
             continue
         # QA 27/11/2026 (AIH Master of Research): harga per unit -> estimasi per tahun tidak andal; program riset bukan target promo
         if str(r.get('period') or '').split(' ')[0] == 'Unit' or 'research' in p.lower():
+            continue
+        # QA 27/11/2026 (KOI MBA): tuition per periode harus cocok dengan estimasi per tahun (trimester ~3x, semester ~2x)
+        per0 = str(r.get('period') or '').split(' ')[0]
+        k_ = {'Trimester': 3, 'Semester': 2}.get(per0)
+        if k_ and r.get('tuition') and abs(r['annual'] / r['tuition'] - k_) > 0.5:
             continue
         if '+' in p or len(p) > 80 or '(' in p and '$' in p:
             continue  # paket / nama panjang: kurang jelas untuk postingan
@@ -166,7 +172,10 @@ def posts(now, closing, back_days=3):
             elif sch == 'Seleksi':
                 det.append("🎓 Ada beasiswa kampus (seleksi)")
             if r.get('english'):
-                det.append(f"🗣 Bahasa Inggris: {str(r['english'])[:70]}")
+                eng = ' '.join(str(r['english']).split())
+                if len(eng) > 110:  # QA 27/11/2026: jangan potong di tengah kata
+                    eng = eng[:110].rsplit(' ', 1)[0].rstrip(' /(,;') + '…'
+                det.append(f"🗣 Bahasa Inggris: {eng}")
             lines.append('\n'.join(det))
             lines.append(f"Cek dana awal, total biaya studi & saran rekening koran untuk visa di pricelist Talented (gratis): {url}\n\n*Perkiraan. Biaya final mengikuti offer letter resmi sekolah.")
             lines.append("Scan QR di gambar atau klik link di bio untuk konsultasi gratis.")

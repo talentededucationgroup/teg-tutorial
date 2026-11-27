@@ -129,8 +129,9 @@ for l in ('id','en'):
     body=f"""{cards}<h2>📰 {t['news']}<a class="more" href="{NEWSALL}&lang={l}">{allnews}</a></h2>{news_list(l)}{cta(l)}<p class="disc">{e(t['disc'])}</p>"""
     write(os.path.join(ROOT,'blog' if l=='id' else 'blog/en','index.html'),page(l,t['blog']+' - Talented Education Group',t['sub'],url_idx(l),url_idx(t['langq']),body,'',hero))
 # RSS
-items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description>{e(p['description']['id'])}</description></item>" for p in posts)
-write(os.path.join(ROOT,'blog/feed.xml'),f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Talented Blog</title><link>{SITE}/blog/</link><description>{e(T["id"]["sub"])}</description>{items}</channel></rss>')
+IMG=SITE+'/assets/share/pricelist-share-v2.jpg';IMG_LEN=os.path.getsize(os.path.join(ROOT,'assets/share/pricelist-share-v2.jpg'))  # gambar feed (GoDaddy External blog feed, pemilik 27/11/2026)
+items=''.join(f"<item><title>{e(p['title']['id'])}</title><link>{url_post(p['slug'],'id')}</link><guid>{url_post(p['slug'],'id')}</guid><pubDate>{datetime.datetime.fromisoformat(p['date']).strftime('%a, %d %b %Y 08:00:00 +0700')}</pubDate><description>{e(p['description']['id'])}</description><enclosure url='{IMG}' length='{IMG_LEN}' type='image/jpeg'/><media:content url='{IMG}' medium='image' type='image/jpeg'/><media:thumbnail url='{IMG}'/></item>" for p in posts)
+write(os.path.join(ROOT,'blog/feed.xml'),f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Talented Blog</title><link>{SITE}/blog/</link><description>{e(T["id"]["sub"])}</description>{items}</channel></rss>')
 urls=[url_idx('id'),url_idx('en')]+[url_post(p['slug'],l) for p in posts for l in ('id','en')]+[SITE+'/panduan/',SITE+'/les/']
 last={url_post(p['slug'],l):p.get('updated',p['date']) for p in posts for l in ('id','en')}
 sm=''.join(f'<url><loc>{u}</loc><lastmod>{last.get(u,posts[0]["date"])}</lastmod></url>' for u in urls)

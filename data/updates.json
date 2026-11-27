@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T19:13:57+07:00",
+ "version": "2026-11-27T19:38:45+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -129,21 +129,21 @@
    "date": "2026-11-27",
    "priority": 2,
    "title": {
-    "id": "🎓 Beasiswa dibuka: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "en": "🎓 Scholarship open: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "th": "🎓 เปิดรับทุน: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "vi": "🎓 Học bổng đang mở: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "zh": "🎓 奖学金开放申请：KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "ja": "🎓 奨学金募集中：KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "ko": "🎓 장학금 모집 중: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "km": "🎓 អាហារូបករណ៍បើក៖ KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "fr": "🎓 Bourse ouverte : KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "pt": "🎓 Bolsa aberta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "es": "🎓 Beca abierta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "de": "🎓 Stipendium offen: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "it": "🎓 Borsa aperta: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "nl": "🎓 Beurs open: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-    "ru": "🎓 Открыт приём на стипендию: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)"
+    "id": "🎓 Beasiswa dibuka: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "en": "🎓 Scholarship open: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "th": "🎓 เปิดรับทุน: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "vi": "🎓 Học bổng đang mở: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "zh": "🎓 奖学金开放申请：KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "ja": "🎓 奨学金募集中：KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "ko": "🎓 장학금 모집 중: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "km": "🎓 អាហារូបករណ៍បើក៖ KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "fr": "🎓 Bourse ouverte : KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "pt": "🎓 Bolsa aberta: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "es": "🎓 Beca abierta: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "de": "🎓 Stipendium offen: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "it": "🎓 Borsa aperta: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "nl": "🎓 Beurs open: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+    "ru": "🎓 Открыт приём на стипендию: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)"
    },
    "tab": "scholarships",
    "url": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KAIST%20Scholarship%20-%20Undergraduate%20International%20Admission%202027%20%28Regular%20Admissions%29",

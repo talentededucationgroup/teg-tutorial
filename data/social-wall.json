@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T19:13:57+07:00",
+ "version": "2026-11-27T19:38:45+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -160,6 +160,19 @@
  },
  "items": [
   {
+   "id": "trust:2026-11-27",
+   "kind": "promo",
+   "date": "2026-11-27",
+   "title": "Agen Terverifikasi - Talented Education Group",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com",
+   "source": null,
+   "caption": "🛡 Talented Education Group adalah PIER Verified Agency.",
+   "country": "AU",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Australia%20Promo%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "site:2026-11-27:site-05",
    "kind": "marketing",
    "date": "2026-11-27",
@@ -171,19 +184,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:kr-kaist-scholarship-undergraduate-2027|open",
-   "kind": "scholarship",
-   "date": "2026-11-27",
-   "title": "Beasiswa dibuka: KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) (deadline 2027-01-14)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KAIST%20Scholarship%20-%20Undergraduate%20International%20Admission%202027%20%28Regular%20Admissions%29",
-   "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
-   "caption": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions) sedang dibuka, pendaftaran ditutup 14 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Korea Selatan",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "post:2026-11-27-pte-promo-indowhv26",
@@ -199,19 +199,6 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pearson%20PTE%20Program%20November%202026%20Reel.mp4"
   },
   {
-   "id": "mix:2026-11-27:kami",
-   "kind": "marketing",
-   "date": "2026-11-27",
-   "title": "Semua info Talented di satu tempat",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202.png",
-   "link": "https://pricelist.talentededucationgroup.com/",
-   "source": null,
-   "caption": "📲 Semua info Talented di satu tempat: cek biaya kuliah 1 menit di pricelist (bisa dipasang jadi app gratis), beasiswa aktif, berita visa resmi, lowongan & akomodasi pelajar, sampai free mock test IELTS/PTE.",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Talented%20Umum%20Program%20November%202026%202%20Reel.mp4"
-  },
-  {
    "id": "jobs:2026-11-27-231",
    "kind": "jobs",
    "date": "2026-11-27",
@@ -223,6 +210,19 @@
    "country": null,
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%206%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%206%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:nz-waikato-vcies-sea-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-26",
+   "title": "Beasiswa dibuka: Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 (deadline 2026-11-30)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Waikato%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Vice-Chancellor%27s%20International%20Excellence%20Scholarship%20for%20South-East%20Asia%202027",
+   "source": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-SEA.pdf",
+   "caption": "Vice-Chancellor's International Excellence Scholarship for South-East Asia 2027 sedang dibuka, pendaftaran ditutup 30 November 2026. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Selandia Baru",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Waikato%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20University%20of%20Waikato%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:au-uts-southeast-asia-international|open",
@@ -290,6 +290,19 @@
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Te%20Herenga%20Waka%20Beasiswa%20November%202026%202%20Reel.mp4"
   },
   {
+   "id": "scholarship:id-beasiswa-garuda-sarjana|open",
+   "kind": "scholarship",
+   "date": "2026-11-25",
+   "title": "Beasiswa dibuka: Beasiswa Garuda Sarjana (S1 Luar Negeri) (deadline 2027-01-04)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=Beasiswa%20Garuda%20Sarjana%20%28S1%20Luar%20Negeri%29",
+   "source": "https://beasiswagaruda.kemdiktisaintek.go.id/buku-panduan-pendaftaran-beasiswa-garuda-2027.pdf",
+   "caption": "Beasiswa Garuda Sarjana (S1 Luar Negeri) sedang dibuka, pendaftaran ditutup 4 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Berbagai negara",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Kemdiktisaintek%20RI%20Beasiswa%20November%202026%20Reel.mp4"
+  },
+  {
    "id": "post:2026-11-25-testimoni-helen",
    "kind": "marketing",
    "date": "2026-11-25",
@@ -353,19 +366,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
-  },
-  {
-   "id": "mix:2026-11-25:school:nzma",
-   "kind": "marketing",
-   "date": "2026-11-25",
-   "title": "Kenalan dengan NZMA - Auckland",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=programs&q=NZMA",
-   "source": null,
-   "caption": "🏫 Kenalan dengan NZMA - Auckland: 18 program di pricelist Talented (Auckland, Wellington).",
-   "country": "NZ",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NZMA%20Program%20November%202026%20Reel.mp4"
   },
   {
    "id": "scholarship:nl-university-of-twente-scholarship|open",

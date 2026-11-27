@@ -1119,6 +1119,34 @@
    "checked_at": "2026-11-27T06:52:17+07:00",
    "model": "claude (QA terjadwal)",
    "source": "data/badges.json"
+  },
+  "post:2026-11-27-pte-promo-indowhv26": {
+   "verdict": "LOLOS",
+   "score": 4,
+   "reasons": [
+    "Poster (render 18:12 WIB) cocok dengan caption: 10%, kode indoWHV26, s.d. 31 Des 2026, 'Promo resmi Pearson. S&K berlaku.'; logo Talented terlihat, teks tidak terpotong.",
+    "Sumber promo: WhatsApp resmi Pearson ke pemilik (27/11/2026, data/social-posts.json); kode tidak ditemukan di situs publik Pearson (WebSearch 27/11) - wajar untuk kode promo partner.",
+    "Klaim Pearson dicek di pearsonpte.com/destination-australia (27/11/2026): hasil 'typically in less than 48 hours', diterima Home Affairs untuk visa yang mensyaratkan bahasa Inggris, disebut untuk visa Australia & New Zealand. Halaman FAQ di caption tidak terbuka (izin WebFetch timeout).",
+    "Tanpa rahasia bisnis, tanpa klaim jaminan, 3 hashtag, penutup Talented ada, tanpa nomor telepon."
+   ],
+   "fix": "Opsional: konfirmasi ke Pearson apakah kode indoWHV26 khusus pelamar WHV; bila ya, sebut di caption.",
+   "checked_at": "2026-11-27T19:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "https://www.pearsonpte.com/destination-australia/"
+  },
+  "jobs:2026-11-27-231": {
+   "verdict": "LOLOS",
+   "score": 3,
+   "reasons": [
+    "Angka 231 lowongan baru & 6 negara cocok dengan data/updates.json + data/jobs.json (updated 27/11 18.08 WIB, 337 lowongan aktif; 6 negara di judul ada di data).",
+    "Poster: 'LOKER LUAR NEGERI', '231 lowongan baru di 6 negara', atribusi 'Data: Jobs by Adzuna'; teks tidak terpotong (masalah teks tertimpa pada item 251 tidak terjadi di layout ini); logo Talented terlihat. Foto banner TEG 'Study in Australia' - konten umum multi-negara termasuk AU/NZ, masih dapat diterima.",
+    "Caption: bukan rekrutmen Talented, peringatan biaya pendaftaran & batas jam kerja visa, tanpa klaim aman/dijamin, 3 hashtag.",
+    "Menggantikan jobs:2026-11-27-251 (REVISI); kuota loker W48 0/2."
+   ],
+   "fix": "",
+   "checked_at": "2026-11-27T19:20:00+07:00",
+   "model": "claude (QA terjadwal)",
+   "source": "data/jobs.json"
   }
  }
 }

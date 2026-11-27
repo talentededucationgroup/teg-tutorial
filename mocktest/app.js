@@ -35,7 +35,7 @@ function pick(testId,slot,count,exclude){
 function markSeen(testId,ids){const seen=store.get('seen:'+testId,{});const now=Date.now();ids.forEach(i=>seen[i]=now);store.set('seen:'+testId,seen)}
 // ---------- views ----------
 const app=()=>$('#app');
-function header(title,sub){return `<header class="top"><a class="brand" href="?lang=${LANG}"><img src="${BASE}logo.png" alt="" onerror="this.remove()">Talented Education Group</a><div class="lang"><label>🌐 <select id="langSel">${LANGS.map(l=>`<option value="${l}"${l===LANG?' selected':''}>${UI._langnames?UI._langnames[l]:l}</option>`).join('')}</select></label></div></header>
+function header(title,sub){return `<header class="top"><a class="brand vsa" href="?lang=${LANG}"><img class="vsa-mark" src="${BASE}vsa-logo.png" alt="Victory Scholars Academy" onerror="this.remove()"><span class="bt"><b>Victory Scholars Academy</b><small>${esc(t('sponsored_by'))} <img src="${BASE}logo.png" alt="" onerror="this.remove()">Talented Education Group</small></span></a><div class="lang"><label>🌐 <select id="langSel">${LANGS.map(l=>`<option value="${l}"${l===LANG?' selected':''}>${UI._langnames?UI._langnames[l]:l}</option>`).join('')}</select></label></div></header>
 <div class="hero"><p class="eyebrow">${esc(t('free_mock'))}</p><h1>${esc(title)}</h1>${sub?`<p class="sub">${sub}</p>`:''}</div>`}
 function bindLang(){const s=$('#langSel');if(s)s.onchange=()=>{Q.set('lang',s.value);location.search=Q.toString()}}
 function pageUrl(q){const u=new URL(location.origin+location.pathname);Object.entries(q||{}).forEach(([k,v])=>v&&u.searchParams.set(k,v));u.searchParams.set('lang',LANG);return u.href}
@@ -44,7 +44,7 @@ function bindShare(){$$('[data-nshare]').forEach(b=>b.onclick=()=>{const url=b.d
  $$('[data-copy]').forEach(b=>b.onclick=()=>{const url=b.dataset.copy,ok=()=>{const m=b.parentNode.querySelector('.copied');if(m){m.hidden=false;setTimeout(()=>m.hidden=true,1800)}};try{navigator.clipboard.writeText(url).then(ok,()=>{prompt(t('copy_link'),url)})}catch(e){prompt(t('copy_link'),url)}})}
 const CAT={ielts:'en',pte:'en',jlpt:'ja',topik:'ko',hsk:'zh'};
 function home(){
-  document.title=t('free_mock')+' - Talented Education Group';
+  document.title=t('free_mock')+' - Victory Scholars Academy';
   app().innerHTML=header(t('free_mock'),esc(t('home_sub')))+`<div class="acts top"><a class="btn back" href="${backHref()}" id="backSite">← ${esc(t('back_site'))}</a> ${fileBtn('hFile','📥 '+t('open_file'))}</div><h2 class="choose">${esc(t('choose_test'))}</h2><div class="tabs cats" role="tablist">${['all','en','ja','ko','zh'].filter(c=>c==='all'||IDX.tests.some(x=>(CAT[x.id]||'all')===c)).map(c=>`<button type="button" role="tab" class="tab" data-cat="${c}" aria-selected="false">${esc(t('tab_'+c))}</button>`).join('')}</div><div class="grid">${IDX.tests.map(x=>`<a class="card test" data-cat="${CAT[x.id]||'all'}" href="?test=${x.id}&lang=${LANG}"><span class="flag">${x.icon||''}</span><b>${esc(x.title)}</b><small>${esc(L(x.desc))}</small><span class="status ${x.ready?'ok':'soon'}">${x.ready?esc(t('available')):esc(t('coming_soon'))}</span></a>`).join('')}</div>
 ${shareBar('shHome',t('invite_title'),pageUrl(),t('invite_msg').replace('{test}',t('all_free')))}
   <section class="note">${esc(t('disclaimer'))}<br><a href="?mode=guru&lang=${LANG}">👩‍🏫 ${esc(t('teacher_mode'))}</a></section>`+footer();
@@ -52,7 +52,7 @@ ${shareBar('shHome',t('invite_title'),pageUrl(),t('invite_msg').replace('{test}'
   const setCat=c=>{$$('.tabs.cats .tab').forEach(b=>{const on=b.dataset.cat===c;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});$$('.grid .card.test').forEach(a=>a.hidden=!(c==='all'||a.dataset.cat===c))};
   $$('.tabs.cats .tab').forEach(b=>b.onclick=()=>setCat(b.dataset.cat));
   const qc=Q.get('cat'); setCat(['en','ja','ko','zh'].includes(qc)?qc:'all');
-  bindShare();
+  bindShare(); appPrompt();
   $('#backSite').onclick=e=>{try{if(document.referrer&&new URL(document.referrer).host.includes('talentededucationgroup')&&history.length>1){e.preventDefault();history.back()}}catch(_){}};
 }
 function footer(){return `<footer><p>${esc(t('footer_vsa'))}</p><p><a class="btn gold" href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">💬 ${esc(t('ask_consultant'))}</a></p><p class="small">© Talented Education Group · ${esc(t('privacy'))}</p></footer>`}
@@ -699,4 +699,20 @@ window.addEventListener('popstate',()=>{if(!BANK||MODE)return;
   testPage();
 })();
 if(/[?&]debug=1\b/.test(location.search))window.__mt={get RUN(){return RUN},renderRun:()=>renderRun(),finish:f=>finish(f),overall:(sk,rep)=>overallOf(sk,rep)};
+/* "Pasang aplikasi" pop-up (home page only, phones/tablets). Android/Chrome/Samsung: real install prompt when the browser offers it,
+   otherwise menu instructions; iPhone/iPad: Share -> Add to Home Screen. Hidden when already installed, after "Later"
+   for 14 days, and in print. Nothing is sent anywhere; the choice is kept in this browser only. */
+let INSTALL_EVT=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();INSTALL_EVT=e;const b=$('#apInstall');if(b)b.hidden=false});
+window.addEventListener('appinstalled',()=>{const p=$('#appPop');p&&p.remove();store.set('app_pop_until',Date.now()+3650*864e5)});
+function appPrompt(){
+  try{if(!matchMedia('(pointer: coarse)').matches)return;if(matchMedia('(display-mode: standalone)').matches||navigator.standalone)return;if(Date.now()<(store.get('app_pop_until',0)||0))return}catch(_){}
+  if($('#appPop'))return;
+  const ios=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const d=document.createElement('div');d.id='appPop';d.className='app-pop';d.setAttribute('role','dialog');d.setAttribute('aria-label',t('app_title'));
+  d.innerHTML=`<img src="img/app-icon-192.png" alt="" width="48" height="48"><div class="ap-txt"><b>${esc(t('app_title'))}</b><span>${esc(t('app_desc'))}</span><small id="apHow">${esc(ios?t('app_ios'):t('app_android'))}</small></div><div class="ap-act"><button class="btn" id="apInstall" ${INSTALL_EVT?'':'hidden'}>${esc(t('app_install'))}</button><button class="btn ghost" id="apLater">${esc(t('app_later'))}</button></div>`;
+  document.body.appendChild(d);
+  $('#apLater').onclick=()=>{store.set('app_pop_until',Date.now()+14*864e5);d.remove()};
+  $('#apInstall').onclick=async()=>{if(!INSTALL_EVT)return;INSTALL_EVT.prompt();try{const r=await INSTALL_EVT.userChoice;if(r&&r.outcome==='accepted')d.remove()}catch(_){}INSTALL_EVT=null};
+}
 })();

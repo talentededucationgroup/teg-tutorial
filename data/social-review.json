@@ -1055,18 +1055,17 @@
    "source": "data/jobs.json"
   },
   "scholarship:kr-kaist-scholarship-undergraduate-2027|open": {
-   "verdict": "REVISI",
+   "verdict": "LOLOS",
    "score": 4,
    "reasons": [
-    "Cek ulang 27/11/2026 19.37 WIB karena poster dirender ulang v13 (19.07-19.09 WIB, data/social-log.json rendered_at > checked_at lama): poster baru dibuka; D: nama beasiswa di poster terpotong tanpa elipsis \"...Admission 2027 (Regula\". DIPERBAIKI OTOMATIS: nama di data/scholarships.json (ID + 14 bahasa) dipersingkat menjadi \"KAIST Scholarship - Undergraduate 2027\" (detail Regular Admissions tetap di notes), menunggu render ulang lalu QA ulang. Fakta caption tetap cocok dengan halaman resmi KAIST (dicek 27/11/2026).",
+    "DIPERBAIKI OTOMATIS & dicek ulang 27/11/2026 19.44 WIB pada render 19.38 WIB: nama di poster kini \"KAIST Scholarship - Undergraduate 2027\" lengkap (tidak terpotong), kalender 14 Januari 2027 & logo Talented jelas; caption memakai nama baru, detail Regular Admissions tetap ada.",
     "Dicek ulang pada render 27/11 06.47-06.49 WIB (layout baru acak): kalender 14 Januari 2027, judul Korea & logo Talented jelas, tidak ada teks tertimpa.",
     "Cocok dengan halaman resmi KAIST (admission.kaist.ac.kr, cek 27/11/2026): bebas tuition 8 semester, tunjangan KRW 350.000/bulan, asuransi kesehatan; tanpa aplikasi terpisah (centang 'KAIST scholarship' di Statement of Financial Resources); IPK wajib >2,7 (skala 4,3) setelah tahun pertama.",
     "Application Timeline resmi: Regular Admissions (Fall Track) 10 Nov 2026 - 14 Jan 2027 18.00 KST (rekomendasi s.d. 21 Jan) - deadline poster & caption benar.",
-    "Poster: logo Talented terlihat, kalender 14 Januari 2027 jelas, nama beasiswa diringkas dengan elipsis (wajar); foto kampus musim gugur netral (bukan banner AU). Tanpa rahasia bisnis/klaim jaminan; 3 hashtag.",
-    "Negara non-AU/NZ: selingan beasiswa besar (penuh 4 tahun)."
+    "Poster: logo Talented terlihat, kalender 14 Januari 2027 jelas, nama beasiswa diringkas dengan elipsis (wajar); foto kampus musim gugur netral (bukan banner AU). Tanpa rahasia bisnis/klaim jaminan; 3 hashtag."
    ],
-   "fix": "Tunggu render ulang dengan nama pendek, lalu cek ulang.",
-   "checked_at": "2026-11-27T19:36:57+07:00",
+   "fix": "",
+   "checked_at": "2026-11-27T19:43:46+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist"
   },

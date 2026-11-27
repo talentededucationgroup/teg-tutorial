@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T21:30:01+07:00",
+ "version": "2026-11-27T22:32:31+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -284,12 +284,12 @@
      "S1",
      "S2"
     ],
-    "coverage": "Potongan 20% tuition selama durasi standar program (hanya tuition)",
+    "coverage": "Selama durasi standar program (hanya tuition)",
     "amount": "Potongan tuition 20%",
-    "eligibility": "Warga negara ASEAN yang memenuhi syarat (Indonesia termasuk); mulai S1/S2 coursework ECU tahun 2027 di kampus Joondalup, City atau South West; full-fee, bukan penerima beasiswa pemerintah/sponsor industri; memenuhi syarat masuk ECU. Halaman resmi juga mencantumkan syarat terdaftar di paket pathway dengan mitra pathway resmi ECU.",
+    "eligibility": "Warga ASEAN (termasuk Indonesia) yang terdaftar di paket pathway dengan mitra pathway resmi ECU menuju S1/S2 ECU 2027; kuliah di kampus Joondalup, City atau South West; full-fee, tanpa beasiswa pemerintah/sponsor.",
     "english_test": "Sesuai syarat masuk program ECU",
     "deadline": "2027-12-31",
-    "notes": "Tidak perlu daftar terpisah: dinilai otomatis saat apply program ECU, tercantum di Letter of Offer. Wajib full-time & nilai baik agar tetap berlaku. Syarat paket pathway di halaman resmi perlu dikonfirmasi ke ECU untuk siswa direct entry. Tidak bisa digabung beasiswa ECU lain kecuali disetujui ECU. Daftar lewat konsultan Talented."
+    "notes": "Halaman resmi mewajibkan paket pathway dan tidak menyebut direct entry - konfirmasi ke ECU. Tanpa aplikasi terpisah: otomatis dinilai, tercantum di Letter of Offer. Wajib full-time; tidak bisa ditunda."
    }
   },
   {
@@ -660,12 +660,12 @@
      "S1",
      "S2"
     ],
-    "coverage": "Potongan tuition tahunan, diterapkan pro-rata tiap term",
-    "amount": "Potongan tuition 30%",
-    "eligibility": "Mahasiswa internasional full-fee mulai Trimester 1 2027 atau setelahnya; S1 min. selection rank 85 (atau setara), S2 min. GPA 4.5/7.",
+    "coverage": "Dari tuition tahunan, diterapkan pro-rata tiap term selama program",
+    "amount": "Potongan tuition 30% per tahun untuk S1/S2 mulai 2027",
+    "eligibility": "Mahasiswa internasional full-fee mulai Trimester 1 2027 atau setelahnya; S1 min. selection rank 85 (atau setara), S2 min. GPA 4.5/7; tinggal maks. 50 km dari kampus di CoE.",
     "english_test": "",
     "deadline": "",
-    "notes": "Tanpa aplikasi; otomatis dinilai saat mendaftar. Maksimal 270 beasiswa di 2027, setelah itu masuk daftar tunggu. Tanggal tutup tidak dicantumkan."
+    "notes": "Tanpa aplikasi: otomatis dinilai saat daftar kuliah, tercantum di Letter of Offer. Kuota terbatas: maks. 270 beasiswa di 2027, lalu daftar tunggu. Tidak untuk program online/offshore, riset, atau mahasiswa bersponsor."
    }
   },
   {
@@ -700,12 +700,12 @@
      "S1",
      "S2"
     ],
-    "coverage": "Hibah tunai satu kali setelah census date periode studi pertama",
-    "amount": "AUD 1.500 (satu kali)",
-    "eligibility": "Mahasiswa internasional full-fee penerima International Excellence, Vice-Chancellor's Academic Merit, atau Excelencia Internacional Scholarship 2027; mulai Trimester 1/Semester 1 2027; tinggal maks. 50 km dari kampus.",
+    "coverage": "Cair setelah census date periode studi pertama; untuk tiket/OSHC, akomodasi kampus, atau potongan tuition",
+    "amount": "Hibah tunai AUD 1.500 (satu kali)",
+    "eligibility": "Penerima International Excellence, Vice-Chancellor's Academic Merit atau Excelencia Internacional Scholarship 2027; mulai T1/S1 2027 di Australia; terima offer & bayar deposit tepat waktu; tinggal ≤50 km dari kampus.",
     "english_test": "",
     "deadline": "",
-    "notes": "Tanpa aplikasi; dicantumkan di Letter of Offer. Tidak untuk program online/offshore atau riset."
+    "notes": "Tanpa aplikasi: tercantum di Letter of Offer. Reimburse tiket/OSHC wajib bukti beli & dibayar ke rekening bank Australia atas nama siswa. Tidak untuk program online/offshore, riset, atau mahasiswa bersponsor."
    }
   },
   {
@@ -740,12 +740,12 @@
      "S1",
      "S2"
     ],
-    "coverage": "Potongan tuition per semester mulai semester kedua",
-    "amount": "Potongan tuition 15% (rata-rata HD) atau 10% (rata-rata Distinction)",
-    "eligibility": "Mahasiswa internasional aktif (continuing) di CIHE dengan rata-rata High Distinction/Distinction; harus dipertahankan tiap semester.",
+    "coverage": "Hanya tuition; berlaku mulai semester kedua",
+    "amount": "Potongan tuition 15% (rata-rata High Distinction) atau 10% (rata-rata Distinction) per semester",
+    "eligibility": "Bukan beasiswa untuk pendaftar baru: untuk mahasiswa CIHE yang sedang kuliah (continuing), dinilai dari nilai di CIHE; rata-rata HD/Distinction harus dipertahankan tiap semester.",
     "english_test": "",
     "deadline": "",
-    "notes": "Untuk mahasiswa yang sudah kuliah di CIHE; tanpa tenggat tercantum. Halaman sedang diperbarui - konfirmasi ke CIHE."
+    "notes": "Tidak bisa diajukan saat mendaftar kuliah. Cara pengajuan tidak dicantumkan di situs resmi dan halaman sedang diperbarui - konfirmasi ke CIHE."
    }
   },
   {
@@ -779,12 +779,12 @@
     "levels": [
      "S1"
     ],
-    "coverage": "Tuition bersubsidi (setelah Tuition Grant) penuh, tunjangan hidup, tunjangan akomodasi, tunjangan komputer sekali",
-    "amount": "SGD 5.800/tahun (hidup) + SGD 3.000/tahun (akomodasi) + SGD 1.750 (komputer, sekali)",
-    "eligibility": "WNI/PR negara ASEAN (selain Singapura) dengan prestasi akademik sangat baik (mis. Ijazah SMA/A-Level/IB), kegiatan ko-kurikuler dan potensi kepemimpinan; wajib CGPA min. 3,5/5,0 selama studi; ikatan kerja 3 tahun (MOE Tuition Grant).",
+    "coverage": "Setelah MOE Tuition Grant; S1 full-time pertama",
+    "amount": "Tuition bersubsidi penuh + SGD 5.800/tahun hidup + SGD 3.000/tahun akomodasi + SGD 1.750 komputer (sekali)",
+    "eligibility": "WNI/PR negara ASEAN (selain Singapura) dengan nilai sangat baik (Ijazah SMA/A-Level/IB), ko-kurikuler & potensi kepemimpinan; ikatan kerja 3 tahun (MOE Tuition Grant); wajib CGPA min. 3,5/5,0.",
     "english_test": "Sesuai syarat admisi NTU",
     "deadline": "2027-01-20",
-    "notes": "Pendaftaran beasiswa mengikuti periode admisi; untuk Ijazah SMA Indonesia periode admisi 15 Okt 2026-20 Jan 2027. Daftar admisi dulu, lalu ajukan beasiswa."
+    "notes": "Daftar admisi NTU dulu, lalu ajukan beasiswa lewat link 'Apply for Scholarship' di akhir aplikasi admisi (esai 250 kata + penilaian guru). Periode Ijazah SMA Indonesia: 15 Okt 2026-20 Jan 2027."
    }
   },
   {
@@ -936,12 +936,12 @@
      "S1",
      "S2"
     ],
-    "coverage": "Potongan tuition selama masa studi (hanya tuition)",
-    "amount": "Potongan tuition 35%",
-    "eligibility": "Pendaftar internasional baru S1/S2 yang merupakan anggota keluarga inti (pasangan, de facto, orang tua, anak, saudara kandung) dari mahasiswa Torrens saat ini, calon mahasiswa yang mendaftar dan mulai bersamaan, atau lulusan Torrens dalam 6 bulan terakhir; wajib bukti hubungan keluarga.",
+    "coverage": "Hanya tuition, untuk keluarga inti mahasiswa/lulusan Torrens",
+    "amount": "Potongan tuition 35% selama masa studi",
+    "eligibility": "Pendaftar internasional baru S1/S2 yang merupakan keluarga inti (pasangan/de facto, orang tua, anak, saudara kandung) dari mahasiswa Torrens, pendaftar yang mulai bersamaan, atau lulusan ≤6 bulan.",
     "english_test": "",
     "deadline": "",
-    "notes": "Isi Scholarship Application Form dan lampirkan bukti hubungan keluarga (akta nikah, akta lahir, atau statutory declaration) dalam bahasa Inggris/terjemahan tersertifikasi. Wajib beban studi penuh waktu 1 EFTSL per 12 bulan; hanya mata kuliah percobaan pertama. Pindah program dapat menggugurkan beasiswa. Tanggal tutup tidak dicantumkan."
+    "notes": "Isi Scholarship Application Form + bukti hubungan keluarga (akta nikah/lahir atau statutory declaration). Tidak berlaku bila keluarga ambil Bachelor of Nursing; wajib full-time 1 EFTSL/12 bulan. Dokumen berbahasa Inggris/terjemahan tersertifikasi."
    }
   },
   {

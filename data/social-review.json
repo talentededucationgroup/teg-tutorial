@@ -796,14 +796,13 @@
    "verdict": "REVISI",
    "score": 2,
    "reasons": [
-    "Cek ulang 27/11/2026 22.58 WIB (caption berubah di commit 2311b2d/903fb94 dan/atau poster dirender ulang 22.37 WIB): slot kini KOI Sydney MBA (bukan AIH lagi); poster baru dibuka: logo KOI & Talented jelas, AUD 6.375 per trimester, ±12.750/tahun, teks rapi.",
-    "A: jadwal resmi KOI 'Tuition Fees for all subjects 29 January 2026' (koi.edu.au): MBA AUD 2.125/subject, AUD 12.750 per EFTSL (= 8 subject/tahun), 12 subject MBA901-912 (= AUD 25.500). Angka ±12.750/tahun COCOK, tetapi 'AUD 6.375/trimester' = 12.750/2 - KOI memakai 3 trimester/tahun dan 6.375 = 3 subject, tidak cocok dengan beban 8 subject/tahun (4 subject/trimester = AUD 8.500; rata-rata 12.750/3 = AUD 4.250). Angka headline per trimester tidak konsisten dengan sumber resmi.",
-    "E: caption baris bahasa Inggris terpotong 'dengan ELICOS 10/20 m' (potongan 70 karakter di script)."
+    "Cek ulang 27/11/2026 23.25 WIB (poster/caption dirender ulang 23.00 WIB setelah commit c3c82e8/cb56ad6): slot kini AIBI Higher Education Sydney, MBA (Digital Transformation); poster dibuka: logo Talented jelas, teks rapi, foto wisuda AIBI (sesuai), poster = caption; bahasa Inggris lengkap.",
+    "A: aibi.edu.au/fees-and-payments (cek 27/11/2026): international tuition fee MBA (Digital Transformation) AUD 54.000; register CRICOS 117715D: AUD 54.000 / 104 minggu = ±AUD 27.000/tahun. Postingan ±AUD 16.200/tahun (AUD 4.050/term x4) = 40% di bawah sumber resmi tanpa bukti promo/beasiswa resmi -> harga jauh di bawah sumber resmi = REVISI."
    ],
-   "fix": "Sesi utama/pemilik: perbaiki Periode Bayar/Tuition per periode KOI MBA di pricelist (mis. per subject AUD 2.125 atau per trimester sesuai beban resmi) - atau lewati baris ini di program_posts.py; perbaiki pemotongan baris bahasa Inggris; render ulang.",
-   "checked_at": "2026-11-27T22:58:00+07:00",
+   "fix": "Butuh pemilik: konfirmasi dasar AUD 4.050/term (price list/offer letter resmi AIBI atau promo terkonfirmasi). Sampai ada bukti, tambahkan 'AIBI Higher Education' ke HOLD_SCHOOLS di program_posts.py agar slot berganti sekolah, lalu render ulang.",
+   "checked_at": "2026-11-27T23:25:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "https://koi.edu.au/wp-content/uploads/2026/01/Tuition-Fees-for-all-subjects_ 29January2026.pdf"
+   "source": "https://aibi.edu.au/fees-and-payments/"
   },
   "program:2026-11-23:a": {
    "verdict": "REVISI",
@@ -954,26 +953,25 @@
    "verdict": "LOLOS",
    "score": 3,
    "reasons": [
-    "Cek ulang 27/11/2026 22.58 WIB (caption berubah di commit 2311b2d/903fb94 dan/atau poster dirender ulang 22.37 WIB): poster baru dibuka: CIM Melbourne, AUD 8.000 per semester, ±16.000/tahun; foto booth Talented 'Study in Australia' (konten AU, boleh); teks tidak terpotong, logo Talented jelas.",
-    "A: Study Australia (Pemerintah Australia, search.studyaustralia.gov.au, cek 27/11/2026): CIM Bachelor of Business indicative total AUD 48.000, 3 tahun = AUD 16.000/tahun = AUD 8.000/semester - cocok.",
-    "Beasiswa kampus: Study Australia mencantumkan 'Academic Scholarships (International Students Only)' CIM - klaim 'Ada beasiswa kampus (seleksi)' didukung.",
-    "IELTS 6.0 (5.5)/PTE 50 (42) tidak terpotong. Catatan kecil: judul 'Bisnis & Manajemen' untuk major Accounting (masih rumpun bisnis)."
+    "Cek ulang 27/11/2026 23.25 WIB (poster/caption dirender ulang 23.00 WIB setelah commit c3c82e8/cb56ad6): poster dibuka: CIM Melbourne, AUD 8.000 per semester, ±16.000/tahun, foto booth Talented 'Study in Australia' (konten AU, boleh), logo Talented jelas, teks tidak terpotong; poster = caption.",
+    "A: Study Australia (search.studyaustralia.gov.au, cek 27/11/2026): CIM Bachelor of Business estimated total course cost AUD 48.000, 3 tahun full-time = AUD 16.000/tahun = AUD 8.000/semester - cocok. Register CRICOS 03809A mencakup VIC.",
+    "B/C/E: tanpa rahasia bisnis, tanpa klaim jaminan, IELTS/PTE lengkap, 3 hashtag, penutup Talented ada. Catatan kecil: judul 'Bisnis & Manajemen' untuk major Accounting (masih rumpun bisnis)."
    ],
    "fix": "",
-   "checked_at": "2026-11-27T22:58:00+07:00",
+   "checked_at": "2026-11-27T23:25:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://search.studyaustralia.gov.au/provider/canterbury-institute-of-management/27b98804d33bb547b92cab6de93944f8/courses"
   },
   "program:2026-11-26:n": {
-   "verdict": "REVISI",
-   "score": 2,
+   "verdict": "LOLOS",
+   "score": 3,
    "reasons": [
-    "Cek ulang 27/11/2026 22.58 WIB (caption berubah di commit 2311b2d/903fb94 dan/atau poster dirender ulang 22.37 WIB): poster baru dibuka: masih foto rapat 4 orang paruh baya (kredit U.S. Army Corps of Engineers Europe District) - tidak sesuai tema S2 di Auckland; tanpa logo Unitec.",
-    "Harga tetap cocok (Unitec international fees 2027: Master Professional Accounting L9 NZD 31.327,20 - cek QA 26/11/2026).",
-    "E: caption baris bahasa Inggris terpotong 'PTE Academic 58, no band lo' (scripts/program_posts.py memotong 70 karakter)."
+    "Cek ulang 27/11/2026 23.25 WIB (poster/caption dirender ulang 23.00 WIB setelah commit c3c82e8/cb56ad6): poster dibuka: foto rapat Army Corps sudah diganti foto kampus musim gugur (kredit Rick Obst, Eugene US / Wikimedia CC BY 2.0 - foto kampus umum, bukan Unitec); logo Talented jelas, teks rapi, NZD 31.327 per tahun; poster = caption.",
+    "A: unitec.ac.nz international fees (cek 27/11/2026): Master Professional Accounting L9, 18 bulan, intake 2027, Programme Fee NZD 31.327,20; catatan resmi 'fees shown are based on programmes of up to 120 credits' (= 1 tahun full-time) -> 'per tahun' benar.",
+    "E: baris bahasa Inggris kini lengkap (IELTS 6.5 no band <6 / PTE 58 no band <50); hashtag NZ benar; penutup Talented ada."
    ],
-   "fix": "Sesi utama: (1) potong baris bahasa Inggris di batas kata/'/' (program_posts.py baris 169) atau perpanjang batas; (2) jangan pakai foto rapat Army Corps untuk topik business - ganti foto topik/kota Auckland; lalu render ulang.",
-   "checked_at": "2026-11-27T22:58:00+07:00",
+   "fix": "Saran berikutnya (tidak menahan): pakai foto Auckland/Unitec agar foto tidak terkesan kampus Unitec.",
+   "checked_at": "2026-11-27T23:25:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://www.unitec.ac.nz/international/study-with-us/international-fees/"
   },
@@ -1081,14 +1079,14 @@
    "verdict": "REVISI",
    "score": 2,
    "reasons": [
-    "Cek ulang 27/11/2026 22.58 WIB (caption berubah di commit 2311b2d/903fb94 dan/atau poster dirender ulang 22.37 WIB): poster baru dibuka (ABI Brisbane, AUD 4.000/term, ±16.000/tahun, foto taman generik, logo Talented jelas).",
-    "A: Australian Business Institute adalah nama dagang Leaders Institute (CRICOS 03732F) - provider yang sama dengan Australian Agribusiness Institute yang sudah ditahan. Register CRICOS (data/cricos/03732F.json, snapshot 2 Nov 2026): Master of Business Administration 116503B tuition AUD 50.000 / 104 minggu (≈ AUD 25.000/tahun); halaman resmi leaders.edu.au (cek QA sebelumnya) AUD 3.125/unit, total AUD 50.000. Postingan ±AUD 16.000/tahun = 36% lebih murah tanpa bukti promo resmi.",
-    "Situs resmi ABI tidak ditemukan lewat WebSearch; harga 4.000/term tidak bisa diverifikasi."
+    "Cek ulang 27/11/2026 23.25 WIB (poster/caption dirender ulang 23.00 WIB setelah commit c3c82e8/cb56ad6): slot kini Kaplan Business School Brisbane, Master of Business Analytics (Extension); poster dibuka: logo Talented jelas, teks rapi, foto stok mahasiswi (umum), nama sekolah poster = caption.",
+    "A: halaman resmi kbs.edu.au/admissions/fees/international-fees (cek 27/11/2026): Master of Business Analytics (Extension) course fee 2026 AUD 54.020 (2027 AUD 56.560), AUD 3.400/subject (2027 AUD 3.560); register CRICOS 0100426: AUD 54.020 / 104 minggu. Estimasi per tahun yang benar ±AUD 27.000, BUKAN ±AUD 40.800 (40.800 = total course fee Master of Business Analytics non-Extension). Postingan 'AUD 13.600/trimester' x3 = 40.800 -> 2 tahun = 81.600, ±51% di atas sumber resmi; menyesatkan (terlalu mahal).",
+    "E: baris bahasa Inggris lengkap (tidak terpotong); klaim beasiswa kampus wajar (Kaplan punya beasiswa internasional)."
    ],
-   "fix": "Sesi utama: tambahkan 'Australian Business Institute' (atau 'Leaders Institute') ke HOLD_SCHOOLS di scripts/program_posts.py agar slot 27:a berganti sekolah; pemilik konfirmasi dasar harga 4.000/term.",
-   "checked_at": "2026-11-27T22:58:00+07:00",
+   "fix": "Butuh sesi utama/pemilik: perbaiki baris Kaplan Master of Business Analytics (Extension) di pricelist (estimasi per tahun = 54.020/2 = 27.010; tuition per trimester sesuai beban resmi, mis. 4 subject x 3.400) atau tambahkan filter program_posts.py: annual x durasi tahun harus ≈ total resmi; render ulang. Alternatif: pakai Master of Business Analytics (12 subject, AUD 40.800 total).",
+   "checked_at": "2026-11-27T23:25:00+07:00",
    "model": "claude (QA terjadwal)",
-   "source": "data/cricos/03732F.json (CRICOS 116503B)"
+   "source": "https://www.kbs.edu.au/admissions/fees/international-fees"
   },
   "program:2026-11-27:b": {
    "verdict": "REVISI",

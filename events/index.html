@@ -1,0 +1,14 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="only light">
+<title>Event & Expo Talented</title><meta name="description" content="Event, expo, dan info session Talented Education Group yang akan datang: konsultasi gratis studi ke luar negeri.">
+<link rel="icon" href="/tim/favicon-talented.png">
+<style>:root{color-scheme:only light}body{margin:0;background:#f8f7f3;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;color:#1d2b3a}
+main{max-width:1100px;margin:0 auto;padding:16px}body.embed{background:transparent}body.embed main{padding:4px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:6px}.top img{width:48px;height:48px}.top p{margin:0;color:#6b7280;font-size:.9rem}
+footer{color:#6b7280;font-size:.82rem;margin-top:14px}footer a{color:#14213d}</style></head>
+<body><main><div class="top" id="top"><img src="/assets/brand/logo-talented-warna.png" alt="Talented Education Group" style="object-fit:contain"><div><strong>Talented Education Group</strong><p>Guiding Futures, Creating Opportunities</p></div></div>
+<div id="ev"></div><footer id="ft">Info & konsultasi: <a href="https://linktr.ee/talentededucationgroup" target="_blank" rel="noopener">linktr.ee/talentededucationgroup</a> · Biaya studi: <a href="https://pricelist.talentededucationgroup.com/" target="_blank" rel="noopener">pricelist.talentededucationgroup.com</a></footer></main>
+<script src="/events/events.js?v=1"></script>
+<script>const q=new URLSearchParams(location.search),lang=q.get('lang')||(navigator.language||'id').slice(0,2);document.documentElement.lang=lang;
+if(q.get('embed')==='1'){document.body.classList.add('embed');document.getElementById('top').remove();document.getElementById('ft').remove();}
+TalentedEvents.mount(document.getElementById('ev'),lang,{showEmpty:true}).then(()=>{if(window.parent!==window){const h=document.documentElement.scrollHeight;parent.postMessage({tegEventsHeight:h},'*');}});</script>
+</body></html>

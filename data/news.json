@@ -1,6 +1,6 @@
 {
- "version": "2026-11-27",
- "updated_at": "2026-11-27T06:30:00+07:00",
+ "version": "2026-11-28",
+ "updated_at": "2026-11-28T06:30:00+07:00",
  "title": {
   "id": "Berita resmi imigrasi & visa pelajar",
   "en": "Official immigration & student visa news",
@@ -381,7 +381,7 @@
    "deadline": null,
    "country": "AU",
    "category": "visa",
-   "status": "upcoming",
+   "status": "in_force",
    "title": {
     "id": "Australia: kondisi 'No Further Stay' (8503) wajib untuk visa visitor mulai 28 Nov 2026",
     "en": "Australia: 'No Further Stay' condition (8503) mandatory for visitor visas from 28 Nov 2026",
@@ -429,7 +429,7 @@
      "official": true
     }
    ],
-   "recheck": "Terverifikasi 26/11/2026 (audit ChatGPT 05A): F2026L01503 dibuat 12/11/2026, terdaftar 13/11/2026, berlaku 28/11/2026; subclass 600/601/651; tidak retrospektif; Protection visa dikecualikan; waiver reg 2.05 tetap ada.",
+   "recheck": "Terverifikasi 26/11/2026 (audit ChatGPT 05A): F2026L01503 dibuat 12/11/2026, terdaftar 13/11/2026, berlaku 28/11/2026; subclass 600/601/651; tidak retrospektif; Protection visa dikecualikan; waiver reg 2.05 tetap ada. Status diubah upcoming -> in_force 28/11/2026 (tanggal berlaku F2026L01503).",
    "effective": "2026-11-28"
   },
   {
@@ -1290,7 +1290,7 @@
   "nl",
   "ru"
  ],
- "checked": "2026-11-27",
+ "checked": "2026-11-28",
  "copyright": "© 2026 Talented Education Group Pty Ltd. Data dikumpulkan & diverifikasi oleh Talented. Dilarang menyalin, menjual ulang atau menampilkan ulang tanpa izin tertulis.",
  "_fp": "teg-a21ed6c36f7d"
 }

@@ -11879,7 +11879,7 @@
   },
   {
    "id": "kr-kaist-scholarship-undergraduate-2027",
-   "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+   "name": "KAIST Scholarship - Undergraduate 2027",
    "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
    "type": "Kampus / Sekolah",
    "country": "Korea Selatan",
@@ -11902,7 +11902,7 @@
    "notes": "Tidak ada aplikasi beasiswa terpisah: centang opsi \"KAIST scholarship\" di bagian Statement of Financial Resources pada formulir admisi online. Regular Admissions (Fall Track): pendaftaran & dokumen 10 Nov 2026-14 Jan 2027 pukul 18.00 KST, surat rekomendasi s.d. 21 Jan 2027, wawancara online (bila diminta) 3 Mar 2027, hasil 25 Mar 2027. Jadwal resmi: admission.kaist.ac.kr (Application Timeline 2027).",
    "i18n": {
     "en": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "South Korea",
      "fields": "KAIST undergraduate programs (science, technology, engineering, business)",
@@ -11914,7 +11914,7 @@
      "notes": "No separate scholarship application: tick the \"KAIST scholarship\" option in the Statement of Financial Resources section of the online admission application. Regular Admissions (Fall Track): application & documents 10 Nov 2026-14 Jan 2027, 6:00 PM KST; recommendation letter by 21 Jan 2027; online interview (if required) 3 Mar 2027; results 25 Mar 2027. Official timeline: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "th": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "เกาหลีใต้",
      "fields": "หลักสูตรปริญญาตรีของ KAIST (วิทยาศาสตร์ เทคโนโลยี วิศวกรรม ธุรกิจ)",
@@ -11926,7 +11926,7 @@
      "notes": "ไม่ต้องสมัครทุนแยก: ทำเครื่องหมายตัวเลือก \"KAIST scholarship\" ในส่วน Statement of Financial Resources ของใบสมัครออนไลน์ Regular Admissions (Fall Track): สมัครและส่งเอกสาร 10 พ.ย. 2026-14 ม.ค. 2027 เวลา 18.00 น. KST จดหมายรับรองภายใน 21 ม.ค. 2027 สัมภาษณ์ออนไลน์ (หากจำเป็น) 3 มี.ค. 2027 ประกาศผล 25 มี.ค. 2027 กำหนดการทางการ: admission.kaist.ac.kr (Application Timeline 2027)"
     },
     "vi": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Hàn Quốc",
      "fields": "Các chương trình đại học của KAIST (khoa học, công nghệ, kỹ thuật, kinh doanh)",
@@ -11938,7 +11938,7 @@
      "notes": "Không cần nộp đơn học bổng riêng: đánh dấu lựa chọn \"KAIST scholarship\" trong mục Statement of Financial Resources của đơn tuyển sinh trực tuyến. Regular Admissions (Fall Track): nộp hồ sơ 10/11/2026-14/1/2027, 18:00 KST; thư giới thiệu trước 21/1/2027; phỏng vấn trực tuyến (nếu cần) 3/3/2027; kết quả 25/3/2027. Lịch chính thức: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "zh": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "韩国",
      "fields": "KAIST本科专业（理科、技术、工程、商科）",
@@ -11950,7 +11950,7 @@
      "notes": "无需单独申请奖学金：在网上入学申请的Statement of Financial Resources部分勾选\"KAIST scholarship\"。Regular Admissions（Fall Track）：申请及材料提交2026年11月10日至2027年1月14日韩国时间18:00；推荐信截止2027年1月21日；线上面试（如需）2027年3月3日；结果2027年3月25日公布。官方日程：admission.kaist.ac.kr（Application Timeline 2027）。"
     },
     "ja": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "韓国",
      "fields": "KAISTの学部課程（理学、技術、工学、ビジネス）",
@@ -11962,7 +11962,7 @@
      "notes": "奨学金の別途申請は不要：オンライン出願書類のStatement of Financial Resources欄で\"KAIST scholarship\"にチェック。Regular Admissions（Fall Track）：出願・書類提出 2026年11月10日〜2027年1月14日18:00（KST）、推薦状 2027年1月21日まで、オンライン面接（必要な場合）2027年3月3日、結果発表 2027年3月25日。公式日程：admission.kaist.ac.kr（Application Timeline 2027）。"
     },
     "ko": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "대한민국",
      "fields": "KAIST 학부 과정(자연과학, 기술, 공학, 경영)",
@@ -11974,7 +11974,7 @@
      "notes": "별도 장학금 신청 없음: 온라인 입학 지원서의 Statement of Financial Resources 항목에서 \"KAIST scholarship\"을 선택. Regular Admissions(Fall Track): 지원 및 서류 제출 2026년 11월 10일~2027년 1월 14일 18:00(KST), 추천서 2027년 1월 21일까지, 온라인 면접(해당자) 2027년 3월 3일, 결과 발표 2027년 3월 25일. 공식 일정: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "km": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "កូរ៉េខាងត្បូង",
      "fields": "កម្មវិធីបរិញ្ញាបត្ររបស់ KAIST (វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា វិស្វកម្ម ពាណិជ្ជកម្ម)",
@@ -11986,7 +11986,7 @@
      "notes": "មិនចាំបាច់ដាក់ពាក្យអាហារូបករណ៍ដាច់ដោយឡែកទេ៖ គូសជម្រើស \"KAIST scholarship\" ក្នុងផ្នែក Statement of Financial Resources នៃពាក្យសុំចូលរៀនតាមអនឡាញ។ Regular Admissions (Fall Track)៖ ដាក់ពាក្យ និងឯកសារ 10 វិច្ឆិកា 2026-14 មករា 2027 ម៉ោង 18:00 KST; លិខិតណែនាំត្រឹម 21 មករា 2027; សម្ភាសន៍អនឡាញ (បើត្រូវការ) 3 មីនា 2027; លទ្ធផល 25 មីនា 2027។ កាលវិភាគផ្លូវការ៖ admission.kaist.ac.kr (Application Timeline 2027)។"
     },
     "fr": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Corée du Sud",
      "fields": "Programmes de licence de KAIST (sciences, technologie, ingénierie, commerce)",
@@ -11998,7 +11998,7 @@
      "notes": "Aucune candidature séparée à la bourse : cochez l'option \"KAIST scholarship\" dans la section Statement of Financial Resources du formulaire d'admission en ligne. Regular Admissions (Fall Track) : candidature et documents du 10 nov. 2026 au 14 janv. 2027, 18h00 KST ; lettre de recommandation avant le 21 janv. 2027 ; entretien en ligne (si demandé) le 3 mars 2027 ; résultats le 25 mars 2027. Calendrier officiel : admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "pt": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Coreia do Sul",
      "fields": "Programas de graduação da KAIST (ciências, tecnologia, engenharia, negócios)",
@@ -12010,7 +12010,7 @@
      "notes": "Não há inscrição separada para a bolsa: marque a opção \"KAIST scholarship\" na seção Statement of Financial Resources do formulário de admissão online. Regular Admissions (Fall Track): inscrição e documentos de 10/11/2026 a 14/01/2027, 18h KST; carta de recomendação até 21/01/2027; entrevista online (se solicitada) em 03/03/2027; resultado em 25/03/2027. Calendário oficial: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "es": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Corea del Sur",
      "fields": "Programas de grado de KAIST (ciencias, tecnología, ingeniería, negocios)",
@@ -12022,7 +12022,7 @@
      "notes": "No hay solicitud de beca aparte: marque la opción \"KAIST scholarship\" en la sección Statement of Financial Resources del formulario de admisión en línea. Regular Admissions (Fall Track): solicitud y documentos del 10/11/2026 al 14/01/2027, 18:00 KST; carta de recomendación hasta el 21/01/2027; entrevista en línea (si se requiere) el 03/03/2027; resultados el 25/03/2027. Calendario oficial: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "de": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Südkorea",
      "fields": "Bachelorstudiengänge der KAIST (Naturwissenschaften, Technologie, Ingenieurwesen, Wirtschaft)",
@@ -12034,7 +12034,7 @@
      "notes": "Keine separate Stipendienbewerbung: Option \"KAIST scholarship\" im Abschnitt Statement of Financial Resources der Online-Bewerbung ankreuzen. Regular Admissions (Fall Track): Bewerbung & Unterlagen 10.11.2026-14.01.2027, 18:00 Uhr KST; Empfehlungsschreiben bis 21.01.2027; Online-Interview (falls erforderlich) 03.03.2027; Ergebnisse 25.03.2027. Offizieller Zeitplan: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "it": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Corea del Sud",
      "fields": "Corsi di laurea triennale di KAIST (scienze, tecnologia, ingegneria, economia)",
@@ -12046,7 +12046,7 @@
      "notes": "Nessuna domanda di borsa separata: selezionare l'opzione \"KAIST scholarship\" nella sezione Statement of Financial Resources della domanda di ammissione online. Regular Admissions (Fall Track): domanda e documenti dal 10/11/2026 al 14/01/2027, ore 18:00 KST; lettera di referenza entro il 21/01/2027; colloquio online (se richiesto) il 03/03/2027; risultati il 25/03/2027. Calendario ufficiale: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "nl": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Zuid-Korea",
      "fields": "Bacheloropleidingen van KAIST (wetenschap, technologie, techniek, bedrijfskunde)",
@@ -12058,7 +12058,7 @@
      "notes": "Geen aparte beursaanvraag: vink de optie \"KAIST scholarship\" aan in het onderdeel Statement of Financial Resources van het online toelatingsformulier. Regular Admissions (Fall Track): aanmelding & documenten 10-11-2026 t/m 14-01-2027, 18:00 uur KST; aanbevelingsbrief uiterlijk 21-01-2027; online interview (indien nodig) 03-03-2027; uitslag 25-03-2027. Officieel tijdschema: admission.kaist.ac.kr (Application Timeline 2027)."
     },
     "ru": {
-     "name": "KAIST Scholarship - Undergraduate International Admission 2027 (Regular Admissions)",
+     "name": "KAIST Scholarship - Undergraduate 2027",
      "provider": "Korea Advanced Institute of Science and Technology (KAIST)",
      "country": "Южная Корея",
      "fields": "Программы бакалавриата KAIST (естественные науки, технологии, инженерия, бизнес)",

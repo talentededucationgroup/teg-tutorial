@@ -1,0 +1,54 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="only light">
+<title>Kelas & Promo Victory Scholars Academy</title><meta name="robots" content="noindex,follow">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>:root{color-scheme:only light;--ink:#1b1b1b;--gold:#c59a2f;--gold2:#e7c66a;--cream:#fbf6ea;--mut:#5d5a52}*{box-sizing:border-box}
+html,body{overflow-x:hidden}body{margin:0;background:#fff;font-family:"Source Sans 3",system-ui,sans-serif;color:var(--ink)}body.embed{background:transparent}
+main{max-width:1120px;margin:0 auto;padding:16px}.H{font-family:"Playfair Display",Georgia,serif}
+.promo{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:14px;margin-bottom:26px}
+.pr{position:relative;overflow:hidden;border-radius:18px;padding:18px 20px;background:linear-gradient(135deg,#1b1b1b,#3a3226);color:#fff}
+.pr:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,var(--gold2),transparent 70%);opacity:.45}
+.pr small{color:var(--gold2);font-weight:700;letter-spacing:.08em}.pr h3{margin:4px 0 6px;font-size:1.3rem}.pr p{margin:0 0 12px;color:#e9e2d0}
+.code{display:inline-block;border:2px dashed var(--gold2);color:var(--gold2);font-weight:800;letter-spacing:.12em;padding:4px 10px;border-radius:8px;margin-right:8px;cursor:pointer}
+.pr a{display:inline-block;background:var(--gold);color:var(--ink);font-weight:800;text-decoration:none;border-radius:999px;padding:8px 16px}
+h2{text-align:center;font-size:clamp(1.6rem,4vw,2.3rem);margin:8px 0 4px}.lead{text-align:center;color:var(--mut);margin:0 0 20px}
+.cls{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:16px}
+.c{position:relative;background:var(--cream);border:1px solid #eadfc4;border-radius:20px;padding:22px;transition:transform .2s,box-shadow .2s}
+.c:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(197,154,47,.25)}.c.best{background:#fff;border:2px solid var(--gold);box-shadow:0 12px 28px rgba(197,154,47,.22)}
+.tag{display:inline-block;background:var(--ink);color:var(--gold2);font-size:.75rem;font-weight:800;letter-spacing:.08em;border-radius:999px;padding:4px 10px}
+.c{overflow:hidden}.best .rib{position:absolute;top:18px;right:-46px;width:170px;text-align:center;transform:rotate(35deg);background:var(--gold);color:var(--ink);font-weight:800;font-size:.7rem;letter-spacing:.06em;padding:5px 0}
+.c .tag:last-of-type{margin-right:90px}.c h3{font-size:1.45rem;margin:10px 0 4px}.c p{margin:0 0 14px;color:var(--mut)}
+.pz{display:flex;justify-content:space-between;align-items:baseline;border-top:1px dashed #d9c999;padding:8px 0}.pz span{color:var(--mut);font-weight:600}.pz b{font-size:1.25rem}.pz b small{font-size:.8rem;color:var(--mut);font-weight:600}
+.ex{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:10px;margin:22px 0}.ex div{background:#fff;border:1px solid #eee3c9;border-radius:12px;padding:10px 12px 10px 40px;position:relative}
+.ex div:before{content:"★";position:absolute;left:14px;top:9px;color:var(--gold)}
+.band{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;background:linear-gradient(120deg,var(--gold),var(--gold2));border-radius:20px;padding:22px 24px;margin-top:8px}
+.band h3{margin:0;font-size:1.5rem}.band p{margin:4px 0 0;color:#3b3220}.btns{display:flex;gap:10px;flex-wrap:wrap}
+.b{display:inline-block;text-decoration:none;font-weight:800;border-radius:999px;padding:12px 20px}.b1{background:var(--ink);color:#fff}.b2{background:#fff;color:var(--ink)}
+.tb{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:4px}.tb th,.tb td{padding:7px 6px;border-top:1px dashed #d9c999;text-align:right}.tb thead th{font-size:.75rem;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;border-top:0}.tb th:first-child,.tb td:first-child{text-align:left}.tb tbody td{font-weight:800}
+.fine{text-align:center;color:var(--mut);font-size:.82rem;margin:12px 0 0}
+.rv{opacity:0;transform:translateY(18px);transition:.6s}.rv.on{opacity:1;transform:none}</style></head>
+<body><main>
+<div class="promo" id="pr"></div>
+<h2 class="H rv">Pilih kelasmu</h2><p class="lead rv">Mulai dari level kamu — dari dasar sampai siap tes.</p>
+<div class="cls" id="cl"></div><div class="ex" id="ex"></div>
+<div class="band rv"><div><h3 class="H">Cek level kamu dulu — gratis</h3><p id="exam"></p></div><div class="btns"><a class="b b1" id="mt" target="_blank" rel="noopener">🎯 Free Mock Test</a><a class="b b2" id="wa" target="_blank" rel="noopener">💬 Daftar via WhatsApp</a></div></div>
+<p class="fine" id="fn"></p>
+</main><script>
+/* Widget Victory Scholars Academy (embed GoDaddy: /vsa/?embed=1). Data: pricelist /partners/vsa.json (blok 'vsa' Excel/flyer VSA + promo PTE), dibuat otomatis tiap rilis pricelist. Promo lewat 'until' otomatis hilang. */
+const q=new URLSearchParams(location.search);if(q.get('embed')==='1')document.body.classList.add('embed');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:''}catch{return ''}};
+fetch('https://pricelist.talentededucationgroup.com/partners/vsa.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
+ const now=Date.now(),P=(d.promos||[]).filter(p=>!p.until||Date.parse(p.until)>now);
+ document.getElementById('pr').innerHTML=P.map(p=>`<div class="pr rv"><small>PROMO${p.until?' · s.d. '+new Date(p.until).toLocaleDateString('id-ID',{day:'numeric',month:'short',year:'numeric'}):''}</small><h3 class="H">${esc(p.title)}</h3><p>${esc(p.text)}</p>${p.code?`<span class="code" title="Klik untuk salin" onclick="navigator.clipboard&&navigator.clipboard.writeText('${esc(p.code)}');this.textContent='TERSALIN ✓'">${esc(p.code)}</span>`:''}${safe(p.link)?`<a href="${esc(safe(p.link))}" target="_blank" rel="noopener">${esc(p.cta||'Lihat')} →</a>`:''}</div>`).join('');
+ const rp=n=>typeof n==='number'?'Rp'+n.toLocaleString('id-ID'):esc(n);
+ document.getElementById('cl').innerHTML=(d.programs||[]).map((c,i)=>`<div class="c rv${/preparation/i.test(c.program)&&/online/i.test(c.program)?' best':''}">${/preparation/i.test(c.program)&&/online/i.test(c.program)?'<span class="rib">TERPOPULER</span>':''}${(c.badges||[]).map(b=>`<span class="tag">${esc(b)}</span> `).join('')}<h3 class="H">${esc(c.program)}</h3><p>${esc(c.description)}</p><table class="tb"><thead><tr>${(c.columns||[]).map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${(c.rows||[]).map(r=>`<tr>${r.map((x,j)=>j?`<td>${rp(x)}</td>`:`<th>${esc(x)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`).join('');
+ const ex=['Kelas group, semi-private & private — jadwal menyesuaikan ketersediaan guru','Kelas offline di Pontianak & Singkawang, online dari mana saja','Gratis mock test, placement test & konsultasi'];if(d.banner)ex.push(d.banner);
+ document.getElementById('ex').innerHTML=ex.map(x=>`<div class="rv">${esc(x)}</div>`).join('');
+ if(d.test)document.getElementById('exam').textContent=d.test.replace('USD $','USD ')+' — harga resmi Pearson, bisa berubah sewaktu-waktu.';
+ d.mocktest='https://info.talentededucationgroup.com/mocktest/';d.wa='https://wa.me/6281995156088';
+ document.getElementById('mt').href=safe(d.mocktest);document.getElementById('wa').href=safe(d.wa);
+ document.getElementById('fn').textContent='Biaya per siswa · harga dapat berubah · diperbarui '+(d.updated||'');
+ const io='IntersectionObserver'in window?new IntersectionObserver(a=>a.forEach(x=>{if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target)}}),{threshold:.1}):null;
+ document.querySelectorAll('.rv').forEach(x=>io?io.observe(x):x.classList.add('on'));setTimeout(()=>document.querySelectorAll('.rv').forEach(x=>x.classList.add('on')),2500);
+});
+</script></body></html>

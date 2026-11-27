@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-27T12:13:15+00:00",
+ "checked_at": "2026-11-27T12:17:37+00:00",
  "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-27T12:10:04.072Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1747365804066250",
-   "text": "Mau tes PTE Academic? Sekarang ada promo resmi Pea"
+   "sentAt": "2026-11-27T12:14:26.287Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1747370930732404",
+   "text": "231 lowongan kerja luar negeri baru (Germany, Unit"
   },
   "facebook|reel": {
    "sentAt": "2026-11-27T02:33:49.924Z",
@@ -24,9 +24,9 @@
    "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-27T12:10:14.113Z",
-   "link": "https://www.instagram.com/p/DgPpcoJFVtr/",
-   "text": "Mau tes PTE Academic? Sekarang ada promo resmi Pea"
+   "sentAt": "2026-11-27T12:14:36.566Z",
+   "link": "https://www.instagram.com/p/DgPp8pqlEWb/",
+   "text": "231 lowongan kerja luar negeri baru (Germany, Unit"
   },
   "instagram|reel": {
    "sentAt": "2026-11-27T02:34:48.557Z",
@@ -49,9 +49,9 @@
    "text": "Dari konsultasi sampai visa pelajar Australia gran"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-27T12:09:59.274Z",
-   "link": "https://x.com/1511766381762531332/status/2126287415371345931",
-   "text": "Promo Pearson: diskon 10% tes PTE Academic di Indo"
+   "sentAt": "2026-11-27T12:14:20.348Z",
+   "link": "https://x.com/1511766381762531332/status/2126288510332047727",
+   "text": "231 lowongan kerja luar negeri baru (Germany, Unit"
   },
   "youtube|reel": {
    "sentAt": "2026-11-27T02:33:42.885Z",

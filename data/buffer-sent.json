@@ -6,7 +6,12 @@
 "mix:2026-11-26:testi|feed|6aff3328ece6dfde5f221865",
 "post:2026-11-25-pathway-2-negara|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-11-25-pathway-2-negara|feed|6aff319cece6dfde5f2206b4",
+"post:2026-11-25-pathway-2-negara|feed|6aff32d7ece6dfde5f22151d",
 "post:2026-11-25-pathway-2-negara|feed|6aff3328ece6dfde5f221865",
+"post:2026-11-25-pathway-2-negara|feed|6aff3375ece6dfde5f221ba1",
+"post:2026-11-25-pathway-2-negara|feed|6aff3375ece6dfde5f221ba2",
+"post:2026-11-25-pathway-2-negara|feed|6aff3375ece6dfde5f221ba3",
+"post:2026-11-25-pathway-2-negara|feed|6aff3375ece6dfde5f221ba4",
 "post:2026-11-25-psikologi|reel|6aff3157ece6dfde5f2203ab",
 "post:2026-11-25-psikologi|reel|6aff319cece6dfde5f2206b4",
 "post:2026-11-25-psikologi|reel|6aff31ffece6dfde5f220b47",
@@ -118,9 +123,15 @@
 "video:office-tour:2026-11-21|reel|6aff31ffece6dfde5f220b47",
 "video:office-tour:2026-11-21|reel|6aff3a05ece6dfde5f22802a",
 "video:office-tour:2026-11-21|story|6aff3157ece6dfde5f2203ab",
-"video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4"
+"video:office-tour:2026-11-21|story|6aff319cece6dfde5f2206b4",
+"video:testimoni-asin:2026-11-26|reel|6aff3157ece6dfde5f2203ab",
+"video:testimoni-asin:2026-11-26|reel|6aff319cece6dfde5f2206b4",
+"video:testimoni-asin:2026-11-26|reel|6aff31ffece6dfde5f220b47",
+"video:testimoni-asin:2026-11-26|reel|6aff3a05ece6dfde5f22802a",
+"video:testimoni-asin:2026-11-26|story|6aff3157ece6dfde5f2203ab",
+"video:testimoni-asin:2026-11-26|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-26T23:55:21.502374+00:00",
+"last_run": "2026-11-27T02:33:02.036219+00:00",
 "last_errors": [],
 "daily": {
 "2026-11-20": {
@@ -236,10 +247,25 @@
 "6aff31ffece6dfde5f220b47|reel": 1,
 "6aff319cece6dfde5f2206b4|reel": 1,
 "6aff3157ece6dfde5f2203ab|reel": 1
+},
+"2026-11-27": {
+"6aff3a05ece6dfde5f22802a|reel": 1,
+"6aff31ffece6dfde5f220b47|reel": 1,
+"6aff319cece6dfde5f2206b4|reel": 1,
+"6aff3157ece6dfde5f2203ab|reel": 1,
+"6aff319cece6dfde5f2206b4|story": 1,
+"6aff3157ece6dfde5f2203ab|story": 1,
+"6aff3375ece6dfde5f221ba4|feed": 1,
+"6aff3375ece6dfde5f221ba3|feed": 1,
+"6aff3375ece6dfde5f221ba2|feed": 1,
+"6aff3375ece6dfde5f221ba1|feed": 1,
+"6aff32d7ece6dfde5f22151d|feed": 1
 }
 },
 "waiting_review": [
+"jobs:2026-11-27-251",
 "mix:2026-11-26:testi",
+"mix:2026-11-27:kami",
 "post:2026-11-25-qs-sustainability",
 "scholarship:au-ecu-asean-international-2027|open",
 "scholarship:au-monash-vc-asean-award|open",
@@ -250,6 +276,7 @@
 "scholarship:cn-yenching-academy-pku|open",
 "scholarship:id-beasiswa-garuda-sarjana|open",
 "scholarship:ie-lpdp-ucd-scholarship-2027|open",
+"scholarship:kr-kaist-scholarship-undergraduate-2027|open",
 "scholarship:nl-leiden-excellence-scholarship|open",
 "scholarship:nl-university-of-twente-scholarship|open",
 "scholarship:nz-vuw-postgraduate-international-scholarship|open",
@@ -264,7 +291,8 @@
 ],
 "2026-11-24": [],
 "2026-11-25": [],
-"2026-11-26": []
+"2026-11-26": [],
+"2026-11-27": []
 },
 "daily_prefix": {
 "2026-11-23": {

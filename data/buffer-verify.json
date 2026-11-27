@@ -1,17 +1,17 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-26T23:58:39+00:00",
- "ok": true,
+ "checked_at": "2026-11-27T02:37:46+00:00",
+ "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-26T02:53:58.038Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1745683194234511",
-   "text": "🎉 Hasil asli Siswa VSA: Overall 64 di PTE Academic"
+   "sentAt": "2026-11-27T02:34:09.650Z",
+   "link": "https://www.facebook.com/104126648347814",
+   "text": ""
   },
   "facebook|reel": {
-   "sentAt": "2026-11-26T02:54:16.743Z",
-   "link": "https://www.facebook.com/reel/1155512607229648/",
-   "text": "Mau kuliah Psikologi di luar negeri? Ini pilihan d"
+   "sentAt": "2026-11-27T02:33:49.924Z",
+   "link": "https://www.facebook.com/reel/4453752354890180/",
+   "text": "Dari konsultasi sampai visa pelajar Australia gran"
   },
   "facebook|story": {
    "sentAt": "2026-11-26T02:29:53.002Z",
@@ -19,9 +19,9 @@
    "text": ""
   },
   "googlebusiness|feed": {
-   "sentAt": "2026-11-26T02:29:14.442Z",
-   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpiakxqcUsxa0gtdFpGaG54cnFZQ3Fn",
-   "text": "UTS Southeast Asia International Scholarship sedan"
+   "sentAt": "2026-11-27T02:34:35.297Z",
+   "link": "https://local.google.com/place?id=4286265813218852637&use=posts&lpsid=CAIQACoeChxtc3BfaDpYdU52UThjSXB5VEhiYVB3WGNUTEhR",
+   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
   },
   "instagram|feed": {
    "sentAt": "2026-11-26T02:54:09.054Z",
@@ -29,24 +29,24 @@
    "text": "🎉 Hasil asli Siswa VSA: Overall 64 di PTE Academic"
   },
   "instagram|reel": {
-   "sentAt": "2026-11-26T02:55:14.364Z",
-   "link": "https://www.instagram.com/reel/DgMFDYKvGiX/",
-   "text": "Mau kuliah Psikologi di luar negeri? Ini pilihan d"
+   "sentAt": "2026-11-27T02:34:48.557Z",
+   "link": "https://www.instagram.com/reel/DgOnggRPk-w/",
+   "text": "Dari konsultasi sampai visa pelajar Australia gran"
   },
   "instagram|story": {
-   "sentAt": "2026-11-26T02:31:13.289Z",
-   "link": "https://www.instagram.com/stories/talented.e.g/4038612903853945341",
+   "sentAt": "2026-11-27T02:37:07.805Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4039340198096857588",
    "text": ""
   },
   "linkedin|feed": {
-   "sentAt": "2026-11-26T02:29:40.248Z",
-   "link": "https://www.linkedin.com/feed/update/urn:li:share:7531544673857835008",
-   "text": "UTS Southeast Asia International Scholarship sedan"
+   "sentAt": "2026-11-27T02:34:57.998Z",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7531908394618638336",
+   "text": "Pathway 2 Negara: mulai kuliah di kampus resmi uni"
   },
   "tiktok|reel": {
-   "sentAt": "2026-11-26T05:35:39.000Z",
-   "link": "https://www.tiktok.com/@talented.education/video/7712349633447546164?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
-   "text": "RMIT Vietnam International Excellence Scholarships"
+   "sentAt": "2026-11-27T02:35:12.815Z",
+   "link": "https://tiktok.com/@talented.education/video/7712673808393538836",
+   "text": "Dari konsultasi sampai visa pelajar Australia gran"
   },
   "twitter|feed": {
    "sentAt": "2026-11-26T02:53:52.403Z",
@@ -54,11 +54,13 @@
    "text": "Hasil asli siswa VSA https://pricelist.talentededu"
   },
   "youtube|reel": {
-   "sentAt": "2026-11-26T02:30:16.887Z",
-   "link": "https://www.youtube.com/shorts/qrcScGZtc7A",
-   "text": "Mau kuliah Psikologi di luar negeri? Ini pilihan d"
+   "sentAt": "2026-11-27T02:33:42.885Z",
+   "link": "https://www.youtube.com/shorts/eWwv6BfgvkY",
+   "text": "Dari konsultasi sampai visa pelajar Australia gran"
   }
  },
  "problems": [],
- "stale": []
+ "stale": [
+  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-26T02:29:53.002Z)"
+ ]
 }

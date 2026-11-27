@@ -199,7 +199,12 @@ def anton(s):
     return ImageFont.truetype(os.path.join(ROOT, 'assets', 'fonts', 'Anton.ttf'), s)
 
 
+TEXT_SCALE = 1.3  # v12 (pemilik 27/11/2026): teks kecil dibesarkan supaya mudah dibaca di HP
+
+
 def mont(s, w='Bold'):
+    if s <= 30:
+        s = int(round(s * TEXT_SCALE))
     f = ImageFont.truetype(os.path.join(ROOT, 'assets', 'fonts', 'Montserrat.ttf'), s)
     try:
         f.set_variation_by_name(w)
@@ -431,7 +436,7 @@ def footer_and_banner(canvas, dark, accent):
     qr = Image.open(BR('footer-terang.png')).convert('RGBA').crop((780, 54, 1022, 296))
     qr = qr.resize((214, 214), Image.NEAREST)
     canvas.alpha_composite(qr, ((qx0 + qx1 - 214) // 2, qy0 + 18))
-    fq = mont(19, 'ExtraBold'); tq = 'SCAN · KONSULTASI GRATIS'
+    fq = mont(19, 'ExtraBold'); tq = 'SCAN QR INI'
     fq = fit_font(d, tq, lambda s_: mont(s_, 'ExtraBold'), qx1 - qx0 - 30, 19, 14)
     draw_t(d, ((qx0 + qx1 - tw(d, tq, fq)) // 2, qy1 - 50), tq, fq, GREEN)
     # kiri: ajakan
@@ -439,9 +444,8 @@ def footer_and_banner(canvas, dark, accent):
     fk = mont(24, 'ExtraBold')
     draw_t(d, (x, y), 'KONSULTASI GRATIS', fk, kick)
     y += th(d, 'KONSULTASI GRATIS', fk) + 22
-    fh = fit_font(d, 'CEK BIAYA KULIAH', anton, maxw, 58, 40)  # lebih kecil dari judul poster supaya tidak bersaing
-    for ln in ('CEK BIAYA KULIAH', 'DALAM 1 MENIT'):
-        _, h_ = draw_t(d, (x, y), ln, fh, ink); y += h_ + 8
+    fh = fit_font(d, 'CEK BIAYA KULIAH', anton, maxw, 64, 40)
+    _, h_ = draw_t(d, (x, y), 'CEK BIAYA KULIAH', fh, ink); y += h_ + 8
     y += 14
     fu = fit_font(d, 'pricelist.talentededucationgroup.com', lambda s_: mont(s_, 'Bold'), maxw, 27, 18)
     draw_t(d, (x, y), 'pricelist.talentededucationgroup.com', fu, sub)
@@ -648,7 +652,7 @@ def render(c, lay, pal, photo, logo_path):
         y += price_line(d, x, y, c['price'], c['unit'], ac, 42, 470)
         fi = mont(30, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, 450, 2 if i == 0 else 1):
+            for l2 in wrap(d, ln, fi, 450, 3 if i == 0 else 2):
                 if y + 32 > limit - 30: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx if i else ac); y += h_ + 10
         draw_t(d, (x, min(y + 6, limit - 20)), c['foot'], mont(18, 'Medium'), tx)
@@ -667,7 +671,7 @@ def render(c, lay, pal, photo, logo_path):
         y += price_line(d, x, y, c['price'], c['unit'], ac, 40, 640) + (8 if c['price'] else 0)
         fi = mont(28, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, 650, 1):
+            for l2 in wrap(d, ln, fi, 650, 3 if i == 0 else 2):
                 if y + 28 > limit - 26: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 10
         draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
@@ -689,7 +693,7 @@ def render(c, lay, pal, photo, logo_path):
         y += price_line(d, x2, y, c['price'], c['unit'], ac, 32, maxw) + (6 if c['price'] else 0)
         fi = mont(24 if not c['hero'] else 21, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, maxw, 2 if i == 0 else 1):
+            for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
                 if y + 26 > limit - 22: break
                 _, h_ = draw_t(d, (x2, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
         draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
@@ -715,7 +719,7 @@ def render(c, lay, pal, photo, logo_path):
             y += 74
         fi = mont(27, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, 600, 1):
+            for l2 in wrap(d, ln, fi, 550, 3 if i == 0 else 2):  # jangan menimpa foto kanan
                 if y + 28 > limit - 24: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
         draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
@@ -734,8 +738,8 @@ def render_news(c, pal):
     banner_y = BANNER_Y
     limit = banner_y - 24
     x, y = M, 240
-    fk = mont(26, 'ExtraBold')
     kick = c['head']
+    fk = fit_font(d, kick, lambda s_: mont(s_, 'ExtraBold'), W - 2 * M - 40, 26, 14)
     kw = tw(d, kick, fk)
     d.rectangle([x, y, x + kw + 36, y + 50], fill=ac)
     draw_t(d, (x + 18, y + 12), kick, fk, GREEN)
@@ -755,7 +759,7 @@ def render_news(c, pal):
     d.rectangle([x, y, x + 140, y + 8], fill=ac); y += 28
     fi = mont(28, 'Bold')
     for i, ln in enumerate(c['info'][:2]):
-        for l2 in wrap(d, ln, fi, maxw, 1):
+        for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
             if y + 34 > limit:
                 break
             _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 12
@@ -816,7 +820,7 @@ def render_extra(c, lay, pal, photo, logo_path):
         y += price_line(d, x, y, c['price'], c['unit'], ac, 36, 500)
         fi = mont(27, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, 520, 2 if i == 0 else 1):
+            for l2 in wrap(d, ln, fi, 520, 3 if i == 0 else 2):
                 if y + 28 > limit - 22: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 8
         draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
@@ -850,7 +854,7 @@ def render_extra(c, lay, pal, photo, logo_path):
         y += price_line(d, x0 + 34, y, c['price'], c['unit'], ink, 30, cut - x0 - 70)
         fi = mont(24, 'Bold')
         for ln in c['info'][:2]:
-            for l2 in wrap(d, ln, fi, cut - x0 - 70, 1):
+            for l2 in wrap(d, ln, fi, cut - x0 - 70, 2):
                 if y + 24 > y1 - 26: break
                 _, h_ = draw_t(d, (x0 + 34, y), l2, fi, ink); y += h_ + 6
         draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
@@ -875,7 +879,7 @@ def render_extra(c, lay, pal, photo, logo_path):
             _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 8
         fi = mont(26, 'Bold')
         for i, ln in enumerate(c['info'][:1]):
-            for l2 in wrap(d, ln, fi, 640, 1):
+            for l2 in wrap(d, ln, fi, 640, 3 if i == 0 else 2):
                 if y + 26 > limit - 20: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac); y += h_ + 6
         if c['hero']:
@@ -914,7 +918,7 @@ def render_extra(c, lay, pal, photo, logo_path):
         y += price_line(d, x, y, c['price'], c['unit'], ac, 34, maxw)
         fi = mont(26, 'Bold')
         for i, ln in enumerate(c['info'][:2]):
-            for l2 in wrap(d, ln, fi, maxw, 1):
+            for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
                 if y + 26 > limit - 20: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 6
         draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
@@ -997,11 +1001,11 @@ def render_new(c, lay, pal, photo, logo_path):
         d.polygon([(0, top - 8), (W, top - 78), (W, top - 64), (0, top + 6)], fill=ac)
         plate = bool(photos)
         x, y, maxw = M, top + 6, W - 2 * M
-        fh = fit_font(d, c['head'], anton, maxw, 58, 32)
-        for ln in wrap(d, c['head'], fh, maxw, 1):
+        fh = fit_font(d, c['head'], anton, maxw, 66, 46)
+        for ln in wrap(d, c['head'], fh, maxw, 2):
             _, h_ = draw_t(d, (x, y), ln, fh, tx); y += h_ + 8
         y += 4
-    maxw = W - M - x if lay == 'K' else 600
+    maxw = W - M - x if lay == 'K' else 400  # I/J: jangan menimpa foto di kanan
     if c['hero']:
         fhero = fit_font(d, c['hero'], anton, maxw if lay == 'K' else 430, 130 if lay == 'K' else 100, 56)
         hw, hh = tw(d, c['hero'], fhero), th(d, c['hero'], fhero)
@@ -1011,7 +1015,7 @@ def render_new(c, lay, pal, photo, logo_path):
     y += price_line(d, x, y, c['price'], c['unit'], ac, 34, 560)
     fi = mont(26, 'Bold')
     for i, ln in enumerate(c['info'][:2]):
-        for l2 in wrap(d, ln, fi, maxw, 1):
+        for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
             if y + 28 > limit - 22: break
             _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 6
     draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
@@ -1202,7 +1206,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         rec = next(i for i in log['items'] if i.get('key') == key)
         p = os.path.join(OUT, rec['file'])
         # pengaman 24/11/2026 (poster CIHE tertimpa caption CDU): kartu lama hanya dipakai ulang bila isinya sama
-        if os.path.exists(p) and rec.get('v') == 11 and rec.get('sig', sig) == sig:
+        if os.path.exists(p) and rec.get('v') == 12 and rec.get('sig', sig) == sig:
             if not os.path.exists(p[:-4] + ' Story.png'):
                 try:
                     make_reel(make_story(p))
@@ -1272,7 +1276,7 @@ def make_card(kind, title, key, sub=None, country=None, provider=None, spec=None
         print('story/reel skipped:', str(e)[:120])
     rec = {"no": len(log['items']) + 1 if not known else None, "date": today.isoformat(), "key": key, "file": name,
            "provider": c['prov'] or '-', "layout": lay, "palette": pal, "format": "Feed 4:5",
-           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 11, "credit": credit,
+           "layout_name": LAYOUT_NAMES.get(lay), "photo": (credit or 'tanpa foto'), "v": 12, "credit": credit,
            "font": sty['font'], "deco": sty['deco'], "cta": sty['cta'], "sig": sig,
            "rendered_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).isoformat(timespec='seconds')}
     if known:

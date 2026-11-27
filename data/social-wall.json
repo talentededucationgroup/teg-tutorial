@@ -1,5 +1,5 @@
 {
- "version": "2026-11-27T19:38:45+07:00",
+ "version": "2026-11-27T19:44:44+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -184,6 +184,19 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Loker%20Luar%20Negeri%20November%202026%20Reel.mp4"
+  },
+  {
+   "id": "scholarship:kr-kaist-scholarship-undergraduate-2027|open",
+   "kind": "scholarship",
+   "date": "2026-11-27",
+   "title": "Beasiswa dibuka: KAIST Scholarship - Undergraduate 2027 (deadline 2027-01-14)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=KAIST%20Scholarship%20-%20Undergraduate%20International%20Admission%202027%20%28Regular%20Admissions%29",
+   "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+   "caption": "KAIST Scholarship - Undergraduate 2027 sedang dibuka, pendaftaran ditutup 14 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
+   "country": "Korea Selatan",
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20KAIST%20Beasiswa%20November%202026%20Reel.mp4"
   },
   {
    "id": "post:2026-11-27-pte-promo-indowhv26",
@@ -457,19 +470,6 @@
    "country": "Australia",
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20ECU%20Beasiswa%20November%202026%20Reel.mp4"
-  },
-  {
-   "id": "site:2026-11-22:site-06",
-   "kind": "marketing",
-   "date": "2026-11-22",
-   "title": "Cari Akomodasi Pelajar",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=accommodation",
-   "source": null,
-   "caption": "Cari tempat tinggal dekat kampus? Tab Akomodasi di pricelist Talented punya pilihan resmi dengan kisaran harga per minggu. Info: https://linktr.ee/talentededucationgroup",
-   "country": "ANY",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Pricelist%20Cari%20Akomodasi%20Pelajar%20November%202026%20Reel.mp4"
   }
  ]
 }

@@ -561,6 +561,13 @@ LAYOUT_NAMES = {'T': 'Tipografi berita resmi', 'A': 'Foto kanan diagonal', 'B': 
                 'I': 'Foto lingkaran + blok warna', 'J': 'Kolase polaroid', 'K': 'Foto penuh + harga besar di bawah'}
 
 
+def foot_t(d, x, y, text, col, maxw):
+    """catatan kaki (*Syarat & ketentuan / Data: Adzuna): dibungkus sesuai lebar kolom teks supaya tidak menimpa foto"""
+    f = mont(18, 'Medium')
+    for ln in wrap(d, text, f, max(200, maxw), 2):
+        _, h_ = draw_t(d, (x, y), ln, f, col); y += h_ + 4
+
+
 def pick_style(key, has_hero, has_dl=False):
     """random rolling (seeded by key) across 8 layouts; never repeats the last 3 layouts; P1 max 2 in a row"""
     try:
@@ -568,7 +575,7 @@ def pick_style(key, has_hero, has_dl=False):
     except Exception:
         log = {"note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).", "items": []}
     for it in log['items']:
-        if it.get('key') == key and it.get('v') in (9, 10):
+        if it.get('key') == key and it.get('v') in (9, 10, 11, 12):  # v11/v12 juga dikenali: layout tetap, QA tidak kedaluwarsa
             return it['layout'], it['palette'], log, True
     rnd = random.Random(hashlib.sha256(key.encode()).hexdigest())
     last = [i for i in log['items'] if i.get('key') != key][-5:]
@@ -655,7 +662,7 @@ def render(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, 450, 3 if i == 0 else 2):
                 if y + 32 > limit - 30: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx if i else ac); y += h_ + 10
-        draw_t(d, (x, min(y + 6, limit - 20)), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, x, min(y + 6, limit - 20), c['foot'], tx, locals().get('maxw', W - M - x))
     elif lay == 'B':
         if c['hero']:
             fhero = fit_font(d, c['hero'], anton, 300, 170, 70)
@@ -674,7 +681,7 @@ def render(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, 650, 3 if i == 0 else 2):
                 if y + 28 > limit - 26: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 10
-        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, x, min(y + 4, limit - 18), c['foot'], tx, locals().get('maxw', W - M - x))
     elif lay == 'C':
         y0 = 500
         x = M
@@ -696,7 +703,7 @@ def render(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
                 if y + 26 > limit - 22: break
                 _, h_ = draw_t(d, (x2, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
-        draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, M, limit - 18, c['foot'], tx, locals().get('maxw', W - M - M))
     elif lay == 'D':
         x, y = M, 236
         maxw = 580
@@ -722,7 +729,7 @@ def render(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, 550, 3 if i == 0 else 2):  # jangan menimpa foto kanan
                 if y + 28 > limit - 24: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 8
-        draw_t(d, (x, min(y + 4, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, x, min(y + 4, limit - 18), c['foot'], tx, locals().get('maxw', W - M - x))
     return im.convert('RGB')
 
 
@@ -823,7 +830,7 @@ def render_extra(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, 520, 3 if i == 0 else 2):
                 if y + 28 > limit - 22: break
                 _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 8
-        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, x, min(y + 6, limit - 18), c['foot'], tx, 480)  # E: foto di kanan
     elif lay == 'F':  # boarding pass
         tk = (0xF6, 0xF1, 0xE6)
         x0, y0, x1, y1, cut = M, 236, W - M, 700, 700
@@ -857,7 +864,7 @@ def render_extra(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, cut - x0 - 70, 2):
                 if y + 24 > y1 - 26: break
                 _, h_ = draw_t(d, (x0 + 34, y), l2, fi, ink); y += h_ + 6
-        draw_t(d, (M, limit - 18), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, M, limit - 18, c['foot'], tx, locals().get('maxw', W - M - M))
     elif lay == 'G':  # calendar deadline
         m = re.match(r'(\d{4})-(\d{2})-(\d{2})', c['dl'] or '')
         day, mon, yr = (str(int(m.group(3))), BULAN[int(m.group(2)) - 1].upper(), m.group(1)) if m else ('', '', '')
@@ -921,7 +928,7 @@ def render_extra(c, lay, pal, photo, logo_path):
             for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
                 if y + 26 > limit - 20: break
                 _, h_ = draw_t(d, (x, y), l2, fi, ac if i == 0 else tx); y += h_ + 6
-        draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+        foot_t(d, x, min(y + 6, limit - 18), c['foot'], tx, locals().get('maxw', W - M - x))
         if c['hero']:
             sz = 110
             while True:
@@ -1018,7 +1025,7 @@ def render_new(c, lay, pal, photo, logo_path):
         for l2 in wrap(d, ln, fi, maxw, 3 if i == 0 else 2):
             if y + 28 > limit - 22: break
             _, h_ = draw_t(d, (x, y), l2, fi, tx); y += h_ + 6
-    draw_t(d, (x, min(y + 6, limit - 18)), c['foot'], mont(18, 'Medium'), tx)
+    foot_t(d, x, min(y + 6, limit - 18), c['foot'], tx, locals().get('maxw', W - M - x))
     logo_talented(im, dark, 140 if plate else 150, plate=plate)
     logo_provider(im, logo_path)
     footer_and_banner(im, dark, ac)

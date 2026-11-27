@@ -82,7 +82,7 @@ def posts(now, closing, back_days=3):
         th = themes(n or None)
         t = th[(k // EVERY) % len(th)]
         cap = (t['cap'] + f"\n\nKonsultasi gratis: {closing['lt']}\nScan QR di gambar atau klik link di bio.\n\n" + closing['text']
-               + "\n\n#KuliahDiAustralia #KuliahDiNewZealand #AgenPendidikanTerpercaya #TalentedEducation")
+               + "\n\n#KuliahDiAustralia #KuliahDiNewZealand #TalentedEducation")
         spec = {"headline": t['head'], "hero": t['hero'], "info": t['info'], "topic": "school",
                 "footnote": "Talented Education Group · konsultasi gratis"}
         if t['logo'] and os.path.exists(os.path.join(ROOT, t['logo'])):

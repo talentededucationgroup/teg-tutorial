@@ -1,0 +1,20 @@
+name: Kalender event (iCal) untuk GoDaddy
+# events/teg-events.ics dibuat ulang otomatis setiap data/events.json berubah (pemilik 27/11/2026: event selalu auto update ke talentededucationgroup.com).
+on:
+  push:
+    branches: [main]
+    paths: ['data/events.json', 'scripts/build_events_ics.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  ics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build_events_ics.py
+      - name: Commit bila berubah
+        run: |
+          git config user.name "teg-bot"; git config user.email "actions@users.noreply.github.com"
+          git add events/teg-events.ics
+          git diff --cached --quiet || (git commit -m "Kalender event iCal diperbarui" && git push)

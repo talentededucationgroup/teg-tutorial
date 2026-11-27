@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Talented Education Group//Events//ID
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Talented Education Group - Event & Expo
+X-WR-TIMEZONE:Asia/Jakarta
+BEGIN:VEVENT
+UID:expo-ignasius-2027@talentededucationgroup.com
+DTSTAMP:20261127T000000Z
+DTSTART:20270111T020000Z
+DTEND:20270112T083000Z
+SUMMARY:Expo Pendidikan Tinggi XXIV SMA Santo Ignasius 2027
+LOCATION:Aula SMA Santo Ignasius Singkawang\, Jl. S.M. Tsjafioeddin\, Sing
+ kawang\, Kalimantan Barat
+DESCRIPTION:Siswa SMA/SMK kelas X–XII Singkawang\, Bengkayang & Sambas\,
+  serta orang tua\nTanggal: 2027-01-11 s.d. 2027-01-12\, 09.00–15.30 WIB
+ \nKonsultasi gratis bersama Talented Education Group (studi Australia & N
+ ew Zealand).\nInfo & daftar: https://linktr.ee/talentededucationgroup
+URL:https://info.talentededucationgroup.com/events/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:univfair-kasihyobel-2027@talentededucationgroup.com
+DTSTAMP:20261127T000000Z
+DTSTART:20270128T003000Z
+DTEND:20270129T080000Z
+SUMMARY:University Fair SMA Kristen Kasih Yobel Singkawang – “Explore 
+ Your Future\, Choose Your Journey”
+LOCATION:Gedung Imanuel lt. 2\, Sekolah Kasih Yobel Singkawang
+DESCRIPTION:Siswa SMA kelas X–XII Sekolah Kasih Yobel dan sekolah lain d
+ i Singkawang & sekitarnya\nTanggal: 2027-01-28 s.d. 2027-01-29\, 07.30–
+ 15.00 WIB\nKonsultasi gratis bersama Talented Education Group (studi Aust
+ ralia & New Zealand).\nInfo & daftar: https://linktr.ee/talentededucation
+ group
+URL:https://info.talentededucationgroup.com/events/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

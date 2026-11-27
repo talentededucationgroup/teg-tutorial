@@ -39,4 +39,4 @@ function draw(){const c=C.value,k=K.value,s=Q.value.trim().toLowerCase();
  M.hidden=L.length<=shown}
 C.onchange=()=>{K.value='';cities();shown=LIM;draw()};K.onchange=Q.oninput=()=>{shown=LIM;draw()};M.onclick=()=>{shown+=LIM;draw()};
 fetch(OTH?'https://pricelist.talentededucationgroup.com/partners/others.json':'https://pricelist.talentededucationgroup.com/partners/partners.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{D=j.items||[];opt(C,[...new Set(D.map(x=>x.country))],T.all,q.get('country')||'');cities();draw()});
-</script></body></html>
+</script><script>/* tinggi otomatis untuk embed GoDaddy */(function(){if(window.parent===window)return;var last=0;function s(){var h=Math.ceil(document.documentElement.scrollHeight);if(Math.abs(h-last)>4){last=h;parent.postMessage({tegH:h},"*")}}addEventListener("load",s);setInterval(s,800);if(window.ResizeObserver)new ResizeObserver(s).observe(document.documentElement)})();</script></body></html>

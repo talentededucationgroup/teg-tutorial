@@ -34,4 +34,4 @@ Promise.all([fetch('/data/social-wall.json',{cache:'no-cache'}).then(r=>r.json()
  const fmt=d=>{try{return new Date(d+'T00:00:00').toLocaleDateString(lang==='id'?'id-ID':lang,{day:'numeric',month:'short',year:'numeric'})}catch{return d}};
  s.innerHTML=it.map(x=>{const link=safe(x.link)||'https://pricelist.talentededucationgroup.com/';return `<a class="card" href="${esc(link)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(safe(x.image))}" alt="${esc(x.title)}"><div class="bd"><span class="dt">${esc(fmt(x.date))}</span><span class="tt">${esc(x.title)}</span><span class="go">${esc(L[0])}</span></div></a>`}).join('');
 }).catch(()=>{s.innerHTML='<p class="empty">—</p>'});
-</script></body></html>
+</script><script>/* tinggi otomatis untuk embed GoDaddy */(function(){if(window.parent===window)return;var last=0;function s(){var h=Math.ceil(document.documentElement.scrollHeight);if(Math.abs(h-last)>4){last=h;parent.postMessage({tegH:h},"*")}}addEventListener("load",s);setInterval(s,800);if(window.ResizeObserver)new ResizeObserver(s).observe(document.documentElement)})();</script></body></html>

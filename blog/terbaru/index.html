@@ -26,4 +26,4 @@ fetch('/data/blog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
  s.innerHTML=ps.map(p=>{const slug=encodeURIComponent(p.slug),u=`https://info.talentededucationgroup.com/blog/${en?'en/':''}${slug}/`;
   return `<a class="card" href="${u}" target="_blank" rel="noopener"><span class="dt">${esc(fmt(p.updated||p.date))}</span><span class="tt">${esc((p.title||{})[L]||(p.title||{}).id)}</span><span class="ds">${esc((p.description||{})[L]||(p.description||{}).id)}</span><span class="go">${T[1]}</span></a>`}).join('');
 }).catch(()=>{s.textContent='—'});
-</script></body></html>
+</script><script>/* tinggi otomatis untuk embed GoDaddy */(function(){if(window.parent===window)return;var last=0;function s(){var h=Math.ceil(document.documentElement.scrollHeight);if(Math.abs(h-last)>4){last=h;parent.postMessage({tegH:h},"*")}}addEventListener("load",s);setInterval(s,800);if(window.ResizeObserver)new ResizeObserver(s).observe(document.documentElement)})();</script></body></html>

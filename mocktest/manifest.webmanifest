@@ -1,12 +1,12 @@
 {
-  "name": "Free Mock Test - Victory Scholars Academy",
-  "short_name": "VSA Mock Test",
-  "description": "Free mock test IELTS, PTE, JLPT, TOPIK, HSK - Victory Scholars Academy, sponsored by Talented Education Group",
+  "name": "Teaching Kit - Victory Scholars Academy",
+  "short_name": "Teaching Kit",
+  "description": "Teaching Kit for tutors: free mock tests IELTS, PTE, JLPT, TOPIK, HSK - Victory Scholars Academy, sponsored by Talented Education Group",
   "start_url": "/mocktest/?src=app",
   "scope": "/mocktest/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#001f41",
+  "theme_color": "#107c60",
   "lang": "id",
   "icons": [
     {

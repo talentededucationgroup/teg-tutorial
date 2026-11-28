@@ -1,5 +1,5 @@
 {
- "version": "2026-11-28T18:07:48+07:00",
+ "version": "2026-11-28T19:02:06+07:00",
  "note": "Postingan sosmed Talented terbaru untuk ditampilkan di website (dibuat otomatis, sama dengan yang tayang di sosmed).",
  "labels": {
   "title": {
@@ -184,6 +184,19 @@
    "country": null,
    "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%207%20Reel.mp4"
+  },
+  {
+   "id": "jobs:2026-11-28-183",
+   "kind": "jobs",
+   "date": "2026-11-28",
+   "title": "183 lowongan kerja luar negeri baru (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209.png",
+   "link": "https://pricelist.talentededucationgroup.com/?tab=jobs",
+   "source": null,
+   "caption": "183 lowongan kerja luar negeri baru (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore). Daftar lengkap, filter negara & link lamaran ada di https://linktr.ee/talentededucationgroup",
+   "country": null,
+   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209%20Story.png",
+   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20Luar%20Negeri%20Loker%20November%202026%209%20Reel.mp4"
   },
   {
    "id": "trust:2026-11-27",
@@ -457,19 +470,6 @@
    "country": "ANY",
    "story": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Story.png",
    "reel": "https://info.talentededucationgroup.com/social/cards/free-mock-test-unlimited%20Reel.mp4"
-  },
-  {
-   "id": "scholarship:sg-ntu-asean-undergraduate-scholarship|open",
-   "kind": "scholarship",
-   "date": "2026-11-24",
-   "title": "Beasiswa dibuka: NTU ASEAN Undergraduate Scholarship (deadline 2027-01-20)",
-   "image": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026.png",
-   "link": "https://pricelist.talentededucationgroup.com/?tab=scholarships&q=NTU%20ASEAN%20Undergraduate%20Scholarship",
-   "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship/asean-scholarship",
-   "caption": "NTU ASEAN Undergraduate Scholarship sedang dibuka, pendaftaran ditutup 20 Januari 2027. Info lengkap: https://linktr.ee/talentededucationgroup",
-   "country": "Singapura",
-   "story": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Story.png",
-   "reel": "https://info.talentededucationgroup.com/social/cards/Talented%20NTU%20Beasiswa%20November%202026%20Reel.mp4"
   }
  ]
 }

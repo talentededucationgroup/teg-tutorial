@@ -2,25 +2,6 @@
  "note": "LOG desain sosmed otomatis (Panduan: layout/palet bergilir).",
  "items": [
   {
-   "no": 172,
-   "date": "2026-11-27",
-   "key": "scholarship:au-torrens-family-scholarship|open",
-   "file": "Talented Torrens University Australia Beasiswa November 2026.png",
-   "provider": "Torrens University Australia",
-   "layout": "E",
-   "palette": "N12",
-   "format": "Feed 4:5",
-   "layout_name": "Majalah/editorial",
-   "photo": "tanpa foto",
-   "v": 13,
-   "credit": null,
-   "font": "mont",
-   "deco": "stripes",
-   "cta": "ticket",
-   "sig": "6441376da746",
-   "rendered_at": "2026-11-27T19:09:35+07:00"
-  },
-  {
    "no": 173,
    "date": "2026-11-27",
    "key": "scholarship:ie-lpdp-ucd-scholarship-2027|open",
@@ -5688,6 +5669,25 @@
    "cta": "app",
    "sig": "c895c35f25e4",
    "rendered_at": "2026-11-28T06:17:49+07:00"
+  },
+  {
+   "no": 301,
+   "date": "2026-11-28",
+   "key": "jobs:2026-11-28-183",
+   "file": "Talented Luar Negeri Loker November 2026 9.png",
+   "provider": "-",
+   "layout": "E",
+   "palette": "N10",
+   "format": "Feed 4:5",
+   "layout_name": "Majalah/editorial",
+   "photo": "tanpa foto",
+   "v": 13,
+   "credit": null,
+   "font": "anton",
+   "deco": "grid",
+   "cta": "pill",
+   "sig": "2fdd7c587e86",
+   "rendered_at": "2026-11-28T18:07:53+07:00"
   }
  ]
 }

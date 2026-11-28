@@ -1,5 +1,5 @@
 {
- "version": "2026-11-28T17:12:28+07:00",
+ "version": "2026-11-28T18:07:48+07:00",
  "note": "Feed 'Yang baru' untuk website. Dibuat otomatis oleh scripts/build_updates.py (GitHub Actions). Jangan diedit manual.",
  "kinds": {
   "news": {
@@ -123,6 +123,31 @@
   }
  },
  "items": [
+  {
+   "id": "jobs:2026-11-28-183",
+   "kind": "jobs",
+   "date": "2026-11-28",
+   "priority": 1,
+   "title": {
+    "id": "💼 183 lowongan kerja luar negeri baru (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "en": "💼 183 new overseas job listings (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "th": "💼 ประกาศงานต่างประเทศใหม่ 183 ตำแหน่ง (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "vi": "💼 183 tin tuyển dụng nước ngoài mới (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "zh": "💼 183 个新的海外职位 (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "ja": "💼 海外の新着求人 183 件 (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "ko": "💼 새 해외 채용 공고 183건 (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "km": "💼 ការងារនៅបរទេសថ្មី 183 (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "fr": "💼 183 nouvelles offres d'emploi à l'étranger (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "pt": "💼 183 novas vagas no exterior (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "es": "💼 183 nuevas ofertas de empleo en el extranjero (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "de": "💼 183 neue Stellenangebote im Ausland (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "it": "💼 183 nuove offerte di lavoro all'estero (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "nl": "💼 183 nieuwe vacatures in het buitenland (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)",
+    "ru": "💼 183 новых вакансий за рубежом (Germany, United Kingdom, Canada, Australia, New Zealand, Singapore)"
+   },
+   "tab": "jobs",
+   "url": "https://pricelist.talentededucationgroup.com/?tab=jobs"
+  },
   {
    "id": "jobs:2026-11-28-228",
    "kind": "jobs",
@@ -2865,38 +2890,6 @@
    "card": {
     "headline": "VISA KERJA LULUSAN NZ 6 BULAN",
     "hero": "NZD 5.000"
-   }
-  },
-  {
-   "id": "news:nz-pswv-eligibility-2026-11-16",
-   "kind": "news",
-   "date": "2026-11-16",
-   "priority": 2,
-   "title": {
-    "id": "📰 Selandia Baru: syarat Post-Study Work Visa diperluas, berlaku 23 Nov 2026 (ditunda dari 16 Nov)",
-    "en": "📰 New Zealand: Post-Study Work Visa eligibility extended, in effect 23 Nov 2026 (delayed from 16 Nov)",
-    "th": "📰 นิวซีแลนด์: ขยายสิทธิ์ Post-Study Work Visa มีผล 23 พ.ย. 2026 (เลื่อนจาก 16 พ.ย.)",
-    "vi": "📰 New Zealand: mở rộng điều kiện Post-Study Work Visa, áp dụng từ 23/11/2026 (hoãn từ 16/11)",
-    "zh": "📰 新西兰:Post-Study Work Visa 资格放宽,2026年11月23日生效(由11月16日推迟)",
-    "ja": "📰 ニュージーランド:Post-Study Work Visa の対象拡大、2026年11月23日施行(11月16日から延期)",
-    "ko": "📰 뉴질랜드: Post-Study Work Visa 자격 확대, 2026년 11월 23일 시행(11월 16일에서 연기)",
-    "km": "📰 នូវែលសេឡង់៖ ពង្រីកលក្ខខណ្ឌ Post-Study Work Visa មានប្រសិទ្ធភាព 23 វិច្ឆិកា 2026 (ពន្យារពី 16 វិច្ឆិកា)",
-    "fr": "📰 Nouvelle-Zélande : éligibilité au Post-Study Work Visa élargie, en vigueur le 23 nov. 2026 (reporté du 16 nov.)",
-    "pt": "📰 Nova Zelândia: elegibilidade ao Post-Study Work Visa ampliada, em vigor em 23 nov 2026 (adiado de 16 nov)",
-    "es": "📰 Nueva Zelanda: se amplía la elegibilidad del Post-Study Work Visa, vigente desde el 23 nov 2026 (aplazado del 16 nov)",
-    "de": "📰 Neuseeland: Post-Study Work Visa erweitert, gültig ab 23. Nov. 2026 (verschoben vom 16. Nov.)",
-    "it": "📰 Nuova Zelanda: requisiti del Post-Study Work Visa ampliati, in vigore dal 23 nov 2026 (rinviato dal 16 nov)",
-    "nl": "📰 Nieuw-Zeeland: Post-Study Work Visa ruimer, geldig vanaf 23 nov 2026 (uitgesteld van 16 nov)",
-    "ru": "📰 Новая Зеландия: расширены условия Post-Study Work Visa, действуют с 23 нояб. 2026 (перенос с 16 нояб.)"
-   },
-   "tab": "news",
-   "url": "https://pricelist.talentededucationgroup.com/?tab=news",
-   "country": "NZ",
-   "source": "https://www.immigration.govt.nz/about-us/news-centre/post-study-and-short-term-graduate-work-visas-now-on-enhanced-immigration-online/",
-   "category": "work",
-   "effective": "2026-11-23",
-   "facts": {
-    "summary": "INZ menunda mulai berlakunya dari 16 ke 23 Nov 2026 karena gangguan global Microsoft (Amendment Circular 2026-36). Lulusan Graduate Diploma Level 7 yang sudah punya gelar sarjana (dari NZ atau luar negeri) kini bisa mendapat PSWV hingga 1 tahun (sesuai lama studi). Postgraduate Diploma (L8) hingga 1 tahun, Master (L9) hingga 3 tahun; min. 30 minggu studi full-time di NZ."
    }
   }
  ]

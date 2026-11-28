@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-28T02:55:25+00:00",
- "ok": false,
+ "checked_at": "2026-11-28T06:23:17+00:00",
+ "ok": true,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-28T02:52:12.554Z",
-   "link": "https://www.facebook.com/104126648347814",
-   "text": ""
+   "sentAt": "2026-11-28T06:20:06.632Z",
+   "link": "https://www.facebook.com/1737988071670690/posts/1748251810644316",
+   "text": "📌 Rangkuman info visa & studi terbaru minggu ini, "
   },
   "facebook|reel": {
    "sentAt": "2026-11-28T02:27:32.166Z",
@@ -14,8 +14,8 @@
    "text": "Kuliah di Adelaide? Kamu nggak akan sendirian 🇦🇺 A"
   },
   "facebook|story": {
-   "sentAt": "2026-11-27T02:34:09.650Z",
-   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjE0NDUwNjg0MTQzNzc1NDM=/?view_single=1",
+   "sentAt": "2026-11-28T02:52:12.554Z",
+   "link": "https://facebook.com/stories/105406048262242/UzpfSVNDOjIyMzEzMjIwMzc3NjYzMjU=/?view_single=1",
    "text": ""
   },
   "googlebusiness|feed": {
@@ -24,9 +24,9 @@
    "text": "Info beasiswa: VUW Undergraduate International Sch"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-28T02:52:05.307Z",
-   "link": "https://www.instagram.com/p/DgROXT7ANwh/",
-   "text": "Info beasiswa: VUW Undergraduate International Sch"
+   "sentAt": "2026-11-28T06:20:17.494Z",
+   "link": "https://www.instagram.com/p/DgRmMauHGXV/",
+   "text": "📌 Rangkuman info visa & studi terbaru minggu ini, "
   },
   "instagram|reel": {
    "sentAt": "2026-11-28T02:30:39.980Z",
@@ -60,7 +60,5 @@
   }
  },
  "problems": [],
- "stale": [
-  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-27T02:34:09.650Z)"
- ]
+ "stale": []
 }

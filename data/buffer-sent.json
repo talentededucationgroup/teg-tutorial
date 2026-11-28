@@ -7,6 +7,8 @@
 "mix:2026-11-26:testi|feed|6aff3157ece6dfde5f2203ab",
 "mix:2026-11-26:testi|feed|6aff319cece6dfde5f2206b4",
 "mix:2026-11-26:testi|feed|6aff3328ece6dfde5f221865",
+"mix:2026-11-28:info|feed|6aff3157ece6dfde5f2203ab",
+"mix:2026-11-28:info|feed|6aff319cece6dfde5f2206b4",
 "mix:2026-11-28:info|feed|6aff3328ece6dfde5f221865",
 "post:2026-11-25-pathway-2-negara|feed|6aff3157ece6dfde5f2203ab",
 "post:2026-11-25-pathway-2-negara|feed|6aff319cece6dfde5f2206b4",
@@ -156,11 +158,8 @@
 "video:testimoni-asin:2026-11-26|story|6aff3157ece6dfde5f2203ab",
 "video:testimoni-asin:2026-11-26|story|6aff319cece6dfde5f2206b4"
 ],
-"last_run": "2026-11-28T02:51:38.413531+00:00",
-"last_errors": [
-"story/facebook/video:adelaide-c3-club:2026-11-26: Invalid post: Video must be no longer than 1m 30s for Facebook Stories.",
-"story/instagram/video:adelaide-c3-club:2026-11-26: Invalid post: Video must be no longer than 1m 1s for Instagram Stories."
-],
+"last_run": "2026-11-28T06:19:36.350770+00:00",
+"last_errors": [],
 "daily": {
 "2026-11-21": {
 "6aff3375ece6dfde5f221ba4": 10,
@@ -295,8 +294,8 @@
 "6aff3375ece6dfde5f221ba1|feed": 1,
 "6aff3328ece6dfde5f221865|feed": 2,
 "6aff32d7ece6dfde5f22151d|feed": 1,
-"6aff319cece6dfde5f2206b4|feed": 1,
-"6aff3157ece6dfde5f2203ab|feed": 1,
+"6aff319cece6dfde5f2206b4|feed": 2,
+"6aff3157ece6dfde5f2203ab|feed": 2,
 "6aff319cece6dfde5f2206b4|story": 1,
 "6aff3157ece6dfde5f2203ab|story": 1
 }

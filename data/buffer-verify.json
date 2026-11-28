@@ -1,12 +1,12 @@
 {
  "note": "Ditulis scripts/verify_buffer.py setelah setiap kiriman Buffer. ok=false = ada postingan IG/FB gagal/belum tayang atau feed/story kosong > 24 jam.",
- "checked_at": "2026-11-28T02:31:20+00:00",
- "ok": true,
+ "checked_at": "2026-11-28T02:55:25+00:00",
+ "ok": false,
  "last_sent": {
   "facebook|feed": {
-   "sentAt": "2026-11-27T12:14:26.287Z",
-   "link": "https://www.facebook.com/1737988071670690/posts/1747370930732404",
-   "text": "231 lowongan kerja luar negeri baru (Germany, Unit"
+   "sentAt": "2026-11-28T02:52:12.554Z",
+   "link": "https://www.facebook.com/104126648347814",
+   "text": ""
   },
   "facebook|reel": {
    "sentAt": "2026-11-28T02:27:32.166Z",
@@ -24,9 +24,9 @@
    "text": "Info beasiswa: VUW Undergraduate International Sch"
   },
   "instagram|feed": {
-   "sentAt": "2026-11-27T12:14:36.566Z",
-   "link": "https://www.instagram.com/p/DgPp8pqlEWb/",
-   "text": "231 lowongan kerja luar negeri baru (Germany, Unit"
+   "sentAt": "2026-11-28T02:52:05.307Z",
+   "link": "https://www.instagram.com/p/DgROXT7ANwh/",
+   "text": "Info beasiswa: VUW Undergraduate International Sch"
   },
   "instagram|reel": {
    "sentAt": "2026-11-28T02:30:39.980Z",
@@ -34,8 +34,8 @@
    "text": "Kuliah di Adelaide? Kamu nggak akan sendirian 🇦🇺 A"
   },
   "instagram|story": {
-   "sentAt": "2026-11-27T02:37:07.805Z",
-   "link": "https://www.instagram.com/stories/talented.e.g/4039340198096857588",
+   "sentAt": "2026-11-28T02:53:10.081Z",
+   "link": "https://www.instagram.com/stories/talented.e.g/4040073692095164807",
    "text": ""
   },
   "linkedin|feed": {
@@ -49,9 +49,9 @@
    "text": "Kuliah di Adelaide? Kamu nggak akan sendirian 🇦🇺 A"
   },
   "twitter|feed": {
-   "sentAt": "2026-11-28T02:28:08.862Z",
-   "link": "https://x.com/1511766381762531332/status/2126503378058359012",
-   "text": "Beasiswa dibuka: VUW Undergraduate International S"
+   "sentAt": "2026-11-28T02:52:25.094Z",
+   "link": "https://x.com/1511766381762531332/status/2126509486235845106",
+   "text": "Info penting minggu ini https://pricelist.talented"
   },
   "youtube|reel": {
    "sentAt": "2026-11-28T02:27:24.354Z",
@@ -60,5 +60,7 @@
   }
  },
  "problems": [],
- "stale": []
+ "stale": [
+  "facebook story: tidak ada yang tayang dalam 24 jam (terakhir 2026-11-27T02:34:09.650Z)"
+ ]
 }

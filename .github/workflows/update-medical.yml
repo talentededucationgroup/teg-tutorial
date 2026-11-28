@@ -1,0 +1,20 @@
+name: Cek bulanan Medical & Biometrik
+# data/medical.json (tab Medical & Biometrik di pricelist.talentededucationgroup.com) dicek otomatis tiap tanggal 1 (10.17 WIB)
+# dan bisa dijalankan manual. Perubahan daftar resmi dicatat di data/medical-changes.json.
+on:
+  schedule:
+    - cron: '17 3 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/update_medical.py
+      - name: Commit bila berubah
+        run: |
+          git config user.name "teg-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/medical.json data/medical-changes.json
+          git diff --cached --quiet || (git commit -m "Medical & Biometrik: cek bulanan otomatis" && git push)

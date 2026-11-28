@@ -1164,13 +1164,13 @@
    "verdict": "REVISI",
    "score": 3,
    "reasons": [
-    "SUMBER_TIDAK_TERBUKA: harga AUD 1.375/term (± AUD 5.500/tahun) tidak bisa dicocokkan. Halaman resmi kcbt.edu.au/programs/bsb50120-diploma-of-business dan kcbt.edu.au/diploma-of-business (dibuka 28/11/2026) tidak mencantumkan tuition ('Please refer to Course Details/Prices'); price list resmi kcbt.edu.au/wp-content/uploads/2025/10/OFFSHORE-OCTOBER-2025-NEW.pdf gagal dibuka (WebFetch client_error 2x, curl diblokir proxy); WebSearch domain kcbt.edu.au tanpa cuplikan harga.",
+    "SUMBER_TIDAK_TERBUKA: harga AUD 1.375/term (± AUD 5.500/tahun) tidak bisa dicocokkan. Halaman resmi kcbt.edu.au/programs/bsb50120-diploma-of-business dan kcbt.edu.au/diploma-of-business (dibuka 28/11/2026) tidak mencantumkan tuition ('Please refer to Course Details/Prices'); price list resmi kcbt.edu.au/wp-content/uploads/2025/10/OFFSHORE-OCTOBER-2025-NEW.pdf gagal dibuka (WebFetch client_error 2x, curl diblokir proxy); WebSearch domain kcbt.edu.au tanpa cuplikan harga. Cek ulang 28/11/2026 13.55 WIB: price list PDF tetap tidak terbuka (izin fetch tidak terjawab), WebSearch domain kcbt.edu.au hanya judul tanpa cuplikan harga.",
     "Register CRICOS (data/cricos/03425F.json, snapshot 2/11/2026): BSB50120 Diploma of Business CRICOS 105303A, 52 minggu, tuition AUD 10.000 - harga poster ±45% lebih rendah tanpa bukti promo/price list publik yang terbuka. Rahasia bisnis: harga agen tidak boleh dipromosikan.",
     "Yang cocok: 52 minggu 4 term (= 1 tahun), kampus Perth & Adelaide, IELTS 5.5 atau setara (halaman resmi KCBT). Poster: nama sekolah, kota & harga = caption; logo Talented jelas; teks tidak terpotong.",
     "Kecil: nama program di caption 'Dip Of Business' (seharusnya 'BSB50120 Diploma of Business'); foto kampus musim gugur (kredit Eugene, US) bukan Perth/KCBT."
    ],
    "fix": "Butuh pemilik: konfirmasi AUD 1.375/term ada di price list offshore resmi KCBT (bukan harga agen) atau kirim PDF price list; perbaiki nama program di pricelist menjadi 'Diploma of Business (BSB50120)'.",
-   "checked_at": "2026-11-28T06:45:00+07:00",
+   "checked_at": "2026-11-28T14:00:00+07:00",
    "model": "claude (QA terjadwal)",
    "source": "https://kcbt.edu.au/programs/bsb50120-diploma-of-business/"
   },
